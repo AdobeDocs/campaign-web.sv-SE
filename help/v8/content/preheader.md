@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: Lägga till ett sidhuvud i Journey Optimizer
+title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig hur du utformar e-postinnehåll
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till en förrubrik {#preheader}
 
@@ -21,8 +21,9 @@ ht-degree: 0%
 >title="Lägga till en förrubrik"
 >abstract="En preheader är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från din e-postklient. I många fall ger den en kort sammanfattning av e-postmeddelandet och är vanligtvis en mening lång."
 
+En preheader är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från din e-postklient.
 
-En preheader är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från din e-postklient. I många fall ger den en kort sammanfattning av e-postmeddelandet och är vanligtvis en mening lång.
+I många fall ger den en kort sammanfattning av e-postmeddelandet och är vanligtvis en mening lång.
 
 >[!NOTE]
 >
@@ -30,13 +31,15 @@ En preheader är en kort sammanfattningstext som följer efter ämnesraden när 
 
 Följ stegen nedan för att definiera e-postprerubriken:
 
-1. Lägg till en **[!UICONTROL Structure components]** för att börja designa din e-post.
+1. Lägg till minst en **[!UICONTROL Structure components]** för att börja designa din e-post.
 
-   ![](assets/preheader_1.png)
+1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
 
-1. Från **[!UICONTROL Body settings]** höger ruta, klicka **Redigera** bredvid **[!UICONTROL Preheader]** fält för att lägga till innehåll.
+   ![](assets/preheader_body.png)
 
-   ![](assets/preheader_2.png)
+1. Från **[!UICONTROL Body settings]** den högra rutan klickar du på redigeringsikonen bredvid **[!UICONTROL Preheader]** fält för att lägga till innehåll.
+
+   ![](assets/preheader_body_settings.png)
 
 1. Lägg till din förrubrik. Du kan anpassa den ytterligare genom att klicka på **[!UICONTROL Add personalization]** ikon.
 
@@ -45,8 +48,6 @@ Följ stegen nedan för att definiera e-postprerubriken:
 1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** eller **[!UICONTROL Personalization fields]**.
 
 1. Klicka **[!UICONTROL Validate]** för att kontrollera din personaliseringssyntax.
-
-   ![](assets/preheader_4.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 

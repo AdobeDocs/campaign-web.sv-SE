@@ -2,9 +2,10 @@
 audience: end-user
 title: Rapportering
 description: Webbdokumentation för Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,6 +55,3 @@ Ej levererbara produkter och studsar: I den här rapporten visas uppdelningen av
 **Klickningar**
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personalisering blockerar prenumerationslänkar, länkar till spegelsidor och erbjudandelänkar som tas med i beräkningen i det totala antalet klickningar, men visas inte i rapporten.
-
-
-

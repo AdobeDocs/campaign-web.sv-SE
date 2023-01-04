@@ -2,10 +2,11 @@
 audience: end-user
 title: Övervaka leveransloggar
 description: Webbdokumentation för Campaign v8
-source-git-commit: 4ed89d326acd3b7d5d8f14bec68cceda3c8169fb
+exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
+source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +23,11 @@ ht-degree: 18%
 
 När du har förberett och skickat ett e-postmeddelande kan du med hjälp av leveransloggarna verifiera att det inte finns något fel. Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
-Om du vill visa loggarna klickar du på **Loggar** -knappen.
+Om du vill visa loggarna öppnar du kontrollpanelen för leverans och klickar på **Loggar** -knappen.
 
-![](assets/logs.png)
+Flera flikar är tillgängliga:
 
-Flera flikar innehåller information (om den finns) om skicka-loggar, undantagsloggar, orsaker till uteslutning, spårningsloggar och spårade URL:er.
-
-**Los** tab
+## Loggar
 
 The **Loggar** -fliken innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar.    
 
@@ -38,31 +37,38 @@ Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandet
 * Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
 * Den röda ikonen anger ett kritiskt fel som förhindrar leverans.
 
-**Leveranser** tab
+![](assets/logs.png)
+
+## Leveranser
 
 The **Leveranser** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
-**Undantag** tab
+![](assets/logs2.png)
 
-Fliken Uteslutningsloggar innehåller alla meddelanden som har uteslutits från det skickade målet och anger orsaken till sändningsfelet.
+## Undantag
 
-**Uteslutningsorsaker** tab
+The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från det skickade målet och orsaken till sändningsfelet anges.
+
+![](assets/logs3.png)
+
+## Uteslutningsorsaker
 
 The **Uteslutningsorsaker** -fliken visar volymen (i antal meddelanden) för meddelanden som har uteslutits från målsändningen.
 
-**Spårade URL:er** tab
+![](assets/logs4.png)
 
-The **Spårade URL:er** flikar
+## Spårade URL:er
 
-**Spårning** tab
+The **Spårade URL:er** På fliken grupperas URL:erna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
 
-The **Spårning** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsdata för skickade meddelanden, d.v.s. alla URL:er som spåras av Adobe Campaign. Spårningsdata uppdateras varje timme.
+![](assets/logs5.png)
+
+## Spåra
+
+The **Spårning** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsdata för skickade meddelanden, d.v.s. alla URL:er som spåras av Adobe Campaign.
 
 >[!NOTE]
 >
 >Om spårning inte är aktiverat för en leverans visas inte den här fliken.
 
-Spårningsdata tolkas i leveransrapporterna. Se det här avsnittet.
-
-
-
+![](assets/logs6.png)

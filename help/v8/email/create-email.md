@@ -2,10 +2,11 @@
 audience: end-user
 title: Skapa din första e-postadress
 description: Webbdokumentation för Campaign v8
-source-git-commit: cdddef89cda4fa39cee38e9d0171a6ea395537c7
+exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,50 +16,56 @@ ht-degree: 1%
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-Det här användningsexemplet visar hur du skapar ditt första e-postmeddelande
-
-I det här exemplet kommer vi att schemalägga sändning av ett e-postmeddelande på ett visst datum till kunder med silver- och guldkunder. Det här e-postmeddelandet kommer att utformas med en fördefinierad HTML-mall från en ZIP-fil och kommer att innehålla personalisering med profilens attribut.
+I det här exemplet visas hur du skapar ditt första e-postmeddelande. Vi kommer att schemalägga sändning av ett mejl på en viss dag till kunder med silver- och guldkunder. Det här e-postmeddelandet kommer att utformas med en fördefinierad mall och kommer att innehålla personalisering med hjälp av profilens attribut.
 
 ![](assets/delivery-list.png)
 
 ## Skapa e-postmeddelandet {#create-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_template_selection"
+>title="Välj en e-postmall"
+>abstract="En mall definieras i Adobe Campaign v8-konsolen. Detta är en specifik leveranskonfiguration som innehåller fördefinierade parametrar som typologiregler, personalisering eller routningsparametrar."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_properties"
+>title="E-postegenskaper"
+>abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
+
 1. Skapa en ny leverans från **[!UICONTROL Deliveries]** -menyn.
+
 1. Välj **[!UICONTROL Email]** kanalen och mallen som ska användas klickar sedan på **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
-   >information om mallar. kontrollera info i V7 doc
+   >En mall är en specifik leveranskonfiguration som har sparats som en mall för att kunna återanvändas. Leveransmallar konfigureras av administrationsanvändare i Adobe Campaign Console. [Lär dig hur du arbetar med leveransmallar](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 
    ![](assets/channel-template.png)
 
-1. Ange en etikett för leveransen och konfigurera ytterligare alternativ beroende på dina behov:
+1. Ange en etikett för e-postmeddelandet och konfigurera ytterligare alternativ baserat på dina behov:
 
-   * Internt namn:
-   * Mapp:
-   * Leveranskod:
-   * Beskrivning:
-   * Natur:
-
-   kontrollera vilka inställningar som är definierade i mallen och ange dem(description)? mapp?, natur?)
-
-   ![](assets/email-properties.png)
+   * **[!UICONTROL Internal name]**: tilldela en unik identifierare till leveransen,
+   * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp,
+   * **[!UICONTROL Delivery code]**: Använd det här fältet för att ordna leveranser baserat på din egen namnkonvention,
+   * **[!UICONTROL Description]**: ange en beskrivning av leveransen,
+   * **[!UICONTROL Nature]**: Ange vilken typ av e-post det gäller för klassificeringsändamål.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
    >
-   >info om leveransinställningsknapp + länk till dokument
+   >Om du har utökat ditt schema med specifika anpassade fält kan du komma åt dem från **[!UICONTROL Custom options]** -avsnitt.
+
+   ![](assets/email-properties.png)
+
+   Dessutom avancerade inställningar (typologiregel, målmappningar osv.) är tillgängliga från knappen bredvid leveransnamnet. De är fördefinierade i mallen som väljs när e-postmeddelandet skapas. Du kan redigera dem om det behövs.
 
 ## Skapa e-postinnehåll {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Skapa ditt första e-postinnehåll med e-postdesignern."
->abstract="Skapa ditt första e-postinnehåll"
+>title="Lär dig hur du utformar e-postinnehåll med hjälp av e-postdesignern."
+>abstract="Lär dig designa innehåll"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_content"
->title="Skapa e-postinnehåll"
->abstract="TBC"
+I det här fallet ska vi utforma e-postmeddelandet med en fördefinierad mall. Detaljerad information om hur du konfigurerar e-postinnehåll finns i [det här avsnittet](../content/edit-content.md).
 
 1. Klicka på **[!UICONTROL Edit content]** för att börja skapa innehållet i ditt e-postmeddelande.
 
@@ -66,33 +73,23 @@ I det här exemplet kommer vi att schemalägga sändning av ett e-postmeddelande
 
    ![](assets/edit-content.png)
 
-   >[!NOTE]
-   >
-   >E-postinformationen Från och Från är fördefinierad i den valda e-postmallen.
-   >
-   >Som standard är e-postspårning aktiverat för öppningar och klick. Om du vill inaktivera de här alternativen avmarkerar du dem i avsnittet Valfria funktioner.
-
-1. Ange ämnet för ditt e-postmeddelande med Uttrycksredigeraren. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
-
-   I det här exemplet vill vi anpassa ämnesraden med profilens förnamn.
+1. Ange ämnet för ditt e-postmeddelande och anpassa det med Uttrycksredigeraren. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
-1. Lägg till en bifogad fil i e-postmeddelandet om det behövs. Lär dig hur du redigerar e-postinnehåll
-
 1. Klicka på **[!UICONTROL Edit email body]** för att skapa och utforma innehållet i e-postmeddelandet.
 
-   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet vill vi importera ett befintligt HTML-innehåll.
+   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet vill vi använda en befintlig designmall.
 
    ![](assets/import-html.png)
 
-1. Markera HTML eller ZIP-filen som ska importeras och klicka sedan på **[!UICONTROL Next]**.
+<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
-   Om mappen innehåller resurser väljer du den instans och mapp där de ska lagras och klickar sedan på **[!UICONTROL Import]**. (+ länk till dokumentet om resurser?)
+    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
-   ![](assets/import-folder.png)
+    ![](assets/import-folder.png)-->
 
-1. När innehållet har importerats visas det i e-postdesignern, där du kan redigera det om det behövs och lägga till personalisering.
+1. När du har valt mallen visas den i e-postdesignern, där du kan redigera den om det behövs och lägga till anpassning.
 
    I det här exemplet vill vi lägga till personalisering i e-posttiteln. Det gör du genom att markera komponentblocket och sedan klicka på **[!UICONTROL Add Personalization]**.
 
@@ -107,9 +104,11 @@ I det här exemplet kommer vi att schemalägga sändning av ett e-postmeddelande
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definiera målgruppen"
->abstract="TBC"
+>abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du välja att skapa en ny målgrupp med segmentbyggaren."
 
-1. Klicka på **[!UICONTROL Select audience]** väljer du sedan en befintlig målgrupp eller skapar en ny.
+I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. Mer information om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
+
+1. Klicka på **[!UICONTROL Select audience]** väljer du sedan en befintlig målgrupp.
 
    I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör lojalitetsnivåerna silver och guld.
 
@@ -117,20 +116,22 @@ I det här exemplet kommer vi att schemalägga sändning av ett e-postmeddelande
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign V8-instans eller från Adobe Experience Platform om integreringen Mål/Källor har implementerats i din instans. Lär dig hur du väljer e-postmålgrupp
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign V8-instans eller från Adobe Experience Platform om integreringen av mål/källor har implementerats på din instans.
 
-1. När målgruppen har valts kan du redigera reglerna om det behövs. Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med beteendet hos profiler som inte var målinriktade. Lär dig hur du arbetar med kontrollgrupper
+1. När målgruppen har valts kan du redigera dess regel om det behövs.
+
+   Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med beteendet hos profiler som inte var målinriktade. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
 
 ## Schemalägg sändningen {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Schemalägg sändningen"
->abstract="TBC"
+>abstract="Ange datum och exakt tid för sändningen. Genom att välja den tid som passar bäst för ert marknadsföringsbudskap kan ni maximera öppningsfrekvensen."
 
-Om du vill schemalägga sändning av e-post klickar du på Aktivera och anger sedan önskat datum och tid.
+Om du vill schemalägga sändning av e-post klickar du på **[!UICONTROL Enable]** Ange sedan önskat datum och klockslag för sändningen.
 
-= bekräfta innan du skickar alternativet : vad som händer på schemalagt datum: för att bekräfta att meddelandet har skickats?
+Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket innebär att du måste bekräfta att du skickat det angivna datumet och den angivna tidpunkten för att skicka e-postmeddelandet. Inaktivera det här alternativet om du vill tillåta att e-postmeddelandet skickas på det schemalagda datumet och den schemalagda tidpunkten utan att någon bekräftelse behövs.
 
 ![](assets/schedule.png)
 
@@ -138,29 +139,35 @@ Om du vill schemalägga sändning av e-post klickar du på Aktivera och anger se
 
 När e-postmeddelandet är klart kan du förhandsgranska och testa det innan du börjar skicka det.
 
-1. Klicka på **[!UICONTROL Review to send]**. En förhandsgranskning av e-postmeddelandet visas tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element med knappen Ändra.
+I det här fallet ska vi förhandsgranska e-postmeddelandet med befintliga profiler och skicka ett korrektur till en testprofil som inte ingår i målet.
 
-   ![](assets/review-email.png)
+Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
+
+1. Klicka på **[!UICONTROL Review to send]**. En förhandsgranskning av e-postmeddelandet visas tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element med knappen Ändra.
 
 1. Klicka på **[!UICONTROL Simulate content]** om du vill förhandsgranska e-postmeddelandet och skicka korrektur.
 
-1. I den vänstra delen markerar du de profiler som ska användas för att förhandsgranska e-postmeddelandet. Du kan använda riktade profiler eller dedikerade testprofiler.
+   ![](assets/review-email.png)
 
-1. En förhandsgranskning av e-postmeddelandet visas på den högra sidan baserat på den valda profilen. Om du har lagt till flera profiler kan du växla mellan dem för att förhandsgranska motsvarande e-postmeddelande.
+1. I den vänstra delen markerar du de profiler som ska användas för att förhandsgranska e-postmeddelandet.
+
+1. En förhandsgranskning av e-postmeddelandet visas i den högra rutan baserat på den valda profilen. Om du har lagt till flera profiler kan du växla mellan dem för att förhandsgranska motsvarande e-postmeddelande.
 
    ![](assets/preview.png)
 
-   >[!NOTE]
-   >
-   >Dessutom finns **[!UICONTROL Render email]** kan du förhandsgranska e-postmeddelandet med flera enheter eller e-postleverantörer. Lär dig hur du förhandsgranskar e-poståtergivning
+   <!-- !NOTE
+    >
+    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Klicka på knappen **[!UICONTROL Test]** markerar du sedan de profiler som ska ta emot korrekturet. I det här exemplet vill vi skicka korrektur till en specifik testprofil.
+1. Klicka på knappen **[!UICONTROL Test]** markerar du sedan de profiler som ska ta emot korrekturet.
+
+   I det här exemplet vill vi skicka korrektur till en specifik testprofil, som är en startadress som inte är en del av målet. [Lär dig hur du arbetar med dirigerade adresser](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
 
    ![](assets/proof-test-profile.png)
 
    >[!NOTE]
    >
-   >Du kan också testa dina meddelanden genom att personifiera några av målprofilerna och skicka korrekturmeddelandet till den e-postadress du väljer. Lär dig hur du använder Ersätt från målläge
+   >Du kan också testa dina meddelanden genom att personifiera några av målprofilerna och skicka korrekturmeddelandet till den e-postadress du väljer. [Lär dig hur du skickar korrektur](../preview-test/preview-test.md)
 
 1. Klicka **[!UICONTROL Send test email ]** bekräfta sändningen.
 
@@ -170,18 +177,15 @@ När e-postmeddelandet är klart kan du förhandsgranska och testa det innan du 
 
 När du har granskat och testat ditt e-postmeddelande kan du starta det och skicka det.
 
-1. Klicka **[!UICONTROL Prepare]** för att starta förberedelsen av meddelandet.
-
-   Du kan spåra förloppet i realtid, tillsammans med statistik. När beredningen är klar kan du få tillgång till detaljerade loggar för ytterligare analys. Lär dig övervaka leveranser
+1. Klicka **[!UICONTROL Prepare]** för att starta förberedelsen av meddelandet. [Lär dig hur du förbereder ett e-postmeddelande](../monitor/prepare-send.md)
 
    ![](assets/preparation.png)
 
 1. När e-postmeddelandet är klart att skickas klickar du på **[!UICONTROL Send]** bekräfta sändningen.
 
-   Du kan spåra sändningen i realtid, tillsammans med statistik. Dessutom finns **[!UICONTROL Logs]** kan du komma åt detaljerad information om e-postmeddelandet. Lär dig övervaka leveranser
-
+   Du kan spåra sändningen i realtid, tillsammans med statistik. Dessutom finns **[!UICONTROL Logs]** kan du komma åt detaljerad information om e-postmeddelandet. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
    ![](assets/logs.png)
 
-1. När e-postmeddelandet har skickats kan du få åtkomst till dedikerade rapporter för ytterligare analys.
+1. När e-postmeddelandet har skickats kan du komma åt dedikerad [rapporter](../reporting/reports.md) för vidare analys.
 
    ![](assets/reports.png)

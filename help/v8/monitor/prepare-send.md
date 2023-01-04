@@ -2,10 +2,11 @@
 audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Webbdokumentation för Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,44 +34,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Förbered sändningen
+## Förbered sändningen{#prepare}
 
-Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och klockslaget. Valideringsreglerna som används vid analysen beskrivs i detta [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att ta fram ert budskap. Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och klockslaget. Valideringsreglerna som används vid analysen beskrivs i detta [section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies).
 
-1. Klicka på **Förbered** i det övre högra hörnet.
+Följ stegen nedan:
 
-1. Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
+1. Klicka på **Förbered** i det övre högra hörnet och bekräfta.
+
+   ![](assets/prepare.png)
+
+   Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
    >[!NOTE]
    >
    >Du kan när som helst avbryta beredningen med **Stoppa förberedelse** -knappen. Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
 
-1. När färdigställandet är klart ska du kontrollera **Målinriktad**, **Att leverera** och **Att exkludera** KPI:er. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
+1. Kontrollera KPI:erna när färdigställandet är klart. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
 
-1. Klicka på **Loggar** och kontrollera att det inte finns något fel. Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandetypen:
+   ![](assets/prepare2.png)
 
-   * Den grå ikonen visar ett informativt meddelande.
-   * Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
-   * Den röda ikonen anger ett kritiskt fel som förhindrar leverans.
+   Här visas olika KPI:er:
 
-1. Starta om preparatet när du har gjort ändringarna.
+   * **Målinriktad**: antalet mottagare
+   * **Att leverera**: antalet meddelanden som ska skickas
+   * **Att exkludera**: antalet meddelanden som utelämnats av en typologiregel
 
-När färdigställandet är klart är ditt meddelande klart att skickas. Mer information finns i Bekräfta sändning.
+1. Klicka på **Loggar** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. Mer information finns i [det här avsnittet](#send).
 
+   ![](assets/prepare-logs.png)
 
-## Skicka meddelandet
+Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
 
-När färdigställandet är klart följer du stegen nedan för att skicka meddelandet.
+![](assets/prepare-error.png)
 
-1. Klicka på **Skicka-knapp** i det övre högra hörnet och bekräfta.
+Om du behöver göra några ändringar i leveransen efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
 
-1. Sändningsförloppet visas tillsammans med tre nyckeltal: Levererat, öppnar, klickar.
+När färdigställandet är klart utan fel är ditt meddelande klart att skickas. Mer information finns i [det här avsnittet](#send).
 
-1. Slutför sändningen genom att klicka på OK.
+## Skicka meddelandet{#send}
 
-LOGGAR
+När färdigställandet är klart kan du nu skicka ditt meddelande. Det här steget krävs bara för meddelanden som skickas omedelbart. Om meddelandet är schemalagt skickas det vid angivet datum.
 
->[!NOTE]
->
->Om meddelandet är schemalagt skickas det när sändningstiden nås. Mer information om roller finns i detta avsnittet.
+Följ de här stegen:
 
+1. Klicka på **Skicka** i det övre högra hörnet och bekräfta.
+
+   ![](assets/send.png)
+
+1. Sändningsförloppet visas. Kontrollera de KPI:er som visas. Du kan också kontrollera loggarna. Mer information finns i [det här avsnittet](#send).
+
+   ![](assets/send2.png)
+
+   Här visas olika KPI:er:
+
+   * **Levererat**: antalet meddelanden som har skickats. Procentandelen baseras på det totala antalet målmottagare.
+   * **Öppnar**: antalet öppnade meddelanden. Procentandelen baseras på antalet levererade meddelanden.
+   * **Klickningar**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Procentandelen baseras på antalet levererade meddelanden.
+
+   >[!NOTE]
+   >
+   >The **Öppnar** och **Klickningar** kommer att uppdateras i realtid.
+
+   Du kan när som helst pausa sändningen och sedan återuppta den. Om du avbryter leveransen medan den skickas kan du inte återuppta den.

@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: Förhandsgranska och testa din e-post
+title: Om förhandsgranskning och korrektur
 description: Webbdokumentation för Campaign v8
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska och testa din e-post {#preview-test-send}
+# Om förhandsgranskning och korrektur {#about-preview-proofs}
 
 >[!NOTE]
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-## Förhandsgranska ditt innehåll
+När e-postinnehållet har definierats kan du kontrollera hur det kommer att visas innan du skickar det. På så sätt kan du testa e-postmeddelandet för att upptäcka eventuella fel i innehålls- eller personaliseringsinställningarna.
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+För att göra detta kan Adobe Campaign
 
-![](assets/preview.png)
+* [Förhandsgranska e-postinnehållet och personaliseringen](#preview) använda profildata,
 
-1. välj profiler som ska testas (målprofiler/testprofiler/målgrupp)
-1. förhandsgranska innehåll
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Skicka korrektur](#send-proofs) till specifika mottagare för att testa och validera e-postmeddelandet.
 
-## Skicka korrektur
+Dessa åtgärder utförs från **[!UICONTROL Simulate content]** som är tillgänglig när du skapar innehållet i e-postmeddelandet från e-postdesignern:
 
-detaljerade steg för att skicka ett korrektur
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)

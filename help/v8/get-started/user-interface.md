@@ -2,10 +2,11 @@
 audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +19,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Gränssnitt"
->abstract="TBC"
-
-## Gränssnittsöversikt
-
-![](assets/home.png)
+>abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
 
 Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse.
 
-De viktigaste begreppen när du bläddrar i användargränssnittet är vanliga i Adobe Experience Platform. Se [Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) för mer information.
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -38,34 +37,24 @@ De viktigaste begreppen när du bläddrar i användargränssnittet är vanliga i
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Enhetligt gränssnitt
-
-tillgång till community-utbildning, hjälpcenter, organisationsväljare, lösningsväljare
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Sammanhangsberoende hjälp?
-
-Context help and Gainsight: introduktion/guide
-
-## Startsida
-
-## Allmänt
-
-mallflik för listskärmar
-
 ## Navigeringsmeny till vänster
 
-Bläddra bland länkarna till vänster för att komma åt webbfunktionerna i Campaign v8.
+Bläddra bland länkarna till vänster för att komma åt webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post. Det går inte att klicka på ett listobjekt för utgåva/visning i Alpha.
+
+![](assets/home.png)
 
 ### Startsida
 
-* Banderoll
-* KPI:er för e-postkanal (för flera leveranser): öppen ränta, leveransränta osv.
-* Senaste objekt
-* Utbildningskort
+Den här skärmen innehåller viktiga länkar och resurser för snabb åtkomst till de viktigaste webbfunktionerna i Campaign v8. The **Senaste** listan innehåller genvägar till de leveranser som nyligen har skapats. Den här listan visar datum och status för när de skapades och ändrades.
+
+<!--
+* Banner
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+Få åtkomst till hjälpsidor för webbnyckel v8 från startsidans nedre del.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -78,78 +67,115 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Utforskaren"
->abstract="TBC"
+>abstract="The **Utforskaren** -menyn visar samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8. Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post."
 
-Utforskarens meny i webbgränssnittet för att navigera i konsolinnehållet: sekundär vy för konsolens navtree förutom den vänstra menylistan med filter. Utforskaren ger den verkliga mapphierarkin från konsolen. Se till att du hittar dina leveranser i undermappar. Alla listor är skrivskyddade. Ingen Skapa/redigera. Du kan konfigurera listor (kolumner). Alla schemafält, länkade tabeller är tillgängliga.
+The **Utforskaren** -menyn visar samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8. Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post.
 
-Endast leveranser kan öppnas.
+Vilka objekt som visas i Utforskaren beror på dina användarbehörigheter.
 
-Om du behöver visa listor över mottagare (ålder, kön), transaktioner eller live-transaktionsmeddelanden. Om du vill visa varje/redigera -> konsol.
+Precis som i alla listskärmar kan du konfigurera kolumner så att de anpassas för visningen så att du kan se all information du behöver. Se det här [section](#list-screens).
 
-Navigeringsträdsvyn är beroende av behörigheter (samma som konsolen).
+Mer information om Campaign Explorer finns i [dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Campaign Management
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampanjer"
->abstract="TBC"
+>abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveranser"
->abstract="TBC"
+>abstract="Bläddra igenom listan över leveranser. Du kan visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna kontrollpanelen. Andra objekt är skrivskyddade. Leveransmallar finns också."
 
-* **Kampanjer** - Din lista över kampanjer. Ingen utgåva/skapande.
-* **Leveranser** - Din lista över leveranser. Skapande/utgåva.
+* **Kampanjer** - Det här är listan över era kampanjer. Som standard kan du visa deras start-/slutdatum/sista ändringsdatum samt deras status. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade.
+
+* **Leveranser** - Bläddra i listan över leveranser. Som standard kan du visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna instrumentpanelen och få en översikt över leveransinformationen. Leveranser i andra kanaler är skrivskyddade. Leveransmallar finns också i skrivskyddat läge. Du kan använda klientkonsolen för att redigera dem. Se det här [dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html).
 
 ### Kundhantering
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Mottagare"
->abstract="TBC"
+>abstract="Få åtkomst till din mottagardatabas. Du kan visa användbar information som e-postadress, förnamn och efternamn. Den här listan är skrivskyddad."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Målgrupper"
->abstract="TBC"
+>abstract="Det här är er lista över målgrupper. Du kan visa typ, ursprung, datum och etikett för senaste ändringsdatum och skapandedatum. Du kan filtrera listan efter ursprung. Den här listan är skrivskyddad."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Prenumerationslistor"
->abstract="TBC"
+>abstract="Bläddra bland prenumerationslistorna. Du kan visa deras typ, läge och etikett. Den här listan är skrivskyddad."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Arbetsflöden för målinriktning"
->abstract="TBC"
+>abstract="Få tillgång till din lista över Kampanjarbetsflöden. Du kan visa deras tillstånd, senaste/nästa bearbetningsdatum och miljö. Du kan filtrera listan efter tillstånd, senaste bearbetningsdatum och arbetsflödestyp. Det finns också arbetsflödesmallar. De här listorna är skrivskyddade."
 
-* **Mottagare** - Din lista över mottagare. Ingen utgåva/skapande.
-* **Målgrupper** - En lista över målgrupper. Ingen utgåva/skapande.
-* **Prenumerationslistor** - Din lista över prenumerationer. Ingen utgåva/skapande.
-* **Målarbetsflöden** - En lista över målarbetsflöden. Ingen utgåva/skapande.
+* **Mottagare** - Få åtkomst till din mottagardatabas. Som standard kan du visa deras e-postadress, förnamn och efternamn. Den här listan är skrivskyddad.
+* **Målgrupper** - Det här är er lista över målgrupper. Som standard kan du visa deras typ, ursprung, datum och etikett för senaste ändring. Du kan filtrera listan efter ursprung. Den här listan är skrivskyddad.
+* **Prenumerationslistor** - Bläddra igenom prenumerationslistorna. Som standard kan du visa deras typ, läge och etikett. Den här listan är skrivskyddad.
+* **Målarbetsflöden** - Få tillgång till din lista över Kampanjarbetsflöden. Som standard kan du visa deras tillstånd, senaste/nästa bearbetningsdatum och miljö. Du kan filtrera listan efter tillstånd, senaste bearbetningsdatum och arbetsflödestyp. Det finns också arbetsflödesmallar. De här listorna är skrivskyddade.
 
 ### Beslutshantering
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Erbjudanden"
->abstract="TBC"
+>abstract="Bläddra igenom listan med interaktionserbjudanden. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet. De här listorna är skrivskyddade."
 
-* **Erbjudanden** - Din lista över erbjudanden. Ingen utgåva/skapande.
+* **Erbjudanden** - Bläddra igenom listan med interaktionserbjudanden. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet. De här listorna är skrivskyddade.
 
-## Filterlistor{#filter-lists}
+## Övre fält
 
-Listskärmar
+I gränssnittets övre fält kan du:
 
-## Hitta hjälp och support {#find-help}
+* dela med dig av dina synpunkter som en Alfa-kund
+* växla mellan IMS-organisationer
+* växla mellan olika Adobe Experience Cloud-program
+* få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
 
-Få åtkomst till Adobe Journey Optimizer hjälpsidor från startsidans nedre del.
+![](assets/unified-shell.png){width="70%" align="left"}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-Använd **Hjälp** ikon för att få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
+## Kontextuell hjälp och introduktionshandbok
 
-## Webbläsare som stöds {#browsers}
+Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
-Adobe [!DNL Journey Optimizer] -gränssnittet är utformat för att fungera optimalt i den senaste versionen av Google Chrome. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
+![](assets/context-help.png){width="70%" align="left"}
 
+Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8-webben. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Konfigurera listskärmar {#list-screens}
+
+Flera länkar från den vänstra navigeringsmenyn, till exempel **Leveranser** eller **Kampanjer**, visas listor med objekt. De här listskärmarna är skrivskyddade, förutom leveranslistan för e-post.
+
+Om du vill hitta objekt snabbare kan du använda sökfältet eller filtrera listan baserat på sammanhangsberoende kriterier.
+
+![](assets/filter.png){width="70%" align="left"}
+
+Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Det gör du genom att klicka på ikonen i det övre högra hörnet av listan. Du kan lägga till eller ta bort kolumner och ändra visningsordningen.
+
+![](assets/columns.png){width="70%" align="left"}
+
+Du kan sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen. För numeriska kolumner och datumkolumner anger uppilen att listan är sorterad i stigande ordning och nedpilen anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->

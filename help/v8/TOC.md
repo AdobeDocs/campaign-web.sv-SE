@@ -5,10 +5,10 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,32 +23,34 @@ ht-degree: 4%
 + [Upptäck gränssnittet](get-started/user-interface.md)
 + [Skapa din första e-postadress](email/create-email.md)
 + Skapa e-postinnehåll {#content}
-   + [Konfigurera e-postinnehållet](content/edit-content.md)
-   + Börja skapa ditt innehåll {#start-design}
-      + [Börja från början ](content/create-email-content.md)
-      + [Importera e-postinnehåll](content/existing-content.md)
-      + [Koda eget innehåll](content/code-content.md)
-      + [Arbeta med mallar](content/email-templates.md)
-      + [Arbeta med erbjudanden](content/offers.md)
-   + Strukturera och utforma e-postmeddelanden {#design-content}
+   + [Redigera e-postinnehållet](content/edit-content.md)
+   + Designa din e-post {#design-content}
+      + Börja designa ditt innehåll {#start-design}
+         + [Börja från början ](content/create-email-content.md)
+         + [Importera e-postinnehåll](content/existing-content.md)
+         + [Koda eget innehåll](content/code-content.md)
       + [Använda innehållskomponenter](content/content-components.md)
-      + [Lägg till bilder](content/add-assets.md)
       + [Generera textversionen](content/text-version-email.md)
       + [Lägga till en förrubrik](content/preheader.md)
       + [Lägga till länkar och spåra meddelanden](content/message-tracking.md)
    + Formatera innehållet {#style}
-      + [Bakgrundsinställningar](content/backgrounds.md)
-      + [Justera lodrät justering och utfyllnad](content/adjusting-vertical-alignment-and-padding.md)
+      + [Kom igång med e-postformat](content/get-started-email-style.md)
+      + [Redigera bakgrundsinställningar](content/backgrounds.md)
+      + [Justera lodrät justering och utfyllnad](content/alignment-and-padding.md)
       + [Definiera ett format för länkar](content/styling-links.md)
-      + [Lägg till textbundna formatattribut](content/adding-inline-styling-attributes.md)
+      + [Lägg till textbundna formatattribut](content/inline-styling.md)
    + Anpassa innehållet {#personalize}
       + [Kom igång med personalisering](personalization/personalize.md)
-      + [Anpassningssammanhang](personalization/personalization-contexts.md)
+   + [Skicka erbjudanden](content/offers.md)
 + Välj e-postmålgrupp {#audience}
-   + [Lägg till en målgrupp](audience/add-audience.md)
+   + [Om målgrupper](audience/about-audiences.md)
+   + [Välj en målgrupp](audience/add-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
    + [Arbeta med segmentbyggaren](audience/segment-builder.md)
-+ [Förhandsgranska och testa din e-post](preview-test/preview-test.md)
++ Förhandsgranska och testa din e-post {#preview-test}
+   + [Om förhandsgranskning och korrektur](preview-test/preview-test.md)
+   + [Förhandsgranska e-postinnehåll](preview-test/preview-content.md)
+   + [Skicka korrektur](preview-test/proofs.md)
 + Skicka och övervaka e-postmeddelandet {#monitor}
    + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
    + [Övervaka leveransloggar](monitor/delivery-logs.md)
