@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Webbdokumentation för Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Skapa e-postinnehåll"
->abstract="TBC"
+>abstract="I det här avsnittet kan du skapa innehåll för ditt e-postmeddelande och använda e-postdesignern för att ge det ett snyggt utseende."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"

@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---

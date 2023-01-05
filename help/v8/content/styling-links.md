@@ -5,8 +5,8 @@ description: Lär dig hur du definierar ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 

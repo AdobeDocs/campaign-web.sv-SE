@@ -5,7 +5,7 @@ description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---

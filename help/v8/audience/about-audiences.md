@@ -5,8 +5,8 @@ description: Om målgrupper
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 

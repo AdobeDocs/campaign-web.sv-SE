@@ -7,8 +7,8 @@ title: Webbdokument för Campaign v8
 hide: true
 source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 5%
 
 ---
 

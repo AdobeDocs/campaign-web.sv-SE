@@ -5,7 +5,7 @@ description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---

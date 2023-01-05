@@ -5,8 +5,8 @@ description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 1%
 
 ---
 

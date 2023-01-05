@@ -5,8 +5,8 @@ description: Webbdokumentation för Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1140'
+ht-degree: 1%
 
 ---
 
