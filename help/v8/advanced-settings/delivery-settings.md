@@ -3,10 +3,10 @@ audience: end-user
 title: Avancerade inställningar
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 18%
+source-wordcount: '1077'
+ht-degree: 15%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Alla tekniska leveransparametrar från mallen.
-Ändra bara parametrar, ingen generering här.
-Enligt behörigheter ska de inte ändra detta med försiktighet. Kontrollera och ändra endast typologiregeln -> rest som är definierad i mallen
+
+>[!NOTE]
+>
+> Ändra bara parametrar, ingen generering här. Enligt behörigheter.
+
+>[!NOTE]
+>
+> Praktikanter bör inte ändra detta, försiktighet. Kontrollera och ändra endast typologiregel.
 
 ## Typologi {#typology}
 
@@ -56,11 +62,11 @@ I det här avsnittet kan du definiera ett tröskelvärde med tryckparametrar. De
 
 Tröskelvärden kan vara antingen konstanta eller variabla. Detta innebär att tröskelvärdena för en viss period kan variera från en profil till en annan eller till och med för samma profil.
 
-I **Breddtyp** finns det tre alternativ:
+I **Breddtyp** finns det tre alternativ: (formeln saknas beroende på alternativ..)
 
-The **Leveransvikt** fält
+The **Leveransvikt** fält: Varje leverans har en vikt som motsvarar dess prioritetsnivå. Som standard är vikten för en leverans inställd på 5. Med tryckregler kan du definiera vikten för de leveranser som de ska tillämpas på. Vikter kan antingen anges eller beräknas med en formel som passar mottagarna. Du kan till exempel definiera vikten för en leverans baserat på mottagarens intressen.
 
-The **Leveransläge** fält..
+The **Leveransläge** fält.. ?
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -75,13 +81,15 @@ The **mottagarens vikt** fält är en formel som används för att bestämma vil
 
 ## Målgrupp {#audience}
 
-I det här avsnittet kan du välja en målmappning som definieras i Adobe Campaign v8-konsolen. Målmappning måste skapas om du använder en annan mottagartabell än den som finns i Adobe Campaign.
+I det här avsnittet kan du välja en **målmappning** definieras i Adobe Campaign v8-konsolen. Målmappning måste skapas om du använder en annan mottagartabell än den som finns i Adobe Campaign.
 
 ## Leverans {#delivery}
 
-Testa SMTP-leverans: Använd det här alternativet om du vill testa att skicka via SMTP. Leveransen behandlas upp till anslutningen till SMTP-servern men skickas inte: för varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+**Routning** markering: välj externt konto....
 
-Hemlig kopia av e-post: Använd det här alternativet om du vill lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet.
+**Testa SMTP-leverans**: Använd det här alternativet om du vill testa att skicka via SMTP. Leveransen behandlas upp till anslutningen till SMTP-servern men skickas inte: för varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+
+**BCC för e-post**: Använd det här alternativet om du vill lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet.
 
 ### Återförsök {#retries}
 
@@ -94,16 +102,17 @@ Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ig
 
 ## Godkännande {#approval}
 
-**Manuell**
-
-**Halvautomatisk**
-
-**Automatisk**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Godkännandeläge"
 >abstract="Varje steg i en leverans kan godkännas för att säkerställa full övervakning och kontroll av de olika processerna."
+
+**Manuell**: I slutet av analysfasen måste användaren bekräfta leveransen för att kunna börja skicka.
+
+**Halvautomatisk**: Skicka börjar automatiskt om analysfasen inte genererar några varningsmeddelanden.
+
+**Automatisk**: Sändningen börjar automatiskt i slutet av analysfasen, oavsett resultatet.
+
 
 ## Giltighet {#validity}
 
@@ -118,15 +127,16 @@ Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ig
 >abstract="Fältet Giltighetsgräns används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid."
 
 
-I fältet Leveransvaraktighet kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.
+The **Leveransens varaktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.
 
-Du kan också välja att ange datum. Om du vill göra det väljer du Ange giltighetsdatum explicit. I det här fallet kan du även ange datum för leveransdatum och giltighetsgräns. Den aktuella tiden används som standard, men du kan ändra den direkt i indatafältet.
+Du kan också välja att ange datum. Välj **Ange giltighetsdatum explicit**. I det här fallet kan du även ange datum för leveransdatum och giltighetsgräns. Den aktuella tiden används som standard, men du kan ändra den direkt i indatafältet.
 
-Resursernas giltighetstid: Fältet Giltighetsgräns används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme).
+**Resurser - Giltighetsgräns** används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme).
 
 ### Hantering av spegelsidor {#mirror}
 
-**Hantering av spegelsidor**
+**Hantering av spegelsidor** innehåller fyra alternativ:
+
 
 ### Spåra {#tracking}
 
@@ -140,14 +150,14 @@ Resursernas giltighetstid: Fältet Giltighetsgräns används för överförda re
 **Ersättnings-URL för utgångna URL:er**: TBC
 
 
-## Testinställningar{#test-setttings}
+## Testinställningar {#test-setttings}
 
-**Håll ihop**
+**Håll ihop** Med kan du auktorisera flera leveranser till mottagare som uppfyller flera målinriktningskriterier.
 
 **Behåll blocklist adresser**
 
-**Behåll adresser i karantän**
+**Behåll adresser i karantän** gör att du kan hålla profiler med en adress som inte svarar från målet.
 
-**Behåll leveranskoden för korrekturet**
+**Behåll leveranskoden för korrekturet** Med kan du ge beviset samma leveranskod som den som är definierad för den leverans som det hör till.
 
-**Etikettprefix**
+Som standard anges korrekturens ämne med&quot;Korrekturnr&quot;, där # är numret på beviset. Du kan ändra det här prefixet i **Etikettprefix** fält.
