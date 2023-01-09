@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första e-postadress
 description: Webbdokumentation för Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1133'
 ht-degree: 1%
 
 ---
@@ -116,9 +116,11 @@ I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. M
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign V8-instans eller från Adobe Experience Platform om integreringen av mål/källor har implementerats på din instans.
+   >De målgrupper som är tillgängliga i listan kommer antingen från Campaign V8-instansen eller från Adobe Experience Platform om integreringen av mål/källor har konfigurerats på din instans.
+   >
+   >Med integreringen Destination/Sources kan ni skicka segment från Experience Platform till Adobe Campaign och skicka loggar för leverans och spårning av kampanjer till Adobe Experience Platform. [Lär dig hur du arbetar med Campaign och Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. När målgruppen har valts kan du redigera dess regel om det behövs.
+1. När målgruppen har valts kan du förfina den med ytterligare regler.
 
    Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med beteendet hos profiler som inte var målinriktade. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. M
 
 Om du vill schemalägga sändning av e-post klickar du på **[!UICONTROL Enable]** Ange sedan önskat datum och klockslag för sändningen.
 
-Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket innebär att du måste bekräfta att du skickat det angivna datumet och den angivna tidpunkten för att skicka e-postmeddelandet. Inaktivera det här alternativet om du vill tillåta att e-postmeddelandet skickas på det schemalagda datumet och den schemalagda tidpunkten utan att någon bekräftelse behövs.
+Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket innebär att du måste bekräfta sändningen för att tillåta att e-postmeddelandet skickas vid angivet datum och klockslag. Inaktivera det här alternativet om du vill tillåta att e-postmeddelandet skickas på det schemalagda datumet och den schemalagda tidpunkten utan att någon bekräftelse behövs.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket i
 
 När e-postmeddelandet är klart kan du förhandsgranska och testa det innan du börjar skicka det.
 
-I det här fallet ska vi förhandsgranska e-postmeddelandet med befintliga profiler och skicka ett korrektur till en testprofil som inte ingår i målet.
+I det här fallet ska vi förhandsgranska e-postmeddelandet och skicka ett korrektur med befintliga profiler.
 
 Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i
 
 1. Klicka på knappen **[!UICONTROL Test]** markerar du sedan de profiler som ska ta emot korrekturet.
 
-   I det här exemplet vill vi skicka korrektur till en specifik testprofil, som är en startadress som inte är en del av målet. [Lär dig hur du arbetar med dirigerade adresser](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
