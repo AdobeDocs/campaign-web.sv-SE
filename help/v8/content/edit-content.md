@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Webbdokumentation för Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-Om du vill börja skapa innehållet i ett e-postmeddelande klickar du på **[!UICONTROL Edit content]** -knappen. På den här skärmen kan du definiera innehållet i e-postmeddelandet och komma åt e-postdesignern för att utforma det.
+Om du vill börja skapa innehållet i ett e-postmeddelande klickar du på **[!UICONTROL Edit content]** från skärmen där e-postmeddelanden skapas.
+
+![](assets/edit-content.png)
+
+På den här skärmen kan du definiera innehållet i e-postmeddelandet och komma åt e-postdesignern för att utforma det.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
 
 1. Kontrollera **[!UICONTROL From name]** och **[!UICONTROL From email]** information. Dessa fält är skrivskyddade, de konfigureras i e-postmallen som väljs när e-postmeddelandet skapas.
 
-1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Det gör du genom att öppna uttrycksredigeraren och definiera innehållet och lägga till personalisering med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
+1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Det gör du genom att skriva in ämnet direkt i det dedikerade fältet eller genom att öppna Uttrycksredigeraren och definiera hur personalisering ska användas med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
 
 1. Om du vill skicka erbjudanden via e-post väljer du dem med **[!UICONTROL Offers]** -knappen. Sedan kan du infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig hur du skickar erbjudanden](offers.md)
 
