@@ -3,7 +3,7 @@ audience: end-user
 title: Designa e-postmeddelanden i e-postdesignern
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="Definiera mallkolumner"
 >abstract="Med e-postdesignern kan du enkelt definiera mallens layout genom att definiera kolumnstrukturen."
 
-Med e-postdesignern kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du designa formen på e-postmeddelandet på några sekunder.
+Med e-postdesignern kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du utforma e-postmeddelandets brödtext på bara några sekunder.
 
 Följ stegen nedan när du vill börja skapa e-postinnehåll:
 
@@ -91,7 +91,7 @@ Följ stegen nedan när du vill börja skapa e-postinnehåll:
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll från profildata. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
 
-1. Klicka på **[!UICONTROL Links]** från den vänstra panelen för att visa alla URL:er för ditt innehåll som ska spåras. Du kan ändra deras **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]** och lägga till **[!UICONTROL Tags]** vid behov. [Läs mer om länkar och meddelandespårning](message-tracking.md)
+1. Klicka på **[!UICONTROL Links]** från den vänstra panelen för att visa alla URL:er för ditt innehåll som ska spåras. Du kan ändra deras **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]** och lägga till **[!UICONTROL Categories]** vid behov. [Läs mer om länkar och meddelandespårning](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
