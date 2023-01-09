@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka korrektur
 description: Webbdokumentation för Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 2%
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-Genom att skicka korrektur kan du validera din e-post och kontrollera olika element som länkar, avanmäl länkar och spegla sidor, bilder och upptäcka eventuella fel.
+Genom att skicka testmeddelanden kan du validera din e-post och kontrollera olika element som länkar, avanmälningslänkar och spegelsidor, bilder och upptäcka eventuella fel.
 
 Korrektur kan skickas till två typer av mottagare:
 
-* **Testprofiler/målgrupper**: skicka korrektur till dirigerade adresser, som är ytterligare mottagare i databasen som inte ingår i e-postmålet,
-
+* **Testprofiler**: skicka korrektur till startadresser, som är ytterligare och fiktiva mottagare i databasen,
 * **Ersättningsprofiler**: skicka korrektur till en viss e-postadress med hjälp av en befintlig profil. På så sätt kan du placera dig själv i profilernas position och få en exakt representation av meddelandet som profilen får.
 
 ## Välj korrekturmottagare {#recipients}
@@ -38,7 +37,7 @@ Korrektur kan skickas till två typer av mottagare:
 
 1. Lägg till de testprofiler som ska ta emot testmeddelanden.
 
-   Du kan också bygga en målgrupp för att välja testprofiler baserat på dina egna kriterier med hjälp av **[!UICONTROL Add test audience]** -knappen.
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ Om du vill skicka korrekturen till de valda mottagarna klickar du på **[!UICONT
 
 ![](assets/send-proof.png)
 
-När korrekturet har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test email log]** -knappen. Med dessa loggar kan du få åtkomst till skickade korrektur och specifik statistik som relaterar till det skickade korrekturet.
+Skicka så många korrektur som behövs tills du är klar med leveransens innehåll. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
+
+## Åtkomst till skickade korrektur {#access-proofs}
+
+När korrekturet har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test email log]** -knappen. Med dessa loggar kan du komma åt alla korrektur som skickats för den valda leveransen och visa specifik statistik som relaterar till deras sändning.
 
 ![](assets/proof-log.png)
 
-Skicka så många korrektur som behövs tills du är klar med leveransens innehåll. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
+Du kan även komma åt korrektur från leveranslistan, precis som vid alla leveranser.
+
+![](assets/delivery-list.png)

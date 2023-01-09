@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska e-postinnehåll
 description: Webbdokumentation för Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Med Adobe Campaign kan du använda profiler för att förhandsgranska innehålle
 
 Meddelanden kan förhandsgranskas med:
 
-* **Testprofiler**: förhandsgranska e-postmeddelandet med dirigerade adresser, som är ytterligare mottagare i databasen som inte är en del av e-postmålet,
+* **Testprofiler**: förhandsgranska e-postmeddelandet med hjälp av dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen,
 * **Profiler**: förhandsgranska e-postmeddelandet med en befintlig profil.
 
 Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här:
@@ -36,5 +36,7 @@ Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här
 1. När du har valt profiler visas en förhandsgranskning av e-postmeddelandet i den högra rutan. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
 
    Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande e-post.
+
+   Du kan också förhandsgranska återgivningen av ditt innehåll på olika enheter (dator, mobil, surfplatta...).
 
    ![](assets/preview.png)
