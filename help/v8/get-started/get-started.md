@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång
 description: Webbdokumentation för Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="Kom igång"
 >abstract="Upptäck nyckelfunktioner, användargränssnitt och globala riktlinjer."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Skapa och hantera uppgifter"
->abstract="Med Adobe Campaign kan du skapa uppgifter och hantera hela deras livscykel direkt i programmet."
 
 >[!NOTE]
 >
