@@ -3,9 +3,9 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -102,3 +102,8 @@ The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade U
    * **[!UICONTROL Mirror page]**: Den här URL:en är en URL för en spegelsida.
    * **[!UICONTROL Never]**: Aktiverar aldrig spårning av den här URL:en. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Lägg till en **[!UICONTROL Category]** till länken för att gruppera spårade länkar och klicka på **[!UICONTROL Save]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. När leveransen är klar öppnar du leveransrapporten. Under **[!UICONTROL Tracking]** -menyn, **[!UICONTROL URLs and click streams]** rapporten visar vilka URL:er från din leverans som är mest besökta. [Läs mer](../reporting/reports.md)
