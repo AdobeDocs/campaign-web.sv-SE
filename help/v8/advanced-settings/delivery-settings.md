@@ -3,10 +3,10 @@ audience: end-user
 title: Avancerade inställningar
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 15%
+source-wordcount: '1241'
+ht-degree: 17%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 15%
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-De här inställningarna är tekniska leveransparametrar som definieras i e-postmallen. Om du vill ändra någon av dem för en viss leverans, ska du vara försiktig.
+Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen. Om du vill ändra någon av dem för en viss leverans, ska du vara försiktig.
 
 ## Inställningar för e-postleverans {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Alla tekniska leveransparametrar från mallen.
-
 >[!NOTE]
 >
-> Ändra bara parametrar, ingen generering här. Enligt behörigheter.
-
->[!NOTE]
->
-> Praktikanter bör inte ändra detta, försiktighet. Kontrollera och ändra endast typologiregel.
+> Ändra bara inställningarna, inga nya alternativ tillåts. Beror på åtkomsträttigheter.
 
 ## Typologi {#typology}
 
@@ -47,7 +31,7 @@ Alla tekniska leveransparametrar från mallen.
 >title="Typologi"
 >abstract="Med typologi kan du styra, filtrera och övervaka leveransen."
 
-Typologier är uppsättningar av typologiregler som körs under fasen för analys av meddelande. Med dem kan du se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
+Typologier är uppsättningar av **typologiregler** som körs under fasen för analys av meddelande. Med dem kan du se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
 
 När du associerar en typologi med ett meddelande eller en meddelandemall kommer de typologiregler som ingår i typologin att köras för att kontrollera meddelandets giltighet.
 
@@ -58,15 +42,23 @@ När du associerar en typologi med ett meddelande eller en meddelandemall kommer
 >title="Leveransvikt"
 >abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för tryckhantering. Meddelanden med högst vikt har prioritet."
 
-I det här avsnittet kan du definiera ett tröskelvärde med tryckparametrar. Det här är det maximala antalet meddelanden som kan skickas till en profil under en viss period. När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
+I det här avsnittet kan du definiera en **tröskelvärde**. Det här är det maximala antalet meddelanden som kan skickas till en profil under en viss period. När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
 
 Tröskelvärden kan vara antingen konstanta eller variabla. Detta innebär att tröskelvärdena för en viss period kan variera från en profil till en annan eller till och med för samma profil.
 
 I **Breddtyp** finns det tre alternativ: (formeln saknas beroende på alternativ..)
 
+* **Konstant**
+* **Beroende på mottagaren**
+* **Definieras i varje regel**
+
 The **Leveransvikt** fält: Varje leverans har en vikt som motsvarar dess prioritetsnivå. Som standard är vikten för en leverans inställd på 5. Med tryckregler kan du definiera vikten för de leveranser som de ska tillämpas på. Vikter kan antingen anges eller beräknas med en formel som passar mottagarna. Du kan till exempel definiera vikten för en leverans baserat på mottagarens intressen.
 
 The **Leveransläge** fält.. ?
+
+* **Målberäkning och meddelandepersonalisering**
+* **Uppskattning och godkännande av det preliminära målet**
+* **Målutvärdering**
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -85,7 +77,7 @@ I det här avsnittet kan du välja en **målmappning** definieras i Adobe Campai
 
 ## Leverans {#delivery}
 
-**Routning** markering: välj externt konto....
+**Routning** markering: Det externa kontot för integrerad e-postroutning tillhandahålls som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
 
 **Testa SMTP-leverans**: Använd det här alternativet om du vill testa att skicka via SMTP. Leveransen behandlas upp till anslutningen till SMTP-servern men skickas inte: för varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
@@ -137,6 +129,11 @@ Du kan också välja att ange datum. Välj **Ange giltighetsdatum explicit**. I 
 
 **Hantering av spegelsidor** innehåller fyra alternativ:
 
+* **Generera spegelsidan om en spegellänk visas i e-postinnehållet**: spegelsidan genereras om länken infogas i postinnehållet.
+* **Framtvinga generering av spegelsidan**: Spegelsidan skapas även om ingen länk till spegelsidan infogas i meddelandena.
+* **Generera inte spegelsidan**: Ingen spegelsida genereras, även om länken finns i meddelandena.
+* **Skapar en spegelsida som bara är tillgänglig med meddelandets identifierare**: Med det här alternativet kan du komma åt spegelsidans innehåll, med anpassningsinformation, i leveransloggfönstret.
+
 
 ### Spåra {#tracking}
 
@@ -147,14 +144,14 @@ Du kan också välja att ange datum. Välj **Ange giltighetsdatum explicit**. I 
 
 **Giltighetsgräns för spårning**: Det här alternativet anger hur länge spårningen ska aktiveras på URL-adresserna.
 
-**Ersättnings-URL för utgångna URL:er**: TBC
+**Ersättnings-URL för utgångna URL:er**: Använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
 
 
 ## Testinställningar {#test-setttings}
 
 **Håll ihop** Med kan du auktorisera flera leveranser till mottagare som uppfyller flera målinriktningskriterier.
 
-**Behåll blocklist adresser**
+**Behåll blocklist adresser** Med kan du hålla profiler som inte längre används av leveransen, t.ex. efter en avanmälan (avanmälan), kvar från målet.
 
 **Behåll adresser i karantän** gör att du kan hålla profiler med en adress som inte svarar från målet.
 

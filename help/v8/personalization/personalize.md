@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 5a5dabdb33893bd94271e0df4e63ddae11f1354e
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,4 @@ I båda fallen får du tillgång till personaliseringsredigeraren.
 
 Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer.
 
-## Skapa personliga URL:er{#personalize-urls}
 
-Personaliserade URL:er tar mottagarna till specifika sidor på en webbplats eller till en personlig mikrowebbplats, beroende på profilattributen. I Adobe Journey Optimizer kan du lägga till personalisering i URL-adresser i ditt meddelandeinnehåll. URL-personalisering kan tillämpas på text och bilder och använda profildata eller kontextuella data.
