@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >title="Gränssnitt"
 >abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
 
-Det nya webbgränssnittet Campaign v8 erbjuder en modern, integrerad och intuitiv användarupplevelse som förenklar arbetsflöden, utformar och levererar marknadsföringskampanjer och är i linje med Adobe Experience Platform inbyggda programupplevelser.
+Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Navigeringsmeny till vänster
 
-Bläddra bland länkarna till vänster för att komma åt webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post. Det går inte att klicka på ett listobjekt för utgåva/visning i Alpha.
+Bläddra bland länkarna till vänster för att komma åt webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post. Det går inte att klicka på ett listobjekt för utgåva/visning i Alpha. Alla listor kan redigeras i Beta- och GA-versionerna. Vilka alternativ som visas på den vänstra navigeringsmenyn beror på dina användarbehörigheter.
 
 ![](assets/home.png)
 
 ### Startsida
 
-Den här skärmen innehåller viktiga länkar och resurser för snabb åtkomst till de viktigaste webbfunktionerna i Campaign v8. The **Senaste** listan innehåller genvägar till de leveranser som nyligen har skapats. Den här listan visar datum och status för när de skapades och ändrades.
+Den här skärmen innehåller viktiga länkar och resurser för snabb åtkomst till de viktigaste webbfunktionerna i Campaign v8. The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar datum och status för när de skapades och ändrades.
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 I gränssnittets övre fält kan du:
 
-* dela med dig av dina synpunkter som en Alfa-kund
-* växla mellan IMS-organisationer
+* dela med dig av dina synpunkter som en alfakonstant
+* växla mellan organisationer och instanser
 * växla mellan olika Adobe Experience Cloud-program
 * få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
 

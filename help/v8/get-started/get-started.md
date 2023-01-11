@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång
 description: Webbdokumentation för Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 7%
 
 ---
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
-Förutom alla befintliga funktioner som finns i konsolen har vi skapat ett nytt modernt webbaserat användargränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer, och som är i linje med Adobe Experience Platform inbyggda programupplevelser.
+Förutom alla befintliga funktioner som finns i konsolen har vi skapat ett nytt modernt webbaserat användargränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer, och som är i linje med Adobe Experience Platform.
 
 ## Alfavärden
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **Skapa, starta och mät din e-postkampanj**
 
-* Designa skräddarsytt e-postinnehåll med e-postredigeraren
-* Definiera målgrupper med segmentbyggaren
+* Designa skräddarsytt e-postinnehåll med e-postdesignern
+* Definiera målgrupper med regelbyggaren
 * Förhandsgranska, testa och skicka e-postmeddelanden
 * Övervaka sändning och mätning av resultat med inbyggda rapporter
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>Observera att flerkanalskampanjer och funktioner för arbetsflödeshantering kommer att vara tillgängliga i betaprogrammet.
 
 ## Klientkonsolen
 
@@ -71,7 +75,7 @@ Data delas mellan konsolen och webbgränssnittet. Om du t.ex. har skapat en leve
 ![](assets/connect.png)
 
 1. Anslut till [Adobe Experience Cloud](http://experience.adobe.com).
-1. Logga in med dina Adobe IMS-inloggningsuppgifter.
+1. Logga in med dina inloggningsuppgifter för Adobe.
 1. I **Snabb åtkomst** avsnitt, klicka **Campaign**.
 
 <!--
