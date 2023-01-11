@@ -3,14 +3,14 @@ audience: end-user
 title: Arbeta med segmentbyggaren
 description: Webbdokumentation för Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
-# Arbeta med segmentbyggaren {#segment-builder}
+# Definiera en målgrupp med regelbyggaren {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs hur du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Den skapade målgruppen kan bara användas i det här e-postmeddelandet.
 
-Med segmentbyggaren kan du definiera den målgrupp som meddelandet riktar sig till genom att filtrera data i Adobe Campaign-databasen. Om du vill välja en befintlig målgrupp kan du läsa detta [section](add-audience.md).
+Med regelbyggaren kan du definiera den målgrupp som meddelandet riktar sig till genom att filtrera data i databasen. Om du vill välja en befintlig målgrupp kan du läsa detta [section](add-audience.md).
 
-Mer information om segmentbyggaren finns i [Dokumentation för segmenteringstjänst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Mer information om regelverktyget finns i [Dokumentation för segmenteringstjänst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Så här skapar du en ny publik när du utformar ett e-postmeddelande:
 
@@ -28,7 +28,7 @@ Så här skapar du en ny publik när du utformar ett e-postmeddelande:
 
    ![](assets/segment-builder0.png)
 
-1. Välj **Skapa en egen**. Segmentbyggaren visas.
+1. Välj **Skapa en egen**. Regelverktyget visas.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ Paletten, som finns till vänster, innehåller alla element som du kan filtrera 
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Målgrupper**: På den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i konsolen Campaign Classic.
+* **Målgrupper**: På den här fliken kan du filtrera med en av de befintliga målgrupperna som definieras i Campaign Classic-konsolen eller från Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv).
 
 Du kan använda sökfältet för att snabbt hitta element.
 
@@ -87,7 +91,7 @@ I det här exemplet kommer vi att bygga upp en målgrupp för alla kunder som bo
 
    ![](assets/segment-builder10.png)
 
-1. Klicka **Visa resultat** för att visa listan och antalet mottagare som matchar frågan.
+1. Klicka **Visa resultat** för att visa listan och antalet mottagare som matchar frågan. Du kan också lägga till kolumner för att visa och kontrollera data. I vårt exempel lägger du till **Ort** och ska se Atlanta och Seattle.
 
    ![](assets/segment-builder11.png)
 

@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 5%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 5%
    + [Om målgrupper](audience/about-audiences.md)
    + [Välj en målgrupp](audience/add-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
-   + [Arbeta med segmentbyggaren](audience/segment-builder.md)
+   + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
 + Förhandsgranska och testa din e-post {#preview-test}
    + [Om förhandsgranskning och korrektur](preview-test/preview-test.md)
    + [Förhandsgranska e-postinnehåll](preview-test/preview-content.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Webbdokumentation för Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 44%
+source-wordcount: '458'
+ht-degree: 43%
 
 ---
 
@@ -50,7 +50,7 @@ Under **Extrahera från mål** väljer du ett **Uteslutningstyp**:
 
    ![](assets/control-group.png)
 
-* **Rankad efter attribut**: Med det här alternativet kan du definiera en begränsning baserat på en eller flera sorteringsordningar.
+* **Rankad efter attribut**: Med det här alternativet kan du exkludera en uppsättning profiler baserat på specifika attribut i en viss sorteringsordning.
 
    ![](assets/control-group2.png)
 
