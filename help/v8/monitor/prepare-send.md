@@ -3,7 +3,7 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Webbdokumentation för Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Följ stegen nedan:
    * **Att leverera**: antalet meddelanden som ska skickas
    * **Att exkludera**: antalet meddelanden som utelämnats av en typologiregel
 
-1. Klicka på **Loggar** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. Mer information finns i [det här avsnittet](#send).
+1. Klicka på **Loggar** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. Mer information finns i [det här avsnittet](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ Följ de här stegen:
 
    ![](assets/send.png)
 
-1. Sändningsförloppet visas. Kontrollera de KPI:er som visas. Du kan också kontrollera loggarna. Mer information finns i [det här avsnittet](#send).
+1. Sändningsförloppet visas. Kontrollera de KPI:er som visas. Du kan också kontrollera loggarna. Mer information finns i [det här avsnittet](delivery-logs.md).
 
    ![](assets/send2.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Webbdokumentation för Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 43%
+source-wordcount: '540'
+ht-degree: 37%
 
 ---
 
@@ -56,6 +56,28 @@ Under **Extrahera från mål** väljer du ett **Uteslutningstyp**:
 
 Definiera sedan **Storleksgräns**: du måste ange hur du ska begränsa antalet profiler som du extraherar från huvudmålet.
 
+**Exempel**
+
+Du kan visa loggarna för att kontrollera och identifiera de exkluderade profilerna. Låt oss ta ett exempel på ett slumpmässigt undantag på fem profiler.
+
+![](assets/control-group4.png)
+
+Efter leveransförberedelserna kan du se undantagen på följande skärmar:
+
+* The **Att exkludera** KPI i kontrollpanelen för leverans, före sändningen.
+
+   ![](assets/control-group5.png)
+
+* The **Uteslutningsloggar** visa varje profil och tillhörande uteslutning **Orsak**.
+
+   ![](assets/control-group6.png)
+
+* The **Uteslutningsorsaker** visa antalet uteslutna profiler för varje typologiregel.
+
+   ![](assets/control-group7.png)
+
+Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md).
+
 ## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 
 * Om du vill använda en befintlig målgrupp klickar du på **Välj målgrupp**. Se detta [section](add-audience.md).
 
-* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med segmentbyggaren. Se detta [section](segment-builder.md).
+* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Se detta [section](segment-builder.md).
 
 Profilerna som ingår i målgruppen eller som matchar resultatet av frågan kommer att uteslutas från målet.

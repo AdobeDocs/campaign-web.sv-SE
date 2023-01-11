@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa din första e-postadress
 description: Webbdokumentation för Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 1%
@@ -104,7 +104,7 @@ I det här fallet ska vi utforma e-postmeddelandet med en fördefinierad mall. D
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definiera målgruppen"
->abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du välja att skapa en ny målgrupp med segmentbyggaren."
+>abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du välja att skapa en ny målgrupp med regelbyggaren."
 
 I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. Mer information om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
 
