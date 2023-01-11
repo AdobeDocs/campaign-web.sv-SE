@@ -3,7 +3,7 @@ audience: end-user
 title: Avancerade inställningar
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
+source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 17%
@@ -11,6 +11,8 @@ ht-degree: 17%
 ---
 
 # Avancerade inställningar {#advanced-settings}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!NOTE]
 >
