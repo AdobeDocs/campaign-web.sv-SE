@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång
 description: Webbdokumentation för Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 7%
 
 ---
 
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
-Förutom alla befintliga funktioner som finns i konsolen har vi skapat ett webbgränssnitt som ger användarna en integrerad, intuitiv och enhetlig användarupplevelse.
+Förutom alla befintliga funktioner som finns i konsolen har vi skapat ett nytt modernt webbaserat användargränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer, och som är i linje med Adobe Experience Platform inbyggda programupplevelser.
 
 ## Alfavärden
 
-Det här moderna webbaserade gränssnittet är för närvarande bara tillgängligt för dig som har följande funktioner:
+Det här webbgränssnittet är för närvarande bara tillgängligt för dig som har följande funktioner:
 
 **Modern, intuitiv och enhetlig upplevelse**
 
