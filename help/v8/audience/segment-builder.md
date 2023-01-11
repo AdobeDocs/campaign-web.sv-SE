@@ -3,18 +3,16 @@ audience: end-user
 title: Arbeta med segmentbyggaren
 description: Webbdokumentation för Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
 
 # Definiera en målgrupp med regelbyggaren {#segment-builder}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 I det här avsnittet beskrivs hur du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Den skapade målgruppen kan bara användas i det här e-postmeddelandet.
 

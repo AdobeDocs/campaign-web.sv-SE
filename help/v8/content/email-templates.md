@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Arbeta med e-postmallar
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 6%
+source-wordcount: '154'
+ht-degree: 7%
 
 ---
 
 # Arbeta med mallar för e-postinnehåll {#email-content-templates}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 Använd **[!UICONTROL Select design template]** för att börja skapa innehåll från en mall.
 

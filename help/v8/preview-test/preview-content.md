@@ -3,23 +3,21 @@ audience: end-user
 title: Förhandsgranska e-postinnehåll
 description: Webbdokumentation för Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Förhandsgranska e-postinnehåll {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Smart förhandsvisning av ditt innehåll"
 >abstract="Med Adobe Campaign kan du använda profiler för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas, för att kontrollera personaliseringen och hur mottagarna ser dem."
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 Med Adobe Campaign kan du använda profiler för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas, för att kontrollera personaliseringen och hur mottagarna kommer att se dem.
 

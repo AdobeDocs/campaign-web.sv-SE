@@ -6,18 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Kom igång med personalisering{#add-personalization}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!NOTE]
 >

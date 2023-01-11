@@ -3,18 +3,14 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Webbdokumentation för Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 37%
+source-wordcount: '521'
+ht-degree: 38%
 
 ---
 
 # Ange en kontrollgrupp {#control-group}
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 Du kan använda kontrollgrupper för att undvika att skicka meddelanden till en del av målgruppen för att kunna mäta effekten av kampanjerna.
 

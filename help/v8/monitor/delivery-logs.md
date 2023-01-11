@@ -3,18 +3,16 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Webbdokumentation för Campaign v8
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 19%
+source-wordcount: '294'
+ht-degree: 21%
 
 ---
 
 # Övervaka leveransloggar {#delivery-logs}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"

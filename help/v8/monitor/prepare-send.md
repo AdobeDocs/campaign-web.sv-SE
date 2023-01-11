@@ -3,23 +3,21 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Webbdokumentation för Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # Förbered och skicka e-post {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Förbered och skicka e-post"
 >abstract="Upptäck hur du förbereder e-postmeddelandet och lär dig mer om hur du skickar nyckeltal."
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 <!--
 

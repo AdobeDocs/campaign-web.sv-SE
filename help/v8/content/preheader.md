@@ -3,18 +3,16 @@ audience: end-user
 title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig hur du utformar e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # Lägga till en förrubrik {#preheader}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

@@ -3,20 +3,16 @@ audience: end-user
 title: Avancerade inställningar
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 17%
+source-wordcount: '1222'
+ht-degree: 18%
 
 ---
 
 # Avancerade inställningar {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen. Om du vill ändra någon av dem för en viss leverans, ska du vara försiktig.
 

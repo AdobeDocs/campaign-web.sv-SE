@@ -3,18 +3,16 @@ audience: end-user
 title: Skicka korrektur
 description: Webbdokumentation för Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 3%
 
 ---
 
 # Skicka korrektur {#send-proofs}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 Genom att skicka testmeddelanden kan du validera din e-post och kontrollera olika element som länkar, avanmälningslänkar och spegelsidor, bilder och upptäcka eventuella fel.
 

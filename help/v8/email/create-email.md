@@ -3,18 +3,16 @@ audience: end-user
 title: Skapa din första e-postadress
 description: Webbdokumentation för Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
 
 # Skicka ditt första e-postmeddelande {#first-email}
 
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
+![](../assets/do-not-localize/badge.png)
 
 I det här exemplet visas hur du skapar ditt första e-postmeddelande. Vi kommer att schemalägga sändning av ett mejl på en viss dag till kunder med silver- och guldkunder. Det här e-postmeddelandet kommer att utformas med en fördefinierad mall och kommer att innehålla personalisering med hjälp av profilens attribut.
 

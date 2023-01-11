@@ -3,23 +3,21 @@ audience: end-user
 title: Om målgrupper
 description: Om målgrupper
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
 # Om målgrupper {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Kom igång med målgrupper"
 >abstract="Lär dig hur du hanterar målgrupper för ditt e-postinnehåll."
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 <!--
 Audience only created for the delivery, not available later-->

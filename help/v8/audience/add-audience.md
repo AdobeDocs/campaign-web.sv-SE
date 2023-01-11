@@ -3,23 +3,21 @@ audience: end-user
 title: Lägg till en målgrupp
 description: Webbdokumentation för Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
 # Välj en målgrupp {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Välj en befintlig målgrupp"
 >abstract="Målgrupperna definieras i Adobe Campaign v8 Console. Om du har tillgång till en Adobe Experience Platform-integrering bör du även kunna se plattformsdefinierade målgrupper."
-
->[!NOTE]
->
->Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en e-postleverans. Om du vill skapa en ny publik kan du läsa följande [section](segment-builder.md).
 
