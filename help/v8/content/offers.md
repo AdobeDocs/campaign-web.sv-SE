@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Dokumentationen håller på att byggas och uppdateras ofta. Den slutliga versionen av detta innehåll är klar i januari 2023.
 
-Med Adobe Campaign v8 på webben kan du skicka med e-posterbjudanden som har skapats i konsolen med **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Dokumentation för kampanj V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Med Adobe Campaign v8 Web kan du skicka med e-posterbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Dokumentation för kampanj V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 
 Så här skickar du erbjudanden via e-post:
 

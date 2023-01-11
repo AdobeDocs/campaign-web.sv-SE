@@ -3,14 +3,14 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-# Adobe Campaign Web v8 - dokumentation {#campaign-documentation}
+# Adobe Campaign v8 webbdokumentation {#campaign-documentation}
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
->Campaign v8-webben är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
+>Campaign v8 Web är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.

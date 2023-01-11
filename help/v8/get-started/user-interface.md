@@ -3,7 +3,7 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Navigeringsmeny till vänster
 
-Bläddra bland länkarna till vänster för att komma åt webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post. Det går inte att klicka på ett listobjekt för utgåva/visning i Alpha. Alla listor kan redigeras i Beta- och GA-versionerna. Vilka alternativ som visas på den vänstra navigeringsmenyn beror på dina användarbehörigheter.
+Bläddra bland länkarna till vänster för att få tillgång till webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post. Det går inte att klicka på ett listobjekt för utgåva/visning i Alpha. Alla listor kan redigeras i Beta- och GA-versionerna. Vilka alternativ som visas på den vänstra navigeringsmenyn beror på dina användarbehörigheter.
 
 ![](assets/home.png)
 
 ### Startsida
 
-Den här skärmen innehåller viktiga länkar och resurser för snabb åtkomst till de viktigaste webbfunktionerna i Campaign v8. The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar datum och status för när de skapades och ändrades.
+Skärmen innehåller länkar och resurser som gör att du snabbt kommer åt de viktigaste webbfunktionerna i Campaign v8. The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar datum och status för när de skapades och ändrades.
 
 <!--
 * Banner
@@ -156,7 +156,7 @@ Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vil
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8-webben. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
+Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8 Web. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
