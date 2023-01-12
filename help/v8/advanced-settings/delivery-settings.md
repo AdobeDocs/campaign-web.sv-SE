@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Avancerade inställningar
+title: Inställningar för e-postleverans
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
+source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1414'
 ht-degree: 11%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 11%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen. Om du vill ändra någon av dem för en viss leverans, ska du vara försiktig.
+Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen.
 
 ## Inställningar för e-postleverans {#email-delivery-settings}
 
->[!NOTE]
+>[!CAUTION]
 >
-> Ändra bara inställningarna, inga nya alternativ tillåts. Beror på åtkomsträttigheter.
+> Dessa inställningar beskrivs endast i informationssyfte. Vissa av dem beror på din konfiguration och dina behörigheter. De får inte ändras i den här versionen av produkten.
 
 ## Typologi {#typology}
 
