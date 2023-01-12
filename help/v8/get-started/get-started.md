@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång
 description: Webbdokumentation för Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 6%
@@ -51,11 +51,12 @@ Kampanjdata lagras på programservern. Data är tillgängliga både från klient
 
 ## Anslut till Campaign
 
-![](assets/connect.png)
 
 1. Anslut till [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Logga in med dina inloggningsuppgifter för Adobe.
 1. I **Snabb åtkomst** avsnitt, klicka **Campaign**.
+   ![](assets/connect.png)
+
 1. På nästa sida klickar du på **Starta** i Campaign-instansen.
 
 <!--
