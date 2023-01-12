@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Webbdokumentation för Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
 
    <!--limitation on size + number of files?-->
 
-1. Som standard är e-postspårning aktiverat för öppningar och klick. Om du vill inaktivera de här alternativen avmarkerar du dem på menyn **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
+1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet från **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
 
 När innehållet i e-postmeddelandet har definierats använder du **[!UICONTROL Simulate content]** för att kontrollera hur det kommer att se ut innan det skickas. [Lär dig hur du förhandsgranskar och testar e-postmeddelanden](../preview-test/preview-test.md)
 
