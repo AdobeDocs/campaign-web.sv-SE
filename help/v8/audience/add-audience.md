@@ -3,7 +3,7 @@ audience: end-user
 title: Lägg till en målgrupp
 description: Webbdokumentation för Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
@@ -33,7 +33,7 @@ I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du defi
 
    >[!NOTE]
    >
-   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv).
+   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
 
 1. Välj en målgrupp och klicka **Välj**.
 

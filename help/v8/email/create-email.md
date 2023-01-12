@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första e-postadress
 description: Webbdokumentation för Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1112'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ I det här exemplet visas hur du skapar ditt första e-postmeddelande. Vi kommer
 
    >[!NOTE]
    >
-   >En mall är en specifik leveranskonfiguration som har sparats som en mall för att kunna återanvändas. Leveransmallar konfigureras av administrationsanvändare i Adobe Campaign Console. [Lär dig hur du arbetar med leveransmallar](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
+   >En mall är en specifik leveranskonfiguration som har sparats som en mall för att kunna återanvändas. Leveransmallar konfigureras av administrationsanvändare i Adobe Campaign Console. [Lär dig hur du arbetar med leveransmallar](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. M
    >
    >De målgrupper som är tillgängliga i listan kommer antingen från Campaign V8-instansen eller från Adobe Experience Platform om integreringen av mål/källor har konfigurerats på din instans.
    >
-   >Med integreringen Destination/Sources kan ni skicka segment från Experience Platform till Adobe Campaign och skicka loggar för leverans och spårning av kampanjer till Adobe Experience Platform. [Lär dig hur du arbetar med Campaign och Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >Med integreringen Destination/Sources kan ni skicka segment från Experience Platform till Adobe Campaign och skicka loggar för leverans och spårning av kampanjer till Adobe Experience Platform. [Lär dig hur du arbetar med Campaign och Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. När målgruppen har valts kan du förfina den med ytterligare regler.
 
@@ -161,7 +161,7 @@ Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i
 
 1. Klicka på knappen **[!UICONTROL Test]** markerar du sedan de profiler som ska ta emot korrekturet.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

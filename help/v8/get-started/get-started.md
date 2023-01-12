@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång
 description: Webbdokumentation för Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 6%
+source-wordcount: '391'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,7 @@ Kampanjdata lagras på programservern. Data är tillgängliga både från klient
    ![](assets/connect.png)
 
 1. På nästa sida klickar du på **Starta** i Campaign-instansen.
+Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet i [den här sidan](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
