@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 5%
 
 ---
@@ -54,5 +54,5 @@ ht-degree: 5%
 + Skicka och övervaka e-postmeddelandet {#monitor}
    + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
    + [Övervaka leveransloggar](monitor/delivery-logs.md)
+   + [Inställningar för e-postleverans](advanced-settings/delivery-settings.md)
 + [Rapportering](reporting/reports.md)
-+ [Avancerade inställningar](advanced-settings/delivery-settings.md)
