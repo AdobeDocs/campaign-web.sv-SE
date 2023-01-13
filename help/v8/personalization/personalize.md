@@ -1,49 +1,84 @@
 ---
-title: Anpassa innehåll i Journey Optimizer
-description: Kom igång med personalisering.
+title: Anpassa ert innehåll i Campaign
+description: Läs om hur du anpassar ditt innehåll i Adobe Campaign webbgränssnitt
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-# Kom igång med personalisering{#add-personalization}
+# Anpassa innehållet{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
->[!NOTE]
->
->Skärmbilderna är inte aktuella.
+Du kan anpassa meddelandeinnehållet genom att:
+
+* Infoga dynamisk **personaliseringsfält**
+
+   Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten.
+
+   ![](assets/perso-subject-line.png)
+
+   Syntaxen ovan infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
+
+* Infoga fördefinierad **innehållsblock**
+
+   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren.
+
+   ![](assets/perso-content-blocks.png)
+<!--
+* Create **conditional content**
+
+    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
+-->
+
+## Anpassa ämnesraden för e-post {#personalize-subject-line}
+
+Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ stegen nedan:
+
+1. Klicka på **Öppna dialogrutan för personalisering** ikonen till höger om **Subject line** fält.
+1. Ange innehållet på ämnesraden och välj de anpassningsattribut som ska läggas till.
+1. Validera genom att klicka på Bekräfta. Anpassningsattributen läggs till på ämnesraden.
+
+![](assets/perso-subject.png)
+
+## Anpassa e-postinnehållet {#personalize-emails}
+
+Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern och:
+
+1. Klicka inuti ett textblock.
+1. Välj **Lägg till personalisering**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Ange namnet på mottagaren i personaliseringsredigeraren och bekräfta.
+
+   ![](assets/perso-add-name.png)
+
+   Anpassningsattributet läggs till i e-postinnehållet.
+
+   Du kan simulera innehållet för att kontrollera återgivningen. [Läs mer](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
 
 
-## Anpassa e-postmeddelanden {#personalize-emails}
+## Anpassa länkar i e-postmeddelanden {#personalize-links}
 
-När du skapar ett e-postmeddelande kan du lägga till personalisering i **[!UICONTROL Subject line]** meddelandets fält.
+För att personalisera en **link**:
 
-![](assets/perso_subject.png)
+1. Markera ett textblock eller en bild.
+1. Välj **Lägg till personalisering**.
 
-I e-postdesignern kan du anpassa innehållet:
+   ![](assets/perso-link.png)
 
-* I **message**: klicka i ett textblock och klicka på **Anpassa** ikonen i det sammanhangsberoende verktygsfältet och välj **Infoga personalisering** fält.
-
-   ![](assets/perso_insert.png)
-
-* För **link**: markera text eller bild i ett textblock och klicka på **Infoga länk** ikonen i det sammanhangsberoende verktygsfältet. I fönstret kan du lägga till ett anpassningsblock genom att klicka på **Lägg till personalisering** ikon.
-
-   ![](assets/perso_link.png)
-
-I båda fallen får du tillgång till personaliseringsredigeraren.
-
-![](assets/perso_ee.png)
+1. Använd personaliseringsredigeraren för att definiera och personalisera länken.
 
 ## Anpassa era erbjudanden {#personalize-offers}
 
 Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer.
-
-
