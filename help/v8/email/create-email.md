@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ I det här exemplet visas hur du skapar ditt första e-postmeddelande. Vi kommer
 
 1. Skapa en ny leverans från **[!UICONTROL Deliveries]** -menyn.
 
-1. Välj **[!UICONTROL Email]** kanalen och mallen som ska användas klickar sedan på **[!UICONTROL Create]**.
+1. Välj **[!UICONTROL Email]** kanalen och mallen som ska användas klickar sedan på **[!UICONTROL Create delivery]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ I det här exemplet visas hur du skapar ditt första e-postmeddelande. Vi kommer
    * **[!UICONTROL Delivery code]**: Använd det här fältet för att ordna leveranser baserat på din egen namnkonvention,
    * **[!UICONTROL Description]**: ange en beskrivning av leveransen,
    * **[!UICONTROL Nature]**: Ange vilken typ av e-post det gäller för klassificeringsändamål.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Om du har utökat ditt schema med specifika anpassade fält kan du komma åt dem från **[!UICONTROL Custom options]** -avsnitt.
@@ -79,7 +78,7 @@ I det här fallet ska vi utforma e-postmeddelandet med en fördefinierad mall. D
 
    Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet vill vi använda en befintlig designmall.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ I det här fallet ska vi utforma e-postmeddelandet med en fördefinierad mall. D
 
    ![](assets/add-perso.png)
 
-1. När innehållet är klart sparar du det och klickar sedan på pilen för att gå tillbaka till skärmen för att skapa e-postmeddelanden.
+1. När innehållet är klart sparar och stänger du designen och klickar sedan på **[!UICONTROL Save]** för att gå tillbaka till skärmen för att skapa e-postmeddelanden.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ I det här fallet ska vi skicka e-postmeddelandet till en befintlig målgrupp. M
 
    Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med beteendet hos profiler som inte var målinriktade. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Schemalägg sändningen {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket i
 
 När e-postmeddelandet är klart kan du förhandsgranska och testa det innan du börjar skicka det.
 
-I det här fallet ska vi förhandsgranska e-postmeddelandet och skicka ett korrektur med befintliga profiler.
+I det här fallet ska vi förhandsgranska e-postmeddelandet och skicka korrektur till specifika e-postadresser samtidigt som vi personifierar några av målprofilerna.
 
 Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
 
-1. Klicka på **[!UICONTROL Review to send]**. En förhandsgranskning av e-postmeddelandet visas tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element med knappen Ändra.
+1. Klicka på **[!UICONTROL Review and send]**. En förhandsgranskning av e-postmeddelandet visas tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element med knappen Ändra.
 
 1. Klicka på **[!UICONTROL Simulate content]** om du vill förhandsgranska e-postmeddelandet och skicka korrektur.
 
@@ -159,21 +160,25 @@ Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Klicka på knappen **[!UICONTROL Test]** markerar du sedan de profiler som ska ta emot korrekturet.
+1. Klicka på knappen **[!UICONTROL Test]** väljer du sedan det läge som ska användas för att skicka korrektur.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   I det här exemplet ska vi använda Ersätt från huvudmålläge, vilket innebär att vi skickar korrektur till specifika e-postadresser samtidigt som vi personifierar några av profilerna som levereras.
 
-   I det här exemplet vill vi skicka korrektur till en specifik testprofil, som är en startadress som inte är en del av målet. Lär dig hur du arbetar med dirigerade adresser i [Campaign Classic v7-dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Klicka på Lägg till adress och ange den eller de e-postadresser som ska ta emot korrekturen.
+
+   För varje e-postadress väljer du den profil från målet som ska personifieras. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >Du kan också testa dina meddelanden genom att personifiera några av målprofilerna och skicka korrekturmeddelandet till den e-postadress du väljer. [Lär dig hur du skickar korrektur](../preview-test/preview-test.md)
-
 1. Klicka **[!UICONTROL Send test email ]** bekräfta sändningen.
 
-   När korrekturen har skickats kan du kontrollera deras status genom att klicka på **[!UICONTROL View test email log]** -knappen.
+   Korrektur skickas till de angivna e-postadresserna med den valda profilen, med **[Korrektur x]** prefix.
+
+   ![](assets/proof-sent.png)
+
+   Du kan när som helst kontrollera status för avsändaren och få åtkomst till skickade korrektur genom att klicka på **[!UICONTROL View test email log]** på skärmen för simulering av innehåll.
 
 ## Skicka och övervaka e-postmeddelandet {#prepare-send}
 
@@ -183,11 +188,15 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 
    ![](assets/preparation.png)
 
-1. När e-postmeddelandet är klart att skickas klickar du på **[!UICONTROL Send]** bekräfta sändningen.
+1. När e-postmeddelandet är klart att skickas klickar du på **[!UICONTROL Send]** eller **[!UICONTROL Send as scheduled]** bekräfta sändningen.
 
-   Du kan spåra sändningen i realtid, tillsammans med statistik. Dessutom finns **[!UICONTROL Logs]** kan du komma åt detaljerad information om e-postmeddelandet. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. När e-postmeddelandet har börjat skickas, antingen omedelbart eller vid det schemalagda datumet, kan du spåra det i realtid på den här skärmen, tillsammans med statistik.
 
-1. När e-postmeddelandet har skickats kan du komma åt dedikerad [rapporter](../reporting/reports.md) för vidare analys.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >Dessutom finns **[!UICONTROL Logs]** kan du komma åt detaljerad information om e-postmeddelandet. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
+
+1. När e-postmeddelandet har skickats kan du få åtkomst till dedikerade rapporter för ytterligare analys. [Lär dig hur du arbetar med rapporter](../reporting/reports.md)
    ![](assets/reports.png)
