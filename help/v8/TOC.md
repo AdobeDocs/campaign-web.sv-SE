@@ -5,7 +5,7 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
+source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Adobe Campaign v8 - webbdokumentation {#v8}
 
-+ [Dokumentation för Campaign Web v8](campaign-web-home.md)
++ [Webbdokumentation för Campaign v8](campaign-web-home.md)
 + Nyheter? {#whats-new}
    + [Senaste versionsinformation](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
