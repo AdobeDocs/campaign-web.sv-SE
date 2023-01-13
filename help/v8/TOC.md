@@ -5,10 +5,10 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 5%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
@@ -39,11 +39,10 @@ ht-degree: 5%
       + [Justera lodrät justering och utfyllnad](content/alignment-and-padding.md)
       + [Definiera ett format för länkar](content/styling-links.md)
       + [Lägg till textbundna formatattribut](content/inline-styling.md)
-   + Anpassa innehållet {#personalize}
-      + [Lägg till personalisering](personalization/personalize.md)
+   + [Lägg till personalisering](personalization/personalize.md)
    + [Skicka erbjudanden](content/offers.md)
 + Välj e-postmålgrupp {#audience}
-   + [Om målgrupper](audience/about-audiences.md)
+   + [Kom igång med målgrupper](audience/about-audiences.md)
    + [Välj en målgrupp](audience/add-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
    + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
