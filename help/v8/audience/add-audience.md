@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Lägg till en målgrupp
-description: Webbdokumentation för Campaign v8
+title: Välj en målgrupp
+description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 2%
 
 ---
