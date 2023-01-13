@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Ej levererbara produkter och studsar: I den här rapporten visas uppdelningen av
 
 * **URL:er och klickbara strömmar**: Den här rapporten innehåller en lista över besökta sidor efter en leverans.
 
-* **Användaraktiviteter**: Den här rapporten visar hur öppningar, klick och transaktioner per halvtimme, timme eller dag delas upp i ett diagram.
+* **Användaraktiviteter**: Den här rapporten visar hur öppningar och klickningar per halvtimme, timme eller dag delas upp i ett diagram.
 
-* **Spårningsstatistik**: Den här rapporten innehåller statistik om öppningar, klick och transaktioner.
+* **Spårningsstatistik**: Den här rapporten innehåller statistik om öppningar och klick.
 
 * **Indelning av öppningar**: Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
 

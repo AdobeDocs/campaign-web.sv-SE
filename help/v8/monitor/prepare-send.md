@@ -3,9 +3,9 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
@@ -86,12 +86,12 @@ Följ de här stegen:
 
    Här visas olika KPI:er:
 
-   * **Levererat**: antalet meddelanden som har skickats. Procentandelen baseras på det totala antalet målmottagare.
-   * **Öppnar**: antalet öppnade meddelanden. Procentandelen baseras på antalet levererade meddelanden.
-   * **Klickningar**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Procentandelen baseras på antalet levererade meddelanden.
+   * **Levererat**: antalet meddelanden som har levererats. Procentandelen som visas baseras på det totala antalet skickade meddelanden.
+   * **Öppnar**: antalet öppnade meddelanden. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden.
+   * **Klickningar**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden.
 
    >[!NOTE]
    >
-   >The **Öppnar** och **Klickningar** kommer att uppdateras i realtid.
+   >The **Öppnar** och **Klickningar** indikatorerna uppdateras efter 5 minuter.
 
    Du kan när som helst pausa sändningen och sedan återuppta den. Om du avbryter leveransen medan den skickas kan du inte återuppta den.
