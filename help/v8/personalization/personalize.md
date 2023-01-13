@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan anpassa meddelandeinnehållet genom att:
 
    ![](assets/perso-subject-line.png)
 
-   Syntaxen ovan infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
+   Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
 * Infoga fördefinierad **innehållsblock**
 
@@ -44,7 +44,7 @@ Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ
 
 1. Klicka på **Öppna dialogrutan för personalisering** ikonen till höger om **Subject line** fält.
 1. Ange innehållet på ämnesraden och välj de anpassningsattribut som ska läggas till.
-1. Validera genom att klicka på Bekräfta. Anpassningsattributen läggs till på ämnesraden.
+1. Klicka **Bekräfta** att validera. Anpassningsattributen läggs till på ämnesraden.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ För att personalisera en **link**:
 
 ## Anpassa era erbjudanden {#personalize-offers}
 
-Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer.
+Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer. Läs mer i [det här avsnittet](../content/offers.md).
