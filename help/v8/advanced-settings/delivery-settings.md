@@ -3,16 +3,16 @@ audience: end-user
 title: Inställningar för e-postleverans
 description: Webbdokumentation för Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
+source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 11%
 
 ---
 
 # Inställningar för e-postleverans {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![Alfaversion](../assets/do-not-localize/badge.png)
 
 Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen.
 
