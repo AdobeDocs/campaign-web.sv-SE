@@ -3,7 +3,7 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -48,9 +48,9 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
 
 1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Det gör du genom att skriva in ämnet direkt i det dedikerade fältet eller genom att öppna Uttrycksredigeraren och definiera hur personalisering ska användas med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
 
-1. Om du vill skicka erbjudanden via e-post väljer du dem med **[!UICONTROL Offers]** -knappen. Sedan kan du infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig hur du skickar erbjudanden](offers.md)
+1. Om du vill skicka erbjudanden via e-post väljer du dem med **[!UICONTROL Set up offers]** -knappen. Sedan kan du infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig hur du skickar erbjudanden](offers.md)
 
-1. Klicka på **[!UICONTROL Email Designer]** för att strukturera och utforma innehållet i e-postmeddelandet. Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
+1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet. Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 
    * [Lär dig hur du utformar e-postmeddelanden](create-email-content.md)
    * [Formatera innehållet](get-started-email-style.md)
@@ -64,5 +64,3 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
 1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet från **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
 
 När innehållet i e-postmeddelandet har definierats använder du **[!UICONTROL Simulate content]** för att kontrollera hur det kommer att se ut innan det skickas. [Lär dig hur du förhandsgranskar och testar e-postmeddelanden](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
