@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Skicka korrektur
-description: Lär dig hur du definierar och skickar korrekturmeddelanden
+title: Skicka testmeddelanden
+description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 3%
+source-wordcount: '378'
+ht-degree: 2%
 
 ---
 
-# Skicka korrektur {#send-proofs}
+# Skicka testmeddelanden {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Genom att skicka testmeddelanden kan du validera din e-post och kontrollera olika element som länkar, avanmälningslänkar och spegelsidor, bilder och upptäcka eventuella fel.
+Att skicka testmeddelanden är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem. Genom att skicka testmeddelanden kan du kontrollera olika element som länkar, avanmälningslänkar, bilder och spegelsidor samt upptäcka eventuella fel.
 
-Korrektur kan skickas till två typer av mottagare:
+Testmeddelanden kan skickas till två typer av mottagare:
 
-* **Testprofiler**: skicka korrektur till startadresser, som är ytterligare och fiktiva mottagare i databasen,
-* **Ersättningsprofiler**: skicka korrektur till en viss e-postadress med hjälp av en befintlig profil. På så sätt kan du placera dig själv i profilernas position och få en exakt representation av meddelandet som profilen får.
+* **Testprofiler**: skicka testmeddelanden till startadresser som är ytterligare och fiktiva mottagare i databasen,
+* **Ersättningsprofiler**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
 ## Välj korrekturmottagare {#recipients}
 
