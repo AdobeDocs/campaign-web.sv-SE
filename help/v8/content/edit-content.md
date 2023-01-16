@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
    * [Formatera innehållet](get-started-email-style.md)
 
 1. Om du vill bifoga en fil till e-postmeddelandet klickar du på knappen **[!UICONTROL Add attachment]** och sedan markera en eller flera filer.
+
+   För att undvika prestandaproblem rekommenderar vi att du inte inkluderar mer än en bifogad fil per e-post.
 
    <!--limitation on size + number of files?-->
 

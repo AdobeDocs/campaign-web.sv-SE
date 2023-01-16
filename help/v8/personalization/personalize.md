@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -67,17 +67,49 @@ Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern oc
 
    ![](assets/perso-rendering.png)
 
+Om du vill lägga till ett innehållsblock i e-postmeddelandet följer du samma steg och väljer ett innehållsblock från den sista ikonen:
+
+![](assets/perso-insert-block.png)
+
+När innehållsblocket har infogats läggs det till i e-postinnehållet, vilket visas nedan. Den anpassas automatiskt till mottagarprofilen när personalisering genereras, vid leveransförberedelsesteget.
+
+![](assets/perso-content-block-in-email.png)
+
+
+Inbyggda innehållsblock är:
+* **[!UICONTROL Enabled by Adobe Campaign]** : infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
+* **[!UICONTROL Formatting function for proper nouns]** : genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
+* **[!UICONTROL Greetings]** : infogar hälsningar med mottagarens namn. Exempel: &quot;Hej John Doe.&quot;
+* **[!UICONTROL Insert logo]** : infogar en logotyp som inte finns i rutan och som har definierats när instansen konfigureras.
+* **[!UICONTROL Link to mirror page]** : infogar en länk till spegelsidan: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
+* **[!UICONTROL Mirror page URL]** : infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : infogar en URL som gör det möjligt att ange ett interaktionserbjudande till **[!UICONTROL Accepted]**.
+* **[!UICONTROL Registration page URL]** : infogar en prenumerations-URL.
+* **[!UICONTROL Registration link]** : infogar en prenumerationslänk. Den här länken måste definieras när instansen konfigureras. Standardinnehållet är: &quot;Registrera dig genom att klicka här.&quot;
+* **[!UICONTROL Registration link (with referrer)]** : infogar en prenumerationslänk som gör det möjligt att identifiera besökaren och leveransen. Länken har definierats när instansen konfigureras.
+* **[!UICONTROL Registration confirmation]** : infogar en länk som bekräftar prenumerationen.
+* **[!UICONTROL Social network sharing links]** : infogar knappar som gör att mottagaren kan dela en länk till innehållet på den speglade sidan.
+* **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]** : generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
+* **[!UICONTROL Unsubscription link]** : infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med `<your rganization name>` eller ett närstående bolag. Ta inte längre emot meddelanden från `<your rganization name>` klicka här.&quot;
+
 
 ## Anpassa länkar i e-postmeddelanden {#personalize-links}
 
 För att personalisera en **link**:
 
 1. Markera ett textblock eller en bild.
-1. Välj **Lägg till personalisering**.
+1. Välj **Infoga länk**.
 
    ![](assets/perso-link.png)
 
-1. Använd personaliseringsredigeraren för att definiera och personalisera länken.
+1. Ange länketiketten och använd **Infoga länk** för att anpassa länken.
+
+   ![](assets/perso-link-insert-icon.png)
+
+1. Använd personaliseringsredigeraren för att definiera och anpassa länken och bekräfta.
+
+   ![](assets/perso-link-edit.png)
+
 
 ## Anpassa era erbjudanden {#personalize-offers}
 

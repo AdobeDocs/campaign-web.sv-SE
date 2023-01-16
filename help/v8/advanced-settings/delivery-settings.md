@@ -3,9 +3,9 @@ audience: end-user
 title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1437'
 ht-degree: 11%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 ![Alfaversion](../assets/do-not-localize/badge.png)
 
-Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen.
+Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmallen. De finns på **Konfigurera leveransinställningar** -ikonen är tillgänglig när du redigerar e-postleveranser.
 
 ## Inställningar för e-postleverans {#email-delivery-settings}
 
