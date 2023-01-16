@@ -3,10 +3,10 @@ audience: end-user
 title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 2%
+source-wordcount: '501'
+ht-degree: 0%
 
 ---
 
@@ -19,60 +19,61 @@ Att skicka testmeddelanden är ett viktigt steg när det gäller att validera di
 Testmeddelanden kan skickas till två typer av mottagare:
 
 * **Testprofiler**: skicka testmeddelanden till startadresser som är ytterligare och fiktiva mottagare i databasen,
-* **Ersättningsprofiler**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
-## Välj korrekturmottagare {#recipients}
+* **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
-1. Öppna skärmen för att skapa e-postinnehåll och klicka sedan på **[!UICONTROL Simulate content]**.
+## Välj testmottagare {#recipients}
 
-1. Klicka på **[!UICONTROL Test]** använder du **[!UICONTROL Mode]** i listrutan för att välja vilken typ av mottagare som ska få korrektur:
+1. Öppna skärmen för simulering av e-postinnehåll och klicka sedan på **[!UICONTROL Test]** -knappen.
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Skicka korrektur till testprofiler
+1. Använd **[!UICONTROL Mode]** nedrullningsbar lista där du kan välja vilken typ av mottagare som ska få testmeddelandet:
 
-1. Välj **[!UICONTROL Use test profiles]**-läget.
+   * **Testprofiler**: skicka testmeddelandet till startadresser som är ytterligare och fiktiva mottagare i databasen,
 
-1. Lägg till de testprofiler som ska ta emot testmeddelanden.
+   * **Ersättning från huvudmål**: skicka testmeddelandet till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Skicka korrektur till ersättningsprofiler
-
-1. Välj **[!UICONTROL Substitution from target]**-läget.
-
-1. Lägg till den eller de e-postadresser som ska ta emot korrekturen.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Du kan ange valfri e-postadress. Detta gör att du kan skicka korrektur till alla användare, även om de inte är användare av Adobe Campaign V8.
+   >Som standard är **[!UICONTROL Test profiles]** läge är valt. Om du redan har markerat profiler för att förhandsgranska e-postmeddelandet på innehållssimuleringsskärmen, markeras de profilerna som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare.
 
-1. För varje e-postadress väljer du profilen i det mål som ska användas. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
+1. Om du vill skicka testmeddelanden till ersättningsprofiler väljer du **[!UICONTROL Substitution from target]** gör du så här:
 
-   ![](assets/substitution.png)
+   1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress som ska ta emot testmeddelandet.
 
-När du har valt korrekturmottagare kan du skicka testmeddelandet. [Lär dig hur du skickar korrektur](#send)
+      Du kan ange valfri e-postadress. Detta gör att du kan skicka testmeddelanden till alla användare, även om de inte är användare av Adobe Campaign V8.
 
->[!NOTE]
->
->Om du vill skicka det sista e-postmeddelandet till mottagarna av korrekturet aktiverar du **[!UICONTROL Include test population in the main target]** på.
+   1. Välj den profil från målet som ska användas för att skicka testmeddelandet. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
 
-## Skicka korrektur {#send}
+   1. Bekräfta mottagaren och upprepa åtgärden för att lägga till så många adresser som behövs.
 
-Om du vill skicka korrekturen till de valda mottagarna klickar du på **[!UICONTROL Send test email]** bekräfta sändningen.
+      ![](assets/substitution.png)
+
+1. När testmottagarna har valts kan du skicka testmeddelandet. [Lär dig hur du skickar testmeddelanden](#send)
+
+   >[!NOTE]
+   >
+   >Om du vill skicka det sista e-postmeddelandet till mottagarna av testmeddelandet aktiverar du **[!UICONTROL Include test population in the main target]** på.
+
+## Skicka testmeddelandet {#send}
+
+Om du vill skicka testmeddelandet till de valda mottagarna klickar du på **[!UICONTROL Send test email]** bekräfta sändningen.
 
 ![](assets/send-proof.png)
 
-Skicka så många korrektur som behövs tills du är klar med leveransens innehåll. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
+Skicka så många testmeddelanden som behövs tills du är klar med innehållet. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
 
-## Åtkomst till skickade korrektur {#access-proofs}
+## Få tillgång till skickade testmeddelanden {#access-proofs}
 
-När korrekturet har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test email log]** -knappen. Med dessa loggar kan du komma åt alla korrektur som skickats för den valda leveransen och visa specifik statistik som relaterar till deras sändning.
+När testmeddelandena har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test email log]** -knappen.
+
+Med dessa loggar kan du få tillgång till alla testmeddelanden som skickats för den valda leveransen och visa specifik statistik som relaterar till deras sändning. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Du kan även komma åt korrektur från leveranslistan, precis som vid alla leveranser.
+Du kan även komma åt skickade testmeddelanden från leveranslistan, precis som vid alla leveranser.
 
 ![](assets/delivery-list.png)

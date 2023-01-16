@@ -3,9 +3,9 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 21%
 
 ---
@@ -39,7 +39,7 @@ Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandet
 
 ## Leveranser
 
-The **Leveranser** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
+The **Skicka loggar** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
 ![](assets/logs2.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1441'
 ht-degree: 11%
 
 ---
@@ -183,8 +183,8 @@ Du kan ange undantagsparametrar i det här avsnittet. Tillgängliga alternativ �
 
 * **Behåll adresser i karantän** gör att du kan hålla profiler med en adress som inte svarar från målet.
 
-Du kan också anpassa namnet på korrekturet.
+Du kan också anpassa namnet på testmeddelandena.
 
-Använd **Behåll leveranskoden för korrekturet** associera till beviset med samma leveranskod som den som är definierad för den leverans som det hör till.
+Använd **Behåll leveranskoden för korrekturet** associera till testmeddelandet med samma leveranskod som den som är definierad för den leverans som det är relaterat till.
 
-Som standard anges korrekturens ämne med&quot;PROOF #&quot;, där # är bevisets nummer. Du kan ändra det här prefixet i **Etikettprefix** fält.
+Ämnet i testmeddelandet anges som standard med&quot;PROOF #&quot;, där # är numret på testmeddelandet. Du kan ändra det här prefixet i **Etikettprefix** fält.

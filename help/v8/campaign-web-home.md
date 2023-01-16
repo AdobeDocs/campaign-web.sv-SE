@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvän
 <img alt="Validering" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Testa och skicka korrektur</strong></a>
+<a href="preview-test/proofs.md"><strong>Förhandsgranska och testa ett e-postmeddelande</strong></a>
 </div>
 <p>
 </td>
