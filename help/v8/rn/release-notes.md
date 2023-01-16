@@ -3,10 +3,10 @@ audience: end-user
 title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,21 @@ Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt 
 
 **Modern, intuitiv och enhetlig upplevelse**
 
+Campaign new Web UI erbjuder en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
+
 * Tillgång till det nya gränssnittet och andra Adobe-lösningar med en enda delad användarsession
-* Integrering med Enhetligt gränssnitt: tillgång till communitystuderande, hjälpcenter, lösningsväljare
+* Ny navigeringsupplevelse med alla menyer och mappar tillgängliga från den vänstra listen
+* Lösnings- och organisationsväljare från det övre fältet
+* Integrering med Enhetligt gränssnitt, med direktåtkomst till communityn, hjälpcentret och supporten
 <!--
 No search and pulse notifications in Alpha
 -->
-* Upplev den nya navigeringen med vänstra menyer och mappar
 
 Läs mer om det nya användargränssnittet i [den här sidan](../get-started/user-interface.md).
 
 **Skapa, starta och mät din e-postkampanj**
+
+Använd det nya webbgränssnittet för Campaign för att:
 
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
 * Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
@@ -46,4 +51,13 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Observera att flerkanalskampanjer och funktioner för arbetsflödeshantering kommer att vara tillgängliga i betaprogrammet.
+>Observera att flerkanalskampanjer och funktioner för hantering av arbetsflöden kommer att vara tillgängliga i betaversionen.
+
+## Uppdateringar om terminologi
+
+Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna i branschen. De här ändringarna gäller bara för webbgränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
+
+* Korrektur är nu **Testa e-post**. Om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet
+* Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** knapp
+* E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
+* Listor finns nu **Målgrupper**
