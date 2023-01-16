@@ -3,9 +3,9 @@ audience: end-user
 title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## Uppdateringar om terminologi
 
-Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna i branschen. De här ändringarna gäller bara för webbgränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
+Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web-gränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
-* Korrektur är nu **Testa e-post**. Om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet
+* Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturmålet kallas nu **Testprofiler**
 * Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** knapp
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
 * Listor finns nu **Målgrupper**
