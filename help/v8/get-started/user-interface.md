@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **Kampanjer** - Det här är listan över era kampanjer. Som standard kan du visa deras start-/slutdatum/sista ändringsdatum samt deras status. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade.
 
 * **Leveranser** - Bläddra i listan över leveranser. Som standard kan du visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna instrumentpanelen och få en översikt över leveransinformationen. Leveranser i andra kanaler är skrivskyddade. Leveransmallar finns också i skrivskyddat läge. Du kan använda klientkonsolen för att redigera dem. Se det här [dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### Kundhantering
 

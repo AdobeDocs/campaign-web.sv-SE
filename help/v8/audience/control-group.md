@@ -3,7 +3,7 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 38%
@@ -64,7 +64,7 @@ Efter leveransförberedelserna kan du se undantagen på följande skärmar:
 
    ![](assets/control-group5.png)
 
-* The **Uteslutningsloggar** visa varje profil och tillhörande uteslutning **Orsak**.
+* The **Uteslutningsloggar** visa varje profil och tillhörande undantag **Orsak**.
 
    ![](assets/control-group6.png)
 

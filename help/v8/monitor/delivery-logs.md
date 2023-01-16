@@ -3,10 +3,10 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 20%
+source-wordcount: '294'
+ht-degree: 21%
 
 ---
 
@@ -45,13 +45,13 @@ The **Leveranser** På -fliken finns en historik över alla förekomster av leve
 
 ## Undantag
 
-The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från det skickade målet och orsaken till sändningsfelet anges.
+The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från målet och orsaken till sändningsfelet anges.
 
 ![](assets/logs3.png)
 
 ## Uteslutningsorsaker
 
-The **Uteslutningsorsaker** -fliken visar volymen (i antal meddelanden) för meddelanden som har uteslutits från målsändningen.
+The **Uteslutningsorsaker** -fliken visar volymen (i antal meddelanden) för meddelanden som har uteslutits från målet.
 
 ![](assets/logs4.png)
 

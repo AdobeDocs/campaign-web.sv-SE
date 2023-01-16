@@ -3,7 +3,7 @@ audience: end-user
 title: Definiera en målgrupp med regelbyggaren
 description: Lär dig hur du arbetar med segmentbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Till höger **Regelegenskaper** kan du utföra följande åtgärder:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Visa resultat:** visar listan med mottagare som målgruppen riktar sig till
+* **Visa resultat:** visar en lista över mottagare som målgruppen har.
 * **kodvyn**: visar en kodbaserad version av målgruppen i SQL.
 * **Visa avancerade attribut**: Markera det här alternativet om du vill visa hela listan med attribut på den vänstra paletten: noder, grupperingar, 1-1 länkar, 1-N länkar.
 * **Attribut**: visar en beskrivning av den skapade målgruppen.
