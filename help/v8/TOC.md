@@ -5,10 +5,10 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Kampanjöversikt
 title: Webbdokument för Campaign v8
 hide: true
-source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 + [Webbdokumentation för Campaign v8](campaign-web-home.md)
 + Nyheter? {#whats-new}
-   + [Senaste versionsinformation](rn/release-notes.md)
+   + [Versionsinformation](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + [Kom igång](get-started/get-started.md)
 + [Upptäck gränssnittet](get-started/user-interface.md)
