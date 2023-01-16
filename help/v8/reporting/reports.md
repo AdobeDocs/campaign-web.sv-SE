@@ -3,10 +3,10 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,15 @@ Så här visar du rapporter:
 
    ![](assets/reporting2.png){width="70%" align="left"}
 
-**Skickar**
+## Skickar
 
 * **Sammanfattning av leverans**: Den här rapporten innehåller all huvudinformation om leveransen. Målgrupp, orsaker till uteslutning, leveransstatistik.
 
    ![](assets/reporting3.png)
 
 * **Leveransflöde**: Den här rapporten innehåller information om leveransflöde för en viss period. För att mäta den hastighet med vilken meddelandena levereras är kriterierna antalet meddelanden som skickas per timme och meddelandets storlek (i bitar per sekund). I exemplet nedan visar det första diagrammet de lyckade leveranserna i blått och antalet felaktiga leveranser i orange.
+
+   ![](assets/reporting3bis.png)
 
 * **Sändningsstatistik**: Den här rapporten visar hur alla meddelanden som bearbetas och skickas har delats upp per Internetdomän, både när det gäller hårda och mjuka studsar, öppningar, klick och prenumerationer.
 
@@ -48,7 +50,7 @@ Så här visar du rapporter:
 
    ![](assets/reporting5.png)
 
-**Spårning**
+## Spåra
 
 * **Spårningsindikatorer**: I den här rapporten kombineras de viktigaste indikatorerna för att spåra mottagarnas beteende när de tar emot leveransen. Den ger tillgång till leverans- och mottagningsstatistik, öppnings- och klickfrekvens, genererade klickströmmar, webbspårning samt delar aktiviteter till sociala nätverk.
 
@@ -70,7 +72,7 @@ Så här visar du rapporter:
 
    ![](assets/reporting10.png)
 
-**Klickningar**
+## Klickningar
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personalisering blockerar prenumerationslänkar, länkar till spegelsidor och erbjudandelänkar som tas med i beräkningen i det totala antalet klickningar, men visas inte i rapporten.
 
