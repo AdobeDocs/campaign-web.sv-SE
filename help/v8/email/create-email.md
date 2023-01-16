@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Med hjälp av en fördefinierad designmall kommer e-postmeddelandet även att in
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Lär dig hur du utformar e-postinnehåll med hjälp av e-postdesignern."
->abstract="Lär dig designa innehåll"
+>title="Lär dig hur du utformar e-postinnehåll"
+>abstract="Lär dig hur du använder e-postdesignern."
 
 I det här fallet använder vi en fördefinierad mall för att utforma e-postmeddelandet.
 
