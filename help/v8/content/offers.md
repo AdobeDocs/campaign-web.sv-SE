@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,13 @@ Så här skickar du erbjudanden via e-post:
 
 ## Konfigurera erbjudandena att föreslå {#configure}
 
-Klicka på knappen **[!UICONTROL Offers]** från skärmen för utgåva av e-postinnehåll och konfigurera sedan erbjudandena att föreslå.
+1. Klicka på knappen **[!UICONTROL Offers]** från skärmen för utgåva av e-postinnehåll.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Välj **[!UICONTROL Offer space]** som matchar er erbjudandemiljö.
+1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna. Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö.
+
+   ![](assets/create-content-offers.png)
 
 1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
 
@@ -67,10 +69,10 @@ När du har konfigurerat erbjudandena att föreslå i ditt e-postmeddelande kan 
 
 ## Infoga erbjudanden i e-postmeddelandet {#insert}
 
-Erbjudandena läggs till i ett e-postmeddelande med uttrycksredigeraren. De kan infogas antingen:
+Erbjudanden kan läggas till i e-postmeddelandet med uttrycksredigeraren. De kan infogas antingen:
 
-* i e-postämnesraden,
-* i e-postbrödtexten genom att tillåta personalisering i alla innehållskomponenter. [Lär dig hur du lägger till innehållskomponenter](content-components.md)
+* I e-postens ämnesrad
+* I e-postbrödtexten genom att tillåta personalisering i alla innehållskomponenter. [Lär dig hur du lägger till innehållskomponenter](content-components.md)
 
 >[!NOTE]
 >
