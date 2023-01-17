@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Att skicka testmeddelanden är ett viktigt steg när det gäller att validera di
 
 Testmeddelanden kan skickas till två typer av mottagare:
 
-* **Testprofiler**: skicka testmeddelanden till startadresser som är ytterligare och fiktiva mottagare i databasen,
+* **Testprofiler**: skicka testmeddelanden till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
 
 * **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 

@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Förhandsgranska och testa
-description: Lär dig hur du förhandsgranskar meddelanden och testar e-postmeddelanden
+title: Förhandsgranska och testa e-post
+description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

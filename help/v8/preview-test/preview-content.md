@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Med Adobe Campaign kan du förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det för att kontrollera hur det kommer att se ut för mottagarna.
 
-Du kan förhandsgranska ett e-postmeddelande med:
-
-* **Testprofiler**: Förhandsgranska e-postmeddelandet med hjälp av dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen,
-* **Profiler**: Förhandsgranska e-postmeddelandet med en befintlig profil.
-
 Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här:
 
 1. Öppna skärmen för att skapa e-postinnehåll och klicka på **[!UICONTROL Simulate content]** -knappen.
 
    ![](assets/simulate.png)
 
-1. Välj en eller flera profiler genom att klicka på **[!UICONTROL Select profile(s)]** och sedan använda **[!UICONTROL Test profiles]** och **[!UICONTROL Profiles]** -flikar att välja mellan.
+1. Välj en eller flera profiler genom att klicka på **[!UICONTROL Select profile(s)]** och sedan använda **[!UICONTROL Test profiles]** och **[!UICONTROL Profiles]** -flikar att välja bland:
+
+   * The **Testprofiler** -fliken innehåller dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
+   * The **Profiler** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** från Campaign-konsolen.
 
    Du kan kombinera både testprofiler och profiler för att förhandsgranska e-postmeddelandet.
 
