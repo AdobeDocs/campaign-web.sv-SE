@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Smart förhandsvisning av ditt innehåll"
->abstract="Med Adobe Campaign kan du använda profiler för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas, för att kontrollera personaliseringen och hur mottagarna ser dem."
+>abstract="Med Adobe Campaign kan du använda profiler för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas, kontrollera personaliseringen och hur mottagarna ser det."
 
-Med Adobe Campaign kan du förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det för att kontrollera hur det kommer att se ut för mottagarna.
+Med Adobe Campaign kan du förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det, kontrollera personaliseringen och hur det visas för mottagarna.
 
 Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här:
 

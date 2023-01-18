@@ -3,9 +3,9 @@ audience: end-user
 title: Definiera ett format för länkar
 description: Lär dig hur du definierar ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---

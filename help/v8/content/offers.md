@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Så här skickar du erbjudanden via e-post:
 
 1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
 
-   Om ingen kategori anges kommer alla erbjudanden i miljön att beaktas av erbjudandemotorn, såvida inte en **[!UICONTROL Offer theme]** är markerat.
+   Om ingen kategori anges beaktas alla erbjudanden i miljön, såvida inte en **[!UICONTROL Offer theme]** är markerat.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ Så här skickar du erbjudanden via e-post:
 
    Med det här alternativet kan du aktivera eller inaktivera exkluderingen av mottagare för vilka det inte finns tillräckligt med giltiga erbjudanden.
 
-   * Om alternativet är aktiverat utesluts mottagare som inte har tillräckligt med erbjudanden från leveransen.
-   * Om alternativet är inaktiverat kommer dessa mottagare inte att uteslutas, men de kommer inte att ha det begärda antalet förslag.
+   * Om alternativet är aktiverat exkluderas mottagare som inte har tillräckligt med erbjudanden från leveransen.
+   * Om alternativet är inaktiverat utesluts inte dessa mottagare, men de kan inte ha det begärda antalet förslag.
 
 1. Om det behövs väljer du **[!UICONTROL Hide everything if no offer is selected]** alternativ.
 
    Med det här alternativet kan du välja hur meddelandet ska behandlas om något av förslagen inte finns.
 
    * Om alternativet är aktiverat visas inte representationen av det saknade förslaget och inget innehåll visas i meddelandet för det här förslaget.
-   * Om alternativet är inaktiverat avbryts själva meddelandet när det skickas och mottagarna får inte längre några meddelanden.
+   * Om alternativet är inaktiverat avbryts själva meddelandet när det skickas och mottagarna kan inte längre ta emot några meddelanden.
 
 När du har konfigurerat erbjudandena att föreslå i ditt e-postmeddelande kan du infoga dem i e-postmeddelandet med hjälp av uttrycksredigeraren. [Lär dig hur du infogar erbjudanden i e-postmeddelandet](#insert)
 

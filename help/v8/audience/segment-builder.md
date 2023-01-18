@@ -3,9 +3,9 @@ audience: end-user
 title: Definiera en målgrupp med regelbyggaren
 description: Lär dig hur du arbetar med segmentbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Du kan använda sökfältet för att snabbt hitta element.
 
 ## Arbetsytan
 
-Arbetsytan är den centrala zon där du kan konfigurera och kombinera regler baserat på de element som läggs till från paletten. Om du vill lägga till en ny regel drar du en ruta från paletten och släpper den på arbetsytan. Därefter visas sammanhangsspecifika alternativ beroende på vilken typ av data som läggs till.
+Arbetsytan är den centrala zon där du kan konfigurera och kombinera regler baserat på de element som läggs till från paletten. Om du vill lägga till en ny regel drar du en ruta från paletten och släpper den på arbetsytan. Du kan sedan få sammanhangsberoende alternativ beroende på vilken typ av data som läggs till.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ Till höger **Regelegenskaper** kan du utföra följande åtgärder:
 
 ## Exempel
 
-I det här exemplet kommer vi att bygga upp en målgrupp för alla kunder som bor i Atlanta eller Seattle och som är födda efter 1980.
+I det här exemplet bygger vi en målgrupp för alla kunder som bor i Atlanta eller Seattle och som är födda efter 1980.
 
 1. I **Attribut** palettens flik, sök efter **Födelsedatum** fält. Dra rutan och släpp den på arbetsytan.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-I det här avsnittet får du lära dig att definiera e-postens målgrupp. Detta är målet för leveransen, mottagarna som ska ta emot e-postmeddelandet. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Se det här [section](../email/create-email.md).
+I det här avsnittet får du lära dig hur du definierar målgruppen för e-postmeddelanden. Målgruppen är er leverans: de mottagare som tar emot e-postmeddelandet. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Se det här [section](../email/create-email.md).
 
 Om du vill definiera målgruppen kan du:
 
 * använda en befintlig målgrupp, se detta [section](add-audience.md).
-* skapa en ny målgrupp som ska användas för e-postmeddelandet. Se det här [section](segment-builder.md).
+* skapa en ny publik. Se det här [section](segment-builder.md).
 
 Ni kan också definiera kontrollgrupper för att undvika att skicka meddelanden till en del av er målgrupp för att mäta effekten av era kampanjer. Se det här [section](control-group.md).
 

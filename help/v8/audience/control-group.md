@@ -3,10 +3,10 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 38%
+source-wordcount: '520'
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 Du kan använda kontrollgrupper för att undvika att skicka meddelanden till en del av målgruppen för att kunna mäta effekten av kampanjerna.
 
-Det gör du genom att skapa en kontrollgrupp när du definierar målgruppen för leveransen. Profiler läggs slumpmässigt till i kontrollgruppen, filtrerade eller inte, eller baserat på kriterier. Sedan kan du jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var med i målgrupperna.
+Det gör du genom att skapa en kontrollgrupp när du definierar målgruppen för leveransen. Profiler läggs slumpmässigt till i kontrollgruppen, filtrerade eller inte, eller baserat på kriterier. Du kan sedan jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var målgrupper.
 
 Kontrollgruppen kan extraheras slumpmässigt från huvudmålet och/eller väljas från en viss målgrupp. Det finns därför två sätt att definiera en kontrollgrupp:
 
@@ -23,7 +23,7 @@ Kontrollgruppen kan extraheras slumpmässigt från huvudmålet och/eller väljas
 
 Du kan använda båda metoderna för att definiera en kontrollgrupp.
 
-Alla profiler som är en del av kontrollgruppen vid leveransens förberedelsesteg tas bort från huvudmålet. De får inte meddelandet när det har skickats.
+Alla profiler som är en del av kontrollgruppen vid leveransförberedelsesteget tas bort från huvudmålet. De får inte meddelandet.
 
 Om du vill skapa en kontrollgrupp klickar du på **[!UICONTROL Set Control Group]** från **Målgrupp** i leveransassistenten.
 
@@ -38,11 +38,11 @@ Om du vill skapa en kontrollgrupp klickar du på **[!UICONTROL Set Control Group
 
 För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen.
 
-Definiera först hur profilerna ska extraheras från målet: slumpmässigt eller baserat på en sortering.
+Definiera först hur profilerna extraheras från målet: slumpmässigt eller baserat på en sortering.
 
 Under **Extrahera från mål** väljer du ett **Uteslutningstyp**:
 
-* **Slumpmässig**: När leveransen förbereds extraherar Adobe Campaign slumpmässigt ett antal profiler som motsvarar procentandelen eller det högsta antal som du anger som storleksgräns.
+* **Slumpmässig**: När leveransen förbereds extraherar Adobe Campaign slumpmässigt ett antal profiler som motsvarar procentandelen eller det högsta antal som anges som storleksgräns.
 
    ![](assets/control-group.png)
 
@@ -91,4 +91,4 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 
 * Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Se detta [section](segment-builder.md).
 
-Profilerna som ingår i målgruppen eller som matchar resultatet av frågan kommer att uteslutas från målet.
+Profilerna som ingår i målgruppen eller som matchar resultatet av frågan tas inte med i målet.

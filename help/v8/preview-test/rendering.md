@@ -3,9 +3,9 @@ audience: end-user
 title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i webbgränssnittet för Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-Innan du skickar e-postmeddelandet måste du se till att det visas för mottagarna på ett optimalt sätt på olika webbklienter, webbmejl och enheter.
+Innan du skickar e-postmeddelandet måste du se till att det visas för mottagarna på ett optimalt sätt på en mängd olika webbklienter, webbmejl och enheter.
 
 För att göra detta kan du i Adobe Campaign förhandsgranska det skickade meddelandet i de olika sammanhang där det kan tas emot och kontrollera kompatibiliteten i de flesta datorer och program (webbpost, meddelandetjänst, mobil etc.).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Testmeddelanden kan skickas till två typer av mottagare:
 
 * **Testprofiler**: skicka testmeddelanden till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
 
-* **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
+* **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen tar emot.
 
 ## Välj testmottagare {#recipients}
 
@@ -42,7 +42,7 @@ Testmeddelanden kan skickas till två typer av mottagare:
 
 1. Om du vill skicka testmeddelanden till ersättningsprofiler väljer du **[!UICONTROL Substitution from target]** gör du så här:
 
-   1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress som ska ta emot testmeddelandet.
+   1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress som tar emot testmeddelandet.
 
       Du kan ange valfri e-postadress. Detta gör att du kan skicka testmeddelanden till alla användare, även om de inte är användare av Adobe Campaign V8.
 

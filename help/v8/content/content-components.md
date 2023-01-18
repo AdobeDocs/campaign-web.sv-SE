@@ -3,9 +3,9 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Du kan lägga till så många **[!UICONTROL Content components]** som du behöve
 
 ## Behållare {#container}
 
-Du kan lägga till en enkel behållare där du kan lägga till ytterligare en innehållskomponent. På så sätt kan du använda en särskild formatering för behållaren, som skiljer sig från den komponent som används inuti.
+Du kan lägga till en enkel behållare i vilken du lägger till en annan innehållskomponent. På så sätt kan du använda en särskild formatering för behållaren, som skiljer sig från den komponent som används inuti.
 
 Lägg till exempel till en **[!UICONTROL Container]** och sedan lägga till en [Knapp](#button) -komponenten i den behållaren. Du kan använda en specifik bakgrund för behållaren och en annan för knappen.
 
@@ -81,7 +81,7 @@ Använd **[!UICONTROL Button]** om du vill infoga en eller flera knappar i e-pos
 
 1. I **[!UICONTROL Link]** lägger du till den URL som du vill omdirigera till när du klickar på knappen.
 
-1. Välj hur er målgrupp ska omdirigeras med **[!UICONTROL Target]** nedrullningsbar lista:
+1. Välj hur innehållet ska visas med **[!UICONTROL Target]** nedrullningsbar lista:
 
    * **[!UICONTROL None]**: öppnar länken i samma ram som den klickades på (standard).
    * **[!UICONTROL Blank]**: öppnar länken i ett nytt fönster eller på en ny flik.
@@ -180,7 +180,7 @@ Använd **[!UICONTROL Social]** för att infoga länkar till sidor för sociala 
 
 1. Välj storlek på ikonerna i dialogrutan **[!UICONTROL Size of images]** fält.
 
-1. Klicka på var och en av dina ikoner för sociala medier för att konfigurera **[!UICONTROL URL]** som er målgrupp kommer att omdirigeras till.
+1. Klicka på var och en av dina ikoner för sociala medier för att konfigurera **[!UICONTROL URL]** som er målgrupp omdirigeras till.
 
    ![](assets/email_designer_21.png)
 
