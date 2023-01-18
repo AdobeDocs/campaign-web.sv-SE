@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -152,16 +152,6 @@ I gränssnittets övre fält kan du:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Kontextuell hjälp och introduktionshandbok
-
-Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vill visa hjälpinformation och relaterade dokumentationslänkar.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8 Web. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Konfigurera listskärmar {#list-screens}
 
 Flera länkar från den vänstra navigeringsmenyn, till exempel **Leveranser** eller **Kampanjer**, visas listor med objekt. De här listskärmarna är skrivskyddade, förutom leveranslistan för e-post.
@@ -175,6 +165,43 @@ Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra 
 ![](assets/columns.png){width="70%" align="left"}
 
 Du kan sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen. För numeriska kolumner och datumkolumner anger uppilen att listan är sorterad i stigande ordning och nedpilen anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
+
+## Kontextuell hjälp och introduktionshandbok
+
+Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vill visa hjälpinformation och relaterade dokumentationslänkar.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8 Web. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Webbläsare som stöds {#browsers}
+
+Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
+
+## Språkinställningar {#language-pref}
+
+Användargränssnittet finns för närvarande på följande språk:
+
+* Engelska
+* Franska
+* Tyska
+* Italienska
+* Spanska
+* Portugisiska (Brasilien)
+* Japanska
+* Koreanska
+
+Standardspråket för gränssnittet avgörs av det språk du föredrar i användarprofilen.
+
+Så här byter du språk:
+
+* Klicka **Inställningar** från din avatar, längst upp till höger.
+   ![](assets/preferences.png)
+* Klicka sedan på det språk som visas under din e-postadress
+* Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
