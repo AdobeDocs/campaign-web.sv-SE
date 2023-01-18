@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen a
 
 ## Språkinställningar {#language-pref}
 
-Användargränssnittet finns för närvarande på följande språk:
+Campaign v8 Web finns för närvarande på följande språk:
 
 * Engelska (USA) - EN-US
 * Franska - FR
@@ -199,10 +199,16 @@ Standardspråket för gränssnittet avgörs av det språk du föredrar i använd
 
 Så här byter du språk:
 
-* Klicka **Inställningar** från din avatar, längst upp till höger.
-   ![](assets/preferences.png)
-* Klicka sedan på det språk som visas under din e-postadress
-* Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
+1. Klicka på din profilikon, längst upp till höger och välj sedan **Inställningar**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. Klicka sedan på det språk som visas under din e-postadress.
+
+   ![](assets/preferences2.png)
+
+1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
+
    ![](assets/select-language.png)
 
 <!--
