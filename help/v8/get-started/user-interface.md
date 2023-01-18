@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
+source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -184,14 +184,16 @@ Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen a
 
 Användargränssnittet finns för närvarande på följande språk:
 
-* Engelska
-* Franska
-* Tyska
-* Italienska
-* Spanska
-* Portugisiska (Brasilien)
-* Japanska
-* Koreanska
+* Engelska (USA) - EN-US
+* Franska - FR
+* Tyska - DE
+* Italienska - IT
+* Spanska - ES
+* Portugisiska (Brasilien) - PTBR
+* Japanska - JP
+* Koreanska - KR
+* Förenklad kinesiska - CHS
+* Traditionell kinesiska - CHT
 
 Standardspråket för gränssnittet avgörs av det språk du föredrar i användarprofilen.
 
