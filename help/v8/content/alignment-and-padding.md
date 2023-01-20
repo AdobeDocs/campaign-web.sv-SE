@@ -1,43 +1,37 @@
 ---
 audience: end-user
-title: Justera lodrät justering och utfyllnad i e-postdesignern
-description: Lär dig justera lodrät justering och utfyllnad
+title: Adjust vertical alignment and padding in Email Designer
+description: Learn how to adjust vertical alignment and padding
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
-
 ---
-
-# Justera lodrät justering och utfyllnad {#alignment-and-padding}
+# Adjust vertical alignment and padding {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-I det här exemplet justerar vi utfyllnad och lodrät justering inuti en strukturkomponent som består av tre kolumner.
+In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. Markera strukturkomponenten direkt i e-postmeddelandet eller med **[!UICONTROL Navigation tree]** i den vänstra rutan.
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
 
    ![](assets/alignment_1.png)
 
-1. I det sammanhangsberoende verktygsfältet klickar du på **[!UICONTROL Select a column]** och välj den som du vill redigera. Du kan också välja det i strukturträdet till vänster.
+1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
 
    ![](assets/alignment_2.png)
 
-1. De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Column settings]** till höger. Justera **[!UICONTROL Vertical alignment]** med det dedikerade avsnittet.
+1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
 
    ![](assets/alignment_3.png)
 
-   Välj till exempel **[!UICONTROL Bottom]**. Innehållskomponenten flyttas längst ned i kolumnen.
+   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
 
-1. Under **[!UICONTROL Padding]** definierar du den översta utfyllnaden i kolumnen och anger den vänstra och högra utfyllnaden för den kolumnen.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
 
    >[!NOTE]
    >
-   >Klicka på låsikonen om du vill bryta synkroniseringen mellan utfyllnaden längst upp/längst ned eller vänster/höger.
+   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
 
    ![](assets/alignment_4.png)
 
-1. Gör på samma sätt om du vill justera justeringen och utfyllnaden för de andra kolumnerna.
+1. Proceed similarly to adjust the other columns' alignment and padding.
 
-1. Spara ändringarna.
+1. Save your changes.

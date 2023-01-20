@@ -1,62 +1,56 @@
 ---
 audience: end-user
-title: Anpassa e-postbakgrunden
-description: Lär dig hur du anpassar din e-postbakgrund
+title: Personalize your email background
+description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 0%
-
 ---
-
-# Anpassa e-postbakgrunden {#backgrounds}
+# Personalize your email background {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Bakgrundsinställningar"
->abstract="Du kan anpassa bakgrundsfärgen eller bakgrundsbilden för innehållet. Observera att bakgrundsbilden inte stöds av alla e-postklienter."
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
-När det gäller att ange bakgrunder med e-postdesignern rekommenderar Adobe följande:
+When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
-1. Använd en bakgrundsfärg på e-postmeddelandets brödtext om det behövs i designen.
-1. Vanligtvis anger du bakgrundsfärger på kolumnnivå.
-1. Försök att inte använda bakgrundsfärger i bild- eller textkomponenter eftersom de är svåra att hantera.
+1. Apply a background color to the body of your email if required by your design.
+1. Usually, set background colors at the column level.
+1. Try not to use background colors on image or text components as they are difficult to manage.
 
-Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
+Below are the available background settings that you can use.
 
-* Ange en **[!UICONTROL Background color]** för hela e-postmeddelandet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra rutan.
+* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
-* Ange samma bakgrundsfärg för alla strukturkomponenter genom att markera **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
-* Ange olika bakgrundsfärger för varje strukturelement. Välj en struktur i navigeringsträdet till vänster om du bara vill använda en viss bakgrundsfärg på den strukturen.
+* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
+  >[!NOTE]
+  >
+  >Make sure you do not set a viewport background color as it may hide the structure background colors.
 
-* Ange en **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
+* Set a **[!UICONTROL Background image]** for the content of a structure component.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Vissa e-postprogram stöder inte bakgrundsbilder. Om det inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
+  >[!NOTE]
+  >
+  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
-* Ange en bakgrundsfärg på kolumnnivå.
+* Set a background color at the column level.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
+  >[!NOTE]
+  >
+  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
-   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
+  You can also set a background image at the column level, but this is rarely used.

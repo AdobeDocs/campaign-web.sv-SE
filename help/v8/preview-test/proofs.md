@@ -1,79 +1,73 @@
 ---
 audience: end-user
-title: Skicka testmeddelanden
-description: Lär dig hur du definierar och skickar testmeddelanden
+title: Send test emails
+description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
-
 ---
-
-# Skicka testmeddelanden {#send-proofs}
+# Send test emails {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Att skicka testmeddelanden är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem. Genom att skicka testmeddelanden kan du kontrollera olika element som länkar, avanmälningslänkar, bilder och spegelsidor samt upptäcka eventuella fel.
+Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 
-Testmeddelanden kan skickas till två typer av mottagare:
+Test emails can be sent to two types of recipients: 
 
-* **Testprofiler**: skicka testmeddelanden till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
+* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    
+* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
 
-* **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen tar emot.
+## Select the test recipients {#recipients}
 
-## Välj testmottagare {#recipients}
+1. Access the email content simulation screen, then click the **[!UICONTROL Test]** button.
 
-1. Öppna skärmen för simulering av e-postinnehåll och klicka sedan på **[!UICONTROL Test]** -knappen.
+    ![](assets/test-button.png)
 
-   ![](assets/test-button.png)
+1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
 
-1. Använd **[!UICONTROL Mode]** nedrullningsbar lista där du kan välja vilken typ av mottagare som ska få testmeddelandet:
+    * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
+    
+    * **Substitution from main target**: send the test email to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
-   * **Testprofiler**: skicka testmeddelandet till startadresser som är ytterligare och fiktiva mottagare i databasen,
+    ![](assets/test-mode.png)
 
-   * **Ersättning från huvudmål**: skicka testmeddelandet till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
 
-   ![](assets/test-mode.png)
+1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
 
-   >[!NOTE]
-   >
-   >Som standard är **[!UICONTROL Test profiles]** läge är valt. Om du redan har markerat profiler för att förhandsgranska e-postmeddelandet på innehållssimuleringsskärmen, markeras de profilerna som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare.
+    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
 
-1. Om du vill skicka testmeddelanden till ersättningsprofiler väljer du **[!UICONTROL Substitution from target]** gör du så här:
+        You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
 
-   1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress som tar emot testmeddelandet.
+    1. Select the profile from the target to use to send the test email. You can also let Adobe Campaign select a random profile from the target.
 
-      Du kan ange valfri e-postadress. Detta gör att du kan skicka testmeddelanden till alla användare, även om de inte är användare av Adobe Campaign V8.
+    1. Confirm the recipient and repeat the operation to add as many addresses as needed.
 
-   1. Välj den profil från målet som ska användas för att skicka testmeddelandet. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
+        ![](assets/substitution.png)
 
-   1. Bekräfta mottagaren och upprepa åtgärden för att lägga till så många adresser som behövs.
+1. Once the test recipients have been selected, you can send the test email. [Learn how to send test emails](#send)
 
-      ![](assets/substitution.png)
+    >[!NOTE]
+    >
+    >If you want to send the final email message to the recipients of the test email, enable the **[!UICONTROL Include test population in the main target]** option on.
 
-1. När testmottagarna har valts kan du skicka testmeddelandet. [Lär dig hur du skickar testmeddelanden](#send)
+## Send the test email {#send}
 
-   >[!NOTE]
-   >
-   >Om du vill skicka det sista e-postmeddelandet till mottagarna av testmeddelandet aktiverar du **[!UICONTROL Include test population in the main target]** på.
-
-## Skicka testmeddelandet {#send}
-
-Om du vill skicka testmeddelandet till de valda mottagarna klickar du på **[!UICONTROL Send test email]** bekräfta sändningen.
+To send the test email to the selected recipients, click **[!UICONTROL Send test email]** then confirm the sending.
 
 ![](assets/send-proof.png)
 
-Skicka så många testmeddelanden som behövs tills du är klar med innehållet. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
+Send as many test emails as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
 
-## Få tillgång till skickade testmeddelanden {#access-proofs}
+## Access sent test emails {#access-proofs}
 
-När testmeddelandena har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test email log]** -knappen.
+Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button.
 
-Med dessa loggar kan du få tillgång till alla testmeddelanden som skickats för den valda leveransen och visa specifik statistik som relaterar till deras sändning. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
+These logs allow you to access all the test emails sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Du kan även komma åt skickade testmeddelanden från leveranslistan, precis som vid alla leveranser.
+You can also access sent test emails from the deliveries list, like any delivery.
 
 ![](assets/delivery-list.png)

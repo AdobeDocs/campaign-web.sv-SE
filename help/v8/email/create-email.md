@@ -1,89 +1,83 @@
 ---
 audience: end-user
-title: Skicka ditt första e-postmeddelande
-description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
+title: Send your first email
+description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
-
 ---
-
-# Skicka ditt första e-postmeddelande {#first-email}
+# Send your first email {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
+Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-E-postmeddelandet bygger på en fördefinierad designmall och innehåller även anpassat innehåll baserat på kundprofilattribut.
+Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
-## Skapa e-postmeddelandet {#create-email}
+## Create the email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Välj en e-postmall"
->abstract="En e-postmall är en specifik leveranskonfiguration som innehåller fördefinierade inställningar, till exempel typologiregler, personalisering eller routningsparametrar. Mallar definieras i Campaign-klientkonsolen."
+>title="Select an email template"
+>abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-postegenskaper"
->abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
+>title="Email Properties"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. Om du vill skapa en ny leverans går du till **[!UICONTROL Deliveries]** meny och välj **[!UICONTROL Email]** som kanal.
+1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
 
-1. Markera den mall som du vill använda och klicka på **[!UICONTROL Create delivery]**.
+1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
 
-   >[!NOTE]
-   >
-   >Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. De kan skapas av administratörsanvändare i Adobe Campaign Console. [Lär dig hur du arbetar med leveransmallar](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+    >[!NOTE]
+    >
+    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   ![](assets/channel-template.png)
+    ![](assets/channel-template.png)
 
-1. Ange en etikett för e-postmeddelandet och konfigurera ytterligare alternativ baserat på dina behov:
+1. Provide a label for the email and configure additional options based on your needs:
 
-   * **[!UICONTROL Internal name]**: tilldela en unik identifierare till leveransen,
-   * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp,
-   * **[!UICONTROL Delivery code]**: Använd det här fältet för att ordna leveranser baserat på din egen namnkonvention,
-   * **[!UICONTROL Description]**: ange en beskrivning av leveransen,
-   * **[!UICONTROL Nature]**: Ange vilken typ av e-post det gäller för klassificeringsändamål.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
+    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-   >[!NOTE]
-   >
-   >Om du har utökat ditt schema med specifika anpassade fält kan du komma åt dem i **[!UICONTROL Custom options]** -avsnitt.
+    >[!NOTE]
+    >
+    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
 
-   ![](assets/email-properties.png)
+    ![](assets/email-properties.png)
 
-   Dessutom kan du komma åt avancerade inställningar, t.ex. typologiregler och målmappningar, genom att klicka på knappen bredvid leveransnamnet. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
+    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
-## Skapa e-postinnehåll {#create-content}
+## Create the email content {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Lär dig hur du utformar e-postinnehåll"
->abstract="Lär dig hur du använder e-postdesignern."
+>title="Learn how to design your email content"
+>abstract="Learn how to use the Email Designer."
 
-I det här fallet använder du en fördefinierad mall för att utforma e-postmeddelandet.
+In this use case, you use a predefined template to design our email.
 
-Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det här avsnittet](../content/edit-content.md).
+Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
-1. Klicka på knappen **[!UICONTROL Edit content]** -knappen.
+1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
 
-   Då kommer du till ett dedikerat gränssnitt där du kan konfigurera e-postinnehållet och utforma det med e-postdesignern.
+   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
-   ![](assets/edit-content.png)
+    ![](assets/edit-content.png)
 
-1. Ange ämnesraden i ditt e-postmeddelande och anpassa det med Expression Editor. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
+1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+    ![](assets/subject-line.png)
 
-1. Klicka på knappen **[!UICONTROL Edit email body]** -knappen.
+1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
 
-   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en fördefinierad designmall.
+    Choose the method to use to create your email content. In this example, use a predefined design template.
 
-   ![](assets/select-template.png)
+    ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -91,116 +85,116 @@ Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det 
 
     ![](assets/import-folder.png)-->
 
-1. När du har valt mallen visas den i e-postdesignern, där du kan göra nödvändiga ändringar och lägga till personalisering.
+1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
 
-   Om du till exempel vill lägga till en anpassning i e-posttiteln markerar du komponentblocket och klickar på **[!UICONTROL Add Personalization]**.
+    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png)
+    ![](assets/add-perso.png)
 
-1. När du är nöjd med innehållet sparar och stänger du designen. Klicka **[!UICONTROL Save]** för att återgå till skärmen där e-postmeddelanden skapas.
+1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
 
-   ![](assets/save-content.png)
+    ![](assets/save-content.png)
 
-## Definiera målgruppen {#define-audience}
+## Define the audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Definiera målgruppen"
->abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du skapa en ny målgrupp med regelbyggaren."
+>title="Define the audience"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
 
-I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp. Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
+In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
-1. Klicka på knappen **[!UICONTROL Select audience]** och välj en befintlig målgrupp i listan.
+1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 
-   I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör lojalitetsnivåerna silver och guld.
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-   ![](assets/create-audience.png)
+    ![](assets/create-audience.png)
 
-   >[!NOTE]
-   >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen av mål/källor har konfigurerats på din instans.
-   >
-   >Med integreringen Destination/Sources kan ni skicka segment från Experience Platform till Adobe Campaign och skicka loggar för leverans och spårning av kampanjer till Adobe Experience Platform. [Lär dig hur du arbetar med Campaign och Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+    >[!NOTE]
+    >
+    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
+1. Once the audience is selected, you can further refine the target by applying additional rules.
 
-   Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med dem som inte var det. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
+    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
-   ![](assets/audience-selected.png)
+    ![](assets/audience-selected.png)
 
-## Schemalägg sändningen {#schedule}
+## Schedule the sending {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Schemalägg sändningen"
->abstract="Ange datum och exakt tid för sändningen. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
+>title="Schedule the sending"
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
-Om du vill schemalägga sändning av e-post klickar du på **[!UICONTROL Enable]** och ange önskat datum och klockslag för sändningen.
+To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
 
-Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket kräver att du bekräftar att e-postmeddelandet ska skickas vid det schemalagda datumet och den schemalagda tidpunkten. Om du vill skicka e-postmeddelandet automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
 
 ![](assets/schedule.png)
 
-## Förhandsgranska och testa e-postmeddelandet {#preview-test}
+## Preview and test the email {#preview-test}
 
-Innan du skickar e-postmeddelandet kan du förhandsgranska och testa det för att kontrollera att det uppfyller dina förväntningar.
+Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-I det här fallet förhandsgranskar du e-postmeddelandet och skickar testversioner till specifika e-postadresser samtidigt som du personifierar vissa av målprofilerna.
+In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
 
-Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
+Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. Om du vill granska och skicka e-postmeddelandet klickar du på **[!UICONTROL Review and send]**. Då visas en förhandsgranskning av ditt e-postmeddelande tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element genom att klicka på knappen Ändra.
+1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. Om du vill förhandsgranska e-postmeddelandet och skicka testversioner klickar du på **[!UICONTROL Simulate content]** -knappen.
+1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
-   ![](assets/review-email.png)
+    ![](assets/review-email.png)
 
-1. Till vänster markerar du de profiler som du vill använda för att förhandsgranska e-postmeddelandet.
+1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
-   I den högra rutan visas en förhandsgranskning av e-postmeddelandet baserat på den valda profilen. Om du har lagt till flera profiler kan du växla mellan dem för att förhandsgranska motsvarande e-postmeddelande.
+    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Om du vill skicka testversioner av ditt e-postmeddelande klickar du på **[!UICONTROL Test]** väljer du sedan det läge som du vill använda.
+1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
-   I det här exemplet använder du **[!UICONTROL Substitute from main target]** läge, som skickar testversioner till specifika e-postadresser och personifierar några av profilerna som e-postmeddelandet riktar sig till.
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
-   ![](assets/proof-mode.png)
+    ![](assets/proof-mode.png)
 
-1. Klicka **[!UICONTROL Add address]** och ange den eller de e-postadresser som tar emot testversionerna.
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
-   För varje e-postadress väljer du den profil som ska personifieras. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
+    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
-   ![](assets/proof-test-profile.png)
+    ![](assets/proof-test-profile.png)
 
-1. Klicka **[!UICONTROL Send test email ]** och bekräfta sändningen.
+1. Click **[!UICONTROL Send test email ]** and confirm the sending.
 
-   Testversioner skickas till de angivna e-postadresserna med den valda profilen med **[Korrektur x]** prefix.
+    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
-   ![](assets/proof-sent.png)
+    ![](assets/proof-sent.png)
 
-   Du kan när som helst kontrollera status för det skickade e-postmeddelandet och få tillgång till det skickade testmeddelandet genom att klicka på **[!UICONTROL View test email log]** på skärmen för simulering av innehåll.
+    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
-## Skicka och övervaka e-postmeddelandet {#prepare-send}
+## Send and monitor the email {#prepare-send}
 
-När du har granskat och testat ditt e-postmeddelande kan du starta det och skicka det.
+After reviewing and testing your email, you can launch its preparation and send it.
 
-1. Klicka på **[!UICONTROL Prepare]**. [Lär dig hur du förbereder ett e-postmeddelande](../monitor/prepare-send.md)
+1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+    ![](assets/preparation.png)
+ 
+1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
 
-1. När e-postmeddelandet är klart att skickas klickar du på **[!UICONTROL Send]** knapp (eller **[!UICONTROL Send as scheduled]** om du har schemalagt sändning) och bekräfta sändningen.
+1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-1. Under sändningsprocessen kan du spåra dess förlopp och visa statistik i realtid direkt på den här skärmen.
+    ![](assets/sent-mail.png)
 
-   ![](assets/sent-mail.png)
+    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
-   Du kan även få tillgång till detaljerad information om sändningen genom att klicka på **[!UICONTROL Logs]** -knappen. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
-
-1. När e-postmeddelandet har skickats kan du få åtkomst till dedikerade rapporter för ytterligare analys genom att klicka på **[!UICONTROL Reporting]** -knappen.
+1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
 ![](assets/reports.png)

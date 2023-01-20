@@ -1,35 +1,29 @@
 ---
 audience: end-user
-title: Koda eget e-postinnehåll
-description: Lär dig koda ditt eget e-postinnehåll
+title: Code your own email content
+description: Learn how to code your own email content
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 0%
-
 ---
-
-# Koda eget innehåll {#code-content}
+# Code your own content {#code-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-Använd **[!UICONTROL Code your own]** läge för att importera obearbetat HTML och/eller koda ditt e-postinnehåll. Den här metoden kräver kunskaper i HTML.
+Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 
-1. På e-postdesignerns startsida väljer du **[!UICONTROL Code your own]**.
+1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
 
-   ![](assets/code-your-own.png)
+    ![](assets/code-your-own.png)
 
-1. Ange eller klistra in HTML-koden i Raw-format.
+1. Enter or paste your raw HTML code. 
 
-1. Använd den vänstra rutan för att utnyttja personaliseringsmöjligheterna.
+1. Use the left pane to leverage personalization capabilities.
 
-1. Om du vill öppna e-postdesignern för att starta e-postmeddelandet från en ny design väljer du **[!UICONTROL Change your design]** på Alternativ-menyn.
+1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
+    
+    ![](assets/code-editor-change-design.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
 
-1. Klicka på **[!UICONTROL Simulate content]** för att kontrollera meddelandets utformning och personalisering med testprofiler.
+1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
 
-1. När koden är klar klickar du på **[!UICONTROL Save]** går du tillbaka till skärmen för att skapa meddelanden för att slutföra meddelandet.
-
-   ![](assets/code-editor-save.png)
+    ![](assets/code-editor-save.png)

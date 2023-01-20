@@ -1,51 +1,71 @@
----
-source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
-workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+# Adobe Code of Conduct
 
----
-# Adobes uppförandekod
+## Our Pledge
 
-## Vårt löfte
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-För att främja en öppen och välkomnande miljö vill vi som medarbetare och ansvariga se till att engagemang och deltagande i vårt projekt och i vår community blir en upplevelse utan diskriminering för alla oavsett ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personlig stil, ras, religion eller sexuell identitet och läggning.
+## Our Standards
 
-## Våra standarder
+Examples of behavior that contributes to creating a positive environment
+include:
 
-Exempel på beteenden som bidrar till att skapa en positiv miljö är att:
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-* använda ett välkomnande och inkluderande språk
-* respektera olika synpunkter och erfarenheter
-* acceptera konstruktiv kritik på ett bra sätt
-* fokusera på vad som är bäst för communityn
-* visa empati mot andra communitymedlemmar
+Examples of unacceptable behavior by participants include:
 
-Exempel på oacceptabla beteenden från deltagarnas sida är att:
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-* använda ett sexualiserat språk eller liknande bilder och ej välkommen sexuell uppmärksamhet eller närmande
-* attackera med förolämpande/nedsättande kommentarer samt personliga eller politiska angrepp
-* trakassera både offentligt och privat
-* publicera andras personuppgifter såsom en fysisk eller elektronisk adress utan uttryckligt tillstånd
-* utföra annat beteende som rimligen kan anses olämpligt i en yrkesmässig miljö
+## Our Responsibilities
 
-## Vårt ansvar
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-Projektledare ansvarar för att förtydliga standarderna för ett godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder till följd av eventuella exempel på oacceptabla beteenden.
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
-Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor och andra bidrag som inte följer denna uppförandekod eller att tillfälligt eller permanent förbjuda medverkande på grund av andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
+## Scope
 
-## Omfång
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
-Denna uppförandekod gäller både inom projektutrymmen och i offentliga utrymmen när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress till projektet, publicera via ett officiellt konto i sociala medier eller agera som utsedd representant vid ett evenemang både online och offline. Projektledarna kan ytterligare definiera och förtydliga hur ett projekt ska representeras.
+## Enforcement
 
-## Verkställande
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at Grp-opensourceoffice@adobe.com. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
 
-Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan rapporteras via projektgruppen på Grp-opensourceoffice@adobe.com. Alla klagomål granskas, undersöks och resulterar i ett svar som bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektteamet är skyldigt att upprätthålla sekretess vad gäller den som rapporterar om en incident.
-Ytterligare information om specifika verkställande policyer kan publiceras separat.
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
 
-Projektledare som i god tro inte följer eller tillämpar uppförandekoden kan drabbas av tillfälliga eller permanenta konsekvenser som fastställs av andra medlemmar i projektets ledarskap.
+## Attribution
 
-## Tillskrivning
-
-Denna uppförandekod har anpassats från [Contributor Covenant](https://contributor-covenant.org) version 1.4 som finns på [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

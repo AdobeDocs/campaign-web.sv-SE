@@ -1,18 +1,12 @@
 ---
 audience: end-user
-title: Uppdateringar av Campaign Web v8-dokumentation
-description: Uppdateringar av Campaign Web v8-dokumentation
+title: Campaign Web v8 Documentation updates
+description: Campaign Web v8 Documentation updates
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
-hidefromtoc: true
-source-git-commit: 03d32d419cfd77b73d90de2e087ab6a67edbaf55
-workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
-
+hidefromtoc: yes
 ---
-
-# Dokumentationsuppdateringar {#latest-updates}
+# Documentation updates {#latest-updates}
 
 ![](../assets/do-not-localize/badge.png)
 
-På den här sidan visas alla dokumentationsuppdateringar för Campaign v8 Web.
+This page lists all the documentation updates for Campaign v8 Web.

@@ -1,61 +1,54 @@
----
-source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
-workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+# Contribute article
 
----
-# Artikel om att bidra
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
 
-Vi välkomnar bidrag från både vårt community och från anställda hos Adobe utanför dokumentationsteamen.
+## Adobe Open Source Code of Conduct
 
-## Adobes uppförandekod gällande öppen källkod
-
-Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
 
-## Om dina bidrag till innehåll hos Adobe
+## About your contributions to Adobe content
 
-Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
+How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
-### Mindre ändringar
+### Minor changes
 
-Om du bidrar med mindre uppdateringar, för att du helt enkelt vill, bör du gå till artikeln och klicka på länken **Redigera** i den som sedan tar dig till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for more information.
 
-Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
-### Större ändringar eller nya artiklar från communitymedlemmar
+### Major changes or new articles from community members
 
-Om du är en del av Adobes community och vill skapa en ny artikel eller skicka in större ändringar ska du använda fliken Problem i Git-databasen för att skicka in ett problem och påbörja en konversation med dokumentationsteamet. När du har gått med på en plan måste du arbeta med en anställd för att skapa det nya innehållet genom en kombination av arbete i de offentliga och privata databaserna.
+If you're part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you'll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Stora förändringar från anställda hos Adobe
+### Major changes from Adobe Employees
 
-Om du är teknikskribent, programchef eller utvecklare för en lösning i Adobe Experience Cloud och det är ditt jobb att bidra till eller skriva tekniska artiklar bör du använda den privata databasen på `https://git.adobe.com/AdobeDocs`.
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## Verktyg och inställningar
+## Tools and setup
 
-Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for details.
 
-## Så använder du markdown för att formatera ditt ämne
+## How to use markdown to format your topic
 
-Alla artiklar i den här databasen använder GitHub-anpassad markdown. Om du inte är van vid markdown bör du läsa:
+All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-* [Grunderna i markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Utskrivbar lathund för markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Etiketter
+## Labels
 
-I den offentliga databasen tilldelas pull-begäranden automatiska etiketter, vilket hjälper oss att hantera arbetsflödet med pull-begäranden och hjälper dig att ta reda på vad som pågår med din pull-begäran:
+In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
-* **Ändringen har skickats till författaren**: författaren har underrättats om den väntande pull-begäran.
-* **redo för sammanslagning**: redo för granskning av vårt team som granskar pull-begäranden.
+* **Change sent to author**: The author has been notified of the pending pull request.
+* **ready-to-merge**: Ready for review by our pull request review team.

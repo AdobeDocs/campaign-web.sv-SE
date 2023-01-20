@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: Förbered och skicka ett e-postmeddelande
-description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
+title: Prepare and send an email
+description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 4%
-
 ---
-
-# Förbered och skicka e-post {#prepare-send}
+# Prepare and send your email {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Förbered och skicka e-post"
->abstract="Upptäck hur du förbereder e-postmeddelandet och lär dig mer om hur du skickar nyckeltal."
+>title="Prepare and send your email"
+>abstract="Discover how to prepare your email and learn more about sending KPIs."
 
 <!--
 
@@ -32,66 +26,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Förbered sändningen{#prepare}
+## Prepare the send{#prepare}
 
-När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att ta fram ert budskap. Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och klockslaget. Valideringsreglerna som används vid analysen beskrivs i [Campaign Classic v7-dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
-Följ stegen nedan:
+Follow the steps below: 
 
-1. Klicka på **Förbered** i det övre högra hörnet och bekräfta.
+1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
 
-   ![](assets/prepare.png)
+    ![](assets/prepare.png)
 
-   Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
+   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
-   >[!NOTE]
-   >
-   >Du kan när som helst avbryta beredningen med **Stoppa förberedelse** -knappen. Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
+    >[!NOTE]
+    >
+    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
 
-1. Kontrollera KPI:erna när färdigställandet är klart. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
+1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
 
-   ![](assets/prepare2.png)
+    ![](assets/prepare2.png)
+    
+    Here are the different KPIs displayed:
 
-   Här visas olika KPI:er:
+    * **Targeted**: the number of recipients targeted
+    * **To deliver**: the number of messages that will be sent 
+    * **To exclude**: the number of messages excluded by a typology rule
 
-   * **Målinriktad**: antalet mottagare
-   * **Att leverera**: antalet meddelanden som ska skickas
-   * **Att exkludera**: antalet meddelanden som utelämnats av en typologiregel
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
 
-1. Klicka på **Loggar** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. Mer information finns i [det här avsnittet](delivery-logs.md).
+    ![](assets/prepare-logs.png)
 
-   ![](assets/prepare-logs.png)
-
-Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
+If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
 
 ![](assets/prepare-error.png)
 
-Om du behöver göra några ändringar i leveransen efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
+If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
 
-När färdigställandet är klart utan fel är ditt meddelande klart att skickas. Mer information finns i [det här avsnittet](#send).
+Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
 
-## Skicka meddelandet{#send}
+## Send the message{#send}
 
-När färdigställandet är klart kan du nu skicka ditt meddelande. Det här steget krävs bara för meddelanden som skickas omedelbart. Om meddelandet är schemalagt skickas det vid angivet datum.
+Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
 
-Följ de här stegen:
+Follow these steps:
 
-1. Klicka på **Skicka** i det övre högra hörnet och bekräfta.
+1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
 
-   ![](assets/send.png)
+    ![](assets/send.png)
 
-1. Sändningsförloppet visas. Kontrollera de KPI:er som visas. Du kan också kontrollera loggarna. Mer information finns i [det här avsnittet](delivery-logs.md).
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
 
-   ![](assets/send2.png)
+    ![](assets/send2.png)
 
-   Här visas olika KPI:er:
+    Here are the different KPIs displayed:
 
-   * **Levererat**: antalet meddelanden som har levererats. Procentandelen som visas baseras på det totala antalet skickade meddelanden.
-   * **Öppnar**: antalet öppnade meddelanden. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden.
-   * **Klickningar**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden.
+    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
+    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
 
-   >[!NOTE]
-   >
-   >The **Öppnar** och **Klickningar** indikatorerna uppdateras efter 5 minuter.
+    >[!NOTE]
+    >
+    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
 
-   Du kan när som helst pausa sändningen och sedan återuppta den. Om du avbryter leveransen medan den skickas kan du inte återuppta den.
+   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.

@@ -1,47 +1,41 @@
 ---
 audience: end-user
-title: Versionsinformation för Campaign Web v8
-description: Versionsinformation för Campaign Web v8
+title: Campaign Web v8 Release Notes
+description: Campaign Web v8 Release Notes
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
-workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
-
 ---
-
-# Versionsinformation {#release-notes}
+# Release Notes {#release-notes}
 
 ![](../assets/do-not-localize/badge.png)
 
-Den här sidan innehåller alla de senaste funktionerna och förbättringarna för Campaign Web v8.
+This page lists all the latest features and improvements for Campaign Web v8. 
 
-## Alfaversion{#alpha-release}
+## Alpha release{#alpha-release}
 
-Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt för **Alfahandledare** med följande funktioner:
+This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
 
-**Modern, intuitiv och enhetlig upplevelse**
+**Modern, intuitive and unified experience**
 
-Campaign new Web UI erbjuder en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
+Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
 
-* Tillgång till det nya gränssnittet och andra Adobe-lösningar med en enda delad användarsession
-* Ny navigeringsupplevelse med alla menyer och mappar tillgängliga från den vänstra listen
-* Lösnings- och organisationsväljare från det övre fältet
-* Integrering med Enhetligt gränssnitt, med direktåtkomst till communityn, hjälpcentret och supporten
+* Access to the new interface and other Adobe solutions with a single and shared user session
+* New navigation experience, with all menus and folders available from the left rail
+* Solution and organization switchers from the top bar
+* Unified Shell integration, with a direct access to community, help center, and support
 <!--
 No search and pulse notifications in Alpha
 -->
 
-Läs mer om det nya användargränssnittet i [den här sidan](../get-started/user-interface.md).
+Learn more about the new UI in [this page](../get-started/user-interface.md).
 
-**Skapa, starta och mät din e-postkampanj**
+**Create, launch and measure your email campaign**
 
-Använd det nya webbgränssnittet för Campaign för att:
+Use the new Campaign Web UI to:
 
-* Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
-* Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
-* Förhandsgranska, testa och skicka e-postmeddelanden - [Läs mer](../monitor/prepare-send.md)
-* Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/reports.md)
+* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
+* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -51,14 +45,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Observera att flerkanalskampanjer och funktioner för hantering av arbetsflöden kommer att vara tillgängliga i betaversionen.
+>Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
 
-## Uppdateringar om terminologi
+## Terminology updates
 
-Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web-gränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
-* Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturmålet kallas nu **Testprofiler**
-* Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen
-* Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** knapp
-* E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
-* Listor finns nu **Målgrupper**
+* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**
+* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database
+* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
+* Email Preview is now available throught the **Simulate content** button
+* Lists are now **Audiences**

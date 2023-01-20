@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: Leveransrapporter
-description: Lär dig hur du får åtkomst till och använder leveransrapporter
+title: Delivery reports
+description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
 ---
-
-# Leveransrapporter {#reports}
+# Delivery reports {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -20,60 +14,60 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign erbjuder flera typer av rapporter som är tillgängliga för varje leverans. Med hjälp av de här rapporterna kan du mäta och visualisera effekten och prestandan av dina meddelanden på en inbyggd kontrollpanel.
+Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
-Så här visar du rapporter:
+To display reports, follow these steps:
 
-1. Få tillgång till din e-postleverans och klicka på **Rapport** -knappen.
+1. Access your email delivery and click the **Report** button.
 
-   ![](assets/reporting.png)
+    ![](assets/reporting.png)
 
-1. Välj en rapport från listan på den vänstra menyn.
+1. From the left menu, select a report from the list.
 
-   ![](assets/reporting2.png){width="70%" align="left"}
+    ![](assets/reporting2.png){width="70%" align="left"}
 
-## Skickar
+## Sending
 
-* **Sammanfattning av leverans**: Den här rapporten innehåller all huvudinformation om leveransen. Målgrupp, orsaker till uteslutning, leveransstatistik.
+* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
 
-   ![](assets/reporting3.png)
+    ![](assets/reporting3.png)
 
-* **Leveransflöde**: Den här rapporten innehåller information om leveransflöde för en viss period. För att mäta den hastighet med vilken meddelandena levereras är kriterierna antalet meddelanden som skickas per timme och meddelandets storlek (i bitar per sekund). I exemplet nedan visar det första diagrammet de lyckade leveranserna i blått och antalet felaktiga leveranser i orange.
+* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
 
-   ![](assets/reporting3bis.png)
+    ![](assets/reporting3bis.png)
 
-* **Sändningsstatistik**: Den här rapporten visar hur alla meddelanden som bearbetas och skickas har delats upp per Internetdomän, både när det gäller hårda och mjuka studsar, öppningar, klick och prenumerationer.
+* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
 
-   ![](assets/reporting4.png)
+    ![](assets/reporting4.png)
 
-* **Ej levererbara produkter och studsar**: I den här rapporten visas uppdelningen av icke-levererbara produkter samt en uppdelning av studenterna per Internetdomän.
+* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
 
-   ![](assets/reporting5.png)
+    ![](assets/reporting5.png)
 
-## Spåra
+## Tracking
 
-* **Spårningsindikatorer**: I den här rapporten kombineras de viktigaste indikatorerna för att spåra mottagarnas beteende när de tar emot leveransen. Den ger tillgång till leverans- och mottagningsstatistik, öppnings- och klickfrekvens, genererade klickströmmar, webbspårning samt delar aktiviteter till sociala nätverk.
+* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
 
-   ![](assets/reporting6.png)
+    ![](assets/reporting6.png)
 
-* **URL:er och klickbara strömmar**: Den här rapporten innehåller en lista över besökta sidor efter en leverans.
+* **URLs and click streams**: This report shows the list of pages visited following a delivery.
 
-   ![](assets/reporting7.png)
+    ![](assets/reporting7.png)
 
-* **Användaraktiviteter**: Den här rapporten visar hur öppningar och klickningar per halvtimme, timme eller dag delas upp i ett diagram.
+* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
 
-   ![](assets/reporting8.png)
+    ![](assets/reporting8.png)
 
-* **Spårningsstatistik**: Den här rapporten innehåller statistik om öppningar och klick.
+* **Tracking Statistics**: This report provides statistics on opens and clicks.
 
-   ![](assets/reporting9.png)
+    ![](assets/reporting9.png)
 
-* **Indelning av öppningar**: Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
+* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-   ![](assets/reporting10.png)
+    ![](assets/reporting10.png)
 
-## Klickningar
+## Hotclicks
 
-Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personalisering blockerar prenumerationslänkar, länkar till spegelsidor och erbjudandelänkar som tas med i beräkningen i det totala antalet klickningar, men visas inte i rapporten.
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 
 ![](assets/reporting11.png)

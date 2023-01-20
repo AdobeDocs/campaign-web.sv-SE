@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: Övervaka leveransloggar
-description: Lär dig övervaka leveransloggar
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 21%
-
 ---
-
-# Övervaka leveransloggar {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Leveransloggar"
+>title="Delivery logs"
 >abstract="TBC"
 
-När du har förberett och skickat ett e-postmeddelande kan du med hjälp av leveransloggarna verifiera att det inte finns något fel. Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-Om du vill visa loggarna öppnar du kontrollpanelen för leverans och klickar på **Loggar** -knappen.
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-Flera flikar är tillgängliga:
+Several tabs are available:
 
-## Loggar
+## Logs
 
-The **Loggar** -fliken innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar.    
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandetypen:
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* Den grå ikonen visar ett informativt meddelande.
-* Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
-* Den röda ikonen anger ett kritiskt fel som förhindrar leverans.
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## Leveranser
+## Deliveries
 
-The **Skicka loggar** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## Undantag
+## Exclusions
 
-The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från målet och orsaken till sändningsfelet anges.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## Uteslutningsorsaker
+## Exclusion causes
 
-The **Uteslutningsorsaker** -fliken visar volymen (i antal meddelanden) för meddelanden som har uteslutits från målet.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## Spårade URL:er
+## Tracked URLs
 
-The **Spårade URL:er** På fliken grupperas URL:erna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-## Spåra
+## Tracking
 
-The **Spårning** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsdata för skickade meddelanden, d.v.s. alla URL:er som spåras av Adobe Campaign.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->Om spårning inte är aktiverat för en leverans visas inte den här fliken.
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)
