@@ -1,30 +1,36 @@
 ---
 audience: end-user
-title: Import your email content
-description: Learn how to import email content
+title: Importera e-postinnehåll
+description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
+
 ---
-# Import your email content {#existing-content}
+
+# Importera e-postinnehåll {#existing-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-The Email designer allows you to import existing HTML content. This content can be:
+Med e-postdesignern kan du importera befintligt HTML-innehåll. Innehållet kan vara:
 
-* An **HTML file** with an incorporated style sheet,
-* A **.zip folder** with the HTML file, the style sheet (.css) and images.
+* An **HTML-fil** med en infogad formatmall,
+* A **ZIP-mapp** med HTML-filen, formatmallen (.css) och bilderna.
 
-    >[!NOTE]
-    >
-    >There are no constraints on the .zip file structure. However, references must to be relative and fit with the tree structure of the .zip folder.
+   >[!NOTE]
+   >
+   >ZIP-filstrukturen har inga begränsningar. Referenserna måste dock vara relativa och passa med trädstrukturen i ZIP-mappen.
 
-To import a file containing HTML content, follow the steps below:
+Om du vill importera en fil som innehåller HTML-innehåll följer du stegen nedan:
 
-1. In the Email Designer home page, select **[!UICONTROL Import HTML]**.
+1. På e-postdesignerns startsida väljer du **[!UICONTROL Import HTML]**.
 
-    ![](assets/import-html_2.png)
+   ![](assets/import-html_2.png)
 
-1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
+1. Dra och släpp HTML- eller ZIP-filen med HTML och klicka på **[!UICONTROL Import]**.
 
-1. Once the HTML content is uploaded, you can leverage the Email Designer capabilities to edit and preview your email. [Learn more in this section](create-email-content.md).
+1. När HTML-innehållet har överförts kan du använda e-postdesignerns funktioner för att redigera och förhandsgranska e-postmeddelandet. [Läs mer i det här avsnittet](create-email-content.md).
 
-    ![](assets/html-imported.png)
+   ![](assets/html-imported.png)

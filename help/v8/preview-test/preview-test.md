@@ -1,25 +1,32 @@
 ---
 audience: end-user
-title: About email preview and test
-description: Learn how to preview and test emails
+title: Förhandsgranska och testa e-post
+description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
+
 ---
-# About email preview and test {#about-preview-proofs}
+
+# Förhandsgranska och testa e-post {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
+Innan du skickar ett e-postmeddelande är det viktigt att du granskar och testar innehållet för att se till att det är korrekt och fritt från fel i innehålls- eller personaliseringsinställningarna.
 
-To do this, Adobe Campaign allows you to:
+För att göra detta kan Adobe Campaign
 
-* [Preview the email content and personalization](#preview),
+* [Förhandsgranska e-postinnehållet och personaliseringen](#preview),
+
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send test emails](#send-proofs) to specific recipients for testing and validation.
+* [Skicka testmeddelanden](#send-proofs) till specifika mottagare för testning och validering.
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+Dessa åtgärder kan utföras från **[!UICONTROL Simulate content]** som är tillgänglig när du skapar innehållet i e-postmeddelandet från e-postdesignern:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
+>Innehållssimulering är också tillgängligt i leveranssammanfattningen när du klickat på **[!UICONTROL Review and send]** -knappen.

@@ -1,27 +1,33 @@
 ---
 audience: end-user
-title: Test email rendering
-description: Learn how to test your email rendering in Campaign Web UI
+title: Testa e-poståtergivning
+description: Lär dig hur du testar din e-poståtergivning i webbgränssnittet för Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
+
 ---
-# Test the email rendering {#rendering}
+
+# Testa e-poståtergivningen {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
+Innan du skickar e-postmeddelandet måste du se till att det visas för mottagarna på ett optimalt sätt på en mängd olika webbklienter, webbmejl och enheter.
 
-To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
+För att göra detta kan du i Adobe Campaign förhandsgranska det skickade meddelandet i de olika sammanhang där det kan tas emot och kontrollera kompatibiliteten i de flesta datorer och program (webbpost, meddelandetjänst, mobil etc.).
 
-To test the email rendering, follow these steps:
+Så här testar du e-poståtergivningen:
 
-1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+1. Öppna skärmen för att skapa e-postinnehåll och klicka sedan på **[!UICONTROL Simulate content]**.
 
-1. Click the **[!UICONTROL Render email]** button.
+1. Klicka på knappen **[!UICONTROL Render email]**.
 
-    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+   I den vänstra rutan finns olika skrivbordsbaserade, mobila och webbaserade e-postklienter. Välj önskad e-postklient för att visa en förhandsgranskning av din e-post i den högra rutan.
 
-    ![](assets/render-context.png)
+   ![](assets/render-context.png)
 
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+   >[!NOTE]
+   >
+   >E-postklientlistan innehåller ett exempel på de större e-postklienterna. Ytterligare e-postklienter är tillgängliga från filterknappen bredvid det övre sökfältet.

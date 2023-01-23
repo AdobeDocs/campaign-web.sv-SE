@@ -1,30 +1,36 @@
 ---
 audience: end-user
-title: Add inline styling attributes
-description: Learn how to add inline styling attributes
+title: Lägg till textbundna formatattribut
+description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 0%
+
 ---
-# Add inline styling attributes {#adding-inline-styling-attributes}
+
+# Lägg till textbundna formatattribut {#adding-inline-styling-attributes}
 
 ![](../assets/do-not-localize/badge.png)
 
-In the Email Designer interface, when you select an element and display its settings on the right pane, you can customize the inline attributes and their value for that specific element.
+När du markerar ett element i e-postdesignergränssnittet och visar dess inställningar i den högra rutan, kan du anpassa infogade attribut och deras värde för det specifika elementet.
 
-1. Select an component directly in your content or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. Markera en komponent direkt i innehållet eller med **[!UICONTROL Navigation tree]** i den vänstra rutan.
 
-1. From the **[!UICONTROL Component settings]** menu on the right, look for the **[!UICONTROL Styles Inline]** section.
+1. Från **[!UICONTROL Component settings]** till höger, sök efter **[!UICONTROL Styles Inline]** -avsnitt.
 
    ![](assets/styles_1.png)
 
-1. Modify the values of the existing attributes.
+1. Ändra värdena för de befintliga attributen.
 
-1. You can add new properties using the **+** button. You can add any attribute and value that is CSS-compliant.
+1. Du kan lägga till nya egenskaper med **+** -knappen. Du kan lägga till alla attribut och värden som är CSS-kompatibla.
 
    ![](assets/styles_2.png)
 
-The styling is applied to the selected element.
+Formateringen används på det markerade elementet.
 
 >[!NOTE]
 >
->If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+>Om de underordnade elementen inte har några definierade formatattribut ärvs det överordnade elementets formatering.
 

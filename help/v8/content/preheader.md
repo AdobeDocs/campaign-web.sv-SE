@@ -1,46 +1,52 @@
 ---
 audience: end-user
-title: Add a preheader in the Email Designer
-description: Learn how to design your emails content
+title: Lägg till en förrubrik i e-postdesignern
+description: Lär dig hur du utformar e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 0%
+
 ---
-# Add a preheader {#preheader}
+
+# Lägga till en förrubrik {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adding a preheader"
->abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+>title="Lägga till en förrubrik"
+>abstract="En preheader är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från din e-postklient. I många fall ger den en kort sammanfattning av e-postmeddelandet och är vanligtvis en mening lång."
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
+En preheader är en kort sammanfattningstext som följer efter ämnesraden när du visar ett e-postmeddelande från din e-postklient.
 
-In many cases, it provides a short summary of the email, and is typically one sentence long. 
+I många fall ger den en kort sammanfattning av e-postmeddelandet och är vanligtvis en mening lång.
 
 >[!NOTE]
 >
->Preheaders are not supported by all email clients. When not supported, the preheader does not display.
+>Förhuvuden stöds inte av alla e-postklienter. Om det inte stöds visas inte prerubriken.
 
-To define the email preheader, follow the steps below:
+Följ stegen nedan för att definiera e-postprerubriken:
 
-1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
+1. Lägg till minst en **[!UICONTROL Structure components]** för att börja designa din e-post.
 
-1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
+1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
 
-    ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+1. Från **[!UICONTROL Body settings]** den högra rutan klickar du på redigeringsikonen bredvid **[!UICONTROL Preheader]** fält för att lägga till innehåll.
 
-    ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png)
 
-1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
+1. Lägg till din förrubrik. Du kan anpassa den ytterligare genom att klicka på **[!UICONTROL Add personalization]** ikon.
 
-    ![](assets/preheader_3.png)
+   ![](assets/preheader_3.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
+1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** eller **[!UICONTROL Personalization fields]**.
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
+1. Klicka **[!UICONTROL Validate]** för att kontrollera din personaliseringssyntax.
 
-1. Click **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
-Your preheader is now configured for your email.
+Din förrubrik har nu konfigurerats för din e-post.

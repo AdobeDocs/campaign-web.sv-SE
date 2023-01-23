@@ -1,53 +1,46 @@
-# Contributing
+---
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
-Thanks for choosing to contribute!
+---
+# Bidrar
 
-The following are a set of guidelines to follow when contributing to this project.
+Tack för att du väljer att bidra!
 
-## Code Of Conduct
+Nedan följer ett antal riktlinjer som du kan följa när du bidrar till projektet.
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
+## Regler för uppförande
+
+Detta projekt följer Adobes [uppförandekod](code-of-conduct.md). Genom att delta förväntas du respektera den här koden. Rapportera oacceptabla beteenden till
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Contributor Guide Documentation
+## Dokumentation för Contributor-handboken
 
-See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Se [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-## Have A Question?
+## Har du en fråga?
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+Börja med att lämna in ett ärende. Befintliga committers i detta projekt arbetar för att nå samförstånd om projektriktning och utfärda lösningar inom problemtrådar (när det är lämpligt).
 
-## Contributor License Agreement
+## Licensavtal för deltagare
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat licensavtal för bidragsgivare. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. [Signera vårt CLA](http://opensource.adobe.com/cla.html). Du behöver bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
 
-## Code Reviews
+## Kodgranskningar
 
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Alla inskick ska ske som pull-begäranden och måste granskas av projektansvariga. Mer information om hur du skickar pull-begäranden finns i [dokumentationen för GitHub](https://help.github.com/articles/about-pull-requests/).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## From Contributor To Committer
+## Från medarbetare till committer
 
-We love contributions from our community! If you'd like to go a step beyond contributor
-and become a committer with full write access and a say in the project, you must
-be invited to the project. The existing committers employ an internal nomination
-process that must reach lazy consensus (silence is approval) before invitations
-are issued. If you feel you are qualified and want to get more deeply involved,
-feel free to reach out to existing committers to have a conversation about that.
+Vi älskar bidrag från vår community! Om du vill gå ett steg längre än medverkande och bli committer med fullständig skrivbehörighet och en medarbetare i projektet måste du bli inbjuden till projektet. Befintliga committers använder en intern nomineringsprocess som måste uppnå lat samförstånd (tystnad är godkännande) innan inbjudningar utfärdas. Om du anser att du är kvalificerad och vill bli mer involverad kan du kontakta befintliga committers för att diskutera det.
 
-## Security Issues
+## Säkerhetsproblem
 
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Säkerhetsproblem ska inte rapporteras i den här felspåraren. Istället [skicka ett ärende till våra säkerhetsexperter](https://helpx.adobe.com/security/alertus.html)

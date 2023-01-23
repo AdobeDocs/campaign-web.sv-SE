@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Track your messages
-description: Learn how to add links and track sent messages
+title: Spåra meddelanden
+description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 0%
+
 ---
-# Add links and track messages {#tracking}
+
+# Lägga till länkar och spåra meddelanden {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
+Använd e-postdesignern för att lägga till länkar till ditt innehåll och spåra meddelanden som skickas för att övervaka mottagarnas beteende.
 
-## Insert links {#insert-links}
+## Infoga länkar {#insert-links}
 
-When designing a message, you can add links to your content.
-
->[!NOTE]
->
->When tracking is enabled, all links included in the message content are tracked.
-
-To insert links into your email content, follow the steps below:
-
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
-
-    ![](assets/message-tracking-insert-link.png)
-
-1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
-
-1. Save your changes.
-
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
-
-    * You can edit the link and change its **[!UICONTROL Target]**.
-    * You can choose to underline the link or not by checking the corresponding option.
-
-    ![](assets/message-tracking-link-settings.png)
+När du utformar ett meddelande kan du lägga till länkar till innehållet.
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
+>När spårning är aktiverat spåras alla länkar i meddelandeinnehållet.
 
-## Link to a mirror page {#mirror-page}
+Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
 
-To add a link to a mirror page in your email:
+   ![](assets/message-tracking-insert-link.png)
 
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+1. Lägg till en **[!UICONTROL Label]** och **[!UICONTROL Link]**.
 
-    ![](assets/message-tracking-mirror-page.png)
+1. Spara ändringarna.
 
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+1. När länken har skapats kan du fortfarande ändra den från **[!UICONTROL Component settings]** till höger.
 
-    ![](assets/message-tracking-mirror-page_2.png)
+   * Du kan redigera länken och ändra dess **[!UICONTROL Target]**.
+   * Du kan välja att stryka under länken eller inte genom att markera motsvarande alternativ.
 
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+   ![](assets/message-tracking-link-settings.png)
 
-    ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>E-postmeddelanden av marknadsföringstyp måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden. Meddelandekategorin (**[!UICONTROL Marketing]** eller **[!UICONTROL Transactional]**) definieras vid kanalens ytnivå (dvs. meddelandeförinställning) och när meddelandet skapas.
 
-The mirror page is automatically created.
+## Länka till en spegelsida {#mirror-page}
+
+Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med innehållet i ditt e-postmeddelande.
+
+Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
+
+1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Välj **[!UICONTROL Insert link]** -ikonen för att komma åt personaliseringsmenyn.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. Från **[!UICONTROL Content block]** meny, välja **[!UICONTROL Mirror page URL]** och klicka **[!UICONTROL Add]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
+
+Spegelsidan skapas automatiskt.
 
 >[!IMPORTANT]
 >
->Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
+>Länkar för spegelsidor genereras automatiskt och kan inte redigeras. De innehåller alla krypterade, personliga data som krävs för att återge det ursprungliga e-postmeddelandet. Om du använder anpassade attribut med stora värden kan det därför generera långa URL-adresser för spegelsidor, vilket kan förhindra länken från att fungera i webbläsare som har en maximal URL-längd.
 
-Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+När e-postmeddelandet har skickats visas innehållet i e-postmeddelandet i sin standardwebbläsare när mottagarna klickar på länken för spegelsidan.
 
 >[!NOTE]
 >
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>I det testmeddelande som skickas till testprofilerna är länken till spegelsidan inte aktiv. Den aktiveras endast i de slutliga meddelandena.
 
-The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
+Kvarhållningsperioden för en spegelsida är 60 dagar. Efter den fördröjningen är spegelsidan inte längre tillgänglig.
 
-## Manage tracking {#manage-tracking}
+## Hantera spårning {#manage-tracking}
 
-The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
+The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade URL-adresser, till exempel redigera spårningstypen för varje länk.
 
-1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
+1. Klicka på **[!UICONTROL Links]** i den vänstra rutan för att visa en lista över alla URL:er för ditt innehåll som ska spåras.
 
-    This list enables you to have a centralized view and to locate each URL in the email content.
+   Med den här listan kan du ha en centraliserad vy och hitta varje URL i e-postinnehållet.
 
-1. To edit a link, click the corresponding pencil icon.
+1. Om du vill redigera en länk klickar du på motsvarande pennikon.
 
-    ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png)
 
-1. You can modify the **[!UICONTROL Tracking Type]** if needed:
+1. Du kan ändra **[!UICONTROL Tracking Type]** vid behov:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-    For each tracked URL, you can set the tracking mode to one of these values:
+   För varje spårad URL kan du ange spårningsläget till något av följande värden:
 
-    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
-    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
-    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
-    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Tracked]**: Aktiverar spårning på denna URL.
+   * **[!UICONTROL Opt out]**: Betraktar denna URL som en avanmälnings- eller avanmälnings-URL.
+   * **[!UICONTROL Mirror page]**: Den här URL:en är en URL för en spegelsida.
+   * **[!UICONTROL Never]**: Aktiverar aldrig spårning av den här URL:en. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
+1. Lägg till en **[!UICONTROL Category]** till länken för att gruppera spårade länkar och klicka på **[!UICONTROL Save]**.
 
-    ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png)
 
-1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)
+1. När leveransen är klar öppnar du leveransrapporten. Under **[!UICONTROL Tracking]** -menyn, **[!UICONTROL URLs and click streams]** rapporten visar vilka URL:er från din leverans som är mest besökta. [Läs mer](../reporting/reports.md)

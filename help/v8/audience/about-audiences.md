@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Get started with audiences
-description: Learn how to use audiences in Campaign Web UI
+title: Kom igång med målgrupper
+description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
+
 ---
-# Get started with audiences {#about-audiences}
+
+# Kom igång med målgrupper {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with audiences"
->abstract="Learn how to manage audience for your email content."
+>title="Kom igång med målgrupper"
+>abstract="Lär dig hur du hanterar målgrupper för ditt e-postinnehåll."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -34,13 +40,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
+I det här avsnittet får du lära dig hur du definierar målgruppen för e-postmeddelanden. Målgruppen är er leverans: de mottagare som tar emot e-postmeddelandet. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Se det här [section](../email/create-email.md).
 
-To define the audience, you can:
+Om du vill definiera målgruppen kan du:
 
-* use an existing audience, see this [section](add-audience.md).
-* create a new audience. See this [section](segment-builder.md).
+* använda en befintlig målgrupp, se detta [section](add-audience.md).
+* skapa en ny publik. Se det här [section](segment-builder.md).
 
-You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
+Ni kan också definiera kontrollgrupper för att undvika att skicka meddelanden till en del av er målgrupp för att mäta effekten av era kampanjer. Se det här [section](control-group.md).
 
 ![](assets/about-audience.png)

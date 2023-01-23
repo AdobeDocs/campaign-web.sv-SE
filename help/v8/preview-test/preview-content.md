@@ -1,43 +1,49 @@
 ---
 audience: end-user
-title: Preview email content
-description: Learn how to preview your email content with Campaign Web UI
+title: Förhandsgranska e-postinnehåll
+description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 0%
+
 ---
-# Preview email content {#preview}
+
+# Förhandsgranska e-postinnehåll {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Smart preview of your content"
->abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
+>title="Smart förhandsvisning av ditt innehåll"
+>abstract="Med Adobe Campaign kan du använda profiler för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas, kontrollera personaliseringen och hur mottagarna ser det."
 
-Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
+Med Adobe Campaign kan du förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det, kontrollera personaliseringen och hur det visas för mottagarna.
 
-To preview the content of your email, follow these steps:
+Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här:
 
-1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
+1. Öppna skärmen för att skapa e-postinnehåll och klicka på **[!UICONTROL Simulate content]** -knappen.
 
-    ![](assets/simulate.png)
+   ![](assets/simulate.png)
 
-1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
+1. Välj en eller flera profiler genom att klicka på **[!UICONTROL Select profile(s)]** och sedan använda **[!UICONTROL Test profiles]** och **[!UICONTROL Profiles]** -flikar att välja bland:
 
-    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
-    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
+   * The **Testprofiler** -fliken innehåller dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
+   * The **Profiler** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** från Campaign-konsolen.
 
-    You can combine both test profiles and profiles to preview your email.
+   Du kan kombinera både testprofiler och profiler för att förhandsgranska e-postmeddelandet.
 
-    ![](assets/preview-profile.png)
+   ![](assets/preview-profile.png)
 
-1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
+1. När du har valt profiler visas en förhandsgranskning av e-postmeddelandet i den högra rutan. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
 
-    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
+   Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande e-postmeddelande.
 
-    >[!NOTE]
-    >
-    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
+   >[!NOTE]
+   >
+   >Du kan förhandsgranska återgivningen av ditt innehåll på olika enheter (dator, mobil, surfplatta) genom att klicka på den dedikerade ikonen i det övre högra hörnet.
 
-    ![](assets/preview.png)
+   ![](assets/preview.png)
 
 

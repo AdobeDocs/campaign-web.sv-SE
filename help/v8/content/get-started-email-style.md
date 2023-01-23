@@ -1,22 +1,28 @@
 ---
 audience: end-user
-title: Get started with email style
-description: Discover the different ways you can adjust your email content style
+title: Kom igång med e-postformat
+description: Upptäck olika sätt att justera e-postinnehållets stil
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 0%
+
 ---
-# Get started with email style {#get-started-email-style}
+
+# Kom igång med e-postformat {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+När du har börjat skapa e-postinnehåll i [!DNL Adobe Campaign]kan du justera ett antal formatparametrar och attribut i inställningsfönstret för e-postdesignern.
 
-You can either apply your changes to the email body, to a structure component or to a content component.
+Du kan antingen tillämpa ändringarna på e-postbrödtexten, på en strukturkomponent eller på en innehållskomponent.
 
 ![](assets/email_designer_content_components_settings.png)
 
-Follow the links below to discover how to adjust some of the style settings in your email.
+Följ länkarna nedan om du vill veta hur du justerar vissa formatinställningar i ditt e-postmeddelande.
 
-* Learn how to [personalize your email background](backgrounds.md)
-* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
-* Learn how to [define a style for the links in your email](styling-links.md)
-* Learn how to [customize inline styling attributes](inline-styling.md)
+* Lär dig hur [personalisera din e-postbakgrund](backgrounds.md)
+* Lär dig hur [hantera lodrät justering och utfyllnad](alignment-and-padding.md)
+* Lär dig hur [definiera ett format för länkarna i e-postmeddelandet](styling-links.md)
+* Lär dig hur [anpassa textbundna formatattribut](inline-styling.md)

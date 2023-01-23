@@ -1,55 +1,61 @@
 ---
 audience: end-user
 product: campaign
-title: Work with email templates
+title: Arbeta med e-postmallar
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 7%
+
 ---
-# Work with email content templates {#email-content-templates}
+
+# Arbeta med mallar för e-postinnehåll {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the **[!UICONTROL Select design template]** section to start building your content from a template.
+Använd **[!UICONTROL Select design template]** för att börja skapa innehåll från en mall.
 
 ![](assets/email_designer-templates.png)
 
-## Save as template {#save-as-template}
+## Spara som mall {#save-as-template}
 
-Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
+När du har utformat ditt e-postinnehåll kan du spara det för framtida återanvändning. Följ stegen nedan för att göra detta.
 
-1. Click the ellipsis on top right of the screen.
+1. Klicka på ellipsen högst upp till höger på skärmen.
 
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+1. Välj **[!UICONTROL Save design template]** i listrutan.
 
-    ![](assets/email_designer-save-template.png)
+   ![](assets/email_designer-save-template.png)
 
-1. Add a name for this template.
+1. Lägg till ett namn för den här mallen.
 
-    ![](assets/email_designer-template-name.png)
+   ![](assets/email_designer-template-name.png)
 
-1. Click **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
-Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
+Nästa gång du skapar ett e-postmeddelande kan du använda den här mallen för att skapa ditt innehåll. [Lär dig mer](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## Use a saved template {#use-saved-template}
+## Använda en sparad mall {#use-saved-template}
 
-1. Open the [email designer](create-email-content.md).
+1. Öppna [e-postdesigner](create-email-content.md).
 
-1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
+1. På **[!UICONTROL Create your email screen]**, **[!UICONTROL Sample templates]** -fliken är markerad som standard. Klicka på fliken **[!UICONTROL Saved templates]**.  
 
-    ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png)
 
-1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
+1. Listan med alla tidigare [sparade mallar](#save-as-template) visas. Du kan sortera dem **[!UICONTROL By name]**, **[!UICONTROL Last modified]** och **[!UICONTROL Last created]**.
 
-    ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png)
 
-1. Select the template of your choice from the list.
+1. Välj önskad mall i listan.
 
-1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
+1. När du har valt det här alternativet kan du navigera mellan alla sparade mallar med höger- och vänsterpilarna.
 
-    ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Click **[!UICONTROL Use this email]** on top right of the screen.
+1. Klicka **[!UICONTROL Use this email]** längst upp till höger på skärmen.
 
-1. Edit your content as desired using the email designer.
+1. Redigera ditt innehåll efter behov med e-postdesignern.

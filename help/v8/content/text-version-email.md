@@ -1,35 +1,42 @@
 ---
 audience: end-user
-title: Create the text version of an email
-description: Learn how to create the text version of an email
+title: Skapa textversionen av ett e-postmeddelande
+description: Lär dig hur du skapar textversionen av ett e-postmeddelande
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
+
 ---
-# Create the text version of an email {#text-version-email}
+
+# Skapa textversionen av ett e-postmeddelande {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
+Vi rekommenderar att du skapar en textversion av e-postbrödtexten, som används när HTML inte kan visas.
 
-By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
+Som standard skapar e-postdesignern en **[!UICONTROL Plain text]** version av e-postmeddelandet, inklusive personaliseringsfält. Den här versionen genereras och synkroniseras automatiskt med HTML-versionen av ditt innehåll.
 
-If you prefer using a different content for the plain text version, follow the steps below:
+Om du föredrar att använda ett annat innehåll för den oformaterade textversionen följer du stegen nedan:
 
-1. From your email, select the **[!UICONTROL Plain text]** tab.
+1. I ditt e-postmeddelande väljer du **[!UICONTROL Plain text]** -fliken.
 
-    ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png)
 
-1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
+1. Använd **[!UICONTROL Sync with HTML]** om du vill inaktivera synkronisering.
 
-    ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png)
 
-1. Click the check mark to confirm your choice.
+1. Bekräfta ditt val genom att klicka på bockmarkeringen.
 
-    ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png)
 
-1. You can then edit the plain text version as desired.
+1. Du kan sedan redigera den oformaterade textversionen efter behov.
 
 >[!CAUTION]
 >
->* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>* Ändringar gjorda i **[!UICONTROL Plain text]** vyn inte visas i HTML.
 >
->*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.
+>* Om du aktiverar **[!UICONTROL Sync with HTML]** när du har uppdaterat oformaterad text försvinner ändringarna och ersätts med textinnehåll som genererats från HTML-versionen.
+
