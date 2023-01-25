@@ -3,9 +3,9 @@ audience: end-user
 title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Observera att flerkanalskampanjer och funktioner för hantering av arbetsflöden kommer att vara tillgängliga i betaversionen.
 
-## Uppdateringar om terminologi
+## Uppdateringar om terminologi{#terminology-updates}
 
 Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web-gränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
@@ -62,3 +59,17 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 * Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** knapp
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
 * Listor finns nu **Målgrupper**
+
+## Begränsningar{#limitations-alpha}
+
+Vissa funktioner för Campaign, som flerkanalskampanjer och arbetsflödeshantering, kommer att vara tillgängliga i betaversionen.
+
+Begränsningarna nedan gäller denna alfaversion:
+
+* De enda redigerbara objekten är Leveranser. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
+* Den här versionen är utformad för en enstaka e-postkampanj. Andra kanaler stöds ännu inte.
+* Användargränssnittet Administration är inte tillgängligt.
+* Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
+* KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
+* Adobe Experience Cloud Notifications and Unified Help available in the top bar are not integrated.
+
