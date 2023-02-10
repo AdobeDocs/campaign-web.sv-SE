@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvän
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Målgrupper" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="Målgrupper" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>Välj en målgrupp</strong></a>
@@ -50,7 +50,7 @@ Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvän
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validering" src="assets/do-not-localize/email-config.jpg">
+<img alt="Validering" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Förhandsgranska och testa ett e-postmeddelande</strong></a>
