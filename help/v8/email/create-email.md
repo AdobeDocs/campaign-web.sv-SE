@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 1%
@@ -177,7 +177,7 @@ Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i
 
    ![](assets/proof-test-profile.png)
 
-1. Klicka **[!UICONTROL Send test email ]** och bekräfta sändningen.
+1. Klicka **[!UICONTROL Send test email]** och bekräfta sändningen.
 
    Testversioner skickas till de angivna e-postadresserna med den valda profilen med **[Korrektur x]** prefix.
 
