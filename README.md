@@ -2,7 +2,7 @@
 source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # Artikel om att bidra
@@ -16,13 +16,13 @@ Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md
 
 ## Om dina bidrag till innehåll hos Adobe
 
-Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
 Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
 
 ### Mindre ändringar
 
-Om du bidrar med mindre uppdateringar, för att du helt enkelt vill, bör du gå till artikeln och klicka på länken **Redigera** i den som sedan tar dig till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Om du bidrar med mindre uppdateringar, för att du helt enkelt vill, bör du gå till artikeln och klicka på länken **Redigera** i den som sedan tar dig till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
@@ -44,7 +44,7 @@ Om du är teknikskribent, programchef eller utvecklare för en lösning i Adobe 
 
 Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
 
-Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
 ## Så använder du markdown för att formatera ditt ämne
 

@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Campaign v8 Web
 description: Webbdokumentation för Campaign v8
-breadcrumb-title: Kampanjöversikt
-title: Webbdokument för Campaign v8
+breadcrumb-title: Översikt över Campaign
+title: Campaign v8 Webbdokument
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
