@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
+source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1235'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 >title="E-postegenskaper"
 >abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
 
-1. Om du vill skapa en ny leverans går du till **[!UICONTROL Deliveries]** meny och välj **[!UICONTROL Email]** som kanal.
+1. Bläddra till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 
-1. Markera den mall som du vill använda och klicka på **[!UICONTROL Create delivery]**.
+1. Välj **[!UICONTROL Email]** som kanal och välj en mall.
 
    >[!NOTE]
    >
@@ -42,7 +42,8 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 
    ![](assets/channel-template.png)
 
-1. Ange en etikett för e-postmeddelandet och konfigurera ytterligare alternativ baserat på dina behov:
+1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
+1. Ange en etikett för leveransen och konfigurera ytterligare alternativ baserat på dina behov:
 
    * **[!UICONTROL Internal name]**: tilldela en unik identifierare till leveransen,
    * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp,
@@ -65,11 +66,11 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 >title="Lär dig hur du utformar e-postinnehåll"
 >abstract="Lär dig hur du använder e-postdesignern."
 
-I det här fallet använder du en fördefinierad mall för att utforma e-postmeddelandet.
-
 Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det här avsnittet](../content/edit-content.md).
 
-1. Klicka på knappen **[!UICONTROL Edit content]** -knappen.
+I det här fallet använder du en fördefinierad mall för att utforma e-postmeddelandet.
+
+1. Om du vill börja skapa e-postinnehållet öppnar du e-postleveransen och klickar på **[!UICONTROL Edit content]** -knappen.
 
    Då kommer du till ett dedikerat gränssnitt där du kan konfigurera e-postinnehållet och utforma det med e-postdesignern.
 
@@ -79,7 +80,7 @@ Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det 
 
    ![](assets/subject-line.png)
 
-1. Klicka på knappen **[!UICONTROL Edit email body]** -knappen.
+1. Om du vill utforma innehållet i e-postmeddelandet klickar du på **[!UICONTROL Edit email body]** -knappen.
 
    Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en fördefinierad designmall.
 
@@ -135,9 +136,9 @@ I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp. Ytte
 >title="Schemalägg sändningen"
 >abstract="Ange datum och exakt tid för sändningen. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
 
-Om du vill schemalägga sändning av e-post klickar du på **[!UICONTROL Enable]** och ange önskat datum och klockslag för sändningen.
+Om du vill schemalägga sändning av e-post öppnar du din e-postleverans och bläddrar till **Schema** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
-Som standard är **[!UICONTROL Confirm before sending]** är aktiverat, vilket kräver att du bekräftar att e-postmeddelandet ska skickas vid det schemalagda datumet och den schemalagda tidpunkten. Om du vill skicka e-postmeddelandet automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
+Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Med det här alternativet måste du bekräfta att e-postmeddelandet ska skickas före det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka e-postmeddelandet automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
 
 ![](assets/schedule.png)
 
@@ -149,7 +150,7 @@ I det här fallet förhandsgranskar du e-postmeddelandet och skickar testversion
 
 Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
 
-1. Om du vill granska och skicka e-postmeddelandet klickar du på **[!UICONTROL Review and send]**. Då visas en förhandsgranskning av ditt e-postmeddelande tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element genom att klicka på knappen Ändra.
+1. Klicka på **[!UICONTROL Review and send]**. Då visas en förhandsgranskning av ditt e-postmeddelande tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element genom att klicka på knappen Ändra.
 
 1. Om du vill förhandsgranska e-postmeddelandet och skicka testversioner klickar du på **[!UICONTROL Simulate content]** -knappen.
 
