@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -13,16 +13,6 @@ ht-degree: 0%
 # Skicka erbjudanden {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Inställningar för erbjudanden"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Avancerade inställningar för erbjudanden"
->abstract="TBC"
 
 Med Adobe Campaign v8 Web kan du skicka med e-posterbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ Så här skickar du erbjudanden via e-post:
 1. [Infoga erbjudandena i e-postmeddelandet](#insert).
 
 ## Konfigurera erbjudandena att föreslå {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Inställningar för erbjudanden"
+>abstract="Konfigurera vilka erbjudanden som ska föreslås för mottagarna."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Avancerade inställningar för erbjudanden"
+>abstract="Konfigurera avancerade alternativ för erbjudanden."
 
 1. Klicka på knappen **[!UICONTROL Offers]** från skärmen för utgåva av e-postinnehåll.
 

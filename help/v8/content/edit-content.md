@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="E-posthuvud"
->abstract="TBC"
+>abstract="I det här avsnittet kan du styra värdena Från namn och Från e-post som definieras i e-postmallen. Fältet Ämnesrad kan anpassas med uttrycksredigeraren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="E-postbilaga"
->abstract="TBC"
+>abstract="Markera en eller flera filer som ska infogas i meddelandet."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Spårningsalternativ"
->abstract="TBC"
+>abstract="Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet härifrån."
 
 Om du vill börja skapa innehållet i ett e-postmeddelande klickar du på **[!UICONTROL Edit content]** från skärmen där e-postmeddelanden skapas.
 
@@ -61,6 +61,6 @@ Stegen för att definiera innehållet i e-postmeddelandet är följande:
 
    <!--limitation on size + number of files?-->
 
-1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet från **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
+1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet på **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
 
 När innehållet i e-postmeddelandet har definierats använder du **[!UICONTROL Simulate content]** för att kontrollera hur det visas innan det skickas. [Lär dig hur du förhandsgranskar och testar e-postmeddelanden](../preview-test/preview-test.md)

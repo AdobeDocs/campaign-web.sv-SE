@@ -3,10 +3,10 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 21%
+source-wordcount: '306'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Leveransloggar"
->abstract="TBC"
+>abstract="Med leveransloggarna kan du verifiera att det inte finns något fel."
 
 När du har förberett och skickat ett e-postmeddelande kan du med hjälp av leveransloggarna verifiera att det inte finns något fel. Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 

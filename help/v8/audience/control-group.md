@@ -3,10 +3,10 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 24%
+source-wordcount: '571'
+ht-degree: 27%
 
 ---
 
@@ -34,7 +34,7 @@ Om du vill skapa en kontrollgrupp klickar du på **[!UICONTROL Set Control Group
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extrahera från mål"
->abstract="TBC"
+>abstract="För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen."
 
 För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen.
 
@@ -79,7 +79,7 @@ Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md)
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="TBC"
+>abstract="Ett annat sätt att definiera en kontrollgrupp är att utesluta en viss population från målet med hjälp av en befintlig målgrupp eller genom att definiera en fråga."
 
 Ett annat sätt att definiera en kontrollgrupp är att utesluta en viss population från målet med hjälp av en befintlig målgrupp eller genom att definiera en fråga.
 
