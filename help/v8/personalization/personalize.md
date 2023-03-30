@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Inbyggda innehållsblock är:
 * **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
 * **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel: &quot;Hej John Doe.&quot;
 * **[!UICONTROL Insert logo]**: infogar en logotyp som är definierad i instansinställningarna.
-* **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](mirror-page.md). Standardformatet är: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
+* **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](../content/mirror-page.md). Standardformatet är: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
 * **[!UICONTROL Mirror page URL]**: infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: infogar en URL som gör att ett erbjudande kan anges till **[!UICONTROL Accepted]**. (Det här blocket är tillgängligt om interaktionsmodulen är aktiverad)
 * **[!UICONTROL Registration confirmation]**: infogar en länk som bekräftar prenumerationen.

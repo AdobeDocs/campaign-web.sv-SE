@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-posthuvud"
->abstract="I det här avsnittet kan du styra värdena Från namn och Från e-post som definieras i e-postmallen. Fältet Ämnesrad kan anpassas med uttrycksredigeraren."
+>title="E-postparametrar"
+>abstract="Värdena Från namn och Från e-post definieras i e-postmallen. Ämnesraden kan anpassas med uttrycksredigeraren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

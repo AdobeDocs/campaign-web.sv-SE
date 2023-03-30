@@ -3,10 +3,10 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 1%
 
 ---
 
@@ -45,37 +45,7 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 >
 >E-postmeddelanden av marknadsföringstyp måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden. Meddelandekategorin (**[!UICONTROL Marketing]** eller **[!UICONTROL Transactional]**) definieras vid kanalens ytnivå (dvs. meddelandeförinställning) och när meddelandet skapas.
 
-## Länka till en spegelsida {#mirror-page}
-
-Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med innehållet i ditt e-postmeddelande.
-
-Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
-
-1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Välj **[!UICONTROL Insert link]** -ikonen för att komma åt personaliseringsmenyn.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. Från **[!UICONTROL Content block]** meny, välja **[!UICONTROL Mirror page URL]** och klicka **[!UICONTROL Add]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-Spegelsidan skapas automatiskt.
-
->[!IMPORTANT]
->
->Länkar för spegelsidor genereras automatiskt och kan inte redigeras. De innehåller alla krypterade, personliga data som krävs för att återge det ursprungliga e-postmeddelandet. Om du använder anpassade attribut med stora värden kan det därför generera långa URL-adresser för spegelsidor, vilket kan förhindra länken från att fungera i webbläsare som har en maximal URL-längd.
-
-När e-postmeddelandet har skickats visas innehållet i e-postmeddelandet i sin standardwebbläsare när mottagarna klickar på länken för spegelsidan.
-
->[!NOTE]
->
->I det testmeddelande som skickas till testprofilerna är länken till spegelsidan inte aktiv. Den aktiveras endast i de slutliga meddelandena.
-
-Kvarhållningsperioden för en spegelsida är 60 dagar. Efter den fördröjningen är spegelsidan inte längre tillgänglig.
+En specifik länk till spegelsidan bör läggas till i alla e-postmeddelanden. Läs mer om speglingssidan i [det här avsnittet](mirror-page.md).
 
 ## Hantera spårning {#manage-tracking}
 
