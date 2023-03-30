@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -77,20 +77,21 @@ När innehållsblocket har infogats läggs det till i e-postinnehållet, vilket 
 
 
 Inbyggda innehållsblock är:
-* **[!UICONTROL Enabled by Adobe Campaign]** : infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]** : genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
-* **[!UICONTROL Greetings]** : infogar hälsningar med mottagarens namn. Exempel: &quot;Hej John Doe.&quot;
-* **[!UICONTROL Insert logo]** : infogar en logotyp som är definierad i instansinställningarna.
-* **[!UICONTROL Link to mirror page]** : infogar en länk till spegelsidan: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
-* **[!UICONTROL Mirror page URL]** : infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : infogar en URL som gör att ett erbjudande kan anges till **[!UICONTROL Accepted]**.
-* **[!UICONTROL Registration page URL]** : infogar en prenumerations-URL.
-* **[!UICONTROL Registration link]** : infogar en prenumerationslänk. Den här länken definieras i instansinställningarna. Standardinnehållet är: &quot;Registrera dig genom att klicka här.&quot;
-* **[!UICONTROL Registration link (with referrer)]** : infogar en prenumerationslänk som gör det möjligt att identifiera besökaren och leveransen. Den här länken definieras i instansinställningarna.
-* **[!UICONTROL Registration confirmation]** : infogar en länk som bekräftar prenumerationen.
-* **[!UICONTROL Social network sharing links]** : infogar knappar som gör att mottagaren kan dela en länk till innehållet på den speglade sidan.
-* **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]** : generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
-* **[!UICONTROL Unsubscription link]** : infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med ***ditt organisationsnamn*** eller ett närstående bolag. Ta inte längre emot meddelanden från ***ditt organisationsnamn*** klicka här.&quot;
+
+* **[!UICONTROL Enabled by Adobe Campaign]**: infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
+* **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
+* **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel: &quot;Hej John Doe.&quot;
+* **[!UICONTROL Insert logo]**: infogar en logotyp som är definierad i instansinställningarna.
+* **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](mirror-page.md). Standardformatet är: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
+* **[!UICONTROL Mirror page URL]**: infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: infogar en URL som gör att ett erbjudande kan anges till **[!UICONTROL Accepted]**. (Det här blocket är tillgängligt om interaktionsmodulen är aktiverad)
+* **[!UICONTROL Registration confirmation]**: infogar en länk som bekräftar prenumerationen.
+* **[!UICONTROL Registration link]**: infogar en prenumerationslänk. Den här länken definieras i instansinställningarna. Standardinnehållet är: &quot;Registrera dig genom att klicka här.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: infogar en prenumerationslänk som gör det möjligt att identifiera besökaren och leveransen. Den här länken definieras i instansinställningarna.
+* **[!UICONTROL Registration page URL]**: infogar en prenumerations-URL
+* **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]**: generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
+* **[!UICONTROL Unsubscription link]**: infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med ***ditt organisationsnamn*** eller ett närstående bolag. Ta inte längre emot meddelanden från ***ditt organisationsnamn*** klicka här.&quot;
+
 
 
 ## Anpassa länkar i e-postmeddelanden {#personalize-links}
