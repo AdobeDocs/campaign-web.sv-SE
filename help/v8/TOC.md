@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 title: Campaign v8 Webbdokument
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 13%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 13%
       + [Kom igång med SMS-leveranser](sms/gs-sms.md)
 + Målgrupper och mottagare {#audiences}
    + [Kom igång med målgrupper](audience/about-audiences.md)
-   + [Välj en målgrupp](audience/add-audience.md)
+   + [Välj en befintlig målgrupp](audience/add-audience.md)
    + [Skapa en målgrupp med regelverktyget](audience/segment-builder.md)
    + [Importera en målgrupp](audience/import-audience.md)
+   + [Använda Adobe Experience Platform](audience/aep-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
 + Flerkanalskampanjer {#campaigns}
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
