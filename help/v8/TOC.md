@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 title: Campaign v8 Webbdokument
 hide: true
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+source-git-commit: 82c7abb4fe8cd7ecc68748ca59f2e5c7b5336d34
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 7%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 7%
          + [Börja från början ](content/create-email-content.md)
          + [Importera e-postinnehåll](content/existing-content.md)
          + [Koda eget innehåll](content/code-content.md)
+         + [Använd e-postmallar](content/email-templates.md)
       + [Använda innehållskomponenter](content/content-components.md)
       + [Generera textversionen](content/text-version-email.md)
       + [Lägg till en länk till spegelsidan](content/mirror-page.md)
