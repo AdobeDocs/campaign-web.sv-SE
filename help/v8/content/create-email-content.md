@@ -3,16 +3,15 @@ audience: end-user
 title: Designa e-postmeddelanden i e-postdesignern
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
-# Börja från början {#create-email-content}
-
-![](../assets/do-not-localize/badge.png)
+# Starta ditt e-postinnehåll från grunden {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

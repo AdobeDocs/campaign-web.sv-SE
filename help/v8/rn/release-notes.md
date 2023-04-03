@@ -3,16 +3,16 @@ audience: end-user
 title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
-# Versionsinformation {#release-notes}
 
-![](../assets/do-not-localize/badge.png)
+# Versionsinformation {#release-notes}
 
 Den här sidan innehåller alla de senaste funktionerna och förbättringarna för Campaign Web v8.
 

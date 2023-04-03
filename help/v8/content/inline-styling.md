@@ -3,16 +3,16 @@ audience: end-user
 title: Lägg till textbundna formatattribut
 description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-# Lägg till textbundna formatattribut {#adding-inline-styling-attributes}
 
-![](../assets/do-not-localize/badge.png)
+# Lägg till textbundna formatattribut {#adding-inline-styling-attributes}
 
 När du markerar ett element i e-postdesignergränssnittet och visar dess inställningar i den högra rutan, kan du anpassa infogade attribut och deras värde för det specifika elementet.
 

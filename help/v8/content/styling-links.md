@@ -3,16 +3,16 @@ audience: end-user
 title: Definiera ett format för länkar
 description: Lär dig hur du definierar ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
-# Definiera ett format för länkar {#styling-links}
 
-![](../assets/do-not-localize/badge.png)
+# Definiera ett format för länkar {#styling-links}
 
 Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 

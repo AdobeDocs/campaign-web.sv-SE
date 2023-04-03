@@ -3,16 +3,15 @@ audience: end-user
 title: Koda eget e-postinnehåll
 description: Lär dig koda ditt eget e-postinnehåll
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# Koda eget innehåll {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# Koda eget e-postinnehåll {#code-content}
 
 Använd **[!UICONTROL Code your own]** läge för att importera obearbetat HTML och/eller koda ditt e-postinnehåll. Den här metoden kräver kunskaper i HTML.
 

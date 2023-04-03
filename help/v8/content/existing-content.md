@@ -3,16 +3,15 @@ audience: end-user
 title: Importera e-postinnehåll
 description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Importera e-postinnehåll {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 Med e-postdesignern kan du importera befintligt HTML-innehåll. Innehållet kan vara:
 

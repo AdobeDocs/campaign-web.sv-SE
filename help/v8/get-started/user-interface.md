@@ -3,16 +3,15 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b51059b7fc5166dcd0218ae2b227ea9c703a65a5
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
 # Upptäck gränssnittet {#user-interface}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"

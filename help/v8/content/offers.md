@@ -3,16 +3,16 @@ audience: end-user
 title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Skicka erbjudanden {#offers-content}
 
-![](../assets/do-not-localize/badge.png)
+# Skicka erbjudanden {#offers-content}
 
 Med Adobe Campaign v8 Web kan du skicka med e-posterbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

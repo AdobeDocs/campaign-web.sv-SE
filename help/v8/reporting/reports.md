@@ -3,22 +3,16 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
 # Leveransrapporter {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign erbjuder flera typer av rapporter som är tillgängliga för varje leverans. Med hjälp av de här rapporterna kan du mäta och visualisera effekten och prestandan av dina meddelanden på en inbyggd kontrollpanel.
 

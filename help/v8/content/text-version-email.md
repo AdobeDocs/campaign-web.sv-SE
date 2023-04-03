@@ -3,16 +3,15 @@ audience: end-user
 title: Skapa textversionen av ett e-postmeddelande
 description: Lär dig hur du skapar textversionen av ett e-postmeddelande
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # Skapa textversionen av ett e-postmeddelande {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 Vi rekommenderar att du skapar en textversion av e-postbrödtexten, som används när HTML inte kan visas.
 

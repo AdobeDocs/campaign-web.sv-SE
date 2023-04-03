@@ -3,16 +3,15 @@ audience: end-user
 title: Definiera en målgrupp med regelbyggaren
 description: Lär dig hur du arbetar med segmentbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
 
 # Definiera en målgrupp med regelbyggaren {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 I det här avsnittet beskrivs hur du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Den skapade målgruppen kan bara användas i det här e-postmeddelandet.
 

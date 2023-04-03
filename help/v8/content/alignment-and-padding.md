@@ -3,16 +3,16 @@ audience: end-user
 title: Justera lodrät justering och utfyllnad i e-postdesignern
 description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
-# Justera lodrät justering och utfyllnad {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# Justera lodrät justering och utfyllnad {#alignment-and-padding}
 
 I det här exemplet justerar vi utfyllnad och lodrät justering inuti en strukturkomponent som består av tre kolumner.
 
