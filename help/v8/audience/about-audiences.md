@@ -4,10 +4,10 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '137'
+ht-degree: 7%
 
 ---
 
@@ -44,9 +44,11 @@ I det här avsnittet får du lära dig hur du definierar målgruppen för e-post
 
 Om du vill definiera målgruppen kan du:
 
-* använda en befintlig målgrupp, se detta [section](add-audience.md).
-* skapa en ny publik. Se det här [section](segment-builder.md).
+* Använd en befintlig målgrupp. [Läs mer](add-audience.md)
+* Skapa en ny målgrupp. [Läs mer](segment-builder.md)
+* Importera en målgrupp från en fil. [Läs mer](import-audience.md)
+* Använda en Adobe Experience Platform-målgrupp. [Läs mer](aep-audience.md)
 
-Ni kan också definiera kontrollgrupper för att undvika att skicka meddelanden till en del av er målgrupp för att mäta effekten av era kampanjer. Se det här [section](control-group.md).
+Dessutom kan ni definiera kontrollgrupper för att undvika att skicka meddelanden till en del av er målgrupp och mäta effekten av era kampanjer. [Läs mer](control-group.md)
 
 ![](assets/about-audience.png)
