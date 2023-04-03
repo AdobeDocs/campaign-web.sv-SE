@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 title: Campaign v8 Webbdokument
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 13%
 
 ---
@@ -62,8 +62,9 @@ ht-degree: 13%
 + Målgrupper och mottagare {#audiences}
    + [Kom igång med målgrupper](audience/about-audiences.md)
    + [Välj en målgrupp](audience/add-audience.md)
+   + [Skapa en målgrupp med regelverktyget](audience/segment-builder.md)
+   + [Importera en målgrupp](audience/import-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
-   + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
 + Flerkanalskampanjer {#campaigns}
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
