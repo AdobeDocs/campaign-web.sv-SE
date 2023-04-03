@@ -3,8 +3,8 @@ audience: end-user
 title: Anpassa e-postbakgrunden
 description: Lär dig hur du anpassar din e-postbakgrund
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Alpha" type="Informative"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

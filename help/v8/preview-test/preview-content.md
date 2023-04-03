@@ -3,8 +3,8 @@ audience: end-user
 title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha" type="Informative"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

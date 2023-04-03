@@ -3,11 +3,11 @@ audience: end-user
 title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" type="Informative"
-source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1450'
+ht-degree: 10%
 
 ---
 
