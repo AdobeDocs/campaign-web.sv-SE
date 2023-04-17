@@ -5,9 +5,9 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 title: Campaign v8 Webbdokument
 hide: true
-source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
+source-git-commit: f77b5a483f7276ecade687f9fd9e9028ec750dbf
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '259'
 ht-degree: 13%
 
 ---
@@ -71,11 +71,15 @@ ht-degree: 13%
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
-   + [Skapa ditt första arbetsflöde](workflows/create-workflows.md)
-   + Arbeta med arbetsflödesaktiviteter {#activities}
-      + [Kom igång med arbetsflödesaktiviteter](workflows/get-started-activities.md)
+   + Skapa ditt första arbetsflöde {#create-workflow}
+      + [Kom igång med att skapa arbetsflöden](workflows/gs-workflow-creation.md)
+      + [Skapa ett arbetsflöde](workflows/create-workflow.md)
+      + [Starta och övervaka arbetsflödeskörning](workflows/start-monitor-workflows.md)
+   + Designarbetsflöden {#design-workflows}
+      + [Kom igång med arbetsytan](workflows/gs-canvas.md)
       + [Målinriktade aktiviteter](workflows/targeting-activities.md)
       + [Kanalaktiviteter](workflows/channel-activities.md)
       + [Datahanteringsaktiviteter](workflows/data-management-activities.md)
+   + [Åtkomst- och bildskärmsarbetsflöden](workflows/access-monitor.md)
 + [Rapportering](reporting/reports.md)
 
