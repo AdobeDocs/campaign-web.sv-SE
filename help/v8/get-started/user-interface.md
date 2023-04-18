@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-innehåll"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Appprenumeranter"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Testpopulationer"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Förhandsgranskningsläge"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Anrikningsdata"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalisering"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="Välj fil"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Kolumndefinition"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Formateringsparametrar"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Rapportering skickas"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Rapporteringsspårning"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Rapportöversikt"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Rapportera målstatistik"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Rapportera aggregerad välj en leverans"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Kampanjegenskaper"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Kampanjschema"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Arbetsflödeslista"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Skapa kampanjer"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampanjschema"
+>abstract="TBD"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Dedupliceringsfält"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Inställningar för borttagning av dubbletter"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Dedupliceringskomplementet"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Komplementfärg till Dimension"
 >abstract="TBD"
