@@ -4,16 +4,16 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 3%
 
 ---
 
 # Kom igång med arbetsflöden {#workflows}
 
-## Vad är Adobe Campaign arbetsflöden?
+## Vad är ett arbetsflöde?
 
 Flerkanalsmarknadsföring är avgörande för alla företag som vill nå ut till sina kunder effektivt. Adobe Campaign har en omfattande grafisk miljö som gör att ni kan utforma komplexa processer som enkelt kan hantera era marknadsföringskampanjer.
 
