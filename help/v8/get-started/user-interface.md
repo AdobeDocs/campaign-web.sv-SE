@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="Prenumerationslistor"
 >abstract="Bläddra bland prenumerationslistorna. Du kan visa deras typ, läge och etikett. Den här listan är skrivskyddad."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Arbetsflöden för målinriktning"
->abstract="Få tillgång till din lista över Kampanjarbetsflöden. Du kan visa deras tillstånd, senaste/nästa bearbetningsdatum och miljö. Du kan filtrera listan efter tillstånd, senaste bearbetningsdatum och arbetsflödestyp. Det finns också arbetsflödesmallar. De här listorna är skrivskyddade."
 
 * **Mottagare** - Få åtkomst till din mottagardatabas. Som standard kan du visa deras e-postadress, förnamn och efternamn. Den här listan är skrivskyddad.
 * **Målgrupper** - Det här är er lista över målgrupper. Som standard kan du visa deras typ, ursprung, datum och etikett för senaste ändring. Du kan filtrera listan efter ursprung. Den här listan är skrivskyddad.

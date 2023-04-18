@@ -3,10 +3,11 @@ audience: end-user
 title: Arbeta med arbetsflöden för datahanteringsaktiviteter
 description: Lär dig använda datahanteringsaktiviteter i Adobe Campaign webbarbetsflöden
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,12 @@ visa tillgängliga aktiviteter + kort beskrivning + ref to section
 
 ## Berikning {#enrichment}
 
-Aktiviteten Enrichment används ofta i ett arbetsflöde efter riktade aktiviteter. Det gör att du kan förbättra måldata med ytterligare information från databasen.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Anrikningsaktivitet"
+>abstract="Med Enrichment-aktiviteten kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter riktade aktiviteter.<br/>När berikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter Enrichment-aktiviteten för att segmentera kunder i olika grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får genklang hos målgruppen."
+
+Med Enrichment-aktiviteten kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter riktade aktiviteter.
 
 Anrikningsdata kan komma antingen:
 
