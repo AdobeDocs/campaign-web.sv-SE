@@ -5,10 +5,10 @@ description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 title: Campaign v8 Webbdokument
 hide: true
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '259'
+ht-degree: 13%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 14%
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
    + Skapa ditt första arbetsflöde {#create-workflow}
-      + [Översikt över att skapa arbetsflöden](workflows/gs-workflow-creation.md)
+      + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
       + [Skapa ett arbetsflöde](workflows/create-workflow.md)
       + [Starta och övervaka arbetsflödeskörning](workflows/start-monitor-workflows.md)
    + Designarbetsflöden {#design-workflows}
