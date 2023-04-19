@@ -3,9 +3,10 @@ audience: end-user
 title: Importera mottagare från en fil
 description: Lär dig hur du importerar mottagare från en extern fil
 badge: label="Alpha" type="Positive"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,21 @@ Så här lägger du till profiler från en lokal fil direkt från gränssnittet:
 1. Klicka **Bekräfta** när inställningarna är korrekta.
 
 När du skapar och anpassar meddelandeinnehållet kan du välja fält från indatafilen i personaliseringsredigeraren.
+
+## Exempelfil {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Exempelfil"
+>abstract="Filformat som stöds: txt, csv, xls. Använd den första raden som kolumnrubrik."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```
