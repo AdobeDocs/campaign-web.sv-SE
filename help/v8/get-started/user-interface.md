@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Importera en målgrupp från en fil"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Formatinställningar"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Kolumninställningar"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push-meddelandemall"
 >abstract="TBD"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Exempelfil"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolumndefinition"
 >abstract="TBD"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Kampanjschema"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Arbetsflödeslista"
 >abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Skapa kampanjer"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampanjschema"
->abstract="TBD"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
