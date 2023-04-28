@@ -4,10 +4,10 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 3e62aa2aae959e8c59fe6482be7620f05a93b275
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 22%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -19,24 +19,7 @@ ht-degree: 22%
 >title="Egenskaper för arbetsflöde"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_properties"
->title="Egenskaper för arbetsflöde"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_segmentation"
->title="Segmenteringsinställningar"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_execution"
->title="Körningsinställningar"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_settings_error"
->title="Inställningar för felhantering"
->abstract="TBD"
-
 content TBD
+
+* skapa arbetsflödet från arbetsflöden eller kampanjer
+* definiera dess egenskaper
