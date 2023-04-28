@@ -4,15 +4,17 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 
 # Viktiga principer för att skapa arbetsflöden {#gs-workflow-creation}
+
+content TBD
 
 Ett arbetsflöde är en processdefinition: arbetsflödesdiagrammet, som är en representation av vad som ska hända. Ett arbetsflöde är också en instans av den här processen: en arbetsflödesinstans, vilket är en representation av vad som faktiskt händer.
 
@@ -43,3 +45,5 @@ TBD: Detaljerade detaljer mellan fristående arbetsflöden och kampanjarbetsflö
 De viktigaste stegen för att skapa arbetsflöden är följande:
 
 TBD: grafik som visar hela processen med förklaring och referens till dokumentsidor
+
+skapa och definiera egenskaper > samordna aktiviteter på arbetsytan > konfigurera inställningar om det behövs > starta körningen och övervaka

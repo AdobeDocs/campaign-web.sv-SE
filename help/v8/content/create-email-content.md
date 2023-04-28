@@ -4,9 +4,9 @@ title: Designa e-postmeddelanden i e-postdesignern
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Följ stegen nedan när du vill börja skapa e-postinnehåll:
 
    ![](assets/email_designer_7.png)
 
-1. Om det behövs kan du anpassa e-postmeddelandet ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn för att kunna arbeta direkt med källkoden i e-postmeddelandet. [Läs mer om kodredigeraren](code-content.md)
+1. Om det behövs kan du anpassa e-postmeddelandet ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. På så sätt kan du redigera e-postkällkoden, till exempel för att lägga till spårningstaggar eller anpassade HTML-taggar. [Läs mer om kodredigeraren](code-content.md)
 
    >[!CAUTION]
    >
