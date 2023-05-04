@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -14,31 +14,25 @@ ht-degree: 0%
 
 # Viktiga principer för att skapa arbetsflöden {#gs-workflow-creation}
 
-content TBD
+Med Campaign v8 Web kan ni skapa arbetsflöden i en visuell arbetsyta för att utforma flerkanalsprocesser som segmentering, kampanjutförande och filbearbetning.
 
-Ett arbetsflöde är en processdefinition: arbetsflödesdiagrammet, som är en representation av vad som ska hända. Ett arbetsflöde är också en instans av den här processen: en arbetsflödesinstans, vilket är en representation av vad som faktiskt händer.
+Arbetsflöden kan skapas antingen som fristående arbetsflöden, från menyn Arbetsflöden eller från en kampanj från menyn Kampanjer.
 
-Arbetsflödesmallen beskriver de olika uppgifter som ska utföras och hur de länkas samman. Uppgiftsmallarna kallas aktiviteter och representeras av ikoner. De länkas ihop av övergångar.
-
-skärmbild TBD
+TBD: Detaljerade detaljer mellan fristående arbetsflöden och kampanjarbetsflöden.
 
 ## Vad innehåller ett arbetsflöde?
 
+Arbetsflödesdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
+
 Varje arbetsflöde innehåller:
 
-* **Verksamhet**: En aktivitet beskriver en uppgiftsmall. De olika aktiviteterna som är tillgängliga visas i diagrammet med ikoner. Varje typ har gemensamma egenskaper och specifika egenskaper.
+* **Verksamhet**: En aktivitet är en uppgift som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
 
    I ett arbetsflödesdiagram kan en viss aktivitet producera flera uppgifter, särskilt när det finns en slinga eller återkommande åtgärder.
 
-* **Övergångar**: Med övergångar kan du länka aktiviteter och definiera deras sekvens. En övergång länkar en källaktivitet till en målaktivitet.
+* **Övergångar**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
 
 * **Worktables**: Arbetstabellen innehåller all information som övergången innehåller. Varje arbetsflöde använder flera arbetstabeller. De data som överförs i dessa tabeller kan accelereras och användas under arbetsflödets hela livscykel, så länge som de inte rensas. Det går att tömma tabeller som inte behövs varje gång arbetsflödet är passivat och eventuellt under körningen av de största arbetsflödena för att undvika att servern överbelastas.
-
-## Fristående arbetsflöden och kampanjarbetsflöden
-
-Arbetsflöden kan skapas antingen som fristående arbetsflöden eller inifrån en kampanj.
-
-TBD: Detaljerade detaljer mellan fristående arbetsflöden och kampanjarbetsflöden.
 
 ## De viktigaste stegen för att skapa ett arbetsflöde
 

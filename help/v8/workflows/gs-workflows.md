@@ -4,10 +4,10 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Här är några exempel på hur du kan använda arbetsflöden med Adobe Campaign
 
 ## Låt oss dyka djupare
 
-Nu när du har en förståelse för vilka arbetsflöden som är och vad du kan göra med dem i Adobe Campaign är det dags att gå djupare in i dokumentationsavsnitten för att börja arbeta med funktionen.
+Nu när du har en förståelse för vilka arbetsflöden som är och vad du kan göra med dem i Adobe Campaign är det dags att gå djupare in i dessa dokumentationsavsnitt för att börja arbeta med funktionen.
 
 * Skapa ditt första arbetsflöde
 * Designarbetsflöden
