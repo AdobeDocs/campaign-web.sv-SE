@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 5a99d2145bcc4ac1c3cdc00ef745049c728c2a28
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -390,4 +390,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Behörighet krävs"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Avancerade fält för attributväljaren"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Avancerade fält för regelbyggaren"
 >abstract="TBD"

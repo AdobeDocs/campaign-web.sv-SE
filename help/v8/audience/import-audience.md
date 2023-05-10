@@ -4,9 +4,9 @@ title: Importera mottagare från en fil
 description: Lär dig hur du importerar mottagare från en extern fil
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ När du skapar och anpassar meddelandeinnehållet kan du välja fält från inda
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Exempelfil"
->abstract="Filformat som stöds: txt, csv, xls. Använd den första raden som kolumnrubrik."
+>abstract="Filformat som stöds: txt, csv. Använd den första raden som kolumnrubrik."
 
 
 ```json
