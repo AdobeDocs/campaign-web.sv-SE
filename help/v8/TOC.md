@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
+source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 11%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 13%
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
+   + [Få åtkomst till och hantera arbetsflöden](workflows/access-monitor.md)
    + Skapa ditt första arbetsflöde {#create-workflow}
       + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
-      + [Skapa ett arbetsflöde](workflows/create-workflow.md)
-      + [Samordna arbetsflödesaktiviteter](workflows/build-workflow.md)
+      + [Skapa arbetsflödet](workflows/create-workflow.md)
+      + [Lägga till och konfigurera arbetsflödesaktiviteter](workflows/build-workflow.md)
       + [Konfigurera inställningar för arbetsflöde](workflows/workflow-settings.md)
       + [Starta och övervaka ett arbetsflöde](workflows/start-monitor-workflows.md)
-   + [Få åtkomst till och hantera dina arbetsflöden](workflows/access-monitor.md)
    + Arbeta med arbetsflödesaktiviteter {#design-workflows}
       + [Målinriktade aktiviteter](workflows/targeting-activities.md)
       + [Kanalaktiviteter](workflows/channel-activities.md)
