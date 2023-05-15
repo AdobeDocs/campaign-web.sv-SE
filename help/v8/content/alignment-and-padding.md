@@ -4,9 +4,9 @@ title: Justera lodrät justering och utfyllnad i e-postdesignern
 description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ I det här exemplet justerar vi utfyllnad och lodrät justering inuti en struktu
 
    ![](assets/alignment_2.png)
 
-1. De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Column settings]** till höger. Justera **[!UICONTROL Vertical alignment]** med det dedikerade avsnittet.
+1. De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Styles]** -fliken. Justera **[!UICONTROL Alignment]** med det dedikerade avsnittet.
 
    ![](assets/alignment_3.png)
 

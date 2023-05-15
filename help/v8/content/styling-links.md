@@ -4,9 +4,9 @@ title: Definiera ett format för länkar
 description: Lär dig hur du definierar ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
 1. I en **[!UICONTROL Text]** markerar du länken där en länk infogas.
 
-1. I **[!UICONTROL Component settings]** meny, kontrollera **[!UICONTROL Underline link]** om du vill att etiketten ska vara understruken.
+1. I **[!UICONTROL Settings]** flik, kontrollera **[!UICONTROL Underline link]** om du vill att etiketten ska vara understruken.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
    ![](assets/link_2.png)
 
-1. Om du vill ändra färg på länken klickar du på **[!UICONTROL Link color]** från den högra rutan.
+1. Om du vill ändra färg på länken klickar du på **[!UICONTROL Link color]** från **[!UICONTROL Styles]** -fliken.
 
    ![](assets/link_3.png)
 

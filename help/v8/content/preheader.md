@@ -4,9 +4,9 @@ title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig hur du utformar e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,9 @@ Följ stegen nedan för att definiera e-postprerubriken:
 
    ![](assets/preheader_body.png)
 
-1. Från **[!UICONTROL Body settings]** den högra rutan klickar du på redigeringsikonen bredvid **[!UICONTROL Preheader]** fält för att lägga till innehåll.
+1. Från **[!UICONTROL Settings]** lägger du till din förrubrik. Du kan anpassa den ytterligare genom att klicka på **[!UICONTROL Add personalization]** ikon.
 
    ![](assets/preheader_body_settings.png)
-
-1. Lägg till din förrubrik. Du kan anpassa den ytterligare genom att klicka på **[!UICONTROL Add personalization]** ikon.
-
-   ![](assets/preheader_3.png)
 
 1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** eller **[!UICONTROL Personalization fields]**.
 

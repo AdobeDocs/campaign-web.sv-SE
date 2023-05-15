@@ -4,9 +4,9 @@ title: Lägg till textbundna formatattribut
 description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ När du markerar ett element i e-postdesignergränssnittet och visar dess instä
 
 1. Markera en komponent direkt i innehållet eller med **[!UICONTROL Navigation tree]** i den vänstra rutan.
 
-1. Från **[!UICONTROL Component settings]** till höger, sök efter **[!UICONTROL Styles Inline]** -avsnitt.
+1. Från **[!UICONTROL Styles]** klickar du på **[!UICONTROL Advanced]** nedrullningsbar meny.
 
    ![](assets/styles_1.png)
 

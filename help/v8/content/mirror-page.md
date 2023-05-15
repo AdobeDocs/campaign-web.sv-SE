@@ -3,13 +3,13 @@ audience: end-user
 title: Lägg till en länk till spegelsidan
 description: Lär dig hur du lägger till och hanterar länken till spegelsidan
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # Lägg till en länk till spegelsidan{#mirror-page}
 
@@ -33,7 +33,7 @@ Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Välj **[!UICONTROL Insert link]** -ikonen för att komma åt personaliseringsmenyn.
+1. Välj **[!UICONTROL Add personalization]** -ikonen för att komma åt personaliseringsmenyn.
 
    ![](assets/message-tracking-mirror-page_2.png)
 

@@ -4,9 +4,9 @@ title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 
 1. Spara ändringarna.
 
-1. När länken har skapats kan du fortfarande ändra den från **[!UICONTROL Component settings]** till höger.
+1. När länken har skapats kan du fortfarande ändra den från **[!UICONTROL Settings]** -fliken.
 
    * Du kan redigera länken och ändra dess **[!UICONTROL Target]**.
    * Du kan välja att stryka under länken eller inte genom att markera motsvarande alternativ.

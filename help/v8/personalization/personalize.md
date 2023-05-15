@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -38,43 +38,6 @@ Du kan anpassa meddelandeinnehållet genom att:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Anpassa ämnesraden för e-post {#personalize-subject-line}
-
-Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ stegen nedan:
-
-1. Klicka på **Öppna dialogrutan för personalisering** ikonen till höger om **Subject line** fält.
-1. Ange innehållet på ämnesraden och välj de anpassningsattribut som ska läggas till.
-1. Klicka **Bekräfta** att validera. Anpassningsattributen läggs till på ämnesraden.
-
-![](assets/perso-subject.png)
-
-## Anpassa e-postinnehållet {#personalize-emails}
-
-Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern och:
-
-1. Klicka inuti ett textblock.
-1. Välj **Lägg till personalisering**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Ange namnet på mottagaren i personaliseringsredigeraren och bekräfta.
-
-   ![](assets/perso-add-name.png)
-
-   Anpassningsattributet läggs till i e-postinnehållet.
-
-   Du kan simulera innehållet för att kontrollera återgivningen. [Läs mer](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-Om du vill lägga till ett innehållsblock i e-postmeddelandet följer du samma steg och väljer ett innehållsblock från den sista ikonen:
-
-![](assets/perso-insert-block.png)
-
-När innehållsblocket har infogats läggs det till i e-postinnehållet, vilket visas nedan. Den anpassas automatiskt till mottagarprofilen när personalisering genereras, vid leveransförberedelsesteget.
-
-![](assets/perso-content-block-in-email.png)
-
 
 Inbyggda innehållsblock är:
 
@@ -92,7 +55,44 @@ Inbyggda innehållsblock är:
 * **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]**: generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
 * **[!UICONTROL Unsubscription link]**: infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med ***ditt organisationsnamn*** eller ett närstående bolag. Ta inte längre emot meddelanden från ***ditt organisationsnamn*** klicka här.&quot;
 
+## Anpassa ämnesraden för e-post {#personalize-subject-line}
 
+Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ stegen nedan:
+
+1. Klicka på **[!UICONTROL Open personalization dialog]** ikonen till höger om **[!UICONTROL Subject line]** fält.
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. Ange innehållet på ämnesraden och välj de anpassningsattribut som ska läggas till.
+
+1. Klicka **[!UICONTROL Confirm]**** för att validera. Anpassningsattributen läggs till på ämnesraden.
+
+## Anpassa e-postinnehållet {#personalize-emails}
+
+Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern och:
+
+1. Klicka inuti ett textblock.
+1. Välj **[!UICONTROL Add personalization]**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Ange namnet på mottagaren i personaliseringsredigeraren och bekräfta.
+
+   ![](assets/perso-add-name.png)
+
+   Anpassningsattributet läggs till i e-postinnehållet.
+
+   Du kan simulera innehållet för att kontrollera återgivningen. [Läs mer](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. Om du vill lägga till ett innehållsblock i e-postmeddelandet följer du samma steg och väljer ett innehållsblock från den sista ikonen:
+
+   ![](assets/perso-insert-block.png)
+
+1. När innehållsblocket har infogats läggs det till i e-postinnehållet. Det anpassas automatiskt till mottagarprofilen när personalisering skapas, i leveransförberedelsesteget.
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## Anpassa länkar i e-postmeddelanden {#personalize-links}
 
