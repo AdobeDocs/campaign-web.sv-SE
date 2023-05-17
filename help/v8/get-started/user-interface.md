@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Egenskaper för kampanjskapande"
->abstract="TBD"
+>abstract="Definiera egenskaper och metadata för kampanjen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Schema för kampanjskapande"
->abstract="TBD"
+>abstract="Definiera schemat för kampanjen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Skickade mått"
->abstract="TBD"
+>abstract="Antal levererade e-postmeddelanden."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Felmått"
->abstract="TBD"
+>abstract="Antal e-postmeddelanden med felstatus."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-innehåll"
->abstract="TBD"
+>abstract="Definiera SMS-innehållet."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Appprenumeranter"
->abstract="TBD"
+>abstract="Förhandsgranska och testa meddelandet genom att lägga till programprenumeranter i huvudmålet. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Testpopulationer"
->abstract="TBD"
+>title="Testpopulation"
+>abstract="Välj ett testpopulationsläge."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Förhandsgranskningsläge"
->abstract="TBD"
+>abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
