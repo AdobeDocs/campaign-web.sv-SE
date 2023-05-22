@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: daf2b536c2483ab350c468910863b1076773a080
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Arbetsflöden"
->abstract="Få tillgång till din lista över Kampanjarbetsflöden. Du kan visa deras tillstånd, senaste/nästa bearbetningsdatum och miljö. Du kan filtrera listan efter tillstånd, senaste bearbetningsdatum och arbetsflödestyp. Det finns också arbetsflödesmallar. De här listorna är skrivskyddade."
+>abstract="På den här skärmen kan du komma åt listan över arbetsflöden, kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde. Bläddra till fliken Mallar för att komma åt arbetsflödesmallar."
 
-content TBD
 
 ## Åtkomst till skapade arbetsflöden
 
