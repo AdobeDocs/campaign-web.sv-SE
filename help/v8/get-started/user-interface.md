@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Sammanfattning av SMS-rapport"
->abstract="TBD"
+>abstract="Upptäck rapporteringsstatistik för SMS-leverans."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Sammanfattning av push-rapport"
->abstract="TBD"
+>abstract="Upptäck rapporteringsstatistik för push-leverans."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Avancerade attribut i regelbyggaren"
->abstract="TBD"
+>abstract="Använd avancerade attribut för att definiera regeln."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push-innehåll för Android"
->abstract="TBD"
+>abstract="Definiera push-innehåll för Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="TBD"
+>abstract="Definiera push-iOS-innehåll."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Rapportering skickas"
->abstract="TBD"
+>abstract="Se utskicksindikatorerna för kampanjrapporteringen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Rapporteringsspårning"
->abstract="TBD"
+>abstract="Se spårningsindikatorerna för kampanjrapporten."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Rapportöversikt"
->abstract="TBD"
+>abstract="Viktiga mätvärden för leveransen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Rapportera målstatistik"
->abstract="TBD"
+>abstract="I det här avsnittet visas specifika mätvärden beroende på målgrupper."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Rapportera aggregerad välj en leverans"
->abstract="TBD"
+>title="Aggregerad rapportering för leveranser"
+>abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Arbetsflödeslista"
->abstract="TBD"
+>abstract="Lista över tillgängliga arbetsflöden för kampanjen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Behörighet krävs"
->abstract="TBD"
+>abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Behörighet krävs"
->abstract="TBD"
+>abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nytt karantänmätvärde"
 >abstract="Nytt karantänmått."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Val av SMS-mall"
+>abstract="Välj en fördefinierad mall för att starta SMS-leveransen."
