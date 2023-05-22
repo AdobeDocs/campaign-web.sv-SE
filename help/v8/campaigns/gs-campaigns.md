@@ -4,10 +4,10 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 12%
+source-wordcount: '303'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,14 @@ Designa och genomför e-postkampanjer i stora volymer för att leverera personal
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Med Adobe Campaign segmenteringsfunktioner kan ni köra frågor mot en databas med stora volymer och enkelt definiera dynamiska marknadsföringssegment som är perfekt inriktade på era kampanjer.
 
 ## Skapa en flerkanalskampanj {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Arbetsflödeslista"
+>abstract="Lista över tillgängliga arbetsflöden för kampanjen. Använd knappen Skapa arbetsflöde för att lägga till ett arbetsflöde i kampanjen."
+
+
 
 I en tvärkanalskampanj används olika kanaler för en enda marknadsföringskommunikation. Data skickas mellan kanalerna. Kunden får kommunikation via flera kanaler, t.ex. baserat på deras interaktion med den tidigare kommunikationen.
 
