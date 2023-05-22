@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Push-meddelandemall"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Egenskaper för kampanjskapande"
->abstract="Definiera egenskaper och metadata för kampanjen."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Schema för kampanjskapande"
->abstract="Definiera schemat för kampanjen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolumndefinition"
->abstract="TBD"
+>abstract="Markera de kolumner som du vill infoga från filen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formateringsparametrar"
->abstract="TBD"
+>abstract="Definiera formateringsparametrarna för filen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Avancerade fält för attributväljaren"
->abstract="TBD"
+>abstract="Konfigurera kolumner med avancerade fält."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Avancerade fält för regelbyggaren"
->abstract="TBD"
+>abstract="Konfigurera kolumner med avancerade fält."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS-leveransegenskaper"
->abstract="TBD"
+>abstract="Hantera SMS-leveransegenskaperna."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Push-leveransegenskaper"
->abstract="TBD"
+>abstract="Hantera egenskaperna för push-leverans."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nytt karantänmätvärde"
->abstract="TBD"
+>abstract="Nytt karantänmått."
 
