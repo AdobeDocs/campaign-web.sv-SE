@@ -4,9 +4,9 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 12%
 
 ---
@@ -28,6 +28,11 @@ I en tvärkanalskampanj används olika kanaler för en enda marknadsföringskomm
 >id="acw_campaign_creation_properties"
 >title="Egenskaper för kampanjskapande"
 >abstract="Definiera egenskaper och metadata för kampanjen."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Kampanjegenskaper"
+>abstract="Definiera kampanjinställningar och metadata."
 
 Kampanjegenskaper visas när en ny kampanj skapas.
 
