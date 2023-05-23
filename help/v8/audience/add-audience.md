@@ -4,9 +4,9 @@ title: Välj en målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du defi
 Du kan även:
 
 * Skapa en ny målgrupp. [Läs mer](segment-builder.md)
-* Importera en målgrupp från en fil. [Läs mer](import-audience.md)
+* Använd en målgrupp från en extern fil. [Läs mer](file-audience.md)
 * Använda en Adobe Experience Platform-målgrupp. [Läs mer](aep-audience.md).
 
 
