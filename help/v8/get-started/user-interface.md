@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Definiera push-iOS-innehåll."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS-innehåll"
->abstract="Definiera SMS-innehållet."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Appprenumeranter"
 >abstract="Förhandsgranska och testa meddelandet genom att lägga till programprenumeranter i huvudmålet. "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="Avancerade fält för regelbyggaren"
 >abstract="Konfigurera kolumner med avancerade fält."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="SMS-leveransegenskaper"
->abstract="Hantera SMS-leveransegenskaperna."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
