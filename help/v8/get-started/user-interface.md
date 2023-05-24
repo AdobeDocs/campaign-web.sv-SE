@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampanjer"
->abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade."
+>abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Klicka på knappen Skapa kampanj för att lägga till en ny kampanj. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Bläddra till fliken Mallar för att visa och skapa mallar."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveranser"
->abstract="Bläddra igenom listan över leveranser. Du kan visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna kontrollpanelen. Andra objekt är skrivskyddade. Leveransmallar finns också."
+>abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
 
 * **Kampanjer** - Det här är listan över era kampanjer. Som standard kan du visa deras start-/slutdatum/sista ändringsdatum samt deras status. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade.
 
