@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -32,28 +32,11 @@ Du kan anpassa meddelandeinnehållet genom att:
    Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren.
 
    ![](assets/perso-content-blocks.png)
-<!--
-* Create **conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
--->
+* Skapa **villkorligt innehåll**
 
+   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true.
 
-Inbyggda innehållsblock är:
-
-* **[!UICONTROL Enabled by Adobe Campaign]**: infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
-* **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel: &quot;Hej John Doe.&quot;
-* **[!UICONTROL Insert logo]**: infogar en logotyp som är definierad i instansinställningarna.
-* **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](../content/mirror-page.md). Standardformatet är: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
-* **[!UICONTROL Mirror page URL]**: infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
-* **[!UICONTROL Offer acceptance URL in unitary mode]**: infogar en URL som gör att ett erbjudande kan anges till **[!UICONTROL Accepted]**. (Det här blocket är tillgängligt om interaktionsmodulen är aktiverad)
-* **[!UICONTROL Registration confirmation]**: infogar en länk som bekräftar prenumerationen.
-* **[!UICONTROL Registration link]**: infogar en prenumerationslänk. Den här länken definieras i instansinställningarna. Standardinnehållet är: &quot;Registrera dig genom att klicka här.&quot;
-* **[!UICONTROL Registration link (with referrer)]**: infogar en prenumerationslänk som gör det möjligt att identifiera besökaren och leveransen. Den här länken definieras i instansinställningarna.
-* **[!UICONTROL Registration page URL]**: infogar en prenumerations-URL
-* **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]**: generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
-* **[!UICONTROL Unsubscription link]**: infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med ***ditt organisationsnamn*** eller ett närstående bolag. Ta inte längre emot meddelanden från ***ditt organisationsnamn*** klicka här.&quot;
 
 ## Anpassa ämnesraden för e-post {#personalize-subject-line}
 
@@ -115,3 +98,21 @@ För att personalisera en **link**:
 ## Anpassa era erbjudanden {#personalize-offers}
 
 Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer. Läs mer i [det här avsnittet](../content/offers.md).
+
+## Inbyggda innehållsblock {#ootb-content-blocks}
+
+Inbyggda innehållsblock är:
+
+* **[!UICONTROL Enabled by Adobe Campaign]**: infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
+* **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
+* **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel: &quot;Hej John Doe.&quot;
+* **[!UICONTROL Insert logo]**: infogar en logotyp som är definierad i instansinställningarna.
+* **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](../content/mirror-page.md). Standardformatet är: &quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.
+* **[!UICONTROL Mirror page URL]**: infogar spegelsidans URL, vilket gör att leveransdesigners kan kontrollera länken.
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: infogar en URL som gör att ett erbjudande kan anges till **[!UICONTROL Accepted]**. (Det här blocket är tillgängligt om interaktionsmodulen är aktiverad)
+* **[!UICONTROL Registration confirmation]**: infogar en länk som bekräftar prenumerationen.
+* **[!UICONTROL Registration link]**: infogar en prenumerationslänk. Den här länken definieras i instansinställningarna. Standardinnehållet är: &quot;Registrera dig genom att klicka här.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: infogar en prenumerationslänk som gör det möjligt att identifiera besökaren och leveransen. Den här länken definieras i instansinställningarna.
+* **[!UICONTROL Registration page URL]**: infogar en prenumerations-URL
+* **[!UICONTROL Style of content emails]** och **[!UICONTROL Notification style]**: generera kod som formaterar ett e-postmeddelande med fördefinierade HTML-format.
+* **[!UICONTROL Unsubscription link]**: infogar en länk som gör det möjligt att avbryta prenumerationen på alla leveranser (blockeringslista). Standardinnehållet är: &quot;Du får det här meddelandet eftersom du har haft kontakt med ***ditt organisationsnamn*** eller ett närstående bolag. Ta inte längre emot meddelanden från ***ditt organisationsnamn*** klicka här.&quot;

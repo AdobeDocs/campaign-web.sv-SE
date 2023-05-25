@@ -4,9 +4,9 @@ title: Förhandsgranska och testa e-post
 description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Innan du skickar ett e-postmeddelande är det viktigt att du granskar och testar
 För att göra detta kan Adobe Campaign
 
 * [Förhandsgranska e-postinnehållet och personaliseringen](preview-content.md),
-   <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Kontrollera e-poståtergivningen](#rendering) på vanliga datorer, mobilkunder och webbaserade klienter,
 * [Skicka testmeddelanden](proofs.md) till specifika mottagare för testning och validering.
 
 Dessa åtgärder kan utföras från **[!UICONTROL Simulate content]** som är tillgänglig när du skapar innehållet i e-postmeddelandet från e-postdesignern:
