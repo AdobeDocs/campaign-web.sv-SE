@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,9 @@ Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster m
 Så här skapar du en fristående leverans:
 
 1. Bläddra till **[!UICONTROL Deliveries]** till vänster och klicka på **[!UICONTROL Create delivery]** -knappen.
+
+   ![](assets/create-a-delivery.png)
+
 1. Välj en kanal för leveransen. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
 
    * [E-postkanal](../email/create-email.md)
@@ -108,3 +111,21 @@ När meddelandeinnehållet har definierats kan du förhandsgranska det för att 
 ## Loggar för leverans och spårning{#gs-tracking-logs}
 
 Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder. Du kan övervaka efter att du har skickat en leverans samt förstå hur leveransfel och karantäner hanteras.
+
+## Duplicera en leverans{#delivery-duplicate}
+
+Du kan skapa en kopia av en befintlig leverans, antingen från leveranslistan eller från kontrollpanelen för leverans.
+
+Så här duplicerar du en leverans från listan med leveranser:
+
+1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
+1. Välj  **[!UICONTROL Duplicate]**.
+1. Bekräfta duplicering: den nya kontrollpanelen för leverans öppnas på den centrala skärmen.
+
+
+Så här duplicerar du en leverans från kontrollpanelen:
+
+1. Öppna leveransen och klicka på  **[!UICONTROL ...More]** på skärmens övre del.
+1. Välj  **[!UICONTROL Duplicate]**.
+1. Bekräfta duplicering: den nya leveransen ersätter den aktuella leveransen på skärmen.
+
