@@ -4,10 +4,10 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: '593'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 har följande leveranskanaler:
 
 ## Skapa en leverans
 
-Du kan skapa fristående leveranser från **Leverans** huvudmenyn eller skapa leveranser i samband med en marknadsföringskampanj.
+Du kan skapa fristående leveranser från **Leveranser** vänster meny, eller skapa leveranser i samband med en marknadsföringskampanj, från **Kampanjer** vänster meny.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Så här skapar du en fristående leverans:
 Så här skapar du en leverans i en kampanj:
 
 1. Skapa en kampanj eller öppna en befintlig kampanj.
+1. Skapa ett arbetsflöde eller öppna ett befintligt arbetsflöde.
+1. Lägg till och konfigurera en **Bygg målgrupper** och klicka på `+`-knappen.
+   ![](assets/add-delivery-in-wf.png)
+1. Välj en leveransaktivitet: E-post, SMS, push-meddelanden (Android) eller push-meddelanden (iOS). Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
+
+   * [E-postkanal](../email/create-email.md)
+   * [Push-meddelandekanal](../push/gs-push.md)
+   * [SMS-kanal](../sms/create-sms.md)
+
+1. Starta arbetsflödet och kontrollera loggarna.
 
 Mer information om hur du konfigurerar en kampanj finns i
 
