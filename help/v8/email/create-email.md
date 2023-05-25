@@ -4,9 +4,9 @@ title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ I det här fallet använder du en fördefinierad mall för att utforma e-postmed
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definiera målgruppen"
->abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du skapa en ny målgrupp med regelbyggaren."
+>abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du skapa en ny målgrupp med regelbyggaren. Kontrollgrupper är inte aktiverade för Välj från fil och vice versa."
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp. Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
 
