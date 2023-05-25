@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ Följ de här stegen för att ange profiler från en lokal fil direkt från grä
 När du skapar och anpassar meddelandeinnehållet kan du välja fält från indatafilen i personaliseringsredigeraren.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
 
 ## Exempelfil {#sample-file}
 

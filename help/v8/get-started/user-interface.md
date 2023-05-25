@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Utforskaren"
 >abstract="The **Utforskaren** -menyn visar samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8. Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post."
 
-The **Utforskaren** -menyn visar samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8. Alla listskärmar är skrivskyddade, förutom leveranslistan för e-post.
+The **Utforskaren** -menyn visar samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8.
 
 Vilka objekt som visas i Utforskaren beror på dina användarbehörigheter.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Leveranser"
 >abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
 
-* **Kampanjer** - Det här är listan över era kampanjer. Som standard kan du visa deras start-/slutdatum/sista ändringsdatum samt deras status. Du kan filtrera listan efter status eller start-/slutdatum. Kampanjmallar finns också tillgängliga. De här listorna är skrivskyddade.
+I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
+
+* **Kampanjer** - Det här är listan över era kampanjer och kampanjmallar. Som standard kan du för varje kampanj visa datum för start/slut/skapande/senaste ändring, aktuell status och namnet på den kampanjoperator som skapade den. Du kan filtrera listan efter status, start-/slutdatum, mapp eller skapa ett avancerat filter för att definiera egna filtervillkor.
 
 * **Leveranser** - Bläddra i listan över leveranser. Som standard kan du visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna instrumentpanelen och få en översikt över leveransinformationen. Leveranser i andra kanaler är skrivskyddade. Leveransmallar finns också i skrivskyddat läge. Du kan använda klientkonsolen för att redigera dem. Se det här [dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Arbetsflöden** - På den här skärmen har du tillgång till den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte.
+
 
 ### Kundhantering
 

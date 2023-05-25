@@ -4,9 +4,9 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '589'
 ht-degree: 26%
 
 ---
@@ -29,6 +29,11 @@ Alla profiler som är en del av kontrollgruppen vid leveransförberedelsesteget 
 Om du vill skapa en kontrollgrupp klickar du på **[!UICONTROL Set Control Group]** från **Målgrupp** i leveransassistenten.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>Du kan inte använda kontrollgrupper när målpopulationen läses in [från en extern fil](file-audience.md).
+
 
 ## Extrahera från mål {#extract-target}
 
