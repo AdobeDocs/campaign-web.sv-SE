@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
+source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -244,7 +244,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push-meddelandemall"
->abstract="TBD"
+>abstract="Välj en mall för push-meddelanden för att starta din push-leverans."
 
 
 >[!CONTEXTUALHELP]
