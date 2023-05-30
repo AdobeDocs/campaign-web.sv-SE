@@ -4,9 +4,9 @@ title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 
 # Förhandsgranska e-postinnehåll {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Smart förhandsvisning av ditt innehåll"
->abstract="Använd profildata för att förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det, kontrollera anpassningsattribut och kontrollera hur mottagarna kan se meddelandeinnehållet."
 
 Använd funktionerna för simulering av innehåll i Adobe Campaign för att förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det, styra personaliseringen och kontrollera hur det visas för mottagarna.
 

@@ -4,34 +4,35 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---
 
-# Kom igång med Campaign v8 Web {#get-started}
+# Kom igång med Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Kom igång"
 >abstract="Upptäck viktiga funktioner, användargränssnitt och globala riktlinjer."
 
->[!NOTE]
->
->Campaign v8 Web är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
 Inledningsvis endast tillgängligt via [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
-
 
 ![](assets/home.png)
 
 Det nya användargränssnittet uppfyller först behoven i **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 
 Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgängliga i webbgränssnittet kan du använda [klientkonsol](#ac-client).
+
+
+>[!NOTE]
+>
+>Campaign v8 Web är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 ## Om Campaign-klientkonsolen{#ac-client}
 

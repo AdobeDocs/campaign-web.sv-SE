@@ -4,9 +4,9 @@ title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,29 @@ Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt 
 
 Campaign new Web UI erbjuder en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
 
-* Tillgång till det nya gränssnittet och andra Adobe-lösningar med en enda delad användarsession
+* Tillgång till det nya gränssnittet och dina andra Adobe-lösningar med en enda delad användarsession
 * Ny navigeringsupplevelse med alla menyer och mappar tillgängliga från den vänstra listen
 * Lösnings- och organisationsväljare från det övre fältet
 * Integrering med Enhetligt gränssnitt, med direktåtkomst till communityn, hjälpcentret och supporten
-<!--
-No search and pulse notifications in Alpha
--->
+
+**Nya kraftfulla funktioner och smidiga processer**
+
+* Omdesignat gränssnitt för arbetsyta för att utforma och hantera processer
+* Dynamiskt innehåll för att leverera målinriktade och personaliserade upplevelser till er målgrupp
+* Inbyggd integrering med Adobe Experience Platform målgrupper
+* Mallhantering för arbetsflöden, leveranser, kampanjer och innehåll
 
 Läs mer om det nya användargränssnittet i [den här sidan](../get-started/user-interface.md).
 
-**Skapa, starta och mät din e-postkampanj**
+**Skapa, lansera och mät er kampanj**
 
 Använd det nya webbgränssnittet för Campaign för att:
 
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
+* Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden.
 * Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
 * Förhandsgranska, testa och skicka e-postmeddelanden - [Läs mer](../monitor/prepare-send.md)
-* Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/reports.md)
+* Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -62,12 +67,9 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 
 ## Begränsningar{#limitations-alpha}
 
-Vissa funktioner för Campaign, som flerkanalskampanjer och arbetsflödeshantering, kommer att vara tillgängliga i betaversionen.
-
 Begränsningarna nedan gäller denna alfaversion:
 
-* De enda redigerbara objekten är Leveranser. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
-* Den här versionen är utformad för en enstaka e-postkampanj. Andra kanaler stöds ännu inte.
+* De enda redigerbara objekten är leveranser, kampanjer, arbetsflöden, målgrupper och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
 * Användargränssnittet Administration är inte tillgängligt.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
