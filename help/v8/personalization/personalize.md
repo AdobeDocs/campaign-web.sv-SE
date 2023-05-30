@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
 
 
 # Anpassa innehållet{#add-personalization}
+
+För att få ut så mycket som möjligt av alla marknadsföringskampanjer ger Adobe Campaign er ett sätt att leverera anpassat innehåll som talar till kunderna på deras nivå. Använd personaliseringsfunktioner baserat på profildata för att skapa en anpassad upplevelse för olika grupper och individer: kan ni anpassa era meddelanden till varje specifik mottagare genom att utnyttja de data och den information ni har om dem. Det kan vara deras förnamn, intressen, var de bor, vad de har köpt och mycket annat.
+
+Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personaliseringsfunktionerna kan kombineras för att förbättra budskapen och skapa en anpassad användarupplevelse.
 
 Du kan anpassa meddelandeinnehållet genom att:
 
@@ -29,26 +33,27 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 * Infoga fördefinierad **innehållsblock**
 
-   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren.
+   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
 
    ![](assets/perso-content-blocks.png)
 
 * Skapa **villkorligt innehåll**
 
-   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true.
+   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
 
 
-## Anpassa ämnesraden för e-post {#personalize-subject-line}
+## Anpassa ämnesraden i ett meddelande {#personalize-subject-line}
 
 Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ stegen nedan:
 
-1. Klicka på **[!UICONTROL Open personalization dialog]** ikonen till höger om **[!UICONTROL Subject line]** fält.
+1. Öppna en leverans och klicka på **[!UICONTROL Edit content]**.
+1. Klicka på **[!UICONTROL Open personalization dialog]** ikonen till höger om **[!UICONTROL Subject line]** fält för e-post eller **[!UICONTROL Title]** fält för push/SMS-leveranser.
 
    ![](assets/perso-subject.png){width="600"}
 
-1. Ange innehållet på ämnesraden och välj de anpassningsattribut som ska läggas till.
+1. Ange ämnesraden eller titeln och välj de anpassningsattribut som ska läggas till.
 
-1. Klicka **[!UICONTROL Confirm]**** för att validera. Anpassningsattributen läggs till på ämnesraden.
+1. Klicka **[!UICONTROL Confirm]** att validera. Anpassningsattributen läggs till i innehållet.
 
 ## Anpassa e-postinnehållet {#personalize-emails}
 
