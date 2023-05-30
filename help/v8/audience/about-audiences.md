@@ -4,10 +4,10 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '146'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Kom igång med målgrupper"
->abstract="Lär dig hur du hanterar målgrupper för ditt e-postinnehåll."
+>abstract="Lär dig hur du använder Kampanjregelbyggaren och definierar filtervillkor för att skapa målgrupper för dina meddelanden."
 
 <!--
 Audience only created for the delivery, not available later-->
