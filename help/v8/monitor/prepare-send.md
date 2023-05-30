@@ -4,20 +4,16 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 3%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
 
 # Förbered och skicka e-post {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Förbered och skicka e-post"
->abstract="Upptäck hur du förbereder e-postmeddelandet och lär dig mer om hur du skickar nyckeltal."
 
 <!--
 

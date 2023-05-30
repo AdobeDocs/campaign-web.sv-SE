@@ -4,14 +4,15 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '925'
 ht-degree: 1%
 
 ---
 
-# Kom igång med meddelanden på Campaign Web {#gs-messages}
+# Kom igång med meddelanden{#gs-messages}
+
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter. Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i en marknadsföringskampanj.
 

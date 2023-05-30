@@ -4,9 +4,9 @@ title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,18 @@ ht-degree: 1%
 
 # Skicka ditt första e-postmeddelande {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Skicka ditt första e-postmeddelande till Adobe Campaign"
+>abstract="Lär dig hur du använder e-postdesignern för att skapa ditt innehåll, förhandsgranska och testa det och skicka ett e-postmeddelande till en befintlig publik i ett heltäckande användningsfall."
+
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
 E-postmeddelandet bygger på en fördefinierad designmall och innehåller även anpassat innehåll baserat på kundprofilattribut.
 
 ![](assets/delivery-list.png)
 
-## Skapa e-postmeddelandet {#create-email}
+## Skapa e-postleveransen {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -31,6 +36,8 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 >id="acw_deliveries_email_properties"
 >title="E-postegenskaper"
 >abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
+
+Så här skapar du en ny leverans:
 
 1. Bläddra till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 
@@ -60,11 +67,6 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
    Dessutom kan du komma åt avancerade inställningar, t.ex. typologiregler och målmappningar, genom att klicka på knappen bredvid leveransnamnet. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
 
 ## Skapa e-postinnehåll {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Lär dig hur du utformar e-postinnehåll"
->abstract="Lär dig hur du använder e-postdesignern."
 
 Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det här avsnittet](../content/edit-content.md).
 
