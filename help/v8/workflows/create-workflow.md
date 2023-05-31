@@ -4,7 +4,7 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
+source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -71,7 +71,7 @@ I det här skedet av konfigurationen visas diagrammet med en startikon som repre
 
 En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en vänteaktivitet för att fördröja arbetsflödets körning. Om du däremot lägger till en aktivitet efter en Build-målgruppsaktivitet kan du förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller organisera arbetsflödet med flödeskontrollaktiviteter.
 
-När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](get-started-activities.md).
+När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
