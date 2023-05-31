@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
+source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -21,27 +21,12 @@ ht-degree: 0%
 
 ## Skapa arbetsflödet {#create-workflow}
 
-Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att skapa det antingen som ett fristående arbetsflöde eller direkt i en kampanj och definiera dess egenskaper.
+Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att skapa det antingen som ett fristående arbetsflöde eller direkt i en kampanj och definiera dess allmänna egenskaper. Gör så här:
 
-Gör så här:
+1. Börja med att bestämma om du vill skapa ett fristående arbetsflöde eller integrera det direkt i en kampanj:
 
-1. Börja med att bestämma om du vill skapa ett fristående arbetsflöde eller integrera det direkt i en kampanj.
-
->[!BEGINTABS]
-
->[!TAB Skapa ett fristående arbetsflöde]
-
-Navigera till menyn Arbetsflöde och klicka på knappen Skapa arbetsflöde i det övre högra hörnet.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Skapa ett kampanjarbetsflöde]
-
-Navigera till Campaigns-menyn och öppna kampanjen där du vill skapa ett nytt arbetsflöde. Klicka på knappen Skapa arbetsflöde i det övre högra hörnet på fliken Arbetsflöden.
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+   * **Fristående arbetsflöde**: Navigera till menyn Arbetsflöde och klicka på knappen Skapa arbetsflöde i det övre högra hörnet.
+   * **Kampanjarbetsflöde:** Navigera till Campaigns-menyn och öppna kampanjen där du vill skapa ett nytt arbetsflöde. Klicka på knappen Skapa arbetsflöde i det övre högra hörnet på fliken Arbetsflöden.
 
 1. Dialogrutan Egenskaper för arbetsflöde visas. Välj den mall som ska användas för att skapa arbetsflödet och ange ett namn för det.
 
@@ -51,7 +36,7 @@ Navigera till Campaigns-menyn och öppna kampanjen där du vill skapa ett nytt a
 
    >[!NOTE]
    >
-   >När du skapar ett arbetsflöde i en kampanj hittar du ett extra Campaign-fält som gör det enkelt att identifiera och komma åt kampanjen som är kopplad till arbetsflödet.
+   >När du skapar ett arbetsflöde i en kampanj hittar du ett extra Campaign-fält som gör det möjligt att enkelt identifiera och komma åt kampanjen som är kopplad till arbetsflödet.
 
 1. Klicka på knappen Skapa arbetsflöde för att bekräfta att arbetsflödet har skapats.
 
@@ -61,15 +46,13 @@ När arbetsflödet har skapats kan du nu börja organisera de olika uppgifter so
 
 ## Samordna arbetsflödesaktiviteter {#build}
 
-En gång har du [skapade ett arbetsflöde](create-workflow.md), oavsett om det gäller arbetsflödesmenyn eller en kampanj, kan du börja organisera de olika uppgifter som ska utföras.
-
-För att göra detta finns en visuell arbetsyta som gör att du kan skapa ett arbetsflödesdiagram. I det här diagrammet kan du lägga till olika aktiviteter och koppla dem i en sekventiell ordning.
+En gång har du [skapade ett arbetsflöde](create-workflow.md), oavsett om det gäller arbetsflödesmenyn eller en kampanj, kan du börja organisera de olika uppgifter som ska utföras. För att göra detta finns en visuell arbetsyta som gör att du kan skapa ett arbetsflödesdiagram. I det här diagrammet kan du lägga till olika aktiviteter och koppla dem i en sekventiell ordning.
 
 I det här skedet av konfigurationen visas diagrammet med en startikon som representerar början av arbetsflödet. Om du vill lägga till den första aktiviteten klickar du på plusknappen (+) som är ansluten till startikonen.
 
-![](assets/workflow-start.png)
+En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en vänteaktivitet för att fördröja arbetsflödets körning. Efter en målgruppsaktivitet kan du däremot förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller ordna arbetsflödet med flödeskontrollaktiviteter.
 
-En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en vänteaktivitet för att fördröja arbetsflödets körning. Om du däremot lägger till en aktivitet efter en Build-målgruppsaktivitet kan du förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller organisera arbetsflödet med flödeskontrollaktiviteter.
+![](assets/workflow-start.png)
 
 När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](workflow-activities.md).
 
