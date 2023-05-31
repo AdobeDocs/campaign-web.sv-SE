@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 0105bb268e807b568f2d1c465f4636419fc070b6
+source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '271'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,6 @@ ht-degree: 11%
    + Skapa och kör ditt första arbetsflöde {#create-workflow}
       + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
       + [Skapa arbetsflödet](workflows/create-workflow.md)
-      + [Lägga till och samordna arbetsflödesaktiviteter](workflows/build-workflow.md)
       + [Konfigurera inställningar för arbetsflöde](workflows/workflow-settings.md)
       + [Starta och övervaka ett arbetsflöde](workflows/start-monitor-workflows.md)
    + [Arbetsflödesaktiviteter](workflows/workflow-activities.md)
