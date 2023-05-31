@@ -4,10 +4,10 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 1%
+source-wordcount: '1140'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,15 @@ Med de här aktiviteterna kan du skapa ett eller flera mål genom att definiera 
 
 Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja en befintlig Campaign-förekomst eller använda regelbyggaren för att definiera en egen fråga.
 
-The **Bygg målgrupper** kan placeras i början av arbetsflödet eller efter andra aktiviteter. Alla aktiviteter kan placeras efter **Bygg målgrupper**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
+
+Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
+
+1. Lägg till en Build-målgruppsaktivitet.
+1. Definiera en etikett.
+1. Definiera målgruppstyp: **Skapa en egen** eller **Läsa målgrupper**.
 
 Så här skapar du en egen fråga:
 
@@ -31,7 +39,7 @@ Så här skapar du en egen fråga:
 1. Klicka **Fortsätt**.
 1. Använd regelbyggaren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../audience/segment-builder.md).
 
-Om du vill välja en befintlig målgrupp
+Så här väljer du en befintlig målgrupp:
 
 1. Välj **Läsa målgrupper**.
 1. Klicka **Fortsätt**.
@@ -39,13 +47,31 @@ Om du vill välja en befintlig målgrupp
 
 ### Kombinera {#combine}
 
-The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av arbetsflödet. Alla aktiviteter kan placeras efter **Kombinera**.
+Med den här aktiviteten kan du bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
 
-Unionen: Med kan du gruppera resultatet av flera aktiviteter till ett enda mål. Se avsnittet om unionen.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Skärningspunkt: låter dig extrahera endast populationen med samma inkommande aktivitetsresultat
+* The **Union** kan du gruppera om resultatet av flera aktiviteter till ett enda mål.
+* The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
+* The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
-Uteslutning: Med kan du skapa ett mål baserat på ett huvudmål som ett eller flera andra mål extraheras från.
+Följ de här stegen för att konfigurera **Kombinera** aktivitet:
+
+1. Lägg till **Kombinera** aktivitet till någon av de tidigare segmenteringsövergångarna.
+1. Välj segmenteringstyp: union, skärning eller uteslutning.
+1. Klicka **Fortsätt**.
+1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill delta i.
+
+För **Union** och **Skärningspunkt** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
+
+    * Endast tangenter: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
+    * En markering med kolumner: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+
+För **Skärningspunkt** och **Uteslutning** kan du kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
+
+För **Uteslutning** väljer du **Primär uppsättning** från inkommande övergångar, i **Uppsättningar att förena** -avsnitt. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
 
 ### Berikning {#enrichment}
 
@@ -90,7 +116,6 @@ Så här lägger du till en fördjupningsaktivitet i arbetsflödet:
 utnyttja anrikningsdata i kampanjen
 
 där vi kan använda anrikningsdata: personalisera e-post, andra användningsfall?
-
 
 ## Kanalaktiviteter {#channel}
 
