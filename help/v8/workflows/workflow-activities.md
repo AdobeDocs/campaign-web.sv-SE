@@ -4,9 +4,9 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ Om du vill välja en befintlig målgrupp
 ### Kombinera {#combine}
 
 The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av arbetsflödet. Alla aktiviteter kan placeras efter **Kombinera**.
+
+Unionen: Med kan du gruppera resultatet av flera aktiviteter till ett enda mål. Se avsnittet om unionen.
+
+Skärningspunkt: låter dig extrahera endast populationen med samma inkommande aktivitetsresultat
+
+Uteslutning: Med kan du skapa ett mål baserat på ett huvudmål som ett eller flera andra mål extraheras från.
 
 ### Berikning {#enrichment}
 
