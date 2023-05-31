@@ -5,7 +5,8 @@ description: Lär dig hur du skapar och använder leveransmallar i Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 3%
@@ -70,5 +71,3 @@ Så här konfigurerar du en leveransmall från grunden:
 1. Definiera mallens namn och inställningar.
 1. Klicka på **[!UICONTROL Review]** för att definiera mallinnehållet och ändra dess egenskaper.
 1. Spara den nya mallen.
-
-

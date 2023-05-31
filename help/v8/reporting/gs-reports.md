@@ -5,7 +5,7 @@ description: Lär dig hur du får åtkomst till och hanterar rapporter på Campa
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
