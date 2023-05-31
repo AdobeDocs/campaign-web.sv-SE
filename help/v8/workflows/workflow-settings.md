@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,9 @@ definiera inställningar som är tillgängliga från knappen på arbetsytan
 * Internt namn
 * Mapp
 * Länkad kampanj > kan ändra den. I så fall försvinner arbetsflödet från den aktuella kampanjen och visas i den nya länkade kampanjen
+
+   När du skapar ett arbetsflöde i en kampanj hittar du ett extra Campaign-fält som gör det möjligt att enkelt identifiera och komma åt kampanjen som är kopplad till arbetsflödet.
+
 * Tidszon: Definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 * Ansvarig: När ett arbetsflöde är felaktigt meddelas de operatorer som tillhör arbetsflödesövervakningsgruppen via e-post, förutsatt att deras e-postadress anges i deras profil. Den här gruppen är markerad i **[!UICONTROL Supervisor(s)]** i arbetsflödesegenskaperna.
 * description

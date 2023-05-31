@@ -4,10 +4,10 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Kom igång med målgrupper"
->abstract="Lär dig hur du använder Kampanjregelbyggaren och definierar filtervillkor för att skapa målgrupper för dina meddelanden."
+>abstract="Lär dig hur du använder Kampanjregelbyggaren och definierar filtervillkor för att skapa målgrupper för dina meddelanden. Ni kan också enkelt använda data från en extern fil eller inrikta er på Adobe Experience Platform-målgrupper."
 
 <!--
 Audience only created for the delivery, not available later-->

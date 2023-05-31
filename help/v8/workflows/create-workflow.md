@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,11 @@ Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att ska
 
    Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden. De skapas från klientkonsolen. [Lär dig hur du arbetar med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
+   ![](assets/workflow-create.png)
+
 1. Konfigurera specifika inställningar för arbetsflödet, t.ex. lagringsmapp och tidszon, i avsnittet Ytterligare alternativ. [Lär dig hur du konfigurerar arbetsflödesegenskaper](workflow-settings.md)
 
-   >[!NOTE]
-   >
-   >När du skapar ett arbetsflöde i en kampanj hittar du ett extra Campaign-fält som gör det möjligt att enkelt identifiera och komma åt kampanjen som är kopplad till arbetsflödet.
-
 1. Klicka på knappen Skapa arbetsflöde för att bekräfta att arbetsflödet har skapats.
-
-   ![](assets/workflow-create.png)
 
 När arbetsflödet har skapats kan du nu börja organisera de olika uppgifter som ska utföras med en dedikerad visuell arbetsyta. [Lär dig att samordna arbetsflödesaktiviteter](#build)
 
