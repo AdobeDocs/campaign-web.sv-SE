@@ -4,10 +4,10 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '665'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,49 @@ content TBD
 
 <!--à reformuler-->Med de här aktiviteterna kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dem med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
+### Bygg målgrupper {#build-audience}
+
+### Kombinera {#combine}
+
+## Kanalaktiviteter {#channel}
+
+Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Med Adobe Campaign arbetsflöden kan du kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
+
+Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS och push. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagsmeddelande till en kund via SMS.
+
+Genom att använda kanalaktiviteter kan ni skapa omfattande, personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
+
+Kanalaktiviteter är tillgängliga från paletten, till vänster på skärmen, i avsnittet Kanaler.
+
+### E-post {#email}
+
+description, which use case you can perform (common other tasks that you can link before of after the activity)
+
+lägga till och konfigurera aktiviteten
+
+exempel på en konfigurerad aktivitet i ett arbetsflöde
+
+
+Med aktiviteten för e-postleverans kan du konfigurera skickandet av ett e-postmeddelande i ett arbetsflöde.
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+E-postmottagare definieras uppströms aktiviteten i samma arbetsflöde, via en målgruppsaktivitet.
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### SMS {#sms}
+
+### Push-meddelande (Android) {#push-android}
+
+### Push-meddelande (iOS) {#push-ios}
 
 ## Flödeskontrollaktiviteter {#flow-control}
 
@@ -28,6 +71,15 @@ content TBD
 <!--à reformuler-->Med de här aktiviteterna kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dem med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
 Flödeskontrollaktiviteter används för att samordna arbetsflödesaktiviteter.
+
+### Förgrening {#fork}
+
+### AND-join {#end}
+
+
+### Vänta {#end}
+
+### End {#end}
 
 ## Datahanteringsaktiviteter {#data-management}
 
