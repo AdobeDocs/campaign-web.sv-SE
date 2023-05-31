@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bygg målgrupper {#build-audience}
 
-Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja en befintlig Campaign-förekomst eller använda regelbyggaren för att definiera en egen fråga.
+Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja en befintlig målgrupp eller använda regelbyggaren för att definiera en egen fråga.
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
