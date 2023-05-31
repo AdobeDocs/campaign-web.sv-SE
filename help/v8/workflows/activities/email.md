@@ -3,21 +3,24 @@ audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
 
 # E-post {#email}
 
-description, which use case you can perform (common other tasks that you can link before of after the activity)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-lägga till och konfigurera aktiviteten
+how to add and configure the activity
 
-exempel på en konfigurerad aktivitet i ett arbetsflöde
+example of a configured activity within a workflow
+
+-->
 
 
 Med aktiviteten för e-postleverans kan du konfigurera skickandet av ett e-postmeddelande i ett arbetsflöde.
