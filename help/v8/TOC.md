@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 11%
+source-wordcount: '287'
+ht-degree: 13%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 11%
       + [Skapa arbetsflödet](workflows/create-workflow.md)
       + [Konfigurera inställningar för arbetsflöde](workflows/workflow-settings.md)
       + [Starta och övervaka ett arbetsflöde](workflows/start-monitor-workflows.md)
-   + [Arbetsflödesaktiviteter](workflows/workflow-activities.md)
+   + Arbeta med arbetsflödesaktiviteter {#design-workflows}
+      + [Om arbetsflödesaktiviteter](workflows/activities/about-activities.md)
+      + [Och-join](workflows/activities/and-join.md)
+      + [Bygg målgrupper](workflows/activities/build-audience.md)
+      + [Kombinera](workflows/activities/combine.md)
+      + [E-post](workflows/activities/email.md)
+      + [End](workflows/activities/end.md)
+      + [Berikning](workflows/activities/enrichment.md)
+      + [Förgrening](workflows/activities/fork.md)
+      + [Push](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [Vänta](workflows/activities/wait.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)
    + [Åtkomstrapporter](reporting/delivery-reports.md)
