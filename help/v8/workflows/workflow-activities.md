@@ -4,10 +4,10 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 2%
 
 ## Målinriktade aktiviteter {#targeting}
 
-content TBD
-
-<!--à reformuler-->Med de här aktiviteterna kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dem med hjälp av korsnings-, union- eller exkluderingsåtgärder.
+Med de här aktiviteterna kan du skapa ett eller flera mål genom att definiera uppsättningar och dela eller kombinera dem med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 
 ### Bygg målgrupper {#build-audience}
 
+Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja en befintlig Campaign-förekomst eller använda regelbyggaren för att definiera en egen fråga.
+
+The **Bygg målgrupper** kan placeras i början av arbetsflödet eller efter andra aktiviteter. Alla aktiviteter kan placeras efter **Bygg målgrupper**.
+
+Så här skapar du en egen fråga:
+
+1. Välj **Skapa en egen (fråga)**.
+1. Välj **Måldimension**. Med måldimensionen kan du definiera målgruppen för åtgärden: mottagare, mottagare, mottagare, operatör, abonnenter osv. Som standard är målet markerat bland mottagarna. Se [v8-dokumentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Klicka **Fortsätt**.
+1. Använd regelbyggaren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../audience/segment-builder.md).
+
+Om du vill välja en befintlig målgrupp
+
+1. Välj **Läsa målgrupper**.
+1. Klicka **Fortsätt**.
+1. Välj målgrupp på samma sätt som du använder en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../audience/add-audience.md).
+
 ### Kombinera {#combine}
+
+The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av arbetsflödet. Alla aktiviteter kan placeras efter **Kombinera**.
 
 ### Berikning {#enrichment}
 
