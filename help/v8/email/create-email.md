@@ -4,9 +4,9 @@ title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1296'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Skicka ditt första e-postmeddelande till Adobe Campaign"
+>title="Kom igång med e-post"
 >abstract="Börja med en mall eller använd Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad. Lär dig hur du använder e-postdesignern för att skapa ditt innehåll, förhandsgranska och testa det och skicka ett e-postmeddelande till en befintlig publik i ett heltäckande användningsfall."
 
 
