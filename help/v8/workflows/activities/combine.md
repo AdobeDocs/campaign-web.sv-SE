@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Alpha" type="Positive"
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 16%
@@ -35,8 +35,8 @@ Följ de här stegen för att konfigurera **Kombinera** aktivitet:
 
 För **Union** och **Skärningspunkt** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
-    * Endast tangenter: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
-    * En markering med kolumner: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+* Endast tangenter: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
+* En markering med kolumner: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
 För **Skärningspunkt** och **Uteslutning** kan du kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
 
