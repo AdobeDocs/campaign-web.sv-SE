@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -241,11 +241,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Välj den bästa målgruppen för SMS-meddelandet."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Definiera penselmålgruppen"
->abstract="Välj den bästa målgruppen för ditt push-meddelande."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Sammanfattning av SMS-rapport"
 >abstract="Upptäck rapporteringsstatistik för SMS-leverans."
@@ -254,12 +249,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_report_overview"
 >title="Sammanfattning av push-rapport"
 >abstract="Upptäck rapporteringsstatistik för push-leverans."
-
->[!CONTEXTUALHELP]
->id="acw_push_notification_template"
->title="Push-meddelandemall"
->abstract="Välj en mall för push-meddelanden för att starta din push-leverans."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"

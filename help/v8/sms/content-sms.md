@@ -4,7 +4,7 @@ title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

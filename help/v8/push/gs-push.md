@@ -4,11 +4,49 @@ title: Kom igång med push-meddelanden
 description: Lär dig hur du skapar och skickar push-meddelanden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # Kom igång med push-meddelanden {#push}
+
+Push-meddelanden är nödvändiga för att nå ut till mobilappsanvändare, även när de inte aktivt använder din app. De har olika syften, till exempel att tillhandahålla uppdateringar, driva specifika åtgärder och meddela om avtal. Observera att användarna måste anmäla sig för att få dessa meddelanden.
+
+Du kan skapa push-meddelanden på tre olika sätt:
+
+* Arbetsflöden: När du har lagt till en push-kanalsaktivitet i arbetsflödet och konfigurerat de grundläggande inställningarna kan du sedan skapa innehållet i dina push-meddelanden från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns på den här sidan.
+
+* Kampanjer: När du har skapat en kampanj kan du skapa en push-meddelandeleverans. Mer information om hur du ställer in kampanjen finns på den här sidan.
+
+* Fristående leveranser: Engagera kunderna direkt och omedelbart med individuell push-meddelandeleverans, utan behov av arbetsflöden eller kampanjer.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="Lead" src="assets/do-not-localize/push_create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>Skapa en push-leverans</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="content-push.md">
+<img alt="Sällan" src="assets/do-not-localize/push_design.jpeg">
+</a>
+<div>
+<a href="content-push.md">Designa en push-leverans<strong></strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="Validering" src="assets/do-not-localize/push_send.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Skicka en push-leverans</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

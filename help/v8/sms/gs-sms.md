@@ -4,10 +4,10 @@ title: Kom igång med SMS-leveranser
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
@@ -23,32 +23,30 @@ SMS-kanalen erbjuder tre metoder för att skapa SMS-leveranser:
 
 * Fristående leveranser: Skapa individuella SMS-leveranser för snabb och direkt kommunikation med kunderna, utan behov av arbetsflöden eller kampanjer.
 
-<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="">
+<img alt="Lead" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+<div><a href="create-sms.md"><strong>Skapa en SMS-leverans</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="">
-<img alt="Infrequent" src="">
+<a href="content-sms.md">
+<img alt="Sällan" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href=""><strong>Send an SMS message</strong></a>
+<a href="content-sms.md">Designa en SMS-leverans<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="">
-<img alt="Validation" src="">
+<a href="send-sms.md">
+<img alt="Validering" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href=""><strong>SMS opt-out management</strong></a>
+<a href="send-sms.md"><strong>Skicka SMS-leverans</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
--->
