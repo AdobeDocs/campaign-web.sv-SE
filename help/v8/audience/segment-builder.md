@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Bygg en målgrupp med regelbyggaren
-description: Lär dig hur du arbetar med segmentbyggaren
+title: Bygg en målgrupp med Campaign rule builder
+description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 1%
 
 ---
 
-# Bygg en målgrupp med regelbyggaren {#segment-builder}
+# Definiera en målgrupp med regelbyggaren {#segment-builder}
 
 I det här avsnittet beskrivs hur du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Den skapade målgruppen kan bara användas i det här e-postmeddelandet.
 
