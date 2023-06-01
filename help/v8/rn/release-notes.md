@@ -4,9 +4,9 @@ title: Versionsinformation för Campaign Web v8
 description: Versionsinformation för Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 Begränsningarna nedan gäller denna alfaversion:
 
 * De enda redigerbara objekten är leveranser, kampanjer, arbetsflöden, målgrupper och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
+* Det går inte att spara publikerna för framtida bruk.
 * Användargränssnittet Administration är inte tillgängligt.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
