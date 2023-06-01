@@ -4,10 +4,10 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 9%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Utforma och skicka flerkanalskampanjer"
->abstract="Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. E-post-, push- och SMS-kanaler är tillgängliga."
+>abstract="Adobe Campaign-funktioner hjälper er att hantera centraliserade kunddata, utforma kundkommunikation och kampanjer och skapa personaliserade upplevelser i olika kanaler: E-post, push och SMS."
 
-Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. E-post-, push- och SMS-kanaler är tillgängliga.
+Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. I den här versionen är e-post-, push- och SMS-kanaler tillgängliga.
 
 Designa och genomför e-postkampanjer i stora volymer för att leverera personaliserade meddelanden för alla plattformar och skärmstorlekar.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Med Adobe Campaign segmenteringsfunktioner kan ni köra frågor mot en databas med stora volymer och enkelt definiera dynamiska marknadsföringssegment som är perfekt inriktade på era kampanjer.
+Mät hur effektiva era leveranser är med detaljerade rapporter som antal öppningar, klick, bl.a. Med Adobe Campaign segmenteringsfunktioner kan ni köra frågor mot en databas med stora volymer och enkelt definiera dynamiska marknadsföringssegment som är perfekt inriktade på era kampanjer.
 
 ## Skapa en flerkanalskampanj {#cross-channel-campaign}
 
