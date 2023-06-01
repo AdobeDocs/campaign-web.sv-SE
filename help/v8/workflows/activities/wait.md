@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 39%
+source-wordcount: '147'
+ht-degree: 40%
 
 ---
 
@@ -17,6 +17,8 @@ The **Vänta** aktiviteten tillfälligt avbryter körningen av en del av ett arb
 
 The **Vänta** aktiviteten används för att en viss tid ska kunna förflyta mellan två aktiviteter som körs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
 
+## Konfiguration
+
 Följ de här stegen för att konfigurera **Vänta** aktivitet:
 
 1. Lägg till en **Vänta** i arbetsflödet.
@@ -25,7 +27,6 @@ Följ de här stegen för att konfigurera **Vänta** aktivitet:
 
 1. Välj tidsenhet **Period**: sekunder, minuter, timmar.
 
-
-
+## Exempel
 
 

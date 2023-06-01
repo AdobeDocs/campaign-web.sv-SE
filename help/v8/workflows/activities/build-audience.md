@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Alpha" type="Positive"
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,8 @@ Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja e
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
+
+## Konfiguration
 
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
@@ -37,3 +39,5 @@ Så här väljer du en befintlig målgrupp:
 1. Välj **Läsa målgrupper**.
 1. Klicka **Fortsätt**.
 1. Välj målgrupp på samma sätt som du använder en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../../audience/add-audience.md).
+
+## Exempel
