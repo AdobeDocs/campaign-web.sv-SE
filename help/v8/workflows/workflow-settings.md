@@ -4,19 +4,20 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
 
-# Konfigurera arbetsflödesinställningarna {#workflow-settings}
+# Konfigurera avancerade arbetsflödesinställningar {#workflow-settings}
 
-content TBD
+När du organiserar arbetsflödesaktiviteter på arbetsytan kan du komma åt avancerade inställningar som är relaterade till arbetsflödet. Du kan till exempel ange en specifik tidszon för arbetsflödet, hantera arbetsflödets beteende om fel uppstår eller hantera den fördröjning efter vilken arbetsflödeshistoriken ska rensas.
 
-definiera inställningar som är tillgängliga från knappen på arbetsytan
-<!--à reformuler-->
+Om du vill göra det klickar du på **[!UICONTROL Workflow settings]** -ikonen i det övre vänstra hörnet av arbetsytan, bredvid arbetsflödesetiketten.
+
+![](assets/workflow-settings.png)
 
 ## Egenskaper för arbetsflöde {#properties}
 
@@ -25,19 +26,15 @@ definiera inställningar som är tillgängliga från knappen på arbetsytan
 >title="Egenskaper för arbetsflöde"
 >abstract="TBD"
 
-(= samma som när du skapar arbetsflödet ? att kontrollera)
+Avsnittet för arbetsflödesegenskaper innehåller generiska egenskaper som också är tillgängliga när du skapar arbetsflödet.
 
-* Etikett
-* Ytterligare alternativ
-* Internt namn
-* Mapp
-* Länkad kampanj > kan ändra den. I så fall försvinner arbetsflödet från den aktuella kampanjen och visas i den nya länkade kampanjen
-
-   När du skapar ett arbetsflöde i en kampanj hittar du ett extra Campaign-fält som gör det möjligt att enkelt identifiera och komma åt kampanjen som är kopplad till arbetsflödet.
-
-* Tidszon: Definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
-* Ansvarig: När ett arbetsflöde är felaktigt meddelas de operatorer som tillhör arbetsflödesövervakningsgruppen via e-post, förutsatt att deras e-postadress anges i deras profil. Den här gruppen är markerad i **[!UICONTROL Supervisor(s)]** i arbetsflödesegenskaperna.
-* description
+* **[!UICONTROL Label]**: Etiketten för arbetsflödet som visas i listan.
+* **[!UICONTROL Internal name]**: Arbetsflödets interna namn.
+* **[!UICONTROL Folder]**: Mappen där arbetsflödet ska sparas.
+* **[!UICONTROL Linked campaign]**: Det här fältet visas om arbetsflödet har skapats i en kampanj. Du kan öppna den associerade kampanjen.
+* **[!UICONTROL Timezone]**: Definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
+* **[!UICONTROL Supervisor]**: När ett arbetsflöde är felaktigt meddelas de operatorer som tillhör arbetsflödesövervakningsgruppen via e-post, förutsatt att deras e-postadress anges i deras profil.
+* **[!UICONTROL Description]**: Använd det här fältet om du vill ange en beskrivning av arbetsflödet.
 
 ## Segmenteringsinställningar
 
@@ -46,17 +43,10 @@ definiera inställningar som är tillgängliga från knappen på arbetsytan
 >title="Segmenteringsinställningar"
 >abstract="TBD"
 
-* målgruppsdimension:
+* **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, mottagare, operatör, abonnenter osv.
+* **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
 
-   Vid datasegmenteringsåtgärder mappas målnyckeln till en filtreringsdimension. Med måldimensionen kan du definiera målgruppen för åtgärden: mottagare, mottagare, mottagare, operatör, abonnenter osv. Filtreringsdimensionen gör att du kan välja populationen baserat på vissa kriterier: kontraktsägare, nyhetsbrev, prenumeranter osv.
-
-* bevara resultat: The **Behåll resultatet från mellanliggande populationer mellan två avrättningar** Alternativet håller temporära tabeller mellan två körningar av ett arbetsflöde.  Den är tillgänglig i arbetsflödesegenskapernas **[!UICONTROL General]** och kan användas för utveckling och testning för att övervaka data och kontrollera resultat. Du kan använda det här alternativet i utvecklingsmiljöer, men aldrig använda det i produktionsmiljöer. Om du behåller tillfälliga tabeller kan databasens storlek öka avsevärt och så småningom kan storleksgränsen nås. Dessutom kommer säkerhetskopieringen att bli långsammare.
-
-   Endast arbetsregister för den senaste körningen av arbetsflödet behålls. Arbetsregister från tidigare körningar rensas av **[!UICONTROL cleanup]** arbetsflöde, som körs dagligen.
-
-   >[!CAUTION]
-   >
-   >Det här alternativet måste **aldrig** checkas in i **produktion** arbetsflöde. Det här alternativet används för att analysera resultaten och är utformat endast för teständamål och ska därför endast användas i utvecklings- eller stagingmiljöer.
+   Om det här alternativet är aktiverat behålls arbetsregister även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför bara användas i utvecklings- eller staging-miljöer. Den får aldrig checkas in i ett produktionsarbetsflöde,
 
 ## Inställningar för arbetsflödeskörning
 
