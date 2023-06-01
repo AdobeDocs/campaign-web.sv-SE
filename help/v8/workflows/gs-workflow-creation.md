@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -38,39 +38,4 @@ Varje arbetsflöde innehåller:
 
 De viktigaste stegen för att skapa arbetsflöden är följande:
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-workflow.md#create">
-<img alt="Lead" src="assets/do-not-localize/workflow-process-1 .jpeg">
-</a>
-<div><a href="create-workflow.md#create"><strong>Skapa arbetsflödet</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="create-workflow.md#build">
-<img alt="Sällan" src="assets/do-not-localize/workflow-process-2.jpeg">
-</a>
-<div>
-<a href="create-workflow.md#build"><strong>Organisera aktiviteter</strong></a>
-</div>
-<p></td>
-<td>
-<a href="workflow-settings.md">
-<img alt="Validering" src="assets/do-not-localize/workflow-process-3.jpeg">
-</a>
-<div>
-<a href="workflow-settings.md"><strong>Konfigurera avancerade inställningar (valfritt)</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start-monitor-workflows.md">
-<img alt="starta och övervaka arbetsflöden" src="assets/do-not-localize/workflow-process-4.jpeg">
-</a>
-<div>
-<a href="start-monitor-workflows.md"><strong>Starta och övervaka arbetsflödets körning</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+![](assets/workflow-creation-process.png)
