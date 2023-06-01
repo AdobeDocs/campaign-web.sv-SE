@@ -4,22 +4,22 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: b75d6efecc8d154817dee3c26d87b31f44e78c7e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 
-# Skapa ett arbetsflöde {#create}
+# Skapa ditt första arbetsflöde {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Egenskaper för arbetsflöde"
 >abstract="TBD"
 
-## Skapa arbetsflödet {#create-workflow}
+## Skapa arbetsflödet {#create}
 
 Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att skapa det antingen som ett fristående arbetsflöde eller direkt i en kampanj och definiera dess allmänna egenskaper. Gör så här:
 
