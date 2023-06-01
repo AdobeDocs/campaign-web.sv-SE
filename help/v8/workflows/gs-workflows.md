@@ -4,9 +4,9 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '399'
 ht-degree: 3%
 
 ---
@@ -47,3 +47,31 @@ Nu när du har en förståelse för vilka arbetsflöden som är och vad du kan g
 * Åtkomst och bildskärm
 
 (länk till underavsnitt TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Få åtkomst till och hantera arbetsflöden" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Få åtkomst till och hantera arbetsflöden</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Skapa och kör ditt första arbetsflöde</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Sällan" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Arbeta med arbetsflödesaktiviteter</strong></a>
+</div>
+<p></td>
+</tr></table>
