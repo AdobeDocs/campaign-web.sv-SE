@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 40%
+source-wordcount: '181'
+ht-degree: 37%
 
 ---
 
@@ -29,4 +29,6 @@ Följ de här stegen för att konfigurera **Vänta** aktivitet:
 
 ## Exempel
 
+I följande exempel visas **Vänta** i vanliga fall. En e-postinbjudan till ett event skickas.  24 timmar efter att det skickats skickas ett SMS-meddelande till samma population.
 
+![](../assets/workflow-wait-example.png)
