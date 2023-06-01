@@ -4,20 +4,15 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '147'
 ht-degree: 6%
 
 ---
 
 
 # Kom igång med målgrupper {#about-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Kom igång med målgrupper"
->abstract="Lär dig hur du använder Kampanjregelbyggaren och definierar filtervillkor för att skapa målgrupper för dina meddelanden. Ni kan också enkelt använda data från en extern fil eller inrikta er på Adobe Experience Platform-målgrupper."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,7 +35,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-I det här avsnittet får du lära dig hur du definierar målgruppen för e-postmeddelanden. Målgruppen är er leverans: de mottagare som tar emot e-postmeddelandet. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Se det här [section](../email/create-email.md).
+Lär dig hur du använder Kampanjregelbyggaren och definierar filtervillkor för att skapa målgrupper för dina meddelanden. Ni kan också enkelt använda data från en extern fil eller inrikta er på Adobe Experience Platform-målgrupper. Målgruppen är er leverans: de mottagare som tar emot e-postmeddelandet. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Se det här [section](../email/create-email.md).
 
 Om du vill definiera målgruppen kan du:
 

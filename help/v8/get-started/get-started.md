@@ -4,9 +4,9 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
@@ -15,8 +15,9 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="Nyheter"
->abstract="Upptäck det nya gränssnittet Campaign Web, de senaste förbättringarna, nyckelfunktionerna och hur ni kan använda dem för att skapa flerkanalskampanjer för era målgrupper."
+>title="Nyheter?"
+>abstract="Upptäck det nya gränssnittet Campaign Web, de senaste förbättringarna, nyckelfunktionerna och hur ni kan använda dem för att skapa flerkanalskampanjer för era målgrupper. Med de användarvänliga funktionerna i Campaign kan ni effektivisera arbetet med att skapa personaliserade flerkanalskampanjer, få bättre resultat och konkurrensfördelar. "
+
 
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.

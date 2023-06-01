@@ -7,13 +7,22 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 61%
+source-wordcount: '144'
+ht-degree: 5%
 
 ---
 
 # Villkorligt innehåll{#add-conditions}
 
-Genom att konfigurera fält med villkorsstyrt innehåll kan du skapa avancerad personalisering. Fullständiga textblock och/eller bilder ersätts när ett visst villkor uppfyllts.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Skapa villkorsstyrt innehåll"
+>abstract="Skapa villkorsstyrt innehåll för att definiera dynamisk personalisering baserat på mottagarens profil och ersätt automatiskt textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp."
+
+
+Dynamiskt innehåll är en kraftfull funktion som gör att du kan skapa dynamisk personalisering baserat på mottagarens profil och automatiskt ersätta textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp.
+
+Genom att konfigurera fält för villkorligt innehåll kan du skapa dynamisk personalisering baserat på mottagarens profil, till exempel. Textblock och/eller bilder ersätts när ett visst villkor uppfylls.
+

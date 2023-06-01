@@ -4,10 +4,10 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '403'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Nytt gränssnitt för arbetsytan"
->abstract="Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera."
+>abstract="Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera. Med det här avancerade verktyget nära till hands kan ni effektivisera arbetsflödet och lyfta era kampanjer."
 
 
 ## Vad är ett arbetsflöde?
