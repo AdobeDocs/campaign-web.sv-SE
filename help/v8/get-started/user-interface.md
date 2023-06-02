@@ -4,7 +4,7 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
@@ -325,7 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregerad rapportering för leveranser"
 >abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

@@ -4,10 +4,10 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 3%
+source-wordcount: '820'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Om du vill göra det klickar du på **[!UICONTROL Workflow settings]** -ikonen i
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Egenskaper för arbetsflöde"
->abstract="TBD"
+>abstract="I det här avsnittet finns allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja vilken mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ om du vill konfigurera särskilda inställningar, t.ex. mappen för arbetsflödeslagring eller tidszonen."
 
 The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som också är tillgängliga när du skapar arbetsflödet.
 
@@ -43,7 +43,7 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmenteringsinställningar"
->abstract="TBD"
+>abstract="I det här avsnittet kan du välja måldimension för målprofiler i arbetsflödet och välja att behålla arbetsflödesresultaten mellan två körningar. Det här alternativet bör endast användas för testning och får aldrig aktiveras i ett produktionsarbetsflöde.
 
 * **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, mottagare, operatör, abonnenter osv.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
@@ -55,7 +55,7 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Körningsinställningar"
->abstract="TBD"
+>abstract="I det här avsnittet kan du konfigurera inställningar som är relaterade till arbetsflödets körning, t.ex. antalet dagar som arbetsflödeshistoriken sparas."
 
 * **[!UICONTROL History in days]**: Anger efter hur många dagar som historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är länkade till arbetsflödesåtgärden). Standardvärdet är 30 dagar för färdiga arbetsflödesmallar. Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag
 
@@ -74,7 +74,7 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Inställningar för felhantering"
->abstract="TBD"
+>abstract="I det här avsnittet kan du hantera hur arbetsflödet ska fungera när ett fel inträffar under körningen (pausa/stoppa körningen eller ignorera fel).
 
 * **[!UICONTROL Error management]**: I det här fältet kan du definiera de åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns två möjliga alternativ:
 
