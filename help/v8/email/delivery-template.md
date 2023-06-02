@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
+source-git-commit: e4a667f81c1d95c12003c2d93fb9f5fd9239a2eb
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,13 @@ Sender and reply-to addresses?-->
 <!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## Få åtkomst till och hantera mallar {#access-manage-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="Arbeta med leveransmallar"
+>abstract="Använd leveransmallar för att enkelt skapa och spara befintliga leveranser för framtida bruk."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicera en befintlig mall"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Konvertera en leverans till en mall"
 
 Välj **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
 
