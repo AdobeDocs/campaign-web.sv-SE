@@ -4,14 +4,14 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 3%
 
 ---
 
-# Starta och övervaka arbetsflödeskörning {#start-monitor}
+# Starta och övervaka arbetsflödet {#start-monitor}
 
 När du har skapat arbetsflödet och utformat de uppgifter som ska utföras på arbetsytan kan du starta det och övervaka hur det körs.
 
@@ -40,7 +40,7 @@ Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan 
 | ![](assets/activity-status-red.png) | Aktiviteten har påträffat ett fel. Du löser problemet genom att öppna arbetsflödesloggarna för mer information. |
 | ![](assets/activity-status-green.png) | Aktiviteten har körts. |
 
-## Övervaka loggar och uppgifter
+## Övervaka loggar och uppgifter {#logs-tasks}
 
 Övervakning av arbetsflöden, loggar och uppgifter är ett viktigt steg för att analysera dina arbetsflöden och se till att de körs som de ska. De är tillgängliga via **[!UICONTROL Logs]** ikon som är tillgänglig i åtgärdsverktygsfältet och i varje aktivitets egenskapspanel.
 
