@@ -4,10 +4,10 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 2%
+source-wordcount: '390'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 2%
 >id="acw_homepage_card4"
 >title="Nytt gränssnitt för arbetsytan"
 >abstract="Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera. Med det här avancerade verktyget nära till hands kan ni effektivisera arbetsflödet och lyfta era kampanjer."
-
 
 ## Vad är ett arbetsflöde?
 
@@ -35,8 +34,9 @@ Med den omfattande grafiska miljön i Adobe Campaign kan du utforma processer so
 
 Här är några exempel på hur du kan använda arbetsflöden med Adobe Campaign:
 
-* Hämta en fil från en server, expandera den och importera sedan poster som finns i Adobe Campaign-databasen.
-* Skapa en leveransåtgärd, tilldela en eller flera operatorer en uppgift att arbeta med innehåll, ange mål och godkänna korrektur innan leveransen påbörjas.
+* Starta en uppföljningskampanj för inaktiva kunder,
+* Skicka ett välkomstmeddelande till alla nya prenumeranter på en tjänst,
+* Anpassa flerkanalsleveranser baserat på kundens lojalitetsprogram eller intressepunkter.
 
 ## Låt oss dyka djupare
 
