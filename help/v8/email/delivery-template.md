@@ -6,56 +6,113 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
 
-# Arbeta med leveransmall{#work-with-delivery-template}
+# Arbeta med leveransmallar {#work-with-delivery-templates}
 
-Använd leveransmallar för att standardisera det kreativa utseendet och känslan, så att ni kan genomföra och lansera kampanjer snabbare.
+För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för att enkelt återanvända anpassat innehåll i era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare.
 
 En mall kan innehålla:
 
-* Typologier
-* Avsändare och svarsadresser
-* Grundläggande personaliseringsblock
-* Länkar för att spegla sid- och prenumerationslänkar
-* Innehåll, företagslogotyp eller signatur
-* Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
+<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
+Sender and reply-to addresses?-->
+* An [publik](../audience/about-audiences.md), inklusive [kontrollgrupper](../audience/control-group.md)
+* Egen [innehåll](../content/edit-content.md)<!--company logo, or signature-->
+* [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Länkar till [spegelsida](../content/mirror-page.md) och avprenumeration [länkar](../content/message-tracking.md)
 
+<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
-## Skapa en mall{#create-a-delivery-template}
+## Få åtkomst till och hantera mallar {#access-manage-templates}
 
-Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början.
+Välj **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
 
-### Duplicera en befintlig mall{#copy-an-existing-template}
+![](assets/templates-tab.png)
 
-Campaign innehåller en uppsättning inbyggda mallar för varje kanal: e-post, push, SMS.
+Alla mallar som [skapad](#create-a-delivery-template) i den aktuella miljön visas.
 
-Det enklaste sättet att skapa en leveransmall är att duplicera och anpassa en inbyggd mall.
+Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om regelbyggaren](../audience/segment-builder.md)
+
+![](assets/templates-filters.png)
+
+Om du vill redigera en mall klickar du på önskat objekt i listan. Därifrån:
+
+* Ni kan ändra dess innehåll, egenskaper, målgrupp och eventuella erbjudanden som är kopplade till den.
+* Du kan också testa mallen. [Läs mer](#test-template)
+
+![](assets/templates-edition.png)
+
+Ta bort eller [duplicera](#copy-an-existing-template) en mall väljer du motsvarande åtgärd från **[!UICONTROL More actions]** menyn, antingen från **[!UICONTROL Templates]** eller från en mallversionsskärm.
+
+![](assets/templates-more-actions.png)
+
+>[!NOTE]
+>
+>När en mall redigeras eller tas bort påverkas inte leveranser som skapats med den här mallen.
+
+## Skapa en mall {#create-a-delivery-template}
+
+Om du vill skapa en leveransmall kan du:
+* Duplicera en befintlig mall - [Läs mer](#copy-an-existing-template)
+* Konvertera en befintlig leverans till en mall - [Läs mer](#convert-an-existing-delivery)
+* Skapa en ny leveransmall - [Läs mer](#create-a-new-template)
+
+### Duplicera en befintlig mall {#copy-an-existing-template}
+
+Campaign innehåller en uppsättning inbyggda mallar för varje kanal: e-post, push, SMS. Det enklaste sättet att skapa en leveransmall är att duplicera och anpassa en inbyggd mall.
+
+>[!NOTE]
+>
+>Du kan också duplicera en anpassad mall.
 
 Så här duplicerar du en leveransmall:
 
-1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny.
-1. Klicka på knappen med tre punkter till höger bredvid namnet på mallen som ska dupliceras.
-1. Välj  **[!UICONTROL Duplicate]**.
-1. Bekräfta duplicering: den nya mallkontrollpanelen öppnas på den centrala skärmen.
-1. Definiera mallinställningarna och spara den nya mallen.
+1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
+1. Klicka på **[!UICONTROL More actions]** till höger om mallnamnet och välj  **[!UICONTROL Duplicate]**.
 
-Mallen läggs till i listan med leveransmallar. Du kan nu välja den när du skapar en ny leverans.
+   Du kan också välja en mall i listan och välja det här alternativet från mallversionsskärmen.
 
-### Konvertera en befintlig leverans till en mall {#convert-an-existing-delivery}
+1. Bekräfta duplicering.
 
-Alla leveranser kan konverteras till mallar för nya upprepade leveransåtgärder.
+   ![](assets/templates-duplicate-confirm.png)
 
-Så här konverterar du en leverans till en mall:
+1. Den nya mallkontrollpanelen öppnas på den centrala skärmen. Redigera mallinställningarna efter behov.
 
-1. Klicka på knappen med tre punkter till höger bredvid namnet på leveransen som ska sparas som en mall.
-1. Välj  **[!UICONTROL Copy as a template]**.
-1. Bekräfta duplicering: den nya mallen öppnas på den centrala skärmen.
+   ![](assets/templates-duplicated-item.png)
+
+1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
+
+   ![](assets/templates-review-screen.png)
+
+1. Testa mallåtergivningen vid behov. [Läs mer](#test-template)
+
+Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan nu välja den när du skapar en ny leverans.
+
+### Konvertera en leverans till en mall {#convert-an-existing-delivery}
+
+Alla leveranser kan konverteras till mallar för framtida upprepade leveransåtgärder.
+
+Så här sparar du en leverans som en mall:
+
+1. Gå till **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menyn.
+1. Från **[!UICONTROL Browse]** klickar du på **[!UICONTROL More actions]** till höger om leveransnamnet och välj **[!UICONTROL Copy as a template]**.
+
+   ![](assets/templates-convert-delivery.png)
+
+1. Bekräfta duplicering.
+
+1. Den nya mallkontrollpanelen öppnas på den centrala skärmen. Redigera mallinställningarna efter behov.
+
+1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
+
+1. Testa mallåtergivningen vid behov. [Läs mer](#test-template)
+
+Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan nu välja den när du skapar en ny leverans.
 
 ### Skapa en ny mall {#create-a-new-template}
 
@@ -65,9 +122,65 @@ Så här konverterar du en leverans till en mall:
 
 Så här konfigurerar du en leveransmall från grunden:
 
-1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny.
+1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
 1. Klicka på knappen **[!UICONTROL Create template]**.
-1. Välj kanal för mallen.
-1. Definiera mallens namn och inställningar.
-1. Klicka på **[!UICONTROL Review]** för att definiera mallinnehållet och ändra dess egenskaper.
-1. Spara den nya mallen.
+
+   ![](assets/templates-create-button.png)
+
+1. Välj den kanal som du vill använda för mallen.
+1. Den inbyggda leveransmallen för den kanalen används som standard för att hjälpa dig att skapa en egen mall. Använd den dedikerade knappen till höger om den valda kanalen för att välja en annan mall vid behov.
+
+   ![](assets/templates-channel-browse.png)
+
+1. Klicka på **[!UICONTROL Create template]** igen.
+
+1. Definiera mallegenskaperna, [publik](../audience/add-audience.md) och innehåll beroende på den valda kanalen.
+
+   >[!NOTE]
+   >
+   >Läs mer om distributionskanaler och hur du utformar respektive innehåll i avsnitten nedan:
+   >
+   > * [E-postkanal](../email/create-email.md)
+   > * [Push-meddelandekanal](../push/gs-push.md)
+   > * [SMS-kanal](../sms/create-sms.md)
+
+
+1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
+
+1. Testa mallåtergivningen vid behov. [Läs mer](#test-template)
+
+Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan nu välja den när du skapar en ny leverans.
+
+## Testa en leveransmall {#test-template}
+
+Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats från grunden eller från ett befintligt innehåll. För att göra detta, följ nedanstående steg.
+
+1. Bläddra till **Mallar** genom **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** och välj en mall. [Läs mer](#access-manage-templates)
+
+1. Klicka på **[!UICONTROL Simulate Content]** överst till höger på skärmen.
+
+   ![](assets/templates-simulate-button.png)
+
+1. Markera en eller flera testprofiler för att kontrollera e-poståtergivningen. Du kan också välja riktiga profiler från databasen.
+
+1. Växla mellan de olika profilerna för att få en personlig representation av meddelandet enligt den valda profilen.
+
+   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+
+   Du kan också justera zoomnivån och välja skrivbordsvy eller mobilvy.
+
+   ![](assets/templates-stimulate.png)
+
+1. Stäng fönstret för att gå tillbaka till mallversionen.
+
+>[!NOTE]
+>
+>Du kan inte använda e-poståtergivning eller skicka korrektur i en leveransmall.
+
+* [Läs mer om hur du förhandsgranskar e-postinnehåll](../preview-test/preview-content.md)
+
+* [Läs mer om förhandsgranskning av SMS-innehåll](../sms/content-sms.md)
+
+* [Läs mer om hur du förhandsgranskar push-innehåll](../push/gs-push.md)
+
+

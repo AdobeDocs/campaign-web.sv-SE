@@ -4,48 +4,36 @@ product: campaign
 title: Arbeta med e-postmallar
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Arbeta med e-postmallar {#email-content-templates}
 
-När du öppnar e-postinnehållet använder du **[!UICONTROL Select design template]** -avsnittet i gränssnittet för att börja skapa innehåll från en mall.
+När [skapa ett e-postmeddelande](#create-email), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
 
 ![](assets/email_designer-templates.png)
 
-Campaign innehåller en uppsättning inbyggda mallar som finns i **Exempelmallar** -fliken. Du kan lägga till egna mallar och använda dem för att skapa e-postinnehåll. Anpassade mallar lagras i **Sparade mallar** -fliken. Lär dig hur du sparar ett e-postmeddelande som en mall och hur du använder det i avsnitten nedan.
+Du kan välja mellan:
 
-## Spara som mall {#save-as-template}
+* **Exempelmallar**. Campaign innehåller en uppsättning inbyggda mallar som du kan välja bland.
 
-När du har utformat ditt e-postinnehåll kan du spara det som en mall och återanvända det senare. Sparade mallar är tillgängliga för alla användare i din Adobe Campaign-miljö.
+* **Sparade mallar**. Du kan också använda en anpassad mall som du har sparat som mall från ett befintligt innehåll.
 
-Så här sparar du ett e-postinnehåll som en mall:
+Lär dig hur du använder mallar och hur du sparar ett e-postinnehåll som en mall i avsnitten nedan.
 
-1. I e-postdesignern klickar du på ellipsen högst upp till höger på skärmen.
+## Använda en mall {#use-templates}
 
-1. Välj **[!UICONTROL Save design template]** i listrutan.
-
-   ![](assets/email_designer-save-template.png)
-
-1. Ange ett namn för mallen och spara
-
-   ![](assets/email_designer-template-name.png)
-
-Nu kan du [använd den här mallen](#use-saved-template) för att skapa nytt innehåll: den är tillgänglig på fliken Sparade mallar i e-postdesignern.
-
-![](assets/email_designer-saved-template.png)
-
-## Använda en sparad mall {#use-saved-template}
-
-Sparade mallar grupperas i en specifik tabell i e-postdesignern. Följ stegen nedan om du vill skapa ett e-postinnehåll från en befintlig anpassad mall:
+Följ stegen nedan när du vill börja skapa innehåll med någon av exempelmallarna eller sparade mallar.
 
 1. Öppna [e-postdesigner](create-email-content.md).
 
-1. På **[!UICONTROL Create your email]** skärm, **[!UICONTROL Sample templates]** -fliken är markerad som standard. Bläddra till **[!UICONTROL Saved templates]** för att komma åt dina anpassade mallar.
+1. På **[!UICONTROL Create your email]** skärm, **[!UICONTROL Sample templates]** -fliken är markerad som standard.
+
+1. Om du vill använda en befintlig anpassad mall bläddrar du till **[!UICONTROL Saved templates]** -fliken.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
@@ -53,10 +41,32 @@ Sparade mallar grupperas i en specifik tabell i e-postdesignern. Följ stegen ne
 
    ![](assets/email_designer-saved-templates.png)
 
-1. Välj en mall i listan för att visa dess innehåll. Använd höger och vänster piltangent för att bläddra bland mallar.
+1. Välj en mall i listan för att visa dess innehåll.
+
+1. Använd höger- och vänsterpilarna för att navigera mellan mallarna (exempel eller sparad beroende på vad du har valt).
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Klicka **[!UICONTROL Use this email]** längst upp till höger på skärmen för att välja en mall.
+1. Klicka **[!UICONTROL Use this template]** längst upp till höger på skärmen.
 
 1. Redigera ditt innehåll efter behov med e-postdesignern. [Läs mer](create-email-content.md)
+
+## Spara e-postinnehåll som mall {#save-as-template}
+
+En gång [har utformat ett e-postmeddelande](create-email-content.md)kan du spara innehållet som en mall för framtida återanvändning. Sparade mallar är tillgängliga för alla användare i din Adobe Campaign-miljö.
+
+Så här sparar du ett e-postinnehåll som en mall:
+
+1. I e-postdesignern klickar du på ellipsen högst upp till höger på skärmen.
+
+1. Välj **[!UICONTROL Save as content template]** i listrutan.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Ange ett namn för mallen och spara.
+
+   ![](assets/email_designer-template-name.png)
+
+Nu kan du [använd den här mallen](#use-templates) för att skapa nytt innehåll: finns i **[!UICONTROL Saved templates]** -fliken i e-postdesignern.
+
+![](assets/email_designer-saved-template.png)
