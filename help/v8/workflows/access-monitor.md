@@ -4,10 +4,10 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: c290c65161c1e70b7eba6dde2088db5ffcf7b89e
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
@@ -19,16 +19,40 @@ ht-degree: 1%
 >title="Arbetsflöden"
 >abstract="På den här skärmen kan du komma åt den fullständiga listan över arbetsflöden, kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde. Bläddra till fliken Mallar för att komma åt tillgängliga arbetsflödesmallar."
 
+## Få åtkomst till och hantera arbetsflöden {#access}
 
+The **[!UICONTROL Workflows]** kan du komma åt hela listan med arbetsflöden. Listan innehåller båda **fristående arbetsflöden** som har skapats från den här skärmen, och **kampanjarbetsflöden** som har skapats i en kampanj.
 
-## Åtkomst till skapade arbetsflöden
+![](assets/workflow-list.png)
 
-Fliken Bläddra, filtrera
+Varje arbetsflöde i listan visar information om dess aktuella [status](#status), senaste gången den kördes eller ändrades samt nästa schemalagda körningsdatum och -tid.
 
-## Arbetsflödenas status
+Du kan anpassa de kolumner som visas genom att klicka på **[!UICONTROL Configure column for a custom layout]** -ikonen i det övre högra hörnet av listan. På så sätt kan du lägga till ytterligare information i listan, t.ex. den senaste felaktiviteten för varje arbetsflöde eller den använda måldimensionen.
 
-Status
+Dessutom finns det ett sökfält och filter som gör det enklare att söka i listan. Du kan till exempel filtrera arbetsflödena så att de bara visar dem som tillhör en kampanj, eller de som bearbetas under ett visst datumintervall.
 
-## Hantera arbetsflöden
+Om du vill duplicera eller ta bort ett arbetsflöde klickar du på ellipsknappen och väljer **[!UICONTROL Duplicate]** eller **[!UICONTROL Delete]**.
 
-Duplicera/redigera/ta bort
+>[!NOTE]
+>
+>Du kan duplicera ett pågående arbetsflöde, men du kan inte ta bort det.
+
+## Arbetsflödenas status {#status}
+
+Arbetsflöden kan ha flera statusvärden:
+
+* **[!UICONTROL Draft]**: Arbetsflödet har skapats och sparats.
+* **[!UICONTROL In progress]**: Arbetsflödet körs för närvarande.
+* **[!UICONTROL Finished]**: Arbetsflödeskörningen är klar.
+* **[!UICONTROL Paused]**: Arbetsflödet har pausats.
+* **[!UICONTROL Erroneous]**: Ett fel uppstod i arbetsflödet. Öppna arbetsflödet och öppna loggarna och uppgifterna för att identifiera felet och åtgärda det. [Lär dig övervaka loggar och uppgifter](start-monitor-workflows.md#logs-tasks)
+
+Detaljerad information om hur du startar och övervakar arbetsflödet finns i [den här sidan](start-monitor-workflows.md).
+
+## Arbetsflödesmallar {#templates}
+
+The **[!UICONTROL Templates]** -fliken innehåller alla tillgängliga arbetsflödesmallar.
+
+Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden.
+
+De skapas från klientkonsolen. [Lär dig hur du arbetar med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
