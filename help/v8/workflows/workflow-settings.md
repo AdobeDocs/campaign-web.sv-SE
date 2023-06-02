@@ -4,7 +4,7 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 2%
@@ -43,7 +43,7 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmenteringsinställningar"
->abstract="I det här avsnittet kan du välja måldimension för målprofiler i arbetsflödet och välja att behålla arbetsflödesresultaten mellan två körningar. Det här alternativet bör endast användas för testning och får aldrig aktiveras i ett produktionsarbetsflöde.
+>abstract="I det här avsnittet kan du välja måldimension för målprofiler i arbetsflödet och välja att behålla arbetsflödesresultaten mellan två körningar. Det här alternativet bör endast användas för testning och får aldrig aktiveras i ett produktionsarbetsflöde."
 
 * **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, mottagare, operatör, abonnenter osv.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
@@ -74,7 +74,7 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Inställningar för felhantering"
->abstract="I det här avsnittet kan du hantera hur arbetsflödet ska fungera när ett fel inträffar under körningen (pausa/stoppa körningen eller ignorera fel).
+>abstract="I det här avsnittet kan du hantera hur arbetsflödet ska fungera när ett fel inträffar under körningen (pausa/stoppa körningen eller ignorera fel)."
 
 * **[!UICONTROL Error management]**: I det här fältet kan du definiera de åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns två möjliga alternativ:
 
