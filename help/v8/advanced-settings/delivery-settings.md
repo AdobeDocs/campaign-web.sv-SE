@@ -4,7 +4,7 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 10%
@@ -188,4 +188,4 @@ Du kan också anpassa namnet på testmeddelandena.
 
 Använd **Behåll leveranskoden för korrekturet** associera till testmeddelandet med samma leveranskod som den som är definierad för den leverans som det är relaterat till.
 
-Ämnet i testmeddelandet anges som standard med&quot;PROOF #&quot;, där # är numret på testmeddelandet. Du kan ändra det här prefixet i **Etikettprefix** fält.
+Ämnet i testmeddelandet har som standard prefixet&quot;PROOF #&quot;, där # är numret på testmeddelandet. Du kan ändra det här prefixet i **Etikettprefix** fält.

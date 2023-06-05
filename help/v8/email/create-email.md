@@ -4,9 +4,9 @@ title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Så här skapar du en ny leverans:
 
 1. Bläddra till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 
-1. Välj **[!UICONTROL Email]** som kanal och välj en mall.
+1. Välj **[!UICONTROL Email]** som kanal och välj en e-postleveransmall i listan.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ Så här skapar du en ny leverans:
 
    Dessutom kan du komma åt avancerade inställningar, t.ex. typologiregler och målmappningar, genom att klicka på knappen bredvid leveransnamnet. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
 
-## Skapa e-postinnehåll {#create-content}
+## Definiera e-postinnehållet {#create-content}
 
-Detaljerade instruktioner om hur du konfigurerar e-postinnehållet finns i [det här avsnittet](../content/edit-content.md).
+Följ stegen nedan när du vill börja skapa ditt e-postinnehåll.
 
-I det här fallet använder du en fördefinierad mall för att utforma e-postmeddelandet.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. Om du vill börja skapa e-postinnehållet öppnar du e-postleveransen och klickar på **[!UICONTROL Edit content]** -knappen.
+I det här fallet använder du ett fördefinierat e-postmeddelande [leveransmall](../msg/delivery-template.md) för att utforma e-postmeddelanden.
 
-   Då kommer du till ett dedikerat gränssnitt där du kan konfigurera e-postinnehållet och utforma det med e-postdesignern.
+1. Klicka på **[!UICONTROL Edit content]** -knappen.
+
+   ![](assets/email-edit-content.png)
+
+   Då kommer du till ett dedikerat gränssnitt där du kan konfigurera e-postinnehållet och komma åt e-postdesignern. [Läs mer](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ I det här fallet använder du en fördefinierad mall för att utforma e-postmed
 
 1. Om du vill utforma innehållet i e-postmeddelandet klickar du på **[!UICONTROL Edit email body]** -knappen.
 
-   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en fördefinierad designmall.
+   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du [fördefinierad innehållsmall](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ I det här fallet använder du en fördefinierad mall för att utforma e-postmed
 
     ![](assets/import-folder.png)-->
 
-1. När du har valt mallen visas den i e-postdesignern, där du kan göra nödvändiga ändringar och lägga till personalisering.
+1. När du har valt mallen visas den i [E-postdesigner](../content/create-email-content.md), där du kan göra nödvändiga ändringar och lägga till personalisering.
 
    Om du till exempel vill lägga till en anpassning i e-posttiteln markerar du komponentblocket och klickar på **[!UICONTROL Add Personalization]**.
 

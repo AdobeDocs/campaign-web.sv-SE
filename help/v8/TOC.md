@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 12%
+source-wordcount: '322'
+ht-degree: 13%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 12%
    + [Arbeta med leveransmallar](msg/delivery-template.md)
    + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
-      + Skapa e-postinnehåll {#content}
-         + [Redigera e-postinnehållet](content/edit-content.md)
-         + Designa din e-post {#design-content}
-            + Börja designa ditt innehåll {#start-design}
-               + [Börja från början ](content/create-email-content.md)
-               + [Importera e-postinnehåll](content/existing-content.md)
-               + [Koda eget innehåll](content/code-content.md)
-               + [Använda mallar för e-postinnehåll](content/email-sample-templates.md)
+      + Definiera e-postinnehåll {#content}
+         + [Konfigurera e-postinnehåll](content/edit-content.md)
+         + Börja forma din e-post {#start-design}
+            + [Komma igång med e-postdesignern](content/get-started-email-designer.md)
+            + [Börja från början ](content/create-email-content.md)
+            + [Importera e-postinnehåll](content/existing-content.md)
+            + [Koda eget innehåll](content/code-content.md)
+            + [Använda mallar för e-postinnehåll](content/email-templates.md)
+         + Designa innehåll {#design-content}
             + [Använda innehållskomponenter](content/content-components.md)
             + [Generera textversionen](content/text-version-email.md)
             + [Lägg till en länk till spegelsidan](content/mirror-page.md)

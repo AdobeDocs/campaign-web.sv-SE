@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '906'
 ht-degree: 3%
 
 ---
@@ -19,14 +19,13 @@ För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för
 
 En mall kan innehålla:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Typologier](../advanced-settings/delivery-settings.md#typology)
+* Avsändarens adress
 * An [publik](../audience/about-audiences.md), inklusive [kontrollgrupper](../audience/control-group.md)
-* Egen [innehåll](../content/edit-content.md)<!--company logo, or signature-->
-* [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Egen [innehåll](../content/edit-content.md)
+* [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md)
 * Länkar till [spegelsida](../content/mirror-page.md) och avprenumeration [länkar](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
 
 ## Få åtkomst till och hantera mallar {#access-manage-templates}
 
