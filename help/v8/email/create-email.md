@@ -4,9 +4,9 @@ title: Skicka ditt första e-postmeddelande
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Så här skapar du en ny leverans:
 
    >[!NOTE]
    >
-   >Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. De kan skapas av administratörsanvändare i Adobe Campaign Console. [Lär dig hur du arbetar med leveransmallar](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. [Läs mer](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ I det här fallet använder du en fördefinierad mall för att utforma e-postmed
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
