@@ -4,83 +4,87 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 26%
+source-wordcount: '628'
+ht-degree: 15%
 
 ---
 
 # Ange en kontrollgrupp {#control-group}
 
-Du kan använda kontrollgrupper för att undvika att skicka meddelanden till en del av målgruppen för att kunna mäta effekten av kampanjerna.
+En kontrollgrupp är en underpopulation som är undantagen från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra beteendet efter leverans med huvudmålet. Det här alternativet hjälper er att mäta effekten av er kampanj.
 
-Det gör du genom att skapa en kontrollgrupp när du definierar målgruppen för leveransen. Profiler läggs slumpmässigt till i kontrollgruppen, filtrerade eller inte, eller baserat på kriterier. Du kan sedan jämföra beteendet hos målpopulationen som fick meddelandet med beteendet hos kontakter som inte var målgrupper.
-
-Kontrollgruppen kan extraheras slumpmässigt från huvudmålet och/eller väljas från en viss målgrupp. Det finns därför två sätt att definiera en kontrollgrupp:
+Om du vill lägga till en kontrollgrupp aktiverar du alternativet när du definierar målgruppen för leveransen. Kontrollgruppen kan extraheras slumpmässigt från huvudmålet och/eller väljas från en viss målgrupp. Det finns därför två sätt att definiera en kontrollgrupp:
 
 * Extrahera ett antal profiler från huvudmålet.
-* Uteslut vissa profiler baserat på villkor som definierats i en fråga.
+* Uteslut vissa profiler från en lista eller baserat på villkor som definierats i en fråga.
 
-Du kan använda båda metoderna för att definiera en kontrollgrupp.
+Du kan kombinera båda metoderna när du definierar en kontrollgrupp.
 
 Alla profiler som är en del av kontrollgruppen vid leveransförberedelsesteget tas bort från huvudmålet. De får inte meddelandet.
-
-Om du vill skapa en kontrollgrupp klickar du på **[!UICONTROL Set Control Group]** från **Målgrupp** i leveransassistenten.
-
-![](assets/control-group1.png)
 
 >[!CAUTION]
 >
 >Du kan inte använda kontrollgrupper när målpopulationen läses in [från en extern fil](file-audience.md).
+
+Om du vill lägga till en kontrollgrupp i en leverans aktiverar du **[!UICONTROL Enable control group]** växla från **Målgrupp** på skärmen där leveransen skapas.
+
+![Aktivera alternativet Kontrollgrupp](assets/control-group1.png)
 
 
 ## Extrahera från mål {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extrahera från mål"
+>title="Extraheringsläge"
 >abstract="För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen."
 
-För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen.
+
+### Skapa en kontrollgrupp {#build-extract-target}
+
+För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen. Om du föredrar att lägga till en extra fyllning väljer du **Ingen extrahering** och välj den extra fyllningen [som anges här](#extra-population).
 
 Definiera först hur profilerna extraheras från målet: slumpmässigt eller baserat på en sortering.
 
-Under **Extrahera från mål** väljer du ett **Uteslutningstyp**:
+Under **Kontrollgrupp** väljer du ett **Extraheringsläge**:
 
 * **Slumpmässig**: När leveransen förbereds extraherar Adobe Campaign slumpmässigt ett antal profiler som motsvarar procentandelen eller det högsta antal som anges som storleksgräns.
-
-   ![](assets/control-group.png)
 
 * **Rankad efter attribut**: Med det här alternativet kan du exkludera en uppsättning profiler baserat på specifika attribut i en viss sorteringsordning.
 
    ![](assets/control-group2.png)
 
-Definiera sedan **Storleksgräns**: du måste ange hur du ska begränsa antalet profiler som du extraherar från huvudmålet.
+Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver extrahera från huvudmålet. Det kan vara ett obearbetat tal eller en procentandel av den ursprungliga målgruppen.
 
-**Exempel**
+### Kontrollera kontrollgruppen {#check-extract-target}
 
 Du kan visa loggarna för att kontrollera och identifiera de exkluderade profilerna. Låt oss ta ett exempel på ett slumpmässigt undantag på fem profiler.
 
 ![](assets/control-group4.png)
 
-Efter leveransförberedelserna kan du se undantagen på följande skärmar:
+Efter leveransförberedelserna kan du se hur undantagen tillämpades:
 
-* The **Att exkludera** KPI i kontrollpanelen för leverans, före sändningen.
+* På kontrollpanelen för leveransen, före sändningen, kontrollerar du **Att exkludera** KPI.
 
    ![](assets/control-group5.png)
 
-* The **Uteslutningsloggar** visa varje profil och tillhörande undantag **Orsak**.
+* På fliken Loggar i leveransloggarna visas exkluderingssteget.
+
+   ![](assets/control-group-sample-logs.png)
+
+
+* The **Uteslutningsloggar** -fliken visar varje profil och det relaterade undantaget **Orsak**.
 
    ![](assets/control-group6.png)
 
-* The **Uteslutningsorsaker** visa antalet uteslutna profiler för varje typologiregel.
+* The **Uteslutningsorsaker** visas antalet uteslutna profiler för varje typologiregel.
 
    ![](assets/control-group7.png)
 
 Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md).
 
-## Extra population {#extra-population}
+## Lägga till en extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
