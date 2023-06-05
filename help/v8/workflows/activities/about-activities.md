@@ -4,9 +4,9 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 4%
 
 ---
@@ -34,11 +34,11 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring och beriknin
 
 ## Kanalaktiviteter {#channel}
 
-Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Med Adobe Campaign arbetsflöden kan du kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
+Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
 
 Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS och push. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagsmeddelande till en kund via SMS.
 
-Genom att använda kanalaktiviteter kan ni skapa omfattande, personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
+Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
 
 * [E-post](email.md)
 * [Push](push.md)
@@ -49,7 +49,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande, personaliserade kam
 Följande aktiviteter är specifika för att organisera och köra arbetsflöden. Deras huvuduppgift är att samordna de övriga verksamheterna:
 
 * The [Och-join](and-join.md) kan du synkronisera flera körningsgrenar i ett arbetsflöde.
-* The [End](end.md) kan du grafiskt markera slutet av ett arbetsflöde. Denna verksamhet har ingen funktionell inverkan och är därför frivillig.
+* The [End](end.md) kan du grafiskt markera slutet av ett arbetsflöde. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
 * The [Gaffel](fork.md) kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.
 * The [Vänta](wait.md) aktiviteten tillfälligt avbryter körningen av en del av ett arbetsflöde.
 

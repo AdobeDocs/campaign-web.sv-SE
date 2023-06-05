@@ -3,17 +3,27 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
 
 # Bygg målgrupper {#build-audience}
 
-Med den här aktiviteten kan du definiera en målgrupp. Du kan antingen välja en befintlig målgrupp eller använda regelbyggaren för att definiera en egen fråga.
+The **Bygg målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet.
+
+Om du vill definiera målgruppspopulationen kan du:
+
+* Välj en befintlig målgrupp som skapats som en lista i klientkonsolen.
+* Välj en Adobe Experience Platform-målgrupp.
+* Bygg en ny målgrupp med regelbyggaren genom att definiera och kombinera filtervillkor.
+
+>[!NOTE]
+>
+>I det här sammanhanget kan du inte läsa in en målgrupp från en fil. För detta behöver du skapa en fristående leverans. [Läs mer](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
-1. Lägg till en Build-målgruppsaktivitet.
+1. Lägg till en **Bygg målgrupper** aktivitet.
 1. Definiera en etikett.
 1. Definiera målgruppstyp: **Skapa en egen** eller **Läsa målgrupper**.
 

@@ -3,17 +3,17 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Alpha" type="Positive"
-source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '548'
+ht-degree: 13%
 
 ---
 
 
 # Kombinera {#combine}
 
-Med den här aktiviteten kan du bearbeta uppsättningar på inkommande data. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
+Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -23,24 +23,37 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
 * The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
-## Konfiguration
+## Allmän konfiguration {#general}
 
-Följ de här stegen för att konfigurera **Kombinera** aktivitet:
+Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
 
 1. Lägg till flera aktiviteter som **Bygg målgrupper** aktiviteter för att bilda minst två olika utförandegrenar.
-1. Lägg till en **Kombinera** aktivitet till någon av de tidigare segmenteringsövergångarna.
-1. Välj segmenteringstyp: union, skärning eller uteslutning.
+1. Lägg till en **Kombinera** verksamhet till någon av de tidigare filialerna.
+1. Välj segmenteringstyp: [union](#union), [skärningspunkt](#intersection) eller [exkludering](#exclusion).
 1. Klicka **Fortsätt**.
 1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill delta i.
 
-För **Union** och **Skärningspunkt** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
+## Sammanslutning {#union}
 
-* Endast tangenter: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
-* En markering med kolumner: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+För **Union** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
-För **Skärningspunkt** och **Uteslutning** kan du kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
+* **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
+* **En markering med kolumner**: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
-För **Uteslutning** väljer du **Primär uppsättning** från inkommande övergångar, i **Uppsättningar att förena** -avsnitt. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
+## Skärningspunkt {#intersection}
+
+För **Skärningspunkt** måste du utföra följande steg:
+
+1. Välj **Avstämningstyp** för att definiera hur dubbletter hanteras. Se [Union](#union) -avsnitt.
+1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
+
+## Uteslutning {#exclusion}
+
+För **Uteslutning** måste du utföra följande steg:
+
+1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
+1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling.
+1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
 
 ## Exempel
 
