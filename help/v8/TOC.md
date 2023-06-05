@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 12%
 
 ---
@@ -46,8 +46,6 @@ ht-degree: 12%
             + [Justera lodrät justering och utfyllnad](content/alignment-and-padding.md)
             + [Definiera ett format för länkar](content/styling-links.md)
             + [Lägg till textbundna formatattribut](content/inline-styling.md)
-         + [Lägg till personalisering](personalization/personalize.md)
-         + [Lägga till villkorligt innehåll](personalization/conditions.md)
          + [Skicka erbjudanden](content/offers.md)
       + Förhandsgranska och testa din e-post {#preview-test}
          + [Förhandsgranska och testa](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 12%
       + [Skapa en SMS-leverans](sms/create-sms.md)
       + [Designa en SMS-leverans ](sms/content-sms.md)
       + [Skicka SMS-leverans ](sms/send-sms.md)
+   + Gör innehållet dynamiskt {#dynamic-content}
+      + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
+      + [Lägg till personalisering](personalization/personalize.md)
+      + [Lägga till villkorligt innehåll](personalization/conditions.md)
 + Målgrupper och mottagare {#audiences}
    + [Kom igång med målgrupper](audience/about-audiences.md)
    + [Välj en befintlig målgrupp](audience/add-audience.md)
