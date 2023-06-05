@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
 badge: label="Alpha" type="Positive"
-source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,12 +27,12 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 
 1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**.
 
+1. Välj en **Mall**. Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. [Läs mer](../../msg/delivery-template.md)
+
+1. Klicka **Skapa leverans** och definiera meddelandet på samma sätt som du skapar en fristående leverans. [Läs mer](../../msg/gs-message.md)
+
+
 1. Starta arbetsflödet och kontrollera loggarna.
-
-
-
-
-
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
