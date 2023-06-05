@@ -3,15 +3,36 @@ audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
 
-# E-post {#email}
+# E-post, SMS, push {#email}
+
+Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
+
+Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS och push. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagsmeddelande till en kund via SMS.
+
+Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
+
+Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
+
+1. Kontrollera att du har lagt till en **Bygg målgrupper** aktivitet. Målgruppen är er leverans: de mottagare som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**.
+
+1. Starta arbetsflödet och kontrollera loggarna.
+
+
+
+
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-Med aktiviteten för e-postleverans kan du konfigurera skickandet av ett e-postmeddelande i ett arbetsflöde.
 
 <!-- Scheduled emails available?
 
