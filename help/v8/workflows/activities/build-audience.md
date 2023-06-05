@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Om du vill definiera målgruppspopulationen kan du:
 
 >[!NOTE]
 >
->I det här sammanhanget kan du inte läsa in en målgrupp från en fil. För detta behöver du skapa en fristående leverans. [Läs mer](../../audience/about-audience.md)
+>I det här sammanhanget kan du inte läsa in en målgrupp från en fil. För detta behöver du skapa en fristående leverans. [Läs mer](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

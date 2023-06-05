@@ -4,10 +4,10 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 4%
+source-wordcount: '303'
+ht-degree: 5%
 
 ---
 
@@ -36,9 +36,7 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring och beriknin
 
 Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
 
-Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS och push. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagsmeddelande till en kund via SMS.
-
-Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
+Följande **Kanal** aktiviteter är tillgängliga:
 
 * [E-post](email.md)
 * [Push](push.md)
