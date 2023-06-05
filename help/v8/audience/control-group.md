@@ -4,10 +4,10 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 15%
+source-wordcount: '738'
+ht-degree: 12%
 
 ---
 
@@ -53,9 +53,21 @@ Under **Kontrollgrupp** väljer du ett **Extraheringsläge**:
 
 * **Rankad efter attribut**: Med det här alternativet kan du exkludera en uppsättning profiler baserat på specifika attribut i en viss sorteringsordning.
 
+
+Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver extrahera från huvudmålet. Det kan vara ett obearbetat tal (till exempel 50 profiler som ska uteslutas) eller en procentandel av den initiala målgruppen (till exempel 5 % av huvudmålet).
+
+
+### Exempel på kontrollgrupp
+
+Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna gör du så här:
+
+1. Välj **Ålder** -fält som ett sorteringsvillkor. Lämna **Stigande** sorteringsalternativ.
+1. Lägg till **Skapad den** fält. Ändra till **Fallande** sorteringsalternativ.
+1. Definiera 100 som tröskelvärde i **Storleksgräns** -avsnitt.
+
    ![](assets/control-group2.png)
 
-Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver extrahera från huvudmålet. Det kan vara ett obearbetat tal eller en procentandel av den ursprungliga målgruppen.
+Dessa 100 nya unga mottagare exkluderas sedan från huvudmålet.
 
 ### Kontrollera kontrollgruppen {#check-extract-target}
 
@@ -89,7 +101,7 @@ Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md)
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="Ett annat sätt att definiera en kontrollgrupp är att utesluta en viss population från målet med hjälp av en befintlig målgrupp eller genom att definiera en fråga."
+>abstract="Du kan utesluta en viss population från målet genom att välja en befintlig målgrupp eller genom att definiera en fråga."
 
 Ett annat sätt att definiera en kontrollgrupp är att utesluta en viss population från målet med hjälp av en befintlig målgrupp eller genom att definiera en fråga.
 
@@ -102,3 +114,8 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 * Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Se detta [section](segment-builder.md).
 
 Profilerna som ingår i målgruppen eller som matchar resultatet av frågan tas inte med i målet.
+
+## Jämför resultaten{#control-group-results}
+
+När leveransen har skickats kan du extrahera de sändande loggarna för att jämföra beteendet mellan de profiler som inte fick kommunikationen och det faktiska målet. Du kan också använda leveransloggarna för att skapa en ny målinriktning.
+
