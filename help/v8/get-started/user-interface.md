@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Definiera SMS-målgruppen"
->abstract="Välj den bästa målgruppen för SMS-meddelandet."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Sammanfattning av SMS-rapport"
->abstract="Upptäck rapporteringsstatistik för SMS-leverans."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Sammanfattning av push-rapport"
->abstract="Upptäck rapporteringsstatistik för push-leverans."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Felmått"
 >abstract="Antal e-postmeddelanden med felstatus."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Push-innehåll för Android"
->abstract="Definiera push-innehåll för Android."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="Push iOS content"
->abstract="Definiera push-iOS-innehåll."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Appprenumeranter"
->abstract="Förhandsgranska och testa meddelandet genom att lägga till programprenumeranter i huvudmålet. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Avancerade fält för regelbyggaren"
 >abstract="Konfigurera kolumner med avancerade fält."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Push-leveransegenskaper"
->abstract="Hantera egenskaperna för push-leverans."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nytt karantänmätvärde"
 >abstract="Nytt karantänmått."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="Val av SMS-mall"
->abstract="Välj en fördefinierad mall för att starta SMS-leveransen."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

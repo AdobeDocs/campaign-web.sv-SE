@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 0%
 >id="acw_push_notification_template"
 >title="Push-meddelandemall"
 >abstract="Välj en mall för push-meddelanden för att starta din push-leverans."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Push-leveransegenskaper"
+>abstract="Hantera egenskaperna för push-leverans."
 
 1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
 

@@ -3,14 +3,24 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 6%
 
 ---
 
 # Designa en push-leverans {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Push-innehåll för Android"
+>abstract="Definiera push-innehåll för Android."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="Push iOS content"
+>abstract="Definiera push-iOS-innehåll."
 
 ## Meddelande {#push-message}
 

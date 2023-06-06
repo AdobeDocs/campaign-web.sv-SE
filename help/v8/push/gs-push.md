@@ -4,9 +4,9 @@ title: Kom igång med push-meddelanden
 description: Lär dig hur du skapar och skickar push-meddelanden med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du kan skapa push-meddelanden på tre olika sätt:
 <img alt="Sällan" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md">Designa en push-leverans<strong></strong></a>
+<a href="content-push.md"><strong>Designa en push-leverans<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,6 +46,15 @@ Du kan skapa push-meddelanden på tre olika sätt:
 </a>
 <div>
 <a href="send-push.md"><strong>Skicka en push-leverans</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-push.md">
+<img alt="Validering" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Rapport om push-leverans</strong></a>
 </div>
 <p>
 </td>

@@ -4,9 +4,9 @@ title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 6%
 >id="acw_deliveries_sms_properties"
 >title="SMS-leveransegenskaper"
 >abstract="Egenskaperna omfattar de vanligaste leveransparametrarna som hjälper dig att både namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema är specifika fält för anpassade alternativ tillgängliga."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Definiera SMS-målgruppen"
+>abstract="Välj den bästa målgruppen för SMS-meddelandet."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Val av SMS-mall"
+>abstract="Välj en fördefinierad mall för att starta SMS-leveransen."
 
 1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
 
