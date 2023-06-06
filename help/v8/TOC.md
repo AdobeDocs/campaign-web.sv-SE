@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 13%
    + [Kom igång med målgrupper](audience/about-audiences.md)
    + [Välj en befintlig målgrupp](audience/add-audience.md)
    + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
-   + [Läsa in en målgrupp från en fil](audience/file-audience.md)
+   + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
    + [Använda Adobe Experience Platform](audience/aep-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
 + Flerkanalskampanjer {#campaigns}

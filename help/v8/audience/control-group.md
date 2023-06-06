@@ -4,9 +4,9 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 12%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 12%
 # Ange en kontrollgrupp {#control-group}
 
 En kontrollgrupp är en underpopulation som är undantagen från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra beteendet efter leverans med huvudmålet. Det här alternativet hjälper er att mäta effekten av er kampanj.
+
+## Aktivera kontrollgrupp{#add-a-control-group}
 
 Om du vill lägga till en kontrollgrupp aktiverar du alternativet när du definierar målgruppen för leveransen. Kontrollgruppen kan extraheras slumpmässigt från huvudmålet och/eller väljas från en viss målgrupp. Det finns därför två sätt att definiera en kontrollgrupp:
 
@@ -57,7 +59,7 @@ Under **Kontrollgrupp** väljer du ett **Extraheringsläge**:
 Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver extrahera från huvudmålet. Det kan vara ett obearbetat tal (till exempel 50 profiler som ska uteslutas) eller en procentandel av den initiala målgruppen (till exempel 5 % av huvudmålet).
 
 
-### Exempel på kontrollgrupp
+### Exempel på kontrollgrupp{#control-group-sample}
 
 Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna gör du så här:
 
@@ -69,7 +71,7 @@ Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna g�
 
 Dessa 100 nya unga mottagare exkluderas sedan från huvudmålet.
 
-### Kontrollera kontrollgruppen {#check-extract-target}
+### Kontrollera kontrollgruppen {#check-control-group}
 
 Du kan visa loggarna för att kontrollera och identifiera de exkluderade profilerna. Låt oss ta ett exempel på ett slumpmässigt undantag på fem profiler.
 
@@ -118,4 +120,7 @@ Profilerna som ingår i målgruppen eller som matchar resultatet av frågan tas 
 ## Jämför resultaten{#control-group-results}
 
 När leveransen har skickats kan du extrahera de sändande loggarna för att jämföra beteendet mellan de profiler som inte fick kommunikationen och det faktiska målet. Du kan också använda leveransloggarna för att skapa en ny målinriktning.
+
+Om du vill se vilka profiler som tagits bort från målet ska du kontrollera **Leveransloggar**. Läs mer [i det här avsnittet](#check-control-group).
+
 
