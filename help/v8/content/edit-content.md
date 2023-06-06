@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,21 +33,28 @@ ht-degree: 0%
 >title="Spårningsalternativ"
 >abstract="Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet härifrån."
 
-Om du vill börja skapa innehållet i ett e-postmeddelande klickar du på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
+E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
+* Definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesraden
+* Utför ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden
+* Öppna [E-postdesigner](get-started-email-designer.md) för att börja skapa rätt innehåll i e-postmeddelandet
 
-![](assets/email-edit-content.png)
+Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postmeddelande.
 
-På skärmen som öppnas kan du definiera grundläggande information, utföra ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden samt få tillgång till [E-postdesigner](#start-authoring) för att skapa innehåll.
+1. Klicka på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-Så här redigerar du innehållet i ditt e-postmeddelande:
+1. E-postinnehållets versionsskärm öppnas. Om du konfigurerar ett nytt e-postmeddelande visas **[!UICONTROL From name]** och **[!UICONTROL From email]** fälten har redan fyllts i.
 
-1. I **[!UICONTROL From name]** används ett namn som lätt kan identifieras av mottagarna, till exempel ert varumärkes namn, för att öka öppningshastigheten för era leveranser.
+   ![](assets/email-edit-content-dashboard.png)
 
-   Om du vill förbättra mottagarens upplevelse ytterligare kan du lägga till en persons namn, till exempel&quot;Emma from Megastore&quot;.
+1. The **[!UICONTROL From name]** -fältet definieras i e-postmallen. Om du vill ändra det använder du ett namn som mottagarna lätt kan identifiera, till exempel ert varumärkes namn, för att öka öppningshastigheten för era leveranser.
 
-1. I **[!UICONTROL From email]** adressfältet, kontrollera att adressdomänen är densamma som den underdomän som du delegerat till Adobe.
+   >[!NOTE]
+   >
+   >    Om du vill förbättra mottagarens upplevelse ytterligare kan du lägga till en persons namn, till exempel&quot;Emma from Megastore&quot;.
+
+1. The **[!UICONTROL From email]** adressfältet definieras också i e-postmallen. Kontrollera att adressdomänen är densamma som den underdomän som du delegerat till Adobe.
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ Så här redigerar du innehållet i ditt e-postmeddelande:
 
 1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 
-   * [Lär dig hur du utformar e-postmeddelanden](create-email-content.md)
+   * [Skapa e-postmeddelanden från grunden](create-email-content.md)
    * [Formatera innehållet](get-started-email-style.md)
 
 1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet på **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
