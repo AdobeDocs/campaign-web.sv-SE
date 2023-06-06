@@ -4,9 +4,9 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -38,9 +38,11 @@ Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i
 
 Följande **Kanal** aktiviteter är tillgängliga:
 
-* [E-post](email.md)
-* [Push](push.md)
-* [SMS](sms.md)
+* E-post
+* Push
+* SMS
+
+Se detta [section](enrichment.md).
 
 ## Flödeskontrollaktiviteter {#flow-control}
 

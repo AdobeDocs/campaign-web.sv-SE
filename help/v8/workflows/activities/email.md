@@ -3,15 +3,15 @@ audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
 
 
-# E-post, SMS, push {#email}
+# E-post, SMS, push {#channel}
 
 Med Adobe Campaign Web kan ni automatisera och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS eller push. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende.
 
@@ -29,10 +29,15 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 
 1. Välj en **Mall**. Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. [Läs mer](../../msg/delivery-template.md)
 
-1. Klicka **Skapa leverans** och definiera meddelandet på samma sätt som du skapar en fristående leverans. [Läs mer](../../msg/gs-messages.md)
+1. Klicka **Skapa leverans** och definiera meddelandet på samma sätt som du skapar en fristående leverans. Här definierar du också leveransinställningar, schemaläggning och simulering av innehållet. [Läs mer](../../msg/gs-message.md)
 
+1. Navigera tillbaka till arbetsflödet och klicka **Starta** för att starta arbetsflödet.
 
-1. Starta arbetsflödet och kontrollera loggarna.
+   Som standard utlöses meddelandeförberedelsefasen när ett leveransarbetsflöde initieras, utan att meddelandet skickas omedelbart.
+
+1. Klicka **Granska och skicka** från kanalaktiviteten för att bekräfta sändningen.
+
+1. Klicka på **Skicka**.
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
