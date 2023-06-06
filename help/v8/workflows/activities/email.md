@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
 badge: label="Alpha" type="Positive"
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 
 1. Välj en **Mall**. Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. [Läs mer](../../msg/delivery-template.md)
 
-1. Klicka **Skapa leverans** och definiera meddelandet på samma sätt som du skapar en fristående leverans. Här definierar du också leveransinställningar, schemaläggning och simulering av innehållet. [Läs mer](../../msg/gs-message.md)
+1. Klicka **Skapa leverans** och definiera meddelandet på samma sätt som du skapar en fristående leverans. Här definierar du också leveransinställningar, schemaläggning och simulering av innehållet. [Läs mer](../../msg/gs-messages.md)
 
 1. Navigera tillbaka till arbetsflödet och klicka **Starta** för att starta arbetsflödet.
 
@@ -38,6 +38,9 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 1. Klicka **Granska och skicka** från kanalaktiviteten för att bekräfta sändningen.
 
 1. Klicka på **Skicka**.
+
+## Exempel
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
