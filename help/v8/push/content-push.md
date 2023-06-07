@@ -3,9 +3,9 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: fbedfc5d1886b86932c156574037549270480f44
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '716'
 ht-degree: 6%
 
 ---
@@ -42,6 +42,8 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
 >[!TAB iOS]
 
+![](assets/push_content_1.png)
+
 Klicka på knappen **[!UICONTROL Title]** och **[!UICONTROL Body]** fält. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
 
 Du kan lägga till en **[!UICONTROL Subtitle]**, värdet för undertitelparametern för iOS-meddelandenyttolasten. Se det här avsnittet.
@@ -56,53 +58,34 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 
 >[!TAB Android]
 
-* **[!UICONTROL Sound]**: Ställ in ljudet som ska spelas upp när enheten får ditt meddelande.
-
-* **[!UICONTROL Notification Count]**: Ange antalet nya olästa uppgifter som ska visas direkt på programikonen.
-
-* **[!UICONTROL Channel ID]**: Ange kanal-ID för meddelandet. Appen måste skapa en kanal med detta channel-id innan något meddelande med detta channel-id tas emot.
-
-* **[!UICONTROL Click action]**: Ange åtgärden som är associerad med en användare genom att klicka på meddelandet.
-
-* **[!UICONTROL Tag]**: Ange den identifierare som ska användas för att ersätta befintliga meddelanden i meddelandelådan.
-
-* **[!UICONTROL Priority]**: Ange prioritetsnivåerna för dina meddelanden till standard, minimum, low eller high. Mer information finns i FCM-dokumentationen.
-
-* **[!UICONTROL Visibility]**: Ange visningsnivåerna för meddelandet till public, private eller secrets. Mer information finns i FCM-dokumentationen.
-
-* **[!UICONTROL Sticky]**: Om det är inaktiverat stängs meddelandet automatiskt när användaren klickar på det. Om det är aktiverat visas meddelandet fortfarande även när användaren klickar på det.
+| Parameter | Beskrivning |
+|---------|---------|
+| **[!UICONTROL Sound]** | Ställ in ljudet som ska spelas upp när enheten får ditt meddelande. |
+| **[!UICONTROL Notification Count]** | Ange antalet nya olästa uppgifter som ska visas direkt på programikonen. |
+| **[!UICONTROL Channel ID]** | Ange kanal-ID för meddelandet. Appen måste skapa en kanal med detta channel-id innan något meddelande med detta channel-id tas emot. |
+| **[!UICONTROL Click action]** | Ange åtgärden som är associerad med en användare genom att klicka på meddelandet. |
+| **[!UICONTROL Tag]** | Ange den identifierare som ska användas för att ersätta befintliga meddelanden i meddelandelådan. |
+| **[!UICONTROL Priority]** | Ange prioritetsnivåerna för dina meddelanden till standard, minimum, low eller high. Mer information finns i FCM-dokumentationen. |
+| **[!UICONTROL Visibility]** | Ange visningsnivåerna för meddelandet till public, private eller secrets. Mer information finns i FCM-dokumentationen. |
+| **[!UICONTROL Sticky]** | Om det är inaktiverat stängs meddelandet automatiskt när användaren klickar på det. Om det är aktiverat visas meddelandet fortfarande även när användaren klickar på det. |
 
 >[!TAB iOS]
 
-* **[!UICONTROL Critical alert mode]**: aktivera det här alternativet för att lägga till ljud i meddelandet även om användarens telefon är inställd på fokusläge eller om iPhone är avstängt.
+![](assets/push_content_2.png)
 
-* **[!UICONTROL Clean Badge]**: aktivera det här alternativet för att uppdatera badge-värdet.
-
-* **[!UICONTROL Notification count]**: Ange ett tal som ska användas för att visa antalet nya olästa uppgifter direkt på programikonen.
-
-* **[!UICONTROL Volume]**: ljudvolymen från 0 till 100.
-
-* **[!UICONTROL Mutable content]** (Endast iOS): Skickar flaggan för ändringsbart innehåll i push-nyttolasten och tillåter att push-meddelandeinnehållet ändras med ett meddelandetjänstprogramtillägg som tillhandahålls i iOS SDK. Mer information om detta hittar du i [Apples dokumentation för utvecklare](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). aktivera det här alternativet om du vill tillåta att mobilprogrammet hämtar medieinnehåll.
-
-* **[!UICONTROL Relevance score]**: Ange ett relevansvärde mellan 0 och 100. Systemet använder detta för att sortera meddelandena i meddelandesammanfattningen.
-
-* **[!UICONTROL Interruption level]**:
-
-   * **[!UICONTROL Active]**: Som standard visas meddelandet omedelbart, skärmen visas och ett ljud kan spelas upp. Meddelanden går inte igenom fokusläget.
-
-   * **[!UICONTROL Passive]**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ljudet ljussätts upp. Meddelanden går inte igenom fokusläget.
-
-   * **[!UICONTROL Time sensitive]**: Systemet visar meddelandet omedelbart, lyser upp skärmen, kan spela upp ett ljud och gå igenom fokus-lägen. Den här nivån kräver inget särskilt tillstånd från Apple.
-
-   * **[!UICONTROL Critical]**: Systemet visar meddelandet omedelbart, lyser upp skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver ett särskilt tillstånd från Apple.
-
-* **[!UICONTROL Thread-id]**: identifierare som används för att gruppera relaterade meddelanden tillsammans.
-
-* **[!UICONTROL Category]**: namnet på ditt kategori-ID som kommer att visa åtgärdsknappar. Dessa meddelanden ger användaren ett snabbare sätt att utföra olika åtgärder som svar på ett meddelande utan att öppna eller navigera i programmet.
-
-* **[!UICONTROL Target content ID]**: Identifierare som används för att ange vilket programfönster som ska flyttas fram när meddelandet öppnas.
-
-* **[!UICONTROL Launch image]**: namnet på startbildfilen som ska visas. Om användaren väljer att starta programmet visas den valda bilden i stället för programmets startskärm.
+| Parameter | Beskrivning |
+|---------|---------|
+| **[!UICONTROL Critical alert mode]** | Aktivera det här alternativet om du vill lägga till ljud i meddelandet även om användarens telefon är inställd på fokusläge eller om iPhone är avstängt. |
+| **[!UICONTROL Clean Badge]** | Aktivera det här alternativet om du vill uppdatera badge-värdet. |
+| **[!UICONTROL Notification count]** | Ange ett tal som ska användas för att visa antalet nya olästa uppgifter direkt på programikonen. |
+| **[!UICONTROL Volume]** | Volymen av ljudet från 0 till 100. |
+| **[!UICONTROL Mutable content]** | Aktivera det här alternativet om du vill tillåta mobilprogrammet att hämta medieinnehåll. Mer information om detta hittar du i [Apples dokumentation för utvecklare](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Relevance score]** | Ange ett relevansvärde mellan 0 och 100. Systemet använder detta för att sortera meddelandena i meddelandesammanfattningen. |
+| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Som standard visas meddelandet omedelbart, skärmen visas och ett ljud kan spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Passive]**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ljudet ljussätts upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Time sensitive]**: Systemet visar meddelandet omedelbart, lyser upp skärmen, kan spela upp ett ljud och gå igenom fokus-lägen. Den här nivån kräver inget särskilt tillstånd från Apple.</li> <li>**[!UICONTROL Critical]**: Systemet visar meddelandet omedelbart, lyser upp skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver ett särskilt tillstånd från Apple.</ul> |
+| **[!UICONTROL Thread-id]** | Identifierare som används för att gruppera relaterade meddelanden tillsammans. |
+| **[!UICONTROL Category]** | Namn på kategori-ID som kommer att visa åtgärdsknappar. Dessa meddelanden ger användaren ett snabbare sätt att utföra olika åtgärder som svar på ett meddelande utan att öppna eller navigera i programmet. |
+| **[!UICONTROL Target content ID]** | Identifierare som används för att ange vilket programfönster som ska flyttas fram när meddelandet öppnas. |
+| **[!UICONTROL Launch image]** | Namnet på startbildfilen som ska visas. Om användaren väljer att starta programmet visas den valda bilden i stället för programmets startskärm. |
 
 >[!ENDTABS]
 
