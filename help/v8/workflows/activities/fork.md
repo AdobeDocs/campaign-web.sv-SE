@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten för gaffel
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 2%
 
 # Förgrening {#fork}
 
-The **Gaffel** kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.
-
-The **Gaffel** kan du utföra flera olika aktiviteter oberoende av varandra i samma arbetsflöde.
+The **Gaffel** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan skapa utgående övergångar och starta flera aktiviteter samtidigt.
 
 ## Konfiguration
 

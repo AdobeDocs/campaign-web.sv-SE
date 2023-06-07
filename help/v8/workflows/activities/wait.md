@@ -3,19 +3,17 @@ audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
 badge: label="Alpha" type="Positive"
-source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 37%
+source-wordcount: '149'
+ht-degree: 28%
 
 ---
 
 
 # Vänta {#wait}
 
-The **Vänta** aktiviteten tillfälligt avbryter körningen av en del av ett arbetsflöde. Den aktiverar sin utgående övergång efter en fördröjning som kan variera från några sekunder till flera månader, vilket verkställer de aktiviteter som utförs efteråt.
-
-The **Vänta** aktiviteten används för att en viss tid ska kunna förflyta mellan två aktiviteter som körs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
+The **Vänta** aktiviteten är en **Flödeskontroll** aktivitet. Det används för att en viss tid ska kunna förflyta mellan två aktiviteter som utförs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
 
 ## Konfiguration
 
@@ -23,9 +21,9 @@ Följ de här stegen för att konfigurera **Vänta** aktivitet:
 
 1. Lägg till en **Vänta** i arbetsflödet.
 
-1. Ange **Varaktighet** av väntetiden mellan aktiveringen av de inkommande och utgående övergångarna för aktiviteten.
+1. Ange **Varaktighet** av väntetiden mellan inkommande och utgående övergångar.
 
-1. Välj tidsenhet **Period**: sekunder, minuter, timmar.
+1. Välj tidsenhet i dialogrutan **Perioder** fält: sekunder, minuter, timmar.
 
 ## Exempel
 
