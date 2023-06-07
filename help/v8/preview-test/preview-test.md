@@ -4,14 +4,14 @@ title: Förhandsgranska och testa e-post
 description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
+source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska och testa e-post {#about-preview-proofs}
+# Förhandsgranska och testa e-post {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -20,18 +20,20 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Förhandsgranska e-postinnehåll"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Skicka testmeddelanden"
 
-Innan du skickar ett e-postmeddelande är det viktigt att du granskar och testar innehållet för att se till att det är korrekt och fritt från fel i innehålls- eller personaliseringsinställningarna.
+När e-postinnehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det innan du skickar meddelandet.
 
-För att göra detta kan Adobe Campaign
+Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
 
-* [Förhandsgranska e-postinnehållet och personaliseringen](preview-content.md),
-* [Kontrollera e-poståtergivningen](#rendering) på vanliga datorer, mobilkunder och webbaserade klienter,
-* [Skicka testmeddelanden](proofs.md) till specifika mottagare för testning och validering.
+För att göra detta [!DNL Adobe Campaign] gör att du kan:
 
-Dessa åtgärder kan utföras från **[!UICONTROL Simulate content]** som är tillgänglig när du skapar innehållet i e-postmeddelandet från e-postdesignern:
+* [Förhandsgranska e-postinnehållet och personaliseringen](preview-content.md)
+* [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
+* [Skicka testmeddelanden](proofs.md) till specifika mottagare för testning och validering
 
-![](assets/simulate.png)
+Dessa åtgärder kan utföras från **[!UICONTROL Simulate content]** som du kommer åt från [Redigera innehåll](../content/edit-content.md) eller från [E-postdesigner](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->Innehållssimulering är också tillgängligt i leveranssammanfattningen när du klickat på **[!UICONTROL Review and send]** -knappen.
+>Innehållssimulering finns även på [leveranssammanfattning](../monitor/prepare-send.md) efter att du klickat på **[!UICONTROL Review and send]** -knappen.

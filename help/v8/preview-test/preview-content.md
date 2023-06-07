@@ -4,39 +4,53 @@ title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
 
-# Förhandsgranska e-postinnehåll {#preview}
+# Förhandsgranska e-postinnehåll {#preview-content}
 
+Använd [!DNL Campaign] funktioner för simulering av innehåll för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas. På så sätt kan du styra personaliseringen och kontrollera hur den visas för mottagarna.
 
-Använd funktionerna för simulering av innehåll i Adobe Campaign för att förhandsgranska innehållet i ditt e-postmeddelande innan du skickar det, styra personaliseringen och kontrollera hur det visas för mottagarna.
+Om du vill förhandsgranska innehållet i ditt e-postmeddelande följer du stegen nedan.
 
-Om du vill förhandsgranska innehållet i ditt e-postmeddelande gör du så här:
+1. Bläddra till e-postmeddelandet [Redigera innehåll](../content/edit-content.md) eller till [E-postdesigner](../content/get-started-email-designer.md).
 
-1. Bläddra till skärmen för att skapa e-postinnehåll och klicka på **[!UICONTROL Simulate content]** -knappen.
+1. Klicka på knappen **[!UICONTROL Simulate content]**.
 
-   ![](assets/simulate.png)
+   ![](assets/simulate-button.png)
 
-1. Använd **[!UICONTROL Select profile(s)]** om du vill markera en eller flera profiler.
+1. Använd **[!UICONTROL Add test profile(s)]** för att välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll.
+
 1. Du kan kombinera testprofiler och profiler för att förhandsgranska e-postmeddelandet.
 
-   ![](assets/preview-profile.png)
+   * The **[!UICONTROL Test profiles]** På -fliken visas alla dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen.
 
-   * The **[!UICONTROL Test profiles]** På -fliken visas alla dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
-   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** från Campaign-konsolen.
+      >[!NOTE]
+      >
+      >Testprofiler kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-1. När du har valt profiler visas en förhandsgranskning av e-postmeddelandet i den högra rutan. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
+   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] konsol. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
-   Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande e-postinnehåll.
+   ![](assets/simulate-select-profiles.png)
 
-1. Du kan förhandsgranska återgivningen av ditt innehåll på olika enheter (dator, mobil, surfplatta) genom att klicka på den dedikerade ikonen i det övre högra hörnet.
+1. Klicka **[!UICONTROL Select]** för att bekräfta ditt val på båda flikarna.
 
-   ![](assets/preview.png)
+   En förhandsgranskning av e-postmeddelandet visas i den högra rutan i dialogrutan **[!UICONTROL Simulate]** skärm. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
+
+   ![](assets/simulate-preview.png)
+
+1. Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande e-postinnehåll. Du kan också lägga till fler testprofiler och ta bort markeringen med motsvarande knappar i den vänstra rutan.
+
+1. Du kan justera **[!UICONTROL Zoom level]** och förhandsgranska innehållet på datorn eller en mobil enhet med den dedikerade ikonen i det övre högra hörnet.
+
+1. Från **[!UICONTROL Simulate]** kan du också:
+   * Kontrollera e-poståtergivningen i vanliga e-postklienter - [Läs mer](email-rendering.md)
+   * Skicka testmeddelanden till specifika mottagare för validering - [Läs mer](proofs.md)
+
 
 

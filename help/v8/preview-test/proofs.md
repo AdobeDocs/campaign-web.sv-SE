@@ -4,66 +4,80 @@ title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
-# Skicka testmeddelanden {#send-proofs}
+# Skicka testmeddelanden {#send-test-emails}
 
-Att skicka testmeddelanden är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem. Genom att skicka testmeddelanden kan du kontrollera olika element som länkar, avanmälningslänkar, bilder och spegelsidor samt upptäcka eventuella fel.
+**[!UICONTROL Adobe Campaign]** gör att du kan testa ett meddelande innan det skickas till huvudmålgruppen.
+
+Att skicka testmeddelanden är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem.
+
+Mottagarna av ett test kan kontrollera olika element som länkar, avanmälningslänkar, bilder och spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och e-postkonfiguration.
+
+## Välj testmottagare {#test-recipients}
 
 Testmeddelanden kan skickas till två typer av mottagare:
 
-* **Testprofiler**: skicka testmeddelanden till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen. De kan skapas i Adobe Campaign Console i **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** mapp.
+* **Testprofiler** - skicka testmeddelanden till dirigerade adresser som är ytterligare och fiktiva mottagare i databasen. De kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-* **Ersättning från huvudmål**: skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen tar emot.
+* **Ersätt från huvudmål** - skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
-## Välj testmottagare {#recipients}
+Följ stegen nedan för att välja mottagare av e-posttestet.
 
-1. Öppna skärmen för simulering av e-postinnehåll och klicka sedan på **[!UICONTROL Test]** -knappen.
+1. Öppna e-postmeddelandet [Redigera innehåll](../content/edit-content.md) eller till [E-postdesigner](../content/get-started-email-designer.md)klickar du på **[!UICONTROL Simulate content]** -knappen.
 
-   ![](assets/test-button.png)
+1. Klicka på knappen **[!UICONTROL Test]**.
+
+   ![](assets/simulate-test-button.png)
 
 1. Använd **[!UICONTROL Mode]** nedrullningsbar lista där du kan välja vilken typ av mottagare som ska få testmeddelandet:
 
-   * **Testprofiler**: skicka testmeddelandet till startadresser som är ytterligare och fiktiva mottagare i databasen,
+   * **Testprofiler** inrikta sig på fiktiva mottagare
 
-   * **Ersättning från huvudmål**: skicka testmeddelandet till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
+   * **Ersätt från huvudmål** för att skicka ett test till en viss e-postadress samtidigt som data från en befintlig profil visas.
 
-   ![](assets/test-mode.png)
+   ![](assets/simulate-profile-mode.png)
 
    >[!NOTE]
    >
-   >Som standard är **[!UICONTROL Test profiles]** läge är valt. Om du redan har markerat profiler för att förhandsgranska e-postmeddelandet på innehållssimuleringsskärmen, markeras de profilerna som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare.
+   >Som standard är **[!UICONTROL Use test profiles]** läge är valt. Om du redan har markerat profiler för att förhandsgranska e-postmeddelandet på innehållssimuleringsskärmen, markeras de profilerna som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare.
 
-1. Om du vill skicka testmeddelanden till ersättningsprofiler väljer du **[!UICONTROL Substitution from target]** gör du så här:
+1. Om du vill skicka testmeddelanden till ersättningsprofiler väljer du **[!UICONTROL Substitute from target]** gör du så här:
 
    1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress som tar emot testmeddelandet.
 
-      Du kan ange valfri e-postadress. Detta gör att du kan skicka testmeddelanden till alla användare, även om de inte är användare av Adobe Campaign V8.
+      Du kan ange valfri e-postadress. Detta gör att du kan skicka testmeddelanden till alla användare, även om de inte är användare av [!DNL Adobe Campaign].
 
-   1. Välj den profil från målet som ska användas för att skicka testmeddelandet. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
+   1. Välj den profil från målet som ska användas som ersättning. Du kan också låta [!DNL Adobe Campaign] välj en slumpmässig profil från målet. Profildata från den valda profilen visas i testmeddelandet.
 
    1. Bekräfta mottagaren och upprepa åtgärden för att lägga till så många adresser som behövs.
 
-      ![](assets/substitution.png)
+      ![](assets/simulate-profile-substitute.png)
 
-1. När testmottagarna har valts kan du skicka testmeddelandet. [Lär dig hur du skickar testmeddelanden](#send)
+1. När testmottagarna har valts kan du [skicka testmeddelandet](#send-test).
 
    >[!NOTE]
    >
-   >Om du vill skicka det sista e-postmeddelandet till mottagarna av testmeddelandet aktiverar du **[!UICONTROL Include test population in the main target]** på.
+   >Om du även vill skicka det sista e-postmeddelandet till mottagarna av testmeddelandet väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
-## Skicka testmeddelandet {#send}
+## Skicka testmeddelandet {#send-test}
 
-Om du vill skicka testmeddelandet till de valda mottagarna klickar du på **[!UICONTROL Send test email]** bekräfta sändningen.
+Följ stegen nedan för att skicka testmeddelandet till de valda mottagarna.
 
-![](assets/send-proof.png)
+1. Klicka på **[!UICONTROL Send test email]**.
 
-Skicka så många testmeddelanden som behövs tills du är klar med innehållet. När detta är klart kan du skicka e-postmeddelandet till huvudmålet. [Lär dig hur du förbereder och skickar e-post](../monitor/prepare-send.md)
+1. Bekräfta sändningen.
+
+   ![](assets/simulate-send-test.png)
+
+1. Skicka så många testmeddelanden som behövs tills du är klar med innehållet.
+
+När detta är klart kan du [förbereda och skicka e-post](../monitor/prepare-send.md) till huvudmålet.
 
 ## Få tillgång till skickade testmeddelanden {#access-proofs}
 
@@ -71,8 +85,8 @@ När testmeddelandena har skickats kan du få åtkomst till dedikerade loggar fr
 
 Med dessa loggar kan du få tillgång till alla testmeddelanden som skickats för den valda leveransen och visa specifik statistik som relaterar till deras sändning. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
 
-![](assets/proof-log.png)
+![](assets/simulate-test-log.png)
 
-Du kan även komma åt skickade testmeddelanden från leveranslistan, precis som vid alla leveranser.
+Du kan även komma åt skickade testmeddelanden via [leveranslista](../msg/gs-messages.md), som alla leveranser.
 
-![](assets/delivery-list.png)
+![](assets/simulate-deliveries-list.png)
