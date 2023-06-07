@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Du kan välja mellan två typer av data: ett enda attribut från måldimensionen
 
 ## Ett attribut
 
-Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedata. Följ de här stegen:
+Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
 
 1. Klicka inuti **Attribut** fält.
 1. Välj ett enkelt fält från målgruppsdimensionen, födelsedatumet i vårt exempel.

@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 13%
 
 ---
@@ -65,11 +65,8 @@ I följande exempel visas **skärningspunkt** mellan två frågeaktiviteter. Den
 
 ![](../assets/workflow-intersection-example.png)
 
-Följande **exkludering** I exemplet visas två frågor som har konfigurerats för att filtrera profiler som är mellan 18 och 27 år gamla och som har en e-postdomän från Adobe. Profilerna med en Adobe e-postdomän exkluderas sedan från den första uppsättningen.
+Följande **exkludering** I exemplet visas två frågor som har konfigurerats för att filtrera profiler som är mellan 18 och 27 år gamla och som har en Adobe-e-postdomän. Profilerna med en Adobe-e-postdomän exkluderas sedan från den första uppsättningen.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
