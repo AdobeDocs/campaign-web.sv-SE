@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -24,37 +24,37 @@ Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade m
 
 Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
-* **Fält för personalisering**
-
-   Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten.
-
-   ![](assets/perso-subject-line.png)
+* **Anpassningsfält**: Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten.
 
    Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
-* **Villkorligt innehåll**
+   ![](assets/perso-subject-line.png)
 
-   Konfigurera villkorligt innehåll för att lägga till innehåll baserat på mottagarens profil. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
+* **Villkorligt innehåll**: Konfigurera villkorligt innehåll för att lägga till innehåll baserat på mottagarens profil. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
 
-* **Inbyggda innehållsblock**
-
-   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
+* **Inbyggda innehållsblock**: Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
 
    ![](assets/perso-content-blocks.png)
 
 ## Var kan jag lägga till dynamiskt innehåll?
 
-Adobe Campaign V8 Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll.
+Adobe Campaign V8 Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med **[!UICONTROL Open personalization dialog]** ikon, t.ex. ämnesradfältet, eller e-postlänkar och text-/knappinnehållskomponenter.
 
-Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med ikonen för dialogrutan Öppna anpassning, som ämnesraden, eller e-postlänkar och text-/knappinnehållskomponenter.
+>[!NOTE]
+>
+>Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
+
+*Åtkomst till uttrycksredigeraren från fältet Avsändarens namn*
 
 ![](assets/expression-editor-access.png)
 
+*Åtkomst till uttrycksredigeraren från en e-posttextkomponent*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*Åtkomst till uttrycksredigeraren från en länk i ett e-postmeddelande*
 
-Dessutom kan du skapa ett dedikerat villkorsstyrt innehåll när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## Låt oss dyka djupare
 
