@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Adobe Campaign v8 har följande leveranskanaler:
 ## Skapa en leverans {#create-delivery}
 
 Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny, eller skapa leveranser i samband med en marknadsföringskampanj, från **[!UICONTROL Campaigns]** vänster meny.
+
+Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
 >[!BEGINTABS]
 
@@ -113,7 +115,7 @@ När meddelandeinnehållet har definierats kan du förhandsgranska det för att 
 
 Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder. Du kan övervaka efter att du har skickat en leverans samt förstå hur leveransfel och karantäner hanteras.
 
-## Duplicera en leverans{#delivery-duplicate}
+## Duplicera en leverans {#delivery-duplicate}
 
 Du kan skapa en kopia av en befintlig leverans, antingen från leveranslistan eller från kontrollpanelen för leverans.
 
@@ -129,4 +131,6 @@ Så här duplicerar du en leverans från kontrollpanelen:
 1. Öppna leveransen och klicka på  **[!UICONTROL ...More]** på skärmens övre del.
 1. Välj  **[!UICONTROL Duplicate]**.
 1. Bekräfta duplicering: den nya leveransen ersätter den aktuella leveransen på skärmen.
+
+
 

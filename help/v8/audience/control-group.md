@@ -4,9 +4,9 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '747'
 ht-degree: 12%
 
 ---
@@ -86,11 +86,12 @@ Efter leveransförberedelserna kan du se hur undantagen tillämpades:
 * På fliken Loggar i leveransloggarna visas exkluderingssteget.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* The **Uteslutningsloggar** -fliken visar varje profil och det relaterade undantaget **Orsak**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * The **Uteslutningsorsaker** visas antalet uteslutna profiler för varje typologiregel.
 
