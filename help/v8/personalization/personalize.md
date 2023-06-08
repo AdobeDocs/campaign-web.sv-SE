@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,31 @@ ht-degree: 0%
 
 # Anpassa innehållet{#add-personalization}
 
-## Anpassa ämnesraden i ett meddelande {#personalize-subject-line}
+Personalisering kan läggas till i alla leveranser med uttrycksredigeraren.
 
-Lägga till personalisering i **[!UICONTROL Subject line]** i meddelandet, följ stegen nedan:
+En personaliseringstagg använder alltid följande syntax: `<%=table.field%>`Om du till exempel vill infoga namnet på mottagaren, som lagras i mottagartabellen, använder personaliseringstaggen syntaxen &lt;%= mottagare.efternamn %>.
 
-1. Öppna en leverans och klicka på **[!UICONTROL Edit content]**.
-1. Klicka på **[!UICONTROL Open personalization dialog]** ikonen till höger om **[!UICONTROL Subject line]** fält för e-post eller **[!UICONTROL Title]** fält för push/SMS-leveranser.
+När en leverans förbereds tolkas dessa taggar automatiskt av Adobe Campaign och ersätts av fältvärdet för en viss mottagare. Den fysiska ersättningen kan sedan visas när du simulerar ditt innehåll.
 
-   ![](assets/perso-subject.png){width="600"}
+Om du vill lägga till personaliseringstaggar i en leverans klickar du på ikonen Öppna personalisering som är tillgänglig från redigeringsfält av texttyp, till exempel ämnesraden eller SMS-brödtexten.
 
-1. Ange ämnesraden eller titeln och välj de anpassningsattribut som ska läggas till.
+![](assets/perso-access.png)
 
-1. Klicka **[!UICONTROL Confirm]** att validera. Anpassningsattributen läggs till i innehållet.
+Uttrycksredigeraren visas. Anpassningsfält är ordnade i tre menyer, som finns till vänster på skärmen. Dessa menyer ger åtkomst till alla fält som är tillgängliga i Adobe Campaign-databasen.
+
+| Meny | Beskrivning |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** I visas alla fält som definierats i mottagartabellen, t.ex. mottagarnas namn, ålder eller adress. |
+| ![](assets/do-not-localize/perso-message-menu.png) | The **[!UICONTROL Message]** -menyn innehåller alla fält som hör till leveransloggarna, dvs. alla meddelanden som skickas till mottagare eller enheter i alla kanaler, t.ex. datumet för den senaste händelsen med en viss mottagare |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | The **[!UICONTROL Delivery]** På menyn visas alla fält som hör till de parametrar som krävs för att utföra leveranser, t.ex. leveranskanal, etikett osv. |
+
+>[!NOTE]
+>
+>Som standard visas alla fält i den markerade tabellen (Mottagare, Meddelande / Leverans). Om du vill ta med fält från tabeller som är länkade till den markerade tabellen aktiverar du **[!UICONTROL Display advanced attributes]** alternativ som finns under listan.
+
+Om du vill lägga till ett anpassningsfält placerar du markören på önskad plats i innehållet och klickar på plusknappen (+) för att infoga den.
+
+![](assets/perso-insert-field.png)
 
 ## Anpassa e-postinnehållet {#personalize-emails}
 
@@ -56,23 +69,6 @@ Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern oc
 1. När innehållsblocket har infogats läggs det till i e-postinnehållet. Det anpassas automatiskt till mottagarprofilen när personalisering skapas, i leveransförberedelsesteget.
 
    ![](assets/perso-content-block-in-email.png)
-
-## Anpassa länkar i e-postmeddelanden {#personalize-links}
-
-För att personalisera en **link**:
-
-1. Markera ett textblock eller en bild.
-1. Välj **Infoga länk**.
-
-   ![](assets/perso-link.png)
-
-1. Ange länketiketten och använd **Infoga länk** för att anpassa länken.
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. Använd personaliseringsredigeraren för att definiera och anpassa länken och bekräfta.
-
-   ![](assets/perso-link-edit.png)
 
 
 ## Anpassa era erbjudanden {#personalize-offers}

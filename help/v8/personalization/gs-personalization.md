@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
 * **Villkorligt innehåll**
 
-   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
+   Konfigurera villkorligt innehåll för att lägga till innehåll baserat på mottagarens profil. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
 
 * **Inbyggda innehållsblock**
 
@@ -46,11 +46,13 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
 Adobe Campaign V8 Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll.
 
-Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med ikonen Öppna personalisering, t.ex. ämnesradfältet, eller innehållskomponenter för text och knapp i e-postmeddelanden.
+Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med ikonen för dialogrutan Öppna anpassning, som ämnesraden, eller e-postlänkar och text-/knappinnehållskomponenter.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 Dessutom kan du skapa ett dedikerat villkorsstyrt innehåll när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
 
