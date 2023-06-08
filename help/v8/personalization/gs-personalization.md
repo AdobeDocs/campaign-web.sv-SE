@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 För att få ut mesta möjliga av alla marknadsföringskampanjer ger Adobe Campaign er ett sätt att leverera anpassat dynamiskt innehåll som talar till kunderna på deras nivå. Använd personaliseringsfunktioner baserat på profildata för att skapa en anpassad upplevelse för olika grupper och individer: kan ni anpassa era meddelanden till varje specifik mottagare genom att utnyttja de data och den information ni har om dem. Det kan vara deras förnamn, intressen, var de bor, vad de har köpt och mycket annat.
 
 Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personaliseringsfunktionerna kan kombineras för att förbättra budskapen och skapa en anpassad användarupplevelse.
+
+## Hur gör man ert innehåll dynamiskt?
 
 Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
@@ -36,7 +38,7 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
    ![](assets/perso-content-blocks.png)
 
-## Var kan jag lägga till dynamiskt innehåll?
+## Öppna uttrycksredigeraren {#access}
 
 Adobe Campaign V8 Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med **[!UICONTROL Open personalization dialog]** ikon, t.ex. ämnesradfältet, eller e-postlänkar och text-/knappinnehållskomponenter.
 
