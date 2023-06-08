@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Om du vill lägga till personaliseringstaggar i en leverans öppnar du uttrycksr
 
 ![](assets/perso-access.png)
 
-Uttrycksredigeraren visas. Anpassningsfält är ordnade i tre menyer, som finns till vänster på skärmen. Dessa menyer ger åtkomst till alla fält som är tillgängliga i Adobe Campaign-databasen.
+Uttrycksredigeraren visas. Anpassningsfält ordnas i flera menyer, som finns till vänster på skärmen. Dessa menyer ger åtkomst till alla fält som är tillgängliga i Adobe Campaign-databasen.
 
 ![](assets/perso-insert-field.png)
 
