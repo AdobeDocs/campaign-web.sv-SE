@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ Uttrycksredigeraren visas. Anpassningsfält är ordnade i tre menyer, som finns 
 
 | Meny | Beskrivning |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** På -menyn visas alla fält som är relaterade till prenumeranterna av ett program, t.ex. terminalen eller operativsystemet som används. *Den här menyn är endast tillgänglig för push-meddelanden* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** I visas alla fält som definierats i mottagartabellen, t.ex. mottagarnas namn, ålder eller adress. |
 | ![](assets/do-not-localize/perso-message-menu.png) | The **[!UICONTROL Message]** -menyn innehåller alla fält som hör till leveransloggarna, dvs. alla meddelanden som skickas till mottagare eller enheter i alla kanaler, t.ex. datumet för den senaste händelsen med en viss mottagare |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | The **[!UICONTROL Delivery]** På menyn visas alla fält som hör till de parametrar som krävs för att utföra leveranser, t.ex. leveranskanal, etikett osv. |
