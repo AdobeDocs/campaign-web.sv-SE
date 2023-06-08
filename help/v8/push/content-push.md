@@ -3,10 +3,10 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: a9c9079a64dd7113aa7da1040aa30cef2c9c0aec
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 6%
+source-wordcount: '1017'
+ht-degree: 2%
 
 ---
 
@@ -30,25 +30,29 @@ ht-degree: 6%
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
-* The **Datameddelande**, hanteras av klientprogrammet. Meddelanden skickas direkt till mobilprogrammet som genererar och visar android-meddelandet till enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
+* The **[!UICONTROL Data messag]e** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet, som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
 
-   Klicka på **[!UICONTROL Message]** och använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
+  Om du vill definiera innehåll, anpassa data och lägga till dynamiskt innehåll klickar du på **[!UICONTROL Message]** och använder uttrycksredigeraren. Du kan använda den här redigeraren för att anpassa meddelanden i **[!UICONTROL Application variables]** -menyn läggs programvariablerna automatiskt till. Med dessa variabler kan du definiera meddelandebeteende. Du kan till exempel konfigurera en specifik programskärm som ska visas när användaren aktiverar meddelandet.
 
-* Meddelandet som hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientappens räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
+  ![](assets/push_content_4.png)
 
-   Klicka på knappen **[!UICONTROL Title]** och **[!UICONTROL Body]** fält. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
+* The **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientappens räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
-   Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
+  Klicka på knappen **[!UICONTROL Title]** och **[!UICONTROL Body]** fält. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
+
+  Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
+
+  ![](assets/push_content_3.png)
 
 >[!TAB iOS]
-
-![](assets/push_content_1.png)
 
 Klicka på knappen **[!UICONTROL Title]** och **[!UICONTROL Body]** fält. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
 
 Du kan lägga till en **[!UICONTROL Subtitle]**, värdet för undertitelparametern för iOS-meddelandenyttolasten. Se det här avsnittet.
 
 I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilprogram. Användaren har inte informerats om meddelandets ankomst. Den överförs direkt till programmet.
+
+![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
@@ -58,16 +62,19 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 
 >[!TAB Android]
 
+![](assets/push_content_5.png)
+
 | Parameter | Beskrivning |
 |---------|---------|
 | **[!UICONTROL Sound]** | Ställ in ljudet som ska spelas upp när enheten får ditt meddelande. |
-| **[!UICONTROL Notification Count]** | Ange antalet nya olästa uppgifter som ska visas direkt på programikonen. |
+| **[!UICONTROL Notification Count]** | Ange hur många nya olästa uppgifter som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden. |
 | **[!UICONTROL Channel ID]** | Ange kanal-ID för meddelandet. Appen måste skapa en kanal med detta channel-id innan något meddelande med detta channel-id tas emot. |
-| **[!UICONTROL Click action]** | Ange åtgärden som är associerad med en användare genom att klicka på meddelandet. |
-| **[!UICONTROL Tag]** | Ange den identifierare som ska användas för att ersätta befintliga meddelanden i meddelandelådan. |
-| **[!UICONTROL Priority]** | Ange prioritetsnivåerna för dina meddelanden till standard, minimum, low eller high. Mer information finns i FCM-dokumentationen. |
-| **[!UICONTROL Visibility]** | Ange visningsnivåerna för meddelandet till public, private eller secrets. Mer information finns i FCM-dokumentationen. |
-| **[!UICONTROL Sticky]** | Om det är inaktiverat stängs meddelandet automatiskt när användaren klickar på det. Om det är aktiverat visas meddelandet fortfarande även när användaren klickar på det. |
+| **[!UICONTROL Click action]** | Definiera åtgärden som är kopplad till en användare som klickar på meddelandet. Detta avgör beteendet när användaren interagerar med meddelandet, till exempel öppnar en viss skärm eller utför en viss åtgärd i programmet. |
+| **[!UICONTROL Tag]** | Ange en identifierare som ska användas för att ersätta befintliga meddelanden i meddelanderutan. Detta förhindrar att flera meddelanden ackumuleras och säkerställer att endast den senaste relevanta aviseringen visas. |
+| **[!UICONTROL Priority]** | Ange prioritetsnivån för meddelandet, som kan vara standard, minimum, low eller high. Prioritetsnivån avgör hur viktigt och brådskande meddelandet är, vilket påverkar hur det visas och om det kan kringgå vissa systeminställningar. Mer information finns i [FCM-dokumentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
+| **[!UICONTROL Visibility]** | Ange synlighetsnivån för ditt meddelande, som kan vara offentlig, privat eller hemlig. Synlighetsnivån avgör hur mycket av meddelandets innehåll som visas på låsskärmen och andra känsliga områden. Mer information finns i [FCM-dokumentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
+| **[!UICONTROL Sticky]** | När det är aktiverat visas meddelandet även när användaren klickar på det. <br>Om det är inaktiverat stängs meddelandet automatiskt när användaren interagerar med det. Tack vare det klibbiga beteendet kan viktiga meddelanden finnas kvar på skärmen under längre perioder. |
+| **[!UICONTROL Application variables]** | Gör att du kan definiera meddelandebeteende. Dessa variabler är helt anpassningsbara och ingår som en del av den meddelandenyttolast som skickas till den mobila enheten. |
 
 >[!TAB iOS]
 
@@ -75,17 +82,18 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 
 | Parameter | Beskrivning |
 |---------|---------|
-| **[!UICONTROL Critical alert mode]** | Aktivera det här alternativet om du vill lägga till ljud i meddelandet även om användarens telefon är inställd på fokusläge eller om iPhone är avstängt. |
-| **[!UICONTROL Clean Badge]** | Aktivera det här alternativet om du vill uppdatera badge-värdet. |
-| **[!UICONTROL Notification count]** | Ange ett tal som ska användas för att visa antalet nya olästa uppgifter direkt på programikonen. |
+| **[!UICONTROL Critical alert mode]** | Aktivera det här alternativet om du vill lägga till ljud i meddelandet, även när användarens telefon är inställd på fokusläge eller om iPhone är avstängt. Detta gör att användaren uppmärksammar viktiga varningar. |
+| **[!UICONTROL Clean Badge]** | Aktivera det här alternativet om du vill uppdatera badge-värdet som visas på programikonen. Det ser till att märket korrekt återspeglar antalet nya olästa uppgifter. |
+| **[!UICONTROL Notification count]** | Ange ett tal som ska visas direkt på programikonen, vilket anger antalet nya olästa uppgifter. Detta ger användaren en snabb visuell referens. |
 | **[!UICONTROL Volume]** | Volymen av ljudet från 0 till 100. |
-| **[!UICONTROL Mutable content]** | Aktivera det här alternativet om du vill tillåta mobilprogrammet att hämta medieinnehåll. Mer information om detta hittar du i [Apples dokumentation för utvecklare](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
-| **[!UICONTROL Relevance score]** | Ange ett relevansvärde mellan 0 och 100. Systemet använder detta för att sortera meddelandena i meddelandesammanfattningen. |
+| **[!UICONTROL Mutable content]** | Aktivera det här alternativet om du vill tillåta att mobilprogrammet hämtar mediainnehåll som är kopplat till meddelandet. Mer information om detta hittar du i [Apples dokumentation för utvecklare](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Relevance score]** | Ange ett relevansvärde mellan 0 och 100 för att prioritera ordningen för meddelanden i meddelandesammanfattningen. Högre poäng innebär viktigare meddelanden. |
 | **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Som standard visas meddelandet omedelbart, skärmen visas och ett ljud kan spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Passive]**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ljudet ljussätts upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Time sensitive]**: Systemet visar meddelandet omedelbart, lyser upp skärmen, kan spela upp ett ljud och gå igenom fokus-lägen. Den här nivån kräver inget särskilt tillstånd från Apple.</li> <li>**[!UICONTROL Critical]**: Systemet visar meddelandet omedelbart, lyser upp skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver ett särskilt tillstånd från Apple.</ul> |
-| **[!UICONTROL Thread-id]** | Identifierare som används för att gruppera relaterade meddelanden tillsammans. |
-| **[!UICONTROL Category]** | Namn på kategori-ID som kommer att visa åtgärdsknappar. Dessa meddelanden ger användaren ett snabbare sätt att utföra olika åtgärder som svar på ett meddelande utan att öppna eller navigera i programmet. |
+| **[!UICONTROL Thread-id]** | Identifierare som används för att gruppera relaterade meddelanden tillsammans. Meddelanden med samma tråd-ID organiseras som en enda konversation eller tråd i meddelandelistan. |
+| **[!UICONTROL Category]** | Ange namnet på det kategori-ID som är associerat med meddelandet. Detta gör att åtgärdsknappar visas, vilket gör att användaren kan utföra olika åtgärder direkt från meddelandet utan att öppna programmet. |
 | **[!UICONTROL Target content ID]** | Identifierare som används för att ange vilket programfönster som ska flyttas fram när meddelandet öppnas. |
-| **[!UICONTROL Launch image]** | Namnet på startbildfilen som ska visas. Om användaren väljer att starta programmet visas den valda bilden i stället för programmets startskärm. |
+| **[!UICONTROL Launch image]** | Ange namnet på startbildfilen som ska visas när användaren väljer att starta programmet från meddelandet. Den valda bilden visas i stället för programmets vanliga startskärm. |
+| **[!UICONTROL Application variables]** | Gör att du kan definiera meddelandebeteende. Dessa variabler är helt anpassningsbara och ingår som en del av den meddelandenyttolast som skickas till den mobila enheten. |
 
 >[!ENDTABS]
 
