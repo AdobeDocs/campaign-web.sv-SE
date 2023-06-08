@@ -4,9 +4,9 @@ title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,8 @@ ht-degree: 0%
 
 1. Spårning är aktiverat som standard för leveranser. Du kan inaktivera det här alternativet på **[!UICONTROL Optional features section]**.
 
+1. Öppna **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
+
 1. Klicka **[!UICONTROL Save]** och kontrollera meddelandet i förhandsgranskningen.
-
-1. Du kan använda **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
-
-1. Klicka **[!UICONTROL Add test profile(s)]** om du vill välja en eller flera testprofiler eller profiler.
-
-1. När du har valt testprofiler klickar du på **[!UICONTROL Select]**.
-
-1. I den högra rutan hittar du en förhandsgranskning av e-postmeddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
 Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.

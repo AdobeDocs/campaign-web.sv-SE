@@ -3,14 +3,30 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Skicka en leverans av push-meddelanden {#send-push}
+# Förhandsgranska och skicka en leverans av push-meddelanden {#send-push}
+
+## Förhandsgranska leverans av push-meddelanden {#preview-push}
+
+När du har definierat meddelandeinnehållet kan du använda testprofiler för att förhandsgranska och testa meddelandet. Om du har inkluderat anpassat innehåll kan du undersöka hur det här innehållet visas i meddelandet genom att använda testprofildata. På så sätt kan du se till att meddelandet återges korrekt och att de anpassade elementen införlivas på rätt sätt.
+
+1. Från din sida med leveransinnehåll kan du använda **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
+
+1. Klicka **[!UICONTROL Add test profile(s)]** om du vill välja en eller flera testprofiler eller profiler.
+
+1. När du har valt testprofiler klickar du på **[!UICONTROL Select]**.
+
+1. I den högra rutan hittar du en förhandsgranskning av e-postmeddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
+
+Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
+
+## Skicka push-meddelanden {#preview-send-push}
 
 1. När du har anpassat ditt push-meddelandeinnehåll klickar du på **[!UICONTROL Review & send]** från **[!UICONTROL Delivery]** sida.
 
