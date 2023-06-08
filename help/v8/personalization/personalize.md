@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -42,36 +42,3 @@ Uttrycksredigeraren visas. Anpassningsfält är ordnade i tre menyer, som finns 
 Om du vill lägga till ett anpassningsfält placerar du markören på önskad plats i innehållet och klickar på plusknappen (+) för att infoga den.
 
 ![](assets/perso-insert-field.png)
-
-## Anpassa e-postinnehållet {#personalize-emails}
-
-Om du vill anpassa e-postinnehållet öppnar du meddelandet i e-postdesignern och:
-
-1. Klicka inuti ett textblock.
-1. Välj **[!UICONTROL Add personalization]**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Ange namnet på mottagaren i personaliseringsredigeraren och bekräfta.
-
-   ![](assets/perso-add-name.png)
-
-   Anpassningsattributet läggs till i e-postinnehållet.
-
-   Du kan simulera innehållet för att kontrollera återgivningen. [Läs mer](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. Om du vill lägga till ett innehållsblock i e-postmeddelandet följer du samma steg och väljer ett innehållsblock från den sista ikonen:
-
-   ![](assets/perso-insert-block.png)
-
-1. När innehållsblocket har infogats läggs det till i e-postinnehållet. Det anpassas automatiskt till mottagarprofilen när personalisering skapas, i leveransförberedelsesteget.
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## Anpassa era erbjudanden {#personalize-offers}
-
-Du kan även komma åt personaliseringsredigeraren när du lägger till textinnehåll till offerternas representationer. Läs mer i [det här avsnittet](../content/offers.md).
-
