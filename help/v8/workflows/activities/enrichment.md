@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ Anrikningsdata kan komma antingen:
 
 * **Från samma arbetsregister** som den som är inriktad på ditt arbetsflöde:
 
-   *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetstabellen*
+  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetstabellen*
 
 * **Från en annan arbetstabell**:
 
-   *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; som kommer från tabellen&quot;Inköp&quot;*.
+  *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; som kommer från tabellen&quot;Inköp&quot;*.
 
 När anrikningsdata har lagts till i arbetsflödet kan de sedan användas i aktiviteter som lagts till efter **Berikning** aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får gensvar hos er målgrupp.
 
 Du kan till exempel lägga till information om kundernas inköp i arbetsflödets arbetsregister och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
 
-## Allmän konfiguration
+## Allmän konfiguration {#general}
 
 Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
@@ -44,9 +44,9 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 ![](../assets/workflow-enrichment1.png)
 
-Du kan välja mellan två typer av data: ett enda attribut från måldimensionen eller en samlingslänk.
+Du kan välja mellan två typer av anrikningsdata: a [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
 
-## Ett attribut
+## Single enrichment-attribut {#single-attribute}
 
 Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
 
@@ -56,16 +56,14 @@ Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatu
 
 ![](../assets/workflow-enrichment2.png)
 
-## Samlingslänk
+## Samlingslänk {#collection-link}
 
 I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk med en 1-N-kardinalitet mellan tabellerna. Vi hämtar de tre senaste inköpen som är mindre än 100$. Därför måste du definiera:
 
-* ett attribut: den **Totalt belopp** fält
+* ett anrikningsattribut: den **Totalt belopp** fält
 * antalet rader som ska hämtas: 3
 * ett filter: filtrera bort objekt som är större än 100$
 * en sortering: underordnad sortering på **Orderdatum** fält.
-
-Följ de här stegen:
 
 ### Lägg till attributet
 
@@ -92,7 +90,7 @@ Om du t.ex. vill få fram genomsnittligt antal inköp för en kund väljer du **
 
 ### Definiera filtren
 
-Här definierar vi det maximala värdet för attributet. Vi filtrerar bort objekt som är större än 100$.
+Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$.
 
 1. Klicka **Redigera filter**.
 1. Lägg till följande två filter: **Totalt belopp** finns AND **Totalt belopp** är mindre än 100. Den första filtrerar NULL-värden så som de skulle visas som det största värdet.
@@ -113,6 +111,11 @@ Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
