@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,13 @@ När du har definierat meddelandeinnehållet kan du använda testprofiler för a
 
 1. Från din sida med leveransinnehåll kan du använda **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
 
+   ![](assets/push_send_1.png)
+
 1. Klicka **[!UICONTROL Add test profile(s)]** om du vill välja en eller flera testprofiler eller profiler.
 
 1. När du har valt testprofiler klickar du på **[!UICONTROL Select]**.
+
+   ![](assets/push_send_5.png)
 
 1. I den högra rutan hittar du en förhandsgranskning av e-postmeddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
@@ -30,13 +34,19 @@ Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
 
 1. När du har anpassat ditt push-meddelandeinnehåll klickar du på **[!UICONTROL Review & send]** från **[!UICONTROL Delivery]** sida.
 
+   ![](assets/push_send_2.png)
+
 1. Klicka **[!UICONTROL Prepare]**och övervaka framstegen och statistiken.
 
    Om det uppstår några fel hittar du detaljerad information om felet på loggmenyn.
 
+   ![](assets/push_send_3.png)
+
 1. Skicka meddelanden genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
 
-1. Bekräfta skicka-åtgärden genom att klicka på knappen **[!UICONTROL Send]** -knappen.
+1. Bekräfta skicka-åtgärden genom att klicka på knappen **[!UICONTROL Send]** eller **[!UICONTROL Send as scheduled]** -knappen.
+
+   ![](assets/push_send_4.png)
 
 När leveransen har skickats kan du spåra dina KPI-data (Key Performance Indicator) från leveranssidan och data från loggmenyn.
 

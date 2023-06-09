@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 1%
 
 ![](assets/reporting_sms.png)
 
-* **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med dina SMS-meddelanden. Dessa nyckeltal omfattar:
+* **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med dina SMS-meddelanden.
+
+  +++Läs mer om mätvärden för SMS-leveransrapporter.
 
    * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
 
@@ -30,20 +32,33 @@ ht-degree: 1%
    * **[!UICONTROL Click-through rate]**: Procentandel användare som interagerade med länkar som ingår i SMS-leveransen.
 
    * **[!UICONTROL Errors]**: Totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
++++
 
-* **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen:
+  ![](assets/reporting_sms_3.png)
+
+* **Målgrupp** diagram och tabeller visar data i relation till målgruppen.
+
+  +++Läs mer om mätvärden för SMS-leveransrapporter.
 
    * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
 
    * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
++++
+
+  ![](assets/reporting_sms_4.png)
 
 * **Övergripande statistik** presenterar data för skickade SMS-meddelanden, inklusive:
+
+  +++Läs mer om mätvärden för SMS-leveransrapporter.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats.
 
    * **[!UICONTROL Errors]**: Totalt antal fel som uppstod under leveransen, vilket förhindrar att meddelanden skickas till vissa profiler.
 
    * **[!UICONTROL New quarantine]**: Antal profiler som har uteslutits och lagts till i karantänen.
++++
+
+  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
 
-  +++Läs mer om mätvärden.
+  +++Läs mer om mätvärden för push-leveransrapporter.
 
    * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen:
 
-  +++Läs mer om mätvärden.
+  +++Läs mer om mätvärden för push-leveransrapporter.
 
    * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 * **Övergripande statistik** visar data för skickade push-meddelanden, inklusive:
 
-  +++Läs mer om mätvärden.
+  +++Läs mer om mätvärden för push-leveransrapporter.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats.
 

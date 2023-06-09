@@ -4,9 +4,9 @@ title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 6%
 
 1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
 
-1. Under **[!UICONTROL Channel]** väljer du SMS som kanal och väljer en mall. Läs mer om mallar
+1. Under **[!UICONTROL Channel]** väljer du SMS som kanal och väljer en mall. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
+
+   ![](assets/sms_create_1.png)
 
 1. Ange **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny.
 
@@ -44,11 +46,11 @@ ht-degree: 6%
    * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringssyften.
 +++
 
-1. Från **[!UICONTROL Custom options]** kan du komma åt ditt utökade schema med specifika anpassade fält.
+1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer](../audience/about-audiences.md).
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. Läs mer.
+   ![](assets/sms_create_2.png)
 
-1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. Läs mer
+1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
 1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet.
 
