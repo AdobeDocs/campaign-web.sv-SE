@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -36,29 +36,33 @@ ht-degree: 0%
 E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
 * Definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesraden
 * Utför ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden
-* Öppna [E-postdesigner](get-started-email-designer.md) för att börja skapa rätt innehåll i e-postmeddelandet
+* Öppna [E-postdesigner](get-started-email-designer.md#start-authoring) för att börja skapa rätt innehåll i e-postmeddelandet
 
 Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postmeddelande.
 
 1. Klicka på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. E-postinnehållets versionsskärm öppnas. Om du konfigurerar ett nytt e-postmeddelande visas **[!UICONTROL From name]** och **[!UICONTROL From email]** fälten har redan fyllts i.
+1. E-postinnehållets versionsskärm öppnas.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >Om du konfigurerar ett nytt e-postmeddelande visas **[!UICONTROL From name]** och **[!UICONTROL From email]** fälten har redan fyllts i.
 
 1. The **[!UICONTROL From name]** -fältet definieras i e-postmallen. Om du vill ändra det använder du ett namn som mottagarna lätt kan identifiera, till exempel ert varumärkes namn, för att öka öppningshastigheten för era leveranser.
 
    >[!NOTE]
    >
-   >    Om du vill förbättra mottagarens upplevelse ytterligare kan du lägga till en persons namn, till exempel&quot;Emma from Megastore&quot;.
+   >Om du vill förbättra mottagarens upplevelse ytterligare kan du lägga till en persons namn, t.ex. &quot;Eva from Luma&quot;.
 
 1. The **[!UICONTROL From email]** adressfältet definieras också i e-postmallen. Kontrollera att adressdomänen är densamma som den underdomän som du delegerat till Adobe.
 
    >[!NOTE]
    >
-   >    Du kan ändra den del som föregår @, men inte domänadressen.
+   >Du kan ändra den del som föregår @, men inte domänadressen.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    * [Skapa e-postmeddelanden från grunden](create-email-content.md)
    * [Formatera innehållet](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >Du kan också hovra över e-postförhandsgranskningen och välja **[!UICONTROL Open email designer]**.
 
 1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet på **[!UICONTROL Optional features]** -avsnitt. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
 

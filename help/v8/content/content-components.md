@@ -4,55 +4,60 @@ title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+source-git-commit: 905ff46cac03d0db276c3eb487a4d66815c6ed0b
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
-# Använda e-postdesignerns innehållskomponenter {#content-components}
+# Använda e-postdesignerns innehåll {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Om innehållskomponenter"
+>title="Om innehåll"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="Om innehållskomponenter"
+>title="Om innehåll"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Om innehållskomponenter"
+>title="Om innehåll"
 >abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Om innehållskomponenter"
+>title="Om innehåll"
 >abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
 
-## Lägga till innehållskomponenter {#add-content-components}
+När du skapar ditt e-postinnehåll **[!UICONTROL Content]** Med -komponenter kan du anpassa e-postmeddelandet ytterligare med råa, tomma komponenter som du kan använda en gång i ett e-postmeddelande.
+
+Du kan lägga till så många **[!UICONTROL Contents]** som du behöver i en **[!UICONTROL Structure]**, som definierar layouten för ditt e-postmeddelande.
+
+## Lägg till innehållskomponenter {#add-content-components}
 
 Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelanden och anpassa dem efter dina behov.
 
-1. Använd ett befintligt innehåll i e-postdesignern eller dra och släpp en **[!UICONTROL Structure]** till ditt tomma innehåll för att definiera layouten för ditt e-postmeddelande. [Lär dig mer](create-email-content.md)
+1. Använd en [befintligt innehåll](existing-content.md) eller dra och släppa en **[!UICONTROL Structure]** till ditt tomma innehåll för att definiera layouten för ditt e-postmeddelande. [Lär dig mer](create-email-content.md)
 
-1. Dra och släpp **[!UICONTROL Content]** efter eget val inuti de relevanta strukturkomponenterna.
+1. Dra och släpp **[!UICONTROL Content]** efter eget val inom de relevanta strukturerna.
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >Du kan lägga till flera komponenter i en enda strukturkomponent och i varje kolumn i en strukturkomponent.
+   >Du kan lägga till flera komponenter i en enda struktur och i varje kolumn i en struktur.
 
-1. Justera formatattributen för varje komponent med **[!UICONTROL Settings]** och **[!UICONTROL Style]** -tabbar. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent. [Läs mer om justering och utfyllnad](alignment-and-padding.md)
+1. Justera alternativen för varje komponent med hjälp av kontextuella **[!UICONTROL Settings]** -fliken. Du kan t.ex. välja att bara visa den på datorn eller mobila enheter, eller både och. Du kan också hantera länkalternativ på den här fliken. [Läs mer om att hantera länkar](message-tracking.md)
+
+1. Justera formatattributen för varje komponent med **[!UICONTROL Style]** -fliken. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent. [Läs mer om justering och utfyllnad](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-När du skapar ditt e-postinnehåll från grunden, **[!UICONTROL Content]**  Med -komponenter kan du anpassa e-postmeddelandet ytterligare med råa, tomma komponenter som du kan använda en gång i ett e-postmeddelande.
-Du kan lägga till så många **[!UICONTROL Content]** som du behöver i en **[!UICONTROL Structure]** som definierar layouten för e-postmeddelandet.
+1. På den avancerade menyn i **[!UICONTROL Content]** till höger kan du enkelt ta bort eller duplicera valfri innehållskomponent efter behov.
 
 ## Behållare {#container}
 
@@ -86,19 +91,19 @@ Använd **[!UICONTROL Button]** om du vill infoga en eller flera knappar i e-pos
 
    ![](assets/email_designer_15.png)
 
-1. Du kan anpassa knappen ytterligare genom att ändra formatattribut som **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, osv. från **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
+1. Du kan anpassa knappen ytterligare genom att ändra formatattribut som **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, osv. från **[!UICONTROL Styles]** -fliken.
 
 ## Text {#text}
 
 Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och justera formatet (kantlinje, storlek, utfyllnad osv.) med **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
 
-1. Från **[!UICONTROL Contents]** meny, dra och släppa **[!UICONTROL Text]** i en **[!UICONTROL Structure]** -komponenten.
+1. Från **[!UICONTROL Contents]** meny, dra och släppa **[!UICONTROL Text]** till en **[!UICONTROL Structure]** -komponenten.
 
    ![](assets/email_designer_11.png)
 
 1. Klicka på den nya komponenten som du har lagt till för att anpassa texten och få tillgång till **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
 
-1. Ändra texten med följande alternativ i verktygsfältet:
+1. Ändra texten med följande alternativ i det sammanhangsberoende verktygsfältet:
 
    ![](assets/email_designer_27.png)
 
@@ -114,7 +119,7 @@ Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och jus
    * **[!UICONTROL Add personalization]**: lägga till anpassningsfält för att anpassa innehållet utifrån dina profildata.
    * **[!UICONTROL Enable conditional content]**: lägga till villkorsstyrt innehåll för att anpassa komponentens innehåll till målprofilerna.
 
-1. Justera övriga formatattribut, t.ex. textfärg, teckensnittsfamilj, kantlinje, utfyllnad, marginal. från **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
+1. Justera övriga formatattribut, t.ex. textfärg, teckensnittsfamilj, kantlinje, utfyllnad, marginal. från **[!UICONTROL Styles]** -fliken.
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +127,7 @@ Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och jus
 
 Använd **[!UICONTROL Divider]** om du vill infoga en delningslinje för att ordna layouten och innehållet i ditt e-postmeddelande.
 
-Du kan justera formatattribut som linjefärg, format och höjd på menyn **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
+Du kan justera formatattribut som linjefärg, format och höjd på menyn **[!UICONTROL Styles]** -fliken.
 
 ![](assets/email_designer_16.png)
 
@@ -140,7 +145,7 @@ Använd **[!UICONTROL HTML]** om du vill kopiera och klistra in de olika delarna
 
 >[!NOTE]
 >
->Adobe rekommenderar att du skapar ett meddelande från grunden och kopierar innehållet från ditt befintliga e-postmeddelande till komponenter, så att det externa innehållet helt enkelt blir kompatibelt med e-postdesignern.
+>Adobe rekommenderar att du gör ett externt innehåll kompatibelt med e-postdesignern [skapa ett meddelande från grunden](create-email-content.md) och kopiera innehållet från ditt befintliga e-postmeddelande till komponenter.
 
 ## Bild {#image}
 
@@ -152,14 +157,16 @@ Använd **[!UICONTROL Image]** om du vill infoga en bildfil från datorn i e-pos
 
 1. Klicka **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser.
 
-1. Klicka på den nya komponenten och ange bildegenskaperna med **[!UICONTROL Settings]** och **[!UICONTROL Styles]** tabbar:
+1. Klicka på den nya komponenten och ange bildegenskaperna med **[!UICONTROL Settings]** tab:
 
    * **[!UICONTROL Image title]** I kan du definiera en titel för bilden.
    * **[!UICONTROL Alt text]** I kan du definiera den bildtext som är länkad till bilden. Detta motsvarar attributet alt HTML.
 
    ![](assets/email_designer_10.png)
 
-1. Justera övriga formatattribut som marginal, kant osv. eller lägga till en länk för att dirigera om er målgrupp till ett annat innehåll.
+1. Ni kan lägga till en länk för att dirigera om er målgrupp till ett annat innehåll. [Läs mer](message-tracking.md)
+
+1. Justera övriga formatattribut som marginal, kant osv. med **[!UICONTROL Styles]** -fliken.
 
 ## Social {#social}
 
@@ -179,6 +186,6 @@ Använd **[!UICONTROL Social]** för att infoga länkar till sidor för sociala 
 
    ![](assets/email_designer_21.png)
 
-1. Du kan också ändra ikonerna för vart och ett av dina sociala medier om det behövs i **[!UICONTROL Image]** fält.
+1. Du kan också ändra ikonerna för vart och ett av dina sociala medier om det behövs i **[!UICONTROL Source]** fält.
 
-1. Justera övriga formatattribut, t.ex. format, marginal, kant. från **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
+1. Justera övriga formatattribut, t.ex. format, marginal, kant. från **[!UICONTROL Styles]** -fliken.

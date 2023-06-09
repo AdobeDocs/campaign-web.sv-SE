@@ -5,7 +5,7 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 12%
@@ -28,19 +28,19 @@ ht-degree: 12%
    + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + Definiera e-postinnehåll {#content}
-         + [Konfigurera e-postinnehåll](content/edit-content.md)
+         + [Konfigurera e-postinnehållet](content/edit-content.md)
          + Börja forma din e-post {#start-design}
             + [Komma igång med e-postdesignern](content/get-started-email-designer.md)
-            + [Börja från början ](content/create-email-content.md)
+            + [Börja från början](content/create-email-content.md)
             + [Importera e-postinnehåll](content/existing-content.md)
             + [Koda eget innehåll](content/code-content.md)
             + [Använda mallar för e-postinnehåll](content/email-templates.md)
          + Designa innehåll {#design-content}
             + [Använda innehållskomponenter](content/content-components.md)
-            + [Generera textversionen](content/text-version-email.md)
+            + [Lägga till länkar och spåra meddelanden](content/message-tracking.md)
             + [Lägg till en länk till spegelsidan](content/mirror-page.md)
             + [Lägga till en förrubrik](content/preheader.md)
-            + [Lägga till länkar och spåra meddelanden](content/message-tracking.md)
+            + [Generera textversionen](content/text-version-email.md)
          + Formatera innehållet {#style}
             + [Kom igång med e-postformat](content/get-started-email-style.md)
             + [Redigera bakgrundsinställningar](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 12%
    + SMS {#sms}
       + [Kom igång med SMS-leveranser](sms/gs-sms.md)
       + [Skapa en SMS-leverans](sms/create-sms.md)
-      + [Designa en SMS-leverans ](sms/content-sms.md)
-      + [Skicka SMS-leverans ](sms/send-sms.md)
+      + [Designa en SMS-leverans](sms/content-sms.md)
+      + [Skicka SMS-leverans](sms/send-sms.md)
    + Gör innehållet dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)

@@ -3,16 +3,22 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 7%
 
 ---
 
 # Komma igång med e-postdesignern {#get-started-email-designer}
 
-Du kan importera ett befintligt innehåll i [!DNL Journey Optimizer] eller utnyttja funktionerna för innehållsdesign:
+När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
+
+Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Vare sig du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Använd [!DNL Campaign] funktioner för e-postdesign för att enkelt bygga responsiva e-postmeddelanden. [Läs mer](create-email-content.md)
 
@@ -38,5 +44,5 @@ Gå igenom [Redigera innehåll](edit-content.md) för att öppna hemsidan för E
 
 * **Välj ett befintligt innehåll** från en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 
