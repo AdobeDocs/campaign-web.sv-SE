@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 13%
+source-wordcount: '690'
+ht-degree: 11%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Allmän konfiguration {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Sammanfogningsalternativ för skärningar"
+>abstract="Med skärningspunkten kan du bara behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. Markera alla tidigare aktiviteter som du vill ansluta till i sektionen Uppsättningar att ansluta."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Alternativ för uteslutningssammanslagning"
+>abstract="Med det här undantaget kan du utesluta element från en population enligt vissa kriterier. Markera alla tidigare aktiviteter som du vill ansluta till i sektionen Uppsättningar att ansluta."
+
 Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
 
 1. Lägg till flera aktiviteter som **Bygg målgrupper** aktiviteter för att bilda minst två olika utförandegrenar.
@@ -34,6 +44,11 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill delta i.
 
 ## Sammanslutning {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Skärningspunkt avstämningsalternativ"
+>abstract="Välj avstämningstypen för att definiera hur dubbletter hanteras."
 
 För **Union** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
@@ -48,6 +63,11 @@ För **Skärningspunkt** måste du utföra följande steg:
 1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
 
 ## Uteslutning {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Uteslutningsregler"
+>abstract="Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka på Lägg till en regel i avsnittet Uteslutningsregler och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling."
 
 För **Uteslutning** måste du utföra följande steg:
 
