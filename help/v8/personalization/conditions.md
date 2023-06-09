@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 1%
+source-wordcount: '895'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +27,9 @@ Genom att konfigurera fält för villkorligt innehåll kan du skapa avancerad dy
 
 ## Så här skapar du villkorsstyrt innehåll
 
-Om du vill skapa villkorligt innehåll måste du skapa villkor i **uttrycksredigerare** med en viss hjälpfunktion. Den här metoden är tillgänglig för alla leveranskanaler, i alla fält där du kan komma åt uttrycksredigeraren, till exempel ämnesraden, e-postlänkar och text-/knappinnehållskomponenter. [Lär dig var du lägger till dynamiskt innehåll](gs-personalization.md/#access)
+Om du vill skapa villkorligt innehåll måste du skapa villkor i **uttrycksredigerare** med specifika hjälpfunktioner. Den här metoden är tillgänglig för alla leveranskanaler, i alla fält där du kan komma åt uttrycksredigeraren, till exempel ämnesraden, e-postlänkar och text-/knappinnehållskomponenter. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
 
-Förutom uttrycksredigeraren kan du använda en **villkorsstyrd innehållsbyggare** när du utformar ett e-postmeddelande som gör att du kan skapa villkor med enbart profilattribut.
+Förutom uttrycksredigeraren kan du använda en **villkorsstyrd innehållsbyggare** när du utformar ett e-postmeddelande som gör att du kan skapa villkor med enbart profilattribut. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](#condition-condition-builder)
 
 ## Skapa villkor i uttrycksredigeraren {#condition-perso-editor}
 
@@ -45,53 +45,53 @@ Följ stegen nedan för att definiera villkorligt innehåll för en leverans med
 
 1. I personaliseringsredigeraren går du till **[!UICONTROL Helper functions]** till vänster.
 
-* Klicka på plustecknet bredvid ikonen för att börja skapa villkoret **If** funktion. Följande rad ska läggas till på den centrala skärmen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. Klicka på plustecknet bredvid ikonen för att börja skapa villkoret **If** funktion. Följande rad ska läggas till på den centrala skärmen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * Ersätt `<FIELD>` med ett anpassningsfält, t.ex. mottagarens språk: `recipient.language`.
    * Ersätt `<VALUE>` med det värde som ska uppfyllas. Exempel, `'French'`.
    * Ersätt `Ìnsert content here` med innehållet som du vill visa för de profiler som uppfyller det angivna villkoret.
 
-     ![](assets/condition-sample1.png)
+     ![](assets/condition-sample1.png){width="800" align="center"}
 
-1. Ange det innehåll som ska visas om mottagarna inte uppfyller villkoret. Så här gör du:
+1. Ange det innehåll som ska visas om mottagarna inte uppfyller villkoret. Gör detta med **else** hjälpfunktion:
 
-   1. Lägg till en **else** hjälpfunktion: Placera markören före uttryckets avslutande tagg `%>` och klicka på `+` bredvid **Annars** funktion.
-
-      >[!NOTE]
-      >
-      >Varje gång en hjälpfunktion läggs till öppnas (`<%`) och avslutande (`%>`) läggs taggar automatiskt till före och efter funktionen. Exempel efter att du har lagt till en Else-hjälpfunktion i ett uttryck:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
-      >
-      >Se till att du tar bort de här taggarna för att undvika syntaxfel. I det här exemplet har det korrigerade uttrycket tagits bort **else** funktionstaggar är:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
+   1. Placera markören före uttryckets avslutande tagg `%>` och klicka på `+` bredvid **Annars** funktion.
 
    1. Ersätt `Ìnsert content here` med det innehåll som du vill visa för de profiler som inte uppfyller if-funktionens villkor.
 
-      ![](assets/condition-sample2.png)
+      ![](assets/condition-sample2.png){width="800" align="center"}
 
-   Du kan också använda **else if** hjälpfunktion för att skapa villkor med flera innehållsvarianter. Uttrycket nedan visar till exempel tre varianter av ett meddelande beroende på mottagarens språk:
+      Du kan också använda **else if** hjälpfunktion för att skapa villkor med flera innehållsvarianter. Uttrycket nedan visar till exempel tre varianter av ett meddelande beroende på mottagarens språk:
 
-   ![](assets/condition-sample3.png)
+      ![](assets/condition-sample3.png){width="800" align="center"}
+
+   >[!NOTE]
+   >
+   >Varje gång en hjälpfunktion läggs till öppnas (`<%`) och avslutande (`%>`) läggs taggar automatiskt till före och efter funktionen.
+   >
+   >Exempel efter att du har lagt till en Else-hjälpfunktion i ett uttryck: >
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
+   >
+   >Se till att du tar bort de här taggarna för att undvika syntaxfel. I det här exemplet har det korrigerade uttrycket tagits bort **else** funktionstaggar är:
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
 1. När villkoret är klart kan du spara innehållet och kontrollera återgivningen genom att simulera innehållet.
 
-## Skapa villkorsstyrt innehåll i e-postmeddelanden  {#condition-condition-builder}
+## Skapa villkorsstyrt innehåll i e-postmeddelanden {#condition-condition-builder}
 
 Villkorligt innehåll i e-postmeddelanden kan skapas på två sätt:
 * I uttrycksredigeraren genom att skapa ett villkor med hjälpfunktioner,
 * I en dedikerad villkorsstyrd innehållsbyggare som är tillgänglig när du utformar ett e-postmeddelande.
 
-Det finns detaljerad information om hur du skapar villkor med hjälp av uttrycksredigeraren [här](#condition-perso-editor).
-
-Följande avsnitt innehåller stegvisa instruktioner om hur du skapar villkor med e-postdesignerns funktion för villkorligt innehåll. I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baserade på mottagarens språk. Följ de här stegen:
+Det finns detaljerad information om hur du skapar villkor med hjälp av uttrycksredigeraren [här](#condition-perso-editor). Följande avsnitt innehåller stegvisa instruktioner om hur du skapar villkor med e-postdesignerns funktion för villkorligt innehåll. I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baserade på mottagarens språk. Följ de här stegen:
 
 1. Skapa eller öppna en e-postleverans, redigera innehållet och klicka på **[!UICONTROL Edit email body]** för att öppna arbetsytan för e-postdesign.
 
 1. Markera en innehållskomponent och klicka på **[!UICONTROL Enable conditional content]** ikon.
 
-   ![](assets/condition-email-enable.png)
+   ![](assets/condition-email-enable.png){width="800" align="center"}
 
 1. The **[!UICONTROL Conditional Content]** öppnas till vänster på skärmen. I den här rutan kan du skapa flera varianter av den markerade innehållskomponenten med villkor.
 
@@ -99,13 +99,13 @@ Följande avsnitt innehåller stegvisa instruktioner om hur du skapar villkor me
 
 1. En regelbyggare visas. Använd profilattribut för att skapa villkoret för den första varianten av meddelandet och klicka på **[!UICONTROL Confirm]**. I det här exemplet skapar vi en regel som riktar sig till mottagare vars språk är &quot;franska&quot;.
 
-   ![](assets/condition-email-rule.png)
+   ![](assets/condition-email-rule.png){width="800" align="center"}
 
 1. Regeln är nu associerad med varianten. För bättre läsbarhet rekommenderar vi att du byter namn på varianten genom att klicka på ellipsmenyn.
 
 1. Konfigurera hur komponenten ska visas om regeln uppfylls när meddelandet skickas. I det här exemplet vill vi visa texten på franska om det är mottagarens favoritspråk.
 
-   ![](assets/condition-email-variant1.png)
+   ![](assets/condition-email-variant1.png){width="800" align="center"}
 
 1. Lägg till så många varianter som behövs för innehållskomponenten. Du kan växla mellan varianterna när som helst för att kontrollera hur innehållskomponenten visas baserat på deras villkorsregler.
 

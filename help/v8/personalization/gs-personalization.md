@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -26,38 +26,37 @@ Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade m
 
 Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
 
-* **Anpassningsfält**: Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten.
+* **Anpassningsfält**: Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
-   Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Villkorligt innehåll**: Konfigurera villkorligt innehåll för att lägga till innehåll baserat på mottagarens profil. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
 
 * **Inbyggda innehållsblock**: Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Öppna uttrycksredigeraren {#access}
 
 Adobe Campaign V8 Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med **[!UICONTROL Open personalization dialog]** ikon, t.ex. ämnesradfältet, eller e-postlänkar och text-/knappinnehållskomponenter.
 
+Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroende på vilket innehåll du vill göra dynamiskt
+
+* *Åtkomst till uttrycksredigeraren från fältet Avsändarens namn*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *Åtkomst till uttrycksredigeraren från en e-posttextkomponent*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Åtkomst till uttrycksredigeraren från en länk i ett e-postmeddelande*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
-
-*Åtkomst till uttrycksredigeraren från fältet Avsändarens namn*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*Åtkomst till uttrycksredigeraren från en e-posttextkomponent*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Åtkomst till uttrycksredigeraren från en länk i ett e-postmeddelande*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Låt oss dyka djupare
 
