@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
@@ -46,3 +46,10 @@ ht-degree: 1%
    * **[!UICONTROL New quarantine]**: Antal profiler som har uteslutits och lagts till i karantänen.
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet.
+
+## Leveranskapacitet {#delivery-throughput}
+
+Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
+
+![](assets/reporting_sms_2.png)
+
