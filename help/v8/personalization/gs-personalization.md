@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,23 @@ ht-degree: 0%
 
 # Kom igång med dynamiskt innehåll
 
-För att få ut mesta möjliga av alla marknadsföringskampanjer ger Adobe Campaign er ett sätt att leverera anpassat dynamiskt innehåll som talar till kunderna på deras nivå. Använd personaliseringsfunktioner baserat på profildata för att skapa en anpassad upplevelse för olika grupper och individer: kan ni anpassa era meddelanden till varje specifik mottagare genom att utnyttja de data och den information ni har om dem. Det kan vara deras förnamn, intressen, var de bor, vad de har köpt och mycket annat.
+Att leverera relevant innehåll till era kunder är avgörande för att ni ska kunna tilltala en mängd olika kunder och ni ska kunna spela deras intresse så att ert marknadsföringsmaterial blir läst.
 
-Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personaliseringsfunktionerna kan kombineras för att förbättra budskapen och skapa en anpassad användarupplevelse.
+För att få ut så mycket som möjligt av alla marknadsföringskampanjer ger Adobe Campaign er ett sätt att skapa en anpassad upplevelse för olika grupper och individer genom att leverera anpassat dynamiskt innehåll som talar till kunderna på deras nivå genom att utnyttja den information ni har samlat in om dem.
 
-## Hur gör man ert innehåll dynamiskt?
+* **Anpassa era meddelanden** till varje enskild mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de köpt och mycket annat.
 
-Du kan göra meddelandeinnehållet dynamiskt genom att infoga:
-
-* **Anpassningsfält**: Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
+  Du kan välja vilket fält som helst tillgängligt i databasen från den anpassade redigeraren som är relaterad till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Villkorligt innehåll**: Konfigurera villkorligt innehåll för att lägga till innehåll baserat på mottagarens profil. Textblock och/eller bilder infogas när ett visst villkor är true. Du kan definiera den alternativa versionen av innehållet när villkoret inte är sant.
+* **Skapa villkorsstyrt innehåll** för att anpassa era leveranser till varje mottagare och endast visa det innehåll som är relevant för en viss kund baserat på den information ni har om dem. På så sätt kan du visa specifika textblock och/eller bilder baserat på villkor. Anpassa t.ex. en e-postbanderoll som baseras på mottagarnas prenumeration till en viss tjänst.
 
-* **Inbyggda innehållsblock**: Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
+  ![](assets/condition-sample.png){width="800" align="center"}
 
-  ![](assets/perso-content-blocks.png){width="800" align="center"}
+* **Använd personaliseringsblock** för att spara tid och enkelt kunna återanvända personaliserat innehåll i era meddelanden. Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
+
+  ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Öppna uttrycksredigeraren {#access}
 
