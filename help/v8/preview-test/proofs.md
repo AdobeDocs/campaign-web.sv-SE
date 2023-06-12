@@ -4,10 +4,10 @@ title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 1%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Mottagarna av ett test kan kontrollera olika element som länkar, avanmälningsl
 
 Testmeddelanden kan skickas till två typer av mottagare:
 
-* **Testprofiler** - skicka testmeddelanden till dirigerade adresser som är ytterligare och fiktiva mottagare i databasen. De kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **Testprofiler** - skicka testmeddelanden till dirigerade adresser som är ytterligare och fiktiva mottagare i databasen. De kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Ersätt från huvudmål** - skicka testmeddelanden till en viss e-postadress samtidigt som du personifierar en befintlig profil. På så sätt kan du uppleva e-postmeddelandet som mottagarna vill, vilket ger dig en korrekt representation av meddelandet som profilen kommer att ta emot.
 
