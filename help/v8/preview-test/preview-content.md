@@ -4,7 +4,7 @@ title: Förhandsgranska e-postinnehåll
 description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Om du vill förhandsgranska innehållet i ditt e-postmeddelande följer du stege
 
      >[!NOTE]
      >
-     >Testprofiler kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >Testprofiler kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] konsol. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
