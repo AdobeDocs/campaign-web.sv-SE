@@ -4,9 +4,9 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. I den här versionen är e-post-, push- och SMS-kanaler tillgängliga.
 
 Designa och genomför e-postkampanjer i stora volymer för att leverera personaliserade meddelanden för alla plattformar och skärmstorlekar.
-Mät hur effektiva era leveranser är med detaljerade rapporter som antal öppningar, klick, bl.a. Med Adobe Campaign segmenteringsfunktioner kan ni köra frågor mot en databas med stora volymer och enkelt definiera dynamiska marknadsföringssegment som är perfekt inriktade på era kampanjer.
+Mät hur effektiva era leveranser är med detaljerade rapporter som bland annat antalet öppningar, klick och framåt. Med Adobe Campaign segmenteringsfunktioner kan ni köra frågor mot en databas med stora volymer och enkelt definiera dynamiska marknadsföringssegment som är perfekt inriktade på era kampanjer.
 
 <!--
 Get Started with campaigns
