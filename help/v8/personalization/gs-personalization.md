@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
+source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 
 # Kom igång med dynamiskt innehåll
 
-Att leverera relevant innehåll till era kunder är avgörande för att ni ska kunna tilltala en mängd olika kunder och ni ska kunna spela deras intresse så att ert marknadsföringsmaterial blir läst.
+Som marknadsförare är det viktigt att inrikta sig på kunder som verkligen är intresserade av era erbjudanden och att engagera dem genom att tillhandahålla effektivt och relevant innehåll. Med tanke på det stora urval av mottagare som ni stöter på kan det vara tidskrävande och onödigt att skapa flera olika typer av marknadsföringsmaterial som kan tilltala olika personer. Det är här som dynamiskt innehåll kommer in på spel.
 
-För att få ut så mycket som möjligt av alla marknadsföringskampanjer ger Adobe Campaign er ett sätt att skapa en anpassad upplevelse för olika grupper och individer genom att leverera anpassat dynamiskt innehåll som talar till kunderna på deras nivå genom att utnyttja den information ni har samlat in om dem.
+Med Adobe Campaign funktioner för dynamiskt webbinnehåll kan du anpassa ditt innehåll baserat på den information du har samlat in om dina mottagare. Genom att använda dynamiskt innehåll ser du till att era marknadsföringssatsningar är mer relevanta och undviker att marknadsföra oönskade eller onödiga produkter eller tjänster. På så sätt blir innehållet mer tilltalande och sannolikheten för att det läses ökar. Dessutom kan ni anpassa innehållet så att mottagarna känner att de får information från en person snarare än en dator.
 
-* **Anpassa era meddelanden** till varje enskild mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de köpt och mycket annat.
+## Hur gör man ert innehåll dynamiskt?
 
-  Du kan välja vilket fält som helst tillgängligt i databasen från den anpassade redigeraren som är relaterad till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
+Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstruktioner i webbuttrycksredigeraren för Campaign. Vid sändning av meddelanden tolkas dessa uttryck av Adobe Campaign för att leverera rätt innehåll till var och en av mottagarna:
+
+* **Anpassa era meddelanden** till varje enskild mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de köpt och mycket annat. Du kan välja vilket fält som helst tillgängligt i databasen från den anpassade redigeraren som är relaterad till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 

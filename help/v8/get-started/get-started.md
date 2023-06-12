@@ -4,9 +4,9 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '469'
 ht-degree: 2%
 
 ---
@@ -34,19 +34,6 @@ Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgän
 >
 >Campaign v8 Web är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
-## Om Campaign-klientkonsolen{#ac-client}
-
-Klientkonsolen för Campaign är ett webbläsarbaserat program som är installerat på datorn. Det använder API:t för webbtjänster för att ansluta till Campaign-programservern.
-
-Lär dig hur du hämtar och installerar klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
-
-Mer information om hur du använder Campaign v8 finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
-
-Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet. Och om du skapar en e-postleverans i webbgränssnittet är den här leveransen även tillgänglig från klientkonsolen.
-
-
-Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
-
 ## Anslut till Campaign
 
 
@@ -63,3 +50,13 @@ Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargrä
 -> or Campaign v8 web if direct URL
 -->
 
+
+## Om Campaign-klientkonsolen{#ac-client}
+
+Klientkonsolen för Campaign är ett webbläsarbaserat program som är installerat på datorn. Det använder API:t för webbtjänster för att ansluta till Campaign-programservern.
+
+Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet. Och om du skapar en e-postleverans i webbgränssnittet är den här leveransen även tillgänglig från klientkonsolen.
+
+Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
+
+Mer information om hur du använder Campaign v8 finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.

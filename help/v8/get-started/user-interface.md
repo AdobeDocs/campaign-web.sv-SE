@@ -4,7 +4,7 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Vilka objekt som visas i Utforskaren beror på dina användarbehörigheter.
 
 Precis som i alla listskärmar kan du konfigurera kolumner så att de anpassas för visningen så att du kan se all information du behöver. Se det här [section](#list-screens).
 
-Mer information om Campaign Explorer finns i [Dokumentation för Campaign v8 Console](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Mer information om Campaign Explorer finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -99,9 +99,9 @@ I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, le
 
 * **Leveranser** - Bläddra i listan över leveranser. Som standard kan du visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna instrumentpanelen och få en översikt över leveransinformationen. Leveranser i andra kanaler är skrivskyddade. Läs mer om leveranser [i det här avsnittet](../msg/gs-messages.md).
 
-   Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
+  Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){width="70%" align="left"}
 
 * **Arbetsflöden** - På den här skärmen har du tillgång till den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte. Läs mer om arbetsflöden [i det här avsnittet](../workflows/gs-workflows.md).
 
@@ -164,7 +164,7 @@ Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra 
 
 Du kan sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen. För numeriska kolumner och datumkolumner anger uppilen att listan är sorterad i stigande ordning och nedpilen anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
 
-## Kontextuell hjälp och introduktionshandbok
+## Kontextuell hjälp och introduktionshandbok {#contextual-help}
 
 Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
@@ -218,12 +218,6 @@ Så här byter du språk:
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 
