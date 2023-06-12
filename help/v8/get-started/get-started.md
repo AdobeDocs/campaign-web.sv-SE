@@ -4,9 +4,9 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -41,9 +41,12 @@ Klientkonsolen för Campaign är ett webbläsarbaserat program som är installer
 
 Lär dig hur du hämtar och installerar klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
-Mer information om hur du använder Campaign v8 finns i [dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
+Mer information om hur du använder Campaign v8 finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
 
 Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet. Och om du skapar en e-postleverans i webbgränssnittet är den här leveransen även tillgänglig från klientkonsolen.
+
+
+Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
 
 ## Anslut till Campaign
 
