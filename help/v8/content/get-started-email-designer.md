@@ -3,7 +3,7 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 7%
@@ -42,7 +42,7 @@ Gå igenom [Redigera innehåll](edit-content.md) för att öppna hemsidan för E
 
 * **Importera befintligt HTML-innehåll** från en fil eller en ZIP-mapp. Lär dig hur du importerar ett e-postinnehåll i [det här avsnittet](existing-content.md).
 
-* **Välj ett befintligt innehåll** från en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](email-templates.md).
+* **Välj ett befintligt innehåll** från en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
