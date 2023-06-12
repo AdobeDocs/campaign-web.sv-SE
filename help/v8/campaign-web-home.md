@@ -4,7 +4,7 @@ description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
+source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -69,19 +69,19 @@ Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvän
 
 <table style="table-layout:fixed">
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-ui.jpeg">
+<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>Upptäck det nya gränssnittet Campaign Web, de senaste förbättringarna och nyckelfunktionerna. Lär dig hur du använder dem för att skapa flerkanalskampanjer för era målgrupper. Med de användarvänliga funktionerna i Campaign kan ni effektivisera arbetet med att skapa personaliserade flerkanalskampanjer, få bättre resultat och konkurrensfördelar.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-workflows.jpeg">
+<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera. Med det här avancerade verktyget nära till hands kan ni effektivisera arbetsflödet och lyfta era kampanjer.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-design.jpg">
+<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>Börja med en mall eller använd Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad. Lär dig hur du använder e-postdesignern för att skapa ditt innehåll, förhandsgranska och testa det och skicka ett e-postmeddelande till en befintlig publik i ett heltäckande användningsfall.</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>Skapa villkorsstyrt innehåll för att definiera dynamisk personalisering baserat på mottagarens profil och ersätt automatiskt textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-campaign.jpeg">
+<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Adobe Campaign-funktioner hjälper er att hantera centraliserade kunddata, utforma kundkommunikation och kampanjer och skapa personaliserade upplevelser i olika kanaler: E-post, push och SMS.</td></tr>
 </table>
 
