@@ -4,9 +4,9 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '754'
 ht-degree: 12%
 
 ---
@@ -81,11 +81,11 @@ Efter leveransförberedelserna kan du se hur undantagen tillämpades:
 
 * På kontrollpanelen för leveransen, före sändningen, kontrollerar du **Att exkludera** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * På fliken Loggar i leveransloggarna visas exkluderingssteget.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Efter leveransförberedelserna kan du se hur undantagen tillämpades:
 
 * The **Uteslutningsorsaker** visas antalet uteslutna profiler för varje typologiregel.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md)
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="Du kan utesluta en viss population från målet genom att välja en befintlig målgrupp eller genom att definiera en fråga."
+>abstract="Du kan utesluta en viss population från leveransgruppen genom att välja en befintlig målgrupp eller genom att definiera en fråga."
 
-Ett annat sätt att definiera en kontrollgrupp är att utesluta en viss population från målet med hjälp av en befintlig målgrupp eller genom att definiera en fråga.
+Ett annat sätt att definiera en kontrollgrupp är att välja en specifik population i en befintlig målgrupp eller genom att definiera en fråga.
 
 Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du på **[!UICONTROL Select Audience]** -knappen.
 
 ![](assets/control-group3.png)
 
-* Om du vill använda en befintlig målgrupp klickar du på **Välj målgrupp**. Se detta [section](add-audience.md).
+* Om du vill använda en befintlig målgrupp klickar du på **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
 
-* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Se detta [section](segment-builder.md).
+* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Läs mer i [det här avsnittet](segment-builder.md).
 
-Profilerna som ingår i målgruppen eller som matchar resultatet av frågan tas inte med i målet.
+Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **exkluderad** från leveransmålet: de inte får något meddelande.
 
 ## Jämför resultaten{#control-group-results}
 

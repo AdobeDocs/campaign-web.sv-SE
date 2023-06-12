@@ -4,25 +4,52 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 1%
+source-wordcount: '1039'
+ht-degree: 2%
 
 ---
 
 # Kom igång med meddelanden{#gs-messages}
 
+Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter.
 
-Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter. Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i en marknadsföringskampanj.
+Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i en marknadsföringskampanj.
 
-Adobe Campaign v8 har följande leveranskanaler:
+Adobe Campaign v8 har följande leveranskanaler: E-post, SMS och mobilappar.
 
-* **E-postkanal**: Med e-postleveranser kan du skicka personaliserade e-postmeddelanden till målpopulationen. Lär dig hur du skapar och skickar e-postmeddelanden i [den här sidan](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="E-post" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Skapa e-postmeddelanden</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Skapa push-meddelanden</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Skapa SMS-meddelanden</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **SMS-kanal**: leveranser i mobilkanaler gör att du kan skicka personaliserat SMS till målpopulationen.  Lär dig hur du skapar och skickar SMS i [den här sidan](../sms/create-sms.md).
-
-* **Mobil programkanal**: mobilappsleveranser gör att du kan skicka meddelanden till iOS- och Android-system.  Lär dig hur du skapar och skickar push-meddelanden i [den här sidan](../push/gs-push.md).
 
 ## Skapa en leverans {#create-delivery}
 
@@ -83,7 +110,7 @@ Mer information om hur du konfigurerar en kampanj och hanterar leveranser som ti
 
 ## Lägg till personalisering{#personalization}
 
-Meddelanden från Adobe Campaign kan personaliseras på olika sätt. [Läs mer om personaliseringsfunktioner](../personalization/personalize.md).
+Meddelanden från Adobe Campaign kan personaliseras på olika sätt. [Läs mer om personaliseringsfunktioner](../personalization/gs-personalization.md).
 
 Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personaliseringsfunktionerna kan kombineras för att förbättra budskapen och skapa en anpassad användarupplevelse.
 
@@ -91,19 +118,19 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 * Infoga dynamisk **personaliseringsfält**
 
-   Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. [Läs mer](../personalization/personalize.md)
+  Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. [Läs mer](../personalization/personalize.md)
 
 * Infoga fördefinierad **innehållsblock**
 
-   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren. [Läs mer](../personalization/personalize.md#ootb-content-blocks)
+  Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren. [Läs mer](../personalization/personalize.md#ootb-content-blocks)
 
 * Skapa **villkorligt innehåll**
 
-   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. [Läs mer](../personalization/conditions.md)
+  Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. [Läs mer](../personalization/conditions.md)
 
 * Lägg till **personaliserade erbjudanden**
 
-   Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern.
+  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern.
 
 
 ## Förgranska och testa leveranserna
@@ -111,9 +138,13 @@ Du kan anpassa meddelandeinnehållet genom att:
 När meddelandeinnehållet har definierats kan du förhandsgranska det för att kontrollera återgivningen av dina meddelanden och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-test.md)
 
 
-## Loggar för leverans och spårning{#gs-tracking-logs}
+## Övervaka och spåra loggar{#gs-tracking-logs}
 
-Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder. Du kan övervaka efter att du har skickat en leverans samt förstå hur leveransfel och karantäner hanteras.
+Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder.
+
+Du kan övervaka efter att du har skickat en leverans samt förstå hur leveransfel och karantäner hanteras.
+
+Läs mer om övervakning och spårning i [det här avsnittet](../reporting/gs-reports.md).
 
 ## Duplicera en leverans {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Så här duplicerar du en leverans från listan med leveranser:
 1. Välj  **[!UICONTROL Duplicate]**.
 1. Bekräfta duplicering: den nya kontrollpanelen för leverans öppnas på den centrala skärmen.
 
-
 Så här duplicerar du en leverans från kontrollpanelen:
 
 1. Öppna leveransen och klicka på  **[!UICONTROL ...More]** på skärmens övre del.
-1. Välj  **[!UICONTROL Duplicate]**.
+1. Välj **[!UICONTROL Duplicate]**.
 1. Bekräfta duplicering: den nya leveransen ersätter den aktuella leveransen på skärmen.
 
+## Ta bort en leverans {#delivery-delete}
 
+Leveranser tas bort från leveranslistan, antingen från huvudposten i det vänstra fältet eller från leveranslistan för en kampanj.
 
+Så här tar du bort en leverans från listan över leveranser:
+
+1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
+1. Välj  **[!UICONTROL Delete]**.
+1. Bekräfta borttagning.
+
+![Ta bort en leverans från leveranslistan](assets/delete-delivery-from-list.png)
+
+Alla leveranser är tillgängliga i de här listorna, men leveranser som har skapats i ett arbetsflöde kan inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
+
+Så här tar du bort en leverans från ett arbetsflöde:
+
+1. Välj leveransaktivitet.
+1. Klicka på  **[!UICONTROL Delete]** på den högra panelen.
+1. Bekräfta borttagning. Om leveransen har underordnade noder kan du välja att ta bort dem också eller att behålla dem.
+
+![Ta bort en leverans i ett arbetsflöde](assets/delete-delivery-from-wf.png)
