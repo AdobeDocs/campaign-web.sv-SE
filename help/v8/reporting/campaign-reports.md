@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 ### Leveranssammanfattning {#delivery-summary-email}
 
 * **[!UICONTROL Delivery Overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med e-postleveransen.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -32,9 +34,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
-* **[!UICONTROL Initial target audience statistics]**
+  ![](assets/campaign_report_email_2.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -46,9 +48,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
-* **[!UICONTROL Execution statistics]**
+  ![](assets/campaign_report_email_3.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -62,9 +64,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Reaction statistics]** tabellen innehåller tillgängliga data för mottagaraktivitet för leveransen.
 
-* **[!UICONTROL Reaction statistics]**
+  ![](assets/campaign_report_email_4.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -77,11 +79,9 @@ ht-degree: 1%
    * **[!UICONTROL Mirror page]**: Antal mottagare som klickade på länken för spegelsidan.
 
    * **[!UICONTROL Forwards]**: Antal mottagare som klickade och som vidarebefordrade e-postmeddelandet.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 1%
 
 ### Ej levererbara {#non-deliverables-email}
 
-* **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per browsers]**
+* **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -109,11 +111,11 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Spårningsindikatorer {#tracking-indicators-email}
 
-* **[!UICONTROL Delivery statistics]**
+* **[!UICONTROL Delivery statistics]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -130,9 +132,9 @@ ht-degree: 1%
    * **[!UICONTROL Estimation of forwards]**: Uppskattning av antalet e-postmeddelanden som vidarebefordrats av målmottagarna.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna.
 
-* **[!UICONTROL Open and click-through rate]**
+  ![](assets/campaign_report_email_8.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -147,11 +149,11 @@ ht-degree: 1%
    * **[!UICONTROL Raw reactivity]**: Procentandel av antalet mottagare som klickade på en leverans minst en gång jämfört med antalet mottagare som öppnade en leverans minst en gång.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL:er och klickströmmar {#url-email}
 
-* **[!UICONTROL URLs and click streams]**
+* **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -163,9 +165,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
 
-* **[!UICONTROL Top 10 most visited links]**
+  ![](assets/campaign_report_email_10.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -175,23 +177,23 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Breakdown of clicks over time]**, antal klick
+* **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Användaraktiviteter {#user-activities-email}
 
-* **[!UICONTROL User activities]**
+* **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++Läs mer om rapportstatistik för e-postkampanjer.
 
    * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
    * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## SMS-kanal {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -223,7 +225,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** tabellen visar hur framgångsrik leveransen är:
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -237,7 +239,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** tabellen visar data i relation till hur mottagarna interagerade med leveransen:
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -267,7 +269,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
   +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -279,7 +281,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** tabellen visar hur framgångsrik leveransen är:
 
   +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -293,7 +295,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** tabellen visar data i relation till hur mottagarna interagerade med leveransen:
 
   +++Läs mer om mätvärden för push-kampanjrapporter.
 

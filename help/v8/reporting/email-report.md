@@ -3,54 +3,170 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 0%
+source-wordcount: '884'
+ht-degree: 1%
 
 ---
 
 # Rapport om e-postleverans {#email-report}
 
-## Skickar
+## Leveranssammanfattning {#delivery-summary-email}
 
-* **Sammanfattning av leverans**: Den här rapporten innehåller all huvudinformation om leveransen. Målgrupp, orsaker till uteslutning, leveransstatistik.
+* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
-  ![](assets/reporting3.png)
+  +++Läs mer om mätvärden för e-postleveransrapporter.
 
-* **Leveransflöde**: Den här rapporten innehåller information om leveransflöde för en viss period. För att mäta den hastighet med vilken meddelandena levereras är kriterierna antalet meddelanden som skickas per timme och meddelandets storlek (i bitar per sekund). I exemplet nedan visar det första diagrammet de lyckade leveranserna i blått och antalet felaktiga leveranser i orange.
+   * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
-  ![](assets/reporting3bis.png)
+   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
 
-* **Sändningsstatistik**: Den här rapporten visar hur alla meddelanden som bearbetas och skickas har delats upp per Internetdomän, både när det gäller hårda och mjuka studsar, öppningar, klick och prenumerationer.
+   * **[!UICONTROL Exclusion]**: Totalt antal meddelanden som utelämnats från det skickade målet.
++++
 
-  ![](assets/reporting4.png)
+* **[!UICONTROL Delivery statistics]** tabellen visar hur bra leveransen är.
 
-* **Ej levererbara produkter och studsar**: I den här rapporten visas uppdelningen av icke-levererbara produkter samt en uppdelning av studenterna per Internetdomän.
+  +++Läs mer om rapportstatistik för e-postkampanjer.
 
-  ![](assets/reporting5.png)
+   * **[!UICONTROL Message sent]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
 
-## Spåra
+   * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
-* **Spårningsindikatorer**: I den här rapporten kombineras de viktigaste indikatorerna för att spåra mottagarnas beteende när de tar emot leveransen. Den ger tillgång till leverans- och mottagningsstatistik, öppnings- och klickfrekvens, genererade klickströmmar, webbspårning samt delar aktiviteter till sociala nätverk.
+   * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
 
-  ![](assets/reporting6.png)
+   * **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
-* **URL:er och klickbara strömmar**: Den här rapporten innehåller en lista över besökta sidor efter en leverans.
++++
 
-  ![](assets/reporting7.png)
+* **[!UICONTROL Causes of exclusion]** Diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under analysen.
 
-* **Användaraktiviteter**: Den här rapporten visar hur öppningar och klickningar per halvtimme, timme eller dag delas upp i ett diagram.
+## Leveranskapacitet {#delivery-throughtput}
 
-  ![](assets/reporting8.png)
+Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-* **Spårningsstatistik**: Den här rapporten innehåller statistik om öppningar och klick.
+## Sändningsstatistik {#broadcast-statistics}
 
-  ![](assets/reporting9.png)
+* **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga data för eventuella fel som påträffats i varje domän.
 
-* **Indelning av öppningar**: Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
+  +++Läs mer om mätvärden för e-postleveransrapporter.
 
-  ![](assets/reporting10.png)
+   * **[!UICONTROL Processed emails]**: Totalt antal meddelanden som har bearbetats av leveransservern.
+
+   * **[!UICONTROL Delivered]**: Procentandel av antalet meddelanden som har bearbetats jämfört med det totala antalet meddelanden som har bearbetats.
+
+   * **[!UICONTROL Hard bounces]**: Procentandel av antalet&quot;hårda&quot; studsar, permanenta fel, t.ex. fel e-postadress, jämfört med det totala antalet bearbetade meddelanden.
+
+   * **[!UICONTROL Soft bounces]**: Procentandel av antalet&quot;mjuka&quot; studsar, tillfälliga fel som en fullständig inkorg, jämfört med det totala antalet bearbetade meddelanden
+
+   * **[!UICONTROL Opens]**: Procentandel av antalet målmottagare som öppnade ett meddelande minst en gång jämfört med antalet meddelanden som bearbetades.
+
+   * **[!UICONTROL Clicks]**: Procentandel av antalet personer som klickade i en leverans minst en gång jämfört med antalet meddelanden som bearbetades.
+
+   * **[!UICONTROL Unsubscriptions]**: Procentandel av antalet klick på en länk för att avbryta prenumerationen jämfört med antalet meddelanden som har bearbetats.
++++
+
+## Ej levererbara och studsningar {#non-deliverables-email}
+
+* **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återbindning, i relation till antalet meddelanden som ska levereras.
+
+   * **[!UICONTROL Contribution]**:
+
+   * **[!UICONTROL Breakdown]**:
+
++++
+
+## Spårningsindikatorer {#tracking-indicators-email}
+
+* **[!UICONTROL Delivery statistics]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
+
+   * **[!UICONTROL Distinct opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
+
+   * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+
+   * **[!UICONTROL Clicks on the opt-out link]**: Antal klick på länken för att avbryta prenumerationen.
+
+   * **[!UICONTROL Clicks on the mirror link]**: Antal klick på länken till spegelsidan.
+
+   * **[!UICONTROL Estimation of forwards]**: Uppskattning av antalet e-postmeddelanden som vidarebefordrats av målmottagarna.
++++
+
+* **[!UICONTROL Open and click-through rate]** tabellen visar data som är relativa till mottagarna.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Sent]**: Totalt antal skickade meddelanden.
+
+   * **[!UICONTROL Complaints]**: Antal meddelanden för den här domänen som har rapporterats som oönskade av mottagaren.
+
+   * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+
+   * **[!UICONTROL Clicks]**: Antal distinkta mottagare som klickat på samma leverans minst en gång.
+
+   * **[!UICONTROL Raw reactivity]**: Procentandel av antalet mottagare som klickade på en leverans minst en gång jämfört med antalet mottagare som öppnade en leverans minst en gång.
++++
+
+## URL:er och klickströmmar {#url-email}
+
+* **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat på en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
+
+   * **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
+
+   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+
++++
+
+* **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+
+   * **[!UICONTROL Percentage]**: Procentandel användare som interagerade med leveransen.
+
++++
+
+* **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
+
+## Användaraktiviteter {#user-activities-email}
+
+* **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+
+   * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+
++++
+
+## Spårningsstatistik {#tracking-statistics}
+
+* **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar.
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+
+   * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+
++++
+
+## Indelning av öppningar {#breakdown-opens}
+
+Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
 
 ## Klickningar
 
