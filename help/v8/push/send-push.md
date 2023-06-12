@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -50,4 +50,4 @@ Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
 
 När leveransen har skickats kan du spåra dina KPI-data (Key Performance Indicator) från leveranssidan och data från loggmenyn.
 
-Nu kan du börja mäta effekten av ditt meddelande med inbyggda rapporter.
+Nu kan du börja mäta effekten av ditt meddelande med inbyggda rapporter. [Läs mer](../reporting/push-report.md)
