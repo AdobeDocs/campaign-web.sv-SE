@@ -4,9 +4,9 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -36,20 +36,19 @@ Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgän
 
 ## Anslut till Campaign
 
+Så här ansluter du till Adobe Campaign webbplats:
 
-1. Anslut till [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
+1. Bläddra till [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Logga in med dina inloggningsuppgifter för Adobe.
 1. I **Snabb åtkomst** avsnitt, klicka **Campaign**.
+
    ![](assets/connect.png)
 
 1. På nästa sida klickar du på **Starta** i Campaign-instansen.
-Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet i [den här sidan](user-interface.md).
 
-<!--
--> experience cloud home: "Campaign" -> home campaign v8
--> or Campaign v8 web if direct URL
--->
+   Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet i [den här sidan](user-interface.md).
 
+Om du redan är ansluten till en annan Adobe Experience Cloud-lösning kan du även bläddra till Campaign-miljön från lösningsväljaren längst upp till höger på skärmen.
 
 ## Om Campaign-klientkonsolen{#ac-client}
 
