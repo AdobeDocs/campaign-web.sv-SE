@@ -4,7 +4,7 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
+source-git-commit: 53a834f7a00e1119ecbaaa0d2ad39102bd7c0e83
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Använd gränssnittets övre fält för att:
 * växla mellan olika Adobe Experience Cloud-program
 * få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
 
-![](assets/unified-shell.png){width="70%" align="left"}
+![](assets/unified-shell.png){width="50%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
@@ -192,7 +192,7 @@ Använd **Visa avancerade attribut** om du vill visa alla tillgängliga attribut
 
 Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
-![](assets/context-help.png){width="70%" align="left"}
+![](assets/context-help.png){width="40%" align="left"}
 
 <!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
