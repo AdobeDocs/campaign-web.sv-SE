@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -129,29 +129,75 @@ Använd gränssnittets övre fält för att:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Konfigurera listskärmar {#list-screens}
+## Bläddra i och filtrera listor {#list-screens}
 
-Flera länkar från den vänstra navigeringsmenyn, till exempel **Leveranser** eller **Kampanjer**, visas listor med objekt. De här listskärmarna är skrivskyddade, förutom leveranslistan för e-post.
+De flesta länkar från den vänstra navigeringsmenyn visar listor med objekt, t.ex. listan med **Leveranser** eller **Kampanjer**. Vissa av dessa listskärmar är skrivskyddade. Du kan anpassa listvisningen och filtrera listorna enligt nedan.
+
+Om du vill ta bort ett filter klickar du på **Rensa alla** -knappen.
+
+### Anpassa listskärmar {#custom-lists}
+
+Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Om du vill göra det klickar du på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+I **Konfigurera kolumner** rastrera, lägga till eller ta bort kolumner och ändra visningsordningen.
+
+Exempel:
+
+![](assets/columns.png){width="70%" align="left"}
+
+I listan visas följande kolumner:
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktuella listan. [Läs mer](#adv-attributes)
+
+### Sortera data {#sort-lists}
+
+Du kan också sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen.
+
+För numeriska kolumner och datumkolumner finns **Upp** anger att listan är sorterad i stigande ordning medan **Ned** pil anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
+
+### Inbyggda filter {#list-built-in-filters}
 
 Om du vill hitta objekt snabbare kan du använda sökfältet eller filtrera listan baserat på sammanhangsberoende kriterier.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Det gör du genom att klicka på ikonen i det övre högra hörnet av listan. Du kan lägga till eller ta bort kolumner och ändra visningsordningen.
+Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller mapp. Du kan också dölja tester.
 
-![](assets/columns.png){width="70%" align="left"}
+### Egna filter{#list-custom-filters}
 
-Du kan sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen. För numeriska kolumner och datumkolumner anger uppilen att listan är sorterad i stigande ordning och nedpilen anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
+Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på **Lägg till regler** -knappen.
 
-## Kontextuell hjälp och introduktionshandbok {#contextual-help}
+Dra och släpp attribut för att skapa filtervillkor i **Avancerade filter** skärm.
 
-Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på **?** om du vill visa hjälpinformation och relaterade dokumentationslänkar.
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktuella listan. [Läs mer](#adv-attributes)
+
+### Använd avancerade attribut {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Visa avancerade attribut"
+>abstract="Endast de vanligaste attributen visas som standard i attributlistan. Använd den här växeln för att skapa ett filter med avancerade attribut."
+
+Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar.
+
+Använd **Visa avancerade attribut** om du vill visa alla tillgängliga attribut för den aktuella listan kan du växla under listan.
+
+
+## Sammanhangsberoende hjälp {#contextual-help}
+
+Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Det finns också en introduktionshandbok som hjälper dig att komma igång med Campaign v8 Web. Klicka på ikonen i det nedre högra hörnet, välj ett av de tillgängliga stegvisa scenarierna och följ instruktionerna.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Webbläsare som stöds {#browsers}
 
@@ -187,17 +233,8 @@ Standardspråket för gränssnittet avgörs av det språk du föredrar i använd
 Så här byter du språk:
 
 1. Klicka på din profilikon, längst upp till höger och välj sedan **Inställningar**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Klicka sedan på det språk som visas under din e-postadress.
-
-   ![](assets/preferences2.png)
-
+1. Klicka sedan på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Avancerade fält för regelbyggaren"
+>abstract="Konfigurera kolumner med avancerade fält."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Avancerade fält för attributväljaren"
->abstract="Konfigurera kolumner med avancerade fält."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Avancerade fält för regelbyggaren"
->abstract="Konfigurera kolumner med avancerade fält."
+
 
 
 
