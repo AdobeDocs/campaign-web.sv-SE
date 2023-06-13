@@ -3,10 +3,10 @@ audience: end-user
 title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig hur du utformar e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha" type="Positive"
-source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -28,20 +28,22 @@ I många fall ger den en kort sammanfattning av innehållet och är vanligtvis e
 
 Följ stegen nedan när du vill definiera e-postprerubriken.
 
-1. Lägg till minst en **[!UICONTROL Structure]** för att börja designa din e-post.
+1. Från [E-postdesigner](create-email-content.md), lägg till minst **[!UICONTROL Structure]** för att börja designa din e-post.
 
 1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
 
    ![](assets/preheader_body.png)
 
-1. Från **[!UICONTROL Settings]** lägger du till din förrubrik. Du kan anpassa den ytterligare genom att klicka på **[!UICONTROL Add personalization]** ikon.
+1. Från **[!UICONTROL Settings]** anger du lite text för sidhuvudet.
+
+1. Om du vill anpassa den ytterligare klickar du på **[!UICONTROL Add personalization]** ikonen till vänster om **[!UICONTROL Preheader]** fält.
 
    ![](assets/preheader_body_settings.png)
 
-1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till **[!UICONTROL Content blocks]**, **[!UICONTROL Dynamic content]** eller **[!UICONTROL Personalization fields]**.
+1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till [personaliseringsfält](../personalization/personalize.md), [innehållsblock](../personalization/content-blocks.md) och [villkorligt innehåll](../personalization/conditions.md) med dedikerade poster till vänster.
 
-1. Klicka **[!UICONTROL Validate]** för att kontrollera din personaliseringssyntax.
+   ![](assets/preheader_body_personalization.png)
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Confirm]**.
 
 Din förrubrik har nu konfigurerats för din e-post.
