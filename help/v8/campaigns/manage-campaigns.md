@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på
 
 Det finns två flikar i kampanjlistan:
 
-![Kampanjlista](assets/campaign-list.png)
-
 * The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna instrumentpanelen eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
 
 * The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Kampanjmallar är förkonfigurerade så att de kan återanvändas när nya kampanjer skapas. De skapas från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+
+![Kampanjlista](assets/campaign-list.png)
 
 Varje kampanj i listan visar information om dess aktuella status, skapandedatum, senaste gången den ändrades osv.
 
@@ -43,9 +43,9 @@ Status och schema för kampanjen visas högst upp på skärmen. Du kan använda 
 
 Det finns två flikar:
 
-* The **Arbetsflöden** På -fliken visas alla arbetsflöden som är kopplade till kampanjen. På den här fliken kan du även skapa ett nytt arbetsflöde i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
+* The **Arbetsflöden** På -fliken visas alla arbetsflöden som är kopplade till kampanjen. På den här fliken kan du även skapa ett nytt arbetsflöde i kampanjen. Se det här [section](create-campaigns.md#create-campaigns).
 
-* The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
+* The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns).
 
 ## Duplicera och ta bort en kampanj
 
