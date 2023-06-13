@@ -2,11 +2,11 @@
 audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -65,6 +65,17 @@ Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktu
 >id="acw_attributepicker_advancedfields"
 >title="Visa avancerade attribut"
 >abstract="Endast de vanligaste attributen visas som standard i attributlistan. Använd den här växeln för att skapa ett filter med avancerade attribut."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Avancerade fält för regelbyggaren"
+>abstract="Konfigurera kolumner med avancerade fält."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Avancerade attribut i regelbyggaren"
+>abstract="Använd avancerade attribut för att definiera regeln."
+
 
 Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar. Attribut som angetts som `advanced` attribut i dataschemat döljs från konfigurationsskärmarna.
 
