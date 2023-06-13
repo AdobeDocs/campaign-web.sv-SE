@@ -4,7 +4,7 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
 1. Välj **[!UICONTROL Select audience]** för att använda en befintlig målgrupp. Om du vill skapa en ny målgrupp som ska användas i det här e-postmeddelandet väljer du **Skapa en egen**. Se detta [section](segment-builder.md).
 
-   På den här skärmen visas alla befintliga målgrupper som definierats i Adobe Campaign-konsolen eller från Adobe Experience Platform.
+   På den här skärmen visas alla befintliga målgrupper som definierats i Adobe Campaign klientkonsol för den aktuella mappen.
 
    ![](assets/create-audience2.png)
 

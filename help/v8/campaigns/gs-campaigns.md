@@ -4,7 +4,7 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Det finns två flikar:
 
 * The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna instrumentpanelen eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
 
-* The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Kampanjmallar är förkonfigurerade så att de kan återanvändas för att skapa nya kampanjer. De skapas från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Kampanjmallar är förkonfigurerade så att de kan återanvändas när nya kampanjer skapas. De skapas från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
 Varje kampanj i listan visar information om dess aktuella status, skapandedatum, senaste gången den ändrades osv.
 
@@ -70,5 +70,6 @@ Status och schema för kampanjen visas högst upp på skärmen. Du kan använda 
 Det finns två flikar:
 
 * The **Arbetsflöden** På -fliken visas alla arbetsflöden som är kopplade till kampanjen. På den här fliken kan du även skapa ett nytt arbetsflöde i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
+
 * The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
 

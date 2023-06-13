@@ -4,7 +4,7 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Så här skapar du en ny kampanj:
 1. Klicka på **[!UICONTROL Campaigns]** och klickar på **[!UICONTROL Create campaign]** -knappen.
 1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. Kampanjmallar är förkonfigurerade så att de kan återanvändas för att skapa nya kampanjer. De skapas från klientkonsolen.
    [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
-1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och natur.
+1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
 1. Definiera **Schema** av er kampanj. Kampanjen startar när startdatumet nås. Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](gs-campaigns.md#access-campaigns).
 
    ![Definiera kampanjegenskaper](assets/campaign-properties.png)
@@ -41,12 +41,12 @@ Så här skapar du en ny kampanj:
    >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard)
 
 1. Klicka **Skapa**.
-1. Lägg till arbetsflöden och leveranser till kampanjen.
+1. Lägg till arbetsflöden och leveranser till kampanjen:
 
    * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md)
    * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
 
-1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjen.
+1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjens resultat.
 
 ## Övervaka och spåra loggar{#campaign-monitoring}
 
@@ -63,7 +63,7 @@ Du kan duplicera eller ta bort en kampanj:
 
 >[!NOTE]
 >
->The **Leverans** visas alla leveranser som är kopplade till kampanjen. Leveranser som har skapats i ett arbetsflöde kan dock inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
+>The **Leveranser** visas alla leveranser som är kopplade till kampanjen. Leveranser som har skapats i ett arbetsflöde kan dock inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
 
 
 <!--
