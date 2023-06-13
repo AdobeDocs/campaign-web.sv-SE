@@ -2,10 +2,10 @@
 audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
-badge: label="Alpha" type="Positive"
-source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 1%
 
 ---

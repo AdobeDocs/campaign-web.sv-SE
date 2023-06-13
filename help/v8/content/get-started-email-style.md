@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med e-postformat
 description: Upptäck olika sätt att justera e-postinnehållets stil
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---

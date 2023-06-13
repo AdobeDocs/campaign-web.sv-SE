@@ -3,10 +3,10 @@ audience: end-user
 title: Anpassa e-postbakgrunden
 description: Lär dig hur du anpassar din e-postbakgrund
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -28,34 +28,34 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 * Ange en **[!UICONTROL Background color]** för hela e-postmeddelandet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra rutan.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * Ange samma bakgrundsfärg för alla strukturkomponenter genom att markera **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * Ange olika bakgrundsfärger för varje strukturelement. Välj en struktur i navigeringsträdet till vänster om du bara vill använda en viss bakgrundsfärg på den strukturen.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
+  >[!NOTE]
+  >
+  >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
 * Ange en **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Vissa e-postprogram stöder inte bakgrundsbilder. Om det inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
+  >[!NOTE]
+  >
+  >Vissa e-postprogram stöder inte bakgrundsbilder. Om det inte stöds används radens bakgrundsfärg i stället. Se till att du väljer en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
+  >[!NOTE]
+  >
+  >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du ställer in bakgrundsfärger på kolumnnivå eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
-   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
+  Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.

@@ -2,11 +2,11 @@
 audience: end-user
 title: Använda Adobe Experience Platform
 description: Lär dig använda en målgrupp från Adobe Experience Platform
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 2%
 
 ---

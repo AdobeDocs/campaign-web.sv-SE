@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
-badge: label="Alpha" type="Positive"
-source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Paletten, som finns till vänster, innehåller alla element som du kan filtrera 
 
 * **Attribut**: På den här fliken kan du komma åt alla tillgängliga fält från schemat. Fältlistan beror på målschemat som definierats i e-postmallen.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **Målgrupper**: På den här fliken kan du filtrera med en av de befintliga målgrupperna som definieras i Campaign Classic-konsolen eller från Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
+  >[!NOTE]
+  >
+  >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
 
 Du kan använda sökfältet för att snabbt hitta element.
 

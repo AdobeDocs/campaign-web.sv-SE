@@ -2,17 +2,17 @@
 audience: end-user
 title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
 
 
-# Skapa tvärkanalskampanjer {#create-campaigns}
+# Skapa din första kampanj {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 1%
 >title="Kampanjegenskaper"
 >abstract="Definiera kampanjinställningar och metadata."
 
-Kampanjerna kan omfatta arbetsflöden och fristående leveranser.
+Kampanjerna kan omfatta arbetsflöden och fristående leveranser. Egenskaper, schema, arbete, leverans plus ett fulladdat schema
+
+## Skapa kampanjen
 
 Så här skapar du en ny kampanj:
 
@@ -32,7 +34,7 @@ Så här skapar du en ny kampanj:
 1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. Kampanjmallar är förkonfigurerade så att de kan återanvändas för att skapa nya kampanjer. De skapas från klientkonsolen.
    [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
-1. Definiera **Schema** av er kampanj. Kampanjen startar när startdatumet nås. Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](gs-campaigns.md#access-campaigns).
+1. Definiera **Schema** av er kampanj. Kampanjen startar när startdatumet nås. Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](manage-campaigns.md#access-campaigns).
 
    ![Definiera kampanjegenskaper](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Så här skapar du en ny kampanj:
 
 1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjens resultat.
 
-## Övervaka och spåra loggar{#campaign-monitoring}
+## Övervaka och spåra kampanjen{#campaign-monitoring}
 
 Kampanjövervakning är ett viktigt steg för att analysera era kampanjer. Öppna kampanjen och klicka på **Loggar** -knappen.
 
 Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knappen. Se det här [section](../reporting/campaign-reports.md).
 
-## Duplicera och ta bort en kampanj
-
-Du kan duplicera eller ta bort en kampanj:
-
-* Klicka på ellipsknappen i listan över kampanjer och välj sedan **Duplicera** eller **Ta bort**.
-* från själva kampanjen klickar du på **Mer** knapp och markera **Duplicera** eller **Ta bort**.
-
->[!NOTE]
->
->The **Leveranser** visas alla leveranser som är kopplade till kampanjen. Leveranser som har skapats i ett arbetsflöde kan dock inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
-
++++WORKF ++screen
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

@@ -2,10 +2,10 @@
 audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
-badge: label="Alpha" type="Positive"
-source-git-commit: 41faf6dbd843093552ac6b49db4a4d0585ab2a8a
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---

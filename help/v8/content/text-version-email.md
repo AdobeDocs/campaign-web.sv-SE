@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa textversionen av ett e-postmeddelande
 description: Lär dig hur du skapar textversionen av ett e-postmeddelande
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,3 @@ Om du föredrar att använda ett annat innehåll för den oformaterade textversi
 >* Ändringar gjorda i **[!UICONTROL Plain text]** vyn inte visas i HTML.
 >
 >* Om du aktiverar **[!UICONTROL Sync with HTML]** när du har uppdaterat oformaterad text försvinner ändringarna och ersätts med textinnehåll som genererats från HTML-versionen.
-

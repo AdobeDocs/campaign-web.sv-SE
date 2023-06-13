@@ -3,10 +3,10 @@ audience: end-user
 title: Skicka testmeddelanden
 description: Lär dig hur du definierar och skickar testmeddelanden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha" type="Positive"
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---

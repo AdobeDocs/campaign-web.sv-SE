@@ -2,11 +2,11 @@
 audience: end-user
 title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Du kan överföra kontakter från en extern fil. Profiler läggs inte till i dat
 >* Den här funktionen är bara tillgänglig för **fristående e-postleveranser**. Det kan inte användas i arbetsflöden, eller med SMS- eller push-leveranser.
 >
 >* Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
-
 
 
 Följ de här stegen för att ange profiler från en lokal fil direkt från e-postgränssnittet:

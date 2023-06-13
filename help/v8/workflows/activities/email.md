@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd aktiviteten för e-postarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för e-post
-badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---

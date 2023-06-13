@@ -3,10 +3,10 @@ audience: end-user
 title: Lägg till textbundna formatattribut
 description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

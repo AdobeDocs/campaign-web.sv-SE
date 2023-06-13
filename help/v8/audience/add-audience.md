@@ -3,10 +3,10 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha" type="Positive"
-source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 5%
 
 ---

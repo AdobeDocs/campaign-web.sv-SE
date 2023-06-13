@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---

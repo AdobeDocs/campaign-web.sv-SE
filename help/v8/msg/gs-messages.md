@@ -2,11 +2,11 @@
 audience: end-user
 title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---

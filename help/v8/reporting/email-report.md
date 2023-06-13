@@ -2,10 +2,10 @@
 audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
-badge: label="Alpha" type="Positive"
-source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---

@@ -2,11 +2,11 @@
 audience: end-user
 title: Lägg till en länk till spegelsidan
 description: Lär dig hur du lägger till och hanterar länken till spegelsidan
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---

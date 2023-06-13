@@ -3,10 +3,10 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alpha" type="Positive"
-source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---

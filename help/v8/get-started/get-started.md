@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha" type="Positive"
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
