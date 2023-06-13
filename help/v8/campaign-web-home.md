@@ -4,9 +4,9 @@ description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
+source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användaru
 
 **Nytt gränssnitt för arbetsytan**
 
-Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera. Med det här avancerade verktyget nära till hands kan ni effektivisera arbetsflödet och lyfta era kampanjer.
+Vår omfattande grafiska miljö som ger er möjlighet att utforma komplexa processer som kan hjälpa er att enkelt hantera era marknadsföringskampanjer. Med arbetsflöden kan ni samordna alla processer och uppgifter, förbättra hastighet och skala för alla delar av marknadsföringskampanjer, från att skapa segment och förbereda meddelanden till leverans. Dessutom kan ni synkronisera era kanaler med ett enda lättanvänt gränssnitt för kampanjsamordning.
 
 **Möt e-postdesignern**
 
@@ -35,11 +35,11 @@ Börja med en mall eller använd Adobe Campaign nya Email Designer för att skap
 
 **Gör innehållet dynamiskt**
 
-Skapa villkorsstyrt innehåll för att definiera dynamisk personalisering baserat på mottagarens profil och ersätt automatiskt textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp
+Anpassa innehållet baserat på den information du har samlat in om mottagarna. Om du använder dynamiskt innehåll blir innehållet mer tilltalande och sannolikheten för att det läses ökar. Anpassa era meddelanden till varje specifik mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de har köpt och mycket annat. Skapa villkorsstyrt innehåll för att anpassa era leveranser till varje mottagare och visa endast det innehåll som är relevant för en viss kund baserat på den information du har om dem.
 
 **Skicka flerkanalsleveranser**
 
-Adobe Campaign-funktioner hjälper er att hantera centraliserade kunddata, utforma kundkommunikation och kampanjer och skapa personaliserade upplevelser i olika kanaler: E-post, push och SMS.
+Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. I den här versionen är e-post-, push- och SMS-kanaler tillgängliga. Mät hur effektiva era leveranser är med detaljerade rapporter som bland annat antalet öppningar, klick och framåt.
 
 ## Låt oss dyka djupare
 
