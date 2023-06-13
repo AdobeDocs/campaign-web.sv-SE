@@ -2,11 +2,11 @@
 audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Se detta [section](enrichment.md).
 Följande aktiviteter är specifika för att organisera och köra arbetsflöden. Deras huvuduppgift är att samordna de övriga verksamheterna:
 
 * The [Och-join](and-join.md) kan du synkronisera flera körningsgrenar i ett arbetsflöde.
-* The [End](end.md) kan du grafiskt markera slutet av ett arbetsflöde. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
+* The **End** kan du grafiskt markera slutet av ett arbetsflöde. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
 * The [Gaffel](fork.md) kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.
 * The [Vänta](wait.md) aktiviteten tillfälligt avbryter körningen av en del av ett arbetsflöde.
 
