@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1558'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,8 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
 * **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
 
+  Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [Karantänhantering](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
+
   ![](assets/campaign_report_email_6.png)
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
@@ -183,6 +185,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
    * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
+   * **[!UICONTROL Platform average]** : Denna genomsnittliga hastighet, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
 +++
 
 * **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
