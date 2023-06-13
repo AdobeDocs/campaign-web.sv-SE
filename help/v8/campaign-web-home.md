@@ -4,9 +4,9 @@ description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användaru
 
 Vår omfattande grafiska arbetsyta gör det enkelt för er att utforma processer som segmentering, kampanjutförande med mera. Med det här avancerade verktyget nära till hands kan ni effektivisera arbetsflödet och lyfta era kampanjer.
 
-**Designa e-postmeddelanden**
+**Möt e-postdesignern**
 
 Börja med en mall eller använd Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad. Lär dig hur du använder e-postdesignern för att skapa ditt innehåll, förhandsgranska och testa det och skicka ett e-postmeddelande till en befintlig publik i ett heltäckande användningsfall.
 
@@ -51,6 +51,15 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Upptäck det nya användargränssnittet</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validering" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Nytt gränssnitt för arbetsytan</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Skicka flerkanalsleveranser</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validering" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Nytt gränssnitt för arbetsytan</strong></a>
 </div>
 <p>
 </td>
