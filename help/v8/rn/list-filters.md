@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Dessutom visas alla data och inställningar som redan är tillgängliga i klient
 
 ## Uppdateringar om terminologi {#terminology-updates}
 
-Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web-gränssnittet och återspeglas inte i klientkonsolen. De sammanfattas nedan.
+Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web UI och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
 * Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturmålet kallas nu **Testprofiler**
 * Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen

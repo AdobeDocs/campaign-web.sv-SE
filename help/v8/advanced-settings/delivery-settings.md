@@ -4,7 +4,7 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 10%

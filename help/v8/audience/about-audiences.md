@@ -4,10 +4,10 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
