@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -115,11 +115,19 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
-   * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återbindning, i relation till antalet meddelanden som ska levereras.
+   * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen för att ange att e-postadressen är ogiltig.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Invalid domain]**: Feltypen som genererades när en leverans skickades för att ange att domänen för e-postadressen är fel eller inte finns.
 
-   * **[!UICONTROL Breakdown]**:
+   * **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
+
+   * **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
+
+   * **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
+
+   * **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident på SMTP-reläet, domän som tillfälligt inte kan nås osv.
+
+   * **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
 
 +++
 
@@ -213,6 +221,8 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
 * **[!UICONTROL Delivery Overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med SMS-leveransen.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
    * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
@@ -227,6 +237,8 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
 * **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
@@ -238,6 +250,8 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 +++
 
 * **[!UICONTROL Execution statistics]** tabellen visar hur framgångsrik leveransen är:
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -252,6 +266,8 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 +++
 
 * **[!UICONTROL Generated click streams]** tabellen visar data i relation till hur mottagarna interagerade med leveransen:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 

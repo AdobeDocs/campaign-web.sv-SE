@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -60,6 +60,8 @@ ht-degree: 1%
 +++
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Leveranskapacitet {#delivery-throughput}
 

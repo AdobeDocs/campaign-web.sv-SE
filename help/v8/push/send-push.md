@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,16 @@ När du har definierat meddelandeinnehållet kan du använda testprofiler för a
 
 1. I den högra rutan hittar du en förhandsgranskning av e-postmeddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
-Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
+Nu kan ni granska och skicka push-meddelanden till era målgrupper.
+
+## Testa leveransen av push-meddelanden {#test-send-sms}
+
+Använda **Adobe Campaign**kan du testa push-meddelanden innan du skickar dem till huvudmålgruppen. Det här steget är viktigt när du ska validera leveransen och identifiera eventuella problem.
+Testmottagarna kan granska element som länkar, bilder och personaliseringsinställningar för att få bästa möjliga prestanda och upptäcka eventuella fel. Med den här processen kan ni förfina och optimera era push-meddelanden innan ni når er huvudmålgrupp.
+
+![](../assets/do-not-localize/book.png) Lär dig hur du skickar push-meddelanden för testning i det här [page](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## Skicka push-meddelanden {#preview-send-push}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,16 @@ När du har definierat meddelandeinnehållet kan du använda testprofiler för a
    ![](assets/sms_send_3.png)
 
 Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
+
+## Testa SMS-leveransen {#test-send-sms}
+
+Med **Adobe Campaign** kan du testa ett meddelande innan du skickar det till huvudmålgruppen, vilket är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem.
+
+Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvaliteten och effektiviteten vid leveransen. Testmottagarna kan granska olika element som länkar, avanmälningslänkar och bilder samt identifiera eventuella fel i återgivning, innehåll, personaliseringsinställningar och SMS-konfiguration. Denna process hjälper er att utvärdera och optimera ert SMS noggrant innan ni når er huvudmålgrupp.
+
+![](../assets/do-not-localize/book.png) Lär dig hur du skickar test-SMS i det här [page](../preview-test/proofs.md).
+
+![](assets/sms_send_6.png)
 
 ## Skicka SMS-leverans {#preview-send-sms}
 

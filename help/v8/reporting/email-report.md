@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Delivery statistics]** tabellen visar hur bra leveransen är.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -46,6 +46,24 @@ ht-degree: 1%
 * **[!UICONTROL Causes of exclusion]** Diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under analysen.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++Läs mer om mätvärden för e-postleveransrapporter.
+
+   * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen för att ange att e-postadressen är ogiltig.
+
+   * **[!UICONTROL Invalid domain]**: Feltypen som genererades när en leverans skickades för att ange att domänen för e-postadressen är fel eller inte finns.
+
+   * **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
+
+   * **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
+
+   * **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
+
+   * **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident på SMTP-reläet, domän som tillfälligt inte kan nås osv.
+
+   * **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
+
++++
 
 ## Leveranskapacitet {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
-   * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återbindning, i relation till antalet meddelanden som ska levereras.
+   * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen för att ange att e-postadressen är ogiltig.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Invalid domain]**: Feltypen som genererades när en leverans skickades för att ange att domänen för e-postadressen är fel eller inte finns.
 
-   * **[!UICONTROL Breakdown]**:
+   * **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
+
+   * **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
+
+   * **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
+
+   * **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident på SMTP-reläet, domän som tillfälligt inte kan nås osv.
+
+   * **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
 
 +++
 

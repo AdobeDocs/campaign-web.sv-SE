@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -46,8 +46,6 @@ ht-degree: 0%
    * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
 
 +++
-
-
 
 * **Övergripande statistik** visar data för skickade push-meddelanden, inklusive:
 
