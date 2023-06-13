@@ -4,9 +4,9 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -60,24 +60,7 @@ Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och anv�
 I **Bläddra** klickar du på en kampanj för att visa dess instrumentpanel. Det finns två flikar:
 
 * The **Arbetsflöden** På -fliken visas alla arbetsflöden som är kopplade till kampanjen. På den här fliken kan du även skapa ett nytt arbetsflöde i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
-* The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. På den här fliken kan du även skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
+* The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
 
 The **Konfigurera kampanjinställningar** kan du ändra kampanjens egenskaper som definierades när kampanjen skapades. Se det här [section](create-campaigns.md#create-campaigns)
-
-## Övervaka och spåra loggar{#campaign-monitoring}
-
-Kampanjövervakning är ett viktigt steg för att analysera era kampanjer. Öppna kampanjen och klicka på **Loggar** -knappen.
-
-Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knappen. Se det här [section](../reporting/campaign-reports.md).
-
-## Duplicera och ta bort
-
-Du kan duplicera eller ta bort en kampanj:
-
-* Klicka på ellipsknappen i listan över kampanjer och välj sedan **Duplicera** eller **Ta bort**.
-* från själva kampanjen klickar du på **Mer** knapp och markera **Duplicera** eller **Ta bort**.
-
->[!NOTE]
->
->The **Leverans** På fliken visas alla leveranser som är länkade till kampanjen, men leveranser som har skapats i ett arbetsflöde kan inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
 
