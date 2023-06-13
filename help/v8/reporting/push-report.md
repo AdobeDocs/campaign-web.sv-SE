@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 >id="acw_push_report_overview"
 >title="Sammanfattning av push-rapport"
 >abstract="Upptäck rapporteringsstatistik för push-leverans."
+
+The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, med omfattande insikter och specifika data. Det innehåller omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
 ## Push-sammanfattning {#push-summary}
 

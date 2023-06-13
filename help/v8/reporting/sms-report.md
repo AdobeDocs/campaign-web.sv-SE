@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 >id="acw_sms_report_overview"
 >title="Sammanfattning av SMS-rapport"
 >abstract="Upptäck rapporteringsstatistik för SMS-leverans."
+
+The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ger omfattande insikter och specifika data. Den ger omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
 ## Leveranssammanfattning {#delivery-summary}
 
