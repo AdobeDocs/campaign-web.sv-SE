@@ -4,7 +4,7 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# Skapa din första kampanj {#create-campaigns}
+# Skapa din första kampanj {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 1%
 >title="Kampanjegenskaper"
 >abstract="Definiera kampanjinställningar och metadata."
 
-Kampanjerna kan omfatta arbetsflöden och fristående leveranser. Egenskaper, schema, arbete, leverans plus ett fulladdat schema
+Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schemalägga och inkludera arbetsflöden och leveranser.
 
-## Skapa kampanjen
+## Skapa kampanjen{#campaign-create}
 
 Så här skapar du en ny kampanj:
 
@@ -40,25 +40,27 @@ Så här skapar du en ny kampanj:
 
    >[!NOTE]
    >
-   >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard)
+   >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard).
 
 1. Klicka **Skapa**.
 1. Lägg till arbetsflöden och leveranser till kampanjen:
 
-   * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md)
+   * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md).
    * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
 
 1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjens resultat.
 
 ## Övervaka och spåra kampanjen{#campaign-monitoring}
 
-Kampanjövervakning är ett viktigt steg för att analysera era kampanjer. Öppna kampanjen och klicka på **Loggar** -knappen.
+Kampanjövervakning är ett viktigt steg för att analysera hur effektiv er kampanj är. Öppna kampanjen och klicka på **Loggar** -knappen.
 
 Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knappen. Se det här [section](../reporting/campaign-reports.md).
 
-+++WORKF ++screen
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

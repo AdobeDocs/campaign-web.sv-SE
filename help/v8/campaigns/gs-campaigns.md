@@ -4,9 +4,9 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ Genom att lägga till flera arbetsflöden och leveranser som är specifika för 
 Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser.
 
 ![Kampanjflöde](assets/campaign-flow.png)
+
+Se följande avsnitt:
+
+* [Få tillgång till och hantera era kampanjer](manage-campaigns.md)
+* [Skapa din första kampanj](create-campaigns.md)
+
 
 
 <!--
