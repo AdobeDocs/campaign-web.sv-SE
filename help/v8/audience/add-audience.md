@@ -4,9 +4,9 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '273'
 ht-degree: 5%
 
 ---
@@ -56,4 +56,4 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
 1. Klicka **Spara**.
 
-Ni kan också ställa in en kontrollgrupp för att mäta effekten av era kampanjer. Kontrollgruppen tar inte emot meddelandet. På så sätt kan du jämföra beteendet hos den population som fick meddelandet med beteendet hos kontakter som inte gjorde det. Se [section](control-group.md).
+Ni kan också ställa in en kontrollgrupp för att mäta effekten av era kampanjer. Kontrollgruppen tar inte emot meddelandet. På så sätt kan du jämföra beteendet hos den population som fick meddelandet med beteendet hos kontakter som inte gjorde det. Läs mer i [det här avsnittet](control-group.md).
