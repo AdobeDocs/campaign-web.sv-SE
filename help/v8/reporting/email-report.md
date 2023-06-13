@@ -3,20 +3,22 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1279'
 ht-degree: 1%
 
 ---
 
 # Rapport om e-postleverans {#email-report}
 
+The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är specifika för e-postkanalen. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
+
 ## Leveranssammanfattning {#delivery-summary-email}
 
 * **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -96,6 +98,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
 
+  Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [Karantänhantering](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+
   ![](assets/campaign_report_email_6.png)
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
@@ -168,6 +172,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
    * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
+   * **[!UICONTROL Platform average]** : Denna genomsnittliga hastighet, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
+
 +++
 
 * **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
@@ -188,7 +194,7 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Användaraktiviteter {#user-activities-email}
 
-* **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram.
+* **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Spårningsstatistik {#tracking-statistics}
 
-* **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar.
+* **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 ## Indelning av öppningar {#breakdown-opens}
 
 Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
+Du kan växla mellan **[!UICONTROL Fix & mobile]** att enbart rikta sig till **[!UICONTROL Mobile only]** för mer exakt målinriktning.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Klickningar
+## Klickningar {#hotclicks}
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personalisering blockerar prenumerationslänkar, länkar till spegelsidor och erbjudandelänkar som tas med i beräkningen i det totala antalet klickningar, men visas inte i rapporten.
 
