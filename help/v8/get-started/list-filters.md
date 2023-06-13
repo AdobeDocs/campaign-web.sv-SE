@@ -3,7 +3,7 @@ audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -69,3 +69,6 @@ Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktu
 Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar. Attribut som angetts som `advanced` attribut i dataschemat döljs från konfigurationsskärmarna.
 
 Aktivera **Visa avancerade attribut** om du vill visa alla tillgängliga attribut för den aktuella listan: attributlistan uppdateras omedelbart.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
