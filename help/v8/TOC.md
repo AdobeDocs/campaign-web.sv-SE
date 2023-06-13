@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 12%
 
 ---
@@ -16,9 +16,8 @@ ht-degree: 12%
 # Adobe Campaign v8 - webbdokumentation {#v8}
 
 + [Webbdokumentation för Campaign v8](campaign-web-home.md)
-+ Nyheter? {#whats-new}
-   + [Versionsinformation](rn/release-notes.md)
-   + [Dokumentationsuppdateringar](rn/documentation-updates.md)
++ [Nyheter?](rn/whats-new.md)
++ [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + Kom igång med Adobe Campaign {#start}
    + [Kom igång](get-started/get-started.md)
    + [Upptäck gränssnittet](get-started/user-interface.md)

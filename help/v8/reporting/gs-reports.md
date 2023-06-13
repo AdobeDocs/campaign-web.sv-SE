@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 41faf6dbd843093552ac6b49db4a4d0585ab2a8a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -24,27 +24,27 @@ Adobe Campaign har två olika rapporter:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="create-sms.md">
+<a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Rapport om e-postleverans</strong>
+<div><a href="email-report.md"><strong>Rapport om e-postleverans</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="push-reports.md">
+<a href="push-report.md">
 <img alt="Sällan" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-reports.md"><strong> Push-leveransrapport<strong></strong></a>
+<a href="push-report.md"><strong> Push-leveransrapport<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="sms-reports.md">
+<a href="sms-report.md">
 <img alt="Validering" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-reports.md"><strong> SMS-leveransrapport</strong></a>
+<a href="sms-report.md"><strong> SMS-leveransrapport</strong></a>
 </div>
 <p>
 </td>
