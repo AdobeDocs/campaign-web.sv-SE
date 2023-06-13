@@ -4,7 +4,7 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -45,6 +45,7 @@ Så här skapar du en ny kampanj:
 
    * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md)
    * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
+
 1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjen.
 
 ## Övervaka och spåra loggar{#campaign-monitoring}
@@ -62,7 +63,7 @@ Du kan duplicera eller ta bort en kampanj:
 
 >[!NOTE]
 >
->The **Leverans** I visas alla leveranser som är länkade till kampanjen, men leveranser som har skapats i ett arbetsflöde kan inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
+>The **Leverans** visas alla leveranser som är kopplade till kampanjen. Leveranser som har skapats i ett arbetsflöde kan dock inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
 
 
 <!--
