@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
@@ -26,6 +28,8 @@ ht-degree: 1%
 +++
 
 * **[!UICONTROL Delivery statistics]** tabellen visar hur bra leveransen är.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -41,6 +45,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Causes of exclusion]** Diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under analysen.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Leveranskapacitet {#delivery-throughtput}
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
@@ -48,6 +54,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 ## Sändningsstatistik {#broadcast-statistics}
 
 * **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga data för eventuella fel som påträffats i varje domän.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -84,6 +92,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Delivery statistics]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
@@ -100,6 +110,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 +++
 
 * **[!UICONTROL Open and click-through rate]** tabellen visar data som är relativa till mottagarna.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -118,6 +130,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
    * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat på en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
@@ -130,6 +144,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
    * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
@@ -140,9 +156,13 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Användaraktiviteter {#user-activities-email}
 
 * **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -156,6 +176,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 * **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++Läs mer om mätvärden för e-postleveransrapporter.
 
    * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
@@ -167,6 +189,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 ## Indelning av öppningar {#breakdown-opens}
 
 Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Klickningar
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -13,3 +13,48 @@ ht-degree: 0%
 # Kom igång med rapporter {#get-started-reports}
 
 Våra omfattande rapporteringsverktyg ger värdefulla insikter om hur effektiv er marknadsföring är, så att ni kan optimera era kampanjer för maximal effekt. Vår rapporteringsserie har allt du behöver för att fatta datadrivna beslut som ger resultat - från leveransfrekvenser till öppnings- och klickfrekvens. &#x200B;
+
+Adobe Campaign har två olika rapporter:
+
+* **Leveransrapport**: The **Leveransrapport** erbjuder omfattande insikter och data som är specifika för varje kanal. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
+
+* **Kampanjrapport**: The **Kampanjrapport** ger en omfattande översikt över kampanjen och innehåller all relevant information om de olika leveranser som ingår. Den här rapporten innehåller en grundlig analys av resultatet, antalet lyckade inköp, målgruppens engagemang och andra viktiga mätvärden, som gör att ni kan utvärdera kampanjens övergripande effektivitet och effekt.
+
+
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-sms.md">
+<img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
+</a>
+<div><a href="create-sms.md"><strong>Rapport om e-postleverans</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="push-reports.md">
+<img alt="Sällan" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="push-reports.md"><strong> Push-leveransrapport<strong></strong></a>
+</div>
+<p></td>
+<td>
+<a href="sms-reports.md">
+<img alt="Validering" src="assets/do-not-localize/sms_report.png">
+</a>
+<div>
+<a href="sms-reports.md"><strong> SMS-leveransrapport</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="campaign-reports.md">
+<img alt="Validering" src="assets/do-not-localize/campaign_report.jpeg">
+</a>
+<div>
+<a href="campaign-reports.md"><strong>Kampanjrapport</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

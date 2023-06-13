@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -21,6 +21,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med dina SMS-meddelanden.
 
+  ![](assets/reporting_sms_3.png)
+
   +++Läs mer om mätvärden för SMS-leveransrapporter.
 
    * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
@@ -32,9 +34,9 @@ ht-degree: 1%
    * **[!UICONTROL Errors]**: Totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **Målgrupp** diagram och tabeller visar data i relation till målgruppen.
+
+  ![](assets/reporting_sms_4.png)
 
   +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -43,9 +45,10 @@ ht-degree: 1%
    * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Övergripande statistik** presenterar data för skickade SMS-meddelanden, inklusive:
+
+  ![](assets/reporting_sms_5.png)
 
   +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -55,8 +58,6 @@ ht-degree: 1%
 
    * **[!UICONTROL New quarantine]**: Antal profiler som har uteslutits och lagts till i karantänen.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet.
 

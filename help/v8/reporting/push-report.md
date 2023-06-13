@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
 
+  ![](assets/reporting_push_3.png)
+
   +++Läs mer om mätvärden för push-leveransrapporter.
 
    * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
@@ -33,9 +35,9 @@ ht-degree: 0%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen:
+
+  ![](assets/reporting_push_4.png)
 
   +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -45,9 +47,11 @@ ht-degree: 0%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **Övergripande statistik** visar data för skickade push-meddelanden, inklusive:
+
+  ![](assets/reporting_push_5.png)
 
   +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -58,8 +62,6 @@ ht-degree: 0%
    * **[!UICONTROL New quarantine]**: Antal profiler som har uteslutits och lagts till i karantänen.
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet.
 
