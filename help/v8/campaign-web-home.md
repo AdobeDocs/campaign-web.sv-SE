@@ -4,10 +4,10 @@ description: Campaign Web v8 - hjälpcenter
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Börja med en mall eller använd Adobe Campaign nya Email Designer för att skap
 
 Anpassa innehållet baserat på den information du har samlat in om mottagarna. Om du använder dynamiskt innehåll blir innehållet mer tilltalande och sannolikheten för att det läses ökar. Anpassa era meddelanden till varje specifik mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de har köpt och mycket annat. Skapa villkorsstyrt innehåll för att anpassa era leveranser till varje mottagare och visa endast det innehåll som är relevant för en viss kund baserat på den information du har om dem.
 
-**Skicka flerkanalsleveranser**
+**Skapa flerkanalskampanjer**
 
 Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. I den här versionen är e-post-, push- och SMS-kanaler tillgängliga. Mät hur effektiva era leveranser är med detaljerade rapporter som bland annat antalet öppningar, klick och framåt.
 
@@ -64,11 +64,11 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Sällan" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Möt e-postdesignern</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Möt e-postdesignern</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <img alt="Validering" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Skicka flerkanalsleveranser</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Skapa flerkanalskampanjer</strong></a>
 </div>
 <p>
 </td>
