@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 11%
 
 ---
@@ -61,12 +61,12 @@ ht-degree: 11%
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
       + [Designa en push-leverans](push/content-push.md)
-      + [Skicka en leverans av push-meddelanden](push/send-push.md)
+      + [Förhandsgranska och skicka en leverans av push-meddelanden](push/send-push.md)
    + SMS {#sms}
       + [Kom igång med SMS-leveranser](sms/gs-sms.md)
       + [Skapa en SMS-leverans](sms/create-sms.md)
       + [Designa en SMS-leverans](sms/content-sms.md)
-      + [Skicka SMS-leverans](sms/send-sms.md)
+      + [Förhandsgranska och skicka en SMS-leverans](sms/send-sms.md)
    + Gör innehållet dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)
