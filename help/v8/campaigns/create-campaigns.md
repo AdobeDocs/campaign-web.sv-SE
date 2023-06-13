@@ -4,9 +4,9 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '226'
 ht-degree: 3%
 
 ---
@@ -24,36 +24,27 @@ ht-degree: 3%
 >title="Kampanjegenskaper"
 >abstract="Definiera kampanjinställningar och metadata."
 
+Kampanjerna kan omfatta arbetsflöden och fristående leveranser.
+
 Så här skapar du en ny kampanj:
 
 1. Klicka på **[!UICONTROL Campaigns]** och klickar på **[!UICONTROL Create campaign]** -knappen.
 1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. Kampanjmallar är förkonfigurerade så att de kan återanvändas för att skapa nya kampanjer. De skapas från klientkonsolen.
    [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
-1. Om det behövs kan du ändra **Ytterligare alternativ**. Se det här [section](#campaign-options).
+1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och natur.
 1. Definiera **Schema** av er kampanj. Kampanjen startar när startdatumet nås. Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](gs-campaigns.md#access-campaigns).
 
    ![Definiera kampanjegenskaper](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Du kan även komma åt kampanjegenskaperna från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard)
+   >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard)
 
 1. Klicka **Skapa**.
-1. Lägg till ett arbetsflöde eller en fristående leverans till kampanjen.
+1. Lägg till arbetsflöden och leveranser till kampanjen.
+
    * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md)
    * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
-
-## Ytterligare alternativ {#campaign-options}
-
-Kampanjegenskaper visas när du skapar en ny kampanj.
-
-Under **Ytterligare alternativ** kan du konfigurera följande inställningar:
-
-* Internt namn:
-* Mapp: välj den mapp där kampanjen ska lagras
-* Tilldelad:
-* Beskrivning:
-* Natur: specificera kampanjens karaktär för klassificeringsändamål,
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
