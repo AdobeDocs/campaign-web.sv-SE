@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 
 # Kom igång med dynamiskt innehåll
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalisering"
+>abstract="Med uttrycksredigeraren kan du välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Ni kan personalisera era meddelanden till varje mottagare genom att utnyttja profildata och skapa villkorsstyrt innehåll för att anpassa meddelandet till varje mottagare och endast visa det innehåll som är relevant. Dessutom finns det personaliseringsblock som du kan använda för att lägga till fördefinierat personaliserat innehåll i leveranserna."
 
 Som marknadsförare är det viktigt att inrikta sig på kunder som verkligen är intresserade av era erbjudanden och att engagera dem genom att tillhandahålla effektivt och relevant innehåll. Med tanke på det stora urval av mottagare som ni stöter på kan det vara tidskrävande och onödigt att skapa flera olika typer av marknadsföringsmaterial som kan tilltala olika personer. Det är här som dynamiskt innehåll kommer in på spel.
 
