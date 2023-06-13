@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 ---
 
 
-# Kom igång med dynamiskt innehåll
+# Kom igång med dynamiskt innehåll {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ Som marknadsförare är det viktigt att inrikta sig på kunder som verkligen är
 
 Med Adobe Campaign funktioner för dynamiskt webbinnehåll kan du anpassa ditt innehåll baserat på den information du har samlat in om dina mottagare. Genom att använda dynamiskt innehåll ser du till att era marknadsföringssatsningar är mer relevanta och undviker att marknadsföra oönskade eller onödiga produkter eller tjänster. På så sätt blir innehållet mer tilltalande och sannolikheten för att det läses ökar. Dessutom kan ni anpassa innehållet så att mottagarna känner att de får information från en person snarare än en dator.
 
-## Hur gör man ert innehåll dynamiskt?
+## Hur gör jag ert innehåll dynamiskt? {#make-content-dyn}
 
 Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstruktioner i webbuttrycksredigeraren för Campaign. Vid sändning av meddelanden tolkas dessa uttryck av Adobe Campaign för att leverera rätt innehåll till var och en av mottagarna:
 
@@ -65,7 +65,7 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 >
 >Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
 
-## Låt oss dyka djupare
+## Låt oss dyka djupare {#dive-deeper}
 
 Nu när du har en förståelse för hur du gör ditt innehåll dynamiskt är det dags att gå djupare in i dessa dokumentationsavsnitt för att börja arbeta med funktionen.
 
