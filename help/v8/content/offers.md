@@ -4,9 +4,9 @@ title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Så här skickar du erbjudanden via e-post:
 
    ![](assets/create-content-offers.png)
 
-1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
+1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras. När du väljer en mapp inkluderas alla undermappar automatiskt och kan inte tas bort. Observera att användargränssnittet inte återspeglar detta beteende.
 
    Om ingen kategori anges beaktas alla erbjudanden i miljön, såvida inte en **[!UICONTROL Offer theme]** är markerat.
 
