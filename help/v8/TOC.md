@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 11%
 
 ---
@@ -48,11 +48,6 @@ ht-degree: 11%
             + [Definiera ett format för länkar](content/styling-links.md)
             + [Lägg till textbundna formatattribut](content/inline-styling.md)
          + [Skicka erbjudanden](content/offers.md)
-      + Förhandsgranska och testa din e-post {#preview-test}
-         + [Förhandsgranska och testa](preview-test/preview-test.md)
-         + [Förhandsgranska e-postinnehåll](preview-test/preview-content.md)
-         + [Återge din e-post](preview-test/email-rendering.md)
-         + [Skicka testmeddelanden](preview-test/proofs.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
          + [Övervaka leveransloggar](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 11%
       + [Lägg till personalisering](personalization/personalize.md)
       + [Lägga till villkorligt innehåll](personalization/conditions.md)
       + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
+   + Förhandsgranska och testa leveransen {#preview-test}
+      + [Förhandsgranska och testa](preview-test/preview-test.md)
+      + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
+      + [Skicka testleveranser](preview-test/proofs.md)
+      + [Återge din e-post](preview-test/email-rendering.md)
 + Målgrupper och mottagare {#audiences}
    + [Kom igång med målgrupper](audience/about-audiences.md)
    + [Välj en befintlig målgrupp](audience/add-audience.md)

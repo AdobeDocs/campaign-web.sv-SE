@@ -1,32 +1,38 @@
 ---
 audience: end-user
-title: Förhandsgranska e-postinnehåll
-description: Lär dig hur du förhandsgranskar ditt e-postinnehåll med webbgränssnittet för Campaign
+title: Förhandsgranska leveransinnehåll
+description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '312'
+ht-degree: 3%
 
 ---
 
 
-# Förhandsgranska e-postinnehåll {#preview-content}
+# Förhandsgranska leveransinnehåll {#preview-content}
 
-Använd [!DNL Campaign] funktioner för simulering av innehåll för att förhandsgranska innehållet i ditt e-postmeddelande innan det skickas. På så sätt kan du styra personaliseringen och kontrollera hur den visas för mottagarna.
+Använd [!DNL Campaign] innehållssimulering för att förhandsgranska innehållet i meddelandet innan det skickas. På så sätt kan du styra personaliseringen och kontrollera hur den visas för mottagarna.
 
-Om du vill förhandsgranska innehållet i ditt e-postmeddelande följer du stegen nedan.
+Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
-1. Bläddra till e-postmeddelandet [Redigera innehåll](../content/edit-content.md) eller till [E-postdesigner](../content/get-started-email-designer.md).
+1. Bläddra till skärmen Redigera innehåll för leveransen.
+
+   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
 
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
 
    ![](assets/simulate-button.png)
 
-1. Använd **[!UICONTROL Add test profile(s)]** för att välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll.
+1. Om du vill välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll använder du:
 
-1. Du kan kombinera testprofiler och profiler för att förhandsgranska e-postmeddelandet.
+   * **[!UICONTROL Add test profile(s)]** för förhandsgranskning av e-post och SMS-meddelanden
+
+   * **[!UICONTROL Add subscribers]** för förhandsgranskning av push-leveranser
+
+1. Du kan kombinera testprofiler och profiler för att förhandsgranska ditt e-postmeddelande eller SMS.
 
    * The **[!UICONTROL Test profiles]** På -fliken visas alla dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen.
 
@@ -38,19 +44,20 @@ Om du vill förhandsgranska innehållet i ditt e-postmeddelande följer du stege
 
    ![](assets/simulate-select-profiles.png)
 
-1. Klicka **[!UICONTROL Select]** för att bekräfta ditt val på båda flikarna.
+1. Klicka **[!UICONTROL Select]** för att bekräfta valet.  
 
-   En förhandsgranskning av e-postmeddelandet visas i den högra rutan i dialogrutan **[!UICONTROL Simulate]** skärm. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
+   En förhandsgranskning av leveransinnehållet visas i den högra rutan i dialogrutan **[!UICONTROL Simulate]** skärm. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
 
    ![](assets/simulate-preview.png)
 
-1. Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande e-postinnehåll. Du kan också lägga till fler testprofiler och ta bort markeringen med motsvarande knappar i den vänstra rutan.
+1. Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande leveransinnehåll. Du kan också lägga till fler testprofiler och ta bort markeringen med motsvarande knappar i den vänstra rutan.
 
-1. Du kan justera **[!UICONTROL Zoom level]** och förhandsgranska innehållet på datorn eller en mobil enhet med den dedikerade ikonen i det övre högra hörnet.
+1. För e-postleveranser kan du justera **[!UICONTROL Zoom level]** och förhandsgranska innehållet på datorn eller en mobil enhet med den dedikerade ikonen i det övre högra hörnet.
 
 1. Från **[!UICONTROL Simulate]** kan du också:
-   * Kontrollera e-poståtergivningen i vanliga e-postklienter - [Läs mer](email-rendering.md)
-   * Skicka testmeddelanden till specifika mottagare för validering - [Läs mer](proofs.md)
+   * Skicka testleveranser till specifika mottagare för validering - [Läs mer](proofs.md)
+   * Få åtkomst till loggarna för skickade testleveranser - [Läs mer](proofs.md#access-proofs)
+   * Kontrollera innehållsåtergivningen i vanliga e-postklienter endast för e-post - [Läs mer](email-rendering.md)
 
 
 

@@ -3,52 +3,55 @@ audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska och skicka en SMS-leverans {#send-sms}
+# Förhandsgranska och skicka en SMS-leverans {#send-sms-delivery}
 
 ## Förhandsgranska SMS-leveransen{#preview-sms}
 
-När du har definierat meddelandeinnehållet kan du använda testprofiler för att förhandsgranska och testa det. Om du har inkluderat anpassat innehåll kan du undersöka hur det här innehållet visas i meddelandet genom att använda testprofildata. På så sätt kan du se till att meddelandet visas som det ska och att all personlig information presenteras korrekt.
+När du har definierat meddelandeinnehållet kan du använda testprofiler för att förhandsgranska och testa det. Om du har inkluderat anpassat innehåll kan du undersöka hur det här innehållet visas i meddelandet med hjälp av testprofildata. På så sätt kan du se till att meddelandet visas som det ska och att all personlig information presenteras korrekt.
 
-1. Från din sida med leveransinnehåll kan du använda **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
+De viktigaste stegen för att förhandsgranska SMS-leveransen är följande. Mer information om hur du förhandsgranskar leveranser finns i [det här avsnittet](../preview-test/preview-content.md).
+
+1. Använd **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
 
    ![](assets/sms_send_1.png)
 
 1. Klicka **[!UICONTROL Add test profile(s)]** om du vill välja en eller flera testprofiler eller profiler.
 
-1. När du har valt testprofiler klickar du på **[!UICONTROL Select]**.
+   <!--
+    Once your test profiles are selected, click **[!UICONTROL Select]**.
+    ![](assets/sms_send_2.png)
+    -->
 
-   ![](assets/sms_send_2.png)
-
-1. I den högra rutan hittar du en förhandsgranskning av e-postmeddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
+1. I den högra rutan hittar du en förhandsgranskning av SMS-leveransen, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
    ![](assets/sms_send_3.png)
 
 Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
 
-## Testa SMS-leveransen {#test-send-sms}
+## Testa SMS-leveransen {#test-sms}
 
 Med **Adobe Campaign** kan du testa ett meddelande innan du skickar det till huvudmålgruppen, vilket är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem.
 
 Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvaliteten och effektiviteten vid leveransen. Testmottagarna kan granska olika element som länkar, avanmälningslänkar och bilder samt identifiera eventuella fel i återgivning, innehåll, personaliseringsinställningar och SMS-konfiguration. Denna process hjälper er att utvärdera och optimera ert SMS noggrant innan ni når er huvudmålgrupp.
 
-![](../assets/do-not-localize/book.png) Lär dig hur du skickar test-SMS i det här [page](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Lär dig hur du skickar test-SMS i [det här avsnittet](../preview-test/proofs.md).
 
 ![](assets/sms_send_6.png)
 
-## Skicka SMS-leverans {#preview-send-sms}
+## Skicka SMS-leverans {#send-sms}
 
 1. När du har anpassat ditt SMS-innehåll klickar du på **[!UICONTROL Review & send]** från **[!UICONTROL Delivery]** sida.
 
    ![](assets/sms_send_4.png)
 
-1. Klicka **[!UICONTROL Prepare]**och övervaka framstegen och statistiken.
+1. Klicka **[!UICONTROL Prepare]** och övervaka framstegen och statistiken.
 
    Om det uppstår några fel hittar du detaljerad information om felet på loggmenyn.
 
@@ -58,7 +61,7 @@ Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvalitete
 
 1. Bekräfta skicka-åtgärden genom att klicka på knappen **[!UICONTROL Send]** -knappen.
 
-När leveransen har skickats kan du spåra dina KPI-data (Key Performance Indicator) från leveranssidan och data från loggmenyn.
+När leveransen har skickats kan du spåra dina KPI-data (Key Performance Indicator) från leveranssidan och data från **[!UICONTROL Logs]** -menyn.
 
 Nu kan du börja mäta effekten av ditt meddelande med inbyggda rapporter. [Läs mer](../reporting/sms-report.md)
 
