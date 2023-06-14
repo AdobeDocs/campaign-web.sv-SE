@@ -4,7 +4,7 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 3%
@@ -28,9 +28,9 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
 1. Om du vill välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll använder du:
 
-   * **[!UICONTROL Add test profile(s)]** för förhandsgranskning av e-post och SMS-meddelanden
+   * **[!UICONTROL Add test profile(s)]** för förhandsgranskning av e-post- och SMS-leveranser
 
-   * **[!UICONTROL Add subscribers]** för förhandsgranskning av push-leveranser
+   * **[!UICONTROL Add subscriber(s)]** för förhandsgranskning av push-meddelanden
 
 1. Du kan kombinera testprofiler och profiler för att förhandsgranska ditt e-postmeddelande eller SMS.
 
