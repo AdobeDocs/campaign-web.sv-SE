@@ -4,9 +4,9 @@ title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,7 @@ Så här skickar du erbjudanden via e-post:
 
    Om ingen kategori anges beaktas alla erbjudanden i miljön, såvida inte en **[!UICONTROL Offer theme]** är markerat.
 
-   >[!NOTE]
-   >
-   >Teman är nyckelord som definieras uppströms i kategorierna. De fungerar som ett filter och låter dig förfina antalet erbjudanden som ska presenteras genom att välja dem i en uppsättning kategorier.
+1. (valfritt) Ange ett tema för att filtrera kategorier. Teman är nyckelord som definieras uppströms i kategorierna. De fungerar som ett filter och låter dig förfina antalet erbjudanden som ska presenteras genom att välja dem i en uppsättning kategorier.
 
 1. Använd **[!UICONTROL Propositions]** för att ange antalet erbjudanden som du vill infoga i e-postmeddelandet.
 
