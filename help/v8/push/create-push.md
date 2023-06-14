@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 3%
+source-wordcount: '302'
+ht-degree: 4%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 3%
 
 1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
-1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i ditt push-meddelande.
+1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i ditt push-meddelande. [Läs mer](content-push.md)
+
+   ![](assets/push_create_5.png)
+
+   Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../content/offers.md).
 
 1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
 

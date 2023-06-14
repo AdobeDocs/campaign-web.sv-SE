@@ -4,9 +4,9 @@ title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: a66fe155aa1543d53c3ba1b5620159240d50bf3a
+source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Skicka erbjudanden {#offers-content}
 
-Med Adobe Campaign v8 Web kan du skicka med e-posterbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Med Adobe Campaign v8 Web kan du skicka med leveranserbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-Så här skickar du erbjudanden via e-post:
+Så här skickar du erbjudanden med en leverans:
 
-1. [Konfigurera erbjudandena att föreslå](#configure),
-1. [Infoga erbjudandena i e-postmeddelandet](#insert).
+1. [Konfigurera erbjudandena att föreslå](#configure)
+1. [Lägg in erbjudandena i leveransen](#insert)
 
 ## Konfigurera erbjudandena att föreslå {#configure}
 
@@ -30,24 +30,30 @@ Så här skickar du erbjudanden via e-post:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Avancerade inställningar för erbjudanden"
+>title="Erbjuder avancerade inställningar"
 >abstract="Konfigurera avancerade alternativ för erbjudanden."
 
-1. Klicka på knappen **[!UICONTROL Offers]** från skärmen för utgåva av e-postinnehåll.
+1. Klicka på **[!UICONTROL Set up offers]** på skärmen för utgåva av leveransinnehåll.
 
    ![](assets/setup-offers.png)
 
-1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna. Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö.
+1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna.
+
+   Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme på [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
-1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras. När du väljer en mapp inkluderas alla undermappar automatiskt och kan inte tas bort. Observera att användargränssnittet inte återspeglar detta beteende.
+1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
 
-   Om ingen kategori anges beaktas alla erbjudanden i miljön, såvida inte en **[!UICONTROL Offer theme]** är markerat.
+   När du väljer en mapp inkluderas alla undermappar automatiskt och kan inte tas bort. Observera att [!DNL Campaign] gränssnittets beteende återspeglas inte.
+
+   >[!NOTE]
+   >
+   >Om ingen kategori anges beaktas alla erbjudanden i miljön, såvida inte en **[!UICONTROL Offer theme]** är markerat.
 
 1. (valfritt) Ange ett tema för att filtrera kategorier. Teman är nyckelord som definieras uppströms i kategorierna. De fungerar som ett filter och låter dig förfina antalet erbjudanden som ska presenteras genom att välja dem i en uppsättning kategorier.
 
-1. Använd **[!UICONTROL Propositions]** för att ange antalet erbjudanden som du vill infoga i e-postmeddelandet.
+1. Använd **[!UICONTROL Propositions]** för att ange antalet erbjudanden du vill infoga i leveransen.
 
 1. Välj **[!UICONTROL Exclude non-eligible recipients]** vid behov.
 
@@ -63,27 +69,40 @@ Så här skickar du erbjudanden via e-post:
    * Om alternativet är aktiverat visas inte representationen av det saknade förslaget och inget innehåll visas i meddelandet för det här förslaget.
    * Om alternativet är inaktiverat avbryts själva meddelandet när det skickas och mottagarna kan inte längre ta emot några meddelanden.
 
-När du har konfigurerat erbjudandena att föreslå i ditt e-postmeddelande kan du infoga dem i e-postmeddelandet med hjälp av uttrycksredigeraren. [Lär dig hur du infogar erbjudanden i e-postmeddelandet](#insert)
+När du har konfigurerat de erbjudanden du vill föreslå i leveransen kan du infoga dem i leveransinnehållet med Uttrycksredigeraren.
 
-## Infoga erbjudanden i e-postmeddelandet {#insert}
+## Lägg in erbjudanden i leveransen {#insert}
 
-Erbjudanden kan läggas till i e-postmeddelandet med uttrycksredigeraren. De kan infogas antingen:
+Erbjudandena kan läggas till i leveransen med [Uttrycksredigeraren](../personalization/gs-personalization.md#access). De kan läggas in antingen på ärenderaden eller i leveransenheten.
 
-* I e-postens ämnesrad
-* I e-postbrödtexten genom att tillåta personalisering i alla innehållskomponenter. [Lär dig hur du lägger till innehållskomponenter](content-components.md)
-
->[!NOTE]
+>[!CAUTION]
 >
->Innan du infogar ett erbjudande måste du se till att du har [konfigurerade vilka erbjudanden som ska erbjudas med e-postmeddelandet](#configure).
+>Kontrollera att du har [konfigurerade vilka erbjudanden som ska erbjudas med den leveransen](#configure).
 
-Så här infogar du ett erbjudande med Expression Editor:
+Följ stegen nedan för att infoga ett erbjudande med Expression Editor.
 
-1. Öppna uttrycksredigeraren och välj sedan **[!UICONTROL Propositions]** -menyn.
+1. Gå till ämnesraden eller innehållet i alla leveranser.
 
-   Tillgängliga förslag visas i listan. Antalet offerter definieras när erbjudandena konfigureras.
+1. Placera muspekaren där du vill infoga erbjudandet och öppna uttrycksredigeraren med personaliseringsikonen.
+
+1. Välj **[!UICONTROL Propositions]** -menyn. Tillgängliga förslag visas i listan.
+
+   >[!NOTE]
+   >
+   >Antalet offerter definieras när [konfigurera erbjudanden](#configure) för aktuell leverans.
 
    ![](assets/offer-insertion.png)
 
-1. Lägg till förslagen i e-postmeddelandets ämne eller innehåll med hjälp av anpassningsfälten, återgivningsfunktionerna eller de attribut som är tillgängliga för varje erbjudande.
+1. Lägg till offerterna på ämnesraden eller i leveransbrödtexten med hjälp av anpassningsfälten, återgivningsfunktionerna eller de attribut som är tillgängliga för varje erbjudande.
 
    ![](assets/offer-inserted.png)
+
+   >[!NOTE]
+   >
+   >Antalet tillgängliga offerter beror på hur motoranropet är konfigurerat och deras ordning beror på erbjudandenas prioritet.
+
+1. Spara ändringarna.
+
+1. Slutför innehållet, testa och skicka leveransen.
+
+När en mottagare får leveransen visas rätt erbjudande för just den profilen.

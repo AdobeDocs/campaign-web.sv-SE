@@ -4,9 +4,9 @@ title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Alpha"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '286'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,11 @@ ht-degree: 7%
 
 1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
-1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet.
+1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet. [Läs mer](content-sms.md)
+
+   ![](assets/sms_create_4.png)
+
+   Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../content/offers.md).
 
 1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
 
