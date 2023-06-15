@@ -4,9 +4,9 @@ title: Förhandsgranska och testa e-post
 description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Förhandsgranska och testa dina meddelanden"
 >abstract="När meddelandeinnehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Förhandsgranska leveransinnehållet"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Skicka testmeddelanden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="Förhandsgranska leveransinnehållet"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="Skicka testmeddelanden"
 
 När leveransinnehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det innan du skickar meddelandet.
 

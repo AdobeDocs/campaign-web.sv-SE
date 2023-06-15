@@ -4,10 +4,10 @@ title: Kom igång med SMS-leveranser
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ SMS-kanalen erbjuder tre metoder för att skapa SMS-leveranser:
 
 * **Fristående leveranser**: Skapa individuella SMS-leveranser för snabb och direkt kommunikation med kunderna, utan behov av arbetsflöden eller kampanjer.
 
-![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar SMS-kanal i det här [page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
+![](../assets/do-not-localize/book.png) Lär dig konfigurera SMS-kanal i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

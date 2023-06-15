@@ -4,10 +4,10 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
      >[!NOTE]
      >
-     >Testprofiler kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >Testprofiler kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] konsol. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
+   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som lagras i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] konsol. Läs mer i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

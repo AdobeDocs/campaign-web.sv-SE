@@ -4,10 +4,10 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ Läs mer om konsekvens och kapacitetsregler och hur du konfigurerar dem i [Kampa
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen.
 
-Läs mer om målmappningar i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Läs mer om målmappningar i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Leverans {#delivery}
 
@@ -92,7 +92,7 @@ Leveransparametrar är tekniska inställningar som gäller för leveransen.
 
 * **Testa SMTP-leverans**: det här alternativet används för att testa att skicka via SMTP. Leveransen behandlas upp till anslutningen till SMTP-servern men skickas inte: för varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
-* **BCC för e-post**: Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer om e-postkopia i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **BCC för e-post**: Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer om e-postkopia i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
@@ -105,7 +105,7 @@ Leveransparametrar är tekniska inställningar som gäller för leveransen.
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Läs mer om hantering av nya försök i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Läs mer om hantering av nya försök i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Godkännande {#approval}
 
@@ -147,7 +147,7 @@ Du kan också välja att ange datum. Välj **Ange giltighetsdatum explicit**. I 
 ![](assets/delivery-settings-2.png)
 
 
-Läs mer om giltighetsperioden för leverans i [Kampanjdokumentation v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Läs mer om giltighetsperioden för leverans i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Hantering av spegelsidor {#mirror}
 
