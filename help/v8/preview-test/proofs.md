@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '836'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
    ![](assets/simulate-test-button-email.png)
 
-1. Använd **[!UICONTROL Mode]** nedrullningsbar lista för att välja vilken typ av mottagare som tar emot testmeddelandet eller SMS-leveransen:
+1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **Testprofiler** för att rikta sig till fiktiva mottagare som får testmeddelandet eller SMS-leveransen.
 
-   * **Testprofiler** inrikta sig på fiktiva mottagare
-
-   Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
-
-   * **Ersätt från huvudmål** för att skicka ett test till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas. [Läs mer](#substitution-profiles)
+1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
 ### Ersättningsprofiler {#substitution-profiles}
 
-Om du vill skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst telefonnummer och samtidigt visa data från en befintlig profil i Campaign-databasen använder du ersättningsprofiler.
+Skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil i [!DNL Campaign] använder du ersättningsprofiler.
 
-Om du vill göra det är de första stegen desamma som när du markerar [testprofiler](#test-profiles), men välj **[!UICONTROL Substitute from target]** och följ stegen nedan.
+1. Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/about-audiences.md)
+
+1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
+
+1. Klicka på knappen **[!UICONTROL Test]**.
+
+   >[!NOTE]
+   >
+   >Om du redan har valt profiler till [förhandsgranska leveransen](preview-content.md), visas de i den vänstra rutan.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **Ersätt från huvudmål** för att skicka ett test till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
 
 1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress eller det telefonnummer som ska ta emot testleveransen.
 
