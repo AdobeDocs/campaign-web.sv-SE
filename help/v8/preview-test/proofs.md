@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
    ![](assets/simulate-test-button-email.png)
 
-1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **Testprofiler** för att rikta sig till fiktiva mottagare som får testmeddelandet eller SMS-leveransen.
-
-1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
+1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **[!UICONTROL Test profiles]** för att rikta sig till fiktiva mottagare som får testmeddelandet eller SMS-leveransen.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst te
 
 1. Klicka på knappen **[!UICONTROL Test]**.
 
-   >[!NOTE]
-   >
-   >Om du redan har valt profiler till [förhandsgranska leveransen](preview-content.md), visas de i den vänstra rutan.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **Ersätt från huvudmål** för att skicka ett test till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
+1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **[!UICONTROL Substitute from main target]** för att skicka ett test till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
+
+   >[!CAUTION]
+   >
+   >Om du inte har valt en [publik](../audience/about-audiences.md) för leverans, **[!UICONTROL Substitute from main target]** är nedtonat och du kan inte välja ersättningsprofiler.
 
 1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress eller det telefonnummer som ska ta emot testleveransen.
 
-   Du kan ange valfri e-postadress eller valfritt telefonnummer. Detta gör att du kan skicka testleveranser till alla mottagare, även om de inte är användare av [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Du kan ange valfri e-postadress eller valfritt telefonnummer. Detta gör att du kan skicka testleveranser till alla mottagare, även om de inte är användare av [!DNL Adobe Campaign].
 
 1. Välj den profil från databasen som ska användas som ersättning. Du kan också låta [!DNL Adobe Campaign] välj en slumpmässig profil. Profildata från den valda profilen visas vid testleveransen.
 
@@ -105,7 +109,9 @@ När du arbetar med push-meddelanden kan testleveranser bara skickas till prenum
 
    ![](assets/simulate-test-button-push.png)
 
-1. Om du redan har valt abonnenter på [förhandsgranska leveransen](preview-content.md) på skärmen för innehållssimulering är dessa profiler förvalda som testprenumeranter. Du kan rensa urvalet och/eller lägga till ytterligare prenumeranter med den dedikerade knappen.
+1. Om du redan har valt abonnenter på [förhandsgranska leveransen](preview-content.md) på skärmen för innehållssimulering är dessa profiler förvalda som testprenumeranter.
+
+   Du kan rensa urvalet och/eller lägga till ytterligare prenumeranter med den dedikerade knappen.
 
    ![](assets/simulate-test-subscribers.png)
 
