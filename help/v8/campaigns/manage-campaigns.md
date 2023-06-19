@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Få tillgång till och hantera era kampanjer{#manage-campaigns}
 
-Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på **[!UICONTROL Campaigns]** -menyn.
+Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på **[!UICONTROL Campaigns]** till vänster.
 
 ## Kampanjlistan{#access-campaigns}
 
@@ -25,9 +25,9 @@ Det finns två flikar i kampanjlistan:
 
 ![Kampanjlista](assets/campaign-list.png)
 
-Varje kampanj i listan visar information om dess aktuella status, skapandedatum, senaste gången den ändrades osv.
+Som standard visar varje kampanj i listan information om dess aktuella status, skapandedatum, senaste gången den ändrades, osv.
 
-Du kan anpassa de kolumner som visas genom att klicka på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan. På så sätt kan du lägga till ytterligare information i listan. Dessutom finns det ett sökfält och filter som gör det enklare att söka i listan. [Läs mer](../get-started/user-interface.md#list-screens)
+Du kan anpassa de kolumner som visas genom att klicka på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan. På så sätt kan du lägga till ytterligare information i listan. Dessutom finns det ett sökfält och filter som gör det enklare att söka i listan. [Läs mer](../get-started/user-interface.md#list-screens).
 
 Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och använd **Start - slutdatum** avsnitt:
 
@@ -45,7 +45,7 @@ Det finns två flikar:
 
 * The **Arbetsflöden** På -fliken visas alla arbetsflöden som är kopplade till kampanjen. På den här fliken kan du även skapa ett nytt arbetsflöde i kampanjen. Se det här [section](create-campaigns.md#create-campaigns).
 
-* The **Leveranser** På fliken visas alla leveranser som är kopplade till kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns).
+* The **Leveranser** På fliken visas alla leveranser som är kopplade till den aktuella kampanjen. Du kan också skapa en ny leverans i kampanjen. Se det här [section](create-campaigns.md#create-campaigns).
 
 ## Duplicera och ta bort en kampanj
 

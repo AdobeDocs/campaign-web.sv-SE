@@ -4,9 +4,9 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Med Adobe Campaign kan ni enkelt samordna era riktade marknadsföringssatsningar
 
 Genom att lägga till flera arbetsflöden och leveranser som är specifika för kampanjen kan ni skapa personaliserade upplevelser i olika kanaler och säkerställa att varje kontaktyta passar den avsedda målgruppen.
 
-Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser.
+Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser. Upptäck hur du får tillgång till och förstår kampanjrapporter i [det här avsnittet](../reporting/campaign-reports.md).
 
 ![Kampanjflöde](assets/campaign-flow.png)
 
-Se följande avsnitt:
+Lär dig hur du skapar och hanterar kampanjer i följande avsnitt:
 
 * [Få tillgång till och hantera era kampanjer](manage-campaigns.md)
 * [Skapa din första kampanj](create-campaigns.md)
