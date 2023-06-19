@@ -4,14 +4,19 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
 # Skicka testleveranser {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Förhandsgranskningsläge"
+>abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
 **[!UICONTROL Adobe Campaign]** gör att du kan testa ett meddelande innan det skickas till huvudmålgruppen.
 
@@ -20,6 +25,15 @@ Att skicka testleveranser är ett viktigt steg när det gäller att validera kam
 Mottagarna av ett test kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
 
 ## Välj testmottagare {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Testpopulation"
+>abstract="Välj ett testpopulationsläge."
+
+
 
 Beroende på vilken kanal du använder kan testmeddelanden skickas till tre typer av mottagare:
 
@@ -38,6 +52,7 @@ Beroende på vilken kanal du använder kan testmeddelanden skickas till tre type
 Om du vill välja mottagare för en testleverans följer du stegen nedan beroende på vilken typ av profiler du vill använda.
 
 ### Testprofiler {#test-profiles}
+
 
 1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
 

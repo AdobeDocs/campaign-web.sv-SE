@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,7 @@ Mer information om Campaign Explorer, mapphierarkin och resurser finns i [Kampan
 >title="Kampanjer"
 >abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Klicka på knappen Skapa kampanj för att lägga till en ny kampanj. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Bläddra till fliken Mallar för att visa och skapa mallar."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Leveranser"
->abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
+
 
 I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Felmått"
 >abstract="Antal e-postmeddelanden med felstatus."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Testpopulation"
->abstract="Välj ett testpopulationsläge."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Förhandsgranskningsläge"
->abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
