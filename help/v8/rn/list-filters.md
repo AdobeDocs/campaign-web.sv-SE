@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Dessutom visas alla data och inställningar som redan är tillgängliga i klient
 Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web UI och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
 * Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturmålet kallas nu **Testprofiler**
-* Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen
+* Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare mottagare i databasen
 * Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** knapp
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
 * Listor finns nu **Målgrupper**
