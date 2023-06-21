@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 3%
@@ -150,7 +150,6 @@ Så här konfigurerar du en leveransmall från grunden:
    > * [Push-meddelandekanal](../push/gs-push.md)
    > * [SMS-kanal](../sms/create-sms.md)
 
-
 1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
 
 1. Testa mallåtergivningen vid behov. [Läs mer](#test-template)
@@ -171,7 +170,7 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 1. Växla mellan de olika profilerna för att få en personlig representation av meddelandet enligt den valda profilen.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Du kan också justera zoomnivån och välja skrivbordsvy eller mobilvy.
 

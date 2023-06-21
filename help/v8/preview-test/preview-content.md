@@ -4,10 +4,10 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
@@ -55,8 +55,8 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 1. För e-postleveranser kan du justera **[!UICONTROL Zoom level]** och förhandsgranska innehållet på datorn eller en mobil enhet med den dedikerade ikonen i det övre högra hörnet.
 
 1. Från **[!UICONTROL Simulate]** kan du också:
-   * Skicka testleveranser till specifika mottagare för validering - [Läs mer](proofs.md)
-   * Få åtkomst till loggarna för skickade testleveranser - [Läs mer](proofs.md#access-proofs)
+   * Skicka testleveranser till specifika mottagare för validering - [Läs mer](test-deliveries.md)
+   * Få åtkomst till loggarna för skickade testleveranser - [Läs mer](test-deliveries.md#access-proofs)
    * Kontrollera innehållsåtergivningen i vanliga e-postklienter endast för e-post - [Läs mer](email-rendering.md)
 
 

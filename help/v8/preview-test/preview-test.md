@@ -4,9 +4,9 @@ title: Förhandsgranska och testa e-post
 description: Lär dig hur du förhandsgranskar och testar e-postmeddelanden
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Detta är ett viktigt steg för att säkerställa att det är korrekt, men även
 För att göra detta [!DNL Adobe Campaign] gör att du kan:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
-* [Skicka testleveranser](proofs.md) till specifika mottagare eller prenumeranter för testning och validering
+* [Skicka testleveranser](test-deliveries.md) (korrektur) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
 
 Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt på skärmen Redigera innehåll.
