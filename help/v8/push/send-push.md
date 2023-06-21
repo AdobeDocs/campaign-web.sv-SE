@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Testmottagarna kan granska element som länkar, bilder och personaliseringsinst�
 
    ![](assets/push_send_2.png)
 
-1. Klicka **[!UICONTROL Prepare]**och övervaka framstegen och statistiken.
+1. Klicka **[!UICONTROL Prepare]** och övervaka framstegen och statistiken.
 
    Om det uppstår några fel hittar du detaljerad information om felet på loggmenyn.
 

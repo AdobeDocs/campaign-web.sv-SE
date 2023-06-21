@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '873'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ Skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst te
    >
    >Du kan ange valfri e-postadress eller valfritt telefonnummer. Detta gör att du kan skicka testleveranser till alla mottagare, även om de inte är användare av [!DNL Adobe Campaign].
 
-1. Välj den profil från databasen som ska användas som ersättning. Du kan också låta [!DNL Adobe Campaign] välj en slumpmässig profil. Profildata från den valda profilen visas vid testleveransen.
+1. Välj profilen från det mål som du har definierat för leveransen som ska användas som ersättning. Du kan också låta [!DNL Adobe Campaign] välj en slumpmässig profil från målet. Profildata från den valda profilen visas vid testleveransen.
 
 1. Bekräfta mottagaren och upprepa åtgärden för att lägga till så många e-postadresser eller telefonnummer som behövs.
 
