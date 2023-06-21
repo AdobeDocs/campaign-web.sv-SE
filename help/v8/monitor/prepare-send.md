@@ -4,71 +4,71 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 4%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
 
 # Förbered och skicka e-post {#prepare-send}
 
+## Förbered sändningen {#prepare}
 
-<!--
+När du har definierat [innehåll](../content/edit-content.md), [publik](../audience/add-audience.md) och schemalägga är du redo att förbereda din e-postleverans.
 
-	show how to prepare and send the email + the live kpis in the dashboard
-
-like acc when preparation, target calculated then send
-real time KPIs, not in AJO. similar to ACS.
-exclusion logs, causes
--->
-
-<!--
-send also KPIs
--->
-
-## Förbered sändningen{#prepare}
-
-När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att ta fram ert budskap. Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och klockslaget.
+Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och klockslaget.
 
 Valideringsreglerna som används vid leveransförberedelsen beskrivs i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
-Följ stegen nedan:
+De viktigaste stegen för att förbereda sändningen visas nedan.
 
-1. Klicka på **Förbered** i det övre högra hörnet och bekräfta.
+1. Klicka på **[!UICONTROL Review and send]**.
 
-   ![](assets/prepare.png)
+   ![](assets/email-review-and-send.png)
 
-   Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
+
+1. Klicka på **[!UICONTROL Prepare]** i det övre högra hörnet och bekräfta.
+
+   ![](assets/email-prepare.png)
 
    >[!NOTE]
    >
-   >Du kan när som helst avbryta beredningen med **Stoppa förberedelse** -knappen. Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
+   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om schemaläggning](../email/create-email.md#schedule)
+
+1. Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
+
+   Du kan när som helst avbryta beredningen med **[!UICONTROL Stop preparation]** -knappen.
+
+   ![](assets/email-stop-preparation.png)
+
+   >[!NOTE]
+   >Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
 
 1. Kontrollera KPI:erna när färdigställandet är klart. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
 
-   ![](assets/prepare2.png)
+   ![](assets/email-preparation-complete.png)
 
    Här visas olika KPI:er:
 
-   * **Målinriktad**: antalet mottagare
-   * **Att leverera**: antalet meddelanden som ska skickas
-   * **Att exkludera**: antalet meddelanden som utelämnats av en typologiregel
+   * **[!UICONTROL Targeted]**: antalet mottagare.
+   * **[!UICONTROL To deliver]**: antalet meddelanden som ska skickas.
+   * **[!UICONTROL To exclude]**: antalet meddelanden som utelämnats av en [typologiregel](../advanced-settings/delivery-settings.md#typology).
 
-1. Klicka på **Loggar** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. Mer information finns i [det här avsnittet](delivery-logs.md).
+1. Klicka på **[!UICONTROL Logs]** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. [Läs mer](delivery-logs.md)
 
-   ![](assets/prepare-logs.png)
+   ![](assets/email-prepare-logs.png)
 
-Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
+1. Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
 
-![](assets/prepare-error.png)
+   ![](assets/email-prepare-error.png)
 
-Om du behöver göra några ändringar i leveransen efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
+1. Om du ändrar något efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
 
-När färdigställandet är klart utan fel är ditt meddelande klart att skickas. Mer information finns i [det här avsnittet](#send).
+När färdigställandet är klart utan fel är ditt meddelande klart att skickas.
 
-## Skicka meddelandet{#send}
+## Skicka meddelandet {#send}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
@@ -85,27 +85,66 @@ När färdigställandet är klart utan fel är ditt meddelande klart att skickas
 >title="Klickningar"
 >abstract="Antalet mottagare som klickade minst en gång i e-postmeddelandet. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden."
 
+När [förberedelse](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
 
-När färdigställandet är klart kan du nu skicka ditt meddelande. Det här steget krävs bara för meddelanden som skickas omedelbart. Om meddelandet är schemalagt skickas det vid angivet datum.
+Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](#schedule-the-send)
 
-Följ de här stegen:
+### Skicka omedelbart {#send-immediately}
 
-1. Klicka på **Skicka** i det övre högra hörnet och bekräfta.
+Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
-   ![](assets/send.png)
+1. Klicka på **[!UICONTROL Send]** i det övre högra hörnet.
 
-1. Sändningsförloppet visas. Kontrollera de KPI:er som visas. Du kan också kontrollera loggarna. Mer information finns i [det här avsnittet](delivery-logs.md).
+   ![](assets/email-send.png)
 
-   ![](assets/send2.png)
+1. Bekräfta den här åtgärden för att omedelbart skicka meddelandet till huvudmålet.
 
-   Här visas olika KPI:er:
+1. Sändningsförloppet visas.
 
-   * **Levererat**: antalet meddelanden som har levererats. Procentandelen som visas baseras på det totala antalet skickade meddelanden.
-   * **Öppnar**: antalet öppnade meddelanden. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden.
-   * **Klickningar**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden.
+### Schemalägg sändningen {#schedule-the-send}
+
+Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum och en senare tidpunkt följer du stegen nedan.
+
+1. Innan du trycker på **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../email/create-email.md#schedule)
+
+1. Klicka på **[!UICONTROL Send as scheduled button]** i det övre högra hörnet.
+
+   ![](assets/email-send-as-scheduled.png)
+
+1. Klicka på **[!UICONTROL Confirm sending]**. Leveransen skickas på det schemalagda datumet till huvudmålet.
 
    >[!NOTE]
    >
-   >Alla indikatorer uppdateras var femte minut efter att leveransen påbörjats. Indikatorerna för leveransförberedelser är i realtid.
+   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om schemaläggning](../email/create-email.md#schedule)
 
-   Du kan när som helst pausa sändningen och sedan återuppta den. Om du avbryter leveransen medan den skickas kan du inte återuppta den.
+## Pausa eller stoppa sändningen {#pause-stop-sending}
+
+Oavsett om leveransen är schemalagd eller inte kan två åtgärder utföras när som helst under sändningsprocessen:
+
+* Klicka **[!UICONTROL Pause sending]** för att avbryta sändningen av meddelandena. Du kan fortsätta skicka när som helst.
+
+* Klicka **[!UICONTROL Stop sending]** för att omedelbart avbryta sändningen. Varken förberedelsen eller sändningen kan återupptas när den har stoppats.
+
+![](assets/email-send-pause-or-stop.png)
+
+## Kontrollera nyckeltal {#check-kpis}
+
+När sändningen är klar kan du kontrollera de nyckeltal som visas:
+
+![](assets/email-send-kpis.png)
+
+* **[!UICONTROL Sent]**: antalet meddelanden som levereras. Procentandelen som visas baseras på det totala antalet meddelanden som ska levereras.
+
+* **[!UICONTROL Delivered]**: antalet meddelanden som har levererats. Procentandelen som visas baseras på det totala antalet skickade meddelanden.
+
+* **[!UICONTROL Opens]**: antalet öppnade meddelanden. Procentandelen som visas är antalet distinkta öppningar jämfört med antalet levererade meddelanden.
+
+* **[!UICONTROL Clicks]**: antalet mottagare som klickade minst en gång i e-postmeddelandet. Den procentandel som visas är antalet distinkta klick jämfört med antalet levererade meddelanden.
+
+* **[!UICONTROL Errors]**: antalet e-postmeddelanden med felstatus. Procentandelen som visas baseras på det totala antalet skickade meddelanden.
+
+>[!NOTE]
+>
+>Alla indikatorer uppdateras var femte minut efter att leveransen påbörjats. Indikatorerna för leveransförberedelser är i realtid.
+
+Du kan också kontrollera loggarna. [Läs mer](delivery-logs.md)
