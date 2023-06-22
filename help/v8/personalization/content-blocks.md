@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -34,10 +34,8 @@ Så här lägger du till ett innehållsblock i en leverans:
 
 Inbyggda innehållsblock är:
 
-* **[!UICONTROL Approval of Purl personalization]**
 * **[!UICONTROL Default opt-out banner]**
 * **[!UICONTROL Enabled by Adobe Campaign]**: infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
-* **[!UICONTROL Facebook pre-entering]**
 * **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
 * **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel: &quot;Hej John Doe.&quot;
 * **[!UICONTROL Insert Logo]**: infogar en logotyp som är definierad i instansinställningarna.
