@@ -3,9 +3,9 @@ audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktu
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Avancerade fält för regelbyggaren"
->abstract="Konfigurera kolumner med avancerade fält."
+>abstract="Konfigurera avancerade filter med avancerade fält."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
