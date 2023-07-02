@@ -4,10 +4,10 @@ title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 20%
+source-wordcount: '359'
+ht-degree: 25%
 
 ---
 
@@ -16,15 +16,22 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Leveransloggar"
->abstract="Med leveransloggarna kan du verifiera att det inte finns något fel."
+>abstract="Leveransloggarna visar information om sändningen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick."
 
-När du har förberett och skickat ett e-postmeddelande kan du med hjälp av leveransloggarna verifiera att det inte finns något fel. Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
+När leveransen är klar och du klickade på **Skicka** bläddra till leveransloggarna för att kontrollera varningar, fel, status, undantag och spårningsdata. Loggarna kan nås direkt från meddelandekontrollpanelen. De visar detaljerna för utskicket, vilket eller vilka mål som har uteslutits och varför de har uteslutits. De visar även spårningsinformation som exempelvis öppningar och klick.
 
 Om du vill visa loggarna öppnar du kontrollpanelen för leverans och klickar på **Loggar** -knappen.
 
-Flera flikar är tillgängliga:
+Följande flikar är tillgängliga:
 
-## Loggar
+* [Loggar](#logs-tab)
+* [Leveranser](#deliveries-tab)
+* [Undantag](#exclusion-tab)
+* [Uteslutningsorsaker](#exclusion-causes)
+* [Spårade URL:er](#tracked-urls)
+* [Spåra](#tracking)
+
+## Loggar {#logs-tab}
 
 The **Loggar** -fliken innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar.    
 
@@ -32,40 +39,42 @@ Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandet
 
 * Den grå ikonen visar ett informativt meddelande.
 * Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
-* Den röda ikonen anger ett kritiskt fel som förhindrar leverans.
+* Den röda ikonen anger ett kritiskt fel som förhindrar leverans. Allvarliga fel måste åtgärdas för att leveransen ska kunna skickas.
 
 ![](assets/logs.png)
 
-## Leveranser
+
+## Leveranser {#deliveries-tab}
 
 The **Skicka loggar** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
 ![](assets/logs2.png)
 
-## Undantag
+## Undantag {#exclusion-tab}
 
 The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från målet och orsaken till sändningsfelet anges.
 
 ![](assets/logs3.png)
 
-## Uteslutningsorsaker
+## Uteslutningsorsaker {#exclusion-causes-tab}
 
-The **Uteslutningsorsaker** -fliken visar volymen (i antal meddelanden) för meddelanden som har uteslutits från målet.
+The **Uteslutningsorsaker** för varje möjlig orsak visas antalet meddelanden som har uteslutits från målet.
 
 ![](assets/logs4.png)
 
-## Spårade URL:er
+## Spårade URL:er {#tracked-urls-tab}
 
-The **Spårade URL:er** På fliken grupperas URL:erna i det skickade meddelandet, inklusive deras URL-typ och deras käll-URL.
+The **Spårade URL:er** På fliken grupperas URL:erna i skickade meddelanden, inklusive deras URL-typ och deras käll-URL.
 
 ![](assets/logs5.png)
 
-## Spåra
+## Spåra {#tracking-tab}
 
 The **Spårning** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsdata för skickade meddelanden, d.v.s. alla URL:er som spåras av Adobe Campaign.
+
+
+![](assets/logs6.png)
 
 >[!NOTE]
 >
 >Om spårning inte är aktiverat för en leverans visas inte den här fliken.
-
-![](assets/logs6.png)
