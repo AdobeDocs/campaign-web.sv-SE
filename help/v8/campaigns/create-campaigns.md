@@ -4,9 +4,9 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 1%
 Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schemalägga och inkludera arbetsflöden och leveranser.
 
 ## Skapa kampanjen{#campaign-create}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampanjschema"
+>abstract="Definiera kampanjschemat när kampanjer skapas."
 
 Så här skapar du en ny kampanj:
 
@@ -59,7 +64,7 @@ Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knapp
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 

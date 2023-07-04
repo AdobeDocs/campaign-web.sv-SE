@@ -3,15 +3,20 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
 
 
 # Få tillgång till och hantera era kampanjer{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Kampanjschema"
+>abstract="Ange eller ändra kampanjschemat."
 
 Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på **[!UICONTROL Campaigns]** till vänster.
 
