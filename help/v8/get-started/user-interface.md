@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Webbanvändargränssnitt för Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -297,7 +297,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="KPI-fel"
 
 
-
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Arbetsflödeslista"
+>abstract="Lista över tillgängliga arbetsflöden för kampanjen. Använd knappen Skapa arbetsflöde för att lägga till ett arbetsflöde i kampanjen."
 
 <!-- delivery template settings-->
 
