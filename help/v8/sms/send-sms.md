@@ -2,15 +2,20 @@
 audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Alfa"
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Förhandsgranska och skicka en SMS-leverans {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="Nytt karantänmätvärde"
+>abstract="Totalt antal adresser i karantän efter misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras."
 
 ## Förhandsgranska SMS-leveransen{#preview-sms}
 
