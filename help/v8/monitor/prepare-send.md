@@ -3,10 +3,10 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+badge: label="Alfa"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '826'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,16 @@ Oavsett om leveransen är schemalagd eller inte kan två åtgärder utföras nä
 ![](assets/email-send-pause-or-stop.png)
 
 ## Kontrollera nyckeltal {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Skickade mått"
+>abstract="Totalt antal meddelanden som bearbetats under leveransanalysen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Felmått"
+>abstract="Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden."
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
 
