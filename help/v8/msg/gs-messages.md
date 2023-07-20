@@ -2,11 +2,11 @@
 audience: end-user
 title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveranser"
->abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter tillstånd, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
+>abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter status, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
 
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter.
