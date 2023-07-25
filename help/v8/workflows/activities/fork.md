@@ -2,8 +2,8 @@
 audience: end-user
 title: Använda arbetsflödesaktiviteten för gaffel
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Alfa"
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 18%

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 11%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 11%
       + [E-post, SMS, push](workflows/activities/channels.md)
       + [Berikning](workflows/activities/enrichment.md)
       + [Förgrening](workflows/activities/fork.md)
+      + [Dela](workflows/activities/split.md)
       + [Vänta](workflows/activities/wait.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)

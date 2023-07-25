@@ -2,11 +2,11 @@
 audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '316'
 ht-degree: 5%
 
 ---
@@ -31,6 +31,7 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring och beriknin
 * The [Bygg målgrupper](build-audience.md) kan du definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda regelbyggaren för att definiera en egen fråga.
 * The [Kombinera](combine.md) kan segmentera den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
 * The [Berikning](enrichment.md) kan du definiera ytterligare data som ska bearbetas i arbetsflödet. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.
+* The [Dela](split.md) kan du segmentera inkommande population i flera deluppsättningar.
 
 ## Kanalaktiviteter {#channel}
 
