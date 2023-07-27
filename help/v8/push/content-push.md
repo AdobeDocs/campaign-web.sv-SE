@@ -3,9 +3,9 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1256'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,13 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 >[!ENDTABS]
 
 ## Avancerade inställningar för push-meddelanden {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Avancerade inställningar för push-meddelanden"
+>abstract="Definiera avancerade inställningar för ditt push-meddelande, till exempel dess prioritet, antalet associerade meddelanden, programvariabler och mycket annat."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
