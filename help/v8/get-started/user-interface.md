@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Upptäck gränssnittet
-description: Webbanvändargränssnitt för Campaign v8
+description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
 source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
@@ -40,14 +40,14 @@ The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrad
 
 Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på startsidan.
 
-### Utforskaren {#user-interface-explorer}
+### Explorer {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="Utforskaren"
->abstract="The **Utforskaren** På -menyn visas alla Campaign-komponenter och -objekt med samma mapphierarki som på klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer. Alla andra listor är skrivskyddade."
+>title="Explorer"
+>abstract="The **Explorer** På -menyn visas alla Campaign-komponenter och -objekt med samma mapphierarki som på klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer. Alla andra listor är skrivskyddade."
 
-The **Utforskaren** I visas alla Campaign-resurser och -objekt med samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer. Alla andra listor är skrivskyddade.
+The **Explorer** I visas alla Campaign-resurser och -objekt med samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer. Alla andra listor är skrivskyddade.
 
 Vilka objekt som visas i Utforskaren beror på dina användarbehörigheter.
 
@@ -199,7 +199,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Rapporteringsspårning"
->abstract="Se spårningsindikatorerna för kampanjrapporten."
+>abstract="Se spårningsindikatorerna för kampanjrapporteringen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -303,7 +303,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Giltighetsgräns för resurser"
->abstract="Fältet Giltighetsgräns används för överförda resurser, t.ex. spegelsidan eller bilder. Resurserna gäller under begränsad tid: när gränsen har nåtts är resurserna inte längre tillgängliga."
+>abstract="Fältet Giltighetsgräns används för överförda resurser, t.ex. spegelsidan eller bilder. Resurserna är giltiga under en begränsad tid: när gränsen har nåtts är resurserna inte längre tillgängliga."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
@@ -313,7 +313,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
 >title="Maximalt antal återförsök"
->abstract="Om ett meddelande misslyckas på grund av ett tillfälligt fel, utförs nya försök tills slutet av leveransens varaktighet."
+>abstract="Om ett meddelande misslyckas på grund av ett tillfälligt fel, utförs nya försök tills slutet av leveransens varaktighet är slut."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"

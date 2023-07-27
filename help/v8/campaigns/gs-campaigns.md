@@ -2,11 +2,11 @@
 audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Utforma och skicka flerkanalskampanjer"
->abstract="Adobe Campaign-funktioner hjälper er att hantera centraliserade kunddata, utforma kundkommunikation och kampanjer och skapa personaliserade upplevelser i olika kanaler: E-post, push och SMS."
+>abstract="Adobe Campaign-funktioner hjälper er att hantera centraliserade kunddata, utforma kundkommunikation och kampanjer och skapa personaliserade upplevelser i olika kanaler: e-post, push och SMS."
 
 Med Adobe Campaign kan ni enkelt samordna era riktade marknadsföringssatsningar med den inbyggda kampanjhanteringsfunktionen. Med möjligheten att definiera ett schema kan ni planera kampanjernas varaktighet och tidsplanering för att anpassa dem till strategiska mål och maximera målgruppernas engagemang.
 

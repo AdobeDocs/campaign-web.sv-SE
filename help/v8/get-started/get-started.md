@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Nyheter?"
->abstract="Upptäck det nya gränssnittet Campaign Web, de senaste förbättringarna och nyckelfunktionerna. Lär dig hur du använder dem för att skapa flerkanalskampanjer för era målgrupper. Med de användarvänliga funktionerna i Campaign kan ni effektivisera arbetet med att skapa personaliserade flerkanalskampanjer, få bättre resultat och konkurrensfördelar. "
+>abstract="Upptäck det nya gränssnittet Campaign Web, de senaste förbättringarna och nyckelfunktionerna. Lär dig använda dem för att skapa flerkanalskampanjer för era målgrupper. Med de användarvänliga funktionerna i Campaign kan ni effektivisera arbetet med att skapa personaliserade flerkanalskampanjer, få bättre resultat och konkurrensfördelar. "
 
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
-Inledningsvis endast tillgängligt via [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
+Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
 ![](assets/home.png)
 
-Det nya användargränssnittet uppfyller först behoven i **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
+Det nya användargränssnittet tillgodoser först behoven i **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 
 Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgängliga i webbgränssnittet kan du använda [klientkonsol](#ac-client).
 
