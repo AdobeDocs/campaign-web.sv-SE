@@ -3,10 +3,10 @@ audience: end-user
 title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+badge: label="Alfa"
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -26,14 +26,10 @@ Mottagarna av ett test kan kontrollera olika element som länkar, avanmälningsl
 
 ## Välj testmottagare {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Testpopulation"
 >abstract="Välj ett testpopulationsläge."
-
-
 
 Beroende på vilken kanal du använder kan testmeddelanden skickas till tre typer av mottagare:
 
@@ -53,6 +49,15 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
 ### Testprofiler {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Mål för beviset"
+>abstract="Du kan överföra ytterligare en fil som &#39;mål för korrekturet&#39; om du vill testa leveransen innan du skickar till huvudmålet."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Överför profiler"
+>abstract="Du kan överföra ytterligare en fil med ytterligare profiler om du vill testa leveransen med en annan uppsättning än den som du har använt för huvudmålet."
 
 1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
 
