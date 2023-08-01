@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,11 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 >id="acw_deliveries_simulate_test_upload"
 >title="Överför profiler"
 >abstract="Du kan överföra ytterligare en fil med ytterligare profiler om du vill testa leveransen med en annan uppsättning än den som du har använt för huvudmålet."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Mallfil"
+>abstract="Formateringen för filen måste vara densamma som för originalfilen.<br/>Filformat som stöds: txt, csv. Största filstorlek: 15 MB. Använd den första raden som kolumnrubrik."
 
 1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
 
