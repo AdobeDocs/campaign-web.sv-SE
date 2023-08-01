@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Fel"
 >abstract="KPI-fel"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Den här kampanjen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Leveransen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 <!-- Workflows-->
 
