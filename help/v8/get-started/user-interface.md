@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
+source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -362,3 +362,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_typology"
 >title="Typologi"
 >abstract="Med typologi kan du styra, filtrera och övervaka leveransen."
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Exportera"
+>abstract="Du kan bara exportera den markerade sidan."
+
