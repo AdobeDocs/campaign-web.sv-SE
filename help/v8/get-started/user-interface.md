@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '2263'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,98 @@ Skärmen innehåller länkar och resurser som gör att du snabbt kommer åt de v
 The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring.
 
 Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på startsidan.
+
+
+#### Viktiga resultatindikatorer {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Skräppost-KPI"
+
+Bläddra till startsidan för att kontrollera viktiga prestandaindikatorer för din plattform. Indikatorerna visar antalet meddelanden som levereras, öppnas, klickas, tas bort från prenumerationen och antalet fel.
+
+Mätvärden beräknas som standard för leveranser som skickats under de senaste 7 dagarna. Du kan ändra perioden från listrutan i kortets övre högra del. Meddelanden som skickas till testprofiler exkluderas.
+
+Du kan välja vilken kanal som ska visas. Som standard återspeglar dessa indikatorer mätvärden för e-postkanalen.
+
+![](assets/kpi.png)
+
+#### Meddelandet har levererats {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Levererat"
+>abstract="Det här måttet visar, för den valda kanalen, summan av alla meddelanden som har bearbetats och hur många meddelanden som har levererats med framgång jämfört med det totala antalet meddelanden som skickats."
+
+
+The **Levererat** Indikatorn visar följande KPI:er för varje kanal:
+
+* Procentandel av antalet meddelanden som levererats med lyckat resultat jämfört med det totala antalet meddelanden som ska skickas.
+
+* Summan av alla meddelanden som har bearbetats utan fel.
+
+I Adobe Campaign är regeln för att markera ett meddelande som&quot;Levererat&quot;:
+
+Antal meddelanden för vilka fältet &quot;dirigeringsadress&quot; är lika med &quot;Nej&quot; och med statusen &quot;Som tagits med i beräkningen av tjänsteleverantören&quot; (för SMS) eller &quot;Skickat&quot; (för e-post) eller &quot;Mottaget på mobilen&quot; (för push-meddelanden).
+
+
+#### Totalt antal öppningar {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Öppnar"
+>abstract="Det här måttet visar, för den valda kanalen, summan av alla meddelanden som öppnats och hur många meddelanden som öppnats i procent jämfört med det totala antalet meddelanden som levererats med framgång."
+
+The **Öppnar** Indikatorn visar följande KPI:er för varje kanal:
+
+* Procentandel av antalet meddelanden som öppnats jämfört med det totala antalet meddelanden som levererats med lyckat resultat.
+
+* Summan av alla öppnade meddelanden, per kanal.
+
+Adobe Campaign identifierar att ett meddelande öppnas när mottagaren hämtar bilderna i e-postmeddelandet. HTML och Multipart/Alternative emails innehåller en bild på 0 pixlar som gör att du kan identifiera meddelanden som har öppnats. Eftersom meddelanden i textformat inte innehåller några bilder går det inte att se om de har öppnats eller inte. Värden som beräknas baserat på det meddelande som öppnas är alltid uppskattningar på grund av den felmarginal som är länkad till bildvisningen.
+
+#### Klickfrekvenser {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Klickningar"
+>abstract="Det här måttet visar, för den valda kanalen, summan av alla URL-adresser som klickats i meddelanden och procentandelen klickningar jämfört med det totala antalet meddelanden som levererats utan fel."
+
+The **Klickningar** Indikatorn visar följande KPI:er för varje kanal:
+
+* Procentandel av antalet klick jämfört med det totala antalet meddelanden som levererats med framgång.
+
+* Antal distinkta personer som klickat minst en gång i en leverans. Länkar som inte kan prenumereras och länkar till spegelsidan tas inte med.
+
+Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats`). Den här sammanställningstabellen används av prestandaskäl när rapporter visas, i stället för i loggtabellen för mottagarspårning (`nms:trackingLogRcp`) och beräknas inte i realtid. Tabellen genereras några minuter efter att spårningsloggarna har hämtats.
+
+
+#### Avbryta prenumerationstaxor {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Avprenumerationer"
+>abstract="I det här måttet visas, för den valda kanalen, summan av alla avbeställningar från en tjänst och procentandelen avbeställningar jämfört med det totala antalet meddelanden som levererats med framgång."
+
+The **Avbeställ** Indikatorn visar följande KPI:er för varje kanal:
+
+* Procentandel av antalet avbrutna prenumerationer jämfört med det totala antalet meddelanden som levererats utan framgång.
+
+* Summan av alla klick på en länk för att avbryta prenumerationen, dvs. där en URL-kategori är lika med &quot;Avanmäl dig&quot;.
+
+
+#### Felfrekvenser {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Fel"
+>abstract="Totalt antal fel som ackumulerats under leveranser och automatisk avhoppsbearbetning. Den associerade frekvensen är förhållandet till antalet meddelanden som ska levereras."
+
+* Procentandel av antalet fel jämfört med det totala antalet meddelanden som ska levereras.
+
+* Totalt antal fel som ackumulerats under leveranser och automatisk återinläsning.
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Levererat"
->abstract="Levererad KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Öppnar"
->abstract="Öppnar KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Klickningar"
->abstract="Klicka på KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Avprenumerationer"
->abstract="KPI för prenumerationsavbrott"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="Skräppost-KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Fel"
->abstract="KPI-fel"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
