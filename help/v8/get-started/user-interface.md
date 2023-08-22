@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,12 @@ Skärmen innehåller länkar och resurser som gör att du snabbt kommer åt de v
 
 The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring.
 
+The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal.
+
 Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på startsidan.
 
 
-#### Viktiga resultatindikatorer {#user-interface-key-indicators}
+### Viktiga resultatindikatorer {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ The **Avbeställ** Indikatorn visar följande KPI:er för varje kanal:
 >id="acw_keyindicators_errors"
 >title="Fel"
 >abstract="Totalt antal fel som ackumulerats under leveranser och automatisk avhoppsbearbetning. Den associerade frekvensen är förhållandet till antalet meddelanden som ska levereras."
+
+The **Fel** Indikatorn visar följande KPI:er för varje kanal:
 
 * Procentandel av antalet fel jämfört med det totala antalet meddelanden som ska levereras.
 
