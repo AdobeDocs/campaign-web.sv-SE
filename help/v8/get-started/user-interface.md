@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,11 @@ Du kan välja vilken kanal som ska visas. Som standard återspeglar dessa indika
 >title="Levererat"
 >abstract="Det här måttet visar, för den valda kanalen, summan av alla meddelanden som har bearbetats och hur många meddelanden som har levererats med framgång jämfört med det totala antalet meddelanden som skickats."
 
+Antalet meddelanden som levereras återspeglar din leveransgrad. Det kan aldrig vara 100 % av följande orsaker: vissa adresser eller telefonnummer kan vara fel, skräppostblockerare hos e-postleverantörer kan avvisa dina meddelanden eller leveransproblem kan inträffa.
 
 The **Levererat** Indikatorn visar följande KPI:er för varje kanal:
 
-* Procentandel av antalet meddelanden som levererats med lyckat resultat jämfört med det totala antalet meddelanden som ska skickas.
+* Procentandel av antalet meddelanden som levererats med lyckat resultat jämfört med det totala antalet skickade meddelanden.
 
 * Summan av alla meddelanden som har bearbetats utan fel.
 
@@ -84,6 +85,8 @@ Antal meddelanden för vilka fältet &quot;dirigeringsadress&quot; är lika med 
 >title="Öppnar"
 >abstract="Det här måttet visar, för den valda kanalen, summan av alla meddelanden som öppnats och hur många meddelanden som öppnats i procent jämfört med det totala antalet meddelanden som levererats med framgång."
 
+Totalt antal öppningar beräknas genom att spåra det totala antalet gånger ett meddelande öppnas, oavsett hur många enskilda mottagare som öppnas av. Den här indikatorn är bara tillgänglig för e-post.
+
 The **Öppnar** Indikatorn visar följande KPI:er för varje kanal:
 
 * Procentandel av antalet meddelanden som öppnats jämfört med det totala antalet meddelanden som levererats med lyckat resultat.
@@ -92,18 +95,22 @@ The **Öppnar** Indikatorn visar följande KPI:er för varje kanal:
 
 Adobe Campaign identifierar att ett meddelande öppnas när mottagaren hämtar bilderna i e-postmeddelandet. HTML och Multipart/Alternative emails innehåller en bild på 0 pixlar som gör att du kan identifiera meddelanden som har öppnats. Eftersom meddelanden i textformat inte innehåller några bilder går det inte att se om de har öppnats eller inte. Värden som beräknas baserat på det meddelande som öppnas är alltid uppskattningar på grund av den felmarginal som är länkad till bildvisningen.
 
-#### Klickfrekvenser {#ui-click-kpi}
+
+
+#### Genomklickningsfrekvens {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Klickningar"
 >abstract="Det här måttet visar, för den valda kanalen, summan av alla URL-adresser som klickats i meddelanden och procentandelen klickningar jämfört med det totala antalet meddelanden som levererats utan fel."
 
+Du kan lägga till URL:er i meddelandeinnehållet, som dirigerar om mottagarna till en viss sida. Klickfrekvensen mäter antalet och procentandelen mottagare som klickade på en länk i meddelandet.
+
 The **Klickningar** Indikatorn visar följande KPI:er för varje kanal:
 
 * Procentandel av antalet klick jämfört med det totala antalet meddelanden som levererats med framgång.
 
-* Antal distinkta personer som klickat minst en gång i en leverans. Länkar som inte kan prenumereras och länkar till spegelsidan tas inte med.
+* Antal distinkta personer som klickat minst en gång i en leverans. Länkar som inte längre används och länkar till e-postspegelsidan tas inte med.
 
 Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats`). Den här sammanställningstabellen används av prestandaskäl när rapporter visas, i stället för i loggtabellen för mottagarspårning (`nms:trackingLogRcp`) och beräknas inte i realtid. Tabellen genereras några minuter efter att spårningsloggarna har hämtats.
 
@@ -114,6 +121,8 @@ Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats
 >id="acw_keyindicators_unsubscriptions"
 >title="Avprenumerationer"
 >abstract="I det här måttet visas, för den valda kanalen, summan av alla avbeställningar från en tjänst och procentandelen avbeställningar jämfört med det totala antalet meddelanden som levererats med framgång."
+
+Mottagarna måste kunna avanmäla sig från e-post och SMS via en dedikerad avprenumerationslänk i e-postinnehållet eller genom att svara STOP på ett SMS.
 
 The **Avbeställ** Indikatorn visar följande KPI:er för varje kanal:
 
@@ -128,6 +137,10 @@ The **Avbeställ** Indikatorn visar följande KPI:er för varje kanal:
 >id="acw_keyindicators_errors"
 >title="Fel"
 >abstract="Totalt antal fel som ackumulerats under leveranser och automatisk avhoppsbearbetning. Den associerade frekvensen är förhållandet till antalet meddelanden som ska levereras."
+
+Vissa meddelanden som skickas från din Adobe Campaign-plattform når kanske inte sina mål. Det kan hända när användaradressen eller telefonen har stavfel, om mottagaren har ändrat e-postadressen eller om postlådan är full. Om ett meddelande inte kan skickas till en profil skickar fjärrservern automatiskt ett felmeddelande till Adobe Campaign. Det här felet är kvalificerat för att avgöra om e-postadressen, telefonnumret eller enheten ska sättas i karantän.
+
+Därför bör du alltid kontrollera och uppdatera databasen och se till att alla profiler är aktiva och riktiga. Leveransfel kan vara tillfälliga eller permanenta - mjuka eller hårda studsar - beroende på varför meddelandet inte levererades.
 
 The **Fel** Indikatorn visar följande KPI:er för varje kanal:
 
@@ -435,3 +448,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Exportera"
 >abstract="Du kan bara exportera den markerade sidan."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Leveranslista i en kampanj"
+>abstract="Leveranslista i en kampanj"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Arbetsflödeslista i en kampanj"
+>abstract="Arbetsflödeslista i en kampanj"
