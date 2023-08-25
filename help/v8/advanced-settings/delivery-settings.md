@@ -4,7 +4,7 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
-source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
+source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 11%
@@ -37,12 +37,14 @@ När du associerar en typologi med en meddelande- eller meddelandemall körs de 
 
 
 ### Trycket {#pressure-parameters}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 -->
+
 I det här avsnittet kan du definiera en **tröskelvärde**. Det här är det maximala antalet meddelanden som kan skickas till en profil under en viss period. När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
 
 Tröskelvärden kan vara antingen konstanta eller variabla. Detta innebär att tröskelvärdena för en viss period kan variera från en profil till en annan eller till och med för samma profil.
