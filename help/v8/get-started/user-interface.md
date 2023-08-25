@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
+source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2567'
 ht-degree: 0%
 
 ---
@@ -457,3 +457,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Arbetsflödeslista i en kampanj"
 >abstract="Arbetsflödeslista i en kampanj"
+
+<!-- delivery settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Målgrupp för leveransinställningar"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_approval"
+>title="Godkännande av leveransinställningar"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Testinställningar för leveransinställningar"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Webbanalys för leveransinställningar"
+>abstract="TBC"
