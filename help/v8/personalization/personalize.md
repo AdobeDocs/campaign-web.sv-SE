@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Anpassa innehållet {#add-personalization}
 
-Du kan anpassa alla leveranser med hjälp av uttrycksredigeraren, som är tillgänglig i fält med **[!UICONTROL Open personalization dialog]** ikon, t.ex. ämnesraden, e-postlänkar och innehållskomponenter för text/knapp. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
+Du kan anpassa alla leveranser med hjälp av uttrycksredigeraren, som är tillgänglig i fält med **[!UICONTROL Open personalization dialog]** ikon, t.ex. ämnesraden, e-postlänkar och text/knappinnehållskomponenter. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
 
 ## Anpassningssyntax {#syntax}
 
@@ -48,7 +48,7 @@ Så här lägger du till personaliseringstaggar i en leverans:
 
    >[!NOTE]
    >
-   >Som standard visar varje meny alla fält i den markerade tabellen (Mottagare, Meddelande / Leverans). Om du vill ta med fält från tabeller som är länkade till den markerade tabellen aktiverar du **[!UICONTROL Display advanced attributes]** alternativ som finns under listan.
+   >Som standard visar varje meny alla fält i den markerade tabellen (Mottagare, Meddelande / Leverans). Aktivera **[!UICONTROL Display advanced attributes]** alternativ som finns under listan.
 
 1. Om du vill lägga till ett anpassningsfält placerar du markören på önskad plats i innehållet och klickar på knappen `+` för att infoga den.
 

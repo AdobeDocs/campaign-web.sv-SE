@@ -3,17 +3,17 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '775'
 ht-degree: 12%
 
 ---
 
 # Ange en kontrollgrupp {#control-group}
 
-En kontrollgrupp är en underpopulation som är undantagen från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra beteendet efter leverans med huvudmålet. Det här alternativet hjälper er att mäta effekten av er kampanj.
+En kontrollgrupp är en underpopulation som är exkluderad från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra beteendet efter leverans med huvudmålet. Det här alternativet hjälper er att mäta effekten av er kampanj.
 
 ## Aktivera kontrollgrupp{#add-a-control-group}
 
@@ -30,7 +30,7 @@ Alla profiler som är en del av kontrollgruppen vid leveransförberedelsesteget 
 >
 >Du kan inte använda kontrollgrupper när målpopulationen läses in [från en extern fil](file-audience.md).
 
-Om du vill lägga till en kontrollgrupp i en leverans aktiverar du **[!UICONTROL Enable control group]** växla från **Målgrupp** på skärmen där leveransen skapas.
+Aktivera alternativet **[!UICONTROL Enable control group]** växla från **Målgrupp** på skärmen där leveransen skapas.
 
 ![Aktivera alternativet Kontrollgrupp](assets/control-group1.png)
 
@@ -40,7 +40,7 @@ Om du vill lägga till en kontrollgrupp i en leverans aktiverar du **[!UICONTROL
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraheringsläge"
->abstract="För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen."
+>abstract="En kontrollgrupp är en uppsättning profiler som är exkluderade från leveransen. För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen."
 
 
 ### Skapa en kontrollgrupp {#build-extract-target}
@@ -63,7 +63,7 @@ Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver 
 
 Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna gör du så här:
 
-1. Välj **Ålder** -fält som ett sorteringsvillkor. Lämna **Stigande** sorteringsalternativ.
+1. Välj **Ålder** -fält som ett sorteringskriterium. Lämna **Stigande** sorteringsalternativ.
 1. Lägg till **Skapad den** fält. Ändra till **Fallande** sorteringsalternativ.
 1. Definiera 100 som tröskelvärde i **Storleksgräns** -avsnitt.
 
@@ -104,7 +104,7 @@ Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md)
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra population"
->abstract="Du kan utesluta en viss population från leveransgruppen genom att välja en befintlig målgrupp eller genom att definiera en fråga."
+>abstract="En kontrollgrupp är en uppsättning profiler som är exkluderade från leveransen. Du kan utesluta en viss population från leveransgruppen genom att välja en befintlig målgrupp eller genom att definiera en fråga."
 
 Ett annat sätt att definiera en kontrollgrupp är att välja en specifik population i en befintlig målgrupp eller genom att definiera en fråga.
 
@@ -112,11 +112,11 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 
 ![](assets/control-group3.png)
 
-* Om du vill använda en befintlig målgrupp klickar du på **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
+* Om du vill använda en befintlig målgrupp klickar du **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
 
 * Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Läs mer i [det här avsnittet](segment-builder.md).
 
-Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **exkluderad** från leveransmålet: de inte får något meddelande.
+Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **exkluderad** från leveransmålet: de får inget meddelande.
 
 ## Jämför resultaten{#control-group-results}
 

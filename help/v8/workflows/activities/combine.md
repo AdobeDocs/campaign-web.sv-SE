@@ -2,10 +2,10 @@
 audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 11%
 
 ---
@@ -19,7 +19,7 @@ Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan a
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* The **Union** kan du gruppera om resultatet av flera aktiviteter till ett enda mål.
+* The **Union** gör att du kan gruppera om resultatet av flera aktiviteter till ett enda mål.
 * The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
 * The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
@@ -53,7 +53,7 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 För **Union** måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
 * **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
-* **En markering med kolumner**: Välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska tillämpas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+* **En markering med kolumner**: välj det här alternativet för att definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
 ## Skärningspunkt {#intersection}
 
@@ -77,7 +77,7 @@ För **Uteslutning** måste du utföra följande steg:
 
 ## Exempel
 
-I följande exempel har vi lagt till en **union** som hämtar alla profiler för de två frågorna: personer mellan 18 och 27 år och personer mellan 34 och 40 år.
+I följande exempel har vi lagt till en **union** som hämtar alla profiler från de två frågorna: personer mellan 18 och 27 år och personer mellan 34 och 40 år.
 
 ![](../assets/workflow-union-example.png)
 

@@ -2,10 +2,10 @@
 audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
@@ -31,12 +31,12 @@ The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ge
 
    * **[!UICONTROL Success]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-   * **[!UICONTROL Click-through rate]**: Procentandel användare som interagerade med länkar som ingår i SMS-leveransen.
+   * **[!UICONTROL Click-through rate]**: Procentandel användare som interagerade med länkar i SMS-leveransen.
 
    * **[!UICONTROL Errors]**: Totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
 +++
 
-* **Målgrupp** diagram och tabeller visar data i relation till målgruppen.
+* **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen.
 
   ![](assets/reporting_sms_4.png)
 

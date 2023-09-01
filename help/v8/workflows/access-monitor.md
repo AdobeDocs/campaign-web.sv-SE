@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Du kan anpassa de kolumner som visas genom att klicka på **[!UICONTROL Configur
 
 Dessutom finns det ett sökfält och filter som gör det enklare att söka i listan. Du kan till exempel filtrera arbetsflödena så att de bara visar dem som tillhör en kampanj, eller de som bearbetas under ett visst datumintervall.
 
-Om du vill duplicera eller ta bort ett arbetsflöde klickar du på ellipsknappen och väljer **[!UICONTROL Duplicate]** eller **[!UICONTROL Delete]**.
+Om du vill duplicera eller ta bort ett arbetsflöde klickar du på knappen Ellips och väljer **[!UICONTROL Duplicate]** eller **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Arbetsflöden kan ha flera statusvärden:
 
 * **[!UICONTROL Draft]**: Arbetsflödet har skapats och sparats.
 * **[!UICONTROL In progress]**: Arbetsflödet körs för närvarande.
-* **[!UICONTROL Finished]**: Arbetsflödeskörningen är klar.
+* **[!UICONTROL Finished]**: Körningen av arbetsflödet är klar.
 * **[!UICONTROL Paused]**: Arbetsflödet har pausats.
 * **[!UICONTROL Erroneous]**: Ett fel uppstod i arbetsflödet. Öppna arbetsflödet och öppna loggarna och uppgifterna för att identifiera felet och åtgärda det. [Lär dig övervaka loggar och uppgifter](start-monitor-workflows.md#logs-tasks)
 
@@ -50,4 +50,4 @@ Detaljerad information om hur du startar och övervakar arbetsflödet finns i [d
 
 The **[!UICONTROL Templates]** På -fliken visas alla tillgängliga arbetsflödesmallar.
 
-Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden. De skapas från klientkonsolen. [Lär dig hur du arbetar med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden. De skapas från klientkonsolen. [Lär dig arbeta med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)

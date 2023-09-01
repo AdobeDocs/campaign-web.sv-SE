@@ -2,17 +2,17 @@
 audience: end-user
 product: campaign
 title: Arbeta med e-postmallar
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
 
 # Arbeta med e-postmallar {#email-saved-content-templates}
 
-När [skapa ett e-postmeddelande](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
+När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
 
 ![](assets/email_designer-sample-templates.png)
 

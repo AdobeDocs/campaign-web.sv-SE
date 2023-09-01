@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -50,7 +50,7 @@ Så här skapar du en ny kampanj:
 1. Klicka **Skapa**.
 1. Lägg till arbetsflöden och leveranser till kampanjen:
 
-   * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om hur [skapa ett arbetsflöde](../workflows/create-workflow.md).
+   * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om [skapa ett arbetsflöde](../workflows/create-workflow.md).
    * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
 
 1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjens resultat.

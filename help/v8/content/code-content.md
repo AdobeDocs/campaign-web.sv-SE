@@ -3,10 +3,10 @@ audience: end-user
 title: Koda eget e-postinnehåll
 description: Lär dig koda ditt eget e-postinnehåll
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 4%
 
 ---
@@ -31,4 +31,4 @@ Använd **[!UICONTROL Code your own]** läge för att importera obearbetat HTML 
 
 1. Klicka på **[!UICONTROL Simulate content]** för att kontrollera meddelandets utformning och personalisering med testprofiler. [Läs mer](../preview-test/preview-test.md)
 
-1. När koden är klar klickar du på **[!UICONTROL Save & close]** för att gå tillbaka till fönstret där meddelandet skapades och slutföra meddelandet.
+1. När koden är klar klickar du **[!UICONTROL Save & close]** för att gå tillbaka till fönstret där meddelandet skapades och slutföra meddelandet.

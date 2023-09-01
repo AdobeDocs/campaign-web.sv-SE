@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att ska
 
 1. Börja med att bestämma om du vill skapa ett fristående arbetsflöde eller integrera det direkt i en kampanj:
 
-   * **Fristående arbetsflöde**: Navigera till menyn Arbetsflöde och klicka på knappen Skapa arbetsflöde i det övre högra hörnet.
+   * **Fristående arbetsflöde**: Navigera till menyn Arbetsflöden och klicka på knappen Skapa arbetsflöde i det övre högra hörnet.
    * **Kampanjarbetsflöde:** Navigera till Campaigns-menyn och öppna kampanjen där du vill skapa ett nytt arbetsflöde. Klicka på knappen Skapa arbetsflöde i det övre högra hörnet på fliken Arbetsflöden.
 
    Dialogrutan Egenskaper för arbetsflöde visas.
@@ -32,10 +32,10 @@ Det första steget för att skapa ett arbetsflöde i Campaign v8 Web är att ska
 
 1. Välj den mall som ska användas för att skapa arbetsflödet och ange en etikett för arbetsflödet.
 
-   Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden. De skapas från klientkonsolen. [Lär dig hur du arbetar med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden. De skapas från klientkonsolen. [Lär dig arbeta med mallar](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
 1. Expandera **[!UICONTROL Additional options]** om du vill konfigurera särskilda inställningar för arbetsflödet, t.ex. lagringsmapp och tidszon. [Lär dig hur du konfigurerar arbetsflödesegenskaper](workflow-settings.md)
 
-1. Klicka på **[!UICONTROL Create workflow]** för att bekräfta skapandet av arbetsflödet.
+1. Klicka på **[!UICONTROL Create workflow]** för att bekräfta att arbetsflödet har skapats.
 
 När arbetsflödet har skapats kan du nu börja organisera de olika uppgifter som ska utföras med en dedikerad visuell arbetsyta. [Lär dig att samordna arbetsflödesaktiviteter](orchestrate-activities.md)

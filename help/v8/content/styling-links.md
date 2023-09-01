@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Definiera ett format för länkar
-description: Lär dig hur du definierar ett format för länkar
+description: Lär dig definiera ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
    ![](assets/link_1.png)
 
-1. Välj hur er målgrupp ska omdirigeras med **[!UICONTROL Target]** nedrullningsbar meny:
+1. Välj hur er målgrupp ska omdirigeras med **[!UICONTROL Target]** nedrullningsbar lista:
 
    * **[!UICONTROL None]**: öppnar länken i samma ram som den klickades på (standard).
    * **[!UICONTROL Blank]**: öppnar länken i ett nytt fönster eller på en ny flik.

@@ -3,10 +3,10 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    >[!NOTE]
    >
-   >Om du konfigurerar ett nytt e-postmeddelande visas **[!UICONTROL From name]** och **[!UICONTROL From email]** fälten har redan fyllts i.
+   >Om ditt e-postmeddelande konfigureras **[!UICONTROL From name]** och **[!UICONTROL From email]** fälten har redan fyllts i.
 
 1. The **[!UICONTROL From name]** -fältet definieras i e-postmallen. Om du vill ändra det använder du ett namn som mottagarna lätt kan identifiera, till exempel ert varumärkes namn, för att öka öppningshastigheten för era leveranser.
 
@@ -68,7 +68,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till personalisering med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
 
-1. Om du vill bifoga en fil till e-postmeddelandet klickar du på knappen **[!UICONTROL Add attachment]** och sedan markera en eller flera filer.
+1. Om du vill bifoga en fil till e-postmeddelandet klickar du på **[!UICONTROL Add attachment]** och sedan markera en eller flera filer.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Om du vill skicka erbjudanden via e-post väljer du dem med **[!UICONTROL Set up offers]** -knappen.
 
-   Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig hur du skickar erbjudanden](offers.md)
+   Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig skicka erbjudanden](offers.md)
 
 1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 

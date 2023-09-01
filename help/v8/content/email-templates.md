@@ -3,17 +3,17 @@ audience: end-user
 product: campaign
 title: Arbeta med e-postmallar
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # Arbeta med e-postmallar {#email-content-templates}
 
-När [skapa ett e-postmeddelande](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
+När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
 
 ![](assets/email_designer-templates.png)
 
@@ -33,7 +33,7 @@ Följ stegen nedan när du vill börja skapa innehåll med någon av exempelmall
 
 1. På **[!UICONTROL Create your email]** skärm, **[!UICONTROL Sample templates]** -fliken är markerad som standard.
 
-1. Om du vill använda en befintlig anpassad mall bläddrar du till **[!UICONTROL Saved templates]** -fliken.
+1. Om du vill använda en befintlig anpassad mall går du till **[!UICONTROL Saved templates]** -fliken.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
@@ -67,6 +67,6 @@ Så här sparar du ett e-postinnehåll som en mall:
 
    ![](assets/email_designer-template-name.png)
 
-Nu kan du [använd den här mallen](#use-templates) för att skapa nytt innehåll: finns i **[!UICONTROL Saved templates]** i e-postdesignern.
+Nu kan du [använd den här mallen](#use-templates) för att skapa nytt innehåll: det finns i **[!UICONTROL Saved templates]** i e-postdesignern.
 
 ![](assets/email_designer-saved-template.png)

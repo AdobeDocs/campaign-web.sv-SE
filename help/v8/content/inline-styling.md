@@ -3,10 +3,10 @@ audience: end-user
 title: Lägg till textbundna formatattribut
 description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ När du markerar ett element i e-postdesignergränssnittet och visar dess instä
 
    ![](assets/styles_1.png)
 
-1. Ändra värdena för de befintliga attributen.
+1. Ändra värdena för befintliga attribut.
 
 1. Du kan lägga till nya egenskaper med **+** -knappen. Du kan lägga till alla attribut och värden som är CSS-kompatibla.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # Nyheter? {#new}
 
-## Alpha 2.0{#alpha-release}
+## Betaversion{#beta-release}
 
-Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt för **Alfahandledare** med följande funktioner:
+Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt för **Betahandledare** med följande funktioner:
 
 **Modern, intuitiv och enhetlig upplevelse**
 
@@ -53,6 +53,7 @@ Som Campaign-användare har du fortfarande tillgång till klientkonsolen för at
 
 Dessutom visas alla data och inställningar som redan är tillgängliga i klientkonsolen i gränssnittet för Campaign-webben, från vänster navigering i Utforskaren. Läs mer om Utforskaren i [det här avsnittet](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+I Campaign Web Beta-versionen återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md)
 
 ## Uppdateringar om terminologi {#terminology-updates}
 
@@ -68,7 +69,7 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 
 Begränsningarna nedan gäller denna alfaversion:
 
-* De enda redigerbara objekten är leveranser, kampanjer, arbetsflöden, målgrupper och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
+* Redigerbara objekt är: Leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
 * Det går inte att spara publikerna för framtida bruk.
 * Användargränssnittet Administration är inte tillgängligt.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.

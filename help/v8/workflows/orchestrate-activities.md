@@ -2,10 +2,10 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett 
 För att uppnå detta har följande aktiviteter lagts till:
 
 * A **[!UICONTROL Fork]** Aktivitet som delar upp arbetsflödet i tre banor (en för varje kundgrupp).
-* **[!UICONTROL Build audience]** aktiviteter för att inrikta sig på de tre olika kundgrupperna:
+* **[!UICONTROL Build audience]** Verksamheter för att inrikta sig på de tre olika kundgrupperna:
 
    * Kunder med e-post
    * Kunder som tillhör den befintliga målgruppen&quot;Interasted in Coffee Machine(s)&quot;,

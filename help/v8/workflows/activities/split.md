@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
-description: Lär dig hur du använder aktiviteten Dela arbetsflöde
-badge: label="Alfa"
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+description: Lär dig använda aktiviteten Dela arbetsflöde
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -19,7 +19,7 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
-1. Lägg till en **Dela** till arbetsflödet.
+1. Lägg till en **Dela** till ditt arbetsflöde.
 
 1. Aktivitetskonfigurationsrutan öppnas med en standarddelmängd. Klicka på **Lägg till segment** om du vill lägga till så många delmängder som behövs för att segmentera den inkommande populationen.
 
@@ -59,6 +59,6 @@ I följande exempel **[!UICONTROL Split]** -aktiviteten används för att segmen
 
 * **Delmängd 1 &quot;push&quot;**: Den här deluppsättningen omfattar alla profiler som har installerat vårt mobilprogram.
 * **Delmängd 2 &quot;sms&quot;**: Användare av mobiltelefoner: För den återstående populationen som inte ingick i delmängd 1 tillämpar delmängd 2 en filtreringsregel för att välja profiler med mobiltelefoner i databasen.
-* **Kompletteringsövergång**: Den här övergången fångar alla återstående profiler som inte matchade delmängd 1 eller delmängd 2. Det omfattar profiler som varken har installerat mobilprogrammet eller en mobiltelefon, till exempel användare som inte har installerat mobilappen eller saknar ett registrerat mobilnummer.
+* **Kompletteringsövergång**: Den här övergången fångar alla återstående profiler som inte matchade delmängd 1 eller delmängd 2. Det omfattar profiler som varken har installerat mobilappen eller en mobiltelefon, till exempel användare som inte har installerat mobilappen eller saknar ett registrerat mobilnummer.
 
 ![](../assets/workflow-split-example.png)

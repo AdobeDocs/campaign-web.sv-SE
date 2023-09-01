@@ -2,8 +2,8 @@
 audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
-badge: label="Alfa"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvalitete
 
    Om det uppstår några fel hittar du detaljerad information om felet på loggmenyn.
 
-1. Skicka meddelanden genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
+1. Skicka meddelandena genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
 
    ![](assets/sms_send_5.png)
 

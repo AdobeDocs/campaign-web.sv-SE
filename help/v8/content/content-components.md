@@ -3,10 +3,10 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelande
 
 1. Använd en [befintligt innehåll](existing-content.md) eller dra och släppa en **[!UICONTROL Structure]** till ditt tomma innehåll för att definiera layouten för ditt e-postmeddelande. [Lär dig mer](create-email-content.md)
 
-1. Dra och släpp **[!UICONTROL Content]** efter eget val inom de relevanta strukturerna.
+1. Dra och släpp **[!UICONTROL Content]** efter eget val inom relevanta strukturer.
 
    ![](assets/email_designer_add_content_components.png)
 
@@ -81,7 +81,7 @@ Använd **[!UICONTROL Button]** om du vill infoga en eller flera knappar i e-pos
 
 1. Från **[!UICONTROL Settings]** -tabbar, i **[!UICONTROL URL]** lägger du till den URL som du vill omdirigera till när du klickar på knappen.
 
-1. Välj hur innehållet ska visas med **[!UICONTROL Target]** nedrullningsbar lista:
+1. Välj hur innehållet ska visas med **[!UICONTROL Target]** listruta:
 
    * **[!UICONTROL None]**: öppnar länken i samma ram som den klickades på (standard).
    * **[!UICONTROL Blank]**: öppnar länken i ett nytt fönster eller på en ny flik.
@@ -107,17 +107,17 @@ Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och jus
 
    ![](assets/email_designer_27.png)
 
-   * **[!UICONTROL Change text style]**: använda fet, kursiv, understrykning eller genomstrykning i texten.
-   * **Ändra justering**: Välj mellan vänster, höger, centrerad eller marginaljusterad justering för texten.
+   * **[!UICONTROL Change text style]**: fet, kursiv, understrykning eller genomstrykning i texten.
+   * **Ändra justering**: välj mellan vänsterjustering, högerjustering, centrering eller marginaljustering för texten.
    * **[!UICONTROL Create list]**: lägg till punkt- eller nummerlista i texten.
-   * **[!UICONTROL Set heading]**: kan du lägga till upp till sex rubriknivåer i texten.
-   * **Teckenstorlek**: markera teckensnittsstorleken för texten i pixlar.
-   * **[!UICONTROL Edit image]**: lägga till en bild eller en resurs i textkomponenten.
-   * **[!UICONTROL Show the source code]**: visa textens källkod. Den kan inte ändras.
-   * **[!UICONTROL Duplicate]**: lägga till en kopia av textkomponenten.
+   * **[!UICONTROL Set heading]**: lägg till upp till sex rubriknivåer i texten.
+   * **Teckenstorlek**: välj teckensnittsstorleken för texten i pixlar.
+   * **[!UICONTROL Edit image]**: lägg till en bild eller en resurs i textkomponenten.
+   * **[!UICONTROL Show the source code]**: visar källkoden för texten. Den kan inte ändras.
+   * **[!UICONTROL Duplicate]**: lägg till en kopia av textkomponenten.
    * **[!UICONTROL Delete]**: ta bort den markerade textkomponenten från e-postmeddelandet.
-   * **[!UICONTROL Add personalization]**: lägga till anpassningsfält för att anpassa innehållet utifrån dina profildata.
-   * **[!UICONTROL Enable conditional content]**: lägga till villkorsstyrt innehåll för att anpassa komponentens innehåll till målprofilerna.
+   * **[!UICONTROL Add personalization]**: lägg till anpassningsfält för att anpassa innehållet utifrån dina profildata.
+   * **[!UICONTROL Enable conditional content]**: lägg till villkorligt innehåll för att anpassa komponentens innehåll till målprofilerna.
 
 1. Justera övriga formatattribut, t.ex. textfärg, teckensnittsfamilj, kantlinje, utfyllnad, marginal. från **[!UICONTROL Styles]** -fliken.
 
@@ -133,7 +133,7 @@ Du kan justera formatattribut som linjefärg, format och höjd på menyn **[!UIC
 
 ## HTML {#HTML}
 
-Använd **[!UICONTROL HTML]** om du vill kopiera och klistra in de olika delarna av din befintliga HTML. På så sätt kan du skapa kostnadsfria modulära HTML-komponenter för att återanvända externt innehåll.
+Använd **[!UICONTROL HTML]** om du vill kopiera och klistra in de olika delarna av din befintliga HTML. På så sätt kan du skapa kostnadsfria modulära HTML-komponenter för att återanvända en del externt innehåll.
 
 1. Från **[!UICONTROL Components]**, dra och släpp **[!UICONTROL HTML]** till en **[!UICONTROL Structure]** -komponenten.
 
@@ -160,7 +160,7 @@ Använd **[!UICONTROL Image]** om du vill infoga en bildfil från datorn i e-pos
 1. Klicka på den nya komponenten och ange bildegenskaperna med **[!UICONTROL Settings]** tab:
 
    * **[!UICONTROL Image title]** I kan du definiera en titel för bilden.
-   * **[!UICONTROL Alt text]** I kan du definiera den bildtext som är länkad till bilden. Detta motsvarar attributet alt HTML.
+   * **[!UICONTROL Alt text]** I kan du definiera den bildtext som är länkad till bilden. Detta motsvarar alt HTML-attributet.
 
    ![](assets/email_designer_10.png)
 
@@ -182,7 +182,7 @@ Använd **[!UICONTROL Social]** för att infoga länkar till sidor för sociala 
 
 1. Välj storlek på ikonerna i dialogrutan **[!UICONTROL Size of images]** fält.
 
-1. Klicka på var och en av dina ikoner för sociala medier för att konfigurera **[!UICONTROL URL]** som er målgrupp omdirigeras till.
+1. Klicka på ikonerna för sociala medier för att konfigurera **[!UICONTROL URL]** som er målgrupp omdirigeras till.
 
    ![](assets/email_designer_21.png)
 

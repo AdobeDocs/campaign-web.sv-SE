@@ -2,10 +2,10 @@
 audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 4%
 
 ---
@@ -29,20 +29,20 @@ ht-degree: 4%
 
 1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
 
-1. Under **[!UICONTROL Channel]** väljer du Push-meddelanden som kanal och väljer en mall beroende på vilket operativsystem som valts: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
+1. Under **[!UICONTROL Channel]** väljer du Push-meddelanden som kanal och väljer en mall beroende på vilket operativsystem du har valt: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
    ![](assets/push_create_1.png)
 
-1. Ange **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny.
+1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny.
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
    * **[!UICONTROL Folder]**: Lagra leveransen i en viss mapp.
    * **[!UICONTROL Delivery code]**: Ordna leveranserna med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringssyften.
+   * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringsändamål.
 +++
 
 1. Från **[!UICONTROL Audience]** väljer du det program som du vill använda för leveransen.
@@ -61,7 +61,7 @@ ht-degree: 4%
 
    Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../content/offers.md).
 
-1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
+1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
 
    ![](assets/push_create_3.png)
 

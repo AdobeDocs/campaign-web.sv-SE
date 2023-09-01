@@ -3,10 +3,10 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Alpha"
-source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ När leveransinnehållet har definierats kan du använda testprofiler för att f
 
 Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
 
-För att göra detta [!DNL Adobe Campaign] gör att du kan:
+För att göra detta [!DNL Adobe Campaign] kan du:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
-* [Skicka testleveranser](test-deliveries.md) (korrektur) till specifika mottagare eller prenumeranter för testning och validering
+* [Skicka testleveranser](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
 
 Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt på skärmen Redigera innehåll.

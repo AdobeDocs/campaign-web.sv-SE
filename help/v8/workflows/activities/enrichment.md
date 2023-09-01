@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Anrikningsdata kan komma antingen:
 
 * **Från samma arbetsregister** som den som är inriktad på ditt arbetsflöde:
 
-  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetstabellen*
+  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetsregistret*
 
 * **Från en annan arbetstabell**:
 
-  *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; som kommer från tabellen&quot;Inköp&quot;*.
+  *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; från tabellen&quot;Inköp&quot;*.
 
 När anrikningsdata har lagts till i arbetsflödet kan de sedan användas i aktiviteter som lagts till efter **Berikning** aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får gensvar hos er målgrupp.
 
@@ -44,7 +44,7 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 ![](../assets/workflow-enrichment1.png)
 
-Du kan välja mellan två typer av anrikningsdata: a [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
+Du kan välja mellan två typer av anrikningsdata: [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
 
 ## Single enrichment-attribut {#single-attribute}
 
@@ -60,7 +60,7 @@ Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatu
 
 I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk med en 1-N-kardinalitet mellan tabellerna. Vi hämtar de tre senaste inköpen som är mindre än 100$. Därför måste du definiera:
 
-* ett anrikningsattribut: den **Totalt belopp** fält
+* ett anrikningsattribut: **Totalt belopp** fält
 * antalet rader som ska hämtas: 3
 * ett filter: filtrera bort objekt som är större än 100$
 * en sortering: underordnad sortering på **Orderdatum** fält.

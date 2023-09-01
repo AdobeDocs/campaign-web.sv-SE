@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 
 ## Push-sammanfattning {#push-summary}
 
-* **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
+* **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
 
   ![](assets/reporting_push_3.png)
 

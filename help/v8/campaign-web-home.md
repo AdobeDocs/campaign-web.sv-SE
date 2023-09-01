@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Web;home;populära topics
-description: Campaign Web v8 - hjälpcenter
+description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvän
 
 ## Nya funktioner för Campaign Web
 
-**Upptäck det nya användargränssnittet i Campaign v8 på webben**
+**Upptäck det nya gränssnittet Campaign v8 på webben**
 
 Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Platform.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ En specifik länk till spegelsidan bör läggas till i alla e-postmeddelanden. L
 
 ## Hantera spårning {#manage-tracking}
 
-The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade URL-adresser, till exempel redigera spårningstypen för varje länk.
+The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade URL-adresser, t.ex. redigera spårningstypen för varje länk.
 
 1. Klicka på **[!UICONTROL Links]** i den vänstra rutan för att visa en lista över alla URL:er för ditt innehåll som ska spåras.
 
@@ -66,8 +66,8 @@ The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade U
 
    * **[!UICONTROL Tracked]**: Aktiverar spårning på denna URL.
    * **[!UICONTROL Opt out]**: Betraktar denna URL som en avanmälnings- eller avanmälnings-URL.
-   * **[!UICONTROL Mirror page]**: Den här URL:en är en URL för en spegelsida.
-   * **[!UICONTROL Never]**: Aktiverar aldrig spårning av den här URL:en. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Mirror page]**: Ser den här URL:en som en spegelsida.
+   * **[!UICONTROL Never]**: Aktiverar aldrig spårning av denna URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 1. Lägg till en **[!UICONTROL Category]** till länken för att gruppera spårade länkar och klicka på **[!UICONTROL Save]**.
 

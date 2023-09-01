@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Använda Adobe Experience Platform
+title: Använda en Adobe Experience Platform-publik
 description: Lär dig använda en målgrupp från Adobe Experience Platform
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 2%
 
 ---
 
-# Använda Adobe Experience Platform{#aep-audience}
+# Använda en Adobe Experience Platform-publik{#aep-audience}
 
 Adobe Campaign Managed Cloud Service Destination och Source-anslutningarna möjliggör smidig integrering mellan Adobe Campaign och Adobe Experience Platform.
 
@@ -19,7 +19,7 @@ När ni har skapat en Adobe Experience Platform-målgrupp och den finns tillgän
 
 >[!NOTE]
 >
->Om du vill använda Adobe Experience Platform målgrupper i Campaign måste du konfigurera integreringen med Adobe Sources and Destinations. Se [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+>Om du vill använda Adobe Experience Platform målgrupper i Campaign måste du konfigurera integreringen med Adobe Sources and Destinations. Se [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
 Om du vill välja målgrupp för en leverans kan du också:

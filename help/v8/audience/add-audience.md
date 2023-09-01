@@ -3,11 +3,11 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 5%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Välj en befintlig målgrupp"
->abstract="Målgrupperna definieras i Adobe Campaign v8 Console. Om du har tillgång till en Adobe Experience Platform-integrering bör du även kunna se plattformsdefinierade målgrupper."
+>abstract="Bläddra i listan för att välja en befintlig målgrupp. Använd ikonen Visa filter om du vill filtrera listan eller markera en viss mapp."
 
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en e-postleverans.
 
 Du kan även:
 
 * Bygg en ny publik. [Läs mer](segment-builder.md)
-* Läsa in en målgrupp från en extern fil. [Läs mer](file-audience.md)
+* Läsa in en målgrupp från en extern fil (endast för e-post). [Läs mer](file-audience.md)
 * Använda en Adobe Experience Platform-målgrupp. [Läs mer](aep-audience.md).
 
 
@@ -36,21 +36,16 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
 1. Välj **[!UICONTROL Select audience]** för att använda en befintlig målgrupp. Om du vill skapa en ny målgrupp som ska användas i det här e-postmeddelandet väljer du **Skapa en egen**. Se detta [section](segment-builder.md).
 
-   På den här skärmen visas alla befintliga målgrupper som definierats i Adobe Campaign klientkonsol för den aktuella mappen.
+   På den här skärmen visas alla befintliga målgrupper för den aktuella mappen.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
+   Målgrupper skapas från **Målgrupp** vänster meny. De kan också skapas i klientkonsolen.
+
+   Om du vill använda Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Dokumentation för Adobe Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
 
 1. Välj en målgrupp och klicka **Välj**.
-
-1. Klicka **Redigera regler** om ni vill förfina er målgrupp.
-
-   ![](assets/create-audience3.png)
-
-1. Med regelbyggaren kan ni utöka målgruppen med ytterligare filter eller genom att kombinera olika målgrupper. Se det här [section](segment-builder.md).
+1. Använd **Visa filter** om du vill visa filteralternativ. Klicka **Lägg till regler** för att komma åt regelbyggaren: med regelbyggaren kan du skapa avancerade filter för listan över målgrupper. Lär dig hur du använder regelbyggaren i det här [section](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

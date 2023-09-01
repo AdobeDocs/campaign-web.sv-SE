@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Lägg till en förrubrik i e-postdesignern
-description: Lär dig hur du utformar e-postinnehåll
+description: Lär dig utforma e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ I många fall ger den en kort sammanfattning av innehållet och är vanligtvis e
 
 Följ stegen nedan när du vill definiera e-postprerubriken.
 
-1. Från [E-postdesigner](create-email-content.md), lägg till minst **[!UICONTROL Structure]** för att börja designa din e-post.
+1. Från [E-postdesigner](create-email-content.md), lägg till minst en **[!UICONTROL Structure]** för att börja designa din e-post.
 
 1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
 

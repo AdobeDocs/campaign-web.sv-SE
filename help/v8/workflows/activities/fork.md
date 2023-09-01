@@ -2,8 +2,8 @@
 audience: end-user
 title: Använda arbetsflödesaktiviteten för gaffel
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
-badge: label="Alfa"
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 Följ de här stegen för att konfigurera **Gaffel** aktivitet:
 
-1. Lägg till en **Gaffel** till arbetsflödet.
+1. Lägg till en **Gaffel** till ditt arbetsflöde.
 1. Klicka **Lägg till övergång** för att lägga till en ny utgående övergång. Som standard definieras två övergångar.
 1. Lägg till en etikett till varje övergång.
 

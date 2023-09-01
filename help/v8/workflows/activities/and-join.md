@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Använda arbetsflödesaktiviteten AND-join
-description: Lär dig hur du använder arbetsflödesaktiviteten OCH-join
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+description: Lär dig använda arbetsflödesaktiviteten OCH-join
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Den här aktiviteten utlöser endast den utgående övergången när alla inkomm
 
 Följ de här stegen för att konfigurera **AND-join** aktivitet:
 
-1. Lägg till flera aktiviteter, t.ex. kanalaktiviteter, för att bilda minst två olika utförandegrenar.
+1. Lägg till flera aktiviteter, till exempel kanalaktiviteter, för att bilda minst två olika utförandegrenar.
 1. Lägg till en **AND-join** till någon av grenarna.
 1. I **Sammanfogningsalternativ** markerar du alla tidigare aktiviteter du vill delta i.
 1. I **Primär uppsättning** väljer du vilken inkommande övergångspopulation som du vill behålla. Den utgående övergången kan bara innehålla en av de ingående övergångspopulationerna.

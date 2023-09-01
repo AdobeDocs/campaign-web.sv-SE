@@ -2,11 +2,11 @@
 audience: end-user
 title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
    ![](assets/sms_content_1.png)
 
-1. Skriv ditt textmeddelande i **[!UICONTROL Message]** eller klicka på **[!UICONTROL Open personalization dialog]** för att definiera innehåll och lägga till dynamiskt innehåll. [Läs mer](../personalization/gs-personalization.md)
+1. Skriv ditt textmeddelande i dialogrutan **[!UICONTROL Message]** eller klicka på **[!UICONTROL Open personalization dialog]** för att definiera innehåll och lägga till dynamiskt innehåll. [Läs mer](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 

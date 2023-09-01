@@ -2,11 +2,11 @@
 audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-Målgruppen är er leverans: de mottagare som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Lär dig vad som är en leveransmall [i det här avsnittet](../msg/delivery-template.md).
+Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Lär dig vad som är en leveransmall [i det här avsnittet](../msg/delivery-template.md).
 
 Om du vill definiera målgruppspopulationen kan du:
 

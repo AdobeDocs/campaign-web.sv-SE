@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Navigera till **[!UICONTROL Workflows]** -menyn eller den associerade kampanjen 
 
 När arbetsflödet körs körs varje aktivitet på arbetsytan i sekventiell ordning tills arbetsflödets slut nås.
 
-Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. På så sätt kan du snabbt identifiera status för varje aktivitet och antalet profiler som växlar mellan dem.
+Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. På så sätt kan du snabbt identifiera status för varje aktivitet och antalet profiler som övergår mellan dem.
 
 ![](assets/workflow-execution.png)
 
@@ -44,7 +44,7 @@ Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan 
 
 Övervakning av arbetsflöden, loggar och uppgifter är ett viktigt steg för att analysera dina arbetsflöden och se till att de körs som de ska. De är tillgängliga via **[!UICONTROL Logs]** ikon som är tillgänglig i åtgärdsverktygsfältet och i varje aktivitets egenskapspanel.
 
-The **[!UICONTROL Logs and tasks]** -menyn innehåller en historik över arbetsflödets körning, där alla användaråtgärder och påträffade fel registreras. Den här historiken sparas under den tid som anges i arbetsflödet [körningsalternativ](workflow-settings.md). Under den här tidsperioden sparas alla meddelanden, även efter att arbetsflödet har startats om. Om du inte vill spara meddelandena från en tidigare körning klickar du på knappen **[!UICONTROL Purge history]** -knappen.
+The **[!UICONTROL Logs and tasks]** -menyn innehåller en historik över arbetsflödets körning, där alla användaråtgärder och påträffade fel registreras. Den här historiken sparas under den tid som anges i arbetsflödet [körningsalternativ](workflow-settings.md). Under den här tidsperioden sparas alla meddelanden, även efter att arbetsflödet har startats om. Om du inte vill spara meddelandena från en tidigare körning klickar du på **[!UICONTROL Purge history]** -knappen.
 
 ![](assets/workflow-logs.png)
 
@@ -59,8 +59,8 @@ På båda flikarna kan du välja vilka kolumner som ska visas och i vilken ordni
 
 Åtgärdsfältet i det övre högra hörnet innehåller kommandon som gör att du kan hantera arbetsflödets körning. Du kan:
 
-* **[!UICONTROL Start]** / **[!UICONTROL Resume]** körningen av arbetsflödet, som sedan får statusen Pågår. Om arbetsflödet pausades återupptas det, i annat fall startas det och de inledande aktiviteterna aktiveras sedan.
+* **[!UICONTROL Start]** / **[!UICONTROL Resume]** körningen av arbetsflödet, som sedan får statusen Pågår. Om arbetsflödet pausades återupptas det, annars startas det och de inledande aktiviteterna aktiveras sedan.
 
-* **[!UICONTROL Pause]** körningen av arbetsflödet, som sedan får statusen Pausad. Inga nya aktiviteter aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
+* **[!UICONTROL Pause]** körningen av arbetsflödet, som sedan får statusen Pausad. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
 
 * **[!UICONTROL Stop]** ett arbetsflöde som körs och som sedan får statusen Slutfört. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.

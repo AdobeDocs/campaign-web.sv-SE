@@ -2,10 +2,10 @@
 audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Testmottagarna kan granska element som länkar, bilder och personaliseringsinst�
 
    ![](assets/push_send_3.png)
 
-1. Skicka meddelanden genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
+1. Skicka meddelandena genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
 
 1. Bekräfta skicka-åtgärden genom att klicka på knappen **[!UICONTROL Send]** eller **[!UICONTROL Send as scheduled]** -knappen.
 

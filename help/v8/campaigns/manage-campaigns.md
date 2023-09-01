@@ -2,8 +2,8 @@
 audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
-badge: label="Alfa"
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på
 
 Det finns två flikar i kampanjlistan:
 
-* The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna instrumentpanelen eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
+* The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna dess instrumentpanel eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
 
 * The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Kampanjmallar är förkonfigurerade så att de kan återanvändas när nya kampanjer skapas. De skapas från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
@@ -42,7 +42,7 @@ Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och anv�
 
 I **Bläddra** klickar du på en kampanj för att visa information om den.
 
-![Kontrollpanel för kampanj](assets/campaign-dashboard.png)
+![Kampanjinstrumentpanel](assets/campaign-dashboard.png)
 
 Status och schema för kampanjen visas högst upp på skärmen. Du kan använda **Konfigurera kampanjinställningar** om du vill ändra kampanjens egenskaper som definierades när kampanjen skapades. Det finns tre knappar som gör att du kan visa loggar, rapportera, duplicera eller ta bort kampanjen. Se det här [section](create-campaigns.md#create-campaigns)
 

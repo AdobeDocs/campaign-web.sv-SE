@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '359'
 ht-degree: 11%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 11%
    + [Kom igång](get-started/get-started.md)
    + [Upptäck gränssnittet](get-started/user-interface.md)
    + [Bläddra bland, söka i och filtrera listor](get-started/list-filters.md)
+   + [Åtkomst och behörigheter](get-started/permissions.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Arbeta med leveransmallar](msg/delivery-template.md)
@@ -77,7 +78,7 @@ ht-degree: 11%
    + [Välj en befintlig målgrupp](audience/add-audience.md)
    + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
    + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
-   + [Använda Adobe Experience Platform](audience/aep-audience.md)
+   + [Använda en Adobe Experience Platform-publik](audience/aep-audience.md)
    + [Ange en kontrollgrupp](audience/control-group.md)
 + Flerkanalskampanjer {#campaigns}
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
@@ -104,6 +105,7 @@ ht-degree: 11%
       + [Vänta](workflows/activities/wait.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)
+   + [Viktiga resultatindikatorer](reporting/kpis.md)
    + Leveransrapporter {#delivery-report}
       + [Åtkomstrapporter](reporting/delivery-reports.md)
       + [Rapport om e-postleverans](reporting/email-report.md)

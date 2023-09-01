@@ -3,10 +3,10 @@ audience: end-user
 title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -33,17 +33,17 @@ Så här skapar du en ny publik när du utformar ett e-postmeddelande:
 
 Paletten, som finns till vänster, innehåller alla element som du kan filtrera på för att skapa en målgrupp. Platserna i paletten måste flyttas till arbetsytan i mitten för att kunna konfigureras och beaktas. Paletten är uppdelad i två flikar:
 
-* **Attribut**: På den här fliken kan du komma åt alla tillgängliga fält från schemat. Fältlistan beror på målschemat som definierats i e-postmallen.
+* **Attribut**: den här fliken ger dig åtkomst till alla tillgängliga fält från schemat. Fältlistan beror på målschemat som definierats i e-postmallen.
 
   ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Målgrupper**: På den här fliken kan du filtrera med en av de befintliga målgrupperna som definieras i Campaign Classic-konsolen eller från Adobe Experience Platform.
+* **Målgrupper**: på den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i Campaign Classic Console eller från Adobe Experience Platform.
 
   ![](assets/segment-builder3.png){width="70%" align="left"}
 
   >[!NOTE]
   >
-  >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Destinationsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
+  >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Dokumentation för Adobe Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
 
 Du kan använda sökfältet för att snabbt hitta element.
 
@@ -55,13 +55,13 @@ Arbetsytan är den centrala zon där du kan konfigurera och kombinera regler bas
 
 ## Rutan Regelegenskaper
 
-Till höger **Regelegenskaper** kan du utföra följande åtgärder:
+På höger sida **Regelegenskaper** kan du utföra följande åtgärder:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Visa resultat:** visar en lista över mottagare som målgruppen har.
 * **kodvyn**: visar en kodbaserad version av målgruppen i SQL.
-* **Visa avancerade attribut**: Markera det här alternativet om du vill visa hela listan med attribut på den vänstra paletten: noder, grupperingar, 1-1 länkar, 1-N länkar.
+* **Visa avancerade attribut**: markera det här alternativet om du vill visa den fullständiga listan med attribut på den vänstra paletten: noder, grupperingar, 1-1 länkar, 1-N länkar.
 * **Attribut**: visar en beskrivning av den skapade målgruppen.
 
 ## Exempel
@@ -88,7 +88,7 @@ I det här exemplet bygger vi en målgrupp för alla kunder som bor i Atlanta el
 
    ![](assets/segment-builder10.png)
 
-1. Klicka **Visa resultat** för att visa listan och antalet mottagare som matchar frågan. Du kan också lägga till kolumner för att visa och kontrollera data. I vårt exempel lägger du till **Ort** och ska se Atlanta och Seattle.
+1. Klicka **Visa resultat** för att visa listan och antalet mottagare som matchar frågan. Du kan också lägga till kolumner för att visa och kontrollera data. I vårt exempel lägger du till **Ort** i Atlanta och Seattle.
 
    ![](assets/segment-builder11.png)
 

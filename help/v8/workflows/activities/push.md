@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd aktiviteten för push-meddelandearbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för push-meddelanden
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ The **Push-meddelande** Med leveransaktivitet kan du konfigurera sändning av pu
 
 1. Välj aktivitet. På leveransmenyn väljer du de mallar som du vill använda för leveransen. Läs mer om mallar
 
-1. Klicka på Skapa leverans för att konfigurera leveransen av push-meddelanden. Mer information om push-meddelanden (iOS) finns på den här sidan.
+1. Klicka på Skapa leverans för att konfigurera leveransen av push-meddelanden. Mer information om överföring av push-meddelanden (iOS) finns på den här sidan.
 
 1. När leveransen är klar går du tillbaka till arbetsflödet och klickar på Start för att starta arbetsflödet.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Alpha"
-source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 25%
 
 ---
@@ -52,7 +52,7 @@ The **Skicka loggar** På -fliken finns en historik över alla förekomster av l
 
 ## Undantag {#exclusion-tab}
 
-The **Uteslutningsloggar** På -fliken visas alla meddelanden som har uteslutits från målet och orsaken till sändningsfelet anges.
+The **Uteslutningsloggar** På -fliken visas alla meddelanden som har undantagits från målet och orsaken till sändningsfelet anges.
 
 ![](assets/logs3.png)
 

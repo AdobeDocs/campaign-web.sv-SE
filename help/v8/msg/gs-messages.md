@@ -2,11 +2,11 @@
 audience: end-user
 title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveranser"
->abstract="Bläddra igenom listan över leveranser. Du kan visa status, kontaktdatum och ändringsdatum samt nyckeltal för nyckeltal. Du kan filtrera listan efter status, kontaktdatum eller kanal. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, målgrupp och detaljer."
+>abstract="En leverans är en marknadsföringskommunikation som skickas till en viss målgrupp via en viss kanal: e-post, SMS eller push-meddelanden. I listan över leveranser kan du redigera befintliga leveranser och kontrollera status, kontakt- och ändringsdatum samt KPI:er. Klicka på knappen Skapa leverans för att lägga till en ny leverans. Välj en leverans för att visa dess innehåll, schema, målgrupp och detaljer."
 
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter.
 
 Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i en marknadsföringskampanj.
 
-Adobe Campaign v8 har följande leveranskanaler: E-post, SMS och mobilappar.
+Adobe Campaign v8 har följande leveranskanaler: e-post, SMS och mobilappar.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -60,7 +60,7 @@ Adobe Campaign v8 har följande leveranskanaler: E-post, SMS och mobilappar.
 ## Skapa en leverans {#create-delivery}
 
 
-Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny, eller skapa leveranser i samband med en marknadsföringskampanj, från **[!UICONTROL Campaigns]** vänster meny.
+Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny eller skapa leveranser i samband med en marknadsföringskampanj från **[!UICONTROL Campaigns]** vänster meny.
 
 Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
@@ -70,7 +70,7 @@ Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
 Så här skapar du en fristående leverans:
 
-1. Bläddra till **[!UICONTROL Deliveries]** till vänster och klicka på **[!UICONTROL Create delivery]** -knappen.
+1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på **[!UICONTROL Create delivery]** -knappen.
 
    ![](assets/create-a-delivery.png)
 
@@ -87,14 +87,14 @@ Så här skapar du en fristående leverans:
 1. Använd  **[!UICONTROL Simulate content]** för att testa leveransinställningar och personaliseringsinställningar. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på  **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel uppstår går du till **Loggar** för att kontrollera varningar och varningar.
 1. Kontrollera resultaten och klicka på  **[!UICONTROL Send]** för att börja skicka meddelanden.
-1. När meddelandena har skickats bläddrar du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
+1. När meddelandena har skickats går du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
 
 >[!TAB Skapa en leverans i en kampanj]
 
 Så här skapar du en leverans i en kampanj:
 
 1. Skapa en kampanj eller öppna en befintlig kampanj. Läs mer om [marknadsföringskampanjer](../campaigns/gs-campaigns.md).
-1. Skapa ett arbetsflöde eller öppna ett befintligt arbetsflöde.
+1. Skapa ett arbetsflöde eller öppna ett befintligt.
 1. Lägg till och konfigurera en **[!UICONTROL Build audience]** och klicka på `+`-knappen.
 
    ![](assets/add-delivery-in-wf.png)
@@ -167,7 +167,7 @@ Så här duplicerar du en leverans från kontrollpanelen:
 
 1. Öppna leveransen och klicka på  **[!UICONTROL ...More]** på skärmens övre del.
 1. Välj **[!UICONTROL Duplicate]**.
-1. Bekräfta duplicering: den nya leveransen ersätter den aktuella leveransen på skärmen.
+1. Bekräfta duplicering: Den nya leveransen ersätter den aktuella leveransen på den centrala skärmen.
 
 ## Ta bort en leverans {#delivery-delete}
 
