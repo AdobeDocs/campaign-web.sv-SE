@@ -5,15 +5,15 @@ description: Lista över funktioner som inte stöds i gränssnittet för Campaig
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 7%
+source-wordcount: '350'
+ht-degree: 6%
 
 ---
 
 
-# Funktioner som inte stöds i gränssnittet för Campaign Web {#unsupported-capabilities}
+# Funktioner som inte stöds i Campaign Web {#unsupported-capabilities}
 
 Följande funktioner är tillgängliga i Campaign Client Console, men är ännu inte tillgängliga i webbanvändargränssnittet. Vissa kommer att finnas i en senare version, men andra inte.
 
@@ -22,17 +22,13 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 * Kontrollpanel för startsida
 * Anpassning av hemsida
 
-
 **Campaign Management**
 
 * Marknadsföringskalender/tidslinje
 * Budget- och kostnadshantering
 * Uppgiftshantering
-* Distribuerad marknadsföring
+* Distribuerad marknadsföring (Central/Local marketing)
 * Svarshantering
-
-**Kampanjoptimering**
-
 * A/B-test
 * Hantering av marknadsföringsresurser, mål, simuleringar, budget och kostnader
 
@@ -46,6 +42,7 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 **Webbinnehåll**
 
 * Skapa och publicera landningssidor
+* Webbprogram, webbformulär
 * Undersökningshantering
 
 **Profiler och mottagare**
@@ -66,16 +63,16 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 
 * Innehåll från offentliga resurser
 * Slingor/samlingshantering
-* Spara ett HTML-innehåll som en mall (inte tillgängligt i klientkonsolen)
+* Spara ett HTML-innehåll som en mall`*`
 * Synkronisering av e-postmallar från Adobe Experience Manager
 * Material från Adobe Experience Manager 6.5 i e-postmeddelanden
 * Skapa innehållsblock
 * Innehåll från anpassade formulär
-* Innehåll från en URL (inte tillgängligt i klientkonsolen)
+* Innehåll från en URL`*`
 * E-postfragment
 * AMP för e-post
-* E-postfragment (ej tillgängligt i klientkonsolen)
-* Multivariant/flerspråkig användning (ej tillgängligt i klientkonsolen)
+* E-postfragment`*`
+* Flerspråkig användning`*`
 
 **Regler för typologi**
 
@@ -125,3 +122,4 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 * Målgodkännande
 
 
+`*` Inte tillgängligt i klientkonsolen
