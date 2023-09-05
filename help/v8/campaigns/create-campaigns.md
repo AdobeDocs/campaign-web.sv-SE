@@ -4,10 +4,10 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 0%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Egenskaper för kampanjskapande"
->abstract="Definiera egenskaper och metadata för kampanjen."
+>abstract="Ange kampanjinställningarna på den här skärmen: välj en mall och ange en etikett för kampanjen. Bläddra till de extra inställningarna om du vill ändra standardnamnet på den interna mappen, lägga till en beskrivning och välja den som ska tilldelas."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Kampanjegenskaper"
->abstract="Definiera kampanjinställningar och metadata."
+>abstract="På den här skärmen kan du kontrollera och uppdatera kampanjinställningarna: etikett, internt namn, mapp och beskrivning. Du kan också visa vilken användare det är tilldelat."
 
-Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schemalägga och inkludera arbetsflöden och leveranser.
+Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schema och inkludera arbetsflöden och leveranser.
 
 ## Skapa kampanjen{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Kampanjschema"
->abstract="Definiera kampanjschemat när kampanjer skapas."
 
 Så här skapar du en ny kampanj:
 
@@ -39,14 +34,7 @@ Så här skapar du en ny kampanj:
 1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. Kampanjmallar är förkonfigurerade så att de kan återanvändas för att skapa nya kampanjer. De skapas från klientkonsolen.
    [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
-1. Definiera **Schema** av er kampanj. Kampanjen startar när startdatumet nås. Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](manage-campaigns.md#access-campaigns).
-
-   ![Definiera kampanjegenskaper](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard).
-
+1. Definiera **Schema** av er kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](#campaign-schedule)
 1. Klicka **Skapa**.
 1. Lägg till arbetsflöden och leveranser till kampanjen:
 
@@ -61,6 +49,29 @@ Kampanjövervakning är ett viktigt steg för att analysera hur effektiv er kamp
 
 Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knappen. Se det här [section](../reporting/campaign-reports.md).
 
+
+## Definiera kampanjschemat {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Kampanjschema"
+>abstract="Välj kampanjschemat. Du kan skapa kampanjen och den startar när startdatumet nås. Som standard är kampanjens startdatum skapandedatum och varar i 5 dagar. Start- och slutdatum visas i kampanjlistan och kan användas som filter."
+
+
+Kampanjen startar när startdatumet nås. Så länge startdatumet inte nås har kampanjen **[!UICONTROL Draft]** status. När startdatumet har nåtts blir det **[!UICONTROL In progress]**. När slutdatumet har nåtts ställs kampanjen in på **[!UICONTROL Completed]**.
+
+Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](manage-campaigns.md#access-campaigns).
+
+![Definiera kampanjegenskaper](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard).
+
+
+
+När datumet har nåtts skickas leveranser som skapats i kampanjen i ett arbetsflöde som är klart att skickas. För detta måste arbetsflödet ha startats.
 
 
 <!--

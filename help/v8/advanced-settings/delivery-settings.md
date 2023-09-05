@@ -4,10 +4,10 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 10%
+source-wordcount: '1620'
+ht-degree: 8%
 
 ---
 
@@ -27,13 +27,24 @@ Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmall
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologi"
->abstract="Typologier är uppsättningar regler som körs under meddelandeförberedelsen. De gör att du kan kontrollera, filtrera och övervaka leveransen."
+>abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
 
-Typologier är uppsättningar av **typologiregler** som körs under fasen för analys av meddelande. Med dem kan du se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Typologi"
+>abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
+
+
+Typologier är uppsättningar av **typologiregler**, som utförs under beredningsfasen. Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel exkluderas från leveransmålgrupperna vid leveransförberedelsefasen.  Med dem kan du se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
+
+Typologiregler grupperas tillsammans inom en typologi för att enkelt kunna tillämpa flera filterregler på en leverans samtidigt.
 
 När du associerar en typologi med en meddelande- eller meddelandemall körs de typologiregler som ingår i typologin för att kontrollera meddelandets giltighet under meddelandeförberedelsen.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Trycket {#pressure-parameters}
@@ -42,10 +53,10 @@ När du associerar en typologi med en meddelande- eller meddelandemall körs de 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Trycket"
->abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för tryckhantering. Meddelanden med högst vikt har prioritet."
+>abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för trötthetshantering. Meddelanden med högst vikt har prioritet."
 
 
-I det här avsnittet kan du definiera en **tröskelvärde**. Det här är det maximala antalet meddelanden som kan skickas till en profil under en viss period. När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
+I det här avsnittet kan du definiera en **tröskelvärde** fastställa regler för trötthetshantering. Det här är det maximala antalet meddelanden som kan skickas till en profil under en viss period. När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
 
 Tröskelvärden kan vara antingen konstanta eller variabla. Detta innebär att tröskelvärdena för en viss period kan variera från en profil till en annan eller till och med för samma profil.
 

@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Skärmen innehåller länkar och resurser som gör att du snabbt kommer åt de v
 
 The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring.
 
-The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal.
+The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er i [den här sidan](../reporting/kpis.md).
 
 Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på startsidan.
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Giltighetsperiod"
->abstract="Det här alternativet anger hur länge spårningen ska aktiveras på URL-adresserna."
+>abstract="Giltighetsperioden anger den varaktighet som spårningen är aktiverad för i meddelande-URL:erna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Leveransvikt"
 >abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för tryckhantering. Meddelanden med högst vikt har prioritet."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Typologi"
->abstract="Med typologi kan du styra, filtrera och övervaka leveransen."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
