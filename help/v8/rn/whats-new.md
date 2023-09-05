@@ -4,15 +4,18 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
 
 # Nyheter? {#new}
+
+
+Vi är stolta över att kunna presentera BETA-versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler.
 
 ## Betaversion{#beta-release}
 
@@ -46,6 +49,54 @@ Använd det nya webbgränssnittet för Campaign för att:
 * Förhandsgranska, testa och skicka e-postmeddelanden - [Läs mer](../monitor/prepare-send.md)
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
+
+## Senaste uppdateringar
+
+
+**Betaversion**
+
+* Aktivera datakomposition (federerad) för målgrupper och personalisering.
+* Använd AI-teknik för att förbättra genereringen av e-postinnehåll.
+* Synka smidigt resurser och fullständiga mallar för HTML.
+* Ordna och hantera effektivt mappar och resurser.
+* Skapa engagerande och effektiva landningssidor.
+* Fler arbetsflödesaktiviteter: Få tillgång till ytterligare aktiviteter som ändringsdimension, borttagning av dubbletter och återkommande leveranser för att förbättra kampanjarbetsflödena.
+
+**Viktiga nya funktioner**
+
+* Fler arbetsflödesaktiviteter för kampanjer
+
+  Utnyttja era marknadsföringskampanjer bättre med våra utökade arbetsflödesaktiviteter. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor.
+
+  Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
+
+* Gen AI for Email content
+
+  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll.
+
+  Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
+
+
+* Fördefinierad filterhantering
+
+  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk.
+
+
+* Målgrupp
+
+  Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Dessutom kan ni utnyttja er målgrupp i AEP (Adobe Experience Platform) för att ytterligare förfina målgruppen och maximera kampanjens genomslag.
+
+* Erbjudanden med SMS och push
+
+  Med det nya webbgränssnittet kan du nu integrera erbjudanden med SMS och push-meddelanden utöver e-post. Nå ut till er målgrupp på deras mobila enheter och leverera kampanjer och meddelanden i rätt tid.
+
+  Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS och push-meddelanden på vår avancerade webbplattform.
+
+* Integrering med Adobe Experience Manager (AEM)
+
+  Med vår AEM integration även i webbgränssnitt kan ni enkelt hantera resurser och synkronisera fullständiga HTML-mallar så att ni kan skapa engagerande digitala upplevelser utan krångel.
+
+  Förbättra och effektivisera innehållshanteringsfunktionerna i webbgränssnittet med den här integreringen som ökar produktiviteten.
 
 ## Övergång till Campaign Web UI
 
