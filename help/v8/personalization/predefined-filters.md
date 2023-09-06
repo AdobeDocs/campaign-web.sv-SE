@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="Fördefinierade filter"
 >abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
 
-Fördefinierade filter är anpassade filter som är tillgängliga för framtida bruk. De kan användas som genvägar vid filtreringsåtgärder med regelbyggaren.
+Fördefinierade filter är anpassade filter som är tillgängliga för framtida bruk. De kan användas som genvägar vid filtreringsåtgärder med regelbyggaren. Du kan använda befintliga inbyggda filter för att komma åt en viss underuppsättning av dina data eller skapa ett eget fördefinierat filter.
 
 
 ## Skapa ett fördefinierat filter {#create-predefined-filter}
@@ -65,3 +65,5 @@ Ditt anpassade filter finns nu i **Fördefinierade filter** och är tillgänglig
 
 ## Hantera dina fördefinierade filter {#manage-predefined-filter}
 
+
+## Inbyggda fördefinierade filter {#ootb-predefined-filter}
