@@ -6,18 +6,36 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 1%
 
 ---
 
-# Skapa och använda fördefinierade filter {#predefined-filters}
+# Arbeta med fördefinierade filter {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Fördefinierad filterhantering"
->abstract="Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
+>abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-dashboard"
+>title="Fördefinierade filter"
+>abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
+
+## Skapa ett fördefinierat filter {#create-predefined-filter}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-creation"
+>title="Skapa ett fördefinierat filter"
+>abstract="Ange en etikett för det fördefinierade filtret och markera den tabell det gäller. Öppna de andra alternativen för att lägga till en beskrivning och ange det här filtret som en favorit. Använd sedan knappen Skapa regel för att definiera filtervillkoren. "
+
+## Använda ett fördefinierat filter {#use-predefined-filter}
+
+
+
+## Hantera dina fördefinierade filter {#manage-predefined-filter}
 
