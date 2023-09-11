@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
+source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 >title="Fördefinierade filter"
 >abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
 
-Fördefinierade filter är anpassade filter som är tillgängliga för framtida bruk. De kan användas som genvägar vid filtreringsåtgärder med regelbyggaren. Du kan använda befintliga inbyggda filter för att komma åt en viss underuppsättning av dina data eller skapa ett eget fördefinierat filter.
+Fördefinierade filter är anpassade filter som skapas och sparas för att vara tillgängliga för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med regelbyggaren, till exempel när en lista med data filtreras eller när målgruppen för en leverans skapas.
+
+Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
 
 ## Skapa ett fördefinierat filter {#create-predefined-filter}
@@ -52,18 +54,73 @@ Följ stegen nedan om du vill spara ett anpassat filter i regelverktyget:
 
 1. (valfritt) Aktivera **Spara som favorit** om du vill se det här fördefinierade filtret i dina favoriter.
 
+
+   När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
+
    ![](assets/predefined-filters-favorite.png)
+
 
 1. Klicka **Bekräfta** för att spara ändringarna.
 
 Ditt anpassade filter finns nu i **Fördefinierade filter** och är tillgängliga för alla Campaign-användare.
 
+Du kan också skapa ett filter från **Fördefinierade filter** i den vänstra menyn. Gör så här:
+
+1. Sök i **Fördefinierade filter** i den vänstra menyn.
+1. Klicka på **Skapa filter** -knappen.
+1. Ange filternamnet och, från **Dokumenttyp** markerar du det schema det gäller för. Standardschemat är `Recipients(nms)`.
+1. Definiera regeln för filtret. Till exempel profiler äldre än 30.
+
+   ![](assets/filter-30+.png)
+
+1. Spara ändringarna. Filtret läggs till i den fördefinierade filterlistan.
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
+Fördefinierade filter är tillgängliga när du definierar regelegenskaper. Om du vill komma åt fördefinierade filter väljer du **Välj eget filter** i listrutan för regelbyggaren.
 
+Du kan sedan komma åt den fullständiga listan med fördefinierade filter som är tillgängliga för den aktuella kontexten.
+
+Du kan också använda de filtergenvägar som finns i **Favoritfilter** i listrutan.
+
+
+Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följer du de här stegen:
+
+1. Sök i **Målgrupper** i den vänstra menyn.
+1. Klicka på **Skapa publik** -knappen.
+1. Ange målgruppens namn och klicka på **Skapa publik** -knappen.
+1. Välj **Fråga** aktivitet och, från den högra rutan, klicka **Skapa målgrupper** -knappen.
+
+   ![](assets//build-audience-from-filter.png)
+
+1. Från **Markera eller spara filterknapp** väljer du **Välj eget filter** alternativ.
+
+   ![](assets/build-audience-select-custom-filter.png)
+
+1. Bläddra till det fördefinierade filtret som du vill använda för att skapa målgruppen, markera det och bekräfta.
+
+   ![](assets/build-audience-filter-list.png)
+
+1. Kontrollera regelegenskaperna för det här filtret och bekräfta.
+
+   ![](assets/build-audience-check.png)
+
+   Filtret används nu som en fråga i **Fråga** aktivitet.
+
+   ![](assets/build-audience-confirm.png)
+
+1. Spara ändringarna och klicka på **Starta** för att bygga upp målgruppen och göra den tillgänglig i målgruppslistan.
 
 ## Hantera dina fördefinierade filter {#manage-predefined-filter}
 
+Fördefinierade filter grupperas alla i den dedikerade posten på den vänstra navigeringsmenyn.
+
+I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
+
+* redigera ett befintligt filter och ändra dess regler och egenskaper
+* duplicera ett fördefinierat filter
+* ta bort ett fördefinierat filter
 
 ## Inbyggda fördefinierade filter {#ootb-predefined-filter}
+
+Campaign innehåller en uppsättning fördefinierade filter som skapats från klientkonsolen. Dessa filter kan användas för att definiera målgrupper och regler. De får inte ändras.
