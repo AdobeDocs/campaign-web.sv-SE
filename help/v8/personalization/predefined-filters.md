@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Fördefinierade filter är anpassade filter som skapas och sparas för att vara 
 
 Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Skapa ett fördefinierat filter {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Du kan använda befintliga inbyggda filter för att få tillgång till en viss d
 >title="Skapa ett fördefinierat filter"
 >abstract="Ange en etikett för det fördefinierade filtret och markera den tabell det gäller. Öppna de andra alternativen för att lägga till en beskrivning och ange det här filtret som en favorit. Använd sedan knappen Skapa regel för att definiera filtervillkoren."
 
-När du skapar ett filter med regelverktyget kan du spara det för framtida bruk. När det sparas som ett anpassat filter är det tillgängligt för framtida bruk. Du kan också skapa och redigera fördefinierade filter från den dedikerade menyn i den vänstra navigeringen.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Skapa fördefinierade filterregler"
+>abstract="Om du vill definiera filtervillkoren för det anpassade filtret klickar du på knappen Skapa regel."
+
 
 Följ stegen nedan om du vill spara ett anpassat filter i regelverktyget:
 
@@ -83,7 +88,6 @@ Du kan sedan komma åt den fullständiga listan med fördefinierade filter som �
 
 Du kan också använda de filtergenvägar som finns i **Favoritfilter** i listrutan.
 
-
 Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följer du de här stegen:
 
 1. Sök i **Målgrupper** i den vänstra menyn.
@@ -120,6 +124,8 @@ I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
 * redigera ett befintligt filter och ändra dess regler och egenskaper
 * duplicera ett fördefinierat filter
 * ta bort ett fördefinierat filter
+
+Du kan lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar regler. Den här funktionen beskrivs i [det här avsnittet](#create-predefined-filter).
 
 ## Inbyggda fördefinierade filter {#ootb-predefined-filter}
 
