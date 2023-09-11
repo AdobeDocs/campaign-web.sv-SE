@@ -2,10 +2,10 @@
 audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
-badge: label="Alpha"
-source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
+badge: label="Alfa"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Om du vill ta bort ett filter klickar du på **Rensa alla** -knappen.
 
 ## Anpassa listskärmar {#custom-lists}
 
-Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Om du vill göra det klickar du på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan.
+Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Klicka på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan.
 
 ![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 I **Konfigurera kolumner** rastrera, lägga till eller ta bort kolumner och ändra visningsordningen.
 
-Exempel:
+För dessa inställningar:
 
 ![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
@@ -51,7 +51,7 @@ Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller 
 
 ## Egna filter{#list-custom-filters}
 
-Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på **Lägg till regler** -knappen.
+Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på knappen **Lägg till regler** -knappen.
 
 Dra och släpp attribut för att skapa filtervillkor i **Avancerade filter** skärm.
 
@@ -79,7 +79,7 @@ Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktu
 
 Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar. Attribut som angetts som `advanced` attribut i dataschemat döljs från konfigurationsskärmarna.
 
-Aktivera **Visa avancerade attribut** om du vill visa alla tillgängliga attribut för den aktuella listan: attributlistan uppdateras omedelbart.
+Aktivera **Visa avancerade attribut** växla för att se alla tillgängliga attribut för den aktuella listan: attributlistan uppdateras omedelbart.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
