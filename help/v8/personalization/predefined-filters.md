@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -39,14 +39,14 @@ Du kan använda befintliga inbyggda filter för att få tillgång till en viss d
 >title="Skapa ett fördefinierat filter"
 >abstract="Ange en etikett för det fördefinierade filtret och markera den tabell det gäller. Öppna de andra alternativen för att lägga till en beskrivning och ange det här filtret som en favorit. Använd sedan knappen Skapa regel för att definiera filtervillkoren."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Skapa fördefinierade filterregler"
 >abstract="Om du vill definiera filtervillkoren för det anpassade filtret klickar du på knappen Skapa regel."
 
+### Skapa ett filter från regelbyggaren {#create-from-rule-builder}
 
-Följ stegen nedan om du vill spara ett anpassat filter i regelverktyget:
+Du kan spara ett anpassat filter från regelbyggaren så att det blir tillgängligt för framtida bruk. Följ de här stegen:
 
 1. Öppna regelbyggaren och definiera filtervillkoren. I exemplet nedan filtrerar du mottagare som bor i Madrid.
 1. Klicka på **Markera eller spara filter** och markera **Spara som ett filter**.
@@ -57,28 +57,40 @@ Följ stegen nedan om du vill spara ett anpassat filter i regelverktyget:
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (valfritt) Aktivera **Spara som favorit** om du vill se det här fördefinierade filtret i dina favoriter.
-
-
-   När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
-
-   ![](assets/predefined-filters-favorite.png)
-
+   Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
 
 1. Klicka **Bekräfta** för att spara ändringarna.
 
 Ditt anpassade filter finns nu i **Fördefinierade filter** och är tillgängliga för alla Campaign-användare.
 
-Du kan också skapa ett filter från **Fördefinierade filter** i den vänstra menyn. Gör så här:
+
+### Skapa ett filter från filterlistan {#create-filter-from-list}
+
+
+Du kan skapa ett filter från **Fördefinierade filter** i den vänstra menyn. Gör så här:
 
 1. Sök i **Fördefinierade filter** i den vänstra menyn.
 1. Klicka på **Skapa filter** -knappen.
 1. Ange filternamnet och, från **Dokumenttyp** markerar du det schema det gäller för. Standardschemat är `Recipients(nms)`.
+
+   Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
+
 1. Definiera regeln för filtret. Till exempel profiler äldre än 30.
 
    ![](assets/filter-30+.png)
 
 1. Spara ändringarna. Filtret läggs till i den fördefinierade filterlistan.
+
+
+## Spara filtret som en favorit {#fav-filter}
+
+När du skapar ett fördefinierat filter kan du aktivera **Spara som favorit** om du vill se det här fördefinierade filtret i dina favoriter.
+
+
+När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Fördefinierade filter är tillgängliga när du definierar regelegenskaper. Om 
 
 Du kan sedan komma åt den fullständiga listan med fördefinierade filter som är tillgängliga för den aktuella kontexten.
 
-Du kan också använda de filtergenvägar som finns i **Favoritfilter** i listrutan.
+Du kan också använda de filtergenvägar som finns i **Favoritfilter** i listrutan. Läs mer om favoriter i [det här avsnittet](#fav-filter).
 
 Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följer du de här stegen:
 
@@ -125,7 +137,7 @@ I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
 * duplicera ett fördefinierat filter
 * ta bort ett fördefinierat filter
 
-Du kan lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar regler. Den här funktionen beskrivs i [det här avsnittet](#create-predefined-filter).
+Du kan lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar regler. Läs mer i [det här avsnittet](#fav-filter).
 
 ## Inbyggda fördefinierade filter {#ootb-predefined-filter}
 
