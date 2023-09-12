@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ När du skapar och anpassar meddelandeinnehållet kan du välja fält från inda
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Exempelfil"
->abstract="Filformat som stöds: txt, csv. Använd den första raden som kolumnrubrik."
+>title="Läsa in en målgrupp från en fil"
+>abstract="Filformat som stöds är TXT och CSV. Använd den första raden som kolumnrubrik. Justera filformatet med exempelfilen som finns på länken nedan."
 
 Format som stöds är TXT och CSV. Den första raden är kolumnrubriken.
 
