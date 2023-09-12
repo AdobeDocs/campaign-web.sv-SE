@@ -4,7 +4,7 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det 
 >[!NOTE]
 >
 >Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard).
-
-
 
 När datumet har nåtts skickas leveranser som skapats i kampanjen i ett arbetsflöde som är klart att skickas. För detta måste arbetsflödet ha startats.
 
