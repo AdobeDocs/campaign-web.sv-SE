@@ -4,10 +4,10 @@ title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
@@ -27,4 +27,8 @@ Så här visar du rapporter:
 
    ![](assets/reporting.png)
 
+1. Om leveransen är återkommande kan du välja en viss leverans att rapportera om genom att klicka på **[!UICONTROL Select deliveries]**.
 
+   Du kan också använda en tidsperiod för rapporten genom att välja **[!UICONTROL Contact date]**.
+
+   ![](assets/delivery-recurring.png)
