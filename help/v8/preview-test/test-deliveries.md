@@ -4,7 +4,7 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -33,17 +33,11 @@ Mottagarna av ett test kan kontrollera olika element som länkar, avanmälningsl
 
 Beroende på vilken kanal du använder kan testmeddelanden skickas till tre typer av mottagare:
 
-* [Testprofiler](#test-profiles) - Skicka **testa e-post och SMS** till dirigerade adresser, som är ytterligare mottagare i databasen.
+* [Testprofiler](#test-profiles) - Skicka **testa e-post och SMS** till dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-  De kan skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Ersätt från huvudmål](#substitution-profiles) - Skicka **testa e-post och SMS** till en viss e-postadress eller ett visst telefonnummer när du personifierar en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
-* [Ersätt från huvudmål](#substitution-profiles) - Skicka **testa e-post och SMS** till en viss e-postadress eller ett visst telefonnummer när du personifierar en befintlig profil.
-
-  På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
-
-* [Prenumeranter](#subscribers) - Skicka **testa push-meddelanden** till fiktiva prenumeranter som läggs till i databasen.
-
-  Precis som testprofiler kan de skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Prenumeranter](#subscribers) - Skicka **testa push-meddelanden** till fiktiva prenumeranter som läggs till i databasen. Precis som testprofiler kan de skapas i [!DNL Campaign] konsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 Om du vill välja mottagare för en testleverans följer du stegen nedan beroende på vilken typ av profiler du vill använda.
 
