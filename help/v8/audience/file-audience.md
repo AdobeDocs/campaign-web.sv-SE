@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
 1. Kontroller som utförs i filformat
 1. klicka på skicka
 
-+ länk till avsnittet för förhandsgranskning och test
+lägg till länk till avsnittet för förhandsgranskning och test
 
 **frågor:**
 * ingen ersättning från fil tillgänglig?
