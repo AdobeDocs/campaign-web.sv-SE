@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,13 @@ The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar 
 * **[!UICONTROL Folder]**: Mappen där arbetsflödet ska sparas.
 * **[!UICONTROL Linked campaign]**: Det här fältet visas om arbetsflödet har skapats i en kampanj. Du kan öppna den associerade kampanjen.
 * **[!UICONTROL Timezone]**: Definiera en specifik tidszon som ska användas som standard i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
-* **[!UICONTROL Supervisor(s)]**: När ett arbetsflöde är felaktigt meddelas de operatorer som tillhör arbetsflödesövervakningsgruppen via e-post, förutsatt att deras e-postadress anges i deras profil.
+Andra möjliga värden är:
+   * **Tidszon för server** för att använda tidszonen på Adobe Campaign-programservern
+   * **Operatörens tidszon** använder tidszonen för den Adobe Campaign-operator som kör arbetsflödet, enligt definitionen i operatörens profil, i klientkonsolen
+   * **Databasens tidszon** för att använda databasserverns tidszon
+   * En specifik tidszon
+
+* **[!UICONTROL Supervisor(s)]**: När ett arbetsflöde misslyckas meddelas de operatorer som tillhör den operatorgrupp som valts i det här fältet via e-post.
 * **[!UICONTROL Description]**: Använd det här fältet om du vill ange en beskrivning av arbetsflödet.
 
 ## Segmenteringsinställningar
