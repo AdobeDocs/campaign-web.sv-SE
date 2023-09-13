@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,12 @@ Så här skapar du en arbetsflödesmall från ett befintligt arbetsflöde:
 1. Bekräfta att mallen har skapats i popup-fönstret.
 1. Kontrollera, lägg till och konfigurera aktiviteter efter behov på arbetsytan i arbetsflödesmallen.
 1. Bläddra till inställningarna för att ändra namnet på arbetsflödesmallen och ange en beskrivning.
+1. Välj mapp och körningsmapp för mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
+
+   ![](assets/wf-settings-template.png)
+
+   De andra egenskaperna är vanliga i arbetsflöden. Läs mer i [den här sidan](workflow-settings.md#properties)
+
 1. Spara ändringarna.
 
 Arbetsflödesmallen är nu tillgänglig i malllistan. Du kan skapa ett arbetsflöde baserat på den här mallen. Det här arbetsflödet förkonfigureras med inställningarna och aktiviteterna som är definierade i mallen.
@@ -79,9 +85,9 @@ Så här skapar du en arbetsflödesmall från grunden:
 1. Ange etiketten och öppna de ytterligare alternativen för att ange en beskrivning av arbetsflödesmallen.
 1. Välj mapp och körningsmapp för mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
 
-   De andra egenskaperna är vanliga i arbetsflöden. Läs mer i [den här sidan](workflow-settings.md#properties)
-
    ![](assets/new-wf-template.png)
+
+   De andra egenskaperna är vanliga i arbetsflöden. Läs mer i [den här sidan](workflow-settings.md#properties)
 
 1. Klicka på **Skapa** för att bekräfta inställningarna.
 1. Lägg till och konfigurera aktiviteterna efter behov på arbetsytan i arbetsflödesmallen.
