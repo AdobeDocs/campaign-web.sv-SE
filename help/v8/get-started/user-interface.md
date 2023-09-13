@@ -3,10 +3,10 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alfa"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Upptäck gränssnittet"
 >abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
 
-Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Platform.
+Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ I avsnittet KUNDHANTERING kan du visa dina mottagare, målgrupper och prenumerat
 
 * **Erbjudanden** - Bläddra igenom listan med interaktionserbjudanden. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet. De här listorna är skrivskyddade.
 
-Lär dig hur du skapar hanterade erbjudanden i [Adobe Campaign v8-dokumentation (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [det här avsnittet](../content/offers.md).
 
 ## Övre fält
 
 Använd gränssnittets övre fält för att:
 
-* dela med dig av dina synpunkter som en alfakonstant
+* dela dina synpunkter som betatestare
 * växla mellan organisationer och instanser
 * växla mellan olika Adobe Experience Cloud-program
 * få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.

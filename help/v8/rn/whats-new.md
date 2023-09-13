@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -77,18 +77,18 @@ Använd det nya webbgränssnittet för Campaign för att:
 
 * Fördefinierad filterhantering
 
-  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk. [Läs mer](../personalization/predefined-filters.md)
+  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk. [Läs mer](predefined-filters.md)
 
 
 * Målgrupp
 
   Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Dessutom kan ni utnyttja er målgrupp i AEP (Adobe Experience Platform) för att ytterligare förfina målgruppen och maximera kampanjens genomslag.
 
-* Erbjudanden med SMS och push
+* Erbjudanden med SMS
 
-  Med det nya webbgränssnittet kan du nu integrera erbjudanden med SMS och push-meddelanden utöver e-post. Nå ut till er målgrupp på deras mobila enheter och leverera kampanjer och meddelanden i rätt tid.
+  Det nya webbgränssnittet gör det nu möjligt att integrera erbjudanden med SMS utöver e-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid.
 
-  Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS och push-meddelanden på vår avancerade webbplattform.
+  Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
 
 <!--
 * Adobe Experience Manager (AEM) Integration

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 11%
    + [Kom igång](get-started/get-started.md)
    + [Upptäck gränssnittet](get-started/user-interface.md)
    + [Bläddra bland, söka i och filtrera listor](get-started/list-filters.md)
+   + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
+   + [Skyddsritningar och begränsningar](get-started/guardrails.md)
    + [Funktioner som inte stöds](get-started/unsupported.md)
    + [Använda AI](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
@@ -69,7 +71,6 @@ ht-degree: 11%
       + [Lägg till personalisering](personalization/personalize.md)
       + [Lägga till villkorligt innehåll](personalization/conditions.md)
       + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
-      + [Arbeta med fördefinierade filter](personalization/predefined-filters.md)
    + [Skicka erbjudanden](content/offers.md)
    + Förhandsgranska och testa leveransen {#preview-test}
       + [Förhandsgranska och testa](preview-test/preview-test.md)
