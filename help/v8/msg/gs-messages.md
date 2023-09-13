@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1261'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Så här skapar du en fristående leverans:
 
 1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-audiences.md).
 1. Definiera meddelandeinnehållet.
-1. (valfritt) Definiera leveransschema. Om inget schema är definierat skickas meddelanden direkt efter att du klickat på **[!UICONTROL Send]** -knappen.
+1. (valfritt) Definiera leveransen [schema](#gs-schedule). Om inget schema är definierat skickas meddelanden direkt efter att du klickat på **[!UICONTROL Send]** -knappen.
 1. Klicka på  **[!UICONTROL Review and send]** för att kontrollera inställningarna.
 1. Använd  **[!UICONTROL Simulate content]** för att testa leveransinställningar och personaliseringsinställningar. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på  **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel uppstår går du till **Loggar** för att kontrollera varningar och varningar.
@@ -144,8 +144,24 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 När meddelandeinnehållet har definierats kan du förhandsgranska det för att kontrollera återgivningen av dina meddelanden och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-test.md)
 
+## Schemalägg leverans som skickas {#gs-schedule}
 
-## Övervaka och spåra loggar{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Schemalägg sändningen"
+>abstract="Definiera datum och exakt tid för att skicka meddelanden. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
+
+Du kan ange datum och exakt tid för att skicka meddelanden. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen.
+
+Om du vill schemalägga sändning av leveransen öppnar du leveransen och bläddrar till **Schema** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera den och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
+
+![](assets/schedule.png)
+
+Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka leveransen automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
+
+Lär dig hur du skickar en schemalagd leverans i [det här avsnittet](../monitor/prepare-send.md#schedule-the-send).
+
+## Övervaka och spåra loggar {#gs-tracking-logs}
 
 Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder.
 

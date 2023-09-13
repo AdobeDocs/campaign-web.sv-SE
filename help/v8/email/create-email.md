@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1173'
 ht-degree: 1%
 
 ---
@@ -131,16 +131,11 @@ I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp. Ytte
 
 ## Schemalägg sändningen {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Schemalägg sändningen"
->abstract="Ange datum och exakt tid för sändningen. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
-
-Om du vill schemalägga sändning av e-post öppnar du din e-postleverans och bläddrar till **Schema** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
-
-Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Med det här alternativet måste du bekräfta att e-postmeddelandet ska skickas före det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka e-postmeddelandet automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
+Om du vill schemalägga sändning av e-post öppnar du din e-postleverans och bläddrar till **Schema** -avsnitt.
 
 ![](assets/schedule.png)
+
+Lär dig hur du schemalägger leveransen som skickas in [det här avsnittet](../msg/gs-messages.md#gs-schedule)
 
 ## Förhandsgranska och testa e-postmeddelandet {#preview-test}
 

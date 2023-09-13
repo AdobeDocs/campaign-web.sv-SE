@@ -4,7 +4,7 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%
@@ -35,7 +35,7 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
    >[!NOTE]
    >
-   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../email/create-email.md#schedule)
+   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-messages.md#gs-schedule)
 
 1. Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
@@ -87,7 +87,7 @@ När färdigställandet är klart utan fel är ditt meddelande klart att skickas
 
 När [förberedelse](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
 
-Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](#schedule-the-send)
+Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](../msg/gs-messages.md#gs-schedule)
 
 ### Skicka omedelbart {#send-immediately}
 
@@ -105,7 +105,7 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum och en senare tidpunkt följer du stegen nedan.
 
-1. Innan du trycker **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../email/create-email.md#schedule)
+1. Innan du trycker **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../msg/gs-messages.md#gs-schedule)
 
 1. Klicka på **[!UICONTROL Send as scheduled button]** i det övre högra hörnet.
 
@@ -115,7 +115,7 @@ Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum o
 
    >[!NOTE]
    >
-   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../email/create-email.md#schedule)
+   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-messages.md#gs-schedule)
 
 ## Pausa eller stoppa sändningen {#pause-stop-sending}
 
