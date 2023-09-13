@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 1%
@@ -77,7 +77,7 @@ Använd det nya webbgränssnittet för Campaign för att:
 
 * Fördefinierad filterhantering
 
-  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk. [Läs mer](predefined-filters.md)
+  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk. [Läs mer](../get-started/predefined-filters.md)
 
 
 * Målgrupp
