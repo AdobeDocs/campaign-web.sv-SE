@@ -4,9 +4,9 @@ title: Använda en Adobe Experience Platform-publik
 description: Lär dig använda en målgrupp från Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,7 @@ När ni har skapat en Adobe Experience Platform-målgrupp och den finns tillgän
 
 >[!NOTE]
 >
->Om du vill använda Adobe Experience Platform målgrupper i Campaign måste du konfigurera integreringen med Adobe Sources and Destinations. Se [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
+>Om du vill använda Adobe Experience Platform målgrupper i Campaign måste du konfigurera integreringen med Adobe Sources and Destinations. Se [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 Om du vill välja målgrupp för en leverans kan du också:
 
