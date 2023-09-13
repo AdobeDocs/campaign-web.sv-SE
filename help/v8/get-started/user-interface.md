@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,12 @@ Objekten som visas i **Explorer** beroende på dina användarbehörigheter.  Du 
 Precis som i alla listskärmar kan du konfigurera kolumner så att de anpassas för visningen så att du kan se all information du behöver. Se det här [section](#list-screens).
 
 Mer information om Campaign Explorer, mapphierarkin och resurser finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+
+
+### Sammanhangsberoende hjälp {#user-interface-help}
+
+Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya AI-baserade kunskapsassistenten, som är inbäddad i sammanhangsberoende hjälppuffar, hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel.
+
 
 ### Campaign Management {#user-interface-campaign-management}
 

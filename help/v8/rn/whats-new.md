@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '903'
 ht-degree: 1%
 
 ---
@@ -52,15 +52,13 @@ Använd det nya webbgränssnittet för Campaign för att:
 
 ## Senaste uppdateringar
 
-
 **Betaversion**
 
-* Aktivera datakomposition (federerad) för målgrupper och personalisering.
-* Använd AI-teknik för att förbättra genereringen av e-postinnehåll.
-* Synka smidigt resurser och fullständiga mallar för HTML.
-* Ordna och hantera effektivt mappar och resurser.
-* Skapa engagerande och effektiva landningssidor.
-* Fler arbetsflödesaktiviteter: Få tillgång till ytterligare aktiviteter som ändringsdimension, borttagning av dubbletter och återkommande leveranser för att förbättra kampanjarbetsflödena.
+* Aktivera datakomposition (federerad) för målgrupper och personalisering
+* Använd AI-teknik för att förbättra genereringen av e-postinnehåll
+* Synka smidigt resurser och fullständiga HTML-mallar
+* Ordna och hantera mappar och resurser effektivt
+* Få tillgång till ytterligare aktiviteter som ändringsdimension, borttagning av dubbletter och återkommande leveranser för att förbättra kampanjarbetsflödena
 
 **Viktiga nya funktioner**
 
@@ -92,11 +90,14 @@ Använd det nya webbgränssnittet för Campaign för att:
 
   Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS och push-meddelanden på vår avancerade webbplattform.
 
-* Integrering med Adobe Experience Manager (AEM)
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Med vår AEM integration även i webbgränssnitt kan ni enkelt hantera resurser och synkronisera fullständiga HTML-mallar så att ni kan skapa engagerande digitala upplevelser utan krångel.
-
-  Förbättra och effektivisera innehållshanteringsfunktionerna i webbgränssnittet med den här integreringen som ökar produktiviteten.
 
 ## Övergång till Campaign Web UI
 
