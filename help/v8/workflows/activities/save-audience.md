@@ -3,20 +3,22 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
 # Spara målgrupp {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Spara målgruppsaktivitet"
->abstract="Med aktiviteten Spara målgrupp kan du ..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 The **Spara målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i ett arbetsflöde. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 15%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 15%
 
 # Schemaläggare {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Schemaläggaraktivitet"
->abstract="Med aktiviteten Schemaläggaren kan du.."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
 
