@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -55,23 +55,6 @@ När du skapar och anpassar meddelandeinnehållet kan du välja fält från inda
 
 ![](assets/select-external-perso.png)
 
-## Förhandsgranska och testa e-postmeddelandet {#test}
-
-Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni använder en målgrupp som överförts från en fil. Följ dessa steg för att göra detta:
-
-1. Simulera innehåll
-1. Öppnar förhandsvisning. Klicka på välj profil(er): välj profiler från filen som ska användas
-1. om du vill skicka testmeddelande klickar du på test
-1. testläge: Definiera provtryckets mål
-1. Överför målet för testmeddelandet från en andra fil (eller använd samma). filformateringen följer samma som den överförda filen
-1. Kontroller som utförs i filformat
-1. klicka på skicka
-
-lägg till länk till avsnittet för förhandsgranskning och test
-
-**frågor:**
-* ingen ersättning från fil tillgänglig?
-
 ## Exempelfil {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Förhandsgranska och testa e-postmeddelandet {#test}
+
+Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni använder en målgrupp som överförts från en fil. Följ dessa steg för att göra detta:
+
+1. Klicka på **[!UICONTROL Simulate content button]** på skärmen där du redigerar leveransinnehåll och klickar på **[!UICONTROL Add test profile(s)]** -knappen.
+
+1. Profilerna som finns i den överförda filen visas. Markera den eller de profiler som du vill använda för att förhandsgranska innehållet och klicka på **[!UICONTROL Select]**.
+
+1. En förhandsgranskning av leveransinnehållet visas i den högra rutan på skärmen. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan. [Läs mer om förhandsgranskning av leveransinnehåll](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Klicka på knappen **[!UICONTROL Test]** -knappen.
+
+1. Klicka på **[!UICONTROL Upload proof profiles]** och markera den TXT- eller CSV-fil som innehåller korrekturmottagarna.
+
+   >[!CAUTION]
+   >
+   >Se till att filformatet matchar det som används för att överföra målgruppen. Alla formatfel visar en varning.
+
+1. När korrekturmottagarna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send test email]** och bekräfta sändningen.
+
+   ![](assets/file-upload-test.png)
+
+1. Du kan när som helst övervaka sändningen av testmeddelandet med knappen Visa testets e-postlogg. [Läs mer om övervakning av testmeddelanden](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
