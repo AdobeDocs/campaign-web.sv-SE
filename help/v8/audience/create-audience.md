@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -13,30 +13,30 @@ ht-degree: 0%
 
 # Skapa målgrupper {#create-audiences}
 
-Med Campaign Web kan ni skapa arbetsflöden där ni kan kombinera befintliga målgrupper till en visuell arbetsyta och utnyttja olika aktiviteter (dela, exkludera..) för att skapa nya målgrupper.
+Med Campaign Web kan ni skapa arbetsflöden där ni kan kombinera befintliga målgrupper till en visuell arbetsyta. Genom att införliva olika arbetsflödesaktiviteter som Dela eller Excluse kan du generera nya och förbättrade målgrupper.
 
-När det är klart sparas de resulterande målgrupperna i Campaign Web tillsammans med befintliga målgrupper och kan utnyttjas i fristående leveranser eller kampanjer för att nå ut till individer.
+När ni väl har skapat ert arbetsflöde lagras målgrupperna automatiskt på Campaign Web tillsammans med era befintliga. Dessa målgrupper kan sedan inrikta sig på kampanjer eller fristående leveranser.
 
 ## Skapa din första målgrupp {#create}
 
 Så här skapar du en målgrupp:
 
-1. Navigera till **[!UICONTROL Audiences]** meny och klicka **[!UICONTROL Create Audience]** längst upp till höger.
-1. Ange en etikett för målgruppen.
-1. Expandera avsnittet Ytterligare alternativ för att konfigurera avancerade parametrar för målgruppen.
+1. Navigera till **[!UICONTROL Audiences]** och klickar på **[!UICONTROL Create Audience]** i det övre högra hörnet.
+1. Ange en etikett för er målgrupp.
+1. Expandera **[!UICONTROL Additional options]** för att konfigurera avancerade målgruppsparametrar.
 
-   >[!NOTE]
-   >
-   >Som standard skapas målgrupper i utforskarmenyn för profiler och mål/listor. Du kan ändra standardlagringsplatsen i **[!UICONTROL Folder]** fält.
+   Som standard skapas målgrupper i **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Lists]** utforskarmenyn. Du kan ändra standardlagringsplatsen med **[!UICONTROL Folder]** fält.
 
-1. När målgruppsinställningarna är konfigurerade klickar du på **[!UICONTROL Create Audience]** -knappen.
+   ![](assets/audiences-settings.png)
+
+1. När du har konfigurerat målgruppsinställningarna klickar du på **[!UICONTROL Create Audience]** -knappen.
 
 1. En arbetsyta i arbetsflödet visas med två standardaktiviteter:
 
-   * **[!UICONTROL Build audience]**: startpunkten för arbetsflödet. Med den här aktiviteten kan du välja en eller flera målgrupper som grund för ditt arbetsflöde,
-   * **[!UICONTROL Save audience]**: det sista steget i arbetsflödet. Med den här aktiviteten kan du spara resultatet av arbetsflödet till en ny målgrupp.
+   * **[!UICONTROL Build audience]**: Detta är startpunkten i arbetsflödet, så att du kan skapa en målgrupp och använda den som grund för arbetsflödet.
+   * **[!UICONTROL Save audience]**: Detta är det sista steget i arbetsflödet, vilket gör att du kan spara resultatet som en ny målgrupp.
 
-1. Konfigurera arbetsflödet genom att lägga till så många aktiviteter som behövs. Mer information om hur du konfigurerar de olika aktiviteterna finns i [arbetsflödesdokumentation](../workflows/activities/about-activities.md).
+1. Anpassa arbetsflödet genom att lägga till så många aktiviteter som behövs. Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i [arbetsflödesdokumentation](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
@@ -46,4 +46,4 @@ Så här skapar du en målgrupp:
 
 1. När arbetsflödet är klart klickar du **[!UICONTROL Start]** för att genomföra det.
 
-1. Arbetsflödet sparas i **[!UICONTROL Workflows]** och de slutliga målgrupperna i **[!UICONTROL Audiences]** lista. [Lär dig övervaka och hantera målgrupper](access-audiences.md)
+1. Arbetsflödet sparas i **[!UICONTROL Workflows]** -listan, medan de resulterande målgrupperna är tillgängliga i **[!UICONTROL Audiences]** lista. [Lär dig övervaka och hantera målgrupper](access-audiences.md)

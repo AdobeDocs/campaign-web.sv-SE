@@ -3,9 +3,9 @@ audience: end-user
 title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONT
 
 Målgrupper kan komma från flera olika källor. The **[!UICONTROL Origin]** kolumner anger var en viss målgrupp har skapats:
 
-* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och gjorts tillgängliga på Campaign Web genom integreringen med Adobe Sources and Destinations. Lär dig hur du konfigurerar den här integreringen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper skapas i Adobe Experience Platform och integreras i Campaign Web med hjälp av integreringen Adobe Sources and Destinations. Lär dig hur du konfigurerar den här integreringen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats med ett Campaign-webbarbetsflöde. [Lär dig skapa målgrupper](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats med arbetsflöden för målgrupper i Campaign Web. [Lär dig skapa målgrupper](create-audience.md)
 
 *vad är de andra originalen? Är de anpassade? Var definierar vi dem?*
 
@@ -29,7 +29,7 @@ Målgrupper kan komma från flera olika källor. The **[!UICONTROL Origin]** kol
 
 Om du vill ha mer information om en viss målgrupp öppnar du den i listan. Publiken visas tillsammans med antalet profiler som ingår i publiken. Du kan när som helst uppdatera antalet målgrupper med **[!UICONTROL Calculate]** -knappen.
 
-På fliken Data kan du visa de profiler som är en del av målgruppen. Du kan anpassa den här vyn genom att lägga till fler kolumner. Du kan också använda avancerade filter för att förfina de data som visas.
+The **[!UICONTROL Data]** kan du visa de profiler som är en del av publiken. Du kan anpassa den här vyn genom att lägga till fler kolumner eller använda avancerade filter för att förfina de data som visas.
 
 ![](assets/audiences-details.png)
 
