@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,48 @@ I Campaign-klientkonsolen **Berikning** kan utföra både avstämning och anrikn
 
 ## Fördefinierade filter {#filters-guardrails-limitations}
 
-
 Vissa fördefinierade filter är inte tillgängliga när du väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Ett specifikt felmeddelande visas. Du kan fortfarande använda frågan och se: filtreringsvillkoret och resultatet, men du kan inte visa den exakta frågan i regelbyggaren och kan inte redigera filtret.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Datatyper som inte stöds {#unsupported-data-type}
+
+Följande datatyper som är tillgängliga i klientkonsolen stöds inte när ett filter eller en regel visas i webbgränssnittet:
+
+* datetime
+* tid
+* tidsintervall
+* double
+* float
+
+### Filtreringsfunktioner som inte stöds {#unsupported-filtering-capabilities}
+
+När ett filter skapas med komplexa uttryck och funktioner i klientkonsolen kan det inte redigeras i webbgränssnittet.
+
+Dessutom stöds inte följande operatorer:
+
+* Numerisk typ
+   * ingår i
+   * no in
+
+* Strängtyp
+   * större än
+   * mindre än
+   * större än eller lika med
+   * mindre än eller lika med
+   * gilla
+   * inte som
+
+* Datumtyp
+   * på eller efter
+   * på eller före
+   * inte lika med
+   * är tom
+   * är inte tom
+   * ingår i
+   * inte i
+   * senast
+
+* 1-N-länkar
+   * COUNT, SUM, AVG, MIN, MAX
