@@ -3,15 +3,20 @@ audience: end-user
 title: Skapa tjänster
 description: Lär dig hur du skapar tjänster i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
 
 
 # Skapa tjänster {#create-services}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Tjänsten är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 Använd Adobe Campaign för att skapa och övervaka informationstjänster som nyhetsbrev och för att kontrollera prenumerationer/avbeställningar av dessa tjänster.
 

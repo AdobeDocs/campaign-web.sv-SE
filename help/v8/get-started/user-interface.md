@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Inställningar för borttagning av dubbletter"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Dedupliceringskomplementet"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Leveransen är skrivskyddad"
 >abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Tjänsten är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Den här målgruppen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här målgruppen. Kontakta administratören om det behövs för att ge dig åtkomst."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Arbetsflödeslista"
 >abstract="Lista över tillgängliga arbetsflöden för kampanjen. Använd knappen Skapa arbetsflöde för att lägga till ett arbetsflöde i kampanjen."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Avgående övergång för att spara"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Spara en publik"
->abstract="Använd den här aktiviteten för att spara målgruppen i arbetsflödet."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

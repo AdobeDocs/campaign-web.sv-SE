@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 6%
 
 ---
@@ -19,6 +19,16 @@ ht-degree: 6%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Dedupliceringskomplementet"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Inställningar för borttagning av dubbletter"
+>abstract="TBD"
 
 The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna. The **Deduplicering** aktiviteten används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
 
