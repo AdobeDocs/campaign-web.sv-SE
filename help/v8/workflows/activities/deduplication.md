@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '281'
+ht-degree: 6%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 12%
 >title="Gaffelaktivitet"
 >abstract="Med aktiviteten Deduplicering kan du.."
 
-Med aktiviteten Deduplicering kan du ta bort dubbletter i resultatet/resultaten av de inkommande aktiviteterna.
-
-Aktiviteten för borttagning av dubbletter används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
+The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna. The **Deduplicering** aktiviteten används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
 
 ## Konfiguration
 
 Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
 1. Lägg till en **Deduplicering** till ditt arbetsflöde.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
@@ -48,3 +48,6 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
    * **Följ en lista med värden**: låter dig definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen Lägg till ovanför listan med värden. ++ Sortera
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
+
+## Exempel
+

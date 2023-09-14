@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -223,11 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="Dedupliceringsfält"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Inställningar för borttagning av dubbletter"
 >abstract="TBD"
@@ -235,11 +230,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Dedupliceringskomplementet"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="Komplementfärg till Dimension"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
