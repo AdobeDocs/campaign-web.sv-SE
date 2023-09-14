@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 5%
+source-wordcount: '333'
+ht-degree: 6%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 5%
 >title="Spara målgruppsaktivitet"
 >abstract="Med aktiviteten Spara målgrupp kan du ..."
 
-Mode Audience label Adobe Campaign kommer att matcha den här etiketten mot befintliga målgrupper. Om den hittar en matchning kommer den att uppdatera den målgruppen, annars kommer den att skapa en ny målgrupp.
-Uppdateringsmetod
-
-Ersätt målgruppen med nya data
-
-Fullständig målgrupp med nya datamapplistor (/Profiler och mål/listor/)
-
-Generera en utgående övergång
-
-
 The **Spara målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i ett arbetsflöde. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
 
 Den här aktiviteten används främst för att behålla populationsgrupper som beräknas i samma arbetsflöde genom att konvertera dem till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Bygg målgrupper** eller en **Kombinera** aktivitet.
@@ -38,7 +28,7 @@ Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 
 1. Lägg till en **Spara målgrupper** till ditt arbetsflöde.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. I **Läge** väljer du den åtgärd du vill utföra:
 
