@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
+source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -13,30 +13,37 @@ ht-degree: 0%
 
 # Skapa målgrupper {#create-audiences}
 
-målgruppsmenyn
+Med Campaign Web kan ni skapa arbetsflöden där ni kan kombinera befintliga målgrupper till en visuell arbetsyta och utnyttja olika aktiviteter (dela, exkludera..) för att skapa nya målgrupper.
 
-kan skapa och inrikta sig på dem i fristående leveranser eller kampanjer
+När det är klart sparas de resulterande målgrupperna i Campaign Web tillsammans med befintliga målgrupper och kan utnyttjas i fristående leveranser eller kampanjer för att nå ut till individer.
 
 ## Skapa din första målgrupp {#create}
 
-1. Målgrupp > meny
-1. Skapa målgrupper
-1. Egenskaper: etikett och ytterligare alternativ
-1. Arbetsyta med en målgruppsaktivitet som bygger upp
-1. Redigera aktivitet, redigera arbetsflöde beroende på hans behov
-1. starta arbetsflödet (kan endast lägga till riktade aktiviteter? Inga kanalaktiviteter?) = Skapar målgruppen och arbetsflödet
+Så här skapar du en målgrupp:
 
-## Övervaka och hantera era målgrupper {#monitor}
+1. Navigera till **[!UICONTROL Audiences]** meny och klicka **[!UICONTROL Create Audience]** längst upp till höger.
+1. Ange en etikett för målgruppen.
+1. Expandera avsnittet Ytterligare alternativ för att konfigurera avancerade parametrar för målgruppen.
 
-I målgruppen som skapats har du en kontrollpanel med två flikar:
-* översikt: egenskaper + arbetsflödesstatus och antal mottagardelar av den här målgruppen genom att anropa calculate + kan komma åt och redigera arbetsflödet härifrån
-* data: visa dataprofiler som ingår i målgruppen. Kan lägga till nya kolumner vid behov. Se berikade data
+   >[!NOTE]
+   >
+   >Som standard skapas målgrupper i utforskarmenyn för profiler och mål/listor. Du kan ändra standardlagringsplatsen i **[!UICONTROL Folder]** fält.
 
-målgruppslista: duplicera, ta bort
+1. När målgruppsinställningarna är konfigurerade klickar du på **[!UICONTROL Create Audience]** -knappen.
 
-**frågor:**
+1. En arbetsyta i arbetsflödet visas med två standardaktiviteter:
 
-Arbetsflöde i &quot;målgruppsläge&quot; => utskickskanalaktiviteter är inte tillgängliga
+   * **[!UICONTROL Build audience]**: startpunkten för arbetsflödet. Med den här aktiviteten kan du välja en eller flera målgrupper som grund för ditt arbetsflöde,
+   * **[!UICONTROL Save audience]**: det sista steget i arbetsflödet. Med den här aktiviteten kan du spara resultatet av arbetsflödet till en ny målgrupp.
 
-* på sceninstans: vi kan ta bort den senaste qsave-aktiviteten och lägga till en kanalaktivitet i stället
-* Hur känner vi igen ett arbetsflöde i målgruppsläge?
+1. Konfigurera arbetsflödet genom att lägga till så många aktiviteter som behövs. Mer information om hur du konfigurerar de olika aktiviteterna finns i [arbetsflödesdokumentation](../workflows/activities/about-activities.md).
+
+   >[!NOTE]
+   >
+   >Kanalaktiviteter är inte tillgängliga för målgruppsarbetsflöden.
+
+   ![](assets/audience-creation-canvas.png)
+
+1. När arbetsflödet är klart klickar du **[!UICONTROL Start]** för att genomföra det.
+
+1. Arbetsflödet sparas i **[!UICONTROL Workflows]** och de slutliga målgrupperna i **[!UICONTROL Audiences]** lista. [Lär dig nå målgrupper](access-audiences.md)
