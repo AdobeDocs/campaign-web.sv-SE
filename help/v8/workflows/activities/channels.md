@@ -3,9 +3,9 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående push-leverans](../../push/create-push.md)
 >
 
-## Skapa en leverans i ett kampanjarbetsflöde{#create-a-delivery-in-a-workflow}
+## Skapa en leverans i ett arbetsflöde{#create-a-delivery-in-a-workflow}
 
-Följ stegen nedan för att skapa ett e-postmeddelande, ett SMS eller en push-leverans i samband med ett kampanjarbetsflöde:
+Följ stegen nedan om du vill skapa ett e-postmeddelande, ett SMS eller en push-leverans i ett arbetsflöde:
 
 1. Kontrollera att du har lagt till en **Bygg målgrupper** aktivitet. Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
 
@@ -56,7 +56,7 @@ Följ stegen nedan för att skapa ett e-postmeddelande, ett SMS eller en push-le
 
 1. Klicka på **Skicka**.
 
-## Exempel{#cross-channel-workflow-sample}
+## Exempel {#cross-channel-workflow-sample}
 
 Här är ett exempel på flerkanaligt arbetsflöde med segmentering och två leveranser. Arbetsflödet riktar sig till alla kunder som bor i Paris och som är intresserade av kaffemaskiner. Bland de här befolkningsgrupperna skickas ett e-postmeddelande till de vanliga kunderna och ett SMS skickas till de VIP klienterna.
 
