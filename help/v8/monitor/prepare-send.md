@@ -4,9 +4,9 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -70,20 +70,6 @@ När färdigställandet är klart utan fel är ditt meddelande klart att skickas
 
 ## Skicka meddelandet {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Levererat"
->abstract="Antal meddelanden som har levererats. Indikatorn uppdateras var femte minut. Procentandelen som visas baseras på det totala antalet skickade meddelanden."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Öppnar"
->abstract="Antalet öppnade meddelanden. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Klickningar"
->abstract="Antalet mottagare som klickade minst en gång i e-postmeddelandet. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden."
 
 När [förberedelse](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
 
@@ -130,14 +116,38 @@ Oavsett om leveransen är schemalagd eller inte kan två åtgärder utföras nä
 ## Kontrollera nyckeltal {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Levererat"
+>abstract="Antal meddelanden som har levererats. Indikatorn uppdateras var femte minut. Procentandelen som visas baseras på det totala antalet skickade meddelanden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Öppnar"
+>abstract="Antalet öppnade meddelanden. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Klickningar"
+>abstract="Antalet mottagare som klickade minst en gång i e-postmeddelandet. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Skickade mått"
 >abstract="Totalt antal meddelanden som bearbetats under leveransanalysen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Felmått"
 >abstract="Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
 
@@ -156,5 +166,7 @@ När sändningen är klar kan du kontrollera de nyckeltal som visas:
 >[!NOTE]
 >
 >Alla indikatorer uppdateras var femte minut efter att leveransen påbörjats. Indikatorerna för leveransförberedelser är i realtid.
+
+Läs mer om KPI:er i [den här sidan](../reporting/kpis.md).
 
 Du kan också kontrollera loggarna. [Läs mer](delivery-logs.md)
