@@ -4,9 +4,9 @@ title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,5 @@ Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du komme
 >[!NOTE]
 >
 >Innehållssimulering finns även på [leveranssammanfattning](../monitor/prepare-send.md) efter att du klickat på **[!UICONTROL Review and send]** -knappen.
+>
+>Om du har en målgrupp som överförts från en fil som mål finns det information i [det här avsnittet](../audience/file-audience.md#preview--test-your-email-test) om du vill veta hur du förhandsgranskar och testar leveransen.
