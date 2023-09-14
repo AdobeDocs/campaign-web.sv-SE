@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1250'
 ht-degree: 2%
 
 ---
@@ -88,11 +88,10 @@ Så här skapar du en fristående leverans:
 1. Kontrollera resultaten och klicka på  **[!UICONTROL Send]** för att börja skicka meddelanden.
 1. När meddelandena har skickats går du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
 
->[!TAB Skapa en leverans i ett kampanjarbetsflöde]
+>[!TAB Skapa en leverans i ett arbetsflöde]
 
-Så här skapar du en leverans i en kampanj:
+Så här skapar du en leverans i ett arbetsflöde:
 
-1. Skapa en kampanj eller öppna en befintlig kampanj. Läs mer om [marknadsföringskampanjer](../campaigns/gs-campaigns.md).
 1. Skapa ett arbetsflöde eller öppna ett befintligt.
 1. Lägg till och konfigurera en **[!UICONTROL Build audience]** och klicka på `+`-knappen.
 
@@ -100,7 +99,7 @@ Så här skapar du en leverans i en kampanj:
 
    The **[!UICONTROL Build audience]** aktiviteten anges i [det här avsnittet](../workflows/activities/build-audience.md).
 
-1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/about-activities.md#channel).
+1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/channels.md).
 1. Starta arbetsflödet och kontrollera loggarna.
 
 Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. Bläddra till **[!UICONTROL Deliveries]** fliken med kampanjen och klicka på **[!UICONTROL Create delivery]** -knappen.
