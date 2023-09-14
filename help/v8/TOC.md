@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 12%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 12%
             + [Lägg till en länk till spegelsidan](content/mirror-page.md)
             + [Lägga till en förrubrik](content/preheader.md)
             + [Generera textversionen](content/text-version-email.md)
+         + Innehållsassistent {#content-assistant}
+            + [Skapa text med Content Assist](content/generative-content.md)
+            + [Bildgenerering med Content Assist](content/generative-image.md)
+            + [Generera ett e-postmeddelande med innehållsassistenten](content/generative-email.md)
          + Formatera innehållet {#style}
             + [Kom igång med e-postformat](content/get-started-email-style.md)
             + [Redigera bakgrundsinställningar](content/backgrounds.md)
