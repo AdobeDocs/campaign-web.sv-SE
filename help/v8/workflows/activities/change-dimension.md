@@ -3,7 +3,7 @@ audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Följ de här stegen för att konfigurera **Ändra dimension** aktivitet:
 
 1. Lägg till en **Ändra dimension** till ditt arbetsflöde.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Välj den nya måldimensionen via fältet Ändra dimension.
 

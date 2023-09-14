@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 15%
@@ -30,7 +30,7 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
 1. Lägg till en **Schemaläggare** till ditt arbetsflöde.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Konfigurera **Körningsfrekvens**:
 
@@ -58,7 +58,7 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
 I följande exempel är aktiviteten konfigurerad så att arbetsflödet startar flera gånger per dag kl. 9 och kl. 12 varje veckodag från 1 oktober 2023 till 1 januari 2024.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 

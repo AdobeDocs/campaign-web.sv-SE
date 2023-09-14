@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 6%
@@ -26,7 +26,7 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
 1. Lägg till en **Deduplicering** till ditt arbetsflöde.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
