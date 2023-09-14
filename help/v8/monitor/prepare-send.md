@@ -4,9 +4,9 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## Förbered sändningen {#prepare}
 
-När du har definierat [innehåll](../content/edit-content.md), [publik](../audience/add-audience.md) och schemalägga är du redo att förbereda din e-postleverans.
+När du har definierat [innehåll](../content/edit-content.md), [publik](../audience/add-audience.md)och [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)är du redo att förbereda din e-postleverans.
 
-Under beredningen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
+Under leveransförberedelsen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
 
 Valideringsreglerna som används vid leveransförberedelsen beskrivs i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
