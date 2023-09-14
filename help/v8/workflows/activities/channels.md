@@ -3,9 +3,9 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >[!NOTE]
 >
 >Du kan också skapa en engångsleverans, utanför ramen för ett kampanjarbetsflöde. Läs mer i följande avsnitt:
->* [Skapa fristående e-postleverans](../../email/create-email.md
+>* [Skapa fristående e-postleverans](../../email/create-email.md)
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
 >
