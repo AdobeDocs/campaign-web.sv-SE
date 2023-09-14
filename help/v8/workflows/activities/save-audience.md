@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 11%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 11%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+The **Spara målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i ett arbetsflöde. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+Den här aktiviteten används främst för att behålla populationsgrupper som beräknas i samma arbetsflöde genom att konvertera dem till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Bygg målgrupper** eller en **Kombinera** aktivitet.
 
-Replace audience with new data
+## Konfiguration
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. Lägg till en **Spara målgrupper** till ditt arbetsflöde.
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. I **Läge** väljer du den åtgärd du vill utföra:
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **Skapa eller uppdatera en befintlig målgrupp**: definiera en **Målgruppsetikett**. Om målgruppen redan finns uppdateras den, annars skapas en ny målgrupp.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **Uppdatera en befintlig målgrupp**: välj **Målgrupp** som du vill uppdatera bland de befintliga målgrupperna.
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. Välj **Uppdateringsläge** som ska gälla för befintliga målgrupper:
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **Ersätt målgruppsinnehåll med nya data**: allt målgruppsinnehåll ersätts. Gammal data går förlorad.  Endast datan från den inkommande övergången av målgruppsaktiviteten för att spara sparas. Med det här alternativet raderas målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **Komplett målgrupp med nya data**: det gamla målgruppsinnehållet behålls och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i det.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Därefter läggs ytterligare en övergång till aktiviteten.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för målgruppen, som du kommer åt via **Målgrupper** -menyn. Kolumnerna som är tillgängliga från den här vyn motsvarar kolumnerna för den inkommande övergången i arbetsflödets **SAve** aktivitet.
 
 
+## Exempel
 
--->
+
