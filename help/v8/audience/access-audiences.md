@@ -3,7 +3,7 @@ audience: end-user
 title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Målgrupper kan komma från flera olika källor. The **[!UICONTROL Origin]** kol
 
 * **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och gjorts tillgängliga på Campaign Web genom integreringen med Adobe Sources and Destinations. Lär dig hur du konfigurerar den här integreringen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats med ett Campaign-webbarbetsflöde. [Lär dig skapa målgrupper](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats med ett Campaign-webbarbetsflöde. [Lär dig skapa målgrupper](create-audience.md)
 
 *vad är de andra originalen? Är de anpassade? Var definierar vi dem?*
 
