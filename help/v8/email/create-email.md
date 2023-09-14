@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,9 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 >title="E-postegenskaper"
 >abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
 
-Så här skapar du en ny leverans:
+Du kan skapa en fristående e-postleverans eller skapa ett e-postmeddelande i ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående (enshot) e-postleverans. Om du arbetar i ett kampanjarbetsflöde beskrivs stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+Så här skapar du en ny fristående e-postleverans:
 
 1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 

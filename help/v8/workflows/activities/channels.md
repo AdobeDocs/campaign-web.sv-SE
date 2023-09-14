@@ -3,15 +3,15 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
 
-# E-post, SMS, push {#channel}
+# E-post, SMS, push-aktiviteter {#channel}
 
 Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i alla e-post-, SMS- och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data.
 
@@ -19,7 +19,17 @@ Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en ser
 
 Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
 
-Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
+>[!NOTE]
+>
+>Du kan också skapa en engångsleverans, utanför ramen för ett kampanjarbetsflöde. Läs mer i följande avsnitt:
+>* [Skapa fristående e-postleverans](../../email/create-email.md
+>* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
+>* [Skapa fristående push-leverans](../../push/create-push.md)
+>
+
+## Skapa en leverans i ett kampanjarbetsflöde{#create-a-delivery-in-a-workflow}
+
+Följ stegen nedan för att skapa ett e-postmeddelande, ett SMS eller en push-leverans i samband med ett kampanjarbetsflöde:
 
 1. Kontrollera att du har lagt till en **Bygg målgrupper** aktivitet. Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
 
@@ -36,7 +46,7 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 
 1. Klicka **Skapa leverans**. Definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också schemalägga och simulera innehållet. [Läs mer](../../msg/gs-messages.md).
 
-1. Gå tillbaka till arbetsflödet och spara ändringarna.
+1. Gå tillbaka till arbetsflödet. Välj om du vill fortsätta med arbetsflödet **Generera en utgående övergång** om du vill lägga till en övergång efter kanalaktiviteten.
 
 1. Klicka **Starta** för att starta arbetsflödet.
 
@@ -46,7 +56,7 @@ Här är stegen som du lägger till **Kanal** aktivitet i ett arbetsflöde:
 
 1. Klicka på **Skicka**.
 
-## Exempel
+## Exempel{#cross-channel-workflow-sample}
 
 Här är ett exempel på flerkanaligt arbetsflöde med segmentering och två leveranser. Arbetsflödet riktar sig till alla kunder som bor i Paris och som är intresserade av kaffemaskiner. Bland de här befolkningsgrupperna skickas ett e-postmeddelande till de vanliga kunderna och ett SMS skickas till de VIP klienterna.
 

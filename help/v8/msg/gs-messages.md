@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1264'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter.
 
-Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i en marknadsföringskampanj.
+Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i arbetsflöden inom ramen för en marknadsföringskampanj.
 
 Adobe Campaign v8 har följande leveranskanaler: e-post, SMS och mobilappar.
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 har följande leveranskanaler: e-post, SMS och mobilappar.
 
 ## Skapa en leverans {#create-delivery}
 
-
 Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny eller skapa leveranser i samband med en marknadsföringskampanj från **[!UICONTROL Campaigns]** vänster meny.
 
 Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
@@ -89,7 +88,7 @@ Så här skapar du en fristående leverans:
 1. Kontrollera resultaten och klicka på  **[!UICONTROL Send]** för att börja skicka meddelanden.
 1. När meddelandena har skickats går du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
 
->[!TAB Skapa en leverans i en kampanj]
+>[!TAB Skapa en leverans i ett kampanjarbetsflöde]
 
 Så här skapar du en leverans i en kampanj:
 

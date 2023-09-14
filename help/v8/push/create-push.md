@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 4%
 >title="Push-leveransegenskaper"
 >abstract="Hantera egenskaperna för push-leverans."
 
-1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
+Du kan skapa en fristående leverans av push-meddelanden eller skapa ett push-meddelande i samband med ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående push-leverans (en bild). Om du arbetar i ett kampanjarbetsflöde beskrivs stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Under **[!UICONTROL Channel]** väljer du Push-meddelanden som kanal och väljer en mall beroende på vilket operativsystem du har valt: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
+
+Så här skapar du en ny fristående push-leverans:
+
+1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
+
+1. Under **[!UICONTROL Channel]** avsnitt, välja **Push-meddelande** som kanal och välj en mall, beroende på vilket operativsystem enheten har: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 

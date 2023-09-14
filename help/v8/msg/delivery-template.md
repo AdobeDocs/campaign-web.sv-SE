@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Arbeta med leveransmallar
-description: Lär dig hur du skapar och använder leveransmallar i Campaign
+description: Lär dig skapa och använda leveransmallar i Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -24,10 +24,10 @@ En mall kan innehålla:
 * An [publik](../audience/about-audiences.md), inklusive [kontrollgrupper](../audience/control-group.md)
 * Egen [innehåll](../content/edit-content.md)
 * [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md)
-* Länkar till [spegelsida](../content/mirror-page.md) och avprenumeration [länkar](../content/message-tracking.md)
+* Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md)
 * Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
 
-## Få åtkomst till och hantera mallar {#access-manage-templates}
+## Få åtkomst till och hantera leveransmallar {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -36,7 +36,7 @@ En mall kan innehålla:
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicera en befintlig mall"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Konvertera en leverans till en mall"
 
-Välj **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
+Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
 
 ![](assets/templates-tab.png)
 
@@ -61,14 +61,14 @@ Ta bort eller [duplicera](#copy-an-existing-template) en mall väljer du motsvar
 >
 >När en mall redigeras eller tas bort påverkas inte leveranser som skapats med den här mallen.
 
-## Skapa en mall {#create-a-delivery-template}
+## Skapa en leveransmall {#create-a-delivery-template}
 
 Om du vill skapa en leveransmall kan du:
 * Duplicera en befintlig mall - [Läs mer](#copy-an-existing-template)
 * Konvertera en befintlig leverans till en mall - [Läs mer](#convert-an-existing-delivery)
-* Skapa en ny leveransmall - [Läs mer](#create-a-new-template)
+* Skapa en leveransmall från grunden - [Läs mer](#create-a-new-template)
 
-### Duplicera en befintlig mall {#copy-an-existing-template}
+### Duplicera en befintlig leveransmall {#copy-an-existing-template}
 
 Campaign innehåller en uppsättning inbyggda mallar för varje kanal: e-post, push, SMS. Det enklaste sättet att skapa en leveransmall är att duplicera och anpassa en inbyggd mall.
 
@@ -78,7 +78,7 @@ Campaign innehåller en uppsättning inbyggda mallar för varje kanal: e-post, p
 
 Så här duplicerar du en leveransmall:
 
-1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
+1. Gå till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
 1. Klicka på **[!UICONTROL More actions]** till höger om mallnamnet och välj  **[!UICONTROL Duplicate]**.
 
    Du kan också välja en mall i listan och välja det här alternativet från mallversionsskärmen.
@@ -120,7 +120,7 @@ Så här sparar du en leverans som en mall:
 
 Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan nu välja den när du skapar en ny leverans.
 
-### Skapa en ny mall {#create-a-new-template}
+### Skapa en ny leveransmall {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan
 
 Så här konfigurerar du en leveransmall från grunden:
 
-1. Bläddra till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
+1. Gå till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
 1. Klicka på knappen **[!UICONTROL Create template]**.
 
    ![](assets/templates-create-button.png)
@@ -160,7 +160,7 @@ Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan
 
 Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats från grunden eller från ett befintligt innehåll. För att göra detta, följ nedanstående steg.
 
-1. Bläddra till **Mallar** genom **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** och välj en mall. [Läs mer](#access-manage-templates)
+1. Gå till **Mallar** tabba igenom **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** och välj en mall. [Läs mer](#access-manage-templates)
 
 1. Klicka på **[!UICONTROL Simulate Content]** överst till höger på skärmen.
 

@@ -4,10 +4,10 @@ title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 7%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 7%
 >title="Val av SMS-mall"
 >abstract="Välj en fördefinierad mall för att starta SMS-leveransen."
 
-1. Från **[!UICONTROL Deliveries]** hemsida, klicka **[!UICONTROL Create delivery]**.
+Du kan skapa en fristående SMS-leverans eller skapa ett SMS i samband med ett kampanjarbetsflöde. Stegen nedan beskriver i detalj proceduren för en fristående (enshot) SMS-leverans. Om du arbetar i ett kampanjarbetsflöde beskrivs stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+Så här skapar du en ny fristående SMS-leverans:
+
+1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 
 1. Under **[!UICONTROL Channel]** väljer du SMS som kanal och väljer en mall. [Läs mer om mallar](../msg/delivery-template.md)
 
