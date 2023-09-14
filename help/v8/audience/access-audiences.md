@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Nå målgrupper
-description: Lär dig nå målgrupper via Adobe Campaign Web
+title: Övervaka och hantera målgrupper
+description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 
-# Nå målgrupper {#create-audiences}
+# Övervaka och hantera målgrupper {#create-audiences}
 
 Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONTROL Audiences]** -menyn.
 

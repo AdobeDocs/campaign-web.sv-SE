@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,4 @@ Så här skapar du en målgrupp:
 
 1. När arbetsflödet är klart klickar du **[!UICONTROL Start]** för att genomföra det.
 
-1. Arbetsflödet sparas i **[!UICONTROL Workflows]** och de slutliga målgrupperna i **[!UICONTROL Audiences]** lista. [Lär dig nå målgrupper](access-audiences.md)
+1. Arbetsflödet sparas i **[!UICONTROL Workflows]** och de slutliga målgrupperna i **[!UICONTROL Audiences]** lista. [Lär dig övervaka och hantera målgrupper](access-audiences.md)
