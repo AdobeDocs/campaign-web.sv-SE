@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -57,21 +57,6 @@ Precis som i alla listskärmar kan du konfigurera kolumner så att de anpassas f
 
 Mer information om Campaign Explorer, mapphierarkin och resurser finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-
-### Sammanhangsberoende hjälp {#user-interface-help}
-
-Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
-
-![](assets/context-help.png){width="40%" align="left"}
-
-Med den nya betaversionen är **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
-
-![](assets/ask-a-question.png)
-
-
-Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår Knowledge Assistant med Gen AI din ultimata partner, vilket ger oöverträffad effektivitet och precision i varje interaktion.
-
-Läs mer i [det här avsnittet](using-ai.md).
 
 
 ### Campaign Management {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ Använd gränssnittets övre fält för att:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### Sammanhangsberoende hjälp {#user-interface-help}
+
+Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
+
+![](assets/context-help.png){width="40%" align="left"}
+
+Med den nya betaversionen är **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
+
+![](assets/ask-a-question.png)
+
+
+Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår Knowledge Assistant med Gen AI din ultimata partner, vilket ger oöverträffad effektivitet och precision i varje interaktion.
+
+Läs mer i [det här avsnittet](using-ai.md).
+
 ## Webbläsare som stöds {#browsers}
 
 Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
@@ -149,28 +150,19 @@ Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen a
 
 Campaign v8 Web finns för närvarande på följande språk:
 
-<table>
-<tr>
-<td>
-<p>Engelska (USA) - EN-US</p>
-<p>Franska - FR</p>
-<p>Tyska - DE</p>
-<p>Italienska - IT</p>
-</td>
-<td>
-<p>Spanska - ES</p>
-<p>Portugisiska (Brasilien) - PTBR</p>
-<p>Japanska - JP</p>
-</td>
-<td>
-<p>Koreanska - KR</p>
-<p>Förenklad kinesiska - CHS</p>
-<p>Traditionell kinesiska - CHT</p>
-</td>
-</tr>
-</table>
+* Engelska (USA) - EN-US
+* Franska - FR
+* Tyska - DE
+* Italienska - IT
+* Spanska - ES
+* Portugisiska (Brasilien) - PTBR
+* Japanska - JP
+* Koreanska - KR
+* Förenklad kinesiska - CHS
+* Traditionell kinesiska - CHT
 
-Standardspråket för gränssnittet avgörs av det språk du föredrar i användarprofilen.
+
+Ditt standardspråk för Campaign Web avgörs av det språk du föredrar i din användarprofil. Det gäller inte språket för er Campaign-server och kundkonsol.
 
 Så här byter du språk:
 
