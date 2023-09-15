@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
 
 # Arbeta med leveransmallar {#work-with-delivery-templates}
 
-För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för att enkelt återanvända anpassat innehåll i era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare.
+För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för att enkelt återanvända anpassat innehåll och anpassade inställningar i era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare.
 
 En mall kan innehålla:
 
@@ -26,6 +26,10 @@ En mall kan innehålla:
 * [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md)
 * Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md)
 * Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
+
+>[!NOTE]
+>
+>Leveransmallar skiljer sig från [mallar för e-postinnehåll](../content/email-templates.md), som gör att du bara kan återanvända innehållet i dina meddelanden.
 
 ## Få åtkomst till och hantera leveransmallar {#access-manage-templates}
 
@@ -162,7 +166,7 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 1. Gå till **Mallar** tabba igenom **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** och välj en mall. [Läs mer](#access-manage-templates)
 
-1. Klicka på **[!UICONTROL Simulate Content]** överst till höger på skärmen.
+1. Klicka på **[!UICONTROL Simulate content]** överst till höger på skärmen.
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 1. Växla mellan de olika profilerna för att få en personlig representation av meddelandet enligt den valda profilen.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Du kan också justera zoomnivån och välja skrivbordsvy eller mobilvy.
 

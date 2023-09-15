@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: Arbeta med e-postmallar
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign innehåller en uppsättning inbyggda mallar som du kan välja bland.
+Campaign innehåller en uppsättning inbyggda mallar för e-postinnehåll som du kan välja mellan.
 
 Följ stegen nedan när du vill börja skapa innehåll med någon av exempelmallarna.
 

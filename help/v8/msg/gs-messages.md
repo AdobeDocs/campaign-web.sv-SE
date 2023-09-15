@@ -4,10 +4,10 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 2%
+source-wordcount: '1263'
+ht-degree: 1%
 
 ---
 
@@ -113,7 +113,7 @@ Mer information om hur du konfigurerar en kampanj och hanterar leveranser som ti
 >[!ENDTABS]
 
 
-## Lägg till personalisering{#personalization}
+## Lägg till personalisering {#personalization}
 
 Meddelanden från Adobe Campaign kan personaliseras på olika sätt. [Läs mer om personaliseringsfunktioner](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 * Lägg till **personaliserade erbjudanden**
 
-  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern.
-
+  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../content/offers.md)
 
 ## Förgranska och testa leveranserna
 
@@ -146,12 +145,12 @@ När meddelandeinnehållet har definierats kan du förhandsgranska det för att 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Schemalägg sändningen"
->abstract="Definiera datum och exakt tid för att skicka meddelanden. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
+>title="Ange kontaktdatum och -tid"
+>abstract="Ange datum och exakt tid för att skicka leveransen. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen."
 
 Du kan ange datum och exakt tid för att skicka meddelanden. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen.
 
-Om du vill schemalägga sändning av leveransen öppnar du leveransen och bläddrar till **Schema** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera den och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
+Om du vill schemalägga sändning av leveransen öppnar du leveransen och bläddrar till **[!UICONTROL Schedule]** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera den och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
 ![](assets/schedule.png)
 

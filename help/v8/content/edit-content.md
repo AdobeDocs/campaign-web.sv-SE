@@ -4,10 +4,10 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Skapa e-postinnehåll"
->abstract="I det här avsnittet kan du skapa innehåll för ditt e-postmeddelande och använda e-postdesignern för att ge det ett snyggt utseende."
+>title="Definiera e-postinnehållet"
+>abstract="The **Redigera innehåll** kan du definiera grundläggande element i meddelandet, som avsändarens adress och ämnesrad, utföra ytterligare åtgärder som att lägga till bilagor eller erbjudanden samt komma åt e-postdesignern för att ge meddelandet ett prydligt utseende."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
    >
    >Du kan ändra den del som föregår @, men inte domänadressen.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Expandera avsnittet **[!UICONTROL Reply-to fields]**. Avsändarens adress används som standard för svar. Adobe rekommenderar dock att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till personalisering med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
 

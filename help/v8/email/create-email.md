@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
-E-postmeddelandet bygger på en fördefinierad designmall och innehåller även anpassat innehåll baserat på kundprofilattribut.
-
-![](assets/delivery-list.png)
+Baserat på en fördefinierad [designmall](../content/email-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
 
 ## Skapa e-postleveransen {#create-email}
 
@@ -34,14 +32,16 @@ E-postmeddelandet bygger på en fördefinierad designmall och innehåller även 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-postegenskaper"
->abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
+>title="Definiera e-postegenskaper"
+>abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. De extra inställningarna är valfria. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
 
 Du kan skapa en fristående e-postleverans eller skapa ett e-postmeddelande i ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående (enshot) e-postleverans. Om du arbetar i ett kampanjarbetsflöde visas stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Så här skapar du en ny fristående e-postleverans:
+Följ stegen nedan för att skapa en ny fristående e-postleverans.
 
 1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
+
+   ![](assets/delivery-list.png)
 
 1. Välj **[!UICONTROL Email]** som kanal och välj en e-postleveransmall i listan.
 
@@ -54,10 +54,10 @@ Så här skapar du en ny fristående e-postleverans:
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 1. Ange en etikett för leveransen och konfigurera ytterligare alternativ baserat på dina behov:
 
-   * **[!UICONTROL Internal name]**: tilldela en unik identifierare till leveransen,
-   * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp,
-   * **[!UICONTROL Delivery code]**: använd det här fältet för att ordna leveranser baserat på din egen namnkonvention,
-   * **[!UICONTROL Description]**: ange en beskrivning av leveransen,
+   * **[!UICONTROL Internal name]**: tilldela leveransens unika identifierare.
+   * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp.
+   * **[!UICONTROL Delivery code]**: använd det här fältet för att ordna leveranser baserat på din egen namnkonvention.
+   * **[!UICONTROL Description]**: ange en beskrivning för leveransen.
    * **[!UICONTROL Nature]**: Ange vilken typ av e-post det gäller för klassificeringsändamål.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ Så här skapar du en ny fristående e-postleverans:
 
    ![](assets/email-properties.png)
 
-   Dessutom kan du komma åt avancerade inställningar, t.ex. typologiregler och målmappningar, genom att klicka på knappen bredvid leveransnamnet. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
+5. Dessutom finns avancerade inställningar, som typologiregler och målmappningar, via **[!UICONTROL Settings]** på skärmens övre högra hörn. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
+
+## Definiera målgruppen {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Välj en målgrupp för leveransen"
+>abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp (som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform), skapa en ny målgrupp med regelbyggaren eller överföra en fil som innehåller målgruppen. Kontrollgrupper är inte aktiverade för **Välj från fil** och vice versa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Målgrupper"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Ange en kontrollgrupp"
+
+I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
+
+Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
+
+1. Om du vill välja målgrupp för e-postmeddelandet klickar du på **[!UICONTROL Select audience]** och välj en befintlig målgrupp i listan.
+
+   I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör lojalitetsnivåerna silver och guld.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen Mål/Källa har konfigurerats på din instans. Tack vare den här integreringen kan ni skicka segment från Experience Platform till Adobe Campaign och skicka iväg kampanjleverans och spårningsloggar till Adobe Experience Platform. Läs om hur du arbetar med Campaign och Adobe Experience Platform i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
+
+   ![](assets/audience-selected.png)
+
+1. Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med dem som inte var det. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
 
 ## Definiera e-postinnehållet {#create-content}
 
-Följ stegen nedan när du vill börja skapa ditt e-postinnehåll.
+Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fallet använder du ett fördefinierat e-postmeddelande [leveransmall](../msg/delivery-template.md) för att utforma e-postmeddelanden.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-I det här fallet använder du ett fördefinierat e-postmeddelande [leveransmall](../msg/delivery-template.md) för att utforma e-postmeddelanden.
 
 1. Klicka på **[!UICONTROL Edit content]** -knappen.
 
@@ -104,40 +131,21 @@ I det här fallet använder du ett fördefinierat e-postmeddelande [leveransmall
 
    ![](assets/save-content.png)
 
-## Definiera målgruppen {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="Definiera målgruppen"
->abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform, eller så kan du skapa en ny målgrupp med regelbyggaren. Kontrollgrupper är inte aktiverade för Välj från fil och vice versa."
-
-I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp. Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
-
-1. Om du vill välja målgrupp för e-postmeddelandet klickar du på **[!UICONTROL Select audience]** och välj en befintlig målgrupp i listan.
-
-   I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör lojalitetsnivåerna silver och guld.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen av mål/källor har konfigurerats på din instans.
-   >
-   >Med integreringen Destination/Sources kan ni skicka segment från Experience Platform till Adobe Campaign och skicka loggar för leverans och spårning av kampanjer till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
-
-   Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med dem som inte var det. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## Schemalägg sändningen {#schedule}
 
-Om du vill schemalägga sändning av e-post öppnar du din e-postleverans och bläddrar till **Schema** -avsnitt.
+Följ stegen nedan för att schemalägga sändning av e-post.
 
-![](assets/schedule.png)
+Ytterligare instruktioner om hur leveranssändningen schemaläggs finns i [det här avsnittet](../msg/gs-messages.md#gs-schedule).
 
-Lär dig hur du schemalägger leveransen som skickas in [det här avsnittet](../msg/gs-messages.md#gs-schedule)
+1. Gå till **[!UICONTROL Schedule]** -avsnitt.
+
+1. Använd **[!UICONTROL Enable scheduling]** för att aktivera den.
+
+1. Ange önskat datum och klockslag för sändning.
+
+   ![](assets/schedule.png)
+
+När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
 ## Förhandsgranska och testa e-postmeddelandet {#preview-test}
 
