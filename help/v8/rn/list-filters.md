@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -64,9 +64,9 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** knapp
 * Listor finns nu **Målgrupper**
 
-## Begränsningar{#limitations-alpha}
+## Begränsningar{#limitations-beta}
 
-Begränsningarna nedan gäller denna alfaversion:
+Begränsningarna nedan gäller den här betaversionen:
 
 * De enda redigerbara objekten är leveranser, kampanjer, arbetsflöden, målgrupper och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
 * Det går inte att spara publikerna för framtida bruk.

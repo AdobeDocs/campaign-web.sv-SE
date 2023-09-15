@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 1%
 
 # Nyheter? {#new}
 
-
 Vi är stolta över att kunna presentera BETA-versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler.
 
-## Betaversion{#beta-release}
+## Viktiga möjligheter {#key-features}
 
 Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt för **Betahandledare** med följande funktioner:
 
@@ -44,51 +43,51 @@ Läs mer om det nya användargränssnittet i [den här sidan](../get-started/use
 Använd det nya webbgränssnittet för Campaign för att:
 
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
-* Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden.
+* Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden - [Läs mer](../workflows/activities/channels.md)
 * Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
 * Förhandsgranska, testa och skicka e-postmeddelanden - [Läs mer](../monitor/prepare-send.md)
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 
-## Senaste uppdateringar
+## Uppdateringar av betaversioner {#beta-release}
 
-**Betaversion**
+Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
-* Aktivera datakomposition (federerad) för målgrupper och personalisering
-* Använd AI-teknik för att förbättra genereringen av e-postinnehåll
-* Synka smidigt resurser och fullständiga HTML-mallar
-* Ordna och hantera mappar och resurser effektivt
-* Få tillgång till ytterligare aktiviteter som ändringsdimension, borttagning av dubbletter och återkommande leveranser för att förbättra kampanjarbetsflödena
-
-**Viktiga nya funktioner**
-
-* Fler arbetsflödesaktiviteter för kampanjer
+* **Fler arbetsflödesaktiviteter för kampanjer**
 
   Utnyttja era marknadsföringskampanjer bättre med våra utökade arbetsflödesaktiviteter. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor.
 
   Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
 
-* Gen AI for Email content
+  Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
+
+* **Gen AI for Email content**
 
   Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll.
 
   Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
 
+  Läs mer i [det här avsnittet](../content/generative-gs.md).
 
-* Fördefinierad filterhantering
+* **Fördefinierade filter**
 
-  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk. [Läs mer](../get-started/predefined-filters.md)
+  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk.
 
+  Läs mer i [det här avsnittet](../get-started/predefined-filters.md).
 
-* Målgrupp
+* **Målgrupp med regelbyggaren**
 
   Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Dessutom kan ni utnyttja er målgrupp i AEP (Adobe Experience Platform) för att ytterligare förfina målgruppen och maximera kampanjens genomslag.
 
-* Erbjudanden med SMS
+  Läs mer i [det här avsnittet](../audience/segment-builder.md).
+
+* **SMS med erbjudanden**
 
   Det nya webbgränssnittet gör det nu möjligt att integrera erbjudanden med SMS utöver e-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid.
 
   Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
+
+  Läs mer i [det här avsnittet](../content/offers.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -97,6 +96,12 @@ Använd det nya webbgränssnittet för Campaign för att:
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+
+* **Knowledge Assistant med Gen AI**
+
+  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya AI-baserade kunskapsassistenten, som är inbäddad i sammanhangsberoende hjälppuffar, hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel.
+
+  Läs mer i [det här avsnittet](../get-started/using-ai.md).
 
 
 ## Övergång till Campaign Web UI
@@ -117,12 +122,11 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** -knappen. [Läs mer](../preview-test/preview-test.md)
 * Listor finns nu **Målgrupper**. [Läs mer](../audience/about-audiences.md).
 
-## Begränsningar{#limitations-alpha}
+## Begränsningar{#limitations-beta}
 
-Begränsningarna nedan gäller denna alfaversion:
+Begränsningarna nedan gäller den här betaversionen:
 
-* Redigerbara objekt är: Leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter och mallar. De andra är skrivskyddade. Använd filter för att bläddra bland alla.
-* Det går inte att spara publikerna för framtida bruk.
+* Redigerbara objekt är: Leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter och mallar. De andra är skrivskyddade. Använd filter och skapa regler för att bläddra bland alla.
 * Användargränssnittet Administration är inte tillgängligt.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.

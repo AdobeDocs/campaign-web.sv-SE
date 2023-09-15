@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Skapa tjänster
+title: Arbeta med prenumerationstjänster
 description: Lär dig hur du skapar tjänster i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
 
-# Skapa tjänster {#create-services}
+# Arbeta med prenumerationstjänster {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Tjänsten är skrivskyddad"
 >abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
 
-Använd Adobe Campaign för att skapa och övervaka informationstjänster som nyhetsbrev och för att kontrollera prenumerationer/avbeställningar av dessa tjänster.
+Använd Adobe Campaign för att skapa och övervaka tjänster som nyhetsbrev och för att kontrollera prenumerationer/avbeställningar av dessa tjänster. Prenumerationer gäller endast för e-post och SMS-leverans.
 
-Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev till specialister för vissa produktkategorier, teman eller områden på en webbplats, prenumerationer på olika typer av varningsmeddelanden och meddelanden i realtid.
+Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifika produktkategorier, teman eller områden på en webbplats, prenumerationer på olika typer av varningsmeddelanden och meddelanden i realtid.
 
 Mer information om hur du hanterar prenumerationer och avbeställningar finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Åtkomst till prenumerationstjänster {#access-services}
 
-1. Gå till **[!UICONTROL Access management]** > **[!UICONTROL Subscription services]** -menyn.
+Om du vill få tillgång till prenumerationstjänster för din plattform går du till **[!UICONTROL Subscription services]** menyn i den vänstra navigeringslisten.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. Listan över alla tjänster som har skapats hittills visas. Du kan söka efter tjänster och filtrera på kanalen, mappen eller använda avancerade filter.
+Listan över alla befintliga prenumerationstjänster visas. Du kan söka efter tjänster och filtrera på kanalen, mappen eller använda avancerade filter.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Skapa din första tjänst {#create-service}
+## Skapa din första prenumerationstjänst {#create-service}
+
+Så här skapar du en prenumerationstjänst:
 
 1. Markera knappen **[!UICONTROL Create subscription service]**.
 

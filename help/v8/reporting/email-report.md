@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 1%
@@ -122,6 +122,8 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Spårningsindikatorer {#tracking-indicators-email}
 
+
+
 * **[!UICONTROL Delivery statistics]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden.
 
   ![](assets/reporting_email_5.png){align="center"}
@@ -207,6 +209,7 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 +++
 
 ## Spårningsstatistik {#tracking-statistics}
+
 
 * **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata.
 

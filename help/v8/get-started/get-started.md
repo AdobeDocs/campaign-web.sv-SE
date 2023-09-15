@@ -4,7 +4,7 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgän
 
 >[!NOTE]
 >
->Campaign v8 Web är för närvarande i alfabetisk version. Åtkomsten är begränsad till en liten uppsättning alfakunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
+>Campaign v8 Web är för närvarande i betaversion. Åtkomsten är begränsad till en liten uppsättning Beta-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 ## Anslut till Campaign
 
