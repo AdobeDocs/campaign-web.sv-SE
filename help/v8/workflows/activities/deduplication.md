@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 6%
@@ -34,7 +34,7 @@ The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den h
 
 ## Konfiguration
 
-Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
+Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Lägg till en **Deduplicering** till ditt arbetsflöde.
 
