@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ När du arbetar i webbgränssnittet för Campaign med komponenter som skapats el
 
 ## Arbetsflöden {#wf-guardrails-limitations}
 
-Samma arbetsflöde kan nås både i konsolen och i webbgränssnittet. Tänk dock på att vissa begränsningar gäller.
-
 **Activity Edition**
 
-* När du får åtkomst till ett konsolarbetsflöde i webbgränssnittet kan du bara ändra aktiviteter som är kompatibla.
+* Arbetsflödesaktiviteter som ännu inte stöds i webbgränssnittet är skrivskyddade. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv.
+
+| Konsol | Webbgränssnitt |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Canvas**
 
@@ -41,17 +43,6 @@ Samma arbetsflöde kan nås både i konsolen och i webbgränssnittet. Tänk dock
 | Konsol | Webbgränssnitt |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>Konsol</th>
-<th>Webbgränssnitt</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **Avstämning och berikning**
 
