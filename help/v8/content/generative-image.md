@@ -3,9 +3,9 @@ audience: end-user
 title: Bildgenerering med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Bildgenerering med Content Assist {#generative-image}
 
-När du har skapat och personaliserat dina e-postmeddelanden kan du förbättra innehållet med hjälp av Content Assistant. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
+När ni har skapat och personaliserat era e-postmeddelanden kan ni förbättra ert innehåll med hjälp av Content Assistant, som bygger på generativ AI. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
 
 I exemplet nedan kan du lära dig hur du använder Content Assistant för att optimera och förbättra ditt innehåll, vilket ger en mer användarvänlig upplevelse. Följ de här stegen:
 
