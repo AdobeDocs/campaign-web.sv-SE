@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 1%
 
 Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på **[!UICONTROL Campaigns]** till vänster.
 
-## Kampanjlistan{#access-campaigns}
+## Lista över kampanjer {#access-campaigns}
+
 
 Det finns två flikar i kampanjlistan:
 
@@ -38,7 +39,13 @@ Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och anv�
 
 ![Kampanjfilter](assets/campaign-filter-on-dates.png)
 
-## Kontrollpanelen för kampanjer{#campaign-dashboard}
+## Kampanjinstrumentpanel{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Lista över leveranser i kampanjen"
+>abstract="The **Leveranser** På fliken visas alla leveranser som är kopplade till den aktuella kampanjen. Klicka på namnet på en leverans för att redigera den. Använd knappen Skapa leverans för att lägga till en ny leverans för kampanjen."
 
 I **Bläddra** klickar du på en kampanj för att visa information om den.
 

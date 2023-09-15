@@ -4,10 +4,10 @@ title: Inställningar för e-postleverans
 description: Läs mer om inställningar för e-postleverans i webbgränssnittet för Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 8%
+source-wordcount: '1806'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmall
 >
 > Dessa inställningar beskrivs endast i informationssyfte. Vissa av dem beror på din konfiguration och dina behörigheter. De får inte ändras i den här versionen av produkten.
 
-## Typologi {#typology}
+## Typologiinställningar {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
@@ -32,7 +32,7 @@ Dessa inställningar **tekniska leveransparametrar** som definieras i e-postmall
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Typologi"
+>title="Typologiinställningar för leverans"
 >abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
 
 
@@ -52,7 +52,7 @@ När du associerar en typologi med en meddelande- eller meddelandemall körs de 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Trycket"
+>title="Tryckparametrar för leveransen"
 >abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för trötthetshantering. Meddelanden med högst vikt har prioritet."
 
 
@@ -81,7 +81,7 @@ Trötthetshanteringen följer med **Kampanjoptimering** tillägg. Läs mer om tr
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Kapacitetsinställningar"
+>title="Kapacitetsinställningar för leverans"
 >abstract="Innan du skickar meddelanden ska du använda kapacitetsregler för att se till att din organisation kan behandla leveransen, de inkommande meddelanden som leveransen kan generera och antalet samtal som till exempel ska göras till kontaktprenumeranter. Kapacitetsregler definieras i Adobe Campaign v8 Console. På den här skärmen väljer du en regel som är kopplad till e-postkanalen."
 
 I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Campaign v8-konsolen. Den här regeln är associerad med e-postkanalen.
@@ -91,7 +91,14 @@ The **mottagarens vikt** fält är en formel som används för att bestämma vil
 Läs mer om konsekvens och kapacitetsregler och hur du konfigurerar dem i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## Målgrupp {#audience}
+## Målgruppsinställningar {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Målgruppsinställningar för leveransen"
+>abstract="Välj en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Du kan också ange undantagsparametrar för leveransen. "
+
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen.
 
@@ -101,7 +108,7 @@ Läs mer om målmappningar i [Kampanjdokumentation v8 (klientkonsol)](https://ex
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Leveransinställningar"
+>title="Leveransinställningar för leveransen"
 >abstract="Leveransparametrar är tekniska inställningar som gäller för leveransen. Du kan aktivera BCC för leveransen och ändra leveranssätt och rutinlägen. Dessa alternativ är begränsade till expertanvändare."
 
 Leveransparametrar är tekniska inställningar som gäller för leveransen.
@@ -112,6 +119,19 @@ Leveransparametrar är tekniska inställningar som gäller för leveransen.
 
 * **BCC för e-post**: det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer om e-postkopia i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### Webbanalys {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Inställningar för webbanalys för leverans"
+>abstract="Välj ett webbanalyskonto. Det här kontot är konfigurerat i Campaign-klientkonsolen. Du kan också definiera de taggar som delas med analysverktyget som du använder."
+
+I det här avsnittet kan du välja ett webbanalyskonto. Det här kontot är konfigurerat i Campaign-klientkonsolen.
+
+Du kan också definiera de taggar som delas med analysverktyget som du använder.
+
+Läs mer om Web Analytics och Campaign i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Återförsök {#retries}
@@ -122,12 +142,10 @@ Läs mer om hantering av nya försök i [Kampanjdokumentation v8 (klientkonsol)]
 
 ## Godkännande {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Godkännandeläge för leverans"
+>abstract="Välj godkännandeläge. Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. "
 
 Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att meddelanden skickas i slutet av analysfasen: det här är **manuell** validering.
 
@@ -193,6 +211,11 @@ Spårningsparametrar definieras i det relaterade avsnittet. Möjliga alternativ 
 **Ersättnings-URL för utgångna URL:er**: använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
 
 ## Testinställningar {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Testinställningar för leverans"
+>abstract="Välj undantagsparametrar och anpassa etiketten för testmeddelandena."
 
 Du kan ange undantagsparametrar i det här avsnittet. Tillgängliga alternativ är:
 

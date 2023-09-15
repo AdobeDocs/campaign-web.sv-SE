@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '726'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 1%
 >id="acw_workflow_creation_properties"
 >title="Egenskaper för arbetsflöde"
 >abstract="På den här skärmen väljer du den mall som ska användas för att skapa arbetsflödet och anger en etikett. Expandera sektionen Ytterligare OPTIONS om du vill konfigurera fler inställningar, till exempel arbetsflödets interna namn, dess mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lista över arbetsflöden i kampanjen"
+>abstract="The **Leveranser** På -fliken visas alla arbetsflöden som är länkade till den aktuella kampanjen. Klicka på namnet på ett arbetsflöde för att redigera det. Använd knappen Skapa arbetsflöde för att lägga till ett nytt arbetsflöde för kampanjen."
+
 
 Du kan skapa fristående arbetsflöden eller arbetsflöden inom en kampanj. Det första steget är att välja en mall och definiera dess allmänna egenskaper. Sedan kan du konfigurera ytterligare inställningar efter behov.
 
@@ -63,8 +70,8 @@ Så här skapar du en arbetsflödesmall från ett befintligt arbetsflöde:
 
 1. Bekräfta att mallen har skapats i popup-fönstret.
 1. Kontrollera, lägg till och konfigurera aktiviteter efter behov på arbetsytan i arbetsflödesmallen.
-1. Bläddra till inställningarna för att ändra namnet på arbetsflödesmallen och ange en beskrivning.
-1. Välj mapp och körningsmapp för mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
+1. Bläddra till inställningarna från **Inställningar** om du vill ändra namnet på arbetsflödesmallen och ange en beskrivning.
+1. Välj **mapp** och **körningsmapp** av mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
 
    ![](assets/wf-settings-template.png)
 
