@@ -4,9 +4,9 @@ title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,18 @@ Använd **[!UICONTROL Image]** om du vill infoga en bildfil från datorn i e-pos
 
    ![](assets/email_designer_9.png)
 
-1. Klicka **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser.
+1. Klicka **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser. Du kan också välja att **[!UICONTROL Import your media]**.
+
+   Mer information om hur du överför och lägger till resurser i Assets Essentials finns i [Adobe Experience Manager Assets Essentials-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+
+   ![](assets/email_designer_28.png)
+
+1. Navigera i mapparna för att hitta den resurs du behöver, eller använd sökfältet för att hitta den effektivt.
+
+   När du har hittat den resurs du söker efter klickar du på **[!UICONTROL Select]**.
+
+   ![](assets/email_designer_29.png)
+
 
 1. Klicka på den nya komponenten och ange bildegenskaperna med **[!UICONTROL Settings]** tab:
 
