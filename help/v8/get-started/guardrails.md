@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,18 @@ Samma arbetsflöde kan nås både i konsolen och i webbgränssnittet. Tänk dock
 
 **Loopar**
 
-* Arbetsflöden och slingor visas inte i webbgränssnittet. Ett felmeddelande visas.
+* Loopar är ännu inte tillgängliga i webbgränssnittet. Om du har skapat ett arbetsflöde med en slinga med konsolen går det inte att komma åt det i webbgränssnittet. Ett felmeddelande visas.
+
+<table>
+<tr>
+<th>Konsol</th>
+<th>Webbgränssnitt</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Avstämning och berikning**
 
