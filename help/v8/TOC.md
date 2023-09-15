@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 11%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 11%
    + [Åtkomst och behörigheter](get-started/permissions.md)
    + [Skyddsritningar och begränsningar](get-started/guardrails.md)
    + [Funktioner som inte stöds](get-started/unsupported.md)
-   + [Använda AI](get-started/using-ai.md)
+   + [Hitta hjälp och vägledning](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Arbeta med leveransmallar](msg/delivery-template.md)

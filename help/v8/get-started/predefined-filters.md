@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Fördefinierade filter är anpassade filter som skapas och sparas för att vara 
 Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Skapa ett fördefinierat filter {#create-predefined-filter}
@@ -55,7 +59,7 @@ Du kan spara ett anpassat filter från regelbyggaren så att det blir tillgängl
 
 1. Välj **Skapa ett nytt filter** och ange ett namn och en beskrivning för filtret.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
 
@@ -89,7 +93,7 @@ När du skapar ett fördefinierat filter kan du aktivera **Spara som favorit** o
 
 När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
@@ -139,6 +143,8 @@ I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
 
 Du kan lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar regler. Läs mer i [det här avsnittet](#fav-filter).
 
-## Inbyggda fördefinierade filter {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign innehåller en uppsättning fördefinierade filter som skapats från klientkonsolen. Dessa filter kan användas för att definiera målgrupper och regler. De får inte ändras.
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

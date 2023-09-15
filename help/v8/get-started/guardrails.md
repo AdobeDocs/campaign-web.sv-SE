@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,29 @@ När du arbetar i webbgränssnittet för Campaign med komponenter som skapats el
 
 ## Arbetsflöden {#wf-guardrails-limitations}
 
-**Activity Edition**
+**Aktiviteter**
 
-* Arbetsflödesaktiviteter som ännu inte stöds i webbgränssnittet är skrivskyddade. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv.
+* Arbetsflödesaktiviteter som ännu inte stöds i webbgränssnittet är skrivskyddade. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i webbgränssnittet och i klientkonsolen går att redigera.
 
 | Konsol | Webbgränssnitt |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Canvas**
+**Arbetsyta**
 
-* Om ett konsolarbetsflöde har flera startnoder/grenar eller flytande aktiviteter måste du lägga till en startaktivitet och en gaffel för att ansluta startnoder till huvudnoden. Du måste också ta bort flytande aktiviteter.
+* När du skapar ett nytt arbetsflöde i webbgränssnittet har arbetsytan bara stöd för en startpunkt. Om du skapade ett arbetsflöde i konsolen med flera ingångspunkter
+
+Även om ditt arbetsflöde har skapats i klientkonsolens arbetsyta med flera startpunkter, kan du även redigera det i webbgränssnittet. Du kan fortfarande öppna och redigera
+
+
+
+Om du vill testa det här scenariot skapar du ett arbetsflöde från klientkonsolen med flera startpunkter och öppnar det från webbgränssnittet för att se resultatet.
+
+
+
+Du kan förstås redigera aktiviteterna och starta och köra arbetsflödet som vanligt.
+
+
 
 **Aktivitetsposition**
 
@@ -38,11 +50,11 @@ När du arbetar i webbgränssnittet för Campaign med komponenter som skapats el
 
 **Loopar**
 
-* Loopar är ännu inte tillgängliga i webbgränssnittet. Om du har skapat ett arbetsflöde med en slinga med konsolen går det inte att komma åt det i webbgränssnittet. Ett felmeddelande visas.
+* Loopar är ännu inte tillgängliga i webbgränssnittet. Om du skapade ett arbetsflöde med en slinga med konsolen kan du inte komma åt det från webbgränssnittet. Ett felmeddelande visas.
 
 | Konsol | Webbgränssnitt |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Avstämning och berikning**
 
@@ -53,12 +65,11 @@ I Campaign-klientkonsolen **Berikning** kan utföra både avstämning och anrikn
 
 ## Fördefinierade filter {#filters-guardrails-limitations}
 
-När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten.
+I den versionen av produkten, när du väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet.
 
 Ett specifikt felmeddelande visas. Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren och resultatet. Du kan även komma åt SQL-frågan för att kontrollera de exakta inställningarna.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 Observera, att om du skapar ett filter i webbgränssnittet och ändrar det i konsolen med attribut som inte stöds, kan den grafiska representationen inte längre vara tillgänglig i webbgränssnittet. I alla fall kan du fortfarande använda filtret.
 
