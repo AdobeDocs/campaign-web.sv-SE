@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 11%
+source-wordcount: '499'
+ht-degree: 10%
 
 ---
 
@@ -30,6 +30,10 @@ The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan 
 
 ## Konfiguration
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Schemaläggarens giltighet"
+>abstract="Du kan definiera en giltighetsperiod för schemaläggaren. Den kan vara permanent eller giltig till ett visst datum."
 
 Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
