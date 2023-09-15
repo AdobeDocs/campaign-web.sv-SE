@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Den här funktionen sparar tid och ger konsekvent kvalitet genom att automatiskt
 <a href="generative-image.md">
 <img alt="Bildgenerering" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>Bildgenerering med Content Assist</strong>
+<div><a href="generative-image.md"><strong>Bildgenerering med Content Assist</strong>
 </div>
 <p>
 </td>
