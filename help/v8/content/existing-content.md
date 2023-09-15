@@ -4,7 +4,7 @@ title: Importera e-postinnehåll
 description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -13,13 +13,12 @@ ht-degree: 0%
 
 # Importera e-postinnehåll {#existing-content}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Använd befintligt e-postinnehåll"
 >abstract="Med e-postdesignern kan du importera befintligt HTML-innehåll. Innehållet kan vara en HTML-fil med en infogad formatmall eller en ZIP-mapp med HTML-filen, formatmallen (.css) och bilder."
 
-Med e-postdesignern kan du importera befintligt HTML-innehåll. Innehållet kan vara:
+Du kan importera befintligt HTML-innehåll i e-postdesignern. Innehållet kan vara:
 
 * An **HTML-fil** med en infogad formatmall,
 * A **ZIP-mapp** med HTML-filen, formatmallen (.css) och bilderna.
