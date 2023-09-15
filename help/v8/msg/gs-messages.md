@@ -4,9 +4,9 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1258'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Adobe Campaign v8 har följande leveranskanaler: e-post, SMS och mobilappar.
 
 ## Skapa en leverans {#create-delivery}
 
-Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny eller skapa leveranser i samband med en marknadsföringskampanj från **[!UICONTROL Campaigns]** vänster meny.
+Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny, eller skapa leveranser i ett arbetsflöde, som ingår eller inte ingår i en kampanj.
 
 Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
@@ -92,7 +92,7 @@ Så här skapar du en fristående leverans:
 
 Så här skapar du en leverans i ett arbetsflöde:
 
-1. Skapa ett arbetsflöde eller öppna ett befintligt.
+1. Skapa ett arbetsflöde eller öppna ett befintligt. Läs mer om arbetsflöden i [den här sidan](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Lägg till och konfigurera en **[!UICONTROL Build audience]** och klicka på `+`-knappen.
 
    ![](assets/add-delivery-in-wf.png)
