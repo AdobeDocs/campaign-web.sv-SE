@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,21 @@ Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bor
 
 När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten.
 
-Ett specifikt felmeddelande visas. Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren och resultatet. Du kan även komma åt SQL-frågan för att kontrollera de exakta inställningarna.
+Ett specifikt felmeddelande visas.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+Du kan även komma åt SQL-frågan för att kontrollera de exakta inställningarna. Klicka på **kodvyn** -knappen.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Klicka på **Beräkna** för att kontrollera hur många objekt som uppfyller filtervillkoren. Använd **Visa resultat** för att visa dessa objekt.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Observera, att om du skapar ett filter i webbgränssnittet och ändrar det i konsolen med attribut som inte stöds, kan den grafiska representationen inte längre vara tillgänglig i webbgränssnittet. I alla fall kan du fortfarande använda filtret.
 

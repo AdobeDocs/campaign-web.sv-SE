@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Du kan använda befintliga inbyggda filter för att få tillgång till en viss d
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](guardrails.md#predefined-filters-filters-guardrails-limitations)
 

@@ -4,9 +4,9 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '330'
 ht-degree: 5%
 
 ---
@@ -43,6 +43,10 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
    Målgrupper skapas från **Målgrupp** vänster meny. De kan också skapas i klientkonsolen.
 
    Om du vill använda Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Dokumentation för Adobe Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Välj en målgrupp och klicka **Välj**.
 1. Använd **Visa filter** om du vill visa filteralternativ. Klicka **Lägg till regler** för att komma åt regelbyggaren: med regelbyggaren kan du skapa avancerade filter för listan över målgrupper. Lär dig hur du använder regelbyggaren i det här [section](segment-builder.md).
