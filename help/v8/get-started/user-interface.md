@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,9 @@ Så här byter du språk:
 1. Klicka sedan på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
 
+## Mörkt tema {#dark-theme}
+
+Du kan växla till det mörka temat från din profilikon. Använd **Mörkt tema** för att aktivera/inaktivera den.
 
 ## Läs mer {#learn-more}
 
