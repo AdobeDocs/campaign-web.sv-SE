@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,16 @@ I Campaign-klientkonsolen **Berikning** kan utföra både avstämning och anrikn
 
 ## Fördefinierade filter {#filters-guardrails-limitations}
 
-Vissa fördefinierade filter är inte tillgängliga när du väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Ett specifikt felmeddelande visas. Du kan fortfarande använda frågan och se: filtreringsvillkoret och resultatet, men du kan inte visa den exakta frågan i regelbyggaren och kan inte redigera filtret.
+När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten.
+
+Ett specifikt felmeddelande visas. Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren och resultatet. Du kan även komma åt SQL-frågan för att kontrollera de exakta inställningarna.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Observera, att om du skapar ett filter i webbgränssnittet och ändrar det i konsolen med attribut som inte stöds, kan den grafiska representationen inte längre vara tillgänglig i webbgränssnittet. I alla fall kan du fortfarande använda filtret.
+
+Attribut som inte stöds visas nedan.
 
 ### Datatyper som inte stöds {#unsupported-data-type}
 
