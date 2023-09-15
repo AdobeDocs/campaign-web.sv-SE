@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '415'
 ht-degree: 11%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 11%
             + [Lägga till en förrubrik](content/preheader.md)
             + [Generera textversionen](content/text-version-email.md)
          + Innehållsassistent {#content-assistant}
+            + [Kom igång med Content Assist](content/generative-gs.md)
             + [Skapa text med Content Assist](content/generative-content.md)
             + [Bildgenerering med Content Assist](content/generative-image.md)
             + [E-postgenerering med Content Assist](content/generative-email.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: Bildgenerering med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 När du har skapat och personaliserat dina e-postmeddelanden kan du förbättra innehållet med hjälp av Content Assistant. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
 
-I exemplet nedan, hur du använder Content Assistant för att optimera och förbättra ditt innehåll, vilket ger en mer användarvänlig upplevelse. Följ de här stegen:
+I exemplet nedan kan du lära dig hur du använder Content Assistant för att optimera och förbättra ditt innehåll, vilket ger en mer användarvänlig upplevelse. Följ de här stegen:
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
 
