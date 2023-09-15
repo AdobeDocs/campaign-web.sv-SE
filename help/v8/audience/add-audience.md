@@ -4,7 +4,7 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 5%
@@ -46,7 +46,7 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
    >[!IMPORTANT]
    >
-   >I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](guardrails.md#predefined-filters-filters-guardrails-limitations)
+   >I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Välj en målgrupp och klicka **Välj**.
 1. Använd **Visa filter** om du vill visa filteralternativ. Klicka **Lägg till regler** för att komma åt regelbyggaren: med regelbyggaren kan du skapa avancerade filter för listan över målgrupper. Lär dig hur du använder regelbyggaren i det här [section](segment-builder.md).
