@@ -3,15 +3,21 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 10%
+source-wordcount: '829'
+ht-degree: 11%
 
 ---
 
 
 # Kombinera {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="Kombinera aktivitet"
+>abstract="The **Kombinera** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, exkludera delar av dem eller bara behålla data som är gemensamma för flera mål."
+
 
 The **Kombinera** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Alternativ för uteslutningssammanslagning"
 >abstract="Med det här undantaget kan du utesluta element från en population enligt vissa kriterier. Markera alla tidigare aktiviteter som du vill ansluta till i sektionen Uppsättningar att ansluta."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="Välj segmenteringstyp"
+>abstract="Välj hur du vill kombinera målgrupper: union, skärning eller uteslutning."
+
 Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
 
 1. Lägg till flera aktiviteter som **Bygg målgrupper** aktiviteter för att bilda minst två olika utförandegrenar.
@@ -49,6 +60,11 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Skärningspunkt avstämningsalternativ"
 >abstract="Välj avstämningstypen för att definiera hur dubbletter hanteras."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="Avstämningsalternativ"
+>abstract="Välj **Avstämningstyp** för att definiera hur dubbletter ska hanteras."
 
 I **Kombinera** -aktivitet kan du konfigurera en **Union**. För detta måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
@@ -68,6 +84,12 @@ I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta
 >id="acw_orchestration_exclusion_options"
 >title="Uteslutningsregler"
 >abstract="Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka på Lägg till en regel i avsnittet Uteslutningsregler och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="Markera uppsättningar som ska kombineras"
+>abstract="I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
+
 
 I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**. För detta behöver du följa de extra stegen nedan:
 

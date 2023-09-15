@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,26 @@ ht-degree: 1%
 
 # Dela {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="Delad aktivitet"
+>abstract="The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek."
+
+
 The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek.
 
 ## Konfiguration {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="Dela aktivitetsfilter"
+>abstract="Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="Gräns för delad aktivitet"
+>abstract="Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas."
+
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 

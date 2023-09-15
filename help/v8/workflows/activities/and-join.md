@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten AND-join
 description: Lär dig använda arbetsflödesaktiviteten OCH-join
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,24 @@ ht-degree: 1%
 
 # AND-join {#join}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join"
+>title="AND-join activity"
+>abstract="The **Och-join** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan synkronisera flera körningsgrenar i ett arbetsflöde."
+
+
+
 The **Och-join** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan synkronisera flera körningsgrenar i ett arbetsflöde.
 
 Den här aktiviteten utlöser endast den utgående övergången när alla inkommande övergångar har aktiverats, det vill säga när alla föregående aktiviteter har slutförts. På så sätt kan du se till att vissa aktiviteter har slutförts innan du fortsätter att köra arbetsflödet.
 
 ## Konfiguration
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join_merging"
+>title="Konfigurera aktiviteten AND-join"
+>abstract="Välj vilka aktiviteter du vill ansluta till. I **Primär uppsättning** väljer du vilken inkommande övergångspopulation som du vill behålla."
 
 Följ de här stegen för att konfigurera **AND-join** aktivitet:
 
