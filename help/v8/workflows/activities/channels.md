@@ -3,9 +3,9 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '634'
 ht-degree: 1%
 
 ---
@@ -25,17 +25,27 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående e-postleverans](../../email/create-email.md)
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
->
 
-## Skapa en leverans i ett arbetsflöde{#create-a-delivery-in-a-workflow}
+## Bygg upp arbetsflödet{#build-your-workflow}
 
-Följ stegen nedan om du vill skapa ett e-postmeddelande, ett SMS eller en push-leverans i ett arbetsflöde:
+Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveransen:
 
-1. Kontrollera att du har lagt till en **Bygg målgrupper** aktivitet. Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
+* Om du vill skicka en återkommande leverans startar du arbetsflödet med en **Schemaläggare** aktivitet. Om du vill skicka en enstaka leverans kan du definiera kontaktdatum med en **Schemaläggare** aktiviteten eller definiera schemat i leveransinställningarna. Se [det här avsnittet](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Lägg till en **Bygg målgrupper** aktivitet. Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
 
-1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## Ställ in leverans {#create-a-delivery-in-a-workflow}
+
+Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanhang:
+
+1. Lägg till en kanalaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**.
+
+1. Välj **Typ av leverans**: enkel eller återkommande.
+
+   * **Enskild leverans**: det här är en engångsleverans, som bara skickas en gång, till exempel ett e-postmeddelande från Black Friday.
+   * **Återkommande leverans**: för den här typen av leverans ställer du in körningsfrekvensen med en [schemaläggaraktivitet](scheduler.md). Varje gång arbetsflödet körs beräknas målgruppen om och leveransen skickas med det uppdaterade innehållet. Det här kan vara ett veckonyhetsbrev eller ett återkommande födelsedagskalender.
 
 1. Välj en leverans **Mall**. Mallar är förkonfigurerade leveransinställningar som är specifika för en kanal. En inbyggd mall är tillgänglig för varje kanal och förfylld som standard. [Läs mer](../../msg/delivery-template.md)
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+Du kan också skapa ett återkommande arbetsflöde för att skicka ett personligt push-meddelande varje dag i månaden kl. 8.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner.
 
 <!-- Scheduled emails available?
 

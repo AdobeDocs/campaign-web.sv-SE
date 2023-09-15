@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '435'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 15%
 
 The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
 
-## God praxis
+## Bästa praxis
 
-Schemalägg inte ett arbetsflöde så att det körs mer än var 15:e minut eftersom det kan påverka den totala systemprestandan negativt och skapa block i databasen.
+* Schemalägg inte ett arbetsflöde så att det körs mer än var 15:e minut eftersom det kan påverka den totala systemprestandan negativt och skapa block i databasen.
+* Om du vill skicka en engångsleverans i arbetsflödet kan du lägga till en schemaläggningsaktivitet och ställa in den på att köras **En gång**. Du kan också definiera **Schema** i leveransinställningarna.
+* Om du vill skicka en återkommande leverans i arbetsflödet måste du använda en **Schemaläggare** och ange körningsfrekvens. Den återkommande leveransaktiviteten tillåter inte att du definierar ett schema.
 
 ## Konfiguration
 
@@ -56,9 +58,16 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
    * **Giltighetsperiod**: arbetsflödet körs enligt angiven frekvens fram till ett visst datum. Du måste ange start- och slutdatum.
 
+>[!NOTE]
+>
+>Om du vill starta arbetsflödet direkt kan du klicka på **Kör väntande uppgift** i schemaläggarens övre åtgärdsfält. Den här knappen är bara tillgänglig när du har startat arbetsflödet.
+
+Anteckningar:
+
+
 ## Exempel
 
-I följande exempel är aktiviteten konfigurerad så att arbetsflödet startar flera gånger per dag kl. 9 och kl. 12 varje veckodag från 1 oktober 2023 till 1 januari 2024.
+I följande exempel är aktiviteten konfigurerad så att arbetsflödet körs flera gånger per dag kl. 9 och 12, varje veckodag från 1 oktober 2023 till 1 januari 2024.
 
 ![](../assets/workflow-scheduler2.png)
 
