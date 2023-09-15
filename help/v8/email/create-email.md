@@ -4,7 +4,7 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -66,7 +66,7 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 
    ![](assets/email-properties.png)
 
-5. Dessutom finns avancerade inställningar, som typologiregler och målmappningar, via **[!UICONTROL Settings]** på skärmens övre högra hörn. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
+1. Dessutom finns avancerade inställningar, som typologiregler och målmappningar, via **[!UICONTROL Settings]** på skärmens övre högra hörn. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet.
 
 ## Definiera målgruppen {#define-audience}
 
