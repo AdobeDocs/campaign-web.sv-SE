@@ -3,10 +3,10 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten för gaffel
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 28%
+source-wordcount: '159'
+ht-degree: 12%
 
 ---
 
@@ -14,11 +14,17 @@ ht-degree: 28%
 # Förgrening {#fork}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_fork"
+>title="Gaffelaktivitet"
+>abstract="The **Gaffel** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan skapa utgående övergångar och starta flera aktiviteter samtidigt."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="Gaffelaktivitet"
 >abstract="Med förgreningsaktiviteten kan du skapa utgående övergångar och starta flera aktiviteter samtidigt."
 
-Med förgreningsaktiviteten kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.
+The **Gaffel** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan skapa utgående övergångar och starta flera aktiviteter samtidigt.
 
 ## Konfiguration
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,12 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >abstract="Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="Sortering av delad aktivitet"
+>abstract="När du anger en populationsgräns för en delmängd kan du rangordna de valda profilerna baserat på ett visst profilattribut i stigande eller fallande ordning. Aktivera **Aktivera sortering** alternativ. Du kan till exempel begränsa en delmängd så att den endast innehåller de 50 översta profilerna med det högsta inköpspriset."
+
+
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
 1. Lägg till en **Dela** till ditt arbetsflöde.
@@ -58,11 +64,13 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
 
    1. Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas.
 
+      ![](../assets/workflow-split-subset.png)
+
+
       >[!NOTE]
       >
       >När du anger en populationsgräns för en delmängd kan du rangordna de valda profilerna baserat på ett visst profilattribut i stigande eller fallande ordning. Aktivera **[!UICONTROL Enable sorting]** alternativ. Du kan till exempel begränsa en delmängd så att den endast innehåller de 50 översta profilerna med det högsta inköpspriset.
 
-   ![](../assets/workflow-split-subset.png)
 
 1. När du har konfigurerat alla deluppsättningar kan du välja den återstående populationen som inte matchade någon av deluppsättningarna och inkludera dem i en ytterligare utgående övergång. Aktivera **[!UICONTROL Generate complement]** alternativ.
 

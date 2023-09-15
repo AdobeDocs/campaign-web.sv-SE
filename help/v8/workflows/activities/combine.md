@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 11%
+source-wordcount: '891'
+ht-degree: 10%
 
 ---
 
@@ -89,6 +89,12 @@ I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta
 >id="acw_orchestration_combine_sets"
 >title="Markera uppsättningar som ska kombineras"
 >abstract="I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="Uteslutningsregler"
+>abstract="Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka på Lägg till en regel i avsnittet Uteslutningsregler och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+
 
 
 I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**. För detta behöver du följa de extra stegen nedan:

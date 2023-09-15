@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,6 @@ I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, le
 >id="acw_audiences_list"
 >title="Målgrupper"
 >abstract="Det här är er lista över målgrupper. Du kan visa typ, ursprung, datum och etikett för senaste ändringsdatum och skapandedatum. Du kan filtrera listan efter ursprung. Den här listan är skrivskyddad."
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="Prenumerationslistor"
->abstract="Bläddra bland prenumerationslistorna. Du kan visa deras typ, läge och etikett. Den här listan är skrivskyddad."
 
 
 I avsnittet KUNDHANTERING kan du visa dina mottagare, målgrupper och prenumerationer. De här listorna är skrivskyddade.

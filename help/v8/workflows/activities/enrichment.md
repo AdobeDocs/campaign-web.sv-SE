@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,17 @@ ht-degree: 0%
 # Berikning {#enrichment}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment"
+>title="Anrikningsaktivitet"
+>abstract="The **Berikning** aktiviteten är en **Målinriktning** aktivitet. Det gör att du kan förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Anrikningsaktivitet"
 >abstract="Med Enrichment-aktiviteten kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter riktade aktiviteter.<br/>När berikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter Enrichment-aktiviteten för att segmentera kunder i olika grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får genklang hos målgruppen."
+
+
 
 The **Berikning** aktiviteten är en **Målinriktning** aktivitet. Det gör att du kan förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter.
 
