@@ -4,15 +4,20 @@ title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 
 # Kom igång med kampanjer {#campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaigns_list"
+>title="Kampanjer"
+>abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Klicka på knappen Skapa kampanj för att lägga till en ny kampanj. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Bläddra till fliken Mallar för att visa och skapa mallar."
 
 
 Med Adobe Campaign kan ni enkelt samordna era riktade marknadsföringssatsningar med den inbyggda kampanjhanteringsfunktionen. Med möjligheten att definiera ett schema kan ni planera kampanjernas varaktighet och tidsplanering för att anpassa dem till strategiska mål och maximera målgruppernas engagemang.
