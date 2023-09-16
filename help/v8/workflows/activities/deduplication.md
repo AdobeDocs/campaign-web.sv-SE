@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 6%
+source-wordcount: '353'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Dedupliceringskomplementet"
->abstract="TBD"
+>title="Generera ett komplement"
+>abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera **Generera komplement** option"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Inställningar för borttagning av dubbletter"
->abstract="TBD"
+>abstract="Om du vill ta bort dubbletter i inkommande data definierar du dedupliceringsmetoden i fälten nedan. Som standard sparas bara en post. Du bör också välja dedupliceringsläget baserat på ett uttryck eller ett attribut. Som standard väljs den post som ska hållas utanför dubbletterna slumpmässigt."
 
 The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna. The **Deduplicering** aktiviteten används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
 
