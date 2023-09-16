@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,6 @@ Mer information om Campaign Explorer, mapphierarkin och resurser finns i [Kampan
 
 ### Campaign Management {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Kampanjer"
->abstract="Det här är listan över era kampanjer. Du kan visa användbar information som start-/slutdatum/sista ändringsdatum samt status för dem. Du kan filtrera listan efter status eller start-/slutdatum. Klicka på knappen Skapa kampanj för att lägga till en ny kampanj. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Bläddra till fliken Mallar för att visa och skapa mallar."
-
-
-
 I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
 
 * **Kampanjer** - Det här är listan över era kampanjer och kampanjmallar. Som standard kan du för varje kampanj visa datum för start/slut/skapande/senaste ändring, aktuell status och namnet på den kampanjoperator som skapade den. Du kan filtrera listan efter status, start-/slutdatum, mapp eller skapa ett avancerat filter för att definiera egna filtervillkor. Läs mer om kampanjer [i det här avsnittet](../campaigns/gs-campaigns.md).
@@ -83,13 +76,6 @@ I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, le
 
 ### Kundhantering {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Målgrupper"
->abstract="Det här är er lista över målgrupper. Du kan visa typ, ursprung, datum och etikett för senaste ändringsdatum och skapandedatum. Du kan filtrera listan efter ursprung. Den här listan är skrivskyddad."
-
-
 I avsnittet KUNDHANTERING kan du visa dina mottagare, målgrupper och prenumerationer. De här listorna är skrivskyddade.
 
 * **Mottagare** - Få åtkomst till din mottagardatabas. Som standard kan du visa deras e-postadress, förnamn och efternamn. Läs mer om mottagare i [det här avsnittet](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ I avsnittet KUNDHANTERING kan du visa dina mottagare, målgrupper och prenumerat
 >id="acw_offers_list"
 >title="Erbjudanden"
 >abstract="Bläddra igenom listan med interaktionserbjudanden. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet. De här listorna är skrivskyddade."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Lägg till ett erbjudande i en leverans"
 
 * **Erbjudanden** - Bläddra igenom listan med interaktionserbjudanden. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet. De här listorna är skrivskyddade.
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### Sammanhangsberoende hjälp {#user-interface-help}
+## Sammanhangsberoende hjälp {#user-interface-help}
 
 Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 Med den nya betaversionen är **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
-
-![](assets/ask-a-question.png)
-
 
 Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår Knowledge Assistant med Gen AI din ultimata partner, vilket ger oöverträffad effektivitet och precision i varje interaktion.
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Den här kampanjen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Leveransen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Arbetsflödet är skrivskyddat"
->abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Arbetsflödet är skrivskyddat"
->abstract="Du kan inte redigera det här arbetsflödet på grund av att arbetsytan inte stöds eller är inkompatibel."
 
 <!-- delivery template settings-->
 
