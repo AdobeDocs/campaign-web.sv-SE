@@ -3,9 +3,9 @@ audience: end-user
 title: Behörighetshantering på Campaign-webben
 description: Läs mer om behörigheter på Campaign-webben v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,44 @@ ht-degree: 0%
 
 # Åtkomst och behörigheter {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="Behörighet krävs"
 >abstract="Din administratör måste ge dig behörighet innan du kan skapa det här objektet."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Den här målgruppen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här målgruppen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Tjänsten är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Den här kampanjen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Leveransen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Arbetsflödet är skrivskyddat"
+>abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Arbetsflödet är skrivskyddat"
+>abstract="Du kan inte redigera det här arbetsflödet på grund av att arbetsytan inte stöds eller är inkompatibel."
 
 Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även i Utforskarens navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
 
@@ -30,7 +61,6 @@ När du surfar i användargränssnittet i Campaign kan du komma åt data, objekt
 ## Visa behörigheter {#view-permissions}
 
 Från **Explorer** kan du bläddra bland behörigheter för varje mapp. Dessa behörigheter anges i klientkonsolen och används för att organisera och styra åtkomsten till Campaign-data.
-
 
 Så här visar du behörigheter för en mapp:
 
