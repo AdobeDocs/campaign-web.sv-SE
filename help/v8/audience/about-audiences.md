@@ -4,10 +4,10 @@ title: Kom igång med målgrupper
 description: Lär dig hur du använder målgrupper i gränssnittet för Campaign Web
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 4%
+source-wordcount: '220'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,7 @@ Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelanden
 
 Om du vill definiera målgruppspopulationen kan du:
 
+* Skapa och kombinera målgrupper. [Läs mer](create-audience.md)
 * Välj en befintlig målgrupp som skapats som en lista i klientkonsolen. [Läs mer](add-audience.md)
 * Välj en Adobe Experience Platform-målgrupp. [Läs mer](aep-audience.md)
 * Bygg en ny målgrupp med regelbyggaren genom att definiera och kombinera filtervillkor. [Läs mer](segment-builder.md)

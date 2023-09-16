@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,16 @@ ht-degree: 0%
 
 # Skapa målgrupper {#create-audiences}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_list"
+>title="Målgrupper"
+>abstract="Från den här skärmen kan du skapa och kombinera målgrupper till en visuell arbetsyta. Lägg till olika arbetsflödesaktiviteter som **Dela** eller **Exkludera** för att skapa nya och förfinade målgrupper."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Målgruppsinställningar"
->abstract="Ange namnet på målgruppen och ytterligare alternativ."
+>abstract="Ange målgruppens namn och ytterligare alternativ och klicka sedan på **Skapa publik** -knappen."
 
 Med Campaign Web kan ni skapa arbetsflöden där ni kan kombinera befintliga målgrupper till en visuell arbetsyta. Genom att införliva olika arbetsflödesaktiviteter, som **Dela** eller **Exkludera** kan ni generera nya och förfinade målgrupper.
 
