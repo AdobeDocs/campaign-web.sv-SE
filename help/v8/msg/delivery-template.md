@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '982'
 ht-degree: 3%
 
 ---
@@ -25,12 +25,12 @@ För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för
 
 En mall kan innehålla:
 
-* [Typologier](../advanced-settings/delivery-settings.md#typology)
-* Avsändarens adress
-* An [publik](../audience/about-audiences.md), inklusive [kontrollgrupper](../audience/control-group.md)
-* Egen [innehåll](../content/edit-content.md)
-* [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md)
-* Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md)
+* [Typologier](../advanced-settings/delivery-settings.md#typology),
+* Avsändarens adress.
+* An [publik](../audience/about-audiences.md), inklusive [kontrollgrupper](../audience/control-group.md),
+* Egen [innehåll](../content/edit-content.md),
+* [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md),
+* Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md),
 * Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Så här konfigurerar du en leveransmall från grunden:
    > * [E-postkanal](../email/create-email.md)
    > * [Push-meddelandekanal](../push/gs-push.md)
    > * [SMS-kanal](../sms/create-sms.md)
+
+1. För e-postmallar kan dessutom avancerade inställningar, som typologiregler och målmappningar, nås via **[!UICONTROL Settings]** på skärmens övre högra hörn. [Läs mer](../advanced-settings/delivery-settings.md)
 
 1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
 
