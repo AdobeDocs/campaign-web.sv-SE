@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
@@ -20,18 +20,19 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-postparametrar"
->abstract="E-postvärdena Från och Från definieras i e-postmallen. Subject line kan anpassas med Expression Editor."
+>title="Ange grundläggande e-postegenskaper"
+>abstract="The **Grundläggande information** I kan du uppdatera avsändarens adress och svarsadress och definiera ämnesraden med hjälp av uttrycksredigeraren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="E-postbilaga"
+>title="Bifoga filer i e-postmeddelandet"
 >abstract="Markera en eller flera filer som ska infogas i meddelandet."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Spårningsalternativ"
+>title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet härifrån."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Lägga till länkar och spåra meddelanden"
 
 E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
 * Definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesraden
