@@ -3,38 +3,15 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
 
 
 # E-post, SMS, push-aktiviteter {#channel}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_email"
->title="E-postaktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_sms"
->title="E-postaktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_ios"
->title="E-postaktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_android"
->title="E-postaktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data. "
 
 Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i alla e-post-, SMS- och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data.
 
@@ -60,6 +37,30 @@ Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveranse
   ![](../../msg/assets/add-delivery-in-wf.png)
 
 ## Ställ in leverans {#create-a-delivery-in-a-workflow}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="E-postaktivitet"
+>abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="SMS-aktivitet"
+>abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="Push iOS activity"
+>abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Push Android-aktivitet"
+>abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanhang:
 
