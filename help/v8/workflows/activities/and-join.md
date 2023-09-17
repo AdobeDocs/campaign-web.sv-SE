@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten AND-join
 description: Lär dig använda arbetsflödesaktiviteten OCH-join
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join activity"
->abstract="The **Och-join** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan synkronisera flera körningsgrenar i ett arbetsflöde."
-
-
+>abstract="The **Och-join** kan du synkronisera flera körningsgrenar i ett arbetsflöde. Den aktiveras när alla föregående aktiviteter har slutförts. På så sätt kan du se till att vissa aktiviteter är slutförda innan du fortsätter att köra arbetsflödet."
 
 The **Och-join** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan synkronisera flera körningsgrenar i ett arbetsflöde.
 
