@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '519'
 ht-degree: 10%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 10%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Schemaläggaraktivitet"
->abstract="The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet."
+>abstract="The **Schemaläggare** kan du schemalägga när arbetsflödet börjar. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet."
 
 
 The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
@@ -33,7 +33,13 @@ The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Schemaläggarens giltighet"
->abstract="Du kan definiera en giltighetsperiod för schemaläggaren. Den kan vara permanent eller giltig till ett visst datum."
+>abstract="Du kan definiera en giltighetsperiod för schemaläggaren. Den kan vara permanent (standard) eller giltig till ett visst datum."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Alternativ för schemaläggare"
+>abstract="Definiera frekvensen för schemaläggaren. Den kan köras vid ett specifikt tillfälle, en eller flera gånger per dag, vecka eller månad."
 
 Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 

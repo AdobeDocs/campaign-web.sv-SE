@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '636'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Delad aktivitet"
->abstract="The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek."
+>abstract="The **Dela** Med -aktivitet kan du segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek."
 
 
 The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek.

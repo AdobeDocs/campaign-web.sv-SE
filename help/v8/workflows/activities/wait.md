@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 25%
+source-wordcount: '162'
+ht-degree: 27%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="Vänta"
->abstract="The **Vänta** aktiviteten är en **Flödeskontroll** aktivitet. Det används för att en viss tid ska kunna förflyta mellan två aktiviteter som utförs."
+>title="Vänta på aktivitet"
+>abstract="The **Vänta** används för att fördröja övergången från en aktivitet till en annan."
 
 
 The **Vänta** aktiviteten är en **Flödeskontroll** aktivitet. Det används för att en viss tid ska kunna förflyta mellan två aktiviteter som utförs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
