@@ -5,7 +5,7 @@ description: Lär dig hantera kampanjmallar med Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---

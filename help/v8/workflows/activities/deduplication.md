@@ -5,8 +5,8 @@ description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
 source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '427'
+ht-degree: 4%
 
 ---
 
