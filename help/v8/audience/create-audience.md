@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -23,18 +23,9 @@ ht-degree: 0%
 >title="Målgruppsinställningar"
 >abstract="Ange målgruppens namn och ytterligare alternativ och klicka sedan på **Skapa publik** -knappen."
 
-Med Campaign Web kan ni skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från början och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina era målgrupper. Ni kan till exempel dela upp olika målgrupper i en och samma målgrupp, berika målgrupper med externa attribut eller dela upp en viss målgrupp i flera.
+Med Campaign Web kan ni skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Ni kan till exempel kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler.
 
 När ni väl har skapat ert arbetsflöde lagras målgrupperna automatiskt i Campaign-databasen tillsammans med era befintliga. Dessa målgrupper kan sedan inrikta sig på kampanjer eller fristående leveranser.
-
-De viktigaste stegen för att skapa en målgrupp är följande:
-
-1. Skapa ett målgruppsarbetsflöde.
-1. Konfigurera en Build-målgruppsaktivitet för att fråga databasen efter dina behov.
-1. Lägg till arbetsflödesaktiviteter för att förfina målgruppen (valfritt).
-1. Konfigurera aktiviteten Spara målgrupp.
-1. Kör arbetsflödet för att spara de resulterande målgrupperna i databasen.
-
 
 ## Skapa din första målgrupp {#create}
 
@@ -48,15 +39,15 @@ Så här skapar du en målgrupp:
 
    ![](assets/audiences-settings.png)
 
-1. När du har konfigurerat målgruppsinställningarna klickar du på **[!UICONTROL Create Audience]** -knappen.
+1. När du har konfigurerat målgruppsinställningarna klickar du på **[!UICONTROL Create Audience]** -knappen. En arbetsyta i arbetsflödet visas med två standardaktiviteter:
 
-1. En arbetsyta i arbetsflödet visas med två standardaktiviteter:
+   * **[!UICONTROL Build audience]**: Detta är startpunkten i arbetsflödet, så att du kan skapa en målgrupp och använda den som grund för arbetsflödet.
 
-   * **[!UICONTROL Build audience]**: Detta är startpunkten i arbetsflödet, så att du kan skapa en målgrupp och använda den som grund för arbetsflödet. [Lär dig konfigurera en målgruppsaktivitet](../workflows/activities/build-audience.md)
+   * **[!UICONTROL Save audience]**: Detta är det sista steget i arbetsflödet, vilket gör att du kan spara arbetsflödesresultaten som en ny målgrupp.
 
-   * **[!UICONTROL Save audience]**: Detta är det sista steget i arbetsflödet, vilket gör att du kan spara resultatet som en ny målgrupp. [Lär dig konfigurera en Spara målgruppsaktivitet](../workflows/activities/save-audience.md)
+1. Öppna **[!UICONTROL Build audience]** och använd regelbyggaren för att definiera den population som ska ingå i målgruppen genom att filtrera data i databasen. [Lär dig konfigurera en målgruppsaktivitet](../workflows/activities/build-audience.md)
 
-1. Om du vill utföra ytterligare åtgärder efter **[!UICONTROL Build audience]** -aktivitet, lägg till så många aktiviteter som behövs i arbetsflödet. Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i [arbetsflödesdokumentation](../workflows/activities/about-activities.md).
+1. Om du vill utföra ytterligare åtgärder för den population som är avsedd för arbetsflödet lägger du till så många aktiviteter som behövs och kopplar ihop dem. Mer information om hur du konfigurerar arbetsflödesaktiviteter finns i [arbetsflödesdokumentation](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
@@ -64,17 +55,19 @@ Så här skapar du en målgrupp:
 
    ![](assets/audience-creation-canvas.png)
 
+1. Konfigurera **[!UICONTROL Save audience]** för att ange hur du vill spara den beräknade populationen uppströms i arbetsflödet. [Lär dig konfigurera en Spara målgruppsaktivitet](../workflows/activities/save-audience.md)
+
 1. När arbetsflödet är klart klickar du **[!UICONTROL Start]** för att genomföra det.
 
-1. Arbetsflödet sparas i **[!UICONTROL Workflows]** -listan, medan de resulterande målgrupperna är tillgängliga i **[!UICONTROL Audiences]** lista. [Lär dig övervaka och hantera målgrupper](access-audiences.md)
+Arbetsflödet sparas i **[!UICONTROL Workflows]** -listan, medan de resulterande målgrupperna är tillgängliga i **[!UICONTROL Audiences]** lista. [Lär dig övervaka och hantera målgrupper](access-audiences.md)
 
 ## Exempel på målgruppsarbetsflöde {#example}
 
-I exemplet nedan visas ett målgruppsarbetsflöde som är konfigurerat för att rikta sig till kvinnliga kunder som bor i New York och skapa två nya målgrupper beroende på deras intresseområde i Yoga eller Löpande utrustning. De två målgrupperna berikas med ytterligare information om kundernas köp.
+I exemplet nedan visas ett målgruppsarbetsflöde som är konfigurerat för att rikta sig till kvinnliga kunder som bor i New York och skapa två nya målgrupper beroende på deras senaste köp (Yoga eller Löpande utrustning).
 
-LÄGG TILL SKÄRMBILD
+![](assets/audiences-example.png)
 
-1. Aktiviteten för att skapa målgrupper är inriktad på alla kvinnliga profiler som bor i New York.
-1. Aktiviteten Enrichment berikar målgruppen med attribut från tabellen Purchases.
-1. Delningsaktiviteten delar upp arbetsflödet i två banor baserat på kundernas intressecenter.
-1. Med Spara målgruppsaktiviteter i slutet av varje bana sparar du varje målgrupp i databasen.
+1. The **[!UICONTROL Build audience]** Aktiviteten riktar sig till alla kvinnliga profiler som bor i New York.
+1. The **[!UICONTROL Enrichment]** aktiviteten berikar publiken med information från inköpstabellen för att identifiera vilken typ av produkt kunderna har köpt.
+1. The **[!UICONTROL Split]** aktiviteten delar upp arbetsflödet i två banor baserat på kundens senaste köp.
+1. The **[!UICONTROL Save audience]** aktiviteter i slutet av varje bana skapar två nya målgrupper i databasen, inklusive den population som beräknas i varje bana.
