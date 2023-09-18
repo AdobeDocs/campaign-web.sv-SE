@@ -3,14 +3,34 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1658'
 ht-degree: 1%
 
 ---
 
 # Kampanjrapporter {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Rapportering skickas"
+>abstract="Fliken Skicka i din rapport ger djupgående insikter om besökarnas interaktion med leveranser och eventuella fel som de har upptäckt."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Rapporteringsspårning"
+>abstract="Fliken Skicka i rapporten innehåller värdefulla data, inklusive mottagarnas beteende per länk, hur öppningar och klickningar visas samt detaljerad information om de URL:er som du klickade mest på under en leverans."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Leveransöversikt"
+>abstract="I leveransöversikten finns viktiga nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med e-postleveransen."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Inledande målgruppsstatistik"
+>abstract="Den första målgruppsstatistiktabellen visar data relativt dina mottagare"
 
 Campaign-rapporten är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel.
 

@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Anrikningsdata"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Rapportering skickas"
->abstract="Se utskicksindikatorerna för kampanjrapporteringen."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Rapporteringsspårning"
->abstract="Se spårningsindikatorerna för kampanjrapporteringen."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Rapportöversikt"
->abstract="Viktiga mätvärden för leveransen."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Rapportera målstatistik"
->abstract="I det här avsnittet visas specifika mätvärden beroende på målgrupper."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Aggregerad rapportering för leveranser"
->abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Spårning av globala rapporter"
 >abstract="Mätvärden för spårningsrapportering visas på den här skärmen"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
