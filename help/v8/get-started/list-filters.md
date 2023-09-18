@@ -3,9 +3,9 @@ audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -51,13 +51,15 @@ Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller 
 
 ## Egna filter{#list-custom-filters}
 
-Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på knappen **Lägg till regler** -knappen.
+Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på knappen **Lägg till regler** för att komma åt regelbyggaren.
 
 Dra och släpp attribut för att skapa filtervillkor i **Avancerade filter** skärm.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktuella listan. [Läs mer](#adv-attributes)
+
+Regelbyggarens princip för anpassade filter liknar den regel som används för att skapa målgrupper. Detaljerad information om hur det används finns i [Målgruppsdokumentation](../audience/segment-builder.md).
 
 ## Använd avancerade attribut {#adv-attributes}
 
