@@ -4,7 +4,7 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
-Baserat på en fördefinierad [designmall](../content/email-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
+Baserat på en fördefinierad [designmall](../content/email-sample-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
 
 ## Skapa e-postleveransen {#create-email}
 
