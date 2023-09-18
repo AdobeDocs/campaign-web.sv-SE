@@ -4,9 +4,9 @@ title: Skicka erbjudanden
 description: Skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,17 @@ Så här skickar du erbjudanden med en leverans:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Inställningar för erbjudanden"
->abstract="Konfigurera vilka erbjudanden som ska föreslås för mottagarna."
+>title="Definiera erbjudandeparametrarna"
+>abstract="Konfigurera vilka erbjudanden som ska föreslås för mottagarna genom att definiera ett erbjudandeutrymme, eventuellt en kategori och ett tema, och ange hur många erbjudanden du vill infoga i leveransen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Erbjuder avancerade inställningar"
->abstract="Konfigurera avancerade alternativ för erbjudanden."
+>title="Ange avancerade inställningar för erbjudanden"
+>abstract="Du kan aktivera uteslutning av mottagare för vilka det inte finns tillräckligt med giltiga erbjudanden och välja hur meddelandet ska behandlas om ett av förslagen inte finns."
+
+Med Adobe Campaign kan du erbjuda en eller flera specifika erbjudanden till en viss kontakt. Interaktionsmodul som gör att du kan svara i realtid under en interaktion med en viss kontakt genom att föreslå en eller flera specifika erbjudanden. Erbjudandena kan vara enkla kommunikationsmeddelanden, specialerbjudanden för en eller flera produkter eller en tjänst.
+
+Följ stegen nedan för att välja vilka erbjudanden som ska läggas till i leveransen.
 
 1. Klicka på **[!UICONTROL Set up offers]** på skärmen för utgåva av leveransinnehåll.
 
@@ -99,7 +103,7 @@ Följ stegen nedan för att infoga ett erbjudande med Expression Editor.
 
    >[!NOTE]
    >
-   >Antalet tillgängliga offerter beror på hur motoranropet är konfigurerat och deras ordning beror på erbjudandenas prioritet.
+   >Antalet tillgängliga offerter beror på hur motoranropet är konfigurerat och deras ordning beror på erbjudandenas prioritet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Spara ändringarna.
 
