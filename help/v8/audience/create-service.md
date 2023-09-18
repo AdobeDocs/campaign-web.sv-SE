@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du skapar och hanterar tjänster på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '883'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,15 @@ En gång [skapade en prenumerationstjänst](#create-service)kan ni inrikta er p�
 
    ![](assets/service-audience-subscribers.png)
 
-1. Skapa en kampanj och inrikta er på den målgrupp du skapat.
+1. [Skapa en leverans](../msg/gs-messages.md) och välj den målgrupp du skapade ovan.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Redigera meddelandeinnehållet efter behov och skicka leveransen.
+
+   ![](assets/service-delivery-ready.png)
+
+Leveransen skickas endast till prenumeranterna.
 
 
 
