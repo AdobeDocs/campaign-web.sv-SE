@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Arbeta med prenumerationstjänster
-description: Lär dig hur du skapar tjänster i Adobe Campaign Web
+description: Lär dig hur du skapar och hanterar tjänster på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
@@ -44,14 +44,13 @@ Om du vill redigera en befintlig tjänst klickar du på dess namn.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Egenskaper för prenumerationstjänsten"
->abstract="Ange prenumerationstjänstens etikett och definiera ytterligare alternativ."
+>title="Definiera dina serviceegenskaper"
+>abstract="Ange prenumerationstjänstens etikett och definiera ytterligare alternativ, t.ex. en giltighetsperiod för tjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Bekräftelsemeddelanden för prenumerationstjänsten"
->abstract="När en användare prenumererar på en tjänst eller avslutar en prenumeration på en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för dessa meddelanden."
-
+>title="Välj ett bekräftelsemeddelande"
+>abstract="När en användare prenumererar på eller avbeställer en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för det meddelandet."
 
 Så här skapar du en prenumerationstjänst:
 
