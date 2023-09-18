@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du skapar och hanterar tjänster på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '966'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,9 @@ Mer information om hur du hanterar prenumerationer och avbeställningar finns i 
 
 ## Åtkomst till prenumerationstjänster {#access-services}
 
-1. Om du vill få tillgång till prenumerationstjänster för din plattform går du till **[!UICONTROL Subscription services]** menyn i den vänstra navigeringslisten.
+Följ stegen nedan för att få tillgång till prenumerationstjänster som är tillgängliga för din plattform.
+
+1. Gå till **[!UICONTROL Subscription services]** menyn i den vänstra navigeringslisten.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Mer information om hur du hanterar prenumerationer och avbeställningar finns i 
 >title="Välj ett bekräftelsemeddelande"
 >abstract="När en användare prenumererar på eller avbeställer en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för det meddelandet."
 
-Så här skapar du en prenumerationstjänst:
+Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Markera knappen **[!UICONTROL Create subscription service]**.
 
@@ -66,7 +68,7 @@ Så här skapar du en prenumerationstjänst:
 
    ![](assets/service-create-properties.png)
 
-1. Som standard är prenumerationerna obegränsade. Du kan inaktivera **[!UICONTROL  Unlimited validity period]** för att definiera tjänstens giltighetsperiod. I exemplet nedan kan ingen längre prenumerera på den här tjänsten efter 20 dagar.
+1. Som standard är prenumerationerna obegränsade. Du kan inaktivera **[!UICONTROL  Unlimited validity period]** för att definiera tjänstens giltighetsperiod. I exemplet nedan kommer ingen användare efter 20 dagar att kunna prenumerera på tjänsten längre.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Så här skapar du en prenumerationstjänst:
 
 1. Klicka på **[!UICONTROL Save and review]**. Den nya tjänsten läggs till i **[!UICONTROL Subscription services]** lista.
 
-### Skapa ett bekräftelsemeddelande {#create-confirmation-message}
+## Skapa ett bekräftelsemeddelande {#create-confirmation-message}
 
 Om du vill skicka ett bekräftelsemeddelande till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. För att göra detta, följ nedanstående steg.
 
 1. Skapa en leveransmall för prenumerationsbekräftelsen. [Lär dig mer](../msg/delivery-template.md)
 
-1. Välj ingen målgrupp för den här leveransen. I stället kommer du åt **[!UICONTROL Delivery settings]**, går till [Målgrupp](../advanced-settings/delivery-settings.md#audience) och väljer **[!UICONTROL Subscriptions]** målmappning.
+1. Välj ingen målgrupp för den här leveransen. I stället kommer du åt **[!UICONTROL Delivery settings]**, går till [Målgrupp](../advanced-settings/delivery-settings.md#audience) och väljer **[!UICONTROL Subscriptions]** målmappning från listan.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -100,9 +102,9 @@ Om du vill skicka ett bekräftelsemeddelande till de användare som prenumererar
 
 1. Upprepa stegen ovan om du vill skapa en leveransmall för bekräftelsen av oprenumeration.
 
-Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create-service). Användare som prenumererar på eller avbeställer tjänsten får det valda bekräftelsemeddelandet.
+Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create-service). Användare som prenumererar på eller avslutar prenumerationen på den tjänsten får det valda bekräftelsemeddelandet.
 
-## Lägg till prenumeranter till tjänsten
+## Lägg till prenumeranter till tjänsten {#add-subscribers}
 
 När du har skapat en tjänst kan du lägga till prenumeranter manuellt. Följ stegen nedan.
 
@@ -116,11 +118,27 @@ När du har skapat en tjänst kan du lägga till prenumeranter manuellt. Följ s
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. De valda mottagarna får prenumerationen [bekräftelsemeddelande](#create-confirmation-message) som du valde när [skapa tjänsten](#create-service). Klicka på **[!UICONTROL Send]**.
+1. Klicka på **[!UICONTROL Send]**. De valda mottagarna får prenumerationen [bekräftelsemeddelande](#create-confirmation-message) som du valde när [skapa tjänsten](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 De tillagda profilerna visas i **[!UICONTROL Subscribers]** lista. De prenumererar nu på din tjänst.
+
+## Ta bort prenumeranter från tjänsten {#remove-subscribers}
+
+När du har lagt till prenumeranter i tjänsten kan du ta bort dem. Följ stegen nedan.
+
+1. Välj en befintlig tjänst från **[!UICONTROL Subscription services]** lista.
+
+1. Klicka på ikonen med tre punkter bredvid det önskade mottagarnamnet och välj **[!UICONTROL Delete]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. Bekräfta borttagning och klicka på **[!UICONTROL Send]**. De valda mottagarna får prenumerationen [bekräftelsemeddelande](#create-confirmation-message) som du valde när [skapa tjänsten](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+Mottagaren tas bort från **[!UICONTROL Subscribers]** och prenumererar inte längre på din tjänst.
 
 ## Loggar och rapporter för prenumerationstjänster {#logs-and-reports}
 
@@ -142,7 +160,7 @@ För att mäta hur effektiva era prenumerationstjänster är för SMS- och e-pos
 
      ![](assets/service-reports.png)
 
-   * The **[!UICONTROL Overall evolution of subscriptions]** I diagrammet visas fördelningen per period, inklusive prenumerationer, icke-prenumerationer, utvecklingen i antal och lojalitetsprocenten.
+   * The **[!UICONTROL Overall evolution of subscriptions]** I diagrammet visas fördelningen per period, inklusive prenumerationer, icke-prenumerationer, utvecklingen i antal och lojalitetsprocenten.<!--what is Registered?-->
 
    * Använd **[!UICONTROL Reload]** för att hämta de senaste värdena från körningen och schemat för spårningsarbetsflödet.
 
