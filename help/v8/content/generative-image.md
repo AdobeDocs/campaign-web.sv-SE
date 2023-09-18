@@ -3,9 +3,9 @@ audience: end-user
 title: Bildgenerering med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,9 @@ I exemplet nedan kan du lära dig hur du använder Content Assistant för att op
 
    ![](assets/image-genai-2.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en marknadsföringsrapport för att ge innehållsassistenten mer kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
 
-   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer.
+   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
 1. Välj **[!UICONTROL Aspect ratio]** av din mediefil. Detta avgör objektets bredd och höjd.
 

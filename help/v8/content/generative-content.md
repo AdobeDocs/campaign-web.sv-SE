@@ -3,9 +3,9 @@ audience: end-user
 title: Text med innehållsassistenten
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ Content Assistant kan hjälpa er att optimera effekten av era leveranser genom a
 
 1. Finjustera innehållet genom att beskriva vad du vill generera.
 
-   Aktivera **[!UICONTROL Enhance with current content]** för innehållsassistenten att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+   Aktivera **[!UICONTROL Enhance with current context]** för innehållsassistenten att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
 
    ![](assets/text-genai-3.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en marknadsföringsrapport för att ge innehållsassistenten mer kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
 
-   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer.
+   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
 1. Välj **[!UICONTROL Communication strategy]** som bäst passar dina behov. Detta påverkar den genererade textens ton och format.
 

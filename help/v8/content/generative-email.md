@@ -3,9 +3,9 @@ audience: end-user
 title: E-postgenerering med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -32,13 +32,17 @@ Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden so
 
 1. Finjustera innehållet genom att beskriva vad du vill generera.
 
-   Aktivera **[!UICONTROL Enhance with current content]** för innehållsassistenten att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+   Här är några exempel:
+
+   * För ett nyhetsbrev: Generera ett månatligt nyhetsbrev med researtiklar, högdagrar och exklusiva prenumeranterbjudanden.
+   * För feedback och enkäter: Skapa ett e-postmeddelande med en inbjudan till kunder att lämna feedback om sina senaste programvaruupplevelser och delta i en enkät om produktförbättringar.
+   * För årsdag- och födelsedagsedelsemejl: Generera ett födelsedagsedelsemeddelande, fira kundens speciella dag och ge dem en födelsedagsrabatt.
 
    ![](assets/email-genai-2.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en marknadsföringsrapport för att ge innehållsassistenten mer kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
 
-   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer.
+   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
 1. Välj **[!UICONTROL Communication strategy]** som bäst passar dina behov. Det här påverkar tonen och stilen på det genererade e-postmeddelandet.
 
@@ -46,7 +50,7 @@ Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden so
 
    ![](assets/email-genai-3.png)
 
-1. Anpassa **[!UICONTROL Content type]** inställningarna så att de matchar de önskade resursegenskaperna.
+1. Anpassa **[!UICONTROL Content type]** resursinställningar så att de matchar de önskade resursegenskaperna.
 
 1. När frågan är klar klickar du på **[!UICONTROL Generate]**.
 
