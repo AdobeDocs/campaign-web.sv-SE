@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på i
 När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder. Du kan:
 
 * **Ta bort** aktiviteten från arbetsytan.
-* **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs kommer inaktiverade aktiviteter inte att köras och arbetsflödet kommer att pausas?
-* **Kopiera** aktiviteten. Du kan sedan klistra in den i vilket arbetsflöde som helst genom att klicka på plusknappen i en övergång och välja Klistra in 1 aktivitet.
+* **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs körs inte inaktiverade aktiviteter och följande aktiviteter på samma sökväg, och arbetsflödet stoppas.
+* **Kopiera** aktiviteten. Du kan sedan klistra in den i vilket arbetsflöde som helst genom att klicka på plusknappen (+) i en övergång och välja Klistra in 1 aktivitet.
 * Åtkomst till aktivitetens **Loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
