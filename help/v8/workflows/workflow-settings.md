@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ När du organiserar arbetsflödesaktiviteter på arbetsytan kan du komma åt ava
 
 De här inställningarna är förkonfigurerade i mallen som valdes när arbetsflödet skapades, men kan redigeras efter behov för det aktuella arbetsflödet.
 
-Klicka på **[!UICONTROL Workflow settings]** -ikonen i det övre vänstra hörnet av arbetsytan, bredvid arbetsflödesetiketten.
+Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
 
 ![](assets/workflow-settings.png)
 
