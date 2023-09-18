@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,16 +29,27 @@ Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. P�
 >
 >Du kan inaktivera det visuella flödet med **[!UICONTROL Hide progression]** i det övre åtgärdsfältet på arbetsytan.
 
+## Arbetsflödesövergångar {#transitions}
+
+I arbetsflöden lagras data som överförs från en aktivitet till en annan via övergångar i en tillfällig arbetstabell.
+
+Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
+
+* Klicka **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
+* Klicka **[!UICONTROL Preview results]** för att visualisera de data som transporteras i den valda övergången.
+
+![](assets/transition.png)
+
 ## Körning av övervakningsaktivitet {#activities}
 
 Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan du kontrollera deras körning:
 
 | Visuell indikator | Beskrivning |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | Aktiviteten körs för närvarande. |
-| ![](assets/activity-status-orange.png) | Aktiviteten kräver din uppmärksamhet. Detta kan inbegripa att bekräfta leveransen eller vidta nödvändiga åtgärder. |
-| ![](assets/activity-status-red.png) | Aktiviteten har påträffat ett fel. Du löser problemet genom att öppna arbetsflödesloggarna för mer information. |
-| ![](assets/activity-status-green.png) | Aktiviteten har körts. |
+| ![](assets/activity-status-pending.png){width="70%"} | Aktiviteten körs för närvarande. |
+| ![](assets/activity-status-orange.png){width="70%"} | Aktiviteten kräver din uppmärksamhet. Detta kan inbegripa att bekräfta leveransen eller vidta nödvändiga åtgärder. |
+| ![](assets/activity-status-red.png){width="70%"} | Aktiviteten har påträffat ett fel. Du löser problemet genom att öppna arbetsflödesloggarna för mer information. |
+| ![](assets/activity-status-green.png){width="70%"} | Aktiviteten har körts. |
 
 ## Övervaka loggar och uppgifter {#logs-tasks}
 
