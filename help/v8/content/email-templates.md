@@ -4,7 +4,7 @@ product: campaign
 title: Arbeta med e-postmallar
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Lär dig hur du använder mallar och hur du sparar ett e-postinnehåll som en ma
 >[!NOTE]
 >
 >Mallar för e-postinnehåll skiljer sig från [leveransmallar](../msg/delivery-template.md). De gör att du bara kan återanvända e-postinnehåll, medan leveransmallar gör det möjligt att återanvända leveransinnehåll men även alla leveransinställningar och egenskaper som t.ex. typologier, avsändaradress, målgrupper osv.
-
 
 ## Använda en mall {#use-templates}
 

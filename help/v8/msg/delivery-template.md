@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '988'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,15 @@ En mall kan innehålla:
 * Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md),
 * Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
 
+<!--
 >[!NOTE]
 >
->Leveransmallar skiljer sig från [mallar för e-postinnehåll](../content/email-templates.md), som gör att du bara kan återanvända innehållet i dina meddelanden.
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>Leveransmallar skiljer sig från [mallar](../content/email-sample-templates.md), som gör att du kan börja skapa innehåll med någon av de färdiga exempelmallarna.
+
 
 ## Få åtkomst till och hantera leveransmallar {#access-manage-templates}
 
