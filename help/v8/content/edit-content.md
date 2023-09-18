@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,10 @@ E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
 * Utför ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden
 * Öppna [E-postdesigner](get-started-email-designer.md#start-authoring) för att börja skapa rätt innehåll i e-postmeddelandet
 
+>[!NOTE]
+>
+>Alla redigerbara textfält på den här skärmen kan fyllas i med hjälp av anpassningsfält. [Lär dig anpassa innehåll](../personalization/personalize.md)
+
 Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postmeddelande.
 
 1. Klicka på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
@@ -69,7 +73,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till personalisering med olika attribut och innehållsblock eller erbjudanden. [Lär dig anpassa innehåll](../personalization/personalize.md)
+1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till [personalisering](../personalization/personalize.md) med olika attribut och innehållsblock, eller erbjudanden.
 
 1. Om du vill bifoga en fil till e-postmeddelandet klickar du på **[!UICONTROL Add attachment]** och sedan markera en eller flera filer.
 
