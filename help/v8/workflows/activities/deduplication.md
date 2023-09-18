@@ -3,23 +3,20 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Deduplicering {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Dedupliceringsattribut"
+>abstract="På så sätt kan du ange för vilka fält identiska värden gör att dubbletter kan identifieras: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
