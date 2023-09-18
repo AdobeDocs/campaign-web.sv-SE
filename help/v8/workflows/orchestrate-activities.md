@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Organisera aktiviteter {#orchestrate}
 
 En gång har du [skapade ett arbetsflöde](create-workflow.md), oavsett om det gäller arbetsflödesmenyn eller en kampanj, kan du börja organisera de olika uppgifter som ska utföras. För att göra detta finns en visuell arbetsyta som gör att du kan skapa ett arbetsflödesdiagram. I det här diagrammet kan du lägga till olika aktiviteter och koppla dem i en sekventiell ordning.
+
+## Lägg till aktiviteter {#add}
 
 I det här skedet av konfigurationen visas diagrammet med en startikon som representerar början av arbetsflödet. Om du vill lägga till den första aktiviteten klickar du på plusknappen (+) som är ansluten till startikonen.
 
@@ -32,6 +34,20 @@ Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på i
 >[!TIP]
 >
 >Du kan anpassa namnet på övergångarna mellan varje aktivitet. Det gör du genom att markera övergången och ändra dess etikett i den högra rutan.
+
+## Hantera aktiviteter {#manage}
+
+När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder. Du kan:
+
+* **Ta bort** aktiviteten från arbetsytan.
+* **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs kommer inaktiverade aktiviteter inte att köras och arbetsflödet kommer att pausas?
+* **Kopiera** aktiviteten. Du kan sedan klistra in den i vilket arbetsflöde som helst genom att klicka på plusknappen i en övergång och välja Klistra in 1 aktivitet.
+* Åtkomst till aktivitetens **Loggar och uppgifter**.
+* **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
+
+![](assets/activity-action.png){width="70%"}
+
+## Exempel {#example}
 
 Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (utom VIP kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
 
