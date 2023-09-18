@@ -4,7 +4,7 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista över arbetsflöden i kampanjen"
->abstract="The **Leveranser** På -fliken visas alla arbetsflöden som är länkade till den aktuella kampanjen. Klicka på namnet på ett arbetsflöde för att redigera det. Använd knappen Skapa arbetsflöde för att lägga till ett nytt arbetsflöde för kampanjen."
+>abstract="The **Arbetsflöden** På -fliken visas alla arbetsflöden som är länkade till den aktuella kampanjen. Klicka på namnet på ett arbetsflöde för att redigera det. Använd **Skapa arbetsflöde** om du vill lägga till ett nytt arbetsflöde för kampanjen."
 
 
 Du kan skapa fristående arbetsflöden eller arbetsflöden inom en kampanj. Det första steget är att välja en mall och definiera dess allmänna egenskaper. Sedan kan du konfigurera ytterligare inställningar efter behov.
