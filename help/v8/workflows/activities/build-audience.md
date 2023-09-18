@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Så här väljer du en befintlig målgrupp:
 
 >[!IMPORTANT]
 >
->Om du vill kombinera flera **[!UICONTROL Build audience]** -aktiviteter i ett arbetsflöde som innefattar Experience Platform måste du lägga till en **[!UICONTROL Change dimension]** för att säkerställa att alla målgrupper tillhör målgruppsdimensionen&quot;Mottagare&quot;. Ett arbetsflödesexempel finns längst ned på den här sidan.
+>Om du vill använda en **[!UICONTROL Build audience]** målgruppsanpassning för Experience Platform måste du lägga till en **[!UICONTROL Change dimension]** för att säkerställa att målgruppens målinriktning är inställd på&quot;Mottagare&quot;. Ett arbetsflödesexempel finns längst ned på den här sidan.
 
 ## Exempel
 
