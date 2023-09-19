@@ -2,9 +2,9 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Artificiell intelligens och maskininlärningsmodeller förbättras över tid fö
 
 ## Rekommendationer  {#recommendations-ai}
 
-När du ställer en fråga i den AI-baserade kunskapsassistenten beaktas den aktuella produktkontexten, dvs. den Campaign-skärm du befinner dig i.
+När du ställer en fråga i den AI-baserade kunskapsassistenten beaktas den aktuella produktkontexten, dvs. den Campaign-skärm som du befinner dig i och innehållet i den aktuella hjälprutan.
 
 För att få ut det bästa av den AI-baserade kunskapsassistenten rekommenderar vi dig att:
 
