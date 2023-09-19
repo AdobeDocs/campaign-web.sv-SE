@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -52,7 +52,7 @@ Så här skapar du en ny fristående push-leverans:
 
 1. Från **[!UICONTROL Audience]** väljer du det program som du vill använda för leveransen.
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer](../audience/about-audiences.md)
+1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer](../audience/about-recipients.md)
 
    Observera att ditt push-meddelande som standard skickas till alla prenumeranter på programmet.
 

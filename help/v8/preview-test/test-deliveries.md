@@ -4,7 +4,7 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
 Skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil i [!DNL Campaign] använder du ersättningsprofiler.
 
-1. Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/about-audiences.md)
+1. Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/about-recipients.md)
 
 1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
 
@@ -98,7 +98,7 @@ Skicka ett testmeddelande eller SMS till en viss e-postadress eller ett visst te
 
    >[!CAUTION]
    >
-   >Om du inte har valt en [publik](../audience/about-audiences.md) för leverans, **[!UICONTROL Substitute from main target]** är nedtonat och du kan inte välja ersättningsprofiler.
+   >Om du inte har valt en [publik](../audience/about-recipients.md) för leverans, **[!UICONTROL Substitute from main target]** är nedtonat och du kan inte välja ersättningsprofiler.
 
 1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress eller det telefonnummer som ska ta emot testleveransen.
 

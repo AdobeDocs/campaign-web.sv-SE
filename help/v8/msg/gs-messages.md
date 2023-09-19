@@ -4,7 +4,7 @@ title: Kom igång med meddelanden och leveranser på Campaign v8 Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Så här skapar du en fristående leverans:
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-audiences.md).
+1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-recipients.md).
 1. Definiera meddelandeinnehållet.
 1. (valfritt) Definiera leveransen [schema](#gs-schedule). Om inget schema är definierat skickas meddelanden direkt efter att du klickat på **[!UICONTROL Send]** -knappen.
 1. Klicka på  **[!UICONTROL Review and send]** för att kontrollera inställningarna.

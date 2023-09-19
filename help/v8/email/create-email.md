@@ -4,7 +4,7 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
 
-Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-audiences.md).
+Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här avsnittet](../audience/about-recipients.md).
 
 1. Om du vill välja målgrupp för e-postmeddelandet klickar du på **[!UICONTROL Select audience]** och välj en befintlig målgrupp i listan.
 

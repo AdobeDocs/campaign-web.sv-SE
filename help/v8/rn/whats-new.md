@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Använd det nya webbgränssnittet för Campaign för att:
 
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
 * Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden - [Läs mer](../workflows/activities/channels.md)
-* Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
+* Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-recipients.md)
 * Förhandsgranska, testa och skicka meddelanden - [Läs mer](../monitor/prepare-send.md)
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 * Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare mottagare i databasen. [Läs mer](../preview-test/test-deliveries.md).
 * Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta meddelandeförberedelsen klickar du på **Förbered** -knappen. [Läs mer](../monitor/prepare-send.md).
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** -knappen. [Läs mer](../preview-test/preview-test.md)
-* Listor finns nu **Målgrupper**. [Läs mer](../audience/about-audiences.md).
+* Listor finns nu **Målgrupper**. [Läs mer](../audience/about-recipients.md).
 
 ## Begränsningar{#limitations-beta}
 
