@@ -3,10 +3,10 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 1%
+source-wordcount: '1659'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,27 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
 ## Leveranssammanfattning {#delivery-summary-email}
 
-* **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till dina mottagare:
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="Rapportsändning"
+>abstract="Menyn Skicka i din rapport ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="Inledande målpopulationswidget"
+>abstract="I diagrammet för målgruppspopulation visas data relativt dina mottagare och leveransens framgångar."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="Leveransstatistikwidget"
+>abstract="Diagrammet Leveransstatistik visar hur framgångsrik din leverans är och vilka fel som har uppstått."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="Leveransstatistikwidget"
+>abstract="Orsaken till uteslutningsdiagram och -tabell visar uppdelningen per regel för meddelanden som avvisats under beredningen."
+
+* **[!UICONTROL Initial target audience population]** diagram visar data i förhållande till dina mottagare:
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
    * **[!UICONTROL Exclusion]**: Totalt antal meddelanden som utelämnats från det skickade målet.
 +++
 
-* **[!UICONTROL Delivery statistics]** tabellen visar hur bra leveransen är.
+* **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveransen är.
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
 ## Leveranskapacitet {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="Widget för leveransgenomströmning"
+>abstract="Rapporten Leveransflöde innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
+
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
 ## Sändningsstatistik {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="Widget för sändningsstatistik"
+>abstract="Registret för sändningsstatistik innehåller tillgängliga data för eventuella fel som påträffats i varje domän."
 
 * **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga data för eventuella fel som påträffats i varje domän.
 
@@ -95,6 +125,16 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 +++
 
 ## Ej levererbara och studsningar {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="Uppdelning av fel per widget"
+>abstract="Uppdelningen av fel per typtabell och diagram innehåller tillgängliga data för varje feltyp som påträffas."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="Uppdelning av fel per domänwidget"
+>abstract="Uppdelningen av fel per typtabell och diagram innehåller tillgängliga data för varje feltyp som påträffas beroende på varje domän."
 
 * **[!UICONTROL Breakdown of errors per type]** och **[!UICONTROL Breakdown of errors per domain]** tabeller och diagram innehåller tillgängliga data för eventuella fel som påträffas i varje domän.
 
@@ -122,7 +162,20 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Spårningsindikatorer {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="Rapporteringsspårning"
+>abstract="Fliken Spärra/knip i rapporten innehåller värdefulla data, inklusive mottagarnas beteende per länk, hur öppningar och klickningar visas samt detaljerad information om de URL:er som du klickade mest på under en leverans."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Leveransstatistikwidget"
+>abstract="Widgeten Leveransstatistik innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om tillgängliga data för skickade e-postmeddelanden."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widgeten Öppna och klickfrekvens"
+>abstract="Tabellen för öppnings- och klickfrekvens visar data som är relativa till mottagarnas engagemang i leveransen."
 
 * **[!UICONTROL Delivery statistics]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden.
 
@@ -162,6 +215,11 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## URL:er och klickströmmar {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URL:er och klicka på strömwidgeten"
+>abstract="Webbadresserna och klickströmmarna ger nyckeltal (KPI) som ger detaljerad information om de webbadresser som användaren klickade mest på under en leverans."
+
 * **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Användaraktiviteter {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="Widgeten Användaraktiviteter"
+>abstract="Diagrammet Användaraktiviteter visar hur öppningar och klickningar delas upp i ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter."
+
 * **[!UICONTROL User activities]** visar hur öppningar och klickningar delas upp i ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Spårningsstatistik {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="Widgeten Spårningsstatistik"
+>abstract="Diagrammet Spårningsstatistik visar statistik om öppningar och klick. Du kan välja en specifik tidsram för måldata."
 
 * **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata.
 
@@ -225,12 +292,27 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 ## Indelning av öppningar {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="Uppdelning efter enhetswidget"
+>abstract="Uppdelningen efter enhet"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="Uppdelning efter OS-widget"
+>abstract="Uppdelningen efter operativsystem"
+
 Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
 Du kan växla mellan **[!UICONTROL Fix & mobile]** att enbart rikta sig till **[!UICONTROL Mobile only]** för mer exakt målinriktning.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## Klickningar {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="Rapport om klickningar"
+>abstract="Hotclicks-rapporten visar meddelandeinnehållet med procentandelen klickningar på varje länk."
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personalisering blockerar prenumerationslänkar, länkar till spegelsidor och erbjudandelänkar som tas med i beräkningen i det totala antalet klickningar, men visas inte i rapporten.
 

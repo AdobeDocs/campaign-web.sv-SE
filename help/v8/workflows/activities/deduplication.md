@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 4%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 4%
 
 The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna. The **Deduplicering** aktiviteten används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
 
-## Konfiguration
+## Konfigurera aktiviteten Deduplicering{#deduplication-configuration}
 
 Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
-1. Lägg till en **Deduplicering** till ditt arbetsflöde.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Lägg till en **Deduplicering** till ditt arbetsflöde.
 
 1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
@@ -65,5 +65,5 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
-## Exempel
+## Exempel{#example}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
 * The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
-## Allmän konfiguration {#general}
+## Sammanfoga aktiviteten Kombinera {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
 
+![](../assets/workflow-combine.png)
+
 1. Lägg till flera aktiviteter som **Bygg målgrupper** aktiviteter för att bilda minst två olika utförandegrenar.
 1. Lägg till en **Kombinera** verksamhet till någon av de tidigare filialerna.
 1. Välj segmenteringstyp: [union](#union), [skärningspunkt](#intersection) eller [exkludering](#exclusion).
 1. Klicka **Fortsätt**.
 1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill delta i.
 
-## Sammanslutning {#union}
+## Sammanslutning {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ I **Kombinera** -aktivitet kan du konfigurera en **Union**. För detta måste du
 * **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
 * **En markering med kolumner**: välj det här alternativet för att definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
-## Skärningspunkt {#intersection}
+## Skärningspunkt {#combine-intersection}
 
 I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta behöver du följa de extra stegen nedan:
 
 1. Välj **Avstämningstyp** för att definiera hur dubbletter hanteras. Se [Union](#union) -avsnitt.
 1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
 
-## Uteslutning {#exclusion}
+## Uteslutning {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**. För detta beh
 1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling.
 1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
 
-## Exempel
+## Exempel{#combine-examples}
 
 I följande exempel använder vi en **Kombinera** aktivitet och vi lägger till en **union** för att hämta alla profiler från de två frågorna: personer mellan 18 och 27 år och personer mellan 34 och 40 år.
 

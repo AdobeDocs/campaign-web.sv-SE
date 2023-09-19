@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 1%
 >id="acw_sms_report_overview"
 >title="Sammanfattning av SMS-rapport"
 >abstract="Upptäck rapporteringsstatistik för SMS-leverans."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Rapportsändning"
+>abstract="Fliken Skicka i din rapport ger djupgående insikter om besökarnas interaktion med leveranser och eventuella fel som de har upptäckt."
 
 The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ger omfattande insikter och specifika data. Den ger omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
@@ -66,6 +71,11 @@ The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ge
   ![](assets/reporting_sms_6.png)
 
 ## Leveranskapacitet {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Menyn Leveransflöde"
+>abstract="Rapporten Leveransflöde innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 

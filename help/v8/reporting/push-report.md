@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_push_report_overview"
 >title="Sammanfattning av push-rapport"
 >abstract="Upptäck rapporteringsstatistik för push-leverans."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Rapportsändning"
+>abstract="Fliken Skicka i din rapport ger djupgående insikter om besökarnas interaktion med leveranser och eventuella fel som de har upptäckt."
 
 The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, med omfattande insikter och specifika data. Det innehåller omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
@@ -68,6 +73,11 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
   ![](assets/reporting_push_6.png)
 
 ## Leveranskapacitet {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Rapport om leveransdataflöde"
+>abstract="Rapporten Leveransflöde innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
