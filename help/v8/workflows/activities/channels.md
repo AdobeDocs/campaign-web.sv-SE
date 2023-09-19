@@ -3,9 +3,9 @@ audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveranse
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Ställ in leverans {#create-a-delivery-in-a-workflow}
+## Konfigurera kanalaktiviteten {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanha
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    Du kan välja en annan mall i den vänstra rutan för kanalaktivitetskonfigurationen. Om den tidigare valda publiken inte är kompatibel med kanalen kan du inte välja en mall. Du löser detta genom att uppdatera **Bygg målgrupper** för att välja en målgrupp med rätt målmappning. Läs mer om målmappningar i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. Klicka **Skapa leverans**. Definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också schemalägga och simulera innehållet. [Läs mer](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanha
 Här är ett exempel på flerkanaligt arbetsflöde med segmentering och två leveranser. Arbetsflödet riktar sig till alla kunder som bor i Paris och som är intresserade av kaffemaskiner. Bland de här befolkningsgrupperna skickas ett e-postmeddelande till de vanliga kunderna och ett SMS skickas till de VIP klienterna.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Du kan också skapa ett återkommande arbetsflöde för att skicka ett personligt push-meddelande varje dag i månaden kl. 8.00 till prenumeranterna av ditt mobilprogram beroende på deras tidszoner.
+Du kan också skapa ett återkommande arbetsflöde för att skicka ett personaliserat SMS varje dag i månaden kl. 20.00 till alla kunder i Paris.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

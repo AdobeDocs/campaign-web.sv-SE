@@ -4,7 +4,7 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -88,7 +88,7 @@ I avsnittet KUNDHANTERING kan du visa dina mottagare, målgrupper och prenumerat
 >abstract="Bläddra igenom listorna med erbjudanden och erbjudandemallar som har skapats i konsolen med **Interaktion** -modul. De här listorna är skrivskyddade."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Lägg till erbjudanden till en leverans"
 
-I avsnittet KUNDHANTERING kan du visa erbjudandemallar. De här listorna är skrivskyddade.
+I avsnittet BESLUTSHANTERING kan du visa erbjudandemallar. De här listorna är skrivskyddade.
 
 * **Erbjudanden** - Bläddra igenom listan över erbjudanden och erbjudandemallar som har skapats i konsolen med **Interaktion** -modul. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet.
 
