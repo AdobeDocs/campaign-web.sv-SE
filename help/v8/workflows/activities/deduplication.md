@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 4%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -60,10 +60,13 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 1. Välj **Dedupliceringsmetod** att använda:
 
    * **Slumpmässig markering**: markerar slumpmässigt den post som ska tas bort från dubbletterna.
-   * **Använda ett uttryck**: det gör att du kan behålla de poster där det angivna uttryckets värde är det minsta eller det största. ++ Uttryck ++ Sortera
-   * **Följ en lista med värden**: låter dig definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen Lägg till ovanför listan med värden. ++ Sortera
+   * **Använda ett uttryck**: det gör att du kan behålla de poster där det angivna uttryckets värde är det minsta eller det största.
+   * **Följ en lista med värden**: låter dig definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen Lägg till ovanför listan med värden.
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
 ## Exempel{#example}
 
+I följande exempel använder vi en dedupliceringsaktivitet för att exkludera dubbletter från målet innan vi skickar en leverans. De identifierade dubbletterna läggs till i en dedikerad dubblettpublik som kan återanvändas vid behov. Vi använder **E-post** för att identifiera dubbletter. Vi väljer att behålla 1 post och väljer **Slumpmässig** dedupliceringsmetod.
+
+![](../assets/workflow-deduplication-example.png)
