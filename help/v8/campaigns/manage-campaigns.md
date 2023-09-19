@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Det finns två flikar i kampanjlistan:
 
 * The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna dess instrumentpanel eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
 
-* The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Du kan visa en befintlig mall eller skapa en ny. [Läs mer](manage-campaign-templates.md).
+* The **Mallar** På -fliken visas alla tillgängliga kampanjmallar. Du kan visa en befintlig mall eller skapa en ny. [Läs mer](#manage-campaign-templates).
 
 ![Kampanjlista](assets/campaign-list.png)
 
