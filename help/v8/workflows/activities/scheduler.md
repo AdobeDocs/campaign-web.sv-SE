@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -74,7 +74,6 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 >Om du vill starta arbetsflödet direkt kan du klicka på **Kör väntande uppgift** i schemaläggarens övre åtgärdsfält. Den här knappen är bara tillgänglig när du har startat arbetsflödet.
 
 Anteckningar:
-
 
 ## Exempel
 
