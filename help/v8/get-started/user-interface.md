@@ -4,7 +4,7 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på star
 
 The **Explorer** I visas alla Campaign-resurser och -objekt med samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer.
 
-Objekten som visas i **Explorer** beroende på dina användarbehörigheter.  Du kan också lägga till mappar och undermappar om du har rätt behörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
+Objekten som visas i **Explorer** beroende på dina användarbehörigheter. Du kan också lägga till mappar och undermappar om du har rätt behörighet. Läs mer om behörigheter i [det här avsnittet](permissions.md).
 
 Precis som i alla listskärmar kan du konfigurera kolumner så att de anpassas för visningen så att du kan se all information du behöver. Se det här [section](#list-screens).
 
