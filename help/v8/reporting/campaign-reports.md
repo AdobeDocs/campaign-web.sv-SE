@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
-   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
@@ -74,7 +74,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista osv.
 
@@ -86,7 +86,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
@@ -248,7 +248,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
-   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
@@ -266,7 +266,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista osv.
 
@@ -278,7 +278,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
@@ -310,7 +310,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om mätvärden för push-kampanjrapporter.
 
-   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
@@ -326,7 +326,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista osv.
 
@@ -336,7 +336,7 @@ Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till 
 
   +++Läs mer om mätvärden för push-kampanjrapporter.
 
-   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 

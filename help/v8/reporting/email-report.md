@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 1%
@@ -24,7 +24,7 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
    * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
-   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Exclusion]**: Totalt antal meddelanden som utelämnats från det skickade målet.
 +++
@@ -35,7 +35,7 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
   +++Läs mer om rapportstatistik för e-postkampanjer.
 
-   * **[!UICONTROL Message sent]**: Totalt antal meddelanden som ska levereras efter leveransanalys.
+   * **[!UICONTROL Message sent]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 

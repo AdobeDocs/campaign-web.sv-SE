@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -27,7 +27,7 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 
   +++Läs mer om mätvärden för push-leveransrapporter.
 
-   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
@@ -43,7 +43,7 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 
   +++Läs mer om mätvärden för push-leveransrapporter.
 
-   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
 

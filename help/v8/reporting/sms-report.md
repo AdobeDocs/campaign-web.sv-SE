@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
@@ -27,7 +27,7 @@ The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ge
 
   +++Läs mer om mätvärden för SMS-leveransrapporter.
 
-   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Success]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
@@ -42,7 +42,7 @@ The **SMS-leveransrapport** ger en omfattande översikt över SMS-kanalen och ge
 
   +++Läs mer om mätvärden för SMS-leveransrapporter.
 
-   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransanalysen.
+   * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
    * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
 +++
