@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Du kan duplicera eller ta bort en kampanj:
 
 ## Arbeta med kampanjmallar{#manage-campaign-templates}
 
-Kampanjmallar innehåller förkonfigurerade inställningar som kan återanvändas för att skapa nya arbetsflöden. Det finns en uppsättning inbyggda mallar som hjälper dig att komma igång. Du kan skapa och konfigurera kampanjmallar och sedan skapa kampanjer utifrån dessa mallar.
+Kampanjmallar innehåller förkonfigurerade inställningar som kan återanvändas för att skapa nya kampanjer. Det finns en uppsättning inbyggda mallar som hjälper dig att komma igång. Du kan skapa och konfigurera kampanjmallar och sedan skapa kampanjer utifrån dessa mallar.
 
 En kampanjmall kan lagra följande information:
 
@@ -81,7 +81,8 @@ En kampanjmall kan lagra följande information:
 Så här skapar du en kampanjmall:
 
 1. Klicka på **[!UICONTROL Campaigns]** -menyn, bläddra till **Mallar** klickar du på **[!UICONTROL Create template]** -knappen.
-1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. På så sätt kan du basera den nya mallen på en mall som redan har skapats.
+1. Välj **Mall** att använda. På så sätt kan du basera den nya mallen på en mall som du tidigare har skapat.
+1. Ange en etikett för mallen.
 1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
 1. Definiera **Schema** av er kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](create-campaigns.md#campaign-schedule)
 1. Klicka **Skapa**.
