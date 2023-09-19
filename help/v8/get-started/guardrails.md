@@ -2,7 +2,7 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -66,13 +66,17 @@ Ett specifikt felmeddelande visas.
 
 Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 Du kan även komma åt SQL-frågan för att kontrollera de exakta inställningarna. Klicka på **kodvyn** -knappen.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Klicka på **Beräkna** för att kontrollera hur många objekt som uppfyller filtervillkoren. Använd **Visa resultat** för att visa dessa objekt.
+Klicka på **Beräkna** för att kontrollera hur många objekt som uppfyller filtervillkoren.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Använd **Visa resultat** för att visa dessa objekt.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
