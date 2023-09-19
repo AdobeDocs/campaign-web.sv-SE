@@ -3,9 +3,9 @@ audience: end-user
 title: E-postgenerering med Content Assist
 description: Kom igång med Content Assist
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 1%
 Content Assistant förbättrar kommunikationens effekt genom att automatiskt generera komplett e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet.
 
 Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
+
+
+>[!AVAILABILITY]
+>
+>Den här funktionen kommer att vara tillgänglig i början av oktober.
+
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Create content]**.
 
