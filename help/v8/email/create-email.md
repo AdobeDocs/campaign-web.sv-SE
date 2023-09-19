@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 >title="Välj en målgrupp för leveransen"
 >abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp (som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform), skapa en ny målgrupp med regelbyggaren eller överföra en fil som innehåller målgruppen. Kontrollgrupper är inte aktiverade för **Välj från fil** och vice versa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Välj huvudmålgrupper"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
 
