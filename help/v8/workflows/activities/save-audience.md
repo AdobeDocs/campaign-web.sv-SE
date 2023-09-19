@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 7%
+source-wordcount: '385'
+ht-degree: 5%
 
 ---
 
@@ -24,13 +24,13 @@ The **Spara målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med d
 
 Den här aktiviteten används främst för att behålla populationsgrupper som beräknas i samma arbetsflöde genom att konvertera dem till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Bygg målgrupper** eller en **Kombinera** aktivitet.
 
-## Konfiguration
+## Konfigurera aktiviteten Spara målgrupp{#save-audience-configuration}
 
 Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 
-1. Lägg till en **Spara målgrupper** till ditt arbetsflöde.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Lägg till en **Spara målgrupper** till ditt arbetsflöde.
 
 1. I **Läge** väljer du den åtgärd du vill utföra:
 
@@ -49,6 +49,8 @@ Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för målgruppen, som du kommer åt via **Målgrupper** -menyn. Kolumnerna som är tillgängliga från den här vyn motsvarar kolumnerna för den inkommande övergången i arbetsflödets **SAve** aktivitet.
 
 
-## Exempel
+## Exempel{#save-audience-example}
+
+I följande exempel visas en enkel målgruppsuppdatering från målinriktning. En schemaläggare läggs till för att köra arbetsflödet en gång i månaden. En fråga återställer alla profiler som prenumererar på de olika programtjänsterna som är tillgängliga. The **Spara målgrupper** aktiviteten uppdaterar publiken genom att ta bort profiler som har avbeställt tjänsten sedan det senaste arbetsflödet och genom att lägga till de nya prenumerationsprofilerna.
 
 

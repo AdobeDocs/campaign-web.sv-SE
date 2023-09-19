@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten för gaffel
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -26,15 +26,17 @@ ht-degree: 1%
 
 The **Gaffel** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan skapa utgående övergångar och starta flera aktiviteter samtidigt.
 
-## Konfiguration
+## Konfigurera gaffelaktiviteten{#fork-configuration}
 
 Följ de här stegen för att konfigurera **Gaffel** aktivitet:
+
+![](../assets/workflow-fork.png)
 
 1. Lägg till en **Gaffel** till ditt arbetsflöde.
 1. Klicka **Lägg till övergång** för att lägga till en ny utgående övergång. Som standard definieras två övergångar.
 1. Lägg till en etikett till varje övergång.
 
-## Exempel
+## Exempel{#fork-example}
 
 I följande exempel använder vi två **Gaffel** verksamhet:
 

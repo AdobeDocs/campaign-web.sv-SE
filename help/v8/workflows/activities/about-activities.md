@@ -4,10 +4,10 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 5%
+source-wordcount: '410'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,13 @@ Alla aktiviteter beskrivs i avsnitten nedan:
 
 Dessa aktiviteter är specifika för målgruppsanpassning, ändring och berikning av populationsdata. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
+* The [Spara målgrupper](save-audience.md) kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i ett arbetsflöde.
 * The [Bygg målgrupper](build-audience.md) kan du definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda regelbyggaren för att definiera en egen fråga.
 * The [Kombinera](combine.md) kan segmentera den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
-* The [Berikning](enrichment.md) kan du definiera ytterligare data som ska bearbetas i arbetsflödet. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.
 * The [Dela](split.md) kan du segmentera inkommande population i flera deluppsättningar.
+* The [Berikning](enrichment.md) kan du definiera ytterligare data som ska bearbetas i arbetsflödet. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.
+* The [Deduplicering](deduplication.md) kan du ta bort dubbletter i resultatet av inkommande aktiviteter.
+* The [Ändra dimension](change-dimension.md) kan du ändra målinriktningsdimensionen när du skapar arbetsflödet.
 
 ## Kanalaktiviteter {#channel}
 
@@ -55,6 +58,7 @@ Se detta [section](channels.md).
 
 Följande aktiviteter är specifika för att organisera och köra arbetsflöden. Deras huvuduppgift är att samordna de övriga verksamheterna:
 
+* The [Schemaläggare](scheduler.md) kan du schemalägga när arbetsflödet börjar.
 * The [Och-join](and-join.md) kan du synkronisera flera körningsgrenar i ett arbetsflöde.
 * The **End** kan du grafiskt markera slutet av ett arbetsflöde. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
 * The [Gaffel](fork.md) kan du skapa utgående övergångar och starta flera aktiviteter samtidigt.

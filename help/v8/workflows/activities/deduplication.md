@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -65,8 +65,8 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
-## Exempel{#example}
+## Exempel{#deduplication-example}
 
-I följande exempel använder vi en dedupliceringsaktivitet för att exkludera dubbletter från målet innan vi skickar en leverans. De identifierade dubbletterna läggs till i en dedikerad dubblettpublik som kan återanvändas vid behov. Vi använder **E-post** för att identifiera dubbletter. Vi väljer att behålla 1 post och väljer **Slumpmässig** dedupliceringsmetod.
+I följande exempel använder vi en dedupliceringsaktivitet för att exkludera dubbletter från målet innan vi skickar en leverans. De identifierade dubbletterna läggs till i en dedikerad målgrupp som kan återanvändas om det behövs. Vi använder **E-post** för att identifiera dubbletter. Vi väljer att behålla 1 post och väljer **Slumpmässig** dedupliceringsmetod.
 
 ![](../assets/workflow-deduplication-example.png)

@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ När anrikningsdata har lagts till i arbetsflödet kan de sedan användas i akti
 
 Du kan till exempel lägga till information om kundernas inköp i arbetsflödets arbetsregister och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
 
-## Allmän konfiguration {#general}
+## Konfigurera anrikningsaktiviteten {#enrichment-configuration}
 
 Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
@@ -76,7 +76,7 @@ I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk 
 * ett filter: filtrera bort objekt som är större än 100$
 * en sortering: underordnad sortering på **Orderdatum** fält.
 
-### Lägg till attributet
+### Lägg till attributet {#add-attribute}
 
 Här väljer du den samlingslänk som ska användas som anrikningsdata.
 
@@ -86,7 +86,7 @@ Här väljer du den samlingslänk som ska användas som anrikningsdata.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definiera samlingsinställningarna
+### Definiera samlingsinställningarna{#collection-settings}
 
 Definiera sedan hur data samlas in och hur många poster som ska hämtas.
 
@@ -99,7 +99,7 @@ Om du t.ex. vill få fram genomsnittligt antal inköp för en kund väljer du **
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definiera filtren
+### Definiera filtren{#collection-filters}
 
 Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$.
 
@@ -109,7 +109,7 @@ Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar b
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definiera sorteringen
+### Definiera sorteringen{#collection-sorting}
 
 Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
 
