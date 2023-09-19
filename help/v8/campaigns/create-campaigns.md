@@ -4,7 +4,7 @@ title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schema och i
 Så här skapar du en ny kampanj:
 
 1. Klicka på **[!UICONTROL Campaigns]** och klickar på **[!UICONTROL Create campaign]** -knappen.
-1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. [Läs mer](manage-campaign.md#manage-campaign-templates).
+1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. [Läs mer](manage-campaigns.md#manage-campaign-templates).
 1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
 1. Definiera **Schema** av er kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](#campaign-schedule)
 1. Klicka **Skapa**.
