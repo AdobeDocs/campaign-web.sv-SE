@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du skapar och hanterar tjänster på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifi
 
 Mer information om hur du hanterar prenumerationer och avbeställningar finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
-## Åtkomst till prenumerationstjänster {#access-services}
+## Få tillgång till prenumerationstjänster {#access-services}
 
 Följ stegen nedan för att få tillgång till prenumerationstjänster som är tillgängliga för din plattform.
 
