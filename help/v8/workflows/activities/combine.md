@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Kombinera arbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Kombinera
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 10%
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
 * The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
-## Sammanfoga aktiviteten Kombinera {#combine-configuration}
+## Konfigurera Kombinera-aktiviteten {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

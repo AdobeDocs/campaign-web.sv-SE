@@ -3,7 +3,7 @@ audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Följ de här stegen för att konfigurera **Ändra dimension** aktivitet:
 
 ## Exempel {#example}
 
-I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gjort ett köp. För att göra detta använder vi först en **[!UICONTROL Build audience]** aktivitet som är länkad till en anpassad målgruppsdimension för inköp för att rikta in alla inköp som har gjorts.
+I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gjort ett köp. För att göra detta använder vi först en **[!UICONTROL Build audience]** aktivitet som är länkad till en anpassad målgruppsdimension&quot;Inköp&quot; för att rikta sig till alla inköp som har gjorts.
 
 Sedan använder vi en **[!UICONTROL Change dimension]** aktivitet för att ändra arbetsflödets målinriktning till&quot;Mottagare&quot;. På så sätt kan vi rikta in oss på de mottagare som matchar frågan.
 

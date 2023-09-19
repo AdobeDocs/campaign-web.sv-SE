@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Beta"
-source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -74,6 +74,6 @@ Här är ett exempel på ett arbetsflöde med två **Bygg målgrupper** verksamh
 
 ![](../assets/workflow-audience-example.png)
 
-Här är ett exempel på ett arbetsflöde där en Adobe Experience Platform-publik kombineras med en Adobe Campaign-målgrupp. Om du vill att dessa målgrupper ska kunna kombineras kan du **[!UICONTROL Change dimension]** med målgruppsdimensionen&quot;Mottagare&quot; läggs till efter Adobe Experience Platform målgrupp. [Lär dig hur du konfigurerar en Ändra dimension-aktivitet](change-dimension.md)
+Här är ett exempel på ett arbetsflöde där en Adobe Experience Platform-publik kombineras med en Adobe Campaign-målgrupp. Om du vill att dessa målgrupper ska kunna kombineras kan du **[!UICONTROL Change dimension]** med målgruppsdimensionen&quot;Mottagare&quot; läggs till efter Adobe Experience Platform målgrupp. [Lär dig hur du konfigurerar en Ändra dimensionsaktivitet](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
