@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -22,7 +22,6 @@ Om du vill skapa en ny kampanj eller hantera befintliga kampanjer klickar du på
 
 ## Lista över kampanjer {#access-campaigns}
 
-
 Det finns två flikar i kampanjlistan:
 
 * The **Bläddra** alla befintliga kampanjer visas på fliken. Du kan klicka på en kampanj för att öppna dess instrumentpanel eller skapa en ny kampanj genom att klicka på **Skapa kampanj** -knappen. Se det här [section](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och anv�
 ![Kampanjfilter](assets/campaign-filter-on-dates.png)
 
 ## Kampanjinstrumentpanel{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
