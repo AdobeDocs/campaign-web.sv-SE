@@ -2,10 +2,10 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: f5132968d041b82b88dbc62a8c8678be2cdd0e0c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +19,19 @@ Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din u
 
 ![](assets/ask-a-question.png)
 
+<!--
+## Consent {#consent-ai}
 
-## Godkännande {#consent-ai}
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
-Kampanjkunskapsassistenten som är inbäddad i sammanhangsberoende hjälprutor använder AI. Din användning av denna möjlighet innebär att Adobe samtycker till att den information du lämnar under sessionen samlas in, används, offentliggörs och sparas av i enlighet med villkoren i Adobe Customer Feedback Program. Lämna inga personuppgifter om dig själv eller andra parter (inklusive ditt namn eller din kontaktinformation) i kunskapsassistenten.
+## Privacy {#privacy-ai}
 
-## Sekretess {#privacy-ai}
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-Dina data är krypterade och privata enligt vår standardpraxis för dataskydd. Läs mer om [Adobe integritetspolicy](https://www.adobe.com/se/privacy/policy.html){target="_blank"}.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-Kunskapsassistentens AI-kapacitet använder inte dina data för att utbilda våra modeller. Vi tillåter inte att några partner eller tredje part använder dina data för att utbilda sina modeller eller andra syften.
-
-Mer information om Adobe AI-policyer för appar och lösningar i Experience Cloud finns i [den här sidan](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## Svar {#answers-ai}
 
