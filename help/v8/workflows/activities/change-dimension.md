@@ -3,7 +3,7 @@ audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
 badge: label="Beta"
-source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
+source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
@@ -46,7 +46,5 @@ I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gj
 
 Sedan använder vi en **[!UICONTROL Change dimension]** aktivitet för att ändra arbetsflödets målinriktning till&quot;Mottagare&quot;. På så sätt kan vi rikta in oss på de mottagare som matchar frågan.
 
-<!--
-![](assets/workflow-change-dimension-example.png)
--->
+![](../assets/workflow-change-dimension-example.png)
 
