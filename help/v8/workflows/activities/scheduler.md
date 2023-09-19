@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 10%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 10%
 
 The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
 
-## Bästa praxis
+## Bästa praxis{#scheduler-best-practices}
 
 * Schemalägg inte ett arbetsflöde så att det körs mer än var 15:e minut eftersom det kan påverka den totala systemprestandan negativt och skapa block i databasen.
 * Om du vill skicka en engångsleverans i arbetsflödet kan du lägga till en schemaläggningsaktivitet och ställa in den på att köras **En gång**. Du kan också definiera **Schema** i leveransinställningarna.
 * Om du vill skicka en återkommande leverans i arbetsflödet måste du använda en **Schemaläggare** och ange körningsfrekvens. Den återkommande leveransaktiviteten tillåter inte att du definierar ett schema.
 
-## Konfiguration
+## Konfiguration{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan 
 
 Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 
-1. Lägg till en **Schemaläggare** till ditt arbetsflöde.
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. Lägg till en **Schemaläggare** till ditt arbetsflöde.
 
 1. Konfigurera **Körningsfrekvens**:
 
@@ -73,9 +73,7 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 >
 >Om du vill starta arbetsflödet direkt kan du klicka på **Kör väntande uppgift** i schemaläggarens övre åtgärdsfält. Den här knappen är bara tillgänglig när du har startat arbetsflödet.
 
-Anteckningar:
-
-## Exempel
+## Exempel{#scheduler-example}
 
 I följande exempel är aktiviteten konfigurerad så att arbetsflödet körs flera gånger per dag kl. 9 och 12, varje veckodag från 1 oktober 2023 till 1 januari 2024.
 
