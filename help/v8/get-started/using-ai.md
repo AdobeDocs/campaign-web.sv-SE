@@ -2,16 +2,16 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Använda den AI-baserade kunskapsassistenten {#using-ai}
 
-Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade kunskapsassistenten som finns i produktens sammanhangsbaserade hjälprutor.
+Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade Knowkedge Assistant som finns i produktens sammanhangsbaserade hjälprutor.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ Artificiell intelligens och maskininlärningsmodeller förbättras över tid fö
 
 ## Rekommendationer  {#recommendations-ai}
 
-När du ställer en fråga i sammanhangsberoende hjälp, beaktas den aktuella produktkontexten.
+När du ställer en fråga i den AI-baserade kunskapsassistenten beaktas den aktuella produktkontexten, dvs. den Campaign-skärm du befinner dig i.
 
-För att få det bästa av assistenten rekommenderar vi dig att:
+För att få ut det bästa av den AI-baserade kunskapsassistenten rekommenderar vi dig att:
 
 * Var så exakt och specifik som möjligt och undvik tvetydighet. Svaret blir mer korrekt och användbart.
-* För att hjälpa kunskapsassistenten att hitta rätt information lägger du till så mycket information som möjligt om vad du försöker lära dig.
+* För att hjälpa den AI-baserade kunskapsassistenten att hitta rätt information lägger du till så mycket information som möjligt om vad du försöker lära dig.
 * Rätta till och förfina dina frågor för att få bättre svar. Om svaret inte är korrekt eller användbart kan du testa olika metoder och lägga till sammanhang för att få bättre resultat.
 * Använd lämpliga termer och formuleringar, med en neutral ton.
 * Betygsätt svaren och ge feedback så att våra tekniker kan lära sig av era erfarenheter och förbättra resultaten.

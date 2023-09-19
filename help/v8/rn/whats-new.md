@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1016'
 ht-degree: 1%
 
 ---
@@ -55,35 +55,31 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Fler arbetsflödesaktiviteter för kampanjer**
 
-  Utnyttja era marknadsföringskampanjer bättre med våra utökade arbetsflödesaktiviteter. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor.
-
-  Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
+  Utnyttja era marknadsföringskampanjer bättre med våra **fler arbetsflödesaktiviteter**. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
 
   Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
 
 * **Gen AI for Email content**
 
-  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll. Den här funktionen kommer att vara tillgänglig från början av oktober.
+  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att **skapa engagerande och personaliserat innehåll**. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll. Den här funktionen kommer att vara tillgänglig från början av oktober.
 
   Läs mer i [det här avsnittet](../content/generative-gs.md).
 
 * **Fördefinierade filter**
 
-  Vi presenterar fördefinierad filterhantering. Campaigns webbgränssnitt erbjuder nu ett användarvänligt gränssnitt för att enkelt hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk.
+  Vi presenterar fördefinierad filterhantering. Webbgränssnittet i Campaign erbjuder nu ett användarvänligt gränssnitt som enkelt kan användas **hantera och anpassa fördefinierade filter** för att tillgodose dina specifika behov. Skapa en gång och spara för framtida bruk.
 
   Läs mer i [det här avsnittet](../get-started/predefined-filters.md).
 
 * **Målgrupp med regelbyggaren**
 
-  Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Dessutom kan ni utnyttja er målgrupp i AEP (Adobe Experience Platform) för att ytterligare förfina målgruppen och maximera kampanjens genomslag.
+  Det har aldrig varit enklare att skapa ett leveransmål! Med våra **senaste regelverktyget** har du nu möjlighet att definiera filtreringsvillkor för mottagare eller andra målinriktningsdimensioner från databasen. Dessutom kan ni utnyttja er målgrupp i AEP (Adobe Experience Platform) för att ytterligare förfina målgruppen och maximera kampanjens genomslag.
 
   Läs mer i [det här avsnittet](../audience/segment-builder.md).
 
 * **SMS med erbjudanden**
 
-  Det nya webbgränssnittet gör det nu möjligt att integrera erbjudanden med SMS utöver e-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid.
-
-  Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
+  Nu kan du använda det nya webbgränssnittet **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
 
   Läs mer i [det här avsnittet](../content/offers.md).
 
@@ -97,13 +93,13 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Knowledge Assistant med Gen AI**
 
-  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya AI-baserade kunskapsassistenten, som är inbäddad i sammanhangsberoende hjälppuffar, hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen kommer att vara tillgänglig från början av oktober.
+  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya **AI-driven Knowledge Assistant** som är inbäddad i sammanhangsberoende hjälppuffar hjälper dig att lära dig och utöka din expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen kommer att vara tillgänglig från början av oktober.
 
   Läs mer i [det här avsnittet](../get-started/using-ai.md).
 
 * **HTML Converter för e-postdesign**
 
-  Nu kan du importera och konvertera valfritt HTML-innehåll i Campaigns e-postredigerare. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem!
+  Nu kan du **importera och konvertera valfritt HTML-innehåll** i Campaigns e-postredigerare. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem!
 
   Läs mer i [det här avsnittet](../content/existing-content.md).
 
@@ -136,3 +132,4 @@ Begränsningarna nedan gäller den här betaversionen:
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not integrated.
 
+Fler skyddsförslag och begränsningar finns i [den här sidan](../get-started/guardrails.md).
