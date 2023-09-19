@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,10 @@ ht-degree: 1%
 >title="Ändra dimensionsaktivitet"
 >abstract="Med den här aktiviteten kan ni ändra målgruppsdimensionen när ni skapar en målgrupp. Axeln flyttas beroende på datamallen och indatamängden. Du kan till exempel växla från dimensionen &quot;kontrakt&quot; till dimensionen &quot;kunder&quot;."
 
-The **Ändra dimension** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan ni ändra målgruppsdimensionen när ni skapar en målgrupp. Den här aktiviteten flyttar axeln beroende på datamallen och indatatypen. Du kan till exempel växla från dimensionen &quot;kontrakt&quot; till dimensionen &quot;kunder&quot;.
+The **Ändra dimension** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ändra måldimensionen när du skapar arbetsflödet.
+Den här aktiviteten flyttar axeln beroende på datamallen och indatatypen.
+
+Du kan till exempel ändra ett arbetsflödes målinriktning från&quot;Mottagare&quot; till&quot;Prenumerantprogram&quot; för att skicka push-meddelanden till målmottagarna.
 
 ## Konfigurera aktiviteten Ändra dimension {#configure}
 
@@ -39,4 +42,8 @@ Följ de här stegen för att konfigurera **Ändra dimension** aktivitet:
 
 ## Exempel {#example}
 
+I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gjort ett köp. För att göra detta använder vi först en **[!UICONTROL Build audience]** aktivitet som är länkad till en anpassad målgruppsdimension för inköp för att rikta in alla inköp som har gjorts.
 
+Sedan använder vi en **[!UICONTROL Change dimension]** aktivitet för att ändra arbetsflödets målinriktning till&quot;Mottagare&quot;. På så sätt kan vi rikta in oss på de mottagare som matchar frågan.
+
+![](assets/workflow-change-dimension-example.png)
