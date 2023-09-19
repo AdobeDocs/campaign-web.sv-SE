@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Använd det nya webbgränssnittet för Campaign för att:
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
 * Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden - [Läs mer](../workflows/activities/channels.md)
 * Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-audiences.md)
-* Förhandsgranska, testa och skicka e-postmeddelanden - [Läs mer](../monitor/prepare-send.md)
+* Förhandsgranska, testa och skicka meddelanden - [Läs mer](../monitor/prepare-send.md)
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Gen AI for Email content**
 
-  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll.
-
-  Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
+  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll. Den här funktionen kommer att vara tillgänglig från början av oktober.
 
   Läs mer i [det här avsnittet](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Knowledge Assistant med Gen AI**
 
-  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya AI-baserade kunskapsassistenten, som är inbäddad i sammanhangsberoende hjälppuffar, hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel.
+  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya AI-baserade kunskapsassistenten, som är inbäddad i sammanhangsberoende hjälppuffar, hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen kommer att vara tillgänglig från början av oktober.
 
   Läs mer i [det här avsnittet](../get-started/using-ai.md).
 
