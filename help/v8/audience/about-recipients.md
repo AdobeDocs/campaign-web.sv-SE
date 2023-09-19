@@ -1,16 +1,18 @@
 ---
-title: Arbeta med mottagare
+title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 4%
+source-wordcount: '581'
+ht-degree: 2%
 
 ---
 
 
-# Arbeta med mottagare {#about-recipients}
+# Arbeta med mottagare och målgrupper {#about-recipients}
+
+## Mottagare {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ Du kan även komma åt mottagare från **Explorer** visa, bläddra och skapa map
 >
 >Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över mottagare som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
 
+Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. [Lär dig arbeta med prenumerationstjänster](create-service.md)
+
+## Målgrupper {#audiences}
+
+Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. [Lär dig vad som är en leveransmall](../msg/delivery-template.md).
+
+Om du vill definiera en målgrupps befolkning kan du:
+
+* [Skapa nya målgrupper](create-audience.md) från **[!UICONTROL Audiences]** meny,
+* [Välj en befintlig målgrupp](add-audience.md) skapat som en lista i klientkonsolen,
+* [Välja en Adobe Experience Platform-målgrupp](aep-audience.md),
+* [Bygg en ny publik](segment-builder.md) med regelbyggaren genom att definiera och kombinera filtervillkor,
+* [Använda en målgrupp från en extern fil](file-audience.md). Det här alternativet är bara tillgängligt för fristående e-postleveranser och kan inte användas i kampanjleveranser.
+
+När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper** för att undvika att skicka meddelanden till en del av er målgrupp och mäta effekten av era kampanjer. [Lär dig hur du ställer in en kontrollgrupp](control-group.md)
+
+>[!NOTE]
+>
+>När meddelanden skickas i samband med ett kampanjarbetsflöde definieras målgruppen i en specifik **Bygg målgrupper** arbetsflödesaktivitet. I det här sammanhanget kan du inte läsa in en målgrupp från en fil för en e-postleverans, och målgruppen definieras endast i den här dedikerade aktiviteten. Lär dig definiera målgruppen för leveransen i ett kampanjarbetsflöde [i det här avsnittet](../workflows/activities/build-audience.md)

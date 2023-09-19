@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 11%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 11%
       + [Skicka testleveranser](preview-test/test-deliveries.md)
       + [Återge din e-post](preview-test/email-rendering.md)
 + Målgrupper och mottagare {#audiences}
-   + [Kom igång med målgrupper](audience/about-audiences.md)
-   + [Arbeta med mottagare](audience/about-recipients.md)
+   + [Arbeta med mottagare och målgrupper](audience/about-recipients.md)
    + [Skapa målgrupper](audience/create-audience.md)
    + [Övervaka och hantera målgrupper](audience/access-audiences.md)
    + Målgrupper {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 11%
       + [Definiera en målgrupp med regelbyggaren](audience/segment-builder.md)
       + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
       + [Använda en Adobe Experience Platform-publik](audience/aep-audience.md)
-   + [Ange en kontrollgrupp](audience/control-group.md)
+      + [Ange en kontrollgrupp](audience/control-group.md)
    + [Arbeta med prenumerationstjänster](audience/create-service.md)
 + Flerkanalskampanjer {#campaigns}
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
