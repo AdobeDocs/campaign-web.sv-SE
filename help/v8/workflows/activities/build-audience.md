@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Om du vill definiera målgruppspopulationen kan du:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Konfigurera aktiviteten Skapa målgrupp
+## Konfigurera aktiviteten Skapa målgrupp{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
+
+![](../assets/workflow-audience.png)
 
 1. Lägg till en **Bygg målgrupper** aktivitet.
 1. Definiera en etikett.
@@ -66,7 +68,7 @@ Så här väljer du en befintlig målgrupp:
 >
 >Om du vill använda en **[!UICONTROL Build audience]** målgruppsanpassning för Experience Platform måste du lägga till en **[!UICONTROL Change dimension]** för att säkerställa att målgruppens målinriktning är inställd på&quot;Mottagare&quot;. Ett arbetsflödesexempel finns längst ned på den här sidan.
 
-## Exempel
+## Exempel{#build-audience-examples}
 
 Här är ett exempel på ett arbetsflöde med två **Bygg målgrupper** verksamhet. Det första riktar sig till pokerspelarna, följt av ett mejlerbjudande. Det andra riktar sig till VIP kunder, följt av en SMS-leverans.
 
