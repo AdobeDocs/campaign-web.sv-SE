@@ -2,7 +2,7 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Du kan även komma åt mottagare från **Explorer** visa, bläddra och skapa map
 >
 >Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över mottagare som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
 
-Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. [Lär dig arbeta med prenumerationstjänster](create-service.md)
+Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
 
 ## Vad är målgrupper? {#audiences}
 
