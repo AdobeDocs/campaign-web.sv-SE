@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 
 * Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturet kallas nu för **Testprofiler**. [Läs mer](../preview-test/test-deliveries.md).
 * Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare mottagare i databasen. [Läs mer](../preview-test/test-deliveries.md).
-* Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta analysen klickar du på **Förbered** -knappen. [Läs mer](../monitor/prepare-send.md).
+* Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta meddelandeförberedelsen klickar du på **Förbered** -knappen. [Läs mer](../monitor/prepare-send.md).
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** -knappen. [Läs mer](../preview-test/preview-test.md)
 * Listor finns nu **Målgrupper**. [Läs mer](../audience/about-audiences.md).
 
