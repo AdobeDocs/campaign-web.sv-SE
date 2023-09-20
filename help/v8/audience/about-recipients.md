@@ -2,9 +2,9 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 En mottagare är en profil som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I Adobe Campaign är mottagarna de standardprofiler som väljs för att skicka leveranser till (e-post, SMS etc.). Med mottagardata som lagras i databasen kan du skapa målgrupper som tar emot alla angivna leveranser och lägga till personaliseringsdata i leveransinnehållet. Andra typer av profiler lagras i databasen. De är utformade för olika användningsområden: t.ex. skapas utsädesprofiler för att testa dina leveranser innan de skickas till den slutliga målgruppen.
 
-Mottagare kan bara läggas till från Campaign-klientkonsolen. De visas dock på Campaign-webben från **Mottagare** inträde för det vänstra navigeringsfältet.
+Mottagare kan bara läggas till från Campaign-klientkonsolen. De visas dock på Campaign-webben från **Mottagare** inträde för det vänstra navigeringsfältet. Du kan också redigera mottagarens attribut från den skärmen.
 
 Om du vill redigera mottagarens data klickar du på de tre punkterna bredvid namnet och väljer **Redigera...**.
 
@@ -46,6 +46,8 @@ Du kan även komma åt mottagare från **Explorer** visa, bläddra och skapa map
 >Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över mottagare som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
 
 Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
+
+Du kan skapa arbetsflöden för att deduplicera, berika, kombinera profiler och bygga målgrupper. Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
 
 ## Vad är målgrupper? {#audiences}
 
