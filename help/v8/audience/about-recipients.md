@@ -2,9 +2,9 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -71,11 +71,11 @@ Måldimensionen är den typ av data som hanteras av en åtgärd. Det gör att du
 
 Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga till mottagarna från databasen, kommer den utgående övergången att innehålla data av typen mottagare och den kommer att överföras till nästa aktivitet.
 
-Observera att du kan byta måldimension i ett arbetsflöde med en **[!UICONTROL Change dimension]** aktivitet. [Läs mer](../workflows/activities/change-dimension.md)
+Observera att du kan byta måldimension i ett arbetsflöde med en **[!UICONTROL Change dimension]** aktivitet. [Läs mer](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande mottagare.
 
 Som standard har mallar för e-post och SMS-leverans som mål **[!UICONTROL Recipients]**. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
 
-Du kan även använda andra inbyggda målmappningar för leveranser som listas nedan:
+Du kan även använda andra inbyggda målmappningar i dina arbetsflöden och leveranser som listas nedan:
 
 | Namn | Använd för | Schema |
 |---|---|---|
