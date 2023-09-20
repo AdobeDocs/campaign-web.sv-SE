@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 3%
+source-wordcount: '585'
+ht-degree: 17%
 
 ---
 
@@ -48,14 +48,11 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Välj antalet unika **Dubbletter att behålla**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   Om till exempel posterna A och B betraktas som dubbletter av posten Y, och en post C betraktas som en dubblett av posten Z:
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * Om värdet för fältet är 1: endast Y- och Z-posterna behålls.
+   * Om värdet för fältet är 0: alla register förs.
+   * Om värdet för fältet är 2: Posterna C och Z förvaras och två poster från A, B och Y sparas, av en tillfällighet eller beroende på vilken dedupliceringsmetod som valts därefter.
 
 1. Välj **Dedupliceringsmetod** att använda:
 
