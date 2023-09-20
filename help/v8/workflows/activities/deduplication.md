@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 3%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Dedupliceringsattribut"
->abstract="På så sätt kan du ange för vilka fält identiska värden gör att dubbletter kan identifieras: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
+>title="Fält som identifierar dubbletter"
+>abstract="I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 3%
 >title="Inställningar för borttagning av dubbletter"
 >abstract="Om du vill ta bort dubbletter i inkommande data definierar du dedupliceringsmetoden i fälten nedan. Som standard sparas bara en post. Du bör också välja dedupliceringsläget baserat på ett uttryck eller ett attribut. Som standard väljs den post som ska hållas utanför dubbletterna slumpmässigt."
 
-The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna. The **Deduplicering** aktiviteten används vanligtvis efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av måldata.
+The **Deduplicering** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ta bort dubbletter i resultatet av de inkommande aktiviteterna, till exempel duplicerade profiler i mottagarlistan. The **Deduplicering** aktiviteten används vanligtvis efter målinriktade aktiviteter och före aktiviteter som tillåter användning av måldata.
 
 ## Konfigurera aktiviteten Deduplicering{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Lägg till en **Deduplicering** till ditt arbetsflöde.
 
-1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter: e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
+1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
 1. Välj antalet unika **Dubbletter att behålla**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 
@@ -67,6 +67,6 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 ## Exempel{#deduplication-example}
 
-I följande exempel använder vi en dedupliceringsaktivitet för att exkludera dubbletter från målet innan vi skickar en leverans. De identifierade dubbletterna läggs till i en dedikerad målgrupp som kan återanvändas om det behövs. Vi använder **E-post** för att identifiera dubbletter. Vi väljer att behålla 1 post och väljer **Slumpmässig** dedupliceringsmetod.
+I följande exempel använder du en dedupliceringsaktivitet för att exkludera dubbletter från målet innan du skickar en leverans. De identifierade dubblerade mottagarna läggs till i en dedikerad målgrupp som kan återanvändas om det behövs. Välj **E-post** adress för att identifiera dubbletterna. Behåll 1 post och välj **Slumpmässig** dedupliceringsmetod.
 
 ![](../assets/workflow-deduplication-example.png)
