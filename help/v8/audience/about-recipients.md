@@ -2,9 +2,9 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper*
 
 ## Måldimensioner {#targeting-dimensions}
 
-Måldimensionen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
+Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
 
 Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga till mottagarna från databasen, kommer den utgående övergången att innehålla data av typen mottagare och den kommer att överföras till nästa aktivitet.
 
