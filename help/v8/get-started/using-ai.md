@@ -2,7 +2,7 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ För att få ut det bästa av den AI-baserade kunskapsassistenten rekommenderar 
 * Använd lämpliga termer och formuleringar, med en neutral ton.
 * Betygsätt svaren och ge feedback så att våra tekniker kan lära sig av era erfarenheter och förbättra resultaten.
 
+<img src="assets/AI_CH.gif"/>
