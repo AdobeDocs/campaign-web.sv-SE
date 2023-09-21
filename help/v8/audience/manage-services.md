@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar p�
 
 Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create-service). Användare som prenumererar på eller avbeställer tjänsten får de valda bekräftelsemeddelandena.
 
-## Loggar och rapporter för prenumerationstjänster {#logs-and-reports}
+## Övervaka dina prenumerationstjänster {#logs-and-reports}
 
 För att mäta hur effektiva era prenumerationstjänster är för SMS- och e-postkanaler har du tillgång till loggarna och rapporterna för en viss tjänst.
 

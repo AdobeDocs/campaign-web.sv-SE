@@ -3,17 +3,19 @@ audience: end-user
 title: Hantera prenumeranter på en tjänst
 description: Lär dig hur du hanterar och levererar till abonnenter av en tjänst på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
 
 # Hantera prenumeranter på en tjänst {#manage-subscribers}
 
-En gång [skapade en tjänst](manage-services.md#create-service)kan du lägga till prenumeranter, avbeställa prenumerationer och leverera till prenumeranterna av tjänsten.
+En gång [skapade en tjänst](manage-services.md#create-service)kan du lägga till prenumeranter, avsluta prenumerationer och skicka meddelanden till prenumeranterna för den tjänsten.
+
+Prenumerationshanteringen finns på den här sidan. Mer information om hur du skickar meddelanden till prenumeranterna finns i [det här avsnittet](../content/send-to-subscribers.md).
 
 ## Lägg till prenumeranter till tjänsten {#add-subscribers}
 
@@ -57,30 +59,8 @@ Mottagaren tas bort från **[!UICONTROL Subscribers]** och prenumererar inte lä
 
 En prenumerationstjänst kan ha en begränsad varaktighet. Mottagarna avbeställs automatiskt när giltighetsperioden går ut.
 
-Den här perioden anges när [skapa tjänsten](manage-services.md#create-service). Från **[!UICONTROL Additional options]**, inaktivera **[!UICONTROL  Unlimited validity period]** och definiera en giltighetsperiod för tjänsten.
+Den här perioden anges när [skapa tjänsten](manage-services.md#create-service). Från **[!UICONTROL Additional options]**, inaktivera **[!UICONTROL Unlimited validity period]** och definiera en giltighetsperiod för tjänsten.
 
 ![](assets/service-create-validity-period.png)
 
 När den angivna tidsperioden har gått ut upphör alla prenumeranter automatiskt att prenumerera på tjänsten.
-
-## Leverera till abonnenterna av en tjänst
-
-En gång [skapade en prenumerationstjänst](manage-services.md#create-service)kan ni inrikta er på att nå era prenumeranter i en leverans. Följ stegen nedan.
-
-1. [Skapa en målgrupp](../audience/create-audience.md) inklusive prenumeranterna på den tjänst du har skapat:
-
-   * I **[!UICONTROL Build audience]** aktivitet, visa avancerade attribut och markera **[!UICONTROL Recipient]** > **[!UICONTROL Subscriptions]** > **[!UICONTROL Service]**.
-
-   * I det här exemplet väljer du de användare som prenumererar på tjänsten som har **Luma Newsletter** etikett.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Skapa en leverans](../msg/gs-messages.md#create-delivery) och välj den målgrupp du skapade ovan.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Redigera meddelandeinnehållet efter behov och skicka leveransen.
-
-   ![](assets/service-delivery-ready.png)
-
-Leveransen skickas endast till prenumeranterna av tjänsten.

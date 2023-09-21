@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 329393419782f56a259840bf4979482ba87f5686
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '424'
 ht-degree: 11%
 
 ---
@@ -76,7 +76,8 @@ ht-degree: 11%
       + [Lägg till personalisering](personalization/personalize.md)
       + [Lägga till villkorligt innehåll](personalization/conditions.md)
       + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
-   + [Skicka erbjudanden](content/offers.md)
+   + [Lägg till erbjudanden i dina meddelanden](content/offers.md)
+   + [Skicka meddelanden till prenumeranterna](content/send-to-subscribers.md)
    + Förhandsgranska och testa leveransen {#preview-test}
       + [Förhandsgranska och testa](preview-test/preview-test.md)
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)

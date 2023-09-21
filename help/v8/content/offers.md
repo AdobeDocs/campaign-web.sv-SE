@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Skicka erbjudanden
-description: Skicka erbjudanden
+title: Lägg till erbjudanden i dina meddelanden
+description: Lär dig lägga till och skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
 
-# Skicka erbjudanden {#offers-content}
+# Lägg till erbjudanden i dina meddelanden {#offers-content}
 
 Med Adobe Campaign v8 Web kan du skicka med leveranserbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
