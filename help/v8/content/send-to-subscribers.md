@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka meddelanden till prenumeranterna på en tjänst
 description: Lär dig hur du skickar meddelanden till prenumeranterna på en tjänst
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,11 @@ Om du vill skicka meddelanden till dina prenumeranter skapar du en specifik publ
 
 1. Spara publiken.
 1. Skapa en leverans. Steg för att skapa en leverans beskrivs i [den här sidan](../msg/gs-messages.md#create-delivery).
-1. Välj den målgrupp du skapade ovan.
+1. Bläddra till leveransinställningarna och ändra standardmålmappningen till **Prenumerationer (nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. I huvudmåldelen av leveransen väljer du den målgrupp du skapade ovan.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
