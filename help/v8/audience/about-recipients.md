@@ -2,15 +2,17 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 2%
+source-wordcount: '1016'
+ht-degree: 1%
 
 ---
 
 
 # Arbeta med mottagare och målgrupper {#about-recipients}
+
+I Adobe Campaign är målgruppen en leverans en målgrupp. En målgruppsuppsättning med personer som har liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences). I de flesta fall består publiken av profiler som lagras som [mottagare](#recipients) i Adobe Campaign. Du kan även arbeta med andra målmappningar genom att ändra dimensioneringen enligt beskrivningen [i det här avsnittet](#targeting-dimensions).
 
 ## Vad är mottagare? {#recipients}
 
