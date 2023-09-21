@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Loopar är ännu inte tillgängliga i webbgränssnittet. Om du skapade ett arbet
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bort. Om du skapar ett arbetsflöde i konsolen, ändrar det med webbgränssnittet och öppnar det igen i konsolen, kan du märka att det finns vissa mindre brister i positioneringen. Detta påverkar inte arbetsflödets
+Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bort. Om du skapar ett arbetsflöde i konsolen, ändrar det med webbgränssnittet och öppnar det igen i konsolen, kan du märka att det finns vissa mindre brister i positioneringen. Detta påverkar inte arbetsflödets processer och uppgifter.
 
 | Inledande arbetsflöde | Positioneringsändring |
 | --- | --- |
