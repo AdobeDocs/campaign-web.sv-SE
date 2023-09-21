@@ -4,9 +4,9 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '551'
 ht-degree: 3%
 
 ---
@@ -24,10 +24,6 @@ När arbetsflödet körs körs varje aktivitet på arbetsytan i sekventiell ordn
 Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. På så sätt kan du snabbt identifiera status för varje aktivitet och antalet profiler som övergår mellan dem.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Du kan inaktivera det visuella flödet med **[!UICONTROL Hide progression]** i det övre åtgärdsfältet på arbetsytan.
 
 ## Arbetsflödesövergångar {#transitions}
 

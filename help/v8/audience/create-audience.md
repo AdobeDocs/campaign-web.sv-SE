@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera målgrupper
 description: Lär dig skapa och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Målgrupper"
->abstract="Från den här skärmen kan du skapa och kombinera målgrupper till en visuell arbetsyta. Lägg till olika arbetsflödesaktiviteter som **Dela** eller **Exkludera** för att skapa nya och förfinade målgrupper."
+>abstract="Från den här skärmen kan du komma åt listan över alla målgrupper som kan användas i dina leveranser. Klicka **Skapa** skapa nya målgrupper i en visuell arbetsyta med hjälp av olika arbetsflödesaktiviteter som **Dela** eller **Exkludera**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

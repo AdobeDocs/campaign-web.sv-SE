@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,17 @@ ht-degree: 1%
 >title="Formateringsparametrar"
 >abstract="Kontrollera formateringsparametrarna för filen."
 
-Du kan överföra kontakter från en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
+Du kan inte överföra profiler direkt till Campaign från gränssnittet, men du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
 
 >[!CAUTION]
 >
 >* Den här funktionen är bara tillgänglig för **fristående e-postleveranser**. Det kan inte användas i arbetsflöden, eller med SMS- eller push-leveranser.
 >
 >* Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
+>
+>* Profiler läggs inte till i databasen och är bara inlästa och tillgängliga för den här specifika fristående e-postleveransen.
 
-## Ladda upp filen {#upload}
+## Välj och konfigurera filen {#upload}
 
 Följ de här stegen för att ange profiler från en lokal fil direkt från e-postgränssnittet:
 
@@ -45,7 +47,7 @@ Följ de här stegen för att ange profiler från en lokal fil direkt från e-po
 
    ![](assets/select-from-file.png)
 
-1. Välj den lokala fil som ska överföras. Formatet måste justeras mot [exempelfil](#sample-file).
+1. Markera den lokala fil som ska användas. Formatet måste justeras mot [exempelfil](#sample-file).
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
 1. Välj den kolumn som innehåller e-postadressen i dialogrutan **Adressfält** nedrullningsbar meny. Du kan också markera blockeringslista-kolumnen om du har sådan information i indatafilen.
 1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
