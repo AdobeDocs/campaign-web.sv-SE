@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka meddelanden till prenumeranterna på en tjänst
 description: Lär dig hur du skickar meddelanden till prenumeranterna på en tjänst
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Du kan skapa prenumerationstjänster i Adobe Campaign och skicka meddelanden till dina prenumeranter. Lär dig hur du skapar prenumerationstjänster i [den här sidan](../audience//manage-services.md#create-service).
 
-Om du vill skicka meddelanden till dina prenumeranter skapar du en specifik publik som identifierar prenumeranterna och skapar sedan leveransen enligt nedan. Gör så här:
+Om du vill skicka meddelanden till dina prenumeranter skapar du en specifik publik som identifierar prenumeranterna och skapar sedan leveransen enligt nedan.
 
 1. Skapa en målgrupp. Läs mer om målgrupper i [den här sidan](../audience/create-audience.md).
 
