@@ -2,7 +2,7 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -21,7 +21,7 @@ The **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hj
 
 Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår Knowledge Assistant med Gen AI din ultimata partner, vilket ger oöverträffad effektivitet och precision i varje interaktion.
 
-![](assets/ask-a-question.png){width="70%" align="left"}
+<img src="assets/AI_CH.gif" width="80%"/>
 
 <!--
 ## Consent {#consent-ai}
@@ -55,4 +55,4 @@ För att få ut det bästa av den AI-baserade kunskapsassistenten rekommenderar 
 * Använd lämpliga termer och formuleringar, med en neutral ton.
 * Betygsätt svaren och ge feedback så att våra tekniker kan lära sig av era erfarenheter och förbättra resultaten.
 
-<img src="assets/AI_CH.gif"/>
+

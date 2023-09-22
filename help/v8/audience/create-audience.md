@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera målgrupper
 description: Lär dig skapa och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,11 @@ I exemplet nedan visas ett målgruppsarbetsflöde som är konfigurerat för att 
 1. The **[!UICONTROL Save audience]** aktiviteter i slutet av varje bana skapar två nya målgrupper i databasen, inklusive den population som beräknas i varje bana.
 
 ## Övervaka och hantera målgrupper {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Målgruppsfel"
+>abstract="Målgruppsdata är inte tillgängliga. Vänta på att arbetsflödets körning avslutas."
 
 Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONTROL Audiences]** -menyn.
 
