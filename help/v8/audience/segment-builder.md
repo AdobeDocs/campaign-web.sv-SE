@@ -4,53 +4,40 @@ title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
 
-# Definiera en målgrupp med regelbyggaren {#segment-builder}
+# Arbeta med regelbyggaren {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Målgrupper"
 >abstract="Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Utnyttja er målgrupp på Adobe Experience Platform för att ytterligare förfina er målgrupp och maximera kampanjens genomslag."
 
-I det här avsnittet beskrivs hur du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Den skapade målgruppen kan bara användas i det här e-postmeddelandet.
+Med regelbyggaren kan du definiera målgruppen för leveransen genom att filtrera data i databasen. Du kan använda den för att skapa en målgrupp från ett arbetsflöde med **[!UICONTROL Build audience]** -aktivitet, eller direkt när du skapar en leverans för att skapa en enda målgrupp.
 
-Med regelbyggaren kan du definiera den målgrupp som meddelandet riktar sig till genom att filtrera data i databasen. Om du vill välja en befintlig målgrupp kan du läsa detta [section](add-audience.md).
-
-Mer information om regelverktyget finns i [Dokumentation för segmenteringstjänst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
-
-Så här skapar du en ny publik när du utformar ett e-postmeddelande:
-
-1. Från **Målgrupp** i leveransguiden klickar du på **[!UICONTROL Select audience]** -knappen.
-
-   ![](assets/segment-builder0.png)
-
-1. Välj **Skapa en egen**. Regelverktyget visas.
-
-   ![](assets/segment-builder.png)
+* [Lär dig skapa en målgrupp](create-audience.md)
+* [Lär dig skapa en engångspublik för en leverans](one-time-audience.md)
 
 ## Paletten
 
-Paletten, som finns till vänster, innehåller alla element som du kan filtrera på för att skapa en målgrupp. Platserna i paletten måste flyttas till arbetsytan i mitten för att kunna konfigureras och beaktas. Paletten är uppdelad i två flikar:
+Paletten, som finns till vänster, innehåller alla element som du kan filtrera på för att skapa en målgrupp. Du kan använda sökfältet för att snabbt hitta element. Platserna i paletten måste flyttas till arbetsytan i mitten för att kunna konfigureras och beaktas.
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+
+Paletten är uppdelad i två flikar:
 
 * **Attribut**: den här fliken ger dig åtkomst till alla tillgängliga fält från schemat. Fältlistan beror på målschemat som definierats i e-postmallen.
 
-  ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **Målgrupper**: på den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i Campaign Classic Console eller från Adobe Experience Platform.
-
-  ![](assets/segment-builder3.png){width="70%" align="left"}
+* **Målgrupper**: på den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i Campaign Classic Console eller från Adobe Experience Platform. [Lär dig övervaka och hantera målgrupper](manage-audience.md)
 
   >[!NOTE]
   >
   >Om du vill utnyttja Adobe Experience Platform målgrupper måste du konfigurera integreringen med Destinations. Se [Dokumentation för Adobe Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.htmll?lang=sv){target="_blank"}.
-
-Du kan använda sökfältet för att snabbt hitta element.
 
 ## Arbetsytan
 
@@ -60,13 +47,20 @@ Arbetsytan är den centrala zon där du kan konfigurera och kombinera regler bas
 
 ## Rutan Regelegenskaper
 
-På höger sida **Regelegenskaper** kan du utföra följande åtgärder:
+På höger sida **Regelegenskaper** kan du utföra de åtgärder som anges nedan.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Visa resultat:** visar en lista över mottagare som målgruppen har.
 * **kodvyn**: visar en kodbaserad version av målgruppen i SQL.
 * **Visa avancerade attribut**: markera det här alternativet om du vill visa den fullständiga listan med attribut på den vänstra paletten: noder, grupperingar, 1-1 länkar, 1-N länkar.
+* **Beräkna**: uppdaterar och visar antalet profiler som din fråga har som mål.
+* **Markera eller spara filter**: använd ett fördefinierat filter för att filtrera frågan, eller spara frågan som ett nytt filter för framtida återanvändning. [Lär dig hur du arbetar med fördefinierade filter](../get-started/predefined-filters.md)
+
+  >[!IMPORTANT]
+  >
+  >I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet. Du kan fortfarande använda dem. [Läs mer](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **Attribut**: visar en beskrivning av den skapade målgruppen.
 
 ## Exempel
@@ -98,5 +92,3 @@ I det här exemplet bygger vi en målgrupp för alla kunder som bor i Atlanta el
    ![](assets/segment-builder11.png)
 
 1. Klicka **Bekräfta**.
-
-Din målgrupp är definierad och klar att användas i ditt e-postmeddelande.

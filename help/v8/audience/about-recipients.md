@@ -2,9 +2,9 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Arbeta med mottagare och målgrupper {#about-recipients}
 
-I Adobe Campaign är målgruppen en leverans en målgrupp. En målgruppsuppsättning med personer som har liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences). I de flesta fall består publiken av profiler som lagras som [mottagare](#recipients) i Adobe Campaign. Du kan även arbeta med andra målmappningar genom att ändra dimensioneringen enligt beskrivningen [i det här avsnittet](#targeting-dimensions).
+I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en uppsättning personer som har liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences). I de flesta fall består publiken av profiler som lagras som [mottagare](#recipients) i Adobe Campaign. Du kan även arbeta med andra målmappningar genom att ändra dimensionen enligt beskrivningen [i det här avsnittet](#targeting-dimensions).
 
 ## Vad är mottagare? {#recipients}
 
@@ -58,8 +58,7 @@ Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelanden
 Om du vill definiera en målgrupps befolkning kan du:
 
 * [Skapa nya målgrupper](create-audience.md) från **[!UICONTROL Audiences]** meny,
-* [Välj en befintlig målgrupp](add-audience.md) skapat som en lista i klientkonsolen,
-* [Välja en Adobe Experience Platform-målgrupp](aep-audience.md),
+* [Välj en befintlig målgrupp](add-audience.md) som har skapats som en lista i klientkonsolen eller som kommer från Adobe Experience Platform,
 * [Bygg en ny publik](segment-builder.md) med regelbyggaren genom att definiera och kombinera filtervillkor,
 * [Använda en målgrupp från en extern fil](file-audience.md). Det här alternativet är bara tillgängligt för fristående e-postleveranser och kan inte användas i kampanjleveranser.
 
@@ -75,7 +74,7 @@ Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hante
 
 Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga till mottagarna från databasen, kommer den utgående övergången att innehålla data av typen mottagare och den kommer att överföras till nästa aktivitet.
 
-Observera att du kan byta måldimension i ett arbetsflöde med en **[!UICONTROL Change dimension]** aktivitet. [Läs mer](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande mottagare.
+Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimensionsaktivitet](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande mottagare.
 
 Som standard har mallar för e-post och SMS-leverans som mål **[!UICONTROL Recipients]**. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
 
