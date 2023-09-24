@@ -2,7 +2,7 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvar
 
 The **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 
-Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår Knowledge Assistant med Gen AI din ultimata partner, vilket ger oöverträffad effektivitet och precision i varje interaktion.
+Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår AI-baserade Knowledge Assistant den ultimata partnern som ger oöverträffad effektivitet och precision i varje interaktion.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Svar {#answers-ai}
 
-Svar kan vara felaktiga eller vilseledande. Som en följd av detta kan kunskapsassistenten i Adobe skriva ut felaktig information. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
+Svar kan vara felaktiga eller vilseledande. Som en följd av detta kan Adobe Campaign AI-driven Knowledge Assistant få felaktig information. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
 Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Kampanjens AI-baserade kunskapsassistent kommer att fortsätta att bli bättre de närmaste månaderna. Vi rekommenderar starkt att du använder ?? ?? -knappar när du än läser ett svar för att flagga olämpliga svar till våra tekniker.
 
