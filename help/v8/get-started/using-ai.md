@@ -2,14 +2,20 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Använda den AI-baserade kunskapsassistenten {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="AI-driven Knowledge Assistant"
+>abstract="Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang med den AI-baserade Knowledge Assistant. Det finns i hjälprutorna för kontextuella produkter och revolutionerar dokumentationssökning och hur man besvarar handledningsfrågor genom att smidigt bläddra igenom stora dokumentationsarkiv och snabbt hitta precis den information du behöver."
+
 
 Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade Knowkedge Assistant som finns i produktens sammanhangsbaserade hjälprutor.
 
@@ -19,7 +25,7 @@ Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvar
 
 The **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 
-Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår AI-baserade Knowledge Assistant den ultimata partnern som ger oöverträffad effektivitet och precision i varje interaktion.
+Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är den AI-baserade Knowledge Assistant din ultimata partner, vilket ger oöverträffad effektivitet och precision vid all interaktion.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
