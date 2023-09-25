@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
+source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -30,11 +30,11 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
 The **[!UICONTROL Initial target population]** I diagrammet visas data relativt dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
 
 För musen över en del av diagrammet för att visa det exakta talet.
 
-![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
 
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
@@ -57,7 +57,7 @@ För musen över en del av diagrammet för att visa det exakta talet.
 
 The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveransen är. Mätvärdena anges nedan.
 
-![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
