@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -301,6 +301,12 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 >id="acw_delivery_reporting_breakdown_os"
 >title="Uppdelning efter operativsystem"
 >abstract="The **Uppdelning efter operativsystem** visar hur öppningarna uppdelas efter operativsystem för den berörda perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Uppdelning efter webbläsare"
+>abstract="The **Uppdelning efter webbläsare** visar hur öppningarna uppdelats per webbläsare för den berörda perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter."
+
 
 Denna rapport visar hur öppningarna fördelats efter operativsystem, enhet och webbläsare under den aktuella perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar statistik som endast gäller öppningar på mobila enheter.
 
