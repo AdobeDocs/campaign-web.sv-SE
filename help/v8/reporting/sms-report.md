@@ -3,14 +3,14 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
-# SMS-leveransrapport {#report}
+# SMS-leveransrapporter {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-le
 
 ## Leveranssammanfattning {#delivery-summary}
 
-* **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om framgångar och felgrader samt hur besökarna interagerar med SMS-meddelanden.
+### Leveransöversikt {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om lyckade resultat och felgrader samt hur besökarna interagerar med SMS-meddelanden.
 
-  +++Läs mer om mätvärden för SMS-leveransrapporter.
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL Total sent]**: Procentandel och totalt antal meddelanden som bearbetats under leveransförberedelsen.
++++Läs mer om mätvärden för SMS-leveransrapporter.
 
-   * **[!UICONTROL Success]**: Procentandel och antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
+* **[!UICONTROL Total sent]**: Procentandel och totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
-   * **[!UICONTROL Click-through rate]**: Procentandel och antal användare som interagerade med länkar som ingår i SMS-leveransen.
+* **[!UICONTROL Success]**: Procentandel och antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-   * **[!UICONTROL Errors]**: Procentandel och totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
-+++
+* **[!UICONTROL Click-through rate]**: Procentandel och antal användare som interagerade med länkar som ingår i SMS-leveransen.
 
-* **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen.
+* **[!UICONTROL Errors]**: Procentandel och totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
 
-  ![](assets/reporting_sms_4.png)
-
-  +++Läs mer om mätvärden för SMS-leveransrapporter.
-
-   * **[!UICONTROL To deliver]**: Totalt antal meddelanden och procentandelen meddelanden som bearbetats under leveransförberedelsen.
-
-   * **[!UICONTROL Exclusions]**: Antal profiler och procentuell andel profiler som har uteslutits från analysen.
 +++
 
 
-* **Övergripande statistik** presenterar data för skickade SMS-meddelanden, inklusive:
+### Målgrupp {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++Läs mer om mätvärden för SMS-leveransrapporter.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="Målgrupp för SMS"
+>abstract="The **Målgrupp** diagram- och tabellvisningsdata i förhållande till din SMS-målgrupp: meddelanden som levererar och utesluter."
 
-   * **[!UICONTROL Success]**: Antal meddelanden och procentandel meddelanden som bearbetats utan fel.
+The **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen. Mätvärdena anges nedan.
 
-   * **[!UICONTROL Errors]**: Totalt antal och procentandel fel som uppstod under leveransen, vilket förhindrar att meddelanden skickas till vissa profiler.
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL New quarantine]**: Antal profiler och procentuell andel profiler som har uteslutits och lagts till i karantänen.
++++Läs mer om mätvärden för SMS-leveransrapporter.
+
+* **[!UICONTROL To deliver]**: Totalt antal meddelanden och procentandelen meddelanden som bearbetats under leveransförberedelsen.
+
+* **[!UICONTROL Exclusions]**: Antal profiler och procentuell andel profiler som har uteslutits från analysen.
 +++
+
+
+### Övergripande statistik {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="Övergripande statistik"
+>abstract="The **Övergripande statistik** rapporten innehåller data för skickade SMS: success, errors and quarantines."
+
+The **Övergripande statistik** rapporten innehåller data för skickade SMS-meddelanden. Mätvärdena anges nedan.
+
+![](assets/reporting_sms_5.png)
+
++++Läs mer om mätvärden för SMS-leveransrapporter.
+
+* **[!UICONTROL Success]**: Antal meddelanden och procentandel meddelanden som bearbetats utan fel.
+
+* **[!UICONTROL Errors]**: Totalt antal och procentandel fel som uppstod under leveransen, vilket förhindrar att meddelanden skickas till vissa profiler.
+
+* **[!UICONTROL New quarantine]**: Antal profiler och procentuell andel profiler som har uteslutits och lagts till i karantänen.
++++
+
+### Undantag {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="Allmän statistik för SMS"
+>abstract="The **Undantag** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet."
+
 
 * **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att användarprofiler som har uteslutits från målprofilerna inte kunde ta emot meddelandet.
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## Leveranskapacitet {#delivery-throughput}
 
