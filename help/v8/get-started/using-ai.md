@@ -2,20 +2,14 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Använda den AI-baserade kunskapsassistenten {#using-ai}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="AI-driven Knowledge Assistant"
->abstract="Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang med den AI-baserade Knowledge Assistant. Det finns i hjälprutorna för kontextuella produkter och revolutionerar dokumentationssökning och hur man besvarar handledningsfrågor genom att smidigt bläddra igenom stora dokumentationsarkiv och snabbt hitta precis den information du behöver."
-
 
 Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade Knowkedge Assistant som finns i produktens sammanhangsbaserade hjälprutor.
 
@@ -45,9 +39,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Svar {#answers-ai}
 
-Svar kan vara felaktiga eller vilseledande. Som en följd av detta kan Adobe Campaign AI-driven Knowledge Assistant få felaktig information. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
+Adobe Campaign AI-driven Knowledge Assistant ger hjälp, men du bör verifiera fakta. Den kan ge felaktiga uppgifter, felaktiga eller vilseledande svar. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
-Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Kampanjens AI-baserade kunskapsassistent kommer att fortsätta att bli bättre de närmaste månaderna. Vi rekommenderar starkt att du använder ?? ?? -knappar när du än läser ett svar för att flagga olämpliga svar till våra tekniker.
+Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Campaign AI-driven Knowledge Assistant kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar starkt att du använder ?? ?? -knappar när du än läser ett svar för att flagga olämpliga svar till våra tekniker.
 
 ## Rekommendationer  {#recommendations-ai}
 
