@@ -4,7 +4,7 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
@@ -58,7 +58,6 @@ Om du vill välja mottagare för en testleverans följer du stegen nedan beroend
 
 
 Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Adobe Campaign] klientkonsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs nedan.
-
 
 1. Bläddra till skärmen Redigera innehåll för din e-post eller SMS-leverans och klicka sedan på **[!UICONTROL Simulate content]** -knappen.
 
