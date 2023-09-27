@@ -3,9 +3,9 @@ audience: end-user
 title: Bildgenerering med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 När ni har skapat och personaliserat era e-postmeddelanden kan ni förbättra ert innehåll med hjälp av Content Assistant, som bygger på generativ AI. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
 
->[!AVAILABILITY]
+Följ stegen nedan för att generera och förbättra bilder i e-postmeddelanden med Content Assistant. Du kan också skapa allt innehåll i HTML med Content Assistant, vilket beskrivs i [den här sidan](generative-email.md)eller generera textinnehåll enligt [den här sidan](generative-content.md).
+
+>[!NOTE]
 >
->Den här funktionen kommer att vara tillgänglig i början av oktober.
+>Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
 
 I exemplet nedan kan du lära dig hur du använder Content Assistant för att optimera och förbättra ditt innehåll, vilket ger en mer användarvänlig upplevelse. Följ de här stegen:
 

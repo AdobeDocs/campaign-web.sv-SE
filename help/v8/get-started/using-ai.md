@@ -2,9 +2,9 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 0%
 # Använda den AI-baserade kunskapsassistenten {#using-ai}
 
 Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade Knowkedge Assistant som finns i produktens sammanhangsbaserade hjälprutor.
-
->[!AVAILABILITY]
->
->Den här funktionen kommer att vara tillgänglig i början av oktober.
 
 The **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 

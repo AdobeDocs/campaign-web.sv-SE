@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Gen AI for Email content**
 
-  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att **skapa engagerande och personaliserat innehåll**. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll. Den här funktionen kommer att vara tillgänglig från början av oktober.
+  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att **skapa engagerande och personaliserat innehåll**. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
 
   Läs mer i [det här avsnittet](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ Viktiga funktioner som ingår i Campaign Web Beta listas nedan.
 
 * **Knowledge Assistant med Gen AI**
 
-  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya **AI-driven Knowledge Assistant** som är inbäddad i sammanhangsberoende hjälppuffar hjälper dig att lära dig och utöka din expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen kommer att vara tillgänglig från början av oktober.
+  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya **AI-driven Knowledge Assistant** som är inbäddad i sammanhangsberoende hjälppuffar hjälper dig att lära dig och utöka din expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel.
 
   Läs mer i [det här avsnittet](../get-started/using-ai.md).
 

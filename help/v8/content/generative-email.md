@@ -3,9 +3,9 @@ audience: end-user
 title: E-postgenerering med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 0%
 
 Content Assistant förbättrar kommunikationens effekt genom att automatiskt generera komplett e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet. Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Den här funktionen kommer att vara tillgänglig i början av oktober.
+>Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## Generera HTML-innehåll med AI {#generative-email-generate}
 
 Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. Du kan även förbättra ett befintligt innehåll med Content Assistant, vilket beskrivs i [den här sidan](generative-content.md).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Text med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,11 @@ När du har skapat och personaliserat dina e-postmeddelanden kan du använda Con
 
 Content Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Den här funktionen kommer att vara tillgänglig i början av oktober.
+>Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
 
-Följ stegen nedan för att skapa och förbättra ett e-postinnehåll med Content Assistant. Du kan också skapa allt innehåll i HTML med Content Assistant, vilket beskrivs i [den här sidan](generative-email.md).
+Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Content Assistant. Du kan också skapa allt innehåll i HTML med Content Assistant, vilket beskrivs i [den här sidan](generative-email.md).
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
 

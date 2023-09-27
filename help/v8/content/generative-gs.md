@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ Content Assistant, som bygger på generativ AI, är ett värdefullt verktyg för
 
 Den här funktionen sparar tid och ger konsekvent kvalitet genom att automatiskt generera komplett e-postinnehåll. Genom att använda generativ AI kan du enkelt skapa övertygande e-postmeddelanden och förbättra kommunikationens effektivitet och effektivitet.
 
->[!AVAILABILITY]
->
->Den här funktionen kommer att vara tillgänglig i början av oktober.
+Du kan använda Campaign Content Assistant i dina e-postmeddelanden för att: [generera bilder](generative-image.md), [generera textinnehåll](generative-content.md), [skapa HTML i sin helhet](generative-email.md).
+
 
 ## Skyddsritningar och begränsningar {#generative-guardrails}
 
