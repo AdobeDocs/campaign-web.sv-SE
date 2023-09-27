@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Text med innehållsassistenten
-description: Kom igång med Content Assist
+title: Text med Content Assistant
+description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
 
 
-# Skapa text med Content Assist {#generative-content}
+# Skapa text med Content Assistant {#generative-content}
 
 När du har skapat och personaliserat dina e-postmeddelanden kan du använda Content Assistant som drivs av generativ AI för att ta ditt innehåll till nästa nivå.
 
@@ -21,6 +21,8 @@ Content Assistant kan hjälpa er att optimera effekten av era leveranser genom a
 >[!AVAILABILITY]
 >
 >Den här funktionen kommer att vara tillgänglig i början av oktober.
+
+Följ stegen nedan för att skapa och förbättra ett e-postinnehåll med Content Assistant. Du kan också skapa allt innehåll i HTML med Content Assistant, vilket beskrivs i [den här sidan](generative-email.md).
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
 
@@ -36,11 +38,11 @@ Content Assistant kan hjälpa er att optimera effekten av era leveranser genom a
 
 1. Finjustera innehållet genom att beskriva vad du vill generera.
 
-   Aktivera **[!UICONTROL Enhance with current context]** för innehållsassistenten att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+   Aktivera **[!UICONTROL Enhance with current context]** för Content Assistant att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
 
    ![](assets/text-genai-3.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
    Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 

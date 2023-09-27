@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Bildgenerering med Content Assist
-description: Kom igång med Content Assist
+title: Bildgenerering med Content Assistant
+description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Bildgenerering med Content Assist {#generative-image}
+# Bildgenerering med Content Assistant {#generative-image}
 
 När ni har skapat och personaliserat era e-postmeddelanden kan ni förbättra ert innehåll med hjälp av Content Assistant, som bygger på generativ AI. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
 
@@ -27,7 +27,7 @@ I exemplet nedan kan du lära dig hur du använder Content Assistant för att op
 
 1. Fyll i **[!UICONTROL Basic details]** för leverans. När du är klar klickar du **[!UICONTROL Edit email content]**.
 
-1. Markera den resurs som du vill ändra med Content Assistent.
+1. Markera den resurs som du vill ändra med Content Assistant.
 
 1. Välj **[!UICONTROL Experience generation]**.
 
@@ -37,7 +37,7 @@ I exemplet nedan kan du lära dig hur du använder Content Assistant för att op
 
    ![](assets/image-genai-2.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
    Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 

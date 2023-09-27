@@ -1,26 +1,30 @@
 ---
 audience: end-user
-title: E-postgenerering med Content Assist
-description: Kom igång med Content Assist
+title: E-postgenerering med Content Assistant
+description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 1%
+source-wordcount: '427'
+ht-degree: 0%
 
 ---
 
-# Generera ett e-postmeddelande med innehållsassistenten {#generative-email}
+# Generera ett e-postmeddelande med Content Assistant {#generative-email}
 
-Content Assistant förbättrar kommunikationens effekt genom att automatiskt generera komplett e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet.
-
-Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
+Content Assistant förbättrar kommunikationens effekt genom att automatiskt generera komplett e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet. Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
 
 
 >[!AVAILABILITY]
 >
 >Den här funktionen kommer att vara tillgänglig i början av oktober.
 
+
+
+
+## Generera HTML-innehåll med AI {#generative-email-generate}
+
+Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. Du kan även förbättra ett befintligt innehåll med Content Assistant, vilket beskrivs i [den här sidan](generative-content.md).
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Create content]**.
 
@@ -46,7 +50,7 @@ Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden so
 
    ![](assets/email-genai-2.png)
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge innehållsassistenten ytterligare kontext.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
    Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
@@ -75,4 +79,5 @@ Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden so
    ![](assets/email-genai-6.png)
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)
+
 
