@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -202,10 +202,6 @@ Tillgängliga mått är samma som för [Uppdelning av fel efter typ](#email-deli
 >title="Rapporteringsspårning"
 >abstract="The **Spårning** -fliken i rapporten innehåller värdefulla data, inklusive mottagarnas beteende per länk, hur öppningar och klickningar visas samt detaljerad information om de URL:er som klickas oftast under en leverans."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widgeten Öppna och klickfrekvens"
->abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
 
 ### Leveransstatistik  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ The **[!UICONTROL Delivery statistics]** rapporten innehåller nyckeltal (KPI) s
 
 ### Öppnings- och klickfrekvens {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widgeten Öppna och klickfrekvens"
+>abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
+
+
+
 The **[!UICONTROL Open and click-through rate]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ The **[!UICONTROL Open and click-through rate]** tabellen visar data som är rel
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URL:er och klicka på strömwidgeten"
+>title="URL:er och klickströmmar"
 >abstract="The **URL:er och klickbara strömmar** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans."
 
-* The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans.
 
-  ![](assets/reporting_email_7.png){align="center"}
+The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans.
 
-  +++Läs mer om mätvärden för e-postleveransrapporter.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
++++Läs mer om mätvärden för e-postleveransrapporter.
 
-   * **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
+* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
 
-   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+* **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
-   * **[!UICONTROL Platform average]** : Detta medelvärde, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
+* **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
-+++
-
-* **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++Läs mer om mätvärden för e-postleveransrapporter.
-
-   * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
-
-   * **[!UICONTROL Percentage]**: Procentandel användare som interagerade med leveransen.
+* **[!UICONTROL Platform average]** : Detta medelvärde, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
 
 +++
 
-* **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
+### De tio mest besökta länkarna {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="De tio mest besökta länkarna"
+>abstract="The **De tio mest besökta länkarna** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk."
+
+
+The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Läs mer om mätvärden för e-postleveransrapporter.
+
+* **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+
+* **[!UICONTROL Percentage]**: Procentandel användare som interagerade med leveransen.
+
++++
+
+### Klicknedbrytning över tid {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Klicknedbrytning över tid"
+>abstract="The **Klicknedbrytning över tid** diagram visar tillgängliga data för mottagarnas beteende per länk."
+
+
+The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Användaraktiviteter {#user-activities-email}
 
@@ -332,7 +354,6 @@ The **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar o
 +++
 
 ## Indelning av öppningar {#breakdown-opens}
-
 
 ### Uppdelning av öppningar efter enhet {#breakdown-opens-devices}
 
