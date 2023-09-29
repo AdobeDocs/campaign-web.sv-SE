@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51dd6abe626f7de5fcef5fb757d28b1d85710a71
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Campaign har två olika rapporter:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Rapport om e-postleverans</strong>
+<div><a href="email-report.md"><strong>Leveransrapporter via e-post</strong>
 </div>
 <p>
 </td>
@@ -36,7 +36,7 @@ Adobe Campaign har två olika rapporter:
 <img alt="Sällan" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Push-leveransrapport<strong></strong></a>
+<a href="push-report.md"><strong> Rapporter om push-leverans<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +44,7 @@ Adobe Campaign har två olika rapporter:
 <img alt="Validering" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS-leveransrapport</strong></a>
+<a href="sms-report.md"><strong> SMS-leveransrapporter</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +53,7 @@ Adobe Campaign har två olika rapporter:
 <img alt="Validering" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Kampanjrapport</strong></a>
+<a href="campaign-reports.md"><strong>Kampanjrapporter</strong></a>
 </div>
 <p>
 </td>
