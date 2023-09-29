@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
 badge: label="Beta"
-source-git-commit: 51dd6abe626f7de5fcef5fb757d28b1d85710a71
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ Våra omfattande rapporteringsverktyg ger värdefulla insikter om hur effektiv e
 
 Adobe Campaign har två olika rapporter:
 
-* **Leveransrapport**: **Leveransrapport** erbjuder omfattande insikter och data som är specifika för varje kanal. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
+* **Leveransrapporter**: **Leveransrapporter** erbjuder omfattande insikter och data som är specifika för varje kanal. Dessa rapporter ger detaljerad information om prestanda, effektivitet och resultat av era individuella leveranser, vilket ger er en heltäckande översikt.
 
-* **Kampanjrapport**: **Kampanjrapport** ger en omfattande översikt över kampanjen och innehåller all relevant information om de olika leveranser som ingår. Den här rapporten innehåller en grundlig analys av resultatet, antalet lyckade inköp, målgruppens engagemang och andra viktiga mätvärden, som gör att ni kan utvärdera kampanjens övergripande effektivitet och effekt.
-
+* **Kampanjrapporter**: **Kampanjrapporter** ger en omfattande översikt över er kampanj och innehåller all relevant information om de olika leveranser som ingår. Dessa rapporter innehåller en grundlig analys av resultatet, per kanal: antal lyckade inköp, målgruppsengagemang och andra viktiga mätvärden. De gör att ni kan utvärdera kampanjens övergripande effektivitet och effekt.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
