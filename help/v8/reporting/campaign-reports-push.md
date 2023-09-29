@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter för push-kanalen
 description: Förstå kampanjrapporter för Push-kanalen
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -23,6 +23,9 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 >abstract="The **Leveransöversikt** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leverans av push-meddelanden."
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leverans av push-meddelanden. Mätvärdena anges nedan.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -46,6 +49,9 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
@@ -64,6 +70,9 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 >abstract="The **Körningsstatistik** tabellen visar hur framgångsrik leveransen är: meddelanden som ska levereras, lyckade resultat, fel och nya karantän."
 
 The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är. Mätvärdena anges nedan.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -85,6 +94,8 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 >abstract="The **Genererade klickströmmar** tabellen visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
 
 The **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
