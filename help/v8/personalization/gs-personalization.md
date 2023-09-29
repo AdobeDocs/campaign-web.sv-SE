@@ -53,7 +53,7 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 
   ![](assets/expression-editor-access.png){width="800" align="center"}
 
-* *Åtkomst till uttrycksredigeraren från en e-posttextkomponent*
+* *Öppna uttrycksredigeraren från en e-posttextkomponent*
 
   ![](assets/expression-editor-access-email.png){width="800" align="center"}
 
@@ -63,7 +63,7 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 
 >[!NOTE]
 >
->Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorsstyrt innehåll i e-postmeddelanden](conditions.md)
+>Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorat innehåll i e-postmeddelanden](conditions.md)
 
 ## Låt oss dyka djupare {#dive-deeper}
 
