@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Beta"
-source-git-commit: 9ade4045b34f93620694218a8ed4e53242c49aae
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 7%
 
 ---
@@ -24,6 +24,9 @@ ht-degree: 7%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
+Klicka på **Rapporter** från kampanjens kontrollpanel.
+
+![](assets/campaign_report_email_13.png)
 
 
 Campaign-rapporten är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel.
@@ -34,6 +37,3 @@ Kampanjrapportsidan visas med följande flikar:
 * [SMS-kanal](campaign-reports-sms.md)
 * [Push-kanal](campaign-reports-push.md)
 
-Klicka på Rapporter från kampanjens kontrollpanel för att få tillgång till din Campaign-rapport.
-
-![](assets/campaign_report_email_13.png)

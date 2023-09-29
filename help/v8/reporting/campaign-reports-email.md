@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,14 @@ ht-degree: 0%
 
 # Kampanjrapporter för e-postkanalen {#campaign-reports-email-channel}
 
+Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporter och mätvärden för e-postkanalen anges nedan. Lär dig hur du får tillgång till dina kampanjrapporter i [den här sidan](campaign-reports.md).
+
 ## Leveranssammanfattning {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Leveransöversikt"
->abstract="I leveransöversikten finns viktiga nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med e-postleveransen."
+>abstract="The **Leveransöversikt** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med e-postleveransen."
 
 ### Leveransöversikt {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 +++
 
 ### Reaktionsstatistik {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet inne
 
 ### Leveransstatistik {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Leveransstatistik"
+>abstract="The **Leveransstatistik** diagram visar hur framgångsrik leveransen är och vilka fel som har inträffat."
+
 The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden. Mätvärdena anges nedan.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widgeten Öppna och klickfrekvens"
+>title="Öppnings- och klickfrekvens"
 >abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
 
 
@@ -253,8 +260,6 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 
 ### De tio mest besökta länkarna {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="De tio mest besökta länkarna"
@@ -286,13 +291,19 @@ den **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillg�
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Användaraktiviteter {#user-activities-email}
 
-The  **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Mätvärdena anges nedan.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Användaraktiviteter"
+>abstract="The **Användaraktiviteter** I diagrammet visas hur öppningar och klickningar delas upp i form av ett diagram."
 
-![](assets/campaign_report_email_12.png)
+The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Mätvärden för den här rapporten finns nedan.
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Läs mer om mätvärden för e-postleveransrapporter.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
