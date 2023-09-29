@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -11,11 +11,6 @@ ht-degree: 0%
 ---
 
 # Rapporter om push-leverans {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Sammanfattning av push-leveransrapport"
->abstract="The **Översikt över push-leverans** ger en omfattande översikt över er push-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 ## Push-sammanfattning {#push-summary}
 
 ### Leveransöversikt {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Sammanfattning av push-leveransrapport"
+>abstract="The **Översikt över push-leverans** ger en omfattande översikt över er push-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat."
 
 The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
 
@@ -45,7 +45,6 @@ The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) 
 +++
 
 ### Målgrupp {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2131'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Rapportsändning"
->abstract="han **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
+>abstract="The **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
 
 ### Inledande målpopulation {#email-delivery-targeted-population}
 
@@ -106,7 +106,7 @@ The **[!UICONTROL Causes of exclusion]** diagram och tabell visar uppdelningen p
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget för leveransgenomströmning"
+>title="Leveranskapacitet"
 >abstract="The **Leveransflöde** rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
@@ -118,7 +118,7 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget för sändningsstatistik"
+>title="Sändningsstatistik"
 >abstract="The **Sändningsstatistik** rapporten innehåller tillgängliga data för eventuella fel som påträffats i varje domän."
 
 The **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga data för eventuella fel som påträffats i varje domän. Mätvärdena anges nedan.
@@ -235,7 +235,7 @@ The **[!UICONTROL Delivery statistics]** rapporten innehåller nyckeltal (KPI) s
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widgeten Öppna och klickfrekvens"
+>title="Öppnings- och klickfrekvens"
 >abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
 
 
@@ -306,7 +306,7 @@ The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller ti
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Klicknedbrytning över tid"
 >abstract="The **Klicknedbrytning över tid** diagram visar tillgängliga data för mottagarnas beteende per länk."
 

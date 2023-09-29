@@ -3,7 +3,7 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -13,11 +13,6 @@ ht-degree: 0%
 # SMS-leveransrapporter {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Översikt över SMS-leverans"
->abstract="The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Rapportsändning"
 >abstract="The **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
@@ -25,6 +20,11 @@ ht-degree: 0%
 The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans.
 
 ## Leveranssammanfattning {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Översikt över SMS-leverans"
+>abstract="The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans."
 
 ### Leveransöversikt {#sms-delivery-overview}
 
