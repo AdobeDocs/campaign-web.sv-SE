@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,14 @@ ht-degree: 1%
 >id="acw_audience_fromfile_formatting"
 >title="Formateringsparametrar"
 >abstract="Kontrollera formateringsparametrarna för filen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Förhandsgranska filen"
+>abstract="Kontrollera förhandsgranskningen av filen. Den här skärmen visar endast upp till 30 poster."
+
+
 
 Du kan inte överföra profiler direkt till Campaign från gränssnittet, men du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
 
