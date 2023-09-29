@@ -4,9 +4,9 @@ title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -34,12 +34,22 @@ Så här visar du rapporter:
 
    ![](assets/reporting2.png)
 
+   Du kan också använda de tre punkterna **Fler åtgärder** -knapp bredvid leveransnamnet i kampanjlistan enligt nedan:
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. Välj en rapport från listan på den vänstra menyn.
 
    ![](assets/reporting.png)
 
-1. Om leveransen är återkommande kan du välja en viss leverans att rapportera om genom att klicka på **[!UICONTROL Select deliveries]**.
+1. Om leveransen är återkommande väljer du en viss leverans att rapportera om genom att klicka på **[!UICONTROL Select deliveries]**.
 
    Du kan också använda en tidsperiod för rapporten genom att välja **[!UICONTROL Contact date]**.
 
    ![](assets/delivery-recurring.png)
+
+En fullständig lista över rapporter och tillhörande mått för varje kanal finns på följande sidor:
+
+* [Leveransrapporter via e-post](email-report.md)
+* [SMS-leveransrapporter](sms-report.md)
+* [Rapporter om push-leverans](push-report.md)

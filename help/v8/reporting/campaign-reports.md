@@ -3,10 +3,10 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,13 @@ Klicka på **Rapporter** från kampanjens kontrollpanel.
 
 ![](assets/campaign_report_email_13.png)
 
+Du kan också använda de tre punkterna **Fler åtgärder** knapp bredvid kampanjnamnet i kampanjlistan, enligt nedan:
 
-Campaign-rapporten är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel.
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-Kampanjrapportsidan visas med följande flikar:
+Kampanjrapporten är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel.
+
+En fullständig lista över rapporter och tillhörande mått för varje kanal finns på följande sidor:
 
 * [E-postkanal](campaign-reports-email.md)
 * [SMS-kanal](campaign-reports-sms.md)
