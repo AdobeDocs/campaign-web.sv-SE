@@ -2,8 +2,10 @@
 audience: end-user
 title: E-postgenerering med Content Assistant
 description: Kom igång med Content Assistant
-badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+badge: label="Alfa"
+hide: true
+hidefromtoc: true
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
