@@ -2,9 +2,9 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ Artificiell intelligens och maskininlärningsmodeller förbättras över tid fö
 
 ## Rekommendationer  {#recommendations-ai}
 
-När du ställer en fråga i den AI-baserade kunskapsassistenten beaktas den aktuella produktkontexten, dvs. den Campaign-skärm som du befinner dig i och innehållet i den aktuella hjälprutan.
+När du ställer en fråga i den AI-baserade kunskapsassistenten beaktas den aktuella produktkontexten, dvs. skärmen du befinner dig i och innehållet i den aktuella hjälprutan.
 
-För att få ut det bästa av den AI-baserade kunskapsassistenten rekommenderar vi dig att:
+Därför är det bäst att ställa frågor om användargränssnittskontexten. Om du till exempel behöver lära dig hur du skickar en push-leverans i ett arbetsflöde går du till **Arbetsflöde** vänster menypost och använd en sammanhangsberoende hjälpruta i just det sammanhanget. Om du vill veta mer om hur du rapporterar mätvärden går du till kampanj- eller leveransrapporterna och börjar där.
+
+
+För att få ut så mycket som möjligt av den AI-baserade kunskapsassistenten rekommenderar vi dig att
 
 * Var så exakt och specifik som möjligt och undvik tvetydighet. Svaret blir mer korrekt och användbart.
 * För att hjälpa den AI-baserade kunskapsassistenten att hitta rätt information lägger du till så mycket information som möjligt om vad du försöker lära dig.

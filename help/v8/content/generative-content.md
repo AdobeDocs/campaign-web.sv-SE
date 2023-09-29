@@ -3,7 +3,7 @@ audience: end-user
 title: Text med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4c6cb39e33ac781cbb2cfe3a0945ef12ab39a243
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 
 
 # Skapa text med Content Assistant {#generative-content}
+
+
 
 När du har skapat och personaliserat dina e-postmeddelanden kan du använda Content Assistant som drivs av generativ AI för att ta ditt innehåll till nästa nivå.
 

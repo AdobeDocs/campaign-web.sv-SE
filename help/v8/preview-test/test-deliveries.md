@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
+source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Förhandsgranskningsläge"
 >abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
-När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka testleveranser (dvs. &#39;korrektur&#39;) för att testa profiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
+När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka testleveranser till testprofiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
 Om du vill identifiera eventuella fel i meddelandeinnehållet eller personaliseringsinställningarna skickar du testmeddelanden till testprofiler innan du skickar dem till målgruppen. Ett testmeddelande ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka testleveranser (som tidigare kallats korrektur) är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Mottagarna av ett testmeddelande kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
 
@@ -34,7 +34,7 @@ Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Lä
 
 Så här börjar du testa ditt meddelandeinnehåll:
 
-1. Redigera innehållet i din e-post eller SMS-leverans.
+1. Redigera innehållet i leveransen.
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
 1. Klicka på **[!UICONTROL Test]** för att skicka testmeddelanden.
 
@@ -72,23 +72,13 @@ Så här börjar du testa ditt meddelandeinnehåll:
 
 Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Adobe Campaign] klientkonsol. Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs nedan.
 
-1. Redigera innehållet i leveransen och klicka på **[!UICONTROL Simulate content]** -knappen. Klicka sedan på **[!UICONTROL Test]** -knappen.
-
-   >[!NOTE]
-   >
-   >Om du redan har valt profiler till [förhandsgranska leveransen](preview-content.md), visas de i den vänstra rutan.
-
-   ![](assets/simulate-test-button-email.png)
+1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
 1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **[!UICONTROL Test profiles]** för att rikta sig till fiktiva mottagare som får testmeddelandet eller SMS-leveransen.
 
    ![](assets/simulate-profile-mode.png)
 
 1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
-
-   >[!NOTE]
-   >
-   >Som standard är **[!UICONTROL Use test profiles]** läge är valt.
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
@@ -99,9 +89,7 @@ Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen.
 Använd profilersättning för att skicka testmeddelanden till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Gör så här:
 
 
-1. Redigera innehållet i leveransen och klicka på **[!UICONTROL Simulate content]** -knappen. Klicka sedan på **[!UICONTROL Test]** -knappen.
-
-   ![](assets/simulate-test-button-email.png)
+1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
 1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **[!UICONTROL Substitute from main target]** för att skicka ett test till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
 
@@ -131,7 +119,7 @@ Använd profilersättning för att skicka testmeddelanden till en viss e-postadr
 
 När du arbetar med push-meddelanden kan testleveranser bara skickas till dina appprenumeranter. Följ stegen nedan för att välja dem.
 
-1. Redigera innehållet i leveransen och klicka på **[!UICONTROL Simulate content]** -knappen. Klicka sedan på **[!UICONTROL Test]** -knappen.
+1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
    ![](assets/simulate-test-button-push.png)
 
