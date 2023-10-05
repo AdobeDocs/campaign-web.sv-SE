@@ -2,13 +2,13 @@
 title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
-
 
 # Arbeta med mottagare och målgrupper {#about-recipients}
 
@@ -47,13 +47,13 @@ Du kan även komma åt mottagare från **Explorer** visa, bläddra och skapa map
 >
 >Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över mottagare som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
 
-Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
+Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. Lär dig hur du arbetar med prenumerationstjänster i [den här sidan](manage-services.md)
 
 Du kan skapa arbetsflöden för att deduplicera, berika, kombinera profiler och bygga målgrupper. Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
 
 ## Vad är målgrupper? {#audiences}
 
-Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. [Lär dig vad som är en leveransmall](../msg/delivery-template.md).
+Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Läs mer om leveransmallar i [den här sidan](../msg/delivery-template.md).
 
 Om du vill definiera en målgrupps befolkning kan du:
 
@@ -66,7 +66,7 @@ När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper*
 
 >[!NOTE]
 >
->När meddelanden skickas i samband med ett kampanjarbetsflöde definieras målgruppen i en specifik **Bygg målgrupper** arbetsflödesaktivitet. I det här sammanhanget kan du inte läsa in en målgrupp från en fil för en e-postleverans, och målgruppen definieras endast i den här dedikerade aktiviteten. Lär dig definiera målgruppen för leveransen i ett kampanjarbetsflöde [i det här avsnittet](../workflows/activities/build-audience.md)
+>När meddelanden skickas i samband med ett kampanjarbetsflöde definieras målgruppen i en specifik **Bygg målgrupper** arbetsflödesaktivitet. I det här sammanhanget kan du inte läsa in en målgrupp från en fil för en e-postleverans, och målgruppen definieras endast i den här dedikerade aktiviteten. Lär dig definiera målgruppen för leveransen i ett kampanjarbetsflöde i [det här avsnittet](../workflows/activities/build-audience.md)
 
 ## Måldimensioner {#targeting-dimensions}
 
