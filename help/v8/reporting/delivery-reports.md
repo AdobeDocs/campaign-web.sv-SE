@@ -4,9 +4,9 @@ title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Läs in igen"
->abstract="Klicka på **Läs in igen** för att hämta senaste mätvärden och uppdatera data."
+>title="Exportera"
+>abstract="Klicka på **Exportera** om du vill exportera dessa mätvärden till PDF eller CSV-format, vilket gör att du kan dela eller skriva ut dem. "
 
 Adobe Campaign erbjuder flera typer av rapporter som är tillgängliga för varje leverans. Med hjälp av de här rapporterna kan du mäta och visualisera effekten och prestandan av dina meddelanden på en inbyggd kontrollpanel.
 
