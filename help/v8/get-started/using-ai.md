@@ -2,20 +2,23 @@
 title: Använda en AI-driven kunskapsassistent på Campaign Web
 description: Använda en AI-driven kunskapsassistent på Campaign Web
 badge: label="Alfa"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
 # Använda den AI-baserade kunskapsassistenten {#using-ai}
 
-Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med den AI-baserade Knowkedge Assistant som finns i produktens sammanhangsbaserade hjälprutor.
+Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang, med Q&amp;A AI-driven Knowkedge Assistant som finns i produkttextrutorna.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Denna funktion finns i Alpha och kan ändras utan föregående meddelande.
+>
+>Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen.
 
 
 The **Knowledge Assistant med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
@@ -58,5 +61,3 @@ För att få ut så mycket som möjligt av den AI-baserade kunskapsassistenten r
 * Rätta till och förfina dina frågor för att få bättre svar. Om svaret inte är korrekt eller användbart kan du testa olika metoder och lägga till sammanhang för att få bättre resultat.
 * Använd lämpliga termer och formuleringar, med en neutral ton.
 * Betygsätt svaren och ge feedback så att våra tekniker kan lära sig av era erfarenheter och förbättra resultaten.
-
-
