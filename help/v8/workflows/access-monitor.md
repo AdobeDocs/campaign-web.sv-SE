@@ -3,8 +3,8 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 badge: label="Beta"
-exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
+exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
+source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
