@@ -3,13 +3,13 @@ audience: end-user
 title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
 
 # Bläddra bland, söka i och filtrera listor {#list-screens}
 
@@ -66,22 +66,22 @@ Regelbyggarens princip för anpassade filter liknar den regel som används för 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Visa avancerade attribut"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Använd den här växeln om du vill visa avancerade attribut."
+>abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Avancerade fält för regelbyggaren"
->abstract="Konfigurera avancerade filter med avancerade fält."
+>abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Avancerade attribut i regelbyggaren"
->abstract="Använd avancerade attribut för att definiera regeln."
+>title="Avancerade attribut för regelbyggaren"
+>abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
 
 
 Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar. Attribut som angetts som `advanced` attribut i dataschemat döljs från konfigurationsskärmarna.
 
-Aktivera **Visa avancerade attribut** växla för att se alla tillgängliga attribut för den aktuella listan: attributlistan uppdateras omedelbart.
+Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar. Attributlistan uppdateras omedelbart.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
