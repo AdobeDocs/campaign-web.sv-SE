@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -31,29 +31,28 @@ Så här loggar du in på Adobe Experience Cloud:
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   Läs mer om hur man arbetar med Adobe Experience Cloud i [den här artikeln](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv){target="_blank"}.
+   Läs mer om organisationer i Adobe Experience Cloud i [den här artikeln](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv){target="_blank"}.
 
 
 ## Tillgång till Adobe Campaign {#access-to-campaign}
 
 Om du vill komma åt din Campaign-miljö väljer du **Campaign** från Adobe Experience Cloud hemsida.
 
-Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på **Starta** på organisationskortet.
-
-![](assets/launch-campaign.png)
-
 Du kan också använda lösningsväljaren för att bläddra mellan dina Adobe Experience Cloud-lösningar och program.
 
 ![](assets/solution-switcher.png)
+
+Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på **Starta** för rätt instans.
+
+![](assets/launch-campaign.png)
 
 ## Adobe Experience Cloud toppnavigering {#top-bar}
 
 Använd gränssnittets övre fält för att:
 
-* dela dina synpunkter som betatestare
-* växla mellan organisationer och instanser
-* växla mellan olika Adobe Experience Cloud-program
-* få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
+* dela din feedback som en betaanvändare
+* växla mellan olika organisationer
+* växla mellan era Adobe Experience Cloud-lösningar och appar
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -83,7 +82,7 @@ Så här byter du språk:
 
 1. Klicka på din profilikon, längst upp till höger och välj sedan **Inställningar**.
 1. Klicka sedan på den språklänk som visas under din e-postadress.
-1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
+1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad till ditt första språk.
 
 ## Mörkt tema {#dark-theme}
 
