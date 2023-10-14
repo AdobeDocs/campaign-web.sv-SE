@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,13 @@ Så här loggar du in på Adobe Experience Cloud:
 
 Om du vill komma åt din Campaign-miljö väljer du **Campaign** från Adobe Experience Cloud hemsida.
 
-
 Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på **Starta** på organisationskortet.
 
 ![](assets/launch-campaign.png)
 
-Du kan också växla mellan olika Adobe Experience Cloud-lösningar.
+Du kan också använda lösningsväljaren för att bläddra mellan dina Adobe Experience Cloud-lösningar och program.
 
+![](assets/solution-switcher.png)
 
 ## Adobe Experience Cloud toppnavigering {#top-bar}
 
@@ -57,6 +57,9 @@ Använd gränssnittets övre fält för att:
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Webbläsare som stöds {#browsers}
+
+Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
 
 ## Språkinställningar {#language-pref}
 

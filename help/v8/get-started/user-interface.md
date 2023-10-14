@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -103,9 +103,7 @@ Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din u
 
 Läs mer i [det här avsnittet](using-ai.md).
 
-## Webbläsare som stöds {#browsers}
 
-Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
 
 ## Läs mer {#learn-more}
 
