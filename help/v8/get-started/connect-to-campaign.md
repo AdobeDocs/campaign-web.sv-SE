@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
 badge: label="Beta"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -36,15 +36,17 @@ Så här loggar du in på Adobe Experience Cloud:
 
 ## Tillgång till Adobe Campaign {#access-to-campaign}
 
-Om du vill komma åt din Campaign-miljö väljer du **Campaign** från Adobe Experience Cloud hemsida.
+Om du vill komma åt din Campaign-miljö väljer du **Campaign** från **Snabb åtkomst** på Adobe Experience Cloud hemsida.
 
-Du kan också använda lösningsväljaren för att bläddra mellan dina Adobe Experience Cloud-lösningar och program.
+Om du redan är ansluten till en annan Adobe Experience Cloud-lösning kan du även bläddra till Campaign-miljön från lösningsväljaren längst upp till höger på skärmen.
 
 ![](assets/solution-switcher.png)
 
 Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på **Starta** för rätt instans.
 
 ![](assets/launch-campaign.png)
+
+Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet i [den här sidan](user-interface.md).
 
 ## Adobe Experience Cloud toppnavigering {#top-bar}
 
