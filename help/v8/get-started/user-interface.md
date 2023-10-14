@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -89,19 +89,6 @@ I avsnittet BESLUTSHANTERING kan du visa erbjudandemallar. De här listorna är 
 
 Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [det här avsnittet](../content/offers.md).
 
-## Övre fält {#top-bar}
-
-Använd gränssnittets övre fält för att:
-
-* dela dina synpunkter som betatestare
-* växla mellan organisationer och instanser
-* växla mellan olika Adobe Experience Cloud-program
-* få tillgång till hjälpsidor, kontakta support och dela feedback. Du kan söka efter hjälpartiklar och videoklipp i sökfältet.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Sammanhangsberoende hjälp {#user-interface-help}
@@ -120,37 +107,10 @@ Läs mer i [det här avsnittet](using-ai.md).
 
 Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
 
-## Språkinställningar {#language-pref}
-
-Campaign v8 Web finns för närvarande på följande språk:
-
-* Engelska (USA) - EN-US
-* Franska - FR
-* Tyska - DE
-* Italienska - IT
-* Spanska - ES
-* Portugisiska (Brasilien) - PTBR
-* Japanska - JP
-* Koreanska - KR
-* Förenklad kinesiska - CHS
-* Traditionell kinesiska - CHT
-
-
-Ditt standardspråk för Campaign Web avgörs av det språk du föredrar i din användarprofil. Det gäller inte språket för er Campaign-server och kundkonsol.
-
-Så här byter du språk:
-
-1. Klicka på din profilikon, längst upp till höger och välj sedan **Inställningar**.
-1. Klicka sedan på den språklänk som visas under din e-postadress.
-1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad på ditt första språk.
-
-## Mörkt tema {#dark-theme}
-
-Du kan växla till det mörka temat från din profilikon. Använd **Mörkt tema** för att aktivera/inaktivera den.
-
 ## Läs mer {#learn-more}
 
 Lär dig hur du bläddrar bland, söker efter och filtrerar listor som finns i Campaign-miljön [på den här sidan](list-filters.md).
+
 
 
 <!--
