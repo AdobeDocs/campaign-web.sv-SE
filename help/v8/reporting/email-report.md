@@ -3,7 +3,8 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -76,7 +77,7 @@ The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveran
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Leveransstatistik"
+>title="Leveransorsaker"
 >abstract="The **Orsaker till uteslutning** diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under leveransförberedelsen."
 
 
@@ -319,7 +320,7 @@ The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillg�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widgeten Användaraktiviteter"
+>title="Användaraktiviteter"
 >abstract="The **Användaraktiviteter** I diagrammet visas hur öppningar och klickningar delas upp i form av ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter."
 
 The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
@@ -338,7 +339,7 @@ The **[!UICONTROL User activities]** rapporten visar hur öppningar och klicknin
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Widgeten Spårningsstatistik"
+>title="Spårningsstatistik"
 >abstract="The **Spårningsstatistik** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata."
 
 The **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata.
