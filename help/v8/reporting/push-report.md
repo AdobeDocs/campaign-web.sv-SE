@@ -3,9 +3,10 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Sammanfattning av push-leveransrapport"
+>title="Översikt över push-leverans"
 >abstract="The **Översikt över push-leverans** ger en omfattande översikt över er push-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat."
 
 The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
@@ -90,7 +91,7 @@ The **Övergripande statistik** rapporten innehåller data för skickade push-me
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Övergripande statistik"
+>title="Undantag för push-meddelanden"
 >abstract="The **Undantag** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet."
 
 The **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
