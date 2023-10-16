@@ -3,13 +3,13 @@ audience: end-user
 title: Kom igång med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång med Content Assistant {#generative-gs}
 
@@ -40,7 +40,7 @@ Du kan använda Campaign Content Assistant i dina e-postmeddelanden för att: [g
 Allmänna riktlinjer för hur du använder Content Assistant för att skapa e-post anges nedan:
 
 * Kvaliteten på det genererade innehållet påverkas i hög grad av det marknadsföringsmål/den uppmaning du anger. Använd en väldefinierad uppmaning för GenAI-modellen att tolka korrekt. 
-* Ladda upp varumärkesresurser för att få korrekt varumärkesinnehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan vara PDF-filer, Microsoft Word-dokument, JPEG, PNG eller ZIP-filer (med filformat som stöds).
+* Ladda upp varumärkesresurser för att få korrekt varumärkesinnehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan ha följande format: PDF, JPEG, PNG eller ZIP-filer (med filformat som stöds).
 * Den rekommenderade storleken för överförda varumärkesresurser är mindre än 10 MB. Större filer eller mycket bilder kan fungera, men bearbetningstiden ökar.
 * Använd en e-postmall som skapats av Adobe Campaign, eller helst [inbyggda e-postmallar](../content/email-sample-templates.md) för att skapa e-postinnehåll. E-postmall med upp till 8-10 bilder rekommenderas.
 
@@ -81,4 +81,3 @@ Följande begränsningar gäller Campaign Content Assistant:
 </div>
 <p></td>
 </tr></table>
-
