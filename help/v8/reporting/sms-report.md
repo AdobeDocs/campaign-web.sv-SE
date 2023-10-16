@@ -3,9 +3,10 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -70,7 +71,7 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen. M
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Övergripande statistik"
+>title="Allmän statistik för SMS"
 >abstract="The **Övergripande statistik** rapporten innehåller data för skickade SMS: success, errors and quarantines."
 
 The **Övergripande statistik** rapporten innehåller data för skickade SMS-meddelanden. Mätvärdena anges nedan.
@@ -91,7 +92,7 @@ The **Övergripande statistik** rapporten innehåller data för skickade SMS-med
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Allmän statistik för SMS"
+>title="SMS-undantag"
 >abstract="The **Undantag** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet."
 
 
@@ -103,10 +104,9 @@ The **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menyn Leveransflöde"
->abstract="Rapporten Leveransflöde innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
+>title="SMS-leverans"
+>abstract="The **Leveransflöde** rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram.  Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme."
 
-Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
+Den här rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
 ![](assets/reporting_sms_2.png)
-
