@@ -1,9 +1,9 @@
 ---
 title: Använda en AI-driven kunskapsassistent på Campaign Web
-description: Använda en AI-driven kunskapsassistent på Campaign Web
+description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
 badge: label="Alfa"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
