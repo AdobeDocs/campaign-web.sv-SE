@@ -2,13 +2,13 @@
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
-source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
+exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
-
 
 # Skyddsritningar och begränsningar {#guardrails-limitations}
 
@@ -58,7 +58,12 @@ Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bor
 
 ## Fördefinierade filter {#filters-guardrails-limitations}
 
-När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Filtret är skrivskyddat"
+>abstract="Vissa fördefinierade filter är inte tillgängliga i användargränssnittet i den versionen av produkten. Dessa filter är skrivskyddade. Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen."
+
+När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten. Dessa filter är skrivskyddade.
 
 Ett specifikt felmeddelande visas.
 
