@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Mottagarna erbjuder förhandsgranskning"
 >abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Leveransmall för prenumerationer"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Egenskaper för landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Schema för landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Huvudsida för landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Prenumeration på landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Anrop till åtgärd av landningssidor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Landing Pages simulate"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Aktiviteten är inte redigerbar"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Spara fragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Skapa fragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Fragmentegenskaper"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Fragmenttyp"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Fragmentlista"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragmentdetaljer"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Innehållsmall"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Egenskaper för innehållsmall"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Design av innehållsmall"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Val av innehållsmall"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Läs in filaktivitet"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Avstämningsaktivitet"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Avstämningsmål"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Avstämningsregler"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Måldimension för avstämning"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Avstämningsmarkeringsfält"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Avstämningsmarkeringsattribut"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Avstämning skapa villkor"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Avstämning genererar komplementtal"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Filtret Spara villkorligt innehåll"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Filter för val av villkorligt innehåll"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Villkorligt innehåll på ämnesraden"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Villkorligt villkor för subjektiv"
+>abstract="TBC"
+
