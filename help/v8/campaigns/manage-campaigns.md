@@ -3,13 +3,13 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 badge: label="Beta"
-source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
+exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 1%
 
 ---
-
 
 # Få tillgång till och hantera era kampanjer{#manage-campaigns}
 

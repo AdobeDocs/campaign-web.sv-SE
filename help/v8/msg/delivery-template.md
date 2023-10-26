@@ -5,8 +5,8 @@ description: Lär dig hur du skapar och använder leveransmallar på Campaign We
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 3%
@@ -204,5 +204,3 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 * [Läs mer om förhandsgranskning av SMS-innehåll](../sms/content-sms.md)
 
 * [Läs mer om hur du förhandsgranskar push-innehåll](../push/gs-push.md)
-
-

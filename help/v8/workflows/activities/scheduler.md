@@ -3,13 +3,13 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 10%
 
 ---
-
 
 # Schemaläggare {#scheduler}
 
@@ -78,6 +78,3 @@ Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
 I följande exempel är aktiviteten konfigurerad så att arbetsflödet körs flera gånger per dag kl. 9 och 12, varje veckodag från 1 oktober 2023 till 1 januari 2024.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

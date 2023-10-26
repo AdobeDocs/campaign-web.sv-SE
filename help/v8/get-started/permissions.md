@@ -3,13 +3,13 @@ audience: end-user
 title: Behörighetshantering på Campaign-webben
 description: Läs mer om behörigheter på Campaign-webben v8
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
-
 
 # Åtkomst och behörigheter {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Så här skapar du en mapp:
    Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen från **Ytterligare alternativ** av egenskaperna enligt nedan för en leverans:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

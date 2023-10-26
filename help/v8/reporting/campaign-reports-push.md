@@ -3,13 +3,13 @@ audience: end-user
 title: Kampanjrapporter för push-kanalen
 description: Förstå kampanjrapporter för Push-kanalen
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
-
 
 # Kampanjrapporter för push-kanalen {#campaign-reports-push-channel}
 

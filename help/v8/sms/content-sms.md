@@ -3,8 +3,8 @@ audience: end-user
 title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 badge: label="Beta"
-exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
+exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 2%

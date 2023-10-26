@@ -8,13 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
+exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång med dynamiskt innehåll {#gs-dynamic-content}
 

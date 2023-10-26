@@ -2,7 +2,8 @@
 title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -113,4 +114,3 @@ The **Fel** Indikatorn visar följande KPI:er för varje kanal:
 * Procentandel av antalet fel jämfört med det totala antalet meddelanden som ska levereras.
 
 * Totalt antal fel som ackumulerats under leveranser och automatisk återinläsning.
-

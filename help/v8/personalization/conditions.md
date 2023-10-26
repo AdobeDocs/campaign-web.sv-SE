@@ -6,8 +6,8 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
