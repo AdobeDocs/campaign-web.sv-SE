@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="Skapa mottagare"
->abstract="TBC"
+>abstract="Skapa mottagare"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Mottagarinformation"
->abstract="TBC"
+>abstract="Mottagarinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Mottagarens kontaktinformation"
->abstract="TBC"
+>abstract="Mottagarens kontaktinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Mottagaradress"
->abstract="TBC"
+>abstract="Mottagaradress"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Mottagarkonto"
->abstract="TBC"
+>abstract="Mottagarkonto"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Anpassade fält för mottagare"
->abstract="TBC"
+>abstract="Anpassade fält för mottagare"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Översikt över mottagarkort"
->abstract="TBC"
+>abstract="Översikt över mottagarkort"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="Mottagarens kontaktytor"
->abstract="TBC"
+>abstract="Mottagarens kontaktytor"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="Mottagarens prenumerationslista"
->abstract="TBC"
+>abstract="Mottagarens prenumerationslista"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="Val av mottagarprenumerationer"
->abstract="TBC"
+>abstract="Val av mottagarprenumerationer"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="Mottagarna erbjuder en lista över berättigade"
->abstract="TBC"
+>abstract="Mottagarna erbjuder en lista över berättigade"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="Mottagarna erbjuder förhandsgranskning"
->abstract="TBC"
+>abstract="Mottagarna erbjuder förhandsgranskning"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Leveransmall för prenumerationer"
->abstract="TBC"
+>abstract="Leveransmall för prenumerationer"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landningssidor"
->abstract="TBC"
+>abstract="Landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Egenskaper för landningssidor"
->abstract="TBC"
+>abstract="Egenskaper för landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Landningssidor"
->abstract="TBC"
+>abstract="Landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Schema för landningssidor"
->abstract="TBC"
+>abstract="Schema för landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Huvudsida för landningssidor"
->abstract="TBC"
+>abstract="Huvudsida för landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="Prenumeration på landningssidor"
->abstract="TBC"
+>abstract="Prenumeration på landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="Anrop till åtgärd av landningssidor"
->abstract="TBC"
+>abstract="Anrop till åtgärd av landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="Landing Pages simulate"
->abstract="TBC"
+>abstract="Landing Pages simulate"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Aktiviteten är inte redigerbar"
->abstract="TBC"
+>abstract="Aktiviteten är inte redigerbar"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Fragment"
->abstract="TBC"
+>abstract="Fragment"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Spara fragment"
->abstract="TBC"
+>abstract="Spara fragment"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="Skapa fragment"
->abstract="TBC"
+>abstract="Skapa fragment"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Fragmentegenskaper"
->abstract="TBC"
+>abstract="Fragmentegenskaper"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Fragmenttyp"
->abstract="TBC"
+>abstract="Fragmenttyp"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Fragmentlista"
->abstract="TBC"
+>abstract="Fragmentlista"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Fragmentdetaljer"
->abstract="TBC"
+>abstract="Fragmentdetaljer"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Innehållsmall"
->abstract="TBC"
+>abstract="Innehållsmall"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Egenskaper för innehållsmall"
->abstract="TBC"
+>abstract="Egenskaper för innehållsmall"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Design av innehållsmall"
->abstract="TBC"
+>abstract="Design av innehållsmall"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Val av innehållsmall"
->abstract="TBC"
+>abstract="Val av innehållsmall"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Läs in filaktivitet"
->abstract="TBC"
+>abstract="Läs in filaktivitet"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Avstämningsaktivitet"
->abstract="TBC"
+>abstract="Avstämningsaktivitet"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Avstämningsmål"
->abstract="TBC"
+>abstract="Avstämningsmål"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Avstämningsregler"
->abstract="TBC"
+>abstract="Avstämningsregler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Måldimension för avstämning"
->abstract="TBC"
+>abstract="Måldimension för avstämning"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Avstämningsmarkeringsfält"
->abstract="TBC"
+>abstract="Avstämningsmarkeringsfält"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Avstämningsmarkeringsattribut"
->abstract="TBC"
+>abstract="Avstämningsmarkeringsattribut"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="Avstämning skapa villkor"
->abstract="TBC"
+>abstract="Avstämning skapa villkor"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="Avstämning genererar komplementtal"
->abstract="TBC"
+>abstract="Avstämning genererar komplementtal"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Filtret Spara villkorligt innehåll"
->abstract="TBC"
+>abstract="Filtret Spara villkorligt innehåll"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="Filter för val av villkorligt innehåll"
->abstract="TBC"
+>abstract="Filter för val av villkorligt innehåll"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="Villkorligt innehåll på ämnesraden"
->abstract="TBC"
+>abstract="Villkorligt innehåll på ämnesraden"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Villkorligt villkor för subjektiv"
->abstract="TBC"
+>abstract="Villkorligt villkor för subjektiv"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Målgruppsegenskaper"
->abstract="TBC"
+>abstract="Målgruppsegenskaper"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Antal målgrupper"
->abstract="TBC"
+>abstract="Antal målgrupper"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulera testprofiler"
->abstract="TBC"
+>abstract="Simulera testprofiler"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simulera valet av testprofiler"
->abstract="TBC"
+>abstract="Simulera valet av testprofiler"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simulera testprofiler som skickar"
->abstract="TBC"
+>abstract="Simulera testprofiler som skickar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simulera e-postlogg"
->abstract="TBC"
+>abstract="Simulera e-postlogg"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Totalt antal prenumerationer"
->abstract="TBC"
+>abstract="Totalt antal prenumerationer"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="Prenumerationer under perioden"
->abstract="TBC"
+>abstract="Prenumerationer under perioden"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Generell utveckling av prenumerationer"
->abstract="TBC"
+>abstract="Generell utveckling av prenumerationer"
