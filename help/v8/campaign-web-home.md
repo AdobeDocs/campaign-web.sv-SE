@@ -4,7 +4,7 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Adobe Campaign v8 webbdokumentation {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png)
+<!--![](assets/do-not-localize/banner-documentationv8.png)-->
 
 Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform. [Läs mer](get-started/get-started.md)
 
