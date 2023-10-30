@@ -3,14 +3,19 @@ title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # Viktiga prestandaindikatorer {#kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_home_kpi"
+>title="Viktiga resultatindikatorer"
+>abstract="The **Viktiga resultatindikatorer** kan du kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
