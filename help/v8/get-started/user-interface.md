@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -32,24 +32,14 @@ Bläddra bland länkarna till vänster för att få tillgång till webbfunktione
 Skärmen innehåller länkar och resurser som gör att du snabbt kommer åt de viktigaste webbfunktionerna i Campaign v8.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Senaste"
 >abstract="The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring."
 
-#### Få åtkomst till senaste leveranser {#user-interface-recent}
-
 The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring. Klicka på **Visa mer** för att ladda fler leveranser.
-
-#### Kontrollera nyckeltal {#user-interface-kpi}
 
 The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er i [den här sidan](../reporting/kpis.md).
 
-#### Åtkomstdokumentation {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Utbildning"
->abstract="Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** nedan."
 
 Få åtkomst till hjälpsidorna för webbnyckel v8 från **Utbildning** på startsidan.
 
