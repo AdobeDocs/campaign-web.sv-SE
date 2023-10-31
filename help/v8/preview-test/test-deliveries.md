@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen.
    ![](assets/simulate-profile-mode.png)
 
 1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
+
+   >[!NOTE]
+   >
+   >Testprofiler skapas i [!DNL Campaign] klientkonsolen i **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** mapp. Lär dig skapa och hantera dirigerade adresser i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
