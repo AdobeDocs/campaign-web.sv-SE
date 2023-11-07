@@ -3,9 +3,9 @@ title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats
 >id="acw_keyindicators_unsubscriptions"
 >title="Avprenumerationer"
 >abstract="I det här måttet visas, för den valda kanalen, summan av alla avbeställningar från en tjänst och procentandelen avbeställningar jämfört med det totala antalet meddelanden som levererats med framgång."
+
+>[!NOTE]
+>
+> KPI:er för prenumeration och avprenumeration varierar beroende på tjänsttyp. E-postprenumerationer och avbeställningar omfattar till exempel alla e-postrelaterade tjänster, oavsett om de är en följd av manuella åtgärder eller webbformulär. Det är viktigt att särskilja detta tillvägagångssätt från leveransnivåmätvärdet för att avsluta prenumerationen, som spårar länkklick som inte är faktiska avabonnerade användare.
 
 Mottagarna måste kunna avanmäla sig från e-post och SMS via en dedikerad avprenumerationslänk i e-postinnehållet eller genom att svara STOP på ett SMS.
 
