@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Avstämning genererar komplementtal"
 >abstract="Avstämning genererar komplementtal"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Delad generering av komplementfärg"
+>abstract="Delad generering av komplementfärg"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Kombinera skapa komplementfärger"
+>abstract="Kombinera skapa komplementfärger"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segment för delad aktivitet"
+>abstract="Segment för delad aktivitet"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Generell utveckling av prenumerationer"
 >abstract="Generell utveckling av prenumerationer"
+
+
