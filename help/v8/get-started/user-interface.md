@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2b0ca0f8f76c53752738078cbdbb1df3710cd931
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -367,13 +367,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Avstämningsaktivitet"
->abstract="Avstämningsaktivitet"
+>abstract="Använd **Avstämning** aktivitet för att länka oidentifierade data till befintliga resurser."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
