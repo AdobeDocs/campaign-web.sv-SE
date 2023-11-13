@@ -4,7 +4,7 @@ title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience"
+>id="acw_orchestration_save_audience"
 >title="Spara en publik"
 >abstract="Använd den här aktiviteten för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från den population som beräknas uppströms i arbetsflödet. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via **Målgrupper** -menyn."
 
