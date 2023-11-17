@@ -3,9 +3,9 @@ title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,23 @@ The **Klickningar** Indikatorn visar följande KPI:er för varje kanal:
 Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats`). Den här sammanställningstabellen används av prestandaskäl när rapporter visas, i stället för i loggtabellen för mottagarspårning (`nms:trackingLogRcp`) och beräknas inte i realtid. Tabellen genereras några minuter efter att spårningsloggarna har hämtats.
 
 
+## Prenumerationstaxor {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Prenumerationer"
+>abstract="I det här måttet visas, för den valda kanalen, summan av alla prenumerationer på en tjänst och procentandelen prenumerationer jämfört med det totala antalet meddelanden som levererats med framgång."
+
+
+Mottagarna kan anmäla sig till e-post och SMS-kommunikation.
+
+The **Prenumerationer** Indikatorn visar följande nyckeltal, för varje kanal, procentandelen av antalet prenumerationer jämfört med det totala antalet meddelanden som levereras med framgång.
+
+
+>[!NOTE]
+>
+> KPI:er för prenumeration och avprenumeration varierar beroende på tjänsttyp. E-postprenumerationer och avbeställningar omfattar till exempel alla e-postrelaterade tjänster, oavsett om de är en följd av manuella åtgärder eller webbformulär. Det är viktigt att särskilja detta tillvägagångssätt från leveransnivåmätvärdet för att avsluta prenumerationen, som spårar länkklick som inte är faktiska avabonnerade användare.
+
 ## Avbryta prenumerationstaxor {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats
 >title="Avprenumerationer"
 >abstract="I det här måttet visas, för den valda kanalen, summan av alla avbeställningar från en tjänst och procentandelen avbeställningar jämfört med det totala antalet meddelanden som levererats med framgång."
 
->[!NOTE]
->
-> KPI:er för prenumeration och avprenumeration varierar beroende på tjänsttyp. E-postprenumerationer och avbeställningar omfattar till exempel alla e-postrelaterade tjänster, oavsett om de är en följd av manuella åtgärder eller webbformulär. Det är viktigt att särskilja detta tillvägagångssätt från leveransnivåmätvärdet för att avsluta prenumerationen, som spårar länkklick som inte är faktiska avabonnerade användare.
 
 Mottagarna måste kunna avanmäla sig från e-post och SMS via en dedikerad avprenumerationslänk i e-postinnehållet eller genom att svara STOP på ett SMS.
 
@@ -106,6 +120,10 @@ The **Avbeställ** Indikatorn visar följande KPI:er för varje kanal:
 
 * Summan av alla klick på en länk för att avbryta prenumerationen, dvs. där en URL-kategori är lika med &quot;Avanmäl dig&quot;.
 
+
+>[!NOTE]
+>
+> KPI:er för prenumeration och avprenumeration varierar beroende på tjänsttyp. E-postprenumerationer och avbeställningar omfattar till exempel alla e-postrelaterade tjänster, oavsett om de är en följd av manuella åtgärder eller webbformulär. Det är viktigt att särskilja detta tillvägagångssätt från leveransnivåmätvärdet för att avsluta prenumerationen, som spårar länkklick som inte är faktiska avabonnerade användare.
 
 ## Felfrekvenser {#ui-error-kpi}
 
