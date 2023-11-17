@@ -3,9 +3,9 @@ title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -141,3 +141,23 @@ The **Fel** Indikatorn visar följande KPI:er för varje kanal:
 * Procentandel av antalet fel jämfört med det totala antalet meddelanden som ska levereras.
 
 * Totalt antal fel som ackumulerats under leveranser och automatisk återinläsning.
+
+## Meddelandet har skickats {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Skickat"
+>abstract="Detta mätresultat visar, för direktpostkanalen, summan av alla skickade meddelanden och procentandelen av meddelanden som skickats till leverantören, jämfört med det totala antalet meddelanden som förberetts under leveransförberedelsefasen."
+
+Under beredningsfasen genereras extraheringsfilen för direktreklam, men information om mottagare (dvs. leveransloggar) uppdateras inte.  Status för en leverans flyttad från väntande leverans till Skickat när Campaign-användaren bekräftar att leveransen har skickats. Därefter anges leveransen till Slutförd.
+
+Det kan aldrig vara 100 % av de meddelanden som skickas jämfört med det totala antalet meddelanden som skickas, eftersom vissa adresser kan saknas eller vara ofullständiga.
+
+The **Skickat** Indikatorn visar följande KPI:er för direktpostkanalen:
+
+* Procentandel av antalet skickade meddelanden jämfört med det totala antalet förberedda meddelanden.
+
+* Summan av alla skickade meddelanden.
+
