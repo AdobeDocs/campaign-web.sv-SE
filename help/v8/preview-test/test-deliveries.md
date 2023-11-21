@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ Så här börjar du testa ditt meddelandeinnehåll:
 >title="Mallfil"
 >abstract="Formateringen för filen måste vara densamma som för originalfilen.<br/>Filformat som stöds: txt, csv. Största filstorlek: 15 MB. Använd den första raden som kolumnrubrik."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Inkludera testprofiler i huvudmålgruppen"
+>abstract="Aktivera det här alternativet om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen."
 
 Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Adobe Campaign] klientkonsol. Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs nedan.
 
@@ -90,7 +94,9 @@ Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen.
 
 ## Ersätt profildata {#substitution-profiles}
 
-Använd profilersättning för att skicka testmeddelanden till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Gör så här:
+Använd profilersättning för att skicka testmeddelanden till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
+
+Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
@@ -119,9 +125,9 @@ Använd profilersättning för att skicka testmeddelanden till en viss e-postadr
 
 1. När ersättningsprofilerna är valda kan du [skicka testleveransen](#send-test).
 
-## Skicka tester till prenumeranter {#subscribers}
+## Skicka tester till appprenumeranter {#subscribers}
 
-När du arbetar med push-meddelanden kan testleveranser bara skickas till dina appprenumeranter. Följ stegen nedan för att välja dem.
+När du utformar med push-meddelanden kan testleveranser bara skickas till dina appprenumeranter. Följ stegen nedan för att välja dem.
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 

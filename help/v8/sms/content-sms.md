@@ -4,9 +4,9 @@ title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 2%
 >title="SMS-innehåll"
 >abstract="Skapa innehållet i era SMS-leveranser och anpassa det med personaliseringsfält, innehållsblock och dynamiskt innehåll."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Appprenumeranter"
->abstract="Förhandsgranska och testa meddelandet genom att lägga till programprenumeranter i huvudmålet."
 
 
 Så här utformar du innehållet i en SMS-leverans:
