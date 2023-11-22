@@ -4,9 +4,9 @@ title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2136'
 ht-degree: 6%
 
 ---
@@ -30,13 +30,13 @@ De här inställningarna är tillgängliga i **Konfigurera leveransinställninga
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologi"
->abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
+>abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign Client Console."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologiinställningar för leverans"
->abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
+>abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign Client Console."
 
 
 Typologier är uppsättningar av **typologiregler**, som utförs under beredningsfasen. Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel exkluderas från leveransmålgrupperna vid leveransförberedelsefasen.  Med dem kan du se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
@@ -48,7 +48,9 @@ När du associerar en typologi med en meddelande- eller meddelandemall körs de 
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>Typologier och typologiregler skapas i Campaign Client Console. Läs mer om tryckregler och hur du konfigurerar trötthetshantering i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Trycket {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Använd **Leveransläge** för att välja målutvärderingsläge. Tre olika läg
 * **Uppskattning och godkännande av det preliminära målet**
 * **Målutvärdering**
 
-Trötthetshanteringen följer med **Kampanjoptimering** tillägg. Läs mer om tryckregler och hur du konfigurerar trötthetshantering i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>Trötthetshantering har konfigurerats i Campaign Client Console. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -103,7 +107,9 @@ I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Cam
 
 The **mottagarens vikt** fält är en formel som används för att bestämma vilka mottagare som ska behållas när reglerna för kapacitetstypologi överskrids.
 
-Läs mer om konsekvens och kapacitetsregler och hur du konfigurerar dem i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>Typologiregler har konfigurerats i Campaign Client Console. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## Målgruppsinställningar {#audience}
@@ -139,13 +145,15 @@ Leveransparametrar är tekniska inställningar som gäller för leveransen.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Inställningar för webbanalys för leverans"
->abstract="Välj ett webbanalyskonto. Det här kontot är konfigurerat i Campaign-klientkonsolen. Du kan också definiera de taggar som delas med analysverktyget som du använder."
+>abstract="Välj ett webbanalyskonto. Det här kontot är konfigurerat i Campaign Client Console. Du kan också definiera de taggar som delas med analysverktyget som du använder."
 
 I det här avsnittet kan du välja ett webbanalyskonto. Det här kontot är konfigurerat i Campaign-klientkonsolen.
 
 Du kan också definiera de taggar som delas med analysverktyget som du använder.
 
-Läs mer om Web Analytics och Campaign i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>Web Analytics-funktioner är konfigurerade i Campaign Client Console. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Återförsök {#retries}
