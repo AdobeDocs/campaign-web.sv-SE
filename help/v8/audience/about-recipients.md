@@ -3,7 +3,7 @@ title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 1%
@@ -18,8 +18,8 @@ I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en u
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Mottagare"
->abstract="En mottagare är en profil som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I Adobe Campaign är mottagare standardprofiler för att skicka leveranser (e-post, SMS). I den här listan kan du visa mottagarens profil utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning av mottagarens attribut."
+>title="Profiler"
+>abstract="En profil är en individ som ska ta emot meddelanden från Adobe Campaign. I Adobe Campaign är mottagare standardprofiler för att skicka leveranser (e-post, SMS). I den här listan kan du visa mottagarens profil utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning av mottagarens attribut."
 
 En mottagare är en profil som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I Adobe Campaign är mottagarna de standardprofiler som väljs för att skicka leveranser till (e-post, SMS etc.). Med mottagardata som lagras i databasen kan du skapa målgrupper som tar emot alla angivna leveranser och lägga till personaliseringsdata i leveransinnehållet. Andra typer av profiler lagras i databasen. De är utformade för olika användningsområden: t.ex. skapas utsädesprofiler för att testa dina leveranser innan de skickas till den slutliga målgruppen.
 
