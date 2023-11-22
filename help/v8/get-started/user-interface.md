@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Generell utveckling av prenumerationer"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="Innehåll för direktreklam"
+>abstract="Innehåll för direktreklam"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="Filegenskaper för direktreklam"
+>abstract="Filegenskaper för direktreklam"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="Innehållsegenskaper för direktreklam"
+>abstract="Innehållsegenskaper för direktreklam"
