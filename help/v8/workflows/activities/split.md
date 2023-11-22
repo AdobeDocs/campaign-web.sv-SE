@@ -4,9 +4,9 @@ title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,10 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >title="Sortering av delad aktivitet"
 >abstract="När du anger en populationsgräns för en delmängd kan du rangordna de valda profilerna baserat på ett visst profilattribut i stigande eller fallande ordning. Aktivera **Aktivera sortering** alternativ. Du kan till exempel begränsa en delmängd så att den endast innehåller de 50 översta profilerna med det högsta inköpspriset."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Delad generering av komplementfärg"
+>abstract="När du har konfigurerat alla deluppsättningar kan du välja den återstående populationen som inte matchade någon av deluppsättningarna och inkludera dem i en ytterligare utgående övergång. Aktivera **Generera komplement** alternativ."
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
