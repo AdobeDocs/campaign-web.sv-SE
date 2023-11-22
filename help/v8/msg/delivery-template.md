@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1015'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,7 @@ För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för
 
 En mall kan innehålla:
 
+* The **mapp** och **körningsmapp** av mallen. Mappen är den plats där leveransmallen sparas. Körningsmappen är den mapp där leveranser som skapats utifrån den här mallen sparas.
 * [Typologier](../advanced-settings/delivery-settings.md#typology),
 * Avsändarens adress.
 * An [publik](../audience/about-recipients.md), inklusive [kontrollgrupper](../audience/control-group.md),
@@ -47,9 +48,8 @@ En mall kan innehålla:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Arbeta med leveransmallar"
->abstract="Använd leveransmallar för att enkelt skapa och spara befintliga leveranser för framtida bruk."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicera en befintlig mall"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Konvertera en leverans till en mall"
+>abstract="Använd leveransmallar för att skapa och spara leveransinställningar för framtida bruk i alla era kampanjer. Du kan skapa leveransmallar från grunden, duplicera en befintlig mall eller konvertera en leverans till en mall."
+
 
 Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
 
