@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Innehållsegenskaper för direktreklam"
 >abstract="Innehållsegenskaper för direktreklam"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Läs in filaktivitet"
+>abstract="Läs in filaktivitet"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Exempelfil"
+>abstract="Exempelfil"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Filens namn"
+>abstract="Filens namn"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Måldatabas"
+>abstract="Måldatabas"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Avvisa hantering för Läs in filaktivitet"
+>abstract="Avvisa hantering för Läs in filaktivitet"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Avvisa utgående övergång för hantering"
+>abstract="Avvisa utgående övergång för hantering"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Avvisa utgående övergång för hantering av avslag"
+>abstract="Avvisa utgående övergång för hantering av avslag"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formatering för aktiviteten Läs in fil"
+>abstract="Formatering för aktiviteten Läs in fil"
+
