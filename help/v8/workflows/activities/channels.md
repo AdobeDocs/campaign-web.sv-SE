@@ -4,9 +4,9 @@ title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 3c77120c5936f647514969644f59833e97d56232
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '877'
 ht-degree: 1%
 
 ---
@@ -42,25 +42,25 @@ Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveranse
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="E-postaktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+>abstract="E-postaktiviteten underlättar e-postutskick i ditt arbetsflöde och gör det möjligt att skicka både enstaka och återkommande meddelanden. Den automatiserar processen för att skicka e-post till ett mål som beräknas inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS-aktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+>abstract="SMS-aktiviteten underlättar SMS-utskick inom ditt arbetsflöde och gör det möjligt att skicka både engångs- och återkommande meddelanden. Den automatiserar processen för att skicka SMS till ett mål som beräknas inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+>abstract="Push iOS-aktiviteten effektiviserar processen att skicka iOS Push-meddelanden som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar utskicksmeddelandena från iOS Push till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Push Android-aktivitet"
->abstract="Automatisera och genomför marknadsföringskampanjer via e-post, SMS och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+>abstract="Aktiviteten Push Android effektiviserar processen att skicka push-meddelanden för Android som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar skickade Android-push-meddelanden till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanhang:
 
