@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '894'
 ht-degree: 10%
 
 ---
@@ -60,7 +60,7 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="Skärningspunkt avstämningsalternativ"
+>title="Avstämningsalternativ för skärningar"
 >abstract="Välj avstämningstypen för att definiera hur dubbletter hanteras."
 
 >[!CONTEXTUALHELP]

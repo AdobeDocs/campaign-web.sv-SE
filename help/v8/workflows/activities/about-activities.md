@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,13 @@ Arbetsflödesaktiviteter grupperas i tre kategorier. Beroende på sammanhanget k
 
 Alla aktiviteter beskrivs i avsnitten nedan:
 
-* [Målinriktade aktiviteter](#targeting)
+* [Verksamheter som riktar sig till](#targeting)
 * [Kanalaktiviteter](#channel)
-* [Flödeskontrollaktiviteter](#flow-control)
+* [Flödeskontroll](#flow-control)
 
 ![](../assets/workflow-activities.png)
 
-## Målinriktade aktiviteter {#targeting}
+## Verksamheter som riktar sig till {#targeting}
 
 Dessa aktiviteter är specifika för målgruppsanpassning, ändring och berikning av populationsdata. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
@@ -48,7 +48,7 @@ Följande **Kanal** aktiviteter är tillgängliga:
 
 Se detta [section](channels.md).
 
-## Flödeskontrollaktiviteter {#flow-control}
+## Flödeskontroll {#flow-control}
 
 
 >[!CONTEXTUALHELP]

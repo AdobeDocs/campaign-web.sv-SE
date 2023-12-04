@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 6%
+source-wordcount: '2090'
+ht-degree: 5%
 
 ---
 
@@ -139,7 +139,7 @@ Leveransparametrar är tekniska inställningar som gäller för leveransen.
 
 * **BCC för e-post**: det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer om e-postkopia i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-### Webbanalys {#web-analytics}
+### Web Analytics {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
@@ -156,7 +156,7 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 >Web Analytics-funktioner är konfigurerade i Campaign Client Console. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
-### Återförsök {#retries}
+### Försök igen {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
