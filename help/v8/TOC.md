@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 11%
    + [Hitta hjälp och vägledning](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
-   + [Arbeta med leveransmallar](msg/delivery-template.md)
+   + [Arbeta med leveranser](msg/gs-deliveries.md)
+   + [Använd leveransmallar](msg/delivery-template.md)
    + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + Definiera e-postinnehåll {#content}
@@ -47,7 +48,7 @@ ht-degree: 11%
             + [Lägg till en länk till spegelsidan](content/mirror-page.md)
             + [Lägga till en förrubrik](content/preheader.md)
             + [Generera textversionen](content/text-version-email.md)
-            + [Hantera resurser med Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+            + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
          + Content Assistant {#content-assistant}
             + [Kom igång med Content Assistant](content/generative-gs.md)
             + [Skapa text med Content Assistant](content/generative-content.md)

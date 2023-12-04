@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Baserat på en fördefinierad [designmall](../content/email-sample-templates.md)
 >title="Definiera e-postegenskaper"
 >abstract="Egenskaperna är de vanligaste leveransparametrarna som hjälper dig att namnge och klassificera leveransen. De extra inställningarna är valfria. Om leveransen baseras på ett utökat schema som har definierats i Adobe Campaign v8-konsolen, kan vissa specifika **Anpassade alternativ** fält är tillgängliga."
 
-Du kan skapa en fristående e-postleverans eller skapa ett e-postmeddelande i ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående (enshot) e-postleverans. Om du arbetar i ett kampanjarbetsflöde visas stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Du kan skapa en fristående e-postleverans eller skapa ett e-postmeddelande i ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående (enshot) e-postleverans. Läs mer om leveransstegen i Adobe Campaign i [den här sidan](../msg/gs-deliveries.md).
 
 Följ stegen nedan för att skapa en ny fristående e-postleverans.
 
@@ -131,7 +131,7 @@ Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fa
 
    ![](assets/save-content.png)
 
-## Schemalägg sändningen {#schedule}
+## Schemalägg sändning {#schedule}
 
 Följ stegen nedan för att schemalägga sändning av e-post.
 

@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Arbeta med leveransmallar
+title: Använd leveransmallar
 description: Lär dig hur du skapar och använder leveransmallar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 3%
+source-wordcount: '1013'
+ht-degree: 2%
 
 ---
 
-# Arbeta med leveransmallar {#work-with-delivery-templates}
+# Använd leveransmallar {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -175,7 +175,7 @@ Den nya mallen läggs till i [**Mallar** list](#access-manage-templates). Du kan
 
 ## Testa en leveransmall {#test-template}
 
-Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats från grunden eller från ett befintligt innehåll. För att göra detta, följ nedanstående steg.
+Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats från grunden eller från ett befintligt innehåll. Följ stegen nedan för att göra det.
 
 1. Gå till **Mallar** tabba igenom **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** och välj en mall. [Läs mer](#access-manage-templates)
 
