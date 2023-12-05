@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Anpassade fält för mottagare"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Mottagarna kontaktar inte längre"
+>abstract="Mottagarna kontaktar inte längre"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Mottagare andra"
+>abstract="Mottagare andra"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Översikt över mottagarkort"
 >abstract="Översikt över mottagarkort"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Mottagarna erbjuder förhandsgranskning"
 >abstract="Mottagarna erbjuder förhandsgranskning"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Mottagarna har skrivskyddad profil"
+>abstract="Mottagarna har skrivskyddad profil"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="Testa profiler Ytterligare data"
+>abstract="Testa profiler Ytterligare data"
 
 
 
