@@ -4,10 +4,10 @@ title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 2%
+source-wordcount: '725'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
    ![](assets/service-create-properties.png)
 
-1. Som standard är prenumerationerna obegränsade. Du kan inaktivera **[!UICONTROL  Unlimited validity period]** för att definiera tjänstens giltighetsperiod.
+1. Som standard är prenumerationerna obegränsade. Du kan inaktivera **[!UICONTROL Unlimited validity period]** för att definiera tjänstens giltighetsperiod.
 
    I exemplet nedan, efter 20 dagar:
    * Inga mottagare kommer att kunna prenumerera på tjänsten längre.
@@ -84,7 +84,7 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 ## Skapa ett bekräftelsemeddelande {#create-confirmation-message}
 
-Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. För att göra detta, följ nedanstående steg.
+Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. Följ stegen nedan för att göra det.
 
 1. Skapa en leveransmall för prenumerationsbekräftelsen. [Lär dig mer](../msg/delivery-template.md)
 
