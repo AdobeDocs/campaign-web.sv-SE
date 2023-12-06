@@ -4,10 +4,10 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 1%
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -81,36 +81,36 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Kritiskt varningsläge för iOS"
+>title="Kritiskt varningsläge"
 >abstract="Aktivera det här alternativet om du vill lägga till ljud i meddelandet, även när användarens telefon är inställd på fokusläge eller om enheten är avstängd. Detta säkerställer att användarna alltid informeras om viktiga varningar."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge-nummer för iOS"
+>title="Märkesnummer"
 >abstract="Använd det här alternativet om du vill ange hur många nya olästa uppgifter som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Mutable content for iOS"
+>title="Muterbart innehåll"
 >abstract="Använd det här alternativet om du vill tillåta att mobilprogrammet hämtar mediainnehåll som är kopplat till meddelandet."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Relevanspoäng för iOS"
+>title="Relevanspoäng"
 >abstract="Ange ett relevansvärde mellan 0 och 100 för att prioritera ordningen för meddelanden i meddelandesammanfattningen. Högre poäng innebär viktigare meddelanden."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Programvariabler för iOS"
+>title="Programvariabler"
 >abstract="Använd programvariabler för att definiera meddelandebeteende. Dessa variabler är helt anpassningsbara och ingår som en del av den meddelandenyttolast som skickas till den mobila enheten."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="Kategori-ID för iOS"
+>title="Kategori-ID"
 >abstract="Ange namnet på det kategori-ID som är associerat med meddelandet. Detta gör att åtgärdsknappar visas, vilket gör att användaren kan utföra olika åtgärder direkt från meddelandet utan att öppna programmet."
 
 
