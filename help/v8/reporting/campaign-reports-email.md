@@ -4,9 +4,9 @@ title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,15 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
-* **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
+* **[!UICONTROL Messages to deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
 * **[!UICONTROL Bounces]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.
 
-* **[!UICONTROL Distinct opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
+* **[!UICONTROL Total opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
 
-* **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
+* **[!UICONTROL Total clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
 +++
 
@@ -48,7 +48,6 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 >id="acw_campaign_reporting_deliveries_target"
 >title="Inledande målgruppsstatistik"
 >abstract="Den första målgruppsstatistiktabellen visar data relativt dina mottagare"
-
 
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
@@ -65,7 +64,6 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 +++
 
 ### Körningsstatistik {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -88,7 +86,6 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
   E-postfeltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-
 +++
 
 ### Reaktionsstatistik {#delivery-summary-email-reaction-stats}
@@ -98,16 +95,15 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 >title="Reaktionsstatistik"
 >abstract="The **Reaktionsstatistik** tabellen visar tillgängliga data för mottagaraktivitet för leveransen: antal öppningar, prenumerationer, avbeställningar, klicka för att spegla sidlänken."
 
-
 The **[!UICONTROL Reaction statistics]** tabellen innehåller tillgängliga data för mottagaraktivitet för leveransen. Mätvärdena anges nedan.
 
 ![](assets/campaign_report_email_4.png)
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
-* **[!UICONTROL Distinct opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
+* **[!UICONTROL Unique opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
 
-* **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+* **[!UICONTROL Total Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
 
 * **[!UICONTROL Unsubscriptions]**: Antal mottagare som klickat på att avbryta prenumerationen för den aktuella perioden.
 
@@ -129,9 +125,9 @@ The **[!UICONTROL Generated click streams]** tabellen visar data som är relativ
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
-* **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
+* **[!UICONTROL Unique clicks]**: Totalt antal unika mottagare som klickat på en leverans minst en gång.
 
-* **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+* **[!UICONTROL Total Clicks]**: Totalt antal klick på länkar i leveranser.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
 
@@ -140,7 +136,6 @@ The **[!UICONTROL Generated click streams]** tabellen visar data som är relativ
 ## Ej levererbara {#non-deliverables-email}
 
 ### Uppdelning av fel per typ {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 
 +++
 
-
 ### Uppdelning av fel per domän {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 >title="Uppdelning av fel per domän"
 >abstract="The **Uppdelning av fel per domän** tabellen och diagrammet visar tillgängliga data för varje feltyp som påträffas beroende på varje domän."
 
-
 The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet innehåller tillgängliga data för eventuella fel som påträffats i varje domän. Mätvärdena är gemensamma med **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet som anges ovan.
-
 
 ## Spårningsindikatorer {#tracking-indicators-email}
 
 ### Leveransstatistik {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
-* **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Message(s) to deliver]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL Distinct opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
+* **[!UICONTROL Unique opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
 
-* **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+* **[!UICONTROL Total Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
 
 * **[!UICONTROL Clicks on the opt-out link]**: Antal klick på länken för att avbryta prenumerationen.
 
@@ -214,29 +205,27 @@ The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger
 
 ### Öppen och klickbar frekvens {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Öppnings- och klickfrekvens"
 >abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
 
-
-
 The **[!UICONTROL Open and click-trough rate]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
 ![](assets/campaign_report_email_8.png)
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++ Läs mer om rapportstatistik för e-postkampanjer.
 
 * **[!UICONTROL Sent]**: Totalt antal skickade meddelanden.
 
-* **[!UICONTROL Complaints]**: Antal meddelanden för den här domänen som har rapporterats som oönskade av mottagaren.
+* **[!UICONTROL Complaints]**: Antal och procentandel meddelanden för den här domänen som har rapporterats som oönskade av mottagaren.
 
-* **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
+* **[!UICONTROL Unique Opens]**: Antal och procentandel distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
 
-* **[!UICONTROL Clicks]**: Antal distinkta mottagare som klickat på samma leverans minst en gång.
+* **[!UICONTROL Unique Clicks]**: Antal och procentandel av distinkta målmottagare som klickade på samma leverans minst en gång.
 
 * **[!UICONTROL Raw reactivity]**: Procentandel av antalet mottagare som klickade på en leverans minst en gång jämfört med antalet mottagare som öppnade en leverans minst en gång.
+
 +++
 
 ## URL:er och klickströmmar {#url-email}
@@ -250,15 +239,16 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 
 ![](assets/campaign_report_email_9.png)
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++ Läs mer om rapportstatistik för e-postkampanjer.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
 
-* **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
+* **[!UICONTROL Unique clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
-* **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
+* **[!UICONTROL Total Clicks]**: Totalt antal klick på länkar i leveranser.
 
 * **[!UICONTROL Platform average]** : Detta medelvärde, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
+
 +++
 
 ### De tio mest besökta länkarna {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="De tio mest besökta länkarna"
 >abstract="The **De tio mest besökta länkarna** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk."
-
 
 The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk. Mätvärdena anges nedan.
 
@@ -283,17 +272,14 @@ The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller ti
 
 ### Klicknedbrytning över tid {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Klicknedbrytning över tid"
 >abstract="The **Klicknedbrytning över tid** diagram visar tillgängliga data för mottagarnas beteende per länk."
 
-
-den **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
+The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## Användaraktiviteter {#user-activities-email}
 
