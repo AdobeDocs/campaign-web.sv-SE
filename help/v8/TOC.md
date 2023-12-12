@@ -5,7 +5,7 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 8%
@@ -126,10 +126,10 @@ ht-degree: 8%
       + [Schemaläggare](workflows/activities/scheduler.md)
       + [Dela](workflows/activities/split.md)
       + [Vänta](workflows/activities/wait.md)
-   + Fråga databasen {#query-database}
-      + [Arbeta med frågemodelleraren](query/query-modeler-overview.md)
-      + [Bygg din första fråga](query/build-query.md)
-      + [Exempel på frågor](query/query-samples.md)
++ Fråga databasen {#query-database}
+   + [Arbeta med frågemodelleraren](query/query-modeler-overview.md)
+   + [Bygg din första fråga](query/build-query.md)
+   + [Exempel på frågor](query/query-samples.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)
    + [Viktiga resultatindikatorer](reporting/kpis.md)
