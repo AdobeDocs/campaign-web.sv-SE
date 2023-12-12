@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,7 @@ Du kan spara ett anpassat filter från regelbyggaren så att det blir tillgängl
 
 Ditt anpassade filter finns nu i **Fördefinierade filter** och är tillgängliga för alla Campaign-användare.
 
-
 ### Skapa ett filter från filterlistan {#create-filter-from-list}
-
 
 Du kan skapa ett filter från **Fördefinierade filter** i den vänstra menyn. Gör så här:
 
@@ -86,7 +84,6 @@ Du kan skapa ett filter från **Fördefinierade filter** i den vänstra menyn. G
 
 1. Spara ändringarna. Filtret läggs till i den fördefinierade filterlistan.
 
-
 ## Spara filtret som en favorit {#fav-filter}
 
 När du skapar ett fördefinierat filter kan du aktivera **Spara som favorit** om du vill se det här fördefinierade filtret i dina favoriter.
@@ -95,7 +92,6 @@ När du skapar ett fördefinierat filter kan du aktivera **Spara som favorit** o
 När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
