@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Med filterkomponenter kan du förfina frågan genom att använda:
 * **Målgrupper**: Filtrera frågan med en befintlig målgrupp.
 * **Fördefinierat filter**: Filtrera frågan med befintliga fördefinierade filter.
 
-### Skapa ett anpassat villkor
+### Konfigurera ett anpassat villkor
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Anpassat villkor"
+>abstract="Anpassat villkor"
 
 Så här filtrerar du frågan med ett anpassat villkor:
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Välj en målgrupp
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Välj målgrupp"
+>abstract="Välj målgrupp"
+
 Så här filtrerar du frågan med en befintlig målgrupp:
 
 1. Klicka på plusknappen (+) på önskad nod och välj **[!UICONTROL Select audience]**.
@@ -108,6 +118,11 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
 ### Använda ett fördefinierat filter
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Fördefinierat filter"
+>abstract="Fördefinierat filter"
+
 Så här filtrerar du frågan med ett fördefinierat filter:
 
 1. Klicka på plusknappen (+) på önskad nod och välj **[!UICONTROL Predefined filter]**.
@@ -119,6 +134,11 @@ Så här filtrerar du frågan med ett fördefinierat filter:
    ![](assets/query-predefined-filter.png)
 
 ## Kombinera filterkomponenter med operatorer
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupp"
+>abstract="Grupp"
 
 När du lägger till en filterkomponent i frågan skapas automatiskt en ny övergång på arbetsytan och den nya filterkomponenten länkas till den första av en AND-operator. Detta innebär att resultat från båda filterkomponenterna kombineras med frågeresultaten.
 
@@ -137,6 +157,11 @@ Tillgängliga operatorer:
 * EXCEPT (Uteslutning): Exkluderar resultat från alla filterkomponenter i den utgående övergången.
 
 ## Kontrollera och validera frågan
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Regelegenskaper"
+>abstract="Regelegenskaper"
 
 När du har skapat frågan på arbetsytan kan du kontrollera den i rutan Regelegenskaper till höger. Tillgängliga åtgärder är följande:
 
