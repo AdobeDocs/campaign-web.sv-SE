@@ -2,23 +2,26 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
-source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
+source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
 
-## Översikt över frågemodelleraren {#overview}
+Adobe Campaign Web har en frågemodellerare som förenklar filtreringen av databaser för att välja specifika mål baserat på olika kriterier. Detta inkluderar användning av avancerade uttryck och operatorer.
 
-Adobe Campaign Web har en frågemodellerare som förenklar filtreringen av databaser för att välja specifika mål baserat på olika kriterier. Detta inkluderar användning av avancerade uttryck och operatorer. Frågemodelleraren är helintegrerad i hela gränssnittet, vilket gör att du enkelt kan utföra filtreringsåtgärder och skapa regler:
+## Åtkomst till frågemodelleraren {#access}
 
-* Definiera målgrupper: Ange den målgrupp du vill ha i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov.
-* Anpassa arbetsflödesaktiviteter: tillämpa regler i arbetsflödesaktiviteter, som Dela och Avstämning, för att anpassa till dina specifika krav,
-* Dynamiskt innehåll: gör innehållet dynamiskt genom att skapa villkor som definierar vilket innehåll som ska visas för olika mottagare, vilket säkerställer personaliserade och relevanta meddelanden.
-* Fördefinierade filter: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans.
+Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera regler för att filtrera data.
+
+* **Definiera målgrupper**: Ange den målgrupp du vill rikta in dig på i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov.
+* **Anpassa arbetsflödesaktiviteter**: tillämpa regler i arbetsflödesaktiviteter, t.ex. Dela och avstämning, så att de passar dina specifika krav,
+* **Dynamiskt innehåll**: gör innehållet dynamiskt genom att skapa villkor som definierar vilket innehåll som ska visas för olika mottagare, vilket säkerställer personaliserade och relevanta meddelanden.
+* **Fördefinierade filter**: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans.
+* **Filtrera rapportdata**: Lägg till regel för att filtrera data som visas i rapporter.
 
 ## Gränssnitt för frågemodelleraren {#interface}
 
