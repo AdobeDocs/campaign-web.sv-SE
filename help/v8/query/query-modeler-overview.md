@@ -2,19 +2,14 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Målgrupper"
->abstract="Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste frågemodellerare har du nu möjlighet att definiera filtreringskriterier för mottagare eller andra målinriktningsdimensioner från databasen. Utnyttja er målgrupp på Adobe Experience Platform för att ytterligare förfina er målgrupp och maximera kampanjens genomslag."
 
 ## Översikt över frågemodelleraren {#overview}
 
