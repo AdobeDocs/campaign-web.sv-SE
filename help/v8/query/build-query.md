@@ -2,32 +2,34 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
 
 # Bygg din första fråga {#build-query}
 
-Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri plats, beroende på vilken åtgärd du vill utföra. Frågemodelleraren öppnas med en tom arbetsyta. Klicka på plusknappen (+) för att lägga till den första noden i frågan.
-
-![](assets/query-add-component.png)
+Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri plats, beroende på vilken åtgärd du vill utföra. Frågemodelleraren öppnas med en tom arbetsyta. Klicka på **+** för att konfigurera den första noden i frågan.
 
 Du kan lägga till två typer av element:
 
-* Med filterkomponenter (Egna villkor, Välj målgrupp, Fördefinierat filter) kan du skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina frågan.
+* **Filtrera komponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) låter dig skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina din fråga. [Lär dig hur du arbetar med filterkomponenter](#filtering)
 
-  Exempel *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
+  Exempel:
 
-* Med gruppoperatorer (AND, OR, EXCEPT) kan du gruppera filterkomponenter i diagrammet efter behov.
+  *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
-  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
+* **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet efter behov. [Lär dig arbeta med operatorer](#filtering)
 
-Detaljerade steg om hur du lägger till och kombinerar filterkomponenter och gruppoperatorer finns nedan.
+  Exempel:
 
-## Lägga till filterkomponenter
+  *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
+
+![](assets/query-add-component.png)
+
+## Lägga till filterkomponenter {#filtering}
 
 Med filterkomponenter kan du förfina frågan genom att använda:
 
@@ -44,10 +46,9 @@ Med filterkomponenter kan du förfina frågan genom att använda:
 
 Så här filtrerar du frågan med ett anpassat villkor:
 
-1. Klicka på plusknappen (+) på önskad nod och välj **[!UICONTROL Custom condition]**.
-1. Rutan för anpassade villkorsegenskaper öppnas till höger. I fältet Attribut väljer du attributet från databasen som du vill använda för att skapa villkoret.
+1. Klicka på **+** på önskad nod och välj **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
 
-   Tillgängliga attribut representerar alla fält från Campaign-databasen, inklusive fält från tabeller som är länkade till mottagartabellen.
+1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut som är länkade till din tabell.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Så här filtrerar du frågan med ett anpassat villkor:
    >
    >Med knappen Redigera uttryck kan du använda redigeraren för Campaign-webbuttryck för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna.
 
-1. Välj den operator som ska användas i listrutan.
+1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning.Observera att operatorer som är tillgängliga i listrutan beror på det valda attributets datatyp.
 
    +++Lista över tillgängliga operatorer
-
-   >[!NOTE]
-   >
-   >Vilka operatorer som är tillgängliga i listrutan beror på det valda attributets datatyp.
 
    | Operatör | Syfte | Exempel |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 +++
 
-1. Välj det förväntade värdet i fältet Värde.
+1. I **Värde** definierar du det förväntade värdet. Du kan också använda redigeringsprogrammet för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på **Redigera uttryck** -knappen.
 
-   Du kan också använda redigeringsprogrammet för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Det gör du genom att klicka på knappen Redigera uttryck.
-
-   *Exempel: Frågan returnerar alla profiler som är 21 år eller äldre*
+   *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Välj en målgrupp
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Så här filtrerar du frågan med en befintlig målgrupp:
 
-1. Klicka på plusknappen (+) på önskad nod och välj **[!UICONTROL Select audience]**.
+1. Klicka på **+** på önskad nod och välj **[!UICONTROL Select audience]**.
 
-1. Panelen Välj målgruppsegenskaper öppnas till höger. Välj den målgrupp som du vill använda för att filtrera din fråga.
+1. The **Välj målgrupp** egenskapspanelen öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
 
-   *Exempel: Frågan returnerar alla profiler som tillhör målgruppen &quot;Festival Goers&quot;*
+   *Frågeexempel som returnerar alla profiler som tillhör målgruppen Festival Goers:*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
 Så här filtrerar du frågan med ett fördefinierat filter:
 
-1. Klicka på plusknappen (+) på önskad nod och välj **[!UICONTROL Predefined filter]**.
+1. Klicka på **+** på önskad nod och välj **[!UICONTROL Predefined filter]**.
 
-1. Panelen Välj målgruppsegenskaper öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
+1. The **Fördefinierat filter** egenskapspanelen öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
 
-   *Exempel: Frågan returnerar alla profiler som motsvarar det fördefinierade filtret&quot;Inaktiva kunder&quot;.*
+   *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret &quot;Inaktiva kunder&quot;:*
 
    ![](assets/query-predefined-filter.png)
 
-## Kombinera filterkomponenter med operatorer
+## Kombinera filterkomponenter med operatorer {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Grupp"
 >abstract="Grupp"
 
-När du lägger till en filterkomponent i frågan skapas automatiskt en ny övergång på arbetsytan och den nya filterkomponenten länkas till den första av en AND-operator. Detta innebär att resultat från båda filterkomponenterna kombineras med frågeresultaten.
+Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en AND-operator. Detta innebär att resultat från båda filterkomponenterna kombineras med frågeresultaten.
 
-I det här exemplet läggs en ny filterkomponent av publiktyp till på arbetsytan. Den läggs automatiskt till i en ny övergång och länkas till det fördefinierade filtertypsvillkoret med operatorn AND. I det här fallet innehåller frågeresultaten mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattväljare&quot;.
+I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en AND-operator, vilket innebär att frågeresultatet innehåller mottagare som har det fördefinierade Madridians-filtret OCH som tillhör målgruppen&quot;Rabattväljare&quot;.
 
 ![](assets/query-operator.png)
 
-Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i rutan Du kan ändra operatorn genom att klicka på den och välja önskad operator i grupprutan som öppnas till höger.
-
-![](assets/query-operator-change.png)
+Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i grupprutan som öppnas till höger.
 
 Tillgängliga operatorer:
 
-* AND (Skärning): kombinerar resultat från alla filterkomponenter i utgående övergångar.
-* OR (Union): innehåller resultat från minst en av filterkomponenterna i utgående övergångar.
-* EXCEPT (Uteslutning): Exkluderar resultat från alla filterkomponenter i den utgående övergången.
+* **OCH (skärning)**: Kombinerar resultat från alla filterkomponenter i utgående övergångar.
+* **OR (Union)**: Innehåller resultat från minst en av filterkomponenterna i utgående övergångar.
+* **UTOM (Uteslutning)**: Utesluter resultat från alla filterkomponenter i den utgående övergången.
+
+![](assets/query-operator-change.png)
 
 ## Kontrollera och validera frågan
 
@@ -163,12 +151,12 @@ Tillgängliga operatorer:
 >title="Regelegenskaper"
 >abstract="Regelegenskaper"
 
-När du har skapat frågan på arbetsytan kan du kontrollera den i rutan Regelegenskaper till höger. Tillgängliga åtgärder är följande:
+När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger. Tillgängliga åtgärder är:
 
-* **Visa resultat:** visar de data som är resultatet av din fråga.
-* **kodvyn**: visar en kodbaserad version av frågan i SQL.
-* **Beräkna**: uppdaterar och visar antalet poster som din fråga riktar sig till.
-* **Markera eller spara filter**: välj ett befintligt fördefinierat filter som ska användas på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning. [Lär dig hur du arbetar med fördefinierade filter](../get-started/predefined-filters.md)
+* **Visa resultat:** Visar de data som är resultatet av din fråga.
+* **kodvyn**: Visar en kodbaserad version av frågan i SQL.
+* **Beräkna**: Uppdaterar och visar antalet poster som frågan riktar sig till.
+* **Markera eller spara filter**: Välj ett befintligt fördefinierat filter som ska användas på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning. [Lär dig hur du arbetar med fördefinierade filter](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
   >
