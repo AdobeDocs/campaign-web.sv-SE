@@ -4,9 +4,9 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Push-innehåll för Android"
->abstract="Definiera push-innehåll för Android."
+>abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
->abstract="Definiera push-iOS-innehåll."
+>abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
 
 ## Definiera innehållet i meddelandet {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="Tyst meddelande för iOS"
 >abstract="I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilprogram. Användaren har inte informerats om meddelandets ankomst. Den överförs direkt till programmet."
 
-
+När du har skapat din push-leverans kan du definiera innehållet. Parametrar och inställningar beror på det mobila operativsystemet: Android eller iOS. Bläddra bland flikarna nedan för att lära dig hur du skapar meddelanden för varje operativsystem.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 >title="Kategori-ID"
 >abstract="Ange namnet på det kategori-ID som är associerat med meddelandet. Detta gör att åtgärdsknappar visas, vilket gör att användaren kan utföra olika åtgärder direkt från meddelandet utan att öppna programmet."
 
+Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. Bläddra bland flikarna nedan för att lära dig hur du definierar alternativ för meddelanden för varje operativsystem.
 
 >[!BEGINTABS]
 

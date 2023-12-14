@@ -4,44 +4,48 @@ title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
 # Skapa en leverans av push-meddelanden {#create-push}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Definiera penselmålgruppen"
->abstract="Välj den bästa målgruppen för ditt push-meddelande."
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Push-meddelandemall"
->abstract="Välj en mall för push-meddelanden för att starta din push-leverans."
+>abstract="Välj en mall för push-meddelanden för att starta din push-leverans. Leveransmallar gör det enkelt att återanvända anpassat innehåll och anpassade inställningar i kampanjer och leveranser."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Använd leveransmallar"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Push-leveransegenskaper"
->abstract="Hantera egenskaperna för push-leverans."
+>abstract="Definiera dina egenskaper för push-leverans. Ange push-filens etikett och använd **Ytterligare alternativ** för att konfigurera internt namn, leveransmapp och kod. Du kan också ange en egen beskrivning."
 
 Du kan skapa en fristående leverans av push-meddelanden eller skapa ett push-meddelande i samband med ett kampanjarbetsflöde. Stegen nedan beskriver proceduren för en fristående push-leverans (en bild). Om du arbetar i ett kampanjarbetsflöde visas stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
+## Skapa en push-leverans {#create-push-delivery}
 
 Så här skapar du en ny fristående push-leverans:
 
 1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
 
-1. Under **[!UICONTROL Channel]** avsnitt, välja **Push-meddelande** som kanal och välj en mall, beroende på vilket operativsystem enheten har: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
+1. Under **[!UICONTROL Channel]** avsnitt, välja **Push-meddelande** som kanal och välj en mall, beroende på vilket operativsystem enheten har valt: Android eller iOS. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
    ![](assets/push_create_1.png)
 
-1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny.
+## Konfigurera leveransinställningarna {#configure-push-settings}
+
+Konfigurera leveransinställningarna enligt nedan:
+
+1. Ange en **[!UICONTROL Label]** för leveransen
+
+1. Sök i **[!UICONTROL Additional options]** för att anpassa alternativen, om det behövs.
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
@@ -51,26 +55,47 @@ Så här skapar du en ny fristående push-leverans:
    * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringsändamål.
 +++
 
-1. Från **[!UICONTROL Audience]** väljer du det program som du vill använda för leveransen.
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer](../audience/about-recipients.md)
+## Välj publik för push-leverans {#create-audience-push}
 
-   Observera att ditt push-meddelande som standard skickas till alla prenumeranter på programmet.
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Definiera målgruppen för push-meddelanden"
+>abstract="Om du vill definiera målgruppen för meddelandet måste du först välja den app som är kopplad till push-leveransen. Som standard skickas ditt push-meddelande till alla prenumeranter på programmet. Du kan förfina till en viss målgrupp genom att klicka på **Välj målgrupp** -knappen. Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
+
+
+Du måste först välja appen och sedan kan du förfina målgruppen för push-meddelanden enligt följande:
+
+1. Från **[!UICONTROL Audience]** väljer du det program som du vill använda för leveransen. Som standard skickas ditt push-meddelande till alla prenumeranter på programmet. Du kan förfina till en viss målgrupp genom att klicka på **[!UICONTROL Select audience]** -knappen.
 
    ![](assets/push_create_2.png)
 
-1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
+1. Välj en befintlig målgrupp, eller skapa en egen målgrupp, för att förfina målpopulationen för din push-leverans. Standardvärdet för push-meddelanden [måldimension](../audience/about-recipients.md#targeting-dimensions) är **Prenumerationsprogram** (nms:appSubscriptionRcp), som är länkad till mottagartabellen.
 
-1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i ditt push-meddelande. [Läs mer](content-push.md)
+   Lär dig hur du väljer en befintlig målgrupp i [den här sidan](../audience/add-audience.md)
 
-   ![](assets/push_create_5.png)
+   Lär dig skapa en ny publik i [den här sidan](../audience/one-time-audience.md)
 
-   Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../content/offers.md).
+1. Aktivera **[!UICONTROL Enable control group]** kan du ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
-1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#gs-schedule)
+## Definiera innehållet i push-meddelanden {#create-content-push}
 
-   ![](assets/push_create_3.png)
+Om du vill definiera innehållet i meddelandet klickar du på **[!UICONTROL Edit content]**. [Läs mer](content-push.md)
 
-1. Klicka **[!UICONTROL Configure delivery settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
+![](assets/push_create_5.png)
 
-   ![](assets/push_create_4.png)
+Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../content/offers.md).
+
+## Schemalägg leverans {#schedule-push}
+
+Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#gs-schedule)
+
+![](assets/push_create_3.png)
+
+
+## Avancerade inställningar för leverans {#adv-push}
+
+Klicka **[!UICONTROL Configure delivery settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
+
+![](assets/push_create_4.png)

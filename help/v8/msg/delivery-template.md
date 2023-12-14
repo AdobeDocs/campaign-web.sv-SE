@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Leveransmallar"
->abstract="Använd leveransmallar för att standardisera den kreativa looken och känslan, så att ni snabbare kan genomföra och lansera kampanjer"
+>abstract="För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för att enkelt återanvända anpassat innehåll och anpassade inställningar i era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare."
 
 För en snabbare och förbättrad designprocess kan ni skapa leveransmallar för att enkelt återanvända anpassat innehåll och anpassade inställningar i era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare.
 
@@ -79,6 +79,7 @@ Ta bort eller [duplicera](#copy-an-existing-template) en mall väljer du motsvar
 ## Skapa en leveransmall {#create-a-delivery-template}
 
 Om du vill skapa en leveransmall kan du:
+
 * Duplicera en befintlig mall - [Läs mer](#copy-an-existing-template)
 * Konvertera en befintlig leverans till en mall - [Läs mer](#convert-an-existing-delivery)
 * Skapa en leveransmall från grunden - [Läs mer](#create-a-new-template)
