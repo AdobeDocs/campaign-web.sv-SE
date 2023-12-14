@@ -4,9 +4,9 @@ title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Så här skapar du en ny fristående push-leverans:
 
 Konfigurera leveransinställningarna enligt nedan:
 
-1. Ange en **[!UICONTROL Label]** för leveransen
+1. Ange en **[!UICONTROL Label]** för leveransen. Som standard anges etiketten med etiketten för den valda mallen. Den bör uppdateras.
 
 1. Sök i **[!UICONTROL Additional options]** för att anpassa alternativen, om det behövs.
 
