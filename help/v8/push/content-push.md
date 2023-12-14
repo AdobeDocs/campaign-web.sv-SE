@@ -4,9 +4,9 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,15 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Skicka iOS-meddelande"
->abstract="Definiera titel och innehåll för ditt push-iOS-meddelande. Använd dialogrutan för personalisering för att anpassa innehåll och lägga till villkor."
+>abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Skicka iOS-meddelande"
+>abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Märkesnummer"
+>title="Antal meddelanden"
 >abstract="Använd det här alternativet om du vill ange hur många nya olästa uppgifter som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden."
 
 
@@ -139,7 +147,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 | Parameter | Beskrivning |
 |---------|---------|
-| **[!UICONTROL Critical alert mode]** | Aktivera det här alternativet om du vill lägga till ljud i meddelandet, även när användarens telefon är inställd på fokusläge eller om enheten är avstängd. Detta säkerställer att viktiga varningar uppmärksammas av användaren. |
+| **[!UICONTROL Critical alert mode]** | Aktivera det här alternativet om du vill lägga till ljud i meddelandet, även när användarens telefon är inställd på fokusläge eller om enheten är avstängd. Detta säkerställer att viktiga varningar uppmärksammas av användaren. När du väljer det här alternativet kan du justera meddelandevolymen med hjälp av volymnivåfältet. Ett tal mellan 0 och 100 ovanför fältet återspeglar dina inställningar. |
 | **[!UICONTROL Clean Badge]** | Aktivera det här alternativet om du vill uppdatera badge-värdet som visas på programikonen. Det ser till att märket korrekt återspeglar antalet nya olästa uppgifter. |
 | **[!UICONTROL Notification count]** | Ange ett tal som ska visas direkt på programikonen, vilket anger antalet nya olästa uppgifter. Detta ger användaren en snabb visuell referens. |
 | **[!UICONTROL Volume]** | Volymen av ljudet från 0 till 100. |
