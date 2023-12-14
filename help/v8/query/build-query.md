@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
    >
    >Med knappen Redigera uttryck kan du använda redigeraren för Campaign-webbuttryck för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna.
 
-1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning.Observera att operatorer som är tillgängliga i listrutan beror på det valda attributets datatyp.
+1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
    +++Lista över tillgängliga operatorer
 
@@ -86,6 +86,32 @@ Så här filtrerar du frågan med ett anpassat villkor:
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
    ![](assets/query-custom-condition.png)
+
+**Anpassade villkor i fjärrtabeller (1-1- och 1-N-länkar)**
+
+Anpassade villkor gör att du kan fråga fjärrtabeller som är länkade till mottagartabellen.
+
+För **1-1 länk** med en annan databasresurs väljer du värdet direkt från måltabellen.
+
++++Exempel på fråga
+
+Här är frågan riktad till mottagare vars land eller region ingår i angivna värden (uk och us)
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+För **1-N-länk** med en annan databasresurs kan du definiera undervillkor för fälten i den här andra resursen.
+
+Du kan till exempel välja operatorn Exists på profilinköpen för att ange alla profiler som det finns inköp för som mål. När du är klar lägger du till ett anpassat villkor för den utgående övergången och skapar ett filter som passar dina behov.
+
++++Exempel på fråga
+
+Här riktar frågan sig till mottagare som har gjort inköp relaterade till BrewMaster-produkten, med ett totalt belopp på minst 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Välj en målgrupp
 
@@ -138,9 +164,9 @@ Om du vill ändra operatorn som används för att länka samman filtervillkoren 
 
 Tillgängliga operatorer:
 
-* **OCH (skärning)**: Kombinerar resultat från alla filterkomponenter i utgående övergångar.
-* **OR (Union)**: Innehåller resultat från minst en av filterkomponenterna i utgående övergångar.
-* **UTOM (Uteslutning)**: Utesluter resultat från alla filterkomponenter i den utgående övergången.
+* **OCH (skärning)**: Kombinerar resultat som matchar alla filterkomponenter i utgående övergångar.
+* **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
+* **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
 
 ![](assets/query-operator-change.png)
 

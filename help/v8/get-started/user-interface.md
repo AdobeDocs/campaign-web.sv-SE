@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -576,11 +576,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatering för aktiviteten Läs in fil"
 >abstract="Formatering för aktiviteten Läs in fil"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_querymessage"
->title="Frågemodelleraren"
->abstract="Definiera filtreringskriterier för mottagare eller andra måldimensioner från databasen. Utnyttja er målgrupp på Adobe Experience Platform för att ytterligare förfina er målgrupp och maximera effekten av er kampanj."
