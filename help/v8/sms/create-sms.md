@@ -4,10 +4,10 @@ title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 5%
+source-wordcount: '451'
+ht-degree: 4%
 
 ---
 
@@ -21,12 +21,15 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definiera SMS-målgruppen"
->abstract="Välj den bästa målgruppen för SMS-meddelandet."
+>abstract="Du kan skapa en ny målgrupp eller välja en befintlig genom att klicka på **Välj målgrupp** -knappen. Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Val av SMS-mall"
->abstract="Välj en fördefinierad mall för att starta SMS-leveransen."
+>abstract="Välj en fördefinierad mall för att starta SMS-leveransen. Leveransmallar gör det enkelt att återanvända anpassat innehåll och anpassade inställningar i kampanjer och leveranser."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Använd leveransmallar"
+
 
 Du kan skapa en fristående SMS-leverans eller skapa ett SMS i samband med ett kampanjarbetsflöde. Stegen nedan beskriver i detalj proceduren för en fristående (enshot) SMS-leverans. Om du arbetar i ett kampanjarbetsflöde visas stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -41,7 +44,7 @@ Så här skapar du en ny fristående SMS-leverans:
 
    ![](assets/sms_create_1.png)
 
-1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny.
+1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny. Om leveransen baseras på ett utökat schema, **Anpassade alternativ** fält är tillgängliga.
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
@@ -51,11 +54,15 @@ Så här skapar du en ny fristående SMS-leverans:
    * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringsändamål.
 +++
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer](../audience/about-recipients.md).
+1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 
-1. Aktivera **[!UICONTROL Enable control]** gruppalternativ för att ställa in en kontrollgrupp för att mäta effekten av leveransen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
+   Lär dig hur du väljer en befintlig målgrupp i [den här sidan](../audience/add-audience.md)
+
+   Lär dig skapa en ny publik i [den här sidan](../audience/one-time-audience.md)
+
+1. Aktivera **[!UICONTROL Enable control group]** kan du ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
 1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet. [Läs mer](content-sms.md)
 

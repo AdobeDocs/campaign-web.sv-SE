@@ -4,10 +4,10 @@ title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 2%
 >title="SMS-innehåll"
 >abstract="Skapa innehållet i era SMS-leveranser och anpassa det med personaliseringsfält, innehållsblock och dynamiskt innehåll. Klicka på knappen **Redigera innehåll** -knappen."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="SMS-meddelandeinnehåll"
+>abstract="Definiera innehållet i ditt SMS. Klicka på knappen **Meddelande** och ange meddelandets innehåll. Använd uttrycksredigeraren för att lägga till personaliserade data och dynamiskt innehåll. Du kan också anpassa avsändarens namn. Spårning är som standard aktiverat för alla SMS-leveranser så att du kan mäta när mottagarna klickar på länkar."
 
 
 Så här utformar du innehållet i en SMS-leverans:
