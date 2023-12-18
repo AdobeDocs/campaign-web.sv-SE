@@ -4,23 +4,23 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Skicka testleveranser {#send-test-deliveries}
+# Skicka korrektur {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Förhandsgranskningsläge"
 >abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
-När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka testleveranser till testprofiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
+När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka korrektur för att testa profiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
-Om du vill identifiera eventuella fel i meddelandeinnehållet eller personaliseringsinställningarna skickar du testmeddelanden till testprofiler innan du skickar dem till målgruppen. Ett testmeddelande ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka testleveranser (som tidigare kallats korrektur) är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Mottagarna av ett testmeddelande kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
+Om du vill identifiera eventuella fel i inställningarna för meddelandeinnehåll eller personalisering skickar du korrektur för att testa profiler innan du skickar dem till målgruppen. Ett korrektur ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka testleveranser (som tidigare kallats korrektur) är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Korrekturmottagarna kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
 
 ## Simulera innehåll med testmottagare {#simulate-content-test-deliveries}
 
@@ -31,22 +31,21 @@ Om du vill identifiera eventuella fel i meddelandeinnehållet eller personaliser
 
 Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/about-recipients.md)
 
-
 Så här börjar du testa ditt meddelandeinnehåll:
 
 1. Redigera innehållet i leveransen.
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
-1. Klicka på **[!UICONTROL Test]** för att skicka testmeddelanden.
+1. Klicka på **[!UICONTROL Test]** för att skicka korrektur.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Välj testmottagare.
 
-   Beroende på meddelandekanalen kan testmeddelanden skickas till följande typer av mottagare:
+   Beroende på meddelandekanalen kan korrektur skickas till följande typer av mottagare:
 
    * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. Dessa mottagare skapas i [!DNL Campaign] klientkonsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-   * För SMS och e-post kan du även använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar testmeddelanden till e-postadress eller telefonnummer och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
+   * För SMS och e-post kan du även använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar korrektur till e-postadress eller telefonnummer för test och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
    * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i [!DNL Campaign] konsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -74,7 +73,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 >title="Inkludera testprofiler i huvudmålgruppen"
 >abstract="Aktivera det här alternativet om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen."
 
-Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Adobe Campaign] klientkonsol. Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs nedan.
+Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas i [!DNL Adobe Campaign] klientkonsol. Hur du skickar korrektur till dirigerade adresser beskrivs nedan.
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
@@ -94,7 +93,7 @@ Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen.
 
 ## Ersätt profildata {#substitution-profiles}
 
-Använd profilersättning för att skicka testmeddelanden till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
+Använd profilersättning för att skicka korrektur till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
 
 Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
