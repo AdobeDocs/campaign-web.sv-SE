@@ -2,10 +2,10 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 64%
+source-wordcount: '1846'
+ht-degree: 62%
 
 ---
 
@@ -127,6 +127,11 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> AddYears(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) med definierad session-TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Returnerar endast datumet (med tiden 00:00)*<br /> </td> 
    <td> DateOnly(&lt;datum&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Returnerar åldern i månader för ett datum<br /> </td> 
    <td> MonthsOld(&lt;datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Returnerar det äldsta datumet i ett intervall<br /> </td> 
+   <td> Äldst (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> TruncYear(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Returnerar talet som representerar dagen i veckan på datumet<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Returnerar ett tal som representerar dagen i veckan på datumet (0=måndag, 6=söndag)<br /> </td> 
    <td> WeekDay(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Returnerar talet som representerar året och månaden på datumet<br /> </td> 
    <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>ÅrFörÅR</strong><br /> </td> 
+   <td> Returnerar antalet år mellan två angivna datum<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
