@@ -4,18 +4,18 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '388'
+ht-degree: 0%
 
 ---
 
 # Kom igång med arbetsflöden {#workflows}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Fler arbetsflödesaktiviteter för kampanjer"
+>id="acw_homepage_rn2"
+>title="Flerkanaliga arbetsflöden"
 >abstract="Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat."
 
 ## Vad är ett arbetsflöde?

@@ -4,10 +4,10 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 1%
+source-wordcount: '593'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 1%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Lägga till länkar och spåra meddelanden"
 
 E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
+
 * Definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesraden
 * Utför ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden
 * Öppna [E-postdesigner](get-started-email-designer.md#start-authoring) för att börja skapa rätt innehåll i e-postmeddelandet
@@ -69,7 +70,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
    >
    >Du kan ändra den del som föregår @, men inte domänadressen.
 
-1. Expandera avsnittet **[!UICONTROL Reply-to fields]**. Avsändarens namn och adresser används som standard för svar. Adobe rekommenderar dock att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
+1. Expandera **[!UICONTROL Reply-to fields]** -avsnitt. Avsändarens namn och adresser används som standard för svar. Adobe rekommenderar dock att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
 
    ![](assets/email-edit-content-reply-to.png)
 
@@ -87,7 +88,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig skicka erbjudanden](offers.md)
 
-1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
+1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](get-started-email-designer.md#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 
    * [Skapa e-postmeddelanden från grunden](create-email-content.md)
    * [Formatera innehållet](get-started-email-style.md)

@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -15,13 +15,14 @@ ht-degree: 1%
 # Nyheter? {#new}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Nyheter?"
+>id="acw_homepage_card2"
+>title="Versionsinformation"
 >abstract="Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler."
+
 
 Vi är stolta över att kunna presentera BETA-versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler.
 
-## Viktiga möjligheter {#key-features}
+## Viktiga funktioner {#key-features}
 
 Det nya webbgränssnittet för Campaign är för närvarande bara tillgängligt för **Betahandledare** med följande funktioner:
 
