@@ -4,9 +4,9 @@ title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >id="acw_homepage_rn2"
 >title="Flerkanaliga arbetsflöden"
 >abstract="Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
 
 ## Vad är ett arbetsflöde?
 

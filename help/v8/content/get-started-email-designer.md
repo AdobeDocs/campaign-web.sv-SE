@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
 badge: label="Beta"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 6%
 >id="acw_homepage_rn3"
 >title="Ny e-postdesigner"
 >abstract="Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Oavsett om du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande!"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
 
 När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
