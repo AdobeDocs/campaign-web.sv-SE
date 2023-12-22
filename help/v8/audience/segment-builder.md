@@ -4,19 +4,15 @@ title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Arbeta med regelbyggaren {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Målgrupper"
->abstract="Det har aldrig varit enklare att skapa ett leveransmål! Med vår senaste regelbyggare kan du nu definiera filtreringskriterier för mottagare eller andra målgruppsdimensioner från databasen. Utnyttja er målgrupp på Adobe Experience Platform för att ytterligare förfina er målgrupp och maximera kampanjens genomslag."
 
 Med regelbyggaren kan du definiera målgruppen för leveransen genom att filtrera data i databasen. Du kan använda den för att skapa en målgrupp från ett arbetsflöde med **[!UICONTROL Build audience]** -aktivitet, eller direkt när du skapar en leverans för att skapa en enda målgrupp.
 

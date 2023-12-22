@@ -2,15 +2,20 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
-source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Ny frågemodellerare"
+>abstract="Adobe Campaign Web har en frågemodellerare som förenklar filtreringen av databaser för att välja specifika mål baserat på olika kriterier. Detta inkluderar användning av avancerade uttryck och operatorer. Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera regler för att filtrera data."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
