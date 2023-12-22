@@ -3,9 +3,9 @@ title: Arbeta med mottagare och målgrupper
 description: Lär dig hur du arbetar med mottagare på Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en u
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="Mottagare"
->abstract="Skapa nya mottagare och övervaka dem med kraftfulla rapporter och verktyg. Få åtkomst till mottagarens profil, använd filtreringsalternativen för att bläddra i mottagarlistan, redigera och uppdatera deras attribut."
+>title="360-vy med dina mottagare"
+>abstract="Skapa nya mottagare och övervaka dem med kraftfulla rapporter och verktyg. Få åtkomst till mottagarens attribut, interaktioner och loggar. Använd filtreringsalternativen för att bläddra i mottagarlistan, redigera och uppdatera deras profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
 
 
