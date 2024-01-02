@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '294'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Läs in filaktivitet"
->abstract="The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler som lagras i en extern fil."
+>abstract="The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med data som lagras i en extern fil."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 1%
 >abstract="Formatering för aktiviteten Läs in fil"
 
 
-The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../../personalization/gs-personalization.md)eller för att uppdatera profiler.
+The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../../personalization/gs-personalization.md)eller för att uppdatera profiler eller andra tabeller.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Följ de här stegen för att konfigurera **Läs in fil** aktivitet:
 
 
 1. Dra och släpp en **Läs in fil** i arbetsflödet. Klicka på **Välj från fil** -knappen.
-1. Markera den lokala fil som ska användas. Formatet måste justeras mot [exempelfil](../../audience/file-audience.md#sample-file).
+1. Markera den lokala fil som ska användas. Formatet måste vara justerat mot detta [exempelfil](../../audience/file-audience.md#sample-file).
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
 1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
 1. Klicka **Bekräfta** när inställningarna är korrekta.

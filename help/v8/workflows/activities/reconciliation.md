@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Avstämningsaktivitet"
->abstract="The **Avstämning** aktiviteten är en **Målinriktning** aktivitet. Det gör att du kan länka oidentifierade data till befintliga resurser. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i arbetstabellen."
+>abstract="The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan länka oidentifierade data till befintliga Campaign-data. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i den externa tabellen."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 
 
-The **Avstämning** aktiviteten är en **Målinriktning** aktivitet. Det gör att du kan länka oidentifierade data till befintliga resurser. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i arbetstabellen.
+The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan länka oidentifierade data till befintliga resurser. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i arbetstabellen.
 
 
 ## Bästa praxis {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
 1. Välj de avstämningsfält som ska användas för dedupliceringen. Du kan använda ett eller flera avstämningskriterier.
 
-   1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** alternativ. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress. The **Källa** -fält visar de fält som är tillgängliga i indataövergången och som ska förenas. The **Mål** fältet motsvarar fälten i den valda måldimensionen. Data avstäms när källan och målet är lika.
+   1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** alternativ. The **Källa** -fält visar de fält som är tillgängliga i indataövergången och som ska förenas. The **Mål** fältet motsvarar fälten i den valda måldimensionen. Data avstäms när källan och målet är lika. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress.
 
       Om du vill lägga till ytterligare avstämningsvillkor klickar du på **Lägg till regel** -knappen. Om flera kopplingsvillkor anges måste ALLA verifieras så att data kan länkas ihop.
 
@@ -121,7 +121,7 @@ Den har följande aktiviteter:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Avstämning** aktivitet som identifierar inkommande data som profiler med hjälp av **e-post** fält som avstämningskriterier.
+* A **Avstämning** aktivitet som identifierar inkommande data som profiler med hjälp av **e-post** och **Födelsedatum** fält som avstämningskriterier.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
