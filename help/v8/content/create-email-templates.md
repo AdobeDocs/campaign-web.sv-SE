@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -140,7 +140,7 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
 Den här mallen kan nu användas när du skapar e-post i [!DNL Adobe Campaign]. [Lär dig mer](use-email-templates.md)
 
-## Spara e-postinnehåll som mall {#save-as-template}
+### Spara e-postinnehåll som mall {#save-as-template}
 
 En gång [har utformat ett e-postmeddelande](create-email-content.md)kan du spara innehållet som en mall för framtida återanvändning. Sparade mallar är tillgängliga för alla användare i din Adobe Campaign-miljö.
 
