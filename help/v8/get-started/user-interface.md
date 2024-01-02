@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Fragmentdetaljer"
 >abstract="Fragmentdetaljer"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Innehållsmall"
->abstract="Innehållsmall"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Egenskaper för innehållsmall"
->abstract="Egenskaper för innehållsmall"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Design av innehållsmall"
->abstract="Design av innehållsmall"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Val av innehållsmall"
->abstract="Val av innehållsmall"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Content template edition"
->abstract="Content template edition"
-
-
 
 
 >[!CONTEXTUALHELP]

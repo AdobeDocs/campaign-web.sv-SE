@@ -4,7 +4,7 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
-Baserat på en fördefinierad [designmall](../content/email-sample-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
+Baserat på en fördefinierad [designmall](../content/create-email-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
 
 ## Skapa e-postleveransen {#create-email}
 
@@ -120,7 +120,7 @@ Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fa
 
 1. Om du vill utforma innehållet i e-postmeddelandet klickar du på knappen **[!UICONTROL Edit email body]** -knappen.
 
-   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du [fördefinierad innehållsmall](../content/email-sample-templates.md).
+   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du [fördefinierad innehållsmall](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 8%
 
 ---
@@ -36,12 +36,13 @@ ht-degree: 8%
       + [Skapa din första e-postadress](email/create-email.md)
       + Definiera e-postinnehåll {#content}
          + [Konfigurera e-postinnehållet](content/edit-content.md)
+         + [Arbeta med innehållsmallar](content/create-email-templates.md)
          + Börja forma din e-post {#start-design}
             + [Komma igång med e-postdesignern](content/get-started-email-designer.md)
             + [Börja från början](content/create-email-content.md)
             + [Importera e-postinnehåll](content/existing-content.md)
             + [Koda eget innehåll](content/code-content.md)
-            + [Använda mallar för e-postinnehåll](content/email-sample-templates.md)
+            + [Använda mallar för e-postinnehåll](content/use-email-templates.md)
          + Designa innehåll {#design-content}
             + [Använda innehållskomponenter](content/content-components.md)
             + [Lägga till länkar och spåra meddelanden](content/message-tracking.md)
