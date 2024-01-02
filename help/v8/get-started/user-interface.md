@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Avstämningsaktivitet"
->abstract="Använd **Avstämning** aktivitet för att länka oidentifierade data till befintliga resurser."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Avstämningsmål"
->abstract="Avstämningsmål"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Avstämningsregler"
->abstract="Avstämningsregler"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Måldimension för avstämning"
->abstract="Måldimension för avstämning"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Avstämningsmarkeringsfält"
->abstract="Avstämningsmarkeringsfält"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Avstämningsmarkeringsattribut"
->abstract="Avstämningsmarkeringsattribut"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Avstämning skapa villkor"
->abstract="Avstämning skapa villkor"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Avstämning genererar komplementtal"
->abstract="Avstämning genererar komplementtal"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Avstämning av ej avstämda dataalternativ"
->abstract="Avstämning av ej avstämda dataalternativ"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Läs in filaktivitet"
->abstract="Läs in filaktivitet"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Exempelfil"
->abstract="Exempelfil"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Filens namn"
->abstract="Filens namn"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Måldatabas"
->abstract="Måldatabas"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Avvisa hantering för Läs in filaktivitet"
->abstract="Avvisa hantering för Läs in filaktivitet"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Avvisa utgående övergång för hantering"
->abstract="Avvisa utgående övergång för hantering"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Avvisa utgående övergång för hantering av avslag"
->abstract="Avvisa utgående övergång för hantering av avslag"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formatering för aktiviteten Läs in fil"
->abstract="Formatering för aktiviteten Läs in fil"

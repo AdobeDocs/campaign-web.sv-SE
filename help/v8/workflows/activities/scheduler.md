@@ -4,10 +4,10 @@ title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 10%
+source-wordcount: '526'
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan 
 * Om du vill skicka en engångsleverans i arbetsflödet kan du lägga till en schemaläggningsaktivitet och ställa in den på att köras **En gång**. Du kan också definiera **Schema** i leveransinställningarna.
 * Om du vill skicka en återkommande leverans i arbetsflödet måste du använda en **Schemaläggare** och ange körningsfrekvens. Den återkommande leveransaktiviteten tillåter inte att du definierar ett schema.
 
-## Konfiguration{#scheduler-configuration}
+## Konfigurera aktiviteten Schemaläggaren {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

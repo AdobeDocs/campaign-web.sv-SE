@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '597'
 ht-degree: 1%
 
 ---
@@ -21,26 +21,25 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolumndefinition"
->abstract="Kontrollera formatet för de kolumner som ska infogas från den lokala filen."
+>abstract="Kontrollera kolumnformatet i den externa filen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formateringsparametrar"
->abstract="Kontrollera formateringsparametrarna för filen."
+>abstract="Kontrollera formateringsparametrarna för den externa filen."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Förhandsgranska filen"
->abstract="Kontrollera förhandsgranskningen av filen. Den här skärmen visar endast upp till 30 poster."
+>abstract="Kontrollera förhandsgranskningen av kolumnerna i den externa filen. Den här skärmen visar endast upp till 30 poster."
 
 
-
-Du kan inte överföra profiler direkt till Campaign från gränssnittet, men du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
+Du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). I den här artikeln beskrivs hur du läser in extern profil när du skapar en fristående e-postleverans. Läs in data från en fil i ett arbetsflöde i [den här sidan](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Den här funktionen är bara tillgänglig för **fristående e-postleveranser**. Det kan inte användas i arbetsflöden, eller med SMS- eller push-leveranser.
+>* Den här funktionen är bara tillgänglig för **e-postleveranser**. Den kan inte användas med SMS- eller push-leveranser.
 >
 >* Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
 >
