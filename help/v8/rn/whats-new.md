@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -83,6 +83,8 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 * **Fler arbetsflödesaktiviteter för kampanjer**
 
   Utnyttja era marknadsföringskampanjer bättre med våra **fler arbetsflödesaktiviteter**. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
+
+  Nya aktiviteter i den senaste LA-versionen är: **Avstämning**, **Läs in målgrupp** och **Spara målgrupper**.
 
   Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
 

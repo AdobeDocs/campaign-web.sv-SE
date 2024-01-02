@@ -4,9 +4,9 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Antal meddelanden"
->abstract="Använd det här alternativet om du vill ange hur många nya olästa uppgifter som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden."
+>abstract="Använd det här alternativet om du vill ange antalet olästa meddelanden som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden."
 
 
 >[!CONTEXTUALHELP]
