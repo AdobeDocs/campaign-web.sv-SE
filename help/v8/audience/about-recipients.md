@@ -1,54 +1,48 @@
 ---
-title: Arbeta med mottagare och målgrupper
-description: Lär dig hur du arbetar med mottagare på Campaign Web
-badge: label="Beta"
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+title: Övervaka och hantera profiler
+description: Lär dig övervaka och hantera profiler på Campaign Web.
+source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
-# Arbeta med mottagare och målgrupper {#about-recipients}
+# Övervaka och hantera profiler {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="360-vy med dina mottagare"
->abstract="Skapa nya mottagare och övervaka dem med kraftfulla rapporter och verktyg. Få åtkomst till mottagarens attribut, interaktioner och loggar. Använd filtreringsalternativen för att bläddra i mottagarlistan, redigera och uppdatera deras profil."
+>title="360-vy av dina profiler"
+>abstract="Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiler"
->abstract="En profil är en individ som ska ta emot meddelanden från Adobe Campaign. I Adobe Campaign är mottagare standardprofiler för att skicka leveranser (e-post, SMS). I den här listan kan du visa mottagarens profil utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning av mottagarens attribut."
+>abstract="En profil är en individ som ska ta emot meddelanden från Adobe Campaign. I den här listan kan du visa profilens information utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning profilattribut."
 
-En mottagare är en profil som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I Adobe Campaign är mottagarna de standardprofiler som väljs för att skicka leveranser till (e-post, SMS etc.). Med mottagardata som lagras i databasen kan du skapa målgrupper som tar emot alla angivna leveranser och lägga till personaliseringsdata i leveransinnehållet. Andra typer av profiler lagras i databasen. De är utformade för olika användningsområden: t.ex. skapas utsädesprofiler för att testa dina leveranser innan de skickas till den slutliga målgruppen.
+## Kom igång med profiler {#gs}
 
-Mottagare kan bara läggas till från Campaign-klientkonsolen. De visas dock på Campaign-webben från **Mottagare** inträde för det vänstra navigeringsfältet. Du kan också redigera mottagarens attribut från den skärmen.
+En profil på Adobe Campaign Web är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel Testprofiler, som är utformade för att testa dina leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
-Om du vill redigera mottagarens data klickar du på de tre punkterna bredvid namnet och väljer **Redigera...**.
+Profiler är tillgängliga från **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem från **Explorer** där du kan bläddra, skapa mappar, undermappar och kontrollera behörigheter.
 
-![Redigera en mottagarprofil](assets/recipient-edit.png)
+Du kan filtrera profillistan med hjälp av sökfältet eller de filter som finns i **Visa filter** -knappen.
 
-Du kan uppdatera en begränsad uppsättning attribut, till exempel förnamn, efternamn, e-postadress och telefonnummer.
-
-![Uppdatera en mottagarprofil](assets/recipient-update.png)
+![](assets/profiles-list.png)
 
 >[!NOTE]
 >
->Det här begränsade profilredigeringsformuläret finns endast för betatestning. Den kommer att förbättras i den framtida versionen. Det gör att användaren snabbt kan lägga till en e-postadress och ett telefonnummer till en profil så att han/hon kan testa e-post- och SMS-kanalerna och ta emot de meddelanden som skickas.
+>Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över profiler som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
 
-Du kan filtrera mottagarna med hjälp av sökfältet från **Visa filter** -knappen.
+## Få åtkomst till och redigera profilattribut {#access}
 
-Du kan även komma åt mottagare från **Explorer** visa, bläddra och skapa mappar och undermappar och kontrollera tillhörande behörigheter.
+Om du vill få tillgång till information om en profil klickar du på dess namn i profillistan.
 
-![Mottagarlista från Utforskaren-vyn](assets/recipients-from-explorer.png)
+![](assets/profiles-details.png)
 
->[!NOTE]
->
->Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över mottagare som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
+På den här skärmen kan du få tillgång till detaljerad information om profilen:
 
-Dessutom kan du hantera prenumerationen och avprenumerationen av dina mottagare på tjänster som nyhetsbrev. Lär dig hur du arbetar med prenumerationstjänster i [den här sidan](manage-services.md)
-
-Du kan skapa arbetsflöden för att deduplicera, berika, kombinera profiler och bygga målgrupper. Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
+* The **[!UICONTROL Details]** kan du bläddra igenom profilens attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
+* The **[!UICONTROL Subscriptions]** -fliken innehåller information om de tjänster som profilen prenumererar på. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
+* The **[!UICONTROL Logs]** i skärmens övre högra hörn kan du visa en historik över profilens interaktioner genom att skicka, exkludera och spåra loggar samt de förslag som presenteras för profilen.
