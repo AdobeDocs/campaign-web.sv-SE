@@ -4,9 +4,9 @@ title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Begränsad tillgänglighet"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Bläddra bland, söka i och filtrera listor {#list-screens}
 
 De flesta länkar från den vänstra navigeringsmenyn visar listor med objekt, t.ex. listan med **Leveranser** eller **Kampanjer**. Vissa av dessa listskärmar är skrivskyddade. Du kan anpassa listvisningen och filtrera listorna enligt nedan.
-
-Om du vill ta bort ett filter klickar du på **Rensa alla** -knappen.
 
 ## Anpassa listskärmar {#custom-lists}
 
@@ -39,23 +37,13 @@ Du kan också sortera objekt i listan genom att klicka på en kolumnrubrik. En p
 
 För numeriska kolumner och datumkolumner finns **Upp** anger att listan är sorterad i stigande ordning medan **Ned** pil anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
 
-## Inbyggda filter {#list-built-in-filters}
+## Filter {#list-built-in-filters}
 
-Om du vill hitta objekt snabbare kan du använda sökfältet eller filtrera listan baserat på sammanhangsberoende kriterier.
+Om du vill hitta objekt snabbare kan du använda sökfältet eller inbyggda och anpassade filter för att anpassa listan baserat på sammanhangsberoende kriterier.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller mapp. Du kan också dölja tester.
-
-## Egna filter{#list-custom-filters}
-
-Om du vill skapa anpassade filter för data bläddrar du längst ned i filtren och klickar på knappen **Lägg till regler** för att komma åt regelbyggaren.
-
-Definiera och kombinera filtervillkoren i **Avancerade filter** skärm.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Anpassade filter har utformats med frågemodelleraren i Campaign. Detaljerad information om hur det används finns i [det här avsnittet](../query/query-modeler-overview.md).
+Detaljerad information om hur du använder filter och skapar egna filter finns i [det här avsnittet](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
