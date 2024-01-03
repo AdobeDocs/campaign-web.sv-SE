@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 8%
+source-wordcount: '488'
+ht-degree: 9%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 8%
       + [Återge din e-post](preview-test/email-rendering.md)
 + Målgrupper och mottagare {#audiences}
    + [Kom igång med mottagare och målgrupper](audience/gs-audiences-recipients.md)
-   + [Arbeta med mottagare](audience/about-recipients.md)
+   + Arbeta med mottagare {#work-with-recipients}
+      + [Hantera profiler](audience/about-recipients.md)
+      + [Skapa och hantera testprofiler](audience/test-profiles.md)
    + Arbeta med målgrupper {#audiences}
       + [Skapa målgrupper](audience/create-audience.md)
       + [Övervaka och hantera målgrupper](audience/manage-audience.md)
