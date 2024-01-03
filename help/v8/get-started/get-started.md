@@ -3,11 +3,11 @@ audience: end-user
 title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 2%
+source-wordcount: '396'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgän
 
 >[!NOTE]
 >
->Campaign v8 Web är för närvarande i betaversion. Åtkomsten är begränsad till en liten uppsättning Beta-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
+>Campaign v8 Web har för närvarande en begränsad tillgänglighet (LA)-version. Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-campaign.md).
 

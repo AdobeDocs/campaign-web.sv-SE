@@ -1,11 +1,12 @@
 ---
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
+badge: label="Begränsad tillgänglighet"
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -50,11 +51,13 @@ Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargrä
 
 ## Adobe Experience Cloud toppnavigering {#top-bar}
 
-Använd gränssnittets övre fält för att:
+Bläddra i gränssnittets övre fält till:
 
-* dela din feedback som en betaanvändare
 * växla mellan olika organisationer
 * växla mellan era Adobe Experience Cloud-lösningar och appar
+* sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* kontrollera produktmeddelanden
+* redigera din Adobe-profil och hantera inställningar som [uppdatera ditt favoritspråk](#language-pref) eller [växla till ljust/mörkt tema](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -86,11 +89,10 @@ Så här byter du språk:
 1. Klicka sedan på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad till ditt första språk.
 
-## Mörkt tema {#dark-theme}
+## Mörka och ljusa teman {#dark-theme}
 
-Du kan växla till det mörka temat från din profilikon. Använd **Mörkt tema** för att aktivera/inaktivera den.
+Adobe Campaign finns i ljusa och mörka teman. Som standard är användargränssnittet aktiverat i ljust tema. Klicka på din profilikon och använd **Mörkt tema** för att aktivera/inaktivera den.
 
 Användarprofilsinställningar och kontoinställningar finns i [det här avsnittet](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
 
 Läs mer om Experience Cloud Central Interface Components i [den här dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-

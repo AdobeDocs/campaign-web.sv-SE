@@ -1,16 +1,12 @@
 ---
 title: Skapa och använda fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign webbgränssnitt
-feature: Personalization
-topic: Personalization
-role: Data Engineer
-level: Beginner
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 0%
+source-wordcount: '793'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +22,7 @@ ht-degree: 0%
 >title="Fördefinierade filter"
 >abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
 
-Fördefinierade filter är anpassade filter som skapas och sparas för att vara tillgängliga för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med regelbyggaren, till exempel när en lista med data filtreras eller när målgruppen för en leverans skapas.
+Fördefinierade filter är anpassade filter som skapas och sparas för att vara tillgängliga för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med frågemodelleraren, t.ex. när en lista med data filtreras eller när målgruppen för en leverans skapas.
 
 Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
@@ -49,24 +45,25 @@ Du kan använda befintliga inbyggda filter för att få tillgång till en viss d
 >title="Skapa fördefinierade filterregler"
 >abstract="Om du vill definiera filtervillkoren för det anpassade filtret klickar du på knappen Skapa regel."
 
-### Skapa ett filter från regelbyggaren {#create-from-rule-builder}
+### Skapa ett filter från frågemodelleraren {#create-from-rule-builder}
 
-Du kan spara ett anpassat filter från regelbyggaren så att det blir tillgängligt för framtida bruk. Följ de här stegen:
+Du kan spara ett eget filter från [frågemodellerare](../query/query-modeler-overview.md) för framtida bruk. Följ de här stegen:
 
-1. Öppna regelbyggaren och definiera filtervillkoren. I exemplet nedan filtrerar du mottagare som bor i Madrid.
+1. Öppna frågemodelleraren och definiera filtervillkoren. I exemplet nedan filtrerar du mottagare som bor i Madrid och prenumererar på ett nyhetsbrev.
 1. Klicka på **Markera eller spara filter** och markera **Spara som ett filter**.
 
    ![](assets/predefined-filters-save.png)
 
 1. Välj **Skapa ett nytt filter** och ange ett namn och en beskrivning för filtret.
 
-   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
+   ![](assets/predefined-filters-save-filter.png)
 
    Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
 
 1. Klicka **Bekräfta** för att spara ändringarna.
 
 Ditt anpassade filter finns nu i **Fördefinierade filter** och är tillgängliga för alla Campaign-användare.
+
 
 ### Skapa ett filter från filterlistan {#create-filter-from-list}
 
@@ -76,13 +73,19 @@ Du kan skapa ett filter från **Fördefinierade filter** i den vänstra menyn. G
 1. Klicka på **Skapa filter** -knappen.
 1. Ange filternamnet och, från **Dokumenttyp** markerar du det schema det gäller för. Standardschemat är `Recipients(nms)`.
 
-   Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
 
 1. Definiera regeln för filtret. Till exempel profiler äldre än 30.
 
    ![](assets/filter-30+.png)
 
-1. Spara ändringarna. Filtret läggs till i den fördefinierade filterlistan.
+
+1. Spara ändringarna.
+
+   ![](assets/new-filter.png)
+
+
+Filtret läggs till i den fördefinierade filterlistan. Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
+
 
 ## Spara filtret som en favorit {#fav-filter}
 
@@ -108,7 +111,7 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 1. Ange målgruppens namn och klicka på **Skapa publik** -knappen.
 1. Välj **Fråga** aktivitet och, från den högra rutan, klicka **Skapa målgrupper** -knappen.
 
-   ![](assets//build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png)
 
 1. Från **Markera eller spara filterknapp** väljer du **Välj eget filter** alternativ.
 
@@ -120,8 +123,6 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 
 1. Kontrollera regelegenskaperna för det här filtret och bekräfta.
 
-   ![](assets/build-audience-check.png)
-
    Filtret används nu som en fråga i **Fråga** aktivitet.
 
    ![](assets/build-audience-confirm.png)
@@ -132,13 +133,15 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 
 Fördefinierade filter grupperas alla i den dedikerade posten på den vänstra navigeringsmenyn.
 
+![](assets/list-of-filters.png)
+
 I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
 
 * redigera ett befintligt filter och ändra dess regler och egenskaper
 * duplicera ett fördefinierat filter
 * ta bort ett fördefinierat filter
 
-Du kan lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar regler. Läs mer i [det här avsnittet](#fav-filter).
+Du kan lägga till ett fördefinierat filter som favorit för att snabbt få tillgång till dem när du skapar målgrupper. Läs mer i [det här avsnittet](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
