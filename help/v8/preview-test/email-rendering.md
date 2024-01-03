@@ -3,11 +3,11 @@ audience: end-user
 title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i webbgränssnittet för Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 2%
 
 ---
 

@@ -4,23 +4,23 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
 
-# Skicka korrektur {#send-test-deliveries}
+# Skicka testleveranser {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Förhandsgranskningsläge"
 >abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
 
-När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka korrektur för att testa profiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
+När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka testleveranser till testprofiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
-Om du vill identifiera eventuella fel i inställningarna för meddelandeinnehåll eller personalisering skickar du korrektur för att testa profiler innan du skickar dem till målgruppen. Ett korrektur ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka testleveranser (som tidigare kallats korrektur) är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Korrekturmottagarna kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
+Om du vill identifiera eventuella fel i meddelandeinnehållet eller personaliseringsinställningarna skickar du testleveranser till testprofiler innan du skickar dem till målgruppen. En testleverans ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka testleveranser (även kallat korrektur) är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Mottagarna av testleveransen kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
 
 ## Simulera innehåll med testmottagare {#simulate-content-test-deliveries}
 
@@ -29,23 +29,23 @@ Om du vill identifiera eventuella fel i inställningarna för meddelandeinnehål
 >title="Testpopulation"
 >abstract="Välj ett testpopulationsläge."
 
-Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/about-recipients.md)
+Innan du skickar ett test måste du definiera en målgrupp för leveransen. [Läs mer](../audience/add-audience.md)
 
 Så här börjar du testa ditt meddelandeinnehåll:
 
 1. Redigera innehållet i leveransen.
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
-1. Klicka på **[!UICONTROL Test]** för att skicka korrektur.
+1. Klicka på **[!UICONTROL Test]** för att skicka testleveranser.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Välj testmottagare.
 
-   Beroende på meddelandekanalen kan korrektur skickas till följande typer av mottagare:
+   Beroende på meddelandekanalen kan testleveranser skickas till följande typer av mottagare:
 
    * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. [Läs mer](../audience/test-profiles.md)
 
-   * För SMS och e-post kan du även använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar korrektur till e-postadress eller telefonnummer för test och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
+   * För SMS och e-post kan du även använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar testleveransen till en e-postadress eller ett telefonnummer och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
    * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i [!DNL Campaign] konsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -75,7 +75,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 
 Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
 
-Stegen för att skicka korrektur till dirigerade adresser beskrivs nedan.
+Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
@@ -93,9 +93,7 @@ Stegen för att skicka korrektur till dirigerade adresser beskrivs nedan.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. [Läs mer om avancerade filter](../get-started/list-filters.md#adv-attributes)
-
-   ![](assets/simulate-test-profile-filter-ex.png)
+   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
@@ -105,7 +103,7 @@ Stegen för att skicka korrektur till dirigerade adresser beskrivs nedan.
 
 ## Ersätt profildata {#substitution-profiles}
 
-Använd profilersättning för att skicka korrektur till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
+Använd profilersättning för att skicka testleveranser till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
 
 Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
@@ -172,7 +170,7 @@ När du är klar kan du förbereda och skicka leveransen till huvudmålet. Läs 
 * [Skicka push-meddelanden](../push/send-push.md#send-push)
 * [Skicka SMS-leverans](../sms/send-sms.md#send-sms)
 
-## Åtkomst till skickade testleveranser {#access-proofs}
+## Åtkomst till skickade testleveranser {#access-test-deliveries}
 
 När testleveranserna har skickats kan du få åtkomst till dedikerade loggar från **[!UICONTROL View test log]** -knappen.
 

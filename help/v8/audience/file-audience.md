@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,4 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
 
    ![](assets/file-upload-test.png)
 
-1. Du kan när som helst övervaka sändningen av testmeddelandet med knappen Visa testets e-postlogg. [Läs mer om övervakning av testmeddelanden](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Du kan övervaka sändningen av testmeddelandet med **[!UICONTROL View test email log]** när som helst. [Läs mer om övervakning av testmeddelanden](../preview-test/test-deliveries.md#access-test-deliveries)
