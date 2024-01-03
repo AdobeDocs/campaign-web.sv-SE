@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 4%
+source-wordcount: '498'
+ht-degree: 3%
 
 ---
 
@@ -31,13 +31,19 @@ Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs i [det 
 
 ## Få åtkomst till och hantera testprofiler {#access-test-profiles}
 
-Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** från den vänstra menyn och väljer **[!UICONTROL Test profiles]** -fliken.
+Om du vill öppna testprofillistan väljer du **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** från den vänstra menyn och klicka på **[!UICONTROL Test profiles]** -fliken.
+
+![](assets/test-profile-list.png)
 
 Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Om du vill redigera en testprofil klickar du på önskat objekt i listan.
 
 Om du vill ta bort en testprofil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
+
+![](assets/test-profile-list-delete.png)
 
 ## Skapa en testprofil {#create-test-profile}
 
@@ -48,11 +54,7 @@ Om du vill ta bort en testprofil väljer du motsvarande alternativ i dialogrutan
 
 Följ stegen nedan för att skapa en testprofil.
 
-1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
-
-1. Klicka på fliken **[!UICONTROL Test profiles]**.  
-
-   ![](assets/test-profile-list.png)
+1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** och väljer **[!UICONTROL Test profiles]** -fliken.
 
 1. Klicka på knappen **[!UICONTROL Create test profile]**.
 
@@ -62,7 +64,7 @@ Följ stegen nedan för att skapa en testprofil.
 
    >[!NOTE]
    >
-   >Adressetiketten fylls automatiskt i med det förnamn och efternamn som du har definierat.
+   >The **[!UICONTROL Label]** fältet fylls automatiskt i med det förnamn och efternamn som du har definierat.
 
 1. Som standard lagras testprofiler i **[!UICONTROL Seed addresses]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Läs mer](#seed-addresses-folders)
 
