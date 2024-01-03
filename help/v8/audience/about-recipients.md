@@ -1,9 +1,10 @@
 ---
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
-source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
+badge: label="Begränsad tillgänglighet"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 En profil på Adobe Campaign Web är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel Testprofiler, som är utformade för att testa dina leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
-Profiler är tillgängliga från **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem från **Explorer** där du kan bläddra, skapa mappar, undermappar och kontrollera behörigheter.
+Profiler kan bara läggas till från Campaign-klientkonsolen. De kan dock nås via Adobe Campaign Web från **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem från **Explorer** där du kan bläddra, skapa mappar, undermappar och kontrollera behörigheter.
 
 Du kan filtrera profillistan med hjälp av sökfältet eller de filter som finns i **Visa filter** -knappen.
 
