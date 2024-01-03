@@ -4,9 +4,9 @@ title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 >id="acw_audiences_workflow_error_data_execution"
 >title="Målgruppsfel"
 >abstract="Målgruppsdata är inte tillgängliga. Vänta på att arbetsflödets körning avslutas."
+
+Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Läs mer om leveransmallar i [den här sidan](../msg/delivery-template.md).
+
+Om du vill definiera en målgrupps befolkning kan du:
+
+* [Skapa nya målgrupper](create-audience.md) från **[!UICONTROL Audiences]** meny,
+* [Välj en befintlig målgrupp](add-audience.md) som har skapats som en lista i klientkonsolen eller som kommer från Adobe Experience Platform,
+* [Bygg en ny publik](segment-builder.md) med regelbyggaren genom att definiera och kombinera filtervillkor,
+* [Använda en målgrupp från en extern fil](file-audience.md). Det här alternativet är bara tillgängligt för fristående e-postleveranser och kan inte användas i kampanjleveranser.
+
+När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper** för att undvika att skicka meddelanden till en del av er målgrupp och mäta effekten av era kampanjer. [Lär dig hur du ställer in en kontrollgrupp](control-group.md)
+
+>[!NOTE]
+>
+>När meddelanden skickas i samband med ett kampanjarbetsflöde definieras målgruppen i en specifik **Bygg målgrupper** arbetsflödesaktivitet. I det här sammanhanget kan du inte läsa in en målgrupp från en fil för en e-postleverans, och målgruppen definieras endast i den här dedikerade aktiviteten. Lär dig definiera målgruppen för leveransen i ett kampanjarbetsflöde i [det här avsnittet](../workflows/activities/build-audience.md)
 
 Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONTROL Audiences]** -menyn.
 
