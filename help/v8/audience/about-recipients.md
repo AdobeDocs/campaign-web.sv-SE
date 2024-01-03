@@ -2,9 +2,9 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,52 @@ Du kan filtrera profillistan med hjälp av sökfältet eller de filter som finns
 
 ## Få åtkomst till och redigera profilattribut {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Grundläggande information"
+>abstract="I det här avsnittet finns information om de grundläggande detaljerna i profilen. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Kontaktinformation"
+>abstract="I det här avsnittet finns information om profilens kontaktinformation. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="I det här avsnittet finns information om profilens postadress och adresskvalitet. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Kontoinformation"
+>abstract="I det här avsnittet finns information om profilens kontoinformation. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Mottagarna kontaktar inte längre"
+>abstract="I det här avsnittet finns information om kontaktinställningarna för profilen. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Anpassade fält"
+>abstract="Anpassade fält är specifika attribut som är anpassade efter dina behov och som har konfigurerats för din instans. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Övriga"
+>abstract="I det här avsnittet finns ytterligare inbyggda attribut. Om du vill ändra någon information gör du ändringarna direkt i respektive fält och klickar på **Spara** i skärmens övre högra hörn."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Mottagarens prenumerationslista"
+>abstract="På den här fliken visas alla tjänster som profilen prenumererar på."
+
 Om du vill få tillgång till information om en profil klickar du på dess namn i profillistan.
 
 ![](assets/profiles-details.png)
 
 På den här skärmen kan du få tillgång till detaljerad information om profilen:
 
-* The **[!UICONTROL Details]** kan du bläddra igenom profilens attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
+* The **[!UICONTROL Details]** kan du bläddra igenom profilens inbyggda och anpassade attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
 * The **[!UICONTROL Subscriptions]** -fliken innehåller information om de tjänster som profilen prenumererar på. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
 * The **[!UICONTROL Logs]** i skärmens övre högra hörn kan du visa en historik över profilens interaktioner genom att skicka, exkludera och spåra loggar samt de förslag som presenteras för profilen.

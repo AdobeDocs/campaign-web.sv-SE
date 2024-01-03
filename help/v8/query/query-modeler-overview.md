@@ -2,9 +2,10 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+badge: label="Begränsad tillgänglighet"
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
