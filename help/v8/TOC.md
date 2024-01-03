@@ -5,10 +5,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 9%
+source-wordcount: '502'
+ht-degree: 8%
 
 ---
 
@@ -149,6 +149,11 @@ ht-degree: 9%
       + [SMS-leveransrapport](reporting/sms-report.md)
    + Kampanjrapporter {#campaign-report}
       + [Få tillgång till kampanjrapporter](reporting/campaign-reports.md)
-      + [Kampanjrapporter](reporting/campaign-reports-email.md)
-      + [Push-kampanjrapporter](reporting/campaign-reports-push.md)
-      + [Kampanjrapporter för SMS](reporting/campaign-reports-sms.md)
+      + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
+      + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
+      + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
+   + Globala rapporter {#global-report}
+      + [Få tillgång till globala rapporter](reporting/global-reports.md)
+      + [E-posta global rapport](reporting/global-report-email.md)
+      + [Skjut global rapport](reporting/global-report-push.md)
+      + [global SMS-rapport](reporting/global-report-sms.md)
