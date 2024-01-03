@@ -4,9 +4,9 @@ title: Bläddra bland, söka i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Begränsad tillgänglighet"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ I listan visas följande kolumner:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Använd **Visa avancerade attribut** om du vill visa alla attribut för den aktuella listan. [Läs mer](#adv-attributes)
-
 ## Sortera data {#sort-lists}
 
 Du kan också sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen.
@@ -59,27 +57,29 @@ Definiera och kombinera filtervillkoren i **Avancerade filter** skärm.
 
 Anpassade filter har utformats med frågemodelleraren i Campaign. Detaljerad information om hur det används finns i [det här avsnittet](../query/query-modeler-overview.md).
 
-## Använd avancerade attribut {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="Visa avancerade attribut"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="Avancerade fält för regelbyggaren"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Avancerade attribut för regelbyggaren"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-Endast de vanligaste attributen visas som standard i attributlistan och på filterkonfigurationsskärmar. Attribut som angetts som `advanced` attribut i dataschemat döljs från konfigurationsskärmarna.
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar. Attributlistan uppdateras omedelbart.
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
