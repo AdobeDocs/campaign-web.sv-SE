@@ -3,21 +3,20 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="Begränsad tillgänglighet"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 1%
+source-wordcount: '200'
+ht-degree: 2%
 
 ---
 
-# Access Delivery reports {#reports}
+# Kom igång med leveransrapporter {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Aggregerad rapportering för leveranser"
 >abstract="Välj minst två leveranser för att visa en sammanställd datarapport."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

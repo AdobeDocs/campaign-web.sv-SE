@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---

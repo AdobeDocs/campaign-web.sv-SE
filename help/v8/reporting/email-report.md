@@ -2,11 +2,11 @@
 audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2131'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---

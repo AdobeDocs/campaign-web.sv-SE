@@ -2,11 +2,11 @@
 audience: end-user
 title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---

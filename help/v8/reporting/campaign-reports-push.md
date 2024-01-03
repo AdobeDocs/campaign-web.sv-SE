@@ -2,11 +2,11 @@
 audience: end-user
 title: Kampanjrapporter för push-kanalen
 description: Förstå kampanjrapporter för Push-kanalen
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '508'
 ht-degree: 8%
 
 ---
@@ -143,17 +143,17 @@ ht-degree: 8%
    + [Kom igång med rapporter](reporting/gs-reports.md)
    + [Viktiga resultatindikatorer](reporting/kpis.md)
    + Leveransrapporter {#delivery-report}
-      + [Åtkomstrapporter](reporting/delivery-reports.md)
+      + [Kom igång med leveransrapporter](reporting/delivery-reports.md)
       + [Rapport om e-postleverans](reporting/email-report.md)
       + [Rapport om push-leverans](reporting/push-report.md)
       + [SMS-leveransrapport](reporting/sms-report.md)
    + Kampanjrapporter {#campaign-report}
-      + [Få tillgång till kampanjrapporter](reporting/campaign-reports.md)
+      + [Kom igång med kampanjrapporter](reporting/campaign-reports.md)
       + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
       + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
       + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
    + Globala rapporter {#global-report}
-      + [Få tillgång till globala rapporter](reporting/global-reports.md)
+      + [Kom igång med globala rapporter](reporting/global-reports.md)
       + [E-posta global rapport](reporting/global-report-email.md)
       + [Skjut global rapport](reporting/global-report-push.md)
       + [global SMS-rapport](reporting/global-report-sms.md)

@@ -2,16 +2,16 @@
 audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
 
-# Kampanjrapporter {#campaign-reports}
+# Kom igång med kampanjrapporter {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
