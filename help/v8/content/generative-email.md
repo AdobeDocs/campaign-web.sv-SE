@@ -2,8 +2,11 @@
 audience: end-user
 title: E-postgenerering med Content Assistant
 description: Kom igång med Content Assistant
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+badge: label="Alpha"
+exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -74,5 +77,3 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
    ![](assets/email-genai-6.png)
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)
-
-

@@ -2,18 +2,18 @@
 audience: end-user
 title: Text med Content Assistant
 description: Kom igång med Content Assistant
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+badge: label="Alpha"
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-
 # Skapa text med Content Assistant {#generative-content}
-
-
 
 När du har skapat och personaliserat dina e-postmeddelanden kan du använda Content Assistant som drivs av generativ AI för att ta ditt innehåll till nästa nivå.
 
@@ -70,4 +70,3 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
    ![](assets/text-genai-7.png)
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)
-

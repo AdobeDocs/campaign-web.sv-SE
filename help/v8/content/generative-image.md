@@ -2,14 +2,16 @@
 audience: end-user
 title: Bildgenerering med Content Assistant
 description: Kom igång med Content Assistant
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+badge: label="Alpha"
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
-
 
 # Bildgenerering med Content Assistant {#generative-image}
 

@@ -4,7 +4,9 @@ title: Kom igång med Content Assistant
 description: Kom igång med Content Assistant
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -18,8 +20,6 @@ ht-degree: 0%
 >title="Gen AI för e-postinnehåll"
 >abstract="Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
