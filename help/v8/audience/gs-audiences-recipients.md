@@ -1,32 +1,30 @@
 ---
-title: Arbeta med mottagare och målgrupper
-description: Lär dig hur du arbetar med mottagare och målgrupper på Campaign Web
-badge: label="Beta"
+title: Kom igång med profiler och målgrupper
+description: Lär dig hur du arbetar med profiler och målgrupper på Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 1%
 
 ---
 
-# Arbeta med mottagare och målgrupper {#about-recipients}
+# Kom igång med profiler och målgrupper {#about-profiles}
 
-## Mottagare och målgrupper {#about}
+## Profiler och målgrupper {#about}
 
-I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en uppsättning personer som har liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences).
-
-I de flesta fall består publiken av profiler som lagras som [mottagare](#recipients) i Adobe Campaign. Du kan även arbeta med andra målmappningar genom att ändra dimensionen enligt beskrivningen [i det här avsnittet](#targeting-dimensions).
+I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en uppsättning profiler som delar liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences).
 
 ## Måldimensioner {#targeting-dimensions}
 
-Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
+Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: profiler, kontraktsanställda, operatörer, prenumeranter osv.
 
-Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga till mottagarna från databasen, kommer den utgående övergången att innehålla data av typen mottagare och den kommer att överföras till nästa aktivitet.
+Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga om profilerna från databasen, kommer den utgående övergången att innehålla data av typen &quot;mottagare&quot; och den kommer att överföras till nästa aktivitet.
 
-Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimensionsaktivitet](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande mottagare.
+Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimensionsaktivitet](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande profiler.
 
-Som standard har mallar för e-post och SMS-leverans som mål **[!UICONTROL Recipients]**. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
+Som standard har e-post- och SMS-leveransmallar målprofiler. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
 
 Du kan även använda andra inbyggda målmappningar i dina arbetsflöden och leveranser som listas nedan:
 
