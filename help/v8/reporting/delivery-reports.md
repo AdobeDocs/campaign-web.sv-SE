@@ -4,7 +4,7 @@ title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Följ de här stegen för att visa och hantera rapporter:
 
    Du kan också använda de tre punkterna **Fler åtgärder** knappen bredvid leveransnamnet i leveranslistan och välj **[!UICONTROL View report]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. Välj en rapport från listan på den vänstra menyn.
 
