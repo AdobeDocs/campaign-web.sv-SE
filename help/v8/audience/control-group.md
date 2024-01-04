@@ -4,10 +4,10 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 12%
+source-wordcount: '780'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ Aktivera alternativet **[!UICONTROL Enable control group]** växla från **Målg
 
 ### Skapa en kontrollgrupp {#build-extract-target}
 
-För att definiera en kontrollgrupp kan du välja att extrahera – slumpmässigt eller baserat på en sortering – en procentandel eller ett fast antal profiler från målpopulationen. Om du föredrar att lägga till en extra fyllning väljer du **Ingen extrahering** och välj den extra fyllningen [som anges här](#extra-population).
+Om du vill definiera en kontrollgrupp kan du välja att extrahera, slumpmässigt eller baserat på en sortering, en procentandel eller ett fast antal profiler från målpopulationen. Om du föredrar att lägga till en extra fyllning väljer du **Ingen extrahering** och välj den extra fyllningen [som anges här](#extra-population).
 
 Definiera först hur profilerna extraheras från målet: slumpmässigt eller baserat på en sortering.
 
@@ -114,7 +114,7 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 
 * Om du vill använda en befintlig målgrupp klickar du **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
 
-* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Läs mer i [det här avsnittet](segment-builder.md).
+* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
 
 Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **exkluderad** från leveransmålet: de får inget meddelande.
 
