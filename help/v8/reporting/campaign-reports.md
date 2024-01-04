@@ -4,10 +4,10 @@ title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 4%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -25,18 +25,55 @@ ht-degree: 4%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-Klicka på **Rapporter** från kampanjens kontrollpanel.
-
-![](assets/campaign_report_email_13.png)
-
-Du kan också använda de tre punkterna **Fler åtgärder** knapp bredvid kampanjnamnet i kampanjlistan, enligt nedan:
-
-![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
-
-Kampanjrapporten är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel.
+The **Kampanjrapporter** ger en omfattande översikt över **kampanj**, med alla relevanta uppgifter om de olika leveranser som ingår. Dessa rapporter innehåller en grundlig analys av resultatet, per kanal: antal lyckade inköp, målgruppsengagemang och andra viktiga mätvärden. De gör att ni kan utvärdera kampanjens övergripande effektivitet och effekt.
 
 En fullständig lista över rapporter och tillhörande mått för varje kanal finns på följande sidor:
 
-* [E-postkanal](campaign-reports-email.md)
-* [SMS-kanal](campaign-reports-sms.md)
-* [Push-kanal](campaign-reports-push.md)
+* [E-postkampanjkanal](campaign-reports-email.md)
+* [SMS-kampanjkanal](campaign-reports-sms.md)
+* [Kampanjkanal](campaign-reports-push.md)
+
+## Hantera rapportinstrumentpanelen {#manage-reports}
+
+Följ de här stegen för att få tillgång till och hantera kampanjrapporter:
+
+1. Navigera till **[!UICONTROL Campaigns]** -menyn. Klicka på **Rapporter** från kampanjens kontrollpanel.
+
+   ![](assets/manage_campaign_report_2.png)
+
+   Du kan också använda de tre punkterna **Fler åtgärder** knapp bredvid kampanjnamnet i kampanjlistan och välj **[!UICONTROL View report]**.
+
+   ![](assets/manage_campaign_report_1.png)
+
+1. Välj en rapport i listan på den vänstra menyn och navigera på fliken för att visa data från varje kanal.
+
+   ![](assets/manage_campaign_report_4.png)
+
+1. Klicka på **[!UICONTROL Select deliveries]** om ni vill rikta in er på en viss leverans som ingår i kampanjen.
+
+1. I **[!UICONTROL Delivery throughput]** väljer du en **Starta** och **[!UICONTROL End time]** för att rikta in specifika data.
+
+   ![](assets/manage_campaign_report_3.png)
+
+1. Från **[!UICONTROL Pick folder]** väljer du om du vill rikta leveranser eller kampanjer från en viss mapp.
+
+   Du kan också välja **[!UICONTROL Add rules]** för att börja skapa frågor för att bättre filtrera rapporteringsdata. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
+
+   ![](assets/manage_campaign_report_4.png)
+
+1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
+
+   The **[!UICONTROL View by]** kan du filtrera på URL:er, etiketter eller kategorier.
+
+## Exportera rapporter {#export-reports}
+
+Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
+
+1. Klicka på **[!UICONTROL Export]** och markera **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
+
+   ![](assets/export_campaign_report.png)
+
+1. Leta reda på mappen där du vill spara filen, byt namn på den om det behövs och klicka på **[!UICONTROL Save]**.
+
+Din rapport är nu tillgänglig för visning eller delning i en PDF- eller CSV-fil.
+
