@@ -3,7 +3,7 @@ title: Kom igång med profiler och målgrupper
 description: Lär dig hur du arbetar med profiler och målgrupper på Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -26,15 +26,15 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Övervaka och hantera profiler</strong></a>
+<a href="about-recipients.md"><strong>Övervaka och hantera profiler</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Skapa målgrupper</strong>
+<div><a href="create-audience.md"><strong>Skapa målgrupper</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <img alt="Sällan" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Hantera tjänster</strong></a>
+<a href="manage-services.md"><strong>Hantera tjänster</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <img alt="Sällan" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Välj leveransmottagare</strong></a>
+<a href="add-audience.md"><strong>Välj leveransmottagare</strong></a>
 </div>
 <p></td>
 </tr></table>
