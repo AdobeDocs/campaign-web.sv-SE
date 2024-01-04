@@ -4,7 +4,7 @@ title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Så här skapar du en egen fråga:
 1. Välj **Skapa en egen (fråga)**.
 1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. Läs mer om Målinställningar i [det här avsnittet](../../audience/about-recipients.md#targeting-dimensions).
 1. Klicka **Fortsätt**.
-1. Använd regelbyggaren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../../audience/segment-builder.md).
+1. Använd regelbyggaren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../../audience/../query/query-modeler-overview.md).
 
 Så här väljer du en befintlig målgrupp:
 

@@ -3,7 +3,8 @@ audience: end-user
 title: Skapa en engångspublik för en leverans
 description: Lär dig hur du skapar en engångspublik för en leverans.
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Så här skapar du en ny målgrupp direkt från en leverans:
 
    ![](assets/segment-builder0.png)
 
-1. Välj **Skapa en egen**. Regelverktyget visas. Det gör att du kan definiera målgruppen för leveransen genom att filtrera data i databasen. [Lär dig hur du använder regelbyggaren](segment-builder.md)
+1. Välj **Skapa en egen**. Regelverktyget visas. Det gör att du kan definiera målgruppen för leveransen genom att filtrera data i databasen. [Lär dig hur du använder regelbyggaren](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Campaign Mana
 
 Alla mallar som [skapad](#create-a-delivery-template) i den aktuella miljön visas.
 
-Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om regelbyggaren](../audience/segment-builder.md)
+Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om regelbyggaren](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

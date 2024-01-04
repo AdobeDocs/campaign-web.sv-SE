@@ -4,9 +4,9 @@ title: Använda en Adobe Experience Platform-publik
 description: Lär dig använda en målgrupp från Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ När ni har skapat en Adobe Experience Platform-målgrupp och den finns tillgän
 
 Om du vill välja målgrupp för en leverans kan du också:
 
-* Bygg en ny publik. [Läs mer](segment-builder.md)
+* Bygg en ny publik. [Läs mer](../query/query-modeler-overview.md)
 * Läsa in en målgrupp från en extern fil. [Läs mer](file-audience.md)
 * Använd en befintlig Campaign-målgrupp. [Läs mer](add-audience.md).
 
@@ -33,7 +33,7 @@ Följ stegen nedan för att välja en Adobe Experience Platform-målgrupp för d
 
    ![](assets/create-audience.png)
 
-1. Välj **[!UICONTROL Select audience]** för att använda en befintlig målgrupp. Om du vill skapa en ny målgrupp som ska användas i det här e-postmeddelandet väljer du **Skapa en egen**. Se detta [section](segment-builder.md).
+1. Välj **[!UICONTROL Select audience]** för att använda en befintlig målgrupp. Om du vill skapa en ny målgrupp som ska användas i det här e-postmeddelandet väljer du **Skapa en egen**. Se detta [section](../query/query-modeler-overview.md).
 
    På den här skärmen visas alla befintliga målgrupper som definierats i Adobe Campaign klientkonsol för den aktuella mappen. Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt.
 
@@ -49,6 +49,6 @@ Följ stegen nedan för att välja en Adobe Experience Platform-målgrupp för d
 
    ![](assets/refine-audience.png)
 
-1. Med regelbyggaren kan ni utöka målgruppen med ytterligare filter eller genom att kombinera olika målgrupper. Se det här [section](segment-builder.md).
+1. Med regelbyggaren kan ni utöka målgruppen med ytterligare filter eller genom att kombinera olika målgrupper. Se det här [section](../query/query-modeler-overview.md).
 
 1. Klicka **Spara**.
