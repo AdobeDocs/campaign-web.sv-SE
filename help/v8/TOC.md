@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '504'
 ht-degree: 8%
 
 ---
@@ -87,10 +87,10 @@ ht-degree: 8%
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
       + [Skicka testleveranser](preview-test/test-deliveries.md)
       + [Återge din e-post](preview-test/email-rendering.md)
-+ Målgrupper och mottagare {#audiences}
-   + [Kom igång med mottagare och målgrupper](audience/gs-audiences-recipients.md)
-   + Arbeta med mottagare {#work-with-recipients}
-      + [Hantera profiler](audience/about-recipients.md)
++ Profiler och målgrupper {#audiences}
+   + [Kom igång med profiler och målgrupper](audience/gs-audiences-recipients.md)
+   + Arbeta med profiler {#work-with-profiles}
+      + [Övervaka och hantera profiler](audience/about-recipients.md)
       + [Skapa och hantera testprofiler](audience/test-profiles.md)
    + Arbeta med målgrupper {#audiences}
       + [Skapa målgrupper](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 8%
       + [Skapa en engångspublik](audience/one-time-audience.md)
       + [Läsa in en målgrupp från en fil](audience/file-audience.md)
       + [Ange en kontrollgrupp](audience/control-group.md)
-   + [Arbeta med regelbyggaren](audience/segment-builder.md)
    + Arbeta med prenumerationstjänster {#work-with-services}
       + [Hantera tjänster](audience/manage-services.md)
       + [Hantera prenumeranter](audience/manage-subscribers.md)

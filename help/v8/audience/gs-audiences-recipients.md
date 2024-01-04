@@ -3,39 +3,55 @@ title: Kom igång med profiler och målgrupper
 description: Lär dig hur du arbetar med profiler och målgrupper på Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
 # Kom igång med profiler och målgrupper {#about-profiles}
 
-## Profiler och målgrupper {#about}
+På Adobe Campaign Web **profil** är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel **Testprofiler**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna.
 
-I Adobe Campaign är målgruppen en leverans en målgrupp. En målgrupp är en uppsättning profiler som delar liknande beteenden och/eller egenskaper. Den här samlingen personer kan antingen genereras, markeras eller läsas in [enligt nedan](#audiences).
+**Målgrupper** är uppsättningar profiler som delar liknande beteenden och/eller egenskaper. Samlingen med personer kan antingen genereras, markeras eller läsas in.  När ni väl har skapat dem kan ni utnyttja dem som målgrupp för era leveranser.
 
-## Måldimensioner {#targeting-dimensions}
+Dessutom kan Adobe Campaign på webben användas för att hantera och skapa **tjänster** t.ex. nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. När du är klar kan du lägga till prenumeranter, avbeställa profiler och skicka meddelanden till prenumeranterna på dina tjänster.
 
-Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: profiler, kontraktsanställda, operatörer, prenumeranter osv.
+Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjupa sig i dessa dokumentationsavsnitt och börja arbeta med dem.
 
-Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga om profilerna från databasen, kommer den utgående övergången att innehålla data av typen &quot;mottagare&quot; och den kommer att överföras till nästa aktivitet.
-
-Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimensionsaktivitet](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande profiler.
-
-Som standard har e-post- och SMS-leveransmallar målprofiler. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
-
-Du kan även använda andra inbyggda målmappningar i dina arbetsflöden och leveranser som listas nedan:
-
-| Namn | Använd för | Schema |
-|---|---|---|
-| Mottagare | Leverera till mottagare (inbyggd mottagartabell) | nms:mottagare |
-| Besökare | Leverera till besökare vars profiler har samlats in via hänskjutning (viral marketing) för ex. | mns:besökare |
-| Prenumerationer | Leverera till mottagare som prenumererar på en informationstjänst som ett nyhetsbrev | nms:prenumeration |
-| Prenumerationer på besökare | Skicka till besökare som prenumererar på en informationstjänst | nms:visitorSub |
-| Operatorer | Leverera till Adobe Campaign | nms:operator |
-| Extern fil | Leverera via en fil som innehåller all information som behövs för leveransen | Inget länkat schema, inget mål har angetts |
-| Prenumerationsprogram | Leverera till mottagare som prenumererar på ett program | nms:appSubscriptionRcp |
-
-Dessutom kan du skapa en ny målmappning beroende på dina behov. Detta görs från klientkonsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="manage-audience.md"><strong>Övervaka och hantera profiler</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="test-profiles.md">
+<img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="conditions.md"><strong>Skapa målgrupper</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="Sällan" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>Hantera tjänster</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="Sällan" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>Välj leveransmottagare</strong></a>
+</div>
+<p></td>
+</tr></table>
