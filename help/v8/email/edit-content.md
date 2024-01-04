@@ -4,7 +4,7 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="Lägga till länkar och spåra meddelanden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Lägga till länkar och spåra meddelanden"
 
 E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
 
