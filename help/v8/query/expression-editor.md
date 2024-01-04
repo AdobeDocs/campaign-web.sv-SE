@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 60%
+source-wordcount: '1905'
+ht-degree: 59%
 
 ---
 
@@ -16,17 +16,19 @@ ht-degree: 60%
 
 När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner. Med de här funktionerna kan du ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering, o.s.v.
 
-Dessa åtgärder är tillgängliga från frågemodellerarens redigeringsuttrycksknapp, som är tillgänglig för fälten Attribut och Värde när du konfigurerar ett anpassat villkor.
+Dessa åtgärder är tillgängliga från frågemodelleraren **[!UICONTROL Edit expression]** knapp, tillgänglig för **[!UICONTROL Attribute]** och **[!UICONTROL Value]** fält när du konfigurerar ett anpassat villkor.
 
 ![](assets/edit-expression.png)
 
 Uttrycksredigeraren innehåller:
 
-* Ett inmatningsfält där uttrycket är definierat.
-* Listan med tillgängliga fält som kan användas i uttrycket och som motsvarar frågemålets dimension.
-* Listan med tillgängliga funktioner, sorterade efter kategori.
+* An **inmatningsfält (1)** som uttrycket är definierat i.
+* Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar måldimensionen för frågan.
+* **Hjälpfunktioner (3)**, sorterat efter kategori.
 
-Redigera uttrycket genom att ange ett uttryck direkt i inmatningsfältet eller genom att använda listorna med tillgängliga fält och funktioner. Om du vill göra det placerar du markören i uttrycket där du vill lägga till elementet och dubbelklickar på det önskade fältet eller uttrycket.
+![](assets/expression-editor.png)
+
+Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
 ## Hjälpfunktioner
 

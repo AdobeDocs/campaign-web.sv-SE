@@ -4,9 +4,9 @@ title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2087'
 ht-degree: 5%
 
 ---
@@ -119,10 +119,9 @@ The **mottagarens vikt** fält är en formel som används för att bestämma vil
 >title="Målgruppsinställningar för leveransen"
 >abstract="Välj en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Du kan också ange undantagsparametrar för leveransen. "
 
-I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Måldimensionen, eller målmappningen, är den typ av data som en åtgärd hanterar. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
+I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
 
-
-Läs mer om målmappningar i [det här avsnittet](../audience/about-recipients.md#targeting-dimensions).
+Läs mer om målmappningar i [det här avsnittet](../audience/targeting-dimensions.md).
 
 ## Leverans {#delivery}
 
