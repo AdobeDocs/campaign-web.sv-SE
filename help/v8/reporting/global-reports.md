@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 badge: label="Begränsad tillgänglighet"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 0%
 
 # Kom igång med globala rapporter {#global-report-gs}
 
-Globala rapporter ger en omfattande översikt över trafik och engagemang i alla kanaler, med en mängd olika widgetar som ger unika insikter i kampanjer och levererar resultat.
+The **Globala rapporter** fungerar som ett effektivt verktyg som ger en samlad sammanfattning av trafik- och engagemangsmått för varje kanal i Campaign-instansen. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet.
+
+En fullständig lista över rapporter och tillhörande mått för varje kanal finns på följande sidor:
+
+* [E-posta globala rapporter](global-report-email.md)
+* [Globala sms-rapporter](global-report-sms.md)
+* [Överför globala rapporter](global-report-push.md)
 
 ## Hantera rapportinstrumentpanelen {#manage-reports}
 
@@ -29,7 +35,7 @@ Följ de här stegen för att få åtkomst till och hantera dina globala rapport
 
    ![](assets/global_report_manage_2.png)
 
-1. Klicka **[!UICONTROL Add rules]** för att börja skapa frågor för att bättre filtrera rapporteringsdata.
+1. Klicka **[!UICONTROL Add rules]** för att börja skapa frågor för att bättre filtrera rapporteringsdata. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
 
 1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
 
