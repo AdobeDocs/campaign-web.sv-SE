@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
@@ -28,14 +28,14 @@ En mall kan innehålla:
 * [Typologier](../advanced-settings/delivery-settings.md#typology),
 * Avsändarens adress.
 * An [publik](../audience/about-recipients.md), inklusive [kontrollgrupper](../audience/control-group.md),
-* Egen [innehåll](../content/edit-content.md),
+* Egen [innehåll](../email/edit-content.md),
 * [Personaliserade fält](../personalization/personalize.md) och [villkorligt innehåll](../personalization/conditions.md),
-* Länkar till [spegelsida](../content/mirror-page.md) och prenumerera [länkar](../content/message-tracking.md),
+* Länkar till [spegelsida](../email/mirror-page.md) och prenumerera [länkar](../email/message-tracking.md),
 * Andra leveransegenskaper, som resursgiltighet, återförsöksparametrar eller karantäninställningar.
 
 >[!NOTE]
 >
->Leveransmallar skiljer sig från [mallar](../content/create-email-templates.md), som gör att du kan återanvända endast innehållet i dina e-postmeddelanden och börja skapa innehåll med någon av de färdiga exempelmallarna.
+>Leveransmallar skiljer sig från [mallar](../email/create-email-templates.md), som gör att du kan återanvända endast innehållet i dina e-postmeddelanden och börja skapa innehåll med någon av de färdiga exempelmallarna.
 
 
 ## Få åtkomst till och hantera leveransmallar {#access-manage-templates}

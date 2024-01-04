@@ -4,7 +4,7 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Använd [!DNL Campaign] innehållssimulering för att förhandsgranska innehåll
 
 Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
-1. Bläddra till skärmen Redigera innehåll för leveransen eller till [E-postdesigner](../content/get-started-email-designer.md).
+1. Bläddra till skärmen Redigera innehåll för leveransen eller till [E-postdesigner](../email/get-started-email-designer.md).
 
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
 

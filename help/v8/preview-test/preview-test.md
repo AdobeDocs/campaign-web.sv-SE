@@ -4,7 +4,7 @@ title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -30,7 +30,7 @@ För att göra detta [!DNL Adobe Campaign] kan du:
 * [Skicka testleveranser](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
 
-Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt från skärmen Redigera innehåll på leveransen - eller från [E-postdesigner](../content/get-started-email-designer.md).
+Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt från skärmen Redigera innehåll på leveransen - eller från [E-postdesigner](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

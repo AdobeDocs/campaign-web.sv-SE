@@ -3,19 +3,19 @@ audience: end-user
 title: Hantera prenumeranter på en tjänst
 description: Lär dig hur du hanterar och levererar till abonnenter av en tjänst på Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Hantera prenumeranter på en tjänst {#manage-subscribers}
 
 En gång [skapade en tjänst](manage-services.md#create-service)kan du lägga till prenumeranter, avsluta prenumerationer och skicka meddelanden till prenumeranterna för den tjänsten.
 
-Prenumerationshanteringen finns på den här sidan. Mer information om hur du skickar meddelanden till prenumeranterna finns i [det här avsnittet](../content/send-to-subscribers.md).
+Prenumerationshanteringen finns på den här sidan. Mer information om hur du skickar meddelanden till prenumeranterna finns i [det här avsnittet](../msg/send-to-subscribers.md).
 
 ## Lägg till prenumeranter till tjänsten {#add-subscribers}
 

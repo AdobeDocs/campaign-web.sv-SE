@@ -4,7 +4,7 @@ title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i webbgränssnittet för Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Om du vill få åtkomst till funktionerna för e-poståtergivning måste du:
 
 Följ sedan stegen nedan.
 
-1. I [Redigera innehåll](../content/edit-content.md) eller i [E-postdesigner](../content/get-started-email-designer.md)klickar du på **[!UICONTROL Simulate content]** -knappen.
+1. I [Redigera innehåll](../email/edit-content.md) eller i [E-postdesigner](../email/get-started-email-designer.md)klickar du på **[!UICONTROL Simulate content]** -knappen.
 
 1. Markera knappen **[!UICONTROL Render email]**.
 

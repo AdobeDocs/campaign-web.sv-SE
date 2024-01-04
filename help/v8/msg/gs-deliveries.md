@@ -5,7 +5,8 @@ description: Lär dig hur du skapar din första leverans på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 0%
@@ -97,7 +98,7 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 * Lägg till **personaliserade erbjudanden**
 
-  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../content/offers.md)
+  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../msg/offers.md)
 
 ## Förgranska och testa leveranserna
 

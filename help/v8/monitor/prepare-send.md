@@ -4,9 +4,9 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Förbered sändningen {#prepare}
 
-När du har definierat [innehåll](../content/edit-content.md), [publik](../audience/add-audience.md)och [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)är du redo att förbereda din e-postleverans.
+När du har definierat [innehåll](../email/edit-content.md), [publik](../audience/add-audience.md)och [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)är du redo att förbereda din e-postleverans.
 
 Under leveransförberedelsen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
 
@@ -87,7 +87,7 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 1. Sändningsförloppet visas.
 
-### Schemalägg sändningen {#schedule-the-send}
+### Schemalägg sändning {#schedule-the-send}
 
 Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum och en senare tidpunkt följer du stegen nedan.
 

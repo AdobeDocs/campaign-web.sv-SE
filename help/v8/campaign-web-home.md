@@ -4,7 +4,7 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 2%
@@ -68,11 +68,11 @@ Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjup
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="Sällan" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>Möt e-postdesignern</strong></a>
+<a href="email/get-started-email-designer.md"><strong>Möt e-postdesignern</strong></a>
 </div>
 <p></td>
 <td>

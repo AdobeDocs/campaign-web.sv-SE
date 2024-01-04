@@ -5,7 +5,7 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 8%
@@ -35,32 +35,32 @@ ht-degree: 8%
    + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + Definiera e-postinnehåll {#content}
-         + [Konfigurera e-postinnehållet](content/edit-content.md)
-         + [Arbeta med innehållsmallar](content/create-email-templates.md)
+         + [Konfigurera e-postinnehållet](email/edit-content.md)
+         + [Arbeta med innehållsmallar](email/create-email-templates.md)
          + Börja forma din e-post {#start-design}
-            + [Komma igång med e-postdesignern](content/get-started-email-designer.md)
-            + [Börja från början](content/create-email-content.md)
-            + [Importera e-postinnehåll](content/existing-content.md)
-            + [Koda eget innehåll](content/code-content.md)
-            + [Använda mallar för e-postinnehåll](content/use-email-templates.md)
+            + [Komma igång med e-postdesignern](email/get-started-email-designer.md)
+            + [Börja från början](email/create-email-content.md)
+            + [Importera e-postinnehåll](email/existing-content.md)
+            + [Koda eget innehåll](email/code-content.md)
+            + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
          + Designa innehåll {#design-content}
-            + [Använda innehållskomponenter](content/content-components.md)
-            + [Lägga till länkar och spåra meddelanden](content/message-tracking.md)
-            + [Lägg till en länk till spegelsidan](content/mirror-page.md)
-            + [Lägga till en förrubrik](content/preheader.md)
-            + [Generera textversionen](content/text-version-email.md)
-            + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+            + [Använda innehållskomponenter](email/content-components.md)
+            + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
+            + [Lägg till en länk till spegelsidan](email/mirror-page.md)
+            + [Lägga till en förrubrik](email/preheader.md)
+            + [Generera textversionen](email/text-version-email.md)
+            + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Content Assistant {#content-assistant}
-            + [Kom igång med Content Assistant](content/generative-gs.md)
-            + [Skapa text med Content Assistant](content/generative-content.md)
-            + [Bildgenerering med Content Assistant](content/generative-image.md)
-            + [E-postgenerering med Content Assistant](content/generative-email.md)
+            + [Kom igång med Content Assistant](email/generative-gs.md)
+            + [Skapa text med Content Assistant](email/generative-content.md)
+            + [Bildgenerering med Content Assistant](email/generative-image.md)
+            + [E-postgenerering med Content Assistant](email/generative-email.md)
          + Formatera innehållet {#style}
-            + [Kom igång med e-postformat](content/get-started-email-style.md)
-            + [Redigera bakgrundsinställningar](content/backgrounds.md)
-            + [Justera lodrät justering och utfyllnad](content/alignment-and-padding.md)
-            + [Definiera ett format för länkar](content/styling-links.md)
-            + [Lägg till textbundna formatattribut](content/inline-styling.md)
+            + [Kom igång med e-postformat](email/get-started-email-style.md)
+            + [Redigera bakgrundsinställningar](email/backgrounds.md)
+            + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
+            + [Definiera ett format för länkar](email/styling-links.md)
+            + [Lägg till textbundna formatattribut](email/inline-styling.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
          + [Övervaka leveransloggar](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 8%
       + [Lägg till personalisering](personalization/personalize.md)
       + [Lägga till villkorligt innehåll](personalization/conditions.md)
       + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
-   + [Lägg till erbjudanden i dina meddelanden](content/offers.md)
-   + [Skicka meddelanden till prenumeranterna](content/send-to-subscribers.md)
+   + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
+   + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + Förhandsgranska och testa leveransen {#preview-test}
       + [Förhandsgranska och testa](preview-test/preview-test.md)
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)

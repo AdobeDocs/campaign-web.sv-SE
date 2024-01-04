@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och 
 Använd det nya webbgränssnittet för Campaign för att:
 
 * Skapa, utforma, personalisera, schemalägg och skicka e-post, SMS och push-meddelanden - [Läs mer](../msg/gs-messages.md)
-* Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../content/edit-content.md)
+* Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../email/edit-content.md)
 * Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden - [Läs mer](../workflows/activities/channels.md)
 * Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-recipients.md)
 * Förhandsgranska, testa och skicka meddelanden - [Läs mer](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 
   Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att **skapa engagerande och personaliserat innehåll**. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
 
-  Läs mer i [det här avsnittet](../content/generative-gs.md).
+  Läs mer i [det här avsnittet](../email/generative-gs.md).
 
 
 * **AI-baserad sammanhangsbaserad hjälp**
@@ -132,14 +132,14 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 
   Nu kan du **importera och konvertera valfritt HTML-innehåll** i Campaigns e-postredigerare. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem!
 
-  Läs mer i [det här avsnittet](../content/existing-content.md).
+  Läs mer i [det här avsnittet](../email/existing-content.md).
 
 
 * **SMS med erbjudanden**
 
   Nu kan du använda det nya webbgränssnittet **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
 
-  Läs mer i [det här avsnittet](../content/offers.md).
+  Läs mer i [det här avsnittet](../msg/offers.md).
 
 ## Övergång till Campaign Web UI
 
