@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,13 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
    ![](assets/content-template-create.png)
 
-1. Fyll i mallinformationen.
+1. Fyll i mallinformationen. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad nod i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >För närvarande bara **E-post** kanal och **HTML** type stöds.
-
-1. Välj den mapp där du vill lagra mallen. Som standard lagras innehållsmallar i en dedikerad nod i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
 
 1. Klicka **[!UICONTROL Create]** och välja hur du vill utforma mallen bland de olika alternativen:
 
