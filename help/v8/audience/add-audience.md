@@ -4,7 +4,7 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
    ![](assets/select-audience-folder.png)
 
-1. I filteravsnittet kan du komma åt filteralternativ för att förfina målgruppslistan. Det gör du genom att klicka **Lägg till regler** för att komma åt regelbyggaren, som gör att du kan skapa avancerade filter för målgruppslistan. [Lär dig hur du använder regelbyggaren](segment-builder.md)
+1. I filteravsnittet kan du komma åt filteralternativ för att förfina målgruppslistan. Det gör du genom att klicka **Lägg till regler** för att komma åt regelbyggaren, som gör att du kan skapa avancerade filter för målgruppslistan. [Lär dig hur du använder regelbyggaren](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
