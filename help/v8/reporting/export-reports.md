@@ -5,7 +5,7 @@ description: Förstå hur du exporterar rapporter
 badge: label="Begränsad tillgänglighet"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
