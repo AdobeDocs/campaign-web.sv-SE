@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -54,15 +54,15 @@ Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och e
 
 ### Den centrala arbetsytan {#canvas}
 
-Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar de olika komponenterna som skapar din fråga.
+Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar de olika komponenterna som skapar din fråga. [Lär dig hur du skapar en fråga](build-query.md)
 
 Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
 
-* Flervalsläge: Markera flera filterkomponenter som ska kopieras och klistras in där du vill ha dem.
-* Rotera: Växla arbetsytan lodrätt.
-* Anpassa till skärmen: Anpassa arbetsytans zoomnivå till skärmen.
-* Zooma ut/Zooma in: Zooma ut eller på arbetsytan.
-* Visningsschema: Öppnar en ögonblicksbild av arbetsytan som visar var du befinner dig.
+* **Flervalsläge**: Välj flera filterkomponenter som ska kopieras och klistras in på valfri plats.
+* **Rotera**: Växla arbetsytan lodrätt.
+* **Anpassa till skärm**: Anpassa arbetsytans zoomnivå till skärmen.
+* **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
+* **Visa karta**: Öppnar en ögonblicksbild av arbetsytan som visar att du befinner dig.
 
 ### Rutan Regelegenskaper {#rule-properties}
 

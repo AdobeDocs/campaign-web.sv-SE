@@ -3,22 +3,28 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 59%
+source-wordcount: '2000'
+ht-degree: 55%
 
 ---
 
 # Redigera uttryck {#expression}
 
-## Redigera ett uttryck {#edit}
+När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner som gör att du kan ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering osv.
 
-När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner. Med de här funktionerna kan du ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering, o.s.v.
+>[!IMPORTANT]
+>
+>Avsnittet nedan innehåller information om hur du arbetar med uttrycksredigeraren för att skapa regler. Tänk på att den syntax som används för att skapa regler skiljer sig från den som används för att lägga till personalisering.
 
-Dessa åtgärder är tillgängliga från frågemodelleraren **[!UICONTROL Edit expression]** knapp, tillgänglig för **[!UICONTROL Attribute]** och **[!UICONTROL Value]** fält när du konfigurerar ett anpassat villkor.
+## Arbeta med uttrycksredigeraren {#edit}
 
-![](assets/edit-expression.png)
+Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit expression]** knapp, tillgänglig för **[!UICONTROL Attribute]** och **[!UICONTROL Value]** fält när du konfigurerar ett anpassat villkor.
+
+| Åtkomst från **Attribut** fält | Åtkomst från **Värde** fält |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 Uttrycksredigeraren innehåller:
 
@@ -29,6 +35,12 @@ Uttrycksredigeraren innehåller:
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
 ![](assets/expression-editor.png)
+
+När uttrycket är klart klickar du på **[!UICONTROL Confirm]** -knappen. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
+
+I exemplet nedan visas ett uttryck som konfigurerats för **[!UICONTROL Value]** fält. Om du vill redigera den måste du öppna uttrycksredigeraren med **[!UICONTROL Edit expression]** -knappen.
+
+![](assets/edit-expression-value.png)
 
 ## Hjälpfunktioner
 

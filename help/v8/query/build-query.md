@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. Klicka på **+** på önskad nod och välj **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
 
-1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut som är länkade till din tabell.
+1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >Med knappen Redigera uttryck kan du använda redigeraren för Campaign-webbuttryck för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna.
+   >Med knappen Redigera uttryck kan du använda redigeraren för Campaign-webbuttryck för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig redigera uttryck](expression-editor.md)
 
 1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
@@ -82,27 +82,35 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 +++
 
-1. I **Värde** definierar du det förväntade värdet. Du kan också använda redigeringsprogrammet för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på **Redigera uttryck** -knappen.
+1. I **Värde** definierar du det förväntade värdet. Du kan också använda redigeringsprogrammet för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på **Redigera uttryck** -knappen. [Lär dig redigera uttryck](expression-editor.md)
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
    ![](assets/query-custom-condition.png)
 
-**Anpassade villkor i fjärrtabeller (1-1- och 1-N-länkar)**
 
-Anpassade villkor gör att du kan fråga fjärrtabeller som är länkade till mottagartabellen.
 
-För **1-1 länk** med en annan databasresurs väljer du värdet direkt från måltabellen.
+#### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
+
+Med anpassade villkor kan du fråga tabeller som är länkade till den tabell som för närvarande används av din regel. Detta inkluderar tabeller med en 1-1 kardinalitetslänk eller samlingstabeller (1-N länk).
+
+För **1-1 länk** markerar du attributet direkt från måltabellen.
 
 +++Exempel på fråga
 
-Här är frågan riktad till mottagare vars land eller region ingår i angivna värden (uk och us)
+Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
-![](assets/custom-condition-1-1.png)
+1. Navigera inuti **Varumärke** tabellen och välj **Etikett** -attribut.
+
+   ![](assets/1-1-attribute.png)
+
+1. Definiera det förväntade värdet för attributet.
+
+   ![](assets/1-1-table.png)
 
 +++
 
-För **1-N-länk** med en annan databasresurs kan du definiera undervillkor för fälten i den här andra resursen.
+För **1-N-länk** kan du definiera undervillkor för att förfina frågan.
 
 Du kan till exempel välja operatorn Exists på profilinköpen för att ange alla profiler som det finns inköp för som mål. När du är klar lägger du till ett anpassat villkor för den utgående övergången och skapar ett filter som passar dina behov.
 
@@ -110,9 +118,35 @@ Du kan till exempel välja operatorn Exists på profilinköpen för att ange all
 
 Här riktar frågan sig till mottagare som har gjort inköp relaterade till BrewMaster-produkten, med ett totalt belopp på minst 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Välj **Inköp** tabell och bekräfta.
+
+   ![](assets/1-n-collection.png)
+
+1. En utgående övergång läggs till så att du kan skapa delvillkor.
+
+   ![](assets/1-n-subcondition.png)
+
+1. Välj **Pris** köp av minst 1 000 dollar för attribut och mål
+
+   ![](assets/1-n-price.png)
+
+1. Lägg till undervillkor som passar dina behov. Här har vi lagt till ett villkor för målprofiler som har köpt en BrewMaster-produkt.
+
+   ![](assets/custom-condition-1-N.png)
 
 +++
+
+#### Arbeta med aggregerade data {#aggregate}**
+
+Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra detta måste du välja ett attribut direkt från en samlingstabell:
+
+1. Navigera i den önskade samlingstabellen och markera attributet som du vill utföra en sammanställningsåtgärd på.
+
+   ![](assets/aggregate-attribute.png)
+
+1. I egenskapsrutan växlar du till **Sammanställningsdata** och väljer önskad sammanställningsfunktion.
+
+   ![](assets/aggregate.png)
 
 ### Välj en målgrupp
 
@@ -148,30 +182,7 @@ Så här filtrerar du frågan med ett fördefinierat filter:
 
    ![](assets/query-predefined-filter.png)
 
-## Kombinera filterkomponenter med operatorer {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Grupp"
->abstract="Grupp"
-
-Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en AND-operator. Detta innebär att resultat från båda filterkomponenterna kombineras med frågeresultaten.
-
-I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en AND-operator, vilket innebär att frågeresultatet innehåller mottagare som har det fördefinierade Madridians-filtret OCH som tillhör målgruppen&quot;Rabattväljare&quot;.
-
-![](assets/query-operator.png)
-
-Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i grupprutan som öppnas till höger.
-
-Tillgängliga operatorer:
-
-* **OCH (skärning)**: Kombinerar resultat som matchar alla filterkomponenter i utgående övergångar.
-* **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
-* **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
-
-![](assets/query-operator-change.png)
-
-### Kopiera och klistra in filterkomponenter {#copy}
+### Kopiera och klistra in komponenter {#copy}
 
 Med frågemodelleraren kan du kopiera en eller flera filterkomponenter och klistra in dem i slutet av en övergång. Den här åtgärden kan utföras inom den aktuella frågans arbetsyta eller på en arbetsyta i instansen.
 
@@ -193,6 +204,35 @@ Så här kopierar och klistrar du in filterkomponenter:
 
 ![](assets/copy-paste.png)
 
+## Kombinera filterkomponenter med operatorer {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupp"
+>abstract="Grupp"
+
+Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en **OCH** -operator. Det innebär att resultatet från de två filterkomponenterna kombineras.
+
+I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
+
+![](assets/query-operator.png)
+
+Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i dialogrutan **Grupp** som öppnas till höger.
+
+Tillgängliga operatorer:
+
+* **OCH (skärning)**: Kombinerar resultat som matchar alla filterkomponenter i utgående övergångar.
+* **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
+* **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
+
+![](assets/query-operator-change.png)
+
+Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på **+** knapp på en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
+
+I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
+
+![](assets/query-intermediate-group.png)
+
 ## Kontrollera och validera frågan
 
 >[!CONTEXTUALHELP]
@@ -210,3 +250,7 @@ När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegen
   >[!IMPORTANT]
   >
   >Välj ett fördefinierat filter i rutan Regelegenskaper om du vill ersätta frågan som har byggts in på arbetsytan med det valda filtret.
+
+Klicka på knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att spara det.
+
+Du kan ändra frågan när som helst genom att öppna den. Kom ihåg att när du öppnar en befintlig fråga visas den i en förenklad vy utan att synligheten för  **+** knappar. Om du vill lägga till nya element i frågan väljer du en komponent eller operator på arbetsytan för att visa **+** knappar.
