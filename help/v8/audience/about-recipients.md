@@ -2,14 +2,14 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
 
-# Övervaka och hantera profiler {#profiles}
+# Övervaka och redigera profiler {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Följ stegen nedan för att få tillgång till information om en profil och redi
 
 1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
 
-1. Klicka på önskat objekt på **[!UICONTROL Profiles]** lista.
-
-1. Du kan komma åt detaljerad information om profilen.
+1. Klicka på önskat objekt på **[!UICONTROL Profiles]** lista. Detaljerad information om profilen visas.
 
    ![](assets/profile-details.png)
 
