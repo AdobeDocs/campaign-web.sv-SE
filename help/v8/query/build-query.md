@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,28 @@ Tillgängliga operatorer:
 * **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
 
 ![](assets/query-operator-change.png)
+
+### Kopiera och klistra in filterkomponenter {#copy}
+
+Med frågemodelleraren kan du kopiera en eller flera filterkomponenter och klistra in dem i slutet av en övergång. Den här åtgärden kan utföras inom den aktuella frågans arbetsyta eller på en arbetsyta i instansen.
+
+>[!NOTE]
+>
+>Den kopierade markeringen behålls så länge du arbetar i instansen. Om du loggar ut och loggar in igen kommer markeringen inte längre att vara tillgänglig för inklistring.
+
+Så här kopierar och klistrar du in filterkomponenter:
+
+1. Markera den filterkomponent som du vill kopiera genom att klicka på den på arbetsytan. Om du vill markera flera komponenter använder du det markeringsverktyg som finns i verktygsfältet längst upp till höger på arbetsytan.
+
+1. Klicka på **[!UICONTROL Copy]** i komponentens egenskapspanel eller i det blå menyfliksområdet längst ned på skärmen om du har markerat flera komponenter.
+
+   | Kopiera en enstaka komponent | Kopiera flera komponenter |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **Klistra in objekt**.
+
+![](assets/copy-paste.png)
 
 ## Kontrollera och validera frågan
 

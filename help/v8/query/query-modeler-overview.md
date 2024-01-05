@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 | **Filtrera rapportdata**: Lägg till regel för att filtrera data som visas i rapporter. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Anpassa listor**: Skapa anpassade regler för att filtrera data som visas i listor som mottagare, leveranslistor osv. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
  +++
 -->
 
-
 ## Gränssnitt för frågemodelleraren {#interface}
 
-Frågemodelleraren är en central arbetsyta där du kan lägga till och kombinera de olika komponenter som skapar frågan.
-
-Till höger finns det information om frågan i rutan Regelegenskaper. Det gör att du kan utföra olika åtgärder för att kontrollera din fråga och se till att den passar dina behov. Lär dig hur du kontrollerar och validerar din fråga
+Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och en höger ruta med information om frågan.
 
 ![](assets/query-interface.png)
+
+### Den centrala arbetsytan {#canvas}
+
+Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar de olika komponenterna som skapar din fråga.
+
+Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
+
+* Flervalsläge: Markera flera filterkomponenter som ska kopieras och klistras in där du vill ha dem.
+* Rotera: Växla arbetsytan lodrätt.
+* Anpassa till skärmen: Anpassa arbetsytans zoomnivå till skärmen.
+* Zooma ut/Zooma in: Zooma ut eller på arbetsytan.
+* Visningsschema: Öppnar en ögonblicksbild av arbetsytan som visar var du befinner dig.
+
+### Rutan Regelegenskaper {#rule-properties}
+
+På höger sida, **[!UICONTROL Rule properties]** innehåller information om frågan. Det gör att du kan utföra olika åtgärder för att kontrollera frågan och se till att den passar dina behov. [Lär dig hur du kontrollerar och validerar din fråga](build-query.md#check-and-validate-your-query)

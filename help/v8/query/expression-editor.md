@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1905'
 ht-degree: 59%
@@ -26,9 +26,9 @@ Uttrycksredigeraren innehåller:
 * Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar måldimensionen för frågan.
 * **Hjälpfunktioner (3)**, sorterat efter kategori.
 
-![](assets/expression-editor.png)
-
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
+
+![](assets/expression-editor.png)
 
 ## Hjälpfunktioner
 
