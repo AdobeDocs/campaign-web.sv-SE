@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Följ de här stegen för att få åtkomst till och hantera dina globala rapport
 
 1. Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsnitt.
 
+1. Välj en rapport i listan på den vänstra menyn och navigera på fliken för att visa data från varje kanal.
+
+   ![](assets/global_report_manage_3.png)
+
 1. Välj en **Starta** och **[!UICONTROL End time]** för att rikta in specifika data.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ Följ de här stegen för att få åtkomst till och hantera dina globala rapport
 1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
 
    The **[!UICONTROL View by]** kan du filtrera på URL:er, etiketter eller kategorier.
-
-## Exportera rapporter {#export-reports}
-
-Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
-
-1. Klicka på **[!UICONTROL Export]** och markera **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
-
-   ![](assets/global_report_export.png)
-
-1. Leta reda på mappen där du vill spara filen, byt namn på den om det behövs och klicka på **[!UICONTROL Save]**.
-
-Din rapport är nu tillgänglig för visning eller delning i en PDF- eller CSV-fil.
-

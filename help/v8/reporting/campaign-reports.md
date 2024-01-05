@@ -4,9 +4,9 @@ title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,3 @@ Följ de här stegen för att få tillgång till och hantera kampanjrapporter:
 1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
 
    The **[!UICONTROL View by]** kan du filtrera på URL:er, etiketter eller kategorier.
-
-## Exportera rapporter {#export-reports}
-
-Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
-
-1. Klicka på **[!UICONTROL Export]** och markera **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Leta reda på mappen där du vill spara filen, byt namn på den om det behövs och klicka på **[!UICONTROL Save]**.
-
-Din rapport är nu tillgänglig för visning eller delning i en PDF- eller CSV-fil.
-

@@ -3,7 +3,7 @@ audience: end-user
 title: Globala rapporter för push-kanalen
 description: Förstå globala rapporter för push-kanalen
 badge: label="Begränsad tillgänglighet"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Feltyperna för push-meddelanden visas i [Adobe Campaign v8-dokumentation (klien
 
 ## Leveranskapacitet {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Den här rapporten innehåller omfattande information om leveransflödet inom en angiven tidsram.
 

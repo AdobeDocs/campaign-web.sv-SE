@@ -5,9 +5,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 8%
 
 ---
@@ -141,6 +141,7 @@ ht-degree: 8%
    + [Filterlistor](query/filter.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)
+   + [Exportera rapporter](reporting/export-reports.md)
    + [Viktiga resultatindikatorer](reporting/kpis.md)
    + Leveransrapporter {#delivery-report}
       + [Kom igång med leveransrapporter](reporting/delivery-reports.md)

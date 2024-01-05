@@ -4,7 +4,7 @@ title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
 badge: label="Begränsad tillgänglighet"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -290,7 +290,7 @@ The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillg�
 
 The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Mätvärden för den här rapporten finns nedan.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
