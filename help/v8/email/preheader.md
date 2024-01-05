@@ -3,11 +3,11 @@ audience: end-user
 title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig utforma e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="BetaLimited-tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+badge: label="Begränsad tillgänglighet"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
