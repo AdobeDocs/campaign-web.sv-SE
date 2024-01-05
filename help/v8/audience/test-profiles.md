@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ Om du vill öppna testprofillistan väljer du **[!UICONTROL Customer management]
 
 ![](assets/test-profile-list.png)
 
-Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
+* Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Om du vill redigera en testprofil klickar du på önskat objekt i listan.
+* Du kan duplicera en testprofil och redigera den efter behov.
 
-Om du vill ta bort en testprofil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
+* Om du vill ta bort en testprofil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Om du vill redigera en testprofil klickar du på önskat objekt i listan.
+
+Du kan även komma åt testprofiler via **[!UICONTROL Explorer]** visa, från **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** nod.
+
+Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+Från **[!UICONTROL Explorer]** kan du även filtrera, ta bort, redigera och [skapa](#create-test-profile) testprofiler.
 
 ## Skapa en testprofil {#create-test-profile}
 
@@ -66,7 +76,7 @@ Följ stegen nedan för att skapa en testprofil.
    >
    >The **[!UICONTROL Label]** fältet fylls automatiskt i med det förnamn och efternamn som du har definierat.
 
-1. Som standard lagras testprofiler i **[!UICONTROL Seed addresses]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Läs mer](#seed-addresses-folders)
+1. Som standard lagras testprofiler i **[!UICONTROL Seed addresses]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Om du väljer **[!UICONTROL No longer contact (by any channel)]** är profilen till blockeringslista. Den här mottagaren är inte längre riktad mot någon kanal (e-post, SMS etc.).
+1. Om du väljer **[!UICONTROL No longer contact (by any channel)]** är testprofilen till blockeringslista. Den här mottagaren är inte längre riktad mot någon kanal (e-post, SMS etc.).
 
 1. I **[!UICONTROL Additional data]** Ange de personaliseringsdata som används för leveranser som skapas i arbetsflödena för datahantering och som du vill tilldela ett specifikt värde till. [Läs mer om arbetsflöden](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ Testprofilen som du nyss skapade är nu klar att användas för att skicka ett t
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Hantera mappar med dirigerade adresser {#seed-addresses-folders}
-
-Seed-adresserna lagras i en dedikerad nod i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]**.
-
-Om du vill ordna testprofiler kan du skapa undermappar från listrutan Fler åtgärder. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-Du kan också skapa en testprofil från alla **[!UICONTROL Seed addresses]** mapp eller undermapp. Fyll i alla detaljer på samma sätt som i **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](#create-test-profile)
-
-Om du vill redigera en testprofil klickar du på dess etikett på **[!UICONTROL Test profiles]** eller från den mapp där den finns.
 
 

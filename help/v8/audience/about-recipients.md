@@ -2,9 +2,9 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,31 @@ ht-degree: 0%
 
 ## Kom igång med profiler {#gs}
 
-En profil på Adobe Campaign Web är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel Testprofiler, som är utformade för att testa dina leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
+En profil på Adobe Campaign Web är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet.
 
-Profiler kan bara läggas till från Campaign-klientkonsolen. De kan dock nås via Adobe Campaign Web från **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem från **Explorer** där du kan bläddra, skapa mappar, undermappar och kontrollera behörigheter.
+Andra typer av profiler lagras i databasen, till exempel **[!UICONTROL Test profiles]**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
-Du kan filtrera profillistan med hjälp av sökfältet eller de filter som finns i **Visa filter** -knappen.
-
-![](assets/profiles-list.png)
+Profiler kan bara skapas från Adobe Campaign klientkonsol - [lära dig hur](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. De är dock tillgängliga och redigerbara på Adobe Campaign Web från **[!UICONTROL Customer management]** > **Profiler** inträde i det vänstra navigeringsfältet.
 
 >[!NOTE]
 >
 >Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över profiler som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
+
+* Du kan filtrera **[!UICONTROL Profiles]** med sökfältet eller de filter som finns i **Visa filter** -knappen. Du kan begränsa resultatet till en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
+
+  ![](assets/profiles-list.png)
+
+* Om du vill ta bort en profil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
+
+* Om du vill redigera en profil klickar du på önskat objekt i listan. [Läs mer](#access)
+
+Du kan även komma åt profiler via **[!UICONTROL Explorer]** visa, från **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** nod.
+
+Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
+
+![](assets/profiles-explorer-folder.png)
+
+Från **[!UICONTROL Explorer]** kan du även filtrera, ta bort och [redigera](#access) profiler.
 
 ## Få åtkomst till och redigera profilattribut {#access}
 
@@ -78,12 +92,36 @@ Du kan filtrera profillistan med hjälp av sökfältet eller de filter som finns
 >title="Mottagarens prenumerationslista"
 >abstract="På den här fliken visas alla tjänster som profilen prenumererar på."
 
-Om du vill få tillgång till information om en profil klickar du på dess namn i profillistan.
+Följ stegen nedan för att få tillgång till information om en profil och redigera den.
 
-![](assets/profiles-details.png)
+1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
 
-På den här skärmen kan du få tillgång till detaljerad information om profilen:
+1. Klicka på önskat objekt på **[!UICONTROL Profiles]** lista.
 
-* The **[!UICONTROL Details]** kan du bläddra igenom profilens inbyggda och anpassade attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
-* The **[!UICONTROL Subscriptions]** -fliken innehåller information om de tjänster som profilen prenumererar på. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
-* The **[!UICONTROL Logs]** i skärmens övre högra hörn kan du visa en historik över profilens interaktioner genom att skicka, exkludera och spåra loggar samt de förslag som presenteras för profilen.
+1. Du kan komma åt detaljerad information om profilen.
+
+   ![](assets/profile-details.png)
+
+1. The **[!UICONTROL Details]** kan du bläddra igenom profilens inbyggda och anpassade attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
+
+   1. Som standard lagras profiler i **[!UICONTROL Recipients]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
+
+      ![](assets/profile-folder.png)
+
+   1. I **[!UICONTROL Contact information]** kan du uppdatera e-postadressen och andra relevanta data. E-postadressen visas inom hakparenteser efter profiletiketten.
+
+      ![](assets/profile-address.png)
+
+   1. Kontrollera **[!UICONTROL No longer contact]** och uppdatera dem vid behov. När något av dessa alternativ är markerat visas profilen till blockeringslista. Den här informationen läggs till i kontaktinformationen om mottagaren till exempel klickade på länken för att avbryta prenumerationen i ett nyhetsbrev. Den här mottagaren är inte längre riktad mot de valda kanalerna. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
+      ![](assets/profile-no-longer-contact.png)
+
+   1. Om det finns **[!UICONTROL Custom fields]** kan du uppdatera deras värden efter behov. Anpassade fält är ytterligare attribut som läggs till i **[!UICONTROL Profiles]** via Adobe Campaign-konsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+
+      ![](assets/profile-custom-fields.png)
+
+1. Klicka på **[!UICONTROL Subscriptions]** för att få tillgång till information om de tjänster som profilen prenumererar på. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
+
+1. Klicka på **[!UICONTROL Logs]** i skärmens övre högra hörn för att visa historiken för profilens interaktioner genom att skicka, exkludera och spåra loggar - samt erbjudanden som presenteras för profilen. [Läs mer om leveransloggar](../monitor/delivery-logs.md)
+
+   ![](assets/profile-logs.png)
