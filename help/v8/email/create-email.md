@@ -3,10 +3,10 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta"
-source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,10 @@ ht-degree: 1%
 
 # Skicka ditt första mejl {#first-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Kom igång med e-post"
 >abstract="Du kan skapa en fristående e-postleverans eller skapa ett e-postmeddelande i ett kampanjarbetsflöde. Lär dig hur du skapar leveransen, väljer målgrupp och utformar e-postinnehållet."
-
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 

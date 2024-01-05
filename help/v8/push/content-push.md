@@ -2,11 +2,11 @@
 audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---

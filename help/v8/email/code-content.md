@@ -3,11 +3,11 @@ audience: end-user
 title: Koda eget e-postinnehåll
 description: Lär dig koda ditt eget e-postinnehåll
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 6%
 
 ---
 

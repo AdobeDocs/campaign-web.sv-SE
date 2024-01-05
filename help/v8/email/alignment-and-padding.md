@@ -3,11 +3,11 @@ audience: end-user
 title: Justera lodrät justering och utfyllnad i e-postdesignern
 description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 

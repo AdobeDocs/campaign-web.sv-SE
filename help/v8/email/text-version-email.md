@@ -3,11 +3,11 @@ audience: end-user
 title: Skapa textversionen av ett e-postmeddelande
 description: Lär dig hur du skapar textversionen av ett e-postmeddelande
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 

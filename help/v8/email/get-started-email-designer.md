@@ -2,11 +2,11 @@
 audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '426'
 ht-degree: 6%
 
 ---

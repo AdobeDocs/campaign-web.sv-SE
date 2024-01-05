@@ -4,9 +4,9 @@ title: Kom igång med push-meddelanden
 description: Lär dig hur du skapar och skickar push-meddelanden med Adobe Campaign Web
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Push-meddelanden är nödvändiga för att nå ut till mobilappsanvändare, äve
 
 Du kan skapa push-meddelanden på tre olika sätt:
 
-* Arbetsflöden: När du har lagt till en push-kanalsaktivitet i arbetsflödet och konfigurerat de grundläggande inställningarna kan du skapa innehållet i dina push-meddelanden från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns på den här sidan.
+* **Arbetsflöden**: När du har lagt till en push-kanalaktivitet i arbetsflödet och konfigurerat de grundläggande inställningarna kan du skapa innehållet i dina push-meddelanden från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns på den här sidan.
 
-* Kampanjer: När du har skapat en kampanj kan du skapa en push-meddelandeleverans. Mer information om hur du ställer in kampanjen finns på den här sidan.
+* **Kampanjer**: När du har skapat en kampanj kan du skapa en push-meddelandeleverans. Mer information om hur du ställer in kampanjen finns på den här sidan.
 
-* Fristående leveranser: Engagera kunderna direkt och omedelbart med individuell push-meddelandeleverans, utan behov av arbetsflöden eller kampanjer.
+* **Fristående leveranser**: Engagera kunderna direkt och omedelbart med individuell leverans av push-meddelanden, utan behov av arbetsflöden eller kampanjer.
 
 ![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar push-meddelandekanalen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 

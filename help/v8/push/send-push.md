@@ -2,11 +2,12 @@
 audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
-badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+badge: label="Begränsad tillgänglighet"
+exl-id: 16b3b33b-36db-4635-8e44-707694b859db
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 

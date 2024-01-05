@@ -3,10 +3,10 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Beta"
-source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---

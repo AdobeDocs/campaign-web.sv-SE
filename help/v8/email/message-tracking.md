@@ -3,11 +3,11 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---

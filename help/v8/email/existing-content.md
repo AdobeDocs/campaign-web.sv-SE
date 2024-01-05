@@ -3,10 +3,10 @@ audience: end-user
 title: Importera e-postinnehåll
 description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
