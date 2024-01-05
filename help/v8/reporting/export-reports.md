@@ -3,9 +3,9 @@ audience: end-user
 title: Exportera rapporter
 description: Förstå hur du exporterar rapporter
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exportera"
+>title="Exportera rapporter"
 >abstract="Klicka på **Exportera** om du vill exportera dessa mätvärden till PDF eller CSV-format, vilket gör att du kan dela eller skriva ut dem."
 
 Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
