@@ -4,7 +4,7 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Om du vill skicka erbjudanden via e-post väljer du dem med **[!UICONTROL Set up offers]** -knappen.
 
-   Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig skicka erbjudanden](offers.md)
+   Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig skicka erbjudanden](../msg/offers.md)
 
 1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](get-started-email-designer.md#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 
