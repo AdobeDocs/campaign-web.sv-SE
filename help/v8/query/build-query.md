@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -88,8 +88,6 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
 Med anpassade villkor kan du fråga tabeller som är länkade till den tabell som för närvarande används av din regel. Detta inkluderar tabeller med en 1-1 kardinalitetslänk eller samlingstabeller (1-N länk).
@@ -120,7 +118,7 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
 1. Välj **Inköp** tabell och bekräfta.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. En utgående övergång läggs till så att du kan skapa delvillkor.
 
@@ -136,7 +134,7 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
 +++
 
-#### Arbeta med aggregerade data {#aggregate}**
+#### Arbeta med aggregerade data {#aggregate}
 
 Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra detta måste du välja ett attribut direkt från en samlingstabell:
 
