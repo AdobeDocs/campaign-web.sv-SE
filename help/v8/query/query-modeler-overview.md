@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och en höger ruta med information om frågan.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){width="70%" align="center"}
 
 ### Den centrala arbetsytan {#canvas}
 

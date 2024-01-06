@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1852'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Du kan lägga till två typer av element:
 
   *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## Lägga till filterkomponenter {#filtering}
 
@@ -51,7 +51,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
 Med anpassade villkor kan du fråga tabeller som är länkade till den tabell som för närvarande används av din regel. Detta inkluderar tabeller med en 1-1 kardinalitetslänk eller samlingstabeller (1-N länk).
 
-För **1-1 länk** markerar du attributet direkt från måltabellen.
+För **1-1 länk** navigerar du till den länkade tabellen, markerar det önskade attributet och definierar det förväntade värdet.
 
 +++Exempel på fråga
 
@@ -100,17 +100,15 @@ Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
 1. Navigera inuti **Varumärke** tabellen och välj **Etikett** -attribut.
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. Definiera det förväntade värdet för attributet.
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-För **1-N-länk** kan du definiera undervillkor för att förfina frågan.
-
-Du kan till exempel välja operatorn Exists på profilinköpen för att ange alla profiler som det finns inköp för som mål. När du är klar lägger du till ett anpassat villkor för den utgående övergången och skapar ett filter som passar dina behov.
+För **1-N-länk** kan du definiera undervillkor för att förfina frågan, vilket visas i exemplet nedan.
 
 +++Exempel på fråga
 
@@ -118,19 +116,19 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
 1. Välj **Inköp** tabell och bekräfta.
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. En utgående övergång läggs till så att du kan skapa delvillkor.
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. Välj **Pris** köp av minst 1 000 dollar för attribut och mål
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. Lägg till undervillkor som passar dina behov. Här har vi lagt till ett villkor för målprofiler som har köpt en BrewMaster-produkt.
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 1. Navigera i den önskade samlingstabellen och markera attributet som du vill utföra en sammanställningsåtgärd på.
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. I egenskapsrutan växlar du till **Sammanställningsdata** och väljer önskad sammanställningsfunktion.
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### Välj en målgrupp
 
@@ -178,7 +176,7 @@ Så här filtrerar du frågan med ett fördefinierat filter:
 
    *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret &quot;Inaktiva kunder&quot;:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### Kopiera och klistra in komponenter {#copy}
 
@@ -200,7 +198,7 @@ Så här kopierar och klistrar du in filterkomponenter:
 
 1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **Klistra in objekt**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## Kombinera filterkomponenter med operatorer {#operators}
 
@@ -213,7 +211,7 @@ Varje gång du lägger till en ny filterkomponent i frågan länkas den automati
 
 I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i dialogrutan **Grupp** som öppnas till höger.
 
@@ -223,13 +221,13 @@ Tillgängliga operatorer:
 * **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
 * **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på **+** knapp på en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
 
 I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## Kontrollera och validera frågan
 

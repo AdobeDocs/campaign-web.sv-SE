@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 55%
@@ -34,13 +34,13 @@ Uttrycksredigeraren innehåller:
 
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){width="70%" align="center"}
 
 När uttrycket är klart klickar du på **[!UICONTROL Confirm]** -knappen. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
 
 I exemplet nedan visas ett uttryck som konfigurerats för **[!UICONTROL Value]** fält. Om du vill redigera den måste du öppna uttrycksredigeraren med **[!UICONTROL Edit expression]** -knappen.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){width="70%" align="center"}
 
 ## Hjälpfunktioner
 
