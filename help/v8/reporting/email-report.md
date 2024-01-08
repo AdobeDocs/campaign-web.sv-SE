@@ -4,7 +4,7 @@ title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 0%
@@ -74,12 +74,10 @@ The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveran
 
 ### Orsaker till uteslutning  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Leveransorsaker"
 >abstract="The **Orsaker till uteslutning** diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under leveransförberedelsen."
-
 
 The **[!UICONTROL Causes of exclusion]** diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under leveransförberedelsen. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 

@@ -4,7 +4,7 @@ title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -66,7 +66,6 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till er målgrupp: 
 
 ### Övergripande statistik {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Övergripande statistik"
@@ -87,7 +86,6 @@ The **Övergripande statistik** rapporten innehåller data för skickade push-me
 +++
 
 ### Undantag {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"

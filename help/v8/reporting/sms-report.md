@@ -4,7 +4,7 @@ title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 1%
@@ -22,12 +22,12 @@ The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-le
 
 ## Leveranssammanfattning {#delivery-summary}
 
+### Leveransöversikt {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Översikt över SMS-leverans"
 >abstract="The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans."
-
-### Leveransöversikt {#sms-delivery-overview}
 
 The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om lyckade resultat och felgrader samt hur besökarna interagerar med SMS-meddelanden.
 
@@ -45,9 +45,7 @@ The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal för nyck
 
 +++
 
-
 ### Målgrupp {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen. M
 
 
 ### Övergripande statistik {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ The **Övergripande statistik** rapporten innehåller data för skickade SMS-med
 
 ### Undantag {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS-undantag"
 >abstract="The **Undantag** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet."
-
 
 The **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att användarprofiler som har uteslutits från målprofilerna inte kunde ta emot meddelandet. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ The **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS-leverans"
->abstract="The **Leveransflöde** rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram.  Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme."
+>abstract="The **Leveransflöde** rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme."
 
 Den här rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 

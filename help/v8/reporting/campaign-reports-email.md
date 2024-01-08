@@ -4,7 +4,7 @@ title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
 badge: label="Begränsad tillgänglighet"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -47,7 +47,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Inledande målgruppsstatistik"
->abstract="Den första målgruppsstatistiktabellen visar data relativt dina mottagare"
+>abstract="Den första målgruppsstatistiktabellen visar data i förhållande till dina mottagare."
 
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 

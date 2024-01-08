@@ -3,10 +3,10 @@ audience: end-user
 title: Globala rapporter för SMS-kanalen
 description: Förstå globala rapporter för SMS-kanalen
 badge: label="Begränsad tillgänglighet"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -19,6 +19,11 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 ## Leveranssammanfattning {#delivery-summary-sms}
 
 ### Leveransöversikt {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="Översikt över SMS-leverans"
+>abstract="The **Översikt över SMS-leverans** KPI:er ger en grundlig sammanfattning av er SMS-leverans, med detaljerade insikter och specifika data. Den ger omfattande information om prestanda, effektivitet och resultat av er leverans."
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller omfattande nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktionsmönster för varje SMS-leverans. Följande mätvärden beskrivs nedan.
 
@@ -38,6 +43,11 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller omfattande nyckelta
 
 ### Målgrupp {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="Målgrupp för SMS"
+>abstract="Diagrammet och tabellen för **Målinriktad opulation** presentera data som rör er SMS-målgrupp, inklusive information om meddelanden som ska levereras och undantag."
+
 The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data som är relaterade till mottagarna för varje skickad SMS-leverans. Mätvärdena anges nedan.
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data 
 +++
 
 ### Leveransstatistik {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="Statistik för SMS-leverans"
+>abstract="The **Leveransstatistik** rapporten ger omfattande insikter om det skickade SMS:et och ger en beskrivning av olika mätvärden, som antal lyckade försök, felhändelser och målgrupper som placerats i karantän. Denna detaljerade presentation gör det möjligt att grundligt granska det övergripande resultatet av SMS-leveransprocessen."
 
 The **[!UICONTROL Delivery statistics]** tabellen visar hur bra du har lyckats med varje SMS-leverans. Mätvärdena anges nedan.
 
@@ -74,6 +89,11 @@ The **[!UICONTROL Delivery statistics]** tabellen visar hur bra du har lyckats m
 
 ### Orsaker till uteslutning {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="SMS Orsaker till uteslutning"
+>abstract="The **Orsaker till uteslutning** diagram och tabell visar de olika anledningar som gjorde att användarprofiler inte kunde ta emot SMS-meddelanden."
+
 The **[!UICONTROL Causes of exclusion]** I diagram och tabeller visas orsakerna till att användarprofiler, som inte ingick i målprofilerna, inte kunde ta emot SMS-leveranser.
 
 Feltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ Feltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://exp
 
 ## Leveranskapacitet {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="SMS-leverans"
+>abstract="The **Leveransflöde** rapporten ger omfattande insikter om hur effektivt SMS-meddelandesystemet är och ger en detaljerad översikt över lyckade åtgärder och felprocent inom en viss tidsram."
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-Den här rapporten innehåller omfattande information om leveransflödet inom en angiven tidsram.
+The **[!UICONTROL Delivery Throughput]** rapporten ger omfattande insikter om hur effektivt systemet för leverans av SMS-meddelanden är, och ger en detaljerad sammanfattning av framgångarna och felprocenten under en viss period.
