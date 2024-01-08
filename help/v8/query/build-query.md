@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,23 @@ Du kan lägga till två typer av element:
 
 * **Filtrera komponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) låter dig skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina din fråga. [Lär dig hur du arbetar med filterkomponenter](#filtering)
 
-  Exempel:
-
   *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet efter behov. [Lär dig arbeta med operatorer](#filtering)
 
-  Exempel:
-
   *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Lägga till filterkomponenter {#filtering}
 
 Med filterkomponenter kan du förfina frågan genom att använda:
 
-* **Anpassade villkor**: Filtrera frågan genom att skapa ett eget villkor med attribut från databasen och avancerade uttryck.
-* **Målgrupper**: Filtrera frågan med en befintlig målgrupp.
-* **Fördefinierat filter**: Filtrera frågan med befintliga fördefinierade filter.
+* **[Anpassade villkor](#custom-condition)**: Filtrera frågan genom att skapa ett eget villkor med attribut från databasen och avancerade uttryck.
+* **[Målgrupper](#audiences)**: Filtrera frågan med en befintlig målgrupp.
+* **[Fördefinierat filter](#predefined-filters)**: Filtrera frågan med befintliga fördefinierade filter.
 
-### Konfigurera ett anpassat villkor
+### Konfigurera ett anpassat villkor {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
@@ -100,11 +96,11 @@ Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
 1. Navigera inuti **Varumärke** tabellen och välj **Etikett** -attribut.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Definiera det förväntade värdet för attributet.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
 1. Välj **Inköp** tabell och bekräfta.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. En utgående övergång läggs till så att du kan skapa delvillkor.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Välj **Pris** köp av minst 1 000 dollar för attribut och mål
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Lägg till undervillkor som passar dina behov. Här har vi lagt till ett villkor för målprofiler som har köpt en BrewMaster-produkt.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 1. Navigera i den önskade samlingstabellen och markera attributet som du vill utföra en sammanställningsåtgärd på.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. I egenskapsrutan växlar du till **Sammanställningsdata** och väljer önskad sammanställningsfunktion.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Välj en målgrupp
+### Välj en målgrupp {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
    ![](assets/query-audience.png)
 
-### Använda ett fördefinierat filter
+### Använda ett fördefinierat filter {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Så här filtrerar du frågan med ett fördefinierat filter:
 
    *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret &quot;Inaktiva kunder&quot;:*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Kopiera och klistra in komponenter {#copy}
 
@@ -198,7 +194,7 @@ Så här kopierar och klistrar du in filterkomponenter:
 
 1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **Klistra in objekt**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Kombinera filterkomponenter med operatorer {#operators}
 
@@ -211,7 +207,7 @@ Varje gång du lägger till en ny filterkomponent i frågan länkas den automati
 
 I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i dialogrutan **Grupp** som öppnas till höger.
 
@@ -221,13 +217,13 @@ Tillgängliga operatorer:
 * **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
 * **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på **+** knapp på en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
 
 I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Kontrollera och validera frågan
 
@@ -250,3 +246,5 @@ När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegen
 Klicka på knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att spara det.
 
 Du kan ändra frågan när som helst genom att öppna den. Kom ihåg att när du öppnar en befintlig fråga visas den i en förenklad vy utan att synligheten för  **+** knappar. Om du vill lägga till nya element i frågan väljer du en komponent eller operator på arbetsytan för att visa **+** knappar.
+
+![](assets/edit-audience.png)
