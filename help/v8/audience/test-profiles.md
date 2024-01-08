@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '514'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs i [det 
 
 >[!NOTE]
 >
->Testprofiler exkluderas automatiskt från rapporter om följande leveransstatistik: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
+>Testprofiler exkluderas automatiskt från rapporter om följande leveransstatistik: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Läs mer om rapporter]
 
 ## Få åtkomst till och hantera testprofiler {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Om du vill öppna testprofillistan väljer du **[!UICONTROL Customer management]
 
   ![](assets/test-profile-list-filters.png)
 
-* Du kan duplicera en testprofil och redigera den efter behov.
+* Du kan duplicera valfri testprofil och uppdatera den efter behov. Stegen för att redigera en testprofil är desamma som när [skapa en testprofil](#create-test-profile).
 
 * Om du vill ta bort en testprofil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
 
   ![](assets/test-profile-list-delete.png)
 
-* Om du vill redigera en testprofil klickar du på önskat objekt i listan.
+* Om du vill redigera en testprofil klickar du på önskat objekt i listan. Stegen för att redigera en testprofil är desamma som när [skapa en testprofil](#create-test-profile).
 
 Du kan även komma åt testprofiler via **[!UICONTROL Explorer]** visa, från **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** nod.
 
@@ -68,7 +68,9 @@ Följ stegen nedan för att skapa en testprofil.
 
 1. Klicka på knappen **[!UICONTROL Create test profile]**.
 
-1. Fyll i informationen om testprofilen. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Fyll i informationen om testprofilen efter behov. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 

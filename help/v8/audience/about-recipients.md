@@ -2,9 +2,9 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 0%
 
 ## Kom igång med profiler {#gs}
 
-En profil på Adobe Campaign Web är en individ som lagras i databasen och som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet.
+En profil på Adobe Campaign Web är en person som lagras i databasen och som en nyckelkomponent till [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll.
 
-Andra typer av profiler lagras i databasen, till exempel **[!UICONTROL Test profiles]**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
+Andra typer av profiler lagras i databasen, till exempel **[!UICONTROL Test profiles]**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna. [Läs mer](test-profiles.md)
 
 Profiler kan bara skapas från Adobe Campaign klientkonsol - [lära dig hur](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. De är dock tillgängliga och redigerbara på Adobe Campaign Web från **[!UICONTROL Customer management]** > **Profiler** inträde i det vänstra navigeringsfältet.
 
 >[!NOTE]
 >
->Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över profiler som lagras i databasen. Läs mer om behörigheter i [det här avsnittet](../get-started/permissions.md).
+>Beroende på dina behörigheter kanske du inte har tillgång till den fullständiga listan över profiler som lagras i databasen. [Läs mer om behörigheter](../get-started/permissions.md).
 
 * Du kan filtrera **[!UICONTROL Profiles]** med sökfältet eller de filter som finns i **Visa filter** -knappen. Du kan begränsa resultatet till en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * Om du vill ta bort en profil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
 
@@ -94,13 +94,15 @@ Från **[!UICONTROL Explorer]** kan du även filtrera, ta bort och [redigera](#a
 
 Följ stegen nedan för att få tillgång till information om en profil och redigera den.
 
-1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
+1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** och klicka på önskat objekt i **[!UICONTROL Profiles]** lista.
 
-1. Klicka på önskat objekt på **[!UICONTROL Profiles]** lista. Detaljerad information om profilen visas.
+   ![](assets/profiles-list-select.png)
+
+1. Detaljerad information om profilen visas.
+
+   The **[!UICONTROL Details]** kan du bläddra igenom profilens inbyggda och anpassade attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
 
    ![](assets/profile-details.png)
-
-1. The **[!UICONTROL Details]** kan du bläddra igenom profilens inbyggda och anpassade attribut. Om du vill redigera ett attribut gör du ändringarna i det önskade fältet och klickar på knappen **[!UICONTROL Save]** -knappen.
 
    1. Som standard lagras profiler i **[!UICONTROL Recipients]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Följ stegen nedan för att få tillgång till information om en profil och redi
 
       ![](assets/profile-address.png)
 
-   1. Kontrollera **[!UICONTROL No longer contact]** och uppdatera dem vid behov. När något av dessa alternativ är markerat visas profilen till blockeringslista. Den här informationen läggs till i kontaktinformationen om mottagaren till exempel klickade på länken för att avbryta prenumerationen i ett nyhetsbrev. Den här mottagaren är inte längre riktad mot de valda kanalerna. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. Kontrollera **[!UICONTROL No longer contact]** och uppdatera dem vid behov. När något av dessa alternativ är markerat visas profilen till blockeringslista. Om mottagaren t.ex. klickade på en länk för att avbryta prenumerationen i ett nyhetsbrev läggs den här informationen till i kontaktinformationen. Den här mottagaren är inte längre riktad mot de valda kanalerna. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Följ stegen nedan för att få tillgång till information om en profil och redi
 
       ![](assets/profile-custom-fields.png)
 
-1. Klicka på **[!UICONTROL Subscriptions]** för att få tillgång till information om de tjänster som profilen prenumererar på. [Lär dig arbeta med prenumerationstjänster](manage-services.md)
+1. Klicka på **[!UICONTROL Subscriptions]** för att få tillgång till information om de tjänster som profilen prenumererar på. [Läs mer om prenumerationstjänster](manage-services.md)
 
-1. Klicka på **[!UICONTROL Logs]** i skärmens övre högra hörn för att visa historiken för profilens interaktioner genom att skicka, exkludera och spåra loggar - samt erbjudanden som presenteras för profilen. [Läs mer om leveransloggar](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. Klicka på **[!UICONTROL Logs]** i skärmens övre högra hörn för att visa historiken för profilens interaktioner genom att skicka, exkludera och spåra loggar. [Läs mer om leveransloggar](../monitor/delivery-logs.md)
+
+   Du kan också granska erbjudandena som presenteras för profilen i **[!UICONTROL Propositions]** -fliken. [Läs mer om erbjudanden](../msg/offers.md)
 
    ![](assets/profile-logs.png)
