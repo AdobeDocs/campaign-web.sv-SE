@@ -4,7 +4,7 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Skicka iOS-meddelande"
+>title="Push Android-meddelande"
 >abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
 
 
