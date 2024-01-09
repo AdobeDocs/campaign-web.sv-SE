@@ -2,14 +2,15 @@
 product: campaign
 title: Arbeta med leveranser
 description: Lär dig hur du skapar din första leverans på Campaign Web
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Begränsad tillgänglighet"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 0%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -36,14 +37,17 @@ Så här skapar du en fristående leverans:
 
    ![](assets/create-a-delivery.png)
 
-1. Välj en kanal för leveransen. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
+1. Välj en kanal för leveransen.
+1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-recipients.md).
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. Definiera meddelandeinnehållet. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
 
    * [E-postkanal](../email/create-email.md)
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-recipients.md).
-1. Definiera meddelandeinnehållet.
 1. (valfritt) Definiera leveransen [schema](#gs-schedule). Om inget schema är definierat skickas meddelanden direkt efter att du klickat på **[!UICONTROL Send]** -knappen.
 1. Klicka på  **[!UICONTROL Review and send]** för att kontrollera inställningarna.
 1. Använd  **[!UICONTROL Simulate content]** för att testa leveransinställningar och personaliseringsinställningar. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
@@ -56,13 +60,11 @@ Så här skapar du en fristående leverans:
 Så här skapar du en leverans i ett arbetsflöde:
 
 1. Skapa ett arbetsflöde eller öppna ett befintligt. Läs mer om arbetsflöden i [den här sidan](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Lägg till och konfigurera en **[!UICONTROL Build audience]** och klicka på `+`-knappen.
+1. Lägg till och konfigurera en **[!UICONTROL Build audience]** aktivitet. Läs mer om **[!UICONTROL Build audience]** aktivitet i [det här avsnittet](../workflows/activities/build-audience.md).
+1. Klicka på `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
-   The **[!UICONTROL Build audience]** aktiviteten anges i [det här avsnittet](../workflows/activities/build-audience.md).
-
-1. Välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/channels.md).
 1. Starta arbetsflödet och kontrollera loggarna.
 
 Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. Bläddra till **[!UICONTROL Deliveries]** fliken med kampanjen och klicka på **[!UICONTROL Create delivery]** -knappen.
