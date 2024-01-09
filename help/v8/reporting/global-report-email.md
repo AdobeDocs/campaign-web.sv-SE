@@ -3,7 +3,7 @@ audience: end-user
 title: Globala rapporter för e-postkanalen
 description: Läs mer om globala rapporter för e-postkanalen
 badge: label="Begränsad tillgänglighet"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 1%

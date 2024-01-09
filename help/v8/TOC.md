@@ -5,7 +5,7 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Översikt över Campaign
 hide: true
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 8%
