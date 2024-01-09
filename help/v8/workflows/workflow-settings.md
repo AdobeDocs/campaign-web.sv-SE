@@ -2,12 +2,12 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,8 @@ Andra möjliga värden är:
 >title="Segmenteringsinställningar"
 >abstract="I det här avsnittet kan du välja måldimension för målprofiler i arbetsflödet och välja att behålla arbetsflödesresultaten mellan två körningar. Det här alternativet bör endast användas för testning och får aldrig aktiveras i ett produktionsarbetsflöde."
 
-* **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, operatör, prenumeranter osv.
+* **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, operatör, prenumeranter osv. [Läs mer om målinriktning](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
 
   Om det här alternativet är aktiverat behålls arbetsregister även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför bara användas i utvecklings- eller staging-miljöer. Den får aldrig checkas in i ett produktionsarbetsflöde.

@@ -2,12 +2,12 @@
 audience: end-user
 title: Använda arbetsflödesaktiviteten AND-join
 description: Lär dig använda arbetsflödesaktiviteten OCH-join
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -43,4 +43,4 @@ Följ de här stegen för att konfigurera **AND-join** aktivitet:
 
 I följande exempel visas två arbetsflödesgrenar med e-post och SMS-leverans. AND-join utlöses när båda inkommande övergångar är aktiverade. Push-meddelandena skickas sedan först när båda leveranserna är klara.
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}

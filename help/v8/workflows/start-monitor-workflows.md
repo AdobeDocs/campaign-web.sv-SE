@@ -2,12 +2,12 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
+badge: label="Begränsad tillgänglighet"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,7 @@ Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. P�
 
 ## Arbetsflödesövergångar {#transitions}
 
-I arbetsflöden lagras data som överförs från en aktivitet till en annan via övergångar i en tillfällig arbetstabell.
-
-Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
+I arbetsflöden lagras data som överförs från en aktivitet till en annan via övergångar i en tillfällig arbetstabell. Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
 
 * Klicka **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
 * Klicka **[!UICONTROL Preview results]** för att visualisera de data som transporteras i den valda övergången.

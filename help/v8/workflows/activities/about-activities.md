@@ -4,9 +4,9 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Begränsad tillgänglighet"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,7 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring och beriknin
 
 ## Kanalaktiviteter {#channel}
 
-Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i flera kanaler. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende. Följande **Kanal** aktiviteter är tillgängliga: E-post, SMS, Android och push-meddelanden från iOS.
-
-Lär dig hur du ställer in en leverans i samband med ett arbetsflöde i det här [section](channels.md).
+Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i flera kanaler. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende. Följande **Kanal** aktiviteter är tillgängliga: E-post, SMS, Android och push-meddelanden från iOS. [Lär dig hur du ställer in en leverans i ett arbetsflöde](channels.md).
 
 ## Flödeskontroll {#flow-control}
 
