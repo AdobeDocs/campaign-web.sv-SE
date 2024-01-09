@@ -4,7 +4,7 @@ title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -52,7 +52,6 @@ Arbetsflödet har nu skapats och är tillgängligt i listan över arbetsflöden.
 
 ## Arbeta med arbetsflödesmallar {#workflow-templates}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="Arbetsflödesmallar"
@@ -61,7 +60,6 @@ Arbetsflödet har nu skapats och är tillgängligt i listan över arbetsflöden.
 Arbetsflödesmallar innehåller förkonfigurerade inställningar och aktiviteter som kan återanvändas för att skapa nya arbetsflöden. Du kan välja arbetsflödets mall bland arbetsflödesegenskaperna när du skapar ett arbetsflöde. En tom mall anges som standard.
 
 Du kan skapa en mall från ett befintligt arbetsflöde eller skapa en ny mall från början. Båda metoderna beskrivs nedan.
-
 
 >[!BEGINTABS]
 
