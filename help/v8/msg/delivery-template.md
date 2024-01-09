@@ -5,10 +5,11 @@ description: Lär dig hur du skapar och använder leveransmallar på Campaign We
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
