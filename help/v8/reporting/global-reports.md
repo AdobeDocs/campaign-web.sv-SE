@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

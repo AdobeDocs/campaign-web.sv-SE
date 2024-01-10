@@ -2,11 +2,11 @@
 audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -38,24 +38,20 @@ Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveranse
 
 ## Konfigurera kanalaktiviteten {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="E-postaktivitet"
 >abstract="E-postaktiviteten underlättar e-postutskick i ditt arbetsflöde och gör det möjligt att skicka både enstaka och återkommande meddelanden. Den automatiserar processen för att skicka e-post till ett mål som beräknas inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS-aktivitet"
 >abstract="SMS-aktiviteten underlättar SMS-utskick inom ditt arbetsflöde och gör det möjligt att skicka både engångs- och återkommande meddelanden. Den automatiserar processen för att skicka SMS till ett mål som beräknas inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Push iOS activity"
 >abstract="Push iOS-aktiviteten effektiviserar processen att skicka iOS Push-meddelanden som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar utskicksmeddelandena från iOS Push till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanha
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Du kan välja en annan mall i den vänstra rutan för kanalaktivitetskonfigurationen. Om den tidigare valda publiken inte är kompatibel med kanalen kan du inte välja en mall. Du löser detta genom att uppdatera **Bygg målgrupper** för att välja en målgrupp med rätt målmappning. Läs mer om målmappningar i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   Du kan välja en annan mall i den vänstra rutan för kanalaktivitetskonfigurationen. Om den tidigare valda publiken inte är kompatibel med kanalen kan du inte välja en mall. Du löser detta genom att uppdatera **Bygg målgrupper** för att välja en målgrupp med rätt målmappning. Läs mer om målmappningar i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
-1. Klicka **Skapa leverans**. Definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också schemalägga och simulera innehållet. [Läs mer](../../msg/gs-messages.md).
+1. Klicka **Skapa leverans**. Definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också schemalägga och simulera innehållet. [Läs mer](../../msg/gs-messages.md)
 
-1. Gå tillbaka till arbetsflödet. Välj om du vill fortsätta med arbetsflödet **Generera en utgående övergång** om du vill lägga till en övergång efter kanalaktiviteten.
+1. Gå tillbaka till arbetsflödet. Om du vill fortsätta med arbetsflödet **Generera en utgående övergång** om du vill lägga till en övergång efter kanalaktiviteten.
 
 1. Klicka **Starta** för att starta arbetsflödet.
 

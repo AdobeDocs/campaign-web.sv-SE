@@ -2,11 +2,11 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >id="acw_orchestration_enrichment"
 >title="Anrikningsaktivitet"
 >abstract="The **Berikning** kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
@@ -35,13 +34,13 @@ Anrikningsdata kan komma antingen:
 
 * **Från samma arbetsregister** som den som är inriktad på ditt arbetsflöde:
 
-  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetsregistret*
+  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetsregistret*.
 
 * **Från en annan arbetstabell**:
 
   *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; från tabellen&quot;Inköp&quot;*.
 
-När anrikningsdata har lagts till i arbetsflödet kan de sedan användas i aktiviteter som lagts till efter **Berikning** aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får gensvar hos er målgrupp.
+När anrikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter **Berikning** aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får gensvar hos er målgrupp.
 
 Du kan till exempel lägga till information om kundernas inköp i arbetsflödets arbetsregister och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
 
@@ -51,11 +50,15 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 1. Lägg till aktiviteter som **Bygg målgrupper** och **Kombinera** verksamhet.
 1. Lägg till en **Berikning** aktivitet.
-1. Klicka **Lägg till anrikningsdata**.
+1. Klicka **Lägg till anrikningsdata** och välj det attribut som ska användas för att förbättra data.
 
-![](../assets/workflow-enrichment1.png)
+   Du kan välja mellan två typer av anrikningsdata: [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
 
-Du kan välja mellan två typer av anrikningsdata: [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
+   >[!NOTE]
+   >
+   >The **Redigera uttrycksknapp** på skärmen för attributval kan du skapa avancerade uttryck för att välja attributet. [Lär dig arbeta med uttrycksredigeraren](../../query/expression-editor.md)
+
+   ![](../assets/workflow-enrichment1.png)
 
 ## Single enrichment-attribut {#single-attribute}
 
@@ -101,7 +104,7 @@ Om du t.ex. vill få fram genomsnittligt antal inköp för en kund väljer du **
 
 ### Definiera filtren{#collection-filters}
 
-Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$.
+Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 1. Klicka **Redigera filter**.
 1. Lägg till följande två filter: **Totalt belopp** finns AND **Totalt belopp** är mindre än 100. Den första filtrerar NULL-värden så som de skulle visas som det största värdet.

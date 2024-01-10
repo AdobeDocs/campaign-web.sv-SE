@@ -2,12 +2,12 @@
 audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 0%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 0%
 >title="Bygg målgruppsaktivitet"
 >abstract="The **Bygg målgrupper** kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet."
 
-
 The **Bygg målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet.
 
 Om du vill definiera målgruppspopulationen kan du:
 
 * Välj en befintlig målgrupp som skapats som en lista i klientkonsolen.
 * Välj en Adobe Experience Platform-målgrupp.
-* Bygg en ny målgrupp med regelbyggaren genom att definiera och kombinera filtervillkor.
+* Bygg en ny målgrupp med frågemodelleraren genom att definiera och kombinera filtervillkor.
 
 >[!NOTE]
 >
@@ -42,7 +41,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Välj måldimension"
 >abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna."
 
-
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
 ![](../assets/workflow-audience.png)
@@ -50,23 +48,32 @@ Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 1. Lägg till en **Bygg målgrupper** aktivitet.
 1. Definiera en etikett.
 1. Definiera målgruppstyp: **Skapa en egen** eller **Läsa målgrupper**.
+1. Konfigurera målgruppen genom att följa stegen som beskrivs på flikarna nedan.
+
+>[!BEGINTABS]
+
+>[!TAB Skapa en egen (fråga)]
 
 Så här skapar du en egen fråga:
 
 1. Välj **Skapa en egen (fråga)**.
-1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. Läs mer om Målinställningar i [det här avsnittet](../../audience/about-recipients.md#targeting-dimensions).
+1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions)
 1. Klicka **Fortsätt**.
-1. Använd regelbyggaren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../../audience/../query/query-modeler-overview.md).
+1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB Läs målgrupp]
 
 Så här väljer du en befintlig målgrupp:
 
 1. Välj **Läsa målgrupper**.
 1. Klicka **Fortsätt**.
-1. Välj målgrupp på samma sätt som du använder en målgrupp när du utformar ett nytt e-postmeddelande. Se detta [section](../../audience/add-audience.md).
+1. Välj målgrupp på samma sätt som du använder en målgrupp när du designar en ny leverans. Se detta [section](../../audience/add-audience.md).
 
 >[!IMPORTANT]
 >
 >Om du vill använda en **[!UICONTROL Build audience]** målgruppsanpassning för Experience Platform måste du lägga till en **[!UICONTROL Change dimension]** för att säkerställa att målgruppens målinriktning är inställd på&quot;Mottagare&quot;. Ett arbetsflödesexempel finns längst ned på den här sidan.
+
+>[!ENDTABS]
 
 ## Exempel{#build-audience-examples}
 

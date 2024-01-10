@@ -2,12 +2,12 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 17%
+source-wordcount: '597'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 17%
 >id="acw_orchestration_deduplication"
 >title="Dedupliceringsaktivitet"
 >abstract="The **Deduplicering** kan du ta bort dubbletter i resultatet av inkommande aktiviteter. Det används främst efter målinriktningsaktiviteter och före aktiviteter som tillåter användning av målinriktade data."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
-1. Välj antalet unika **Dubbletter att behålla**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
+1. I **Inställningar för borttagning av dubbletter** väljer du antalet unika **Dubbletter att behålla**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 
    Om till exempel posterna A och B betraktas som dubbletter av posten Y, och en post C betraktas som en dubblett av posten Z:
 
