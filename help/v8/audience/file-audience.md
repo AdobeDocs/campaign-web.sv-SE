@@ -4,9 +4,9 @@ title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -26,14 +26,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formateringsparametrar"
->abstract="Kontrollera formateringsparametrarna för den externa filen."
-
+>abstract="Ange hur den externa filen ska formateras för att säkerställa att data importeras på rätt sätt."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Förhandsgranska filen"
 >abstract="Kontrollera förhandsgranskningen av kolumnerna i den externa filen. Den här skärmen visar endast upp till 30 poster."
-
 
 Du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). I den här artikeln beskrivs hur du läser in extern profil när du skapar en fristående e-postleverans. Läs in data från en fil i ett arbetsflöde i [den här sidan](../workflows/activities/load-file.md).
 

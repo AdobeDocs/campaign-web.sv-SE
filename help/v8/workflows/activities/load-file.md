@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 1%
 >title="Formatering för aktiviteten Läs in fil"
 >abstract="Formatering för aktiviteten Läs in fil"
 
-
 The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../../personalization/gs-personalization.md)eller för att uppdatera profiler eller andra tabeller.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Följ de här stegen för att konfigurera **Läs in fil** aktivitet:
 
    ![](../assets/load-file.png)
 
-1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
+1. Använd **Kolumner** i den vänstra rutan för att justera datatypen och bredden för varje kolumn.
+
+1. I **Formatering** anger du hur den externa filen ska formateras för att säkerställa att data importeras på rätt sätt.
 
 1. Klicka **Bekräfta** när inställningarna är korrekta.
 
 ## Exempel{#load-example}
 
-Ett exempel på hur en extern fil läses in är tillgängligt med **Avstämning** aktivitet i [det här avsnittet](reconciliation.md#example).
+Ett exempel på en extern inläsning av filer som används med **Avstämning** aktivitet är tillgänglig i [det här avsnittet](reconciliation.md#example).
