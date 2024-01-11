@@ -5,11 +5,11 @@ description: Lär dig hur du skapar och använder leveransmallar på Campaign We
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1055'
 ht-degree: 2%
 
 ---
@@ -122,6 +122,8 @@ Så här sparar du en leverans som en mall:
 
    ![](assets/templates-convert-delivery.png)
 
+   Du kan också välja en mall i listan och välja det här alternativet från mallversionsskärmen.
+
 1. Bekräfta duplicering.
 
 1. Den nya mallkontrollpanelen öppnas på den centrala skärmen. Redigera mallinställningarna efter behov.
@@ -180,13 +182,11 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
    ![](assets/templates-simulate-button.png)
 
-1. Markera en eller flera testprofiler för att kontrollera e-poståtergivningen. Du kan också välja riktiga profiler från databasen.
+1. Markera en eller flera testprofiler för att kontrollera e-poståtergivningen. Du kan också välja riktiga profiler från databasen. [Läs mer om testprofiler](../audience/test-profiles.md)
 
-1. Växla mellan de olika profilerna för att få en personlig representation av meddelandet enligt den valda profilen.
+1. Växla mellan de olika profilerna för att få en personlig representation av meddelandet enligt den valda profilen. Du kan också justera zoomnivån och välja skrivbordsvy eller mobilvy.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   Du kan också justera zoomnivån och välja skrivbordsvy eller mobilvy.
+[Läs mer om hur du förhandsgranskar innehåll](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 >
 >Du kan inte använda e-poståtergivning eller skicka tester i en leveransmall.
 
-* [Läs mer om hur du förhandsgranskar e-postinnehåll](../preview-test/preview-content.md)
 
-* [Läs mer om förhandsgranskning av SMS-innehåll](../sms/content-sms.md)
-
-* [Läs mer om hur du förhandsgranskar push-innehåll](../push/gs-push.md)
