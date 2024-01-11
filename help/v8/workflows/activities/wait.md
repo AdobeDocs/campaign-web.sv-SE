@@ -2,11 +2,11 @@
 audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '165'
 ht-degree: 27%
 
 ---
@@ -28,7 +28,7 @@ Följ de här stegen för att konfigurera **Vänta** aktivitet:
 
 1. Ange **Varaktighet** av väntetiden mellan inkommande och utgående övergångar.
 
-1. Välj tidsenhet i dialogrutan **Perioder** fält: sekunder, minuter, timmar.
+1. Välj tidsenhet i dialogrutan **Perioder** fält: sekunder, minuter, timmar, dagar.
 
 ## Exempel{#wait-example}
 
