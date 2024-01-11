@@ -2,9 +2,9 @@
 title: Måldimensioner
 description: Läs mer om målinriktning av dimensioner på Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,17 @@ ht-degree: 1%
 
 Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: profiler, kontraktsanställda, operatörer, prenumeranter osv.
 
+## Målgruppsdimensioner för arbetsflöden {#workflow}
+
 Måldimensionen för ett arbetsflöde definieras av den första **[!UICONTROL Build audience]** aktiviteten och används för alla andra aktiviteter fram till arbetsflödets slut. Om du till exempel gör en fråga om profilerna från databasen, kommer den utgående övergången att innehålla data av typen &quot;mottagare&quot; och den kommer att överföras till nästa aktivitet.
 
 Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimensionsaktivitet](../workflows/activities/change-dimension.md). Detta gör att du till exempel kan ställa frågor till databasen i en viss tabell, som inköp eller prenumerationer, och sedan ändra måldimensionen till mottagare för att skicka leveranser till motsvarande profiler.
+
+När du väljer en måldimension (i arbetsflödesinställningarna) eller i aktiviteter som **Bygg målgrupper**, **Avstämning** eller **Ändra dimension**) visas ett urval av vanliga scheman som standard i listan. Om du vill visa alla tillgängliga scheman aktiverar du **[!UICONTROL Show all schemas]** -knappen. Alternativvalet sparas för varje användare.
+
+![](assets/targeting-dimension-show-all.png)
+
+## Måldimensioner {#list}
 
 Som standard har e-post- och SMS-leveransmallar målprofiler. Måldimensionen använder därför fälten i **nms:mottagare** tabell. Standardmåldimensionen för push-meddelanden är **Prenumerationsprogram nms:appSubscriptionRcp**, som är länkad till mottagartabellen.
 
