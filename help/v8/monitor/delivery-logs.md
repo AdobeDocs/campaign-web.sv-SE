@@ -3,11 +3,11 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 25%
+source-wordcount: '359'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Följande flikar är tillgängliga:
 
 ## Loggar {#logs-tab}
 
-The **Loggar** -fliken innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar.    
+The **Loggar** -fliken innehåller alla meddelanden som rör leveransen och korrekturet. Med specifika ikoner kan du identifiera fel eller varningar.
 
 Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandetypen:
 
