@@ -4,9 +4,9 @@ title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Begränsad tillgänglighet"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
 
-## Bygg upp arbetsflödet{#build-your-workflow}
+## Bygg upp arbetsflödet {#build-your-workflow}
 
 Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveransen:
 
@@ -35,6 +35,10 @@ Börja bygga arbetsflödet med relevanta aktiviteter innan du monterar leveranse
 * Lägg till en **Bygg målgrupper** aktivitet. Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet. Se [det här avsnittet](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >Du kan även ange en målgrupp som läses in från en fil som mål. Om du vill göra det använder du en **Läs in fil** aktivitet följt av **Avstämning** aktivitet. [Läs mer](../../audience/about-recipients.md)
 
 ## Konfigurera kanalaktiviteten {#create-a-delivery-in-a-workflow}
 

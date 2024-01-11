@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '828'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Avstämningsaktivitet"
->abstract="The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i den externa tabellen."
+>abstract="The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell. Till exempel **Avstämning** kan placeras efter en **Läs in fil** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i den externa tabellen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
