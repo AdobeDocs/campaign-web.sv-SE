@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ Med anpassade villkor kan du fråga tabeller som är länkade till den tabell so
 
 För **1-1 länk** navigerar du till den länkade tabellen, markerar det önskade attributet och definierar det förväntade värdet.
 
+Du kan också markera en tabelllänk direkt i dialogrutan **Värde** väljaren och bekräfta. I så fall måste värden som är tillgängliga för den valda tabellen markeras med en dedikerad väljare, vilket visas i exemplet nedan.
+
 +++Exempel på fråga
 
 Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
@@ -101,6 +103,10 @@ Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 1. Definiera det förväntade värdet för attributet.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Här följer ett frågeexempel där en tabelllänk har markerats direkt. Tillgängliga värden för den här tabellen måste väljas från en dedikerad väljare.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
