@@ -3,10 +3,10 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum o
 
 ## Pausa eller stoppa sändningen {#pause-stop-sending}
 
-Oavsett om leveransen är schemalagd eller inte kan två åtgärder utföras när som helst under sändningsprocessen:
+Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras när som helst under sändningsprocessen:
 
 * Klicka **[!UICONTROL Pause sending]** för att avbryta sändningen av meddelandena. Du kan fortsätta skicka när som helst.
 
