@@ -3,7 +3,7 @@ title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -16,7 +16,7 @@ När du arbetar i webbgränssnittet för Campaign med komponenter som skapats el
 
 ## Arbetsflöden {#wf-guardrails-limitations}
 
-### Aktiviteter
+### Verksamhet
 
 Arbetsflödesaktiviteter som ännu inte stöds i webbgränssnittet är skrivskyddade och visas som inkompatibla aktiviteter. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i webbgränssnittet och i klientkonsolen går att redigera.
 
@@ -61,7 +61,7 @@ Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bor
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Filtret är skrivskyddat"
->abstract="Vissa fördefinierade filter är inte tillgängliga i användargränssnittet i den versionen av produkten. Dessa filter är skrivskyddade. Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen."
+>abstract="Vissa fördefinierade filter är inte tillgängliga i användargränssnittet i den versionen av produkten. Dessa filter är skrivskyddade. Även om du inte kan visa den grafiska representationen av frågan i frågemodelleraren, och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen."
 
 När du väljer målgrupp för en leverans, eller när du skapar en målgrupp i ett arbetsflöde, är vissa fördefinierade filter inte tillgängliga i användargränssnittet i den versionen av produkten. Dessa filter är skrivskyddade.
 
@@ -69,7 +69,7 @@ Ett specifikt felmeddelande visas.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Även om du inte kan visa den grafiska representationen av frågan i regelbyggaren och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen.
+Även om du inte kan visa den grafiska representationen av frågan i frågemodelleraren, och inte kan redigera filtret, kan du fortfarande använda det och se filtervillkoren i **Attribut** på skärmen.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

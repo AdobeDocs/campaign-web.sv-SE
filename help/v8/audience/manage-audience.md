@@ -4,7 +4,7 @@ title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Om du vill definiera en målgrupps befolkning kan du:
 
 * [Skapa nya målgrupper](create-audience.md) från **[!UICONTROL Audiences]** meny,
 * [Välj en befintlig målgrupp](add-audience.md) som har skapats som en lista i klientkonsolen eller som kommer från Adobe Experience Platform,
-* [Bygg en ny publik](../query/query-modeler-overview.md) med regelbyggaren genom att definiera och kombinera filtervillkor,
+* [Bygg en ny publik](../query/query-modeler-overview.md) med frågemodelleraren genom att definiera och kombinera filtervillkor,
 * [Använda en målgrupp från en extern fil](file-audience.md). Det här alternativet är bara tillgängligt för fristående e-postleveranser och kan inte användas i kampanjleveranser.
 
 När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper** för att undvika att skicka meddelanden till en del av er målgrupp och mäta effekten av era kampanjer. [Lär dig hur du ställer in en kontrollgrupp](control-group.md)

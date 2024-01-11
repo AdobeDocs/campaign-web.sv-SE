@@ -3,7 +3,7 @@ title: Skapa och använda fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign webbgränssnitt
 badge: label="Begränsad tillgänglighet"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 1%
@@ -98,7 +98,7 @@ När ett filter sparas som favorit är det tillgängligt för alla användare i 
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
-Fördefinierade filter är tillgängliga när du definierar regelegenskaper. Om du vill komma åt fördefinierade filter väljer du **Välj eget filter** i listrutan för regelbyggaren.
+Fördefinierade filter är tillgängliga när du definierar regelegenskaper. Om du vill komma åt fördefinierade filter väljer du **Välj eget filter** i listrutan för frågemodelleraren.
 
 Du kan sedan komma åt den fullständiga listan med fördefinierade filter som är tillgängliga för den aktuella kontexten.
 

@@ -4,7 +4,7 @@ title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 badge: label="Begränsad tillgänglighet"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Alla aktiviteter beskrivs i avsnitten nedan:
 Dessa aktiviteter är specifika för målgruppsanpassning, ändring och berikning av populationsdata. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
 * Använd [Spara målgrupper](save-audience.md) aktivitet för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från den population som beräknas uppströms i ett arbetsflöde.
-* Använd [Bygg målgrupper](build-audience.md) för att definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda regelbyggaren för att definiera en egen fråga.
+* Använd [Bygg målgrupper](build-audience.md) för att definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
 * Använd [Kombinera](combine.md) för att segmentera den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
 * Använd [Dela](split.md) aktivitet för att segmentera inkommande population i flera delmängder.
 * Använd [Avstämning](reconciliation.md) -aktivitet för att definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil.

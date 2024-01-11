@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Använd det nya webbgränssnittet för Campaign för att:
 * Skapa, utforma, personalisera, schemalägg och skicka e-post, SMS och push-meddelanden - [Läs mer](../msg/gs-messages.md)
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../email/edit-content.md)
 * Skicka flerkanalskampanjer, inklusive SMS och push-meddelanden - [Läs mer](../workflows/activities/channels.md)
-* Definiera målgrupper med regelbyggaren - [Läs mer](../audience/about-recipients.md)
+* Definiera målgrupper med frågemodelleraren - [Läs mer](../audience/about-recipients.md)
 * Förhandsgranska, testa och skicka meddelanden - [Läs mer](../monitor/prepare-send.md)
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 

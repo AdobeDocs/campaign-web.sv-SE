@@ -7,7 +7,7 @@ role: User
 level: Beginner
 badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Campaign Mana
 
 Alla mallar som [skapad](#create-a-delivery-template) i den aktuella miljön visas.
 
-Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om regelbyggaren](../audience/../query/query-modeler-overview.md)
+Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om frågemodelleraren](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

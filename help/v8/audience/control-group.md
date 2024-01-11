@@ -4,7 +4,7 @@ title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -114,7 +114,7 @@ Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du p�
 
 * Om du vill använda en befintlig målgrupp klickar du **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
 
-* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med regelbyggaren. Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
+* Om du vill definiera en ny fråga väljer du **Skapa en egen** och definiera uteslutningskriterierna med frågemodelleraren. Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
 
 Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **exkluderad** från leveransmålet: de får inget meddelande.
 

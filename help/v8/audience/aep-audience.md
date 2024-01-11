@@ -4,7 +4,7 @@ title: Använda en Adobe Experience Platform-publik
 description: Lär dig använda en målgrupp från Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 2%
@@ -49,6 +49,6 @@ Följ stegen nedan för att välja en Adobe Experience Platform-målgrupp för d
 
    ![](assets/refine-audience.png)
 
-1. Med regelbyggaren kan ni utöka målgruppen med ytterligare filter eller genom att kombinera olika målgrupper. Se det här [section](../query/query-modeler-overview.md).
+1. Med hjälp av frågemodelleraren kan ni berika er målgrupp med ytterligare filter eller genom att kombinera olika målgrupper. Se det här [section](../query/query-modeler-overview.md).
 
 1. Klicka **Spara**.
