@@ -3,7 +3,7 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -55,23 +55,25 @@ ht-degree: 1%
 
 The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../../personalization/gs-personalization.md)eller för att uppdatera profiler eller andra tabeller.
 
-
 >[!NOTE]
 >Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
 
-
 Den här aktiviteten kan användas med en [Avstämning](reconciliation.md) aktivitet för att länka oidentifierade data till befintliga resurser. Till exempel **Läs in fil** kan placeras före en **Avstämning** om du importerar data som inte är standard till databasen.
-
 
 ## Konfigurera aktiviteten Läs in fil {#load-configuration}
 
 Följ de här stegen för att konfigurera **Läs in fil** aktivitet:
 
-
 1. Dra och släpp en **Läs in fil** i arbetsflödet. Klicka på **Välj från fil** -knappen.
+
 1. Markera den lokala fil som ska användas. Formatet måste vara justerat mot detta [exempelfil](../../audience/file-audience.md#sample-file).
+
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
+
+   ![](../assets/load-file.png)
+
 1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
+
 1. Klicka **Bekräfta** när inställningarna är korrekta.
 
 ## Exempel{#load-example}

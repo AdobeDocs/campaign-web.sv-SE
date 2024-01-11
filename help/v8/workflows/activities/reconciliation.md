@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 badge: label="Begränsad tillgänglighet"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 10%
+source-wordcount: '836'
+ht-degree: 11%
 
 ---
 
@@ -17,12 +17,10 @@ ht-degree: 10%
 >title="Avstämningsaktivitet"
 >abstract="The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i den externa tabellen."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Avstämningsmarkeringsfält"
 >abstract="Avstämningsmarkeringsfält"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 10%
 >title="Avstämning genererar komplementtal"
 >abstract="Avstämning genererar komplementtal"
 
+The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil.
 
-
-The **Avstämning** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil. Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i arbetstabellen.
-
+Till exempel **Avstämning** kan placeras efter en **Läs in målgrupp** -aktivitet för att importera icke-standarddata till databasen. I det här fallet **Avstämning** Med -aktiviteten kan du definiera länken mellan data i Adobe Campaign-databasen och data i arbetstabellen.
 
 ## Bästa praxis {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsfl
 
 >[!NOTE]
 >Avstämningsåtgärden innebär att data för de länkade dimensionerna redan finns i databasen.  Om du till exempel importerar en inköpsfil som visar vilken produkt som köptes vid en viss tidpunkt, av en viss klient och så vidare, så måste produkten och klienten redan finnas i databasen.
->
 
 ## Konfigurera avstämningsaktiviteten {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsfl
 >title="Behåll ej avstämda data"
 >abstract="Som standard behålls ej avstämda data i den utgående övergången och är tillgängliga i arbetstabellen för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du **Behåll ej avstämda data** alternativ."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Avstämningsattribut"
@@ -81,9 +75,9 @@ Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
 1. Dra och släpp en **Avstämning** i arbetsflödet. Denna aktivitet bör läggas till efter en övergång som innehåller en befolkning vars målgruppsdimension inte kommer direkt från Adobe Campaign.
 
-1. Välj den nya måldimensionen. Med en dimension kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. Läs mer om målanpassning av dimensioner i [den här sidan](../../audience/about-recipients.md#targeting-dimensions).
+1. Välj den nya måldimensionen. Med en dimension kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions).
 
-1. Välj de avstämningsfält som ska användas för dedupliceringen. Du kan använda ett eller flera avstämningskriterier.
+1. Välj de fält som ska användas för avstämningen. Du kan använda ett eller flera avstämningskriterier.
 
    1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** alternativ. The **Källa** -fält visar de fält som är tillgängliga i indataövergången och som ska förenas. The **Mål** fältet motsvarar fälten i den valda måldimensionen. Data avstäms när källan och målet är lika. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress.
 
