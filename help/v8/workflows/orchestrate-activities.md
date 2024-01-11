@@ -2,14 +2,14 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Beta"
-source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
+badge: label="Begränsad tillgänglighet"
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
-
 
 # Organisera aktiviteter {#orchestrate}
 
@@ -17,9 +17,9 @@ En gång har du [skapade ett arbetsflöde](create-workflow.md), oavsett om det g
 
 ## Lägg till aktiviteter {#add}
 
-I det här skedet av konfigurationen visas diagrammet med en startikon som representerar början av arbetsflödet. Om du vill lägga till den första aktiviteten klickar du på plusknappen (+) som är ansluten till startikonen.
+I det här skedet av konfigurationen visas diagrammet med en startikon som representerar början av arbetsflödet. Om du vill lägga till din första aktivitet klickar du på **+** som är ansluten till startikonen.
 
-En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en vänteaktivitet för att fördröja arbetsflödets körning. Efter en målgruppsaktivitet kan du däremot förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller ordna arbetsflödet med flödeskontrollaktiviteter.
+En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödet eller ställa in en **Vänta** för att fördröja arbetsflödets körning. Å andra sidan, efter **Bygg målgrupper** kan du förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller organisera arbetsflödet med flödeskontrollaktiviteter.
 
 ![](assets/workflow-start.png)
 
@@ -27,9 +27,9 @@ När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan k
 
 ![](assets/workflow-configure-activities.png)
 
-Upprepa den här processen och lägg till så många aktiviteter som du vill, beroende på vilka uppgifter du vill att arbetsflödet ska utföra. Observera att du även kan infoga en ny aktivitet mellan två aktiviteter. Det gör du genom att klicka på plusknappen (+) för övergången mellan aktiviteterna, markera önskad aktivitet och konfigurera den i den högra rutan.
+Upprepa den här processen om du vill lägga till så många aktiviteter som du vill, beroende på vilka uppgifter du vill att arbetsflödet ska utföra. Observera att du även kan infoga en ny aktivitet mellan två aktiviteter. Klicka på **+** om övergången mellan aktiviteterna markerar du önskad aktivitet och konfigurerar den i den högra rutan.
 
-Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på ikonen Ta bort i aktivitetsegenskaperna.
+Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på knappen **Ta bort** -ikonen i aktivitetsegenskaperna.
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsr
 
 * **Ta bort** aktiviteten från arbetsytan.
 * **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs körs inte inaktiverade aktiviteter och följande aktiviteter på samma sökväg, och arbetsflödet stoppas.
-* **Kopiera** aktiviteten. Du kan sedan klistra in den i vilket arbetsflöde som helst genom att klicka på plusknappen (+) i en övergång och välja Klistra in 1 aktivitet.
+* **Kopiera** aktiviteten. Du kan sedan klistra in den i valfritt arbetsflöde genom att klicka på **+** och väljer&quot;Klistra in 1 aktivitet&quot;.
 * Åtkomst till aktivitetens **Loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Exempel {#example}
 
 Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (utom VIP kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
 
 För att uppnå detta har följande aktiviteter lagts till:
 

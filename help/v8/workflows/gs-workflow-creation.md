@@ -2,15 +2,14 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
+badge: label="Begränsad tillgänglighet"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Viktiga principer för att skapa arbetsflöden {#gs-workflow-creation}
 
@@ -21,7 +20,7 @@ Med Campaign v8 Web kan ni skapa arbetsflöden i en visuell arbetsyta för att u
 
 Arbetsflödesdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 Varje arbetsflöde innehåller:
 
@@ -57,4 +56,3 @@ De här stegen beskrivs i följande avsnitt:
 1. [Samordna och konfigurera aktiviteter](orchestrate-activities.md)
 1. [Konfigurera avancerade inställningar för ditt arbetsflöde](workflow-settings.md)
 1. [Starta arbetsflödet och övervaka dess körning](start-monitor-workflows.md)
-

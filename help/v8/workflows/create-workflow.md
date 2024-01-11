@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '738'
 ht-degree: 1%
 
 ---
@@ -25,20 +25,17 @@ ht-degree: 1%
 >title="Lista över arbetsflöden i kampanjen"
 >abstract="The **Arbetsflöden** På -fliken visas alla arbetsflöden som är länkade till den aktuella kampanjen. Klicka på namnet på ett arbetsflöde för att redigera det. Använd **Skapa arbetsflöde** om du vill lägga till ett nytt arbetsflöde för kampanjen."
 
-
 Du kan skapa fristående arbetsflöden eller arbetsflöden inom en kampanj. Det första steget är att välja en mall och definiera dess allmänna egenskaper. Sedan kan du konfigurera ytterligare inställningar efter behov.
 
 Gör så här:
 
-1. Skapa en **Fristående arbetsflöde**, bläddra till **Arbetsladdar** -menyn.
-
-   Skapa en **Arbetsflöde för kampanj**, bläddra till **Kampanjer** och öppna kampanjen som du vill skapa ett nytt arbetsflöde för.
+1. Skapa en **Fristående arbetsflöde**, bläddra till **Arbetsladdar** -menyn. Skapa en **Arbetsflöde för kampanj**, bläddra till **Kampanjer** och öppna kampanjen som du vill skapa ett nytt arbetsflöde för.
 
 1. Klicka på **[!UICONTROL Create workflow]** i skärmens övre högra hörn.
 
    ![](assets/workflow-create.png)
 
-1. I arbetsflödet **Egenskaper** väljer du den mall som ska användas för att skapa arbetsflödet (du kan också använda den inbyggda standardmallen). Läs mer om mallar i [avsnittet nedan](#work-with-workflow-templates-workflow-templates).
+1. I arbetsflödet **Egenskaper** väljer du den mall som ska användas för att skapa arbetsflödet (du kan också använda den inbyggda standardmallen). [Läs mer om arbetsflödesmallar](#workflow-templates).
 
 1. Ange en etikett för arbetsflödet. Vi rekommenderar dessutom att du lägger till en beskrivning i arbetsflödet i det dedikerade fältet i **[!UICONTROL Additional options]** på skärmen.
 
@@ -48,7 +45,7 @@ Gör så här:
 
 1. Klicka på **[!UICONTROL Create workflow]** för att bekräfta att arbetsflödet har skapats.
 
-Arbetsflödet har nu skapats och är tillgängligt i listan över arbetsflöden. Nu kan du komma åt den visuella arbetsytan och börja lägga till, konfigurera och organisera de uppgifter som ska utföras. Lär dig att samordna arbetsflödesaktiviteter i [den här sidan](orchestrate-activities.md).
+Arbetsflödet har nu skapats och är tillgängligt i listan över arbetsflöden. Nu kan du komma åt den visuella arbetsytan och börja lägga till, konfigurera och organisera de uppgifter som ska utföras. [Lär dig att samordna arbetsflödesaktiviteter](orchestrate-activities.md).
 
 ## Arbeta med arbetsflödesmallar {#workflow-templates}
 
