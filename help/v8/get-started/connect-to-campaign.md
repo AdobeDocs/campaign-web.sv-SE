@@ -3,9 +3,9 @@ title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
 badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,12 @@ Så här byter du språk:
 1. Klicka på din profilikon, längst upp till höger och välj sedan **Inställningar**.
 1. Klicka sedan på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad till ditt första språk.
+
+>[!CAUTION]
+>
+>Om du tänker använda AI-baserade sammanhangsbaserade hjälpfunktioner måste du ställa in språket på engelska. Andra språk stöds inte.
+>
+
 
 ## Mörka och ljusa teman {#dark-theme}
 

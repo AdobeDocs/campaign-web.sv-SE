@@ -1,16 +1,16 @@
 ---
 title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Använda den AI-baserade sammanhangsberoende hjälpen {#using-ai}
+# AI-baserad sammanhangsbaserad hjälp {#using-ai}
 
 Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang med hjälp av den AI-baserade sammanhangsbaserade Q&amp;A-hjälpen som finns i produktens sammanhangsbaserade hjälprutor.
 
@@ -18,7 +18,7 @@ Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvar
 >
 >Denna funktion finns i Alpha och kan ändras utan föregående meddelande.
 >
->Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen.
+>Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen. Därför bör du se till att [ditt språk](connect-to-campaign.md#language-pref) är inställt på engelska innan den här funktionen används.
 
 
 The **Sammanhangsbaserad hjälp med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign AI-baserad sammanhangsbaserad hjälp är till hjälp, men du bör kontrollera fakta. Den kan ge felaktiga uppgifter, felaktiga eller vilseledande svar. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
-Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Den AI-baserade sammanhangsbaserade hjälpen för Campaign kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar starkt att du använder ?? ?? -knappar när du än läser ett svar för att flagga olämpliga svar till våra tekniker.
+Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Den AI-baserade sammanhangsbaserade hjälpen för Campaign kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar att du använder ??? -knapparna när du läser ett svar för att flagga olämpliga svar till våra tekniker.
 
 ## Rekommendationer  {#recommendations-ai}
 
