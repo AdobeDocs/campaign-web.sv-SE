@@ -3,7 +3,7 @@ title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
