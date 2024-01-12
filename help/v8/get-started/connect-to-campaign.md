@@ -3,7 +3,7 @@ title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
 badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Så här byter du språk:
 
 >[!CAUTION]
 >
->Om du tänker använda AI-baserade sammanhangsbaserade hjälpfunktioner måste du ställa in språket på engelska. Andra språk stöds inte.
+>Om du tänker använda [AI-baserad sammanhangsbaserad hjälp](using-ai.md) måste du ange engelska som språk. Andra språk stöds inte.
 >
 
 
