@@ -4,14 +4,14 @@ title: Skapa en engångspublik för en leverans
 description: Lär dig hur du skapar en engångspublik för en leverans.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
-# Skapa en engångspublik för en leverans {#sone-time}
+# Skapa en engångspublik {#one-time}
 
 I det här avsnittet beskrivs hur du skapar en målgrupp när du skapar en ny leverans. I det här fallet är målet för mottagarna som ska inkluderas i leveransgruppen att fråga databasen med frågemodelleraren.
 

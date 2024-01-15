@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: Använd e-postmallar
-description: Lär dig hur du använder e-postmallar i Adobe Campaign
+title: Använda mallar för e-postinnehåll
+description: Lär dig hur du använder mallar för e-postinnehåll i Adobe Campaign
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
 
-# Använd e-postmallar {#use-email-templates}
+# Använda mallar för e-postinnehåll {#use-email-templates}
 
 När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
 

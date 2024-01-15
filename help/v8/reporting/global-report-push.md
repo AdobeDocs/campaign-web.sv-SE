@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Globala rapporter för push-kanalen
-description: Förstå globala rapporter för push-kanalen
+description: Förstå globala rapporter för Push-kanalen
 badge: label="Begränsad tillgänglighet"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 1%

@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Bläddra bland, söka i och filtrera listor
+title: Bläddra i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 badge: label="Begränsad tillgänglighet"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-# Bläddra bland, söka i och filtrera listor {#list-screens}
+# Bläddra i och filtrera listor {#list-screens}
 
 De flesta länkar från den vänstra navigeringsmenyn visar listor med objekt, t.ex. listan med **Leveranser** eller **Kampanjer**. Vissa av dessa listskärmar är skrivskyddade. Du kan anpassa listvisningen och filtrera listorna enligt nedan.
 

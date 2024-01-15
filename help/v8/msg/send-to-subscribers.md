@@ -4,14 +4,14 @@ title: Skicka meddelanden till prenumeranterna på en tjänst
 description: Lär dig hur du skickar meddelanden till prenumeranterna på en tjänst
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# Skicka meddelanden till prenumeranterna på en tjänst
+# Skicka meddelanden till prenumeranterna på en tjänst {#send-to-subscribers}
 
 Du kan skapa prenumerationstjänster i Adobe Campaign och skicka meddelanden till dina prenumeranter. Lär dig hur du skapar prenumerationstjänster i [den här sidan](../audience//manage-services.md#create-service).
 

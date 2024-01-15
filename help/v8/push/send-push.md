@@ -4,14 +4,14 @@ title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
-# Förhandsgranska och skicka en leverans av push-meddelanden {#send-push-delivery}
+# Förhandsgranska och skicka en push-leverans {#send-push-delivery}
 
 ## Förhandsgranska leverans av push-meddelanden {#preview-push}
 

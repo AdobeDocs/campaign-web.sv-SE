@@ -4,14 +4,14 @@ title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
 
-# Designa en push-meddelandeleverans {#content-push}
+# Designa en push-leverans {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

@@ -4,15 +4,15 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
 
 
-# Förhandsgranska leveransinnehåll {#preview-content}
+# Förhandsgranska meddelandeinnehållet {#preview-content}
 
 Använd [!DNL Campaign] innehållssimulering för att förhandsgranska innehållet i meddelandet innan det skickas. På så sätt kan du styra personaliseringen och kontrollera hur den visas för mottagarna.
 
