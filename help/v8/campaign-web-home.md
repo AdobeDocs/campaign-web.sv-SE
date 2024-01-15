@@ -4,19 +4,85 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
 # Adobe Campaign v8 webbdokumentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="Hjälp och dokumentation"
+>abstract="Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="Upplev nya Adobe Campaign användargränssnitt"
+>abstract="Modern, intuitiv och dynamisk."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="Objekt 1"
+>abstract="Ny designupplevelse för e-post, SMS och push-meddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="Objekt 2"
+>abstract="Förenklat gränssnitt för arbetsyta"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="Objekt 3"
+>abstract="Omdesignat användargränssnitt för målgrupper, prenumerationer och tjänster, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="Objekt 4"
+>abstract="E-postgenererad AI: Promptbaserad e-postgenerering"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Hjälp och dokumentation"
 >abstract="Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="Upplev nya Adobe Campaign användargränssnitt"
+>abstract="Modern, intuitiv och dynamisk."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="Objekt 1"
+>abstract="Ny designupplevelse för e-post, SMS och push-meddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="Objekt 2"
+>abstract="Förenklat gränssnitt för arbetsyta"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="Objekt 3"
+>abstract="Omdesignat användargränssnitt för målgrupper, prenumerationer och tjänster, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="Objekt 4"
+>abstract="E-postgenererad AI: Promptbaserad e-postgenerering"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform. [Läs mer](get-started/get-started.md)
 

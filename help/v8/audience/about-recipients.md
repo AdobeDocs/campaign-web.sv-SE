@@ -2,20 +2,30 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
 
-# Övervaka och redigera profiler {#profiles}
+# Övervaka och hantera profiler {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="360-vy av dina profiler"
+>abstract="Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360-vy av dina profiler"
 >abstract="Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -50,7 +60,7 @@ Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kont
 
 Från **[!UICONTROL Explorer]** kan du även filtrera, ta bort och [redigera](#access) profiler.
 
-## Få åtkomst till och redigera profilattribut {#access}
+## Åtkomst till och redigering av profilattribut {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
