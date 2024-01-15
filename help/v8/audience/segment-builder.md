@@ -4,9 +4,9 @@ title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Paletten är uppdelad i två flikar:
 
 * **Attribut**: den här fliken ger dig åtkomst till alla tillgängliga fält från schemat. Fältlistan beror på målschemat som definierats i e-postmallen.
 
-* **Målgrupper**: på den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i Campaign Classic Console eller från Adobe Experience Platform. [Lär dig övervaka och hantera målgrupper](manage-audience.md)
+* **Målgrupper**: på den här fliken kan du filtrera med hjälp av en av de befintliga målgrupperna som definieras i Campaign Classic Console eller från Adobe Experience Platform. Lär dig övervaka och hantera målgrupper i [det här avsnittet](manage-audience.md)
 
   >[!NOTE]
   >

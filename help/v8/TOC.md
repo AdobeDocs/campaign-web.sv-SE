@@ -6,10 +6,10 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 8%
+source-wordcount: '531'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
    + [Kom igång](get-started/get-started.md)
    + [Anslut till Campaign](get-started/connect-to-campaign.md)
    + [Upptäck gränssnittet](get-started/user-interface.md)
-   + [Bläddra bland, söka i och filtrera listor](get-started/list-filters.md)
+   + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
    + [Skyddsritningar och begränsningar](get-started/guardrails.md)
@@ -70,7 +70,7 @@ ht-degree: 8%
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
       + [Designa en push-leverans](push/content-push.md)
-      + [Förhandsgranska och skicka en leverans av push-meddelanden](push/send-push.md)
+      + [Förhandsgranska och skicka en push-leverans](push/send-push.md)
    + SMS {#sms}
       + [Kom igång med SMS-leveranser](sms/gs-sms.md)
       + [Skapa en SMS-leverans](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 8%
    + Gör innehållet dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)
-      + [Lägga till villkorligt innehåll](personalization/conditions.md)
+      + [Skapa villkorsstyrt innehåll](personalization/conditions.md)
       + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
@@ -87,7 +87,7 @@ ht-degree: 8%
       + [Förhandsgranska och testa](preview-test/preview-test.md)
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
       + [Skicka testleveranser](preview-test/test-deliveries.md)
-      + [Återge din e-post](preview-test/email-rendering.md)
+      + [Testa e-poståtergivningen](preview-test/email-rendering.md)
 + Profiler och målgrupper {#audiences}
    + [Kom igång med profiler och målgrupper](audience/gs-audiences-recipients.md)
    + [Måldimensioner](audience/targeting-dimensions.md)
@@ -100,14 +100,14 @@ ht-degree: 8%
    + Välj leveransmottagare {#target-audiences}
       + [Välj en befintlig målgrupp](audience/add-audience.md)
       + [Skapa en engångspublik](audience/one-time-audience.md)
-      + [Läsa in en målgrupp från en fil](audience/file-audience.md)
+      + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
       + [Ange en kontrollgrupp](audience/control-group.md)
    + Arbeta med prenumerationstjänster {#work-with-services}
-      + [Hantera tjänster](audience/manage-services.md)
+      + [Skapa och hantera prenumerationstjänster](audience/manage-services.md)
       + [Hantera prenumeranter](audience/manage-subscribers.md)
 + Flerkanalskampanjer {#campaigns}
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
-   + [Få tillgång till och hantera kampanjer](campaigns/manage-campaigns.md)
+   + [Få tillgång till och hantera era kampanjer](campaigns/manage-campaigns.md)
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
@@ -117,7 +117,7 @@ ht-degree: 8%
       + [Skapa arbetsflödet](workflows/create-workflow.md)
       + [Organisera aktiviteter](workflows/orchestrate-activities.md)
       + [Konfigurera inställningar för arbetsflöde](workflows/workflow-settings.md)
-      + [Starta och övervaka arbetsflödet](workflows/start-monitor-workflows.md)
+      + [Starta och övervaka arbetsflödena](workflows/start-monitor-workflows.md)
    + Arbeta med arbetsflödesaktiviteter {#design-workflows}
       + [Om arbetsflödesaktiviteter](workflows/activities/about-activities.md)
       + [Och-join](workflows/activities/and-join.md)
