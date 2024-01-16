@@ -4,9 +4,9 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Begränsad tillgänglighet"
-source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
+source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="Kom igång"
->abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
 >title="Kom igång"
 >abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
 
