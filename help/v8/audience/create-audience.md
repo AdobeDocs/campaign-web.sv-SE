@@ -4,7 +4,7 @@ title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Skapa målgrupper {#create-audiences}
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -25,13 +23,11 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="Målgruppssammansättning"
+>title="Målgruppskomposition"
 >abstract="Skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
 
 <!--TO REMOVE ABOVE-->
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

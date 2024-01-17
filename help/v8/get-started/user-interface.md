@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -300,15 +300,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fragmentdetaljer"
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="Kombinera skapa komplementfärger"
->abstract="Kombinera skapa komplementfärger"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="Segment för delad aktivitet"
->abstract="Segment för delad aktivitet"
 
 
 
@@ -335,16 +326,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Målgruppsegenskaper"
->abstract="Målgruppsegenskaper"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Antal målgrupper"
->abstract="Antal målgrupper"
 
 
 >[!CONTEXTUALHELP]

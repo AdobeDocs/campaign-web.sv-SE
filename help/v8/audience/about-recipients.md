@@ -2,7 +2,7 @@
 title: Övervaka och hantera profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiler"
->abstract="En profil är en individ som ska ta emot meddelanden från Adobe Campaign. I den här listan kan du visa profilens information utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning profilattribut."
+>abstract="En profil är en individ som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I den här listan kan du visa profilens information utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning profilattribut."
 
 ## Kom igång med profiler {#gs}
 

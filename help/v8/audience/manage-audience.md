@@ -4,14 +4,24 @@ title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Övervaka och hantera målgrupper {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Egenskaper"
+>abstract="Här hittar du en sammanfattning av målgruppsegenskaperna, t.ex. ursprung, lagringsmapp eller dess status. Klicka på länken i **Senaste arbetsflöde** för att öppna det arbetsflöde som har använts för att skapa målgruppen."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Målgruppsstorlek"
+>abstract="Här hittar du det totala antalet profiler inom målgruppen. Klicka på knappen Beräkna för att uppdatera och beräkna om målgruppsresultaten."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
