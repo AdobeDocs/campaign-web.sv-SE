@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 0%
+source-wordcount: '753'
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,7 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
    ![](assets/content-template-create.png)
 
-1. Fyll i mallinformationen. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad nod i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
+1. Fyll i mallinformationen. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
    ![](assets/content-template-save-back.png)
 
-Den här mallen kan nu användas när du skapar e-post i [!DNL Adobe Campaign]. [Lär dig mer](use-email-templates.md)
+Mallen sparas i standardmappen för Adobe Campaign-hierarkin (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Läs mer om mappar](../get-started/permissions.md#folders)
+
+Den visas även i **[!UICONTROL Content templates]** lista. [Läs mer](#access-manage-templates)
+
+Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
 
 ### Spara e-postinnehåll som mall {#save-as-template}
 
@@ -154,11 +158,13 @@ Så här sparar du ett e-postinnehåll som en mall:
 
    ![](assets/email_designer-template-name.png)
 
+Mallen sparas i standardmappen för Adobe Campaign-hierarkin (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Läs mer om mappar](../get-started/permissions.md#folders)
+
+Den visas även i **[!UICONTROL Content templates]** lista. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
+
 Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-Mallen sparas i **[!UICONTROL Content templates]** lista, tillgänglig från [!DNL Adobe Campaign] egen meny. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
 
 >[!NOTE]
 >
