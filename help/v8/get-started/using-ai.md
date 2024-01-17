@@ -3,9 +3,9 @@ title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
+source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign AI-baserad sammanhangsbaserad hjälp är till hjälp, men du bör kontrollera fakta. Den kan ge felaktiga uppgifter, felaktiga eller vilseledande svar. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
-Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Den AI-baserade sammanhangsbaserade hjälpen för Campaign kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar att du använder ??? -knapparna när du läser ett svar för att flagga olämpliga svar till våra tekniker.
+Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Den AI-baserade sammanhangsbaserade hjälpen för Campaign kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar att du använder <img src="assets/do-not-localize/thumb.png" width="10%"/> när du läser ett svar, för att flagga olämpliga svar till våra tekniker.
 
 ## Rekommendationer  {#recommendations-ai}
 
