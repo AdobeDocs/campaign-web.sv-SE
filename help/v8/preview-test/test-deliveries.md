@@ -4,9 +4,9 @@ title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1126'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 
 1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
 
-1. När du bläddrar i testprofillistan kan du använda filter för att förfina sökningen.
+1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
 
    ![](assets/simulate-test-profile-filter.png)
 

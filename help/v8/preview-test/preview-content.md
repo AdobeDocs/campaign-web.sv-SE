@@ -4,9 +4,9 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
      >[!NOTE]
      >
      >Du kan också visa och hantera profiler från motsvarande flik i webbgränssnittet för Campaign. [Läs mer](../audience/about-recipients.md)
+
+1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
 1. Klicka **[!UICONTROL Select]** för att bekräfta ditt val.
 
