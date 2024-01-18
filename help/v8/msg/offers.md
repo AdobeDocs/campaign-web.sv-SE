@@ -3,10 +3,10 @@ audience: end-user
 title: Lägg till erbjudanden i dina meddelanden
 description: Lär dig lägga till och skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Så här skickar du erbjudanden med en leverans:
 >title="Ange avancerade inställningar för erbjudanden"
 >abstract="Du kan aktivera uteslutning av mottagare för vilka det inte finns tillräckligt med giltiga erbjudanden och välja hur meddelandet ska behandlas om ett av förslagen inte finns."
 
-Med Adobe Campaign kan du erbjuda en eller flera specifika erbjudanden till en viss kontakt. Interaktionsmodul som gör att du kan svara i realtid under en interaktion med en viss kontakt genom att föreslå en eller flera specifika erbjudanden. Erbjudandena kan vara enkla kommunikationsmeddelanden, specialerbjudanden för en eller flera produkter eller en tjänst.
+Med Adobe Campaign kan ni svara i realtid under en interaktion med en viss kontakt genom att föreslå en eller flera specifika erbjudanden. Erbjudandena kan vara enkla kommunikationsmeddelanden, specialerbjudanden för en eller flera produkter eller en tjänst.
 
 Följ stegen nedan för att välja vilka erbjudanden som ska läggas till i leveransen.
 
 1. Klicka på **[!UICONTROL Set up offers]** på skärmen för utgåva av leveransinnehåll.
 
-   ![](assets/setup-offers.png)
+   ![](assets/offer-setup.png)
 
 1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna.
 
-   Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme på [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme på [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/create-content-offers.png)
+   ![](assets/offer-create-content.png)
 
 1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
 
@@ -61,33 +61,35 @@ Följ stegen nedan för att välja vilka erbjudanden som ska läggas till i leve
 
 1. Välj **[!UICONTROL Exclude non-eligible recipients]** vid behov.
 
-   Med det här alternativet kan du aktivera eller inaktivera exkluderingen av mottagare för vilka det inte finns tillräckligt med giltiga erbjudanden.
+   Med det här alternativet kan du aktivera eller inaktivera exkluderingen av mottagare för vilka det inte finns tillräckligt med giltiga erbjudanden:
 
    * Om alternativet är aktiverat exkluderas mottagare som inte har tillräckligt med erbjudanden från leveransen.
    * Om alternativet är inaktiverat utesluts inte dessa mottagare, men de kan inte ha det begärda antalet förslag.
 
 1. Om det behövs väljer du **[!UICONTROL Hide everything if no offer is selected]** alternativ.
 
-   Med det här alternativet kan du välja hur meddelandet ska behandlas om något av förslagen inte finns.
+   Med det här alternativet kan du välja hur meddelandet ska behandlas om något av förslagen inte finns:
 
    * Om alternativet är aktiverat visas inte representationen av det saknade förslaget och inget innehåll visas i meddelandet för det här förslaget.
    * Om alternativet är inaktiverat avbryts själva meddelandet när det skickas och mottagarna kan inte längre ta emot några meddelanden.
 
-När du har konfigurerat de erbjudanden du vill föreslå i leveransen kan du infoga dem i leveransinnehållet med Uttrycksredigeraren.
+När du har konfigurerat de erbjudanden du vill föreslå i leveransen kan du infoga dem i leveransinnehållet.
 
 ## Lägg in erbjudanden i leveransen {#insert}
 
-Erbjudandena kan läggas till i leveransen med [Uttrycksredigeraren](../personalization/gs-personalization.md#access). De kan läggas in antingen på ärenderaden eller i leveransenheten.
+Erbjudandena kan läggas till i leveransen med [uttrycksredigerare](../personalization/gs-personalization.md#access). De kan läggas in antingen på ärenderaden eller i leveransenheten.
 
 >[!CAUTION]
 >
 >Kontrollera att du har [konfigurerade vilka erbjudanden som ska erbjudas med den leveransen](#configure).
 
-Följ stegen nedan för att infoga ett erbjudande med Expression Editor.
+Följ stegen nedan för att infoga ett erbjudande med uttrycksredigeraren.
 
 1. Gå till ämnesraden eller innehållet i alla leveranser.
 
-1. Placera muspekaren där du vill infoga erbjudandet och öppna uttrycksredigeraren med personaliseringsikonen.
+1. Placera musmarkören där du vill infoga erbjudandet och öppna uttrycksredigeraren med ikonen för personalisering.
+
+   ![](assets/offer-insert-perso-icon.png)
 
 1. Välj **[!UICONTROL Propositions]** -menyn. Tillgängliga förslag visas i listan.
 
@@ -95,9 +97,7 @@ Följ stegen nedan för att infoga ett erbjudande med Expression Editor.
    >
    >Antalet offerter definieras när [konfigurera erbjudanden](#configure) för aktuell leverans.
 
-   ![](assets/offer-insertion.png)
-
-1. Lägg till offerterna på ämnesraden eller i leveransbrödtexten med hjälp av anpassningsfälten, återgivningsfunktionerna eller de attribut som är tillgängliga för varje erbjudande.
+1. Definiera varje förslag med hjälp av anpassningsfälten, återgivningsfunktionerna eller tillgängliga attribut.
 
    ![](assets/offer-inserted.png)
 
@@ -107,6 +107,6 @@ Följ stegen nedan för att infoga ett erbjudande med Expression Editor.
 
 1. Spara ändringarna.
 
-1. Slutför innehållet, testa och skicka leveransen.
+1. Slutför innehållet, testa och skicka leveransen. [Läs mer](gs-messages.md)
 
 När en mottagare får leveransen visas rätt erbjudande för just den profilen.
