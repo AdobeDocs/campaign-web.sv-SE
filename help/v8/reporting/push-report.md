@@ -4,7 +4,7 @@ title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 badge: label="Begränsad tillgänglighet"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Rapportsändning"
->abstract="han **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
+>abstract="The **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
 
 The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, med omfattande insikter och specifika data. Det innehåller omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
