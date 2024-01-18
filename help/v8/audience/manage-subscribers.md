@@ -2,11 +2,11 @@
 audience: end-user
 title: Hantera prenumeranterna
 description: Lär dig hur du hanterar och levererar till abonnenter av en tjänst på Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Följ stegen nedan om du vill lägga till prenumeranter manuellt.
 
 1. Välj en befintlig tjänst från **[!UICONTROL Subscription services]** lista.
 
-1. Välj **[!UICONTROL Subscribers]** och klicka **[!UICONTROL Add profiles]**.
+1. Gå till **[!UICONTROL Subscribers]** och klicka **[!UICONTROL Add subscribers]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ Följ stegen nedan om du vill lägga till prenumeranter manuellt.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Klicka på **[!UICONTROL Send]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> De valda mottagarna får prenumerationen [bekräftelsemeddelande](manage-services.md#create-confirmation-message) som du valde när [skapa tjänsten](manage-services.md#create-service).
+1. Klicka **[!UICONTROL Send]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->om du vill att de valda mottagarna ska få prenumerationen [bekräftelsemeddelande](manage-services.md#create-confirmation-message) som du definierade när [skapa tjänsten](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-De tillagda profilerna visas i **[!UICONTROL Subscribers]** lista. De prenumererar nu på din tjänst.
+   >[!NOTE]
+   >
+   >Om du väljer **[!UICONTROL Cancel]**, skickas inget bekräftelsemeddelande till de valda profilerna, men de prenumererar.
+
+De tillagda profilerna visas i **[!UICONTROL Subscribers]** -fliken. De prenumererar nu på din tjänst.
 
 ## Ta bort prenumeranter från tjänsten {#remove-subscribers}
 
@@ -49,7 +53,9 @@ En gång [tillagda prenumeranter](#add-subscribers) till tjänsten kan du avbest
 
    ![](assets/service-subscribers-delete.png)
 
-1. Bekräfta borttagning och klicka på **[!UICONTROL Send]**. Den valda mottagaren får en prenumeration [bekräftelsemeddelande](manage-services.md#create-confirmation-message) som du valde när [skapa tjänsten](manage-services.md#create-service).
+1. Bekräfta borttagning.
+
+1. Klicka **[!UICONTROL Send]** om du vill att den valda mottagaren ska få avprenumerationen [bekräftelsemeddelande](manage-services.md#create-confirmation-message) som du definierade när [skapa tjänsten](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 

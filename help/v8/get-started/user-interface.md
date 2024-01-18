@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -325,9 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Villkorligt villkor för subjektiv"
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulera testprofiler"
@@ -350,22 +347,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Totalt antal prenumerationer"
->abstract="Totalt antal prenumerationer"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Prenumerationer under perioden"
->abstract="Prenumerationer under perioden"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Generell utveckling av prenumerationer"
->abstract="Generell utveckling av prenumerationer"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Innehåll för direktreklam"
 >abstract="Innehåll för direktreklam"
@@ -379,8 +360,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Innehållsegenskaper för direktreklam"
 >abstract="Innehållsegenskaper för direktreklam"
-
-
 
 
 <!--
