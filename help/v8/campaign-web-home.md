@@ -4,9 +4,9 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 1%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Objekt 3"
->abstract="Omdesignat användargränssnitt för målgrupper, prenumerationer och tjänster, AEM Assets"
+>abstract="Omdesignat användargränssnitt för målgrupper, prenumerationer, AEM Assets, landningssidor"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Objekt 4"
->abstract="E-postgenererad AI: Promptbaserad e-postgenerering"
+>abstract="Nästa generations frågemodellerare och e-postdesigner"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 1%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Hjälp och dokumentation"

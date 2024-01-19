@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -116,13 +116,13 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
-
+<!--
 * **Gen AI for Email content**
 
-  Ta farväl av manuell framtagning av innehåll och hälsa på effektiva, datadrivna kampanjer med kraften i Gen AI.  Vår Gen AI-teknik använder avancerade algoritmer för att **skapa engagerande och personaliserat innehåll**. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll. Ligg steget före konkurrenterna och lyft ditt marknadsföringsspel med Gen AI om e-postinnehåll.
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  Läs mer i [det här avsnittet](../email/generative-gs.md).
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **AI-baserad sammanhangsbaserad hjälp**
 
