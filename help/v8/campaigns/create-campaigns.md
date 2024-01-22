@@ -2,12 +2,12 @@
 audience: end-user
 title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 0%
 >title="Kampanjegenskaper"
 >abstract="På den här skärmen kan du kontrollera och uppdatera kampanjinställningarna: etikett, internt namn, mapp och beskrivning. Du kan också visa vilken användare det är tilldelat."
 
-Om du vill skapa en ny kampanj måste du definiera dess egenskaper, schema och inkludera arbetsflöden och leveranser.
+Om du vill skapa en ny kampanj måste du definiera dess inställningar, schema och inkludera arbetsflöden och leveranser.
 
-## Skapa kampanjen{#campaign-create}
+## Skapa kampanjen {#campaign-create}
 
 Så här skapar du en ny kampanj:
 
 1. Klicka på **[!UICONTROL Campaigns]** och klickar på **[!UICONTROL Create campaign]** -knappen.
+
+   ![Skapa en ny kampanj](assets/create-campaign-button.png)
+
 1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. [Läs mer](manage-campaigns.md#manage-campaign-templates).
 1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
 1. Definiera **Schema** av er kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](#campaign-schedule)
 1. Klicka **Skapa**.
+
+   ![Skapa kampanjegenskaper](assets/create-a-campaign-properties.png)
+
 1. Lägg till arbetsflöden och leveranser till kampanjen:
 
    * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om [skapa ett arbetsflöde](../workflows/create-workflow.md).
-   * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
 
-1. Använd **Loggar** och **Rapportering** knappar för att analysera kampanjens resultat.
+   * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
 
 ## Övervaka och spåra kampanjen{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knapp
 
 ## Definiera kampanjschemat {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Kampanjschema"
@@ -61,8 +65,6 @@ Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knapp
 Kampanjen startar när startdatumet nås. Så länge startdatumet inte nås har kampanjen **[!UICONTROL Draft]** status. När startdatumet har nåtts blir det **[!UICONTROL In progress]**. När slutdatumet har nåtts ställs kampanjen in på **[!UICONTROL Completed]**.
 
 Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](manage-campaigns.md#access-campaigns).
-
-![Definiera kampanjegenskaper](assets/campaign-properties.png)
 
 >[!NOTE]
 >

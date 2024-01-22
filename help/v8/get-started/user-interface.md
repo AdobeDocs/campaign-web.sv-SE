@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Lär dig hur du ansluter till Adobe Campaign och upptäck Experience Cloud navig
 
 På Campaigns startsida kan ni snabbt och enkelt bläddra bland viktiga resurser, indikatorer och komponenter.
 
-I den övre delen av startsidan finns information om de senaste uppdateringarna och nya funktioner som är tillgängliga i produkten, med länkar till versionsinformation och relaterad dokumentation.
+I den övre delen av startsidan finns information om de senaste uppdateringarna och nya funktioner som är tillgängliga i produkten, med länkar till versionsinformation och detaljerad dokumentation. Använd vänsterpilen för att rulla funktionskort.
 
 ![](assets/home.png)
 

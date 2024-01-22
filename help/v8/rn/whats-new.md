@@ -4,7 +4,7 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Adobe Campaign Web har en kraftfull frågemodellerare som förenklar filtreringe
 * Definiera målgrupper som ni kan inrikta er på i era meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter era behov
 * Använd regler i arbetsflödesaktiviteter, som Dela och Avstämning, för att anpassa dem efter dina specifika krav
 * Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar målgrupper för en leverans
-* Lägg till regel för att filtrera data som visas i rapporter.
+* Lägg till regel för att filtrera data som visas i rapporter
 * Skapa anpassade regler för att filtrera data som visas i listor som t.ex. mottagare, leveranslistor och annat
 
 Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
