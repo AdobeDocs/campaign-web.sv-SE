@@ -4,10 +4,10 @@ title: Kom igång med Campaign v8 Web
 description: Kom igång med Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -31,13 +31,22 @@ ht-degree: 2%
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
+Adobe Campaign v8 är nästa generations kampanjverktyg som har byggts för olika marknadsföringskanaler som e-post, push-meddelanden, SMS och direktreklam. Den erbjuder robusta ETL- och datahanteringsfunktioner för att hjälpa till att utforma och strukturera den perfekta kampanjen. Dess orkestreringsmotor ger möjlighet till multitouch-marknadsföring med fokus på batchbaserade resor. Den levereras också tillsammans med en skalbar meddelandeserver i realtid som gör det möjligt för marknadsföringsteamen att skicka fördefinierade meddelanden baserat på en totalbelastning från alla IT-system för kommunikation som lösenordsåterställning, orderbekräftelse, e-kvitto och mycket annat.
+
+Använd Campaign för att
+
+* **Drive** personalisering och engagemang genom en enda lättillgänglig bild av kunden
+* **Integrera** e-post, mobilkanaler, online- och offlinekanaler i kundresan
+* **Automatisera** leverera meningsfulla och aktuella meddelanden och erbjudanden
+
+
 Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
 ![](assets/home.png)
 
 Det nya användargränssnittet tillgodoser först behoven i **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 
-Om du behöver få tillgång till funktioner i Campaign v8 som inte är tillgängliga i webbgränssnittet kan du använda [klientkonsol](#ac-client).
+Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac-client).
 
 
 >[!NOTE]
@@ -54,4 +63,4 @@ Kampanjdata lagras på programservern. Data är tillgängliga både från klient
 
 Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
 
-Mer information om hur du använder Campaign v8 finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
+Mer information om hur du använder Campaign v8 med klientkonsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.

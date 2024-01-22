@@ -5,19 +5,19 @@ description: Lista över funktioner som inte stöds i gränssnittet för Campaig
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 6%
+source-wordcount: '348'
+ht-degree: 2%
 
 ---
-
 
 # Funktioner som inte stöds i Campaign Web {#unsupported-capabilities}
 
 Följande funktioner är tillgängliga i Campaign Client Console, men är ännu inte tillgängliga i webbanvändargränssnittet. Vissa kommer att finnas i en senare version, men andra inte.
 
-**Startsida**
+**Hemsida**
 
 * Kontrollpanel för startsida
 * Anpassning av hemsida
@@ -29,7 +29,7 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 * Uppgiftshantering
 * Distribuerad marknadsföring (Central/Local marketing)
 * Svarshantering
-* A/B-test
+* A/B-tester
 * Hantering av marknadsföringsresurser, mål, simuleringar, budget och kostnader
 
 **Kommunikationskanaler**
@@ -69,7 +69,6 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 * Skapa innehållsblock
 * Innehåll från anpassade formulär
 * Innehåll från en URL`*`
-* E-postfragment
 * AMP för e-post
 * E-postfragment`*`
 * Flerspråkig användning`*`
@@ -91,7 +90,7 @@ Följande funktioner är tillgängliga i Campaign Client Console, men är ännu 
 
 * Utforma erbjudanden med behörighetskrav
 
-**Integrering med lösningar i Adobe Experience Cloud***
+**Integrering med Adobe Experience Cloud lösningar***
 
 * Adobe Analytics dataanvändning
 * Adobe Analytics KPI-delning
