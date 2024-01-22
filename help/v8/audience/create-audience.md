@@ -2,11 +2,11 @@
 audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,20 @@ När ni väl har skapat ert arbetsflöde lagras målgrupperna automatiskt i Camp
 Så här skapar du en målgrupp:
 
 1. Navigera till **[!UICONTROL Audiences]** och klickar på **[!UICONTROL Create Audience]** i det övre högra hörnet.
-1. Ange en etikett för er målgrupp.
-1. Expandera **[!UICONTROL Additional options]** för att konfigurera avancerade målgruppsparametrar.
 
-   Som standard skapas målgrupper i **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Lists]** utforskarmenyn. Du kan ändra standardlagringsplatsen med **[!UICONTROL Folder]** fält.
+1. Ett nytt arbetsflöde skapas automatiskt så att du kan kombinera aktiviteter för att skapa en målgrupp. Arbetsytan innehåller som standard två huvudaktiviteter:
 
-   ![](assets/audiences-settings.png)
+   * Frågan **[!UICONTROL Build audience]** -aktiviteten är startpunkten i arbetsflödet, så att du kan skapa en målgrupp och använda den som grund för arbetsflödet.
 
-1. När du har konfigurerat målgruppsinställningarna klickar du på **[!UICONTROL Create Audience]** -knappen. En arbetsyta i arbetsflödet visas med två standardaktiviteter:
+   * The &quot;New audition&quot; **[!UICONTROL Save audience]** -aktiviteten är det sista steget i arbetsflödet så att du kan spara resultatet som en ny målgrupp.
 
-   * **[!UICONTROL Build audience]**: Detta är startpunkten i arbetsflödet, så att du kan skapa en målgrupp och använda den som grund för arbetsflödet.
+   ![](assets/create-audience-blank.png)
 
-   * **[!UICONTROL Save audience]**: Detta är det sista steget i arbetsflödet, vilket gör att du kan spara arbetsflödesresultaten som en ny målgrupp.
+   >[!IMPORTANT]
+   >
+   >Målgruppsarbetsflöden lagras i **Arbetsflöden** -menyn, tillsammans med andra Campaign-arbetsflöden. De är särskilt utformade för att skapa målgrupper och kan identifieras med hjälp av deras vertikala arbetsyta.
+
+1. För bättre läsbarhet rekommenderar vi att du ändrar namnet på arbetsflödet i arbetsflödesinställningens **Etikett** fält. [Lär dig hur du konfigurerar arbetsflödesinställningar](../workflows/workflow-settings.md)
 
 1. Öppna **[!UICONTROL Build audience]** och använd frågemodelleraren för att definiera populationen som ska inkluderas i målgruppen genom att filtrera data i databasen. [Lär dig konfigurera en målgruppsaktivitet](../workflows/activities/build-audience.md)
 
@@ -75,7 +77,7 @@ Så här skapar du en målgrupp:
 
 1. När arbetsflödet är klart klickar du **[!UICONTROL Start]** för att genomföra det.
 
-Arbetsflödet sparas i **[!UICONTROL Workflows]** -listan, medan de resulterande målgrupperna är tillgängliga i **[!UICONTROL Audiences]** lista. Lär dig övervaka och hantera målgrupper i [det här avsnittet](manage-audience.md)
+Arbetsflödet sparas i **[!UICONTROL Workflows]** -listan, medan de resulterande målgrupperna är tillgängliga i **[!UICONTROL Audiences]** lista med etiketten som definieras i **Spara målgrupper** aktivitet. Lär dig övervaka och hantera målgrupper i [det här avsnittet](manage-audience.md)
 
 Nu kan ni använda den här målgruppen som huvudmål för en leverans. [Läs mer](add-audience.md)
 
@@ -89,3 +91,17 @@ I exemplet nedan visas ett målgruppsarbetsflöde som är konfigurerat för att 
 1. The **[!UICONTROL Enrichment]** aktiviteten berikar publiken med information från inköpstabellen för att identifiera vilken typ av produkt kunderna har köpt.
 1. The **[!UICONTROL Split]** aktiviteten delar upp arbetsflödet i två banor baserat på kundens senaste köp.
 1. The **[!UICONTROL Save audience]** aktiviteter i slutet av varje bana skapar två nya målgrupper i databasen, inklusive den population som beräknas i varje bana.
+
+## Redigera en målgrupp {#edit}
+
+Du kan ändra en målgrupp som genererats från ett arbetsflöde när det behövs genom att köra motsvarande arbetsflöde igen. På så sätt kan ni enkelt uppdatera målgruppsdata eller förfina målgruppen genom att anpassa frågan efter era behov.
+
+1. Navigera till **Målgrupper** och öppna den målgrupp du vill redigera.
+1. I **Ökning** -fliken, **Senaste arbetsflöde** -avsnittet innehåller en länk till det arbetsflöde som används för att generera målgruppen. Klicka på den för att komma åt arbetsflödet.
+1. Gör önskade ändringar och klicka på **Starta** om du vill köra arbetsflödet igen. När arbetsflödet är klart uppdateras målgruppen automatiskt med de senaste arbetsflödesresultaten.
+
+Som standard ersätts hela målgruppens innehåll med nya data när du kör ett målgruppsarbetsflöde, vilket leder till att tidigare data går förlorade.
+
+Om du inte vill ersätta befintliga målgruppsresultat konfigurerar du **Spara målgrupper** aktiviteter som passar era behov. Du kan till exempel ändra **Målgruppsetikett** för att lagra de nya resultaten i en ny målgrupp eller lägga till de nya resultaten i det befintliga målgruppsinnehållet utan att radera tidigare data. [Lär dig konfigurera en Spara målgruppsaktivitet](../workflows/activities/save-audience.md)
+
+![](assets/edit-audience-save.png)
