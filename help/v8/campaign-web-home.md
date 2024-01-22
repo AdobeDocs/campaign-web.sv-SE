@@ -4,10 +4,10 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
+source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '692'
+ht-degree: 2%
 
 ---
 
@@ -83,109 +83,100 @@ ht-degree: 1%
 
 <!--TO REMOVE ABOVE-->
 
-
-Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform. [Läs mer](get-started/get-started.md)
+Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campaign v8 Web har för närvarande en begränsad tillgänglighet (LA)-version. Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande. [Läs mer](rn/whats-new.md)
+> Campaign v8 Web har för närvarande en begränsad tillgänglighet (LA)-version. Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
-## Nya funktioner för Campaign Web
+## Nyheter
 
-**Upptäck det nya gränssnittet Campaign v8 på webben**
+Få en glimt av de senaste förbättringarna i Adobe Campaign v8 för webbprodukter och dokumentation! En omfattande lista över viktiga funktioner och funktioner för att släppa uppdateringar finns på [den här sidan](rn/whats-new.md).
 
-Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Platform.
+>[!BEGINTABS]
 
-**Nytt gränssnitt för arbetsytan**
+>[!TAB Flerkanaliga arbetsflöden]
 
-Vår omfattande grafiska miljö som ger er möjlighet att utforma komplexa processer som kan hjälpa er att enkelt hantera era marknadsföringskampanjer. Med arbetsflöden kan ni samordna alla processer och uppgifter, förbättra hastighet och skala för alla delar av marknadsföringskampanjer, från att skapa segment och förbereda meddelanden till leverans. Dessutom kan ni synkronisera era kanaler med ett enda lättanvänt gränssnitt för kampanjsamordning.
+Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
 
-**Möt e-postdesignern**
+[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
-Börja med en mall eller använd Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad. Lär dig hur du använder e-postdesignern för att skapa ditt innehåll, förhandsgranska och testa det och skicka ett e-postmeddelande till en befintlig publik i ett heltäckande användningsfall.
+>[!TAB Målgruppskomposition]
 
-**Gör innehållet dynamiskt**
+Skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler.
 
-Anpassa innehållet baserat på den information du har samlat in om mottagarna. Om du använder dynamiskt innehåll blir innehållet mer tilltalande och sannolikheten för att det läses ökar. Anpassa era meddelanden till varje specifik mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de har köpt och mycket annat. Skapa villkorsstyrt innehåll för att anpassa era leveranser till varje mottagare och visa endast det innehåll som är relevant för en viss kund baserat på den information du har om dem.
+[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
-**Skapa flerkanalskampanjer**
+>[!TAB Email Designer]
 
-Använd Adobe Campaign för att skapa flerkanalskampanjer. Med hjälp av funktioner för samordning av marknadsföringskampanjer kan ni hantera och centralisera kunddata, utforma kundkommunikation och kampanjer samt skapa personaliserade upplevelser i olika kanaler. I den här versionen är e-post-, push- och SMS-kanaler tillgängliga. Mät hur effektiva era leveranser är med detaljerade rapporter som bland annat antalet öppningar, klick och framåt.
+Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Oavsett om du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande!
 
-## Låt oss dyka djupare
+[![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
-Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjupa sig i dessa dokumentationsavsnitt och börja arbeta med dem.
+>[!TAB Profil 360]
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="get-started/user-interface.md">
-<img alt="nytt användargränssnitt" src="assets/do-not-localize/menu-ui.jpeg">
-</a>
-<div><a href="get-started/user-interface.md"><strong>Upptäck det nya användargränssnittet</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="workflows/gs-workflows.md">
-<img alt="Validering" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="workflows/gs-workflows.md"><strong>Nytt gränssnitt för arbetsytan</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="email/get-started-email-designer.md">
-<img alt="Sällan" src="assets/do-not-localize/menu-design.jpg">
-</a>
-<div>
-<a href="email/get-started-email-designer.md"><strong>Möt e-postdesignern</strong></a>
-</div>
-<p></td>
-<td>
-<a href="personalization/gs-personalization.md">
-<img alt="Målgrupper" src="assets/do-not-localize/menu-dynamic.jpg">
-</a>
-<div>
-<a href="personalization/gs-personalization.md"><strong>Gör innehållet dynamiskt</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="campaigns/gs-campaigns.md">
-<img alt="Validering" src="assets/do-not-localize/menu-campaign.jpeg">
-</a>
-<div>
-<a href="campaigns/gs-campaigns.md"><strong>Skapa flerkanalskampanjer</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil.
 
-<!--
+[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
+
+>[!ENDTABS]
+
+## Börja med grunderna
+
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
-</a></td><td>Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
-</a></td><td>Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
-</a></td><td>Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
-</a></td><td>Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
-</a></td><td>Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.</td></tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <div><strong>Upptäck det nya användargränssnittet</strong><br/>Upptäck Campaign v8 Web nya gränssnitt och navigeringsupplevelse som är integrerade med Adobe Experience Platform.</div>
+    </td>
+    <td>
+    <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <div><strong>Omdesignad arbetsyta</strong><br/>Lär dig hur du skapar arbetsflöden för att samordna alla processer och uppgifter och förbättrar hastigheten och skalan för alla delar av marknadsföringskampanjer.</div><br/>
+    </td>
+    <td>
+    <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
+    <div><strong>Möt e-postdesignern</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya e-postdesigner för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
+    </div></td>
+    <td>
+    <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <div><strong>Gör innehållet dynamiskt</strong><br/>Lär dig hur du anpassar ditt innehåll baserat på den information du har samlat in om dina mottagare för att göra innehållet mer tilltalande och öka sannolikheten för att det läses.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
--->
 
+## Utforska dokumentationen
 
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
+      <strong>Kom igång</strong><br/><a href="get-started/user-interface.md">Användargränssnitt</a> - <a href="get-started/connect-to-campaign.md">Anslut till Campaign</a> - <a href="get-started/using-ai.md">AI-baserad sammanhangsbaserad hjälp</a> - <a href="get-started/permissions.md">Åtkomst och behörigheter</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>Kundens upplevelse</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatisera med arbetsflöden</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Kampanjsamordning</a> - <a href="personalization/gs-personalization.md">Dynamiskt innehåll</a> - <a href="reporting/gs-reports.md">Rapportering och analys</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-message.svg" width="35px">
+    <br/>
+      <strong>Skicka meddelanden</strong><br/><a href="msg/gs-deliveries.md">Skapa en leverans</a> - <a href="email/create-email.md">E-post</a> -  <a href="push/gs-push.md">Push-meddelanden</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Leveransmallar</a> - <a href="preview-test/preview-test.md">Förhandsgranska och testa</a> 
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile.svg" width="35px">
+    <br/>
+      <strong>Profiler och målgrupper</strong><br/><a href="audience/gs-audiences-recipients.md">Kom igång</a> - <a href="audience/create-audience.md">Skapa målgrupper</a> - <a href="audience/test-profiles.md">Testprofiler</a> - <a href="audience/manage-services.md">Prenumerationstjänster</a> - <a href="query/query-modeler-overview.md">Frågemodelleraren</a>
+    </td>
+  </tr>
+</table>
 
+## Ytterligare resurser
 
-
-
-
-
-
+* [Adobe Campaign produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign V8-dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv){target="_blank"}
