@@ -4,9 +4,9 @@ title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Begränsad tillgänglighet"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
 
-## Bygg upp arbetsflödet {#build-your-workflow}
+## Förhandskrav {#channel-activity-prereq}
 
 Bygg upp arbetsflödet med relevanta aktiviteter:
 
