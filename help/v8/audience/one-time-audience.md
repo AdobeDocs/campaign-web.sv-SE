@@ -2,12 +2,12 @@
 audience: end-user
 title: Skapa en engångspublik för en leverans
 description: Lär dig hur du skapar en engångspublik för en leverans.
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Så här skapar du en ny målgrupp direkt från en leverans:
 
 1. Välj **Skapa en egen**. Frågemodelleraren visas. Det gör att du kan definiera målgruppen för leveransen genom att filtrera data i databasen. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. När frågan är klar klickar du **Bekräfta** för att använda målgruppen som huvudmål för leveransen.
 
