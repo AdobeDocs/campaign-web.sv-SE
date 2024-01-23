@@ -4,9 +4,9 @@ title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
 badge: label="Begränsad tillgänglighet"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '892'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,18 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 
 ## Bygg upp arbetsflödet {#build-your-workflow}
 
-Börja bygga arbetsflödet med relevanta aktiviteter innan du infogar kanalaktiviteten:
+Bygg upp arbetsflödet med relevanta aktiviteter:
 
-* Innan du infogar en leveransaktivitet måste du definiera målgruppen. Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i en dedikerad aktivitet, till exempel:
+* Innan du infogar en kanalaktivitet måste du definiera målgruppen. Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i en dedikerad aktivitet, till exempel:
 
    * A **Bygg målgrupper** aktivitet. [Läs mer](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Läs in fil** aktivitet följt av **Avstämning** aktivitet. [Läs mer](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Starta arbetsflödet med en **Schemaläggare** aktivitet. Du kan också använda en **Schemaläggare** aktivitet för engångsleveranser för att ange kontaktdatum för den leveransen. Kontaktdatumet kan även anges i leveransinställningarna. Se [det här avsnittet](scheduler.md).

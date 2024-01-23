@@ -3,7 +3,8 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 badge: label="Begränsad tillgänglighet"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%
@@ -79,4 +80,4 @@ Följ de här stegen för att konfigurera **Läs in fil** aktivitet:
 
 ## Exempel{#load-example}
 
-Ett exempel på en extern inläsning av filer som används med **Avstämning** aktivitet är tillgänglig i [det här avsnittet](reconciliation.md#example).
+Ett exempel på en extern inläsning av filer som används med **Avstämning** aktivitet är tillgänglig i [det här avsnittet](reconciliation.md#reconciliation-example).
