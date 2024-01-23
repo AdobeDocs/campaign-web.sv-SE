@@ -3,10 +3,10 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i webbgränssnittet för Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '781'
 ht-degree: 7%
 
 ---
