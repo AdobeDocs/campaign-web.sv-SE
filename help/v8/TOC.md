@@ -6,9 +6,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '537'
 ht-degree: 9%
 
 ---
@@ -101,6 +101,7 @@ ht-degree: 9%
       + [Välj en befintlig målgrupp](audience/add-audience.md)
       + [Skapa en engångspublik](audience/one-time-audience.md)
       + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
+      + [Använda en Adobe Experience Platform-publik](audience/aep-audience.md)
       + [Ange en kontrollgrupp](audience/control-group.md)
    + Arbeta med prenumerationstjänster {#work-with-services}
       + [Skapa och hantera prenumerationstjänster](audience/manage-services.md)

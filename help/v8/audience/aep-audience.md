@@ -2,11 +2,11 @@
 audience: end-user
 title: Använda en Adobe Experience Platform-publik
 description: Lär dig använda en målgrupp från Adobe Experience Platform
-badge: label="Beta"
+badge: label="Begränsad tillgänglighet"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,8 @@ Följ stegen nedan för att välja en Adobe Experience Platform-målgrupp för d
    ![](assets/select-audience-folder.png)
 
    Du kan också definiera en regel som ska filtreras efter målgruppernas ursprung, enligt nedan:
+
+   I filteravsnittet kan du komma åt filteralternativ för att förfina målgruppslistan. Det gör du genom att klicka **Lägg till regler** för att komma åt frågemodelleraren, som du kan använda för att skapa avancerade filter för en lista över målgrupper. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

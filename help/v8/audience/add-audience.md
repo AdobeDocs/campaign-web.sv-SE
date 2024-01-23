@@ -3,11 +3,11 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Begränsad tillgänglighet"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 1%
 
 ---
 
@@ -28,15 +28,15 @@ Målgrupper som kan användas i leveranser kan nås via **Målgrupp** vänster m
 
 Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
-1. Från **Målgrupp** i leveransguiden klickar du på **[!UICONTROL Select audience]** knapp och sedan välja
+1. Från **Målgrupp** i leveransguiden klickar du på **[!UICONTROL Select audience]** knapp och sedan välja **[!UICONTROL Select audience]** för att använda en befintlig målgrupp.
 
    ![](assets/create-audience.png)
 
-1. Välj **[!UICONTROL Select audience]** för att använda en befintlig målgrupp. På den här skärmen visas alla befintliga målgrupper för den aktuella mappen.
+1. På den här skärmen visas alla befintliga målgrupper för den aktuella mappen.
 
    ![](assets/create-audience2.png)
 
-   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt.
+   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt. [Lär dig använda en Adobe Experience Platform-publik](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 
