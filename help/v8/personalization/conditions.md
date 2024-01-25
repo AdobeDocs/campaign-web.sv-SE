@@ -1,15 +1,15 @@
 ---
 title: Skapa villkorsstyrt innehåll
-description: Lär dig hur du definierar villkor för att anpassa ditt innehåll i Adobe Campaign webbgränssnitt
+description: Lär dig hur du definierar villkor för att anpassa ditt innehåll i Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Begränsad tillgänglighet"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
