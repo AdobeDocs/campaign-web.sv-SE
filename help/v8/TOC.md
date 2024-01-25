@@ -6,9 +6,9 @@ title: Adobe Campaign v8 webbdokumentation
 description: Webbdokumentation för Campaign v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 9%
 
 ---
@@ -92,8 +92,10 @@ ht-degree: 9%
    + [Kom igång med profiler och målgrupper](audience/gs-audiences-recipients.md)
    + [Måldimensioner](audience/targeting-dimensions.md)
    + Arbeta med profiler {#work-with-profiles}
-      + [Övervaka och hantera profiler](audience/about-recipients.md)
-      + [Skapa och hantera testprofiler](audience/test-profiles.md)
+      + [Kom igång med profiler](audience/about-recipients.md)
+      + [Utforska profilinformation](audience/profile-view.md)
+      + [Skapa en profil](audience/create-profile.md)
+      + [Arbeta med testprofiler](audience/test-profiles.md)
    + Arbeta med målgrupper {#audiences}
       + [Skapa målgrupper](audience/create-audience.md)
       + [Övervaka och hantera målgrupper](audience/manage-audience.md)
