@@ -4,9 +4,9 @@ title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -91,6 +91,17 @@ Nu kan du:
 * Skicka meddelanden till prenumeranterna på tjänsten. [Lär dig mer](../msg/send-to-subscribers.md)
 
 ## Skapa ett bekräftelsemeddelande {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Välj leveransmall för prenumerationer"
+>abstract="Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på tjänsten måste du välja en specifik leveransmall baserad på **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Välj leveransmall för avanmälan"
+>abstract="Om du vill skicka bekräftelsemeddelanden till de användare som avbeställer tjänsten måste du välja en specifik leveransmall baserad på **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål."
 
 Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. Följ stegen nedan för att göra det.
 

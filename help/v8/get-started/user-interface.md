@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -242,10 +242,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Mottagarna har skrivskyddad profil"
 >abstract="Mottagarna har skrivskyddad profil"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="Leveransmall för prenumerationer"
->abstract="Leveransmall för prenumerationer"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
