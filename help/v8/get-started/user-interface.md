@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Användargränssnittet Campaign v8 på webben
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -153,6 +153,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Behörighet krävs"
 >abstract="Administratören måste ge dig behörighet innan du kan skapa ett segment."
+
+
+<!-- Waves-->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_definition"
+>title="Waves-definition"
+>abstract="Definiera vågor för att dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_size"
+>title="Vågens storlek"
+>abstract="Vågens storlek krävs. Ange antingen ett numeriskt värde (antal meddelanden) eller ett procentvärde (0-100 %) i storleksfältet."
+
+
 
 <!-- Workflows-->
 
