@@ -4,9 +4,9 @@ title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,15 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
    ![](assets/create-audience2.png)
 
-   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt. [Lär dig använda en Adobe Experience Platform-publik](aep-audience.md)
+   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt.
 
    ![](assets/select-audience-folder.png)
 
 1. I filteravsnittet kan du komma åt filteralternativ för att förfina målgruppslistan. Det gör du genom att klicka **Lägg till regler** för att komma åt frågemodelleraren, som du kan använda för att skapa avancerade filter för en lista över målgrupper. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
+
+   Du kan till exempel definiera en regel som ska filtreras efter målgruppernas ursprung, vilket visas nedan:
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. Klicka **Bekräfta** för att lägga till er målgrupp som huvudmål för leveransen. När du är klar kan du fortfarande förfina målgruppen med frågemodelleraren genom att klicka på knappen **Redigera regler** -knappen.
 
