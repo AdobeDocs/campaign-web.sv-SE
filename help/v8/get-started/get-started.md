@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Kom igång med Campaign v8 Web
-description: Kom igång med Campaign v8 Web
+title: Kom igång med Adobe Campaign Web
+description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
 
 ---
 
-# Kom igång med Campaign v8 Web {#get-started}
+# Kom igång med Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Kom igång"
->abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
+>abstract="Adobe Campaign nya webbgränssnitt ger en integrerad, intuitiv och enhetlig användarupplevelse."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Kom igång"
->abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
+>abstract="Adobe Campaign nya webbgränssnitt ger en integrerad, intuitiv och enhetlig användarupplevelse."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Kom igång"
->abstract="Det nya webbgränssnittet Campaign v8 erbjuder en integrerad, intuitiv och enhetlig användarupplevelse."
+>abstract="Adobe Campaign nya webbgränssnitt ger en integrerad, intuitiv och enhetlig användarupplevelse."
 
 Adobe Campaign är en plattform för att designa flerkanaliga kundupplevelser och en miljö för visuell kampanjsamordning, interaktionshantering i realtid och flerkanalsmarknadsföring.
 
@@ -50,7 +50,7 @@ Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac
 
 >[!NOTE]
 >
->Campaign v8 Web har för närvarande en begränsad tillgänglighet (LA)-version. Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
+>Adobe Campaign Web är för närvarande i begränsad tillgänglighet (LA). Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-campaign.md).
 

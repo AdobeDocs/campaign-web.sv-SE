@@ -1,18 +1,18 @@
 ---
 title: Anslut till Adobe Campaign webbgränssnitt
-description: Lär dig hur du ansluter till Adobe Campaign v8 Web-användargränssnittet
+description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Anslut till Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud är en integrerad familj av program, produkter och tjänster för digital marknadsföring i Adobe. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster. Lär dig hur du ansluter till Adobe Experience Cloud och får åtkomst till Adobe Campaign v8-webbgränssnittet på den här sidan.
+Experience Cloud är en integrerad familj av program, produkter och tjänster för digital marknadsföring i Adobe. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster. Lär dig hur du ansluter till Adobe Experience Cloud och kommer åt Adobe Campaign webbgränssnitt på den här sidan.
 
 ## Logga in på Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Bläddra i gränssnittets övre fält till:
 
 ## Webbläsare som stöds {#browsers}
 
-Campaign v8 Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
+Adobe Campaign Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
 
 ## Språkinställningar {#language-pref}
 
-Campaign v8 Web finns för närvarande på följande språk:
+Adobe Campaign Web finns på följande språk:
 
 * Engelska (USA) - EN-US
 * Franska - FR

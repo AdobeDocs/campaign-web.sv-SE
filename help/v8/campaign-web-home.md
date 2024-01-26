@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;home;populära topics
-description: Hjälpcenter för Campaign Web v8
-title: Adobe Campaign Web v8 - produktdokumentation
+description: Campaign Web Help center
+title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign v8 webbdokumentation {#campaign-documentation}
+# Adobe Campaign webbdokumentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 2%
 Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campaign v8 Web har för närvarande en begränsad tillgänglighet (LA)-version. Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
+> Adobe Campaign Web är för närvarande i begränsad tillgänglighet (LA). Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 ## Nyheter
 
-Få en glimt av de senaste förbättringarna i Adobe Campaign v8 för webbprodukter och dokumentation! En omfattande lista över viktiga funktioner och funktioner för att släppa uppdateringar finns på [den här sidan](rn/whats-new.md).
+Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och dokumentation! En omfattande lista över viktiga funktioner och funktioner för att släppa uppdateringar finns på [den här sidan](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verk
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Upptäck det nya användargränssnittet</strong><br/>Upptäck Campaign v8 Web nya gränssnitt och navigeringsupplevelse som är integrerade med Adobe Experience Platform.</div>
+    <div><strong>Upptäck det nya användargränssnittet</strong><br/>Upptäck Adobe Campaign Web nya gränssnitt och navigeringsupplevelse som är integrerad med Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

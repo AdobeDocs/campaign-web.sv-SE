@@ -1,10 +1,10 @@
 ---
 audience: end-user
 title: Upptäck gränssnittet
-description: Användargränssnittet Campaign v8 på webben
+description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Upptäck gränssnittet {#user-interface}
 
-Det nya webbgränssnittet Campaign v8 erbjuder en modern och intuitiv användarupplevelse som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
+Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
 
 Lär dig hur du ansluter till Adobe Campaign och upptäck Experience Cloud navigeringsgrunder [i den här artikeln](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens eff
 
 The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring. Klicka på **Visa mer** för att ladda fler leveranser.
 
-Dessutom kan du få åtkomst till hjälpsidorna för webbnyckeln Campaign v8 från **Utbildning** på sidan.
+Dessutom kan du få åtkomst till hjälpsidorna för Adobe Campaign Web key via **Utbildning** på sidan.
 
 ## Navigeringsmeny till vänster {#user-interface-left-nav}
 
-Bläddra bland länkarna till vänster för att få tillgång till webbfunktionerna i Campaign v8. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Vissa listskärmar är skrivskyddade. Vilka alternativ som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
+Bläddra bland länkarna till vänster för att få tillgång till Adobe Campaign webbfunktioner. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Vissa listskärmar är skrivskyddade. Vilka alternativ som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}
