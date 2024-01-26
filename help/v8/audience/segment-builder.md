@@ -4,9 +4,9 @@ title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Med regelbyggaren kan du definiera målgruppen för leveransen genom att filtrera data i databasen. Du kan använda den för att skapa en målgrupp från ett arbetsflöde med **[!UICONTROL Build audience]** -aktivitet, eller direkt när du skapar en leverans för att skapa en enda målgrupp.
 
-* [Lär dig skapa en målgrupp](create-audience.md)
+* [Lär dig hur du skapar och sparar en publik](create-audience.md)
 * [Lär dig skapa en engångspublik för en leverans](one-time-audience.md)
 
 ## Paletten
