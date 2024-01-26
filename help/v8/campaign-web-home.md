@@ -4,7 +4,7 @@ description: Hjälpcenter för Campaign Web v8
 title: Adobe Campaign Web v8 - produktdokumentation
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -134,7 +134,7 @@ Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verk
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Möt e-postdesignern</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya e-postdesigner för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
+    <div><strong>Möt e-postdesignern</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
