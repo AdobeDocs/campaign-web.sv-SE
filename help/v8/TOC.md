@@ -6,9 +6,9 @@ title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 9%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 9%
             + [Lägg till textbundna formatattribut](email/inline-styling.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
-         + [Övervaka leveransloggar](monitor/delivery-logs.md)
          + [Inställningar för e-postleverans](advanced-settings/delivery-settings.md)
+         + [Skicka med flera vågor](advanced-settings/send-using-waves.md)
+         + [Övervaka leveransloggar](monitor/delivery-logs.md)
    + Push-meddelanden {#push}
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)

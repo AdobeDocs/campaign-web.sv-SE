@@ -4,9 +4,9 @@ title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2191'
 ht-degree: 4%
 
 ---
@@ -136,6 +136,8 @@ Du kan definiera följande **[!UICONTROL Sending]** inställningar:
 * **[!UICONTROL Test SMTP delivery]**: Det här alternativet används för att testa att skicka via SMTP. Leveransen behandlas upp till anslutning till SMTP-servern men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
 * **[!UICONTROL Email BCC]**: Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+* **[!UICONTROL Send using multiple waves]**: Du kan stegvis öka volymen som skickas med vågor. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
 Du kan också ändra formatet för e-postmeddelanden som skickas:
 
