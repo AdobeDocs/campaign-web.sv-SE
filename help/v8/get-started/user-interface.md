@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1596'
 ht-degree: 0%
 
 ---
@@ -178,14 +178,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -227,55 +221,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Mottagarna har skrivskyddad profil"
 
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="Landningssidor"
->abstract="Landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="Egenskaper för landningssidor"
->abstract="Egenskaper för landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="Landningssidor"
->abstract="Landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="Schema för landningssidor"
->abstract="Schema för landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Huvudsida för landningssidor"
->abstract="Huvudsida för landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Prenumeration på landningssidor"
->abstract="Prenumeration på landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Anrop till åtgärd av landningssidor"
->abstract="Anrop till åtgärd av landningssidor"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="Landing Pages simulate"
->abstract="Landing Pages simulate"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Aktiviteten är inte redigerbar"
 >abstract="Aktiviteten är inte redigerbar"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -312,8 +262,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Fragmentdetaljer"
 >abstract="Fragmentdetaljer"
-
-
 
 
 
