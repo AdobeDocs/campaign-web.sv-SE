@@ -6,20 +6,16 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Content Assistant {#generative-gs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Gen AI för e-postinnehåll"
->abstract="Vår Gen AI-teknik använder avancerade algoritmer för att generera engagerande och personaliserat innehåll. Öka öppningsfrekvensen, klickfrekvensen och konverteringsgraden med Gen AI:s generering av intelligent innehåll."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

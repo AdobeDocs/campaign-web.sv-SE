@@ -3,14 +3,22 @@ audience: end-user
 title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 # Kom igång med landningssidor {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Landningssidor"
+>abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera profildatainhämtning och avanmälnings-/avanmälningsflöden snabbt och smidigt.
+."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
+
 
 En landningssida är en fristående webbsida som en användare dirigeras till efter att ha klickat igenom från ett e-postmeddelande, en webbplats, en annons eller någon annan digital plats.
 
