@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +20,10 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="Definiera ditt eget innehåll"
->abstract="Skapa en egen mall från grunden för att göra innehållet återanvändbart i flera e-postmeddelanden."
+>title="Innehållsmallar"
+>abstract="För en snabbare och förbättrad designprocess kan du skapa fristående e-postmallar för att enkelt återanvända anpassat innehåll i Adobe Campaign. Dessa innehållsmallar kan utformas från grunden, baserat på inbyggda eller anpassade mallar, skapas från ett befintligt innehåll eller importeras i innehållsmallens redigerare."
 
-För en snabbare och förbättrad designprocess kan du skapa fristående mallar för att enkelt återanvända anpassat innehåll i [!DNL Adobe Campaign].
+För en snabbare och förbättrad designprocess kan du skapa fristående mallar för att enkelt återanvända anpassat innehåll i [!DNL Adobe Campaign]. Dessa innehållsmallar kan utformas från grunden, baserat på inbyggda eller anpassade mallar, skapas från ett befintligt innehåll eller importeras i innehållsmallens redigerare.
 
 Med den här funktionen kan innehållsorienterade användare arbeta med fristående mallar så att marknadsföringsanvändare kan återanvända och anpassa dem i sina egna e-postkampanjer.
 
@@ -30,40 +31,23 @@ Med den här funktionen kan innehållsorienterade användare arbeta med friståe
 >
 >Endast för närvarande **e-post** Innehållsmallar stöds.
 
-## Få åtkomst till och hantera mallar {#access-manage-templates}
+## Åtkomst till innehållsmallar {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Redigera mallinnehåll"
 >abstract="Klicka på **Redigera innehåll** för att uppdatera innehållet med e-postdesignern."
 
-Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** från den vänstra menyn.
+Bläddra till innehållsmallslistan för att komma åt den **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menyn från den vänstra listen.
 
 ![](assets/content-template-list.png)
 
-Alla mallar som har skapats - antingen från ett e-postmeddelande med [Spara som mall](#save-as-template) alternativ, antingen från **[!UICONTROL Content Templates]** -menyn visas.
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
+På den här instrumentpanelen visas alla tillgängliga innehållsmallar som en lista. Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-Om du vill redigera ett mallinnehåll klickar du på önskat objekt i listan. Du kan:
+I listan kan du redigera, duplicera eller ta bort befintliga innehållsmallar. Använd knappen i det övre avsnittet för att skapa en innehållsmall.
 
-* Redigera dess egenskaper.
-
-* Klicka på **[!UICONTROL Edit content]** för att uppdatera innehållet med [E-postdesigner](get-started-email-designer.md).
-
-![](assets/content-template-edition.png)
-
-Om du vill ta bort en mall väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->När en mall tas bort påverkas inte leveranser som skapats med den här mallen.
 
 ## Skapa innehållsmallar {#create-content-templates}
 
@@ -77,13 +61,9 @@ Om du vill ta bort en mall väljer du motsvarande alternativ i dialogrutan **[!U
 >title="Val av innehållsmall"
 >abstract="Val av innehållsmall"
 
-Det finns två sätt att skapa innehållsmallar:
+Innehållsmallar kan skapas av [spara ett befintligt e-postmeddelande som en mall](#save-as-template)eller från listan med e-postmallar via **Skapa innehållsmall** knapp, [enligt nedan](#create-template-from-scratch).
 
-* Skapa en innehållsmall från grunden med den vänstra listen **[!UICONTROL Content templates]** -menyn. [Lär dig mer](#create-template-from-scratch)
-
-* När du utformar ett e-postmeddelande sparar du ditt e-postinnehåll som en mall. [Lär dig mer](#save-as-template)
-
-När du har sparat, oavsett om du skapat från grunden eller från ett tidigare e-postmeddelande, kan du nu använda den här mallen när du skapar [e-post](../email/create-email.md) inom [!DNL Adobe Campaign]. [Lär dig mer](use-email-templates.md)
+När du har sparat mallen kan du nu använda den när du skapar [e-post](../email/create-email.md) inom [!DNL Adobe Campaign]. [Lär dig mer](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -91,32 +71,28 @@ När du har sparat, oavsett om du skapat från grunden eller från ett tidigare 
 >
 >* När mallar används i ett e-postmeddelande påverkas inte heller de ändringar du gör i e-postinnehållet av den tidigare använda innehållsmallen.
 
-### Skapa mall från grunden {#create-template-from-scratch}
+### Skapa en ny innehållsmall {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Definiera mallegenskaper"
->abstract="När du skapar en mall från grunden kan du enkelt definiera vilka egenskaper som ska hämtas när det behövs."
+>abstract="Definiera egenskaper för e-postinnehållsmallar som ska hämtas enkelt när det behövs."
 
-Följ stegen nedan för att skapa en innehållsmall från grunden.
+Så här skapar du en ny innehållsmall från kontrollpanelen för innehållsmallar:
 
-1. Få åtkomst till innehållsmalllistan via **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** vänster meny.
+1. Bläddra till innehållsmallslistan från **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** vänster räl.
 
 1. Välj **[!UICONTROL Create template]**.
 
    ![](assets/content-template-create.png)
 
-1. Fyll i mallinformationen. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
+1. Ange malletiketten och -egenskaperna. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Läs mer om mappar i [den här sidan](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >För närvarande bara **E-post** kanal och **HTML** type stöds.
-
 1. Klicka **[!UICONTROL Create]** och välja hur du vill utforma mallen bland de olika alternativen:
 
-   * [Designa din e-post från grunden](create-email-content.md) via e-postdesignerns gränssnitt.
+   * [Designa ditt innehåll från grunden](create-email-content.md) via e-postdesignerns gränssnitt.
 
    * [Kod eller kopiera-klistra in Raw-HTML](code-content.md) direkt in i e-postdesignern.
 
@@ -126,7 +102,7 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
    ![](assets/email_designer-templates.png)
 
-1. The [E-postdesigner](get-started-email-designer.md) visas. Redigera ditt innehåll efter behov, på samma sätt som för alla e-postmeddelanden, beroende på vilket alternativ du har valt.
+1. E-postdesignern visas. Redigera ditt innehåll efter behov, på samma sätt som för alla e-postmeddelanden, beroende på vilket alternativ du har valt. Lär dig hur du använder e-postdesignern i [det här avsnittet](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -136,9 +112,7 @@ Följ stegen nedan för att skapa en innehållsmall från grunden.
 
    ![](assets/content-template-save-back.png)
 
-Mallen sparas i standardmappen för Adobe Campaign-hierarkin (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Läs mer om mappar](../get-started/permissions.md#folders)
-
-Den visas även i **[!UICONTROL Content templates]** lista. [Läs mer](#access-manage-templates)
+Mallen är tillgänglig i **[!UICONTROL Content templates]** lista. [Läs mer](#access-templates)
 
 Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
 
@@ -158,13 +132,12 @@ Så här sparar du ett e-postinnehåll som en mall:
 
    ![](assets/email_designer-template-name.png)
 
-Mallen sparas i standardmappen för Adobe Campaign-hierarkin (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Läs mer om mappar](../get-started/permissions.md#folders)
-
-Den visas även i **[!UICONTROL Content templates]** lista. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
+Mallen sparas och visas i **[!UICONTROL Content templates]** lista. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
 
 Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -187,4 +160,43 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
+## Ändra en innehållsmall {#modify-delete}
+
+Så här uppdaterar du en befintlig innehållsmall:
+
+1. I listan med innehållsmallar klickar du på mallens etikett för att redigera den.
+
+1. Klicka på **[!UICONTROL Edit content]** för att uppdatera innehållet med [E-postdesigner](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>Ändringar som görs i innehållsmallar sprids inte till e-postmeddelanden med den här innehållsmallen.
+
+## Ta bort en innehållsmall {#content-delete}
+
+Du kan ta bort en innehållsmall på två sätt:
+
+* i listan med innehållsmallar klickar du på ellipsknappen och väljer **Ta bort**
+
+  ![Ta bort en innehållsmall från instrumentpanelen](assets/content-template-list-delete.png)
+
+* från själva innehållsmallen klickar du på **Mer** knapp och markera **Ta bort**
+
+
+>[!NOTE]
+>
+>När du tar bort en innehållsmall påverkas inte leveranser som skapats med den här mallen.
+
+
+## Duplicera en innehållsmall {#content-duplicate}
+
+Du kan duplicera en innehållsmall på två sätt:
+
+* i listan med innehållsmallar klickar du på ellipsknappen och väljer **Duplicera**
+
+* från själva innehållsmallen klickar du på **Mer** knapp och markera **Duplicera**
+
+I båda fallen måste du bekräfta dupliceringen för att skapa den nya innehållsmallen. Den nya innehållsmallens etikett är **Kopia av`<label of the initial campaign`**. Bläddra till mallinställningarna för att uppdatera den här etiketten.
 
