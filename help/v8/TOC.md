@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web
-user-guide-description: Produktdokumentation för Adobe Campaign Web.
+user-guide-title: Adobe Campaign webbgränssnitt
+user-guide-description: Produktdokumentation för Adobe Campaign webbgränssnitt.
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
-breadcrumb-title: Campaign Web
+breadcrumb-title: Webbanvändargränssnitt för kampanj
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '566'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # Adobe Campaign Web-dokumentation {#v8}
 
-+ [Adobe Campaign Web-dokumentation](campaign-web-home.md)
++ [Dokumentation för Adobe Campaign Web User Interface](campaign-web-home.md)
 + [Nyheter?](rn/whats-new.md)
 + [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + Kom igång med Adobe Campaign {#start}
