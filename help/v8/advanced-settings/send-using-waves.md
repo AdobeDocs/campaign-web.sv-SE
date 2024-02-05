@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
@@ -34,7 +34,11 @@ För att balansera lasten kan du dela upp leveranser i flera satser. Konfigurera
 
 1. Så här konfigurerar du påfyllnader:
 
-   * **[!UICONTROL Schedule multiple waves of the same size]**. Om du till exempel skriver **[!UICONTROL 30%]** i motsvarande fält representerar varje våg 30 % av de meddelanden som ingår i leveransen, utom den sista, som representerar 10 % av meddelandena.
+   * **[!UICONTROL Schedule multiple waves of the same size]**.
+
+     Om du till exempel skriver **[!UICONTROL 30%]** i motsvarande fält representerar varje våg 30 % av de meddelanden som ingår i leveransen, utom den sista, som representerar 10 % av meddelandena.
+
+     ![](assets/waves-same-size.png)
 
      I **[!UICONTROL Interval]** anger du fördröjningen mellan början av två påfyllnader i följd. Om du till exempel skriver **[!UICONTROL 2d]**, startar den första vågen omedelbart, den andra om två dagar, den tredje vågen om fyra dagar och så vidare.
 
@@ -44,7 +48,9 @@ För att balansera lasten kan du dela upp leveranser i flera satser. Konfigurera
 
      I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
 
-     En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Kampanjtypologier och deras regler konfigureras i **[!UICONTROL Typology]** -fliken i leveransinställningarna. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Kampanjtypologier och deras regler konfigureras i **[!UICONTROL Typology]** -fliken i leveransinställningarna. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ De två exemplen nedan är de vanligaste användningsområdena när du använder
 
   Använd **[!UICONTROL Schedule waves according to a calendar]** alternativ. Du kan till exempel ställa in den första vågen på 10 %, den andra på 15 % och så vidare.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Kampanjer som involverar ett callcenter**
 
   När ni hanterar en lojalitetskampanj via telefon har er organisation begränsad kapacitet att behandla antalet samtal till kontaktabonnenter.
@@ -73,3 +81,5 @@ De två exemplen nedan är de vanligaste användningsområdena när du använder
   Med hjälp av vågor kan du begränsa antalet meddelanden till 20 per dag, vilket är den dagliga bearbetningskapaciteten för ett callcenter.
 
   Om du vill göra det väljer du **[!UICONTROL Schedule multiple waves of the same size]** alternativ. Retur **[!UICONTROL 20]** som vågens storlek och **[!UICONTROL 1d]** i **[!UICONTROL Period]** fält.
+
+  ![](assets/waves-call-center.png)

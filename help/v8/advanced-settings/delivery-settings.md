@@ -4,9 +4,9 @@ title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2201'
 ht-degree: 4%
 
 ---
@@ -125,9 +125,11 @@ I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte län
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Leveransinställningar för leveransen"
->abstract="Leveransparametrar är tekniska inställningar som gäller för leveransen. Du kan aktivera BCC för leveransen och ändra leveranssätt och rutinlägen. Dessa alternativ är begränsade till expertanvändare."
+>abstract="Leveransparametrar är tekniska inställningar som gäller för leveransen. Du kan ändra leverans- och rutinlägen, aktivera e-postkopia, skicka med hjälp av påfyllnader och även välja formatet för de e-postmeddelanden som skickas. Dessa alternativ är begränsade till expertanvändare."
 
 **[!UICONTROL Delivery]** parametrar är tekniska inställningar som gäller för leveransen.
+
+![](assets/delivery-settings-delivery.png)
 
 Det integrerade e-postmeddelandet **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
 
