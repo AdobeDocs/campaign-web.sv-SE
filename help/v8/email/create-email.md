@@ -4,9 +4,9 @@ title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -144,11 +144,9 @@ Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fa
 
 ## Schemalägg sändning {#schedule}
 
-Följ stegen nedan för att schemalägga sändning av e-post.
+När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer i [den här sidan](../workflows/activities/scheduler.md). Stegen nedan gäller endast fristående leveranser.
 
-Ytterligare instruktioner om hur leveranssändningen schemaläggs finns i [det här avsnittet](../msg/gs-messages.md#gs-schedule).
-
-1. Gå till **[!UICONTROL Schedule]** -avsnitt.
+1. Gå till **[!UICONTROL Schedule]** i leveransegenskaperna.
 
 1. Använd **[!UICONTROL Enable scheduling]** för att aktivera den.
 
@@ -157,6 +155,8 @@ Ytterligare instruktioner om hur leveranssändningen schemaläggs finns i [det h
    ![](assets/schedule.png)
 
 När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
+
+Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Förhandsgranska och testa e-postmeddelandet {#preview-test}
 

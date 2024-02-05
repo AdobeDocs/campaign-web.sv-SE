@@ -4,10 +4,10 @@ title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -89,10 +89,21 @@ Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/p
 
 ## Schemalägg leverans {#schedule-push}
 
-Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#gs-schedule)
+När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer i [den här sidan](../workflows/activities/scheduler.md). Stegen nedan gäller endast fristående leveranser.
+
+Så här schemalägger du en fristående push-leverans till ett visst datum och en viss tid:
+
+1. Gå till **[!UICONTROL Schedule]** i leveransegenskaperna.
+
+1. Använd **[!UICONTROL Enable scheduling]** för att aktivera den.
+
+1. Ange önskat datum och klockslag för sändning.
+
+När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
 
 ![](assets/push_create_3.png)
 
+Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#gs-schedule)
 
 ## Avancerade inställningar för leverans {#adv-push}
 
