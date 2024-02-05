@@ -2,9 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Skapa och hantera landningssidor"
->abstract="Med Adobe Campaign kan ni skapa och utforma landningssidor för att dirigera era användarna till onlineformulär där de kan välja att inte ta emot meddelanden eller prenumerera på en viss tjänst som ett nyhetsbrev."
+>abstract="Med Adobe Campaign kan ni skapa, utforma och dela landningssidor för att dirigera era användarna till webbsidor på nätet där ni kan hantera, värva, prenumerera, säga upp abonnemang och använda blockeringslista, baserat på inbyggda mallar."
 
-Om du vill dirigera kunderna till en definierad webbsida som du vill visa när de klickar på en viss länk skapar du en landningssida i [!DNL Adobe Campaign], utforma sitt innehåll, testa det och publicera det.
+Med Adobe Campaign kan ni skapa, utforma och dela landningssidor för att dirigera era användarna till webbsidor på nätet där ni kan hantera, värva, prenumerera, säga upp abonnemang och använda blockeringslista, baserat på inbyggda mallar.
 
 ## Åtkomst till landningssidor {#access-landing-pages}
 
