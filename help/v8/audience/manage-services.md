@@ -4,9 +4,9 @@ title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '899'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,11 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Som standard lagras tjänster i **[!UICONTROL Services and Subscriptions]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
 
-1. Som standard är prenumerationerna obegränsade. Du kan inaktivera **[!UICONTROL Unlimited validity period]** för att definiera tjänstens giltighetsperiod.
+1. Som standard är prenumerationerna obegränsade.
 
-   I exemplet nedan, efter 20 dagar:
-   * Inga mottagare kommer att kunna prenumerera på tjänsten längre.
-   * Alla prenumeranter på den här tjänsten kommer automatiskt att säga upp prenumerationen efter 20 dagar. [Läs mer](#automatic-unsubscription)
+   Du kan inaktivera **[!UICONTROL Unlimited validity period]** för att definiera tjänstens giltighetsperiod. När giltighetsperioden är slut:
+   * Inga mottagare kan längre prenumerera på den här tjänsten
+   * Alla prenumeranter på tjänsten avbryts automatiskt
 
    ![](assets/service-create-validity-period.png)
 
