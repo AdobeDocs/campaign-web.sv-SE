@@ -4,9 +4,9 @@ title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ De här inställningarna är förkonfigurerade i mallen som valdes när arbetsfl
 
 Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Egenskaper för arbetsflöde {#properties}
 
@@ -29,10 +29,15 @@ Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbet
 >title="Egenskaper för arbetsflöde"
 >abstract="I det här avsnittet finns allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja vilken mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ om du vill konfigurera särskilda inställningar, t.ex. mappen för arbetsflödeslagring eller tidszonen."
 
-The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som också är tillgängliga när du skapar arbetsflödet. Dessa egenskaper är:
+The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som också är tillgängliga när du skapar arbetsflödet.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Dessa egenskaper är:
 
 * The **[!UICONTROL Label]** av arbetsflödet som visas i listan.
-* Internt **[!UICONTROL Name]** av arbetsflödet.
+* The **[!UICONTROL Internal name]** av arbetsflödet.
 * The **[!UICONTROL Folder]** där arbetsflödet ska sparas.
 * Standardvärdet **[!UICONTROL Timezone]** som kan användas i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 Möjliga värden är:
