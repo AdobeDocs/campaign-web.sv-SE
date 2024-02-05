@@ -4,7 +4,7 @@ title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Möjliga värden är:
    * **Databasens tidszon** för att använda databasserverns tidszon
    * En specifik tidszon
 * När ett arbetsflöde misslyckas, de operatorer som tillhör operatorgruppen som valts i **[!UICONTROL Supervisor(s)]** fält meddelas via e-post.
-* *Du kan även ange en **[!UICONTROL Description]** av arbetsflödet.
+* Du kan också ange en **[!UICONTROL Description]** av arbetsflödet.
 
 När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den i **[!UICONTROL Linked campaign]** fält. Du kan öppna den associerade kampanjen från det fältet.
 
