@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Förhandsgranska leveransinnehåll
-description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web UI
+description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web-gränssnittet
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,18 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
    * **[!UICONTROL Add subscriber(s)]** för förhandsgranskning av push-meddelanden
 
-1. Du kan kombinera testprofiler och profiler för att förhandsgranska ditt e-postmeddelande eller SMS.
+1. Du kan kombinera profiler och testprofiler för att förhandsgranska ditt e-postmeddelande eller SMS.
 
    * The **[!UICONTROL Test profiles]** På -fliken visas alla dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >Testprofiler kan skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
+     Testprofiler kan skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
 
-   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som är lagrade i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] konsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >Du kan också visa och hantera profiler från motsvarande flik i webbgränssnittet för Campaign. [Läs mer](../audience/about-recipients.md)
+   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som är lagrade i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] klientkonsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+
+     Du kan visa, skapa och hantera profiler från **[!UICONTROL Profiles]** -fliken. [Läs mer](../audience/about-recipients.md)
+
 
 1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
 

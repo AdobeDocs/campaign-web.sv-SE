@@ -3,9 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 11%
 
 ---
@@ -124,4 +125,4 @@ Den har följande aktiviteter:
 
 ## Kompatibilitet {#reconciliation-compat}
 
-The **Avstämning** aktiviteten finns inte i klientkonsolen. Alla **Anrikningar** aktiviteter som skapats i klientkonsolen med avstämningsalternativen aktiverade visas som **Avstämning** aktiviteter i webbgränssnittet för Campaign.
+The **Avstämning** aktiviteten finns inte i klientkonsolen. Alla **Anrikningar** aktiviteter som skapats i klientkonsolen med avstämningsalternativen aktiverade visas som **Avstämning** aktiviteter i Campaign-webbgränssnittet.

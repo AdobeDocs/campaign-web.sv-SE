@@ -3,9 +3,9 @@ title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Fördefinierad filterhantering"
->abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
+>abstract="Campaign Web-gränssnittet har ett användarvänligt gränssnitt där du enkelt kan hantera och anpassa fördefinierade filter efter just dina behov. Skapa en gång och spara för framtida bruk."
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Fördefinierade filter"
->abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
+>abstract="Campaign Web-gränssnittet är ett användarvänligt gränssnitt där du enkelt kan hantera och anpassa fördefinierade filter efter just dina behov. Skapa en gång och spara för framtida bruk."
 
 Fördefinierade filter är anpassade filter som skapas och sparas för att vara tillgängliga för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med frågemodelleraren, t.ex. när en lista med data filtreras eller när målgruppen för en leverans skapas.
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Redigera e-postinnehållet
-description: Lär dig hur du redigerar e-postinnehåll i webbgränssnittet för Campaign
+description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---

@@ -4,9 +4,9 @@ title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill 
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-För närvarande släppt som betaversion i det nya webbgränssnittet för Campaign, **AI-driven Knowledge Assistant** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
+För närvarande släppt som betaversion i det nya Campaign-webbgränssnittet, **AI-driven Knowledge Assistant** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 
 Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår AI-baserade Knowledge Assistant den ultimata partnern som ger oöverträffad effektivitet och precision i varje interaktion.
 

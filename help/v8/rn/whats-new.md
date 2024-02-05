@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign web
 
 ## Viktiga funktioner {#key-features}
 
-Det nya webbgränssnittet för Campaign är för närvarande tillgängligt i **Begränsad tillgänglighet** med följande funktioner:
+Det nya gränssnittet Campaign Web har följande funktioner:
 
 **Modern, användarvänlig och enhetlig upplevelse**
 
-Campaign new Web UI erbjuder en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
+Campaign new Web user interface ger en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
 
 * Tillgång till det nya Campaign-gränssnittet och dina andra Adobe-lösningar med en enda delad användarsession
 * Ny navigeringsupplevelse med alla menyer och mappar tillgängliga från den vänstra listen
@@ -48,14 +48,14 @@ Lär dig hur du loggar in på Adobe Experience Cloud och ansluter till Campaign 
 
 **Nya kraftfulla funktioner och smidiga processer**
 
-Adobe Campaign webbgränssnitt är en omfattande grafisk miljö som gör att du enkelt kan utforma komplexa processer som hjälper dig att hantera marknadsföringskampanjer. Den levereras med:
+Adobe Campaign webbgränssnitt har en omfattande grafisk miljö som gör att du enkelt kan utforma komplexa processer som hjälper dig att hantera marknadsföringskampanjer. Den levereras med:
 
 * Omdesignat gränssnitt för arbetsyta för att utforma och hantera processer
 * Dynamiskt innehåll för att leverera målinriktade och personaliserade upplevelser till er målgrupp
 * Inbyggd integrering med Adobe Experience Platform målgrupper
 * Mallhantering för arbetsflöden, leveranser, kampanjer och innehåll
 
-Läs mer om det nya användargränssnittet i [den här sidan](../get-started/user-interface.md).
+Läs mer om det nya webbgränssnittet i [den här sidan](../get-started/user-interface.md).
 
 **Ny förenklad och intuitiv frågemodellerare**
 
@@ -74,7 +74,7 @@ Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta hur effektiva de är med hjälp av olika dedikerade rapporter. Genom att lägga till flera arbetsflöden och leveranser som är specifika för kampanjen kan ni skapa personaliserade upplevelser i olika kanaler och säkerställa att varje kontaktyta passar den avsedda målgruppen.
 
-Använd det nya webbgränssnittet för Campaign för att:
+Använd det nya gränssnittet för Campaign-webben för att:
 
 * Skapa, utforma, personalisera, schemalägg och skicka e-post, SMS och push-meddelanden - [Läs mer](../msg/gs-messages.md)
 * Designa skräddarsytt e-postinnehåll med e-postdesignern - [Läs mer](../email/edit-content.md)
@@ -105,7 +105,7 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 
 * **Enkelt att skapa och hantera profiler**
 
-  Du kan använda det nya webbgränssnittet för att **skapa och uppdatera mottagare** i databasen direkt från menyn Mottagare. Med ett förenklat profilredigeringsformulär kan du ange mottagarens kontaktinformation och attribut och uppdatera en befintlig mottagare utan att använda till klientkonsolen.
+  Du kan använda det nya användargränssnittet i Campaign Web för att **skapa och uppdatera mottagare** i databasen direkt från menyn Mottagare. Med ett förenklat profilredigeringsformulär kan du ange mottagarens kontaktinformation och attribut och uppdatera en befintlig mottagare utan att använda till klientkonsolen.
 
   Läs mer i [det här avsnittet](../audience/about-recipients.md).
 
@@ -132,7 +132,7 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 
 * **Fördefinierade filter**
 
-  Vi presenterar fördefinierad filterhantering. Webbgränssnittet i Campaign erbjuder nu ett användarvänligt gränssnitt som enkelt kan användas **hantera och anpassa fördefinierade filter** för att tillgodose dina specifika behov. Skapa en gång och spara för framtida bruk.
+  Vi presenterar fördefinierad filterhantering. Med Campaign Web-gränssnittet får du ett användarvänligt gränssnitt som du enkelt kan använda **hantera och anpassa fördefinierade filter** för att tillgodose dina specifika behov. Skapa en gång och spara för framtida bruk.
 
   Läs mer i [det här avsnittet](../get-started/predefined-filters.md).
 
@@ -145,21 +145,21 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
 
 * **SMS med erbjudanden**
 
-  Nu kan du använda det nya webbgränssnittet **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
+  Med det nya användargränssnittet för Campaign Web kan du **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
 
   Läs mer i [det här avsnittet](../msg/offers.md).
 
-## Övergång till Campaign Web UI
+## Övergång till Campaign-webbgränssnittet
 
 Som Campaign-användare har du fortfarande tillgång till klientkonsolen för att skapa och hantera resurser och komponenter i Campaign. Data och inställningar synkroniseras från en miljö till en annan. Läs mer i [det här avsnittet](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Dessutom visas alla data och inställningar som redan är tillgängliga i klientkonsolen i gränssnittet för Campaign-webben, från vänster navigering i Utforskaren. Läs mer om Utforskaren i [det här avsnittet](../get-started/user-interface.md#explorer-user-interface-explorer).
+Dessutom visas alla data och inställningar som redan finns i klientkonsolen i webbgränssnittet för Campaign, från vänster navigering i Utforskaren. Läs mer om Utforskaren i [det här avsnittet](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-I Campaign Web UI-versionen återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md)
+I gränssnittet för Campaign-webben återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md)
 
 ## Uppdateringar om terminologi {#terminology-updates}
 
-Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för Campaign Web UI och återspeglas inte i klientkonsolen. De sammanfattas nedan.
+Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för användargränssnittet i Campaign Web och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
 * Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturet kallas nu för **Testprofiler**. [Läs mer](../preview-test/test-deliveries.md).
 * Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare mottagare i databasen. [Läs mer](../preview-test/test-deliveries.md).

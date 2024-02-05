@@ -3,54 +3,54 @@ title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Skyddsritningar och begränsningar {#guardrails-limitations}
 
-När du arbetar i webbgränssnittet för Campaign med komponenter som skapats eller ändrats i klientkonsolen för Campaign gäller de skyddsmekanismer och begränsningar som anges nedan.
+När du arbetar i Campaign-webbgränssnittet med komponenter som skapats eller ändrats i Campaign-klientkonsolen gäller de skyddsmekanismer och begränsningar som anges nedan.
 
 ## Arbetsflöden {#wf-guardrails-limitations}
 
 ### Verksamhet
 
-Arbetsflödesaktiviteter som ännu inte stöds i webbgränssnittet är skrivskyddade och visas som inkompatibla aktiviteter. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i webbgränssnittet och i klientkonsolen går att redigera.
+Arbetsflödesaktiviteter som ännu inte stöds i gränssnittet för Campaign-webben är skrivskyddade och visas som inkompatibla aktiviteter. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i gränssnittet för Campaign-webben och i klientkonsolen för Campaign kan redigeras.
 
-| Konsol | Webbgränssnitt |
+| Konsol | Webb |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Inställningar för arbetsflödesaktivitet som ännu inte stöds i webbgränssnittet visas inte. När arbetsflödet körs gäller dock dessa inställningar.
+Inställningar för arbetsflödesaktivitet som ännu inte stöds i webbanvändargränssnittet visas inte. När arbetsflödet körs gäller dock dessa inställningar.
 
-| Konsol | Webbgränssnitt |
+| Konsol | Webb |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-I konsolen **Berikning** kan utföra både avstämning och anrikning. Avstämningsfunktionerna i webbgränssnittet är inte tillgängliga än. Om du har definierat avstämningsinställningarna i konsolen i **Berikning** -aktiviteten visas som en ej kompatibel skrivskyddad aktivitet i webbgränssnittet.
+I konsolen **Berikning** kan utföra både avstämning och anrikning. Avstämningsfunktionerna är ännu inte tillgängliga i Campaign Web-användargränssnittet. Om du har definierat avstämningsinställningarna i klientkonsolen i **Berikning** -aktiviteten visas som en ej kompatibel skrivskyddad aktivitet i webbgränssnittet för Campaign.
 
-| Konsol | Webbgränssnitt |
+| Konsol | Webb |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Arbetsyta
 
-När du skapar ett nytt arbetsflöde i webbgränssnittet har arbetsytan bara stöd för en startpunkt. Om du skapade ett arbetsflöde i konsolen med flera startpunkter kan du öppna och redigera det i webbgränssnittet.
+När du skapar ett nytt arbetsflöde i gränssnittet för Campaign-webben har arbetsytan bara stöd för en startpunkt. Men om du skapade ett arbetsflöde i konsolen med flera startpunkter kan du öppna och redigera det i Campaign Web-gränssnittet.
 
-| Konsol | Webbgränssnitt |
+| Konsol | Webb |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Loopar är ännu inte tillgängliga i webbgränssnittet. Om du skapade ett arbetsflöde med en slinga med konsolen kan du inte komma åt det från webbgränssnittet. Ett felmeddelande visas.
+Loopar är ännu inte tillgängliga i Campaign Web-användargränssnittet. Om du skapade ett arbetsflöde med en slinga med konsolen kan du inte komma åt det från webbgränssnittet i Campaign. Ett felmeddelande visas.
 
-| Konsol | Webbgränssnitt |
+| Konsol | Webb |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bort. Om du skapar ett arbetsflöde i konsolen, ändrar det med webbgränssnittet och öppnar det igen i konsolen, kan du märka att det finns vissa mindre brister i positioneringen. Detta påverkar inte arbetsflödets processer och uppgifter.
+Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bort. Om du skapar ett arbetsflöde i konsolen, ändrar det med hjälp av användargränssnittet i Campaign-webben och öppnar det igen i konsolen, kan du märka att det finns mindre brister i positioneringen. Detta påverkar inte arbetsflödets processer och uppgifter.
 
 | Inledande arbetsflöde | Positioneringsändring |
 | --- | --- |

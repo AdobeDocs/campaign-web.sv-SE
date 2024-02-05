@@ -3,9 +3,9 @@ title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargrä
 
 Bläddra i gränssnittets övre fält till:
 
-* dela feedback om webbgränssnittet i Campaign
+* dela feedback om gränssnittet i Campaign Web
 * växla mellan olika organisationer
 * växla mellan era Adobe Experience Cloud-lösningar och appar
 * sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}

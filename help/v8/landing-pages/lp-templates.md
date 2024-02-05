@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med innehållsmallar för landningssidor
 description: Lär dig hur du sparar innehåll på landningssidor som en designmall och återanvänder det i Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%
@@ -56,4 +56,4 @@ Nästa gång du skapar en landningssida kan du använda den här mallen för att
 
 1. Redigera innehållet efter behov med hjälp av designern för landningssidan.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

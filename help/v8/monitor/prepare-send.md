@@ -4,9 +4,9 @@ title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---

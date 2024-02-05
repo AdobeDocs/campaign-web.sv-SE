@@ -4,9 +4,9 @@ title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Begränsad tillgänglighet"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign
 
 ![](assets/home.png)
 
-Det nya användargränssnittet tillgodoser först behoven i **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
+Det nya webbgränssnittet har till att börja med **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 
 Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac-client).
 
@@ -58,7 +58,7 @@ Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-c
 
 Klientkonsolen för Campaign är ett webbläsarbaserat program som är installerat på datorn. Det använder API:t för webbtjänster för att ansluta till Campaign-programservern.
 
-Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet. Och om du skapar en e-postleverans i webbgränssnittet är den här leveransen även tillgänglig från klientkonsolen.
+Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från Campaign-webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet för Campaign. Och om du skapar en e-postleverans i användargränssnittet för Campaign-webben är den här leveransen också tillgänglig från klientkonsolen.
 
 Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
 

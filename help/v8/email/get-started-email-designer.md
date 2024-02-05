@@ -4,9 +4,9 @@ title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
 badge: label="Begränsad tillgänglighet"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 6%
 
 ---

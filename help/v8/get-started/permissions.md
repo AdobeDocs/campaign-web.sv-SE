@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Behörighetshantering på Campaign-webben
-description: Läs mer om behörigheter på Campaign-webben v8
+title: Behörighetshantering i användargränssnittet för Campaign Web
+description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
