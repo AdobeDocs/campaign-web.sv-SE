@@ -4,9 +4,9 @@ title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,12 @@ När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den 
   >
   >Om **[!UICONTROL History in days]** fältet lämnas tomt, dess värde betraktas som&quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
 
-* **[!UICONTROL Default affinity]**: Om din installation innehåller flera arbetsflödesservrar använder du det här fältet för att välja vilken dator arbetsflödet ska köras på. Om värdet som definieras i det här fältet inte finns på någon server, kommer arbetsflödet att förbli väntande.
+* **[!UICONTROL Default affinity]**: Om din installation innehåller flera arbetsflödesservrar använder du det här fältet för att ange på vilken server arbetsflödet ska köras. Detta framtvingar körning av det arbetsflödet på en viss server. Du kan välja ett befintligt tillhörighetsnamn, men se till att du inte använder blanksteg eller skiljetecken. Om du använder olika servrar anger du olika namn, avgränsade med kommatecken.
+
+  >[!IMPORTANT]
+  >
+  >Om värdet som definieras i det här fältet inte finns på någon server, kommer arbetsflödet att förbli väntande.
+
 
 * **[!UICONTROL Save SQL queries in log]**: Markera det här alternativet om du vill spara SQL-frågorna från arbetsflödet i loggarna. Den här funktionen är reserverad för avancerade användare. Det gäller arbetsflöden som innehåller riktade aktiviteter som **[!UICONTROL Build audience]**. När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i arbetsflödets loggar, så att du kan analysera dem för att optimera frågor eller diagnostisera problem.
 
