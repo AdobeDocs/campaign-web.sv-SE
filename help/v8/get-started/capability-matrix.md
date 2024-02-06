@@ -5,9 +5,9 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 * Marknadsföringsresurshantering, mål, simuleringar och kostnadskontroll. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Uppgiftshantering. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Kommunikationskanaler{ #channel-capabilities}
+## Kommunikationskanaler {#channels-capabilities}
 
 Med användargränssnittet i Campaign Web kan du skapa, utforma och skicka e-post, SMS och push-meddelanden och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är dock inte tillgängliga i den här versionen.
 
