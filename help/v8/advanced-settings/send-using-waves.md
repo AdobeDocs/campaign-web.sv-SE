@@ -2,11 +2,12 @@
 audience: end-user
 title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
+feature: Email
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 1%
+source-wordcount: '732'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 1%
 >title="Definiera storleken på varje våg"
 >abstract="Du måste ange en storlek för alla påfyllnader som du lägger till. Ange antingen ett numeriskt värde (antal meddelanden för varje våg) eller ett procentvärde (0-100 %)."
 
-För att balansera lasten kan du dela upp leveranser i flera satser. Konfigurera antalet batchar och deras proportioner i förhållande till hela leveransen samt intervallet mellan två vågor.
+Om du vill balansera inläsningen kan du dela upp e-postleveranser i flera grupper. Konfigurera antalet batchar och deras proportioner i förhållande till hela leveransen samt intervallet mellan två vågor.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Följ stegen nedan om du vill skicka leveranser med hjälp av påfyllnader.
 
    >[!CAUTION]
    >
-   >Kontrollera att de sista påfyllnaderna inte överskrider leveransdatumet, som definieras i **[!UICONTROL Validity]** -fliken. Annars kanske vissa meddelanden inte skickas. [Läs mer](delivery-settings.md#validity)
+   >Kontrollera att de sista påfyllnaderna inte överskrider leveransdatumet som anges i [Giltighet](delivery-settings.md#validity) i annat fall kanske vissa meddelanden inte skickas. En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >Du måste också ge tillräckligt med tid för att försöka igen när du konfigurerar de sista vågorna. [Läs mer](delivery-settings.md#retries)
 
-1. Om du vill övervaka dina utskick går du till [leveransloggar](../monitor/delivery-logs.md).
-
-   Du kan se leveranser som redan har skickats i de bearbetade påfyllnaderna (**[!UICONTROL Sent]** status) och de leveranser som ska skickas i de återstående påfyllnaderna (**[!UICONTROL Pending]** status).
-
-En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Kampanjtypologier och deras regler konfigureras i **[!UICONTROL Typology]** -fliken i leveransinställningarna. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Om du vill övervaka dina utskick går du till [leveransloggar](../monitor/delivery-logs.md). Du kan se leveranser som redan har skickats i de bearbetade påfyllnaderna (**[!UICONTROL Sent]** status) och de leveranser som ska skickas i de återstående påfyllnaderna (**[!UICONTROL Pending]** status).
 
 ## Schemalägg flera vågor i samma storlek {#waves-same-size}
 
@@ -64,7 +61,7 @@ Om du väljer det här alternativet har alla vågor samma storlek (förutom den 
 
 * Ange storleken för alla vågor som du delar leveransen till. Du kan ange ett procentvärde eller ett numeriskt värde. Endast den sista vågen kan variera i storlek eftersom den måste innehålla det återstående antalet meddelanden.
 
-  Om du till exempel skriver **[!UICONTROL 30%]** i motsvarande fält representerar de första tre vågorna 30 % av alla meddelanden som ingår i leveransen och den fjärde står för de återstående 10 %.
+  Om du till exempel skriver **[!UICONTROL 30%]** i **[!UICONTROL Waves size]** de första tre vågorna utgör 30 % av alla meddelanden som ingår i leveransen och den fjärde står för de återstående 10 %.
 
 * I **[!UICONTROL Interval]** anger du fördröjningen mellan början av två påfyllnader i följd. Om du till exempel skriver **[!UICONTROL 2 days]**, startar den första vågen omedelbart, den andra startar om två dagar, den tredje vågen om fyra dagar och så vidare.
 
@@ -80,7 +77,7 @@ Om du vill göra det väljer du **[!UICONTROL Schedule multiple waves of the sam
 
 Om du väljer det här alternativet måste du definiera startdag/starttid för varje påfyllnad som du skickar, samt storleken för varje påfyllnad.
 
-* I **[!UICONTROL Start]** -kolumnen anger du fördröjningen mellan början av två på varandra följande påfyllnader.
+* I **[!UICONTROL Start]** anger du fördröjningen mellan början av två påfyllnader i följd.
 
 * I **[!UICONTROL Size]** anger du ett fast tal eller ett procenttal.
 

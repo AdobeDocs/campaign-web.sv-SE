@@ -2,11 +2,12 @@
 audience: end-user
 title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2291'
 ht-degree: 4%
 
 ---
@@ -133,15 +134,23 @@ I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte län
 
 Det integrerade e-postmeddelandet **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
 
-Du kan definiera följande **[!UICONTROL Sending]** inställningar:
+Du kan definiera **[!UICONTROL Sending]** inställningarna nedan.
 
-* **[!UICONTROL Test SMTP delivery]**: Det här alternativet används för att testa att skicka via SMTP. Leveransen behandlas upp till anslutning till SMTP-servern men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+* **[!UICONTROL Delivery priority]**: Använd det här alternativet om du vill ändra avsändarordningen för leveranser genom att ange prioritetsnivå: normal, hög eller låg.
+
+* **[!UICONTROL Message batch quantity]**: Använd det här alternativet om du vill definiera antalet meddelanden som grupperas i samma XML-leveranspaket. Om parametern är inställd på 0 grupperas meddelandena automatiskt. Paketstorleken definieras av beräkningen `<delivery size>/1024`, med minst 8 och högst 256 meddelanden per paket.
+
+  >[!IMPORTANT]
+  >
+  >När leveransen skapas genom duplicering av en befintlig, återställs den här parametern.
+
+* **[!UICONTROL Test SMTP delivery]**: Det här alternativet används för att testa att skicka via SMTP. Leveransen behandlas upp till anslutning till SMTP-servern, men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
 * **[!UICONTROL Email BCC]**: Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL Send using multiple waves]**: Du kan stegvis öka volymen som skickas med vågor. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
+I **[!UICONTROL Wave definition]** väljer du **[!UICONTROL Send using multiple waves]** möjlighet att stegvis öka volymen som skickas med vågor. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
-Du kan också ändra formatet för e-postmeddelanden som skickas:
+Du kan också ändra **[!UICONTROL Mail formats]** av de e-postmeddelanden som skickats enligt nedan.
 
 * **[!UICONTROL Use recipient preferences]** (standardläge)
 
