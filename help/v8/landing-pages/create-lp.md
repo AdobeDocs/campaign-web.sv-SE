@@ -2,9 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Skapa och hantera landningssidor"
->abstract="Med Adobe Campaign kan du skapa, utforma och dela landningssidor som dirigerar dina användare till webbsidor på nätet där du kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar."
+>abstract="Med Adobe Campaign kan du skapa, utforma och dela landningssidor som dirigerar dina användare till webbsidor på webben där du kan hantera kundvärvning, prenumerationer/uppsägningar och blocklist användningsexempel, baserat på inbyggda mallar."
 
-Med Adobe Campaign kan du skapa, utforma och dela landningssidor som dirigerar dina användare till webbsidor på nätet där du kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar.
+Med Adobe Campaign kan du skapa, designa och dela landningssidor. När det gäller marknadsföringskampanjer är en landningssida en fristående webbsida där en besökare dirigeras efter att ha klickat på en länk i ett e-postmeddelande, SMS, push-leverans eller på en webbplats. Adobe Campaign har fyra mallar för hantering **förvärv**, **prenumerationer**, **avbeställa** och **blockeringslista** användningsfall.
 
 ## Åtkomst till landningssidor {#access-landing-pages}
 

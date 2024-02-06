@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 2%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 3%
 >abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
 
+Med Adobe Campaign kan du skapa, designa och dela landningssidor. När det gäller marknadsföringskampanjer är en landningssida en fristående webbsida där en besökare dirigeras efter att ha klickat på en länk i ett e-postmeddelande, ett SMS eller en push-leverans eller en webbplats.
 
-En landningssida är en fristående webbsida som en användare dirigeras till efter att ha klickat igenom från ett e-postmeddelande, en webbplats, en annons eller någon annan digital plats.
+[!DNL Adobe Campaign] gör att du kan skapa och utforma landningssidor som dirigerar användarna till onlineformulär där de kan välja att inte ta emot meddelanden eller prenumerera på en viss tjänst, t.ex. ett nyhetsbrev. Adobe Campaign har fyra mallar för att hantera förvärv, prenumerationer, avbeställningar och blockeringslista-fall.
 
-[!DNL Adobe Campaign] gör att du kan skapa och utforma landningssidor som dirigerar användarna till onlineformulär där de kan välja att inte ta emot meddelanden eller prenumerera på en viss tjänst, t.ex. ett nyhetsbrev.
+Viktiga funktioner listas nedan:
 
 * Utnyttja [!DNL Adobe Campaign] funktioner för att enkelt bygga **responsiva landningssidor**.
 * Konfigurera **avanmälnings- och avanmälningsflöden** snabbt och smidigt.
