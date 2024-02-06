@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web v8
 description: Upptäck nya funktioner i Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1298'
 ht-degree: 1%
 
 ---
@@ -19,16 +19,8 @@ ht-degree: 1%
 >title="Versionsinformation"
 >abstract="Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Versionsinformation"
->abstract="Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler."
+Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Campaign Web User Interface har en uppkopplad arbetsyta med Adobe Experience Platform för en enhetlig upplevelse. Den här versionen är tillgänglig för alla användare som startar Campaign version 8.6.
 
-<!--TO REMOVE ABOVE-->
-
-
-Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler.
 
 ## Viktiga funktioner {#key-features}
 
