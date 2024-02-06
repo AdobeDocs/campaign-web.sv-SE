@@ -4,9 +4,9 @@ title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
 feature: Email
 badge: label="Begränsad tillgänglighet"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,11 @@ Om du väljer det här alternativet måste du definiera startdag/starttid för v
 
 * I **[!UICONTROL Size]** anger du ett fast tal eller ett procenttal.
 
-Lägg till så många vågor som behövs.
+Lägg till så många vågor du vill. Du kan ordna om dem efter dina behov.
+
+>[!NOTE]
+>
+>Om du använder procenttal får summan för alla vågor inte överstiga 100 %.
 
 I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
 
