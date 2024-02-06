@@ -2,9 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Skapa och hantera landningssidor"
->abstract="Med Adobe Campaign kan ni skapa, utforma och dela landningssidor för att dirigera era användarna till webbsidor på nätet där ni kan hantera, värva, prenumerera, säga upp abonnemang och använda blockeringslista, baserat på inbyggda mallar."
+>abstract="Med Adobe Campaign kan du skapa, utforma och dela landningssidor som dirigerar dina användare till webbsidor på nätet där du kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar."
 
-Med Adobe Campaign kan ni skapa, utforma och dela landningssidor för att dirigera era användarna till webbsidor på nätet där ni kan hantera, värva, prenumerera, säga upp abonnemang och använda blockeringslista, baserat på inbyggda mallar.
+Med Adobe Campaign kan du skapa, utforma och dela landningssidor som dirigerar dina användare till webbsidor på nätet där du kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar.
 
 ## Åtkomst till landningssidor {#access-landing-pages}
 
@@ -30,9 +30,9 @@ The **[!UICONTROL Landing pages]** lager visar alla skapade artiklar. Du kan anv
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Du kan inte visa landningssidor som skapats från klientkonsolen på Campaign Web. Läs mer i [Dokumentation för kampanjkonsol](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Du kan inte visa eller redigera landningssidor som skapats från klientkonsolen på Campaign Web. Läs mer i [Dokumentation för kampanjkonsol](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landningssidor"
->abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där du kan hantera, köpa, prenumerera, avbryta prenumerationer och använda blockeringslista, baserat på inbyggda mallar."
+>abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
 
 
@@ -27,7 +27,7 @@ En landningssida är en fristående webbsida som en användare dirigeras till ef
 * Konfigurera **avanmälnings- och avanmälningsflöden** snabbt och smidigt.
 * Skapa prenumerationstjänster så att användarna kan **prenumerera på en tjänst**. [Läs mer](../audience/manage-services.md)
 * Förse mottagarna med **möjlighet att avbryta prenumerationen** från att ta emot meddelanden.
-* Skicka en **bekräftelsemeddelande** vid anmälan eller avanmälan.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
