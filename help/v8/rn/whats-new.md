@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Nyheter i Campaign Web v8
-description: Upptäck nya funktioner i Campaign Web v8
+title: Nyheter i Campaign Web User Interface
+description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,12 @@ ht-degree: 1%
 >title="Versionsinformation"
 >abstract="Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler."
 
-Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Campaign Web User Interface har en uppkopplad arbetsyta med Adobe Experience Platform för en enhetlig upplevelse. Den här versionen är tillgänglig för alla användare som startar Campaign version 8.6.
+Vi är glada över att kunna presentera den nya versionen av **Adobe Campaign webbgränssnitt**. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Campaign Web User Interface (UI) ger en sammankopplad arbetsyta med Adobe Experience Platform för en enhetlig upplevelse.
+
+
+>[!AVAILABILITY]
+>
+>Den här versionen är tillgänglig för alla användare som startar Campaign version 8.6. Läs mer om Adobe Campaign-releaser i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## Viktiga funktioner {#key-features}
@@ -28,7 +33,7 @@ Det nya gränssnittet Campaign Web har följande funktioner:
 
 **Modern, användarvänlig och enhetlig upplevelse**
 
-Campaign new Web user interface ger en ny användarupplevelse som är anpassad efter alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
+Campaign new Web user interface ger en ny användarupplevelse som är kopplad till alla Adobe Experience Cloud lösningar och appar. Det erbjuder:
 
 * Tillgång till det nya Campaign-gränssnittet och dina andra Adobe-lösningar med en enda delad användarsession
 * Ny navigeringsupplevelse med alla menyer och mappar tillgängliga från den vänstra listen
