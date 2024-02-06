@@ -2,8 +2,9 @@
 audience: end-user
 title: Arbeta med innehållsmallar för landningssidor
 description: Lär dig hur du sparar innehåll på landningssidor som en designmall och återanvänder det i Campaign Web
+feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%

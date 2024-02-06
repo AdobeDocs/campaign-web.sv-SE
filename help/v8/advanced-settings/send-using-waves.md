@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -15,71 +15,90 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="Waves-definition"
->abstract="Definiera vågor för att dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt."
+>title="Dela upp leveranser i flera batchar"
+>abstract="I stället för att skicka stora mängder meddelanden samtidigt definierar du vågor för att dela upp leveranser i flera satser. Du kan konfigurera flera vågor av samma storlek eller ange en kalender för de olika vågor som ska skickas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="Vågens storlek"
->abstract="Vågens storlek krävs. Ange antingen ett numeriskt värde (antal meddelanden) eller ett procentvärde (0-100 %) i storleksfältet."
+>title="Definiera storleken på varje våg"
+>abstract="Du måste ange en storlek för alla påfyllnader som du lägger till. Ange antingen ett numeriskt värde (antal meddelanden för varje våg) eller ett procentvärde (0-100 %)."
 
-För att balansera lasten kan du dela upp leveranser i flera satser. Konfigurera antalet batchar och deras proportioner i förhållande till hela leveransen.
+För att balansera lasten kan du dela upp leveranser i flera satser. Konfigurera antalet batchar och deras proportioner i förhållande till hela leveransen samt intervallet mellan två vågor.
 
 >[!NOTE]
 >
->Du kan bara definiera storleken och fördröjningen mellan två på varandra följande påfyllnader. Det går inte att konfigurera urvalskriterierna för mottagare för varje påfyllnad.
+>Du kan bara definiera storleken och fördröjningen mellan två på varandra följande påfyllnader. Det går inte att justera urvalskriterierna för mottagare för varje påfyllnad.
 
-1. Öppna [leveransinställningar](delivery-settings.md#retries) och går till **[!UICONTROL Delivery]** -fliken.
-1. Välj **[!UICONTROL Send using multiple waves]** och klicka på **[!UICONTROL Define waves...]** länk.
+Följ stegen nedan om du vill skicka leveranser med hjälp av påfyllnader.
+
+1. Öppna [leveransinställningar](delivery-settings.md#retries).
+
+1. Gå till **[!UICONTROL Delivery]** -avsnitt.
+
+1. Välj **[!UICONTROL Send using multiple waves]** alternativ.
 
 1. Så här konfigurerar du påfyllnader:
 
-   * **[!UICONTROL Schedule multiple waves of the same size]**.
+   * [Schemalägg flera vågor i samma storlek](#waves-same-size)
+   * [Schemalägg påfyllnader enligt en kalender](#waves-calendar)
 
-     Om du till exempel skriver **[!UICONTROL 30%]** i motsvarande fält representerar varje våg 30 % av de meddelanden som ingår i leveransen, utom den sista, som representerar 10 % av meddelandena.
+1. Förbered och skicka leveransen som vanligt. [Läs mer](../msg/gs-deliveries.md)
 
-     ![](assets/waves-same-size.png)
-
-     I **[!UICONTROL Interval]** anger du fördröjningen mellan början av två påfyllnader i följd. Om du till exempel skriver **[!UICONTROL 2d]**, startar den första vågen omedelbart, den andra om två dagar, den tredje vågen om fyra dagar och så vidare.
-
-   * **[!UICONTROL Schedule waves according to a calendar]**.
-
-     I **[!UICONTROL Start]** -kolumnen anger du fördröjningen mellan början av två på varandra följande påfyllnader. I **[!UICONTROL Size]** anger du ett fast tal eller ett procenttal.
-
-     I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
-
-     ![](assets/waves-calendar.png)
-
-     En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Kampanjtypologier och deras regler konfigureras i **[!UICONTROL Typology]** -fliken i leveransinställningarna. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
-
-     >[!IMPORTANT]
-     >
-     >Kontrollera att de sista påfyllnaderna inte överskrider leveransdatumet, som definieras i **[!UICONTROL Validity]** -fliken. Annars kanske vissa meddelanden inte skickas. [Läs mer](delivery-settings.md#validity)
-     >
-     >Du måste också ge tillräckligt med tid för att försöka igen när du konfigurerar de sista vågorna. [Läs mer](delivery-settings.md#retries)
+   >[!CAUTION]
+   >
+   >Kontrollera att de sista påfyllnaderna inte överskrider leveransdatumet, som definieras i **[!UICONTROL Validity]** -fliken. Annars kanske vissa meddelanden inte skickas. [Läs mer](delivery-settings.md#validity)
+   >
+   >Du måste också ge tillräckligt med tid för att försöka igen när du konfigurerar de sista vågorna. [Läs mer](delivery-settings.md#retries)
 
 1. Om du vill övervaka dina utskick går du till [leveransloggar](../monitor/delivery-logs.md).
 
-Du kan se leveranser som redan har skickats i de bearbetade påfyllnaderna (**[!UICONTROL Sent]** status) och de leveranser som ska skickas i de återstående påfyllnaderna (**[!UICONTROL Pending]** status).
+   Du kan se leveranser som redan har skickats i de bearbetade påfyllnaderna (**[!UICONTROL Sent]** status) och de leveranser som ska skickas i de återstående påfyllnaderna (**[!UICONTROL Pending]** status).
 
-De två exemplen nedan är de vanligaste användningsområdena när du använder flera vågor.
+En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista vågen planeras före leveransens giltighetsgräns. Kampanjtypologier och deras regler konfigureras i **[!UICONTROL Typology]** -fliken i leveransinställningarna. Läs mer om kontrollregler i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
-* **Under avstämningsprocessen**
+## Schemalägg flera vågor i samma storlek {#waves-same-size}
 
-  När e-postmeddelanden skickas via en ny plattform, är Internetleverantörer (ISP) misstänkta för IP-adresser som inte känns igen. Om stora mängder e-postmeddelanden plötsligt skickas markerar internetleverantörerna dem ofta som skräppost.
+Om du väljer det här alternativet har alla vågor samma storlek (förutom den sista) och fördröjningen mellan varje våg är alltid densamma.
 
-  För att undvika att markeras som skräppost kan du stegvis öka volymen som skickas med vågor. Detta bör säkerställa en smidig utveckling av startfasen och göra det möjligt att minska den totala frekvensen av ogiltiga adresser.
+![](assets/waves-same-size.png)
 
-  Använd **[!UICONTROL Schedule waves according to a calendar]** alternativ. Du kan till exempel ställa in den första vågen på 10 %, den andra på 15 % och så vidare.
+* Ange storleken för alla vågor som du delar leveransen till. Du kan ange ett procentvärde eller ett numeriskt värde. Endast den sista vågen kan variera i storlek eftersom den måste innehålla det återstående antalet meddelanden.
 
-  ![](assets/waves-ramp-up.png)
+  Om du till exempel skriver **[!UICONTROL 30%]** i motsvarande fält representerar de första tre vågorna 30 % av alla meddelanden som ingår i leveransen och den fjärde står för de återstående 10 %.
 
-* **Kampanjer som involverar ett callcenter**
+* I **[!UICONTROL Interval]** anger du fördröjningen mellan början av två påfyllnader i följd. Om du till exempel skriver **[!UICONTROL 2 days]**, startar den första vågen omedelbart, den andra startar om två dagar, den tredje vågen om fyra dagar och så vidare.
 
-  När ni hanterar en lojalitetskampanj via telefon har er organisation begränsad kapacitet att behandla antalet samtal till kontaktabonnenter.
+Ett vanligt användningssätt för flera vågor av samma storlek är att ett callcenter är involverat. När ni hanterar en lojalitetskampanj via telefon har er organisation begränsad kapacitet att behandla antalet samtal till kontaktabonnenter.
 
-  Med hjälp av vågor kan du begränsa antalet meddelanden till 20 per dag, vilket är den dagliga bearbetningskapaciteten för ett callcenter.
+Med hjälp av vågor kan du begränsa antalet meddelanden till 20 per dag, vilket är den dagliga bearbetningskapaciteten för ett callcenter.
 
-  Om du vill göra det väljer du **[!UICONTROL Schedule multiple waves of the same size]** alternativ. Retur **[!UICONTROL 20]** som vågens storlek och **[!UICONTROL 1d]** i **[!UICONTROL Period]** fält.
+Om du vill göra det väljer du **[!UICONTROL Schedule multiple waves of the same size]** alternativ. Retur **[!UICONTROL 20]** som vågstorlek och **[!UICONTROL 1 day]** i **[!UICONTROL Interval]** fält.
 
-  ![](assets/waves-call-center.png)
+![](assets/waves-call-center.png)
+
+## Schemalägg påfyllnader enligt en kalender {#waves-calendar}
+
+Om du väljer det här alternativet måste du definiera startdag/starttid för varje påfyllnad som du skickar, samt storleken för varje påfyllnad.
+
+* I **[!UICONTROL Start]** -kolumnen anger du fördröjningen mellan början av två på varandra följande påfyllnader.
+
+* I **[!UICONTROL Size]** anger du ett fast tal eller ett procenttal.
+
+Lägg till så många vågor som behövs.
+
+I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
+
+![](assets/waves-calendar.png)
+
+Ett vanligt användningsfall för flera vågor enligt en kalender är under uppspelningsprocessen.
+
+När e-postmeddelanden skickas via en ny plattform, är Internetleverantörer (ISP) misstänkta för IP-adresser som inte känns igen. Om stora mängder e-postmeddelanden plötsligt skickas markerar internetleverantörerna dem ofta som skräppost.
+
+För att undvika att markeras som skräppost kan du stegvis öka volymen som skickas med vågor. Detta bör säkerställa en smidig utveckling av startfasen och göra det möjligt att minska den totala frekvensen av ogiltiga adresser.
+
+Använd **[!UICONTROL Schedule waves according to a calendar]** alternativ. Du kan till exempel ställa in den första vågen på 10 %, den andra på 15 %, den tredje på 20 % och så vidare.
+
+![](assets/waves-ramp-up.png)
+
+
+

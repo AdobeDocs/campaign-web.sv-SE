@@ -1,8 +1,9 @@
 ---
 title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
+feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 1%
