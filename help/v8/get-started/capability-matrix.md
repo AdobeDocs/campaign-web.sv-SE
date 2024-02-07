@@ -5,9 +5,9 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
+source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Landningssidor och webbprogram {#Webapps-capabilities}
 
-Med Adobe Campaign kan du skapa, designa och dela landningssidor.  Läs mer om landningssidan i användargränssnittet för Campaign Web [i det här avsnittet](../landing-pages/get-started-lp.md).
+Med Adobe Campaign kan du skapa, designa och dela landningssidor. landningssidornas upplevelse har omdesignats helt i det nya gränssnittet. Upptäck hur du skapar, utformar och publicerar landningssidor i Campaign Web-gränssnittet [i det här avsnittet](../landing-pages/get-started-lp.md).
 
-Landningssidor har gjorts om helt och hållet i gränssnittet för Campaign-webben. I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en landningssida som skapats i webbgränssnittet - och omvänt.
-
-Dessutom är följande typer av webbprogram inte tillgängliga i användargränssnittet för Campaign-webben. De visas dock i listan över landningssidor. Använd länkarna för att bläddra i dokumentationen för Campaign Classic v7 och läs mer om dessa webbprogram.
+I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en landningssida som skapats i webbgränssnittet - och omvänt. Följande typer av webbprogram är inte tillgängliga i gränssnittet för Campaign-webben. De visas dock i listan över landningssidor. Använd länkarna för att bläddra i dokumentationen för Campaign Classic v7 och läs mer om dessa webbprogram:
 
 * Webbprogram. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
 * Webbformulär. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}
@@ -61,15 +59,19 @@ Dessutom är följande typer av webbprogram inte tillgängliga i användargräns
 
 ## Profiler, testprofiler och målgrupper {#profiles-audiences-capabilities}
 
-Du kan skapa, hantera och uppdatera profiler och testprofiler i både Campaign-klientkonsolen och Campaign-webbgränssnittet. Alla ändringar som görs i det ena gränssnittet visas i det andra. Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; i det nya webbgränssnittet. Vissa specifika mottagarinställningar och avancerade parametrar kan saknas i det nya webbgränssnittet för Campaign.
+Du kan skapa, hantera och uppdatera profiler och testprofiler i både Campaign-klientkonsolen och Campaign-webbgränssnittet. Alla ändringar som görs i det ena gränssnittet visas i det andra. Vissa specifika mottagarinställningar och avancerade parametrar kan saknas i det nya webbgränssnittet för Campaign.  Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; i det nya webbgränssnittet.
 
-Målgruppskomposition är en ny funktion som kommer med användargränssnittet i Campaign Web. I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en [målgrupp som skapats med Query-modelleraren](../query/query-modeler-overview.md). Alla målgrupper som skapats i Campaign-klientkonsolen eller i Adobe Experience Platform finns tillgängliga i Campaign Web-gränssnittet.
+Målgruppskomposition är en ny funktion som kommer med användargränssnittet i Campaign Web. I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en [målgrupp som skapats med Query-modelleraren](../query/query-modeler-overview.md).
+
+Alla målgrupper som skapats i Campaign-klientkonsolen eller i Adobe Experience Platform finns tillgängliga i Campaign Web-gränssnittet.
 
 Import-/exportjobb i ett enda foto enligt beskrivningen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} är inte tillgängliga i Campaign Web-användargränssnittet. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
 ## Transaktionsmeddelanden {#mc-capabilities}
 
-Funktioner för transaktionsmeddelanden som ingår i produktpaketet Message Center är inte tillgängliga i den här versionen av det nya användargränssnittet för Campaign-webben. Sök i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} och läs mer om meddelandefunktioner i realtid, som:
+Funktioner för transaktionsmeddelanden som ingår i produktpaketet Message Center är inte tillgängliga i den här versionen av det nya användargränssnittet för Campaign-webben.
+
+Sök i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} och läs mer om meddelandefunktioner i realtid, som:
 
 * Redigering och körning av meddelanden i realtid via e-post, SMS och push
 * Berikning och personalisering av meddelanden
@@ -85,7 +87,7 @@ Med det nya användargränssnittet kan du även använda resurser från Adobe Ex
 Observera att följande funktioner inte är tillgängliga i den här versionen av produkten. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner (funktioner med en `*` stöds inte i Campaign-klientkonsolen och inte heller).
 
 * AMP för e-post.  [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Innehåll från offentliga resurser
+* Innehåll från offentliga resurser - KOPIA TILL BEKRÄFTELSE
 * Skapa anpassade personaliseringsblock. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Innehåll från anpassade formulär (modulen Innehållshantering). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * Innehåll från en URL`*`
@@ -93,11 +95,13 @@ Observera att följande funktioner inte är tillgängliga i den här versionen a
 * E-postfragment`*`
 * Flerspråkig användning`*`
 
-## Typologiregler {#rules-capabilities}
+## Typologier och typologiregler {#rules-capabilities}
 
-Typologiregler kan väljas för en leverans, eller en leveransmall, i gränssnittet för webben i Campaign, men regler och typologiregler för att skapa, hantera och anpassa regler är bara tillgängliga i klientkonsolen för Campaign.
+Typologier är uppsättningar typologiregler som utförs under förberedelsefasen för att enkelt tillämpa flera filtreringsregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen.
 
-Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om typologiregler.
+Typologiregler kan väljas för en leverans, eller en leveransmall, i webbgränssnittet för Campaign, som detaljerade [i det här avsnittet](../advanced-settings/delivery-settings.md#typology). Regler och typologiregler kan dock bara skapas, hanteras och anpassas i Campaign-klientkonsolen.
+
+Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om typologiregler:
 
 * Skapa kontrollregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 * Trötthet/tryckregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
@@ -115,6 +119,8 @@ Observera att följande funktioner endast är tillgängliga i Campaign-klientkon
 * Skript i arbetsflöden
 * ETL-aktiviteter: Export, Redigera schema, Datainläsning, Datainhämtning, SQL-kod
 
+Läs mer om tillgängliga arbetsflödesaktiviteter i arbetsflödesdokumentationen för Adobe Campaign v8 (konsol) [här](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
+
 ## Erbjudandehantering {#offer-capabilities}
 
 Med Adobe Campaign Web kan du skicka med leveranserbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Erbjudandeutformning, regler för behörighet och erbjudandehantering är bara tillgängligt i Campaign-klientkonsolen. [Läs mer](../msg/offers.md)
@@ -125,9 +131,7 @@ Lär dig hur du hanterar en erbjudandekatalog i  [Kampanjdokumentation v8 (klien
 
 Det nya moderna gränssnittet för Campaign förenklar utformningen och leveransen av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform och Adobe Experience Manager.
 
-Följande integreringar är tillgängliga från Adobe Campaign klientkonsol och är ännu inte tillgängliga i den här versionen av Campaign Web-användargränssnittet.
-
-Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om typologiregler.
+Följande integreringar är tillgängliga från Adobe Campaign klientkonsol och är ännu inte tillgängliga i den här versionen av Campaign Web-användargränssnittet. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa integreringar:
 
 * Adobe Analytics dataanvändning och KPI-delning. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Målgruppsdelning med Adobe Experience Cloud (Adobe Audience Manager). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
@@ -151,17 +155,28 @@ Vissa funktioner är bara tillgängliga från klientkonsolen. Bläddra bland lä
 
 Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgängliga i klientkonsolen.
 
-* Externa konton
-* Schematillägg
-* Arbetsflödesaktiviteter för datahantering: Datainläsning, extrahering (fil), Uppdatera data, Redigera schema, Importera/exportera tekniska arbetsflöden
-* Kampanjkonfiguration och anslutning till externa system
+Bläddra bland länkarna för att bläddra bland [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} och lär dig mer.
+
+* Externa konton. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* Skapande och tillägg av schema. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* Arbetsflödesaktiviteter för datahantering: Datainläsning, extrahering (fil), Uppdatera data, Redigera schema, Tekniska arbetsflöden för import/export. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* Kampanjkonfiguration och anslutning till externa system. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Godkännanden {#approvals-capabilities}
 
-Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgängliga i klientkonsolen.
+Användargränssnittet för Campaign-webben hanterar inte godkännande av innehåll, leveranser, arbetsflöden, kampanjer och mål. De är bara tillgängliga i klientkonsolen.
 
-* Godkännande av innehåll
-* Leveransgodkännande
-* Godkännande av kampanj
-* Målgodkännande
+Lär dig hur du hanterar godkännanden i arbetsflöden i  [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+
+
+Lär dig hantera leverans, innehåll och målgodkännanden i kampanjer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
+
+
+## Behörigheter  {#permissions-capabilities}
+
+Kampanjanvändare har endast åtkomst till gränssnittet i Campaign-webben via sin Adobe ID, baserat på Adobe Identity Management System (IMS).
+
+Behörigheterna definieras i Adobe Admin Console och Adobe Campaign klientkonsol som detaljerade [i det här avsnittet](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). Behörighetsåtgärder kan inte utföras via Adobe Campaign webbgränssnitt.
+
+
 
