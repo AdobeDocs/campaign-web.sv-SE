@@ -3,9 +3,9 @@ title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Experience Cloud är en integrerad familj av program, produkter och tjänster f�
 
 ## Logga in på Adobe Experience Cloud {#sign-in-to-exc}
 
-Administratörer i Experience Cloud ger vanligtvis tillgång till program och tjänster. Följ stegen i din e-postinbjudan till Experience Cloud.
+Du kan bara använda enkel inloggning (SSO) för att ansluta till Campaign. Administratörer i Experience Cloud ger vanligtvis tillgång till program och tjänster. Följ stegen i din e-postinbjudan till Experience Cloud.
 
 Så här loggar du in på Adobe Experience Cloud:
 

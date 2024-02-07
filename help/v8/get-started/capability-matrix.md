@@ -5,9 +5,9 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Lär dig hantera leverans, innehåll och målgodkännanden i kampanjer i [Kampan
 
 ## Behörigheter  {#permissions-capabilities}
 
-Kampanjanvändare har endast åtkomst till gränssnittet i Campaign-webben via sin Adobe ID, baserat på Adobe Identity Management System (IMS).
+Kampanjanvändare har bara åtkomst till gränssnittet i Campaign-webben via Adobe ID via Adobe Identity Management System (IMS).
 
 Behörigheterna definieras i Adobe Admin Console och Adobe Campaign klientkonsol som detaljerade [i det här avsnittet](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). Behörighetsåtgärder kan inte utföras via Adobe Campaign webbgränssnitt.
 
