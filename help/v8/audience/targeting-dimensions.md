@@ -3,14 +3,19 @@ title: Måldimensioner
 description: Läs mer om målinriktning av dimensioner på Adobe Campaign Web
 badge: label="Begränsad tillgänglighet"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
 # Måldimensioner {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Välj måldimension"
+>abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna."
 
 Målgruppsdimensionen, även kallad. målmappning, är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: profiler, kontraktsanställda, operatörer, prenumeranter osv.
 

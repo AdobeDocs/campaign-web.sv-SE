@@ -4,9 +4,9 @@ title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 badge: label="Begränsad tillgänglighet"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## Konfigurera aktiviteten Skapa målgrupp{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Välj måldimension"
->abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna."
 
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
