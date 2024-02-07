@@ -6,7 +6,7 @@ title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för kampanj
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
    + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
-   + [Skyddsritningar och begränsningar](get-started/guardrails.md)
    + [Funktioner som inte stöds](get-started/capability-matrix.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
@@ -119,6 +118,7 @@ ht-degree: 9%
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
+   + [Skyddsritningar och begränsningar](get-started/guardrails.md)
    + [Få åtkomst till och hantera arbetsflöden](workflows/access-monitor.md)
    + Skapa och kör ditt första arbetsflöde {#create-workflow}
       + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
