@@ -5,9 +5,9 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -184,8 +184,13 @@ Behörigheterna definieras i Adobe Admin Console och Adobe Campaign klientkonsol
 
 Övervakningskapaciteten för Campaign-plattformen är bara tillgänglig i klientkonsolen och på Campaign-kontrollpanelen. De visas inte i gränssnittet för Campaign-webben.
 
-Bläddra bland länkarna till [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} om du vill veta mer.
+Bläddra bland länkarna till dokumentationen för Campaign v8 (klientkonsolen) och kontrollpanelen om du vill veta mer.
 
 * [Arbetsflödesövervakning](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Värmekarta för arbetsflöde](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv){target="_blank"}
+* [Övervakning av leveransen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
