@@ -5,9 +5,9 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De viktigaste Campaign-funktionerna finns i gränssnittet för Campaign-webben. Det här gränssnittet var primärt utformat för att marknadsförarna ska kunna planera, lansera och mäta sina marknadsföringskampanjer. Alla funktioner listas [på den här sidan](../rn/whats-new.md).
 
-Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutning till andra system hanteras i Campaign-klientkonsolen. Därför kan vissa inställningar och funktioner bara nås, skapas eller hanteras från Campaign Client Console. Vissa kommer att vara tillgängliga i en senare version av Campaign-webbgränssnittet.
+Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutning till andra system hanteras i Campaign-klientkonsolen. Därför kan vissa inställningar och funktioner bara nås, skapas eller hanteras från Campaign Client Console. Vissa kommer att vara tillgängliga i en senare uppdatering av användargränssnittet i Campaign Web.
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutnin
 
 ## Campaign Management {#campaign-mgt-capabilities}
 
-Med Campaign Web-gränssnittet kan ni skapa kampanjer i flera kanaler som detaljerade [i det här avsnittet](../campaigns/gs-campaigns.md). I den aktuella versionen är följande funktioner bara tillgängliga i Campaign-klientkonsolen. De är inte tillgängliga i gränssnittet för Campaign-webben, men vissa kan visas från [Utforskarmenyn](user-interface.md#user-interface-explorer).
+Med Campaign Web-gränssnittet kan ni skapa kampanjer i flera kanaler som detaljerade [i det här avsnittet](../campaigns/gs-campaigns.md). Följande funktioner är bara tillgängliga i Campaign-klientkonsolen. De är inte tillgängliga i gränssnittet för Campaign-webben, men vissa kan visas från [Utforskarmenyn](user-interface.md#user-interface-explorer).
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och lär dig hur du använder dessa funktioner.
 
@@ -39,7 +39,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Kommunikationskanaler {#channels-capabilities}
 
-Med användargränssnittet i Campaign Web kan du skapa, utforma och skicka e-post, SMS och push-meddelanden och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är dock inte tillgängliga i den här versionen.
+Med användargränssnittet i Campaign Web kan du skapa, utforma och skicka e-post, SMS och push-meddelanden och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är dock för närvarande inte tillgängliga.
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa kanaler.
 
@@ -71,7 +71,7 @@ Import-/exportjobb i ett enda foto enligt beskrivningen i [Kampanjdokumentation 
 
 ## Transaktionsmeddelanden {#mc-capabilities}
 
-Funktioner för transaktionsmeddelanden som ingår i produktpaketet Message Center är inte tillgängliga i den här versionen av det nya användargränssnittet för Campaign-webben.
+Funktioner för transaktionsmeddelanden som ingår i produktpaketet Message Center är för närvarande inte tillgängliga i det nya användargränssnittet för Campaign-webben.
 
 Sök i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} och läs mer om meddelandefunktioner i realtid, som:
 
@@ -86,9 +86,8 @@ Med det nya e-postdesignern som kommer med Adobe Campaign webbgränssnitt kan du
 
 Med det nya användargränssnittet kan du hantera synkronisering av e-postmallar från Adobe Experience Manager och integrera med Adobe Experience Manager as a Cloud Service.
 
-Observera att följande funktioner inte är tillgängliga i den här versionen av produkten. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner.
+Observera att följande funktioner för tillfället inte är tillgängliga i gränssnittet för Campaign-webben. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner.
 
-* Innehåll från offentliga resurser - KOPIA TILL BEKRÄFTELSE
 * Skapa anpassade personaliseringsblock. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Innehåll från anpassade formulär (modulen Innehållshantering). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP för e-post. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Arbetsflöden {#wf-capabilities}
 
-Det nya gränssnittet Campaign Web ger ett nytt arbetsflödesgränssnitt där du kan utforma och hantera processer. Viktiga arbetsflödesaktiviteter är redan tillgängliga i den nya designen, andra kommer i en framtida version. Läs mer om arbetsflödets funktioner, inklusive säkerhetsutkast och begränsningar [i det här avsnittet](../get-started/guardrails.md).
+Det nya gränssnittet Campaign Web ger ett nytt arbetsflödesgränssnitt där du kan utforma och hantera processer. Viktiga arbetsflödesaktiviteter är redan tillgängliga i den nya designen, andra kommer i en framtida uppdatering. Läs mer om arbetsflödets funktioner, inklusive säkerhetsutkast och begränsningar [i det här avsnittet](../get-started/guardrails.md).
 
 Observera att följande funktioner endast är tillgängliga i Campaign-klientkonsolen:
 
@@ -133,7 +132,7 @@ Lär dig hur du hanterar en erbjudandekatalog i [Kampanjdokumentation v8 (klient
 
 Det nya moderna gränssnittet för Campaign förenklar utformningen och leveransen av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform och Adobe Experience Manager.
 
-Följande integreringar är tillgängliga från Adobe Campaign klientkonsol och är ännu inte tillgängliga i den här versionen av Campaign Web-användargränssnittet. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa integreringar:
+Följande integreringar är tillgängliga från Adobe Campaign klientkonsol och är ännu inte tillgängliga i Campaign Web-gränssnittet. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa integreringar:
 
 * Adobe Analytics dataanvändning och KPI-delning. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Målgruppsdelning med Adobe Experience Cloud (Adobe Audience Manager). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
