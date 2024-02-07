@@ -1,11 +1,11 @@
 ---
 title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,21 @@ ht-degree: 0%
 
 Få snabba, AI-genererade svar baserat på produktdokumentationen och ditt nuvarande produktsammanhang med hjälp av den AI-baserade sammanhangsbaserade Q&amp;A-hjälpen som finns i produktens sammanhangsbaserade hjälprutor.
 
->[!CAUTION]
->
->Denna funktion finns i Alpha och kan ändras utan föregående meddelande.
->
->Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen. Därför bör du se till att [ditt språk](connect-to-campaign.md#language-pref) är inställt på engelska innan den här funktionen används.
-
-
 The **Sammanhangsbaserad hjälp med Gen AI** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 
 Tack vare Campaign Gens AI-funktioner kan den här komponenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha hjälp med komplicerade arbetsuppgifter eller navigera i stora dokument är den AI-baserade sammanhangsbaserade hjälpen din ultimata partner, vilket ger oöverträffad effektivitet och precision vid all interaktion.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>Kontextuell hjälp med AI-funktioner finns i betaversionen och kan ändras utan föregående meddelande.
+>
+>Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen. Därför bör du se till att [ditt språk](connect-to-campaign.md#language-pref) är inställt på engelska innan den här funktionen används.
+>
+>Kontextuell hjälp som bygger på AI är för närvarande inte tillgänglig i e-postdesignern för Campaign.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Adobe Campaign AI-baserad sammanhangsbaserad hjälp är till hjälp, men du bör kontrollera fakta. Den kan ge felaktiga uppgifter, felaktiga eller vilseledande svar. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
 Artificiell intelligens och maskininlärningsmodeller förbättras över tid för att bättre kunna hantera specifika användningsfall. Den AI-baserade sammanhangsbaserade hjälpen för Campaign kommer att fortsätta att bli bättre under de närmaste månaderna. Vi rekommenderar att du använder <img src="assets/do-not-localize/thumb.png" width="10%"/> när du läser ett svar, för att flagga olämpliga svar till våra tekniker.
+
 
 ## Rekommendationer  {#recommendations-ai}
 
