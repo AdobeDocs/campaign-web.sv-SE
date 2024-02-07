@@ -5,16 +5,18 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
 
 # Funktionsmatris för kampanjwebbgränssnitt/klientkonsol {#capabilities-matrix}
 
-De viktigaste Campaign-funktionerna finns i gränssnittet för Campaign-webben. Vissa inställningar och funktioner kan bara nås, skapas eller hanteras från Campaign Client Console. Vissa kommer att vara tillgängliga i en senare version av Campaign-webbgränssnittet.
+De viktigaste Campaign-funktionerna finns i gränssnittet för Campaign-webben. Det här gränssnittet var primärt utformat för att marknadsförarna ska kunna planera, lansera och mäta sina marknadsföringskampanjer. Alla funktioner listas [på den här sidan](../rn/whats-new.md).
+
+Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutning till andra system hanteras i Campaign-klientkonsolen. Därför kan vissa inställningar och funktioner bara nås, skapas eller hanteras från Campaign Client Console. Vissa kommer att vara tillgängliga i en senare version av Campaign-webbgränssnittet.
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra 
 
 Du kan skapa, hantera och uppdatera profiler och testprofiler i både Campaign-klientkonsolen och Campaign-webbgränssnittet. Alla ändringar som görs i det ena gränssnittet visas i det andra. Vissa specifika mottagarinställningar och avancerade parametrar kan saknas i det nya webbgränssnittet för Campaign. Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; i det nya webbgränssnittet.
 
-Målgruppskomposition är en ny funktion som kommer med användargränssnittet i Campaign Web. I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en [målgrupp som skapats med Query-modelleraren](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 Alla målgrupper som skapats i Campaign-klientkonsolen eller i Adobe Experience Platform finns tillgängliga i Campaign Web-gränssnittet.
 
@@ -82,18 +84,18 @@ Sök i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.c
 
 Med det nya e-postdesignern som kommer med Adobe Campaign webbgränssnitt kan du enkelt skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Oavsett om du börjar på en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande. [Läs mer](../email/edit-content.md)
 
-Med det nya användargränssnittet kan du även använda resurser från Adobe Experience Manager 6.5 i e-postinnehåll, hantera synkronisering av e-postmallar från Adobe Experience Manager och integrera med Adobe Experience Manager as a Cloud Service.
+Med det nya användargränssnittet kan du hantera synkronisering av e-postmallar från Adobe Experience Manager och integrera med Adobe Experience Manager as a Cloud Service.
 
-Observera att följande funktioner inte är tillgängliga i den här versionen av produkten. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner (funktioner med en `*` stöds inte i Campaign-klientkonsolen och inte heller).
+Observera att följande funktioner inte är tillgängliga i den här versionen av produkten. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner.
 
 * Innehåll från offentliga resurser - KOPIA TILL BEKRÄFTELSE
 * Skapa anpassade personaliseringsblock. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Innehåll från anpassade formulär (modulen Innehållshantering). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP för e-post. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Innehåll från en URL`*`
-* Spara ett HTML-innehåll som en mall`*`
-* E-postfragment`*`
-* Flerspråkig användning`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## Typologier och typologiregler {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Vissa funktioner är bara tillgängliga från klientkonsolen. Bläddra bland lä
 * Beskrivande analys. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 * Kampanjanalys/kubrapporter. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target="_blank"}
 * Rapportera delning enligt schema som PDF och CSV, eller länk. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}
-* Exportera/hämta en rapport som en CSV- eller PDF-fil. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}
 
 ## Datamodellering och datainmatning {#data-capabilities}
 
 Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgängliga i klientkonsolen.
 
-Bläddra bland länkarna för att bläddra bland [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} och lär dig mer.
+Bläddra bland länkarna i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} och lär dig mer.
 
 * Externa konton. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Skapande och tillägg av schema. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Lär dig hantera leverans, innehåll och målgodkännanden i kampanjer i [Kampan
 
 ## Behörigheter {#permissions-capabilities}
 
-Kampanjanvändare har bara åtkomst till gränssnittet i Campaign-webben via Adobe ID via Adobe Identity Management System (IMS).
+Kampanjanvändare har bara åtkomst till gränssnittet i Campaign-webben via Adobe ID via Adobe Identity Management System (IMS). Behörigheter som ges till användare gäller även i användargränssnittet för Campaign-webben.
 
 Behörigheterna definieras i Adobe Admin Console och Adobe Campaign klientkonsol som detaljerade [i det här avsnittet](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). Behörighetsåtgärder kan inte utföras via Adobe Campaign webbgränssnitt.
 
 
+## Övervakning {#monitoring-capabilities}
+
+Övervakningskapaciteten för Campaign-plattformen är bara tillgänglig i klientkonsolen och på Campaign-kontrollpanelen. De visas inte i gränssnittet för Campaign-webben.
+
+Bläddra bland länkarna till [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} om du vill veta mer.
+
+* [Arbetsflödesövervakning](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [Värmekarta för arbetsflöde](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
