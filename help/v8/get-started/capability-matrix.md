@@ -5,7 +5,7 @@ description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Arbetsflöden {#wf-capabilities}
 
-Det nya gränssnittet Campaign Web ger ett nytt arbetsflödesgränssnitt där du kan utforma och hantera processer. Viktiga arbetsflödesaktiviteter är redan tillgängliga i den nya designen, andra kommer i en framtida version. Läs mer om arbetsflödets funktioner, inklusive säkerhetsutkast och begränsningar [i det här avsnittet](../workflows/gs-workflows.md)
+Det nya gränssnittet Campaign Web ger ett nytt arbetsflödesgränssnitt där du kan utforma och hantera processer. Viktiga arbetsflödesaktiviteter är redan tillgängliga i den nya designen, andra kommer i en framtida version. Läs mer om arbetsflödets funktioner, inklusive säkerhetsutkast och begränsningar [i det här avsnittet](../get-started/guardrails.md).
 
 Observera att följande funktioner endast är tillgängliga i Campaign-klientkonsolen:
 
