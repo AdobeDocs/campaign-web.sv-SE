@@ -4,9 +4,9 @@ title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -16,14 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landningssidor"
->abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera kundvärvning, prenumerationer/avbeställningar och blockeringslista-användningsfall, baserat på inbyggda mallar."
+>abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera kundvärvning, prenumeration/avprenumeration och blocklist användningsfall, baserat på inbyggda mallar."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
 
-Med Adobe Campaign kan du skapa, designa och dela landningssidor. När det gäller marknadsföringskampanjer är en landningssida en fristående webbsida där en besökare dirigeras efter att ha klickat på en länk i ett e-postmeddelande, ett SMS eller en push-leverans eller en webbplats.
+[!DNL Adobe Campaign] gör att du kan skapa, utforma och dela landningssidor.
 
-[!DNL Adobe Campaign] gör att du kan skapa och utforma landningssidor som dirigerar användarna till onlineformulär där de kan välja att inte ta emot meddelanden eller prenumerera på en viss tjänst, t.ex. ett nyhetsbrev. Adobe Campaign har fyra mallar för att hantera förvärv, prenumerationer, avbeställningar och blockeringslista-fall.
+När det gäller marknadsföringskampanjer är en landningssida en fristående webbsida där en besökare dirigeras efter att ha klickat på en länk i ett e-postmeddelande, SMS, push-leverans eller på en webbplats.
 
-Viktiga funktioner listas nedan:
+Med landningssidor kan du dirigera användarna till onlineformulär där de kan välja att inte ta emot meddelanden eller prenumerera på en viss tjänst, t.ex. ett nyhetsbrev.
+
+>[!CAUTION]
+>
+>Landningssidor som du skapar i gränssnittet för Campaign-webben skiljer sig från webbformulär som skapas från klientkonsolen. Du kan inte visa eller redigera webbformulär i gränssnittet för webbkampanjen.
+>
+>Läs mer om webbformulär i [Dokumentation för kampanjkonsol](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+De viktigaste funktionerna för landningssidor anges nedan:
 
 * Utnyttja [!DNL Adobe Campaign] funktioner för att enkelt bygga **responsiva landningssidor**.
 * Konfigurera **avanmälnings- och avanmälningsflöden** snabbt och smidigt.

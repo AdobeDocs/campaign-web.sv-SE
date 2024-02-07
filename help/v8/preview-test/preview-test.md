@@ -4,9 +4,9 @@ title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Begränsad tillgänglighet"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,11 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Förhandsgranska och testa dina meddelanden"
->abstract="När meddelandeinnehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det."
+>title="Förhandsgranska och testa ditt innehåll"
+>abstract="När innehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Förhandsgranska meddelandeinnehållet"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka testleveranser"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
 När leveransinnehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det innan du skickar meddelandet.
 
@@ -29,6 +30,7 @@ För att göra detta [!DNL Adobe Campaign] kan du:
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
 * [Skicka testleveranser](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
+* [Förhandsgranska och testa landningssidorna](../landing-pages/create-lp.md#test-landing-page)
 
 Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt från skärmen Redigera innehåll på leveransen - eller från [E-postdesigner](../email/get-started-email-designer.md).
 
