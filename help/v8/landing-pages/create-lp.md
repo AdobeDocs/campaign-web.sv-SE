@@ -3,7 +3,7 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 1%
@@ -78,8 +78,8 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 1. Välj en mall:
    * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera profildata.
-   * **[!UICONTROL Subscription]**: Använd den här mallen för att göra det möjligt för användare att prenumerera på en viss [service](manage-services.md).
-   * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på tjänsten [service](manage-services.md).
+   * **[!UICONTROL Subscription]**: Använd den här mallen för att göra det möjligt för användare att prenumerera på en viss [service](../audience/manage-services.md).
+   * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på tjänsten [service](../audience/manage-services.md).
    * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. Läs mer om hantering av blockeringslista
 
    ![](assets/lp-templates.png)
