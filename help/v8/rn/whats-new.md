@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1292'
 ht-degree: 1%
 
 ---
@@ -168,7 +168,7 @@ Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt 
 
 Begränsningarna nedan gäller den här versionen:
 
-* Redigerbara objekt är: mottagare, leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter och mallar. De andra är skrivskyddade. Använd filter och skapa regler för att bläddra bland alla.
+* Redigerbara objekt är: mottagare, leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter, mallar och landningssidor. De andra är skrivskyddade. Använd filter och skapa regler för att bläddra bland alla.
 * Administration och avancerade konfigurationsfunktioner är inte tillgängliga i gränssnittet för Campaign-webben.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
