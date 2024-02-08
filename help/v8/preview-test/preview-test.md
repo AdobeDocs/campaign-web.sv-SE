@@ -4,9 +4,9 @@ title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Begränsad tillgänglighet"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 >id="acw_deliveries_simulate"
 >title="Förhandsgranska och testa ditt innehåll"
 >abstract="När innehållet har definierats kan du använda testprofiler för att förhandsgranska och testa det."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Förhandsgranska meddelandeinnehållet"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka testleveranser"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
