@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Med användargränssnittet i Campaign Web kan du skapa, utforma och skicka e-pos
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa kanaler.
 
 * **Direktreklam**. Med direktreklamkanalen kan du skicka en fysisk korrespondens till kunder, kunder, leverantörer eller andra, som meddelanden, fakturor, kontoutdrag, marknadserbjudanden med mera. Den här kanalen är bara tillgänglig i klientkonsolen.  [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* **LINE-meddelanden**. LINE är ett program för kostnadsfria snabbmeddelanden, röst- och videosamtal som finns på alla mobila enheter och på datorn. I Adobe Campaign kan du endast skicka LINE-meddelanden från klientkonsolen.[Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **LINE-meddelanden**. LINE är ett program för kostnadsfria snabbmeddelanden, röst- och videosamtal som finns på alla mobila enheter och på datorn. I Adobe Campaign kan du endast skicka LINE-meddelanden från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Anropscenter och Egna kanaler. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social marknadsföring med X (Twitter). [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
@@ -124,7 +124,7 @@ Läs mer om tillgängliga arbetsflödesaktiviteter i arbetsflödesdokumentatione
 
 ## Erbjudandehantering {#offer-capabilities}
 
-Med Adobe Campaign Web kan du skicka med leveranserbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Erbjudandeutformning, regler för behörighet och erbjudandehantering är bara tillgängligt i Campaign-klientkonsolen. [Läs mer](../msg/offers.md)
+Du kan skicka erbjudanden i leveranser som skapats i Adobe Campaign webbgränssnitt. Erbjudandena måste ha skapats i klientkonsolen med **[!UICONTROL Interaction]** -modul. Erbjudandeutformning, regler för behörighet och erbjudandehantering är bara tillgängligt i Campaign-klientkonsolen. [Läs mer](../msg/offers.md)
 
 Lär dig hur du hanterar en erbjudandekatalog i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

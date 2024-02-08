@@ -4,9 +4,9 @@ title: Lägg till erbjudanden i dina meddelanden
 description: Lär dig lägga till och skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Begränsad tillgänglighet"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Lägg till erbjudanden i dina meddelanden {#offers-content}
 
-Med Adobe Campaign Web kan du skicka med leveranserbjudanden som har skapats i konsolen via **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Du kan lägga till erbjudanden i Adobe Campaign webbgränssnitt. Erbjudandena måste ha skapats i Campaign-klientkonsolen med **[!UICONTROL Interaction]** -modul. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 Så här skickar du erbjudanden med en leverans:
 
