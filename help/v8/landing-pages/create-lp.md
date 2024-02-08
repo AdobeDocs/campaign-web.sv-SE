@@ -3,9 +3,9 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1203'
 ht-degree: 1%
 
 ---
@@ -80,9 +80,13 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
    * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera profildata.
    * **[!UICONTROL Subscription]**: Använd den här mallen för att göra det möjligt för användare att prenumerera på en viss [service](../audience/manage-services.md).
    * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på tjänsten [service](../audience/manage-services.md).
-   * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign. Läs mer om hantering av blockeringslista
+   * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Lär dig hur du implementerar de olika användningsfall som motsvarar de olika mallarna i [det här avsnittet](lp-use-cases.md).
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -94,7 +98,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 1. I **[!UICONTROL Data preload]** är de två alternativen nedan markerade som standard:
 
-   * The **[!UICONTROL Pre-fill with the data referenced in the form]** kan du automatiskt förhandsladda data som matchar inmatnings- och kopplingsfält i formuläret.
+   * När **[!UICONTROL Pre-fill with the data referenced in the form]** Om besökaren på landningssidan matchar en profil från databasen, är alternativet markerat och profilens information automatiskt förinläst i formuläret. Användaren behöver bara fylla i de fält som saknas och uppdatera de befintliga värdena om det behövs. Detta gör att du kan sammanfoga data för befintliga profiler i stället för att skapa dubbletter.
 
    * The **[!UICONTROL Skip preloading if no ID]** Du måste markera det här alternativet om du inte vill uppdatera profiler. I det här fallet läggs alla profiler som anges till i databasen när formuläret har godkänts. Det här alternativet används till exempel när formuläret publiceras på en webbplats.
 
@@ -118,7 +122,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
      >
      >Om inget startdatum definieras blir landningssidan live så snart den har publicerats.
 
-   * När sidan når slutdatumet avpubliceras landningssidan automatiskt och formuläret är inte längre tillgängligt. The **[!UICONTROL Expiration]** sidan visas i stället.
+   * När sidan når slutdatumet, <!--the landing page is automatically unpublished and -->formuläret inte längre är tillgängligt. The **[!UICONTROL Expiration]** sidan visas i stället.
 
      >[!NOTE]
      >
