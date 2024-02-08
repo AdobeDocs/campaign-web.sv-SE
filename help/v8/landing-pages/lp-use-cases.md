@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ När mottagarna har fått e-postmeddelandet klickar du på länken till landning
 
 ## Avsluta prenumeration {#lp-unsubscription}
 
+Du kan göra det möjligt för dina kunder att avbryta prenumerationen på en tjänst via en landningssida.
+
 1. Kontrollera att du har skapat en bekräftelsemall för användare som vill avbryta prenumerationen på tjänsten, så att du enkelt kan välja den när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
 
 1. I [prenumerationstjänst](../audience/manage-services.md)väljer du den mall som du skapade som det bekräftelsemeddelande som användarna får när de avbeställer prenumerationen.
@@ -167,11 +169,11 @@ När mottagarna har fått e-postmeddelandet klickar du på länken till landning
 
 1. Granska och [publicera](create-lp.md#publish-landing-page) din landningssida.
 
-1. Skapa en [e-post](../email/create-email.md) och [lägga till en länk](../email/message-tracking.md#insert-links) att köra trafik till landningssidan för registrering.
+1. Skapa en [e-post](../email/create-email.md) och [lägga till en länk](../email/message-tracking.md#insert-links) till landningssidan.
 
-När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar formuläret, så dirigeras de till bekräftelsesidan för avprenumeration och tas bort från prenumerationslistan.
+När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar formuläret, så dirigeras de till bekräftelsesidan för avprenumeration och tas bort från motsvarande prenumerationstjänst.
 
-## Konfigurera landningssidor för avanmälan {#lp-denylist}
+## Blockeringslista {#lp-denylist}
 
 Att ge mottagarna möjlighet att avbryta prenumerationen på information från ett varumärke är ett juridiskt krav. Därför måste du alltid inkludera en **avbeställ länk** i alla e-postmeddelanden som skickas till mottagarna. När du klickar på den här länken dirigeras mottagarna till en landningssida med en knapp som bekräftar att de avanmäler sig.
 

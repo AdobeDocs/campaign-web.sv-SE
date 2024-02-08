@@ -6,7 +6,7 @@ title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för kampanj
 hide: true
-source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -93,7 +93,7 @@ ht-degree: 9%
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
    + [Design av landningssidans innehåll](landing-pages/lp-content.md)
    + [Arbeta med landningssidmallar](landing-pages/lp-templates.md)
-   + [Lär dig användningsexempel](landing-pages/lp-use-cases.md)
+   + [Lär dig mer om användningsexempel](landing-pages/lp-use-cases.md)
 + Profiler och målgrupper {#audiences}
    + [Kom igång med profiler och målgrupper](audience/gs-audiences-recipients.md)
    + [Måldimensioner](audience/targeting-dimensions.md)
