@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '2142'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 * **Direktreklam**. Med direktreklamkanalen kan du skicka en fysisk korrespondens till kunder, kunder, leverantörer eller andra, som meddelanden, fakturor, kontoutdrag, marknadserbjudanden med mera. Den här kanalen är bara tillgänglig i klientkonsolen.  [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE-meddelanden**. LINE är ett program för kostnadsfria snabbmeddelanden, röst- och videosamtal som finns på alla mobila enheter och på datorn. I Adobe Campaign kan du endast skicka LINE-meddelanden från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* Anropscenter och Egna kanaler. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* Social marknadsföring med X (Twitter). [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
+* **Callcenter och anpassade kanaler**. Call center och andra anpassade kanaler kan implementeras i er Campaign-miljö. Dessa kanaler är bara tillgängliga i klientkonsolen. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **Social marknadsföring** med X (Twitter). Ni interagerar med era kunder via X (Twitter) genom att skicka meddelanden och direktmeddelanden. Den här funktionen, som kommer med tillägget Social Marketing, är bara tillgänglig från klientkonsolen - [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
 ## Landningssidor och webbprogram {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Med Adobe Campaign kan du skapa, designa och dela landningssidor. landningssidor
 
 I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra en landningssida som skapats i webbgränssnittet - och omvänt. Följande typer av webbprogram är inte tillgängliga i gränssnittet för Campaign-webben. De visas dock i listan över landningssidor. Använd länkarna för att bläddra i dokumentationen för Campaign Classic v7 och läs mer om dessa webbprogram:
 
-* Webbprogram. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* Webbformulär. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}
-* Onlineundersökningar. [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **Webbprogram**. Med Adobe Campaign kan du skapa och publicera dynamiska och interaktiva webbapplikationer med förinlästa data från databasen och innehåll som är anpassat efter den anslutna användarens rättigheter. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **Webbformulär**. Webb- och landningssidor som är utformade i klientkonsolen visas i gränssnittet för webbkampanjen, men kan inte redigeras eller ändras. Vissa alternativ kan skilja sig åt mellan klientkonsolens webbsidesigner och landningssidans designer som kommer med gränssnittet för webben i Campaign. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}
+* **Onlineundersökningar**. Du kan endast skapa onlinesenkäter och samla in svar från klientkonsolen. Den här funktionen är inte tillgänglig i gränssnittet för Campaign-webben.  [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## Profiler, testprofiler och målgrupper {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Med det nya användargränssnittet kan du hantera synkronisering av e-postmallar
 
 Observera att följande funktioner för tillfället inte är tillgängliga i gränssnittet för Campaign-webben. Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa funktioner.
 
-* Skapa anpassade personaliseringsblock. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* Innehåll från anpassade formulär (modulen Innehållshantering). [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* AMP för e-post. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **Skapa block för anpassad personalisering**. Förutom standardanpassningsblocken kan du skapa anpassade block från klientkonsolen. Den här funktionen är inte tillgänglig i gränssnittet för Campaign-webben. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **Innehåll från anpassade formulär**. Med innehållshanteringsmodulen kan du skapa och hantera formulär som hjälper dina användare när de skapar innehåll i Campaign. Den här funktionen är bara tillgänglig med klientkonsolen. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **AMP för e-post**. Med det nya formatet AMP for Email kan du inkludera AMP-komponenter i dina meddelanden och förbättra e-postupplevelsen med ett omfattande och användbart innehåll. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgänglig
 
 Bläddra bland länkarna i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} om du vill veta mer.
 
-* Externa konton. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* Skapande och tillägg av schema. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* Arbetsflödesaktiviteter för datahantering: Datainläsning, extrahering (fil), Uppdatera data, Redigera schema, Tekniska arbetsflöden för import/export. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Kampanjkonfiguration och anslutning till externa system. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+* **Externa konton**. Adobe Campaign har en uppsättning fördefinierade externa konton som kan anslutas till externa system. Som systemadministratör för en kampanj kan du bara skapa och hantera externa konton från klientkonsolen.[Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **Skapande och tillägg av schema**. Framtagning, ändring och tillägg av scheman är begränsade till avancerade användare. Dessa funktioner är bara tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **Datahantering** arbetsflödesaktiviteter. Datahantering kombinerar en uppsättning aktiviteter för att lösa komplexa målgruppsproblem genom att erbjuda mer effektiva och flexibla verktyg. De här aktiviteterna är: Datainläsning, Extrahering (fil), Uppdatera data, Redigera schema, Importera/exportera tekniska arbetsflöden. De är bara tillgängliga i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **Åtkomst till federerade data**. Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Godkännanden {#approvals-capabilities}
 
