@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -170,8 +169,6 @@ Du kan konfigurera en **[!UICONTROL Denylist]** landningssida som gör det möjl
 Om du vill att användarna ska kunna välja bort alla leveranser måste du skapa och publicera en **[!UICONTROL Denylist]** landningssida.
 
 När en användare klickar på landningssidans länk visas **[!UICONTROL No longer contact (by any channel)]** i profilen väljs automatiskt.
-
-![](assets/blocklisting_allchannels.png)
 
 definiera **[!UICONTROL Opt-out]** kryssruta och välj att uppdatera **[!UICONTROL Channel (email)]**: den profil som kontrollerar avanmälningsrutan på din landningssida avvisas från all kommunikation.
 
