@@ -4,10 +4,10 @@ title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web-gränssnittet
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '334'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
 1. Du kan kombinera profiler och testprofiler för att förhandsgranska ditt e-postmeddelande eller SMS.
 
-   * The **[!UICONTROL Test profiles]** På -fliken visas alla dirigerade adresser, som är ytterligare och fiktiva mottagare i databasen.
-     ![](assets/simulate-select-profiles.png)
+   * The **[!UICONTROL Test profiles]** På -fliken visas alla testprofiler, som är ytterligare och fiktiva mottagare i databasen. [Lär dig hur du arbetar med testprofiler](../audience/test-profiles.md)
 
-     Testprofiler kan skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
+   * The **[!UICONTROL Profiles]** På -fliken visas alla profiler som lagras i databasen. [Lär dig arbeta med profiler](../audience/about-recipients.md)
 
-
-   * The **[!UICONTROL Profiles]** På -fliken visas alla mottagare som är lagrade i **[!UICONTROL Profiles and Targets]** mapp från [!DNL Campaign] klientkonsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     Du kan visa, skapa och hantera profiler från **[!UICONTROL Profiles]** -fliken. [Läs mer](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
+   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. [Lär dig hur du lägger till regler med frågemodelleraren](../query/query-modeler-overview.md).
 
 1. Klicka **[!UICONTROL Select]** för att bekräfta ditt val.
 

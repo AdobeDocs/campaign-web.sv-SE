@@ -2,9 +2,9 @@
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -33,17 +33,15 @@ ht-degree: 0%
 
 ## Vad är en profil? {#what}
 
-En profil på Adobe Campaign Web är en person som lagras i databasen och som en nyckelkomponent till [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll.
+A **profil**, som också kallas &quot;mottagare&quot; i klientkonsolen, representerar en person som lagras i Campaign-databasen och fungerar som en nyckelkomponent för att [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll. Med Adobe Campaign kan ni hantera profiler smidigt, från att skapa nya tävlingsbidrag till att få en heltäckande bild av alla era profilers attribut och tjänsteabonnemang, allt via webbgränssnittet i Campaign.
 
-Med Adobe Campaign kan du skapa och övervaka dina profiler direkt från gränssnittet. Därifrån kan du skapa profiler, få tillgång till en detaljerad vy av dina profiler och redigera dem.
+Dessutom **[!UICONTROL test profiles]**, som identifieras som&quot;dirigerade profiler&quot; i klientkonsolen, gör att du kan rikta dig till fler mottagare som inte matchar målinriktningsvillkoren för en viss leverans. Dessa profiler innehåller fiktiv kontaktinformation, eller kontaktinformation som styrs av avsändaren. De kan läggas in i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelandena kommer in i inkorgen. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
-Andra typer av profiler lagras i databasen, till exempel **[!UICONTROL Test profiles]**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
+Både profiler och testprofiler kan användas för att testa era leveranser innan de når den avsedda målgruppen. På så sätt kan du förhandsgranska meddelandets innehåll och personalisering, skicka korrektur för testning och validering, utvärdera e-poståtergivning på olika plattformar och enheter och testa landningssidorna. [Lär dig hur du förhandsgranskar och testar leveranser](../preview-test/preview-test.md)
 
 ## Öppna listan med profiler {#access}
 
-Profilerna är tillgängliga och redigerbara i Adobe Campaign Web från **[!UICONTROL Customer management]** > **Profiler** inträde i det vänstra navigeringsfältet.
-
-Du kan även komma åt dem via **[!UICONTROL Explorer]** visa, från **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** nod. Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
+Profilerna är tillgängliga och redigerbara i Adobe Campaign Web från **[!UICONTROL Customer management]** > **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem i **[!UICONTROL Explorer]** visa, från **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** nod. Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

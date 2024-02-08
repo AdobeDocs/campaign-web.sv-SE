@@ -4,9 +4,9 @@ title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i användargränssnittet för Campaign på webben
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Om du vill göra det kan du använda **Litmus** konto till [!DNL Adobe Campaign]
 Om du vill få åtkomst till funktionerna för e-poståtergivning måste du:
 
 * Har ett Litmus-konto
-* Välj testprofiler - Lär dig hur i [det här avsnittet](preview-content.md)
+* Välja profiler och/eller testprofiler - Lär dig hur i [det här avsnittet](preview-content.md)
 
 Följ sedan stegen nedan.
 
