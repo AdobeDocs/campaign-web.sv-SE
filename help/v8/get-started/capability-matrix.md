@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Med Campaign Web-gränssnittet kan ni skapa kampanjer i flera kanaler som detalj
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och lär dig hur du använder dessa funktioner.
 
-* Marknadskalender. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* Program och planer. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* Leverantörer, budget och kostnadshantering. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* Distribuerad marknadsföring (Central/Local marketing). [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
-* Marknadsföringsresurshantering, mål, simuleringar och kostnadskontroll. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* Uppgiftshantering. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **Marknadskalender**. Kampanjkalendern visar alla program, planer, kampanjer och leveranser i en global tidslinje. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **Program och planer**. Varje kampanj tillhör ett program som tillhör en plan. I Campaign Web-användargränssnittet är alla kampanjer kopplade till en inbyggd standardplan och ett standardprogram. Du kan bara skapa och hantera planer och program i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **Leverantörer, budget och kostnadshantering**. Ni kan konfigurera tjänsteleverantörer som deltar i de jobb som utförs inom era kampanjer, inklusive kostnadsstrukturer, och hantera budgeten inom varje program och kampanj. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **Distribuerad marknadsföring** (Central/lokal marknadsföring). Adobe Campaign erbjuder en app för distribuerad marknadsföring för att implementera samarbetskampanjer mellan centrala enheter (huvudkontor, marknadsföringsavdelningar osv.) och lokala enheter (säljställen, regionala organ osv.). Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
+* **Hantering av marknadsföringsresurser** (MRM), mål, simuleringar och kostnadskontroll. Adobe Campaign erbjuder en MRM-app (Marketing Resource Management) som gör att ni kan styra marknadsföringsåtgärder i ett samverkansbaserat läge genom att tillhandahålla fullständig hantering och realtidsspårning av uppgifter, budget och marknadsföringsresurser. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **Uppgiftshantering**. Som en del av MRM-appen kan kampanjaktiviteter skapas, tilldelas, spåras och övervakas från kontrollpanelen för kampanjer. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## Kommunikationskanaler {#channels-capabilities}
 
