@@ -6,9 +6,9 @@ title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för kampanj
 hide: true
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 9%
    + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
-   + [Funktioner som inte stöds](get-started/capability-matrix.md)
+   + [Klientkonsol för Campaign Web och Campaign](get-started/capability-matrix.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)

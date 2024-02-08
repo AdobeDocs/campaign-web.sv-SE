@@ -4,9 +4,9 @@ title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -158,20 +158,20 @@ I gränssnittet för Campaign-webben återspeglar användargränssnittet använd
 
 Som befintlig Campaign-användare bör du tänka på att vissa koncept har bytt namn för att passa in i de senaste terminologinställningarna. De här ändringarna gäller bara för användargränssnittet i Campaign Web och återspeglas inte i klientkonsolen. De sammanfattas nedan.
 
-* Korrektur är nu **Testa e-post**: om du vill skicka ett korrektur använder du **Testa** i e-postleveransgränssnittet. Målet för korrekturet kallas nu för **Testprofiler**. [Läs mer](../preview-test/test-deliveries.md).
-* Seed-adresser används nu som **Testprofiler**: skicka testmeddelandet till dirigerade adresser, som är ytterligare mottagare i databasen. [Läs mer](../preview-test/test-deliveries.md).
+* Mottagarna är nu **Profiler**. [Läs mer](../audience/gs-audiences-recipients.md).
+* Seed-adresserna är nu **Testprofiler**. [Läs mer](../preview-test/test-deliveries.md).
 * Leveransanalysen är nu **färdigställande av leverans**. När du behöver starta meddelandeförberedelsen klickar du på **Förbered** -knappen. [Läs mer](../monitor/prepare-send.md).
 * E-postförhandsgranskning är nu tillgänglig via **Simulera innehåll** -knappen. [Läs mer](../preview-test/preview-test.md)
-* Listor finns nu **Målgrupper**. [Läs mer](../audience/about-recipients.md).
+* Listor finns nu **Målgrupper**. [Läs mer](../audience/gs-audiences-recipients.md).
 
 ## Begränsningar{#limitations-beta}
 
 Begränsningarna nedan gäller den här versionen:
 
 * Redigerbara objekt är: mottagare, leveranser, kampanjer, arbetsflöden, målgrupper, prenumerationstjänster, fördefinierade filter och mallar. De andra är skrivskyddade. Använd filter och skapa regler för att bläddra bland alla.
-* Användargränssnittet Administration är inte tillgängligt.
+* Administration och avancerade konfigurationsfunktioner är inte tillgängliga i gränssnittet för Campaign-webben.
 * Rapporteringsstatistik (som öppnings- och spårningsdata) uppdateras varje timme.
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not integrated.
 
-Fler skyddsförslag och begränsningar finns i [den här sidan](../get-started/guardrails.md).
+Läs mer om funktioner som stöds/inte stöds och interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign. [på den här sidan](../get-started/capability-matrix.md).

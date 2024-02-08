@@ -2,21 +2,19 @@
 audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
 
-# Funktionsmatris för kampanjwebbgränssnitt/klientkonsol {#capabilities-matrix}
+# Campaign Web and Campaign Client Console {#capabilities-matrix}
 
 De viktigaste Campaign-funktionerna finns i gränssnittet för Campaign-webben. Det här gränssnittet var primärt utformat för att marknadsförarna ska kunna planera, lansera och mäta sina marknadsföringskampanjer. Alla funktioner listas [på den här sidan](../rn/whats-new.md).
 
-Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutning till andra system hanteras i Campaign-klientkonsolen. Därför kan vissa inställningar och funktioner bara nås, skapas eller hanteras från Campaign Client Console. Vissa kommer att vara tillgängliga i en senare uppdatering av användargränssnittet i Campaign Web.
+Anpassning av kampanjplattform baserat på affärs- och databehov, och anslutning till andra system hanteras i Campaign-klientkonsolen. Därför kan vissa inställningar och funktioner bara nås, skapas eller hanteras från Campaign-klientkonsolen. Vissa kommer att vara tillgängliga i en senare uppdatering av användargränssnittet i Campaign Web.
 
 <!--
 **Homepage**
@@ -61,7 +59,9 @@ I Campaign-klientkonsolen kan du därför inte redigera, uppdatera eller ändra 
 
 ## Profiler, testprofiler och målgrupper {#profiles-audiences-capabilities}
 
-Du kan skapa, hantera och uppdatera profiler och testprofiler i både Campaign-klientkonsolen och Campaign-webbgränssnittet. Alla ändringar som görs i det ena gränssnittet visas i det andra. Vissa specifika mottagarinställningar och avancerade parametrar kan saknas i det nya webbgränssnittet för Campaign. Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; i det nya webbgränssnittet.
+Du kan skapa, hantera och uppdatera profiler och testprofiler i både Campaign-klientkonsolen och Campaign-webbgränssnittet. Alla ändringar som görs i det ena gränssnittet visas i det andra. Vissa specifika mottagarinställningar och avancerade parametrar kan saknas i det nya webbgränssnittet för Campaign.
+
+Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; i det nya webbanvändargränssnittet och &quot;dirigerade adresser&quot; är nu &quot;Testprofiler&quot;
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Vissa funktioner är bara tillgängliga från klientkonsolen. Bläddra bland lä
 
 Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgängliga i klientkonsolen.
 
-Bläddra bland länkarna i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} och lär dig mer.
+Bläddra bland länkarna i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"} om du vill veta mer.
 
 * Externa konton. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Skapande och tillägg av schema. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
