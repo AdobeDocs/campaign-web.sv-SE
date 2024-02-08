@@ -3,9 +3,9 @@ title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 1%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 1%
 
 När du redigerar innehållet på en sida på landningssidan är den redan ifylld.
 
-Den primära sidan är den sida som visas omedelbart för användarna efter att de har klickat på länken till din landningssida, till exempel från ett e-postmeddelande eller en webbplats. Den primära sidan är redan förfylld med [landningssidspecifik formulärkomponent](#use-form-component) för att göra det möjligt för användare att välja och skicka sina val. Du kan också definiera [landningssidspecifika format](#lp-form-styles).
+Den första sidan, som visas omedelbart för användarna när de klickar på länken till landningssidan, är redan förfylld med [landningssidspecifik formulärkomponent](#use-form-component) för den valda mallen så att användarna kan välja och skicka sina val. Du kan också definiera [landningssidspecifika format](#lp-form-styles).
 
 Om du vill designa innehållet på landningssidan ytterligare kan du använda samma komponenter som för ett e-postmeddelande. [Läs mer](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+Innehållet i **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** och **[!UICONTROL Expiration]** sidorna är också förfyllda. Redigera dem efter behov.
 
 ## Använda formulärkomponenten {#use-form-component}
 
@@ -80,7 +69,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
    Ange om den här kryssrutan ska avanmäla användare till eller från. Välj bland de två alternativen nedan:
 
-   * **[!UICONTROL Subscribe if checked]**: Användarna måste markera kryssrutan för att godkänna (anmälan).
+   * **[!UICONTROL Subscribe in if checked]**: Användarna måste markera kryssrutan för att godkänna (anmälan).
    * **[!UICONTROL Unsubscribe if checked]**: Användarna måste markera kryssrutan för att ta bort sitt samtycke (avanmälan).
 
 1. Du kan ta bort och lägga till så många textfält och/eller kryssrutor som behövs.
@@ -95,7 +84,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
    * **[!UICONTROL Redirect URL]**: Ange URL-adressen till sidan som användarna ska omdirigeras till.
 
-1. Om du vill göra ytterligare uppdateringar när du skickar formuläret väljer du **[!UICONTROL Addtional updates]**, välja **[!UICONTROL Opt in]** eller **[!UICONTROL Opt out]** och ange om du vill uppdatera en prenumerationslista, kanalen eller bara den e-postadress som används.
+1. Om du vill göra ytterligare uppdateringar när du skickar formuläret väljer du **[!UICONTROL Additional updates]**, välja **[!UICONTROL Opt in]** eller **[!UICONTROL Opt out]** och ange om du vill uppdatera en prenumerationslista, kanalen eller bara den e-postadress som används.
 
    ![](assets/lp-form-additionnal-updates.png)
 

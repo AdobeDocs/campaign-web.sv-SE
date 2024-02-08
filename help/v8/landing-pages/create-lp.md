@@ -3,9 +3,9 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,11 @@ Publicerad:
 
 * Landningssidan läggs till i landningssidans lista med **[!UICONTROL Published]** status. Den är nu live och klar att refereras till i innehållet.
 
-* Du kan kopiera och klistra in **[!UICONTROL Landing page URL]** som visas överst på sidan i en webbläsare.
+* Du kan kopiera och klistra in **[!UICONTROL Landing page URL]** som visas överst på sidan i en webbläsare för att förhandsgranska din landningssida.
+
+>[!CAUTION]
+>
+>Om du vill testa eller utnyttja landningssidan fullt ut kan du inte kopiera och klistra in länken direkt i en webbläsare eller i leveranser. Använd i stället [Simulera innehåll](#test-landing-page) för att testa den och följa stegen i [det här avsnittet](lp-use-cases.md) för att använda landningssidan på rätt sätt.
 
 ![](assets/lp-published.png)
 

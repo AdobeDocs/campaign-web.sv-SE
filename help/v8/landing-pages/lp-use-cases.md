@@ -9,52 +9,132 @@ role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5349c94e36e24c5612453e771cc17f15c57c926d
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 0%
 
 ---
 
-# Användningsexempel för landningssida {#lp-use-cases}
+# Använda en landningssida {#lp-use-cases}
 
-Nedan finns några exempel på hur du kan använda [!DNL Journey Optimizer] landningssidor så att dina kunder kan välja att inte ta emot vissa eller alla meddelanden.
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_url"
+>title="Kopiera URL med försiktighet"
+>abstract="Om du vill testa eller utnyttja landningssidan fullt ut kan du inte kopiera och klistra in länken direkt i en webbläsare eller i leveranser. Använd i stället **Simulera innehåll** för att testa den och följa de steg som beskrivs i dokumentationen för att använda landningssidan på rätt sätt."
 
-## Prenumeration på en tjänst {#subscription-to-a-service}
+Om du vill använda landningssidan på rätt sätt bör du referera till den som en länk i en leverans med det dedikerade alternativet.
 
-Ett av de vanligaste användningsområdena är att bjuda in kunderna till [prenumerera på en tjänst](subscription-list.md) (till exempel ett nyhetsbrev eller ett evenemang) via en landningssida. De viktigaste stegen visas i diagrammet nedan:
+>[!CAUTION]
+>
+>Om du vill utnyttja din landningssida fullt ut kan du inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen för leverans direkt på leveransen eller till en webbsida.
 
-![](assets/lp_subscription-uc.png)
+I [!DNL Adobe Campaign Web] fyra färdiga mallar gör det möjligt att implementera olika användningsområden. Huvudstegen är dock fortfarande desamma och beskrivs nedan.
 
-Anta till exempel att du ordnar ett event nästa månad och vill starta en kampanj för att registrera event<!--to keep your customers that are interested updated on that event-->. För att göra detta ska du skicka ett e-postmeddelande med en länk till en landningssida där mottagarna kan registrera sig för evenemanget. De användare som registrerar sig läggs till i prenumerationslistan som du har skapat för detta ändamål.
+1. [Skapa en landningssida](create-lp.md#create-landing-page) och välj en mall beroende på ditt användningssätt:
 
-### Konfigurera en landningssida {#set-up-lp}
+   * [Förvärv](#lp-acquisition)
+   * [Prenumeration](#lp-subscription)
+   * [Avsluta prenumeration](#lp-unsubscription)
+   * [Blockeringslista](#lp-denylist)
 
-1. Skapa händelseregistreringens prenumerationslista, som lagrar registrerade användare. Lär dig hur du skapar en prenumerationslista [här](subscription-list.md#define-subscription-list).
+1. Definiera egenskaper och inställningar för landningssidan.
 
-   ![](assets/lp_subscription-uc-list.png)
+   ![](assets/lp-uc-properties.png)
 
-1. [Skapa en landningssida](create-lp.md) för att göra det möjligt för mottagarna att registrera sig för evenemanget.
+1. Välj **[!UICONTROL Acquisition]**, **[!UICONTROL Subscription]**, **[!UICONTROL Unsubscription]** eller **[!UICONTROL Denylist]** sida.
 
-   ![](assets/lp_create-lp-details.png)
+1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
 
-1. Konfigurera registreringen [primär landningssida](create-lp.md#configure-primary-page).
+   ![](assets/lp-uc-form.png)
 
-1. När du utformar [innehåll på landningssidan](design-lp.md)markerar du den prenumerationslista som du skapade för att uppdatera den med de profiler som markerar kryssrutan för registrering.
+1. Gör så många andra uppdateringar av landningssidans etiketter och fält som behövs. Redigera resten av materialet som du vill, spara ändringarna och stäng det.
 
-   ![](assets/lp_subscription-uc-lp-list.png)
+1. Följ stegen nedan för varje användningsfall.
 
-1. Skapa en&quot;tack&quot;-sida som visas för mottagarna när de har skickat in registreringsformuläret. Lär dig konfigurera delsidor för landning [här](create-lp.md#configure-subpages).
+1. Redigera **[!UICONTROL Confirmation]** sida efter behov, samt **[!UICONTROL Error]** och **[!UICONTROL Expiration]** sidor. Den visas för mottagarna när de har skickat in registreringsformuläret.
 
-   ![](assets/lp_subscription-uc-thanks.png)
+   ![](assets/lp-uc-confirmation-page.png)
 
-1. [Publicera](create-lp.md#publish) landningssidan.
+1. Testa och [publicera](create-lp.md#publish-landing-page) din landningssida.
 
-1. I en [resa](../building-journeys/journey.md), lägga till **E-post** verksamhet för att köra trafik till landningssidan för registrering.
+1. Skapa en [e-post](../email/create-email.md) leverans för att köra trafik till landningssidan.
 
-   ![](assets/lp_subscription-uc-journey.png)
+1. [Infoga en länk](../email/message-tracking.md#insert-links) i ert meddelandeinnehåll. Välj **[!UICONTROL Landing page]** som **[!UICONTROL Link type]** och väljer [landningssida](create-lp.md#configure-primary-page) som du skapade.
 
-1. [Designa e-postmeddelandet](../email/get-started-email-design.md) för att meddela att registreringen nu är öppen för ditt event.
+   ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Om du vill kunna skicka ditt meddelande kontrollerar du att landningssidan du valt inte har gått ut ännu. Lär dig hur du uppdaterar förfallodatumet [i det här avsnittet](create-lp.md#create-landing-page).
+
+När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar landningssidans formulär, dirigeras de till bekräftelsesidan och eventuella andra åtgärder som definieras på landningssidan tillämpas (till exempel kommer användarna att prenumerera på din tjänst eller kommer inte att få mer information från dig).
+
+Nedan finns några exempel på hur du kan använda [!DNL Adobe Campaign] landningssidor så att dina kunder kan välja att inte ta emot vissa eller alla meddelanden.
+
+## Profilinsamling {#lp-acquisition}
+
+1. [Skapa en landningssida](create-lp.md#create-landing-page). Välj **[!UICONTROL Acquisition]** mall.
+
+1. Definiera egenskaper och inställningar för landningssidan.
+
+   ![](assets/lp-uc-properties.png)
+
+1. Välj **[!UICONTROL Acquisition]** sida för att redigera innehållet.
+
+1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
+
+## Prenumeration på en tjänst {#lp-subscription}
+
+Ett av de vanligaste användningsområdena är att bjuda in kunderna till [prenumerera på en tjänst](../audience/manage-services.md) (till exempel ett nyhetsbrev eller ett evenemang) via en landningssida. Följ stegen nedan.
+
+<!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
+
+1. Börja med att skapa en bekräftelsemall för användare som prenumererar på ditt evenemang, så att du enkelt kan välja det när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
+
+   ![](assets/lp-uc-confirmation-email.png)
+
+1. Skapa en prenumerationstjänst som lagrar registrerade användare till ditt evenemang. [Lär dig skapa en tjänst](../audience/manage-services.md)
+
+1. Välj den mall som du skapade som det bekräftelsemeddelande som användarna får när de prenumererar.
+
+   ![](assets/lp-uc-subscription-service.png)
+
+1. [Skapa en landningssida](create-lp.md#create-landing-page) för att göra det möjligt för mottagarna att registrera sig för evenemanget. Välj **[!UICONTROL Subscription]** mall.
+
+   <!--![](assets/lp-uc-subscription-template.png)-->
+
+1. Definiera egenskaper och inställningar för landningssidan.
+
+   <!--![](assets/lp-uc-properties.png)-->
+
+1. Välj **[!UICONTROL Subscription]** sida för att redigera innehållet.
+
+   ![](assets/lp-uc-subscription-page-edit.png)
+
+1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär och utöka **[!UICONTROL Checkbox 1]** -avsnitt.
+
+   I **[!UICONTROL Subscriptions & services]** markerar du den tjänst du skapade för evenemanget. Lämna **[!UICONTROL Subscribe if checked]** aktiverat alternativ.
+
+   ![](assets/lp-uc-subscription-checkbox-1.png)
+
+1. Du kan till exempel lägga till ytterligare en kryssruta för att erbjuda prenumerationer i nyhetsbrevet.
+
+<!--
+
+1. You can also update the profiles who register for your event for the email channel. Expand the **[!UICONTROL Call to action]** section and select Additional updates.
+
+    ![](assets/lp-uc-subscription-call-to-action.png)-->
+
+1. Gör så många andra uppdateringar av landningssidans etiketter och fält som behövs. Redigera resten av materialet som du vill, spara ändringarna och stäng det.
+
+1. Redigera **[!UICONTROL Confirmation]** sida efter behov, samt **[!UICONTROL Error]** och **[!UICONTROL Expiration]** sidor. Den visas för mottagarna när de har skickat in registreringsformuläret.
+
+   ![](assets/lp-uc-confirmation-page.png)
+
+1. Testa och [publicera](create-lp.md#publish-landing-page) din landningssida.
+
+1. Skapa en **E-post** leverans för att köra trafik till landningssidan för registrering. Designa e-postmeddelandet för att meddela att registreringen nu är öppen för ditt event.
 
 1. [Infoga en länk](../email/message-tracking.md#insert-links) i ert meddelandeinnehåll. Välj **[!UICONTROL Landing page]** som **[!UICONTROL Link type]** och väljer [landningssida](create-lp.md#configure-primary-page) som du har skapat för registrering.
 
@@ -62,39 +142,21 @@ Anta till exempel att du ordnar ett event nästa månad och vill starta en kampa
 
    >[!NOTE]
    >
-   >Om du vill kunna skicka ditt meddelande kontrollerar du att landningssidan du valt inte har gått ut ännu. Lär dig hur du uppdaterar förfallodatumet [i det här avsnittet](create-lp.md#configure-primary-page).
+   >Om du vill kunna skicka ditt meddelande kontrollerar du att landningssidan du valt inte har gått ut ännu. Lär dig hur du uppdaterar förfallodatumet [i det här avsnittet](create-lp.md#create-landing-page).
 
-   När mottagarna har fått e-postmeddelandet och klickar på länken till landningssidan dirigeras de till&quot;tack&quot;-sidan och läggs till i prenumerationslistan.
+När mottagarna har fått e-postmeddelandet och klickar på länken till landningssidan och skickar landningssidans formulär dirigeras de till bekräftelsesidan och läggs till i prenumerationslistan.
 
-### Skicka en bekräftelse via e-post {#send-confirmation-email}
+## Avsluta prenumeration {#lp-unsubscription}
 
-Dessutom kan du skicka ett bekräftelsemeddelande via e-post till de mottagare som har registrerat sig för din aktivitet. Följ stegen nedan för att göra det.
+1. [Skapa en landningssida](create-lp.md#create-landing-page). Välj **[!UICONTROL Unsubscription]** mall.
 
-1. Skapa en till [resa](../building-journeys/journey.md). Du kan göra det direkt från landningssidan genom att klicka på **[!UICONTROL Create journey]** -knappen. [Läs mer](create-lp.md#configure-primary-page)
+1. Definiera egenskaper och inställningar för landningssidan.
 
-   ![](assets/lp_subscription-uc-create-journey.png)
+1. Välj **[!UICONTROL Unsubscription]** sida för att redigera innehållet.
 
-1. Ta fram **[!UICONTROL Events]** kategori och släpp en **[!UICONTROL Audience Qualification]** på arbetsytan. [Läs mer](../building-journeys/audience-qualification-events.md)
+1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
 
-1. Klicka på **[!UICONTROL Audience]** och välj den prenumerationslista som du har skapat.
-
-   ![](assets/lp_subscription-uc-confirm-journey.png)
-
-1. Lägg till ett bekräftelsemeddelande som du väljer och skicka det genom resan.
-
-   ![](assets/lp_subscription-uc-confirm-email.png)
-
-Alla användare som har registrerat sig för din aktivitet får bekräftelsemeddelandet via e-post.
-
-<!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
-
-## Välj ut {#opt-out}
-
-Om du vill att mottagarna ska kunna avbeställa din kommunikation kan du inkludera en länk till en avanmälningssida i dina e-postmeddelanden.
-
-Läs mer om hur du hanterar mottagarnas samtycke och varför detta är viktigt i [det här avsnittet](../privacy/opt-out.md).
-
-### Hantering av avanmälan {#opt-out-management}
+## Konfigurera landningssidor för avanmälan {#lp-denylist}
 
 Att ge mottagarna möjlighet att avbryta prenumerationen på information från ett varumärke är ett juridiskt krav. Läs mer om gällande lagstiftning i [Experience Platform dokumentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
@@ -103,136 +165,31 @@ Därför måste du alltid inkludera en **avbeställ länk** i varje e-postmeddel
 * När du klickar på den här länken dirigeras mottagarna till en landningssida med en knapp som bekräftar att de avanmäler sig.
 * När du klickar på avanmälningsknappen uppdateras profildata med den här informationen.
 
-### Konfigurera avanmälan {#configure-opt-out}
+Du kan konfigurera en **[!UICONTROL Denylist]** landningssida som gör det möjligt för användare att välja bort alla leveranser.
 
-Följ stegen nedan om du vill att mottagarna av ett e-postmeddelande ska kunna avbeställa från din kommunikation via en landningssida.
+Om du vill att användarna ska kunna välja bort alla leveranser måste du skapa och publicera en **[!UICONTROL Denylist]** landningssida.
 
-1. Skapa en landningssida. [Läs mer](create-lp.md)
+När en användare klickar på landningssidans länk visas **[!UICONTROL No longer contact (by any channel)]** i profilen väljs automatiskt.
 
-1. Definiera den primära sidan. [Läs mer](create-lp.md#configure-primary-page)
+![](assets/blocklisting_allchannels.png)
 
-1. [Design](design-lp.md) det primära sidinnehållet: använd landningssidans specifika **[!UICONTROL Form]** -komponent, definiera **[!UICONTROL Opt-out]** kryssruta och välj att uppdatera **[!UICONTROL Channel (email)]**: den profil som kontrollerar avanmälningsrutan på din landningssida avvisas från all kommunikation.
+definiera **[!UICONTROL Opt-out]** kryssruta och välj att uppdatera **[!UICONTROL Channel (email)]**: den profil som kontrollerar avanmälningsrutan på din landningssida avvisas från all kommunikation.
 
-   ![](assets/lp_opt-out-primary-lp.png)
+När meddelandet har tagits emot visas din startsida om en mottagare klickar på länken för att avbryta prenumerationen i e-postmeddelandet.
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
+![](assets/lp_opt-out-submit-form.png)
 
-1. Lägg till en bekräftelse [undersida](create-lp.md#configure-subpages) som visas för de användare som skickar formuläret.
+Om mottagaren markerar rutan och skickar formuläret:
 
-   ![](assets/lp_opt-out-subpage.png)
+* Mottagaren omdirigeras till bekräftelsemeddelandeskärmen.
 
-   >[!NOTE]
-   >
-   >Se till att du refererar till undersidan på den primära sidans **[!UICONTROL Call to action]** i **[!UICONTROL Form]** -komponenten. [Läs mer](design-lp.md)
+* Profildata uppdateras och kommer inte att få information från ert varumärke om ni inte prenumererar igen.
 
-1. När du har konfigurerat och definierat innehållet på dina sidor [publicera](create-lp.md#publish) landningssidan.
-
-1. [Skapa ett e-postmeddelande](../email/get-started-email-design.md) på en resa.
-
-1. Markera text i innehållet och [infoga en länk](../email/message-tracking.md#insert-links) med hjälp av kontextverktygsfältet. Du kan också använda en länk på en knapp.
-
-1. Välj **[!UICONTROL Landing page]** från **[!UICONTROL Link type]** nedrullningsbar lista och välj [landningssida](create-lp.md#configure-primary-page) som du skapade för att avanmäla dig.
-
-   ![](assets/lp_opt-out-landing-page.png)
-
-   >[!NOTE]
-   >
-   >Om du vill kunna skicka ditt meddelande kontrollerar du att landningssidan du valt inte har gått ut ännu. Lär dig hur du uppdaterar förfallodatumet [i det här avsnittet](create-lp.md#configure-primary-page).
-
-1. Publicera och kör resan. [Läs mer](../building-journeys/journey.md).
-
-1. När meddelandet har tagits emot visas din startsida om en mottagare klickar på länken för att avbryta prenumerationen i e-postmeddelandet.
-
-   ![](assets/lp_opt-out-submit-form.png)
-
-   Om mottagaren markerar rutan och skickar formuläret:
-
-   * Mottagaren omdirigeras till bekräftelsemeddelandeskärmen.
-
-   * Profildata uppdateras och kommer inte att få information från ert varumärke om ni inte prenumererar igen.
-
-Om du vill kontrollera att den aktuella profilens val har uppdaterats går du till Experience Platform och öppnar profilen genom att markera ett identitetsnamnutrymme och ett motsvarande identitetsvärde. Läs mer i [Experience Platform dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
-
-![](assets/lp_opt-out-profile-choice.png)
-
-I **[!UICONTROL Attributes]** kan du se att värdet för **[!UICONTROL choice]** har ändrats till **[!UICONTROL no]**.
-
-Information om avanmälan finns i **Samtycketjänstens datauppsättning**. [Läs mer om datauppsättningar](../data/get-started-datasets.md)
-
->[!NOTE]
->
->Om sammanfogningsmetoden är standard [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
->
->Även om inga batchar har lagts till i den här datauppsättningen kommer den fortfarande att innehålla information om anmälan/avanmälan.
+Om du vill kontrollera att den aktuella profilens val har uppdaterats går du till Profiler och väljer profilen.
 
 
-<!--
-
-### Other ways to opt out
-
-You can also enable your recipients to unsubscribe whithout using landing pages.
-
-* **One-click opt-out**
-
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
-
-* **Unsubscribe link in header**
-
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
-
-////////
 
 
-## Leverage landing page submission event {#leverage-lp-event}
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
-
-    ![](assets/lp_subscription-uc-configurations.png)
-
-1. The list of events displays. Select **[!UICONTROL Create Event]**.
-
-    ![](assets/lp_subscription-uc-create-event.png)
-
-1. The event configuration pane opens on the right side of the screen. Configure a rule-based unitary event. [Learn more](../event/about-creating.md)
-
-1. Define the schema: select **[!UICONTROL AJO Email Tracking Experience Event Schema v.1]** (available by default in [!DNL Journey Optimizer]).
-
-    ![](assets/lp_subscription-uc-event-schema.png)
-
-1. In the **[!UICONTROL Fields]** section, select the following elements:
-
-    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Interaction Type]**
-    
-    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Landing Page Details]** > **[!UICONTROL Landing Page ID]**
-
-    ![](assets/lp_subscription-uc-event-fields.png)
-
-1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
-
-    ![](assets/lp_subscription-uc-event-id-condition.png)
-
-    >[!NOTE]
-    >
-    >To find the landing page ID, you can insert the landing page as a link into an email and select the source code from the contextual toolbar to display the landing page information.
-    >
-    >![](assets/lp_subscription-uc-lp-id.png)
-
-1. Save your changes.
-
-1. Create a [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
-
-    ![](assets/lp_subscription-uc-event-create-journey.png)
-
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
-
-    ![](assets/lp_subscription-uc-journey-event.png)
-
-1. Unfold the **[!UICONTROL Actions]** category and drop an email action into the canvas.
-
-    ![](assets/lp_subscription-uc-journey-email.png)
-
-///How do you use the information from the event to send an email to the users? -->
