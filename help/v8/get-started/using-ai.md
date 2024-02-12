@@ -3,9 +3,9 @@ title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 I inmatningsfältet ger Adobe Campaign AI-baserad sammanhangsbaserad hjälp tre föreslagna frågor. Dessa frågor genereras av AI och gäller hjälprutan och det aktuella produktsammanhanget. Välj en fråga för att få svaret.
 
+![Vanliga frågor och svar](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## Svar {#answers-ai}
 
 Adobe Campaign AI-baserad sammanhangsbaserad hjälp är till hjälp, men du bör kontrollera fakta. Den kan ge felaktiga uppgifter, felaktiga eller vilseledande svar. Kontrollera produktdokumentationen som är länkad i varje hjälpruta.
 
 Du kan kopiera ett svar till Urklipp med **Kopiera** ikonen längst ned i hjälpleveransen.
+
+![Sammanhangsberoende hjälp - kopiera ett svar](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## Feedback {#feedback-ai}
 
