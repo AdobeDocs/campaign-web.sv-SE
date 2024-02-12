@@ -3,7 +3,7 @@ title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Tack vare Campaign Gens AI-funktioner kan den här komponenten förvandla din up
 
 >[!AVAILABILITY]
 >
->Kontextuell hjälp med AI-funktioner finns i betaversionen och kan ändras utan föregående meddelande.
+>* Kontextuell hjälp med AI-funktioner finns i betaversionen och kan ändras utan föregående meddelande.
 >
->Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen. Därför bör du se till att [ditt språk](connect-to-campaign.md#language-pref) är inställt på engelska innan den här funktionen används.
+>* Den här funktionen är bara tillgänglig i **Engelska**. Andra språk stöds inte i den här versionen. Därför bör du se till att [ditt språk](connect-to-campaign.md#language-pref) är inställt på engelska innan den här funktionen används.
 >
->Kontextuell hjälp som bygger på AI är för närvarande inte tillgänglig i e-postdesignern för Campaign.
+>* Kontextuell hjälp som bygger på AI är för närvarande inte tillgänglig i e-postdesignern för Campaign.
 
 
 <!--
