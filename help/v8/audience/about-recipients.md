@@ -1,7 +1,7 @@
 ---
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -28,11 +28,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profiler"
->abstract="En profil är en individ som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I den här listan kan du visa profilens information utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning profilattribut."
+>abstract="En profil är en post som är avsedd att ta emot meddelanden som skickas av Adobe Campaign. I den här listan kan du visa profilens information utifrån dina behörigheter. Använd filteralternativen för att bläddra i den här listan. Du kan redigera och uppdatera en liten uppsättning profilattribut."
 
 ## Vad är en profil? {#what}
 
-A **profil**, som också kallas &quot;mottagare&quot; i klientkonsolen, representerar en person som lagras i Campaign-databasen och fungerar som en nyckelkomponent för att [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll. Med Adobe Campaign kan ni hantera profiler smidigt, från att skapa nya tävlingsbidrag till att få en heltäckande bild av alla era profilers attribut och tjänsteabonnemang, allt via webbgränssnittet i Campaign.
+A **profil**, som också kallas &quot;mottagare&quot; i klientkonsolen, representerar en post som lagras i Campaign-databasen och fungerar som en nyckelkomponent för att [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll. Med Adobe Campaign kan ni hantera profiler smidigt, från att skapa nya tävlingsbidrag till att få en heltäckande bild av alla era profilers attribut och tjänsteabonnemang, allt via webbgränssnittet i Campaign.
 
 Dessutom **[!UICONTROL test profiles]**, som identifieras som&quot;dirigerade profiler&quot; i klientkonsolen, gör att du kan rikta dig till fler mottagare som inte matchar målinriktningsvillkoren för en viss leverans. Dessa profiler innehåller fiktiv kontaktinformation, eller kontaktinformation som styrs av avsändaren. De kan läggas in i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelandena kommer in i inkorgen. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
