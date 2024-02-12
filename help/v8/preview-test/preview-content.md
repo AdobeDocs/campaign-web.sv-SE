@@ -3,11 +3,10 @@ audience: end-user
 title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web-gränssnittet
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Om du vill välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll använder du:
 
@@ -36,11 +35,11 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
    * The **[!UICONTROL Profiles]** På -fliken visas alla profiler som lagras i databasen. [Lär dig arbeta med profiler](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. [Lär dig hur du lägger till regler med frågemodelleraren](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
    En förhandsgranskning av leveransinnehållet visas i den högra rutan i dialogrutan **[!UICONTROL Simulate]** skärm. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Om du har lagt till flera profiler kan du växla mellan dem i listan för att förhandsgranska motsvarande leveransinnehåll. Du kan också lägga till fler testprofiler och ta bort markeringen med motsvarande knappar i den vänstra rutan.
 

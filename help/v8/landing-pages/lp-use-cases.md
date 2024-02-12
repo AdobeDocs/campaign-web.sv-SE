@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ I [!DNL Adobe Campaign Web] fyra färdiga mallar gör det möjligt att implement
 
 1. Definiera egenskaper och inställningar för landningssidan.
 
-   ![](assets/lp-uc-properties.png)
+   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Acquisition]**, **[!UICONTROL Subscription]**, **[!UICONTROL Unsubscription]** eller **[!UICONTROL Denylist]** sida.
 
 1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
 
-   ![](assets/lp-uc-form.png)
+   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
 
 1. Redigera ditt innehåll enligt den valda mallen:
 
@@ -53,7 +53,7 @@ I [!DNL Adobe Campaign Web] fyra färdiga mallar gör det möjligt att implement
 
 1. Redigera **[!UICONTROL Confirmation]** sida efter behov, samt **[!UICONTROL Error]** och **[!UICONTROL Expiration]** sidor. The **[!UICONTROL Confirmation]** visas för mottagarna när de har skickat in formuläret.
 
-   ![](assets/lp-uc-confirmation-page.png)
+   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
 
 1. [Testa](create-lp.md#test-landing-page) och [publicera](create-lp.md#publish-landing-page) din landningssida.
 
@@ -61,7 +61,7 @@ I [!DNL Adobe Campaign Web] fyra färdiga mallar gör det möjligt att implement
 
 1. [Infoga en länk](../email/message-tracking.md#insert-links) i ert meddelandeinnehåll. Välj **[!UICONTROL Landing page]** som **[!UICONTROL Link type]** och välj den landningssida som du skapade.
 
-   ![](assets/lp-uc-email-link.png)
+   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Med den första mallen kan du lägga till eller uppdatera en profil i Campaign-d
 
 1. Dessutom kan du lägga till en kryssruta där kunderna bjuds in att prenumerera på nyhetsbrevet. [Lär dig skapa en tjänst](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png)
+   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -99,11 +99,11 @@ Med den första mallen kan du lägga till eller uppdatera en profil i Campaign-d
 
 När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar formuläret, så läggs deras profil till i Campaign-databasen eller uppdateras med den information de har angett.
 
-![](assets/lp-uc-profile-updated.png)
+![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
 
 Om de valde att ta emot ditt nyhetsbrev kommer de att prenumerera på motsvarande tjänst.
 
-![](assets/lp-uc-newsletter-subscriber.png)
+![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Prenumeration på en tjänst {#lp-subscription}
 
@@ -113,13 +113,13 @@ Ett av de vanligaste användningsområdena är att bjuda in kunderna till [prenu
 
 1. Börja med att skapa en bekräftelsemall för användare som prenumererar på ditt evenemang, så att du enkelt kan välja det när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png)
+   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
 
 1. Skapa en prenumerationstjänst som lagrar registrerade användare till ditt evenemang. [Lär dig skapa en tjänst](../audience/manage-services.md)
 
 1. Välj den mall som du skapade som det bekräftelsemeddelande som användarna får när de prenumererar.
 
-   ![](assets/lp-uc-subscription-service.png)
+   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
 
 1. [Skapa en landningssida](create-lp.md#create-landing-page) för att göra det möjligt för mottagarna att registrera sig för evenemanget. Välj **[!UICONTROL Subscription]** mall.
 
@@ -129,7 +129,7 @@ Ett av de vanligaste användningsområdena är att bjuda in kunderna till [prenu
 
 1. I **[!UICONTROL Subscriptions & services]** markerar du den tjänst du skapade för evenemanget. Lämna **[!UICONTROL Subscribe in if checked]** aktiverat alternativ.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png)
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -159,11 +159,11 @@ Du kan göra det möjligt för dina kunder att avbryta prenumerationen på en tj
 
 1. Du kan lägga till en **[!UICONTROL Checkbox]** väljer du tjänsten och väljer **[!UICONTROL Unsubscribe if checked]** alternativ.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 
 1. Du kan även utöka **[!UICONTROL Call to action]** -avsnittet och välj **[!UICONTROL Additional updates]** alternativ. Välj tjänsten och kontrollera **[!UICONTROL Opt out]** alternativ.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png)
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -187,7 +187,7 @@ Du kan konfigurera en **[!UICONTROL Denylist]** landningssida som gör det möjl
 
 1. I motsvarande listruta väljer du **[!UICONTROL Channel (email)]** för att göra det möjligt för dina mottagare att välja bort från e-postmeddelanden endast. Du kan också välja **[!UICONTROL By all channel]** för att välja dem alla från all kommunikation i alla kanaler.
 
-   ![](assets/lp-uc-denylist.png)
+   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -201,7 +201,7 @@ Om du vill kontrollera att den aktuella profilens val har uppdaterats går du ti
 
 Om du till exempel väljer att uppdatera **[!UICONTROL Channel (email)]** på landningssidan, **[!UICONTROL No longer contact by email]** alternativet markeras.
 
-![](assets/lp-uc-denylist-profile.png)
+![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Profilen får inte e-postmeddelanden från ert varumärke om du inte prenumererar igen.
 

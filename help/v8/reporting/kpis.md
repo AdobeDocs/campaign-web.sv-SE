@@ -1,9 +1,8 @@
 ---
 title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
-badge: label="Begränsad tillgänglighet"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -28,7 +27,7 @@ Mätvärden beräknas som standard för leveranser som skickats under de senaste
 
 Du kan välja vilken kanal som ska visas. Som standard återspeglar dessa indikatorer mätvärden för e-postkanalen.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## Meddelandet har levererats {#ui-delivered-kpi}
 

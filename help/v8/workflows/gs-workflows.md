@@ -2,11 +2,10 @@
 audience: end-user
 title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
-badge: label="Begränsad tillgänglighet"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---

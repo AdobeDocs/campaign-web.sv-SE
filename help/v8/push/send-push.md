@@ -2,12 +2,11 @@
 audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +20,17 @@ De viktigaste stegen för att förhandsgranska ditt push-meddelande är följand
 
 1. Använd **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Add subscribers(s)]** om du vill välja en eller flera profiler för att förhandsgranska deras data i push-meddelandeinnehållet.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. I den högra rutan hittar du en förhandsgranskning av push-meddelandet, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 Nu kan ni granska och skicka push-meddelanden till era målgrupper.
 
@@ -42,19 +41,19 @@ Testmottagarna kan granska element som länkar, bilder och personaliseringsinst�
 
 ![](../assets/do-not-localize/book.png) Lär dig hur du skickar push-meddelanden för testning i [det här avsnittet](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Skicka push-meddelanden {#send-push}
 
 1. När du har anpassat ditt push-meddelandeinnehåll klickar du på **[!UICONTROL Review & send]** från **[!UICONTROL Delivery]** sida.
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Prepare]** och övervaka framstegen och statistiken.
 
    Om det uppstår några fel hittar du detaljerad information om felet på loggmenyn.
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. Skicka meddelandena genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
 
@@ -62,7 +61,7 @@ Testmottagarna kan granska element som länkar, bilder och personaliseringsinst�
 
    Om push-leveransen har schemalagts klickar du på **[!UICONTROL Send as scheduled]** -knappen. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 När leveransen har skickats kan du spåra dina KPI-data (Key Performance Indicator) från leveranssidan och data från **[!UICONTROL Logs]** -menyn.
 

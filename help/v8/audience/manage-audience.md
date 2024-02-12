@@ -2,11 +2,10 @@
 audience: end-user
 title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -45,7 +44,7 @@ När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper*
 
 Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONTROL Audiences]** -menyn.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 Målgrupper kan komma från flera olika källor. The **[!UICONTROL Origin]** kolumner anger var en viss målgrupp har skapats:
 
@@ -63,6 +62,6 @@ Om du vill ha mer information om en viss målgrupp öppnar du den i listan. Publ
 
 The **[!UICONTROL Data]** kan du visa de profiler som är en del av publiken. Du kan anpassa den här vyn genom att lägga till fler kolumner eller använda avancerade filter för att förfina de data som visas.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Om du vill duplicera eller ta bort en målgrupp klickar du på **[!UICONTROL More action]** som finns i målgruppslistan bredvid målgruppsnamnet eller i en målgruppsinformationsskärm.

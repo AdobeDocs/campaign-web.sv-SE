@@ -3,11 +3,10 @@ audience: end-user
 title: Skapa textversionen av ett e-postmeddelande
 description: Lär dig hur du skapar textversionen av ett e-postmeddelande
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +20,15 @@ Om du föredrar att använda ett annat innehåll för den oformaterade textversi
 
 1. I ditt e-postmeddelande väljer du **[!UICONTROL Plain text]** -fliken.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. Använd **[!UICONTROL Sync with HTML]** om du vill inaktivera synkronisering.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. Bekräfta ditt val genom att klicka på bockmarkeringen.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. Du kan sedan redigera den oformaterade textversionen efter behov.
 

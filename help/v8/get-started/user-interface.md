@@ -3,10 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -33,7 +32,7 @@ På Campaigns startsida kan ni snabbt och enkelt bläddra bland viktiga resurser
 
 I den övre delen av startsidan finns information om de senaste uppdateringarna och nya funktioner som är tillgängliga i produkten, med länkar till versionsinformation och detaljerad dokumentation. Använd vänsterpilen för att rulla funktionskort.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er i [den här sidan](../reporting/kpis.md).
 
@@ -71,7 +70,7 @@ I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, le
 
   Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Arbetsflöden** - På den här skärmen har du tillgång till den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte. Läs mer om arbetsflöden [i det här avsnittet](../workflows/gs-workflows.md).
 
@@ -119,7 +118,7 @@ Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [de
 
 Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 För närvarande släppt som betaversion i det nya Campaign-webbgränssnittet, **AI-driven Knowledge Assistant** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
 

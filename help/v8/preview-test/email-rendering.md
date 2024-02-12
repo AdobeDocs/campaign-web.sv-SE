@@ -3,11 +3,10 @@ audience: end-user
 title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i användargränssnittet för Campaign på webben
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
@@ -33,21 +32,21 @@ Följ sedan stegen nedan.
 
 1. Markera knappen **[!UICONTROL Render email]**.
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **Anslut ditt Litmus-konto** i det övre högra avsnittet.
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. Ange dina inloggningsuppgifter och logga in.
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **Kör test** om du vill generera förhandsgranskningar via e-post.
 
 1. Kontrollera e-postinnehållet i vanliga dator-, mobil- och webbaserade klienter.
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

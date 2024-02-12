@@ -2,11 +2,10 @@
 audience: end-user
 title: Viktiga principer för att skapa arbetsflöden
 description: Lär dig grunderna i arbetsflöden med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Med Adobe Campaign Web kan du skapa arbetsflöden i en visuell arbetsyta för at
 
 Arbetsflödesdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
 
 Varje arbetsflöde innehåller:
 
@@ -40,16 +39,16 @@ Det finns två sätt att skapa ett arbetsflöde i kampanjer:
 
 1. Arbetsflöden kan skapas som fristående arbetsflöden från **Arbetsflöden** -menyn.
 
-   ![](assets/create-a-standalone-wf.png)
+   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
 
 1. Arbetsflöden kan skapas direkt i en kampanj från **Arbetsflöde** -fliken i kampanjen. När det ingår i en kampanj körs arbetsflödet tillsammans med alla andra kampanjers arbetsflöden, och alla rapportvärden grupperas på kampanjnivå.
 
-   ![](assets/create-a-wf-from-a-campaign.png)
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
 
 
 Så här skapar du arbetsflöden:
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
 
 De här stegen beskrivs i följande avsnitt:
 

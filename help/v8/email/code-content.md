@@ -3,11 +3,10 @@ audience: end-user
 title: Koda eget e-postinnehåll
 description: Lär dig koda ditt eget e-postinnehåll
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 6%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -21,13 +20,13 @@ Använd **[!UICONTROL Code your own]** läge för att importera obearbetat HTML 
 
 1. På [E-postdesigner](get-started-email-designer.md) startsida, välja **[!UICONTROL Code your own]**.
 
-   ![](assets/code-your-own.png)
+   ![](assets/code-your-own.png){zoomable=&quot;yes&quot;}
 
 1. Ange eller klistra in Raw-HTML-koden på huvudarbetsytan.
 
 1. Använd den vänstra rutan för att utnyttja personaliseringsmöjligheterna. [Läs mer](../personalization/gs-personalization.md)
 
-   ![](assets/code-editor-personalization.png)
+   ![](assets/code-editor-personalization.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Simulate content]** för att kontrollera meddelandets utformning och personalisering med testprofiler. [Läs mer](../preview-test/preview-test.md)
 

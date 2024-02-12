@@ -2,12 +2,11 @@
 audience: end-user
 title: Kom igång med SMS-leveranser
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 

@@ -1,9 +1,8 @@
 ---
 title: Måldimensioner
 description: Läs mer om målinriktning av dimensioner på Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -27,7 +26,7 @@ Observera att du kan byta måldimension i ett arbetsflöde med en [Ändra dimens
 
 När du väljer en måldimension (i arbetsflödesinställningarna) eller i aktiviteter som **Bygg målgrupper**, **Avstämning** eller **Ändra dimension**) visas ett urval av vanliga scheman som standard i listan. Om du vill visa alla tillgängliga scheman aktiverar du **[!UICONTROL Show all schemas]** -knappen. Alternativvalet sparas för varje användare.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## Måldimensioner {#list}
 

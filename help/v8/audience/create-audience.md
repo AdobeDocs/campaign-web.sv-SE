@@ -2,11 +2,10 @@
 audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ Så här skapar du en målgrupp:
 
    * The &quot;New audition&quot; **[!UICONTROL Save audience]** -aktiviteten är det sista steget i arbetsflödet så att du kan spara resultatet som en ny målgrupp.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Så här skapar du en målgrupp:
    >
    >Kanalaktiviteter är inte tillgängliga för målgruppsarbetsflöden.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Konfigurera **[!UICONTROL Save audience]** för att ange hur du vill spara den beräknade populationen uppströms i arbetsflödet. [Lär dig konfigurera en Spara målgruppsaktivitet](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Nu kan ni använda den här målgruppen som huvudmål för en leverans. [Läs me
 
 I exemplet nedan visas ett målgruppsarbetsflöde som är konfigurerat för att rikta sig till kvinnliga kunder som bor i New York och skapa två nya målgrupper beroende på deras senaste köp (Yoga eller Löpande utrustning).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. The **[!UICONTROL Build audience]** Aktiviteten riktar sig till alla kvinnliga profiler som bor i New York.
 1. The **[!UICONTROL Enrichment]** aktiviteten berikar publiken med information från inköpstabellen för att identifiera vilken typ av produkt kunderna har köpt.
@@ -104,4 +103,4 @@ Som standard ersätts hela målgruppens innehåll med nya data när du kör ett 
 
 Om du inte vill ersätta befintliga målgruppsresultat konfigurerar du **Spara målgrupper** aktiviteter som passar era behov. Du kan till exempel ändra **Målgruppsetikett** för att lagra de nya resultaten i en ny målgrupp eller lägga till de nya resultaten i det befintliga målgruppsinnehållet utan att radera tidigare data. [Lär dig konfigurera en Spara målgruppsaktivitet](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

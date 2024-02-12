@@ -3,11 +3,10 @@ audience: end-user
 title: Lägg till en förrubrik i e-postdesignern
 description: Lär dig utforma e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Begränsad tillgänglighet"
-source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -32,17 +31,17 @@ Följ stegen nedan när du vill definiera e-postprerubriken.
 
 1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Settings]** anger du lite text för sidhuvudet.
 
 1. Om du vill anpassa den ytterligare klickar du på **[!UICONTROL Add personalization]** ikonen till vänster om **[!UICONTROL Preheader]** fält.
 
-   ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till [personaliseringsfält](../personalization/personalize.md), [innehållsblock](../personalization/content-blocks.md) och [villkorligt innehåll](../personalization/conditions.md) med dedikerade poster till vänster.
 
-   ![](assets/preheader_body_personalization.png)
+   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Confirm]**.
 

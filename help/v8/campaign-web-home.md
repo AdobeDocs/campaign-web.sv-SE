@@ -3,10 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Begränsad tillgänglighet"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---

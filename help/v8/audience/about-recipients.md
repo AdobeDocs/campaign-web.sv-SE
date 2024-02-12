@@ -1,8 +1,7 @@
 ---
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -49,7 +48,7 @@ Profilerna är tillgängliga och redigerbara i Adobe Campaign Web från **[!UICO
 
 Du kan filtrera **[!UICONTROL Profiles]** med sökfältet eller de filter som finns i **Visa filter** -knappen. Du kan begränsa resultatet till en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Klicka på profilens namn i listan för att få tillgång till information om profilen. En detaljerad vy av profilen öppnas så att du kan utforska dess attribut och de tjänster som han/hon prenumererar på. [Lär dig hur du utforskar profildetaljer](create-profile.md)
 

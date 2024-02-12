@@ -1,11 +1,10 @@
 ---
 title: Garantier och begränsningar i gränssnittet för Campaign Web
 description: Garantier och begränsningar i gränssnittet för Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,19 +23,19 @@ Arbetsflödesaktiviteter som ännu inte stöds i gränssnittet för Campaign-web
 
 | Konsol | Webb |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 När en **Fråga** eller en **Berikning** -aktiviteten har konfigurerats med ytterligare data i konsolen. Anrikningsdata beaktas i Campaign Web och skickas till den utgående övergången, men kan inte redigeras.
 
 | Konsol | Webb |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 I konsolen **Berikning** kan utföra både avstämning och anrikning. Om du har definierat avstämningsinställningarna i klientkonsolen i **Berikning** aktivitet, visas som en **Avstämning** i Campaign Web-användargränssnittet.
 
 | Konsol | Webb |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 ## Arbetsyta {#wkf-canvas}
 
@@ -44,10 +43,10 @@ När du skapar ett nytt arbetsflöde i gränssnittet för Campaign-webben har ar
 
 | Konsol | Webb |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 Nodernas placering uppdateras varje gång en aktivitet läggs till eller tas bort. Om du skapar ett arbetsflöde i konsolen, ändrar det med hjälp av användargränssnittet i Campaign-webben och öppnar det igen i konsolen, kan du märka att det finns mindre brister i positioneringen. Detta påverkar inte arbetsflödets processer och uppgifter.
 
 | Inledande arbetsflöde | Positioneringsändring |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |

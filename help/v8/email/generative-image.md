@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ I exemplet nedan kan du lära dig hur du använder Content Assistant för att op
 
 1. Välj **[!UICONTROL Experience generation]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Lägg till en uppmaning för att finjustera resultatet bättre.
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
@@ -51,20 +51,20 @@ I exemplet nedan kan du lära dig hur du använder Content Assistant för att op
 
 1. Anpassa **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** och **[!UICONTROL Composition]** inställningarna så att de matchar de önskade resursegenskaperna.
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. När du är nöjd med promptkonfigurationen klickar du på **[!UICONTROL Generate]**.
 
 1. Sök i **[!UICONTROL Variation suggestions]** för att hitta den önskade resursen. Klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Select]** när du hittat rätt innehåll.
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. När du har definierat meddelandeinnehållet klickar du på **[!UICONTROL Simulate content]** för att styra återgivningen och kontrollera personaliseringsinställningarna med testprofiler.  [Läs mer](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)

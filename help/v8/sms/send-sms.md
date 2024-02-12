@@ -2,11 +2,10 @@
 audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -26,18 +25,18 @@ De viktigaste stegen för att förhandsgranska SMS-leveransen är följande. Mer
 
 1. Använd **[!UICONTROL Simulate content]** för att förhandsgranska ditt personaliserade innehåll.
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Add test profile(s)]** om du vill välja en eller flera testprofiler eller profiler.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. I den högra rutan hittar du en förhandsgranskning av SMS-leveransen, där personaliserade element dynamiskt ersätts med data från den valda profilen.
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
 
@@ -49,13 +48,13 @@ Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvalitete
 
 ![](../assets/do-not-localize/book.png) Lär dig hur du skickar test-SMS i [det här avsnittet](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Skicka SMS-leverans {#send-sms}
 
 1. När du har anpassat ditt SMS-innehåll klickar du på **[!UICONTROL Review & send]** från **[!UICONTROL Delivery]** sida.
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Prepare]** och övervaka framstegen och statistiken.
 
@@ -63,7 +62,7 @@ Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvalitete
 
 1. Skicka meddelandena genom att klicka på **[!UICONTROL Send]** för att fortsätta med den slutliga sändningsprocessen.
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    Om SMS-leveransen har schemalagts klickar du på **[!UICONTROL Send as scheduled]** -knappen. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#schedule-the-delivery-sending).
 

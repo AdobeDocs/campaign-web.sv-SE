@@ -2,10 +2,10 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -40,17 +40,17 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 | Användning | Exempel |
 |  ---  |  ---  |
-| **Definiera målgrupper**: Ange den målgrupp du vill rikta in dig på i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Anpassa arbetsflödesaktiviteter**: tillämpa regler i arbetsflödesaktiviteter, som Dela och Avstämning, för att anpassa dem efter dina specifika krav. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **Fördefinierade filter**: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **Filtrera rapportdata**: Lägg till regel för att filtrera data som visas i rapporter. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **Anpassa listor**: Skapa anpassade regler för att filtrera data som visas i listor som mottagare, leveranslistor osv. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Definiera målgrupper**: Ange den målgrupp du vill rikta in dig på i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Anpassa arbetsflödesaktiviteter**: tillämpa regler i arbetsflödesaktiviteter, som Dela och Avstämning, för att anpassa dem efter dina specifika krav. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Fördefinierade filter**: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtrera rapportdata**: Lägg till regel för att filtrera data som visas i rapporter. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Anpassa listor**: Skapa anpassade regler för att filtrera data som visas i listor som mottagare, leveranslistor osv. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -59,7 +59,7 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och en höger ruta med information om frågan.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### Den centrala arbetsytan {#canvas}
 

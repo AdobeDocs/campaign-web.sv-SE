@@ -2,10 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1225'
 ht-degree: 1%
 
 ---
@@ -25,11 +24,11 @@ Med användargränssnittet för Campaign-webben kan du skapa, designa och public
 
 Om du vill få åtkomst till landningssidans lista väljer du **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** från den vänstra menyn.
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 The **[!UICONTROL Landing pages]** lager visar alla skapade artiklar. Du kan använda **Visa filter** -knappen. Du kan begränsa resultatet till en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,11 +69,11 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
 
 1. Från **[!UICONTROL Landing pages]** lager, klicka **[!UICONTROL Create landing page]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Välj en mall:
    * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera profildata.
@@ -82,7 +81,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
    * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på tjänsten [service](../audience/manage-services.md).
    * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign.
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -94,7 +93,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
    Som standard lagras landningssidor i **[!UICONTROL Web applications]** mapp. Du kan ändra den genom att bläddra till önskad plats i dialogrutan **[!UICONTROL Additional options]**. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. I **[!UICONTROL Data preload]** är de två alternativen nedan markerade som standard:
 
@@ -104,17 +103,17 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 1. I **[!UICONTROL Pages]** klickar du på **[!UICONTROL Edit content]** för varje sida som du vill utforma för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. The **[!UICONTROL Update the preloaded record]** är markerat som standard. Det gör det möjligt att uppdatera de profiler som lagras i databasen via landningssidan. I rutan för förinläsning kan du ange hur posten ska uppdateras i databasen.
 
    Du kan också välja bland fälten i den aktuella kontexten på landningssidan, de som ska användas för att hitta motsvarande profil i databasen. Om du vill göra det avmarkerar du **[!UICONTROL Update the preloaded record]** och kontrollera fälten under **[!UICONTROL Reconciliation options]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. Du kan definiera ett startdatum och ett slutdatum för landningssidan. Välj **[!UICONTROL Enable scheduling]** och ange datum.
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * Landningssidan publiceras automatiskt på det angivna startdatumet/den angivna starttiden.
 
@@ -152,7 +151,7 @@ När inställningarna för landningssidan och innehållet har definierats kan du
 
 1. När du klickat **[!UICONTROL Review and publish]** väljer du **[!UICONTROL Simulate content]** från kontrollpanelen för landningssidan för att komma åt valet av testprofil.
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Simulate]** väljer du en eller flera testprofiler.
 
@@ -160,13 +159,13 @@ När inställningarna för landningssidan och innehållet har definierats kan du
 
 1. Välj **[!UICONTROL Open preview]** för att testa landningssidan.
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. Förhandsgranskningen av landningssidan öppnas på en ny flik. Personaliserade element ersätts med valda testprofildata.
 
    Om du valde **[!UICONTROL Pre-fill with the data referenced in the form]** i inställningarna för landningssidan fylls formulärfälten automatiskt i med motsvarande data för testprofilen.<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. Välj andra testprofiler om du vill förhandsgranska återgivningen för varje variant av landningssidan.
 
@@ -186,6 +185,6 @@ Publicerad:
 >
 >Om du vill testa eller utnyttja landningssidan fullt ut kan du inte kopiera och klistra in länken direkt i en webbläsare eller i leveranser. Använd i stället [Simulera innehåll](#test-landing-page) för att testa den och följa stegen i [det här avsnittet](lp-use-cases.md) för att använda landningssidan på rätt sätt.
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 Du kan övervaka hur landningssidan påverkas via loggar<!--and specific reports-->. Klicka på knappen **[!UICONTROL Logs]**.

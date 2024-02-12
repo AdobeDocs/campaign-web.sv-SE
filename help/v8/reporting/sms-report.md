@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
-badge: label="Begränsad tillgänglighet"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '498'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +30,7 @@ The **Översikt över SMS-leverans** ger en omfattande översikt över er SMS-le
 
 The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om lyckade resultat och felgrader samt hur besökarna interagerar med SMS-meddelanden.
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -54,7 +53,7 @@ The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal för nyck
 
 The **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen. Mätvärdena anges nedan.
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -73,7 +72,7 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till målgruppen. M
 
 The **Övergripande statistik** rapporten innehåller data för skickade SMS-meddelanden. Mätvärdena anges nedan.
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -93,7 +92,7 @@ The **Övergripande statistik** rapporten innehåller data för skickade SMS-med
 
 The **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att användarprofiler som har uteslutits från målprofilerna inte kunde ta emot meddelandet. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -104,4 +103,4 @@ The **[!UICONTROL Exclusions]** I diagram och tabeller visas orsakerna till att 
 
 Den här rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

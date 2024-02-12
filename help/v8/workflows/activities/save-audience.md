@@ -2,12 +2,11 @@
 audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
-badge: label="Begränsad tillgänglighet"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 

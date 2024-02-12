@@ -2,12 +2,11 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
-badge: label="Begränsad tillgänglighet"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 11%
+source-wordcount: '827'
+ht-degree: 10%
 
 ---
 

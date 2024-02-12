@@ -3,10 +3,9 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -26,12 +25,12 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
 1. Klicka på **[!UICONTROL Review and send]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Klicka på **[!UICONTROL Prepare]** i det övre högra hörnet och bekräfta.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
    Du kan när som helst avbryta beredningen med **[!UICONTROL Stop preparation]** -knappen.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
 
 1. Kontrollera KPI:erna när färdigställandet är klart. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Här visas olika KPI:er:
 
@@ -58,11 +57,11 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
 1. Klicka på **[!UICONTROL Logs]** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. [Läs mer](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Om du ändrar något efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
 
@@ -81,7 +80,7 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 1. Klicka på **[!UICONTROL Send]** i det övre högra hörnet.
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Bekräfta den här åtgärden för att omedelbart skicka meddelandet till huvudmålet.
 
@@ -95,7 +94,7 @@ Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum o
 
 1. Klicka på **[!UICONTROL Send as scheduled button]** i det övre högra hörnet.
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Confirm sending]**. Leveransen skickas på det schemalagda datumet till huvudmålet.
 
@@ -111,7 +110,7 @@ Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras n�
 
 * Klicka **[!UICONTROL Stop sending]** för att omedelbart avbryta sändningen. Varken förberedelsen eller sändningen kan återupptas när den har stoppats.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## Kontrollera nyckeltal {#check-kpis}
 
@@ -151,7 +150,7 @@ Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras n�
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Sent]**: antalet meddelanden som levereras. Procentandelen som visas baseras på det totala antalet meddelanden som ska levereras.
 

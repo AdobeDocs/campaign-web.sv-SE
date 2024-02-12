@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstru
 
 * **Anpassa era meddelanden** till varje enskild mottagare genom att utnyttja profildata som förnamn, intressen, var de bor, vad de köpt och mycket annat. Du kan välja vilket fält som helst tillgängligt i databasen från den anpassade redigeraren som är relaterad till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. Följande syntax infogar mottagarens ort i ditt innehåll: &lt;%= mottagare.location.city %>.
 
-  ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Skapa villkorsstyrt innehåll** för att anpassa era leveranser till varje mottagare och endast visa det innehåll som är relevant för en viss kund baserat på den information ni har om dem. På så sätt kan du visa specifika textblock och/eller bilder baserat på villkor. Anpassa t.ex. en e-postbanderoll som baseras på mottagarnas prenumeration till en viss tjänst.
 
-  ![](assets/condition-sample.png){width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Använd personaliseringsblock** för att spara tid och enkelt kunna återanvända personaliserat innehåll i era meddelanden. Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
 
-  ![](assets/content-blocks.png){width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 ## Öppna uttrycksredigeraren {#access}
 
@@ -51,15 +51,15 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 
 * *Åtkomst till uttrycksredigeraren från fältet Avsändarens namn*
 
-  ![](assets/expression-editor-access.png){width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Öppna uttrycksredigeraren från en e-posttextkomponent*
 
-  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Åtkomst till uttrycksredigeraren från en länk i ett e-postmeddelande*
 
-  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 >[!NOTE]
 >

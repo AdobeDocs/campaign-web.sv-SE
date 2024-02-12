@@ -3,8 +3,7 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 1%
@@ -41,7 +40,7 @@ Använd Campaign för att
 
 Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 Det nya webbgränssnittet har till att börja med **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
-badge: label="Begränsad tillgänglighet"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 3%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -31,11 +30,11 @@ Så här utformar du innehållet i en SMS-leverans:
 
    Genom att klicka på **[!UICONTROL Open personalization dialog]** kan du inkludera anpassningsfält, innehållsblock och dynamiskt innehåll i meddelandet.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. Skriv ditt textmeddelande i dialogrutan **[!UICONTROL Message]** eller klicka på **[!UICONTROL Open personalization dialog]** för att definiera innehåll och lägga till dynamiskt innehåll. [Läs mer](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. Spårning är aktiverat som standard för leveranser. Du kan inaktivera det här alternativet på **[!UICONTROL Optional features section]**.
 

@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
 
 1. Välj **[!UICONTROL Experience generation]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Finjustera innehållet genom att beskriva vad du vill generera.
 
@@ -46,7 +46,7 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
    * För feedback och enkäter: Skapa ett e-postmeddelande med en inbjudan till kunder att lämna feedback om sina senaste programvaruupplevelser och delta i en enkät om produktförbättringar.
    * För årsdag- och födelsedagsedelsemejl: Generera ett födelsedagsedelsemeddelande, fira kundens speciella dag och ge dem en födelsedagsrabatt.
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
@@ -56,7 +56,7 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
 
 1. Välj **[!UICONTROL Language]** och **[!UICONTROL Tone]** som du vill att den genererade texten ska ha. På så sätt säkerställs att texten passar er målgrupp och ert syfte.
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Anpassa **[!UICONTROL Content type]** resursinställningar så att de matchar de önskade resursegenskaperna.
 
@@ -64,16 +64,16 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
 
 1. Sök i **[!UICONTROL Variation suggestions]** för att hitta den e-postadress du vill ha. Klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Select]** när du hittat rätt innehåll.
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata eller anpassa innehållet ytterligare vid behov. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
 
 1. När du har definierat ditt e-postinnehåll klickar du på **[!UICONTROL Simulate content]** för att styra återgivningen och kontrollera personaliseringsinställningarna med testprofiler.  [Läs mer](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)

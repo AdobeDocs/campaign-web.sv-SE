@@ -2,12 +2,11 @@
 audience: end-user
 title: Kom igång med meddelanden och leveranser på Adobe Campaign Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 6%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 

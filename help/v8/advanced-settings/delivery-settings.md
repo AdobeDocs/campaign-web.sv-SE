@@ -4,10 +4,9 @@ title: Leveransinställningar
 description: Läs mer om leveransinställningar på Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Begränsad tillgänglighet"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2291'
+source-wordcount: '2295'
 ht-degree: 4%
 
 ---
@@ -44,7 +43,7 @@ När du associerar en typologi med en meddelande- eller meddelandemall körs de 
 
 Typologier gör att du kan se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler för att utesluta grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte län
 
 **[!UICONTROL Delivery]** parametrar är tekniska inställningar som gäller för leveransen.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 Det integrerade e-postmeddelandet **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
 
@@ -250,7 +249,7 @@ Du kan också välja att ange datum. Gör detta genom att välja **[!UICONTROL E
 
 **[!UICONTROL Resources validity limit]** används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme). Efter den här gränsen är resurserna inte längre tillgängliga.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

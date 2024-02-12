@@ -2,9 +2,8 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 The **[!UICONTROL Workflows]** kan du komma åt hela listan med arbetsflöden. Listan innehåller båda **fristående arbetsflöden** som har skapats från den här skärmen, och **kampanjarbetsflöden** som har skapats i en kampanj.
 
-![](assets/workflow-list.png)
+![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
 
 Varje arbetsflöde i listan visar information om dess aktuella [status](#status), senaste gången den kördes eller ändrades samt nästa schemalagda körningsdatum och -tid.
 

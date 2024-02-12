@@ -2,11 +2,10 @@
 audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
 description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
-badge: label="Begränsad tillgänglighet"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---

@@ -2,12 +2,11 @@
 audience: end-user
 title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 1%
+source-wordcount: '898'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ De här inställningarna är förkonfigurerade i mallen som valdes när arbetsfl
 
 Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Egenskaper för arbetsflöde {#properties}
 
@@ -31,7 +30,7 @@ Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbet
 
 The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som också är tillgängliga när du skapar arbetsflödet.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Dessa egenskaper är:

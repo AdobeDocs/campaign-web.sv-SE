@@ -2,11 +2,10 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -21,11 +20,11 @@ I det här skedet av konfigurationen visas diagrammet med en startikon som repre
 
 En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödet eller ställa in en **Vänta** för att fördröja arbetsflödets körning. Å andra sidan, efter **Bygg målgrupper** kan du förfina målgruppen med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller organisera arbetsflödet med flödeskontrollaktiviteter.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 Upprepa den här processen om du vill lägga till så många aktiviteter som du vill, beroende på vilka uppgifter du vill att arbetsflödet ska utföra. Observera att du även kan infoga en ny aktivitet mellan två aktiviteter. Klicka på **+** om övergången mellan aktiviteterna markerar du önskad aktivitet och konfigurerar den i den högra rutan.
 
@@ -45,13 +44,13 @@ När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsr
 * Åtkomst till aktivitetens **Loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## Exempel {#example}
 
 Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (utom VIP kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 För att uppnå detta har följande aktiviteter lagts till:
 

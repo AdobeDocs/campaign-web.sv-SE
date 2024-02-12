@@ -3,11 +3,10 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -33,7 +32,7 @@ För att göra detta [!DNL Adobe Campaign] kan du:
 
 Dessa åtgärder kan utföras med **[!UICONTROL Simulate content]** som du kommer åt från skärmen Redigera innehåll på leveransen - eller från [E-postdesigner](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

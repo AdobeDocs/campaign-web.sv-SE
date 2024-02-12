@@ -6,10 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Begränsad tillgänglighet"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,18 +32,18 @@ Så här lägger du till personaliseringstaggar i en leverans:
 
 1. Öppna uttrycksredigeraren med **[!UICONTROL Open personalization dialog]** -ikoner som är tillgängliga från redigeringsfält av texttyp, t.ex. ämnesraden eller SMS-brödtexten. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Uttrycksredigeraren öppnas. Anpassningsfält som finns i Adobe Campaign-databasen är ordnade i flera menyer till vänster på skärmen:
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    | Meny | Beskrivning |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | The **[!UICONTROL Subscribers application]** I listas fält som är relaterade till prenumeranterna av ett program, t.ex. den använda terminalen eller operativsystemet. *Den här menyn är endast tillgänglig för push-meddelanden* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | The **[!UICONTROL Recipient]** I listas fält som definierats i mottagartabellen, t.ex. mottagarnas namn, sidor eller adresser. När [överföra kontakter från en extern fil](../audience/file-audience.md) för en fristående e-postleverans visas alla fält som är tillgängliga i indatafilen på den här menyn. |
-   | ![](assets/do-not-localize/perso-message-menu.png) | The **[!UICONTROL Message]** I listas fält som är relaterade till leveransloggarna, inklusive alla meddelanden som skickas till mottagare eller enheter i alla kanaler, t.ex. datumet för den senaste händelsen med en viss mottagare |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | The **[!UICONTROL Delivery]** I listas fält som är relaterade till de parametrar som krävs för att utföra leveranser, t.ex. leveranskanalen eller etiketten. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | The **[!UICONTROL Subscribers application]** I listas fält som är relaterade till prenumeranterna av ett program, t.ex. den använda terminalen eller operativsystemet. *Den här menyn är endast tillgänglig för push-meddelanden* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | The **[!UICONTROL Recipient]** I listas fält som definierats i mottagartabellen, t.ex. mottagarnas namn, sidor eller adresser. När [överföra kontakter från en extern fil](../audience/file-audience.md) för en fristående e-postleverans visas alla fält som är tillgängliga i indatafilen på den här menyn. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | The **[!UICONTROL Message]** I listas fält som är relaterade till leveransloggarna, inklusive alla meddelanden som skickas till mottagare eller enheter i alla kanaler, t.ex. datumet för den senaste händelsen med en viss mottagare |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | The **[!UICONTROL Delivery]** I listas fält som är relaterade till de parametrar som krävs för att utföra leveranser, t.ex. leveranskanalen eller etiketten. |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ Så här lägger du till personaliseringstaggar i en leverans:
 
 1. När innehållet är klart kan du spara det och testa återgivningen av personaliseringen genom att simulera innehållet. I exemplet nedan visas personaliseringen av ett SMS-meddelande med mottagarnas förnamn.
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}

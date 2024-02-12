@@ -3,10 +3,9 @@ audience: end-user
 title: Lägg till erbjudanden i dina meddelanden
 description: Lär dig lägga till och skicka erbjudanden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -40,13 +39,13 @@ Följ stegen nedan för att välja vilka erbjudanden som ska läggas till i leve
 
 1. Klicka på **[!UICONTROL Set up offers]** på skärmen för utgåva av leveransinnehåll.
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna.
 
    Markera först **[!UICONTROL Offer space]** som matchar er erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme på [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. Om du vill förfina motorns val av erbjudanden väljer du en specifik **[!UICONTROL Offer category]** där erbjudandena sorteras.
 
@@ -90,7 +89,7 @@ Följ stegen nedan för att infoga ett erbjudande med uttrycksredigeraren.
 
 1. Placera musmarkören där du vill infoga erbjudandet och öppna uttrycksredigeraren med ikonen för personalisering.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Propositions]** -menyn. Tillgängliga förslag visas i listan.
 
@@ -100,7 +99,7 @@ Följ stegen nedan för att infoga ett erbjudande med uttrycksredigeraren.
 
 1. Definiera varje förslag med hjälp av anpassningsfälten, återgivningsfunktionerna eller tillgängliga attribut.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

@@ -2,10 +2,10 @@
 audience: end-user
 title: Globala rapporter för e-postkanalen
 description: Läs mer om globala rapporter för e-postkanalen
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 
 The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter om hur besökarna interagerar med varje e-postleverans. Mätvärdena beskrivs nedan.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -53,7 +53,7 @@ The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger dj
 
 Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mottagare, med detaljerade mått som anges nedan.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -74,7 +74,7 @@ Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mott
 
 The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av hur väl varje e-postleverans lyckats, med detaljerade mått som beskrivs nedan.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransstatistik.
 
@@ -95,7 +95,7 @@ The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av 
 >title="Orsaker till uteslutning"
 >abstract="The **Orsaker till uteslutning** diagram och tabell visar de specifika orsakerna till att meddelanden nekas under färdigställandet av leveransen, med en detaljerad beskrivning per regel."
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
@@ -108,7 +108,7 @@ E-postfeltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https
 >title="Leveranskapacitet"
 >abstract="Detta **Leveransflöde** ger omfattande insikter om leveransflöde, framhäv framgångar och felfrekvens inom en viss tidsram."
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Rapporten Leveransflöde ger djupgående insikter om hur effektiv leveransprocessen är och ger en detaljerad översikt över lyckade resultat och felprocent inom en viss tidsram.
 
@@ -129,7 +129,7 @@ Rapporten Leveransflöde ger djupgående insikter om hur effektiv leveransproces
 >title="Uppdelning av fel per typ"
 >abstract="Tabellen och diagrammet som beskriver **Uppdelning av fel per typ** Innehåller information om olika feltyper som påträffas under processen, bland annat okänd användare, postlåda full, ogiltig domän och andra."
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
 The **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet innehåller data om potentiella fel som uppstått i olika domäner, med specifika mått som anges nedan.
 
@@ -160,7 +160,7 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 >title="Uppdelning av fel per domän"
 >abstract="Tabellen och diagrammet som illustrerar **Uppdelning av fel per domän** presentera data för varje feltyp som påträffas, indelat i specifika domäner."
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
 The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet visar data relaterade till potentiella fel inom varje domän. Mätvärdena är gemensamma med **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet som anges ovan.
 
@@ -175,7 +175,7 @@ The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet visa
 
 The **[!UICONTROL Delivery statistics]** Mätvärden innehåller nyckeltal (KPI) som ger detaljerad information om data som är kopplade till varje e-postleverans. Mer information om dessa mått finns nedan.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransstatistik.
 
@@ -203,7 +203,7 @@ The **[!UICONTROL Delivery statistics]** Mätvärden innehåller nyckeltal (KPI)
 
 The **[!UICONTROL Open and click-trough rate]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om Open och click-trough rate metrics.
 
@@ -229,7 +229,7 @@ The **[!UICONTROL Open and click-trough rate]** tabellen visar data som är rela
 
 The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerade insikter om de URL:er som fick det högsta antalet klick under en leverans. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om URL:er och klicka på strömma mätvärden.
 
@@ -251,7 +251,7 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 
 The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk. Mätvärdena anges nedan.
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om de 10 mest besökta länkarna.
 
@@ -270,7 +270,7 @@ The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller ti
 
 The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## Användaraktiviteter {#user-activities-email}
 
@@ -281,7 +281,7 @@ The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillg�
 
 The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Mätvärden för den här rapporten finns nedan.
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om mått för användaraktiviteter.
 

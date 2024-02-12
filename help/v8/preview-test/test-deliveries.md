@@ -3,10 +3,9 @@ audience: end-user
 title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -37,7 +36,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 1. Klicka på knappen **[!UICONTROL Simulate content]**.
 1. Klicka på **[!UICONTROL Test]** för att skicka testleveranser.
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. Välj testmottagare.
 
@@ -81,7 +80,7 @@ Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 
 1. Från **[!UICONTROL Mode]** nedrullningsbar lista, välja **[!UICONTROL Test profiles]** för att rikta sig till fiktiva mottagare som får testmeddelandet eller SMS-leveransen.
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 
 1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. När du har valt testprofilerna kan du [skicka testleveransen](#send-test).
 
@@ -118,7 +117,7 @@ Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
 1. Klicka på **[!UICONTROL Add address]** och ange den e-postadress eller det telefonnummer som ska ta emot testleveransen.
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
 1. Bekräfta mottagaren och upprepa åtgärden för att lägga till så många e-postadresser eller telefonnummer som behövs.
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
@@ -140,13 +139,13 @@ När du utformar med push-meddelanden kan testleveranser bara skickas till dina 
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. Om du redan har valt abonnenter på [förhandsgranska leveransen](preview-content.md) på skärmen för innehållssimulering är dessa profiler förvalda som testprenumeranter.
 
    Du kan rensa urvalet och/eller lägga till ytterligare prenumeranter med den dedikerade knappen.
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. Om du även vill skicka det sista push-meddelandet till testprenumeranterna väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
@@ -160,7 +159,7 @@ Följ stegen nedan för att skicka testleveransen till de valda mottagarna.
 
 1. Bekräfta sändningen.
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. Skicka så många tester som behövs tills du har slutfört innehållet i leveransen.
 
@@ -176,8 +175,8 @@ När testleveranserna har skickats kan du få åtkomst till dedikerade loggar fr
 
 Med dessa loggar kan du få tillgång till alla tester som skickats för den valda leveransen och visualisera specifik statistik som relaterar till deras sändning. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 Du kan även komma åt skickade tester via [leveranslista](../msg/gs-messages.md), som alla leveranser.
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

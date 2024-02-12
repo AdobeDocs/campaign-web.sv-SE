@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
 
 1. Välj **[!UICONTROL Text component]** du vill uppdatera och få tillgång till menyn för generering av upplevelser.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Finjustera innehållet genom att beskriva vad du vill generera.
 
    Aktivera **[!UICONTROL Enhance with current context]** för Content Assistant att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
 
@@ -51,7 +51,7 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
 
 1. Välj **[!UICONTROL Language]** och **[!UICONTROL Tone]** som du vill att den genererade texten ska ha. På så sätt säkerställs att texten passar er målgrupp och ert syfte.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Använd skjutreglaget för att ange längden på den genererade texten.
 
@@ -59,14 +59,14 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
 
 1. Bläddra bland de genererade **[!UICONTROL Variations]** och klicka **[!UICONTROL Apply]** när du hittat rätt innehåll.
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. När du har definierat meddelandeinnehållet klickar du på **[!UICONTROL Simulate content]** för att styra återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)

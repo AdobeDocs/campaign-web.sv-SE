@@ -3,11 +3,10 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Begränsad tillgänglighet"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 1%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
@@ -36,24 +35,24 @@ Följ de här stegen för att visa och hantera rapporter:
 
 1. Från **[!UICONTROL Delivery]** kontrollpanel, klicka **[!UICONTROL Reports]**.
 
-   ![](assets/manage_delivery_report_1.png)
+   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
 
    Du kan också använda de tre punkterna **Fler åtgärder** knappen bredvid leveransnamnet i leveranslistan och välj **[!UICONTROL View report]**.
 
-   ![](assets/manage_delivery_report_2.png)
+   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
 
 1. Välj en rapport från listan på den vänstra menyn.
 
-   ![](assets/manage_delivery_report_3.png)
+   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Om leveransen är återkommande väljer du en viss leverans att rapportera om genom att klicka på **[!UICONTROL Select deliveries]**.
 
    Du kan också använda en tidsperiod för rapporten genom att välja **[!UICONTROL Contact date]**.
 
-   ![](assets/delivery-recurring.png)
+   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
 
    The **[!UICONTROL View by]** kan du filtrera på URL:er, etiketter eller kategorier.
 
-   ![](assets/manage_delivery_report_5.png)
+   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}

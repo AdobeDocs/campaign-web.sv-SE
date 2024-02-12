@@ -2,12 +2,11 @@
 audience: end-user
 title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
-badge: label="Begränsad tillgänglighet"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 1%
+source-wordcount: '607'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +49,7 @@ Följ de här stegen för att ange profiler från en lokal fil direkt från e-po
 1. Öppna en befintlig e-postleverans, eller [skapa en ny e-postleverans](../email/create-email.md).
 1. Fönstret för att skapa e-postleverans visas på **Målgrupp** klickar du på **Välj målgrupp** och väljer **Välj från fil** alternativ.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Markera den lokala fil som ska användas. Formatet måste justeras mot [exempelfil](#sample-file).
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
@@ -60,7 +59,7 @@ Följ de här stegen för att ange profiler från en lokal fil direkt från e-po
 
 När du skapar och anpassar meddelandeinnehållet kan du välja fält från indatafilen i [Personaliseringsredigerare](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Exempelfil {#sample-file}
 
@@ -93,7 +92,7 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
 
 1. En förhandsgranskning av leveransinnehållet visas i den högra rutan på skärmen. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan. [Läs mer om förhandsgranskning av leveransinnehåll](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på knappen **[!UICONTROL Test]** -knappen.
 
@@ -105,6 +104,6 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
 
 1. När korrekturmottagarna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send test email]** och bekräfta sändningen.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. Du kan övervaka sändningen av testmeddelandet med **[!UICONTROL View test email log]** när som helst. [Läs mer om övervakning av testmeddelanden](../preview-test/test-deliveries.md#access-test-deliveries)

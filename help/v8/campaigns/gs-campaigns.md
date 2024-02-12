@@ -2,12 +2,11 @@
 audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
-badge: label="Begränsad tillgänglighet"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 

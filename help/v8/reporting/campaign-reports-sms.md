@@ -2,11 +2,10 @@
 audience: end-user
 title: Kampanjrapporter för SMS-kanalen
 description: Förstå kampanjrapporter för SMS-kanalen
-badge: label="Begränsad tillgänglighet"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om hur besökarna interagerar med SMS-leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -50,7 +49,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal för nyck
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -75,7 +74,7 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är. Mätvärdena anges nedan.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-kampanjrapporter.
 
@@ -101,7 +100,7 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
 The **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för SMS-kampanjrapporter.
 

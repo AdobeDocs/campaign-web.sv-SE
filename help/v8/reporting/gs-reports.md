@@ -2,12 +2,11 @@
 audience: end-user
 title: Kom igång med rapporter
 description: Lär dig hur du får åtkomst till och hanterar rapporter på Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 2%
 
 ---
 

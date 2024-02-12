@@ -3,10 +3,9 @@ audience: end-user
 title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
 feature: Email
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -57,7 +56,7 @@ Följ stegen nedan om du vill skicka leveranser med hjälp av påfyllnader.
 
 Om du väljer det här alternativet har alla vågor samma storlek (förutom den sista) och fördröjningen mellan varje våg är alltid densamma.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Ange storleken för alla vågor som du delar leveransen till. Du kan ange ett procentvärde eller ett numeriskt värde. Endast den sista vågen kan variera i storlek eftersom den måste innehålla det återstående antalet meddelanden.
 
@@ -71,7 +70,7 @@ Med hjälp av vågor kan du begränsa antalet meddelanden till 20 per dag, vilke
 
 Om du vill göra det väljer du **[!UICONTROL Schedule multiple waves of the same size]** alternativ. Retur **[!UICONTROL 20]** som vågstorlek och **[!UICONTROL 1 day]** i **[!UICONTROL Interval]** fält.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Schemalägg påfyllnader enligt en kalender {#waves-calendar}
 
@@ -89,7 +88,7 @@ Lägg till så många vågor du vill. Du kan ordna om dem efter dina behov.
 
 I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Ett vanligt användningsfall för flera vågor enligt en kalender är under uppspelningsprocessen.
 
@@ -99,7 +98,7 @@ För att undvika att markeras som skräppost kan du stegvis öka volymen som ski
 
 Använd **[!UICONTROL Schedule waves according to a calendar]** alternativ. Du kan till exempel ställa in den första vågen på 10 %, den andra på 15 %, den tredje på 20 % och så vidare.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

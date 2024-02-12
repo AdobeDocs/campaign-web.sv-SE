@@ -2,11 +2,10 @@
 audience: end-user
 title: Lägg till en länk till spegelsidan
 description: Lär dig hur du lägger till och hanterar länken till spegelsidan
-badge: label="Begränsad tillgänglighet"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -31,15 +30,15 @@ Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
 
 1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
 
-   ![](assets/message-tracking-mirror-page.png)
+   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
 
 1. Välj **[!UICONTROL Add personalization]** -ikonen för att komma åt personaliseringsmenyn.
 
-   ![](assets/message-tracking-mirror-page_2.png)
+   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Content block]** meny, välja **[!UICONTROL Mirror page URL]** och klicka **[!UICONTROL Add]**.
 
-   ![](assets/message-tracking-mirror-page_3.png)
+   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
 
    Mer information om infogning av anpassade innehållsblock finns i [det här avsnittet](../personalization/personalize.md#personalize-emails).
 

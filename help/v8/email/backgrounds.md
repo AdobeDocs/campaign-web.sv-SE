@@ -3,10 +3,9 @@ audience: end-user
 title: Anpassa e-postbakgrunden
 description: Lär dig hur du anpassar din e-postbakgrund
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,15 +27,15 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 * Ange en **[!UICONTROL Background color]** för hela mejlet. Se till att du väljer brödtextinställningarna i navigeringsträdet som du kommer åt från den vänstra rutan.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * Ange samma bakgrundsfärg för alla strukturkomponenter genom att markera **[!UICONTROL Viewport background color]**. Med det här alternativet kan du välja en annan inställning från bakgrundsfärgen.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * Ange olika bakgrundsfärger för varje strukturelement. Välj en struktur i navigeringsträdet till vänster om du bara vill använda en viss bakgrundsfärg på den strukturen.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 * Ange en **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda.
 
 * Ange en bakgrundsfärg på kolumnnivå.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

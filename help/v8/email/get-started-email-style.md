@@ -3,11 +3,10 @@ audience: end-user
 title: Kom igång med e-postformat
 description: Upptäck olika sätt att justera e-postinnehållets stil
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +16,7 @@ När du har börjat skapa e-postinnehåll i [!DNL Adobe Campaign]kan du justera 
 
 Du kan antingen tillämpa ändringarna på e-postbrödtexten, på en strukturkomponent eller på en innehållskomponent.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 Följ länkarna nedan om du vill veta hur du justerar vissa formatinställningar i ditt e-postmeddelande.
 

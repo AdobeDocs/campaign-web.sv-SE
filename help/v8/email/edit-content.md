@@ -3,11 +3,10 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
@@ -48,11 +47,11 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Klicka på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
 
-   ![](assets/email-edit-content-button.png)
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. E-postinnehållets versionsskärm öppnas.
 
-   ![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -72,7 +71,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Expandera **[!UICONTROL Reply-to fields]** -avsnitt. Avsändarens namn och adresser används som standard för svar. Adobe rekommenderar dock att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
 
-   ![](assets/email-edit-content-reply-to.png)
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till [personalisering](../personalization/personalize.md) med olika attribut och innehållsblock, eller erbjudanden.
 

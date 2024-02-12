@@ -2,11 +2,10 @@
 audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa ett arbetsflöde med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -33,7 +32,7 @@ Gör så här:
 
 1. Klicka på **[!UICONTROL Create workflow]** i skärmens övre högra hörn.
 
-   ![](assets/workflow-create.png)
+   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
 
 1. I arbetsflödet **Egenskaper** väljer du den mall som ska användas för att skapa arbetsflödet (du kan också använda den inbyggda standardmallen). [Läs mer om arbetsflödesmallar](#workflow-templates).
 
@@ -41,7 +40,7 @@ Gör så här:
 
 1. Expandera **[!UICONTROL Additional options]** för att konfigurera fler inställningar för arbetsflödet. Lär dig hur du konfigurerar arbetsflödesegenskaperna i [den här sidan](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png)
+   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Create workflow]** för att bekräfta att arbetsflödet har skapats.
 
@@ -72,14 +71,14 @@ Så här skapar du en arbetsflödesmall från ett befintligt arbetsflöde:
 1. Öppna i **Arbetsflöden** och bläddra till arbetsflödet som du vill spara som en mall.
 1. Klicka på de tre punkterna till höger om arbetsflödets namn och välj **Kopiera som mall**.
 
-   ![](assets/wf-copy-as-template.png)
+   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Bekräfta att mallen har skapats i popup-fönstret.
 1. Kontrollera, lägg till och konfigurera aktiviteter efter behov på arbetsytan i arbetsflödesmallen.
 1. Bläddra till inställningarna från **Inställningar** om du vill ändra namnet på arbetsflödesmallen och ange en beskrivning.
 1. Välj **mapp** och **körningsmapp** av mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
 
-   ![](assets/wf-settings-template.png)
+   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
 
    De andra egenskaperna är vanliga i arbetsflöden. Läs mer i [den här sidan](workflow-settings.md#properties)
 
@@ -98,14 +97,14 @@ Så här skapar du en arbetsflödesmall från grunden:
 1. Ange etiketten och öppna de ytterligare alternativen för att ange en beskrivning av arbetsflödesmallen.
 1. Välj mapp och körningsmapp för mallen. Mappen är den plats där arbetsflödesmallen sparas. Körningsmappen är den mapp där arbetsflöden som skapats utifrån den här mallen sparas.
 
-   ![](assets/new-wf-template.png)
+   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
 
    De andra egenskaperna är vanliga i arbetsflöden. Läs mer i [den här sidan](workflow-settings.md#properties)
 
 1. Klicka på **Skapa** för att bekräfta inställningarna.
 1. Lägg till och konfigurera aktiviteterna efter behov på arbetsytan i arbetsflödesmallen.
 
-   ![](assets/wf-template-activities.png)
+   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
 
 1. Spara ändringarna.
 

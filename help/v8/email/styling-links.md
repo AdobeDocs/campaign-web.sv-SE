@@ -3,11 +3,10 @@ audience: end-user
 title: Definiera ett format för länkar
 description: Lär dig definiera ett format för länkar
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '132'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +19,7 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
 
 1. I **[!UICONTROL Settings]** flik, kontrollera **[!UICONTROL Underline link]** om du vill att etiketten ska vara understruken.
 
-   ![](assets/link_1.png)
+   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
 
 1. Välj hur er målgrupp ska omdirigeras med **[!UICONTROL Target]** nedrullningsbar lista:
 
@@ -30,10 +29,10 @@ Du kan stryka under en länk och välja dess färg och mål i e-postdesignern.
    * **[!UICONTROL Parent]**: öppnar länken i den överordnade ramen.
    * **[!UICONTROL Top]**: öppnar länken i hela fönstret.
 
-   ![](assets/link_2.png)
+   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
 1. Om du vill ändra färg på länken klickar du på **[!UICONTROL Link color]** från **[!UICONTROL Styles]** -fliken.
 
-   ![](assets/link_3.png)
+   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 
 1. Spara ändringarna.

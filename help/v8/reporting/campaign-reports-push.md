@@ -2,11 +2,10 @@
 audience: end-user
 title: Kampanjrapporter för push-kanalen
 description: Förstå kampanjrapporter för Push-kanalen
-badge: label="Begränsad tillgänglighet"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leverans av push-meddelanden. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-summary.png)
+![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
@@ -49,7 +48,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-target.png)
+![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
@@ -71,7 +70,7 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 
 The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-exec.png)
+![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
@@ -97,7 +96,7 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
 The **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-clicks.png)
+![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 

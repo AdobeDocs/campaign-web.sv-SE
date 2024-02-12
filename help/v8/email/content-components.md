@@ -3,10 +3,9 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -45,7 +44,7 @@ Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelande
 
 1. Dra och släpp **[!UICONTROL Content]** efter eget val inom relevanta strukturer.
 
-   ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelande
 
 1. Justera formatattributen för varje komponent med **[!UICONTROL Style]** -fliken. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent. [Läs mer om justering och utfyllnad](alignment-and-padding.md)
 
-   ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 1. På den avancerade menyn i **[!UICONTROL Content]** till höger kan du enkelt ta bort eller duplicera valfri innehållskomponent efter behov.
 
@@ -65,7 +64,7 @@ Du kan lägga till en enkel behållare i vilken du lägger till en annan innehå
 
 Lägg till exempel till en **[!UICONTROL Container]** och sedan lägga till en [Knapp](#button) -komponenten i den behållaren. Du kan använda en specifik bakgrund för behållaren och en annan för knappen.
 
-![](assets/email_designer_container_component.png)
+![](assets/email_designer_container_component.png){zoomable=&quot;yes&quot;}
 
 ## Knapp {#buttons}
 
@@ -73,11 +72,11 @@ Använd **[!UICONTROL Button]** om du vill infoga en eller flera knappar i e-pos
 
 1. Från **[!UICONTROL Contents]** lista, dra och släppa **[!UICONTROL Button]** till en **[!UICONTROL Structure]** -komponenten.
 
-   ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på den nya knappen för att anpassa texten och få tillgång till **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
 
-   ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Settings]** -tabbar, i **[!UICONTROL URL]** lägger du till den URL som du vill omdirigera till när du klickar på knappen.
 
@@ -89,7 +88,7 @@ Använd **[!UICONTROL Button]** om du vill infoga en eller flera knappar i e-pos
    * **[!UICONTROL Parent]**: öppnar länken i den överordnade ramen.
    * **[!UICONTROL Top]**: öppnar länken i hela fönstret.
 
-   ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
 
 1. Du kan anpassa knappen ytterligare genom att ändra formatattribut som **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, osv. från **[!UICONTROL Styles]** -fliken.
 
@@ -99,13 +98,13 @@ Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och jus
 
 1. Från **[!UICONTROL Contents]** meny, dra och släppa **[!UICONTROL Text]** till en **[!UICONTROL Structure]** -komponenten.
 
-   ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på den nya komponenten som du har lagt till för att anpassa texten och få tillgång till **[!UICONTROL Settings]** och **[!UICONTROL Styles]** -tabbar.
 
 1. Ändra texten med följande alternativ i det sammanhangsberoende verktygsfältet:
 
-   ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png){zoomable=&quot;yes&quot;}
 
    * **[!UICONTROL Change text style]**: fet, kursiv, understrykning eller genomstrykning i texten.
    * **Ändra justering**: välj mellan vänsterjustering, högerjustering, centrering eller marginaljustering för texten.
@@ -121,7 +120,7 @@ Använd **[!UICONTROL Text]** om du vill infoga text i e-postmeddelandet och jus
 
 1. Justera övriga formatattribut, t.ex. textfärg, teckensnittsfamilj, kantlinje, utfyllnad, marginal. från **[!UICONTROL Styles]** -fliken.
 
-   ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png){zoomable=&quot;yes&quot;}
 
 ## Delare {#divider}
 
@@ -129,7 +128,7 @@ Använd **[!UICONTROL Divider]** om du vill infoga en delningslinje för att ord
 
 Du kan justera formatattribut som linjefärg, format och höjd på menyn **[!UICONTROL Styles]** -fliken.
 
-![](assets/email_designer_16.png)
+![](assets/email_designer_16.png){zoomable=&quot;yes&quot;}
 
 ## HTML {#HTML}
 
@@ -137,11 +136,11 @@ Använd **[!UICONTROL HTML]** om du vill kopiera och klistra in de olika delarna
 
 1. Från **[!UICONTROL Components]**, dra och släpp **[!UICONTROL HTML]** till en **[!UICONTROL Structure]** -komponenten.
 
-   ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på den nya komponenten och välj sedan **[!UICONTROL Show the source code]** från kontextverktygsfältet för att lägga till HTML.
 
-   ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -153,26 +152,26 @@ Använd **[!UICONTROL Image]** om du vill infoga en bildfil från datorn i e-pos
 
 1. Från **[!UICONTROL Content]** meny, dra och släppa **[!UICONTROL Image]** i en **[!UICONTROL Structure]** -komponenten.
 
-   ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser. Du kan också välja att **[!UICONTROL Import your media]**.
 
    Mer information om hur du överför och lägger till resurser i Adobe Experience Manager finns i [Adobe Experience Manager as a Cloud Service-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer_28.png){zoomable=&quot;yes&quot;}
 
 1. Navigera i mapparna för att hitta den resurs du behöver, eller använd sökfältet för att hitta den effektivt.
 
    När du har hittat den resurs du söker efter klickar du på **[!UICONTROL Select]**.
 
-   ![](assets/email_designer_29.png)
+   ![](assets/email_designer_29.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på den nya komponenten och ange bildegenskaperna med **[!UICONTROL Settings]** tab:
 
    * **[!UICONTROL Image title]** I kan du definiera en titel för bilden.
    * **[!UICONTROL Alt text]** I kan du definiera den bildtext som är länkad till bilden. Detta motsvarar alt HTML-attributet.
 
-   ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png){zoomable=&quot;yes&quot;}
 
 1. Ni kan lägga till en länk för att dirigera om er målgrupp till ett annat innehåll. [Läs mer](message-tracking.md)
 
@@ -188,13 +187,13 @@ Använd **[!UICONTROL Social]** för att infoga länkar till sidor för sociala 
 
 1. I **[!UICONTROL Social]** fält för **[!UICONTROL Settings]** väljer du vilka sociala medier du vill lägga till eller ta bort.
 
-   ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png){zoomable=&quot;yes&quot;}
 
 1. Välj storlek på ikonerna i dialogrutan **[!UICONTROL Size of images]** fält.
 
 1. Klicka på ikonerna för sociala medier för att konfigurera **[!UICONTROL URL]** som er målgrupp omdirigeras till.
 
-   ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png){zoomable=&quot;yes&quot;}
 
 1. Du kan också ändra ikonerna för vart och ett av dina sociala medier om det behövs i **[!UICONTROL Source]** fält.
 

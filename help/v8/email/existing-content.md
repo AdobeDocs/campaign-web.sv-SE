@@ -3,10 +3,9 @@ audience: end-user
 title: Importera e-postinnehåll
 description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
 1. På [E-postdesigner](get-started-email-designer.md) startsida, välja **[!UICONTROL Import HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. Dra och släpp HTML- eller ZIP-filen med HTML och klicka på **[!UICONTROL Import]**.
 
@@ -39,11 +38,11 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
    I det här läget kan du bara anpassa texten, lägga till länkar eller inkludera resurser i innehållet.
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. Om du vill kunna utnyttja e-postdesignerns innehållskomponenter ska du gå till **[!UICONTROL HTML converter]** och klicka **[!UICONTROL Convert]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

@@ -5,11 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Begränsad tillgänglighet"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ Följ stegen nedan för att definiera villkorligt innehåll för en leverans med
 
 1. Klicka på **[!UICONTROL Open personalization dialog]** -ikonen bredvid fältet för att öppna uttrycksredigeraren.
 
-   ![](assets/open-perso-editor-sms.png)
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. I personaliseringsredigeraren går du till **[!UICONTROL Helper functions]** till vänster.
 
@@ -51,7 +50,7 @@ Följ stegen nedan för att definiera villkorligt innehåll för en leverans med
    * Ersätt `<VALUE>` med det värde som ska uppfyllas. Till exempel: `'French'`.
    * Ersätt `Ìnsert content here` med det innehåll som du vill visa för de profiler som uppfyller det angivna villkoret.
 
-     ![](assets/condition-sample1.png){width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Ange det innehåll som ska visas om mottagarna inte uppfyller villkoret. För att göra detta använder du **else** hjälpfunktion:
 
@@ -59,11 +58,11 @@ Följ stegen nedan för att definiera villkorligt innehåll för en leverans med
 
    1. Ersätt `Ìnsert content here` med det innehåll som du vill visa för de profiler som inte uppfyller if-funktionens villkor.
 
-   ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    Du kan också använda **else if** hjälpfunktion för att skapa villkor med flera innehållsvarianter. Uttrycket nedan visar till exempel tre varianter av ett meddelande beroende på mottagarens språk:
 
-   ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -93,29 +92,29 @@ I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baser
 
 1. Markera en innehållskomponent och klicka på **[!UICONTROL Enable conditional content]** -ikon.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. The **[!UICONTROL Conditional Content]** öppnas till vänster på skärmen. I den här rutan kan du skapa flera varianter av den markerade innehållskomponenten med villkor.
 
 1. Konfigurera din första variant. Hovring **[!UICONTROL Variant - 1]** i **[!UICONTROL Conditional Content]** och klicka på **[!UICONTROL Add condition]** -knappen.
 
-   ![](assets/condition-add-condition.png){width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. En regelbyggare visas. Den ger **Profil**, **Meddelande** och **Leverans** attribut som du kan använda för att skapa ditt villkor.
 
    Dessutom är **Villkor** -menyn innehåller fördefinierade villkor som du kan lägga till på arbetsytan för att enkelt bygga varianten. Klicka på **Lägg till** och sedan ersätta elementen mellan `<` och `>`symboler efter de önskade elementen. Se till att det värde du anger för `<value>` objektet är inom citattecken.
 
-   ![](assets/condition-syntax.png){width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. När villkoret för den första varianten av meddelandet är klart klickar du på **[!UICONTROL Confirm]**. I det här exemplet skapar vi en regel som riktar sig till mottagare vars språk är &quot;franska&quot;.
 
-   ![](assets/condition-example.png){width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Regeln är nu associerad med varianten. För bättre läsbarhet rekommenderar vi att du byter namn på varianten genom att klicka på ellipsmenyn.
 
 1. Konfigurera hur komponenten ska visas om regeln uppfylls när meddelandet skickas. I det här exemplet vill vi visa texten på franska om det är mottagarens favoritspråk.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Lägg till så många varianter som behövs för innehållskomponenten. Du kan växla mellan varianterna när som helst för att kontrollera hur innehållskomponenten visas baserat på deras villkorsregler.
 

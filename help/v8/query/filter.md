@@ -2,14 +2,13 @@
 audience: end-user
 title: Filterlistor
 description: Lär dig filtrera Adobe Campaign webblistor med inbyggda och anpassade filter.
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Filterlistor {#filter-lists}
 
@@ -21,7 +20,7 @@ Om du vill använda filter på en lista klickar du på **[!UICONTROL Show filter
 
 Filterrutan öppnas och tillgängliga filter för den valda listan visas. Du kan t.ex. filtrera kampanjer efter status, start- och slutdatum eller lagringsmapp, medan prenumerationstjänstlistan kan filtreras i kanal- och lagringsmappen.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Om du vill filtrera en lista baserat på dina egna kriterier skapar du ett eget filter. Om du vill göra det bläddrar du längst ned i filterrutan och klickar på **Lägg till regler** -knappen. [Lär dig hur du skapar anpassade filter](#custom)
 
@@ -36,6 +35,6 @@ Med anpassade filter kan du förfina listor baserat på dina egna specifika vill
 
    I exemplet nedan visas ett anpassat filter som är utformat för att i kampanjlistan visa SMS-kampanjer som körs av operatorer från avdelningarna Running och Yoga.
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. När det anpassade filtret har konfigurerats klickar du på **[!UICONTROL Confirm]** för att tillämpa den på listan.

@@ -1,11 +1,10 @@
 ---
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
-badge: label="Begränsad tillgänglighet"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ Så här loggar du in på Adobe Experience Cloud:
 
    När du har loggat in på Experience Cloud får du snabbt tillgång till alla dina lösningar och appar.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. Kontrollera att du är i rätt organisation.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Läs mer om organisationer i Adobe Experience Cloud i [den här artikeln](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv){target="_blank"}.
 
@@ -41,11 +40,11 @@ Om du vill komma åt din Campaign-miljö väljer du **Campaign** från **Snabb �
 
 Om du redan är ansluten till en annan Adobe Experience Cloud-lösning kan du även bläddra till Campaign-miljön från lösningsväljaren längst upp till höger på skärmen.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på **Starta** för rätt instans.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet i [den här sidan](user-interface.md).
 
@@ -60,7 +59,7 @@ Bläddra i gränssnittets övre fält till:
 * kontrollera produktmeddelanden
 * redigera din Adobe-profil och hantera inställningar som [uppdatera ditt favoritspråk](#language-pref) eller [växla till ljust/mörkt tema](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Webbläsare som stöds {#browsers}
 

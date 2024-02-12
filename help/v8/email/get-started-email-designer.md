@@ -2,12 +2,11 @@
 audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
-badge: label="Begränsad tillgänglighet"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -61,4 +60,4 @@ Gå igenom [Redigera innehåll](edit-content.md) för att öppna hemsidan för E
 
 * **Välj ett befintligt innehåll** från en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}

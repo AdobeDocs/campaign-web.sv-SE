@@ -3,10 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---

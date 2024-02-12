@@ -2,11 +2,10 @@
 audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
-badge: label="Begränsad tillgänglighet"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---

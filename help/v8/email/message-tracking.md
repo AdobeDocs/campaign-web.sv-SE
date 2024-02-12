@@ -3,11 +3,10 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +26,7 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 
 1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Lägg till en **[!UICONTROL Label]** och **[!UICONTROL Link]**.
 
@@ -38,7 +37,7 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
    * Du kan redigera länken och ändra dess **[!UICONTROL Target]**.
    * Du kan välja att stryka under länken eller inte genom att markera motsvarande alternativ.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade U
 
 1. Om du vill redigera en länk klickar du på motsvarande pennikon.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. Du kan ändra **[!UICONTROL Tracking Type]** vid behov:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    För varje spårad URL kan du ange spårningsläget till något av följande värden:
 
@@ -71,6 +70,6 @@ The [E-postdesigner](create-email-content.md) gör att du kan hantera spårade U
 
 1. Lägg till en **[!UICONTROL Category]** till länken för att gruppera spårade länkar och klicka på **[!UICONTROL Save]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. När leveransen är klar öppnar du leveransrapporten. Under **[!UICONTROL Tracking]** -menyn, **[!UICONTROL URLs and click streams]** rapporten visar vilka URL:er från din leverans som är mest besökta. [Läs mer](../reporting/gs-reports.md)

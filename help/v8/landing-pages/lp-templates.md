@@ -3,11 +3,10 @@ audience: end-user
 title: Arbeta med innehållsmallar för landningssidor
 description: Lär dig hur du sparar innehåll på landningssidor som en designmall och återanvänder det i Campaign Web
 feature: Landing Pages
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '192'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +20,7 @@ När du designat [innehåll på landningssidan](lp-content.md)kan du spara den f
 
 1. Välj **[!UICONTROL Save as content template]** i listrutan.
 
-   ![](assets/lp-save-as-template.png)
+   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Lägg till ett namn för mallen.
 
@@ -29,7 +28,7 @@ När du designat [innehåll på landningssidan](lp-content.md)kan du spara den f
 
 Nästa gång du skapar en landningssida kan du använda den här mallen för att bygga ditt innehåll. Läs mer i [section](#use-saved-template) nedan.
 
-![](assets/lp-saved-template.png)
+![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
 
 ## Använda en sparad mall {#use-saved-template}
 
@@ -37,7 +36,7 @@ Nästa gång du skapar en landningssida kan du använda den här mallen för att
 
 1. När du redigerar innehållet på en landningssida klickar du på **[!UICONTROL More]** knapp och markera **[!UICONTROL Change your design]**.
 
-   ![](assets/lp-change-your-design.png)
+   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
 
 1. Bekräfta ditt val.
 
@@ -47,11 +46,11 @@ Nästa gång du skapar en landningssida kan du använda den här mallen för att
 
 1. Listan över alla mallar som sparats tidigare visas i **[!UICONTROL Saved templates]** -fliken. Du kan sortera dem **[!UICONTROL By name]**, **[!UICONTROL Last modified]** och **[!UICONTROL Last created]**.
 
-   ![](assets/lp-saved-templates.png)
+   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Välj önskad mall i listan. När du har valt det här alternativet kan du navigera mellan alla sparade mallar med höger- och vänsterpilarna.
 
-   ![](assets/lp-select-saved-template.png)
+   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Use this template]**.
 

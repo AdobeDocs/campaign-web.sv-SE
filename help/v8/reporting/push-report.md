@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
-badge: label="Begränsad tillgänglighet"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 
 The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -54,7 +53,7 @@ The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 The **Målgrupp** diagram- och tabellvisningsdata i relation till er målgrupp: meddelanden som ska levereras och exkluderas. Mätvärdena anges nedan.
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -73,7 +72,7 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till er målgrupp: 
 
 The **Övergripande statistik** rapporten innehåller data för skickade push-meddelanden: lyckade, felaktiga och karantän. Mätvärdena anges nedan.
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -95,7 +94,7 @@ The **Övergripande statistik** rapporten innehåller data för skickade push-me
 The **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -106,4 +105,4 @@ The **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker so
 
 The **Leveransflöde** rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

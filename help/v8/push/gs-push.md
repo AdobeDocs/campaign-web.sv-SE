@@ -2,12 +2,11 @@
 audience: end-user
 title: Kom igång med push-meddelanden
 description: Lär dig hur du skapar och skickar push-meddelanden med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '193'
+ht-degree: 0%
 
 ---
 

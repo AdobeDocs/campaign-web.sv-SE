@@ -2,10 +2,9 @@
 audience: end-user
 title: Globala rapporter för direktreklamkanalen
 description: Läs mer om Global-rapporter för direktreklamkanalen
-badge: label="Begränsad tillgänglighet"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '579'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 
 The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter om hur besökarna interagerar med varje e-postleverans. Mätvärdena beskrivs nedan.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -39,7 +38,7 @@ The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger dj
 
 Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mottagare, med detaljerade mått som anges nedan.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -55,7 +54,7 @@ Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mott
 
 The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av hur väl varje direktmejlleverans lyckats, med detaljerade mätvärden som anges nedan.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransstatistik.
 
@@ -71,7 +70,7 @@ The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av 
 
 ### Orsaker till uteslutning {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 

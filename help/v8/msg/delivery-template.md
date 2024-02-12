@@ -5,11 +5,10 @@ description: Lär dig hur du skapar och använder leveransmallar på Campaign We
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Begränsad tillgänglighet"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -49,24 +48,24 @@ En mall kan innehålla:
 
 Om du vill komma åt innehållsmalllistan väljer du **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** från den vänstra menyn och bläddra till **Mallar** -fliken.
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 Alla mallar som [skapad](#create-a-delivery-template) i den aktuella miljön visas.
 
 Du kan filtrera innehållsmallar på kanaler och mappar. Du kan också ange avancerade filter genom att skapa en regel med hjälp av leveransattribut. [Läs mer om frågemodelleraren](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 Om du vill redigera en mall klickar du på önskat objekt i listan. Därifrån:
 
 * Ni kan ändra dess innehåll, egenskaper, målgrupp och eventuella erbjudanden som är kopplade till den.
 * Du kan också testa mallen. [Läs mer](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 Ta bort eller [duplicera](#copy-an-existing-template) en mall väljer du motsvarande åtgärd från **[!UICONTROL More actions]** menyn, antingen från **[!UICONTROL Templates]** eller från en mallversionsskärm.
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ Så här duplicerar du en leveransmall:
 
 1. Bekräfta duplicering.
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Den nya mallkontrollpanelen öppnas på den centrala skärmen. Redigera mallinställningarna efter behov.
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Review]** för att spara och granska mallen. Du kan fortfarande redigera alla dess inställningar, ta bort och duplicera den.
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. Testa mallåtergivningen vid behov. [Läs mer](#test-template)
 
@@ -120,7 +119,7 @@ Så här sparar du en leverans som en mall:
 1. Gå till **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menyn.
 1. Från **[!UICONTROL Browse]** klickar du på **[!UICONTROL More actions]** till höger om leveransnamnet och välj **[!UICONTROL Copy as a template]**.
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    Du kan också välja en mall i listan och välja det här alternativet från mallversionsskärmen.
 
@@ -145,12 +144,12 @@ Så här konfigurerar du en leveransmall från grunden:
 1. Gå till **Mallar** -fliken, från **Leveranser** vänster meny. [Läs mer](#access-manage-templates)
 1. Klicka på knappen **[!UICONTROL Create template]**.
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Välj den kanal som du vill använda för mallen.
 1. Den inbyggda leveransmallen för den kanalen används som standard för att hjälpa dig att skapa en egen mall. Använd den dedikerade knappen till höger om den valda kanalen för att välja en annan mall vid behov.
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Create template]** igen.
 
@@ -180,7 +179,7 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 1. Klicka på **[!UICONTROL Simulate content]** överst till höger på skärmen.
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Markera en eller flera testprofiler för att kontrollera e-poståtergivningen. Du kan också välja riktiga profiler från databasen. [Läs mer om testprofiler](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 [Läs mer om hur du förhandsgranskar innehåll](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. Stäng fönstret för att gå tillbaka till mallversionen.
 

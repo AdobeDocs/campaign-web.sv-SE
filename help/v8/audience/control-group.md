@@ -3,10 +3,9 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i användargränssnittet för Campaign-webben
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Begränsad tillgänglighet"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 7%
 
 ---
@@ -67,7 +66,7 @@ Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna g�
 1. Lägg till **Skapad den** fält. Ändra till **Fallande** sorteringsalternativ.
 1. Definiera 100 som tröskelvärde i **Storleksgräns** -avsnitt.
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 Dessa 100 nya unga mottagare exkluderas sedan från huvudmålet.
 
@@ -75,27 +74,27 @@ Dessa 100 nya unga mottagare exkluderas sedan från huvudmålet.
 
 Du kan visa loggarna för att kontrollera och identifiera de exkluderade profilerna. Låt oss ta ett exempel på ett slumpmässigt undantag på fem profiler.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 Efter leveransförberedelserna kan du se hur undantagen tillämpades:
 
 * På kontrollpanelen för leveransen, före sändningen, kontrollerar du **Att exkludera** KPI.
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * På fliken Loggar i leveransloggarna visas exkluderingssteget.
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * The **Uteslutningsorsaker** visas antalet uteslutna profiler för varje typologiregel.
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 Mer information om leveransloggar finns i [section](../monitor/delivery-logs.md).
 
@@ -110,7 +109,7 @@ Ett annat sätt att definiera en kontrollgrupp är att välja en specifik popula
 
 Från **Extra population** i **Kontrollgrupp** definitionsskärmen klickar du på **[!UICONTROL Select Audience]** -knappen.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * Om du vill använda en befintlig målgrupp klickar du **Välj målgrupp**. Läs mer i [det här avsnittet](add-audience.md).
 

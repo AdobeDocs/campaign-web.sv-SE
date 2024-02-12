@@ -2,11 +2,10 @@
 audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
-badge: label="Begränsad tillgänglighet"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -39,27 +38,27 @@ Följ de här stegen för att få tillgång till och hantera kampanjrapporter:
 
 1. Navigera till **[!UICONTROL Campaigns]** -menyn. Klicka på **Rapporter** från kampanjens kontrollpanel.
 
-   ![](assets/manage_campaign_report_2.png)
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    Du kan också använda de tre punkterna **Fler åtgärder** knapp bredvid kampanjnamnet i kampanjlistan och välj **[!UICONTROL View report]**.
 
-   ![](assets/manage_campaign_report_1.png)
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. Välj en rapport i listan på den vänstra menyn och navigera på fliken för att visa data från varje kanal.
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Klicka på **[!UICONTROL Select deliveries]** om ni vill rikta in er på en viss leverans som ingår i kampanjen.
 
 1. I **[!UICONTROL Delivery throughput]** väljer du en **Starta** och **[!UICONTROL End time]** för att rikta in specifika data.
 
-   ![](assets/manage_campaign_report_3.png)
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL Pick folder]** väljer du om du vill rikta leveranser eller kampanjer från en viss mapp.
 
    Du kan också välja **[!UICONTROL Add rules]** för att börja skapa frågor för att bättre filtrera rapporteringsdata. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Från **[!UICONTROL URLs and click streams]** kan du också välja **[!UICONTROL Top visited Links]** eller **[!UICONTROL Time period]**.
 

@@ -2,11 +2,10 @@
 title: Kom igång med profiler och målgrupper
 description: Lär dig hur du arbetar med profiler och målgrupper på Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-badge: label="Begränsad tillgänglighet"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
-badge: label="Begränsad tillgänglighet"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med e-postleveransen. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -51,7 +50,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -72,7 +71,7 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 
 The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -97,7 +96,7 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
 The **[!UICONTROL Reaction statistics]** tabellen innehåller tillgängliga data för mottagaraktivitet för leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -121,7 +120,7 @@ The **[!UICONTROL Reaction statistics]** tabellen innehåller tillgängliga data
 
 The **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -146,7 +145,7 @@ The **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet inneh�
 
 Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -186,7 +185,7 @@ The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet inne
 
 The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -212,7 +211,7 @@ The **[!UICONTROL Delivery statistics]** Mätvärden ger nyckeltal (KPI) som ger
 
 The **[!UICONTROL Open and click-trough rate]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
 
 +++ Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -237,7 +236,7 @@ The **[!UICONTROL Open and click-trough rate]** tabellen visar data som är rela
 
 The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
 
 +++ Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -260,7 +259,7 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 
 The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk. Mätvärdena anges nedan.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -279,7 +278,7 @@ The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller ti
 
 The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
 
 ## Användaraktiviteter {#user-activities-email}
 
@@ -290,7 +289,7 @@ The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillg�
 
 The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Mätvärden för den här rapporten finns nedan.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 

@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 Du kan välja mellan:
 
@@ -42,17 +41,17 @@ Följ stegen nedan när du vill börja skapa innehåll med någon av exempelmall
 
 1. Om du vill använda en befintlig anpassad mall går du till **[!UICONTROL Saved templates]** -fliken.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. Listan med alla [sparade mallar](#save-as-template) visas. Du kan sortera dem **[!UICONTROL By name]**, **[!UICONTROL Last modified]** och **[!UICONTROL Last created]**.
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Välj en mall i listan för att visa dess innehåll.
 
 1. Använd höger- och vänsterpilarna för att navigera mellan mallarna (exempel eller sparad beroende på vad du har valt).
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **[!UICONTROL Use this template]** längst upp till höger på skärmen.
 

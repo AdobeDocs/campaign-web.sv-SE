@@ -2,10 +2,10 @@
 audience: end-user
 title: Globala rapporter för push-kanalen
 description: Förstå globala rapporter för Push-kanalen
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med varje leverans av push-meddelanden. Mätvärdena anges nedan.
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data som är relaterade till mottagarna för varje sändning av push-meddelanden. Mätvärdena anges nedan.
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -71,7 +71,7 @@ The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data 
 
 The **[!UICONTROL Delivery statistics]** tabellen visar hur väl varje push-meddelandeleverans har lyckats. Mätvärdena anges nedan.
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om leveransstatistik.
 
@@ -105,7 +105,6 @@ Feltyperna för push-meddelanden visas i [Adobe Campaign v8-dokumentation (klien
 >title="Rapport om leveransdataflöde"
 >abstract="The **Leveransflöde** rapporten innehåller detaljerad information om hela plattformens leveransflöde för push-meddelanden inom en angiven tidsram."
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 The **[!UICONTROL Delivery Throughput]** rapporten ger omfattande insikter om hur effektivt leveranssystemet för push-meddelanden är, och innehåller en detaljerad sammanfattning av lyckade resultat och felprocent under en viss period.
-

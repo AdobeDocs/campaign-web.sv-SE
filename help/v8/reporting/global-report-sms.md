@@ -2,10 +2,10 @@
 audience: end-user
 title: Globala rapporter för SMS-kanalen
 description: Förstå globala rapporter för SMS-kanalen
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 
 The **[!UICONTROL Delivery Overview]** rapporten innehåller omfattande nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktionsmönster för varje SMS-leverans. Följande mätvärden beskrivs nedan.
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller omfattande nyckelta
 
 The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data som är relaterade till mottagarna för varje skickad SMS-leverans. Mätvärdena anges nedan.
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -71,7 +71,7 @@ The **[!UICONTROL Targeted audience]** tabellen och diagrammet innehåller data 
 
 The **[!UICONTROL Delivery statistics]** tabellen visar hur bra du har lyckats med varje SMS-leverans. Mätvärdena anges nedan.
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om leveransstatistik.
 
@@ -98,7 +98,7 @@ The **[!UICONTROL Causes of exclusion]** I diagram och tabeller visas orsakerna 
 
 Feltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## Leveranskapacitet {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Feltyperna listas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://exp
 >title="SMS-leverans"
 >abstract="The **Leveransflöde** rapporten ger omfattande insikter om hur effektivt SMS-meddelandesystemet är och ger en detaljerad översikt över lyckade åtgärder och felprocent inom en viss tidsram."
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 The **[!UICONTROL Delivery Throughput]** rapporten ger omfattande insikter om hur effektivt systemet för leverans av SMS-meddelanden är, och ger en detaljerad sammanfattning av framgångarna och felprocenten under en viss period.

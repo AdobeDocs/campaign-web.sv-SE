@@ -3,11 +3,10 @@ audience: end-user
 title: Justera lodrät justering och utfyllnad i e-postdesignern
 description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
@@ -18,15 +17,15 @@ I det här exemplet justerar vi utfyllnad och lodrät justering inuti en struktu
 
 1. Markera strukturkomponenten direkt i e-postmeddelandet eller med **[!UICONTROL Navigation tree]** i den vänstra rutan.
 
-   ![](assets/alignment_1.png)
+   ![](assets/alignment_1.png){zoomable=&quot;yes&quot;}
 
 1. I det sammanhangsberoende verktygsfältet klickar du på **[!UICONTROL Select a column]** och välj den som du vill redigera. Du kan också välja det i strukturträdet till vänster.
 
-   ![](assets/alignment_2.png)
+   ![](assets/alignment_2.png){zoomable=&quot;yes&quot;}
 
 1. De redigerbara parametrarna för den kolumnen visas i **[!UICONTROL Styles]** -fliken. Justera **[!UICONTROL Alignment]** med det dedikerade avsnittet.
 
-   ![](assets/alignment_3.png)
+   ![](assets/alignment_3.png){zoomable=&quot;yes&quot;}
 
    Välj till exempel **[!UICONTROL Bottom]**. Innehållskomponenten flyttas längst ned i kolumnen.
 
@@ -36,7 +35,7 @@ I det här exemplet justerar vi utfyllnad och lodrät justering inuti en struktu
    >
    >Klicka på låsikonen om du vill bryta synkroniseringen mellan utfyllnaden längst upp/längst ned eller vänster/höger.
 
-   ![](assets/alignment_4.png)
+   ![](assets/alignment_4.png){zoomable=&quot;yes&quot;}
 
 1. Gör på samma sätt om du vill justera justeringen och utfyllnaden för de andra kolumnerna.
 

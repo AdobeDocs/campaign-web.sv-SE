@@ -5,12 +5,11 @@ description: Lär dig hur du skapar din första leverans på Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Begränsad tillgänglighet"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1172'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +34,12 @@ Så här skapar du en fristående leverans:
 
 1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på **[!UICONTROL Create delivery]** -knappen.
 
-   ![](assets/create-a-delivery.png)
+   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Välj en kanal för leveransen.
 1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 1. Definiera meddelandeinnehållet. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
 
@@ -63,13 +62,13 @@ Så här skapar du en leverans i ett arbetsflöde:
 1. Lägg till och konfigurera en **[!UICONTROL Build audience]** aktivitet. Läs mer om **[!UICONTROL Build audience]** aktivitet i [det här avsnittet](../workflows/activities/build-audience.md).
 1. Klicka på `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png)
+   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 
 1. Starta arbetsflödet och kontrollera loggarna.
 
 Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. Bläddra till **[!UICONTROL Deliveries]** fliken med kampanjen och klicka på **[!UICONTROL Create delivery]** -knappen.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
 
 Konfigurationsstegen är desamma som för fristående leveranser.
 
@@ -117,7 +116,7 @@ Du kan ange datum och exakt tid för att skicka meddelanden. Genom att välja de
 
 Om du vill schemalägga sändning av leveransen öppnar du leveransen och bläddrar till **[!UICONTROL Schedule]** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera den och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka leveransen automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
 

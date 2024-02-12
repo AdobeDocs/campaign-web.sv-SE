@@ -3,11 +3,10 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 21%
+source-wordcount: '369'
+ht-degree: 20%
 
 ---
 
@@ -41,39 +40,39 @@ Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandet
 * Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
 * Den röda ikonen anger ett kritiskt fel som förhindrar leverans. Allvarliga fel måste åtgärdas för att leveransen ska kunna skickas.
 
-![](assets/logs.png)
+![](assets/logs.png){zoomable=&quot;yes&quot;}
 
 
 ## Leveranser {#deliveries-tab}
 
 The **Skicka loggar** På -fliken finns en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoomable=&quot;yes&quot;}
 
 ## Undantag {#exclusion-tab}
 
 The **Uteslutningsloggar** På -fliken visas alla meddelanden som har undantagits från målet och orsaken till sändningsfelet anges.
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoomable=&quot;yes&quot;}
 
 ## Uteslutningsorsaker {#exclusion-causes-tab}
 
 The **Uteslutningsorsaker** för varje möjlig orsak visas antalet meddelanden som har uteslutits från målet.
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoomable=&quot;yes&quot;}
 
 ## Spårade URL:er {#tracked-urls-tab}
 
 The **Spårade URL:er** På fliken grupperas URL:erna i skickade meddelanden, inklusive deras URL-typ och deras käll-URL.
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoomable=&quot;yes&quot;}
 
 ## Spåra {#tracking-tab}
 
 The **Spårning** På -fliken visas spårningshistoriken för leveransen. På den här fliken visas spårningsdata för skickade meddelanden, d.v.s. alla URL:er som spåras av Adobe Campaign.
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

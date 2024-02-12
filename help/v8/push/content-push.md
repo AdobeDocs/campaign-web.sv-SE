@@ -2,11 +2,10 @@
 audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -56,7 +55,7 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
   Om du vill definiera innehåll, anpassa data och lägga till dynamiskt innehåll klickar du på **[!UICONTROL Message]** och använder uttrycksredigeraren. Du kan använda den här redigeraren för att anpassa dina meddelanden.
 I **[!UICONTROL Application variables]** -menyn läggs programvariablerna automatiskt till. Med dessa variabler kan du definiera meddelandebeteende. Du kan till exempel konfigurera en specifik programskärm som ska visas när användaren aktiverar meddelandet.
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * The **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
@@ -64,7 +63,7 @@ I **[!UICONTROL Application variables]** -menyn läggs programvariablerna automa
 
   Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ Du kan lägga till en **[!UICONTROL Subtitle]**, värdet för undertitelparamete
 
 I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilprogram. Användaren har inte informerats om meddelandets ankomst. Den överförs direkt till programmet.
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | Parameter | Beskrivning |
 |---------|---------|
@@ -143,7 +142,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | Parameter | Beskrivning |
 |---------|---------|

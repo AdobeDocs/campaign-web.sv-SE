@@ -2,11 +2,10 @@
 audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -67,11 +66,11 @@ Så här visar du behörigheter för en mapp:
 1. Från **Explorer** vänster navigeringsmeny väljer du en mapp.
 1. Klicka på de tre punkterna i det övre högra hörnet och välj **Mappbehörigheter**.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Kontrollera detaljer på skärmen enligt nedan:
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    En grupp, eller en operator, kan ha behörigheten Läs, Skriv och/eller Ta bort för data som lagras i den valda mappen.
 
@@ -96,8 +95,8 @@ Så här skapar du en mapp:
 1. Klicka på de tre punkterna i det övre högra hörnet och välj **Skapa ny undermapp**.
 1. Ange namnet på mappen och spara.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen från **Ytterligare alternativ** av egenskaperna enligt nedan för en leverans:
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

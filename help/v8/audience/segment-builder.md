@@ -4,9 +4,9 @@ title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Med regelbyggaren kan du definiera målgruppen för leveransen genom att filtrer
 
 Paletten, som finns till vänster, innehåller alla element som du kan filtrera på för att skapa en målgrupp. Du kan använda sökfältet för att snabbt hitta element. Platserna i paletten måste flyttas till arbetsytan i mitten för att kunna konfigureras och beaktas.
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 Paletten är uppdelad i två flikar:
 
@@ -38,13 +38,13 @@ Paletten är uppdelad i två flikar:
 
 Arbetsytan är den centrala zon där du kan konfigurera och kombinera regler baserat på de element som läggs till från paletten. Om du vill lägga till en ny regel drar du en ruta från paletten och släpper den på arbetsytan. Du kan sedan få sammanhangsberoende alternativ beroende på vilken typ av data som läggs till.
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Rutan Regelegenskaper
 
 På höger sida **Regelegenskaper** kan du utföra de åtgärder som anges nedan.
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Visa resultat:** visar en lista över mottagare som målgruppen har.
 * **kodvyn**: visar en kodbaserad version av målgruppen i SQL.
@@ -64,26 +64,26 @@ I det här exemplet bygger vi en målgrupp för alla kunder som bor i Atlanta el
 
 1. I **Attribut** palettens flik, sök efter **Födelsedatum** fält. Dra rutan och släpp den på arbetsytan.
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. Välj **Efter** och ange önskat datum.
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. På paletten söker du efter **Ort** och lägg till det på arbetsytan under den första regeln.
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. Ange namnet på den första orten i textfältet och tryck sedan på Retur.
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. Upprepa den här åtgärden för namnet på den andra staden.
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **Visa resultat** för att visa listan och antalet mottagare som matchar frågan. Du kan också lägga till kolumner för att visa och kontrollera data. I vårt exempel lägger du till **Ort** i Atlanta och Seattle.
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. Klicka **Bekräfta**.

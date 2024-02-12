@@ -2,12 +2,11 @@
 audience: end-user
 title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -42,7 +41,7 @@ Så här skapar du en ny fristående SMS-leverans:
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny. Om leveransen baseras på ett utökat schema, **Anpassade alternativ** fält är tillgängliga.
 
@@ -56,7 +55,7 @@ Så här skapar du en ny fristående SMS-leverans:
 
 1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    Lär dig hur du väljer en befintlig målgrupp i [den här sidan](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ Så här skapar du en ny fristående SMS-leverans:
 
 1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet. [Läs mer](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Så här skapar du en ny fristående SMS-leverans:
 
 1. Klicka **[!UICONTROL Settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

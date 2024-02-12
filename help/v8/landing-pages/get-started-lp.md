@@ -3,11 +3,10 @@ audience: end-user
 title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 feature: Landing Pages
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 5%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 

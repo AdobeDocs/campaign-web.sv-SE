@@ -1,12 +1,11 @@
 ---
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
-badge: label="Begränsad tillgänglighet"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +35,7 @@ Fördefinierade filter är anpassade filter som skapas och sparas för att vara 
 
 Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
@@ -62,11 +61,11 @@ Du kan spara ett eget filter från [frågemodellerare](../query/query-modeler-ov
 1. Öppna frågemodelleraren och definiera filtervillkoren. I exemplet nedan filtrerar du mottagare som bor i Madrid och prenumererar på ett nyhetsbrev.
 1. Klicka på **Markera eller spara filter** och markera **Spara som ett filter**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Välj **Skapa ett nytt filter** och ange ett namn och en beskrivning för filtret.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
 
@@ -86,12 +85,12 @@ Du kan skapa ett filter från **Fördefinierade filter** i den vänstra menyn. G
 
 1. Definiera regeln för filtret. Till exempel profiler äldre än 30.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Spara ändringarna.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 Filtret läggs till i den fördefinierade filterlistan. Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
@@ -104,7 +103,7 @@ När du skapar ett fördefinierat filter kan du aktivera **Spara som favorit** o
 
 När ett filter sparas som favorit är det tillgängligt för alla användare i **Favoritfilter** i listan där filter skapas, enligt nedan:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
@@ -121,21 +120,21 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 1. Ange målgruppens namn och klicka på **Skapa publik** -knappen.
 1. Välj **Fråga** aktivitet och, från den högra rutan, klicka **Skapa målgrupper** -knappen.
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
 1. Från **Markera eller spara filterknapp** väljer du **Välj eget filter** alternativ.
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Bläddra till det fördefinierade filtret som du vill använda för att skapa målgruppen, markera det och bekräfta.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Kontrollera regelegenskaperna för det här filtret och bekräfta.
 
    Filtret används nu som en fråga i **Fråga** aktivitet.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Spara ändringarna och klicka på **Starta** för att bygga upp målgruppen och göra den tillgänglig i målgruppslistan.
 
@@ -143,7 +142,7 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 
 Fördefinierade filter grupperas alla i den dedikerade posten på den vänstra navigeringsmenyn.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
 I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
 

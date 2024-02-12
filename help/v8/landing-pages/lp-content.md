@@ -2,10 +2,9 @@
 title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -47,7 +46,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
 1. Markera den. The **[!UICONTROL Form content]** visas på den högra paletten så att du kan redigera de olika fälten i formuläret.
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
 1. Expandera det första textfältet om det finns något, eller lägg till ett med **[!UICONTROL Add]** -knappen. Från **[!UICONTROL Text field 1]** kan du redigera fälttypen, det databasfält som ska uppdateras, etiketten och texten som ska visas i fältet innan användaren anger ett värde.
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. Markera **[!UICONTROL Make form field mandatory]**-alternativet om det behövs.  I så fall kan landningssidan endast skickas om användaren har fyllt i detta fält.
 
@@ -65,7 +64,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
 1. Expandera eventuella kryssrutor eller lägg till en med **[!UICONTROL Add]** -knappen. Välj om kryssrutan ska uppdatera en tjänst eller ett fält från databasen.
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
    Om du väljer **[!UICONTROL Subscription & services]**, välj en tjänst i listan och välj mellan de två alternativen nedan:
 
@@ -82,7 +81,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
 1. När alla fält har lagts till eller uppdaterats klickar du på **[!UICONTROL Call to action]** för att expandera motsvarande avsnitt. Här kan du definiera hur knappen ska fungera i **[!UICONTROL Form]** -komponenten.
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. Definiera vad som ska hända när du klickar på knappen:
 
@@ -96,7 +95,7 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
    * Alla kanaler - när formuläret skickas in väljs användarna in eller ut (beroende på den valda mallen) till/från all kommunikation från ert varumärke i alla kanaler
    * Ett fält från databasen - välj ett fält i attributlistan och definiera om det ska anges som Sant eller Falskt när formuläret skickas.
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
 1. Spara innehållet för att gå tillbaka till [egenskaper för landningssida](create-lp.md#create-landing-page).
 
@@ -106,17 +105,17 @@ Om du vill definiera specifikt innehåll som gör det möjligt för användare a
 
 1. The **[!UICONTROL Text field]** -avsnittet är som standard utökat. Du kan redigera utseendet på textfälten, t.ex. etikettens teckensnitt, placeringen av etiketten, fältets bakgrundsfärg eller fältets kantlinje.
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. Expandera **[!UICONTROL Checkbox]** för att definiera utseendet på kryssrutorna och motsvarande text. Du kan till exempel justera teckensnittsfamiljen och storleken eller kryssrutans kantlinjefärg.
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. Utöka och redigera andra avsnitt som motsvarar andra fält som du har lagt till (alternativknapp, listruta, datum och tid osv.) till formuläret.
 
 1. Expandera **[!UICONTROL Call to action]** för att ändra utseendet på knappen i komponentformuläret. Du kan till exempel ändra teckensnitt, lägga till en kant, redigera etikettfärgen vid hovring eller justera justeringen av knappen.
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    Du kan förhandsgranska vissa inställningar, t.ex. knappetikettfärg vid hovring med hjälp av **[!UICONTROL Simulate content]** -knappen. [Läs mer](create-lp.md#test-landing-page)
 

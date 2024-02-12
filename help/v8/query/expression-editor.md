@@ -2,10 +2,10 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2006'
 ht-degree: 55%
 
 ---
@@ -24,7 +24,7 @@ Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit
 
 | Åtkomst från **Attribut** fält | Åtkomst från **Värde** fält |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 Uttrycksredigeraren innehåller:
 
@@ -34,13 +34,13 @@ Uttrycksredigeraren innehåller:
 
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 När uttrycket är klart klickar du på **[!UICONTROL Confirm]** -knappen. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
 
 I exemplet nedan visas ett uttryck som konfigurerats för **[!UICONTROL Value]** fält. Om du vill redigera den måste du öppna uttrycksredigeraren med **[!UICONTROL Edit expression]** -knappen.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Hjälpfunktioner
 

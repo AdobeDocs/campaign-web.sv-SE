@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Så här lägger du till ett innehållsblock i en leverans:
 
 1. Leta reda på fältet där du vill lägga till ett innehållsblock och klicka på **[!UICONTROL Open personalization dialog]** -ikonen för att öppna uttrycksredigeraren.
 
-   ![](assets/content-block-access.png){width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. I uttrycksredigeraren går du till **[!UICONTROL Content blocks]** vänster meny.
 
 1. Om du vill lägga till ett innehållsblock placerar du markören på önskad plats i innehållet och infogar det genom att klicka på plusknappen (+).
 
-   ![](assets/content-blocks.png){width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 Inbyggda innehållsblock är:
 

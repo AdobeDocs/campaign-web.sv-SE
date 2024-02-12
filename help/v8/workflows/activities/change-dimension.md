@@ -2,12 +2,11 @@
 audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
-badge: label="Begränsad tillgänglighet"
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
