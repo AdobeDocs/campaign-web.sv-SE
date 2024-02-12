@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%

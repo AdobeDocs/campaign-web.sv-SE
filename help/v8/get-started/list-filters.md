@@ -2,11 +2,10 @@
 audience: end-user
 title: Bläddra i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
-badge: label="Begränsad tillgänglighet"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

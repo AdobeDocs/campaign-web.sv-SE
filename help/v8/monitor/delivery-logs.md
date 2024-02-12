@@ -3,7 +3,7 @@ audience: end-user
 title: Övervaka leveransloggar
 description: Lär dig övervaka leveransloggar
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 20%

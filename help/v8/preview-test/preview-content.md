@@ -3,7 +3,7 @@ audience: end-user
 title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web-gränssnittet
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

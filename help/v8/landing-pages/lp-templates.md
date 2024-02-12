@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med innehållsmallar för landningssidor
 description: Lär dig hur du sparar innehåll på landningssidor som en designmall och återanvänder det i Campaign Web
 feature: Landing Pages
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 6%

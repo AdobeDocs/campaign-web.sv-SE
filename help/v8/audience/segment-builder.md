@@ -3,10 +3,9 @@ audience: end-user
 title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta"
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---

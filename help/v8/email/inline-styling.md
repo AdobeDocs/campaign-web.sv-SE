@@ -3,7 +3,7 @@ audience: end-user
 title: Lägg till textbundna formatattribut
 description: Lär dig hur du lägger till textbundna formatattribut
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
