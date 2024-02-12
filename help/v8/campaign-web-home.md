@@ -3,14 +3,14 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '654'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign webbdokumentation {#campaign-documentation}
+# Adobe Campaign webbgränssnittsdokumentation {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -83,9 +83,6 @@ ht-degree: 2%
 <!--TO REMOVE ABOVE-->
 
 Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
-
->[!AVAILABILITY]
-> Adobe Campaign Web är för närvarande i begränsad tillgänglighet (LA). Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 ## Nyheter
 
