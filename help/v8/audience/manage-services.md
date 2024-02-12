@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 1%
+source-wordcount: '892'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,11 @@ ht-degree: 1%
 
 Använd Adobe Campaign Web för att hantera och skapa t.ex. nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster.
 
+Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifika produktkategorier, teman eller områden på en webbplats, prenumerationer på olika typer av varningsmeddelanden och meddelanden i realtid.
+
 >[!NOTE]
 >
 >Prenumerationer gäller endast för e-post och SMS-leverans.
-
-Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifika produktkategorier, teman eller områden på en webbplats, prenumerationer på olika typer av varningsmeddelanden och meddelanden i realtid.
-
-Mer information om hur du hanterar prenumerationer och avbeställningar finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Få tillgång till prenumerationstjänster {#access-services}
 
@@ -102,7 +100,7 @@ Nu kan du:
 >title="Välj leveransmall för avanmälan"
 >abstract="Om du vill skicka bekräftelsemeddelanden till de användare som avbeställer tjänsten måste du välja en specifik leveransmall baserad på **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål."
 
-Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. Följ stegen nedan för att göra det.
+Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. För att göra detta, följ nedanstående steg:
 
 1. Skapa en leveransmall för prenumerationsbekräftelsen. [Lär dig skapa en mall](../msg/delivery-template.md)
 
@@ -112,7 +110,7 @@ Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar p�
 
    >[!NOTE]
    >
-   >Om du inte markerar  **[!UICONTROL Subscriptions]** målmappning kommer dina prenumeranter inte att få något bekräftelsemeddelande. Målmappningar definieras i Campaign v8-konsolen. Läs mer i [Adobe Campaign v8-dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >Om du inte markerar  **[!UICONTROL Subscriptions]** målmappning kommer dina prenumeranter inte att få något bekräftelsemeddelande. Läs mer om målmappningar i [det här avsnittet](../audience/targeting-dimensions.md) .
 
 1. Redigera innehållet i leveransmallen, spara och stäng den.
 
