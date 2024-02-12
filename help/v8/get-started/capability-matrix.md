@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Kommunikationskanaler {#channels-capabilities}
 
-Med användargränssnittet i Campaign Web kan du skapa, utforma och skicka e-post, SMS och push-meddelanden och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är dock för närvarande inte tillgängliga.
+Med Campaign Web-gränssnittet kan du skapa, utforma och skicka **e-post**, **SMS** och **push-meddelanden** och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är för närvarande **not** som finns i appen, direktreklam, LINE, Call center/Custom channel, social marketing with X (Twitter).
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa kanaler.
 
