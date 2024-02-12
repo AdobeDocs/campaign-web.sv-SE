@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ Med landningssidor kan du dirigera dina användare till onlineformulär där de 
 
 >[!CAUTION]
 >
->Landningssidor som du skapar i gränssnittet för Campaign-webben skiljer sig från webbformulär som skapas från klientkonsolen. Du kan inte visa eller redigera webbformulär i gränssnittet för webbkampanjen.
+>Landningssidor som du skapar i gränssnittet för Campaign-webben skiljer sig från webbformulär som skapas från klientkonsolen. Du kan inte visa eller redigera webbformulär som har skapats i klientkonsolen i gränssnittet för webbkampanjen.
 >
->Läs mer om webbformulär i [Dokumentation för kampanjkonsol](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Läs mer om webbformulär i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 De viktigaste funktionerna för landningssidor anges nedan:
 

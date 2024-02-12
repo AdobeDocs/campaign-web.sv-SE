@@ -2,9 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1264'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Så här skapar du en landningssida:
+
 1. Från **[!UICONTROL Landing pages]** lager, klicka **[!UICONTROL Create landing page]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
    * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera profildata.
    * **[!UICONTROL Subscription]**: Använd den här mallen för att göra det möjligt för användare att prenumerera på en viss [service](../audience/manage-services.md).
    * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på tjänsten [service](../audience/manage-services.md).
-   * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil inte längre vill bli kontaktad av Campaign.
+   * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil klickar på en länk för avanmälan i en leverans och inte längre vill bli kontaktad.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Lär dig hur du implementerar de olika användningsfall som motsvarar de olika mallarna i [det här avsnittet](lp-use-cases.md).
+   >Lär dig hur du implementerar de olika användningsfall som motsvarar de olika mallarna i [den här sidan](lp-use-cases.md).
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -101,7 +103,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
    * The **[!UICONTROL Skip preloading if no ID]** Du måste markera det här alternativet om du inte vill uppdatera profiler. I det här fallet läggs alla profiler som anges till i databasen när formuläret har godkänts. Det här alternativet används till exempel när formuläret publiceras på en webbplats.
 
-1. I **[!UICONTROL Pages]** klickar du på **[!UICONTROL Edit content]** för varje sida som du vill utforma för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
+1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor bläddrar du till **[!UICONTROL Pages]** och klickar på **[!UICONTROL Edit content]** för varje sida som du vill utforma för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 1. Klicka på **[!UICONTROL Review and publish]**.
 
-När du har definierat alla inställningar och [designad](lp-content.md) alla sidor kan du [test](#test-landing-page) och [publicera](#publish-landing-page) din landningssida.
+När du har definierat alla inställningar och [designad](lp-content.md) alla sidor kan du [test](#test-landing-page) och [publicera](#publish-landing-page) din landningssida så som beskrivs nedan.
 
 ## Testa landningssidan {#test-landing-page}
 
@@ -148,6 +150,8 @@ När inställningarna för landningssidan och innehållet har definierats kan du
 >[!CAUTION]
 >
 >Du måste ha testprofiler tillgängliga för att kunna förhandsgranska dina meddelanden och skicka korrektur. [Läs mer om testprofiler](../audience/test-profiles.md)
+
+Så här testar du landningssidan:
 
 1. När du klickat **[!UICONTROL Review and publish]** väljer du **[!UICONTROL Simulate content]** från kontrollpanelen för landningssidan för att komma åt valet av testprofil.
 
@@ -173,7 +177,7 @@ När inställningarna för landningssidan och innehållet har definierats kan du
 
 ## Publicera landningssidan {#publish-landing-page}
 
-När landningssidan är klar publicerar du den för att göra den tillgänglig för användning i en leverans med motsvarande knapp.
+När landningssidan är klar och validerad publicerar du den för att göra den tillgänglig för användning i en leverans med motsvarande knapp.
 
 Publicerad:
 

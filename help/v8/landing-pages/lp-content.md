@@ -2,9 +2,9 @@
 title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '818'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 1%
 >title="Använda innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida. Använd formulärkomponenten för att definiera specifikt innehåll som gör att användare kan välja och skicka sina val."
 
-När du redigerar innehållet på en sida på landningssidan är den redan ifylld.
+Du kan redigera innehållet på vilken sida som helst av landningssidan.
 
-Den första sidan, som visas omedelbart för användarna när de klickar på länken till landningssidan, är redan förfylld med [landningssidspecifik formulärkomponent](#use-form-component) för den valda mallen<!-- to enable users to select and submit their choices-->. Du kan också definiera [format för landningssidan](#lp-form-styles).
 
-Om du vill designa innehållet på landningssidan ytterligare kan du använda samma komponenter som för ett e-postmeddelande. [Läs mer](../email/content-components.md#add-content-components)
+Den första sidan, som visas omedelbart för användarna när de klickar på länken till landningssidan, är redan förfylld med [landningssidspecifik formulärkomponent](#use-form-component) för den valda mallen<!-- to enable users to select and submit their choices-->.
 
 Innehållet i **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** och **[!UICONTROL Expiration]** sidorna är också förfyllda. Redigera dem efter behov.
+
+Du kan också definiera [format för landningssidan](#lp-form-styles).
+
+Om du vill designa innehållet på landningssidan ytterligare kan du använda samma komponenter som för ett e-postmeddelande. [Läs mer](../email/content-components.md#add-content-components)
 
 ## Använda formulärkomponenten {#use-form-component}
 
@@ -36,7 +39,7 @@ Innehållet i **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** och **[!UICO
 >title="Vad händer när du klickar på knappen"
 >abstract="Definiera vad som ska hända när användare skickar in landningssidans formulär."
 
-Om du vill definiera specifikt innehåll som gör det möjligt för användare att välja och skicka sina val från landningssidan använder du **[!UICONTROL Form]** -komponenten. Följ stegen nedan för att göra det.
+Om du vill definiera specifikt innehåll som ska göra det möjligt för användare att välja och skicka sina val från landningssidan redigerar du **[!UICONTROL Form]** -komponenten. Följ stegen nedan för att göra det.
 
 1. Specifikt för landningssidan **[!UICONTROL Form]** -komponenten visas redan på arbetsytan för den valda mallen.
 
