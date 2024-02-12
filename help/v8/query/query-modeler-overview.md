@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
+source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
