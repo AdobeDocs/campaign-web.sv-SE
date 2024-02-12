@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,6 @@ Sök i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.c
 
 * Redigering och körning av meddelanden i realtid via e-post, SMS och push
 * Berikning och personalisering av meddelanden
-* Utlösare (övergivna Adobe Analytics-varukorgar)
 * Rapportering och övervakning av transaktionsmeddelanden
 
 ## Innehållsdesign {#content-capabilities}
