@@ -6,9 +6,9 @@ title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för kampanj
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 9%
             + [Lägg till en länk till spegelsidan](email/mirror-page.md)
             + [Lägga till en förrubrik](email/preheader.md)
             + [Generera textversionen](email/text-version-email.md)
-            + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Content Assistant {#content-assistant}
             + [Kom igång med Content Assistant](email/generative-gs.md)
             + [Skapa text med Content Assistant](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 9%
       + [E-posta global rapport](reporting/global-report-email.md)
       + [Skjut global rapport](reporting/global-report-push.md)
       + [global SMS-rapport](reporting/global-report-sms.md)
++ Integreringar {#integrations}
+   + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+   + [Hantera mallar med Adobe Experience Manager som en molntjänst](integrations/aem-content.md)
+
