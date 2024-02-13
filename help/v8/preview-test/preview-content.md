@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska leveransinnehåll
 description: Lär dig hur du förhandsgranskar ditt leveransinnehåll med Campaign Web-gränssnittet
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,7 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Om du vill välja de profiler som ska användas för att förhandsgranska ditt personaliserade innehåll använder du:
-
-   * **[!UICONTROL Add test profile(s)]** för förhandsgranskning av e-post- och SMS-leveranser
-
-   * **[!UICONTROL Add subscriber(s)]** för förhandsgranskning av push-meddelanden
+1. Välj de profiler som ska användas för att förhandsgranska innehållet. Klicka på **[!UICONTROL Add test profile(s)]** knappen (för e-post och SMS) eller **[!UICONTROL Add subscriber(s)]** för push-meddelanden.
 
 1. Du kan kombinera profiler och testprofiler för att förhandsgranska ditt e-postmeddelande eller SMS.
 
@@ -37,11 +33,9 @@ Följ stegen nedan om du vill förhandsgranska innehållet i leveransen.
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
+1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen. Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. [Lär dig hur du lägger till regler med frågemodelleraren](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. [Lär dig hur du lägger till regler med frågemodelleraren](../query/query-modeler-overview.md).
 
 1. Klicka **[!UICONTROL Select]** för att bekräfta ditt val.
 

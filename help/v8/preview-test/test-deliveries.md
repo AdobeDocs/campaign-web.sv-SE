@@ -3,10 +3,10 @@ audience: end-user
 title: Skicka testleveranser
 description: Lär dig hur du definierar och skickar testleveranser
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 1%
+source-wordcount: '1118'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 
    Beroende på meddelandekanalen kan testleveranser skickas till följande typer av mottagare:
 
-   * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. [Läs mer](../audience/test-profiles.md)
-
-   * För SMS och e-post kan du även använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar testleveransen till en e-postadress eller ett telefonnummer och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
+   * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. Du kan också använda [ersättning från huvudmålet](#substitution-profiles) läge, som skickar testleveransen till en e-postadress eller ett telefonnummer och använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
    * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i [!DNL Campaign] konsol. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -72,9 +70,9 @@ Så här börjar du testa ditt meddelandeinnehåll:
 >title="Inkludera testprofiler i huvudmålgruppen"
 >abstract="Aktivera det här alternativet om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen."
 
-Testprofiler är dirigerade adresser, som är ytterligare mottagare i databasen. De kan skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
+Testprofiler är ytterligare mottagare i databasen. De skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. [Läs mer](../audience/test-profiles.md#create-test-profiles)
 
-Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
+Stegen för att skicka testleveranser till testprofiler beskrivs nedan.
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 
@@ -82,17 +80,11 @@ Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 
    ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
-   >[!NOTE]
-   >
-   >Testprofiler skapas från **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menyn. Lär dig hur du skapar och hanterar dem i [det här avsnittet](../audience/test-profiles.md#create-test-profiles).
-
 1. Om du redan har valt profiler till [förhandsgranska meddelandet](preview-content.md) på skärmen för innehållssimulering är dessa profiler förmarkerade som testmottagare. Du kan rensa markeringen och/eller lägga till fler mottagare med **[!UICONTROL Add test profile(s)]** -knappen.
 
-1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen.
+1. När du bläddrar i testprofilen eller profillistorna kan du använda filter för att förfina sökningen. Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   Du kan till exempel definiera en regel som söker efter alla testprofiler med **[!UICONTROL Prospect]** status. Lär dig hur du lägger till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
 1. Om du även vill skicka det slutliga meddelandet till mottagarna av testleveransen väljer du **[!UICONTROL Include test population in the main target]** alternativ.
 
@@ -105,7 +97,6 @@ Stegen för att skicka testleveranser till dirigerade adresser beskrivs nedan.
 Använd profilersättning för att skicka testleveranser till en viss e-postadress eller ett visst telefonnummer, samtidigt som data från en befintlig profil i [!DNL Adobe Campaign] databas. Det här läget kan bara väljas om målgruppen för leveransen har definierats.
 
 Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
-
 
 1. Klicka på **[!UICONTROL Simulate content]** och **[!UICONTROL Test]** -knappen.
 

@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Så här skapar du en fristående leverans:
    ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Välj en kanal för leveransen.
-1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. Läs mer om målgrupper i [det här avsnittet](../audience/about-recipients.md).
+1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -51,16 +51,16 @@ Så här skapar du en fristående leverans:
 1. Klicka på  **[!UICONTROL Review and send]** för att kontrollera inställningarna.
 1. Använd  **[!UICONTROL Simulate content]** för att testa leveransinställningar och personaliseringsinställningar. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på  **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel uppstår går du till **Loggar** för att kontrollera varningar och varningar.
-1. Kontrollera resultaten och klicka på  **[!UICONTROL Send]** för att börja skicka meddelanden.
+1. Kontrollera resultaten och klicka på **[!UICONTROL Send]** för att börja skicka meddelanden.
 1. När meddelandena har skickats går du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
 
 >[!TAB Skapa en leverans i ett arbetsflöde]
 
 Så här skapar du en leverans i ett arbetsflöde:
 
-1. Skapa ett arbetsflöde eller öppna ett befintligt. Läs mer om arbetsflöden i [den här sidan](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Lägg till och konfigurera en **[!UICONTROL Build audience]** aktivitet. Läs mer om **[!UICONTROL Build audience]** aktivitet i [det här avsnittet](../workflows/activities/build-audience.md).
-1. Klicka på `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i det här [section](../workflows/activities/channels.md).
+1. Skapa ett arbetsflöde eller öppna ett befintligt. [Läs mer om arbetsflöden](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Lägg till och konfigurera en [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) aktivitet.
+1. Klicka på `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i [det här avsnittet](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 

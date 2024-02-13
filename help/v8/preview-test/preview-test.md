@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka testleveranser"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
-När leveransinnehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet.
+När leveransinnehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
 
-Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
-
-För att göra detta [!DNL Adobe Campaign] kan du:
+[!DNL Adobe Campaign Web user interface] kan du:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
 * [Skicka testleveranser](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
