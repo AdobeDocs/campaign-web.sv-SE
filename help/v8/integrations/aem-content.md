@@ -3,7 +3,7 @@ audience: end-user
 title: Hantera resurser med Adobe Experience Manager som en molntjänst
 description: Lär dig hantera innehåll med Adobe Experience Manager som en molntjänst
 badge: label="Begränsad tillgänglighet"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager und
 
 1. Navigera till [!DNL Adobe Experience Manager] författarinstans och klicka på Adobe Experience i det övre vänstra hörnet på sidan. Välj **[!UICONTROL Sites]** på menyn.
 
-1. Åtkomst **[!UICONTROL Campaigns > Name of your brand > Main Area > Email]**.
+1. Åtkomst **[!UICONTROL Campaigns > Name of your brand > Main Area > Name of your page]**.
 
 1. Klicka **[!UICONTROL Create]** och markera **[!UICONTROL Page]** i listrutan.
 
