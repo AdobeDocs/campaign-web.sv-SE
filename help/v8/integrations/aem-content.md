@@ -2,11 +2,10 @@
 audience: end-user
 title: Hantera resurser med Adobe Experience Manager som en molntjänst
 description: Lär dig hantera innehåll med Adobe Experience Manager som en molntjänst
-badge: label="Begränsad tillgänglighet"
-source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
+source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 1%
 
 ---
 
