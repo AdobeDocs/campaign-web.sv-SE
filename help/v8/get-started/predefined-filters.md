@@ -2,9 +2,9 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,6 @@ Fördefinierade filter är anpassade filter som skapas och sparas för att vara 
 Du kan använda befintliga inbyggda filter för att få tillgång till en viss delmängd av dina data, eller skapa egna fördefinierade filter och spara dem.
 
 ![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->I den versionen av produkten är vissa fördefinierade filter inte tillgängliga i användargränssnittet när du skapar regler, väljer målgrupp för en leverans eller när du skapar en målgrupp i ett arbetsflöde. Du kan fortfarande använda dem. [Läs mer](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
 
 ## Skapa ett fördefinierat filter {#create-predefined-filter}
 
@@ -109,20 +104,17 @@ När ett filter sparas som favorit är det tillgängligt för alla användare i 
 
 Fördefinierade filter är tillgängliga när du definierar regelegenskaper. Om du vill komma åt fördefinierade filter väljer du **Välj eget filter** i listrutan för frågemodelleraren.
 
-Du kan sedan komma åt den fullständiga listan med fördefinierade filter som är tillgängliga för den aktuella kontexten.
-
-Du kan också använda de filtergenvägar som finns i **Favoritfilter** i listrutan. Läs mer om favoriter i [det här avsnittet](#fav-filter).
+Du kan sedan komma åt den fullständiga listan med fördefinierade filter som är tillgängliga för den aktuella kontexten och använda kortkommandon som finns i **Favoritfilter** i listrutan. Läs mer om favoriter i [det här avsnittet](#fav-filter).
 
 Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följer du de här stegen:
 
-1. Sök i **Målgrupper** i den vänstra menyn.
-1. Klicka på **Skapa publik** -knappen.
+1. Gå till **Målgrupper** i den vänstra menyn och klicka på **Skapa publik** i det övre vänstra hörnet av målgruppslistan.
 1. Ange målgruppens namn och klicka på **Skapa publik** -knappen.
-1. Välj **Fråga** aktivitet och, från den högra rutan, klicka **Skapa målgrupper** -knappen.
+1. Välj **Fråga** och, från den högra rutan, klicka på **Skapa målgrupper** -knappen.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Från **Markera eller spara filterknapp** väljer du **Välj eget filter** alternativ.
+1. Från **Markera eller spara filter** klickar du på **Välj eget filter** alternativ.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -140,17 +132,17 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 
 ## Hantera dina fördefinierade filter {#manage-predefined-filter}
 
-Fördefinierade filter grupperas alla i den dedikerade posten på den vänstra navigeringsmenyn.
+Alla fördefinierade filter grupperas tillsammans i den dedikerade posten på den vänstra navigeringsmenyn.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och:
+I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och utföra följande åtgärder:
 
-* redigera ett befintligt filter och ändra dess regler och egenskaper
-* duplicera ett fördefinierat filter
-* ta bort ett fördefinierat filter
+* Redigera ett befintligt filter, ändra dess regler och egenskaper.
+* Duplicera ett fördefinierat filter.
+* Ta bort ett fördefinierat filter.
 
-Du kan lägga till ett fördefinierat filter som favorit för att snabbt få tillgång till dem när du skapar målgrupper. Läs mer i [det här avsnittet](#fav-filter).
+Du kan också lägga till ett fördefinierat filter som favorit för att få snabb åtkomst när du skapar målgrupper. Läs mer i [det här avsnittet](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

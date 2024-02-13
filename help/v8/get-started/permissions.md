@@ -3,7 +3,7 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
