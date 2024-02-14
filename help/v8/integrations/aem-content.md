@@ -2,9 +2,9 @@
 audience: end-user
 title: Hantera resurser med Adobe Experience Manager som en molntjänst
 description: Lär dig hantera innehåll med Adobe Experience Manager som en molntjänst
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ När mallen Experience Manager finns tillgänglig på Adobe Campaign Web som inn
 
    ![](assets/aem_8.png)
 
-1. Om mallarna ändras direkt i Adobe Experience Manager väljer du bara **[!UICONTROL Refresh AEM content]** om du vill ha den senaste versionen av mallen.
+1. Observera att innehåll inte synkroniseras automatiskt. Om mallarna ändras direkt i Adobe Experience Manager väljer du bara **[!UICONTROL Refresh AEM content]** om du vill ha den senaste versionen av mallen.
 
 1. Om du vill ta bort länken mellan Experience Manager och Campaign eller anpassa din Experience Manager-mall ytterligare i e-postdesignern klickar du på **[!UICONTROL Unlink AEM content]**.
 
