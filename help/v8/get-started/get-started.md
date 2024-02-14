@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -46,10 +46,6 @@ Det nya webbgränssnittet har till att börja med **yrkesverksamma** - alla vanl
 
 Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web är för närvarande i begränsad tillgänglighet (LA). Åtkomsten är begränsad till en liten uppsättning av LA-kunder. Tänk på att produktgränssnitt, funktioner och användningsflöden kan ändras utan föregående meddelande.
 
 Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-campaign.md).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -80,30 +80,19 @@ Använd det nya gränssnittet för Campaign-webben för att:
 * Övervaka sändning och mätning av resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 
-## Senaste versionsuppdateringar {#latest-release}
 
-De viktigaste funktionerna i Campaign Web Limited Availability-versionen är listade nedan.
+**Nya och omarbetade kampanjarbetsflödesaktiviteter**
 
-* **Fler arbetsflödesaktiviteter för kampanjer**
-
-  Utnyttja era marknadsföringskampanjer bättre med våra **fler arbetsflödesaktiviteter**. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
-
-  Nya aktiviteter i den senaste LA-versionen är: **Avstämning**, **Läs in fil** och **Spara målgrupper**.
-
-  Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
+Utnyttja era marknadsföringskampanjer bättre med våra **fler arbetsflödesaktiviteter**. Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat. Läs mer i [det här avsnittet](../workflows/gs-workflows.md).
 
 
-* **Målgrupp med frågemodelleraren**
+**Målgrupp med frågemodelleraren**
 
-  Adobe Campaign Web har en **kraftfull och intuitiv frågemodellerare** som förenklar filtreringen av databaser för att välja specifika mål baserat på olika kriterier. Detta inkluderar användning av avancerade uttryck och operatorer. Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera regler för att filtrera data.
+Adobe Campaign Web har en **kraftfull och intuitiv frågemodellerare** som förenklar filtreringen av databaser för att välja specifika mål baserat på olika kriterier. Detta inkluderar användning av avancerade uttryck och operatorer. Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera regler för att filtrera data. Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
 
-  Läs mer i [det här avsnittet](../query/query-modeler-overview.md).
+**Enkelt att skapa och hantera profiler**
 
-* **Enkelt att skapa och hantera profiler**
-
-  Du kan använda det nya användargränssnittet i Campaign Web för att **skapa och uppdatera mottagare** i databasen direkt från menyn Mottagare. Med ett förenklat profilredigeringsformulär kan du ange mottagarens kontaktinformation och attribut och uppdatera en befintlig mottagare utan att använda till klientkonsolen.
-
-  Läs mer i [det här avsnittet](../audience/about-recipients.md).
+Du kan använda det nya användargränssnittet i Campaign Web för att **skapa och uppdatera mottagare** i databasen direkt från menyn Mottagare. Med ett förenklat profilredigeringsformulär kan du ange mottagarens kontaktinformation och attribut och uppdatera en befintlig mottagare utan att använda till klientkonsolen. Läs mer i [det här avsnittet](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -120,30 +109,24 @@ De viktigaste funktionerna i Campaign Web Limited Availability-versionen är lis
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **AI-baserad sammanhangsbaserad hjälp**
+**AI-baserad sammanhangsbaserad hjälp**
 
-  Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya **AI-baserad sammanhangsbaserad hjälp** hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen är för närvarande tillgänglig i betaversionen för en begränsad uppsättning användare.
+Ställ frågor och hitta vägledning direkt i användargränssnittet. Den nya **AI-baserad sammanhangsbaserad hjälp** hjälper er att lära er och utöka er expertis om nya Campaign-funktioner. Den bygger på den senaste produktdokumentationen och hjälper dig att hitta hjälp och få stegvisa anvisningar direkt när du bygger upp användningsexempel. Den här funktionen är för närvarande tillgänglig i betaversionen för en begränsad uppsättning användare. Läs mer i [det här avsnittet](../get-started/using-ai.md).
 
-  Läs mer i [det här avsnittet](../get-started/using-ai.md).
+**Fördefinierade filter**
 
-* **Fördefinierade filter**
+Vi presenterar fördefinierad filterhantering. Med Campaign Web-gränssnittet får du ett användarvänligt gränssnitt som du enkelt kan använda **hantera och anpassa fördefinierade filter** för att tillgodose dina specifika behov. Skapa en gång och spara för framtida bruk. Läs mer i [det här avsnittet](../get-started/predefined-filters.md).
 
-  Vi presenterar fördefinierad filterhantering. Med Campaign Web-gränssnittet får du ett användarvänligt gränssnitt som du enkelt kan använda **hantera och anpassa fördefinierade filter** för att tillgodose dina specifika behov. Skapa en gång och spara för framtida bruk.
+**HTML Converter för e-postdesign**
 
-  Läs mer i [det här avsnittet](../get-started/predefined-filters.md).
-
-* **HTML Converter för e-postdesign**
-
-  Nu kan du **importera och konvertera valfritt HTML-innehåll** i Campaigns e-postredigerare. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem!
-
-  Läs mer i [det här avsnittet](../email/existing-content.md).
+Nu kan du **importera och konvertera valfritt HTML-innehåll** i Campaigns e-postredigerare. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem! Läs mer i [det här avsnittet](../email/existing-content.md).
 
 
-* **SMS med erbjudanden**
+**SMS med erbjudanden**
 
-  Med det nya användargränssnittet för Campaign Web kan du **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
+Med det nya användargränssnittet för Campaign Web kan du **integrera erbjudanden med SMS** utöver E-post. Nå ut till era målgrupper på deras mobila enheter, leverera kampanjer och få meddelanden i rätt tid. Öka era marknadsföringssatsningar genom att utnyttja kraften i integrerade erbjudanden via SMS på vår avancerade webbplattform.
 
-  Läs mer i [det här avsnittet](../msg/offers.md).
+Läs mer i [det här avsnittet](../msg/offers.md).
 
 ## Övergång till Campaign-webbgränssnittet
 
