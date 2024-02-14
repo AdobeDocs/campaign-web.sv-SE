@@ -3,9 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -130,11 +130,13 @@ Läs mer i [det här avsnittet](../msg/offers.md).
 
 ## Övergång till Campaign-webbgränssnittet
 
-Som Campaign-användare har du fortfarande tillgång till klientkonsolen för att skapa och hantera resurser och komponenter i Campaign. Data och inställningar synkroniseras från en miljö till en annan. Läs mer i [det här avsnittet](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Som Campaign-användare har du fortfarande tillgång till klientkonsolen för att skapa och hantera resurser och komponenter i Campaign. Data och inställningar synkroniseras från en miljö till en annan. Läs mer i [det här avsnittet](../get-started/get-started.md#ac-client).
 
-Dessutom visas alla data och inställningar som redan finns i klientkonsolen i webbgränssnittet för Campaign, från vänster navigering i Utforskaren. Läs mer om Utforskaren i [det här avsnittet](../get-started/user-interface.md#explorer-user-interface-explorer).
+Dessutom visas alla data och inställningar som redan finns i klientkonsolen i webbgränssnittet för Campaign, från vänster navigering i Utforskaren. Läs mer om Utforskaren i [det här avsnittet](../get-started/user-interface.md#user-interface-explorer).
 
-I gränssnittet för Campaign-webben återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md)
+I gränssnittet för Campaign-webben återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md).
+
+Funktioner som stöds och som inte stöds samt interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign [på den här sidan](../get-started/capability-matrix.md).
 
 ## Uppdateringar om terminologi {#terminology-updates}
 
@@ -156,4 +158,6 @@ Begränsningarna nedan gäller den här versionen:
 * KPI:er för kontrollpanelen för leverans uppdateras var femte minut. - men färdigställandet av leveransen är i realtid.
 * Adobe Experience Cloud Notifications and Unified Help available in the top bar are not integrated.
 
-Läs mer om funktioner som stöds/inte stöds och interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign. [på den här sidan](../get-started/capability-matrix.md).
+När du arbetar i gränssnittet för Campaign-webben med arbetsflöden som skapats eller ändrats i klientkonsolen för Campaign gäller speciella skyddsmekanismer och begränsningar. De listas [i det här avsnittet](../get-started/guardrails.md).
+
+Läs mer om funktioner som stöds/inte stöds och interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign [på den här sidan](../get-started/capability-matrix.md).

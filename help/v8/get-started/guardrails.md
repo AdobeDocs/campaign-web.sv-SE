@@ -1,15 +1,15 @@
 ---
-title: Garantier och begränsningar i gränssnittet för Campaign Web
-description: Garantier och begränsningar i gränssnittet för Campaign Web
+title: Garantier och begränsningar i arbetsflödena för gränssnittet i Campaign Web
+description: Garantier och begränsningar när du arbetar med arbetsflöden i användargränssnittet för Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
-# Skyddsritningar och begränsningar {#guardrails-limitations}
+# Garantier och begränsningar för arbetsflöden {#guardrails-limitations}
 
 När du arbetar i gränssnittet för Campaign-webben med arbetsflöden som skapats eller ändrats i klientkonsolen för Campaign gäller de skyddsmekanismer och begränsningar som anges nedan.
 
