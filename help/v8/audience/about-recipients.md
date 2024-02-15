@@ -1,9 +1,9 @@
 ---
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Dessutom **[!UICONTROL test profiles]**, som identifieras som&quot;dirigerade pr
 
 Både profiler och testprofiler kan användas för att testa era leveranser innan de når den avsedda målgruppen. På så sätt kan du förhandsgranska meddelandets innehåll och personalisering, skicka korrektur för testning och validering, utvärdera e-poståtergivning på olika plattformar och enheter och testa landningssidorna. [Lär dig hur du förhandsgranskar och testar leveranser](../preview-test/preview-test.md)
 
+➡️ [Upptäck den här funktionen i video](#video)
+
 ## Öppna listan med profiler {#access}
 
 Profilerna är tillgängliga och redigerbara i Adobe Campaign Web från **[!UICONTROL Customer management]** > **Profiler** inträde i det vänstra navigeringsfältet. Du kan även komma åt dem i **[!UICONTROL Explorer]** visa, från **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** nod. Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig hur du skapar mappar](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Du kan filtrera **[!UICONTROL Profiles]** med sökfältet eller de filter som fi
 Klicka på profilens namn i listan för att få tillgång till information om profilen. En detaljerad vy av profilen öppnas så att du kan utforska dess attribut och de tjänster som han/hon prenumererar på. [Lär dig hur du utforskar profildetaljer](create-profile.md)
 
 Om du vill ta bort en profil väljer du motsvarande alternativ i dialogrutan **[!UICONTROL More actions]** -menyn.
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du får tillgång till, hanterar och utforskar profiler med webbgränssnittet i Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
