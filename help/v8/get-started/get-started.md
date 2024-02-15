@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ Använd Campaign för att
 * **Integrera** e-post, mobilkanaler, online- och offlinekanaler i kundresan
 * **Automatisera** leverera meningsfulla och aktuella meddelanden och erbjudanden
 
+## Upptäck gränssnittet för webbanvändning i Campaign {#web}
 
 Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
@@ -46,8 +47,9 @@ Det nya webbgränssnittet har till att börja med **yrkesverksamma** - alla vanl
 
 Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac-client).
 
-
 Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-campaign.md).
+
+➡️ [Upptäck Campaign Web in video](#video)
 
 ## Om Campaign-klientkonsolen {#ac-client}
 
@@ -58,3 +60,9 @@ Kampanjdata lagras på programservern. Data är tillgängliga både från klient
 Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
 
 Mer information om hur du använder Campaign v8 med klientkonsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du får åtkomst till och navigerar i användargränssnittet för Campaign-webben och hur du anpassar lagerlistorna. Upptäck AI-teknikassistenten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
