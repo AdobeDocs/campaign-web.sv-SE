@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '672'
 ht-degree: 2%
 
 ---
@@ -90,6 +90,12 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager som molntjänst]
+
+Integrationen mellan Adobe Campaign Web Interface och Adobe Experience Manager as a Cloud Service effektiviserar hanteringen av e-postinnehåll. Nu kan du skapa och redigera e-postinnehåll direkt i Adobe Experience Manager och sedan smidigt importera de färdiga mallarna till Adobe Campaign för leverans.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Flerkanaliga arbetsflöden]
 
 Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
@@ -107,12 +113,6 @@ Skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scr
 Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Oavsett om du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande!
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profil 360]
-
-Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
