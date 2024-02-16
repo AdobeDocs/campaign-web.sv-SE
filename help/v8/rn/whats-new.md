@@ -3,7 +3,7 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Nyheter? {#new}
+# Nyheter {#new}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
