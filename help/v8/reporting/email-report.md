@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2205'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,11 @@ The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är 
 
 The **[!UICONTROL Initial target population]** I diagrammet visas data relativt dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 För musen över en del av diagrammet för att visa det exakta talet.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -48,16 +47,14 @@ För musen över en del av diagrammet för att visa det exakta talet.
 
 ### Leveransstatistik {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Leveransstatistik"
 >abstract="The **Leveransstatistik** diagram visar hur framgångsrik leveransen är och vilka fel som har inträffat."
 
-
 The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveransen är. Mätvärdena anges nedan.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -147,7 +144,12 @@ The **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Uppdelning av fel per typ"
->abstract="The **Uppdelning av fel per typ** tabellen och diagrammet innehåller tillgängliga data för varje feltyp som påträffas: okänd användare, postlåda full, ogiltig domän med mera."
+>abstract="The **Uppdelning av fel per typ** diagrammet innehåller tillgängliga data för varje feltyp som påträffas: okänd användare, postlåda full, ogiltig domän med mera."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Uppdelning av fel per typ"
+>abstract="The **Uppdelning av fel per typ** tabellen innehåller en omfattande beskrivning av förekomsten av varje feltyp."
 
 The **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet innehåller tillgängliga data för feltypen. Mätvärdena anges nedan.
 
@@ -173,15 +175,17 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 
 +++
 
-
 ### Uppdelning av fel per domän {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uppdelning av fel per domän"
->abstract="The **Uppdelning av fel per domän** tabellen och diagrammet visar tillgängliga data för varje feltyp som påträffas beroende på varje domän."
+>abstract="The **Uppdelning av fel per domän** diagrammet visar tillgängliga data för varje feltyp som påträffas beroende på varje domän."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Uppdelning av fel per domän"
+>abstract="The **Uppdelning av fel per domän** tabellen innehåller en omfattande beskrivning av förekomsten av varje fel beroende på vilken domän som används."
 
 The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet visar tillgängliga data för eventuella fel som påträffats i varje domän.
 

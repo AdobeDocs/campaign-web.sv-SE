@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,17 @@ ht-degree: 0%
 >id="acw_orchestration_loadfile_formatting"
 >title="Formatering för aktiviteten Läs in fil"
 >abstract="Formatering för aktiviteten Läs in fil"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="Målfil för aktiviteten Läs in fil"
+>abstract="Målfil för aktiviteten Läs in fil"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="Värdeommappning för aktiviteten Läs in fil"
+>abstract="Värdeommappning för aktiviteten Läs in fil"
+
 
 The **Läs in fil** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../../personalization/gs-personalization.md)eller för att uppdatera profiler eller andra tabeller.
 

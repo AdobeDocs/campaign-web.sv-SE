@@ -6,16 +6,19 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Content Assistant {#generative-gs}
 
-
+>[!CONTEXTUALHELP]
+>id="acw_emagica_generate"
+>title="Knappen Generera"
+>abstract="Med knappen Generera kan du skapa flera varianter av text, e-post eller bilder baserat på den ursprungliga uppmaningen."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
