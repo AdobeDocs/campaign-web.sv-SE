@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Kom igång med globala rapporter {#global-report-gs}
 
 The **Globala rapporter** fungerar som ett effektivt verktyg som ger en samlad sammanfattning av trafik- och engagemangsmått för varje kanal i Campaign-instansen. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet.
+
+KPI:er (Key Performance Indicators) uppdateras varje timme för att säkerställa aktuella insikter. Som standard filtreras data så att de täcker de senaste 30 dagarna, vilket ger ett aktuellt och relevant perspektiv på era kampanjer och leveranser.
 
 En fullständig lista över rapporter och tillhörande mått för varje kanal finns på följande sidor:
 
