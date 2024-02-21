@@ -2,7 +2,7 @@
 title: Kom igång med profiler och målgrupper
 description: Lär dig hur du arbetar med profiler och målgrupper på Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 På Adobe Campaign Web **profil** är en post som lagras i databasen och fungerar som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel **Testprofiler**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna.
 
-**Målgrupper** är uppsättningar profiler som delar liknande beteenden och/eller egenskaper. Samlingen med personer kan antingen genereras, markeras eller läsas in.  När ni väl har skapat dem kan ni utnyttja dem som målgrupp för era leveranser.
+**Målgrupper** är uppsättningar profiler som delar liknande beteenden och/eller egenskaper. Samlingen med personer kan antingen genereras, markeras eller läsas in. När ni väl har skapat dem kan ni utnyttja dem som målgrupp för era leveranser.
 
 Dessutom kan Adobe Campaign Web användas för att hantera och skapa **tjänster** t.ex. nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. När du är klar kan du lägga till prenumeranter, avbeställa profiler och skicka meddelanden till prenumeranterna på dina tjänster.
 

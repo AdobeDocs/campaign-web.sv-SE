@@ -3,9 +3,9 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i användargränssnittet för Campaign-webben
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '798'
 ht-degree: 7%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 7%
 # Ange en kontrollgrupp {#control-group}
 
 En kontrollgrupp är en underpopulation som är exkluderad från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra beteendet efter leverans med huvudmålet. Det här alternativet hjälper er att mäta effekten av er kampanj.
+
+➡️ [Upptäck den här funktionen i video](create-audience.md#video)
 
 ## Aktivera kontrollgrupp{#add-a-control-group}
 
@@ -122,5 +124,3 @@ Profilerna som ingår i målgruppen eller matchar resultatet av frågan är **ex
 När leveransen har skickats kan du extrahera de sändande loggarna för att jämföra beteendet mellan de profiler som inte fick kommunikationen och det faktiska målet. Du kan också använda leveransloggarna för att skapa en ny målinriktning.
 
 Om du vill se vilka profiler som tagits bort från målet ska du kontrollera **Leveransloggar**. Läs mer [i det här avsnittet](#check-control-group).
-
-
