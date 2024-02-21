@@ -6,19 +6,24 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Content Assistant {#generative-gs}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Knappen Generera"
->abstract="Med knappen Generera kan du skapa flera varianter av text, e-post eller bilder baserat på den ursprungliga uppmaningen."
+>title="Adobe Generative AI terms"
+>abstract="Access to this feature is subject to your agreement to the Adobe Experience Cloud Generative AI User Guidelines, and the following:
+* Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual).
+* You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+-->
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

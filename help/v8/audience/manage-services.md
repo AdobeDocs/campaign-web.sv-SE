@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '919'
+ht-degree: 1%
 
 ---
 
@@ -128,8 +128,13 @@ Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Totalt antal prenumeranter"
+>title="Antal prenumeranter"
 >abstract="Klicka **Beräkna** Hämta det totala antalet prenumeranter för den här tjänsten."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Totalt antal prenumeranter"
+>abstract="KPI (Key Performance Indicator) ger en heltäckande bild av prenumerationsbasen och visar det totala antalet personer som har prenumererat på den här tjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
