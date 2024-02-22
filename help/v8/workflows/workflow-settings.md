@@ -3,21 +3,26 @@ audience: end-user
 title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 0%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
 
 # Konfigurera inställningar för arbetsflöde {#workflow-settings}
 
-När du organiserar arbetsflödesaktiviteter på arbetsytan kan du komma åt avancerade inställningar som är relaterade till arbetsflödet. Du kan till exempel ange en specifik tidszon för arbetsflödet, hantera arbetsflödets beteende om fel uppstår eller hantera den fördröjning efter vilken arbetsflödeshistoriken ska rensas.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Egenskaper för arbetsflöde"
+>abstract="På den här skärmen väljer du den mall som ska användas för att skapa arbetsflödet och anger en etikett. Expandera **Ytterligare alternativ** om du vill konfigurera fler inställningar, till exempel arbetsflödets interna namn, mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
+
+När du skapar ett arbetsflöde eller organiserar arbetsflödesaktiviteter på arbetsytan kan du komma åt avancerade inställningar som är relaterade till arbetsflödet. Du kan till exempel ange en specifik tidszon för arbetsflödet, hantera arbetsflödets beteende om fel uppstår eller hantera den fördröjning efter vilken arbetsflödeshistoriken ska rensas.
 
 De här inställningarna är förkonfigurerade i mallen som valdes när arbetsflödet skapades, men kan redigeras efter behov för det aktuella arbetsflödet.
 
-Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ Klicka på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbet
 >title="Egenskaper för arbetsflöde"
 >abstract="I det här avsnittet finns allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja vilken mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ om du vill konfigurera särskilda inställningar, t.ex. mappen för arbetsflödeslagring eller tidszonen."
 
-The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som också är tillgängliga när du skapar arbetsflödet.
+The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som kan konfigureras när du skapar ett arbetsflöde. Om du vill komma åt egenskaperna för ett befintligt arbetsflöde klickar du på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
