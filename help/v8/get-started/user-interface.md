@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -371,3 +371,49 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Utgående övergång för prenumerationstjänster"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Kommandot Läs in fil"
+>abstract="Att tillåta godtyckligt kommando för förbehandling är ett säkerhetsproblem, inaktivera säkerhetsalternativet XtkSecurity_Disable_Preproc för att tvinga fram användning av en fördefinierad lista med kommandon."
+
+
+
+
+<!--Update file-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_operationtype"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_recordid"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_fieldsupdate"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_advancedoptions"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition"
+>title="Uppdatera data"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_updatedata_outboundtransition_rejects"
+>title="Uppdatera data"
+>abstract="TBC"
+
