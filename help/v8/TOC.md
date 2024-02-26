@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign webbgränssnitt
-user-guide-description: Produktdokumentation för Adobe Campaign webbgränssnitt.
+user-guide-title: Adobe Campaign webbanvändargränssnitt
+user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargränssnitt.
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
-breadcrumb-title: Webbanvändargränssnitt för kampanj
+breadcrumb-title: Webbanvändargränssnitt för Campaign
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
