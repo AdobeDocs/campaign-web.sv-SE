@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,17 @@ ht-degree: 0%
 >title="Kopiera URL med försiktighet"
 >abstract="Om du vill testa eller utnyttja landningssidan fullt ut kan du inte kopiera och klistra in länken direkt i en webbläsare eller i leveranser. Använd i stället **Simulera innehåll** för att testa den och följa de steg som beskrivs i dokumentationen för att använda landningssidan på rätt sätt."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Kopiera URL med försiktighet"
+>abstract="När du skapar en landningssida kan du med fyra färdiga mallar implementera olika användningsfall: lägga till eller uppdatera en profil i Campaign-databasen, prenumerera på en tjänst, avbeställa dem från en tjänst eller avanmäla användare."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Skapa en landningssida"
+
 Om du vill använda landningssidan på rätt sätt bör du referera till den som en länk i en leverans med det dedikerade alternativet.
 
 >[!CAUTION]
 >
->Om du vill utnyttja din landningssida fullt ut kan du inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen för leverans direkt på leveransen eller till en webbsida.
+>Om du vill utnyttja din landningssida fullt ut kan du inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen för leverans direkt på leveransen eller till en webbsida. Lär dig hur du gör det på rätt sätt i det här avsnittet.
 
 I [!DNL Adobe Campaign Web] fyra färdiga mallar gör det möjligt att implementera olika användningsområden. Huvudstegen är dock fortfarande desamma och beskrivs nedan.
 
@@ -105,6 +111,11 @@ Om de valde att ta emot ditt nyhetsbrev kommer de att prenumerera på motsvarand
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Prenumeration på en tjänst {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Ange startsida för prenumerationen"
+>abstract="Med en prenumerationssida kan dina kunder prenumerera på en tjänst."
 
 Ett av de vanligaste användningsområdena är att bjuda in kunderna till [prenumerera på en tjänst](../audience/manage-services.md) (till exempel ett nyhetsbrev eller ett evenemang) via en landningssida. Följ stegen nedan.
 

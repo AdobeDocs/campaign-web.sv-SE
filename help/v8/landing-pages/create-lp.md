@@ -2,9 +2,9 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Med användargränssnittet för Campaign-webben kan du skapa, designa och publicera landningssidor. När formuläret har publicerats kan du infoga en länk till det i en leverans. När mottagarna klickar på länken dirigeras de till motsvarande landningssida.
 
-[!DNL Adobe Campaign] innehåller fyra mallar för att hantera följande användningsområden: **förvärv**, **prenumeration**, **unsubscription** och **blockeringslista**.
+[!DNL Adobe Campaign] innehåller fyra mallar för att hantera följande användningsområden: **förvärv**, **prenumeration**, **unsubscription** och **blockeringslista**. [Läs mer](lp-use-cases.md)
 
 ## Åtkomst till landningssidor {#access-landing-pages}
 
@@ -58,14 +58,14 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 >abstract="Du kan definiera ett startdatum och ett slutdatum för landningssidan. När sidan når slutet av giltighetsperioden är formuläret inte längre tillgängligt. The **Förfallotid** sidan visas i stället."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Definiera inställningar för den primära sidan"
->abstract="Den primära sidan visas omedelbart för användarna när de klickar på länken till din landningssida, till exempel från ett e-postmeddelande eller en webbplats."
+>id="acw_landingpages_preload"
+>title="Definiera förinläsningsalternativ"
+>abstract="När **Fyll i förväg med de data som formuläret refererar till** Om besökaren på landningssidan matchar en profil från databasen, är alternativet markerat och profilens information automatiskt förinläst i formuläret. Med **Hoppa över förinläsning om ID saknas** om du väljer det här alternativet läggs alla profiler som anges till i databasen när formuläret har godkänts."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Ange startsida för prenumerationen"
->abstract="Med en prenumerationssida kan dina kunder prenumerera på en tjänst."
+>id="acw_landingpages_storage"
+>title="Definiera lagringsalternativ"
+>abstract="I avsnittet med förinläsning kan du ange hur du ska hitta den post som ska uppdateras i databasen."
 
 <!--The main steps to create landing pages are as follows:
 
