@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera result
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Regelegenskaper"
->abstract="Regelegenskaper"
+>abstract="När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger.<br/>I det här fönstret kan du visa resulterande data, hämta en SQL-kodversion av frågan och kontrollera antalet målposter.<br/>Använd **Markera eller spara filter** om du vill spara frågan som ett fördefinierat filter eller ersätta arbetsytans innehåll med ett befintligt filter."
 
 När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger. Tillgängliga åtgärder är:
 
