@@ -3,7 +3,7 @@ audience: end-user
 title: Viktiga principer för att skapa arbetsflöden
 description: Lär dig grunderna i arbetsflöden med Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -14,7 +14,6 @@ ht-degree: 0%
 # Viktiga principer för att skapa arbetsflöden {#gs-workflow-creation}
 
 Med Adobe Campaign Web kan du skapa arbetsflöden i en visuell arbetsyta för att skapa flerkanalsprocesser som segmentering, kampanjutförande och filbearbetning.
-
 
 ## Vad innehåller ett arbetsflöde? {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ Det finns två sätt att skapa ett arbetsflöde i kampanjer:
 1. Arbetsflöden kan skapas direkt i en kampanj från **Arbetsflöde** -fliken i kampanjen. När det ingår i en kampanj körs arbetsflödet tillsammans med alla andra kampanjers arbetsflöden, och alla rapportvärden grupperas på kampanjnivå.
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 Så här skapar du arbetsflöden:
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Dessa aktiviteter är specifika för målgruppsanpassning, ändring och beriknin
 * Använd [Deduplicering](deduplication.md) aktivitet för att ta bort dubbletter i resultat av inkommande aktiviteter.
 * Använd [Ändra dimension](change-dimension.md) för att ändra målinriktningsdimensionen när du skapar arbetsflödet.
 * Använd [Läs in fil](load-file.md) -aktivitet för att arbeta med profiler och data som lagras i en extern fil.
-
 
 ## Kanalaktiviteter {#channel}
 

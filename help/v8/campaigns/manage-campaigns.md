@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,11 @@ Du kan till exempel filtrera efter kampanjschemat. Öppna filterpanelen och anv�
 >id="acw_campaign_delivery_list"
 >title="Lista över leveranser i kampanjen"
 >abstract="The **Leveranser** På fliken visas alla leveranser som är kopplade till den aktuella kampanjen. Klicka på namnet på en leverans för att redigera den. Använd knappen Skapa leverans för att lägga till en ny leverans för kampanjen."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Arbetsflödeslista i en kampanj"
+>abstract="Arbetsflödeslista i en kampanj"
 
 I **Bläddra** klickar du på ett kampanjnamn för att visa information om kampanjen.
 

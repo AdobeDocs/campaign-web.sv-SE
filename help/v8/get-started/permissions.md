@@ -3,9 +3,9 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,20 @@ ht-degree: 0%
 >title="Behörighet krävs"
 >abstract="Din administratör måste ge dig behörighet innan du kan skapa det här objektet."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Den här målgruppen är skrivskyddad"
 >abstract="Du har inte behörighet att redigera den här målgruppen. Kontakta administratören om det behövs för att ge dig åtkomst."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Tjänsten är skrivskyddad"
 >abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Mottagarna har skrivskyddad profil"
+>abstract="Du har inte behörighet att redigera den här profilen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

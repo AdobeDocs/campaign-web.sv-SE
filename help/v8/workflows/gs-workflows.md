@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med arbetsflöden
 description: Lär dig hur du börjar med arbetsflöden
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -17,7 +17,6 @@ ht-degree: 0%
 >title="Flerkanaliga arbetsflöden"
 >abstract="Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Se versionsinformation"
-
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

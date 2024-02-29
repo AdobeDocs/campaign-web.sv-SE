@@ -2,9 +2,9 @@
 title: Garantier och begränsningar i arbetsflödena för gränssnittet i Campaign Web
 description: Garantier och begränsningar när du arbetar med arbetsflöden i användargränssnittet för Campaign Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,10 @@ Observera att även om den här sidan identifierar viktiga aspekter när du arbe
 
 ## Arbetsflödesaktiviteter {#wkf-activities}
 
-Arbetsflödesaktiviteter som ännu inte stöds i Campaign Web är skrivskyddade och visas som inkompatibla aktiviteter. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i Campaign Web och i klientkonsolen går att redigera.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Aktiviteten är inte redigerbar"
+>abstract="När en **Fråga** eller en **Berikning** -aktiviteten har konfigurerats med ytterligare data i konsolen. Anrikningsdata beaktas i Campaign Web och skickas till den utgående övergången, men kan inte redigeras."
 
 Arbetsflödesaktiviteter som ännu inte stöds i gränssnittet för Campaign-webben är skrivskyddade och visas som inkompatibla aktiviteter. Du kan fortfarande köra arbetsflödet, skicka meddelanden, kontrollera loggarna osv. Arbetsflödesaktiviteter som är tillgängliga både i gränssnittet för Campaign-webben och i klientkonsolen för Campaign kan redigeras.
 

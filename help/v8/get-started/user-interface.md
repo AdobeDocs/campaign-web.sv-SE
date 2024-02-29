@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Spårning av globala rapporter"
 >abstract="Mätvärden för spårningsrapportering visas på den här skärmen"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="Arbetsflödeslista i en kampanj"
->abstract="Arbetsflödeslista i en kampanj"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Mottagarna erbjuder förhandsgranskning"
 >abstract="Mottagarna erbjuder förhandsgranskning"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Mottagarna har skrivskyddad profil"
->abstract="Mottagarna har skrivskyddad profil"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="Aktiviteten är inte redigerbar"
->abstract="Aktiviteten är inte redigerbar"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Simulera testprofiler"
 >abstract="Simulera testprofiler"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simulera valet av testprofiler"
 >abstract="Simulera valet av testprofiler"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simulera testprofiler som skickar"
 >abstract="Simulera testprofiler som skickar"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simulera e-postlogg"
 >abstract="Simulera e-postlogg"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="Generera alla delmängder i samma tabell"
 >abstract="TBC"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Standardlandningssidor"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Utgående övergång för prenumerationstjänster"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="Kommandot Läs in fil"
->abstract="Att tillåta godtyckligt kommando för förbehandling är ett säkerhetsproblem, inaktivera säkerhetsalternativet XtkSecurity_Disable_Preproc för att tvinga fram användning av en fördefinierad lista med kommandon."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="Ta bort fil efter import"
->abstract="TBC"
-
-
 
 
 <!--Update file-->
