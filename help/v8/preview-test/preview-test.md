@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Förhandsgranska och testa ditt innehåll"
 >abstract="När innehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka testleveranser"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka korrektur"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
 När leveransinnehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
@@ -24,7 +24,7 @@ När leveransinnehållet har definierats kan du använda profiler och testprofil
 [!DNL Adobe Campaign Web user interface] kan du:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
-* [Skicka testleveranser](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
+* [Skicka korrektur](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
 * [Förhandsgranska och testa landningssidorna](../landing-pages/create-lp.md#test-landing-page)
 
