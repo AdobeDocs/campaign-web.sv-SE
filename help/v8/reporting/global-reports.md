@@ -3,14 +3,19 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Kom igång med globala rapporter {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Global rapport"
+>abstract="Global Reports är ett kraftfullt och effektivt sätt att analysera hur kampanjen fungerar. Dessa rapporter ger en samlad bild av nyckeltrafik och engagemangsmått för varje kanal i kampanjen."
 
 The **Globala rapporter** fungerar som ett effektivt verktyg som ger en samlad sammanfattning av trafik- och engagemangsmått för varje kanal i Campaign-instansen. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet.
 
