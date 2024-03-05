@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka SMS-leverans
 description: Lär dig hur du skickar SMS med Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,9 @@ Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
 
 Med **Adobe Campaign** kan du testa ett meddelande innan du skickar det till huvudmålgruppen, vilket är ett viktigt steg när det gäller att validera din e-postkampanj och identifiera potentiella problem.
 
-Att skicka SMS är ett viktigt steg när det gäller att säkerställa kvaliteten och effektiviteten vid leveransen. Testmottagarna kan granska olika element som länkar, avanmälningslänkar och bilder samt identifiera eventuella fel i återgivning, innehåll, personaliseringsinställningar och SMS-konfiguration. Denna process hjälper er att utvärdera och optimera ert SMS noggrant innan ni når er huvudmålgrupp.
+Att skicka in korrektur är ett viktigt steg när det gäller att säkerställa kvaliteten och effektiviteten vid leveransen. Korrekturmottagare kan granska olika element som länkar, avanmälningslänkar och bilder samt identifiera eventuella fel i återgivning, innehåll, personaliseringsinställningar och SMS-konfiguration. Denna process hjälper er att utvärdera och optimera ert SMS noggrant innan ni når er huvudmålgrupp.
 
-![](../assets/do-not-localize/book.png) Lär dig hur du skickar test-SMS i [det här avsnittet](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) Lär dig hur du skickar korrektur i [det här avsnittet](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

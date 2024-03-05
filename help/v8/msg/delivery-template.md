@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 2%
@@ -193,6 +193,6 @@ Du kan testa återgivningen av alla leveransmallar, oavsett om de har skapats fr
 
 >[!NOTE]
 >
->Du kan inte använda e-poståtergivning eller skicka tester i en leveransmall.
+>Du kan inte använda e-poståtergivning eller skicka korrektur i en leveransmall.
 
 

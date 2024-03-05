@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1340'
 ht-degree: 1%
 
 ---
@@ -157,17 +157,17 @@ När du har skickat leveransen börjar den faktiska avsändaren på det kontaktd
 
 Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Förhandsgranska och testa e-postmeddelandet {#preview-test}
+## Förhandsgranska ett e-postmeddelande och skicka korrektur {#preview-test}
 
 Innan du skickar e-postmeddelandet kan du förhandsgranska och testa det för att kontrollera att det uppfyller dina förväntningar.
 
-I det här fallet förhandsgranskar du e-postmeddelandet och skickar testversioner till specifika e-postadresser samtidigt som du personifierar vissa av målprofilerna.
+I det här fallet förhandsgranskar du e-postmeddelandet och skickar korrektur till specifika e-postadresser samtidigt som du personifierar vissa av målprofilerna.
 
-Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i [det här avsnittet](../preview-test/preview-test.md).
+Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar korrektur finns i [det här avsnittet](../preview-test/preview-test.md).
 
 1. Om du vill granska din e-post klickar du på **[!UICONTROL Review and send]**. Då visas en förhandsgranskning av ditt e-postmeddelande tillsammans med alla konfigurerade egenskaper, målgrupp och schema. Du kan redigera dessa element genom att klicka på knappen Ändra.
 
-1. Om du vill förhandsgranska e-postmeddelandet och skicka testversioner klickar du på **[!UICONTROL Simulate content]** -knappen.
+1. Om du vill förhandsgranska e-postmeddelandet och skicka korrektur klickar du på **[!UICONTROL Simulate content]** -knappen.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ Mer information om hur du förhandsgranskar och testar e-postmeddelanden finns i
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Om du vill skicka testversioner av e-postmeddelandet klickar du på **[!UICONTROL Test]** väljer du sedan det läge som du vill använda.
+1. Om du vill skicka korrektur klickar du på **[!UICONTROL Send proofs]** väljer du sedan det läge som du vill använda.
 
-   I det här exemplet använder du **[!UICONTROL Substitute from main target]** läge, som skickar testversioner till specifika e-postadresser och personifierar några av profilerna som e-postmeddelandet riktar sig till.
+   I det här exemplet använder du **[!UICONTROL Substitute from main target]** läge, som skickar korrektur till specifika e-postadresser samtidigt som vissa profiler som e-postmeddelandet riktar sig till personifieras.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Klicka **[!UICONTROL Add address]** och ange den eller de e-postadresser som tar emot testversionerna.
+1. Klicka **[!UICONTROL Add address]** och ange den eller de e-postadresser som tar emot korrektur.
 
    För varje e-postadress väljer du den profil som ska personifieras. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Klicka **[!UICONTROL Send test email]** och bekräfta sändningen.
+1. Klicka **[!UICONTROL Send proof]** och bekräfta sändningen.
 
-   Testversioner skickas till de angivna e-postadresserna med den valda profilen med **[Korrektur x]** prefix.
+   Korrektur skickas till de angivna e-postadresserna med den valda profilen med **[Korrektur x]** prefix.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   Du kan när som helst kontrollera status för det skickade e-postmeddelandet och få tillgång till det skickade testmeddelandet genom att klicka på **[!UICONTROL View test email log]** på skärmen för simulering av innehåll.
+   Du kan när som helst kontrollera status för avsändaren och få åtkomst till skickade korrektur genom att klicka på **[!UICONTROL View proofs]** på skärmen för simulering av innehåll.
 
 ## Skicka och övervaka e-postmeddelandet {#prepare-send}
 

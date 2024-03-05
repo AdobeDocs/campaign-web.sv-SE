@@ -3,9 +3,9 @@ audience: end-user
 title: Målmottagare från en fil
 description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Förhandsgranska och testa din e-post {#test}
 
-Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni använder en målgrupp som överförts från en fil. Följ dessa steg för att göra detta:
+Med Campaign Web kan ni förhandsgranska och skicka korrektur när ni använder en målgrupp som överförts från en fil. Följ dessa steg för att göra detta:
 
 1. Klicka på **[!UICONTROL Simulate content button]** på skärmen där du redigerar leveransinnehåll och klickar på **[!UICONTROL Add test profile(s)]** -knappen.
 
@@ -94,7 +94,7 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Klicka på knappen **[!UICONTROL Test]** -knappen.
+1. Om du vill skicka korrektur klickar du på **[!UICONTROL Send proof]** -knappen.
 
 1. Klicka på **[!UICONTROL Upload proof profiles]** och markera den TXT- eller CSV-fil som innehåller korrekturmottagarna.
 
@@ -102,8 +102,8 @@ Med Campaign Web kan ni förhandsgranska och skicka testmeddelanden när ni anv�
    >
    >Se till att filformatet matchar det som används för att överföra målgruppen. Alla formatfel visar en varning.
 
-1. När korrekturmottagarna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send test email]** och bekräfta sändningen.
+1. När korrekturmottagarna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send proof]** och bekräfta sändningen.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Du kan övervaka sändningen av testmeddelandet med **[!UICONTROL View test email log]** när som helst. [Läs mer om övervakning av testmeddelanden](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Du kan övervaka sändningen av korrekturet med **[!UICONTROL View proofs]** när som helst. [Läs mer om korrekturövervakning](../preview-test/test-deliveries.md#access-test-deliveries)

@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka en leverans av push-meddelanden
 description: Lär dig hur du skickar ett push-meddelande via Adobe Campaign Web
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,8 @@ Nu kan ni granska och skicka push-meddelanden till era målgrupper.
 
 ## Testa leveransen av push-meddelanden {#test-push}
 
-Använda **Adobe Campaign**kan du testa push-meddelanden innan du skickar dem till huvudmålgruppen. Det här steget är viktigt när du ska validera leveransen och identifiera eventuella problem.
-Testmottagarna kan granska element som länkar, bilder och personaliseringsinställningar för att få bästa möjliga prestanda och upptäcka eventuella fel. Med den här processen kan ni förfina och optimera era push-meddelanden innan ni når er huvudmålgrupp.
-
-![](../assets/do-not-localize/book.png) Lär dig hur du skickar push-meddelanden för testning i [det här avsnittet](../preview-test/test-deliveries.md#subscribers).
+Använda **Adobe Campaign**kan du skicka korrektur innan du skickar dem till huvudmålgruppen. Det här steget är viktigt när du ska validera leveransen och identifiera eventuella problem.
+Testmottagarna kan granska element som länkar, bilder och personaliseringsinställningar för att få bästa möjliga prestanda och upptäcka eventuella fel. Med den här processen kan ni förfina och optimera era push-meddelanden innan ni når er huvudmålgrupp. [Lär dig hur du skickar korrektur](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

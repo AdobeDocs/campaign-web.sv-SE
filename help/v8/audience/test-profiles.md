@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Testprofiler skapas som dirigerade adresser. De är ytterligare mottagare i data
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Stegen för att skicka testmeddelanden till dirigerade adresser beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
+Stegen för att skicka korrektur till dirigerade adresser beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -100,6 +100,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Klicka på knappen **[!UICONTROL Save]**.
 
-Testprofilen som du nyss skapade är nu klar att användas för att skicka ett test. [Läs mer](../preview-test/test-deliveries.md#test-profiles)
+Testprofilen som du nyss skapade kan nu användas för att skicka ett korrektur. [Läs mer](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

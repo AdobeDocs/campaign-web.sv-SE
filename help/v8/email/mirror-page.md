@@ -3,9 +3,9 @@ audience: end-user
 title: Lägg till en länk till spegelsidan
 description: Lär dig hur du lägger till och hanterar länken till spegelsidan
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ När e-postmeddelandet har skickats visas innehållet i e-postmeddelandet i sin 
 
 >[!NOTE]
 >
->I det testmeddelande som skickas till testprofilerna är länken till spegelsidan inte aktiv. Den aktiveras endast i de slutliga meddelandena.
+>I det korrektur som skickas till testprofilerna är länken till spegelsidan inte aktiv. Den aktiveras endast i de slutliga meddelandena.
 
 Som standard är kvarhållningsperioden för en spegelsida 60 dagar. Efter den fördröjningen är spegelsidan inte längre tillgänglig.
 

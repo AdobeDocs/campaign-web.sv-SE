@@ -3,9 +3,9 @@ audience: end-user
 title: Testa e-poståtergivning
 description: Lär dig hur du testar din e-poståtergivning i användargränssnittet för Campaign på webben
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Om du vill göra det kan du använda **Litmus** konto till [!DNL Adobe Campaign]
 
 >[!CAUTION]
 >
->Om du använder e-poståtergivning i Campaign skickas ett testmeddelande till ett tredjepartssystem. Genom att ansluta ditt Litmus-konto med [!DNL Campaign]bekräftar du att Adobe inte ansvarar för de uppgifter som du kan skicka till den tredje parten. E-postprincipen för lagring av litterala data gäller för dessa e-postmeddelanden, inklusive personaliseringsdata som kan inkluderas i dessa testmeddelanden. Om du vill få tillgång till eller ta bort sådana data måste du kontakta Litmus direkt.
+>Om du använder e-poståtergivning i Campaign skickas ett korrektur till ett tredjepartssystem. Genom att ansluta ditt Litmus-konto med [!DNL Campaign]bekräftar du att Adobe inte ansvarar för de uppgifter som du kan skicka till den tredje parten. E-postprincipen för lagring av litterala data gäller för dessa e-postmeddelanden, inklusive personaliseringsdata som kan inkluderas i dessa korrektur. Om du vill få tillgång till eller ta bort sådana data måste du kontakta Litmus direkt.
 
 Om du vill få åtkomst till funktionerna för e-poståtergivning måste du:
 

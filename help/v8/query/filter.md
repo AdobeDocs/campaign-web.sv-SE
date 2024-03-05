@@ -3,7 +3,7 @@ audience: end-user
 title: Filterlistor
 description: Lär dig filtrera Adobe Campaign webblistor med inbyggda och anpassade filter.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Filterlistor {#filter-lists}
 
-Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du kan filtrera information baserat på specifika kontextuella kriterier. Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller mapp. Du kan också dölja tester.
+Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du kan filtrera information baserat på specifika kontextuella kriterier. Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller mapp. Du kan också dölja korrektur.
 
 ## Använda filter{#apply}
 

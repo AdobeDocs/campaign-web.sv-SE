@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 12%
 
 ---
@@ -82,9 +82,9 @@ ht-degree: 12%
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + Förhandsgranska och testa leveransen {#preview-test}
-      + [Förhandsgranska och testa](preview-test/preview-test.md)
+      + [Om förhandsgranskning och korrektur](preview-test/preview-test.md)
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
-      + [Skicka testleveranser](preview-test/test-deliveries.md)
+      + [Skicka korrektur](preview-test/test-deliveries.md)
       + [Testa e-poståtergivningen](preview-test/email-rendering.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
