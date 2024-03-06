@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Konfigurera leveransinställningarna enligt nedan:
    * **[!UICONTROL Folder]**: Lagra leveransen i en viss mapp.
    * **[!UICONTROL Delivery code]**: Ordna leveranserna med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringsändamål.
+   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificering.
 +++
 
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa en SMS-leverans
 description: Lär dig hur du skapar och skickar SMS med Adobe Campaign Web
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Så här skapar du en ny fristående SMS-leverans:
    * **[!UICONTROL Folder]**: Lagra leveransen i en viss mapp.
    * **[!UICONTROL Delivery code]**: Ordna leveranserna med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: Ange e-postens natur för klassificeringsändamål.
+   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificering.
 +++
 
 1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
@@ -73,7 +73,7 @@ Så här skapar du en ny fristående SMS-leverans:
 
    >[!NOTE]
    >
-   >När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer i [den här sidan](../workflows/activities/scheduler.md).
+   >När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
 
 1. Klicka **[!UICONTROL Settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
 
