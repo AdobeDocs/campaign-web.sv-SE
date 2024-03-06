@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ När leveransinnehållet har definierats kan du använda profiler och testprofil
 [!DNL Adobe Campaign Web user interface] kan du:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
-* [Skicka korrektur](test-deliveries.md) (bevis) till specifika mottagare eller prenumeranter för testning och validering
+* [Skicka korrektur](test-deliveries.md) till specifika mottagare eller prenumeranter för testning och validering
 * [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga stationära, mobila och webbaserade klienter
 * [Förhandsgranska och testa landningssidorna](../landing-pages/create-lp.md#test-landing-page)
 
