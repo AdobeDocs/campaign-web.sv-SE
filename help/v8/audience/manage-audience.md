@@ -3,29 +3,16 @@ audience: end-user
 title: Övervaka och hantera målgrupper
 description: Lär dig övervaka och hantera målgrupper på Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
-# Övervaka och hantera målgrupper {#monitor}
+# Övervaka och hantera målgrupper {#monitor-manage}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Egenskaper"
->abstract="Här hittar du en sammanfattning av målgruppsegenskaperna, t.ex. ursprung, lagringsmapp eller dess status. Klicka på länken i **Senaste arbetsflöde** för att öppna det arbetsflöde som har använts för att skapa målgruppen."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Målgruppsstorlek"
->abstract="Här hittar du det totala antalet profiler inom målgruppen. Klicka på knappen Beräkna för att uppdatera och beräkna om målgruppsresultaten."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Målgruppsfel"
->abstract="Målgruppsdata är inte tillgängliga. Vänta på att arbetsflödets körning avslutas."
+## Vad är en publik? {#what}
 
 Målgruppen är huvudmålet för leveransen: mottagarna som tar emot meddelandena. Vilken typ av målgrupp det är beror på målmappningen som definieras i leveransmallen. Läs mer om leveransmallar i [den här sidan](../msg/delivery-template.md).
 
@@ -42,6 +29,23 @@ När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper*
 >
 >När meddelanden skickas i samband med ett kampanjarbetsflöde definieras målgruppen i en specifik **Bygg målgrupper** arbetsflödesaktivitet. I det här sammanhanget kan du inte läsa in en målgrupp från en fil för en e-postleverans, och målgruppen definieras endast i den här dedikerade aktiviteten. Lär dig definiera målgruppen för leveransen i ett kampanjarbetsflöde i [det här avsnittet](../workflows/activities/build-audience.md)
 
+## Övervaka målgrupper {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Egenskaper"
+>abstract="Här hittar du en sammanfattning av målgruppsegenskaperna, t.ex. ursprung, lagringsmapp eller dess status. Klicka på länken i **Senaste arbetsflöde** för att öppna det arbetsflöde som har använts för att skapa målgruppen."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Målgruppsstorlek"
+>abstract="Här hittar du det totala antalet profiler inom målgruppen. Klicka på knappen Beräkna för att uppdatera och beräkna om målgruppsresultaten."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Målgruppsfel"
+>abstract="Målgruppsdata är inte tillgängliga. Vänta på att arbetsflödets körning avslutas."
+
 Listan över målgrupper som kan användas på Campaign Web finns på **[!UICONTROL Audiences]** -menyn.
 
 ![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
@@ -52,9 +56,7 @@ Målgrupper kan komma från flera olika källor. The **[!UICONTROL Origin]** kol
 
 * **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper skapas i Adobe Experience Platform och integreras i Campaign Web med hjälp av integreringen Adobe Sources and Destinations. Lär dig hur du konfigurerar den här integreringen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
->[!NOTE]
->
->Om du vill använda Adobe Experience Platform målgrupper i Campaign måste du konfigurera integreringen med Adobe Sources and Destinations. Se [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+  ➡️ [Upptäck den här funktionen i video](#video)
 
 * **[!UICONTROL Adobe Campaign WebUI]**: Dessa målgrupper skapas med Campaign-webbens målgruppsarbetsflöden. [Lär dig skapa målgrupper](create-audience.md)
 
@@ -65,3 +67,11 @@ The **[!UICONTROL Data]** kan du visa de profiler som är en del av publiken. Du
 ![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Om du vill duplicera eller ta bort en målgrupp klickar du på **[!UICONTROL More action]** som finns i målgruppslistan bredvid målgruppsnamnet eller i en målgruppsinformationsskärm.
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du skapar en målgrupp som ska användas i Experience Platform i Adobe Campaign webbgränssnitt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
+
+Detaljerad information om hur du konfigurerar integreringen för Adobe-källor och -destinationer finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
