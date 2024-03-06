@@ -3,9 +3,9 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt.
+   Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` från skärmens filteravsnitt. [Läs mer om Adobe Experience Platform målgrupper](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
