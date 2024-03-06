@@ -3,9 +3,9 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,12 @@ ht-degree: 0%
 >id="acw_deliveries_push_ios_content"
 >title="Push iOS content"
 >abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på knappen **Redigera innehåll** -knappen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Knappen Påminn senare"
+>abstract="TBD"
+
 
 ## Definiera innehållet i meddelandet {#push-message}
 
