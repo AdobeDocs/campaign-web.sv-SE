@@ -1,24 +1,20 @@
 ---
 audience: end-user
-title: Leveransinställningar
-description: Läs mer om leveransinställningar på Campaign Web
-feature: Email
+title: Konfigurera leveransinställningar
+description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '2283'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 
-# Inställningar för e-postleverans {#email-del-settings}
+# Konfigurera leveransinställningar {#del-settings}
 
-Inställningar för e-postleverans **tekniska leveransparametrar** som definieras i e-postmallen. De kan laddas över för varje leverans.
-
-De här inställningarna är tillgängliga i **Inställningar** som är tillgängliga när du redigerar en e-postleveransmall eller en e-postleveransmall.
-
-## Inställningar för e-postleverans {#email-delivery-settings}
+Leveransinställningarna är **tekniska leveransparametrar** som definieras i leveransmallen. De kan laddas över för varje leverans. De här inställningarna är tillgängliga i **Inställningar** som är tillgängliga när du redigerar en leverans eller en leveransmall.
 
 >[!CAUTION]
 >
@@ -36,12 +32,11 @@ De här inställningarna är tillgängliga i **Inställningar** som är tillgän
 >title="Typologiinställningar för leverans"
 >abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign-klientkonsolen."
 
-
 Typologier är uppsättningar av **typologiregler** som utförs under beredningsfasen för att enkelt tillämpa flera filterregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen.
 
 När du associerar en typologi med en meddelande- eller meddelandemall körs de typologiregler som ingår i typologin för att kontrollera leveransgiltigheten under meddelandeförberedelsen. Profiler som matchar kriterier inom en typologiregel exkluderas sedan från leveransgrupperna.
 
-Typologier gör att du kan se till att dina e-postmeddelanden alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler för att utesluta grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
+Med typologier kan du se till att dina leveranser alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler för att utesluta grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
 
 ![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
@@ -55,7 +50,6 @@ Typologier gör att du kan se till att dina e-postmeddelanden alltid innehåller
 >id="acw_email_settings_pressure_parameters"
 >title="Tryckparametrar för leveransen"
 >abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för trötthetshantering. Meddelanden med högst vikt har prioritet."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -91,15 +85,14 @@ Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge. T
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Kapacitetsinställningar för leverans"
->abstract="Innan du skickar meddelanden ska du använda kapacitetsregler för att se till att din organisation kan behandla leveransen, de inkommande meddelanden som leveransen kan generera och antalet samtal som till exempel ska göras till kontaktprenumeranter. Kapacitetsregler definieras i Adobe Campaign v8-konsolen. På den här skärmen väljer du en regel som är kopplad till e-postkanalen."
+>abstract="Innan du skickar meddelanden ska du använda kapacitetsregler för att se till att din organisation kan behandla leveransen, de inkommande meddelanden som leveransen kan generera och antalet samtal som till exempel ska göras till kontaktprenumeranter. Kapacitetsregler definieras i Adobe Campaign v8-konsolen. På den här skärmen väljer du en regel som är kopplad till kanalen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Mottagarens betydelse"
 >abstract="Mottagarens betydelse är en formel som används för att avgöra vilka mottagare som behålls när reglerna för kapacitetstypologi överskrids."
 
-
-I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Campaign v8-konsolen. Den här regeln är associerad med e-postkanalen.
+I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Campaign v8-konsolen. Den här regeln är associerad med kanalen.
 
 The **[!UICONTROL Importance of the recipient]** fält är en formel som används för att bestämma vilka mottagare som ska behållas när reglerna för kapacitetstypologi överskrids.
 
@@ -112,11 +105,9 @@ The **[!UICONTROL Importance of the recipient]** fält är en formel som använd
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Målgruppsinställningar för leveransen"
->abstract="Välj en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Du kan också ange undantagsparametrar för leveransen. "
+>abstract="Välj en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Du kan också ange undantagsparametrar för leveransen."
 
-I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv.
-
-Läs mer om målmappningar i [det här avsnittet](../audience/targeting-dimensions.md).
+I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv. [Läs mer om målmappningar](../audience/targeting-dimensions.md).
 
 I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte längre vill bli kontaktade eller som hamnar i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -131,7 +122,7 @@ I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte län
 
 ![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-Det integrerade e-postmeddelandet **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka e-post.
+Den integrerade **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka leveranser.
 
 Du kan definiera **[!UICONTROL Sending]** inställningarna nedan.
 
@@ -143,29 +134,23 @@ Du kan definiera **[!UICONTROL Sending]** inställningarna nedan.
   >
   >När leveransen skapas genom duplicering av en befintlig, återställs den här parametern.
 
-* **[!UICONTROL Test SMTP delivery]**: Det här alternativet används för att testa att skicka via SMTP. Leveransen behandlas upp till anslutning till SMTP-servern, men skickas inte: För varje mottagare av leveransen ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+* **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa att skicka via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
-* **[!UICONTROL Email BCC]**: Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 I **[!UICONTROL Wave definition]** väljer du **[!UICONTROL Send using multiple waves]** möjlighet att stegvis öka volymen som skickas med vågor. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
-Du kan också ändra **[!UICONTROL Mail formats]** av de e-postmeddelanden som skickats enligt nedan.
+För e-postmeddelanden kan du även ändra **[!UICONTROL Mail formats]** av de meddelanden som skickats enligt nedan.
 
-* **[!UICONTROL Use recipient preferences]** (standardläge)
+* **[!UICONTROL Use recipient preferences]** (standardläge): E-postformatet definieras enligt de data som lagras i mottagarprofilen. Om en mottagare vill ta emot e-post i ett visst format är detta det format som skickas. Om fältet inte är ifyllt skickas ett alternativt e-postmeddelande (se nedan).
 
-  Meddelandeformatet definieras enligt de data som lagras i mottagarprofilen. Om en mottagare vill ta emot meddelanden i ett visst format är detta det format som skickas. Om fältet inte är ifyllt skickas ett multipart-alternativt meddelande (se nedan).
-
-* **[!UICONTROL Let recipient mail client choose the most appropriate format]**
-
-  Meddelandet innehåller båda formaten: text och HTML. Formatet som visas vid mottagning beror på konfigurationen av mottagarens e-postprogramvara (multipart-option).
+* **[!UICONTROL Let recipient mail client choose the most appropriate format]**: E-postmeddelandet innehåller båda formaten: text och HTML. Formatet som visas vid mottagning beror på konfigurationen av mottagarens e-postprogramvara (multipart-option).
 
   >[!IMPORTANT]
   >
-  >Det här alternativet inkluderar båda versionerna av dokumentet. Det påverkar därför leveransgraden eftersom meddelandestorleken är större.
+  >Det här alternativet inkluderar båda versionerna av dokumentet. Det påverkar därför leveransfrekvensen eftersom e-poststorleken är större.
 
-* **[!UICONTROL Send all messages in text format]**
-
-  Meddelandet skickas i textformat. HTML-formatet skickas inte, utan används endast för spegelsidan när mottagaren klickar på meddelandet.
+* **[!UICONTROL Send all messages in text format]**: E-postmeddelandet skickas i textformat. HTML-formatet skickas inte, utan används endast för spegelsidan när mottagaren klickar på e-postmeddelandet.
 
 ## Web Analytics {#web-analytics}
 
@@ -193,7 +178,7 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 
 Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ignorerat fel kan återförsökas automatiskt. Som standard schemaläggs fem återförsök till den första dagen i leveransen med ett minsta intervall på en timme som sprids ut över dygnets 24 timmar.
 
-## Godkännande {#approval}
+## Godkännande (e-postkanal) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -205,14 +190,12 @@ Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ig
 >title="Godkännandeläge för leveranser"
 >abstract="Välj godkännandeläge för leveranser baserat på den här mallen. Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte."
 
-Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att meddelanden skickas i slutet av analysfasen: det här är **manuell** validering.
+Om varningar genereras under en förberedelse för e-postleverans kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att e-postmeddelanden skickas i slutet av analysfasen: det här är **manuell** validering.
 
 Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga lägen är:
 
-* ****[!UICONTROL Manual]****: I slutet av analysfasen måste användaren bekräfta leveransen för att kunna börja skicka.
-
+* **[!UICONTROL Manual]**: I slutet av analysfasen måste användaren bekräfta leveransen för att kunna börja skicka.
 * **[!UICONTROL Semi-Automatic]**: Sändningen börjar automatiskt om analysfasen inte genererar några varningsmeddelanden.
-
 * **[!UICONTROL Automatic]**: Sändningen börjar automatiskt i slutet av analysfasen, oavsett resultatet.
 
 ## Giltighet {#validity}
@@ -253,16 +236,15 @@ Du kan också välja att ange datum. Gör detta genom att välja **[!UICONTROL E
 
 Läs mer om giltighetsperioden för leverans i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### Hantering av spegelsidor {#mirror}
+### Spegelvänd sidhantering (e-postkanal) {#mirror}
 
-Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med e-postmeddelandet. Spegelsidan genereras som standard om länken infogas i postens innehåll.
+Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med e-postmeddelandet. Spegelsidan genereras som standard om länken infogas i innehållet i e-postmeddelandet.
 
 Förutom standardläget är följande alternativ också tillgängliga:
 
-* **[!UICONTROL Force the generation of the mirror page]**: Använd det här läget för att generera spegelsidan även om ingen länk till spegelsidan infogas i leveransen.
-* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att en spegelsida genereras, även om länken finns i leveransen.
+* **[!UICONTROL Force the generation of the mirror page]**: Använd det här läget för att generera spegelsidan även om ingen länk till spegelsidan infogas i e-postmeddelandet.
+* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att en spegelsida genereras, även om länken finns i e-postmeddelandet.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: När spegelsidans länk inte finns i e-postinnehållet använder du det här alternativet för att aktivera åtkomst till spegelsidans innehåll från klientkonsolen i leveransloggfönstret.
-
 
 ### Spåra {#tracking}
 
@@ -280,9 +262,8 @@ Förutom standardläget är följande alternativ också tillgängliga:
 
 **[!UICONTROL Tracking]** parametrar definieras i det relaterade avsnittet. Möjliga alternativ är:
 
-**[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ändra hur länge spårningen ska aktiveras på URL-adresserna.
-
-**[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
+* **[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ändra hur länge spårningen ska aktiveras på URL-adresserna.
+* **[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
 
 ## Korrekturinställningar {#test-setttings}
 
@@ -295,14 +276,11 @@ Förutom standardläget är följande alternativ också tillgängliga:
 
 Du kan ange undantagsparametrar i det här avsnittet. Tillgängliga alternativ är:
 
-* ****[!UICONTROL Keep doubles]**** Med kan du auktorisera flera leveranser till mottagare som uppfyller flera målinriktningskriterier.
-
+* **[!UICONTROL Keep doubles]** Med kan du auktorisera flera leveranser till mottagare som uppfyller flera målinriktningskriterier.
 * **[!UICONTROL Keep denylisted addresses]** Med kan du hålla profiler som inte längre används av leveransen, t.ex. efter en avanmälan (avanmälan), kvar från målet.
-
 * **[!UICONTROL Keep quarantined addresses]** gör att du kan hålla profiler med en adress som inte svarar från målet.
 
 Du kan också anpassa etiketten för korrektur:
 
 * Använd **[!UICONTROL Keep the delivery code for the proof]** associera till beviset med samma leveranskod som den som är definierad för den leverans som det hör till.
-
 * Som standard anges korrekturens ämne med &quot;PROOF #&quot;, där # är korrekturets nummer. Du kan ändra det här prefixet i **[!UICONTROL Label prefix]** fält.
