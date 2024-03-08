@@ -3,10 +3,10 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 3%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 2%
 >title="Objekt 4"
 >abstract="Nästa generations frågemodellerare och e-postdesigner"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Hjälp och dokumentation"
->abstract="Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Upplev nya Adobe Campaign användargränssnitt"
->abstract="Modern, intuitiv och dynamisk."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Objekt 1"
->abstract="Ny designupplevelse för e-post, SMS och push-meddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Objekt 2"
->abstract="Förenklat gränssnitt för arbetsyta"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Objekt 3"
->abstract="Omdesignat användargränssnitt för målgrupper, prenumerationer och tjänster, AEM Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Objekt 4"
->abstract="E-postgenererad AI: Promptbaserad e-postgenerering"
-
-<!--TO REMOVE ABOVE-->
 
 Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 

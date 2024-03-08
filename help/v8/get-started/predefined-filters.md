@@ -2,9 +2,9 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 0%
 >id="acw_homepage_learning_card4"
 >title="Fördefinierad filterhantering"
 >abstract="Campaign Web-gränssnittet har ett användarvänligt gränssnitt där du enkelt kan hantera och anpassa fördefinierade filter efter just dina behov. Skapa en gång och spara för framtida bruk."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Fördefinierad filterhantering"
->abstract="Campaign Web har nu ett användarvänligt gränssnitt där ni enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]
