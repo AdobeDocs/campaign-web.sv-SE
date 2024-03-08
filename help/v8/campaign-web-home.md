@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 2%
@@ -90,7 +90,7 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager som molntjänst]
+>[!TAB Integrering med Adobe Experience Manager as a Cloud Service]
 
 Integrationen mellan Adobe Campaign Web Interface och Adobe Experience Manager as a Cloud Service effektiviserar hanteringen av e-postinnehåll. Nu kan du skapa och redigera e-postinnehåll direkt i Adobe Experience Manager och sedan smidigt importera de färdiga mallarna till Adobe Campaign för leverans.
 

@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 12%
 
 ---
@@ -167,6 +167,7 @@ ht-degree: 12%
       + [Skjut global rapport](reporting/global-report-push.md)
       + [global SMS-rapport](reporting/global-report-sms.md)
 + Integreringar {#integrations}
+   + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
    + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Hantera mallar med Adobe Experience Manager som en molntjänst](integrations/aem-content.md)
+   + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

@@ -1,23 +1,24 @@
 ---
 audience: end-user
-title: Hantera resurser med Adobe Experience Manager som en molntjänst
-description: Lär dig hantera innehåll med Adobe Experience Manager som en molntjänst
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+title: Hantera mediefiler med Adobe Experience Manager as a Cloud Service
+description: Lär dig hantera innehåll med Adobe Experience Manager as a Cloud Service
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
 
 ---
 
-# Hantera mallar med [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Hantera mallar med [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Kom igång med [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Kom igång med [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager underlättar smidig hantering av e-postinnehåll och formulär direkt i Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[Läs mer om Adobe Experience Manager som molntjänst](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[Läs mer om Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## Skapa en mall i [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Skapa en mall i [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Navigera till [!DNL Adobe Experience Manager] författarinstans och klicka på Adobe Experience i det övre vänstra hörnet på sidan. Välj **[!UICONTROL Sites]** på menyn.
 
@@ -47,7 +48,7 @@ Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager und
 
 Nyhetsbrevet är nu klart och synkroniserat i Adobe Campaign.
 
-## Importera en Adobe Experience Manager som en molntjänstmall{#aem-templates-perso}
+## Importera en Adobe Experience Manager as a Cloud Service-mall{#aem-templates-perso}
 
 När mallen Experience Manager finns tillgänglig på Adobe Campaign Web som innehållsmall kan du identifiera och lägga in det innehåll som behövs för e-postmeddelandet, inklusive personalisering.
 
