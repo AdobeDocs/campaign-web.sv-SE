@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka korrektur
 description: Lär dig hur du definierar och skickar korrektur
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -21,7 +21,7 @@ När meddelandeinnehållet har definierats kan du förhandsgranska och testa det
 
 Om du vill identifiera eventuella fel i inställningarna för meddelandeinnehåll eller personalisering skickar du korrektur för att testa profiler innan du skickar dem till målgruppen. Ett korrektur ska skickas varje gång en ändring görs för att validera det senaste innehållet. Att skicka in korrektur är ett viktigt steg när det gäller att validera kampanjen och identifiera potentiella problem. Korrekturmottagarna kan kontrollera olika element som länkar, avanmälningslänkar, bilder eller spegelsidor samt upptäcka eventuella fel i återgivning, innehåll, personaliseringsinställningar och leveranskonfiguration.
 
-## Simulera innehåll med testmottagare {#simulate-content-test-deliveries}
+## Simulera innehåll med testprofiler {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

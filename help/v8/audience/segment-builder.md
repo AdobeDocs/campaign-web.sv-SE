@@ -3,7 +3,7 @@ audience: end-user
 title: Bygg en målgrupp med Campaign rule builder
 description: Lär dig hur du arbetar med regelbyggaren
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -45,7 +45,7 @@ På höger sida **Regelegenskaper** kan du utföra de åtgärder som anges nedan
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Visa resultat:** visar en lista över mottagare som målgruppen har.
+* **Visa resultat:** visar listan med profiler som målgruppen riktar sig mot.
 * **kodvyn**: visar en kodbaserad version av målgruppen i SQL.
 * **Visa avancerade attribut**: markera det här alternativet om du vill visa den fullständiga listan med attribut på den vänstra paletten: noder, grupperingar, 1-1 länkar, 1-N länkar.
 * **Beräkna**: uppdaterar och visar antalet profiler som din fråga har som mål.

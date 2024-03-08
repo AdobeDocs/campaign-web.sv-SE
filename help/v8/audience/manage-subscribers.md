@@ -3,7 +3,7 @@ audience: end-user
 title: Hantera prenumeranterna
 description: Lär dig hur du hanterar och levererar till abonnenter av en tjänst på Adobe Campaign Web
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -42,7 +42,7 @@ De tillagda profilerna visas i **[!UICONTROL Subscribers]** -fliken. De prenumer
 
 ## Ta bort prenumeranter från tjänsten {#remove-subscribers}
 
-### Avbeställ prenumerationer manuellt {#manual-unsubscription}
+### Avbeställ profiler manuellt {#manual-unsubscription}
 
 En gång [tillagda prenumeranter](#add-subscribers) till tjänsten kan du avbeställa prenumerationen manuellt. Följ stegen nedan.
 
@@ -62,7 +62,7 @@ Mottagaren tas bort från **[!UICONTROL Subscribers]** och prenumererar inte lä
 
 ### Avbeställ automatiskt {#automatic-unsubscription}
 
-En prenumerationstjänst kan ha en begränsad varaktighet. Mottagarna avbeställs automatiskt när giltighetsperioden går ut.
+En prenumerationstjänst kan ha en begränsad varaktighet. Profiler avbryts automatiskt när giltighetsperioden går ut.
 
 Den här perioden anges när [skapa tjänsten](manage-services.md#create-service). Från **[!UICONTROL Additional options]**, inaktivera **[!UICONTROL Unlimited validity period]** och definiera en giltighetsperiod för tjänsten.
 

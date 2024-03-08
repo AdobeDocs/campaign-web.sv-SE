@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 17%
@@ -62,6 +62,6 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 ## Exempel{#deduplication-example}
 
-I följande exempel använder du en dedupliceringsaktivitet för att exkludera dubbletter från målet innan du skickar en leverans. De identifierade dubblerade mottagarna läggs till i en dedikerad målgrupp som kan återanvändas om det behövs. Välj **E-post** adress för att identifiera dubbletterna. Behåll 1 post och välj **Slumpmässig** dedupliceringsmetod.
+I följande exempel använder du en dedupliceringsaktivitet för att exkludera dubbletter från målet innan du skickar en leverans. De identifierade duplicerade profilerna läggs till i en dedikerad målgrupp som kan återanvändas om det behövs. Välj **E-post** adress för att identifiera dubbletterna. Behåll 1 post och välj **Slumpmässig** dedupliceringsmetod.
 
 ![](../assets/workflow-deduplication-example.png)

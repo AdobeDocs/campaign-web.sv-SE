@@ -3,7 +3,7 @@ audience: end-user
 title: Ange en kontrollgrupp
 description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i användargränssnittet för Campaign-webben
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 7%
@@ -62,7 +62,7 @@ Använd sedan **Storleksgräns** för att ange antalet profiler som du behöver 
 
 ### Exempel på kontrollgrupp{#control-group-sample}
 
-Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna gör du så här:
+Om du till exempel vill skapa en kontrollgrupp med de 100 nya yngsta profilerna gör du så här:
 
 1. Välj **Ålder** -fält som ett sorteringskriterium. Lämna **Stigande** sorteringsalternativ.
 1. Lägg till **Skapad den** fält. Ändra till **Fallande** sorteringsalternativ.
@@ -70,7 +70,7 @@ Om du till exempel vill skapa en kontrollgrupp med de 100 nya unga mottagarna g�
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Dessa 100 nya unga mottagare exkluderas sedan från huvudmålet.
+Dessa 100 nya ungdomsprofiler exkluderas sedan från huvudmålet.
 
 ### Kontrollera kontrollgruppen {#check-control-group}
 

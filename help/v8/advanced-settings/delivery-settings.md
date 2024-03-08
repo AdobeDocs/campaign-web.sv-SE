@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2286'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,9 @@ I **[!UICONTROL Weight type]** finns det tre alternativ:
 
 Använd **[!UICONTROL Delivery weight]** fält för att definiera leveransprioriteten. Varje leverans har en vikt som motsvarar dess prioritetsnivå. Som standard är vikten för en leverans inställd på 5. Med tryckregler kan du definiera vikten för de leveranser som de tillämpas på. Vikter kan antingen anges eller beräknas med en formel som passar mottagarna. Du kan till exempel definiera vikten för en leverans baserat på mottagarens intressen.
 
-Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge. Tre olika lägen finns tillgängliga:
+Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge.
+
+Tre olika lägen finns tillgängliga:
 
 * **[!UICONTROL Target estimation and message personalization]**
 * **[!UICONTROL Estimation and approval of the provisional target]**
@@ -78,7 +80,7 @@ Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge. T
 
 >[!NOTE]
 >
->Trötthetshantering har konfigurerats i Campaign-klientkonsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -90,11 +92,11 @@ Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge. T
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Mottagarens betydelse"
->abstract="Mottagarens betydelse är en formel som används för att avgöra vilka mottagare som behålls när reglerna för kapacitetstypologi överskrids."
+>abstract="Mottagarens betydelse är en formel som används för att avgöra vilka profiler som behålls när reglerna för kapacitetstypologi överskrids."
 
 I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Campaign v8-konsolen. Den här regeln är associerad med kanalen.
 
-The **[!UICONTROL Importance of the recipient]** fält är en formel som används för att bestämma vilka mottagare som ska behållas när reglerna för kapacitetstypologi överskrids.
+The **[!UICONTROL Importance of the recipient]** fält är en formel som används för att bestämma vilka profiler som ska behållas när reglerna för kapacitetstypologi överskrids.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ The **[!UICONTROL Importance of the recipient]** fält är en formel som använd
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv. [Läs mer om målmappningar](../audience/targeting-dimensions.md).
 
-I **[!UICONTROL Exclusion]** kan du välja att exkludera mottagare som inte längre vill bli kontaktade eller som hamnar i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+I **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Leverans {#delivery}
 
@@ -276,7 +278,7 @@ Förutom standardläget är följande alternativ också tillgängliga:
 
 Du kan ange undantagsparametrar i det här avsnittet. Tillgängliga alternativ är:
 
-* **[!UICONTROL Keep doubles]** Med kan du auktorisera flera leveranser till mottagare som uppfyller flera målinriktningskriterier.
+* **[!UICONTROL Keep doubles]** Med kan du auktorisera flera leveranser till profiler som uppfyller flera målinriktningskriterier.
 * **[!UICONTROL Keep denylisted addresses]** Med kan du hålla profiler som inte längre används av leveransen, t.ex. efter en avanmälan (avanmälan), kvar från målet.
 * **[!UICONTROL Keep quarantined addresses]** gör att du kan hålla profiler med en adress som inte svarar från målet.
 

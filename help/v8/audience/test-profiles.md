@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
@@ -17,17 +17,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Skapa testprofiler"
->abstract="Testprofiler skapas som dirigerade adresser. De är ytterligare mottagare i databasen som används för att rikta fiktiva profiler som inte matchar de definierade målvillkoren."
+>abstract="Testprofiler är ytterligare mottagare som gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar meddelanden. Du kan välja en testprofil när du förhandsgranskar ett meddelandeinnehåll och skicka korrektur till testprofilerna för att kontrollera och validera meddelandets innehåll och inställningar."
 
-Testprofiler skapas som dirigerade adresser. De är ytterligare mottagare i databasen som används för att rikta fiktiva profiler som inte matchar de definierade målvillkoren. De gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar leveransen, genom att skicka dem som korrektur.
+Testprofiler används för att skicka korrektur och validera meddelandeinnehåll och inställningar. Dessa profiler är ytterligare mottagare som gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar meddelanden. Du kan välja en testprofil när du förhandsgranskar ett meddelandeinnehåll och skicka korrektur till testprofilerna för att kontrollera och validera meddelandets innehåll och inställningar.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Stegen för att skicka korrektur till dirigerade adresser beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
+Stegen för att skicka korrektur till testprofiler beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Testprofiler exkluderas automatiskt från rapporter om följande leveransstatistik: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Läs mer om rapporter]
+>* Testprofiler skapas som dirigerade adresser i klientkonsolen.
+>
+>* Testprofiler exkluderas automatiskt från rapporter om följande leveransstatistik: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
 ## Få åtkomst till och hantera testprofiler {#access-test-profiles}
 
@@ -62,7 +64,7 @@ Från **[!UICONTROL Explorer]** kan du även filtrera, ta bort, redigera och [sk
 >title="Testa profiler Ytterligare data"
 >abstract="Ange de personaliseringsdata som används för leveranser som skapas i arbetsflödena för datahantering och som du vill tilldela ett specifikt värde till."
 
-Följ stegen nedan för att skapa en testprofil.
+Så här skapar du en testprofil:
 
 1. Bläddra till **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** och väljer **[!UICONTROL Test profiles]** -fliken.
 

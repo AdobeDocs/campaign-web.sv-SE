@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Målmottagare från en fil
-description: Lär dig hur du använder mottagare från en extern fil för att skapa e-postmålgrupper
+title: Läsa in en e-postmålgrupp från en fil
+description: Lär dig hur du läser in profiler från en extern fil för att skapa e-postmålgrupper
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Med Campaign Web kan ni förhandsgranska och skicka korrektur när ni använder 
    >
    >Se till att filformatet matchar det som används för att överföra målgruppen. Alla formatfel visar en varning.
 
-1. När korrekturmottagarna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send proof]** och bekräfta sändningen.
+1. När korrekturprofilerna har lagts till och du är redo att skicka korrekturet klickar du på **[!UICONTROL Send proof]** och bekräfta sändningen.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

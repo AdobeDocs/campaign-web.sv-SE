@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 2%
@@ -134,7 +134,7 @@ Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-p
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Gör innehållet dynamiskt</strong><br/>Lär dig hur du anpassar ditt innehåll baserat på den information du har samlat in om dina mottagare för att göra innehållet mer tilltalande och öka sannolikheten för att det läses.</div>
+    <div><strong>Gör innehållet dynamiskt</strong><br/>Lär dig hur du anpassar innehåll baserat på den information du har samlat in om dina profiler för att göra innehållet mer tilltalande och öka sannolikheten för att det läses.</div>
     </td>
   </tr>
   <tr style="border: 0;">

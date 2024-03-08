@@ -1,9 +1,10 @@
 ---
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -32,9 +33,9 @@ ht-degree: 0%
 
 ## Vad är en profil? {#what}
 
-A **profil**, som också kallas &quot;mottagare&quot; i klientkonsolen, representerar en post som lagras i Campaign-databasen och fungerar som en nyckelkomponent för att [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll. Med Adobe Campaign kan ni hantera profiler smidigt, från att skapa nya tävlingsbidrag till att få en heltäckande bild av alla era profilers attribut och tjänsteabonnemang, allt via webbgränssnittet i Campaign.
+A **profil**, som också kallas&quot;mottagare&quot; i klientkonsolen, representerar en post som lagras i Campaign-databasen och fungerar som en nyckelkomponent för att [skapa målgrupper](create-audience.md) för leveranser och [lägg till personalisering](../personalization/personalize.md) data till ert innehåll. Med Adobe Campaign kan ni hantera profiler smidigt, från att skapa nya tävlingsbidrag till att få en heltäckande bild av alla era profilers attribut och tjänsteabonnemang, allt via webbgränssnittet i Campaign.
 
-Dessutom **[!UICONTROL test profiles]**, som identifieras som&quot;dirigerade profiler&quot; i klientkonsolen, gör att du kan rikta dig till fler mottagare som inte matchar målinriktningsvillkoren för en viss leverans. Dessa profiler innehåller fiktiv kontaktinformation, eller kontaktinformation som styrs av avsändaren. De kan läggas in i målgruppen för ett meddelande för att upptäcka om mottagardatabasen används på ett bedrägligt sätt eller för att säkerställa att e-postmeddelandena kommer in i inkorgen. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
+Dessutom **[!UICONTROL test profiles]**, som identifieras som&quot;dirigerade profiler&quot; i klientkonsolen, gör att du kan rikta dig till fler mottagare som inte matchar målinriktningsvillkoren för en viss leverans. Dessa profiler innehåller fiktiv kontaktinformation, eller kontaktinformation som styrs av avsändaren. Testprofiler är korrekturmottagare: de används för att testa dina meddelanden genom att skicka korrektur. [Lär dig hur du arbetar med testprofiler](test-profiles.md)
 
 Både profiler och testprofiler kan användas för att testa era leveranser innan de når den avsedda målgruppen. På så sätt kan du förhandsgranska meddelandets innehåll och personalisering, skicka korrektur för testning och validering, utvärdera e-poståtergivning på olika plattformar och enheter och testa landningssidorna. [Lär dig hur du förhandsgranskar och testar leveranser](../preview-test/preview-test.md)
 

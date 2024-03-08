@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa en engångspublik för en leverans
 description: Lär dig hur du skapar en engångspublik för en leverans.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Skapa en engångspublik {#one-time}
 
-I det här avsnittet beskrivs hur du skapar en målgrupp när du skapar en ny leverans. I det här fallet är målet för mottagarna som ska inkluderas i leveransgruppen att fråga databasen med frågemodelleraren.
+I det här avsnittet beskrivs hur du skapar en målgrupp när du skapar en ny leverans. I det här fallet används de profiler som ska inkluderas i leveransgruppen för att fråga databasen med frågemodelleraren.
 
 Den slutliga målgruppen används bara en gång för den här leveransen. Den sparas inte i målgruppslistan.
 

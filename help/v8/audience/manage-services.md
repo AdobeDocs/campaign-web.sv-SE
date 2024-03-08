@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 1. Som standard är prenumerationerna obegränsade.
 
    Du kan inaktivera **[!UICONTROL Unlimited validity period]** för att definiera tjänstens giltighetsperiod. När giltighetsperioden är slut:
-   * Inga mottagare kan längre prenumerera på den här tjänsten
+   * Ingen profil kan längre prenumerera på tjänsten
    * Alla prenumeranter på tjänsten avbryts automatiskt
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 Nu kan du:
 
-* Lägg till prenumeranter i den här tjänsten och avbeställ prenumerationer. [Läs mer](../msg/send-to-subscribers.md)
+* Lägg till prenumeranter i den här tjänsten och avbeställ profiler. [Läs mer](../msg/send-to-subscribers.md)
 
 * Skicka meddelanden till prenumeranterna på tjänsten. [Lär dig mer](../msg/send-to-subscribers.md)
 
