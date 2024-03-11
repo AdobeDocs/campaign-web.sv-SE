@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2045'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Med filterkomponenter kan du förfina frågan genom att använda:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Anpassat villkor"
->abstract="Anpassat villkor"
+>abstract="Anpassade villkor är att filtrera komponenter som gör att du kan filtrera frågan genom att skapa ett eget villkor med attribut från databasen och avancerade uttryck."
 
 Så här filtrerar du frågan med ett anpassat villkor:
 
