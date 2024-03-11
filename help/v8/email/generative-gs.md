@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 61a15b297c8f9b36e195e173dd394dd83bd58bf1
+source-git-commit: 6d3a891bee77ebe8e1e78d816bbec7d9bf4efc1f
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative AI terms"
->abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines och följande för att få tillgång till den här funktionen:"
+>abstract="Du godkänner Adobe Experience Cloud Generative AI User Guidelines och följande: Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen (a) måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärkesmaterial, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra tillförlitliga dokument, och (b) får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en en specifik individ). Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt sätt att arbeta."
 
 <!--
- Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
