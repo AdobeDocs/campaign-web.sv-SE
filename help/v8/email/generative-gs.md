@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
+source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe Generative AI terms"
->abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines och följande för att få tillgång till den här funktionen:
-* Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen (a) måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärkeskommunikationsmaterial, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra pålitliga dokument, och (b) får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en viss individ).
-* Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt sätt att arbeta.&quot;
->additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generative AI User Guidelines&quot;
+>abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines och följande för att få tillgång till den här funktionen:<br>Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen (a) måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärkeskommunikationsmaterial, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra pålitliga dokument, och (b) får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en viss individ).<br>Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt sätt att arbeta."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
 
 >[!CONTEXTUALHELP]
