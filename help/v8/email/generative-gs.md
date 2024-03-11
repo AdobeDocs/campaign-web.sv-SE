@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
+source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -14,14 +14,6 @@ ht-degree: 0%
 ---
 
 # Kom igång med Content Assistant {#generative-gs}
-
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate_test_test"
->title="Adobe Generative AI terms"
->abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines. Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärke, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra pålitliga dokument och får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en viss individ). Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt användningssätt"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,6 +25,14 @@ ht-degree: 0%
 >id="acw_generation_context"
 >title="Definiera kontext för innehållsgenerering"
 >abstract="Aktivera **Förbättra med aktuellt innehåll** växla. Ni kan också överföra ert varumärkesmaterial för att använda det som en källa. Om du inte använder det valda innehållet är det obligatoriskt att överföra och välja varumärkesresurser."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generate_emagica"
+>title="Adobe Generative AI terms"
+>abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines. Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärke, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra pålitliga dokument och får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en viss individ). Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt användningssätt"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+
 
 Content Assistant, som bygger på generativ AI, är ett värdefullt verktyg för att förbättra e-postinnehåll. Det förenklar personalisering och innehållsförbättring, och optimerar e-postleveransen för att få ett bättre gensvar från er målgrupp.
 
