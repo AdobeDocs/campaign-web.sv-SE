@@ -2,14 +2,21 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten Ändra datakälla
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra datakälla
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 1%
 
 ---
 
 # Ändra datakälla {#change-data-source}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Ändra datakälla i arbetsflöden"
+>abstract="Med aktiviteten Ändra mål för datakälla kan du ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

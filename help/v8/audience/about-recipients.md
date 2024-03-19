@@ -2,19 +2,15 @@
 title: Kom igång med profiler
 description: Lär dig övervaka och hantera profiler på Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Kom igång med profiler {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="360-vy av dina profiler"
->abstract="Skapa nya profiler och övervaka dem med hjälp av kraftfulla rapporter och verktyg. Få åtkomst till attribut, interaktioner och loggar för dina profiler. Använd filtreringsalternativen för att bläddra i profillistan, redigera och uppdatera deras profil."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
