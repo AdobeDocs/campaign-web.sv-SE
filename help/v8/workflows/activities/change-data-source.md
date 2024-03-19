@@ -2,7 +2,7 @@
 audience: end-user
 title: Använd arbetsflödesaktiviteten Ändra datakälla
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra datakälla
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
