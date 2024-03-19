@@ -1,10 +1,10 @@
 ---
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
@@ -24,22 +24,22 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 ### Direktreklam, kanal {#24-3-dm}
 
-**Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
+**Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna. [Läs mer](../direct-mail/gs-direct-mail.md)
 
 ![](../assets/do-not-localize/direct-mail.gif)
 
 ### Ny arbetsflödesaktivitet för Ändra datakälla {#24-3-change-data-source}
 
-The **Ändra datakälla** målaktiviteter gör att du kan ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan.
+The **Ändra datakälla** målaktiviteter gör att du kan ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan. [Läs mer](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 
 ### Förbättring av delad arbetsflödesaktivitet {#24-3-split}
 
-Nu kan du använda **Generera alla delmängder i samma tabell** i **Dela** arbetsflödesaktivitet för att gruppera alla delmängder i en enda utdataövergång.
+Nu kan du använda **Generera alla delmängder i samma tabell** i **Dela** arbetsflödesaktivitet för att gruppera alla delmängder i en enda utdataövergång. [Läs mer](../workflows/activities/split.md)
 
 ### Frågemodelleraren {#24-3-query-modeler}
 
-* Frågemodelleraren kan nu användas i e-postdesignern. Du kan skapa villkor när du skapar villkorsstyrt innehåll.
-* Fördefinierade värden är nu tillgängliga för datumtypsattribut när du skapar ett anpassat villkor.
-* Det går inte längre att lägga till operatorer för en ny övergång i diagrammet. De kan bara läggas till i en befintlig övergång innan komponenterna filtreras för att gruppera dem.
+* Frågemodelleraren kan nu användas i e-postdesignern. Du kan skapa villkor när du skapar villkorsstyrt innehåll. [Läs mer](../personalization/conditions.md)
+* Fördefinierade värden är nu tillgängliga för datumtypsattribut när du skapar ett anpassat villkor. [Läs mer](../query/build-query.md)
+* Det går inte längre att lägga till operatorer för en ny övergång i diagrammet. De kan bara läggas till i en befintlig övergång innan komponenterna filtreras för att gruppera dem. [Läs mer](../query/build-query.md)
