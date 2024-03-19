@@ -5,7 +5,7 @@ description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1308'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,10 @@ ht-degree: 4%
 
 Vi är glada över att kunna presentera den nya versionen av **Adobe Campaign webbgränssnitt**. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Campaign Web User Interface (UI) ger en sammankopplad arbetsyta med Adobe Experience Platform för en enhetlig upplevelse.
 
-Ändringar, nya funktioner och förbättringar listas i [månadsversionsinformation](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>Den här versionen är tillgänglig för alla användare som startar [Campaign version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Läs mer om Adobe Campaign-releaser i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Viktiga funktioner {#key-features}

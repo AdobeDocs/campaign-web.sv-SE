@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 12%
+source-wordcount: '632'
+ht-degree: 14%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 12%
 # Adobe Campaign Web-dokumentation {#v8}
 
 + [Dokumentation för Adobe Campaign Web User Interface](campaign-web-home.md)
-+ [Nyheter?](rn/whats-new.md)
-+ [Dokumentationsuppdateringar](rn/documentation-updates.md)
++ Versionsinformation {#release-notes}
+   + [Nyheter?](rn/whats-new.md)
+   + [Senaste versionen](rn/release-notes.md)
+   + [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + Kom igång med Adobe Campaign {#start}
    + [Kom igång](get-started/get-started.md)
    + [Anslut till Campaign](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 12%
       + [Skapa en SMS-leverans](sms/create-sms.md)
       + [Designa en SMS-leverans](sms/content-sms.md)
       + [Förhandsgranska och skicka en SMS-leverans](sms/send-sms.md)
+   + Direktutskick {#direct-mail}
+      + [Kom igång med direktreklam](direct-mail/gs-direct-mail.md)
+      + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
+      + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
+      + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
    + Gör innehållet dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 12%
       + [Om arbetsflödesaktiviteter](workflows/activities/about-activities.md)
       + [Och-join](workflows/activities/and-join.md)
       + [Bygg målgrupper](workflows/activities/build-audience.md)
+      + [Ändra datakälla](workflows/activities/change-data-source.md)
       + [Ändra dimension](workflows/activities/change-dimension.md)
       + [Kombinera](workflows/activities/combine.md)
       + [Deduplicering](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 12%
       + [Rapport om e-postleverans](reporting/email-report.md)
       + [Rapport om push-leverans](reporting/push-report.md)
       + [SMS-leveransrapport](reporting/sms-report.md)
+      + [Rapport om direktleverans av e-post](reporting/direct-mail.md)
    + Kampanjrapporter {#campaign-report}
       + [Kom igång med kampanjrapporter](reporting/campaign-reports.md)
       + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
       + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
       + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
+      + [Rapport om direktreklamkampanj](reporting/campaign-reports-direct-mail.md)
    + Globala rapporter {#global-report}
       + [Kom igång med globala rapporter](reporting/global-reports.md)
       + [E-posta global rapport](reporting/global-report-email.md)
       + [Skjut global rapport](reporting/global-report-push.md)
       + [global SMS-rapport](reporting/global-report-sms.md)
+      + [Global rapport för direktreklam](reporting/global-report-direct.md)
 + Integreringar {#integrations}
    + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
    + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)

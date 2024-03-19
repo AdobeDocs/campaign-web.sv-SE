@@ -3,10 +3,10 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 0%
+source-wordcount: '1578'
+ht-degree: 1%
 
 ---
 
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="Innehåll för direktreklam"
->abstract="Innehåll för direktreklam"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="Filegenskaper för direktreklam"
->abstract="Filegenskaper för direktreklam"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="Innehållsegenskaper för direktreklam"
->abstract="Innehållsegenskaper för direktreklam"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Ändra datakälla"
->abstract="The **Ändra datakälla** kan du välja en annan datakälla för arbetsflödets arbetsregister."
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Avancerade attribut för regelbyggaren"
 >abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Dela aktivitetsfilter"
->abstract="Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen."
+>abstract="Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeta med frågemodelleraren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
 
    1. Öppna delmängden för att visa dess egenskaper.
 
-   1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen.
+   1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
    1. Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas.
 
@@ -85,6 +86,10 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
 1. När du har konfigurerat alla deluppsättningar kan du välja den återstående populationen som inte matchade någon av deluppsättningarna och inkludera dem i en ytterligare utgående övergång. Aktivera **[!UICONTROL Generate complement]** alternativ.
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Generate all subsets in the same table]** kan du gruppera alla delmängder till en enda utdataövergång.
 
 Aktiviteten är nu konfigurerad. När arbetsflödet körs segmenteras populationen i de olika deluppsättningarna, i den ordning som de har lagts till i aktiviteten.
 

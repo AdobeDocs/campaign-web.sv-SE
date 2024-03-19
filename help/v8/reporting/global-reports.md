@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med globala rapporter
 description: Förstå globala rapporter
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ En fullständig lista över rapporter och tillhörande mått för varje kanal fi
 * [E-posta globala rapporter](global-report-email.md)
 * [Globala sms-rapporter](global-report-sms.md)
 * [Överför globala rapporter](global-report-push.md)
+* [Globala rapporter för direktreklam](global-report-direct.md)
 
 ## Hantera rapportinstrumentpanelen {#manage-reports}
 

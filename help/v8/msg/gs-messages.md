@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med meddelanden och leveranser på Adobe Campaign Web
 description: Lär dig hur du arbetar med leveranser och skickar meddelanden med Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -16,7 +16,7 @@ Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och 
 
 Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i arbetsflöden inom ramen för en marknadsföringskampanj. Läs om hur du skapar och hanterar leveranser i Adobe Campaign i [det här avsnittet](gs-deliveries.md).
 
-Adobe Campaign v8 levereras med följande leveranskanaler: e-post, SMS och push-meddelanden. Andra kanaler, som meddelanden i appen, direktreklam eller social marknadsföring med X (Twitter), stöds ännu inte.
+Adobe Campaign v8 levereras med följande leveranskanaler: e-post, SMS, push-meddelanden och direktreklam. Andra kanaler som meddelanden i appen eller social marknadsföring med X (Twitter) stöds inte ännu.
 
 Bläddra i avsnitten nedan för att lära dig hur du skapar och skickar meddelanden.
 

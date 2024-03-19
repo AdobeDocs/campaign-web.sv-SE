@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
 Baserat på en fördefinierad [designmall](../email/create-email-templates.md), innehåller e-postmeddelandet även personaliserat innehåll baserat på kundprofilattribut.
+
+➡️ [Upptäck den här funktionen i video](#video)
 
 ## Skapa e-postleveransen {#create-email}
 
@@ -211,3 +213,9 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 1. När e-postmeddelandet har skickats kan du få åtkomst till dedikerade rapporter för ytterligare analys genom att klicka på **[!UICONTROL Reporting]** -knappen.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du skapar en e-postleverans från grunden, definierar målgruppen, utformar innehållet, simulerar förhandsgranskning och skickar ett korrektur.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

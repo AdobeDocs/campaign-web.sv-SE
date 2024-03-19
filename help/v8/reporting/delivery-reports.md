@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter
 description: Lär dig hur du får åtkomst till och använder leveransrapporter
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ En fullständig lista över rapporter och tillhörande mått för varje kanal fi
 * [Leveransrapporter via e-post](email-report.md)
 * [SMS-leveransrapporter](sms-report.md)
 * [Rapporter om push-leverans](push-report.md)
+* [Leveransrapporter för direktreklam](direct-mail.md)
 
 ## Hantera rapportinstrumentpanelen {#manage-reports}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Designa e-postmeddelanden i e-postdesignern
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ ht-degree: 0%
 >abstract="Med e-postdesignern kan du enkelt definiera mallens layout genom att definiera kolumnstrukturen."
 
 Med e-postdesignern kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du utforma e-postmeddelandets brödtext på bara några sekunder.
+
+➡️ [Upptäck den här funktionen i video](#video)
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
@@ -105,3 +107,8 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
 1. När e-postmeddelandet är klart klickar du på **[!UICONTROL Save]**.
 
+## Instruktionsvideo {#video}
+
+Lär dig navigera i e-postdesignern. Lär dig strukturera och utforma ett e-postmeddelande från grunden, hur du anpassar och testar e-postmeddelandet.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

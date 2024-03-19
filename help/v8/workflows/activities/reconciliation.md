@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '860'
 ht-degree: 10%
 
 ---
@@ -53,7 +53,8 @@ Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsfl
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Avstämningsregler"
->abstract="Välj de avstämningsfält som ska användas för dedupliceringen. Du kan använda ett eller flera avstämningskriterier."
+>abstract="Välj avstämningsregler som ska användas för dedupliceringen. Välj **Enkla attribut** och välj käll- och målfälten. Om du vill skapa ett eget avstämningsvillkor med frågemodelleraren väljer du **Avancerade avstämningsvillkor** alternativ."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeta med frågemodelleraren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** alternativ. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. Lär dig använda frågemodelleraren i [det här avsnittet](../../query/query-modeler-overview.md).
+   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** alternativ. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md).
 
-1. Du kan använda **Skapa filter** -knappen. Detta gör att du kan skapa ett anpassat villkor med [frågemodellerare](../../query/query-modeler-overview.md).
+1. Du kan använda **Skapa filter** -knappen. Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 Som standard lagras ej avstämda data i den utgående övergången och är tillgängliga i arbetsboken för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du **Behåll ej avstämda data** alternativ.
 

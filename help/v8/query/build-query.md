@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,17 @@ Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri pla
 
 Du kan lägga till två typer av element:
 
-* **Filtrera komponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) låter dig skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina din fråga. [Lär dig hur du arbetar med filterkomponenter](#filtering)
+* **Filtrera komponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) låter dig skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina din fråga. De läggs till i början av frågan och på prickade övergångar. [Lär dig hur du arbetar med filterkomponenter](#filtering)
 
-  *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
+  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
-* **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet efter behov. [Lär dig arbeta med operatorer](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
+* **Gruppoperatorer** (AND, OR, EXCEPT) låter dig gruppera filterkomponenter i diagrammet tillsammans. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## Lägga till filterkomponenter {#filtering}
 
@@ -51,7 +53,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    >[!NOTE]
    >
-   >Med knappen Redigera uttryck kan du använda redigeraren för Campaign-webbuttryck för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig redigera uttryck](expression-editor.md)
+   >The **Redigera uttryck** Med knappen kan du utnyttja redigeraren för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig redigera uttryck](expression-editor.md)
 
 1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
@@ -83,6 +85,10 @@ Så här filtrerar du frågan med ett anpassat villkor:
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   För datumtypsattribut är fördefinierade värden tillgängliga med **[!UICONTROL Presets]** alternativ.
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
@@ -211,7 +217,7 @@ Så här kopierar och klistrar du in filterkomponenter:
 
 Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en **OCH** -operator. Det innebär att resultatet från de två filterkomponenterna kombineras.
 
-I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtertypsvillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
+I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtervillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

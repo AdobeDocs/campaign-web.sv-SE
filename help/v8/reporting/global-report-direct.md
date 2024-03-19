@@ -2,16 +2,16 @@
 audience: end-user
 title: Globala rapporter för direktreklamkanalen
 description: Läs mer om Global-rapporter för direktreklamkanalen
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '581'
+ht-degree: 0%
 
 ---
 
 # Globala rapporter för direktreklamkanalen {#global-report-direct}
 
-De globala rapporterna ger användarna en heltäckande översikt över trafik- och engagemangsmätningar på kanalnivå.
+De globala rapporterna för direktreklam ger användarna en heltäckande översikt över trafik- och engagemangsmått på kanalnivå.
 
 Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsnitt. Du kan filtrera dina data beroende på rapportdatumet, mappen eller reglerna. [Läs mer](global-reports.md)
 
@@ -19,9 +19,14 @@ Navigera till **[!UICONTROL Reports]** menyn i **[!UICONTROL Reporting]** -avsni
 
 ### Leveransöversikt {#delivery-overview-direct}
 
-The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter om hur besökarna interagerar med varje e-postleverans. Mätvärdena beskrivs nedan.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Leveransöversikt"
+>abstract="The **Leveransöversikt** presenterar nyckeltal (KPI:er) som ger djupgående insikter i hur besökarna interagerar med varje direktutskick. Mätvärdena beskrivs nedan."
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter i hur besökarna interagerar med varje direktutskick. Mätvärdena beskrivs nedan.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -36,9 +41,19 @@ The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger dj
 
 ### Målgrupp {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Målgrupp"
+>abstract="Mottagardata och meddelandeinformation visas i **Målgrupp** diagram som avspeglar leveransanalysen."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Målgrupp"
+>abstract="The **Målgrupp** tabellen innehåller en detaljerad beskrivning av dina mottagare och motsvarande meddelanden, baserat på resultatet av leveransförberedelseprocessen."
+
 Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mottagare, med detaljerade mått som anges nedan.
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -52,9 +67,17 @@ Tabell och diagram för **[!UICONTROL Targeted Audience]** visa data om era mott
 
 ### Leveransstatistik {#delivery-summary-direct-exec-stats}
 
-The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av hur väl varje direktmejlleverans lyckats, med detaljerade mätvärden som anges nedan.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Leveransstatistik"
+>abstract="The **Leveransstatistik** diagram ger insikt i hur effektiva era direktutskick är, inklusive slutförda leveranser och eventuella fel som uppstått."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Leveransstatistik"
+>abstract="The **Leveransstatistik** tabellen innehåller information om hur din direktutskick lyckades och om fel som uppstått."
+
+The **[!UICONTROL Delivery statistics]** diagram och tabeller ger en beskrivning av hur väl varje direktmejlleverans lyckats, med detaljerade mätvärden som anges nedan.
 
 +++Läs mer om leveransstatistik.
 
@@ -70,41 +93,35 @@ The **[!UICONTROL Delivery statistics]** tabellen innehåller en beskrivning av 
 
 ### Orsaker till uteslutning {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Undantag"
+>abstract="The **Orsaker till uteslutning** tabellen visar en detaljerad beskrivning, per regel, av meddelanden som avvisats under leveransförberedelseprocessen."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Leveransorsaker"
+>abstract="The **Orsaker till uteslutning** graf visar distributionen av avvisade meddelanden under färdigställandet av leveransen, indelat i kategorier."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-## Leveranskapacitet {#delivery-throughput}
++++Läs mer om orsaker till uteslutning.
 
-Den här rapporten innehåller omfattande information om leveransflödet inom en angiven tidsram. Det nyckeltal som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
+* **[!UICONTROL Address in quarantine]**: Feltyp som genereras när adressen placeras i karantän.
 
-## Ej levererbara {#non-deliverables-direct}
+* **[!UICONTROL Address not specified]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte finns.
 
-### Uppdelning av fel per typ {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Bad quality address]**: Feltyp som genereras när kvalitetsklassen för postadresser är för låg.
 
-The **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet innehåller data om potentiella fel som uppstått i olika domäner, med specifika mått som anges nedan.
+* **[!UICONTROL Denylisted address]**: Feltyp som genererades när mottagaren blocklist när leveransen utfördes.
 
-Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+* **[!UICONTROL Double]**: Feltyp som genererades när mottagaren exkluderades eftersom dess nyckelvärden inte var unika.
 
-+++Läs mer om indelning av fel per typmått.
+* **[!UICONTROL Control group]**: Mottagarens adress ingår i kontrollgruppen.
 
-* **[!UICONTROL User unknown]**: Feltyp som genererades under leveransen för att ange att adressen är ogiltig.
-
-* **[!UICONTROL Invalid domain]**: Feltyp som genereras när en leverans skickas för att ange att adressens domän är felaktig eller inte finns.
-
-* **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
-
-* **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
-
-* **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
-
-* **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident i SMTP-reläet, domän som inte går att nå temporärt, osv.
-
-* **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
+* **[!UICONTROL Target limited in size]**: Den maximala leveransstorleken har uppnåtts för mottagaren.
 
 +++
-
-### Uppdelning av fel per domän {#delivery-summary-email-breakdown-per-domain}
-
-The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet visar data relaterade till potentiella fel inom varje domän. Mätvärdena är gemensamma med **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet som anges ovan.
 

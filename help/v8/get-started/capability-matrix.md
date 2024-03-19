@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 
 ## Kommunikationskanaler {#channels-capabilities}
 
-Med Campaign Web-gränssnittet kan du skapa, utforma och skicka **e-post**, **SMS** och **push-meddelanden** och mäta deras effekt med hjälp av olika dedikerade rapporter, som detaljerade [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är för närvarande **not** som finns i appen, direktreklam, LINE, Call center/Custom channel, social marketing with X (Twitter).
+Med Campaign Web-gränssnittet kan du skapa, utforma och skicka **e-post**, **SMS**, **push-meddelanden**, **direktreklam** och mäta deras effekt med hjälp av olika dedikerade rapporter, i detalj [i det här avsnittet](../msg/gs-messages.md). Följande kanaler är för närvarande **not** finns: i appen, LINE, Call center/Custom channel, Social marketing with X (Twitter).
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om dessa kanaler.
 
-* **Direktreklam**. Med direktreklamkanalen kan du skicka en fysisk korrespondens till kunder, kunder, leverantörer eller andra, som meddelanden, fakturor, kontoutdrag, marknadserbjudanden med mera. Den här kanalen är bara tillgänglig i klientkonsolen.  [Läs mer](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE-meddelanden**. LINE är ett program för kostnadsfria snabbmeddelanden, röst- och videosamtal som finns på alla mobila enheter och på datorn. I Adobe Campaign kan du endast skicka LINE-meddelanden från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * **Callcenter och anpassade kanaler**. Call center och andra anpassade kanaler kan implementeras i er Campaign-miljö. Dessa kanaler är bara tillgängliga i klientkonsolen. [Läs mer i dokumentationen för Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * **Social marknadsföring** med X (Twitter). Ni interagerar med era kunder via X (Twitter) genom att skicka meddelanden och direktmeddelanden. Den här funktionen, som kommer med tillägget Social Marketing, är bara tillgänglig från klientkonsolen - [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
@@ -168,7 +167,7 @@ Datahantering kombinerar en uppsättning aktiviteter för att lösa komplexa pro
 
 >[!NOTE]
 >
->Vissa av dessa aktiviteter är bara tillgängliga i klientkonsolen, men vissa finns i Campaign Web-gränssnittet, till exempel **Berikning**, **Läs in fil** eller **Ändra dimension** verksamhet. [Läs mer om målinriktning och datahanteringsaktiviteter i användargränssnittet för Campaign på webben](../workflows/activities/about-activities.md#targeting)
+>Vissa av dessa aktiviteter är bara tillgängliga i klientkonsolen, men vissa finns i Campaign Web-gränssnittet, till exempel **Berikning**, **Läs in fil**, **Ändra datakälla** eller **Ändra dimension** verksamhet. [Läs mer om målinriktning och datahanteringsaktiviteter i användargränssnittet för Campaign på webben](../workflows/activities/about-activities.md#targeting)
 
 ### Konfiguration för federerad dataåtkomst {#fda}
 

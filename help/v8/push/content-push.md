@@ -3,7 +3,7 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -40,8 +40,6 @@ ht-degree: 0%
 >id="acw_deliveries_push_android_msg"
 >title="Push Android-meddelande"
 >abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

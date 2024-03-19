@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Kom igång med villkorsstyrt innehåll {#gs}
 
-Villkorligt innehåll är en kraftfull funktion som gör att du kan skapa dynamisk personalisering baserat på mottagarens profil och automatiskt ersätta textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp.
+Villkorligt innehåll är en kraftfull funktion som gör att du kan skapa dynamisk personalisering baserat på mottagarens profildata och automatiskt ersätta textblock och bilder när vissa villkor uppfylls. Den här funktionen kan lyfta era kampanjer till nya höjder och leverera målinriktade, personaliserade upplevelser till er målgrupp.
 
 Genom att konfigurera fält för villkorligt innehåll kan du skapa avancerad dynamisk personalisering som till exempel baseras på mottagarens profil. Textblock, länkar, ämnesrader och/eller bilder ersätts i meddelandeinnehållet när ett visst villkor är uppfyllt. Du kan t.ex. visa&quot;Herr&quot; eller&quot;fru&quot; enligt värdet i fältet Kön i Adobe Campaign-databasen, eller inkludera en annan länk baserat på vilket mottagarspråk som föredras.
 
@@ -84,7 +84,7 @@ Villkorligt innehåll i e-postmeddelanden kan skapas på två sätt:
 * I uttrycksredigeraren genom att skapa ett villkor med hjälpfunktioner,
 * I en dedikerad villkorsstyrd innehållsbyggare som är tillgänglig när du utformar ett e-postmeddelande.
 
-Följande avsnitt innehåller stegvisa instruktioner om hur du skapar villkor med e-postdesignerns funktion för villkorligt innehåll. Det finns detaljerad information om hur du skapar villkor med uttrycksredigeraren [här](#condition-perso-editor).
+I följande avsnitt ges stegvisa instruktioner för hur du skapar villkor med e-postdesignerns funktion för villkorligt innehåll. Det finns detaljerad information om hur du skapar villkor med uttrycksredigeraren [här](#condition-perso-editor).
 
 I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baserade på mottagarens språk. Följ de här stegen:
 
@@ -100,13 +100,9 @@ I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baser
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. En regelbyggare visas. Den ger **Profil**, **Meddelande** och **Leverans** attribut som du kan använda för att skapa ditt villkor.
+1. Frågemodelleraren öppnas. Det gör att du kan skapa ett villkor genom att filtrera mottagarens profildata. [Lär dig arbeta med frågemodelleraren](../query/query-modeler-overview.md).
 
-   Dessutom är **Villkor** -menyn innehåller fördefinierade villkor som du kan lägga till på arbetsytan för att enkelt bygga varianten. Klicka på **Lägg till** och sedan ersätta elementen mellan `<` och `>`symboler efter de önskade elementen. Se till att det värde du anger för `<value>` objektet är inom citattecken.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. När villkoret för den första varianten av meddelandet är klart klickar du på **[!UICONTROL Confirm]**. I det här exemplet skapar vi en regel som riktar sig till mottagare vars språk är &quot;franska&quot;.
+   När villkoret för den första varianten av meddelandet är klart klickar du på **[!UICONTROL Confirm]**. I det här exemplet skapar vi en regel som riktar sig till mottagare vars språk är &quot;franska&quot;.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

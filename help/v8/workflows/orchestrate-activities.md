@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsr
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Flera **Målinriktning** aktiviteter, som **Kombinera** eller **Deduplicering** kan du bearbeta den återstående populationen och inkludera den i en ytterligare utgående övergång. Om du till exempel använder en **Dela** Komplementet består av den population som inte matchar någon av de tidigare definierade delmängderna. Om du vill använda den här funktionen aktiverar du **Generera komplement** alternativ.
+
+![](assets/workflow-split-complement.png)
 
 ## Exempel {#example}
 
