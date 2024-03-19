@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -51,29 +51,27 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Integrering med Adobe Experience Manager as a Cloud Service]
+>[!TAB Direktpostkanal]
 
-Integrationen mellan Adobe Campaign Web Interface och Adobe Experience Manager as a Cloud Service effektiviserar hanteringen av e-postinnehåll. Nu kan du skapa och redigera e-postinnehåll direkt i Adobe Experience Manager och sedan smidigt importera de färdiga mallarna till Adobe Campaign för leverans.
+**Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![Bild](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Flerkanaliga arbetsflöden]
+[![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Få nya möjligheter till automatisering och optimering, så att ni kan skapa mer dynamiska och personaliserade kundresor. Med våra ytterligare arbetsflödesaktiviteter, från avancerad segmentering till villkorliga triggers, kan ni leverera riktade budskap och få bättre kampanjresultat.
+>[!TAB Frågemodelleraren i e-postdesignern]
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+Frågemodelleraren kan nu användas i e-postdesignern. Du kan skapa villkor när du skapar villkorsstyrt innehåll.
 
->[!TAB Målgruppskomposition]
+[![Bild](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler.
+>[!TAB Ny arbetsflödesaktivitet för Ändra datakälla]
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+The **Ändra datakälla** målaktiviteter gör att du kan ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan.
 
->[!TAB Email Designer]
+![Bild](assets/do-not-localize/change-data-source.gif)
 
-Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Oavsett om du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande!
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
@@ -135,5 +133,5 @@ Med Campaign Email Designer kan ni skapa engagerande, individuellt anpassade e-p
 
 ## Ytterligare resurser
 
-* [Adobe Campaign produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign V8-dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv){target="_blank"}
