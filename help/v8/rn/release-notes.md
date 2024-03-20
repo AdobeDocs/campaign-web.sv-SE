@@ -1,14 +1,22 @@
 ---
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '322'
 ht-degree: 4%
 
 ---
 
 # Versionsinformation {#latest-release}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Nyheter"
+>abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen uppdateras flera gånger i månaden."
+>
+>"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
 
 
 <!--Last update: **March 19, 2024**-->

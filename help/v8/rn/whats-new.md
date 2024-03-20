@@ -3,20 +3,15 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1265'
 ht-degree: 4%
 
 ---
 
 
 # Nyheter {#new}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="Versionsinformation"
->abstract="Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler."
 
 Vi är glada över att kunna presentera den nya versionen av **Adobe Campaign webbgränssnitt**. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Campaign Web User Interface (UI) ger en sammankopplad arbetsyta med Adobe Experience Platform för en enhetlig upplevelse.
 
