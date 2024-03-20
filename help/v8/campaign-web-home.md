@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,12 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
+>[!TAB Marsversionen är live!]
+
+Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.3.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Direktpostkanal]
 
 **Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
@@ -58,12 +64,6 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 ![Bild](assets/do-not-localize/direct-mail.gif)
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Frågemodelleraren i e-postdesignern]
-
-Frågemodelleraren kan nu användas i e-postdesignern. Du kan skapa villkor när du skapar villkorsstyrt innehåll.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Ny arbetsflödesaktivitet för Ändra datakälla]
 
