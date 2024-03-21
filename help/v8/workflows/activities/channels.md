@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Använd en leveransarbetsflödesaktivitet
-description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS)
+description: Lär dig hur du lägger till en leveransarbetsflödesaktivitet (e-post, push, SMS, direktreklam)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
-# E-post, SMS, push-aktiviteter {#channel}
+# E-post, SMS, push, direktreklam {#channel}
 
-Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i alla e-post-, SMS- och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data.
+Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer via e-post, SMS, direktreklam och push-kanaler. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data.
 
-Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS och push. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagmeddelande till en kund via SMS.
+Du kan till exempel skapa en välkomstkampanj för e-post som innehåller en serie meddelanden i olika kanaler, som e-post, SMS, push och direktreklam. Du kan också skicka ett uppföljningsmeddelande via e-post när en kund har slutfört ett köp eller skicka ett personligt födelsedagmeddelande till en kund via SMS.
 
 Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade kampanjer som engagerar kunder över flera kontaktytor och driver konverteringar.
 
@@ -24,6 +24,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående e-postleverans](../../email/create-email.md)
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
+>* [Skapa fristående direktreklam](../../direct-mail/create-direct-mail.md)
 
 ## Förhandskrav {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Bygg upp arbetsflödet med relevanta aktiviteter:
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * Starta arbetsflödet med en **Schemaläggare** aktivitet. Du kan också använda en **Schemaläggare** aktivitet för engångsleveranser för att ange kontaktdatum för den leveransen. Kontaktdatumet kan även anges i leveransinställningarna. Se [det här avsnittet](scheduler.md).
-
 
 ## Konfigurera kanalaktiviteten {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Bygg upp arbetsflödet med relevanta aktiviteter:
 >title="Push Android-aktivitet"
 >abstract="Aktiviteten Push Android effektiviserar processen att skicka push-meddelanden för Android som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar skickade Android-push-meddelanden till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Aktivitet för direktreklam"
+>abstract="Med aktiviteten Direktreklam blir det enklare att skicka direktreklam i arbetsflödet, vilket möjliggör både engångs- och återkommande meddelanden. Den automatiserar processen för att generera extraheringsfilen som krävs av direktreklamleverantörer. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+
 Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanhang:
 
-1. Lägg till en kanalaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**.
+1. Lägg till en kanalaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]** eller **[!UICONTROL Direct mail]**.
 
 1. Välj **Typ av leverans**: enkel eller återkommande.
 
