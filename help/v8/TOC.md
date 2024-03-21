@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '634'
 ht-degree: 14%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 14%
       + [Ändra dimension](workflows/activities/change-dimension.md)
       + [Kombinera](workflows/activities/combine.md)
       + [Deduplicering](workflows/activities/deduplication.md)
-      + [E-post, SMS, push](workflows/activities/channels.md)
+      + [E-post, SMS, push, direktreklam](workflows/activities/channels.md)
       + [Berikning](workflows/activities/enrichment.md)
       + [Förgrening](workflows/activities/fork.md)
       + [Ladda fil](workflows/activities/load-file.md)
