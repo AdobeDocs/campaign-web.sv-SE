@@ -1,9 +1,9 @@
 ---
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '342'
 ht-degree: 4%
 
 ---
@@ -26,19 +26,6 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 >Den här versionen är tillgänglig för alla användare som startar [Campaign (konsol) version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Läs mer om Adobe Campaign kundkonsoluppdateringar och uppgraderingar i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 ## Versionsinformation om mars {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Direktmeddelande"
->abstract="Direktpostkanalen kan nu användas i arbetsflöden och fristående leveranser. Använd Direct mail offline-kanalen för att skapa, anpassa och generera en extraheringsfil och dela den med direktreklamleverantörer för att skicka e-post till kunderna."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Se versionsinformation"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Ändra datakälla"
->abstract="Använd den nya målarbetsflödesaktiviteten Ändra datakälla för arbetsflöde om du vill ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Se versionsinformation"
-
 
 **Releasedatum**: 19-20 mars 2024
 
