@@ -2,9 +2,9 @@
 audience: end-user
 title: Kom igång med direktreklam
 description: Lär dig hur du skapar och skickar direktreklam via Adobe Campaign Web
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,6 @@ ht-degree: 0%
 
 # Kom igång med direktreklam {#gs-direct-mail}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Direktmeddelande"
->abstract="Direktreklam är nu tillgänglig för användning i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Se versionsinformation"
 
 
 Direktreklam är en offlinekanal som gör att du kan producera filer för att skicka personaliserade brev till kunder som vykort, flygblad eller kataloger.
