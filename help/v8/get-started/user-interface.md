@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: adb373464e654667354dbaf5470abc86a1bf3b72
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
@@ -376,3 +376,49 @@ Deprecated IDs - to remove in GA: -->
 >title="Uppdatera data"
 >abstract="TBC"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="Extern signal"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="Externa signalparametrar"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="End"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="Slututlösare"
+>abstract="TBC"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript-kod"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="JavaScript-kodfragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="JavaScript-körning"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="JavaScript-övergång"
+>abstract="TBC"
