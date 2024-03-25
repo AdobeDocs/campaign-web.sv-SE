@@ -6,14 +6,14 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
 
-# Bildgenerering med Content Assistant {#generative-image}
+# Skapa e-postbilder med Content Assistant {#generative-image}
 
 När ni har skapat och personaliserat era e-postmeddelanden kan ni förbättra ert innehåll med hjälp av Content Assistant, som bygger på generativ AI. Den här funktionen förenklar processen med personalisering och innehållsförbättring.
 

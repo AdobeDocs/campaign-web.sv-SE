@@ -1,51 +1,72 @@
 ---
 audience: end-user
-title: Text med Content Assistant
-description: Kom igång med Content Assistant
-badge: label="Alpha"
+title: Text med AI-assistenten
+description: Kom igång med AI-assistenten i Campaign
+badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
 
-# Skapa text med Content Assistant {#generative-content}
+# E-postgenerering med AI-assistenten {#generative-content}
 
-När du har skapat och personaliserat dina e-postmeddelanden kan du använda Content Assistant som drivs av generativ AI för att ta ditt innehåll till nästa nivå.
+>[!BEGINSHADEBOX]
 
-Content Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
+**Innehållsförteckning**
+
+* [Kom igång med AI-assistenten](generative-gs.md)
+* **[E-postgenerering med AI-assistenten](generative-content.md)**
+* [SMS-generering med AI-assistenten](generative-sms.md)
+* [Generering av push-meddelanden med AI-assistenten](generative-push.md)
+
+>[!ENDSHADEBOX]
+
+När ni väl har skapat och personaliserat era e-postmeddelanden kan ni använda Journey Optimizer AI Assistant i Campaign, som bygger på generativ AI, för att ta innehållet till nästa nivå.
+
+AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
 
 >[!NOTE]
 >
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
 
-Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Content Assistant. Du kan också skapa allt innehåll i HTML med Content Assistant, vilket beskrivs i [den här sidan](generative-email.md).
+## Skapa innehåll med AI Assistant {#generative-text}
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
 
    Mer information om hur du konfigurerar din e-postleverans finns i [den här sidan](../email/create-email-content.md).
 
-1. Fyll i **[!UICONTROL Basic details]** för leverans. När du är klar klickar du **[!UICONTROL Edit email content]**.
+1. Fyll i **[!UICONTROL Basic details]** för leverans. När du är klar klickar du **[!UICONTROL Edit content]**.
 
-1. Anpassa e-postmeddelandet efter behov.
+1. Anpassa e-postmeddelandet efter behov. [Läs mer](content-components.md)
 
-1. Välj **[!UICONTROL Text component]** du vill uppdatera och få tillgång till menyn för generering av upplevelser.
+1. Öppna **[!UICONTROL AI Assistant]** -menyn.
+
+   Du kan också välja en **[!UICONTROL Text component]** för att endast rikta in sig på ett visst innehåll.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Finjustera innehållet genom att beskriva vad du vill generera.
+1. Finjustera innehållet genom att beskriva vad du vill generera i **[!UICONTROL Prompt]** fält.
 
-   Aktivera **[!UICONTROL Enhance with current context]** för Content Assistant att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+   Om du behöver hjälp med att skapa din fråga kan du gå till **[!UICONTROL Prompt Library]** som ger en mängd olika tips för att förbättra leveransen.
+
+   ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
+
+1. Växla **[!UICONTROL Subject line]** eller **[!UICONTROL Preheader]** för att inkludera dem i variantgenereringen.
+
+1. På snabbmenyn aktiverar du **[!UICONTROL Enhance with current context]** för AI Assistant för att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+
+   >[!IMPORTANT]
+   >
+   > Din uppmaning måste alltid vara knuten till ett specifikt sammanhang genom att överföra en varumärkesresurs eller aktivera **[!UICONTROL Enhance current content]** alternativ.
+
+1. Klicka **[!UICONTROL Upload brand asset]** om du vill lägga till alla varumärkesresurser som innehåller innehåll som kan ge ytterligare kontext i AI-assistenten.
 
    ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
-
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
-
-   Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
 1. Välj **[!UICONTROL Communication strategy]** som bäst passar dina behov. Detta påverkar den genererade textens ton och format.
 
@@ -53,11 +74,11 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
 
    ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Använd skjutreglaget för att ange längden på den genererade texten.
-
 1. När frågan är klar klickar du på **[!UICONTROL Generate]**.
 
 1. Bläddra bland de genererade **[!UICONTROL Variations]** och klicka **[!UICONTROL Apply]** när du hittat rätt innehåll.
+
+   Klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -68,5 +89,61 @@ Följ stegen nedan för att generera och förbättra ett e-postinnehåll med Con
 1. När du har definierat meddelandeinnehållet klickar du på **[!UICONTROL Simulate content]** för att styra återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
 
    ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
+
+1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)
+
+## Bildgenerering med AI-assistenten {#generative-image}
+
+I exemplet nedan kan du lära dig hur du använder AI-assistenten för att optimera och förbättra ditt innehåll, vilket ger en mer användarvänlig upplevelse. Följ de här stegen:
+
+1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
+
+   Mer information om hur du konfigurerar din e-postleverans finns i [den här sidan](../email/create-email-content.md).
+
+1. Fyll i **[!UICONTROL Basic details]** för leverans. När du är klar klickar du **[!UICONTROL Edit email content]**.
+
+1. Markera den resurs som du vill ändra med AI-assistenten.
+
+1. Välj **[!UICONTROL AI Assistant]**.
+
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+
+1. Finjustera innehållet genom att beskriva vad du vill generera i **[!UICONTROL Prompt]** fält.
+
+   Om du behöver hjälp med att skapa din fråga kan du gå till **[!UICONTROL Prompt Library]** som ger en mängd olika tips för att förbättra leveransen.
+
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+
+1. Klicka **[!UICONTROL Upload brand asset]** om du vill lägga till alla varumärkesresurser som innehåller innehåll som kan ge ytterligare kontext i AI-assistenten.
+
+   >[!IMPORTANT]
+   >
+   > Din fråga måste alltid vara kopplad till ett visst sammanhang.
+
+1. Välj **[!UICONTROL Aspect ratio]** av din mediefil. Detta avgör objektets bredd och höjd.
+
+   Du kan välja mellan vanliga proportioner som 16:9, 4:3, 3:2 eller 1:1, eller ange en anpassad storlek.
+
+1. Anpassa **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** och **[!UICONTROL Composition]** inställningarna så att de matchar de önskade resursegenskaperna.
+
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+
+1. När du är nöjd med promptkonfigurationen klickar du på **[!UICONTROL Generate]**.
+
+1. Sök i **[!UICONTROL Variation suggestions]** för att hitta den önskade resursen.
+
+   Klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
+
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+
+1. Välj **[!UICONTROL Show Similar]** om du vill visa relaterade bilder till den här varianten.
+
+1. Klicka **[!UICONTROL Select]** när du hittat rätt innehåll.
+
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+
+1. När du har definierat meddelandeinnehållet klickar du på **[!UICONTROL Simulate content]** för att styra återgivningen och kontrollera personaliseringsinställningarna med testprofiler.  [Läs mer](../preview-test/preview-content.md)
+
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)

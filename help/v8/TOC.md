@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 14%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 14%
             + [Lägg till en länk till spegelsidan](email/mirror-page.md)
             + [Lägga till en förrubrik](email/preheader.md)
             + [Generera textversionen](email/text-version-email.md)
-         + Content Assistant {#content-assistant}
-            + [Kom igång med Content Assistant](email/generative-gs.md)
-            + [Skapa text med Content Assistant](email/generative-content.md)
-            + [Bildgenerering med Content Assistant](email/generative-image.md)
-            + [E-postgenerering med Content Assistant](email/generative-email.md)
          + Formatera innehållet {#style}
             + [Kom igång med e-postformat](email/get-started-email-style.md)
             + [Redigera bakgrundsinställningar](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 14%
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
+   + AI Assistant {#ai-assistant}
+      + [Kom igång med AI-assistenten](email/generative-gs.md)
+      + [E-postgenerering med AI-assistenten](email/generative-content.md)
+      + [SMS-generering med AI-assistenten](email/generative-sms.md)
+      + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
    + Gör innehållet dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)

@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: E-postgenerering med Content Assistant
-description: Kom igång med Content Assistant
+title: E-postgenerering med AI-assistenten i Campaign
+description: Kom igång med AI-assistenten i Campaign
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
-# Generera ett e-postmeddelande med Content Assistant {#generative-email}
+# Generera ett e-postmeddelande med AI-assistenten {#generative-email}
 
-Content Assistant förbättrar kommunikationens effekt genom att automatiskt generera komplett e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet. Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
+AI Assistant i Campaign förbättrar kommunikationens genomslag genom att automatiskt generera fullständigt e-postinnehåll, vilket sparar tid och ger en konsekvent kvalitet. Med hjälp av generativ AI kan ni enkelt skapa övertygande e-postmeddelanden som får genklang hos er målgrupp och gör kommunikationen effektivare och effektivare.
 
 >[!NOTE]
 >
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
 
 
-Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. Du kan även förbättra ett befintligt innehåll med Content Assistant, vilket beskrivs i [den här sidan](generative-content.md).
+Följ stegen nedan för att generera ett e-postinnehåll med AI-assistenten. Du kan även förbättra befintligt innehåll med AI-assistenten, vilket beskrivs i [den här sidan](generative-content.md).
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Create content]**.
 
@@ -30,7 +30,7 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
 
 1. Fyll i **[!UICONTROL Basic details]** för leverans. När du är klar klickar du **[!UICONTROL Edit email body]**.
 
-1. Välj den designmall som du vill att Content Assistant ska basera det genererade e-postmeddelandet på.
+1. Välj den designmall som du vill att AI-assistenten ska basera det genererade e-postmeddelandet på.
 
    Du kan också importera en HTML-fil.
 
@@ -48,7 +48,7 @@ Följ stegen nedan för att generera ett e-postinnehåll med Content Assistant. 
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i Content Assistant.
+1. Välj **[!UICONTROL Upload file]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext i AI-assistenten.
 
    Du kan också klicka **[!UICONTROL Uploaded content]** för att hitta tidigare uppdaterade filer. Observera att det överförda innehållet endast är tillgängligt för återanvändning av den aktuella användaren.
 
