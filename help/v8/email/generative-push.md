@@ -5,7 +5,7 @@ description: Kom igång med AI-assistenten i Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -77,7 +77,7 @@ AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att f�
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
+1. Infoga personaliseringsfält för att anpassa push-innehåll baserat på profildata. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att f�
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera e-post. [Läs mer](../monitor/prepare-send.md)
+1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera push-paket. [Läs mer](../monitor/prepare-send.md)
