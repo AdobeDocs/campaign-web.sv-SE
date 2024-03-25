@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Designa ett omfattande leveransmeddelande
-description: Lär dig hur du utformar ett omfattande push-meddelande med Adobe Campaign Web
+description: Lär dig hur du utformar en omfattande push-meddelandeleverans för Android med Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
 
-# Designa en omfattande push-leverans för Android {#content-push}
+# Designa en omfattande push-leverans för Android {#rich-push}
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
@@ -23,9 +23,7 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
 ## Definiera innehållet i meddelandet {#push-message}
 
-När du har skapat din push-leverans kan du definiera innehållet. Bläddra bland flikarna nedan om du vill veta hur du skapar ett meddelande för varje mall.
-
-Tre mallar är tillgängliga:
+När du har skapat din push-leverans kan du definiera innehållet. Tre mallar är tillgängliga:
 
 * **Standardmall** Med kan du skicka meddelanden med en enkel ikon och en medföljande bild.
 
