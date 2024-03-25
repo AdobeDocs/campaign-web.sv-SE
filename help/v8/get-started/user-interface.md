@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: adb373464e654667354dbaf5470abc86a1bf3b72
+source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1600'
 ht-degree: 1%
 
 ---
@@ -388,11 +388,6 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Externa signalparametrar"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="End"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
