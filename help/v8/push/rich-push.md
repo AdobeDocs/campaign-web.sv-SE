@@ -4,14 +4,20 @@ title: Designa ett omfattande leveransmeddelande
 description: Lär dig hur du utformar en omfattande push-meddelandeleverans för Android med Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
 # Designa en omfattande push-leverans för Android {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Knappen Påminn senare"
+>abstract="The **Påminn senare** finns ett alternativ för att schemalägga en påminnelse. Tidsstämpelfältet kräver ett värde som representerar epok i sekunder."
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
@@ -99,7 +105,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 1. Klicka **[!UICONTROL Add remind later]** om du vill lägga till ett alternativ för Påminn mig senare i ditt push-meddelande. Ange en **[!UICONTROL Label]** och **[!UICONTROL Timestamp]**.
 
-   Ett värde som representerar en epok i sekunder förväntas för fältet Tidsstämpel.
+   Ett värde som representerar epok i sekunder förväntas för fältet Tidsstämpel.
 
    ![](assets/rich_push_basic_5.png)
 
