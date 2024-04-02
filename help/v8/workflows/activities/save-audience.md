@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 1%
 >id="acw_orchestration_save_audience"
 >title="Spara en publik"
 >abstract="Använd den här aktiviteten för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från den population som beräknas uppströms i arbetsflödet. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via **Målgrupper** -menyn."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Generera utgående övergång"
+>abstract="Använd det här alternativet om du vill lägga till en övergång efter **Spara målgrupper** aktivitet."
 
 The **Spara målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i ett arbetsflöde. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
 
