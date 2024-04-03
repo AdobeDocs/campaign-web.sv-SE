@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Följ stegen nedan för att definiera villkorligt innehåll för en leverans med
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. I personaliseringsredigeraren går du till **[!UICONTROL Helper functions]** till vänster.
+1. I personaliseringsredigeraren går du till **[!UICONTROL Conditions]** till vänster.
 
 1. Klicka på plustecknet bredvid ikonen för att börja skapa villkoret **If** funktion. Följande rad ska läggas till på den centrala skärmen:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
