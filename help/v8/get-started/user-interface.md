@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1970'
 ht-degree: 1%
 
 ---
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Den här mallen är endast klar"
->abstract="TBC"
-
+>abstract="Du har inte behörighet att redigera den här mallen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Standardlandningssidor"
->abstract="TBC"
+>title="Standardstartsida"
+>abstract="Välj den standardstartsida som är kopplad till den här prenumerationstjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Prenumerationstjänster"
->abstract="TBC"
+>title="Prenumerationstjänstaktivitet"
+>abstract="Använd Adobe Campaign för att skapa och övervaka tjänster som nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. Prenumerationer gäller endast för e-post och SMS-leverans."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Prenumerationstjänstens parametrar"
->abstract="TBC"
+>abstract="Välj och bekräfta inställningarna för prenumerationstjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Utgående övergång för prenumerationstjänster"
->abstract="TBC"
+>abstract="Växla **Generera en utgående övergång** alternativ för att lägga till en övergång efter aktiviteten."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Uppdatera data"
->abstract="TBC"
+>abstract="The **Uppdatera data** aktiviteten utför en massuppdatering av fälten i databasen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Uppdatera data"
->abstract="TBC"
+>title="Välj hur data ska uppdateras"
+>abstract="The **Åtgärdstyp** kan du välja vilken process som ska utföras på data i databasen. Välj det första alternativet för att lägga till data eller uppdatera (om det redan har lagts till). Du kan också bara lägga till data, bara uppdatera data eller ta bort data. Välj **Uppdatera och sammanfoga samlingar** för att markera en primär post att länka dubbletter till och ta bort dessa dubbletter på ett säkert sätt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Uppdatera data"
->abstract="TBC"
+>title="Registrerings-ID"
+>abstract="Ange hur posterna i databasen ska identifieras: Om data relaterar till en befintlig måldimension väljer du **Använda målgruppsdimensionen** och välj den måldimension och de fält som ska uppdateras. I annat fall anger du en eller flera anpassade länkar för att identifiera data i databasen eller direkt användning av avstämningsnycklar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Uppdatera data"
->abstract="TBC"
+>title="Välj fält som ska uppdateras"
+>abstract="Markera fälten som ska uppdateras och avstämningsinställningarna. Du kan använda **Automatisk mappning** för att automatiskt identifiera de fält som ska uppdateras."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Uppdatera data"
->abstract="TBC"
+>title="Avancerade alternativ för att uppdatera data"
+>abstract="The **Avancerade alternativ** kan du ange ytterligare inställningar för att hantera data och dubbletter."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Uppdatera data"
->abstract="TBC"
+>title="Generera en utgående övergång"
+>abstract="Växla **Generera en utgående övergång** möjlighet att lägga till en utgående övergång som aktiveras när körningen av **Uppdatera data** aktivitet. Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Uppdatera data"
->abstract="TBC"
+>title="Generera en utgående övergång för avvisade."
+>abstract="Växla **Generera en utgående övergång för projekt** alternativ för att lägga till en utgående övergång som innehåller poster som inte har bearbetats korrekt efter uppdateringen (till exempel om det finns en dubblett). Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
 
 
 
