@@ -3,7 +3,7 @@ audience: end-user
 title: Läsa in en e-postmålgrupp från en fil
 description: Lär dig hur du läser in profiler från en extern fil för att skapa e-postmålgrupper
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
