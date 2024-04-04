@@ -5,7 +5,7 @@ description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
