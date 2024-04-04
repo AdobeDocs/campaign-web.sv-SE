@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 13%
 
 ---
@@ -109,9 +109,10 @@ ht-degree: 13%
       + [Skapa en profil](audience/create-profile.md)
       + [Arbeta med testprofiler](audience/test-profiles.md)
    + Arbeta med målgrupper {#audiences}
+      + [Kom igång med målgrupper](audience/manage-audience.md)
       + [Skapa målgrupper](audience/create-audience.md)
-      + [Övervaka och hantera målgrupper](audience/manage-audience.md)
    + Välj leveransmottagare {#target-audiences}
+      + [Kom igång med målgruppsval](audience/delivery-recipients.md)
       + [Välj en befintlig målgrupp](audience/add-audience.md)
       + [Skapa en engångspublik](audience/one-time-audience.md)
       + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
