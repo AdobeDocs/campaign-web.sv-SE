@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Målgrupper"
->abstract="Från den här skärmen kan du komma åt listan över alla målgrupper som kan användas i arbetsflöden eller fristående leveranser. Klicka **Skapa** skapa en ny målgrupp på en visuell arbetsyta med hjälp av olika arbetsflödesaktiviteter som **Dela** eller **Exkludera**.<br/><br/>The **[!UICONTROL Origin]** kolumner anger målgruppernas ursprung: **[!UICONTROL Adobe Campaign]** målgrupper har skapat Adobe Campaign v8-konsolen eller webbanvändargränssnittet, medan **[!UICONTROL Adobe Experience Platform:]** Målgrupper har skapats i Adobe Experience Platform och integrerats i Campaign med hjälp av integreringen Adobe Sources and Destinations."
+>abstract="Från den här skärmen kan du komma åt listan över alla målgrupper som kan användas i arbetsflöden eller fristående leveranser. Klicka **Skapa** för att skapa en ny målgrupp i en visuell arbetsyta.<br/><br/>Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Ni kan till exempel kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler."
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 0%
 Med Campaign Web kan ni skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Ni kan till exempel kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler.
 
 När ni väl har skapat ert arbetsflöde lagras målgrupperna automatiskt i Campaign-databasen tillsammans med era befintliga. Dessa målgrupper kan sedan målgruppsanpassas i arbetsflöden eller fristående leveranser.
+
+The **[!UICONTROL Origin]** kolumner anger målgruppernas ursprung: **[!UICONTROL Adobe Campaign]** målgrupper har skapat Adobe Campaign v8-konsolen eller webbanvändargränssnittet, medan **[!UICONTROL Adobe Experience Platform:]** Målgrupper har skapats i Adobe Experience Platform och integrerats i Campaign med hjälp av integreringen Adobe Sources and Destinations.
 
 ➡️ [Upptäck den här funktionen i video](#video)
 
