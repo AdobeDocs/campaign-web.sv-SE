@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: ff9abf39f5df8052a114168993df5dd472ea2a19
+source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 1%
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Målgrupp"
->abstract="TBC"
+>abstract="Målgrupp"
 
 Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
