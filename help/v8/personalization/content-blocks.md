@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Inbyggda innehållsblock är:
 
 * **[!UICONTROL Default opt-out banner]**
 * **[!UICONTROL Enabled by Adobe Campaign]**: infogar logotypen&quot;Enabled by Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** Javascript-funktionen, som ändrar den första bokstaven i varje ord till versaler.
+* **[!UICONTROL Formatting function for proper nouns]**: genererar **[!UICONTROL toSmartCase]** JavaScript-funktion som ändrar den första bokstaven i varje ord till versaler.
 * **[!UICONTROL Greetings]**: infogar hälsningar med mottagarens fullständiga namn följt av ett kommatecken. Exempel:&quot;Hello John Doe,&quot;.
 * **[!UICONTROL Insert Logo]**: infogar en logotyp som är definierad i instansinställningarna.
 * **[!UICONTROL Link to mirror page]**: infogar en länk till [spegelsida](../email/mirror-page.md). Standardformatet är:&quot;Om du inte kan visa det här meddelandet korrekt klickar du här&quot;.

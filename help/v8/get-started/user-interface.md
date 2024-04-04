@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2108'
 ht-degree: 1%
 
 ---
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Extern signal"
->abstract="TBC"
+>abstract="The **Extern signal** Med -aktivitet kan du utlösa körning av en uppsättning uppgifter i ett arbetsflöde från ett API eller ett annat arbetsflöde."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Externa signalparametrar"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript-kod"
->abstract="TBC"
+>title="JavaScript-kod"
+>abstract="The **JavaScript-kod** -aktiviteten kör en JavaScript-kod i ett arbetsflödes kontext."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript-kodfragment"
->abstract="TBC"
+>title="JavaScript-fragment"
+>abstract="Konfigurera koden som ska köras."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Läs mer i dokumentationen för Campaign v8 (konsol)"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript-körning"
->abstract="TBC"
+>abstract="Som standard får körningsfasen inte överskrida 1 timme. Efter den här fördröjningen avbryts processen med ett felmeddelande och aktivitetskörningen misslyckas. Växla **Stoppa körning efter** för att definiera en anpassad fördröjning. Om du vill ignorera den här gränsen anger du värdet 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript-övergång"
->abstract="TBC"
+>title="Processfel"
+>abstract="Växla **Processfel** om du vill lägga till en utgående övergång som innehåller fel."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extrahera fil"
->abstract="TBC"
+>abstract="Filaktivitet för Extract"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Fil att extrahera"
->abstract="TBC"
+>abstract="Markera den fil som ska extraheras."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Målformat"
->abstract="TBC"
+>abstract="Välj format."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Efterbearbetning"
->abstract="TBC"
+>abstract="Definiera ett steg för efterbearbetning"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Utgående övergång"
->abstract="TBC"
+>abstract="Växla **Generera en utgående övergång** möjlighet att lägga till en utgående övergång efter den aktuella aktiviteten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Processfel"
->abstract="TBC"
+>abstract="Växla **Processfel** om du vill lägga till en utgående övergång som innehåller fel."
