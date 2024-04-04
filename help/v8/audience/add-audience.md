@@ -3,9 +3,9 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,14 @@ ht-degree: 0%
 >abstract="Bläddra i listan för att välja en befintlig målgrupp. Använd ikonen Visa filter om du vill filtrera listan eller markera en viss mapp."
 
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en leverans. När du definierar huvudmålet för en leverans kan du också:
-
 * [Skapa en engångspublik](one-time-audience.md) med frågemodelleraren.
 * [Läsa in en målgrupp från en extern fil](file-audience.md) (endast för e-post).
 
-Målgrupper som kan användas i leveranser kan nås via **Målgrupp** vänster meny. De kommer från flera källor, till exempel kundkonsolen, målgruppsarbetsflöden för Campaign-webben eller Adobe Experience Platform. [Lär dig övervaka och hantera målgrupper](manage-audience.md)
+Målgrupper som kan användas i leveranser kan nås via **Målgrupp** vänster meny. De kommer från flera källor, till exempel kundkonsolen, målgruppsarbetsflöden för Campaign-webben eller Adobe Experience Platform. [Läs mer om målgrupper](manage-audience.md)
 
 Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
-1. Från **Målgrupp** i leveransguiden klickar du på **[!UICONTROL Select audience]** knapp och sedan välja **[!UICONTROL Select audience]** för att använda en befintlig målgrupp.
+1. Från **Målgrupp** i leveransguiden klickar du på **[!UICONTROL Select audience]** knapp och sedan välja **[!UICONTROL Select audience]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

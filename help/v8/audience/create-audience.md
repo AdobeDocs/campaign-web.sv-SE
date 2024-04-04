@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Målgrupper"
->abstract="Från den här skärmen kan du komma åt listan över alla målgrupper som kan användas i dina leveranser. Klicka **Skapa** skapa nya målgrupper i en visuell arbetsyta med hjälp av olika arbetsflödesaktiviteter som **Dela** eller **Exkludera**."
+>abstract="Från den här skärmen kan du komma åt listan över alla målgrupper som kan användas i arbetsflöden eller fristående leveranser. Klicka **Skapa** skapa en ny målgrupp på en visuell arbetsyta med hjälp av olika arbetsflödesaktiviteter som **Dela** eller **Exkludera**.<br/><br/>The **[!UICONTROL Origin]** kolumner anger målgruppernas ursprung: **[!UICONTROL Adobe Campaign]** målgrupper har skapat Adobe Campaign v8-konsolen eller webbanvändargränssnittet, medan **[!UICONTROL Adobe Experience Platform:]** Målgrupper har skapats i Adobe Experience Platform och integrerats i Campaign med hjälp av integreringen Adobe Sources and Destinations."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="Målgruppsinställningar"
->abstract="Ange målgruppens namn och ytterligare alternativ och klicka sedan på **Skapa publik** -knappen."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Med Campaign Web kan ni skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Ni kan till exempel kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela upp en grupp i flera målgrupper baserat på valfria regler.
 

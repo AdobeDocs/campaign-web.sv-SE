@@ -3,10 +3,10 @@ audience: end-user
 title: Läsa in en e-postmålgrupp från en fil
 description: Lär dig hur du läser in profiler från en extern fil för att skapa e-postmålgrupper
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 1%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 0%
 >title="Förhandsgranska filen"
 >abstract="Kontrollera förhandsgranskningen av kolumnerna i den externa filen. Den här skärmen visar endast upp till 30 poster."
 
-Du kan ange målprofiler som lagras i en extern fil. Profiler läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [personalisering](../personalization/gs-personalization.md). Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). I den här artikeln beskrivs hur du läser in extern profil när du skapar en fristående e-postleverans. Läs in data från en fil i ett arbetsflöde i [den här sidan](../workflows/activities/load-file.md).
+Med Adobe Campaign webbanvändargränssnitt kan du rikta profiler som lagras i en extern fil. När profilerna har lästs in är alla fält från indatafilen tillgängliga för användning för att anpassa leveransen [Lär dig anpassa ditt innehåll](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Den här funktionen är bara tillgänglig för **e-postleveranser**. Den kan inte användas med SMS- eller push-leveranser.
->
->* Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
->
->* Profiler läggs inte till i databasen och är bara inlästa och tillgängliga för den här specifika fristående e-postleveransen.
+Profiler från indatafilen läggs inte till i databasen. De har lästs in och är endast tillgängliga för den här specifika fristående e-postleveransen.
 
-## Välj och konfigurera filen {#upload}
+>[!NOTE]
+>
+>Den här sidan beskriver hur du läser in externa profiler från en fil när du skapar en fristående e-postleverans. Information om hur du läser in data från en fil i ett arbetsflödes sammanhang finns i [den här sidan](../workflows/activities/load-file.md).
 
-Följ de här stegen för att ange profiler från en lokal fil direkt från e-postgränssnittet:
+## Måste läsas {#must-read}
+
+* Den här funktionen är tillgänglig för **e-postleveranser** endast.
+* Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV).
+* Du kan inte använda [kontrollgrupper](control-group.md) när målpopulationen läses in från en extern fil.
+
+## Markera och konfigurera indatafilen {#upload}
+
+Följ de här stegen om du vill skapa målprofiler från en fil i dina e-postmeddelanden:
 
 1. Öppna en befintlig e-postleverans, eller [skapa en ny e-postleverans](../email/create-email.md).
-1. Fönstret för att skapa e-postleverans visas på **Målgrupp** klickar du på **Välj målgrupp** och väljer **Välj från fil** alternativ.
+1. I **Målgrupp** klickar du på **Välj målgrupp** knapp och sedan välja **Välj från fil**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Markera den lokala fil som ska användas. Formatet måste justeras mot [exempelfil](#sample-file).
+1. Välj den lokala fil som ska läsas in. Filformatet måste justeras mot [exempelfil](#sample-file).
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
-1. Välj den kolumn som innehåller e-postadressen i dialogrutan **Adressfält** nedrullningsbar meny. Du kan också markera blockeringslista-kolumnen om du har sådan information i indatafilen.
+
+   ![](assets/select-from-file-map.png)
+
+1. Ange den kolumn som innehåller e-postadressen från **Adressfält** listruta. Du kan också markera blockeringslista-kolumnen om du har sådan information i indatafilen.
 1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
 1. Klicka **Bekräfta** när inställningarna är korrekta.
 
-När du skapar och anpassar meddelandeinnehållet kan du välja fält från indatafilen i [Personaliseringsredigerare](../personalization/gs-personalization.md).
+När du skapar meddelandeinnehållet kan du lägga till personalisering genom att använda fält från indatafilen. [Lär dig anpassa innehåll](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ När du skapar och anpassar meddelandeinnehållet kan du välja fält från inda
 >title="Läsa in en målgrupp från en fil"
 >abstract="Filformat som stöds är TXT och CSV. Använd den första raden som kolumnrubrik. Justera filformatet med exempelfilen som finns på länken nedan."
 
-Format som stöds är TXT och CSV. Den första raden är kolumnrubriken.
+När du läser in en extern fil till målprofiler i leveranserna, kontrollerar du att indatafilen matchar rekommendationerna nedan:
 
-Justera filformatet med exempelfilen nedan:
+* Format som stöds är TXT och CSV.
+* Den första raden i filen är kolumnrubriken.
+* Justera filformatet med exempelfilen nedan:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Förhandsgranska och testa din e-post {#test}
 
