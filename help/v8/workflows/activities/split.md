@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,11 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >id="acw_orchestration_split_generatesubsets"
 >title="Generera alla delmängder i samma tabell"
 >abstract="Växla till det här alternativet om du vill gruppera alla delmängder i en enda utdataövergång."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Hoppa över tom övergång"
+>abstract="Hoppa över tom övergång."
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
