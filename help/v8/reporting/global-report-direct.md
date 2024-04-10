@@ -2,9 +2,10 @@
 audience: end-user
 title: Globala rapporter för direktreklamkanalen
 description: Läs mer om Global-rapporter för direktreklamkanalen
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ The **[!UICONTROL Delivery statistics]** diagram och tabeller ger en beskrivning
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Leveransorsaker"
+>title="Orsaker till uteslutning"
 >abstract="The **Orsaker till uteslutning** graf visar distributionen av avvisade meddelanden under färdigställandet av leveransen, indelat i kategorier."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
@@ -124,4 +125,3 @@ Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler
 * **[!UICONTROL Target limited in size]**: Den maximala leveransstorleken har uppnåtts för mottagaren.
 
 +++
-
