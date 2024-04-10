@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2209'
 ht-degree: 1%
 
 ---
@@ -421,6 +421,7 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Växla **Processfel** om du vill lägga till en utgående övergång som innehåller fel."
 
 
+
 <!--ExtractFile-->
 
 >[!CONTEXTUALHELP]
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="Körningsinitieringsskript"
 >abstract="Körningsinitieringsskript"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Inkrementell fråga"
+>abstract="Inkrementell fråga"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Inkrementell frågehistorik"
+>abstract="Inkrementell frågehistorik"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="För över fil"
+>abstract="För över fil"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Alternativ för filöverföring"
+>abstract="Alternativ för filöverföring"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Filöverföringsaktivitet"
+>abstract="Filöverföringsaktivitet"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Fjärrserver för överföringsfil"
+>abstract="Fjärrserver för överföringsfil"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Överför filkälla"
+>abstract="Överför filkälla"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Ta bort källfilerna efter överföringen"
+>abstract="Ta bort källfilerna efter överföringen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Visa sessionsloggarna"
+>abstract="Visa sessionsloggarna"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Visa alla filer"
+>abstract="Visa alla filer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Filhistorik"
+>abstract="Filhistorik"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Bearbeta saknade filer"
+>abstract="Bearbeta saknade filer"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Processfel"
+>abstract="Processfel"
