@@ -5,9 +5,10 @@ description: Kom igång med AI-assistenten i Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -25,13 +26,22 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-När ni har skapat och personaliserat era e-postmeddelanden kan ni använda AI Assistant i Campaign, som bygger på generativ AI, för att ta innehållet till nästa nivå.
 
 AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
+
+Med AI Assistant kan materialet höjas till nya höjder. Den kan till exempel användas för att:
+
+* **Sammanfatta**: Sammanfoga långt innehåll i koncisa sammanfattningar för push-meddelanden. Gå rakt på sak och se till att mottagarna direkt förstår huvudbudskapet.
+* **Samarbeta**: Expandera ämnen i push-meddelanden och ge mer information och sammanhang för att få bättre förståelse.
+* **Förenkla språk**: Gör dina push-meddelanden tillgängliga för en större publik med hjälp av ett tydligt och koncist språk.
+* **Återfras**: Undvik upprepningar genom att låta AI Assistant omformulera ditt meddelande på olika sätt
+* **Ändra ton**: Ändra den känslomässiga tonen i dina push-meddelanden. Vare sig du vill låta informativ, lekfull eller brådskande kan AI-assistenten anpassa meddelandet efter det.
 
 >[!NOTE]
 >
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
+
+I följande exempel kommer vi att utnyttja AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
 
 1. När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**.
 
@@ -86,3 +96,4 @@ AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att f�
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera push-paket. [Läs mer](../monitor/prepare-send.md)
+

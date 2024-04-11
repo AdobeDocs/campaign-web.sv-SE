@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 >abstract="Du måste godkänna Adobe Experience Cloud Generative AI User Guidelines. Alla uppmaningar, kontext, tilläggsinformation eller andra indata som du anger för den här funktionen måste vara kopplade till ett specifikt sammanhang, som kan innehålla ditt varumärke, webbplatsinnehåll, data, scheman för sådana data, mallar eller andra pålitliga dokument och får inte innehålla någon personlig information (personlig information innehåller något som kan länkas tillbaka till en viss individ). Du bör granska alla utdata från den här funktionen för att se om de är korrekta och se till att de passar ditt användningssätt"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 
-AI-assistenten är ett värdefullt verktyg för att förbättra e-postinnehåll. Det förenklar personalisering och innehållsförbättring, och optimerar e-postleveransen för att få ett bättre gensvar från er målgrupp.
+AI Assistant, som bygger på Azure OpenAI och Azure AI-vision, är ett värdefullt verktyg för att förbättra e-postinnehåll. Det förenklar personalisering och innehållsförbättring, och optimerar e-postleveransen för att få ett bättre gensvar från er målgrupp.
 
 Den här funktionen sparar tid och ger konsekvent kvalitet genom att automatiskt generera komplett e-postinnehåll. Genom att använda generativ AI kan du enkelt skapa övertygande e-postmeddelanden och förbättra kommunikationens effektivitet och effektivitet.
 
@@ -60,7 +60,8 @@ Allmänna riktlinjer för hur du använder AI Assistant i Campaign för att gene
 * Ladda upp varumärkesresurser för att få korrekt varumärkesinnehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan ha följande format: PDF, JPEG, PNG eller ZIP-filer (med filformat som stöds).
 * Den rekommenderade storleken för överförda varumärkesresurser är mindre än 50 MB. Större filer eller mycket bilder kan fungera, men bearbetningstiden ökar.
 * Använd e-postmallar som skapats av Adobe Campaign, helst [inbyggda e-postmallar](../email/create-email-templates.md), en varumärkesspecifik mall eller anpassad mall för att skapa ditt e-postinnehåll. E-postmall med upp till 8-10 bilder rekommenderas.
-
+* Var noga med att rapportera eventuella problematiska utdata med ikonerna för tummen uppåt, tummen nedåt eller flagga när du väljer varianter.
+* Din användning av AI-assistenten regleras av Adobe Experience Cloud Generative AI User Guidelines. [Läs mer](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 Följande begränsningar gäller för AI Assistant i Campaign:
 
@@ -68,8 +69,6 @@ Följande begränsningar gäller för AI Assistant i Campaign:
 * Endast tillgängligt för e-post-, push- och SMS-kanalerna.
 * GenAI-innehåll kanske inte alltid är korrekt: dela med dig av dina synpunkter så att våra tekniker kan förfina modellerna.
 * Ni kan överföra flera varumärkesresurser, men ni kan bara utnyttja en för en viss generation.
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -5,9 +5,10 @@ description: Kom igång med AI-assistenten i Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
@@ -45,35 +46,42 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. Aktivera **[!UICONTROL Use original content]** för AI Assistant för att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
+
+   >[!IMPORTANT]
+   >
+   > Din uppmaning måste alltid vara knuten till ett specifikt sammanhang genom att överföra en varumärkesresurs eller aktivera **[!UICONTROL Enhance current content]** alternativ.
+
 1. Finjustera innehållet genom att beskriva vad du vill generera i **[!UICONTROL Prompt]** fält.
 
    Om du behöver hjälp med att skapa din fråga kan du gå till **[!UICONTROL Prompt Library]** som ger en mängd olika tips för att förbättra leveransen.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Aktivera **[!UICONTROL Enhance with current context]** för AI Assistant för att anpassa nytt innehåll baserat på leverans, leveransnamn och vald målgrupp.
-
-   >[!IMPORTANT]
-   >
-   > Din uppmaning måste alltid vara knuten till ett specifikt sammanhang genom att överföra en varumärkesresurs eller aktivera **[!UICONTROL Enhance current content]** alternativ.
-
 1. Välj **[!UICONTROL Upload brand asset]** om du vill lägga till alla varumärkesresurser som innehåller innehåll som kan ge ytterligare kontext i AI-assistenten.
 
-1. Välj **[!UICONTROL Communication strategy]** som bäst passar dina behov. Detta påverkar den genererade textens ton och format.
+1. Skräddarsy uppmaningen med de olika alternativen:
 
-1. Välj **[!UICONTROL Language]** och **[!UICONTROL Tone]** som du vill att den genererade texten ska ha. På så sätt säkerställs att texten passar er målgrupp och ert syfte.
+   * **[!UICONTROL Communication strategy]**: Välj önskat kommunikationssätt för den genererade texten.
+   * **[!UICONTROL Language]**: Välj språk för variantens innehåll.
+   * **[!UICONTROL Tone]**: Se till att texten är lämplig för din målgrupp och ditt syfte.
+   * **[!UICONTROL Lenght]**: Välj längden på innehållet med intervallreglaget.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Använd skjutreglaget för att ange längden på den genererade texten.
-
 1. När frågan är klar klickar du på **[!UICONTROL Generate]**.
 
-1. Bläddra bland de genererade **[!UICONTROL Variations]** och klicka **[!UICONTROL Apply]** när du hittat rätt innehåll.
+1. Bläddra bland de genererade **[!UICONTROL Variations]** och klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
 
-   Klicka **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
+1. Navigera till **[!UICONTROL Refine]** i **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner och finjustera dina varianter:
+
+   * **Förenkla språk**: AI-assistenten hjälper dig att skriva tydliga, koncisa meddelanden som alla kan förstå.
+
+   * **Återfras**: AI Assistant formulerar om ditt budskap för att hålla det engagerande för olika målgrupper.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Klicka **[!UICONTROL Select]** när du hittat rätt innehåll.
 
 1. Infoga anpassningsfält för att anpassa ditt SMS-innehåll baserat på profildata. [Läs mer om innehållspersonalisering](../personalization/personalize.md)
 
@@ -83,4 +91,4 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. När du har definierat innehåll, målgrupp och schema är du redo att förbereda din SMS-leverans. [Läs mer](../monitor/prepare-send.md)
+När du har definierat innehåll, målgrupp och schema är du redo att förbereda din SMS-leverans. [Läs mer](../monitor/prepare-send.md)
