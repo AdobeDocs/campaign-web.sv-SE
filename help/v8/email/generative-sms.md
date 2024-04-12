@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
    * **[!UICONTROL Communication strategy]**: Välj önskat kommunikationssätt för den genererade texten.
    * **[!UICONTROL Language]**: Välj språk för variantens innehåll.
    * **[!UICONTROL Tone]**: Se till att texten är lämplig för din målgrupp och ditt syfte.
-   * **[!UICONTROL Lenght]**: Välj längden på innehållet med intervallreglaget.
+   * **[!UICONTROL Length]**: Välj längden på innehållet med intervallreglaget.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
