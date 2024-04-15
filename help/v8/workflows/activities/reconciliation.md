@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för avstämning
 description: Lär dig hur du använder arbetsflödesaktiviteten för avstämning
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 10%
 
 ---
@@ -74,7 +74,7 @@ Med **Berikning** kan du definiera ytterligare data som ska bearbetas i arbetsfl
 
 Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
-1. Dra och släpp en **Avstämning** i arbetsflödet. Denna aktivitet bör läggas till efter en övergång som innehåller en befolkning vars målgruppsdimension inte kommer direkt från Adobe Campaign.
+1. Lägg till en **Avstämning** i arbetsflödet. Denna aktivitet bör läggas till efter en övergång som innehåller en befolkning vars målgruppsdimension inte kommer direkt från Adobe Campaign.
 
 1. Välj den nya måldimensionen. Med en dimension kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions).
 

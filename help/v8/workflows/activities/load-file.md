@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Den här aktiviteten kan användas med en [Avstämning](reconciliation.md) aktiv
 
 Följ de här stegen för att konfigurera **Läs in fil** aktivitet:
 
-1. Dra och släpp en **Läs in fil** i arbetsflödet. Klicka på **Välj från fil** -knappen.
+1. Lägg till en **Läs in fil** i arbetsflödet. Klicka på **Välj från fil** -knappen.
 
 1. Markera den lokala fil som ska användas. Formatet måste vara justerat mot detta [exempelfil](../../audience/file-audience.md#sample-file).
 
