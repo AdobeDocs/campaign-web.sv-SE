@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Villkorligt innehåll är en kraftfull funktion som gör att du kan skapa dynami
 
 Genom att konfigurera fält för villkorligt innehåll kan du skapa avancerad dynamisk personalisering som till exempel baseras på mottagarens profil. Textblock, länkar, ämnesrader och/eller bilder ersätts i meddelandeinnehållet när ett visst villkor är uppfyllt. Du kan t.ex. visa&quot;Herr&quot; eller&quot;fru&quot; enligt värdet i fältet Kön i Adobe Campaign-databasen, eller inkludera en annan länk baserat på vilket mottagarspråk som föredras.
 
-Om du vill skapa villkorligt innehåll måste du skapa villkor i **uttrycksredigerare** med specifika hjälpfunktioner. Den här metoden är tillgänglig för alla leveranskanaler, i alla fält där du kan komma åt uttrycksredigeraren, till exempel ämnesraden, e-postlänkar och text-/knappinnehållskomponenter. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
+Om du vill skapa villkorligt innehåll måste du skapa villkor i **uttrycksredigerare** med specifika hjälpfunktioner. Den här metoden är tillgänglig för alla leveranskanaler, i alla fält där du kan komma åt uttrycksredigeraren, till exempel ämnesraden, e-postlänkar och text-/knappinnehållskomponenter. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md#access)
 
 Förutom uttrycksredigeraren kan du använda en **villkorsstyrd innehållsbyggare** när du utformar ett e-postmeddelande som gör att du kan skapa flera varianter för ett element i din e-postbrödtext. [Lär dig hur du skapar villkorat innehåll i e-postmeddelanden](#condition-condition-builder)
 
