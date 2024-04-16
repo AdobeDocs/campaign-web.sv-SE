@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
+source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '649'
 ht-degree: 13%
 
 ---
@@ -127,6 +127,7 @@ ht-degree: 13%
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
    + [Skyddsritningar och begränsningar](get-started/guardrails.md)
+   + [Händelsevariabler för arbetsflöde](workflows/event-variables.md)
    + [Få åtkomst till och hantera arbetsflöden](workflows/access-monitor.md)
    + Skapa och kör ditt första arbetsflöde {#create-workflow}
       + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
