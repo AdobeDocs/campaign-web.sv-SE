@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2279'
 ht-degree: 1%
 
 ---
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Processfel"
 >abstract="Processfel"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Leveransvarningar"
+>id="acw_delivery_alerting_criteria"
+>title="Kontrollpanel för leveransaviseringskriterier"
+>abstract="Kontrollpanel för leveransaviseringskriterier"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Kontrollpanel för leveransvarningar"
+>abstract="Kontrollpanel för leveransvarningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Skapa leveransaviseringskriterier"
+>abstract="Skapa leveransaviseringskriterier"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indikatorer att lägga till i aviseringar"
+>abstract="Indikatorer att lägga till i aviseringar"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Aviseringstyp"
+>abstract="Aviseringstyp"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Villkorsfrekvens"
+>abstract="Villkorsfrekvens"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Villkor för leveransvarning"
+>abstract="Villkor för leveransvarning"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Allmänna parametrar för leveransvarningar"
 >abstract="Leveransvarningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Parametrar för leveransvarningsvillkor"
+>abstract="Leveransvarningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Leveransmeddelanden har skickats"
+>abstract="Leveransmeddelanden har skickats"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Historik för leveransaviseringar"
+>abstract="Historik för leveransaviseringar"
