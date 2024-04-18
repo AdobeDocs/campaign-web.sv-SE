@@ -3,7 +3,7 @@ audience: end-user
 title: Händelsevariabler för arbetsflöde
 description: Lär dig hur du utnyttjar händelsevariabler i dina arbetsflöden.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: c3f04d3828f22207bd5e9a0e8c334e8f7a57b2c1
+source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
