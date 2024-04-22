@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -75,9 +75,11 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
 
 1. Navigera till **[!UICONTROL Refine]** i **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner och finjustera dina varianter:
 
-   * **Förenkla språk**: AI-assistenten hjälper dig att skriva tydliga, koncisa meddelanden som alla kan förstå.
+   * **[!UICONTROL Use as reference content]**: Den valda varianten fungerar som referensinnehåll för att generera andra resultat.
 
-   * **Återfras**: AI Assistant formulerar om ditt budskap för att hålla det engagerande för olika målgrupper.
+   * **[!UICONTROL Use simpler language]**: AI-assistenten hjälper dig att skriva tydliga, koncisa meddelanden som alla kan förstå.
+
+   * **[!UICONTROL Rephrase]**: AI Assistant formulerar om ditt budskap för att hålla det engagerande för olika målgrupper.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
