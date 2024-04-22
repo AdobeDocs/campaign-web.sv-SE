@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
 
    >[!IMPORTANT]
    >
-   > Din uppmaning måste alltid vara knuten till ett specifikt sammanhang genom att överföra en varumärkesresurs eller aktivera **[!UICONTROL Enhance current content]** alternativ.
+   > Din fråga måste alltid vara knuten till ditt aktuella innehåll.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i **[!UICONTROL Prompt]** fält.
 

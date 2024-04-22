@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 1%
 * **[Generering av push-meddelanden med AI-assistenten](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
 
@@ -51,7 +50,7 @@ I följande exempel kommer vi att utnyttja AI-assistenten för att skapa överty
 
    >[!IMPORTANT]
    >
-   > Din uppmaning måste alltid vara knuten till ett specifikt sammanhang genom att överföra en varumärkesresurs eller aktivera **[!UICONTROL Enhance current content]** alternativ.
+   > Din fråga måste alltid vara knuten till ditt aktuella innehåll.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
