@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 15418cd8de3ce640340eb3551786682173752910
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -169,3 +169,18 @@ För att mäta hur effektiva era prenumerationstjänster är för SMS- och e-pos
    * The **[!UICONTROL Overall evolution of subscriptions]** I diagrammet visas fördelningen per period, inklusive prenumerationer, icke-prenumerationer, utvecklingen i antal och lojalitetsprocenten.<!--what is Registered?-->
 
 1. Använd **[!UICONTROL Reload]** för att hämta de senaste värdena från körningen och schemat för spårningsarbetsflödet.
+
+<!--## Best practices {#best-practices}
+
+It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
+
+Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
+
+Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
+
+* When creating a confirmation message:
+
+    * Do not select an audience for this delivery.
+
+    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
+-->
