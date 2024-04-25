@@ -3,7 +3,7 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Datahantering kombinerar en uppsättning aktiviteter för att lösa komplexa pro
 
 >[!NOTE]
 >
->Vissa av dessa aktiviteter är bara tillgängliga i klientkonsolen, men vissa finns i Campaign Web-gränssnittet, till exempel **Berikning**, **Läs in fil**, **Ändra datakälla** eller **Ändra dimension** verksamhet. [Läs mer om målinriktning och datahanteringsaktiviteter i användargränssnittet för Campaign på webben](../workflows/activities/about-activities.md#targeting)
+>Vissa av dessa aktiviteter är bara tillgängliga i klientkonsolen, men vissa finns i Campaign Web-gränssnittet, till exempel **Berikning**, **Läs in fil**, **Ändra datakälla** eller **Ändra dimension** verksamhet. [Läs mer om målinriktning och datahanteringsaktiviteter i användargränssnittet för Campaign Web](../workflows/activities/about-activities.md#targeting)
 
 ### Konfiguration för federerad dataåtkomst {#fda}
 
