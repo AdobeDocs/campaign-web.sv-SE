@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 1%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Skapa mottagare"
->abstract="Skapa mottagare"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Översikt över mottagarkort"
 >abstract="Översikt över mottagarkort"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Visa avancerade attribut"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Avancerade fält för regelbyggaren"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Avancerade attribut för regelbyggaren"
->abstract="Endast de vanligaste attributen visas som standard i attributlistan. Aktivera **Visa avancerade attribut** växla om du vill visa alla tillgängliga attribut för den aktuella listan på den vänstra paletten i regelbyggaren, till exempel noder, grupperingar, 1-1-länkar och 1-N-länkar."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="Den här mallen är endast klar"
->abstract="Du har inte behörighet att redigera den här mallen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 <!-- Subscription activity-->
 
