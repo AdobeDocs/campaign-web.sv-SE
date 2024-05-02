@@ -2,10 +2,10 @@
 audience: end-user
 title: Övergång från Campaign Standard till Adobe Campaign Web
 description: Upptäck webbanvändargränssnittet för kampanj
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 5%
+source-wordcount: '588'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,6 @@ Låt oss fördjupa oss i vilka nyckelfunktioner Campaign v8 kan erbjuda er:
 * Nya och omarbetade kampanjarbetsflödesaktiviteter. [Läs mer](../workflows/gs-workflows.md)
 * Målgrupp med frågemodelleraren. [Läs mer](../query/query-modeler-overview.md)
 * Enkelt att skapa och hantera profiler. [Läs mer](../audience/about-recipients.md)
-* AI-baserad sammanhangsbaserad hjälp. [Läs mer](../get-started/using-ai.md)
 * Fördefinierade filter. [Läs mer](../get-started/predefined-filters.md)
 * HTML Converter för e-postdesign. [Läs mer](../email/existing-content.md)
 * SMS med erbjudanden. [Läs mer](../msg/offers.md)

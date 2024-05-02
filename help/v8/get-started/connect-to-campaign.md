@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -89,11 +89,12 @@ Så här byter du språk:
 1. Klicka sedan på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad till ditt första språk.
 
+<!--
 >[!CAUTION]
 >
->Om du tänker använda [AI-baserad sammanhangsbaserad hjälp](using-ai.md) måste du ange engelska som språk. Andra språk stöds inte.
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## Mörka och ljusa teman {#dark-theme}
 

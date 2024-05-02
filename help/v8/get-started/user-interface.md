@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1670'
 ht-degree: 1%
 
 ---
@@ -113,19 +113,20 @@ Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [de
 
 * **Rapporter** - **Rapport** ger en samlad sammanfattning av trafik- och interaktionsstatistik för varje kanal i Campaign-miljön. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet. Läs mer i [det här avsnittet](../reporting/global-reports.md).
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## Sammanhangsberoende hjälp {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-Det finns sammanhangsberoende hjälp i gränssnittet. Klicka på `?` om du vill visa hjälpinformation och relaterade dokumentationslänkar.
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-För närvarande släppt som betaversion i det nya Campaign-webbgränssnittet, **AI-driven Knowledge Assistant** som är inbäddat i sammanhangsbaserad hjälp revolutionerar dokumentsökning och besvarar frågor utan problem genom att smidigt gå igenom stora dokumentationsarkiv och snabbt hitta exakt den information du behöver.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Tack vare Campaign Gen AI:s funktioner kan den här assistenten förvandla din upplevelse till en oöverträffad informationshämtning och problemlösning. Vare sig du vill ha vägledning i komplexa uppgifter eller navigera i stora dokument är vår AI-baserade Knowledge Assistant den ultimata partnern som ger oöverträffad effektivitet och precision i varje interaktion.
+Learn more in [this section](using-ai.md).
 
-Läs mer i [det här avsnittet](using-ai.md).
-
+-->
 
 ## Läs mer {#learn-more}
 
@@ -285,29 +286,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Standardstartsida"
->abstract="Välj den standardstartsida som är kopplad till den här prenumerationstjänsten."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Prenumerationstjänstaktivitet"
->abstract="Använd Adobe Campaign för att skapa och övervaka tjänster som nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. Prenumerationer gäller endast för e-post och SMS-leverans."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Prenumerationstjänstens parametrar"
->abstract="Välj och bekräfta inställningarna för prenumerationstjänsten."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Utgående övergång för prenumerationstjänster"
->abstract="Växla **Generera en utgående övergång** alternativ för att lägga till en övergång efter aktiviteten."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +323,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Generera en utgående övergång för avvisade."
 >abstract="Växla **Generera en utgående övergång för projekt** alternativ för att lägga till en utgående övergång som innehåller poster som inte har bearbetats korrekt efter uppdateringen (till exempel om det finns en dubblett). Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="Extern signal"
->abstract="The **Extern signal** Med -aktivitet kan du utlösa körning av en uppsättning uppgifter i ett arbetsflöde från ett API eller ett annat arbetsflöde."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="Externa signalparametrar"
->abstract="Externa signalparametrar"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="Slututlösare"
->abstract="Slututlösare"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript-kod"
->abstract="The **JavaScript-kod** -aktiviteten kör en JavaScript-kod i ett arbetsflödes kontext."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript-fragment"
->abstract="Konfigurera koden som ska köras."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Läs mer i dokumentationen för Campaign v8 (konsol)"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript-körning"
->abstract="Som standard får körningsfasen inte överskrida 1 timme. Efter den här fördröjningen avbryts processen med ett felmeddelande och aktivitetskörningen misslyckas. Växla **Stoppa körning efter** för att definiera en anpassad fördröjning. Om du vill ignorera den här gränsen anger du värdet 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Processfel"
->abstract="Växla **Processfel** om du vill lägga till en utgående övergång som innehåller fel."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="Extrahera fil"
->abstract="Filaktivitet för Extract"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="Fil att extrahera"
->abstract="Markera den fil som ska extraheras."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Målformat"
->abstract="Välj format."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Efterbearbetning"
->abstract="Definiera ett steg för efterbearbetning"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Utgående övergång"
->abstract="Växla **Generera en utgående övergång** möjlighet att lägga till en utgående övergång efter den aktuella aktiviteten."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Processfel"
->abstract="Växla **Processfel** om du vill lägga till en utgående övergång som innehåller fel."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +344,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Körningsinitieringsskript"
 >abstract="Körningsinitieringsskript"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="Inkrementell fråga"
->abstract="Inkrementell fråga"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="Inkrementell frågehistorik"
->abstract="Inkrementell frågehistorik"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="Inkrementell fråga Bearbetade data"
->abstract="Inkrementell fråga Bearbetade data"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="För över fil"
->abstract="För över fil"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="Alternativ för filöverföring"
->abstract="Alternativ för filöverföring"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="Filöverföringsaktivitet"
->abstract="Filöverföringsaktivitet"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="Fjärrserver för överföringsfil"
->abstract="Fjärrserver för överföringsfil"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="Överför filkälla"
->abstract="Överför filkälla"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Ta bort källfilerna efter överföringen"
->abstract="Ta bort källfilerna efter överföringen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Visa sessionsloggarna"
->abstract="Visa sessionsloggarna"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Visa alla filer"
->abstract="Visa alla filer"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Filhistorik"
->abstract="Filhistorik"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Bearbeta saknade filer"
->abstract="Bearbeta saknade filer"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Processfel"
->abstract="Processfel"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +388,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Leveransvarningar"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Standardstartsida"
+>abstract="Välj den standardstartsida som är kopplad till den här prenumerationstjänsten."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parametrar för leveransvarningsvillkor"
 >abstract="Leveransvarningar"

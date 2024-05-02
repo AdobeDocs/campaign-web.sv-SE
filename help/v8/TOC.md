@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 14%
+source-wordcount: '672'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
    + [Nyheter?](rn/whats-new.md)
    + [Senaste versionen](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
-   + [Campaign Standard över till Campaign v8](rn/acs-migration.md)
+   + [Från Campaign Standard till v8](rn/acs-migration.md)
 + Kom igång med Adobe Campaign {#start}
    + [Kom igång](get-started/get-started.md)
    + [Anslut till Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 14%
    + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
-   + [Klientkonsol för Campaign Web och Campaign](get-started/capability-matrix.md)
+   + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
