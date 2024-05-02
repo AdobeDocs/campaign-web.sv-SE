@@ -3,10 +3,10 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 1%
+source-wordcount: '508'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,29 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 
 1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
 
+1. Välj den typ av länk som du vill skapa:
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL External link]**: Infoga en länk till en extern URL.
+
+     >[!AVAILABILITY]
+     >
+     >Följande funktioner (länk till **[!UICONTROL Landing page]**, **[!UICONTROL Subscription link]** och **[!UICONTROL Unsubscription link]**) finns i Limited Availability (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+   * **[!UICONTROL Landing page]**: Infoga en länk till en landningssida. Om du väljer en dynamisk landningssida (med **[!UICONTROL Service from URL]** kan du välja vilken tjänst som helst i listan. [Läs mer](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Subscription link]**: Infoga en länk till en prenumerationstjänst. När användarna klickar på länken dirigeras de till den prenumerationsstartsida som refereras till i den valda tjänsten. [Läs mer](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Unsubscription link]**: Infoga en länk till en avabonnemangstjänst. När prenumeranter klickar på länken dirigeras de till den startsida för prenumerationen som refereras till i den valda tjänsten. [Läs mer](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Ange önskad URL-adress i motsvarande fält, eller välj en landningssida eller en tjänst, och definiera länkinställningar och format.
 
 1. Lägg till en **[!UICONTROL Label]** och **[!UICONTROL Link]**.
 
@@ -41,7 +63,7 @@ Följ stegen nedan om du vill infoga länkar i ditt e-postinnehåll:
 
 >[!NOTE]
 >
->E-postmeddelanden av marknadsföringstyp måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden. Meddelandekategorin (**[!UICONTROL Marketing]** eller **[!UICONTROL Transactional]**) definieras vid kanalens ytnivå (dvs. meddelandeförinställning) och när meddelandet skapas.
+>E-postmeddelanden av marknadsföringstyp måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden. Meddelandekategorin (**[!UICONTROL Marketing]** eller **[!UICONTROL Transactional]**) definieras på kanalens ytnivå och när meddelandet skapas.
 
 En specifik länk till spegelsidan bör läggas till i alla e-postmeddelanden. Läs mer om speglingssidan i [det här avsnittet](mirror-page.md).
 

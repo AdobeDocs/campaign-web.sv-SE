@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,25 @@ Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på k
 >
 >Du kan anpassa namnet på övergångarna mellan varje aktivitet. Det gör du genom att markera övergången och ändra dess etikett i den högra rutan.
 
+## Verktygsfältet {#toolbar}
+
+Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra aktiviteterna och navigera på arbetsytan:
+
+* **Flervalsläge**: Markera flera aktiviteter om du vill ta bort alla samtidigt eller kopiera och klistra in dem. Se [det här avsnittet](#copy).
+* **Rotera**: Växla arbetsytan lodrätt.
+* **Anpassa till skärm**: Anpassa arbetsytans zoomnivå till skärmen.
+* **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
+* **Visa karta**: Öppnar en ögonblicksbild av arbetsytan som visar att du befinner dig.
+
+![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+
 ## Hantera aktiviteter {#manage}
 
 När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder. Du kan:
 
 * **Ta bort** aktiviteten från arbetsytan.
 * **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs körs inte inaktiverade aktiviteter och följande aktiviteter på samma sökväg, och arbetsflödet stoppas.
-* **Kopiera** aktiviteten. Du kan sedan klistra in den i valfritt arbetsflöde genom att klicka på **+** och väljer&quot;Klistra in 1 aktivitet&quot;.
+* **Kopiera** aktiviteten. Se [det här avsnittet](#copy).
 * Åtkomst till aktivitetens **Loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
@@ -49,6 +61,50 @@ När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsr
 Flera **Målinriktning** aktiviteter, som **Kombinera** eller **Deduplicering** kan du bearbeta den återstående populationen och inkludera den i en ytterligare utgående övergång. Om du till exempel använder en **Dela** Komplementet består av den population som inte matchar någon av de tidigare definierade delmängderna. Om du vill använda den här funktionen aktiverar du **Generera komplement** alternativ.
 
 ![](assets/workflow-split-complement.png)
+
+## Kopiera aktiviteter {#copy}
+
+Du kan kopiera arbetsflödesaktiviteter och klistra in dem i valfritt arbetsflöde. Målarbetsflödet kan finnas på en annan webbläsarflik.
+
+Du kan kopiera aktiviteter på två sätt:
+
+* kopiera en aktivitet med åtgärdsknappen.
+
+  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+* kopiera flera aktiviteter med verktygsfältsknappen.
+
+  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+Klistra in kopierade aktiviteter genom att klicka på **+** och väljer Klistra in X-aktivitet.
+
+![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+## Körningsalternativ {#execution}
+
+Med alla aktiviteter kan du hantera deras körningsalternativ. Välj en aktivitet och klicka på **Körningsalternativ** -knappen. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel.
+
+![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+### Egenskaper
+
+The **Körning** I kan du definiera vilken åtgärd som ska utföras när aktiviteten startas.
+
+The **Maximal körningstid** I kan du ange en varaktighet som &quot;30s&quot; eller &quot;1h&quot;. Om aktiviteten inte är klar efter att den angivna tiden har gått ut utlöses en varning. Detta påverkar inte arbetsflödets funktioner.
+
+The **Tidszon** kan du välja aktivitetens tidszon. Med Adobe Campaign kan du hantera tidsskillnader mellan flera länder i samma instans. Inställningen som används konfigureras när instansen skapas.
+
+**Tillhörigheten** kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator. För att kunna göra detta måste du ange en eller flera tillhörigheter för arbetsflödet eller aktiviteten i fråga.
+
+The **Beteende** I kan du definiera proceduren som ska följas om asynkrona uppgifter används.
+
+### Felhantering
+
+The **Om fel uppstår** kan du ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel.
+
+### Initieringsskript
+
+The **Initieringsskript** I kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på **Redigera kod** och skriv det kodfragment som ska köras. Skriptet anropas när aktiviteten körs. Se avsnittet som rör [händelsevariabler](../workflows/event-variables.md).
 
 ## Exempel {#example}
 

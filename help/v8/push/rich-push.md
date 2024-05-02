@@ -5,9 +5,9 @@ description: Lär dig hur du utformar en omfattande push-meddelandeleverans för
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 >id="acw_deliveries_push_remind_later"
 >title="Knappen Påminn senare"
 >abstract="The **Påminn senare** finns ett alternativ för att schemalägga en påminnelse. Tidsstämpelfältet kräver ett värde som representerar epok i sekunder."
+
+>[!AVAILABILITY]
+>
+>Den här funktionen finns i **Begränsad tillgänglighet** (LA).
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 

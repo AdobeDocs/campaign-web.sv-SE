@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 13%
+source-wordcount: '674'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 13%
    + [Nyheter?](rn/whats-new.md)
    + [Senaste versionen](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
+   + [Campaign Standard över till Campaign v8](rn/acs-migration.md)
 + Kom igång med Adobe Campaign {#start}
    + [Kom igång](get-started/get-started.md)
    + [Anslut till Campaign](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 13%
       + [Deduplicering](workflows/activities/deduplication.md)
       + [E-post, SMS, push, direktreklam](workflows/activities/channels.md)
       + [Berikning](workflows/activities/enrichment.md)
+      + [Extern signal](workflows/activities/external-signal.md)
+      + [Extrahera fil](workflows/activities/extract-file.md)
       + [Förgrening](workflows/activities/fork.md)
+      + [Inkrementell fråga](workflows/activities/incremental-query.md)
+      + [JavaScript-kod](workflows/activities/javascript-code.md)
       + [Ladda fil](workflows/activities/load-file.md)
       + [Avstämning](workflows/activities/reconciliation.md)
       + [Spara målgrupp](workflows/activities/save-audience.md)
       + [Schemaläggare](workflows/activities/scheduler.md)
       + [Dela](workflows/activities/split.md)
+      + [Prenumerationstjänster](workflows/activities/subscription-services.md)
+      + [Test](workflows/activities/test.md)
+      + [För över fil](workflows/activities/transfer-file.md)
+      + [Uppdatera data](workflows/activities/update-data.md)
       + [Vänta](workflows/activities/wait.md)
 + Fråga databasen {#query-database}
    + [Arbeta med frågemodelleraren](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 13%
    + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
    + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Administration {#administration}
+   + [Konfigurera anpassade fält](administration/custom-fields.md)
 
