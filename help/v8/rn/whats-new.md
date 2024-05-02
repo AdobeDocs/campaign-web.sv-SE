@@ -3,9 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1206'
 ht-degree: 4%
 
 ---
@@ -129,6 +129,8 @@ Dessutom visas alla data och inställningar som redan finns i klientkonsolen i w
 I gränssnittet för Campaign-webben återspeglar användargränssnittet användarens behörigheter. Läs mer om behörigheter i [den här sidan](../get-started/permissions.md).
 
 Funktioner som stöds och som inte stöds samt interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign [på den här sidan](../get-started/capability-matrix.md).
+
+Som Campaign Standard som övergår till Campaign v8, [hänvisa till denna sida](../rn/acs-migration.md).
 
 ## Uppdateringar om terminologi {#terminology-updates}
 
