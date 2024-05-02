@@ -2,9 +2,10 @@
 title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -60,7 +61,9 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definiera förinläsningsalternativ"
->abstract="När **Fyll i förväg med de data som formuläret refererar till** Om besökaren på landningssidan matchar en profil från databasen, är alternativet markerat och profilens information automatiskt förinläst i formuläret. Med **Hoppa över förinläsning om ID saknas** om du väljer det här alternativet läggs alla profiler som anges till i databasen när formuläret har godkänts."
+>abstract="När **Fyll i förväg med de data som formuläret refererar till** Om besökaren på landningssidan matchar en profil från databasen, är alternativet markerat och profilens information automatiskt förinläst i formuläret. Med **Godkänn frånvaro av ID** valt alternativ kan alla besökare, inklusive anonyma användare, komma åt landningssidan."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -97,21 +100,41 @@ Så här skapar du en landningssida:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. I **[!UICONTROL Data preload]** är de två alternativen nedan markerade som standard:
+1. I **[!UICONTROL Data preload]** finns de två alternativen nedan:
 
    * När **[!UICONTROL Pre-fill with the data referenced in the form]** Om besökaren på landningssidan matchar en profil från databasen, är alternativet markerat och profilens information automatiskt förinläst i formuläret. Användaren behöver bara fylla i de fält som saknas och uppdatera de befintliga värdena om det behövs. Detta gör att du kan sammanfoga data för befintliga profiler i stället för att skapa dubbletter.
 
-   * The **[!UICONTROL Skip preloading if no ID]** Du måste markera det här alternativet om du inte vill uppdatera profiler. I det här fallet läggs alla profiler som anges till i databasen när formuläret har godkänts. Det här alternativet används till exempel när formuläret publiceras på en webbplats.
+     >[!NOTE]
+     >
+     >Det här alternativet är markerat som standard för alla mallar för landningssidor.
 
-1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor bläddrar du till **[!UICONTROL Pages]** och klickar på **[!UICONTROL Edit content]** för varje sida som du vill utforma för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * The **[!UICONTROL Authorize absence of ID]** gör det möjligt för besökare att komma åt landningssidan. Om du avmarkerar det här alternativet förhindras anonyma besökare att använda det, vilket innebär att endast identifierade användare kan komma åt och skicka formuläret.
+
+     >[!AVAILABILITY]
+     >
+     >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+     För **[!UICONTROL Acquisition]** och **[!UICONTROL Subscription]** -mallar är det här alternativet markerat som standard. För **[!UICONTROL Unsubscription]** och **[!UICONTROL Denylist]** -mallar är det här alternativet som standard avmarkerat och kan inte ändras<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+
+1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor går du till **[!UICONTROL Pages]** och klickar på **[!UICONTROL Edit content]** för varje sida som du vill utforma för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. The **[!UICONTROL Update the preloaded record]** är markerat som standard. Det gör det möjligt att uppdatera de profiler som lagras i databasen via landningssidan. I rutan för förinläsning kan du ange hur posten ska uppdateras i databasen.
+1. I **[!UICONTROL Storage]** -avsnittet, **[!UICONTROL Update the preloaded record]** är markerat som standard. Det gör det möjligt att uppdatera de profiler som lagras i databasen via landningssidan. I rutan för förinläsning kan du ange hur posten ska uppdateras i databasen.
 
    Du kan också välja bland fälten i den aktuella kontexten på landningssidan, de som ska användas för att hitta motsvarande profil i databasen. Om du vill göra det avmarkerar du **[!UICONTROL Update the preloaded record]** och kontrollera fälten under **[!UICONTROL Reconciliation options]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. Skapa **[!UICONTROL Additional data]** lagra interna data när landningssidan skickas. Informationen är inte synlig för användare som besöker sidan. Endast konstanta värden tas i beaktning.
+
+   >[!AVAILABILITY]
+   >
+   >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. Du kan definiera ett startdatum och ett slutdatum för landningssidan. Välj **[!UICONTROL Enable scheduling]** och ange datum.
 
@@ -160,6 +183,8 @@ Så här testar du landningssidan:
 1. Från **[!UICONTROL Simulate]** väljer du en eller flera testprofiler.
 
    Stegen för att välja testprofiler är desamma som när du testar ett meddelande. De beskrivs i [Förhandsgranska och testa](../preview-test/preview-test.md) -avsnitt.
+
+1. När en dynamisk landningssida testas (med **[!UICONTROL Service from URL]** valt alternativ - [läs mer](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Välj **[!UICONTROL Open preview]** för att testa landningssidan.
 
