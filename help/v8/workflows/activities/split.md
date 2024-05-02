@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Hoppa över tom övergång"
->abstract="Hoppa över tom övergång."
+>abstract="Växla **[!UICONTROL Skip empty transition]** om du vill inaktivera utdataövergången för den här delmängden om den inkommande populationen är tom."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
    1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
    1. Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas.
+
+   1. Om du vill inaktivera en övergång om den inkommande populationen är tom växlar du **[!UICONTROL Skip empty transition]** på. Om ingen profil matchar delmängden kommer arbetsflödet inte att övergå till nästa aktivitet.
 
       ![](../assets/workflow-split-subset.png)
 

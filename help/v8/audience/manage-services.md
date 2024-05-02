@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -53,6 +53,11 @@ Följ stegen nedan för att få tillgång till prenumerationstjänster som är t
 >title="Välj ett bekräftelsemeddelande"
 >abstract="När en användare prenumererar på eller avbeställer en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för det meddelandet."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Standardstartsida"
+>abstract="Välj de standardlandningssidor som är associerade med den här tjänsten."
+
 Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Markera knappen **[!UICONTROL Create subscription service]**.
@@ -81,9 +86,25 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Klicka på **[!UICONTROL Save and review]**. Den nya tjänsten läggs till i **[!UICONTROL Subscription services]** lista.
 
+1. Du kan också välja standardstartsidor för prenumeration och avprenumeration som är kopplade till den här tjänsten.
+
+   >[!AVAILABILITY]
+   >
+   >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   När det är klart [infoga en länk](../email/message-tracking.md) i ett e-postmeddelande väljer du **[!UICONTROL Subscription link]** eller **[!UICONTROL Unsubscription link]**. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Spara och granska ändringarna.
+
 Nu kan du:
 
-* Lägg till prenumeranter i den här tjänsten och avbeställ profiler. [Läs mer](../msg/send-to-subscribers.md)
+* Lägg till prenumeranter manuellt i den här tjänsten och avbeställ profiler. [Läs mer](../audience/manage-subscribers.md)
+
+* Bjud in kunderna att prenumerera på den här tjänsten via en landningssida. [Läs mer](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Skicka meddelanden till prenumeranterna på tjänsten. [Lär dig mer](../msg/send-to-subscribers.md)
 
