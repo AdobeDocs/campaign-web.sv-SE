@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: Arbeta med fragment
-description: Lär dig hur du arbetar med fragment
+title: Skapa innehållsfragment
+description: Lär dig skapa med innehållsfragment
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
 
-# Arbeta med fragment {#fragments}
+# Skapa innehållsfragment {#fragments}
 
 
 >[!CONTEXTUALHELP]
