@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Dessa aktiviteter är specifika för målgruppsanpassning. Med dem kan du skapa 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Extrahera fil- och Läs in fil-aktiviteter"
+>title="Extrahera och läsa in filaktiviteter"
 >abstract="Nya datahanteringsaktiviteter är tillgängliga i arbetsflöden. Använd aktiviteten Extrahera fil för att exportera data från Adobe Campaign till ett annat system som en extern fil. Använd aktiviteten Läs in fil för att arbeta med profiler och data som lagras i en extern fil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
