@@ -3,17 +3,16 @@ audience: end-user
 title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
 
 # Lägg till visuella fragment i e-postmeddelanden {#use-visual-fragments}
 
-Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md)eller i en [innehållsmall](use-email-templates.md).
-
+Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md)eller i en [innehållsmall](use-email-templates.md). Stegen beskrivs nedan.
 
 
 >[!NOTE]

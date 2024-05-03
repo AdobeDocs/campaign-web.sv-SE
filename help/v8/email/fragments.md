@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med fragment
 description: Lär dig hur du arbetar med fragment
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Med den här funktionen kan man skapa flera anpassade innehållsblock som kan an
 Så här använder du fragment på bästa sätt:
 
 * Skapa egna visuella fragment, enligt beskrivningen nedan.
-* Använd dem så många gånger som behövs i ditt innehåll via e-postdesignern. Se [Lägg till visuella fragment](../email/use-visual-fragments.md)
+* Använd dem så många gånger som behövs i ditt innehåll via e-postdesignern. Se [Lägg till visuella fragment i e-postmeddelanden](../email/use-visual-fragments.md).
 
 ## Skapa ett Visual fragment {#create-fragments}
 
@@ -102,8 +102,6 @@ Följ stegen nedan om du vill skapa ett fragment från grunden.
    ![](assets/fragment-designer.png)
 
 1. När fragmentet är klart klickar du **[!UICONTROL Save & close]**. Den läggs till i [fragmentlista](#access-manage-fragments).
-
-1. Klicka vid behov på pilen bredvid fragmentnamnet för att gå tillbaka till **[!UICONTROL Details]** och redigera.
 
 Det här fragmentet är nu klart att användas när du skapar [e-post](../email/get-started-email-designer.md) eller [innehållsmall](use-email-templates.md) inom Campaign. [Lär dig mer](../email/use-visual-fragments.md)
 
