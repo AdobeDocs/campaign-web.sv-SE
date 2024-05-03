@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '474'
 ht-degree: 3%
 
 ---
@@ -51,27 +51,23 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Marsversionen är live!]
+>[!TAB Versionen från april är live!]
 
-Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.3.
+Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.4.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Direktpostkanal]
+>[!TAB Nya arbetsflödesaktiviteter]
 
-**Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
+Den här versionen innehåller följande arbetsflödesaktiviteter: Uppdatera data, Prenumerationstjänster, Extrahera-fil, Överför fil, Testa, JavaScript-kod, Extern signal, Inkrementell fråga.
 
-![Bild](assets/do-not-localize/direct-mail.gif)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Multimediemeddelande]
 
->[!TAB Ny arbetsflödesaktivitet för Ändra datakälla]
+Nu kan du skicka omfattande push-meddelanden via Android. Rich push notification är en förbättrad form av mobilmeddelanden som går utöver enkla textmeddelanden genom att införliva multimediaelement som bilder, interaktiva knappar eller annat multimediematerial.
 
-The **Ändra datakälla** målaktiviteter gör att du kan ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan.
-
-![Bild](assets/do-not-localize/change-data-source.gif)
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
