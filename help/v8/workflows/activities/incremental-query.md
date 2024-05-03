@@ -2,14 +2,21 @@
 audience: end-user
 title: Använd inkrementell arbetsflödesaktivitet för fråga
 description: Lär dig hur du använder arbetsflödesaktiviteten Inkrementell fråga
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 20%
+source-wordcount: '751'
+ht-degree: 22%
 
 ---
 
 # Inkrementell fråga {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Aktivitet för inkrementell fråga"
+>abstract="Använd den nya aktiviteten Inkrementell fråga för att fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

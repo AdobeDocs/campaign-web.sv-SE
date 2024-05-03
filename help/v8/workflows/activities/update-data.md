@@ -2,14 +2,24 @@
 audience: end-user
 title: Använd aktiviteten Uppdatera arbetsflöde för data
 description: Lär dig hur du använder arbetsflödesaktiviteten Uppdatera data
-source-git-commit: 347f8f84a8eda60538366eb3dc49f8d7e06379c3
+exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '541'
+ht-degree: 11%
 
 ---
 
 # Uppdatera data {#update-data}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Uppdatera dataaktivitet"
+>abstract="Aktiviteten Uppdatera data är nu tillgänglig för användning i arbetsflöden. Använd aktiviteten Uppdatera data för att utföra en massuppdatering av fält i databasen. Flera alternativ föreslås för att anpassa uppdateringstypen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
+
 
 The **Uppdatera data** aktiviteten är en **Datahantering** aktivitet. Det gör att du kan utföra en massuppdatering på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen.
 
