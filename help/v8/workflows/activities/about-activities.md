@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 4%
 
 ---
 
@@ -23,19 +23,31 @@ Alla aktiviteter beskrivs i avsnitten nedan:
 
 ![](../assets/workflow-activities.png)
 
-## Verksamheter som rör målinriktning och datahantering {#targeting}
+## Verksamheter som riktar sig till {#targeting}
 
-Dessa aktiviteter är specifika för målgruppsanpassning, ändring och berikning av populationsdata. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
+Dessa aktiviteter är specifika för målgruppsanpassning. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
-* Använd [Spara målgrupper](save-audience.md) aktivitet för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från den population som beräknas uppströms i ett arbetsflöde.
-* Använd [Bygg målgrupper](build-audience.md) för att definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
-* Använd [Kombinera](combine.md) för att segmentera den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
-* Använd [Dela](split.md) aktivitet för att segmentera inkommande population i flera delmängder.
-* Använd [Avstämning](reconciliation.md) -aktivitet för att definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil.
-* Använd [Berikning](enrichment.md) -aktivitet för att definiera ytterligare data som ska bearbetas i arbetsflödet. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.
-* Använd [Deduplicering](deduplication.md) aktivitet för att ta bort dubbletter i resultat av inkommande aktiviteter.
-* Använd [Ändra dimension](change-dimension.md) för att ändra målinriktningsdimensionen när du skapar arbetsflödet.
-* Använd [Läs in fil](load-file.md) -aktivitet för att arbeta med profiler och data som lagras i en extern fil.
+* [Bygg målgrupper](build-audience.md): Definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
+* [Ändra datakälla](change-data-source.md): Ändra datakällan för arbetsflödets arbetstabell.&quot;
+* [Ändra dimension](change-dimension.md): Ändra målinriktningsdimensionen när du skapar arbetsflödet.
+* [Kombinera](combine.md): Utför segmentering på den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
+* [Deduplicering](deduplication.md): Ta bort dubbletter i resultatet/resultaten av inkommande aktiviteter.
+* [Berikning](enrichment.md): Definiera ytterligare data som ska bearbetas i arbetsflödet. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.
+* [Inkrementell fråga](incremental-query.md): Fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
+* [Avstämning](reconciliation.md): Definiera länken mellan data i Adobe Campaign-databasen och data i en arbetstabell, till exempel data som lästs in från en extern fil.
+* [Spara målgrupper](save-audience.md): Uppdatera en befintlig målgrupp eller skapa en ny målgrupp från den population som beräknas uppströms i ett arbetsflöde.
+* [Dela](split.md): Segmentera inkommande population i flera deluppsättningar.
+
+## Datahanteringsaktiviteter {#data}
+
+Dessa aktiviteter är specifika för att hantera och berika populationsdata.
+
+* [Extrahera fil](extract-file.md): Exportera data från Adobe Campaign till ett annat system som en extern fil.
+* [Läs in fil](load-file.md): Arbeta med profiler och data som lagras i en extern fil.
+* [Överföringsfil](transfer-file.md): Ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll.
+* [JavaScript-kod](javascript-code.md): Kör ett JavaScript-kodfragment i ett arbetsflödes sammanhang.
+* [Prenumerationstjänster](subscription-services.md): Prenumerera eller avbeställ flera profiler till/från en tjänst i en enda åtgärd.
+* [Uppdatera data](update-data.md): Utför massuppdateringar på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen.
 
 ## Kanalaktiviteter {#channel}
 
@@ -50,18 +62,10 @@ Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampan
 
 Följande aktiviteter är specifika för att organisera och köra arbetsflöden. Deras huvuduppgift är att samordna de övriga verksamheterna:
 
-* Använd [Schemaläggare](scheduler.md) aktivitet som ska schemaläggas när arbetsflödet startas.
-* Använd [Och-join](and-join.md) för att synkronisera flera körningsgrenar i ett arbetsflöde.
-* Lägg till en **End** om du vill att slutet av ett arbetsflöde ska markeras grafiskt. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
-* Använd [Gaffel](fork.md) aktivitet för att skapa utgående övergångar för att starta flera aktiviteter samtidigt.
-* Lägg till en [Vänta](wait.md) för att tillfälligt pausa körningen av en del av ett arbetsflöde.
-
-<!--
-## Data management activities {#data-management}
-
-overview: what they're used for
-which use case you can perform with them
-
-list available activities + short description + ref to section
--->
-
+* [Och-join](and-join.md): Synkronisera flera körningsgrenar i ett arbetsflöde.
+* **End**: Markera slutet av ett arbetsflöde grafiskt. Denna aktivitet har ingen funktionell inverkan och är därför valfri
+* [Extern signal](external-signal.md): Utlös körningen av ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop.
+* [Gaffel](fork.md): Skapa utgående övergångar om du vill starta flera aktiviteter samtidigt.
+* [Schemaläggare](scheduler.md): Schemalägg när arbetsflödet startas.
+* [Testa](test.md): Aktivera övergångar baserat på angivna villkor.
+* [Vänta](wait.md): Pausa körningen av en del av ett arbetsflöde tillfälligt.
