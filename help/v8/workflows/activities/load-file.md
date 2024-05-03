@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -42,10 +42,6 @@ The **Läs in fil** aktivitetskonfigurationen omfattar två steg. Först måste 
 ![](../assets/workflow-load-file.png)
 
 ### Konfigurera exempelfilen {#sample}
-
->[!AVAILABILITY]
->
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som kör på en Campaign-server v8.7 och kan inte distribueras i någon annan miljö.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 >
 >Innan du läser in målfilen kontrollerar du att den följer exempelfilens formatering. Eventuella avvikelser i filformat, kolumnstruktur eller antal kolumner kan leda till fel under körningen av arbetsflödet.
 
+Så här definierar du målfilen som ska överföras:
+
 1. I **[!UICONTROL Target file]** anger du vilken åtgärd som ska utföras när filen som ska överföras till servern hämtas.
 
    * **[!UICONTROL Upload file from local machine]**: Välj den fil som ska överföras från datorn.
@@ -150,10 +148,6 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 >title="Ta bort fil efter import"
 >abstract="Växla **Ta bort fil efter import** om du vill ta bort originalfilen från servern när filen har importerats."
 
-
->[!AVAILABILITY]
->
->De här alternativen är i Begränsad tillgänglighet (LA). De är begränsade till kunder som kör på en Campaign-server v8.7 och kan inte distribueras i någon annan miljö.
 
 1. I **Avvisningshantering** anger du hur aktiviteten ska fungera vid fel:
 

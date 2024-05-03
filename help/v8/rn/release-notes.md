@@ -2,9 +2,9 @@
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1137'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 ## Versionsinformation, april {#april-24-4-release}
 
-**Releasedatum**: 30 april 2024
+**Releasedatum**: 2 maj 2024
 
 ### Nya funktioner {#new-24-4}
 
@@ -26,12 +26,12 @@ Följande funktioner är tillgängliga för alla användare från och med aprilv
 **Nya arbetsflödesaktiviteter**
 
 * **Uppdatera data** - Använd den här aktiviteten för att utföra massuppdateringar på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen. [Läs mer](../workflows/activities/update-data.md)
-* **Prenumerationstjänster** - Använd den här aktiviteten för att prenumerera på eller avbryta prenumeration på flera profiler till/från en tjänst i en enda åtgärd. [Läs mer](../workflows/activities/subscription-services.md)
+* **Prenumerationstjänster** - Använd den här aktiviteten om du vill prenumerera eller avbryta prenumeration på flera profiler till/från en tjänst i en enda åtgärd. [Läs mer](../workflows/activities/subscription-services.md)
 * **Extrahera fil** - Använd den här aktiviteten om du vill exportera data från Adobe Campaign till ett annat system som en extern fil. [Läs mer](../workflows/activities/extract-file.md)
 * **Överföringsfil** - Använd den här aktiviteten om du vill ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll. [Läs mer](../workflows/activities/transfer-file.md)
 * **Testa** - Använd den här aktiviteten för att aktivera övergångar baserat på angivna villkor. [Läs mer](../workflows/activities/test.md)
 * **JavaScript-kod** - Använd den här aktiviteten för att köra ett JavaScript-kodfragment i ett arbetsflödes sammanhang. [Läs mer](../workflows/activities/javascript-code.md)
-* **Extern signal** - Använd den här aktiviteten för att utlösa ett arbetsflöde från ett annat arbetsflöde* eller ett API-anrop. [Läs mer](../workflows/activities/external-signal.md)
+* **Extern signal** - Använd den här aktiviteten för att utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop. [Läs mer](../workflows/activities/external-signal.md)
 * **Inkrementell fråga** - Använd den här aktiviteten för att fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element. [Läs mer](../workflows/activities/incremental-query.md)
 
 **Mallar för push-meddelanden**
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamisk rapportering** - Som användare med migrerad Campaign Standard har ni tillgång till Dynamic Reporting, som tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Förbättra filaktivitet** - **Läs in fil** -aktiviteten har förbättrats med flera avsnitt som gör att du kan överföra en exempelfil, hantera fel och ignorera samt ta bort överförda filer när aktiviteten har körts. [Läs mer](../workflows/activities/load-file.md)
-
 * **Landningssidor** - Följande förbättringar av landningssidor är endast tillgängliga för användare som går över från Campaign Standard:
 
    * Du kan nu hänvisa till en standardstartsida för prenumeration/avprenumeration när du konfigurerar en tjänst. När du utformar ett e-postmeddelande och definierar en länk till den landningssidan, prenumererar användare som skickar landningssidans formulär automatiskt på eller avbryter prenumerationen på den här tjänsten. [Läs mer](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 Förbättringarna nedan är tillgängliga för alla kunder från och med aprilversionen.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* Nu kan du kopiera/klistra in aktiviteter från ett arbetsflöde till ett annat arbetsflöde från en annan webbläsarflik. [Läs mer](../workflows/orchestrate-activities.md#copy-activities-copy)
+* The **Läs in fil** -aktiviteten har förbättrats med flera avsnitt som gör att du kan överföra en exempelfil, hantera fel och ignorera samt ta bort överförda filer när aktiviteten har körts. [Läs mer](../workflows/activities/load-file.md)
+
+
+* Nu kan du **kopiera/klistra in aktiviteter** från ett arbetsflöde till ett annat arbetsflöde från en annan webbläsarflik. [Läs mer](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Alla arbetsflödesaktiviteter kan nu hantera sina körningsalternativ. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel. [Läs mer](../workflows/orchestrate-activities.md#execution-options-execution)
+* Nu kan du hantera alla arbetsflödesaktiviteter **körningsalternativ**. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel. [Läs mer](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ Förbättringarna nedan är tillgängliga för alla kunder från och med aprilve
 
 <!--* **Support of custom fields**-->
 
-* Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
+* **Anpassade fält** är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
 
 
 ## Versionsinformation om mars {#24-3-release}
