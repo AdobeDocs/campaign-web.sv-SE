@@ -4,20 +4,14 @@ title: Kom igång med landningssidor
 description: Läs om landningssidor på Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
 
 # Kom igång med landningssidor {#get-sarted-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Landningssidor"
->abstract="Upptäck den nya landningssidans upplevelse. Skapa, designa och dela landningssidor på ett ögonblick för att dirigera användarna till webbsidor på webben där ni kan hantera kundvärvning, prenumeration/avprenumeration och blocklist användningsfall, baserat på inbyggda mallar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 [!DNL Adobe Campaign] gör att du kan skapa, utforma och dela landningssidor.
 
