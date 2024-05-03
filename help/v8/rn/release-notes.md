@@ -2,14 +2,19 @@
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1185'
 ht-degree: 6%
 
 ---
 
 # Versionsinformation {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Versionsinformation"
+>abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen för Campaign uppdateras därför flera gånger i månaden, med de senaste funktionerna, förbättringarna och korrigeringarna. Vi rekommenderar att du regelbundet kontrollerar dem."
 
 <!--Last update: **March 19, 2024**-->
 
