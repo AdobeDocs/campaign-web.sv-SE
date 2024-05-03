@@ -2,13 +2,13 @@
 audience: end-user
 title: Övergång från Campaign Standard till Adobe Campaign Web
 description: Upptäck webbanvändargränssnittet för kampanj
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
 
 ---
-
 
 # Campaign Standard över till Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ De flesta koncept är desamma för Campaign-webbgränssnittet och -Campaign Stan
 * Anpassade resurser är **Scheman** i Campaign-webbgränssnittet.
 * Marknadsföringsaktiviteter finns inte längre.
 * Meddelandena är **Leveranser**.
-* Operatorerna är **Användare**.
-* Namngivna rättigheter är **Roller**.
-* Operatorgrupper är **Säkerhetsgrupper**.
-* Mappbehörigheter är **Organisationsenheter**
+* Användarna är **Operatorer**.
+* Roller är **Namngivna rättigheter**.
+* Säkerhetsgrupperna är **Operatörsgrupper**.
+* Organisationsenheter är **Mappbehörigheter**
 
 ## Nya funktioner {#new-features}
 
