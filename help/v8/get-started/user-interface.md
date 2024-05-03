@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Mottagarna erbjuder förhandsgranskning"
 >abstract="Mottagarna erbjuder förhandsgranskning"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragment"
->abstract="Fragment"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Spara fragment"
->abstract="Spara fragment"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Skapa fragment"
->abstract="Skapa fragment"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Fragmentegenskaper"
->abstract="Fragmentegenskaper"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Fragmenttyp"
->abstract="Fragmenttyp"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Fragmentlista"
->abstract="Fragmentlista"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Fragmentdetaljer"
->abstract="Fragmentdetaljer"
 
 
 
