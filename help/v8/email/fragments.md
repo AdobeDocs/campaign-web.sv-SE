@@ -4,9 +4,10 @@ title: Skapa innehållsfragment
 description: Lär dig skapa med innehållsfragment
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definiera egna fragment"
->abstract="Ett fragment är en återanvändbar komponent som kan refereras i en eller flera e-postmeddelanden mellan kampanjer."
+>abstract="Ett fragment är en återanvändbar komponent som kan refereras i en eller flera e-postmeddelanden mellan kampanjer. Den här funktionen används för att skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa e-postinnehåll i en förbättrad designprocess."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
