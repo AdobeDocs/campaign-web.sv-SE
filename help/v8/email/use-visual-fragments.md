@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%
@@ -53,8 +53,7 @@ Följ stegen nedan om du vill infoga ett fragment i ett e-postinnehåll:
    Från **[!UICONTROL Settings]** kan du
 
    * Välj de enheter som du vill att fragmentet ska visas på.
-   * 
-      1. Klicka på **Redigera innehåll** för att öppna innehållet i det här fragmentet. [Läs mer](../email/fragments.md#edit-fragments)
+   * Klicka på **Redigera innehåll** för att öppna innehållet i det här fragmentet. [Läs mer](../email/fragments.md#edit-fragments)
 
      Du kan anpassa fragmentet ytterligare med **[!UICONTROL Styles]** -fliken.
 
