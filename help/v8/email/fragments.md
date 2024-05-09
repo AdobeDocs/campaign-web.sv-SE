@@ -5,9 +5,9 @@ description: Lär dig skapa med innehållsfragment
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Så här tar du bort ett fragment:
 
 >[!CAUTION]
 >
->När du tar bort ett innehållsfragment uppdateras e-postleveranser och mallar som använder det och fragmentet tas bort från meddelandeinnehållet. Du kan bryta arv om det behövs. [Läs mer](use-visual-fragments.md#break-inheritance)
+>När du tar bort ett innehållsfragment uppdateras e-postleveranser och mallar som använder det: fragmentet tas bort från e-postinnehållet, men refereras ändå. Om du vill behålla fragmentinnehållet i dessa leveranser och mallar måste du bryta arvet innan du tar bort fragmentet, [enligt vad som anges i detta avsnitt](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicera ett fragment {#duplicate-fragments}

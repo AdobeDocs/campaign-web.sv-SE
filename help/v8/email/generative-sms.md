@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 * [Kom igång med AI-assistenten](generative-gs.md)
 * [E-postgenerering med AI-assistenten](generative-content.md)
-* **[SMS-generering med AI-assistenten](generative-sms.md)**
+* SMS-generering med AI-assistenten
 * [Generering av push-meddelanden med AI-assistenten](generative-push.md)
 
 >[!ENDSHADEBOX]

@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '685'
 ht-degree: 14%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 14%
          + [Konfigurera e-postinnehållet](email/edit-content.md)
          + Hantera återanvändbart innehåll {#manage-reusable-content}
             + [Arbeta med innehållsmallar](email/create-email-templates.md)
-            + [Arbeta med fragment](email/fragments.md)
+            + [Arbeta med visuella fragment](email/fragments.md)
             + [Lägg till visuella fragment i e-postmeddelanden](email/use-visual-fragments.md)
          + Börja forma din e-post {#start-design}
             + [Komma igång med e-postdesignern](email/get-started-email-designer.md)
