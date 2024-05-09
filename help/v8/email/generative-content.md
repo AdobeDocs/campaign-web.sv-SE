@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
+>Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#generative-guardrails).
 
 När ni har skapat och personaliserat era e-postmeddelanden kan ni använda AI Assistant i Campaign, som bygger på generativ AI, för att ta innehållet till nästa nivå.
 

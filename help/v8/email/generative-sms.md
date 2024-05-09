@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Det här praktiska verktyget ger intelligenta förslag för att förfina ert inn
 
 >[!NOTE]
 >
->Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#guardrails-and-limitations).
+>Innan du börjar använda den här funktionen bör du läsa upp relaterade [Gardrutor och begränsningar](generative-gs.md#generative-guardrails).
 
 1. När du har skapat och konfigurerat SMS-leveransen klickar du på **[!UICONTROL Edit content]**.
 
