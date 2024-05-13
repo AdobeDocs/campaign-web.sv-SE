@@ -3,10 +3,10 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Ändra datakälla
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra datakälla
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 2%
+source-wordcount: '328'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,10 @@ I arbetsflöden lagras data som överförs från en aktivitet till en annan via 
 I vissa fall är antingen data inte tillgängliga i den aktuella databasen eller så är de inte tillräckligt effektiva för att utföra enhetsåtgärder. Du kan därför behöva tvinga arbetsflödet att använda en annan databas för att utföra sådana åtgärder genom att lägga till en **[!UICONTROL Change data source]** aktivitet.
 
 Detaljerad information om Campaign-arkitekturen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+
+>[!IMPORTANT]
+>
+>Observera att **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** aktiviteter ska inte läggas till på en rad. Om du behöver använda båda aktiviteterna i följd måste du inkludera en **[!UICONTROOL Berikning]** mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
 
 <!--
 

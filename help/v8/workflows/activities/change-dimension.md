@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten Ändra dimensionsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra dimension
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 The **Ändra dimension** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ändra måldimensionen när du skapar arbetsflödet. Axeln flyttas beroende på datamallen och indatamängden. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions)
 
 Du kan till exempel växla ett arbetsflödes målinriktning från&quot;Mottagare&quot; till&quot;Prenumerantprogram&quot; för att skicka push-meddelanden till målmottagarna.
+
+>[!IMPORTANT]
+>
+>Observera att **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** aktiviteter ska inte läggas till på en rad. Om du behöver använda båda aktiviteterna i följd måste du inkludera en **[!UICONTROOL Berikning]** mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
 
 ## Konfigurera aktiviteten Ändra dimension {#configure}
 
