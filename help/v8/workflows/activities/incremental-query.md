@@ -3,9 +3,9 @@ audience: end-user
 title: Använd inkrementell arbetsflödesaktivitet för fråga
 description: Lär dig hur du använder arbetsflödesaktiviteten Inkrementell fråga
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '759'
 ht-degree: 22%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 22%
 >id="acw_orchestration_incrementalquery_history"
 >title="Inkrementell frågehistorik"
 >abstract="Inkrementell frågehistorik"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Inkrementell fråga Bearbetade data"
+>abstract="Inkrementell fråga Bearbetade data"
 
 The **Inkrementell fråga** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
 
