@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 55%
+source-wordcount: '2098'
+ht-degree: 52%
 
 ---
 
@@ -91,6 +91,11 @@ Sammanställningsfunktionerna används för att utföra beräkningar på en upps
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Returnerar standardavvikelsen för ett tal, en sträng eller en datumkolumn<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet<br /> </td> 
+   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Summa</strong><br /> </td> 
@@ -145,6 +150,16 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) med definierad session-TZ<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Jämför två datum<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Konverterar en sträng till ett datum + tid<br /> </td> 
    <td> ToDateTime(&lt;sträng&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Konverterar en sträng till en tidsstämpel<br /> </td> 
+   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Konvertera ett datum + tid till en tidszon<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
    <td> <strong>Beskrivning</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Krypteringssträngen anges i argumentet<br /> </td> 
+   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Returnerar värdet 1 om villkoret är sant. Annars returneras värdet 2.<br /> </td> 
@@ -522,11 +547,11 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
    <td> Returnerar värde 2 om sträng 1 är tom, annars returneras värde 3<br /> </td> 
    <td> IsEmptyString()&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+  <tr> 
+   <td> <strong>NewUID</strong><br /> </td> 
+   <td> Returnerar ett unikt ID<br /> </td> 
+   <td> NewUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Returnerar den tomma strängen om argumentet är NULL<br /> </td> 
@@ -631,11 +656,11 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
    <td> Returnerar strängens längd<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Linje</strong><br /> </td> 
+   <td> Extrahera rad n från sträng<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Returnerar strängen i gemener<br /> </td> 
@@ -665,6 +690,11 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extraherar värdet för ett XML-fält från dess XPath och fältdata<br /> </td> 
    <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Ersätter alla förekomster av ett angivet strängvärde med ett annat strängvärde.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
