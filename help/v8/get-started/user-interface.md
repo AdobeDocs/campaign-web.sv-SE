@@ -3,7 +3,7 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: fbbad6abf6b43159ed8111ae3ee58834b2270fc2
+source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 1%
@@ -375,6 +375,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Skapa kontrollpanel för leveransvarningar"
 >abstract="Skapa kontrollpanel för leveransvarningar"
+
+<!-- IDs -->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
