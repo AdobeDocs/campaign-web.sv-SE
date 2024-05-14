@@ -2,9 +2,10 @@
 audience: end-user
 title: Använda arbetsflödesaktiviteten Extrahera fil
 description: Lär dig hur du använder arbetsflödesaktiviteten för Extract-filen
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -53,7 +54,7 @@ The **[!UICONTROL File to extract]** kan du konfigurera filegenskaperna och de d
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Målformat"
->abstract="Välj format."
+>abstract="Välj de olika alternativen för att konfigurera hur den extraherade filen ska formateras."
 
 The **[!UICONTROL Destination]** I kan du konfigurera hur den extraherade filen ska formateras.
 
@@ -81,7 +82,7 @@ The **[!UICONTROL Destination]** I kan du konfigurera hur den extraherade filen 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Efterbearbetning"
->abstract="Definiera ett steg för efterbearbetning"
+>abstract="Definiera ett steg för efterbearbetning som ska användas, till exempel för komprimering eller kryptering."
 
 The **[!UICONTROL Export modification script]** gör att du kan använda en bearbetningsfas som ska köras under dataextraheringen, t.ex. komprimering eller kryptering. Klicka på **[!UICONTROL Edit script]** -knappen.
 

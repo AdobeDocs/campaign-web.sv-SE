@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2129'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Välj målgrupp"
->abstract="Välj målgrupp"
+>abstract="Genom att använda **Välj målgrupp** kan du välja vilken målgrupp du vill använda för att filtrera frågan."
 
 Så här filtrerar du frågan med en befintlig målgrupp:
 
@@ -174,7 +174,7 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Fördefinierat filter"
->abstract="Fördefinierat filter"
+>abstract="Genom att använda **Fördefinierat filter** kan du välja ett fördefinierat filter i listan med egna filter eller bland favoriterna."
 
 Så här filtrerar du frågan med ett fördefinierat filter:
 
@@ -213,7 +213,7 @@ Så här kopierar och klistrar du in filterkomponenter:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Grupp"
->abstract="Grupp"
+>abstract="I den här rutan kan du ändra operatorn som används för att länka samman filtervillkoren."
 
 Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en **OCH** -operator. Det innebär att resultatet från de två filterkomponenterna kombineras.
 

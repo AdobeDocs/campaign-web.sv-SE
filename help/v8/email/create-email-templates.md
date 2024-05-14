@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,12 @@ I listan kan du redigera, duplicera eller ta bort befintliga innehållsmallar. A
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Design av innehållsmall"
->abstract="Design av innehållsmall"
+>abstract="Designa en mall för e-postinnehåll."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Val av innehållsmall"
->abstract="Val av innehållsmall"
+>abstract="Välj din e-postinnehållsmall."
 
 Innehållsmallar kan skapas av [spara ett befintligt e-postmeddelande som en mall](#save-as-template)eller från listan med e-postmallar via **Skapa innehållsmall** knapp, [enligt nedan](#create-template-from-scratch).
 

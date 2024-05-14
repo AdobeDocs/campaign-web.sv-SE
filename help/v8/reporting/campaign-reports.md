@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter
 description: Lär dig hur du får tillgång till och använder kampanjrapporter
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -11,18 +11,6 @@ ht-degree: 0%
 ---
 
 # Kom igång med kampanjrapporter {#campaign-reports}
-
-<!-- CAN BE REMOVED___
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
--->
 
 The **Kampanjrapporter** ger en omfattande översikt över **kampanj**, med alla relevanta uppgifter om de olika leveranser som ingår. Dessa rapporter innehåller en grundlig analys av resultatet, per kanal: antal lyckade inköp, målgruppsengagemang och andra viktiga mätvärden. De gör att ni kan utvärdera kampanjens övergripande effektivitet och effekt.
 
