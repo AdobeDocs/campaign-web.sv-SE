@@ -2,10 +2,11 @@
 audience: end-user
 title: Använd aktiviteten Överför fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Överför fil
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 8%
+source-wordcount: '1067'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Fjärrserver för överföringsfil"
->abstract="Fjärrserver för överföringsfil"
+>abstract="Ange den server som ska anslutas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -39,17 +40,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Ta bort källfilerna efter överföringen"
->abstract="Ta bort källfilerna efter överföringen"
+>abstract="Radera källfilerna efter en slutförd överföring."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Visa sessionsloggarna"
->abstract="Visa sessionsloggarna"
+>abstract="Information om överföringsåtgärden visas i arbetsflödesloggarna."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Visa alla filer"
->abstract="Visa alla filer"
+>abstract="Det här alternativet indexerar alla filer som finns på servern i **vars.filenames** händelsevariabel."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -59,12 +60,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Bearbeta saknade filer"
->abstract="Bearbeta saknade filer"
+>abstract="Med det här alternativet kan du aktivera en utgående övergång av typen &quot;Ingen fil&quot; efter aktiviteten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Processfel"
->abstract="Processfel"
+>abstract="Med det här alternativet kan du aktivera en utgående Error-övergång efter aktiviteten."
 
 The **Överföringsfil** aktiviteten är en **Datahantering** aktivitet. Du kan ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll.
 
@@ -125,7 +126,7 @@ Varje gång en **[!UICONTROL Transfer file]**-aktivitet körs så sparas de öve
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-Det är viktigt att du kan begränsa storleken på den här mappen för att bevara det fysiska utrymmet på servern. Det gör du genom att definiera ett maximalt antal filer eller en total storlek för aktivitetens mapp. Som standard så är 100 filer och 50 MB tillåtet.
+Det är viktigt att du kan begränsa storleken på den här mappen för att bevara det fysiska utrymmet på servern. För att göra det kan du definiera ett maximalt antal filer eller en total storlek för aktivitetsmappen. Som standard så är 100 filer och 50 MB tillåtet.
 
 Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
