@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten Överför fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Överför fil
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1069'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Överför filkälla"
->abstract="Överför filkälla"
+>abstract="Ange önskat filnamn."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Bearbeta saknade filer"
->abstract="Med det här alternativet kan du aktivera en utgående övergång av typen &quot;Ingen fil&quot; efter aktiviteten."
+>abstract="Med det här alternativet kan du aktivera en **Ingen fil** utgående övergång efter aktiviteten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Processfel"
->abstract="Med det här alternativet kan du aktivera en utgående Error-övergång efter aktiviteten."
+>abstract="Med det här alternativet kan du aktivera en **Fel** utgående övergång efter aktiviteten."
 
 The **Överföringsfil** aktiviteten är en **Datahantering** aktivitet. Du kan ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll.
 
