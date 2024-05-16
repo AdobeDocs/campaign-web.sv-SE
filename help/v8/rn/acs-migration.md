@@ -3,14 +3,14 @@ audience: end-user
 title: Övergång från Campaign Standard till Adobe Campaign Web
 description: Upptäck webbanvändargränssnittet för kampanj
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
+source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 4%
 
 ---
 
-# Campaign Standard över till Campaign v8{#welcome}
+# Campaign Standard över till Campaign v8 {#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -52,7 +52,7 @@ Funktioner som stöds och som inte stöds samt interoperabilitet mellan använda
 
 ## Terminologi {#terminology}
 
-De flesta koncept är desamma för Campaign-webbgränssnittet och -Campaign Standarden. Det finns dock några skillnader. Här är några exempel på skillnader i terminologi mellan Campaign Standard och Campaign-webbgränssnittet:
+De flesta koncept är lika mellan Campaign v8 och Campaign Standard. Det finns dock några skillnader. Här är några exempel på skillnader i terminologi mellan Campaign Standard och Campaign v8:
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -61,25 +61,24 @@ De flesta koncept är desamma för Campaign-webbgränssnittet och -Campaign Stan
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Anpassade resurser är **Scheman** i Campaign-webbgränssnittet.
-* Marknadsföringsaktiviteter finns inte längre.
-* Meddelandena är **Leveranser**.
-* Användarna är **Operatorer**.
-* Roller är **Namngivna rättigheter**.
-* Säkerhetsgrupperna är **Operatörsgrupper**.
-* Organisationsenheter är **Mappbehörigheter**
+* Anpassade resurser är **Scheman**
+* Meddelanden kallas **Leveranser**
+* Produktanvändare är **Operatorer**
+* Roller har konfigurerats med **Namngivna rättigheter**
+* Säkerhetsgrupperna är **Operatörsgrupper**
+* Organisationsenheter hanteras via **Mappbehörigheter**
 
 ## Nya funktioner {#new-features}
 
-För att du ska kunna gå över har vi lagt till [nyckelfunktioner](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) från Campaign Standard till v8:
+För att ni smidigt ska kunna gå över till Campaign v8 har de viktigaste funktionerna för Campaign Standard lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Dynamisk rapportering**: Dynamic Reporting tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **Dynamisk rapportering**: Dynamic Reporting tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
 * **Centraliserad branding**: Varje företag har grafiska och tekniska riktlinjer för varumärken. Med Adobe Campaign kan ni definiera en uppsättning specifikationer för att presentera ett konsekvent varumärke för era kunder, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Övriga API:er** - Som migrerad användare av Campaign Stardard kan ni använda Rest API:er för att skapa integreringar för Adobe Campaign och bygga ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som ni använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Övriga API:er** - Som migrerad användare av Campaign Stardard kan ni använda Rest API:er för att skapa integreringar för Adobe Campaign och bygga ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som ni använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
-* **Landningssidor** - Många förbättringar har gjorts i Campaign v8 för att säkerställa att ni inte förlorar någon kapacitet. Läs mer i [versionsinformation](../rn/release-notes.md#new-24-4) och landningssidan [dokumentation](../landing-pages/get-started-lp.md).
+* **Landningssidor** - Vissa förbättringar har gjorts på landningssidor för Campaign v8 för att säkerställa funktionens paritet med Campaign Standard. Läs mer i [versionsinformation](../rn/release-notes.md#new-24-4) och landningssidan [dokumentation](../landing-pages/get-started-lp.md).
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
