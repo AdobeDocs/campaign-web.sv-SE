@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '690'
 ht-degree: 14%
 
 ---
@@ -196,6 +196,6 @@ ht-degree: 14%
    + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
    + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
-+ Administration {#administration}
++ Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)
-+ [Dokumentation för Campaign v8-klientkonsolen >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
