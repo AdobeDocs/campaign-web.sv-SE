@@ -2,9 +2,9 @@
 title: Senaste versionsinformation
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1124'
 ht-degree: 6%
 
 ---
@@ -91,10 +91,9 @@ Förbättringarna nedan är tillgängliga för alla kunder från och med aprilve
 
 * Alternativet&quot;Aktivera inte övergången om populationen är tom&quot; i **Delad aktivitet** Med kan du välja om arbetsflödet ska övergå till nästa aktivitet när segmentresultatet är tomt. [Läs mer](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* **Anpassade fält** är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## Versionsinformation om mars {#24-3-release}
 
