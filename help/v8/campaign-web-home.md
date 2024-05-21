@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '485'
 ht-degree: 3%
 
 ---
@@ -51,23 +51,29 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Versionen från april är live!]
+>[!TAB Maj-releasen är live!]
 
 Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.4.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Nya arbetsflödesaktiviteter]
+>[!TAB Verifieringskedja]
 
-Den här versionen innehåller följande arbetsflödesaktiviteter: Uppdatera data, Prenumerationstjänster, Extrahera-fil, Överför fil, Testa, JavaScript-kod, Extern signal, Inkrementell fråga.
+Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Multimediemeddelande]
+>[!TAB Anpassade fält]
 
-Nu kan du skicka omfattande push-meddelanden via Android. Rich push notification är en förbättrad form av mobilmeddelanden som går utöver enkla textmeddelanden genom att införliva multimediaelement som bilder, interaktiva knappar eller annat multimediematerial.
+Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. De finns nu i webbgränssnittet.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Länka tabeller]
+
+Nu kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen i arbetsflödesaktiviteten för berikning.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
