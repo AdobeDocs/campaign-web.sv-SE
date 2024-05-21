@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 3%
+source-wordcount: '567'
+ht-degree: 4%
 
 ---
 
@@ -40,12 +40,6 @@ Dessa aktiviteter är specifika för målgruppsanpassning. Med dem kan du skapa 
 
 ## Datahanteringsaktiviteter {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Extrahera och läsa in filaktiviteter"
->abstract="Nya datahanteringsaktiviteter är tillgängliga i arbetsflöden. Använd aktiviteten Extrahera fil för att exportera data från Adobe Campaign till ett annat system som en extern fil. Använd aktiviteten Läs in fil för att arbeta med profiler och data som lagras i en extern fil."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
-
 Dessa aktiviteter är specifika för att hantera och berika populationsdata.
 
 * [Extrahera fil](extract-file.md): Exportera data från Adobe Campaign till ett annat system som en extern fil.
@@ -60,15 +54,6 @@ Dessa aktiviteter är specifika för att hantera och berika populationsdata.
 Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i flera kanaler. Du kan kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende. Följande **Kanal** aktiviteter är tillgängliga: E-post, SMS, Android och push-meddelanden från iOS. [Lär dig hur du ställer in en leverans i ett arbetsflöde](channels.md).
 
 ## Flödeskontroll {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Avancerade arbetsflödesaktiviteter"
->abstract="Du kan nu konfigurera aktiviteterna Testa, JavaScript-kod och Extern signal i ett arbetsflöde. Använd aktiviteten Testa för att aktivera arbetsflödesövergångar baserat på villkor. Lägg till en JavaScript-kodsaktivitet för att köra ett JS-kodfragment i arbetsflödets kontext. Konfigurera en extern signalaktivitet som ska utlösa körningen av arbetsflödet från ett API eller ett annat arbetsflöde."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

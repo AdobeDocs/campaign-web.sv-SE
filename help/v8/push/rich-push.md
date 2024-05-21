@@ -3,14 +3,22 @@ audience: end-user
 title: Designa ett omfattande leveransmeddelande
 description: Lär dig hur du utformar en omfattande push-meddelandeleverans för Android med Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
 
 # Designa en omfattande push-leverans för Android {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Rich push delivery"
+>abstract="Nu kan du skicka omfattande push-meddelanden via Android. För närvarande har den här funktionen begränsad tillgänglighet."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
 * The **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## Definiera innehållet i meddelandet {#push-message}
 
@@ -168,7 +176,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 ## Avancerade inställningar för push-meddelanden {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beskrivning |
 |---------|---------|

@@ -3,21 +3,28 @@ product: campaign
 title: Granskningskedja
 description: Lär dig övervaka instansen med granskningsspår för Campaign
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
 # Granskningskedja{#audit-trail}
 
->[!IMPORTANT]
->
->Adobe Campaign webbanvändargränssnitt granskar inte ändringar som gjorts i användarrättigheter, mallar, personalisering eller kampanjer.\
->Granskningsspårning kan bara hanteras av administratörer för instansen.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Granskningskedja"
+>abstract="Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 
 I Adobe Campaign webbgränssnitt är **[!UICONTROL Audit trail]** -funktionen ger användarna fullständig synlighet för alla ändringar som görs på viktiga enheter i instansen, vanligtvis sådana som avsevärt påverkar en mjuk funktion i instansen.
+
+>[!IMPORTANT]
+>
+>* Adobe Campaign webbanvändargränssnitt granskar inte ändringar som gjorts i användarrättigheter, mallar, personalisering eller kampanjer.
+>* Granskningsspårning kan bara hanteras av administratörer för instansen.
 
 **[!UICONTROL Audit trail]** funktionen registrerar ständigt en detaljerad logg över åtgärder och händelser som äger rum i Adobe Campaign-instansen i realtid. Den erbjuder en praktisk metod för att få tillgång till en kronologisk datapost, som behandlar frågor som till exempel status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen.
 

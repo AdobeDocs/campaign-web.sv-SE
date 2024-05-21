@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,12 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
    ![](../assets/workflow-enrichment1.png)
 
 ## Skapa länkar mellan tabeller {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Länkar mellan tabeller"
+>abstract="Nu kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen i arbetsflödesaktiviteten för berikning."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 The **[!UICONTROL Link definition]** kan du skapa en länk mellan data i arbetstabellen och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler.
 

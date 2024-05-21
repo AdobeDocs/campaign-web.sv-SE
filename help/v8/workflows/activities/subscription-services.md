@@ -3,21 +3,17 @@ audience: end-user
 title: Använda aktiviteten Prenumerationstjänster
 description: Lär dig hur du använder arbetsflödesaktiviteten för prenumerationstjänster
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 20%
+source-wordcount: '896'
+ht-degree: 21%
 
 ---
 
 # Prenumerationstjänster {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Prenumerationstjänster - aktivitet"
->abstract="Använd den nya arbetsflödesaktiviteten för prenumerationstjänster för att hantera prenumerationer på en tjänst. Du kan prenumerera eller avbryta prenumerationen på en population och även uppdatera flera prenumerationer från en extern fil. Du kan också skicka ett bekräftelsemeddelande till prenumeranterna."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 
 
 >[!CONTEXTUALHELP]
