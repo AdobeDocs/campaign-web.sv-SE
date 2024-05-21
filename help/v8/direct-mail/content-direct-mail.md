@@ -2,13 +2,13 @@
 audience: end-user
 title: Designa direktutskick
 description: Lär dig hur du utformar direktreklam med Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
-
 
 # Utforma extraheringsfilen {#design-direct-mail}
 
@@ -52,14 +52,18 @@ Om du vill designa innehållet i extraheringsfilen som genereras av din direktut
 
 1. Växla på **[!UICONTROL Requested quantity]** för att begränsa antalet mottagare för leveransen.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Konfigurera kolumnerna för extraheringsfilen {#content}
 
 I **[!UICONTROL Content]** anger du de kolumner som ska visas i extraheringsfilen. Följ dessa steg för att göra detta:
 
 1. Klicka på **[!UICONTROL Add Attribute]** för att skapa en ny kolumn.
-1. Välj det attribut som ska visas i kolumnen och bekräfta. När kolumnen har lagts till kan du ändra dess etikett och tillhörande attribut med hjälp av redigeringsikonen.
+1. Välj det attribut som ska visas i kolumnen och bekräfta. Observera att du kan använda uttrycksredigeraren för att välja vilket attribut som ska användas genom att klicka på **[!UICONTROL Edit expression]** -knappen.
+
+   ![](assets/dm-add-attribute.png)
+
+1. När kolumnen har lagts till kan du ändra dess etikett och tillhörande attribut med hjälp av redigeringsikonen.
 1. Upprepa dessa steg om du vill lägga till så många kolumner som behövs för extraheringsfilen.
 1. Om du vill sortera extraheringsfilen med en av kolumnerna klickar du på ikonen i dialogrutan **[!UICONTROL Sorting]** och väljer önskad sorteringsmetod.
 1. Om du vill ändra en kolumns placering använder du upp- och nedpilarna.

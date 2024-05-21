@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+source-git-commit: fa2d596a36652f504112c7a8543453d845462021
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Enkelt hörn"
+>title="Länkdefinition"
 >abstract="Enkelt hörn"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,21 @@ När anrikningsdata har lagts till i arbetsflödet kan de användas i aktivitete
 
 Du kan till exempel lägga till information om kundernas inköp i arbetsflödets arbetsregister och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
 
-## Konfigurera anrikningsaktiviteten {#enrichment-configuration}
+## Lägg till en anrikningsaktivitet {#enrichment-configuration}
 
 Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 1. Lägg till aktiviteter som **Bygg målgrupper** och **Kombinera** verksamhet.
 1. Lägg till en **Berikning** aktivitet.
+1. Om flera övergångar har konfigurerats i arbetsflödet kan du använda **[!UICONTROL Primary set]** -fält för att definiera vilken övergång som ska användas som primär uppsättning för att berika med data.
+
+## Lägg till anrikningsdata {#enrichment-add}
+
 1. Klicka **Lägg till anrikningsdata** och välj det attribut som ska användas för att förbättra data.
 
-   Du kan välja mellan två typer av anrikningsdata: [single enrichment attribute](#single-attribute) från måldimensionen, eller en [samlingslänk](#collection-link).
+   Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen eller en samlingslänk. Var och en av dessa typer beskrivs i exemplen nedan:
+   * [Single enrichment-attribut](#single-attribute)
+   * [Samlingslänk](#collection-link)
 
    >[!NOTE]
    >
@@ -69,7 +75,39 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
    ![](../assets/workflow-enrichment1.png)
 
-## Single enrichment-attribut {#single-attribute}
+## Skapa länkar mellan tabeller {#create-links}
+
+The **[!UICONTROL Link definition]** kan du skapa en länk mellan data i arbetstabellen och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler.
+
+Det finns flera typer av länkar:
+
+* **[!UICONTROL 1 cardinality simple link]**: Varje post från den primära uppsättningen kan kopplas till en och endast en post från de länkade data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Varje post i den primära uppsättningen kan kopplas till 0- eller 1-posten från de länkade data, men inte till fler än en.
+* **[!UICONTROL N cardinality collection link]**: Varje post från den primära uppsättningen kan kopplas till 0, 1 eller fler (N) poster från länkade data.
+
+Så här skapar du en länk:
+
+1. I **[!UICONTROL Link definition]** klickar du på **[!UICONTROL Add link]** -knappen.
+
+   ![](../assets/workflow-enrichment-link.png)
+
+1. I **Relationstyp** väljer du den typ av länk du vill skapa.
+
+1. Identifiera det mål som du vill länka den primära uppsättningen till:
+
+   * Om du vill länka en befintlig tabell i databasen väljer du **[!UICONTROL Database schema]** och välj önskad tabell i **[!UICONTROL Target schema]** fält.
+   * Om du vill länka till data från indataövergången väljer du **Tillfälligt schema** och markera den övergång vars data du vill använda.
+
+1. Definiera avstämningskriterierna för att matcha data från den primära uppsättningen med det länkade schemat. Det finns två typer av kopplingar:
+
+   * **Enkelt hörn**: Välj ett specifikt attribut för att matcha data från de två scheman. Klicka **Lägg till join** och väljer **Källa** och **Mål** attribut som ska användas som avstämningskriterier.
+   * **Avancerad join**: Skapa en koppling med avancerade villkor. Klicka **Lägg till join** och klicka på **Skapa villkor** för att öppna frågemodelleraren.
+
+Ett arbetsflödesexempel med hjälp av länkar finns i [Exempel](#link-example) -avsnitt.
+
+## Exempel {#example}
+
+### Single enrichment-attribut {#single-attribute}
 
 Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
 
@@ -79,7 +117,7 @@ Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatu
 
 ![](../assets/workflow-enrichment2.png)
 
-## Samlingslänk {#collection-link}
+### Samlingslänk {#collection-link}
 
 I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk med en 1-N-kardinalitet mellan tabellerna. Vi hämtar de tre senaste inköpen som är mindre än 100$. Därför måste du definiera:
 
@@ -88,7 +126,7 @@ I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk 
 * ett filter: filtrera bort objekt som är större än 100$
 * en sortering: underordnad sortering på **Orderdatum** fält.
 
-### Lägg till attributet {#add-attribute}
+#### Lägg till attributet {#add-attribute}
 
 Här väljer du den samlingslänk som ska användas som anrikningsdata.
 
@@ -98,7 +136,7 @@ Här väljer du den samlingslänk som ska användas som anrikningsdata.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definiera samlingsinställningarna{#collection-settings}
+#### Definiera samlingsinställningarna{#collection-settings}
 
 Definiera sedan hur data samlas in och hur många poster som ska hämtas.
 
@@ -111,7 +149,7 @@ Om du t.ex. vill få fram genomsnittligt antal inköp för en kund väljer du **
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definiera filtren{#collection-filters}
+#### Definiera filtren{#collection-filters}
 
 Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
@@ -121,7 +159,7 @@ Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar b
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definiera sorteringen{#collection-sorting}
+#### Definiera sorteringen{#collection-sorting}
 
 Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
 
@@ -132,6 +170,20 @@ Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
 1. Välj **Fallande** från **Sortera** nedrullningsbar meny.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### Berika med länkade data {#link-example}
+
+I exemplet nedan visas ett arbetsflöde som är konfigurerat för att skapa en länk mellan två övergångar. De första övergångarna avser profildata med hjälp av en Query-aktivitet, medan den andra övergången omfattar inköpsdata som lagras i en fil som läses in via en Load file-aktivitet.
+
+* Den första **Berikning** aktivitetslänkar vår primära uppsättning (data från **Fråga** aktivitet) med schemat från **Läs in fil** aktivitet. På så sätt kan vi matcha varje profil som används av frågan med motsvarande inköpsdata.
+* En sekund **Berikning** aktiviteten läggs till för att berika data från arbetsflödestabellen med inköpsdata från **Läs in fil** aktivitet. Detta gör att vi kan använda dessa data i ytterligare aktiviteter, till exempel för att anpassa meddelanden som skickas till kunderna med information om deras köp.
+
+  ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

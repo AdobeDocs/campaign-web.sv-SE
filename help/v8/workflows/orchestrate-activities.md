@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ I det här skedet av konfigurationen visas diagrammet med en startikon som repre
 
 En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödet eller ställa in en **Vänta** för att fördröja arbetsflödets körning. Å andra sidan, efter **Bygg målgrupper** kan du finjustera målet med målinriktade aktiviteter, skicka en leverans till målgruppen med kanalaktiviteter eller organisera arbetsflödet med flödeskontrollaktiviteter.
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 Upprepa den här processen om du vill lägga till så många aktiviteter som du vill, beroende på vilka uppgifter du vill att arbetsflödet ska utföra. Observera att du även kan infoga en ny aktivitet mellan två aktiviteter. Klicka på **+** om övergången mellan aktiviteterna markerar du önskad aktivitet och konfigurerar den i den högra rutan.
 
@@ -44,7 +44,7 @@ Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ 
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
 * **Visa karta**: Öppnar en ögonblicksbild av arbetsytan som visar att du befinner dig.
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Hantera aktiviteter {#manage}
 
@@ -56,7 +56,7 @@ När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsr
 * Åtkomst till aktivitetens **Loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 Flera **Målinriktning** aktiviteter, som **Kombinera** eller **Deduplicering** kan du bearbeta den återstående populationen och inkludera den i en ytterligare utgående övergång. Om du till exempel använder en **Dela** Komplementet består av den population som inte matchar någon av de tidigare definierade delmängderna. Om du vill använda den här funktionen aktiverar du **Generera komplement** alternativ.
 
@@ -70,21 +70,21 @@ Du kan kopiera aktiviteter på två sätt:
 
 * kopiera en aktivitet med åtgärdsknappen.
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * kopiera flera aktiviteter med verktygsfältsknappen.
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Klistra in kopierade aktiviteter genom att klicka på **+** och väljer Klistra in X-aktivitet.
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## Körningsalternativ {#execution}
 
 Med alla aktiviteter kan du hantera deras körningsalternativ. Välj en aktivitet och klicka på **Körningsalternativ** -knappen. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel.
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### Egenskaper
 
@@ -110,7 +110,7 @@ The **Initieringsskript** I kan du initiera variabler eller ändra aktivitetsege
 
 Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (utom VIP kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 För att uppnå detta har följande aktiviteter lagts till:
 
