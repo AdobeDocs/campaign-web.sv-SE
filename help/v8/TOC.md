@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 14%
    + [Nyheter?](rn/whats-new.md)
    + [Senaste versionen](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
-   + [Från Campaign Standard till v8](rn/acs-migration.md)
 + Kom igång med Adobe Campaign {#start}
    + [Kom igång](get-started/get-started.md)
    + [Anslut till Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 14%
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Åtkomst och behörigheter](get-started/permissions.md)
    + [Campaign Web and Client console](get-started/capability-matrix.md)
+   + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 14%
    + [Skyddsritningar och begränsningar](get-started/guardrails.md)
    + [Händelsevariabler för arbetsflöde](workflows/event-variables.md)
    + [Få åtkomst till och hantera arbetsflöden](workflows/access-monitor.md)
+   + [Om skrivskyddade arbetsflöden](workflows/readonly-workflows.md)
    + Skapa och kör ditt första arbetsflöde {#create-workflow}
       + [Viktiga principer för att skapa arbetsflöden](workflows/gs-workflow-creation.md)
       + [Skapa arbetsflödet](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 14%
    + [Filterlistor](query/filter.md)
 + Rapportering {#reports}
    + [Kom igång med rapporter](reporting/gs-reports.md)
+   + [Granskningskedja](reporting/audit-trail.md)
    + [Exportera rapporter](reporting/export-reports.md)
    + [Viktiga resultatindikatorer](reporting/kpis.md)
    + Leveransrapporter {#delivery-report}
