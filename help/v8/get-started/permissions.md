@@ -3,9 +3,9 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ ht-degree: 0%
 >title="Arbetsflödet är skrivskyddat"
 >abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Arbetsflödet är skrivskyddat"
->abstract="Du kan inte redigera det här arbetsflödet på grund av att arbetsytan inte stöds eller är inkompatibel."
+
 
 Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även för **Explorer** navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
 
@@ -68,11 +65,11 @@ Så här visar du behörigheter för en mapp:
 1. Från **Explorer** vänster navigeringsmeny väljer du en mapp.
 1. Klicka på de tre punkterna i det övre högra hörnet och välj **Mappbehörigheter**.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Kontrollera detaljer på skärmen enligt nedan:
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    En grupp, eller en operator, kan ha behörigheten Läs, Skriv och/eller Ta bort för data som lagras i den valda mappen.
 
@@ -94,11 +91,17 @@ Du kan skapa, byta namn på, ordna om och flytta mappar för att ordna dina komp
 Så här skapar du en mapp:
 
 1. Från **Explorer** vänster navigeringsmeny väljer du en mapp.
-1. Klicka på de tre punkterna i det övre högra hörnet och välj **Skapa ny undermapp**.
-1. Ange namnet på mappen och spara.
+1. Klicka på de tre punkterna i det övre högra hörnet och välj **Skapa ny mapp**.
+1. Ange namnet på mappen.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Välj mapptyp. Som standard är den överordnade mapptypen markerad, &quot;Leveranser&quot;, i vårt exempel. Om du vill ändra mapptyp klickar du på mappikonen och väljer en annan typ.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Klicka **Skapa**.
 
    Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen från **Ytterligare alternativ** av egenskaperna enligt nedan för en leverans:
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
