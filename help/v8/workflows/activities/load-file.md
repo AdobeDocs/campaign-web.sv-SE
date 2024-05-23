@@ -3,7 +3,7 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -151,7 +151,7 @@ Så här definierar du målfilen som ska överföras:
 
 1. I **Avvisningshantering** anger du hur aktiviteten ska fungera vid fel:
 
-   * I **[!UICONTROL Dele]** -fält, ange det maximala antalet fel som tillåts när filen som ska läsas in bearbetas. Om värdet till exempel är 20 misslyckas arbetsflödeskörningen om det finns mer än 20 fel när filen läses in.
+   * I **[!UICONTROL Number of errors allowed]** anger du det maximala antalet fel som tillåts när filen som ska läsas in bearbetas. Om värdet till exempel är 20 misslyckas arbetsflödeskörningen om det finns mer än 20 fel när filen läses in.
 
    * Om du vill behålla felen som uppstod när filen lästes in, växlar du **[!UICONTROL Keep rejects in a file]** på och ange önskat namn för filen i **[!UICONTROL Rejection File]** fält.
 
