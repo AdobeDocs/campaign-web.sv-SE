@@ -3,9 +3,9 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Läs mer om mappbehörigheter i [Kampanjdokumentation v8 (klientkonsol)](https:/
 
 
 ## Arbeta med mappar {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Mappegenskaper"
+>abstract="Mappegenskaper"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Mappsäkerhet"
+>abstract="Mappsäkerhet"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Mappbegränsningar"
+>abstract="Mappbegränsningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Mappschema"
+>abstract="Mappschema"
 
 Du kan skapa, byta namn på, ordna om och flytta mappar för att ordna dina komponenter och data. Du kan också ta bort mappar från samma meny.
 
