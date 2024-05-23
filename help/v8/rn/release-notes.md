@@ -1,10 +1,10 @@
 ---
-title: Senaste versionsinformation
-description: Upptäck nya funktioner i gränssnittet för webbkampanjer
+title: Versionsinformation om webbgränssnittet i Campaign v8
+description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1461'
 ht-degree: 6%
 
 ---
@@ -16,9 +16,45 @@ ht-degree: 6%
 >title="Versionsinformation"
 >abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen för Campaign uppdateras därför flera gånger i månaden, med de senaste funktionerna, förbättringarna och korrigeringarna. Vi rekommenderar att du regelbundet kontrollerar dem."
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
+
+## Versionsinformation {#24-5-release}
+
+**Releasedatum**: 21 maj 2024
+
+Följande funktioner och förbättringar är tillgängliga för alla användare från och med majversionen.
+
+### Granskningskedja  {#24-5-1}
+
+Den nya **Granskningsspår** funktionen ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid. Den erbjuder en praktisk metod för att spåra alla ändringar av era Campaign-data, till exempel frågor som status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen. [Läs mer](../reporting/audit-trail.md)
+
+### Anpassade fält {#24-5-2}
+
+**Anpassade fält** är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
+
+### Skapa länkar mellan tabeller {#24-5-3}
+
+Nu kan du skapa länkar med en annan tabell i **Berikning** arbetsflödesaktivitet. Använd den nya **Länkdefinition** i aktivitetsparametrarna för att skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress, kan du nu skapa en länk till landstabellen för att uppdatera informationen i deras profiler. [Läs mer](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### Allmänna förbättringar {#improvements-24-5}
+
+* **Direktreklam** - Du kan nu använda uttrycksredigeraren för att välja vilka attribut som ska visas i extraheringsfiler för direktreklam. [Läs mer](../direct-mail/content-direct-mail.md)
+
+* **Mapphantering** - Du kan nu skapa en undermapp av en annan typ än den överordnade mappen. [Läs mer](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **Globalisering** - Som en del av vårt pågående arbete med att leverera en enhetlig användarupplevelse harmoniserar vi terminologin som används i Adobe Experience Cloud produkter och appar. Det här påverkar den tyska termen &quot;Titel&quot; som ändras till &quot;Label&quot; när det gäller namnet på ett objekt. Ändringarna införs stegvis i användargränssnittet och dokumentationen.
+
 
 ## Versionsinformation, april {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Nu kan du skicka omfattande push-meddelanden via Android. Rich push notification
 
 Observera att den här funktionen är **Begränsad tillgänglighet** (LA).
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### Nya funktioner i begränsad tillgänglighet {#acs-24-4}
 
@@ -91,9 +122,7 @@ Förbättringarna nedan är tillgängliga för alla kunder från och med aprilve
 
 * Alternativet&quot;Aktivera inte övergången om populationen är tom&quot; i **Delad aktivitet** Med kan du välja om arbetsflödet ska övergå till nästa aktivitet när segmentresultatet är tomt. [Läs mer](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## Versionsinformation om mars {#24-3-release}
 
