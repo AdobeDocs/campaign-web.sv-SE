@@ -3,18 +3,14 @@ audience: end-user
 title: Använda aktiviteten Prenumerationstjänster
 description: Lär dig hur du använder arbetsflödesaktiviteten för prenumerationstjänster
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 3%
 
 ---
 
 # Prenumerationstjänster {#subscriptipon-services}
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -85,13 +81,14 @@ Det här arbetsflödet nedan visar hur du prenumererar på en befintlig tjänst.
 
 * A **[!UICONTROL Subscription Services]** Med -aktivitet kan du välja den tjänst som profilerna ska prenumereras på.
 
-### Uppdatera flera prenumerationsstatusar från en fil {#uc2}
+<!--
+### Updating multiple subscription statuses from a file {#uc2}
 
-I arbetsflödet nedan visas hur du importerar en fil som innehåller profiler och uppdaterar deras prenumeration till flera tjänster som anges i filen.
+The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** aktiviteten läser in en CSV-fil som innehåller data och definierar strukturen för de importerade kolumnerna. Kolumnerna&quot;service&quot; och&quot;operation&quot; anger vilken tjänst som ska uppdateras och vilken åtgärd som ska utföras (prenumeration eller prenumeration).
+* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -102,26 +99,26 @@ I arbetsflödet nedan visas hur du importerar en fil som innehåller profiler oc
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt värde** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avprenumerera och &quot;1&quot; för att prenumerera. För att uppfylla detta krav måste en ommappning av värden utföras i detalj i åtgärdskolumnen på exempelfilkonfigurationsskärmen.
+  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som en **Boolean** eller **Heltal** i exempelfilkolumnerna.
+  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
 
-* En **[!UICONTROL Reconciliation]**-aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. The **e-post** filens fält matchas mot **e-post** profilresursens fält.
-
-  ![](../assets/workflow-subscription-service-uc2-enrichment.png)
-
-* An **[!UICONTROL Enrichment]** skapar en länk till tabellen&quot;Tjänster (nms)&quot; och skapar en enkel koppling mellan kolumnen&quot;tjänst&quot; i den överförda filen och fältet&quot;internt namn&quot; i databasen.
+* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Deduplication]** baserat på **e-post** identifierar dubbletter. Det är viktigt att ta bort dubbletter eftersom prenumerationen på en tjänst misslyckas för alla data om dubbletter förekommer.
+* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+
+    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+
+* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
 
   ![](../assets/workflow-subscription-service-uc2-dedup.png)
+  
+* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-* En **[!UICONTROL Subscription Services]** identifierar de tjänster som ska uppdateras från övergången via länken som skapas i **[!UICONTROL Reconciliation]**-aktiviteten.
+  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
-  **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
