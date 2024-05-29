@@ -3,9 +3,9 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -25,29 +25,29 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
 1. Klicka på **[!UICONTROL Review and send]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Klicka på **[!UICONTROL Prepare]** i det övre högra hörnet och bekräfta.
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-messages.md#gs-schedule)
+   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-deliveries.md#gs-schedule)
 
 1. Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
    Du kan när som helst avbryta beredningen med **[!UICONTROL Stop preparation]** -knappen.
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >Under beredningsfasen skickas inga meddelanden. Du kan därför starta eller stoppa detta utan risk för att påverka något.
 
 1. Kontrollera KPI:erna när färdigställandet är klart. Om antalet meddelanden som ska skickas inte matchar dina förväntningar ändrar du målgruppen och startar om förberedelsen.
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    Här visas olika KPI:er:
 
@@ -57,11 +57,11 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
 
 1. Klicka på **[!UICONTROL Logs]** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. [Läs mer](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. Om ett kritiskt fel upptäcks som förhindrar att leveransen skickas, visas statusen för förberedelsen som misslyckad på kontrollpanelen för leverans.
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. Om du ändrar något efter färdigställandet måste du starta om preparatet för att dessa ändringar ska beaktas.
 
@@ -72,7 +72,7 @@ När färdigställandet är klart utan fel är ditt meddelande klart att skickas
 
 När [förberedelse](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
 
-Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](../msg/gs-messages.md#gs-schedule)
+Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](../msg/gs-deliveries.md#gs-schedule)
 
 ### Skicka omedelbart {#send-immediately}
 
@@ -80,7 +80,7 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 1. Klicka på **[!UICONTROL Send]** i det övre högra hörnet.
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. Bekräfta den här åtgärden för att omedelbart skicka meddelandet till huvudmålet.
 
@@ -90,17 +90,17 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum och en senare tidpunkt följer du stegen nedan.
 
-1. Innan du trycker **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../msg/gs-messages.md#gs-schedule)
+1. Innan du trycker **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../msg/gs-deliveries.md#gs-schedule)
 
 1. Klicka på **[!UICONTROL Send as scheduled button]** i det övre högra hörnet.
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Confirm sending]**. Leveransen skickas på det schemalagda datumet till huvudmålet.
 
    >[!NOTE]
    >
-   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-messages.md#gs-schedule)
+   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-deliveries.md#gs-schedule)
 
 ## Pausa eller stoppa sändningen {#pause-stop-sending}
 
@@ -110,7 +110,7 @@ Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras n�
 
 * Klicka **[!UICONTROL Stop sending]** för att omedelbart avbryta sändningen. Varken förberedelsen eller sändningen kan återupptas när den har stoppats.
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Kontrollera nyckeltal {#check-kpis}
 
@@ -150,7 +150,7 @@ Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras n�
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Sent]**: antalet meddelanden som levereras. Procentandelen som visas baseras på det totala antalet meddelanden som ska levereras.
 

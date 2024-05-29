@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa en leverans av push-meddelanden
 description: Lär dig hur du skapar ett push-meddelande med Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Så här skapar du en ny fristående push-leverans:
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable="yes"}
 
 ## Konfigurera leveransinställningarna {#configure-push-settings}
 
@@ -68,7 +68,7 @@ Du måste först välja appen och sedan kan du förfina målgruppen för push-me
 
 1. Från **[!UICONTROL Audience]** väljer du det program som du vill använda för leveransen. Som standard skickas ditt push-meddelande till alla prenumeranter på programmet. Du kan förfina till en viss målgrupp genom att klicka på **[!UICONTROL Select audience]** -knappen.
 
-   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable="yes"}
 
 1. Välj en befintlig målgrupp, eller skapa en egen målgrupp, för att förfina målpopulationen för din push-leverans. Standardvärdet för push-meddelanden [måldimension](../audience/about-recipients.md#targeting-dimensions) är **Prenumerationsprogram** (nms:appSubscriptionRcp), som är länkad till mottagartabellen.
 
@@ -82,7 +82,7 @@ Du måste först välja appen och sedan kan du förfina målgruppen för push-me
 
 Om du vill definiera innehållet i meddelandet klickar du på **[!UICONTROL Edit content]**. [Läs mer](content-push.md)
 
-![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable="yes"}
 
 Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../msg/offers.md).
 
@@ -100,12 +100,12 @@ Så här schemalägger du en fristående push-leverans till ett visst datum och 
 
 När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren.
 
-![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable="yes"}
 
-Läs mer om leveransplanering i [det här avsnittet](../msg/gs-messages.md#gs-schedule)
+Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#gs-schedule)
 
 ## Avancerade inställningar för leverans {#adv-push}
 
 Klicka **[!UICONTROL Configure delivery settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable="yes"}

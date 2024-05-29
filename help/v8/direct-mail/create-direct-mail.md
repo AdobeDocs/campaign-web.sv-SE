@@ -2,13 +2,13 @@
 audience: end-user
 title: Skapa en leverans av direktutskick
 description: Lär dig skapa direktreklam med Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
-
 
 # Skapa en leverans av direktutskick {#create-direct-mail}
 
@@ -22,11 +22,11 @@ Så här skapar du en ny fristående direktutskick:
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny. Om leveransen baseras på ett utökat schema, **Anpassade alternativ** fält är tillgängliga.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
@@ -41,7 +41,7 @@ Så här skapar du en ny fristående direktutskick:
    * [Lär dig hur du väljer en befintlig målgrupp](../audience/add-audience.md)
    * [Lär dig skapa en ny publik](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Så här skapar du en ny fristående direktutskick:
 
 1. Klicka **[!UICONTROL Edit content]** för att definiera den information (kolumner) som ska exporteras till extraheringsfilen. [Läs mer](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du har definierat. [Lär dig schemalägga leveranser](../msg/gs-messages.md#gs-schedule).
+1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du har definierat. [Lär dig schemalägga leveranser](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,7 +61,6 @@ Så här skapar du en ny fristående direktutskick:
 
 1. Klicka **[!UICONTROL Settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. När du är klar klickar du på **[!UICONTROL Review and send]** för att validera och skicka leveransen och generera extraheringsfilen. [Lär dig hur du förhandsgranskar och skickar direktreklam](send-direct-mail.md)
-

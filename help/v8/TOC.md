@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 14%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 14%
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
          + [Skicka med flera vågor](advanced-settings/send-using-waves.md)
          + [Övervaka leveransloggar](monitor/delivery-logs.md)
+         + [Schemalägg sändning av leverans](monitor/schedule-sending.md)
    + Push-meddelanden {#push}
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
