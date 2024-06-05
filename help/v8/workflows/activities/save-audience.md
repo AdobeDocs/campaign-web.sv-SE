@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -53,4 +53,4 @@ Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för m
 
 ## Exempel{#save-audience-example}
 
-I följande exempel visas en enkel målgruppsuppdatering från målinriktning. En schemaläggare läggs till för att köra arbetsflödet en gång i månaden. En fråga återställer alla profiler som prenumererar på de olika programtjänsterna som är tillgängliga. The **Spara målgrupper** aktiviteten uppdaterar publiken genom att ta bort profiler som har avbeställt tjänsten sedan det senaste arbetsflödet och genom att lägga till de nya prenumerationsprofilerna.
+I följande exempel visas en enkel målgruppsuppdatering från målinriktning. En schemaläggare läggs till för att köra arbetsflödet en gång i månaden. En fråga återställer alla profiler som prenumererar på de olika program som är tillgängliga. The **Spara målgrupper** aktiviteten uppdaterar publiken genom att ta bort profiler som har avbeställt tjänsten sedan det senaste arbetsflödet och genom att lägga till de nya prenumerationsprofilerna.
