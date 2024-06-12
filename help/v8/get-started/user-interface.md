@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ På Campaigns startsida kan ni snabbt och enkelt bläddra bland viktiga resurser
 
 I den övre delen av startsidan finns information om de senaste uppdateringarna och nya funktioner som är tillgängliga i produkten, med länkar till versionsinformation och detaljerad dokumentation. Använd vänsterpilen för att rulla funktionskort.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er i [den här sidan](../reporting/kpis.md).
 
@@ -70,7 +70,7 @@ I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, le
 
   Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Arbetsflöden** - På den här skärmen har du tillgång till den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte. Läs mer om arbetsflöden [i det här avsnittet](../workflows/gs-workflows.md).
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="Standardstartsida"
 >abstract="Välj den standardstartsida som är kopplad till den här prenumerationstjänsten."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parametrar för leveransvarningsvillkor"
 >abstract="Leveransvarningar"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Skapa kontrollpanel för leveransvarningar"
 >abstract="Skapa kontrollpanel för leveransvarningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Skapa ett varningsvillkor"
+>abstract="Om du vill skapa egna leveransfilter skapar du ett nytt fördefinierat filter i Campaign v8-konsolen från **Administration** > **Konfiguration** > **Fördefinierade filter** nod."
 
 <!-- IDs -->
 
