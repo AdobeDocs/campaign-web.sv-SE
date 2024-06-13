@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 14%
+source-wordcount: '704'
+ht-degree: 15%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 14%
 + [Dokumentation för Adobe Campaign Web User Interface](campaign-web-home.md)
 + Versionsinformation {#release-notes}
    + [Nyheter?](rn/whats-new.md)
+   + [Tidig versionsinformation](rn/e-release-notes.md)
    + [Senaste versionen](rn/release-notes.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + Kom igång med Adobe Campaign {#start}
