@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 6%
+source-wordcount: '1623'
+ht-degree: 5%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 6%
 >abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen för Campaign uppdateras därför flera gånger i månaden, med de senaste funktionerna, förbättringarna och korrigeringarna. Vi rekommenderar att du regelbundet kontrollerar dem."
 
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
+
+## Versionsinformation för juni {#24-6-release}
+
+**Releasedatum**: 18-19 juni 2024
+
+Följande funktioner och förbättringar är tillgängliga för alla användare från och med juni.
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### Leveransvarningar {#24-6-3}
+
+Funktionen för leveransvarning är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveransen utförs. [Läs mer](../msg/delivery-alerting.md)
+
+### Planer och program {#24-6-4}
+
+Nu kan ni skapa planer och program för att ordna era kampanjer. Genom att definiera en mapphierarki kan ni ordna era kampanjer i program och era program i planer. [Läs mer](../administration/plans-programs.md)
+
+### Förbättringar {#improvements-24-6}
+
+* **Avstämning i anrikningsaktivitet**: Anrikningsaktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
 
 ## Versionsinformation {#24-5-release}
 
