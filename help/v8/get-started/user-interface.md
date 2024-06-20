@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Körningsinitieringsskript"
 >abstract="Körningsinitieringsskript"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Kontrollpanel för leveransaviseringskriterier"
->abstract="Kontrollpanel för leveransaviseringskriterier"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Kontrollpanel för leveransvarningar"
->abstract="Kontrollpanel för leveransvarningar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Skapa leveransaviseringskriterier"
->abstract="Skapa leveransaviseringskriterier"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indikatorer att lägga till i aviseringar"
->abstract="Indikatorer att lägga till i aviseringar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Aviseringstyp"
->abstract="Aviseringstyp"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Villkorsfrekvens"
->abstract="Villkorsfrekvens"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Villkor för leveransvarning"
->abstract="Villkor för leveransvarning"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Allmänna parametrar för leveransvarningar"
->abstract="Leveransvarningar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Parametrar för leveransvarningsvillkor"
->abstract="Leveransvarningar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Leveransmeddelanden har skickats"
->abstract="Leveransmeddelanden har skickats"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Historik för leveransaviseringar"
->abstract="Historik för leveransaviseringar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Skapa kontrollpanel för leveransvarningar"
->abstract="Skapa kontrollpanel för leveransvarningar"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Skapa ett varningsvillkor"
->abstract="Om du vill skapa egna leveransfilter skapar du ett nytt fördefinierat filter i Campaign v8-konsolen från **Administration** > **Konfiguration** > **Fördefinierade filter** nod."
 
 <!-- IDs -->
 

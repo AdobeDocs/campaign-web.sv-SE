@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,36 @@ Så här skapar du en länk:
 
 Ett arbetsflödesexempel med hjälp av länkar finns i [Exempel](#link-example) -avsnitt.
 
+## Datavstämning {#reconciliation}
+
+The **Berikning** -aktiviteten kan användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett temporärt schema, till exempel data som överförts med en Läs in filaktivitet. Den här typen av länk definierar en avstämning mot en unik post. Adobe Campaign skapar en länk till en måltabell genom att lägga till en sekundärnyckel i den för att lagra en referens till den unika posten.
+
+Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen.
+
+Följ stegen för att konfigurera **Berikning** aktivitet med en avstämningslänk:
+
+1. Klicka på **Lägg till länk** knappen i **Avstämning** -avsnitt.
+1. Identifiera de data som du vill skapa en avstämningslänk med.
+
+   * Om du vill skapa en avstämningslänk med data från Campaign-databasen väljer du **Databasschema** och välj det schema där målet ska lagras.
+   * Om du vill skapa en avstämningslänk med data från indataövergången väljer du **Tillfälligt schema** och välj den arbetsflödesövergång där måldata lagras.
+
+1. The **Etikett** och **Namn** fält fylls i automatiskt baserat på det valda målschemat. Du kan ändra deras värden om det behövs.
+
+1. I **Avstämningskriterier** anger du hur du vill att data från käll- och måltabellerna ska stämma överens:
+
+   * **Enkelt hörn**: Stäm av ett specifikt fält från källtabellen med ett annat fält i måltabellen. Klicka på **Lägg till join** och ange **Källa** och **Mål** fält som ska användas för avstämningen.
+
+     >[!NOTE]
+     >
+     >Du kan använda en eller flera **Enkelt hörn** kriterier, i vilket fall de måste verifieras så att uppgifterna kan sammankopplas.
+
+   * **Avancerad join**: Använd frågemodelleraren för att konfigurera avstämningsvillkoren. Klicka på **Skapa villkor** och sedan definiera dina avstämningskriterier genom att skapa en egen regel med hjälp av AND- och OR-operationer.
+
+I exemplet nedan visas ett arbetsflöde som är konfigurerat för att skapa en länk mellan mottagartabellen för Adobe Campaign-databasen och en tillfällig tabell som genererats av **Läs in fil** aktivitet. I det här exemplet avstäms båda tabellerna med e-postadressen som avstämningskriterier av Enrichment-aktiviteten.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Exempel {#example}
 
 ### Single enrichment-attribut {#single-attribute}
@@ -177,48 +207,17 @@ Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Berika med länkade data {#link-example}
 
-I exemplet nedan visas ett arbetsflöde som är konfigurerat för att skapa en länk mellan två övergångar. De första övergångarna avser profildata med hjälp av en Query-aktivitet, medan den andra övergången omfattar inköpsdata som lagras i en fil som läses in via en Load file-aktivitet.
+I exemplet nedan visas ett arbetsflöde som är konfigurerat för att skapa en länk mellan två övergångar. De första övergångarna avser profildata med hjälp av en **Fråga** medan den andra övergången innehåller inköpsdata som lagras i en fil som läses in via en Läs in-filaktivitet.
 
-* Den första **Berikning** aktivitetslänkar vår primära uppsättning (data från **Fråga** aktivitet) med schemat från **Läs in fil** aktivitet. På så sätt kan vi matcha varje profil som används av frågan med motsvarande inköpsdata.
+![](../assets/enrichment-uc-link.png)
+
+* Den första **Berikning** aktivitetslänkar den primära uppsättningen (data från **Fråga** aktivitet) med schemat från **Läs in fil** aktivitet. På så sätt kan vi matcha varje profil som används av frågan med motsvarande inköpsdata.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * En sekund **Berikning** aktiviteten läggs till för att berika data från arbetsflödestabellen med inköpsdata från **Läs in fil** aktivitet. Detta gör att vi kan använda dessa data i ytterligare aktiviteter, till exempel för att anpassa meddelanden som skickas till kunderna med information om deras köp.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

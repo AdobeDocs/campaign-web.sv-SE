@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 15%
+source-wordcount: '725'
+ht-degree: 14%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 15%
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
       + [Skicka korrektur](preview-test/test-deliveries.md)
       + [Testa e-poståtergivningen](preview-test/email-rendering.md)
+   + Leveransvarningar {#delivery-alerting}
+      + [Kom igång med leveransmeddelanden](msg/delivery-alerting.md)
+      + [Kontrollpaneler för leveransvarningar](msg/delivery-alerting-dashboards.md)
+      + [Villkor för leveransvarning](msg/delivery-alerting-criteria.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 15%
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
    + [Få tillgång till och hantera era kampanjer](campaigns/manage-campaigns.md)
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
+   + [Planer och program](administration/plans-programs.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
    + [Skyddsritningar och begränsningar](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 15%
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)
+   + [Skapa och hantera en mapp](administration/create-manage-folder.md)
 + [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

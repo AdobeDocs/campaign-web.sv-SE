@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -51,29 +51,24 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Maj-releasen är live!]
+>[!TAB Juniversionen är live!]
 
-Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.4.
+Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.6.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Verifieringskedja]
+>[!TAB Leveransvarningar]
 
-Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid.
+Delivery Alerting är ett varningshanteringssystem som gör det möjligt för användargrupper att automatiskt få e-postmeddelanden med information om leveransen.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB Anpassade fält]
+>[!TAB Planer och program]
 
-Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. De finns nu i webbgränssnittet.
+Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner och program.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB Länka tabeller]
-
-Nu kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen i arbetsflödesaktiviteten för berikning.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
@@ -91,7 +86,7 @@ Nu kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen i 
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Möt e-postdesignern</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
+    <div><strong>Vi presenterar Designer</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
