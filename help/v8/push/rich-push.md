@@ -3,22 +3,15 @@ audience: end-user
 title: Designa ett omfattande leveransmeddelande
 description: Lär dig hur du utformar en omfattande push-meddelandeleverans för Android med Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
 
 # Designa en omfattande push-leverans för Android {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Rich push delivery"
->abstract="Nu kan du skicka omfattande push-meddelanden via Android. För närvarande har den här funktionen begränsad tillgänglighet."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

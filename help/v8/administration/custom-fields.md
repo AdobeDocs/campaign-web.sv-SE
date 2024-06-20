@@ -2,7 +2,7 @@
 title: Anpassade fält
 description: Lär dig konfigurera anpassade fält
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Konfigurera anpassade fält {#custom-fields}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Anpassade fält"
 >abstract="Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. De finns nu i webbgränssnittet."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"

@@ -2,15 +2,22 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-
 # Kom igång med leveransvarningar {#gs-delivery-alerting}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Leveransvarningar"
+>abstract="Leveransvarningar finns nu i Campaign. Den här funktionen är ett varningshanteringssystem som gör det möjligt för grupper av användare att automatiskt få e-postmeddelanden med information om leveransen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Delivery Alerting är ett varningshanteringssystem som gör det möjligt för användargrupper att automatiskt få e-postmeddelanden med information om leveransen. Mottagarna kan övervaka pågående leveranser som bearbetas av Adobe Campaign och vidta lämpliga åtgärder om problem uppstår.
 

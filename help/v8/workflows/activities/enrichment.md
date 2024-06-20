@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,6 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 ## Skapa länkar mellan tabeller {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Länkar mellan tabeller"
->abstract="Nu kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen i arbetsflödesaktiviteten för berikning."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
-
 The **[!UICONTROL Link definition]** kan du skapa en länk mellan data i arbetstabellen och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler.
 
 Det finns flera typer av länkar:
@@ -112,6 +106,14 @@ Så här skapar du en länk:
 Ett arbetsflödesexempel med hjälp av länkar finns i [Exempel](#link-example) -avsnitt.
 
 ## Datavstämning {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Datavstämning"
+>abstract="Arbetsflödesaktiveringsaktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 
 The **Berikning** -aktiviteten kan användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett temporärt schema, till exempel data som överförts med en Läs in filaktivitet. Den här typen av länk definierar en avstämning mot en unik post. Adobe Campaign skapar en länk till en måltabell genom att lägga till en sekundärnyckel i den för att lagra en referens till den unika posten.
 

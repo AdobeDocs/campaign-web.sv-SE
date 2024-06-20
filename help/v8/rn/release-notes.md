@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 5%
@@ -42,7 +42,7 @@ Nu kan ni skapa planer och program för att ordna era kampanjer. Genom att defin
 
 ### Förbättringar {#improvements-24-6}
 
-* **Avstämning i anrikningsaktivitet**: Anrikningsaktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
+* **Avstämning i anrikningsaktivitet**: **Berikning** Aktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
 
 ## Versionsinformation {#24-5-release}
 
