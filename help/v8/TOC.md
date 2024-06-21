@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 14%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 14%
 + Profiler och målgrupper {#audiences}
    + [Kom igång med profiler och målgrupper](audience/gs-audiences-recipients.md)
    + [Måldimensioner](audience/targeting-dimensions.md)
+   + [Karantän](audience/quarantine.md)
    + Arbeta med profiler {#work-with-profiles}
       + [Kom igång med profiler](audience/about-recipients.md)
       + [Utforska profilinformation](audience/profile-view.md)
