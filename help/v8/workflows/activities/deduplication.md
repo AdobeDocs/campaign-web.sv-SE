@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '602'
 ht-degree: 17%
 
 ---
@@ -54,9 +54,10 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Välj **Dedupliceringsmetod** att använda:
 
-   * **Slumpmässig markering**: markerar slumpmässigt den post som ska tas bort från dubbletterna.
-   * **Använda ett uttryck**: det gör att du kan behålla de poster där det angivna uttryckets värde är det minsta eller det största.
-   * **Följ en lista med värden**: låter dig definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen Lägg till ovanför listan med värden.
+   * **Slumpmässig markering**: Markerar slumpmässigt den post som ska tas bort från dubbletterna.
+   * **Använda ett uttryck**: Behåll de poster där det angivna uttryckets värde är det minsta eller det största.
+   * **Värden som inte är tomma**: Behåll de poster som uttrycket inte är tomt för.
+   * **Följ en lista med värden**: Definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på **Knappen Lägg till** som finns ovanför listan med värden.
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
