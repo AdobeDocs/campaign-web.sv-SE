@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ The **Dela** aktiviteten är en **Målinriktning** aktivitet som gör att du kan
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Aktivera överlappning av utdatapopulationer"
->abstract="Aktivera överlappning av utdatapopulationer"
+>abstract=" The **[!UICONTROL Enable overlapping of output populations]** gör att du kan hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier."
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
@@ -102,6 +102,11 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
    >[!NOTE]
    >
    >The **[!UICONTROL Generate all subsets in the same table]** kan du gruppera alla delmängder till en enda utdataövergång.
+
+1. The **[!UICONTROL Enable overlapping of output populations]** gör att du kan hantera populationer som tillhör flera delmängder:
+
+   * När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor.
+   * När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier.
 
 Aktiviteten är nu konfigurerad. När arbetsflödet körs segmenteras populationen i de olika deluppsättningarna, i den ordning som de har lagts till i aktiviteten.
 
