@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Designa ett omfattande leveransmeddelande
-description: Lär dig hur du utformar en omfattande push-meddelandeleverans för Android med Adobe Campaign Web
+description: Lär dig hur du utformar en omfattande push-meddelandetjänst från Android med Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Designa en omfattande push-leverans för Android {#rich-push}
+# Designa en omfattande Android-leverans {#rich-push}
 
 
 >[!CONTEXTUALHELP]
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
-* The **[!UICONTROL Data message]** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet, som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
+* The **[!UICONTROL Data message]** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
 
 * The **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
@@ -90,7 +90,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
    * **[!UICONTROL Open App]**: Med öppna app-URL:er kan du ansluta direkt till innehåll i ett program. Det gör att ditt program kan etablera sig som standardhanterare för en viss typ av länk, utan att dialogrutan för olika betydelser visas.
 
-   Mer information om hur du hanterar Android-applänkar finns i [Dokumentation för Android-utvecklare](https://developer.android.com/training/app-links).
+   Mer information om hur du hanterar Android App Links finns i [Dokumentation för Android-utvecklare](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
@@ -140,7 +140,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
    * **[!UICONTROL Open App]**: Med öppna app-URL:er kan du ansluta direkt till innehåll i ett program. Det gör att ditt program kan etablera sig som standardhanterare för en viss typ av länk, utan att dialogrutan för olika betydelser visas.
 
-   Mer information om hur du hanterar Android-applänkar finns i [Dokumentation för Android-utvecklare](https://developer.android.com/training/app-links).
+   Mer information om hur du hanterar Android App Links finns i [Dokumentation för Android-utvecklare](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_carousel_2.png)
 

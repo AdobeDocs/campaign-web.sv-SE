@@ -5,7 +5,7 @@ description: Lär dig hur du redigerar e-postinnehållet i användargränssnitte
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definiera e-postinnehållet"
->abstract="The **Redigera innehåll** kan du definiera grundläggande element i meddelandet, som avsändarens adress och ämnesrad, utföra ytterligare åtgärder som att lägga till bilagor eller erbjudanden samt komma åt e-postdesignern för att ge meddelandet ett prydligt utseende."
+>abstract="The **Redigera innehåll** kan du definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesrad, utföra ytterligare åtgärder som att lägga till bilagor eller erbjudanden samt komma åt e-post-Designer för att ge meddelandet ett snyggt utseende."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -37,7 +37,7 @@ E-postmeddelandet **[!UICONTROL Edit content]** kan du göra följande:
 
 * Definiera grundläggande element i meddelandet, t.ex. avsändarens adress och ämnesraden
 * Utför ytterligare åtgärder som att lägga till bilagor eller konfigurera erbjudanden
-* Öppna [E-postdesigner](get-started-email-designer.md#start-authoring) för att börja skapa rätt innehåll i e-postmeddelandet
+* Öppna [E-posta Designer](get-started-email-designer.md#start-authoring) för att börja skapa rätt innehåll i e-postmeddelandet
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Klicka på **[!UICONTROL Edit content]** från [kontrollpanel för e-postleverans](../email/create-email.md) skärm.
 
-   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. E-postinnehållets versionsskärm öppnas.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Expandera **[!UICONTROL Reply-to fields]** -avsnitt. Avsändarens namn och adresser används som standard för svar. Adobe rekommenderar dock att man använder en befintlig riktig adress som till exempel kundtjänst för ert varumärke. Om en mottagare skickar ett svar kan kundtjänst hantera det.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. Definiera e-postmeddelandet **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till [personalisering](../personalization/personalize.md) med olika attribut och innehållsblock, eller erbjudanden.
 
@@ -87,7 +87,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    Du kan sedan infoga dem i e-postmeddelandet med hjälp av anpassningsfält. [Lär dig skicka erbjudanden](../msg/offers.md)
 
-1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-postdesigner](get-started-email-designer.md#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
+1. Klicka på **[!UICONTROL Edit email body]** för att strukturera och utforma innehållet i e-postmeddelandet med [E-posta Designer](get-started-email-designer.md#start-authoring). Mer information om hur du utformar e-postinnehåll finns i följande avsnitt:
 
    * [Skapa e-postmeddelanden från grunden](create-email-content.md)
    * [Formatera innehållet](get-started-email-style.md)

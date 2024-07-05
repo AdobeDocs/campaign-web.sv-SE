@@ -81,7 +81,7 @@ The **[!UICONTROL Destination]** I kan du konfigurera hur den extraherade filen 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
->title="Efterbearbetning"
+>title="Post"
 >abstract="Definiera ett steg för efterbearbetning som ska användas, till exempel för komprimering eller kryptering."
 
 The **[!UICONTROL Export modification script]** gör att du kan använda en bearbetningsfas som ska köras under dataextraheringen, t.ex. komprimering eller kryptering. Klicka på **[!UICONTROL Edit script]** -knappen.

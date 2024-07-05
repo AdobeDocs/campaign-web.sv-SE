@@ -5,7 +5,7 @@ description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="Push-innehåll för Android"
+>title="Push Android content"
 >abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Redigera innehåll** -knappen."
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Push Android-meddelande"
+>title="Skicka Android-meddelande"
 >abstract="Definiera innehållet i ditt push-meddelande för Android-enheter. Klicka på knappen **Titel** och **Meddelande** fält. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg. Om du vill ha mer anpassad konfiguration går du till **Avancerade inställningar** -avsnitt."
 
 >[!CONTEXTUALHELP]
@@ -48,12 +48,12 @@ När du har skapat din push-leverans kan du definiera innehållet. Parametrar oc
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
-* The **[!UICONTROL Data message]** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet, som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
+* The **[!UICONTROL Data message]** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
 
   Om du vill definiera innehåll, anpassa data och lägga till dynamiskt innehåll klickar du på **[!UICONTROL Message]** och använder uttrycksredigeraren. Du kan använda den här redigeraren för att anpassa dina meddelanden.
 I **[!UICONTROL Application variables]** -menyn läggs programvariablerna automatiskt till. Med dessa variabler kan du definiera meddelandebeteende. Du kan till exempel konfigurera en specifik programskärm som ska visas när användaren aktiverar meddelandet.
 
-  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_4.png){zoomable="yes"}
 
 * The **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
@@ -61,7 +61,7 @@ I **[!UICONTROL Application variables]** -menyn läggs programvariablerna automa
 
   Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
 
-  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
@@ -71,7 +71,7 @@ Du kan lägga till en **[!UICONTROL Subtitle]**, värdet för undertitelparamete
 
 I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilprogram. Användaren har inte informerats om meddelandets ankomst. Den överförs direkt till programmet.
 
-![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -124,7 +124,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beskrivning |
 |---------|---------|
@@ -140,7 +140,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_2.png){zoomable="yes"}
 
 | Parameter | Beskrivning |
 |---------|---------|

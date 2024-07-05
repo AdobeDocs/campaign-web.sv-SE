@@ -5,7 +5,7 @@ description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Använd befintligt e-postinnehåll"
->abstract="Med e-postdesignern kan du importera befintligt HTML-innehåll. Innehållet kan vara en HTML-fil med en infogad formatmall eller en ZIP-mapp med HTML-filen, formatmallen (.css) och bilder."
+>abstract="Med e-post-Designer kan du importera befintligt HTML-innehåll. Innehållet kan vara en HTML-fil med en infogad formatmall eller en ZIP-mapp med HTML-filen, formatmallen (.css) och bilder."
 
-Du kan importera befintligt HTML-innehåll i e-postdesignern. Innehållet kan vara:
+Du kan importera befintligt HTML-innehåll i e-post-Designer. Innehållet kan vara:
 
 * An **HTML-fil** med en infogad formatmall,
 * A **ZIP-mapp** med HTML-filen, formatmallen (.css) och bilderna.
@@ -30,9 +30,9 @@ Du kan importera befintligt HTML-innehåll i e-postdesignern. Innehållet kan va
 
 Om du vill importera en fil som innehåller HTML-innehåll följer du stegen nedan.
 
-1. På [E-postdesigner](get-started-email-designer.md) startsida, välja **[!UICONTROL Import HTML]**.
+1. På [E-posta Designer](get-started-email-designer.md) startsida, välja **[!UICONTROL Import HTML]**.
 
-   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-import.png){zoomable="yes"}
 
 1. Dra och släpp HTML- eller ZIP-filen med HTML och klicka på **[!UICONTROL Import]**.
 
@@ -40,17 +40,17 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
    I det här läget kan du bara anpassa texten, lägga till länkar eller inkludera resurser i innehållet.
 
-   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-imported.png){zoomable="yes"}
 
-1. Om du vill kunna utnyttja e-postdesignerns innehållskomponenter ska du gå till **[!UICONTROL HTML converter]** och klicka **[!UICONTROL Convert]**.
+1. Om du vill kunna utnyttja e-postkomponenterna i Designer-innehållet går du till **[!UICONTROL HTML converter]** och klicka **[!UICONTROL Convert]**.
 
-   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >
    > Använda `<table>` taggen som det första lagret i en HTML-fil kan orsaka formatförlust, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-1. Du kan nu anpassa den importerade filen efter behov med e-postdesignerfunktionerna [Läs mer](content-components.md).
+1. Du kan nu anpassa den importerade filen efter behov med e-postfunktionerna i Designer [Läs mer](content-components.md).
 
 ## Instruktionsvideo {#video}
 

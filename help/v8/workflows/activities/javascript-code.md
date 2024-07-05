@@ -1,43 +1,44 @@
 ---
 audience: end-user
-title: Använda arbetsflödesaktiviteten för JavaScript-kod
-description: Lär dig hur du använder arbetsflödesaktiviteten för JavaScript-kod
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+title: Använda JavaScript kodarbetsflödesaktivitet
+description: Lär dig använda JavaScript kodarbetsflödesaktivitet
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
 
 ---
 
-# JavaScript-kod {#javascript-code}
+# JavaScript code {#javascript-code}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="JavaScript-kod"
->abstract="The **JavaScript-kod** Med -aktivitet kan du köra ett JavaScript-skript i ett arbetsflödes sammanhang. På så sätt kan du utföra åtgärder eller samla in information från databasen. Använd **Enkel** JavaScript-kodaktiviteter som kör ett kodfragment vid körning av arbetsflödet. **Avancerat** Javascript-kodaktiviteter gör att du kan utföra mer komplexa åtgärder genom att köra två olika kodfragment i en sekventiell ordning. Första gången arbetsflödet startas körs det första anropet. Varje gång arbetsflödet körs igen körs koden som definierats i det andra anropet."
+>title="JavaScript code"
+>abstract="The **JavaScript code** kan du köra ett JavaScript-skript i ett arbetsflödes sammanhang. På så sätt kan du utföra åtgärder eller samla in information från databasen. Använd **Enkel** JavaScript-kodaktiviteter för att köra ett kodfragment vid körning av arbetsflödet. **Avancerat** Javascript-kodaktiviteter gör att du kan utföra mer komplexa åtgärder genom att köra två olika kodfragment i en sekventiell ordning. Första gången arbetsflödet startas körs det första anropet. Varje gång arbetsflödet körs igen körs koden som definierats i det andra anropet."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-kodfragment"
->abstract="Definiera skriptet som ska köras när aktiviteten körs. Om du konfigurerar en **Avancerat** JavaScript-aktivitet. Du måste redigera två kodfragment: den första anropskoden som ska köras vid den första körningen av arbetsflödet och nästa anropskod som ska köras vid nästa anrop i arbetsflödet."
+>abstract="Definiera skriptet som ska köras när aktiviteten körs. Om du konfigurerar en **Avancerat** JavaScript-aktiviteten kräver att du redigerar två kodfragment: den första anropskoden som ska köras vid den första körningen av arbetsflödet och nästa anropskod som ska köras vid nästa anrop i arbetsflödet."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="JavaScript-körning"
+>title="Körning av JavaScript"
 >abstract="Konfigurera körningsfördröjningen för att stoppa aktiviteten efter en körningsperiod. Som standard får körningsfasen inte överskrida 1 timme. Efter den här fördröjningen avbryts processen med ett felmeddelande och aktivitetskörningen misslyckas. Om du vill ignorera den här gränsen anger du värdet 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript-övergång"
->abstract="Om du vill lägga till flera utdataövergångar klickar du på **[!UICONTROL Add transitions]** -knappen. Detta gör att du till exempel kan utlösa en viss övergång baserat på ett specifikt villkor som definieras i JavaScript-kodsaktiviteten. Det här alternativet är tillgängligt för **Avancerat** Endast JavaScript-kodaktiviteter."
+>title="JavaScript Transition"
+>abstract="Om du vill lägga till flera utdataövergångar klickar du på **[!UICONTROL Add transitions]** -knappen. Detta gör att du till exempel kan utlösa en viss övergång baserat på ett specifikt villkor som definieras i JavaScript-kodsaktiviteten. Det här alternativet är tillgängligt för **Avancerat** Endast JavaScript kodaktiviteter."
 
-The **JavaScript-kod** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten för att köra ett JavaScript-skript i ett arbetsflödes sammanhang. På så sätt kan du samla in information från databasen eller utföra andra komplexa åtgärder.
+The **JavaScript code** aktiviteten är en **Datahantering** aktivitet. Använd den här aktiviteten för att köra ett JavaScript-skript i ett arbetsflödes sammanhang. På så sätt kan du samla in information från databasen eller utföra andra komplexa åtgärder.
 
 ## Konfigurera JavaScript-kodaktiviteten {#javascript-code-configuration}
 
-Följ de här stegen för att konfigurera **JavaScript-kod** aktivitet:
+Följ de här stegen för att konfigurera **JavaScript code** aktivitet:
 
-1. Lägg till en **JavaScript-kod** i arbetsflödet.
+1. Lägg till en **JavaScript code** i arbetsflödet.
 
 1. Välj vilken typ av aktivitet du vill skapa:
 
@@ -46,7 +47,7 @@ Följ de här stegen för att konfigurera **JavaScript-kod** aktivitet:
 
    >[!NOTE]
    >
-   >Med Campaign Web User Interface har vi konsoliderat två aktiviteter till en genom att slå samman båda **Enkel** och **Avancerat** JavaScript-kodfunktioner. Denna konsolidering påverkar inte aktivitetens funktion på något sätt.
+   >Med Campaign Web User Interface har vi konsoliderat två aktiviteter till en genom att slå samman båda **Enkel** och **Avancerat** JavaScript kodfunktioner. Denna konsolidering påverkar inte aktivitetens funktion på något sätt.
 
 1. Bekräfta och klicka sedan på **[!UICONTROL Edit code]** för att öppna uttrycksredigeraren. I den vänstra rutan finns fördefinierade syntaxer som du kan använda för att skapa koden, inklusive händelsevariabler. [Lär dig hur du arbetar med händelsevariabler och uttrycksredigeraren](../event-variables.md)
 
@@ -95,7 +96,7 @@ Här riktar vi oss VIP profiler från vår databas. Vi vill skapa en variabel so
 
 Följ dessa steg för att göra detta:
 
-1. Lägg till en **JavaScript-kod** aktivitet med typen **Enkel** efter **Bygg målgrupper** aktivitet.
+1. Lägg till en **JavaScript code** aktivitet med typen **Enkel** efter **Bygg målgrupper** aktivitet.
 
 1. Klicka **Redigera kod** och konfigurera kodfragmentet enligt nedan:
 
@@ -120,7 +121,7 @@ Vi vill aktivera olika övergångar i arbetsflödet utifrån variabelns värde.
 
 Följ dessa steg för att göra detta:
 
-1. Lägg till en **JavaScript-kod** aktivitet efter extern signalaktivitet med typen **Avancerat**.
+1. Lägg till en **JavaScript code** aktivitet efter extern signalaktivitet med typen **Avancerat**.
 
 1. Lägg till två övergångar: en för varje möjligt variabelvärde (&quot;running&quot;, &quot;yoga&quot;).
 

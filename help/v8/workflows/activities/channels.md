@@ -61,8 +61,8 @@ Bygg upp arbetsflödet med relevanta aktiviteter:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Push Android-aktivitet"
->abstract="Aktiviteten Push Android effektiviserar processen att skicka push-meddelanden för Android som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar skickade Android-push-meddelanden till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
+>title="Push Android activity"
+>abstract="Push Android-aktiviteten effektiviserar processen att skicka Android Push-meddelanden som en del av ditt arbetsflöde. Det gör det möjligt att leverera både engångs- och återkommande meddelanden, och automatiserar utskicksmeddelandena från Android Push till ett fördefinierat mål inom samma arbetsflöde. Du kan kombinera kanalaktiviteter i arbetsytan för arbetsflöden för att skapa flerkanaliga arbetsflöden som kan utlösa åtgärder baserat på kundbeteende och data."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"

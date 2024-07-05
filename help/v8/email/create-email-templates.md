@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Med den här funktionen kan innehållsorienterade användare arbeta med friståe
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Redigera mallinnehåll"
->abstract="Klicka på **Redigera innehåll** för att uppdatera innehållet med e-postdesignern."
+>abstract="Klicka på **Redigera innehåll** för att uppdatera ditt innehåll med e-post-Designer."
 
 Bläddra till innehållsmallslistan för att komma åt den **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menyn från den vänstra listen.
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
 På den här instrumentpanelen visas alla tillgängliga innehållsmallar som en lista. Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 I listan kan du redigera, duplicera eller ta bort befintliga innehållsmallar. Använd knappen i det övre avsnittet för att skapa en innehållsmall.
 
@@ -83,25 +83,25 @@ Så här skapar du en ny innehållsmall från kontrollpanelen för innehållsmal
 
 1. Välj **[!UICONTROL Create template]**.
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
 1. Ange malletiketten och -egenskaperna. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Läs mer om mappar i [den här sidan](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
 1. Klicka **[!UICONTROL Create]** och välja hur du vill utforma mallen bland de olika alternativen:
 
-   * [Designa ditt innehåll från grunden](create-email-content.md) via e-postdesignerns gränssnitt.
+   * [Designa ditt innehåll från grunden](create-email-content.md) via e-postgränssnittet i Designer.
 
-   * [Kod eller kopiera-klistra in Raw-HTML](code-content.md) direkt in i e-postdesignern.
+   * [Kod eller kopiera-klistra in Raw-HTML](code-content.md) direkt till e-postprogrammet Designer.
 
    * [Importera befintligt HTML-innehåll](existing-content.md) från en fil eller en ZIP-mapp.
 
    * Använd befintligt innehåll från en lista med inbyggda eller anpassade mallar. Stegen för hur du använder en innehållsmall i ett e-postmeddelande beskrivs i [det här avsnittet](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. E-postdesignern visas. Redigera ditt innehåll efter behov, på samma sätt som för alla e-postmeddelanden, beroende på vilket alternativ du har valt. Lär dig hur du använder e-postdesignern i [det här avsnittet](get-started-email-designer.md).
+1. E-post-Designer visas. Redigera ditt innehåll efter behov, på samma sätt som för alla e-postmeddelanden, beroende på vilket alternativ du har valt. Lär dig hur du använder e-post-Designer i [det här avsnittet](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -109,11 +109,11 @@ Så här skapar du en ny innehållsmall från kontrollpanelen för innehållsmal
 
    Klicka vid behov på pilen bredvid mallnamnet för att gå tillbaka till **[!UICONTROL Details]** och redigera mallen.
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
 Mallen är tillgänglig i **[!UICONTROL Content templates]** lista. [Läs mer](#access-templates)
 
-Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
+Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postens Designer. [Lär dig mer](use-email-templates.md)
 
 ### Spara e-postinnehåll som mall {#save-as-template}
 
@@ -125,17 +125,17 @@ Så här sparar du ett e-postinnehåll som en mall:
 
 1. Välj **[!UICONTROL Save as content template]** i listrutan.
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. Ange ett namn för mallen och spara.
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
 Mallen sparas och visas i **[!UICONTROL Content templates]** lista. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
 
-Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postdesignern. [Lär dig mer](use-email-templates.md)
+Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postens Designer. [Lär dig mer](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -165,9 +165,9 @@ Så här uppdaterar du en befintlig innehållsmall:
 
 1. I listan med innehållsmallar klickar du på mallens etikett för att redigera den.
 
-1. Klicka på **[!UICONTROL Edit content]** för att uppdatera innehållet med [E-postdesigner](get-started-email-designer.md).
+1. Klicka på **[!UICONTROL Edit content]** för att uppdatera innehållet med [E-posta Designer](get-started-email-designer.md).
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
