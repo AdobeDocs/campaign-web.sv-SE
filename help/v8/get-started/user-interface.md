@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1627'
 ht-degree: 1%
 
 ---
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="Redigera anpassade attribut"
 >abstract="Redigera anpassade attribut"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Transactional Messaging"
+>abstract="Transactional Messaging"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Egenskaper för transaktionsmeddelanden"
+>abstract="Egenskaper för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Transactional Messaging-händelse"
+>abstract="Transactional Messaging-händelse"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Kontext för transaktionsmeddelanden"
+>abstract="Kontext för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Transactional Messaging-innehåll"
+>abstract="Transactional Messaging-innehåll"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalisering av transaktionsmeddelanden"
+>abstract="Personalisering av transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalisering av transaktionsmeddelanden"
+>abstract="Personalisering av transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Exkluderingsloggar för transaktionsmeddelanden"
+>abstract="Exkluderingsloggar för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Kontext för transaktionsmeddelanden"
+>abstract="Kontext för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Händelsehistorik för transaktionsmeddelanden"
+>abstract="Händelsehistorik för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
+>abstract="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
+
