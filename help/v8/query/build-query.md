@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2094'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Du kan lägga till två typer av element:
 
   Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
-  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-component.png){zoomable="yes"}
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) låter dig gruppera filterkomponenter i diagrammet tillsammans. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
   Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **OCH**som bor i New York **ELLER**San Francisco*.
 
-  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-operator.png){zoomable="yes"}
 
 ## Lägga till filterkomponenter {#filtering}
 
@@ -49,7 +49,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. I **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller.
 
-   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -84,11 +84,11 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
-   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition.png){zoomable="yes"}
 
    För datumtypsattribut är fördefinierade värden tillgängliga med **[!UICONTROL Presets]** alternativ.
 
-   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
+   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
@@ -104,15 +104,15 @@ Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
 1. Navigera inuti **Varumärke** tabellen och välj **Etikett** -attribut.
 
-   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definiera det förväntade värdet för attributet.
 
-   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 Här följer ett frågeexempel där en tabelllänk har markerats direkt. Tillgängliga värden för den här tabellen måste väljas från en dedikerad väljare.
 
-![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -124,19 +124,19 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
 1. Välj **Inköp** tabell och bekräfta.
 
-   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. En utgående övergång läggs till så att du kan skapa delvillkor.
 
-   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Välj **Pris** köp av minst 1 000 dollar för attribut och mål
 
-   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Lägg till undervillkor som passar dina behov. Här har vi lagt till ett villkor för målprofiler som har köpt en BrewMaster-produkt.
 
-   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -146,11 +146,11 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 1. Navigera i den önskade samlingstabellen och markera attributet som du vill utföra en sammanställningsåtgärd på.
 
-   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. I egenskapsrutan växlar du till **Sammanställningsdata** och väljer önskad sammanställningsfunktion.
 
-   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### Välj en målgrupp {#audiences}
 
@@ -167,7 +167,7 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
    *Frågeexempel som returnerar alla profiler som tillhör målgruppen Festival Goers:*
 
-   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-audience.png){zoomable="yes"}
 
 ### Använda ett fördefinierat filter {#predefined-filters}
 
@@ -184,7 +184,7 @@ Så här filtrerar du frågan med ett fördefinierat filter:
 
    *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret &quot;Inaktiva kunder&quot;:*
 
-   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### Kopiera och klistra in komponenter {#copy}
 
@@ -202,11 +202,11 @@ Så här kopierar och klistrar du in filterkomponenter:
 
    | Kopiera en enstaka komponent | Kopiera flera komponenter |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **Klistra in objekt**.
 
-   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
+   ![](assets/copy-paste.png){zoomable="yes"}
 
 ## Kombinera filterkomponenter med operatorer {#operators}
 
@@ -219,7 +219,7 @@ Varje gång du lägger till en ny filterkomponent i frågan länkas den automati
 
 I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtervillkoret med en **OCH** -operatorn, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret&quot;Madridians&quot; OCH som tillhör publiken&quot;Rabattjägare&quot;.
 
-![](assets/query-operator.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator.png){zoomable="yes"}
 
 Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i dialogrutan **Grupp** som öppnas till höger.
 
@@ -229,13 +229,13 @@ Tillgängliga operatorer:
 * **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
 * **UTOM (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
 
-![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator-change.png){zoomable="yes"}
 
 Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på **+** knapp på en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
 
 I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
+![](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## Kontrollera och validera frågan
 
@@ -244,7 +244,7 @@ I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera result
 >title="Regelegenskaper"
 >abstract="När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger.<br/>I det här fönstret kan du visa resulterande data, hämta en SQL-kodversion av frågan och kontrollera antalet målposter.<br/>Använd **Markera eller spara filter** om du vill spara frågan som ett fördefinierat filter eller ersätta arbetsytans innehåll med ett befintligt filter."
 
-När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger. Tillgängliga åtgärder är:
+När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger Den här rutan visas när du skapar en fråga för att skapa en målgrupp. Tillgängliga åtgärder är:
 
 * **Visa resultat:** Visar de data som är resultatet av din fråga.
 * **kodvyn**: Visar en kodbaserad version av frågan i SQL.
@@ -259,4 +259,4 @@ Klicka på knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att 
 
 Du kan ändra frågan när som helst genom att öppna den. Kom ihåg att när du öppnar en befintlig fråga visas den i en förenklad vy utan att synligheten för  **+** knappar. Om du vill lägga till nya element i frågan väljer du en komponent eller operator på arbetsytan för att visa **+** knappar.
 
-![](assets/edit-audience.png){zoomable=&quot;yes&quot;}
+![](assets/edit-audience.png){zoomable="yes"}
