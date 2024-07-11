@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
+source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 1%
 
 ---
@@ -332,6 +332,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="Egenskaper för transaktionsmeddelanden"
 >abstract="Egenskaper för transaktionsmeddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_mobileapp"
+>title="Mobilappen Transactional Messaging"
+>abstract="Mobilappen Transactional Messaging"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
