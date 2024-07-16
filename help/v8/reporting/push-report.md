@@ -5,7 +5,7 @@ description: Lär dig hur du får tillgång till och använder push-leveransrapp
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Rapportsändning"
->abstract="The **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
+>abstract="Fliken **Skickar** i din rapport ger djupgående insikter om besökarnas interaktioner med dina leveranser och eventuella fel som de har påträffat."
 
-The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, med omfattande insikter och specifika data. Det innehåller omfattande information om prestanda, effektivitet och resultat för varje leverans.
+Rapporten **Push-leverans** ger en grundlig översikt över push-kanalen, med omfattande insikter och specifika data. Det innehåller omfattande information om prestanda, effektivitet och resultat för varje leverans.
 
 ## Push-sammanfattning {#push-summary}
 
@@ -26,11 +26,11 @@ The **Rapport om push-leverans** ger en grundlig översikt över push-kanalen, m
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Översikt över push-leverans"
->abstract="The **Översikt över push-leverans** ger en omfattande översikt över er push-leverans och ger omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat."
+>abstract="**Översikt över push-leverans** ger en omfattande översikt över din push-leverans, med omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat."
 
-The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med push-meddelanden.
+Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med dina push-meddelanden.
 
-![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -49,11 +49,11 @@ The **[!UICONTROL Delivery overview]** rapporten innehåller nyckeltal (KPI:er) 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
 >title="Skjut målpopulationen"
->abstract="The **Målgrupp** diagram- och tabellvisningsdata som är relativa till er publik med push-meddelanden: meddelanden som levererar och utesluter."
+>abstract="Diagrammet **Målpopulation** visar data i förhållande till målgruppen för push-meddelanden: meddelanden som ska levereras och undantag."
 
-The **Målgrupp** diagram- och tabellvisningsdata i relation till er målgrupp: meddelanden som ska levereras och exkluderas. Mätvärdena anges nedan.
+Diagrammet **Målpopulation** visar data i förhållande till målgruppen: meddelanden som ska levereras och undantag. Mätvärdena anges nedan.
 
-![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -68,11 +68,11 @@ The **Målgrupp** diagram- och tabellvisningsdata i relation till er målgrupp: 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Övergripande statistik"
->abstract="The **Övergripande statistik** rapporten innehåller data för skickade push-meddelanden: lyckade, felaktiga och karantän."
+>abstract="Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade, felaktiga och karantän."
 
-The **Övergripande statistik** rapporten innehåller data för skickade push-meddelanden: lyckade, felaktiga och karantän. Mätvärdena anges nedan.
+Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade, felaktiga och karantän. Mätvärdena anges nedan.
 
-![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_5.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
@@ -89,12 +89,12 @@ The **Övergripande statistik** rapporten innehåller data för skickade push-me
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="Undantag för push-meddelanden"
->abstract="The **Undantag** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet."
+>abstract="Diagrammet och tabellen **Undantag** visar olika orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet."
 
-The **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker som gjorde att användarprofiler som inte ingick i målprofilerna inte kunde ta emot meddelandet. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -103,6 +103,6 @@ The **[!UICONTROL Exclusions]** I diagram och tabeller visas de olika orsaker so
 >title="Rapport om leveransdataflöde"
 >abstract="Rapporten Leveransflöde innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
 
-The **Leveransflöde** rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
+Rapporten **Leveransflöde** innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_2.png){zoomable="yes"}

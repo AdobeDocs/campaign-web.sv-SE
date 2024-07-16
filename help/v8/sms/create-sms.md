@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definiera SMS-målgruppen"
->abstract="Du kan skapa en ny målgrupp eller välja en befintlig genom att klicka på **Välj målgrupp** -knappen. Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
+>abstract="Du kan skapa en ny målgrupp eller välja en befintlig genom att klicka på knappen **Välj målgrupp** . Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 >[!CONTEXTUALHELP]
@@ -30,51 +30,51 @@ ht-degree: 5%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Använd leveransmallar"
 
 
-Du kan skapa en fristående SMS-leverans eller skapa ett SMS i samband med ett kampanjarbetsflöde. Stegen nedan beskriver i detalj proceduren för en fristående (enshot) SMS-leverans. Om du arbetar i ett kampanjarbetsflöde visas stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Du kan skapa en fristående SMS-leverans eller skapa ett SMS i samband med ett kampanjarbetsflöde. Stegen nedan beskriver i detalj proceduren för en fristående (enshot) SMS-leverans. Om du arbetar i ett kampanjarbetsflöde är stegen för att skapa detaljer i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Så här skapar du en ny fristående SMS-leverans:
 
-1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
+1. Bläddra till menyn **[!UICONTROL Deliveries]** i den vänstra listen och klicka på knappen **[!UICONTROL Create delivery]**.
 
-1. Under **[!UICONTROL Channel]** väljer du SMS som kanal och väljer en mall. [Läs mer om mallar](../msg/delivery-template.md)
+1. Välj SMS som kanal under avsnittet **[!UICONTROL Channel]** och välj en mall. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
    ![](assets/sms_create_1.png){zoomable="yes"}
 
-1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny. Om leveransen baseras på ett utökat schema, **Anpassade alternativ** fält är tillgängliga.
+1. Ange en **[!UICONTROL Label]** för leveransen och öppna listrutan **[!UICONTROL Additional options]**. Om leveransen baseras på ett utökat schema är specifika **anpassade alternativ**-fält tillgängliga.
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
-   * **[!UICONTROL Folder]**: Lagra leveransen i en viss mapp.
-   * **[!UICONTROL Delivery code]**: Ordna leveranserna med din egen namnkonvention.
+   * **[!UICONTROL Folder]**: Lagra leveransen i en specifik mapp.
+   * **[!UICONTROL Delivery code]**: Organisera dina leveranser med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificering.
+   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificeringssyften.
 +++
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
+1. Klicka på knappen **[!UICONTROL Select audience]** om du vill ange en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png){zoomable="yes"}
 
-   Lär dig hur du väljer en befintlig målgrupp i [den här sidan](../audience/add-audience.md)
+   Lär dig hur du väljer en befintlig målgrupp på [den här sidan](../audience/add-audience.md)
 
-   Lär dig skapa en ny publik i [den här sidan](../audience/one-time-audience.md)
+   Lär dig hur du skapar en ny målgrupp på [den här sidan](../audience/one-time-audience.md)
 
-1. Aktivera **[!UICONTROL Enable control group]** kan du ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
+1. Aktivera alternativet **[!UICONTROL Enable control group]** om du vill ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](../audience/control-group.md)
 
-1. Klicka **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet. [Läs mer](content-sms.md)
+1. Klicka på **[!UICONTROL Edit content]** för att börja designa innehållet i SMS-meddelandet. [Läs mer](content-sms.md)
 
    ![](assets/sms_create_4.png){zoomable="yes"}
 
    Från den här skärmen kan du även [simulera ditt innehåll](../preview-test/preview-test.md) och [konfigurera erbjudanden](../msg/offers.md).
 
-1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#gs-schedule).
+1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du alternativet **[!UICONTROL Enable scheduling]**. När du har initierat leveransen skickas meddelandet automatiskt på exakt det datum och klockslag som du har angett för mottagaren. Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
+   >När en leverans skickas i ett arbetsflödes kontext måste du använda aktiviteten **Schemaläggaren**. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
 
-1. Klicka **[!UICONTROL Settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
+1. Klicka på **[!UICONTROL Settings]** för att komma åt avancerade alternativ som är relaterade till din leveransmall. [Läs mer](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png){zoomable="yes"}

@@ -17,7 +17,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Inkrementell fråga"
->abstract="The **Inkrementell fråga** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan fråga databasen med hjälp av frågemodelleraren. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
+>abstract="Aktiviteten **Inkrementell fråga** är en **målaktivitet** som gör att du kan fråga databasen med hjälp av frågemodelleraren. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -29,11 +29,11 @@ ht-degree: 20%
 >title="Inkrementell fråga Bearbetade data"
 >abstract="Inkrementell fråga Bearbetade data"
 
-The **Inkrementell fråga** aktiviteten är en **Målinriktning** -aktivitet som gör att du kan fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
+Aktiviteten **Inkrementell fråga** är en **målaktivitet** som gör att du kan fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
 
 >[!NOTE]
 >
->Klientkonsolen för Campaign integrerar **[!UICONTROL Incremental query]** med en inbyggd schemaläggare behandlar Campaign Web User Interface den här funktionen separat. Om du vill schemalägga stegvisa frågekörningar måste du lägga till en **[!UICONTROL Scheduler]** aktivitet i arbetsflödet före **[!UICONTROL Incremental query]** aktivitet. [Lär dig hur du konfigurerar en schemaläggaraktivitet](scheduler.md)
+>Klientkonsolen för Campaign integrerar aktiviteten **[!UICONTROL Incremental query]** med en inbyggd schemaläggare, men gränssnittet för Campaign Web behandlar den här funktionen separat. Om du vill schemalägga inkrementella frågekörningar måste du lägga till en **[!UICONTROL Scheduler]**-aktivitet i arbetsflödet före **[!UICONTROL Incremental query]**-aktiviteten. [Lär dig konfigurera en schemaläggaraktivitet](scheduler.md)
 
 Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av användning:
 
@@ -46,27 +46,27 @@ Om resultatet av en inkrementell fråga är lika med 0 under en av körningarna 
 
 ## Konfigurera aktiviteten Inkrementell fråga {#incremental-query-configuration}
 
-Följ de här stegen för att konfigurera **Inkrementell fråga** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Inkrementell fråga**:
 
 ![](../assets/incremental-query.png)
 
-1. Lägg till en **Inkrementell fråga** i arbetsflödet.
+1. Lägg till en **inkrementell frågeaktivitet** i ditt arbetsflöde.
 
-1. I **[!UICONTROL Audience]** väljer du **Måldimension** klicka sedan på **[!UICONTROL Continue]**.
+1. I avsnittet **[!UICONTROL Audience]** väljer du **Måldimension** och klickar sedan på **[!UICONTROL Continue]**.
 
-   Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions)
+   Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
 
 1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
-1. I **[!UICONTROL Processed data]** väljer du det inkrementella läge som ska användas:
+1. I avsnittet **[!UICONTROL Processed data]** väljer du det inkrementella läge som ska användas:
 
-   * **[!UICONTROL Exclude results of previous execution]**: Varje gång aktiviteten körs exkluderas resultatet från föregående körningar.
+   * **[!UICONTROL Exclude results of previous execution]**: Varje gång aktiviteten körs exkluderas resultatet från tidigare körningar.
 
-     Poster som redan har valts i tidigare körningar kan loggas i högst ett antal dagar från den dag de angavs som mål. Använd **[!UICONTROL History in days]** fält. Om värdet är noll rensas mottagarna aldrig från loggen.
+     Poster som redan har valts i tidigare körningar kan loggas i högst ett antal dagar från den dag de angavs som mål. Använd fältet **[!UICONTROL History in days]** om du vill göra det. Om värdet är noll rensas mottagarna aldrig från loggen.
 
-   * **[!UICONTROL Use a date field]**: Med det här alternativet kan du utesluta resultat från tidigare körningar baserat på ett specifikt datumfält. Det gör du genom att välja önskat datumfält i listan över tillgängliga attribut för den valda måldimensionen. Vid nästa körning av arbetsflödet hämtas endast data som har ändrats eller skapats efter det senaste körningsdatumet.
+   * **[!UICONTROL Use a date field]**: Med det här alternativet kan du exkludera resultat från tidigare körningar baserat på ett specifikt datumfält. Det gör du genom att välja önskat datumfält i listan över tillgängliga attribut för den valda måldimensionen. Vid nästa körning av arbetsflödet hämtas endast data som har ändrats eller skapats efter det senaste körningsdatumet.
 
-     Efter den första körningen av arbetsflödet **[!UICONTROL Last execution date]** blir tillgängligt. Det anger vilket datum som ska användas för nästa körning och uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
+     Efter den första körningen av arbetsflödet blir fältet **[!UICONTROL Last execution date]** tillgängligt. Det anger vilket datum som ska användas för nästa körning och uppdateras automatiskt varje gång arbetsflödet körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
 
    >[!NOTE]
    >
@@ -82,4 +82,4 @@ Arbetsflödet består av följande element:
 
 * En **[!UICONTROL Scheduler]**-aktivitet som utför arbetsflödet varje måndag kl. 06.00.
 * En **[!UICONTROL Incremental query]**-aktivitet som riktar sig till alla nuvarande prenumeranter under det första utförandet, och sedan endast till de nya prenumeranterna i den veckan under följande körningar.
-* An **[!UICONTROL Email delivery]** aktivitet.
+* En **[!UICONTROL Email delivery]**-aktivitet.

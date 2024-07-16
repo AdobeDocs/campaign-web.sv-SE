@@ -28,20 +28,20 @@ Med den här funktionen kan innehållsorienterade användare arbeta med friståe
 
 >[!NOTE]
 >
->Endast för närvarande **e-post** Innehållsmallar stöds.
+>För närvarande stöds bara **e-post**-innehållsmallar.
 
 ## Åtkomst till innehållsmallar {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Redigera mallinnehåll"
->abstract="Klicka på **Redigera innehåll** för att uppdatera ditt innehåll med e-post-Designer."
+>abstract="Klicka på knappen **Redigera innehåll** för att uppdatera ditt innehåll med e-post-Designer."
 
-Bläddra till innehållsmallslistan för att komma åt den **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menyn från den vänstra listen.
+Bläddra till menyn **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** från den vänstra listen för att få åtkomst till innehållsmalllistan.
 
 ![](assets/content-template-list.png){zoomable="yes"}
 
-På den här instrumentpanelen visas alla tillgängliga innehållsmallar som en lista. Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) använda listrutan eller lägga till regler med [frågemodellerare](../query/query-modeler-overview.md).
+På den här instrumentpanelen visas alla tillgängliga innehållsmallar som en lista. Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) med listrutan eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png){zoomable="yes"}
 
@@ -60,9 +60,9 @@ I listan kan du redigera, duplicera eller ta bort befintliga innehållsmallar. A
 >title="Val av innehållsmall"
 >abstract="Välj din e-postinnehållsmall."
 
-Innehållsmallar kan skapas av [spara ett befintligt e-postmeddelande som en mall](#save-as-template)eller från listan med e-postmallar via **Skapa innehållsmall** knapp, [enligt nedan](#create-template-from-scratch).
+Du kan skapa innehållsmallar genom att [spara ett befintligt e-postmeddelande som en mall](#save-as-template), eller från listan med e-postmallar, med knappen **Skapa innehållsmall** [som visas nedan](#create-template-from-scratch).
 
-När du har sparat mallen kan du nu använda den när du skapar [e-post](../email/create-email.md) inom [!DNL Adobe Campaign]. [Lär dig mer](use-email-templates.md)
+När du har sparat mallen kan du nu använda den när du skapar ett [e-postmeddelande](../email/create-email.md) i [!DNL Adobe Campaign]. [Lär dig hur](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -79,21 +79,21 @@ När du har sparat mallen kan du nu använda den när du skapar [e-post](../emai
 
 Så här skapar du en ny innehållsmall från kontrollpanelen för innehållsmallar:
 
-1. Bläddra till innehållsmallslistan från **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** vänster räl.
+1. Bläddra till innehållsmalllistan från den vänstra listen **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]**.
 
 1. Välj **[!UICONTROL Create template]**.
 
    ![](assets/content-template-create.png){zoomable="yes"}
 
-1. Ange malletiketten och -egenskaperna. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Läs mer om mappar i [den här sidan](../get-started/permissions.md#folders)
+1. Ange malletiketten och -egenskaperna. Du kan välja den mapp där du vill spara mallen. Som standard lagras innehållsmallar i en dedikerad mapp i Adobe Campaign-hierarkin: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Läs mer om mappar på [den här sidan](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png){zoomable="yes"}
 
-1. Klicka **[!UICONTROL Create]** och välja hur du vill utforma mallen bland de olika alternativen:
+1. Klicka på **[!UICONTROL Create]** och välj hur du vill utforma mallen bland de olika alternativen:
 
    * [Designa ditt innehåll från grunden](create-email-content.md) via e-postgränssnittet i Designer.
 
-   * [Kod eller kopiera-klistra in Raw-HTML](code-content.md) direkt till e-postprogrammet Designer.
+   * [Kod eller kopiera och klistra in Raw-HTML](code-content.md) direkt i e-postens Designer.
 
    * [Importera befintligt HTML-innehåll](existing-content.md) från en fil eller en ZIP-mapp.
 
@@ -105,23 +105,23 @@ Så här skapar du en ny innehållsmall från kontrollpanelen för innehållsmal
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
-1. När mallen är klar klickar du **[!UICONTROL Save]**.
+1. När mallen är klar klickar du på **[!UICONTROL Save]**.
 
-   Klicka vid behov på pilen bredvid mallnamnet för att gå tillbaka till **[!UICONTROL Details]** och redigera mallen.
+   Om det behövs klickar du på pilen bredvid mallnamnet för att gå tillbaka till skärmen **[!UICONTROL Details]** och redigera mallen.
 
    ![](assets/content-template-save-back.png){zoomable="yes"}
 
-Mallen är tillgänglig i **[!UICONTROL Content templates]** lista. [Läs mer](#access-templates)
+Mallen är tillgänglig i listan **[!UICONTROL Content templates]**. [Läs mer](#access-templates)
 
-Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postens Designer. [Lär dig mer](use-email-templates.md)
+Du kan nu använda den här mallen för att skapa ett nytt innehåll: den är tillgänglig på fliken **[!UICONTROL Saved templates]** i e-post-Designer. [Lär dig hur](use-email-templates.md)
 
 ### Spara e-postinnehåll som mall {#save-as-template}
 
-En gång [har utformat ett e-postmeddelande](create-email-content.md)kan du spara innehållet som en mall för framtida återanvändning. Sparade mallar är tillgängliga för alla användare i din Adobe Campaign-miljö.
+När du har [utformat ett e-postmeddelande](create-email-content.md) kan du spara innehållet som en mall för framtida återanvändning. Sparade mallar är tillgängliga för alla användare i din Adobe Campaign-miljö.
 
 Så här sparar du ett e-postinnehåll som en mall:
 
-1. Klicka på knappen **[!UICONTROL More]** överst till höger på skärmen.
+1. I e-postdesignern klickar du på knappen **[!UICONTROL More]** överst till höger på skärmen.
 
 1. Välj **[!UICONTROL Save as content template]** i listrutan.
 
@@ -131,9 +131,9 @@ Så här sparar du ett e-postinnehåll som en mall:
 
    ![](assets/email_designer-template-name.png){zoomable="yes"}
 
-Mallen sparas och visas i **[!UICONTROL Content templates]** lista. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
+Mallen sparas och visas i listan **[!UICONTROL Content templates]**. Det blir en fristående innehållsmall som du kan komma åt, redigera och ta bort som alla andra objekt i listan. [Läs mer](#access-manage-templates)
 
-Du kan nu använda den här mallen för att skapa nytt innehåll: det är tillgängligt i **[!UICONTROL Saved templates]** i e-postens Designer. [Lär dig mer](use-email-templates.md)
+Du kan nu använda den här mallen för att skapa ett nytt innehåll: den är tillgänglig på fliken **[!UICONTROL Saved templates]** i e-post-Designer. [Lär dig hur](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png){zoomable="yes"}
 
@@ -165,7 +165,7 @@ Så här uppdaterar du en befintlig innehållsmall:
 
 1. I listan med innehållsmallar klickar du på mallens etikett för att redigera den.
 
-1. Klicka på **[!UICONTROL Edit content]** för att uppdatera innehållet med [E-posta Designer](get-started-email-designer.md).
+1. Klicka på knappen **[!UICONTROL Edit content]** om du vill uppdatera ditt innehåll med [e-post-Designer](get-started-email-designer.md).
 
 ![](assets/content-template-edition.png){zoomable="yes"}
 
@@ -177,11 +177,11 @@ Så här uppdaterar du en befintlig innehållsmall:
 
 Du kan ta bort en innehållsmall på två sätt:
 
-* i listan med innehållsmallar klickar du på ellipsknappen och väljer **Ta bort**
+* Klicka på ellipsknappen i listan med innehållsmallar och välj sedan **Ta bort**
 
   ![Ta bort en innehållsmall från instrumentpanelen](assets/content-template-list-delete.png)
 
-* från själva innehållsmallen klickar du på **Mer** knapp och markera **Ta bort**
+* från själva innehållsmallen klickar du på knappen **Mer** och väljer sedan **Ta bort**
 
 
 >[!NOTE]
@@ -195,7 +195,7 @@ Du kan duplicera en innehållsmall på två sätt:
 
 * i listan med innehållsmallar klickar du på ellipsknappen och väljer **Duplicera**
 
-* från själva innehållsmallen klickar du på **Mer** knapp och markera **Duplicera**
+* från själva innehållsmallen klickar du på knappen **Mer** och väljer sedan **Duplicera**
 
-I båda fallen måste du bekräfta dupliceringen för att skapa den nya innehållsmallen. Den nya innehållsmallens etikett är **Kopia av`<label of the initial campaign`**. Bläddra till mallinställningarna för att uppdatera den här etiketten.
+I båda fallen måste du bekräfta dupliceringen för att skapa den nya innehållsmallen. Etiketten för den nya innehållsmallen är **Kopia av`<label of the initial campaign`**. Bläddra till mallinställningarna för att uppdatera den här etiketten.
 

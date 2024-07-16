@@ -15,37 +15,37 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Generera ett komplement"
->abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera **Generera komplement** option"
+>abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **Generera komplement** om du vill göra det."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Ändra dimensionsaktivitet"
 >abstract="Med den här aktiviteten kan ni ändra målgruppsdimensionen när ni skapar en målgrupp. Axeln flyttas beroende på datamallen och indatamängden. Du kan till exempel växla från dimensionen &quot;kontrakt&quot; till dimensionen &quot;kunder&quot;."
 
-The **Ändra dimension** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du ändra måldimensionen när du skapar arbetsflödet. Axeln flyttas beroende på datamallen och indatamängden. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions)
+Aktiviteten **Ändra dimension** är en **målaktivitet**. Med den här aktiviteten kan du ändra måldimensionen när du skapar arbetsflödet. Axeln flyttas beroende på datamallen och indatamängden. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
 
 Du kan till exempel växla ett arbetsflödes målinriktning från&quot;Mottagare&quot; till&quot;Prenumerantprogram&quot; för att skicka push-meddelanden till målmottagarna.
 
 >[!IMPORTANT]
 >
->Observera att **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** aktiviteter ska inte läggas till på en rad. Om du behöver använda båda aktiviteterna i följd måste du inkludera en **[!UICONTROL Enrichement]** mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
+>Observera att aktiviteterna **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** inte ska läggas till på en rad. Om du behöver använda båda aktiviteterna i följd måste du ta med en **[!UICONTROL Enrichement]**-aktivitet mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
 
 ## Konfigurera aktiviteten Ändra dimension {#configure}
 
-Följ de här stegen för att konfigurera **Ändra dimension** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Ändra dimension**:
 
-1. Lägg till en **Ändra dimension** till ditt arbetsflöde.
+1. Lägg till en **Ändra dimension**-aktivitet i arbetsflödet.
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Definiera **Ny måldimension**. Vid dimensionsändring sparas alla poster. Andra alternativ är inte tillgängliga än.
+1. Definiera den **nya måldimensionen**. Vid dimensionsändring sparas alla poster. Andra alternativ är inte tillgängliga än.
 
 1. Kör arbetsflödet för att visa resultatet. Jämför data i tabellerna före och efter ändringsdimensionsaktiviteten och jämför arbetsflödestabellernas struktur.
 
 ## Exempel {#example}
 
-I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gjort ett köp. För att göra detta använder vi först en **[!UICONTROL Build audience]** aktivitet som är länkad till en anpassad målgruppsdimension&quot;Inköp&quot; för att rikta sig till alla inköp som har gjorts.
+I det här exemplet vill vi skicka en SMS-leverans till alla profiler som har gjort ett köp. För att göra detta använder vi först en **[!UICONTROL Build audience]**-aktivitet som är länkad till en anpassad målgruppsdimension för inköp för alla köp som har gjorts.
 
-Sedan använder vi en **[!UICONTROL Change dimension]** aktivitet för att ändra arbetsflödets målinriktning till&quot;Mottagare&quot;. På så sätt kan vi rikta in oss på de mottagare som matchar frågan.
+Sedan använder vi en **[!UICONTROL Change dimension]**-aktivitet för att växla arbetsflödets måldimension till mottagare. På så sätt kan vi rikta in oss på de mottagare som matchar frågan.
 
 ![](../assets/workflow-change-dimension-example.png)

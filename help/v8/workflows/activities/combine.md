@@ -15,17 +15,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Kombinera aktivitet"
->abstract="The **Kombinera** kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, exkludera delar av dem eller bara behålla data som är gemensamma för flera mål."
+>abstract="Med aktiviteten **Kombinera** kan du utföra segmentering på den inkommande populationen. Du kan alltså kombinera flera populationer, exkludera delar av dem eller bara behålla data som är gemensamma för flera mål."
 
-The **Kombinera** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
+Aktiviteten **Kombinera** är en **målaktivitet**. Med den här aktiviteten kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål. Här är de tillgängliga segmenteringstyperna:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* The **Union** gör att du kan gruppera om resultatet av flera aktiviteter till ett enda mål.
-* The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
-* The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
+* Med **Union** kan du gruppera om resultatet av flera aktiviteter till ett enda mål.
+* Med **skärningspunkten** kan du bara behålla element som är gemensamma för de olika inkommande populationerna i aktiviteten.
+* Med **Uteslutning** kan du utesluta element från en population enligt vissa villkor.
 
 ## Konfigurera Kombinera-aktiviteten {#combine-configuration}
 
@@ -44,15 +44,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Välj segmenteringstyp"
 >abstract="Välj hur du vill kombinera målgrupper: union, skärning eller uteslutning."
 
-Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
+Följ de här vanliga stegen för att börja konfigurera aktiviteten **Kombinera**:
 
 ![](../assets/workflow-combine.png)
 
-1. Lägg till flera aktiviteter som **Bygg målgrupper** aktiviteter för att bilda minst två olika utförandegrenar.
-1. Lägg till en **Kombinera** verksamhet till någon av de tidigare filialerna.
+1. Lägg till flera aktiviteter, till exempel **Bygg målgruppsaktiviteter**, för att skapa minst två olika körningsgrenar.
+1. Lägg till en **Kombinera**-aktivitet i någon av de tidigare grenarna.
 1. Välj segmenteringstyp: [union](#union), [skärningspunkt](#intersection) eller [exkludering](#exclusion).
-1. Klicka **Fortsätt**.
-1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill delta i.
+1. Klicka på **Fortsätt**.
+1. I avsnittet **Uppsättningar att gå med i** markerar du alla tidigare aktiviteter du vill gå med i.
 
 ## Sammanslutning {#combine-union}
 
@@ -64,19 +64,19 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Avstämningsalternativ"
->abstract="Välj **Avstämningstyp** för att definiera hur dubbletter ska hanteras."
+>abstract="Välj **Avstämningstypen** för att definiera hur dubbletter ska hanteras."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Union**. För detta måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
+I aktiviteten **Kombinera** kan du konfigurera en **union**. För detta måste du välja **avstämningstypen** för att definiera hur dubbletter hanteras:
 
-* **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
-* **En markering med kolumner**: välj det här alternativet för att definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+* **Endast tangenter**: Detta är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
+* **Ett urval kolumner**: välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
 ## Skärningspunkt {#combine-intersection}
 
-I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta behöver du följa de extra stegen nedan:
+I aktiviteten **Kombinera** kan du konfigurera en **skärning**. För detta behöver du följa de extra stegen nedan:
 
-1. Välj **Avstämningstyp** för att definiera hur dubbletter hanteras. Se [Union](#union) -avsnitt.
-1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
+1. Välj **Avstämningstypen** för att definiera hur dubbletter hanteras. Se avsnittet [Förena](#union).
+1. Du kan kontrollera alternativet **Generera slutförande** om du vill bearbeta den återstående fyllningen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
 
 ## Uteslutning {#combine-exclusion}
 
@@ -88,7 +88,7 @@ I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
 >title="Markera uppsättningar som ska kombineras"
->abstract="I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
+>abstract="I avsnittet **Uppsättningar att gå med i** väljer du den **primära uppsättningen** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
@@ -100,22 +100,22 @@ I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta
 >title="Kombinera skapa komplementfärger"
 >abstract="Växla till komplementalternativet Generera om du vill bearbeta den återstående populationen i en ytterligare övergång."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**. För detta behöver du följa de extra stegen nedan:
+I aktiviteten **Kombinera** kan du konfigurera ett **undantag**. För detta behöver du följa de extra stegen nedan:
 
-1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
-1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling.
-1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
+1. I avsnittet **Uppsättningar att gå med i** väljer du den **primära uppsättningen** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
+1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka på **Lägg till en regel** i avsnittet **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling.
+1. Du kan kontrollera alternativet **Generera slutförande** om du vill bearbeta den återstående fyllningen. Se avsnittet [Skärningspunkt](#intersection).
 
 ## Exempel{#combine-examples}
 
-I följande exempel använder vi en **Kombinera** aktivitet och vi lägger till en **union** för att hämta alla profiler från de två frågorna: personer mellan 18 och 27 år och personer mellan 34 och 40 år.
+I följande exempel använder vi en **Kombinera**-aktivitet och lägger till en **union** för att hämta alla profiler för de två frågorna: personer mellan 18 och 27 år och personer mellan 34 och 40 år.
 
 ![](../assets/workflow-union-example.png)
 
-I följande exempel visas **skärningspunkt** mellan två frågeaktiviteter. Den används här för att hämta profiler som är mellan 18 och 27 år gamla och vars e-postadress har angetts.
+I följande exempel visas **skärningspunkten** mellan två frågeaktiviteter. Den används här för att hämta profiler som är mellan 18 och 27 år gamla och vars e-postadress har angetts.
 
 ![](../assets/workflow-intersection-example.png)
 
-Följande **exkludering** I exemplet visas två frågor som har konfigurerats för att filtrera profiler som är mellan 18 och 27 år gamla och som har en Adobe-e-postdomän. Profilerna med en Adobe-e-postdomän exkluderas sedan från den första uppsättningen.
+I följande **exkluderingsexempel** visas två frågor som har konfigurerats för att filtrera profiler som är mellan 18 och 27 år gamla och som har en Adobe-e-postdomän. Profilerna med en Adobe-e-postdomän exkluderas sedan från den första uppsättningen.
 
 ![](../assets/workflow-exclusion-example.png)

@@ -5,7 +5,7 @@ description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe 
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Egenskaper för arbetsflöde"
->abstract="På den här skärmen väljer du den mall som ska användas för att skapa arbetsflödet och anger en etikett. Expandera **Ytterligare alternativ** om du vill konfigurera fler inställningar, till exempel arbetsflödets interna namn, mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
+>abstract="På den här skärmen väljer du den mall som ska användas för att skapa arbetsflödet och anger en etikett. Expandera avsnittet **Ytterligare alternativ** om du vill konfigurera fler inställningar, till exempel arbetsflödets interna namn, mapp, tidszon och övervakargrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
 
 När du skapar ett arbetsflöde eller organiserar arbetsflödesaktiviteter på arbetsytan kan du komma åt avancerade inställningar som är relaterade till arbetsflödet. Du kan till exempel ange en specifik tidszon för arbetsflödet, hantera arbetsflödets beteende om fel uppstår eller hantera den fördröjning efter vilken arbetsflödeshistoriken ska rensas.
 
 De här inställningarna är förkonfigurerade i mallen som valdes när arbetsflödet skapades, men kan redigeras efter behov för det aktuella arbetsflödet.
 
-![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Egenskaper för arbetsflöde {#properties}
 
@@ -31,27 +31,27 @@ De här inställningarna är förkonfigurerade i mallen som valdes när arbetsfl
 >title="Egenskaper för arbetsflöde"
 >abstract="I det här avsnittet finns allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja vilken mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ om du vill konfigurera särskilda inställningar, t.ex. mappen för arbetsflödeslagring eller tidszonen."
 
-The **[!UICONTROL Properties]** -avsnittet innehåller allmänna inställningar som kan konfigureras när du skapar ett arbetsflöde. Om du vill komma åt egenskaperna för ett befintligt arbetsflöde klickar du på **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
+Avsnittet **[!UICONTROL Properties]** innehåller allmänna inställningar som kan konfigureras när du skapar ett arbetsflöde. Om du vill komma åt egenskaperna för ett befintligt arbetsflöde klickar du på knappen **[!UICONTROL Settings]** i åtgärdsfältet ovanför arbetsytan.
 
 
-![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
 
 Dessa egenskaper är:
 
-* The **[!UICONTROL Label]** av arbetsflödet som visas i listan.
-* The **[!UICONTROL Internal name]** av arbetsflödet.
-* The **[!UICONTROL Folder]** där arbetsflödet ska sparas.
-* Standardvärdet **[!UICONTROL Timezone]** som kan användas i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
+* **[!UICONTROL Label]** för arbetsflödet som visas i listan.
+* Arbetsflödets **[!UICONTROL Internal name]**.
+* **[!UICONTROL Folder]** där arbetsflödet ska sparas.
+* Standardvärdet **[!UICONTROL Timezone]** som ska användas i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 Möjliga värden är:
-   * **Tidszon för server** för att använda tidszonen på Adobe Campaign-programservern
-   * **Operatörens tidszon** använder tidszonen för den Adobe Campaign-operator som kör arbetsflödet, enligt definitionen i operatörens profil, i klientkonsolen
-   * **Databasens tidszon** för att använda databasserverns tidszon
+   * **Serverns tidszon** som använder tidszonen för Adobe Campaign-programservern
+   * **Operatörens tidszon** använder tidszonen för den Adobe Campaign-operator som kör arbetsflödet, enligt operatorns profil, i klientkonsolen
+   * **Tidszon för databasen** som använder databasserverns tidszon
    * En specifik tidszon
-* När ett arbetsflöde misslyckas, de operatorer som tillhör operatorgruppen som valts i **[!UICONTROL Supervisor(s)]** fält meddelas via e-post.
-* Du kan också ange en **[!UICONTROL Description]** av arbetsflödet.
+* När ett arbetsflöde misslyckas meddelas de operatorer som tillhör den operatorgrupp som valts i fältet **[!UICONTROL Supervisor(s)]** via e-post.
+* Du kan även ange **[!UICONTROL Description]** i arbetsflödet.
 
-När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den i **[!UICONTROL Linked campaign]** fält. Du kan öppna den associerade kampanjen från det fältet.
+När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det i fältet **[!UICONTROL Linked campaign]**. Du kan öppna den associerade kampanjen från det fältet.
 
 
 ## Segmenteringsinställningar  {#segmentation-settings}
@@ -61,11 +61,11 @@ När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den 
 >title="Segmenteringsinställningar"
 >abstract="I det här avsnittet kan du välja måldimension för målprofiler i arbetsflödet och välja att behålla arbetsflödesresultaten mellan två körningar. Det här alternativet bör endast användas för testning och får aldrig aktiveras i ett produktionsarbetsflöde."
 
-* **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, operatör, prenumeranter osv. [Läs mer om målinriktning](../audience/targeting-dimensions.md)
+* **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, operatör, prenumeranter osv. [Läs mer om måldimensioner](../audience/targeting-dimensions.md)
 
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
 
-  Om det här alternativet är aktiverat behålls arbetsregister även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför användas **endast** i utvecklings- eller stagingmiljöer. Den får aldrig checkas in i ett produktionsarbetsflöde.
+  Om det här alternativet är aktiverat behålls arbetsregister även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför användas **endast** i utvecklings- eller staging-miljöer. Den får aldrig checkas in i ett produktionsarbetsflöde.
 
 ## Körningsinställningar  {#exec-settings}
 
@@ -78,7 +78,7 @@ När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den 
 
   >[!IMPORTANT]
   >
-  >Om **[!UICONTROL History in days]** fältet lämnas tomt, dess värde betraktas som&quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
+  >Om fältet **[!UICONTROL History in days]** lämnas tomt betraktas dess värde som 1, vilket innebär att historiken rensas efter 1 dag.
 
 * **[!UICONTROL Default affinity]**: Om din installation innehåller flera arbetsflödesservrar använder du det här fältet för att ange på vilken server arbetsflödet ska köras. Detta framtvingar körning av det arbetsflödet på en viss server. Du kan välja ett befintligt tillhörighetsnamn, men se till att du inte använder blanksteg eller skiljetecken. Om du använder olika servrar anger du olika namn, avgränsade med kommatecken.
 
@@ -87,7 +87,7 @@ När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den 
   >Om värdet som definieras i det här fältet inte finns på någon server, kommer arbetsflödet att förbli väntande.
 
 
-* **[!UICONTROL Save SQL queries in log]**: Markera det här alternativet om du vill spara SQL-frågorna från arbetsflödet i loggarna. Den här funktionen är reserverad för avancerade användare. Det gäller arbetsflöden som innehåller riktade aktiviteter som **[!UICONTROL Build audience]**. När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i arbetsflödets loggar, så att du kan analysera dem för att optimera frågor eller diagnostisera problem.
+* **[!UICONTROL Save SQL queries in log]**: Markera det här alternativet om du vill spara SQL-frågorna från arbetsflödet i loggarna. Den här funktionen är reserverad för avancerade användare. Det gäller arbetsflöden som innehåller målinriktade aktiviteter som **[!UICONTROL Build audience]**. När det här alternativet är aktiverat visas de SQL-frågor som skickas till databasen under arbetsflödeskörningen i arbetsflödets loggar, så att du kan analysera dem för att optimera frågor eller diagnostisera problem.
 
 ## Inställningar för felhantering  {#error-settings}
 
@@ -96,15 +96,15 @@ När arbetsflödet är [associerad med en kampanj](create-workflow.md)visas den 
 >title="Inställningar för felhantering"
 >abstract="I det här avsnittet kan du definiera hur arbetsflödet ska hantera fel under körningen. Du kan välja att pausa processen, ignorera ett visst antal fel eller avbryta arbetsflödets körning."
 
-* **[!UICONTROL Error management]**: I det här fältet kan du definiera vilka åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns tre möjliga alternativ:
+* **[!UICONTROL Error management]**: I det här fältet kan du definiera de åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns tre möjliga alternativ:
 
-   * **[!UICONTROL Suspend the process]**: Arbetsflödet pausas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst kan du återuppta arbetsflödet med **[!UICONTROL Resume]** knappar.
-   * **[!UICONTROL Ignore]**: Status för den aktivitet som utlöste felet ändras till **[!UICONTROL Failed]** men arbetsflödet behåller **[!UICONTROL Started]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Abord the process]**: Arbetsflödet stoppas automatiskt och dess status ändras till **[!UICONTROL Failed]**. Starta om arbetsflödet med **[!UICONTROL Start]** knappar.
+   * **[!UICONTROL Suspend the process]**: Arbetsflödet pausas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst kan du återuppta arbetsflödet med **[!UICONTROL Resume]**-knapparna.
+   * **[!UICONTROL Ignore]**: Statusen för den uppgift som utlöste felet ändras till **[!UICONTROL Failed]**, men arbetsflödet behåller statusen **[!UICONTROL Started]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+   * **[!UICONTROL Abord the process]**: Arbetsflödet stoppas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst startar du om arbetsflödet med **[!UICONTROL Start]**-knapparna.
 
-* **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när **[!UICONTROL Ignore]** värdet är markerat i **[!UICONTROL In case of errors]** fält. Du kan ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas aldrig arbetsflödet oavsett antalet fel.
+* **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när värdet **[!UICONTROL Ignore]** har valts i fältet **[!UICONTROL In case of errors]**. Du kan ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas aldrig arbetsflödet oavsett antalet fel.
 
 ## Initieringsskript {#initialization-script}
 
-The **Initieringsskript** I kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på **Redigera kod** och skriv det kodfragment som ska köras. Skriptet anropas när arbetsflödet körs. Se avsnittet som rör [händelsevariabler](../workflows/event-variables.md).
+Med **initieringsskriptet** kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på knappen **Redigera kod** och skriv det kodfragment som ska köras. Skriptet anropas när arbetsflödet körs. Se avsnittet som rör [händelsevariabler](../workflows/event-variables.md).
 

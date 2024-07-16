@@ -2,7 +2,8 @@
 audience: end-user
 title: Använd extern signalaktivitet
 description: Lär dig hur du använder arbetsflödesaktiviteten för externa signaturer
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Extern signal"
->abstract="The **Extern signal** Med -aktivitet kan du utlösa ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop."
+>abstract="Med aktiviteten **Extern signal** kan du utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -28,23 +29,23 @@ ht-degree: 0%
 >title="Slututlösare"
 >abstract="Slututlösare"
 
-The **Extern signal** aktiviteten är en **Flödeskontroll** aktivitet. Det gör att du kan utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller från ett API-anrop.
+Aktiviteten **Extern signal** är en **Flödeskontroll**-aktivitet. Det gör att du kan utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller från ett API-anrop.
 
 >[!NOTE]
 >
->Den här sidan innehåller de viktigaste stegen för att konfigurera **[!UICONTROL External Signal]** i Campaign Web User Interface och utlösa det från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde och dess bästa metoder samt hur du arbetar med Campaign-API:er finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>Den här sidan innehåller de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbgränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde och dess bästa metoder samt hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-Följ de här stegen för att konfigurera **Extern signal** och utlösa dess körning:
+Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utlösa dess körning:
 
-1. Lägg till en **Extern signal** i arbetsflödet.
+1. Lägg till en **extern signalaktivitet** i arbetsflödet.
 
-1. Slutför konfigurationen av arbetsflödet och starta körningen. The **[!UICONTROL External Signal]** aktiviteten visas som &quot;Väntande&quot;, väntar på att utlösas.
+1. Slutför konfigurationen av arbetsflödet och starta körningen. Aktiviteten **[!UICONTROL External Signal]** visas som Väntande, väntar på att utlösas.
 
    ![](../assets/external-signal-pending.png)
 
 1. Hämta informationen nedan:
 
-   * The **arbetsflödets interna namn**, som visas bredvid etiketten.
+   * **Arbetsflödets interna namn**, som visas bredvid dess etikett.
 
      +++Exempel på vy
 
@@ -52,7 +53,7 @@ Följ de här stegen för att konfigurera **Extern signal** och utlösa dess kö
 
 +++
 
-   * The **Namn på extern signalaktivitet** som visas i arbetsflödets **[!UICONTROL Execution options]**.
+   * **Den externa signalaktivitetens namn**, som visas i arbetsflödets **[!UICONTROL Execution options]**.
 
      +++Exempel på vy
 
@@ -60,11 +61,11 @@ Följ de här stegen för att konfigurera **Extern signal** och utlösa dess kö
 
 +++
 
-1. För att starta arbetsflödet måste du köra `PostEvent` JavaScript-funktion. Med den här funktionen kan du skicka variabler med valfria värden och använda dem i det utlösta arbetsflödet.
+1. Om du vill utlösa arbetsflödet måste du köra JavaScript-funktionen `PostEvent`. Med den här funktionen kan du skicka variabler med valfria värden och använda dem i det utlösta arbetsflödet.
 
-   The `PostEvent` kan köras antingen från ett annat arbetsflöde eller från ett API-anrop.
+   Funktionen `PostEvent` kan köras antingen från ett annat arbetsflöde eller från ett API-anrop.
 
-   * Så här utlöser du en **[!UICONTROL External signal]** från ett arbetsflöde, köra PostEvent-funktionen från **[!UICONTROL Initialization script]** som är tillgänglig från aktivitetens **[!UICONTROL Execution options]**. För **[!UICONTROL JavaScript code]** kör du funktionen från aktivitetens skript.
+   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett arbetsflöde kör du PostEvent-funktionen från rutan **[!UICONTROL Initialization script]** som är tillgänglig från aktivitetens **[!UICONTROL Execution options]**. Kör funktionen från aktivitetens skript för aktiviteten **[!UICONTROL JavaScript code]**.
 
      Syntaxen är följande:
 
@@ -80,4 +81,4 @@ Följ de här stegen för att konfigurera **Extern signal** och utlösa dess kö
 
 +++
 
-   * Så här utlöser du en **[!UICONTROL External signal]** -aktivitet från ett API-anrop, följ stegen som beskrivs i dokumentationen för Campaign API. [Lär dig använda den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig använda den statiska `PostEvent`-metoden ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)

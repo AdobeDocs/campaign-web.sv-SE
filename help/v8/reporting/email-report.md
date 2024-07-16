@@ -5,36 +5,36 @@ description: Lär dig hur du får tillgång till och använder e-postleveransrap
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
 
 # Rapport om e-postleverans {#email-report}
 
-The **Rapport om e-postleverans** erbjuder omfattande insikter och data som är specifika för e-postkanalen. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
+**Rapporten om e-postleverans** innehåller omfattande insikter och data som är specifika för e-postkanalen. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
 
 ## Leveranssammanfattning {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Rapportsändning"
->abstract="The **Skickar** i rapporten ger djupgående insikter om besökarnas interaktion med era leveranser och eventuella fel som de har upptäckt."
+>abstract="Fliken **Skickar** i din rapport ger djupgående insikter om besökarnas interaktioner med dina leveranser och eventuella fel som de har påträffat."
 
 ### Inledande målpopulation {#email-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Inledande målpopulation"
->abstract="The **Inledande målpopulation** I diagrammet visas data i förhållande till dina mottagare och meddelanden, baserat på resultatet av leveransförberedelsen."
+>abstract="Diagrammet **Inledande målpopulation** visar data i förhållande till dina mottagare och meddelanden baserat på resultatet av leveransförberedelsen."
 
-The **[!UICONTROL Initial target population]** I diagrammet visas data relativt dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
+Diagrammet **[!UICONTROL Initial target population]** visar data i förhållande till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 För musen över en del av diagrammet för att visa det exakta talet.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -50,11 +50,11 @@ För musen över en del av diagrammet för att visa det exakta talet.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Leveransstatistik"
->abstract="The **Leveransstatistik** diagram visar hur framgångsrik leveransen är och vilka fel som har inträffat."
+>abstract="Diagrammet **Leveransstatistik** visar om leveransen lyckades och om fel uppstod."
 
-The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveransen är. Mätvärdena anges nedan.
+Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. Mätvärdena anges nedan.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -64,7 +64,7 @@ The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveran
 
 * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
 +++
 
@@ -73,27 +73,27 @@ The **[!UICONTROL Delivery statistics]** diagram visar hur framgångsrik leveran
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Leveransorsaker"
->abstract="The **Orsaker till uteslutning** diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under leveransförberedelsen."
+>abstract="Diagrammet **Orsaker till uteslutning** och tabellen visar nedbrytningen per regel för meddelanden som avvisats under leveransförberedelsen."
 
-The **[!UICONTROL Causes of exclusion]** diagram och tabell visar uppdelningen per regel för meddelanden som avvisats under leveransförberedelsen. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
-* **[!UICONTROL User unknown]**: Feltyp som genererades under leveransen för att ange att e-postadressen är ogiltig.
+* **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
-* **[!UICONTROL Invalid domain]**: Feltyp som genereras när en leverans skickas för att ange att domänen för e-postadressen är fel eller inte finns.
+* **[!UICONTROL Invalid domain]**: Feltypen som genererades när en leverans skickades för att ange att domänen för e-postadressen är fel eller inte finns.
 
-* **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
+* **[!UICONTROL Mailbox full]**: Feltypen som genererades efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
 
-* **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
+* **[!UICONTROL Account disabled]**: Feltypen som genererades när en leverans skickades för att ange att adressen inte längre finns.
 
-* **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
+* **[!UICONTROL Refused]**: Feltypen som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-programvara) har använts.
 
 * **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident i SMTP-reläet, domän som inte går att nå temporärt, osv.
 
-* **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
+* **[!UICONTROL Not connected]**: Feltyp som indikerar att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket när den skickas.
 
 +++
 
@@ -102,11 +102,11 @@ The **[!UICONTROL Causes of exclusion]** diagram och tabell visar uppdelningen p
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Leveranskapacitet"
->abstract="The **Leveransflöde** rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
+>abstract="Rapporten **Leveransflöde** innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram."
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Sändningsstatistik {#broadcast-statistics}
@@ -114,19 +114,19 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Sändningsstatistik"
->abstract="The **Sändningsstatistik** rapporten innehåller tillgängliga data för eventuella fel som påträffats i varje domän."
+>abstract="Rapporten **Sändningsstatistik** innehåller tillgängliga data för eventuella fel som påträffats i varje domän."
 
-The **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga data för eventuella fel som påträffats i varje domän. Mätvärdena anges nedan.
+Tabellen **[!UICONTROL Broadcast statistics]** innehåller tillgängliga data för eventuella fel som påträffats i varje domän. Mätvärdena anges nedan.
 
-![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
 * **[!UICONTROL Processed emails]**: Totalt antal meddelanden som har bearbetats av leveransservern.
 
-* **[!UICONTROL Delivered]**: Procentandel av antalet meddelanden som har bearbetats jämfört med det totala antalet bearbetade meddelanden.
+* **[!UICONTROL Delivered]**: Procentandel av antalet meddelanden som bearbetats jämfört med det totala antalet meddelanden som bearbetats.
 
-* **[!UICONTROL Hard bounces]**: Procentandel av antalet&quot;hårda&quot; studsar, permanenta fel, t.ex. fel e-postadress, jämfört med det totala antalet bearbetade meddelanden.
+* **[!UICONTROL Hard bounces]**: Procentandel av antalet &quot;hårda&quot; studsar, permanenta fel, t.ex. fel e-postadress, jämfört med det totala antalet bearbetade meddelanden.
 
 * **[!UICONTROL Soft bounces]**: Procentandel av antalet &quot;mjuka&quot; studsar, tillfälliga fel som en fullständig inkorg, jämfört med det totala antalet bearbetade meddelanden
 
@@ -134,7 +134,7 @@ The **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga dat
 
 * **[!UICONTROL Clicks]**: Procentandel av antalet personer som klickade i en leverans minst en gång jämfört med antalet meddelanden som bearbetades.
 
-* **[!UICONTROL Unsubscriptions]**: Procentandel av antalet klick på en länk för att avbryta prenumerationen jämfört med antalet meddelanden som har bearbetats.
+* **[!UICONTROL Unsubscriptions]**: Procentandel av antalet klickningar på en länk för att avbryta prenumerationen jämfört med antalet meddelanden som har bearbetats.
 +++
 
 ## Ej levererbara {#non-deliverables-email}
@@ -144,34 +144,34 @@ The **[!UICONTROL Broadcast statistics]** tabellen innehåller tillgängliga dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Uppdelning av fel per typ"
->abstract="The **Uppdelning av fel per typ** diagrammet innehåller tillgängliga data för varje feltyp som påträffas: okänd användare, postlåda full, ogiltig domän med mera."
+>abstract="**Uppdelningen av fel per typ** innehåller tillgängliga data för varje feltyp som påträffas: okänd användare, postlåda full, ogiltig domän med mera."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Uppdelning av fel per typ"
->abstract="The **Uppdelning av fel per typ** tabellen innehåller en omfattande beskrivning av förekomsten av varje feltyp."
+>abstract="Tabellen **Uppdelning av fel per typ** innehåller en omfattande beskrivning av förekomsten av varje feltyp."
 
-The **[!UICONTROL Breakdown of errors per type]** tabellen och diagrammet innehåller tillgängliga data för feltypen. Mätvärdena anges nedan.
+Tabellen och diagrammet **[!UICONTROL Breakdown of errors per type]** innehåller tillgängliga data för feltypen. Mätvärdena anges nedan.
 
-Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
-* **[!UICONTROL User unknown]**: Feltyp som genererades under leveransen för att ange att e-postadressen är ogiltig.
+* **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
-* **[!UICONTROL Invalid domain]**: Feltyp som genereras när en leverans skickas för att ange att domänen för e-postadressen är fel eller inte finns.
+* **[!UICONTROL Invalid domain]**: Feltypen som genererades när en leverans skickades för att ange att domänen för e-postadressen är fel eller inte finns.
 
-* **[!UICONTROL Mailbox full]**: Feltyp som genererats efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
+* **[!UICONTROL Mailbox full]**: Feltypen som genererades efter fem leveransförsök för att ange att mottagarens inkorg innehåller för många meddelanden.
 
-* **[!UICONTROL Account disabled]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte längre finns.
+* **[!UICONTROL Account disabled]**: Feltypen som genererades när en leverans skickades för att ange att adressen inte längre finns.
 
-* **[!UICONTROL Refused]**: Feltyp som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-program) har tillämpats.
+* **[!UICONTROL Refused]**: Feltypen som genereras när en adress nekas av IAP (Internet Access Provider), till exempel efter att en säkerhetsregel (antispam-programvara) har använts.
 
 * **[!UICONTROL Unreachable]**: Feltyp som inträffar i meddelandedistributionssträngen: incident i SMTP-reläet, domän som inte går att nå temporärt, osv.
 
-* **[!UICONTROL Not connected]**: Feltyp som anger att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket vid tidpunkten för sändningen.
+* **[!UICONTROL Not connected]**: Feltyp som indikerar att mottagarens mobiltelefon är avstängd eller frånkopplad från nätverket när den skickas.
 
 +++
 
@@ -180,29 +180,29 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uppdelning av fel per domän"
->abstract="The **Uppdelning av fel per domän** diagrammet visar tillgängliga data för varje feltyp som påträffas beroende på varje domän."
+>abstract="Diagrammet **Uppdelning av fel per domän** visar tillgängliga data för varje feltyp som påträffas beroende på varje domän."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Uppdelning av fel per domän"
->abstract="The **Uppdelning av fel per domän** tabellen innehåller en omfattande beskrivning av förekomsten av varje fel beroende på vilken domän som används."
+>abstract="Tabellen **Uppdelning av fel per domän** innehåller en omfattande beskrivning av förekomsten av varje fel beroende på vilken domän som används."
 
-The **[!UICONTROL Breakdown of errors per domain]** tabellen och diagrammet visar tillgängliga data för eventuella fel som påträffats i varje domän.
+Tabellen och diagrammet **[!UICONTROL Breakdown of errors per domain]** visar tillgängliga data för eventuella fel som påträffats i varje domän.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Klicka på ikonen bredvid namnet på varje domän för att se information.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-Tillgängliga mått är samma som för [Uppdelning av fel efter typ](#email-delivery-breakdown-type) som beskrivs ovan.
+Tillgängliga mått är samma som för [uppdelningen av fel efter typ](#email-delivery-breakdown-type) som beskrivs ovan.
 
 ## Spårningsindikatorer {#tracking-indicators-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Rapporteringsspårning"
->abstract="The **Spårning** -fliken i rapporten innehåller värdefulla data, inklusive mottagarnas beteende per länk, hur öppningar och klickningar visas samt detaljerad information om de URL:er som klickas oftast under en leverans."
+>abstract="Fliken **Spårning** i rapporten innehåller värdefulla data, inklusive mottagarnas beteende per länk, information om öppningar och klickningar samt detaljerad information om de URL:er som du klickade mest på under en leverans."
 
 
 ### Leveransstatistik  {#email-tracking-delivery-stats}
@@ -211,12 +211,12 @@ Tillgängliga mått är samma som för [Uppdelning av fel efter typ](#email-deli
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Leveransstatistik"
->abstract="The **Leveransstatistik** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden: lyckade, öppnade, klickade med mera."
+>abstract="Rapporten **Leveransstatistik** innehåller nyckeltal (KPI:er) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden: lyckade, öppnade, klickade med mera."
 
 
-The **[!UICONTROL Delivery statistics]** rapporten innehåller nyckeltal (KPI) som ger detaljerad information om data som är tillgängliga för skickade e-postmeddelanden. Mätvärdena anges nedan.
+Rapporten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) som ger detaljerad information om tillgängliga data för skickade e-postmeddelanden. Mätvärdena anges nedan.
 
-![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -230,7 +230,7 @@ The **[!UICONTROL Delivery statistics]** rapporten innehåller nyckeltal (KPI) s
 
 * **[!UICONTROL Clicks on the mirror link]**: Antal klick på länken till spegelsidan.
 
-* **[!UICONTROL Estimation of forwards]**: Uppskattning av antalet e-postmeddelanden som vidarebefordras av målmottagarna.
+* **[!UICONTROL Estimation of forwards]**: Uppskattning av antalet e-postmeddelanden som vidarebefordrats av målmottagarna.
 +++
 
 ### Öppnings- och klickfrekvens {#email-tracking-click-through}
@@ -238,13 +238,13 @@ The **[!UICONTROL Delivery statistics]** rapporten innehåller nyckeltal (KPI) s
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Öppnings- och klickfrekvens"
->abstract="The **Öppnings- och klickfrekvens** tabellen visar data som är relativa till mottagarnas engagemang i leveransen."
+>abstract="Tabellen **Öppen och klickfrekvens** visar data i relation till mottagarnas engagemang i leveransen."
 
 
 
-The **[!UICONTROL Open and click-through rate]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
+Tabellen **[!UICONTROL Open and click-through rate]** visar data i förhållande till dina mottagare. Mätvärdena anges nedan.
 
-![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -254,9 +254,9 @@ The **[!UICONTROL Open and click-through rate]** tabellen visar data som är rel
 
 * **[!UICONTROL Opens]**: Antal distinkta målmottagare för den här domänen som har öppnat ett meddelande minst en gång.
 
-* **[!UICONTROL Clicks]**: Antal distinkta mottagare som klickat på samma leverans minst en gång.
+* **[!UICONTROL Clicks]**: Antal distinkta målmottagare som klickade i samma leverans minst en gång.
 
-* **[!UICONTROL Raw reactivity]**: Procentandel av antalet mottagare som klickade på en leverans minst en gång jämfört med antalet mottagare som öppnade en leverans minst en gång.
+* **[!UICONTROL Raw reactivity]**: Procentandel av antalet mottagare som klickade i en leverans minst en gång jämfört med antalet mottagare som öppnade en leverans minst en gång.
 +++
 
 ## URL:er och klickströmmar {#url-email}
@@ -264,22 +264,22 @@ The **[!UICONTROL Open and click-through rate]** tabellen visar data som är rel
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL:er och klickströmmar"
->abstract="The **URL:er och klickbara strömmar** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans."
+>abstract="**URL:er och klickningsströmmar**-rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som klickades mest under en leverans."
 
 
-The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som användaren klickade mest på under en leverans.
+Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
 
-![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
-* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
+* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
 * **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
-* **[!UICONTROL Platform average]** : Detta medelvärde, som visas för varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
+* **[!UICONTROL Platform average]** : Detta medelvärde, som visas under varje frekvens (reaktivitet, distinkta klick och kumulerade klick), beräknas för leveranser som skickats under de senaste sex månaderna. Endast leveranser med samma typologi och i samma kanal beaktas. Korrektur ingår inte.
 
 +++
 
@@ -289,12 +289,12 @@ The **[!UICONTROL URLs and click streams]** rapporten innehåller nyckeltal (KPI
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="De tio mest besökta länkarna"
->abstract="The **De tio mest besökta länkarna** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk."
+>abstract="Diagrammet och tabellen **Top 10 most visit links** innehåller tillgängliga data för mottagarnas beteende per länk."
 
 
-The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller tillgängliga data för mottagarnas beteende per länk.
+Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -310,23 +310,23 @@ The **[!UICONTROL Top 10 most visited links]** diagram och tabell innehåller ti
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Klicknedbrytning över tid"
->abstract="The **Klicknedbrytning över tid** diagram visar tillgängliga data för mottagarnas beteende per länk."
+>abstract="Diagrammet **Klicknedbrytning över tid** visar tillgängliga data för mottagarens beteende per länk."
 
 
-The **[!UICONTROL Breakdown of clicks over time]** diagrammet innehåller tillgängliga data för mottagarnas beteende per länk.
+Diagrammet **[!UICONTROL Breakdown of clicks over time]** innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Användaraktiviteter {#user-activities-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Användaraktiviteter"
->abstract="The **Användaraktiviteter** I diagrammet visas hur öppningar och klickningar delas upp i form av ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter."
+>abstract="Diagrammet **Användaraktiviteter** visar hur öppningar och klick delas upp i ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter."
 
-The **[!UICONTROL User activities]** rapporten visar hur öppningar och klickningar i form av ett diagram är uppdelade. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
+Rapporten **[!UICONTROL User activities]** visar uppdelningen av öppningar och klick i form av ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
 
-![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -341,11 +341,11 @@ The **[!UICONTROL User activities]** rapporten visar hur öppningar och klicknin
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Spårningsstatistik"
->abstract="The **Spårningsstatistik** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata."
+>abstract="Diagrammet **Spårningsstatistik** innehåller statistik om öppningar och klick. Du kan välja en specifik tidsram för måldata."
 
-The **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar och klickningar. Du kan välja en specifik tidsram för måldata.
+Diagrammet **[!UICONTROL Tracking Statistics]** innehåller statistik om öppningar och klick. Du kan välja en specifik tidsram för måldata.
 
-![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -362,13 +362,13 @@ The **[!UICONTROL Tracking Statistics]** diagram visar statistik om öppningar o
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Uppdelning efter enhet"
->abstract="The **Uppdelning efter enhet** rapporten visar hur öppningar per enhet har fördelats för perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje enhetstyp."
+>abstract="Rapporten **Uppdelning per enhet** visar hur öppningar fördelats per enhet under perioden. För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje enhetstyp."
 
-The **Uppdelning efter enhet** rapporten visar hur öppningar per enhet har fördelats under perioden: persondatorer, Android-enheter, Apple-enheter eller andra.
+Rapporten **Uppdelning efter enhet** visar hur öppningar fördelats per enhet under perioden: persondatorer, Android-enheter, Apple-enheter eller andra.
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje enhetstyp.
 
-![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Uppdelning av öppningar efter operativsystem {#breakdown-opens-os}
@@ -376,26 +376,26 @@ För varje kategori används två diagram. Den första visar statistik om öppni
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="Uppdelning efter operativsystem"
->abstract="The **Uppdelning efter operativsystem** rapporten visar hur öppningarna fördelats på operativsystem för den berörda perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje operativsystem."
+>abstract="Rapporten **Uppdelning efter operativsystem** visar hur öppningarna är fördelade efter operativsystem under den aktuella perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje operativsystem."
 
-The **Uppdelning efter operativsystem** rapporten visar hur öppningarna fördelats på operativsystem under perioden: Windows-system, Android-system, iOS-system eller andra.
+Rapporten **Uppdelning efter operativsystem** visar hur öppningar fördelats efter operativsystem under perioden: Windows-system, Android-system, iOS-system eller andra.
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila operativsystem. Den andra visar det exakta antalet och procentandelen för varje operativsystem.
 
-![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Uppdelning av öppningar efter webbläsare {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Uppdelning efter webbläsare"
->abstract="The **Uppdelning efter webbläsare** visar hur öppningar uppdelas efter webbläsare för perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje webbläsare."
+>abstract="**Uppdelningen per webbläsare** visar hur öppningar har delats upp per webbläsare under perioden. I det första diagrammet visas statistik för öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje webbläsare."
 
-The **Uppdelning efter webbläsare** rapporten visar hur öppningarna ser ut i olika webbläsare: Chrome, Safari, Internet Explorer med flera.
+Rapporten **Uppdelning per webbläsare** visar hur öppningarna är uppdelade efter webbläsare: Chrome, Safari, Internet Explorer med flera.
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila operativsystem. Den andra visar det exakta antalet och procentandelen för varje webbläsare.
 
-![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Klickningar {#hotclicks}
@@ -403,8 +403,8 @@ För varje kategori används två diagram. Den första visar statistik om öppni
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Rapport om klickningar"
->abstract="The **Klickningar** I rapporten visas e-postinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten."
+>abstract="Rapporten **Aktivitetsklickningar** visar e-postinnehållet (HTML och/eller text) med procentandelen klick på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten."
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten.
 
-![](assets/reporting11.png){zoomable=&quot;yes&quot;}
+![](assets/reporting11.png){zoomable="yes"}

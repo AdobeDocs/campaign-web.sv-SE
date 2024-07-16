@@ -5,25 +5,25 @@ description: Förstå kampanjrapporter för Push-kanalen
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Kampanjrapporter för push-kanalen {#campaign-reports-push-channel}
 
-Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporterna och mätvärdena för push-kanalen beskrivs nedan. Lär dig hur du får tillgång till dina kampanjrapporter i [den här sidan](campaign-reports.md).
+Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporterna och mätvärdena för push-kanalen beskrivs nedan. Lär dig hur du får åtkomst till dina kampanjrapporter på [den här sidan](campaign-reports.md).
 
 ## Leveranssammanfattning {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Leveransöversikt"
->abstract="The **Leveransöversikt** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leverans av push-meddelanden."
+>abstract="Rapporten **Leveransöversikt** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leveransen av push-meddelanden."
 
-The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leverans av push-meddelanden. Mätvärdena anges nedan.
+Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med leveransen av push-meddelanden. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
@@ -32,7 +32,7 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.
+* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
 
 * **[!UICONTROL Total clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
@@ -44,11 +44,11 @@ The **[!UICONTROL Delivery Overview]** rapporten innehåller nyckeltal (KPI:er) 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Inledande målgruppsstatistik"
->abstract="The **Inledande målgruppsstatistik** tabellen visar data som är relativa till dina mottagare"
+>abstract="Tabellen **Inledande målgruppsstatistik** visar data i förhållande till dina mottagare"
 
-The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärdena anges nedan.
+Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förhållande till dina mottagare. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
@@ -57,7 +57,7 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista osv.
+* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista, osv.
 
 +++
 
@@ -66,11 +66,11 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="Körningsstatistik"
->abstract="The **Körningsstatistik** tabellen visar hur framgångsrik leveransen är: meddelanden som ska levereras, lyckade resultat, fel och nya karantän."
+>abstract="Tabellen **Körningsstatistik** visar hur din leverans lyckades: meddelanden som ska levereras, slutföras, fel och nya karantän."
 
-The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är. Mätvärdena anges nedan.
+Tabellen **[!UICONTROL Execution statistics]** innehåller information om leveransframgången. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -80,9 +80,9 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 
 * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (ogiltig registrering, avvisning av meddelande, nyttolastfel, till exempel) i förhållande till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (ogiltig registrering, avvisning av meddelande, nyttolastfel, till exempel) i förhållande till antalet meddelanden som ska levereras.
 
-  Feltyperna för push-meddelanden visas i [Adobe Campaign v8-dokumentation (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  Feltyper för push-meddelanden visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -91,11 +91,11 @@ The **[!UICONTROL Execution statistics]** tabellen visar hur bra leveransen är.
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="Genererade klickströmmar"
->abstract="The **Genererade klickströmmar** tabellen visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
+>abstract="Tabellen **Genererade klickströmmar** visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
 
-The **[!UICONTROL Generated click streams]** tabellen visar data som är relativa till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
+Tabellen **[!UICONTROL Generated click streams]** visar data i relation till hur mottagarna interagerade med leveransen. Mätvärdena anges nedan.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-kampanjrapporter.
 
@@ -103,6 +103,6 @@ The **[!UICONTROL Generated click streams]** tabellen visar data som är relativ
 
 * **[!UICONTROL Total clicks]**: Totalt antal klick på länkar i leveranser.
 
-* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
+* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
 +++

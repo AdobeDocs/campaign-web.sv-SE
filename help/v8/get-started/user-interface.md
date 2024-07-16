@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
 
-Lär dig hur du ansluter till Adobe Campaign och upptäck Experience Cloud navigeringsgrunder [i den här artikeln](connect-to-campaign.md).
+Lär dig hur du ansluter till Adobe Campaign och identifierar grunderna för navigering i Experience Cloud [i den här artikeln](connect-to-campaign.md).
 
 
 >[!NOTE]
@@ -26,7 +26,7 @@ Lär dig hur du ansluter till Adobe Campaign och upptäck Experience Cloud navig
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Senaste"
->abstract="The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring."
+>abstract="Listan **Senaste** innehåller genvägar till nyligen skapade och ändrade leveranser. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring."
 
 På Campaigns startsida kan ni snabbt och enkelt bläddra bland viktiga resurser, indikatorer och komponenter.
 
@@ -34,15 +34,15 @@ I den övre delen av startsidan finns information om de senaste uppdateringarna 
 
 ![](assets/home.png){zoomable="yes"}
 
-The **Viktiga resultatindikatorer** gör att du kan kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er i [den här sidan](../reporting/kpis.md).
+Med **nyckelresultatindikatorerna** kan du kontrollera plattformens effektivitet med hjälp av gemensamma nyckeltal. Läs mer om dessa KPI:er på [den här sidan](../reporting/kpis.md).
 
-The **Senaste** listan innehåller genvägar till de nyligen skapade och ändrade leveranserna. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring. Klicka på **Visa mer** för att ladda fler leveranser.
+Listan **Senaste** innehåller genvägar till nyligen skapade och ändrade leveranser. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring. Klicka på länken **Visa fler** om du vill läsa in fler leveranser.
 
-Dessutom kan du få åtkomst till hjälpsidorna för Adobe Campaign Web key via **Utbildning** på sidan.
+Dessutom kan du komma åt hjälpsidor för Adobe Campaign webbnyckel från **Learning**-delen av sidan.
 
 ## Navigeringsmeny till vänster {#user-interface-left-nav}
 
-Bläddra bland länkarna till vänster för att få tillgång till Adobe Campaign webbfunktioner. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se det här [section](#list-screens). Vissa listskärmar är skrivskyddade. Vilka alternativ som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
+Bläddra bland länkarna till vänster för att få tillgång till Adobe Campaign webbfunktioner. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se [avsnittet](#list-screens). Vissa listskärmar är skrivskyddade. Vilka alternativ som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}
@@ -50,36 +50,36 @@ Bläddra bland länkarna till vänster för att få tillgång till Adobe Campaig
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="The **Explorer** På -menyn visas alla Campaign-komponenter och -objekt med samma mapphierarki som på klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8, kontrollera tillhörande behörigheter och skapa mappar och undermappar på den här menyn."
+>abstract="Menyn **Utforskaren** visar alla Campaign-komponenter och -objekt med samma mapphierarki som den i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8, kontrollera tillhörande behörigheter och skapa mappar och undermappar på den här menyn."
 
-The **Explorer** I visas alla Campaign-resurser och -objekt med samma mapphierarki som i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer.
+Menyn **Utforskaren** visar alla Campaign-resurser och -objekt med samma mapphierarki som den i klientkonsolen. Bläddra bland alla komponenter, mappar och scheman i Campaign v8 och skapa leveranser, arbetsflöden och kampanjer.
 
-Objekten som visas i **Explorer** beroende på dina användarbehörigheter. Du kan också lägga till mappar och undermappar om du har rätt behörighet. Läs mer om behörigheter i [det här avsnittet](permissions.md).
+Vilka objekt som visas i **Utforskaren** beror på dina användarbehörigheter. Du kan också lägga till mappar och undermappar om du har rätt behörighet. Läs mer om behörigheter i [det här avsnittet](permissions.md).
 
-Du kan konfigurera kolumner för att anpassa visningen så att all information du behöver visas. Se det här [section](#list-screens). Du kan också lägga till mappar och undermappar, enligt informationen i [det här avsnittet](permissions.md#folders).
+Du kan konfigurera kolumner för att anpassa visningen så att all information du behöver visas. Se [avsnittet](#list-screens). Du kan också lägga till mappar och undermappar, vilket beskrivs i [det här avsnittet](permissions.md#folders).
 
-Mer information om Campaign Explorer, mapphierarkin och resurser finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Mer information om Campaign-utforskaren, mapphierarkin och resurser finns i den här [Campaign v8-dokumentationen (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
 ### Campaign Management {#user-interface-campaign-management}
 
 I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
 
-* **Kampanjer** - Det här är listan över era kampanjer och kampanjmallar. Som standard kan du för varje kampanj visa datum för start/slut/skapande/senaste ändring, aktuell status och namnet på den kampanjoperator som skapade den. Du kan filtrera listan efter status, start-/slutdatum, mapp eller skapa ett avancerat filter för att definiera egna filtervillkor. Läs mer om kampanjer [i det här avsnittet](../campaigns/gs-campaigns.md).
+* **Kampanjer** - Det här är listan över dina kampanjer och kampanjmallar. Som standard kan du för varje kampanj visa datum för start/slut/skapande/senaste ändring, aktuell status och namnet på den kampanjoperator som skapade den. Du kan filtrera listan efter status, start-/slutdatum, mapp eller skapa ett avancerat filter för att definiera egna filtervillkor. Läs mer om kampanjer [i det här avsnittet](../campaigns/gs-campaigns.md).
 
 * **Leveranser** - Bläddra i listan över leveranser. Som standard kan du visa deras status, senaste ändringsdatum och nyckeltal för nyckeltal. Du kan filtrera listan efter status, kontaktdatum eller kanal. Klicka på en e-postleverans för att öppna instrumentpanelen och få en översikt över leveransinformationen. Leveranser i andra kanaler är skrivskyddade. Läs mer om leveranser [i det här avsnittet](../msg/gs-messages.md).
 
-  Använd **Fler åtgärder** för att ta bort eller duplicera en leverans.
+  Använd knappen **Fler åtgärder** för att ta bort eller duplicera en leverans.
 
   ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
-* **Arbetsflöden** - På den här skärmen har du tillgång till den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte. Läs mer om arbetsflöden [i det här avsnittet](../workflows/gs-workflows.md).
+* **Arbetsflöden** - På den här skärmen kan du komma åt den fullständiga listan över arbetsflöden och arbetsflödesmallar. Du kan kontrollera deras status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde eller en ny arbetsflödesmall. Du kan filtrera listan med samma villkor som för andra objekt. Dessutom kan du filtrera arbetsflöden som tillhör en kampanj eller inte. Läs mer om arbetsflöden [i det här avsnittet](../workflows/gs-workflows.md).
 
 
 ### Innehållshantering {#user-interface-content-management}
 
 I avsnittet CONTENT MANAGEMENT kan du visa dina innehållsmallar och fragment.
 
-* **Innehållsmallar** - För en snabbare och förbättrad designprocess kan du skapa fristående mallar för att enkelt återanvända anpassat innehåll i [!DNL Adobe Campaign]. Den här funktionen är endast tillgänglig för e-post och gör att innehållsorienterade användare kan arbeta med fristående mallar så att marknadsföringsanvändare kan återanvända och anpassa dem i sina egna e-postkampanjer. Läs mer i [det här avsnittet](../email/create-email-templates.md).
+* **Innehållsmallar** - För en snabbare och förbättrad designprocess kan du skapa fristående mallar för att enkelt återanvända anpassat innehåll i hela [!DNL Adobe Campaign]. Den här funktionen är endast tillgänglig för e-post och gör att innehållsorienterade användare kan arbeta med fristående mallar så att marknadsföringsanvändare kan återanvända och anpassa dem i sina egna e-postkampanjer. Läs mer i [det här avsnittet](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
@@ -89,9 +89,9 @@ I avsnittet CONTENT MANAGEMENT kan du visa dina innehållsmallar och fragment.
 
 I avsnittet KUNDHANTERING kan du visa dina profiler, målgrupper och prenumerationer. De här listorna är skrivskyddade.
 
-* **Profiler** - Skapa och hantera profiler och få tillgång till mottagardatabasen. Som standard kan du visa deras e-postadress, förnamn och efternamn. Läs mer om profiler i [det här avsnittet](../audience/about-recipients.md).
-* **Målgrupper** - Det här är er lista över målgrupper. Som standard kan du visa deras typ, ursprung, datum och etikett för senaste ändring. Du kan filtrera listan efter ursprung. Läs mer om målgrupper och listor i [det här avsnittet](../audience/about-recipients.md).
-* **Prenumerationstjänster** - Bläddra igenom prenumerationslistorna. Som standard kan du visa deras typ, läge och etikett. Lär dig hur du hanterar prenumerationer och avbeställningar i [Adobe Campaign v8-dokumentation (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **Profiler** - Skapa och hantera profiler och få åtkomst till mottagardatabasen. Som standard kan du visa deras e-postadress, förnamn och efternamn. Läs mer om profiler i [det här avsnittet](../audience/about-recipients.md).
+* **Publiker** - Det här är din lista över målgrupper. Som standard kan du visa deras typ, ursprung, datum och etikett för senaste ändring. Du kan filtrera listan efter ursprung. Läs mer om målgrupper och listor i [det här avsnittet](../audience/about-recipients.md).
+* **Prenumerationstjänster** - Bläddra bland dina prenumerationslistor. Som standard kan du visa deras typ, läge och etikett. Lär dig hur du hanterar prenumerationer och avbeställningar i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 * **Fördefinierade filter** - Fördefinierade filter är anpassade filter som skapas och sparas för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med frågemodelleraren, t.ex. när en lista med data filtreras eller när målgruppen för en leverans skapas. Läs mer i [det här avsnittet](predefined-filters.md).
 
 
@@ -100,18 +100,18 @@ I avsnittet KUNDHANTERING kan du visa dina profiler, målgrupper och prenumerati
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Erbjudanden"
->abstract="Bläddra igenom listorna med erbjudanden och erbjudandemallar som har skapats i konsolen med **Interaktion** -modul. De här listorna är skrivskyddade."
+>abstract="Bläddra igenom listorna med erbjudanden och erbjudandemallar som har skapats i konsolen med modulen **Interaktion** . De här listorna är skrivskyddade."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Lägg till erbjudanden till en leverans"
 
 I avsnittet BESLUTSHANTERING kan du visa erbjudandemallar. De här listorna är skrivskyddade.
 
-* **Erbjudanden** - Bläddra igenom listan över erbjudanden och erbjudandemallar som har skapats i konsolen med **Interaktion** -modul. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet.
+* **Erbjudanden** - Bläddra igenom listan med erbjudanden och erbjudandemallar som har skapats i konsolen med modulen **Interaktion**. Som standard kan du visa deras status, start-/slutdatum och miljö. Du kan filtrera listan efter status och start-/slutdatum. Det finns även mallar för erbjudandet.
 
 Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [det här avsnittet](../msg/offers.md).
 
 ### Rapportering {#left-nav-reporting}
 
-* **Rapporter** - **Rapport** ger en samlad sammanfattning av trafik- och interaktionsstatistik för varje kanal i Campaign-miljön. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet. Läs mer i [det här avsnittet](../reporting/global-reports.md).
+* **Rapporter** - Posten **Rapport** innehåller en samlad sammanfattning av trafik- och interaktionsstatistik för varje kanal i Campaign-miljön. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet. Läs mer i [det här avsnittet](../reporting/global-reports.md).
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -130,7 +130,7 @@ Learn more in [this section](using-ai.md).
 
 ## Läs mer {#learn-more}
 
-Lär dig hur du bläddrar bland, söker efter och filtrerar listor som finns i Campaign-miljön [på den här sidan](list-filters.md).
+Lär dig hur du bläddrar bland, söker efter och filtrerar listor som är tillgängliga i Campaign-miljön [på den här sidan](list-filters.md).
 
 
 
@@ -257,37 +257,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Uppdatera data"
->abstract="The **Uppdatera data** aktiviteten utför en massuppdatering av fälten i databasen."
+>abstract="Aktiviteten **Uppdatera data** utför en massuppdatering av fälten i databasen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="Välj hur data ska uppdateras"
->abstract="The **Åtgärdstyp** kan du välja vilken process som ska utföras på data i databasen. Välj det första alternativet för att lägga till data eller uppdatera (om det redan har lagts till). Du kan också bara lägga till data, bara uppdatera data eller ta bort data. Välj **Uppdatera och sammanfoga samlingar** för att markera en primär post att länka dubbletter till och ta bort dessa dubbletter på ett säkert sätt."
+>abstract="I fältet **Åtgärdstyp** kan du välja vilken process som ska utföras på data i databasen. Välj det första alternativet för att lägga till data eller uppdatera (om det redan har lagts till). Du kan också bara lägga till data, bara uppdatera data eller ta bort data. Markera **Uppdatera och sammanfoga samlingar** om du vill välja en primär post att länka dubbletter till och ta bort dessa dubbletter på ett säkert sätt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Registrerings-ID"
->abstract="Ange hur posterna i databasen ska identifieras: Om data relaterar till en befintlig måldimension väljer du **Använda målgruppsdimensionen** och välj den måldimension och de fält som ska uppdateras. I annat fall anger du en eller flera anpassade länkar för att identifiera data i databasen eller direkt användning av avstämningsnycklar."
+>abstract="Ange hur posterna i databasen ska identifieras: om data relaterar till en befintlig måldimension väljer du alternativet **Använda måldimensionen** och väljer måldimensionen och fälten som ska uppdateras. I annat fall anger du en eller flera anpassade länkar för att identifiera data i databasen eller direkt användning av avstämningsnycklar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="Välj fält som ska uppdateras"
->abstract="Markera fälten som ska uppdateras och avstämningsinställningarna. Du kan använda **Automatisk mappning** för att automatiskt identifiera de fält som ska uppdateras."
+>abstract="Markera fälten som ska uppdateras och avstämningsinställningarna. Du kan använda alternativet **Automatisk mappning** för att automatiskt identifiera de fält som ska uppdateras."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Avancerade alternativ för att uppdatera data"
->abstract="The **Avancerade alternativ** kan du ange ytterligare inställningar för att hantera data och dubbletter."
+>abstract="I avsnittet **Avancerade alternativ** kan du ange ytterligare inställningar för att hantera data och dubbletter."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Generera en utgående övergång"
->abstract="Växla **Generera en utgående övergång** möjlighet att lägga till en utgående övergång som aktiveras när körningen av **Uppdatera data** aktivitet. Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
+>abstract="Växla alternativet **Generera en utgående övergång** om du vill lägga till en utgående övergång som aktiveras när aktiviteten **Uppdatera data** har körts. Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="Generera en utgående övergång för avvisade."
->abstract="Växla **Generera en utgående övergång för projekt** alternativ för att lägga till en utgående övergång som innehåller poster som inte har bearbetats korrekt efter uppdateringen (till exempel om det finns en dubblett). Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
+>abstract="Växla alternativet **Generera en utgående övergång för avvisade** om du vill lägga till en utgående övergång som innehåller poster som inte har bearbetats korrekt efter uppdateringen (till exempel om det finns en dubblett). Uppdateringen markerar vanligtvis slutet av ett målarbetsflöde och därför är alternativet inte aktiverat som standard."
 
 <!-- Workflow settings -->
 

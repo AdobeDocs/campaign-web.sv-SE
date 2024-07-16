@@ -20,61 +20,61 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Allmänna parametrar för prenumerationstjänsten"
->abstract="Välj önskad tjänst och välj den åtgärd som ska utföras (prenumeration eller prenumeration). Växla på **Skicka bekräftelsemeddelande** för att meddela populationen att de prenumererar eller avbeställer den valda tjänsten."
+>abstract="Välj önskad tjänst och välj den åtgärd som ska utföras (prenumeration eller prenumeration). Växla på alternativet **Skicka bekräftelsemeddelande** för att meddela populationen att de prenumererar eller avbeställer den valda tjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Generera en utgående övergång"
->abstract="Växla **Generera en utgående övergång** alternativ för att lägga till en övergång efter aktiviteten."
+>abstract="Växla alternativet **Generera en utgående övergång** om du vill lägga till en övergång efter aktiviteten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Ytterligare information"
 >abstract="Ytterligare information"
 
-The **Prenumerationstjänster** aktiviteten är en **Datahantering** aktivitet. Du kan skapa eller ta bort en prenumeration på en informationstjänst för den population som anges i övergången.
+Aktiviteten **Prenumerationstjänster** är en **datahanteringsaktivitet**. Du kan skapa eller ta bort en prenumeration på en informationstjänst för den population som anges i övergången.
 
 ## Konfigurera aktiviteten för prenumerationstjänster {#subscription-services-configuration}
 
-Följ de här stegen för att konfigurera **Prenumerationstjänster** aktivitet:
+Så här konfigurerar du aktiviteten **Prenumerationstjänster**:
 
-1. Lägg till en **Prenumerationstjänster** i arbetsflödet. Du kan använda den här aktiviteten efter att du har angett profiler som mål eller importerat en fil med identifierade data.
+1. Lägg till en **prenumerationstjänstaktivitet** i ditt arbetsflöde. Du kan använda den här aktiviteten efter att du har angett profiler som mål eller importerat en fil med identifierade data.
 
 1. Välj den tjänst som du vill hantera prenumerationerna för med något av följande alternativ:
 
-   * **[!UICONTROL Select a specific service]**: Välj en tjänst manuellt med **[!UICONTROL Service]** fält.
+   * **[!UICONTROL Select a specific service]**: Välj en tjänst manuellt i fältet **[!UICONTROL Service]**.
 
-   * **[!UICONTROL From inbound transition]**: Använd den tjänst som anges i övergången för inkommande trafik. Du kan till exempel importera en fil som anger vilken tjänst som ska hanteras för varje rad. Tjänsten som åtgärden ska utföras på väljs sedan dynamiskt för varje profil.
+   * **[!UICONTROL From inbound transition]**: Använd tjänsten som anges i övergången för inkommande trafik. Du kan till exempel importera en fil som anger vilken tjänst som ska hanteras för varje rad. Tjänsten som åtgärden ska utföras på väljs sedan dynamiskt för varje profil.
 
    ![](../assets/workflow-subscription-service.png)
 
-1. Välj den åtgärd som ska utföras: **Prenumerera** eller **Avbeställ**.
+1. Välj den åtgärd som ska utföras: **Prenumerera** eller **Avsluta prenumeration**.
 
    Om tjänsten definieras i övergången kan du välja hur du vill hämta den här åtgärden:
 
-   * **Välj en viss åtgärdstyp**: Markera åtgärden som ska utföras manuellt (**Prenumerera** eller **Avbeställ**)
+   * **Välj en specifik åtgärdstyp**: Välj åtgärden som ska utföras manuellt (**Prenumerera** eller **Avsluta prenumeration**)
 
-   * **Välj en åtgärdstyp från en bana för inkommande övergång**: Välj den kolumn med inkommande data som anger vilken åtgärd som ska utföras för varje post. Du kan till exempel importera en fil som anger vilken åtgärd som ska utföras för varje rad i en åtgärdskolumn.
+   * **Välj en åtgärdstyp från en sökväg till en inkommande övergång**: Markera den kolumn med inkommande data som anger vilken åtgärd som ska utföras för varje post. Du kan till exempel importera en fil som anger vilken åtgärd som ska utföras för varje rad i en åtgärdskolumn.
 
-     Endast booleska fält eller heltalsfält kan markeras här. Kontrollera att data som innehåller åtgärden som ska utföras matchar det här formatet. Om du till exempel läser in data från en Läs in fil-aktivitet, kontrollerar du att du har angett formatet på kolumnen som innehåller åtgärden i **[!UICONTROL Load file]** aktivitet. Ett exempel presenteras i [det här avsnittet](#uc2).
+     Endast booleska fält eller heltalsfält kan markeras här. Kontrollera att data som innehåller åtgärden som ska utföras matchar det här formatet. Om du till exempel läser in data från en Läs in fil-aktivitet, kontrollerar du att du har angett formatet på kolumnen som innehåller åtgärden i **[!UICONTROL Load file]**-aktiviteten korrekt. Ett exempel visas i [det här avsnittet](#uc2).
 
      >[!CAUTION]
      >
-     >Om du väljer det här alternativet visas som standard **Prenumerationstjänster** aktiviteten förväntas ha en länkdefinition till **Tjänster (nms)** register som har konfigurerats i arbetsflödet. För att göra detta måste du kontrollera att du har konfigurerat en avstämningslänk i en **Anrikningsaktivitet** i arbetsflödet. Ett exempel som visar hur du använder det här alternativet är tillgängligt [här](#uc2).
+     >Om du väljer det här alternativet förväntar sig aktiviteten **Prenumerationstjänster** som standard att ha en länkdefinition till tabellen **Tjänster (nms)** som är konfigurerad i arbetsflödet. Om du vill göra det kontrollerar du att du har konfigurerat en avstämningslänk i en **anrikningsaktivitet** uppåt i arbetsflödet. Ett exempel som visar hur du använder det här alternativet finns [här](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
-1. Om du vill meddela mottagarna att de prenumererar på eller avbeställer den valda tjänsten, växlar du **[!UICONTROL Send a confirmation message]** på. Innehållet i det här meddelandet definieras i en leveransmall som är kopplad till informationstjänsten.
+1. Om du vill meddela mottagarna att de prenumererar på eller avslutar prenumerationen på den valda tjänsten, aktiverar du alternativet **[!UICONTROL Send a confirmation message]**. Innehållet i det här meddelandet definieras i en leveransmall som är kopplad till informationstjänsten.
 
-1. Om du använder data från en inkommande övergång kan du **[!UICONTROL Additional information]** visas så att du kan ange prenumerationens data och ursprung för varje post. Du kan lämna det här avsnittet tomt. I så fall kommer inget datum eller ursprung att anges när arbetsflödet körs.
+1. Om du använder data från en inkommande övergång visas ett **[!UICONTROL Additional information]**-avsnitt som gör att du kan ange prenumerationens data och ursprung för varje post. Du kan lämna det här avsnittet tomt. I så fall kommer inget datum eller ursprung att anges när arbetsflödet körs.
 
-   * Om inkommande data innehåller en kolumn som anger prenumerationsdatumet för profilen för tjänsten kan du välja den i **[!UICONTROL Date]** fält.
+   * Om inkommande data innehåller en kolumn som anger prenumerationsdatumet för profilen för tjänsten kan du markera den i fältet **[!UICONTROL Date]**.
 
-   * I **[!UICONTROL Origin path]** anger du prenumerationens ursprung. Du kan ställa in den på ett av fälten för inkommande data eller på ett valfritt konstant värde genom att kontrollera **[!UICONTROL Set a constant as origin]** alternativ.
+   * Ange prenumerationens ursprung i fältet **[!UICONTROL Origin path]**. Du kan ställa in den på ett av fälten för inkommande data eller på ett valfritt konstant värde genom att markera alternativet **[!UICONTROL Set a constant as origin]**.
 
    ![](../assets/workflow-subscription-service-additional.png)
 
-1. Om du vill lägga till en utgående övergång efter aktiviteten växlar du **[!UICONTROL Generate an outbound transition]** på.
+1. Om du vill lägga till en utgående övergång efter aktiviteten aktiverar du alternativet **[!UICONTROL Generate an outbound transition]**.
 
 ## Exempel {#example}
 
@@ -84,9 +84,9 @@ Det här arbetsflödet nedan visar hur du prenumererar på en befintlig tjänst.
 
 ![](../assets/workflow-subscription-service-uc1.png)
 
-* A **[!UICONTROL Build audience]** Verksamheten riktar sig till en befintlig målgrupp.
+* En **[!UICONTROL Build audience]**-aktivitet har en befintlig målgrupp som mål.
 
-* A **[!UICONTROL Subscription Services]** Med -aktivitet kan du välja den tjänst som profilerna ska prenumereras på.
+* Med en **[!UICONTROL Subscription Services]**-aktivitet kan du välja den tjänst som profilerna ska prenumerera på.
 
 ### Uppdatera flera prenumerationsstatusar från en fil {#uc2}
 
@@ -94,7 +94,7 @@ I arbetsflödet nedan visas hur du importerar en fil som innehåller profiler oc
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** aktiviteten läser in en CSV-fil som innehåller data och definierar strukturen för de importerade kolumnerna. Kolumnerna&quot;service&quot; och&quot;operation&quot; anger vilken tjänst som ska uppdateras och vilken åtgärd som ska utföras (prenumeration eller prenumeration).
+* En **[!UICONTROL Load file]**-aktivitet läser in en CSV-fil som innehåller data och definierar strukturen för de importerade kolumnerna. Kolumnerna&quot;service&quot; och&quot;operation&quot; anger vilken tjänst som ska uppdateras och vilken åtgärd som ska utföras (prenumeration eller prenumeration).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -106,22 +106,22 @@ I arbetsflödet nedan visas hur du importerar en fil som innehåller profiler oc
   ```
 
   Som du kanske har märkt anges åtgärden i filen som &quot;sub&quot; eller &quot;unsub&quot;. Systemet förväntar sig ett **booleskt värde** eller **heltalsvärde** som identifierar åtgärden som ska utföras: &quot;0&quot; för att avprenumerera och &quot;1&quot; för att prenumerera. För att matcha detta krav:
-   * The **Datatyp** för operationskolumnen är inställd på heltal.
-   * A **Värdeommappning** måste utföras för att matcha värdena &quot;sub&quot; och &quot;unsub&quot; med värdena &quot;1&quot; och &quot;0&quot;.
+   * **Datatypen** för åtgärdskolumnen är inställd på heltal.
+   * En **värdeommappning** måste utföras för att matcha värdena för sub och unsub med värdena 1 och 0.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som en **Boolean** eller **Heltal** i exempelfilkolumnerna.
+  Om filen redan använder &quot;0&quot; och &quot;1&quot; för att identifiera operationen behöver du inte mappa om dessa värden. Kontrollera bara att kolumnen bearbetas som **Boolean** eller **Integer** i exempelfilkolumnerna.
 
-* En **[!UICONTROL Reconciliation]**-aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. The **e-post** filens fält matchas mot **e-post** profilresursens fält.
+* En **[!UICONTROL Reconciliation]**-aktivitet identifierar att data från filen tillhör profildimensionen i Adobe Campaign-databasen. Fältet **email** i filen matchar fältet **email** i profilresursen.
 
   ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* An **[!UICONTROL Enrichment]** skapar en avstämningslänk till tabellen&quot;Tjänster (nms)&quot;, med en enkel koppling mellan kolumnen&quot;tjänst&quot; i den överförda filen och fältet&quot;internt namn&quot; för tjänsterna i databasen.
+* En **[!UICONTROL Enrichment]**-aktivitet skapar en avstämningslänk till tabellen Tjänster (nms), med en enkel koppling mellan kolumnen Tjänst i den överförda filen och tjänstens fält för internt namn i databasen.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Subscription Services]** identifierar de tjänster som ska uppdateras från övergången.
+* En **[!UICONTROL Subscription Services]** identifierar de tjänster som ska uppdateras från övergången.
 
   **[!UICONTROL Operation type]** identifieras som att det kommer från fältet **operation** i filen. Endast fälten Booleskt värde eller Heltalsvärde kan markeras här. Om kolumnen i filen som innehåller åtgärden som ska utföras inte visas i listan, ska du kontrollera att du har angett kolumnformatet korrekt i **[!UICONTROL Load file]**-aktiviteten, vilket förklaras ovan i det här exemplet.
 

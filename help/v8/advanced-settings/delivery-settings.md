@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2280'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Konfigurera leveransinställningar {#del-settings}
 
-Leveransinställningarna är **tekniska leveransparametrar** som definieras i leveransmallen. De kan laddas över för varje leverans. De här inställningarna är tillgängliga i **Inställningar** som är tillgängliga när du redigerar en leverans eller en leveransmall.
+Leveransinställningarna är **tekniska leveransparametrar** som definieras i leveransmallen. De kan laddas över för varje leverans. De här inställningarna är tillgängliga från knappen **Inställningar** som är tillgänglig när du redigerar en leverans- eller leveransmall.
 
 >[!CAUTION]
 >
@@ -32,17 +32,17 @@ Leveransinställningarna är **tekniska leveransparametrar** som definieras i le
 >title="Typologiinställningar för leverans"
 >abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign-klientkonsolen."
 
-Typologier är uppsättningar av **typologiregler** som utförs under beredningsfasen för att enkelt tillämpa flera filterregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen.
+Typologier är uppsättningar av **typologiregler** som körs under förberedelsefasen för att enkelt tillämpa flera filtreringsregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen.
 
 När du associerar en typologi med en meddelande- eller meddelandemall körs de typologiregler som ingår i typologin för att kontrollera leveransgiltigheten under meddelandeförberedelsen. Profiler som matchar kriterier inom en typologiregel exkluderas sedan från leveransgrupperna.
 
 Med typologier kan du se till att dina leveranser alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler för att utesluta grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
 
-![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Typologier och typologiregler skapas i Campaign-klientkonsolen. Läs mer om tryckregler och hur du konfigurerar trötthetshantering i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
+>Typologier och typologiregler skapas i Campaign-klientkonsolen. Läs mer om tryckregler och hur du konfigurerar trötthetshantering i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Trycket {#pressure-parameters}
 
@@ -56,21 +56,21 @@ Med typologier kan du se till att dina leveranser alltid innehåller vissa eleme
 >title="Leveransvikt"
 >abstract="Med leveransvikter kan ni identifiera leveranser med högsta prioritet inom ramen för tryckhantering. Meddelanden med högst vikt har prioritet."
 
-I det här avsnittet kan du definiera en **tröskelvärde** konfigurera regler för trötthetshantering, vilket är det maximala antalet meddelanden som kan skickas till en profil under en viss period.
+I det här avsnittet kan du med tryckparametrar definiera en **tröskel** för att ställa in regler för trötthetshantering, vilket är det högsta antalet meddelanden som kan skickas till en profil under en viss period.
 
 När denna tröskel har uppnåtts kan inga fler leveranser göras förrän efter den beaktade perioden. Med den här processen kan du automatiskt utesluta en profil från en leverans om ett meddelande överskrider det angivna tröskelvärdet och på så sätt undvika för många begäranden.
 
 Tröskelvärden kan vara antingen konstanta eller variabla. Detta innebär att tröskelvärdena för en viss period kan variera från en profil till en annan eller till och med för samma profil.
 
-I **[!UICONTROL Weight type]** finns det tre alternativ:
+I fältet **[!UICONTROL Weight type]** finns tre alternativ:
 
 * **[!UICONTROL Constant]**
 * **[!UICONTROL Depends on the recipient]**
 * **[!UICONTROL Defined in each rule]**
 
-Använd **[!UICONTROL Delivery weight]** fält för att definiera leveransprioriteten. Varje leverans har en vikt som motsvarar dess prioritetsnivå. Som standard är vikten för en leverans inställd på 5. Med tryckregler kan du definiera vikten för de leveranser som de tillämpas på. Vikter kan antingen anges eller beräknas med en formel som passar mottagarna. Du kan till exempel definiera vikten för en leverans baserat på mottagarens intressen.
+Använd fältet **[!UICONTROL Delivery weight]** för att definiera leveransprioriteten. Varje leverans har en vikt som motsvarar dess prioritetsnivå. Som standard är vikten för en leverans inställd på 5. Med tryckregler kan du definiera vikten för de leveranser som de tillämpas på. Vikter kan antingen anges eller beräknas med en formel som passar mottagarna. Du kan till exempel definiera vikten för en leverans baserat på mottagarens intressen.
 
-Använd **[!UICONTROL Delivery mode]** för att välja målutvärderingsläge.
+Använd fältet **[!UICONTROL Delivery mode]** för att välja målutvärderingsläget.
 
 Tre olika lägen finns tillgängliga:
 
@@ -80,7 +80,7 @@ Tre olika lägen finns tillgängliga:
 
 >[!NOTE]
 >
->Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -96,11 +96,11 @@ Tre olika lägen finns tillgängliga:
 
 I det här avsnittet kan du välja en kapacitetsregel som definieras i Adobe Campaign v8-konsolen. Den här regeln är associerad med kanalen.
 
-The **[!UICONTROL Importance of the recipient]** fält är en formel som används för att bestämma vilka profiler som ska behållas när reglerna för kapacitetstypologi överskrids.
+Fältet **[!UICONTROL Importance of the recipient]** är en formel som används för att avgöra vilka profiler som behålls när reglerna för kapacitetstypologi överskrids.
 
 >[!NOTE]
 >
->Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 ## Målgruppsinställningar {#audience}
 
@@ -111,7 +111,7 @@ The **[!UICONTROL Importance of the recipient]** fält är en formel som använd
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv. [Läs mer om målmappningar](../audience/targeting-dimensions.md).
 
-I **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Leverans {#delivery}
 
@@ -122,13 +122,13 @@ I **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte läng
 
 **[!UICONTROL Delivery]** parametrar är tekniska inställningar som gäller för leveransen.
 
-![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
-Den integrerade **[!UICONTROL Routing]** externt konto anges som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka leveranser.
+Det integrerade externa **[!UICONTROL Routing]**-kontot tillhandahålls som standard. Den innehåller de tekniska parametrar som gör att programmet kan skicka leveranser.
 
-Du kan definiera **[!UICONTROL Sending]** inställningarna nedan.
+Du kan definiera inställningarna för **[!UICONTROL Sending]** nedan.
 
-* **[!UICONTROL Delivery priority]**: Använd det här alternativet om du vill ändra avsändarordningen för leveranser genom att ange prioritetsnivå: normal, hög eller låg.
+* **[!UICONTROL Delivery priority]**: Använd det här alternativet om du vill ändra avsändarordningen för dina leveranser genom att ange deras prioritetsnivå: normal, hög eller låg.
 
 * **[!UICONTROL Message batch quantity]**: Använd det här alternativet om du vill definiera antalet meddelanden som grupperas i samma XML-leveranspaket. Om parametern är inställd på 0 grupperas meddelandena automatiskt. Paketstorleken definieras av beräkningen `<delivery size>/1024`, med minst 8 och högst 256 meddelanden per paket.
 
@@ -138,13 +138,13 @@ Du kan definiera **[!UICONTROL Sending]** inställningarna nedan.
 
 * **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa att skicka via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
-* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
-I **[!UICONTROL Wave definition]** väljer du **[!UICONTROL Send using multiple waves]** möjlighet att stegvis öka volymen som skickas med vågor. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
+I avsnittet **[!UICONTROL Wave definition]** väljer du alternativet **[!UICONTROL Send using multiple waves]** om du vill öka volymen som skickas med vågor stegvis. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
-För e-postmeddelanden kan du även ändra **[!UICONTROL Mail formats]** av de meddelanden som skickats enligt nedan.
+För e-postmeddelanden kan du även ändra **[!UICONTROL Mail formats]** för skickade meddelanden enligt nedan.
 
-* **[!UICONTROL Use recipient preferences]** (standardläge): E-postformatet definieras enligt de data som lagras i mottagarprofilen. Om en mottagare vill ta emot e-post i ett visst format är detta det format som skickas. Om fältet inte är ifyllt skickas ett alternativt e-postmeddelande (se nedan).
+* **[!UICONTROL Use recipient preferences]** (standardläge): E-postformatet definieras enligt data som lagras i mottagarprofilen. Om en mottagare vill ta emot e-post i ett visst format är detta det format som skickas. Om fältet inte är ifyllt skickas ett alternativt e-postmeddelande (se nedan).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**: E-postmeddelandet innehåller båda formaten: text och HTML. Formatet som visas vid mottagning beror på konfigurationen av mottagarens e-postprogramvara (multipart-option).
 
@@ -167,7 +167,7 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 
 >[!NOTE]
 >
->Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Försök igen {#retries}
 
@@ -192,12 +192,12 @@ Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ig
 >title="Godkännandeläge för leveranser"
 >abstract="Välj godkännandeläge för leveranser baserat på den här mallen. Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte."
 
-Om varningar genereras under en förberedelse för e-postleverans kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att e-postmeddelanden skickas i slutet av analysfasen: det här är **manuell** validering.
+Om varningar genereras under en förberedelse för e-postleverans kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att e-postmeddelanden skickas i slutet av analysfasen: detta är **manuell** validering.
 
 Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga lägen är:
 
 * **[!UICONTROL Manual]**: I slutet av analysfasen måste användaren bekräfta leveransen för att kunna börja skicka.
-* **[!UICONTROL Semi-Automatic]**: Sändningen börjar automatiskt om analysfasen inte genererar några varningsmeddelanden.
+* **[!UICONTROL Semi-Automatic]**: Skickandet börjar automatiskt om analysfasen inte genererar några varningsmeddelanden.
 * **[!UICONTROL Automatic]**: Sändningen börjar automatiskt i slutet av analysfasen, oavsett resultatet.
 
 ## Giltighet {#validity}
@@ -205,17 +205,17 @@ Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga läge
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Inställningsgiltighet"
->abstract="The **Leveransens varaktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.<br>The **Giltighetsgräns för resurser** -fältet används för överförda resurser, t.ex. spegelsidor eller bilder. När gränsen har nåtts är resurserna inte längre tillgängliga."
+>abstract="I fältet **Leveransvaraktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.<br>Fältet **Resursens giltighetsgräns** används för överförda resurser, till exempel spegelsidor eller bilder. När gränsen har nåtts är resurserna inte längre tillgängliga."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Giltighetsgräns för resurser"
->abstract="The **Giltighetsgräns för resurser** -fältet används för överförda resurser, t.ex. spegelsidan eller bilder. Resurserna är giltiga under en begränsad tid: när gränsen har nåtts är resurserna inte längre tillgängliga."
+>abstract="Fältet **Resursens giltighetsgräns** används för överförda resurser, till exempel spegelsidan eller bilderna. Resurserna är giltiga under en begränsad tid: när gränsen har nåtts är resurserna inte längre tillgängliga."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Leveransens varaktighet"
->abstract="The **Leveransens varaktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås."
+>abstract="I fältet **Leveransvaraktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -226,17 +226,17 @@ Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga läge
 
 ### Giltighetsperiod {#validity-period}
 
-The **[!UICONTROL Delivery duration]** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.
+I fältet **[!UICONTROL Delivery duration]** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.
 
-Du kan också välja att ange datum. Gör detta genom att välja **[!UICONTROL Explicitly set validity dates]**. I det här fallet kan du även ange datum för leveransdatum och giltighetsgräns. Den aktuella tiden används som standard, men du kan ändra den direkt i indatafältet.
+Du kan också välja att ange datum. Välj **[!UICONTROL Explicitly set validity dates]** om du vill göra det. I det här fallet kan du även ange datum för leveransdatum och giltighetsgräns. Den aktuella tiden används som standard, men du kan ändra den direkt i indatafältet.
 
-**[!UICONTROL Resources validity limit]** används för överförda resurser, huvudsakligen för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme). Efter den här gränsen är resurserna inte längre tillgängliga.
+**[!UICONTROL Resources validity limit]** används för överförda resurser, främst för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme). Efter den här gränsen är resurserna inte längre tillgängliga.
 
-![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Läs mer om giltighetsperioden för leverans i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Spegelvänd sidhantering (e-postkanal) {#mirror}
 
@@ -245,7 +245,7 @@ Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Inn
 Förutom standardläget är följande alternativ också tillgängliga:
 
 * **[!UICONTROL Force the generation of the mirror page]**: Använd det här läget för att generera spegelsidan även om ingen länk till spegelsidan infogas i e-postmeddelandet.
-* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att en spegelsida genereras, även om länken finns i e-postmeddelandet.
+* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att skapa en spegelsida, även om länken finns i e-postmeddelandet.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: När spegelsidans länk inte finns i e-postinnehållet använder du det här alternativet för att aktivera åtkomst till spegelsidans innehåll från klientkonsolen i leveransloggfönstret.
 
 ### Spåra {#tracking}
@@ -264,7 +264,7 @@ Förutom standardläget är följande alternativ också tillgängliga:
 
 **[!UICONTROL Tracking]** parametrar definieras i det relaterade avsnittet. Möjliga alternativ är:
 
-* **[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ändra hur länge spårningen ska aktiveras på URL-adresserna.
+* **[!UICONTROL Tracking validity limit]**: Använd det här alternativet om du vill ändra hur länge spårningen aktiveras på URL-adresserna.
 * **[!UICONTROL Substitution URL for expired URLs]**: Använd det här alternativet om du vill ange en URL till en reservwebbsida: den visas när spårningen har upphört att gälla.
 
 ## Korrekturinställningar {#test-setttings}
@@ -278,11 +278,11 @@ Förutom standardläget är följande alternativ också tillgängliga:
 
 Du kan ange undantagsparametrar i det här avsnittet. Tillgängliga alternativ är:
 
-* **[!UICONTROL Keep doubles]** Med kan du auktorisera flera leveranser till profiler som uppfyller flera målinriktningskriterier.
-* **[!UICONTROL Keep denylisted addresses]** Med kan du hålla profiler som inte längre används av leveransen, t.ex. efter en avanmälan (avanmälan), kvar från målet.
-* **[!UICONTROL Keep quarantined addresses]** gör att du kan hålla profiler med en adress som inte svarar från målet.
+* Med **[!UICONTROL Keep doubles]** kan du auktorisera flera leveranser till profiler som uppfyller flera målinriktningskriterier.
+* Med **[!UICONTROL Keep denylisted addresses]** kan du från målet behålla profiler som inte längre används av leveransen, till exempel efter en avanmälan (avanmälan).
+* Med **[!UICONTROL Keep quarantined addresses]** kan du hålla profiler med en adress som inte svarar från målet.
 
 Du kan också anpassa etiketten för korrektur:
 
-* Använd **[!UICONTROL Keep the delivery code for the proof]** associera till beviset med samma leveranskod som den som är definierad för den leverans som det hör till.
-* Som standard anges korrekturens ämne med &quot;PROOF #&quot;, där # är korrekturets nummer. Du kan ändra det här prefixet i **[!UICONTROL Label prefix]** fält.
+* Använd **[!UICONTROL Keep the delivery code for the proof]** för att associera till beviset med samma leveranskod som den som är definierad för leveransen som det hör till.
+* Som standard anges korrekturens ämne med &quot;PROOF #&quot;, där # är korrekturets nummer. Du kan ändra prefixet i fältet **[!UICONTROL Label prefix]**.

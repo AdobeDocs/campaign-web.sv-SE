@@ -5,7 +5,7 @@ description: Lär dig hur du får tillgång till, skapar och hanterar prenumerat
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -29,13 +29,13 @@ Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifi
 
 Följ stegen nedan för att få tillgång till prenumerationstjänster som är tillgängliga för din plattform.
 
-1. Gå till **[!UICONTROL Subscription services]** menyn i den vänstra navigeringslisten.
+1. Bläddra till menyn **[!UICONTROL Subscription services]** i den vänstra navigeringslisten.
 
-   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-list.png){zoomable="yes"}
 
-1. Listan över alla befintliga prenumerationstjänster visas. Du kan söka efter tjänster och filtrera på kanalen, mappen eller lägga till regler med hjälp av [frågemodellerare](../query/query-modeler-overview.md).
+1. Listan över alla befintliga prenumerationstjänster visas. Du kan söka efter tjänster och filtrera på kanalen, mappen eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-filters.png){zoomable="yes"}
 
 1. Om du vill redigera en befintlig tjänst klickar du på dess namn.
 
@@ -62,29 +62,29 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Markera knappen **[!UICONTROL Create subscription service]**.
 
-   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-button.png){zoomable="yes"}
 
 1. Välj en kanal: **[!UICONTROL Email]** eller **[!UICONTROL SMS]**.
 
-1. Ange en etikett och definiera **[!UICONTROL Additional options]** som du vill.
+1. Ange en etikett i tjänsteegenskaperna och definiera **[!UICONTROL Additional options]** efter behov.
 
-   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-properties.png){zoomable="yes"}
 
-1. Som standard lagras tjänster i **[!UICONTROL Services and Subscriptions]** mapp. Du kan ändra den genom att bläddra till önskad plats. [Lär dig hur du arbetar med mappar](../get-started/permissions.md#folders)
+1. Som standard lagras tjänster i mappen **[!UICONTROL Services and Subscriptions]**. Du kan ändra den genom att bläddra till önskad plats. [Lär dig arbeta med mappar](../get-started/permissions.md#folders)
 
 1. Som standard är prenumerationerna obegränsade.
 
-   Du kan inaktivera **[!UICONTROL Unlimited validity period]** för att definiera tjänstens giltighetsperiod. När giltighetsperioden är slut:
+   Du kan inaktivera alternativet **[!UICONTROL Unlimited validity period]** för att definiera en giltighetslängd för tjänsten. När giltighetsperioden är slut:
    * Ingen profil kan längre prenumerera på tjänsten
    * Alla prenumeranter på tjänsten avbryts automatiskt
 
-   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-validity-period.png){zoomable="yes"}
 
-1. När en användare prenumererar på eller avbeställer en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för det meddelandet utifrån ditt användningsfall. Dessa mallar måste konfigureras med **[!UICONTROL Subscriptions]** målmappning. [Läs mer](#create-confirmation-message)
+1. När en användare prenumererar på eller avbeställer en tjänst kan du skicka ett bekräftelsemeddelande. Välj de mallar som ska användas för det meddelandet utifrån ditt användningsfall. Dessa mallar måste konfigureras med målmappningen **[!UICONTROL Subscriptions]**. [Läs mer](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Save and review]**. Den nya tjänsten läggs till i **[!UICONTROL Subscription services]** lista.
+1. Klicka på **[!UICONTROL Save and review]**. Den nya tjänsten läggs till i listan **[!UICONTROL Subscription services]**.
 
 1. Du kan också välja standardstartsidor för prenumeration och avprenumeration som är kopplade till den här tjänsten.
 
@@ -92,11 +92,11 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
    >
    >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
-   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-default-lp.png){zoomable="yes"}
 
-   När det är klart [infoga en länk](../email/message-tracking.md) i ett e-postmeddelande väljer du **[!UICONTROL Subscription link]** eller **[!UICONTROL Unsubscription link]**. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   När du är klar väljer du **[!UICONTROL Subscription link]** eller **[!UICONTROL Unsubscription link]** när du [infogar en länk](../email/message-tracking.md) i ett e-postmeddelande. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
-   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
 1. Spara och granska ändringarna.
 
@@ -106,51 +106,51 @@ Nu kan du:
 
 * Bjud in kunderna att prenumerera på den här tjänsten via en landningssida. [Läs mer](../landing-pages/lp-use-cases.md#lp-subscription)
 
-* Skicka meddelanden till prenumeranterna på tjänsten. [Lär dig mer](../msg/send-to-subscribers.md)
+* Skicka meddelanden till prenumeranterna på tjänsten. [Lär dig hur](../msg/send-to-subscribers.md)
 
 ## Skapa ett bekräftelsemeddelande {#create-confirmation-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Välj leveransmall för prenumerationer"
->abstract="Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på tjänsten måste du välja en specifik leveransmall baserad på **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål."
+>abstract="Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på tjänsten måste du välja en specifik leveransmall baserad på målmappningen **[!UICONTROL Subscriptions]**, utan något definierat mål."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
 >title="Välj leveransmall för avanmälan"
->abstract="Om du vill skicka bekräftelsemeddelanden till de användare som avbeställer tjänsten måste du välja en specifik leveransmall baserad på **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål."
+>abstract="Om du vill skicka bekräftelsemeddelanden till de användare som avbeställer tjänsten måste du välja en specifik leveransmall baserad på målmappningen **[!UICONTROL Subscriptions]**, utan något definierat mål."
 
-Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avbeställer tjänsten måste du skapa en leveransmall med **[!UICONTROL Subscriptions]** målmappning, utan ett definierat mål. För att göra detta, följ nedanstående steg:
+Om du vill skicka bekräftelsemeddelanden till de användare som prenumererar på eller avslutar prenumerationen på tjänsten måste du skapa en leveransmall med målmappningen **[!UICONTROL Subscriptions]**, utan något definierat mål. För att göra detta, följ nedanstående steg:
 
 1. Skapa en leveransmall för prenumerationsbekräftelsen. [Lär dig skapa en mall](../msg/delivery-template.md)
 
-1. Välj ingen målgrupp för den här leveransen. I stället kommer du åt leveransen **[!UICONTROL Settings]**, går till [Målgrupp](../advanced-settings/delivery-settings.md#audience) och väljer **[!UICONTROL Subscriptions]** målmappning från listan.
+1. Välj ingen målgrupp för den här leveransen. Öppna i stället leveransen **[!UICONTROL Settings]**, gå till fliken [Målgrupp](../advanced-settings/delivery-settings.md#audience) och välj målmappningen **[!UICONTROL Subscriptions]** i listan.
 
-   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Om du inte markerar  **[!UICONTROL Subscriptions]** målmappning kommer dina prenumeranter inte att få något bekräftelsemeddelande. Läs mer om målmappningar i [det här avsnittet](../audience/targeting-dimensions.md) .
+   >Om du inte väljer målmappningen **[!UICONTROL Subscriptions]** får prenumeranterna inte något bekräftelsemeddelande. Läs mer om målmappningar i [det här avsnittet](../audience/targeting-dimensions.md).
 
 1. Redigera innehållet i leveransmallen, spara och stäng den.
 
-   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-confirmation-template.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Läs mer om distributionskanaler och hur du definierar ett leveransinnehåll i [E-postkanal](../email/create-email.md) och [SMS-kanal](../sms/create-sms.md) -avsnitt.
+   >Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i avsnitten [E-postkanal](../email/create-email.md) och [SMS-kanal](../sms/create-sms.md).
 
 1. Upprepa stegen ovan om du vill skapa en leveransmall för bekräftelsen av oprenumeration.
 
-Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create-service). Användare som prenumererar på eller avbeställer tjänsten får de valda bekräftelsemeddelandena.
+Du kan nu välja dessa meddelanden när du [skapar en prenumerationstjänst](#create-service). Användare som prenumererar på eller avbeställer tjänsten får de valda bekräftelsemeddelandena.
 
 ## Övervaka dina prenumerationstjänster {#logs-and-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Antal prenumeranter"
->abstract="Klicka **Beräkna** Hämta det totala antalet prenumeranter för den här tjänsten."
+>abstract="Klicka på **Beräkna** om du vill hämta det totala antalet prenumeranter för den här tjänsten."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
@@ -169,27 +169,27 @@ Nu kan du välja dessa meddelanden när [skapa en prenumerationstjänst](#create
 
 För att mäta hur effektiva era prenumerationstjänster är för SMS- och e-postkanaler har du tillgång till loggarna och rapporterna för en viss tjänst.
 
-1. Välj en befintlig tjänst från **[!UICONTROL Subscription services]** lista. Klicka **[!UICONTROL Calculate]** Hämta det totala antalet prenumeranter.
+1. Välj en befintlig tjänst i listan **[!UICONTROL Subscription services]**. Klicka på **[!UICONTROL Calculate]** för att hämta det totala antalet prenumeranter.
 
-   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-logs-subscribers-count.png){zoomable="yes"}
 
-1. På tjänstkontrollpanelen väljer du **[!UICONTROL Logs]** om du vill visa en lista över prenumeranter på tjänsten.
+1. Välj **[!UICONTROL Logs]** på tjänstinstrumentpanelen för att visa listan över prenumeranter på den här tjänsten.
 
    Du kan kontrollera det totala antalet prenumeranter, namn och adress för varje mottagare och när de har prenumererat eller avbrutit prenumerationen. Du kan också filtrera på dem.
 
-   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-logs.png){zoomable="yes"}
 
-1. På tjänstkontrollpanelen väljer du **[!UICONTROL Reports]**. Kontrollera följande indikatorer:
+1. Välj **[!UICONTROL Reports]** på tjänstinstrumentpanelen. Kontrollera följande indikatorer:
 
-   * The **[!UICONTROL Total numbers of subscribers]** visas.
+   * **[!UICONTROL Total numbers of subscribers]** visas.
 
    * Du kan visa antalet prenumerationer och avbeställningar under en viss period. Använd listrutan för att ändra tidsintervallet.
 
-     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-reports.png){zoomable="yes"}
 
-   * The **[!UICONTROL Overall evolution of subscriptions]** I diagrammet visas fördelningen per period, inklusive prenumerationer, icke-prenumerationer, utvecklingen i antal och lojalitetsprocenten.<!--what is Registered?-->
+   * Diagrammet **[!UICONTROL Overall evolution of subscriptions]** visar fördelningen per period, inklusive prenumerationer, icke-prenumerationer, nummerutvecklingen och lojalitetsprocenten.<!--what is Registered?-->
 
-1. Använd **[!UICONTROL Reload]** för att hämta de senaste värdena från körningen och schemat för spårningsarbetsflödet.
+1. Använd knappen **[!UICONTROL Reload]** för att hämta de senaste värdena från körningen och schemat för spårningsarbetsflödet.
 
 <!--## Best practices {#best-practices}
 

@@ -2,16 +2,17 @@
 audience: end-user
 title: Kampanjrapporter för Direct-postkanalen
 description: Förstå kampanjrapporter för Direct mail channel
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Kampanjrapporter för Direct-postkanalen {#campaign-reports-direct-mail}
 
-Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporter och mätvärden för direktreklamkanalen finns nedan. Lär dig hur du får tillgång till dina kampanjrapporter i [den här sidan](campaign-reports.md).
+Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporter och mätvärden för direktreklamkanalen finns nedan. Lär dig hur du får åtkomst till dina kampanjrapporter på [den här sidan](campaign-reports.md).
 
 ## Leveranssammanfattning {#delivery-summary-direct}
 
@@ -20,11 +21,11 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Leveransöversikt"
->abstract="The **Leveransöversikt** presenterar nyckeltal (KPI:er) som ger djupgående insikter i hur besökarna interagerar med varje direktutskick. Mätvärdena beskrivs nedan."
+>abstract="I **leveransöversikten** presenteras nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktion med varje direktutskick. Mätvärdena beskrivs nedan."
 
-The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter i hur besökarna interagerar med varje direktutskick. Mätvärdena beskrivs nedan.
+**[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktion med varje direktutskick. Mätvärdena beskrivs nedan.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -32,7 +33,7 @@ The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger dj
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden.
+* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
 
 * **[!UICONTROL Total clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
@@ -43,11 +44,11 @@ The **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger dj
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Inledande målgruppsstatistik"
->abstract="Mottagardata och meddelandeinformation visas i **Inledande målgruppsstatistik** tabell, som avspeglar leveransanalysen."
+>abstract="Mottagardata och meddelandeinformation visas i tabellen **Inledande målgruppsstatistik**, som avspeglar leveransförberedelseanalysen."
 
-The **[!UICONTROL Initial target audience statistics]** tabellen visar data som är relativa till mottagarna. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
+Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förhållande till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Läs mer om statistik om inledande målgrupper.
 
@@ -55,7 +56,7 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista osv.
+* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista, osv.
 
 +++
 
@@ -64,11 +65,11 @@ The **[!UICONTROL Initial target audience statistics]** tabellen visar data som 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Leveransstatistik"
->abstract="The **Körningsstatistik** tabellen innehåller information om hur din direktutskick lyckades och om fel som uppstått."
+>abstract="Tabellen **Körningsstatistik** innehåller information om hur din direktsändning lyckades och om fel som uppstod."
 
 ![](assets/direct-mail-campaign-exec.png)
 
-The **[!UICONTROL Execution statistics]** tabellen innehåller en beskrivning av hur väl varje direktmejlleverans lyckats, med detaljerade mätvärden som anges nedan.
+Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av framgången för varje direktutskick, med detaljerade mått som anges nedan.
 
 +++Läs mer om leveransstatistik.
 
@@ -78,7 +79,7 @@ The **[!UICONTROL Execution statistics]** tabellen innehåller en beskrivning av
 
 * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
 +++
 
@@ -87,11 +88,11 @@ The **[!UICONTROL Execution statistics]** tabellen innehåller en beskrivning av
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_clicks_direct_mail"
 >title="Genererade klickströmmar"
->abstract="The **Genererade klickströmmar** tabellen visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
+>abstract="Tabellen **Genererade klickströmmar** visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
-The **Genererade klickströmmar** tabellen visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
+Tabellen **Genererade klickströmmar** visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
 +++Läs mer om Generated click streams metrics.
 
@@ -99,6 +100,6 @@ The **Genererade klickströmmar** tabellen visar orsakerna till att användarpro
 
 * **[!UICONTROL Total clicks]**: Totalt antal klick på länkar i leveranser.
 
-* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickat i en leverans, i förhållande till det uppskattade antalet målmottagare som öppnat en leverans.
+* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
 +++

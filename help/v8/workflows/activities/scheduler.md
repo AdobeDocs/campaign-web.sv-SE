@@ -16,16 +16,16 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="Schemaläggaraktivitet"
->abstract="The **Schemaläggare** kan du schemalägga när arbetsflödet börjar. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet."
+>abstract="Med aktiviteten **Schemaläggaren** kan du schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet."
 
 
-The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
+Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
 
 ## Bästa praxis{#scheduler-best-practices}
 
 * Schemalägg inte ett arbetsflöde så att det körs mer än var 15:e minut eftersom det kan påverka den totala systemprestandan negativt och skapa block i databasen.
-* Om du vill skicka en engångsleverans i arbetsflödet kan du lägga till en schemaläggningsaktivitet och ställa in den på att köras **En gång**. Du kan också definiera **Schema** i leveransinställningarna.
-* Om du vill skicka en återkommande leverans i arbetsflödet måste du använda en **Schemaläggare** och ange körningsfrekvens. Den återkommande leveransaktiviteten tillåter inte att du definierar ett schema.
+* Om du vill skicka en engångsleverans i arbetsflödet kan du lägga till en schemaläggningsaktivitet och ställa in den på att köra **En gång**. Du kan också definiera **schemat** i leveransinställningarna.
+* Om du vill skicka en återkommande leverans i arbetsflödet måste du använda en **schemaläggaraktivitet** och ange körningsfrekvens. Den återkommande leveransaktiviteten tillåter inte att du definierar ett schema.
 
 ## Konfigurera aktiviteten Schemaläggaren {#scheduler-configuration}
 
@@ -40,33 +40,33 @@ The **Schemaläggare** aktiviteten är en **Flödeskontroll** aktivitet. Du kan 
 >title="Alternativ för schemaläggare"
 >abstract="Definiera frekvensen för schemaläggaren. Den kan köras vid ett specifikt tillfälle, en eller flera gånger per dag, vecka eller månad."
 
-Följ de här stegen för att konfigurera **Schemaläggare** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Schemaläggaren**:
 
 ![](../assets/workflow-scheduler.png)
 
-1. Lägg till en **Schemaläggare** till ditt arbetsflöde.
+1. Lägg till en **schemaläggaraktivitet** i ditt arbetsflöde.
 
-1. Konfigurera **Körningsfrekvens**:
+1. Konfigurera **körningsfrekvensen**:
 
-   * **En gång**: arbetsflödet körs en gång.
+   * **En gång**: Arbetsflödet körs en gång.
 
-   * **Dagligen**: arbetsflödet körs vid en viss tidpunkt, en gång om dagen.
+   * **Dagligen**: Arbetsflödet körs vid en viss tidpunkt, en gång om dagen.
 
-   * **Flera gånger om dagen:** arbetsflödet körs regelbundet flera gånger om dagen. Du kan ställa in körningar vid specifika tidpunkter eller med jämna mellanrum.
+   * **Flera gånger om dagen:** Arbetsflödet körs regelbundet flera gånger om dagen. Du kan ställa in körningar vid specifika tidpunkter eller med jämna mellanrum.
 
-   * **Vecka**: arbetsflödet körs vid ett angivet tillfälle, en eller flera gånger i veckan.
+   * **Veckovis**: Arbetsflödet körs vid ett angivet tillfälle, en eller flera gånger i veckan.
 
-   * **Månadsvis**: arbetsflödet körs vid ett angivet tillfälle, en eller flera gånger i månaden. Du kan välja de månader du vill att arbetsflödet ska köras.  Du kan också ställa in körningar på angivna veckodagar i månaden, till exempel den andra tisdagen i månaden.
+   * **Månadsvis**: Arbetsflödet körs vid ett angivet tillfälle, en eller flera gånger i månaden. Du kan välja de månader du vill att arbetsflödet ska köras.  Du kan också ställa in körningar på angivna veckodagar i månaden, till exempel den andra tisdagen i månaden.
 
 1. Definiera körningsinformationen utifrån den valda frekvensen.  Detaljfälten kan variera beroende på vilken frekvens som används (tid, repetitionsfrekvens, angivna dagar etc.).
 
-1. Klicka **Tidpunkter för förhandsgranskning** för att kontrollera schemat för de kommande tio körningarna av ditt arbetsflöde.
+1. Klicka på **Förhandsgranska starttider** för att kontrollera schemat för de kommande tio körningarna av arbetsflödet.
 
 1. Definiera giltighetsperioden för schemaläggaren:
 
-   * **Permanent (upphör aldrig)**: arbetsflödet körs enligt angiven frekvens, utan begränsningar av tidsramen eller antalet iterationer.
+   * **Permanent (upphör aldrig att gälla)**: arbetsflödet körs enligt angiven frekvens, utan begränsningar av tidsramen eller antalet iterationer.
 
-   * **Giltighetsperiod**: arbetsflödet körs enligt angiven frekvens fram till ett visst datum. Du måste ange start- och slutdatum.
+   * **Giltighetsperiod**: Arbetsflödet körs enligt angiven frekvens, fram till ett visst datum. Du måste ange start- och slutdatum.
 
 >[!NOTE]
 >

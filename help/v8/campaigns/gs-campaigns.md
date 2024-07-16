@@ -16,14 +16,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Kampanjer"
->abstract="Bläddra i listan över kampanjer. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Du kan filtrera efter status, start-/slutdatum eller med anpassade regler. Du kan även visa rapporter för färdiga kampanjer. Klicka på **Skapa kampanj** för att lägga till en ny kampanj. Gå till **Mallar** för att visa och skapa mallar."
+>abstract="Bläddra i listan över kampanjer. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Du kan filtrera efter status, start-/slutdatum eller med anpassade regler. Du kan även visa rapporter för färdiga kampanjer. Klicka på knappen **Skapa kampanj** för att lägga till en ny kampanj. Bläddra till fliken **Mallar** för att visa och skapa mallar."
 
 
 Med Adobe Campaign kan ni enkelt samordna era riktade marknadsföringssatsningar med den inbyggda kampanjhanteringsfunktionen. Med möjligheten att definiera ett schema kan ni planera kampanjernas varaktighet och tidsplanering för att anpassa dem till strategiska mål och maximera målgruppernas engagemang.
 
 Genom att lägga till flera arbetsflöden och leveranser som är specifika för kampanjen kan ni skapa personaliserade upplevelser i olika kanaler och säkerställa att varje kontaktyta passar den avsedda målgruppen.
 
-Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser. Upptäck hur du får tillgång till och förstår kampanjrapporter i [det här avsnittet](../reporting/campaign-reports.md).
+Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser. Upptäck hur du får åtkomst till och förstår kampanjrapporter i [det här avsnittet](../reporting/campaign-reports.md).
 
 ![Kampanjflöde](assets/campaign-flow.png)
 

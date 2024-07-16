@@ -5,42 +5,42 @@ description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Bläddra i och filtrera listor {#list-screens}
 
-De flesta länkar från den vänstra navigeringsmenyn visar listor med objekt, t.ex. listan med **Leveranser** eller **Kampanjer**. Vissa av dessa listskärmar är skrivskyddade. Du kan anpassa listvisningen och filtrera listorna enligt nedan.
+De flesta länkarna från den vänstra navigeringsmenyn visar listor med objekt, till exempel listan med **Leveranser** eller **Kampanjer**. Vissa av dessa listskärmar är skrivskyddade. Du kan anpassa listvisningen och filtrera listorna enligt nedan.
 
 ## Anpassa listskärmar {#custom-lists}
 
-Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Klicka på **Konfigurera kolumn för en anpassad layout** -ikonen i det övre högra hörnet av listan.
+Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Det gör du genom att klicka på kolumnen **Konfigurera för en anpassad layout** i listans övre högra hörn.
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-I **Konfigurera kolumner** rastrera, lägga till eller ta bort kolumner och ändra visningsordningen.
+Lägg till eller ta bort kolumner på skärmen **Konfigurera kolumner** och ändra visningsordningen.
 
 För dessa inställningar:
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 I listan visas följande kolumner:
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Sortera data {#sort-lists}
 
 Du kan också sortera objekt i listan genom att klicka på en kolumnrubrik. En pil visas (Upp eller Ned) som anger att listan är sorterad i den kolumnen.
 
-För numeriska kolumner och datumkolumner finns **Upp** anger att listan är sorterad i stigande ordning medan **Ned** pil anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
+För numeriska kolumner och datumkolumner anger pilen **Uppåt** att listan är sorterad i stigande ordning medan pilen **Nedåt** anger en fallande ordning. För strängar eller alfanumeriska kolumner visas värdena i alfabetisk ordning.
 
 ## Filter {#list-built-in-filters}
 
 Om du vill hitta objekt snabbare kan du använda sökfältet eller inbyggda och anpassade filter för att anpassa listan baserat på sammanhangsberoende kriterier.
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Detaljerad information om hur du använder filter och skapar egna filter finns i [det här avsnittet](../query/filter.md).
 

@@ -15,9 +15,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Bygg målgruppsaktivitet"
->abstract="The **Bygg målgrupper** kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet."
+>abstract="Med aktiviteten **Skapa målgrupp** kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i aktiviteten **Bygg målgrupp**."
 
-The **Bygg målgrupper** aktiviteten är en **Målinriktning** aktivitet. Med den här aktiviteten kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i **Bygg målgrupper** aktivitet.
+Aktiviteten **Skapa målgrupp** är en **målgruppsaktivitet**. Med den här aktiviteten kan du definiera målgruppen som ska delta i arbetsflödet. När du skickar meddelanden i ett arbetsflödes sammanhang definieras inte meddelandemålgruppen i kanalaktiviteten, utan i aktiviteten **Bygg målgrupp**.
 
 Om du vill definiera målgruppspopulationen kan du:
 
@@ -27,7 +27,7 @@ Om du vill definiera målgruppspopulationen kan du:
 
 >[!NOTE]
 >
->Målgrupper som läses in från en fil kan inte anges som mål med en Build-målgruppsaktivitet. För att göra detta måste du använda en **Läs in fil** aktivitet följt av **Avstämning** aktivitet. [Läs mer](../../audience/about-recipients.md)
+>Målgrupper som läses in från en fil kan inte anges som mål med en Build-målgruppsaktivitet. För att göra detta måste du använda en **Läs in fil**-aktivitet följt av en **avstämningsaktivitet** . [Läs mer](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -40,13 +40,13 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Målgrupp"
 >abstract="Välj målgrupp på samma sätt som du använder en målgrupp när du designar en ny leverans."
 
-Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Skapa målgrupp**:
 
 ![](../assets/workflow-audience.png)
 
-1. Lägg till en **Bygg målgrupper** aktivitet.
+1. Lägg till en **Skapa målgruppsaktivitet**.
 1. Definiera en etikett.
-1. Definiera målgruppstyp: **Skapa en egen** eller **Läsa målgrupper**.
+1. Definiera målgruppstypen: **Skapa din egen** eller **Läs målgrupp**.
 1. Konfigurera målgruppen genom att följa stegen som beskrivs på flikarna nedan.
 
 >[!BEGINTABS]
@@ -56,22 +56,22 @@ Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 Så här skapar du en egen fråga:
 
 1. Välj **Skapa en egen (fråga)**.
-1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om målinriktning](../../audience/about-recipients.md#targeting-dimensions)
-1. Klicka **Fortsätt**.
+1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
+1. Klicka på **Fortsätt**.
 1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 >[!TAB Läs målgrupp]
 
 Så här väljer du en befintlig målgrupp:
 
-1. Välj **Läsa målgrupper**.
-1. Klicka **Fortsätt**.
-1. Välj målgrupp på samma sätt som du använder en målgrupp när du designar en ny leverans. Se detta [section](../../audience/add-audience.md).
+1. Välj **Läs målgrupp**.
+1. Klicka på **Fortsätt**.
+1. Välj målgrupp på samma sätt som du använder en målgrupp när du designar en ny leverans. Se det här [avsnittet](../../audience/add-audience.md).
 
 >[!ENDTABS]
 
 ## Exempel{#build-audience-examples}
 
-Här är ett exempel på ett arbetsflöde med två **Bygg målgrupper** verksamhet. Det första riktar sig till pokerspelarna, följt av ett mejlerbjudande. Det andra riktar sig till VIP kunder, följt av en SMS-leverans.
+Här är ett exempel på ett arbetsflöde med två **Skapa målgruppsaktiviteter**. Det första riktar sig till pokerspelarna, följt av ett mejlerbjudande. Det andra riktar sig till VIP kunder, följt av en SMS-leverans.
 
 ![](../assets/workflow-audience-example.png)

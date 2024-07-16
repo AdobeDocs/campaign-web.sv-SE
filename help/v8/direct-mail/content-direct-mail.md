@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Extrahera filinnehåll"
->abstract="Klicka på **Redigera innehåll** för att börja designa extraheringsfilen som krävs av din direktmeddelandeleverantör. På så sätt kan du definiera filegenskaperna, till exempel filens etikett och format, och ange de kolumner som du vill inkludera i filen."
+>abstract="Klicka på knappen **Redigera innehåll** för att börja designa den extraheringsfil som krävs av din direktmeddelandeleverantör. På så sätt kan du definiera filegenskaperna, till exempel filens etikett och format, och ange de kolumner som du vill inkludera i filen."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
@@ -25,49 +25,49 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Innehåll"
->abstract="I det här avsnittet anger du vilka kolumner som ska visas i extraheringsfilen. När du är klar kan du förhandsgranska extraheringsfilen med **Simulera innehåll** -knappen."
+>abstract="I det här avsnittet anger du vilka kolumner som ska visas i extraheringsfilen. När du är klar kan du förhandsgranska extraheringsfilen med knappen **Simulera innehåll** ."
 
-Om du vill designa innehållet i extraheringsfilen som genereras av din direktutskick klickar du på knappen **[!UICONTROL Edit content]** på din leveranssida och sedan konfigurera filens egenskaper och innehåll.
+Om du vill utforma innehållet i extraheringsfilen som genereras av din direktmeddelandeleverans klickar du på knappen **[!UICONTROL Edit content]** på leveranssidan och konfigurerar sedan filegenskaperna och innehållet.
 
 ## Konfigurera egenskaper för extraheringsfilen {#properties}
 
-1. I **[!UICONTROL File name]** anger du ett namn för extraheringsfilen. Du kan anpassa filnamnet med attribut från databasen. Klicka på **[!UICONTROL Open personalization dialog]** -ikonen för att öppna uttrycksredigeraren. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
+1. I fältet **[!UICONTROL File name]** anger du önskat namn för extraheringsfilen. Du kan anpassa filnamnet med attribut från databasen. Klicka på ikonen **[!UICONTROL Open personalization dialog]** för att öppna uttrycksredigeraren. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
 
-1. I **[!UICONTROL File format]** Välj önskat format för extraheringsfilen. **Text**, **Text med fast teckenbredd**, **CSV (Excel)** eller **XML**.
+1. I fältet **[!UICONTROL File format]** väljer du önskat format för extraheringsfilen: **Text**, **Text som använder fasta kolumner**, **CSV (Excel)** eller **XML**.
 
-1. Expandera **[!UICONTROL Extraction format]** för att komma åt specifika alternativ för extraheringsfilens format. Vilka värden som är tillgängliga beror på det valda formatet.
+1. Expandera avsnittet **[!UICONTROL Extraction format]** för att få åtkomst till specifika alternativ som är relaterade till extraheringsfilens format. Vilka värden som är tillgängliga beror på det valda formatet.
 
 +++ Tillgängliga alternativ för extraheringsformat
 
-   * **[!UICONTROL Use first line as column header]** (Text-/CSV-format (Excel): Aktivera det här alternativet om du vill använda den första kolumnen som rubrik.
+   * **[!UICONTROL Use first line as column header]** (Text-/CSV-format (Excel)): Aktivera det här alternativet om du vill använda den första kolumnen som rubrik.
    * **[!UICONTROL Column separator]** (Textformat): Ange det tecken som ska användas som kolumnavgränsare i extraheringsfilen.
    * **[!UICONTROL String delimiter]** (Textformat): Ange hur strängar i extraheringsfilen ska avgränsas.
    * **[!UICONTROL End of line]** (Textformat): Ange hur radslut i extraheringsfilen ska avgränsas.
    * **[!UICONTROL Encoding]**: Välj kodning för extraheringsfilen.
    * **[!UICONTROL Date format and separators]**: Ange hur datum ska formateras i extraheringsfilen.
    * **[!UICONTROL Number format]**: Ange hur tal ska formateras i extraheringsfilen.
-   * **[!UICONTROL Export labels instead of internal values of enumerations]**: Aktivera det här alternativet om du vill exportera uppräkningsvärden och om du vill hämta kolumnrubriker, som är lättare att förstå, i stället för interna ID:n.
+   * **[!UICONTROL Export labels instead of internal values of enumerations]**: Aktivera det här alternativet om du vill exportera uppräkningsvärden och om du vill hämta kolumnrubriker som är lättare att förstå, i stället för interna ID:n.
 
 +++
 
-1. Växla på **[!UICONTROL Requested quantity]** för att begränsa antalet mottagare för leveransen.
+1. Växla på alternativet **[!UICONTROL Requested quantity]** om du vill begränsa antalet mottagare för leveransen.
 
    ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Konfigurera kolumnerna för extraheringsfilen {#content}
 
-I **[!UICONTROL Content]** anger du de kolumner som ska visas i extraheringsfilen. Följ dessa steg för att göra detta:
+I avsnittet **[!UICONTROL Content]** anger du vilka kolumner som ska visas i extraheringsfilen. Följ dessa steg för att göra detta:
 
-1. Klicka på **[!UICONTROL Add Attribute]** för att skapa en ny kolumn.
-1. Välj det attribut som ska visas i kolumnen och bekräfta. Observera att du kan använda uttrycksredigeraren för att välja vilket attribut som ska användas genom att klicka på **[!UICONTROL Edit expression]** -knappen.
+1. Klicka på knappen **[!UICONTROL Add Attribute]** för att skapa en ny kolumn.
+1. Välj det attribut som ska visas i kolumnen och bekräfta. Observera att du kan använda uttrycksredigeraren för att välja det attribut som ska användas genom att klicka på knappen **[!UICONTROL Edit expression]**.
 
    ![](assets/dm-add-attribute.png)
 
 1. När kolumnen har lagts till kan du ändra dess etikett och tillhörande attribut med hjälp av redigeringsikonen.
 1. Upprepa dessa steg om du vill lägga till så många kolumner som behövs för extraheringsfilen.
-1. Om du vill sortera extraheringsfilen med en av kolumnerna klickar du på ikonen i dialogrutan **[!UICONTROL Sorting]** och väljer önskad sorteringsmetod.
+1. Om du vill sortera extraheringsfilen med en av kolumnerna klickar du på ikonen i kolumnen **[!UICONTROL Sorting]** och väljer önskad sorteringsmetod.
 1. Om du vill ändra en kolumns placering använder du upp- och nedpilarna.
 
 ![](assets/dm-content-attributes.png)
 
-Nu kan du förhandsgranska extraheringsfilen och skicka leveransen för att generera extraheringsfilen. [Lär dig hur du testar och skickar direktreklam](send-direct-mail.md)
+Nu kan du förhandsgranska extraheringsfilen och skicka leveransen för att generera extraheringsfilen. [Lär dig hur du testar och skickar direktmeddelanden](send-direct-mail.md)

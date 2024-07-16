@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveranser"
->abstract="En leverans är en kommunikation som skickas till en publik via en viss kanal: e-post, SMS eller push. På den här skärmen kan du redigera, duplicera och ta bort befintliga leveranser. Du kan även visa rapporter för slutförda leveranser. Klicka på **Skapa leverans** för att lägga till en ny leverans."
+>abstract="En leverans är en kommunikation som skickas till en publik via en viss kanal: e-post, SMS eller push. På den här skärmen kan du redigera, duplicera och ta bort befintliga leveranser. Du kan även visa rapporter för slutförda leveranser. Klicka på knappen **Skapa leverans** för att lägga till en ny leverans."
 
 ## Skapa en leverans {#create-delivery}
 
-Du kan skapa fristående leveranser från **[!UICONTROL Deliveries]** vänster meny, eller skapa leveranser i ett arbetsflöde, som ingår eller inte ingår i en kampanj.
+Du kan skapa fristående leveranser från den vänstra menyn **[!UICONTROL Deliveries]** eller skapa leveranser i ett arbetsflöde, som ingår i en kampanj eller inte.
 
 Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
@@ -32,14 +32,14 @@ Bläddra bland flikarna nedan för att lära dig hur du skapar en leverans:
 
 Så här skapar du en fristående leverans:
 
-1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på **[!UICONTROL Create delivery]** -knappen.
+1. Bläddra till menyn **[!UICONTROL Deliveries]** till vänster och klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. Välj en kanal för leveransen.
 1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. Definiera meddelandeinnehållet. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
 
@@ -47,28 +47,28 @@ Så här skapar du en fristående leverans:
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. (valfritt) Definiera leveransen [schema](#gs-schedule). Om inget schema är definierat skickas meddelanden direkt efter att du klickat på **[!UICONTROL Send]** -knappen.
-1. Klicka på  **[!UICONTROL Review and send]** för att kontrollera inställningarna.
-1. Använd  **[!UICONTROL Simulate content]** för att testa leveransinställningar och personaliseringsinställningar. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
-1. Klicka på  **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel uppstår går du till **Loggar** för att kontrollera varningar och varningar.
-1. Kontrollera resultaten och klicka på **[!UICONTROL Send]** för att börja skicka meddelanden.
-1. När meddelandena har skickats går du till **Rapporter** för att komma åt nyckeltal. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
+1. (valfritt) Definiera leveransschemat [](#gs-schedule). Om inget schema har definierats skickas meddelanden direkt när du har klickat på knappen **[!UICONTROL Send]**.
+1. Klicka på knappen **[!UICONTROL Review and send]** om du vill kontrollera dina inställningar.
+1. Använd knappen **[!UICONTROL Simulate content]** för att testa dina inställningar för leverans och anpassning. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
+1. Klicka på knappen **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel inträffar bläddrar du till **loggarna** för att kontrollera varningar och varningar.
+1. Kontrollera resultaten och klicka på knappen **[!UICONTROL Send]** för att börja skicka meddelanden.
+1. När du har skickat meddelanden bläddrar du till avsnittet **Rapporter** för att få åtkomst till nyckelvärden. Läs mer om leveransrapporter i [det här avsnittet](../reporting/delivery-reports.md).
 
 >[!TAB Skapa en leverans i ett arbetsflöde]
 
 Så här skapar du en leverans i ett arbetsflöde:
 
 1. Skapa ett arbetsflöde eller öppna ett befintligt. [Läs mer om arbetsflöden](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Lägg till och konfigurera en [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) aktivitet.
-1. Klicka på `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i [det här avsnittet](../workflows/activities/channels.md).
+1. Lägg till och konfigurera en [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md)-aktivitet.
+1. Klicka på ikonen `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i [det här avsnittet](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. Starta arbetsflödet och kontrollera loggarna.
 
-Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. Bläddra till **[!UICONTROL Deliveries]** fliken med kampanjen och klicka på **[!UICONTROL Create delivery]** -knappen.
+Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. För att uppnå detta går du till fliken **[!UICONTROL Deliveries]** i kampanjen och klickar på knappen **[!UICONTROL Create delivery]**.
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 Konfigurationsstegen är desamma som för fristående leveranser.
 
@@ -81,15 +81,15 @@ Mer information om hur du konfigurerar en kampanj och hanterar leveranser som ti
 
 Meddelanden från Adobe Campaign kan personaliseras på olika sätt. [Läs mer om personaliseringsfunktioner](../personalization/gs-personalization.md).
 
-Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personaliseringsfunktionerna kan kombineras för att förbättra budskapen och skapa en anpassad användarupplevelse.
+Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade meddelanden. Personalization funktioner kan kombineras för att förbättra era budskap och skapa en anpassad användarupplevelse.
 
 Du kan anpassa meddelandeinnehållet genom att:
 
-* Infoga dynamisk **personaliseringsfält**
+* Infogar dynamiska **anpassningsfält**
 
   Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. [Läs mer](../personalization/personalize.md)
 
-* Infoga fördefinierad **innehållsblock**
+* Infoga fördefinierade **innehållsblock**
 
   Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren. [Läs mer](../personalization/personalize.md#ootb-content-blocks)
 
@@ -97,7 +97,7 @@ Du kan anpassa meddelandeinnehållet genom att:
 
   Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. [Läs mer](../personalization/conditions.md)
 
-* Lägg till **personaliserade erbjudanden**
+* Lägg till **anpassade erbjudanden**
 
   Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../msg/offers.md)
 
@@ -114,11 +114,11 @@ När meddelandeinnehållet har definierats kan du förhandsgranska det för att 
 
 Du kan ange datum och exakt tid för att skicka meddelanden. Genom att välja den lämpligaste tidpunkten för ert marknadsföringsmeddelande kan ni maximera öppningsfrekvensen.
 
-Om du vill schemalägga sändning av leveransen öppnar du leveransen och bläddrar till **[!UICONTROL Schedule]** -avsnitt. Använd **[!UICONTROL Enable scheduling]** för att aktivera den och ange datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
+Om du vill schemalägga sändning av en leverans öppnar du leveransen och bläddrar till avsnittet **[!UICONTROL Schedule]**. Använd växlingsknappen **[!UICONTROL Enable scheduling]** för att aktivera den och ange önskat datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
-Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka leveransen automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
+Som standard är alternativet **[!UICONTROL Enable confirmation before sending]** aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka leveransen automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
 
 Lär dig hur du skickar en schemalagd leverans i [det här avsnittet](../monitor/prepare-send.md#schedule-the-send).
 
@@ -137,12 +137,12 @@ Du kan skapa en kopia av en befintlig leverans, antingen från leveranslistan el
 Så här duplicerar du en leverans från listan med leveranser:
 
 1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
-1. Välj  **[!UICONTROL Duplicate]**.
+1. Välj **[!UICONTROL Duplicate]**.
 1. Bekräfta duplicering: den nya kontrollpanelen för leverans öppnas på den centrala skärmen.
 
 Så här duplicerar du en leverans från kontrollpanelen:
 
-1. Öppna leveransen och klicka på  **[!UICONTROL ...More]** på skärmens övre del.
+1. Öppna leveransen och klicka på knappen **[!UICONTROL ...More]** överst på skärmen.
 1. Välj **[!UICONTROL Duplicate]**.
 1. Bekräfta duplicering: Den nya leveransen ersätter den aktuella leveransen på den centrala skärmen.
 
@@ -153,7 +153,7 @@ Leveranser tas bort från leveranslistan, antingen från huvudposten i det väns
 Så här tar du bort en leverans från listan över leveranser:
 
 1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
-1. Välj  **[!UICONTROL Delete]**.
+1. Välj **[!UICONTROL Delete]**.
 1. Bekräfta borttagning.
 
 ![Ta bort en leverans från leveranslistan](assets/delete-delivery-from-list.png)
@@ -163,7 +163,7 @@ Alla leveranser är tillgängliga i de här listorna, men leveranser som har ska
 Så här tar du bort en leverans från ett arbetsflöde:
 
 1. Välj leveransaktivitet.
-1. Klicka på  **[!UICONTROL Delete]** på den högra panelen.
+1. Klicka på ikonen **[!UICONTROL Delete]** på den högra panelen.
 1. Bekräfta borttagning. Om leveransen har underordnade noder kan du välja att ta bort dem också eller att behålla dem.
 
 ![Ta bort en leverans i ett arbetsflöde](assets/delete-delivery-from-wf.png)

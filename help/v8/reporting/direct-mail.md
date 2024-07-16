@@ -2,16 +2,17 @@
 audience: end-user
 title: Rapporter om direktreklam
 description: Lär dig hur du får åtkomst till och använder rapporter via direktreklam
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Rapport om direktleverans av e-post {#direct-mail-report}
 
-The **Rapport om direktleverans av e-post** ger omfattande insikter och data som är specifika för er direktutskick. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
+Rapporten **Direktleverans av e-post** innehåller omfattande insikter och data som är specifika för din direktleverans av e-post. Den ger detaljerad information om prestanda, effektivitet och resultat för era individuella leveranser och ger er en heltäckande översikt.
 
 ## Leveranssammanfattning {#delivery-summary-direct-mail}
 
@@ -20,19 +21,19 @@ The **Rapport om direktleverans av e-post** ger omfattande insikter och data som
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Leveransöversikt"
->abstract="The **Leveransöversikt** presenterar nyckeltal (KPI:er) som ger djupgående insikter i hur besökarna interagerar med varje direktutskick. Mätvärdena beskrivs nedan."
+>abstract="I **leveransöversikten** presenteras nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktion med varje direktutskick. Mätvärdena beskrivs nedan."
 
-The **[!UICONTROL Delivery Overview]** ger detaljerade insikter om hur besökarna interagerar med varje direktutskick och visar viktiga nyckeltal (KPI).  Mätvärdena beskrivs nedan.
+**[!UICONTROL Delivery Overview]** ger detaljerade insikter om hur besökarna interagerar med varje direktsändning via e-post och visar viktiga nyckeltal (KPI).  Mätvärdena beskrivs nedan.
 
-![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
 * **[!UICONTROL Messages to deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
-* **[!UICONTROL Targeted]**: Antal användarprofiler som kvalificerar sig som målprofiler för dina direktutskick.
+* **[!UICONTROL Targeted]**: Antal användarprofiler som kvalificerar som målprofiler för dina direktutskick.
 
-* **[!UICONTROL To exclude]**: Antal användarprofiler, exkluderade från målprofilerna, som inte kommer att ta emot dina direktutskick.
+* **[!UICONTROL To exclude]**: Antal användarprofiler, exkluderade från målprofilerna, som inte tar emot dina direktutskick.
 +++
 
 ### Inledande målpopulation {#direct-mail-delivery-targeted-population}
@@ -40,15 +41,15 @@ The **[!UICONTROL Delivery Overview]** ger detaljerade insikter om hur besökarn
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target_direct_mail"
 >title="Inledande målpopulation"
->abstract="The **Inledande målpopulation** I diagrammet visas data i förhållande till dina mottagare och meddelanden, baserat på resultatet av leveransförberedelsen."
+>abstract="Diagrammet **Inledande målpopulation** visar data i förhållande till dina mottagare och meddelanden baserat på resultatet av leveransförberedelsen."
 
-The **[!UICONTROL Initial target population]** I diagrammet visas data relativt dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
+Diagrammet **[!UICONTROL Initial target population]** visar data i förhållande till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
 För musen över en del av diagrammet för att visa det exakta talet.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++Läs mer om rapportvärden för direktutskick.
 
@@ -64,11 +65,11 @@ För musen över en del av diagrammet för att visa det exakta talet.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Leveransstatistik"
->abstract="The **Leveransstatistik** diagram visar hur din direktutskick lyckades och vilka fel som inträffade."
+>abstract="Diagrammet **Leveransstatistik** visar hur din direktleverans lyckades och vilka fel som uppstod."
 
-The **[!UICONTROL Delivery statistics]** graf ger en omfattande översikt över leveransresultaten och ger detaljerade mätvärden för att mäta framgång och effektivitet.
+Diagrammet **[!UICONTROL Delivery statistics]** ger en omfattande översikt över din leveransförmåga och innehåller detaljerade mätvärden för att mäta framgång och effektivitet.
 
-![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++Läs mer om rapportvärden för kampanjer i direktreklam.
 
@@ -78,7 +79,7 @@ The **[!UICONTROL Delivery statistics]** graf ger en omfattande översikt över 
 
 * **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
 +++
 
@@ -87,25 +88,25 @@ The **[!UICONTROL Delivery statistics]** graf ger en omfattande översikt över 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Leveransorsaker"
->abstract="The **Orsaker till uteslutning** graf visar distributionen av avvisade meddelanden under färdigställandet av leveransen, indelat i kategorier."
+>abstract="Diagrammet **Orsaker till uteslutning** illustrerar distributionen av avvisade meddelanden under förberedelsen för leverans, kategoriserat av varje regel."
 
-The **[!UICONTROL Causes of exclusion]** I diagrammet ges en detaljerad beskrivning av skälen till att meddelanden inte godkänns under beredningen av leveransen. Uppdelningen är uppdelad enligt olika regler och ger en heltäckande bild av de faktorer som bidrar till att utesluta meddelanden. Exkluderingsregler finns i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** innehåller en detaljerad beskrivning av orsakerna till att meddelanden nekas under processen för leveransförberedelse. Uppdelningen är uppdelad enligt olika regler och ger en heltäckande bild av de faktorer som bidrar till att utesluta meddelanden. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Läs mer om orsaker till uteslutning.
 
-* **[!UICONTROL Address in quarantine]**: Feltyp som genereras när adressen placeras i karantän.
+* **[!UICONTROL Address in quarantine]**: Feltypen genererades när adressen placerades i karantän.
 
-* **[!UICONTROL Address not specified]**: Feltyp som genereras när en leverans skickas för att ange att adressen inte finns.
+* **[!UICONTROL Address not specified]**: Feltypen som genererades när en leverans skickades för att ange att adressen inte finns.
 
-* **[!UICONTROL Bad quality address]**: Feltyp som genereras när kvalitetsklassen för postadresser är för låg.
+* **[!UICONTROL Bad quality address]**: Feltypen som genereras när kvalitetsklassen för postadresser är för låg.
 
-* **[!UICONTROL Denylisted address]**: Feltyp som genererades när mottagaren blocklist när leveransen utfördes.
+* **[!UICONTROL Denylisted address]**: Feltypen som genererades när mottagaren blocklist när leveransen utfördes.
 
-* **[!UICONTROL Double]**: Feltyp som genererades när mottagaren exkluderades eftersom dess nyckelvärden inte var unika.
+* **[!UICONTROL Double]**: Feltypen som genererades när mottagaren exkluderades eftersom dess nyckelvärden inte var unika.
 
-* **[!UICONTROL Control group]**: Mottagarens adress ingår i kontrollgruppen.
+* **[!UICONTROL Control group]**: Mottagarens adress är en del av kontrollgruppen.
 
 * **[!UICONTROL Target limited in size]**: Den maximala leveransstorleken har uppnåtts för mottagaren.
 
@@ -116,10 +117,10 @@ The **[!UICONTROL Causes of exclusion]** I diagrammet ges en detaljerad beskrivn
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Undantag"
->abstract="The **[!UICONTROL Exclusions]** tabellen visar en detaljerad beskrivning, per regel, av meddelanden som avvisats under leveransförberedelseprocessen."
+>abstract="Tabellen **[!UICONTROL Exclusions]** visar en detaljerad beskrivning, per regel, av meddelanden som avvisats under leveransförberedelseprocessen."
 
-The **[!UICONTROL Exclusions]** tabellen innehåller en detaljerad beskrivning, indelad efter specifika regler, av meddelanden som avvisats under leveransfasen. Denna omfattande uppdelning ger en tydlig förståelse för orsakerna till att dessa meddelanden utesluts från leveransprocessen.
+Tabellen **[!UICONTROL Exclusions]** innehåller en detaljerad beskrivning, indelad med specifika regler, av meddelanden som avvisats under leveransfasen. Denna omfattande uppdelning ger en tydlig förståelse för orsakerna till att dessa meddelanden utesluts från leveransprocessen.
 
-![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Tillgängliga mått är samma som för [Orsaker till uteslutning](#direct-mail-delivery-exclusions) som beskrivs ovan.

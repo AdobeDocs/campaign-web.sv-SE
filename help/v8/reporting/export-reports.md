@@ -5,7 +5,7 @@ description: Förstå hur du exporterar rapporter
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportera rapporter"
->abstract="Klicka på **Exportera** om du vill exportera dessa mätvärden till PDF eller CSV-format, vilket gör att du kan dela eller skriva ut dem."
+>abstract="Klicka på knappen **Exportera** om du vill exportera dessa mått till PDF eller CSV-format, så att du kan dela eller skriva ut dem."
 
 Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
 
-1. Klicka på **[!UICONTROL Export]** och markera **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
+1. Klicka på **[!UICONTROL Export]** i rapporten och välj **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
 
-   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_export.png){zoomable="yes"}
 
 1. Leta reda på mappen där du vill spara filen, byt namn på den om det behövs och klicka på **[!UICONTROL Save]**.
 
