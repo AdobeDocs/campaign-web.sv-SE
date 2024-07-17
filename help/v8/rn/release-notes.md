@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 5%
@@ -23,14 +23,6 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 **Releasedatum**: 18-19 juni 2024
 
 Följande funktioner och förbättringar är tillgängliga för alla användare från och med juni.
-<!--
-### Visual fragments {#24-6-1}
-
-You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
-
-### Seed lists {#24-6-2}
-
-A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
 
 ### Leveransvarningar {#24-6-3}
 
@@ -42,7 +34,7 @@ Nu kan ni skapa planer och program för att ordna era kampanjer. Genom att defin
 
 ### Förbättringar {#improvements-24-6}
 
-* **Avstämning i anrikningsaktivitet**: **Berikning** Aktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
+* **Avstämning i anrikningsaktivitet**: Aktiviteten **Anrikning** kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett temporärt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
 
 ## Versionsinformation {#24-5-release}
 
@@ -52,15 +44,15 @@ Följande funktioner och förbättringar är tillgängliga för alla användare 
 
 ### Granskningskedja  {#24-5-1}
 
-Den nya **Granskningsspår** funktionen ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid. Den erbjuder en praktisk metod för att spåra alla ändringar av era Campaign-data, till exempel frågor som status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen. [Läs mer](../reporting/audit-trail.md)
+Den nya funktionen **Granskningsspår** ger en detaljerad och kronologisk registrering av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid. Den erbjuder en praktisk metod för att spåra alla ändringar av era Campaign-data, till exempel frågor som status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen. [Läs mer](../reporting/audit-trail.md)
 
 ### Anpassade fält {#24-5-2}
 
-**Anpassade fält** är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
+**Anpassade fält** är ytterligare attribut som läggs till i scheman som är klara att användas via Adobe Campaign-konsolen. I webbgränssnittet för Campaign är dessa anpassade fält nu synliga på olika skärmar, till exempel information om en profil eller en testprofil. I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan nu ändra hur de visas. [Läs mer](../administration/custom-fields.md)
 
 ### Skapa länkar mellan tabeller {#24-5-3}
 
-Nu kan du skapa länkar med en annan tabell i **Berikning** arbetsflödesaktivitet. Använd den nya **Länkdefinition** i aktivitetsparametrarna för att skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress, kan du nu skapa en länk till landstabellen för att uppdatera informationen i deras profiler. [Läs mer](../workflows/activities/enrichment.md#create-links)
+Nu kan du skapa länkar med en annan tabell i arbetsflödesaktiviteten **Berikning**. Använd det nya avsnittet **Länkdefinition** i aktivitetsparametrarna för att skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress, kan du nu skapa en länk till landstabellen för att uppdatera informationen i deras profiler. [Läs mer](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -72,14 +64,14 @@ Nu kan du skapa länkar med en annan tabell i **Berikning** arbetsflödesaktivit
 
 ### Allmänna förbättringar {#improvements-24-5}
 
-* **Direktreklam** - Du kan nu använda uttrycksredigeraren för att välja vilka attribut som ska visas i extraheringsfiler för direktreklam. [Läs mer](../direct-mail/content-direct-mail.md)
+* **Direktutskick** - Nu kan du använda uttrycksredigeraren för att välja vilka attribut som ska visas i extraheringsfiler för direktutskick. [Läs mer](../direct-mail/content-direct-mail.md)
 
-* **Mapphantering** - Du kan nu skapa en undermapp av en annan typ än den överordnade mappen. [Läs mer](../get-started/permissions.md#folders)
+* **Mapphantering** - Nu kan du skapa en undermapp av en annan typ än den överordnade mappen. [Läs mer](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **Globalisering** - Som en del av vårt pågående arbete med att leverera en enhetlig användarupplevelse harmoniserar vi terminologin som används i Adobe Experience Cloud produkter och appar. Det här påverkar den tyska termen &quot;Titel&quot; som ändras till &quot;Label&quot; när det gäller namnet på ett objekt. Ändringarna införs stegvis i användargränssnittet och dokumentationen.
+* **Globalisering** - Som en del av vår pågående strävan att leverera en enhetlig användarupplevelse harmoniserar vi terminologin som används i Adobe Experience Cloud-produkter och -appar. Det här påverkar den tyska termen &quot;Titel&quot; som ändras till &quot;Label&quot; när det gäller namnet på ett objekt. Ändringarna införs stegvis i användargränssnittet och dokumentationen.
 
 
 ## Versionsinformation, april {#april-24-4-release}
@@ -93,19 +85,19 @@ Följande funktioner är tillgängliga för alla användare från och med aprilv
 **Nya arbetsflödesaktiviteter**
 
 * **Uppdatera data** - Använd den här aktiviteten för att utföra massuppdateringar på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen. [Läs mer](../workflows/activities/update-data.md)
-* **Prenumerationstjänster** - Använd den här aktiviteten om du vill prenumerera eller avbryta prenumeration på flera profiler till/från en tjänst i en enda åtgärd. [Läs mer](../workflows/activities/subscription-services.md)
+* **Prenumerationstjänster** - Använd den här aktiviteten om du vill prenumerera på eller avbryta prenumeration på flera profiler till/från en tjänst i en enda åtgärd. [Läs mer](../workflows/activities/subscription-services.md)
 * **Extrahera fil** - Använd den här aktiviteten om du vill exportera data från Adobe Campaign till ett annat system som en extern fil. [Läs mer](../workflows/activities/extract-file.md)
-* **Överföringsfil** - Använd den här aktiviteten om du vill ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll. [Läs mer](../workflows/activities/transfer-file.md)
-* **Testa** - Använd den här aktiviteten för att aktivera övergångar baserat på angivna villkor. [Läs mer](../workflows/activities/test.md)
+* **Överför fil** - Använd den här aktiviteten om du vill ta emot eller skicka filer, testa om det finns filer eller lista över filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll. [Läs mer](../workflows/activities/transfer-file.md)
+* **Test** - Använd den här aktiviteten för att aktivera övergångar baserat på angivna villkor. [Läs mer](../workflows/activities/test.md)
 * **JavaScript-kod** - Använd den här aktiviteten för att köra ett JavaScript-kodfragment i ett arbetsflödes sammanhang. [Läs mer](../workflows/activities/javascript-code.md)
-* **Extern signal** - Använd den här aktiviteten för att utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop. [Läs mer](../workflows/activities/external-signal.md)
+* **Extern signal** - Använd den här aktiviteten för att utlösa ett arbetsflödes körning från ett annat arbetsflöde eller ett API-anrop. [Läs mer](../workflows/activities/external-signal.md)
 * **Inkrementell fråga** - Använd den här aktiviteten för att fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element. [Läs mer](../workflows/activities/incremental-query.md)
 
-**Mallar för push-meddelanden**
+**Mallar för avancerade push-meddelanden**
 
 Nu kan du skicka omfattande push-meddelanden via Android. Rich push notification är en förbättrad form av mobilmeddelanden som går utöver enkla textmeddelanden genom att införliva multimediaelement som bilder, interaktiva knappar eller annat multimediematerial. [Läs mer](../push/rich-push.md)
 
-Observera att den här funktionen är **Begränsad tillgänglighet** (LA).
+Observera att den här funktionen är i **begränsad tillgänglighet** (LA).
 
 
 ### Nya funktioner i begränsad tillgänglighet {#acs-24-4}
@@ -114,15 +106,15 @@ Observera att den här funktionen är **Begränsad tillgänglighet** (LA).
 >
 >Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 >
->Se följande dokumentationssidor: [Campaign Standard över till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standarder](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standarder](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-* **Varumärke** - Som en Campaign Standard migrerad användare kan era tekniska administratörer nu definiera ett eller flera varumärken för att centralisera de parametrar som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Du kan skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Varumärke** - Som en Campaign Standard migrerad användare kan teknikadministratörer nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Du kan skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Övriga API:er** - Som användare med migrerad Campaign Standard kan du använda de övriga API:erna för att skapa integreringar för Adobe Campaign och bygga ett eget ekosystem genom att interagera med Adobe Campaign med den tekniska panel som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Övriga API:er** - Som Campaign Standard migrerad användare kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
 
-* **Dynamisk rapportering** - Som användare med migrerad Campaign Standard har ni tillgång till Dynamic Reporting, som tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **Dynamisk rapportering** - Som Campaign Standard migrerad användare kan du få tillgång till Dynamic Reporting som tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Landningssidor** - Följande förbättringar av landningssidor är endast tillgängliga för användare som går över från Campaign Standard:
+* **Landningssidor** - Följande förbättringar av landningssidor är bara tillgängliga för användare som övergår från Campaign Standard:
 
    * Du kan nu hänvisa till en standardstartsida för prenumeration/avprenumeration när du konfigurerar en tjänst. När du utformar ett e-postmeddelande och definierar en länk till den landningssidan, prenumererar användare som skickar landningssidans formulär automatiskt på eller avbryter prenumerationen på den här tjänsten. [Läs mer](../audience/manage-services.md#create-service)
    * Ett nytt alternativ i landningssidans konfiguration gör att anonyma besökare kan komma åt landningssidan. Om du avmarkerar det här alternativet kan endast identifierade användare få åtkomst till och skicka formuläret. [Läs mer](../landing-pages/create-lp.md#create-landing-page)
@@ -135,18 +127,18 @@ Observera att den här funktionen är **Begränsad tillgänglighet** (LA).
 Förbättringarna nedan är tillgängliga för alla kunder från och med aprilversionen.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* The **Läs in fil** -aktiviteten har förbättrats med flera avsnitt som gör att du kan överföra en exempelfil, hantera fel och ignorera samt ta bort överförda filer när aktiviteten har körts. [Läs mer](../workflows/activities/load-file.md)
+* Aktiviteten **Läs in fil** har förbättrats med flera avsnitt som gör att du kan överföra en exempelfil, hantera fel och avvisa samt ta bort överförda filer när aktiviteten har körts. [Läs mer](../workflows/activities/load-file.md)
 
 
-* Nu kan du **kopiera/klistra in aktiviteter** från ett arbetsflöde till ett annat arbetsflöde från en annan webbläsarflik. [Läs mer](../workflows/orchestrate-activities.md#copy-activities-copy)
+* Du kan nu **kopiera/klistra in aktiviteter** från ett arbetsflöde till ett annat arbetsflöde från en annan webbläsarflik. [Läs mer](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Nu kan du hantera alla arbetsflödesaktiviteter **körningsalternativ**. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel. [Läs mer](../workflows/orchestrate-activities.md#execution-options-execution)
+* Alla arbetsflödesaktiviteter tillåter nu att du hanterar deras **körningsalternativ**. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel. [Läs mer](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
-* Alternativet&quot;Aktivera inte övergången om populationen är tom&quot; i **Delad aktivitet** Med kan du välja om arbetsflödet ska övergå till nästa aktivitet när segmentresultatet är tomt. [Läs mer](../workflows/activities/split.md)
+* Alternativet&quot;Aktivera inte övergången om populationen är tom&quot; i **Delad aktivitet** gör att du kan välja om arbetsflödet ska övergå till nästa aktivitet när segmentresultatet är tomt. [Läs mer](../workflows/activities/split.md)
 
 
 
@@ -154,24 +146,24 @@ Förbättringarna nedan är tillgängliga för alla kunder från och med aprilve
 
 >[!AVAILABILITY]
 >
->Den här versionen är tillgänglig för alla användare som startar [Campaign (konsol) version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Läs mer om Adobe Campaign kundkonsoluppdateringar och uppgraderingar i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>Den här versionen är tillgänglig för alla användare som startar [Campaign (konsol) version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Läs mer om Adobe Campaign klientkonsolversioner och uppgraderingar i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 **Releasedatum**: 19-20 mars 2024
 
 ### Direktreklam, kanal {#24-3-dm}
 
-**Direktreklam** kanalen kan nu användas i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
+Kanalen **Direktreklam** är nu tillgänglig för användning i arbetsflöden och som fristående leveranser. Direktreklam är en offlinekanal som gör att du kan skapa, anpassa och generera extraheringsfiler och dela dem med direktreklamleverantörer för att skicka e-post till kunderna.
 
 ### Ny arbetsflödesaktivitet för Ändra datakälla {#24-3-change-data-source}
 
-The **Ändra datakälla** målaktiviteter gör att du kan ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan.
+Med målaktiviteten **Ändra datakälla** kan du ändra datakällan som används i arbetsflödets arbetsregister. Den här aktiviteten ger större flexibilitet genom att du kan hantera data i olika databaser och förbättra prestandan.
 
 ### Förbättring av delad arbetsflödesaktivitet {#24-3-split}
 
-Nu kan du använda **Generera alla delmängder i samma tabell** i **Dela** arbetsflödesaktivitet för att gruppera alla delmängder i en enda utdataövergång.
+Nu kan du använda alternativet **Generera alla delmängder i samma tabell** i arbetsflödesaktiviteten **Dela** för att gruppera alla delmängder i en enda utdataövergång.
 
 ### Frågemodelleraren {#24-3-query-modeler}
 
-* Frågemodelleraren kan nu användas i e-postdesignern. Du kan skapa villkor när du skapar villkorsstyrt innehåll.
+* Frågemodelleraren är nu tillgänglig för användning i e-post-Designer. Du kan skapa villkor när du skapar villkorsstyrt innehåll.
 * Fördefinierade värden är nu tillgängliga för datumtypsattribut när du skapar ett anpassat villkor.
 * Det går inte längre att lägga till operatorer för en ny övergång i diagrammet. De kan bara läggas till i en befintlig övergång innan komponenterna filtreras för att gruppera dem.
