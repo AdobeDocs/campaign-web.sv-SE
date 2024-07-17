@@ -3,41 +3,43 @@ title: Tidiga versionsinformation om webbanvändargränssnittet i Campaign v8
 description: Upptäck nya funktioner i nästa version av Campaign Web User Interface
 hide: true
 hidefromtoc: true
-source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
+exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
+source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
 
 # Tidig versionsinformation {#e-release}
 
-Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i slutet av varje månad i [versionsinformation](release-notes.md).
+Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i slutet av varje månad i [versionsinformationen](release-notes.md).
 
-**Tidiga versionsinformation nedan kan ändras utan föregående meddelande till dess att releasedatumet blir tillgängligt**. Länkar, skärmar och uppdaterad dokumentation publiceras i [versionsinformation](release-notes.md), på releasedatum.
+**Noteringar om tidig version nedan kan ändras utan föregående meddelande till releasedatum**. Länkar, skärmar och uppdaterad dokumentation publiceras i [versionsinformationen](release-notes.md) på releasedatum.
 
-## Versionsinformation för juni {#24-6-release}
+## Versionsinformation juli {#24-7-release}
 
-**Releasedatum**: 18-19 juni 2024
+**Releasedatum**: 30-31 juli 2024
 
-Följande funktioner och förbättringar är tillgängliga för alla användare från och med juni.
+Följande funktioner och förbättringar är tillgängliga från och med juliversionen.
 
-### Innehållsfragment {#24-6-1}
+### Uttrycksfragment {#24-7-1}
 
-Nu kan du redigera, använda och hantera **visuell** och **uttryck** för att snabbt sammanställa e-post och innehållsmallar. Ett fragment är en färdig återanvändbar komponent som kan refereras i flera e-postmeddelanden i Adobe Campaign för en förbättrad och snabbare designprocess.
+Du kan nu skapa, använda och hantera **uttrycksfragment** för att snabbt skapa anpassat innehåll. Ett fragment är en färdig återanvändbar komponent som kan refereras i flera olika innehåll i Adobe Campaign för en förbättrad och accelererad designprocess.
 
-### Utsändningslistor {#24-6-2}
+### Utsändningslistor {#24-7-2}
 
-En lista, alias. **Svällningsgrupp**, är en lista med dirigerade adresser. Det används för att inkludera specifika adresser i leveranser och sedan målprofiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som inte är leveranskänsliga ta emot leveransen på samma sätt som andra målmottagare. Du kan använda dirigerade adresser när du skickar korrektur eller för att skydda din e-postlista.
+En lista, alias. **Svällningsgrupp** är en lista med dirigerade adresser. Det används för att inkludera specifika adresser i leveranser och sedan målprofiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som inte är leveranskänsliga ta emot leveransen på samma sätt som andra målmottagare. Du kan använda dirigerade adresser när du skickar korrektur eller för att skydda din e-postlista.
 
-### Leveransvarningar {#24-6-3}
+### Detaljerade mallar för push-meddelanden {#24-7.3}
 
-Funktionen för leveransvarning är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveransen utförs.
+Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är en förbättrad form av mobilmeddelanden som går längre än enkla textmeddelanden genom att infoga multimediaelement som bilder, interaktiva knappar eller annat multimediematerial. I den här versionen finns det nu en uppsättning mallar för push-meddelanden för dina iOS- och Android-appar.
 
-### Planer och program {#24-6-4}
+>[!AVAILABILITY]
+>
+>Den här funktionen kräver en uppdatering av Campaign v8.6.3 eller v8.7.2. [Läs mer i versionsinformationen för Campaign Client-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
 
-Nu kan ni skapa planer och program för att ordna era kampanjer. Genom att definiera en mapphierarki kan ni ordna era kampanjer i program och era program i planer.
 
-### Förbättringar {#improvements-24-6}
+### Förbättringar {#improvements-24-7}
 
-* **Avstämning i anrikningsaktivitet**: Anrikningsaktiviteten kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett tillfälligt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen.
+* **Mapphantering** - Nu kan du hantera behörigheter och begränsningar för mappar.
