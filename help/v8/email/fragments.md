@@ -2,18 +2,15 @@
 audience: end-user
 title: Skapa innehållsfragment
 description: Lär dig skapa med innehållsfragment
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
 
 # Skapa innehållsfragment {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ Med den här funktionen kan man skapa flera anpassade innehållsblock som kan an
 
 ![](assets/fragments.gif)
 
-
 Så här använder du fragment på bästa sätt:
 
 * Skapa egna visuella fragment, enligt beskrivningen nedan.
 * Använd dem så många gånger som behövs i ditt innehåll via e-post-Designer. Se [Lägg till visuella fragment i e-postmeddelanden](../email/use-visual-fragments.md).
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Skapa ett Visual fragment {#create-fragments}
 

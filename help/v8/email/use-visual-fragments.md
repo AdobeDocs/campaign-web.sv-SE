@@ -2,25 +2,21 @@
 audience: end-user
 title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
 # Lägg till visuella fragment i e-postmeddelanden {#use-visual-fragments}
 
-Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md) eller i en [innehållsmall](use-email-templates.md). Stegen beskrivs nedan.
+Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md) eller i en [innehållsmall](use-email-templates.md). Stegen beskrivs nedan. Lär dig hur du skapar och hanterar fragment i [det här avsnittet](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Lär dig hur du skapar och hanterar fragment i [det här avsnittet](fragments.md).
-
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Använda ett fragment {#use-fragment}
 
