@@ -4,9 +4,9 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
@@ -50,14 +50,13 @@ Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är
 
 #### Innehållsfragment {#LA-24-7}
 
-Ett fragment är en färdig återanvändbar komponent som kan refereras i flera olika innehåll i Adobe Campaign för en förbättrad och accelererad designprocess.
+Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
 
-* Du kan nu skapa, använda och hantera **uttrycksfragment** för att snabbt skapa anpassat innehåll.
+Det finns två typer av fragment:
 
-* Nu kan du skapa, använda och spara **visuella fragment** för att snabbt samla ihop dina e-postmeddelanden och innehållsmallar. [Läs mer](../email/fragments.md)
+* **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren.
+* **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. [Läs mer](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**Visuella fragment** har begränsad tillgänglighet (LA). Den här funktionen är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
