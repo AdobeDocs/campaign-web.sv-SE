@@ -4,9 +4,9 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -23,10 +23,6 @@ Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner
 
 Följande funktioner och förbättringar är tillgängliga från och med juliversionen.
 
-### Uttrycksfragment {#24-7-1}
-
-Du kan nu skapa, använda och hantera **uttrycksfragment** för att snabbt skapa anpassat innehåll. Ett fragment är en färdig återanvändbar komponent som kan refereras i flera olika innehåll i Adobe Campaign för en förbättrad och accelererad designprocess.
-
 ### Utsändningslistor {#24-7-2}
 
 En lista, alias. **Svällningsgrupp** är en lista med dirigerade adresser. Det används för att inkludera specifika adresser i leveranser och sedan målprofiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som inte är leveranskänsliga ta emot leveransen på samma sätt som andra målmottagare. Du kan använda dirigerade adresser när du skickar korrektur eller för att skydda din e-postlista.
@@ -42,4 +38,26 @@ Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är
 
 ### Förbättringar {#improvements-24-7}
 
-* **Mapphantering** - Nu kan du hantera behörigheter och begränsningar för mappar.
+**Mapphantering** - Nu kan du hantera behörigheter och begränsningar för mappar.
+
+### Nya funktioner i begränsad tillgänglighet {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+>
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standarder](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+#### Innehållsfragment {#LA-24-7}
+
+Ett fragment är en färdig återanvändbar komponent som kan refereras i flera olika innehåll i Adobe Campaign för en förbättrad och accelererad designprocess.
+
+* Du kan nu skapa, använda och hantera **uttrycksfragment** för att snabbt skapa anpassat innehåll.
+
+* Nu kan du skapa, använda och spara **visuella fragment** för att snabbt samla ihop dina e-postmeddelanden och innehållsmallar. [Läs mer](../email/fragments.md)
+
+
+
+
+
+
