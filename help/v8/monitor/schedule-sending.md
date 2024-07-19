@@ -2,7 +2,8 @@
 audience: end-user
 title: Schemalägg sändning av leverans
 description: Lär dig schemalägga en leverans
-source-git-commit: 7bee82ea7286fca3398bef9f84f3c5aa1e3d9959
+exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -22,22 +23,22 @@ Se exempel nedan för varje typ av leverans: e-post, sms, push-meddelanden.
 
 Följ stegen nedan för att schemalägga sändning av e-postmeddelanden:
 
-1. I **[!UICONTROL Schedule]** -avsnittet i leveransegenskaperna, aktivera **[!UICONTROL Enable scheduling]** växla
+1. Aktivera alternativet **[!UICONTROL Enable scheduling]** i avsnittet **[!UICONTROL Schedule]** i leveransegenskaperna
 
-1. Ange datum och tid för sändning och klicka på **[!UICONTROL Review and send]** -knappen.
+1. Ange önskat datum och tid för sändning och klicka på knappen **[!UICONTROL Review and send]**.
 
    ![](assets/schedule-email-standalone.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Som standard är **[!UICONTROL Enable confirmation before sending]** är aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver **skicka leveransen automatiskt** på det schemalagda datumet och den schemalagda tidpunkten måste du inaktivera det här alternativet.
+>Som standard är alternativet **[!UICONTROL Enable confirmation before sending]** aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver **skicka leveransen automatiskt** på det schemalagda datumet och den schemalagda tidpunkten måste du inaktivera det här alternativet.
 >
 
-1. Kontrollera att schemat är korrekt och klicka på **[!UICONTROL Prepare]** -knappen.
+1. Kontrollera att schemat är korrekt och klicka på knappen **[!UICONTROL Prepare]**.
 
 ![](assets/schedule-email-standalone-prepare.png){zoomable="yes"}
 
-1. När färdigställandet är klart är meddelanden klara att skickas. Nyckeltal för leveransen visas: total målpopulation, antal meddelanden som ska levereras, antal uteslutna mottagare. Klicka på **[!UICONTROL Send as scheduled]** för att bekräfta att du tillåter att leveransen skickas på det schemalagda datumet och den schemalagda tiden till huvudmålet.
+1. När färdigställandet är klart är meddelanden klara att skickas. Nyckeltal för leveransen visas: total målpopulation, antal meddelanden som ska levereras, antal uteslutna mottagare. Klicka på knappen **[!UICONTROL Send as scheduled]** för att bekräfta att du tillåter att leveransen skickas på det schemalagda datumet och den schemalagda tiden till huvudmålet.
 
 ![](assets/schedule-email-standalone-send.png){zoomable="yes"}
 
@@ -71,20 +72,19 @@ Kampanjen kan ha sitt schema, med ett startdatum och ett slutdatum. Det här sch
 
 ## Schemalägg en leverans i ett kampanjarbetsflöde
 
-När det gäller ett kampanjarbetsflöde **bästa praxis** är att använda **[!UICONTROL Scheduler]** aktivitet för att ange ett datum och en tidpunkt då arbetsflödet ska startas, vilket innebär att leveransen skickas. [Läs mer om Schemaläggaren](../workflows/activities/scheduler.md)
+I ett kampanjarbetsflöde är **bästa praxis** att använda aktiviteten **[!UICONTROL Scheduler]** för att använda ett datum och en tid som startar arbetsflödet, vilket innebär att leveransen skickas. [Läs mer om Schemaläggaren](../workflows/activities/scheduler.md)
 
 ![](assets/schedule-workflow.png){zoomable="yes"}
 
 
-Du måste konfigurera datum och tid i **[!UICONTROL Scheduler]** aktivitet.
+Du måste konfigurera datum och tid i aktiviteten **[!UICONTROL Scheduler]**.
 
 ![](assets/schedule-workflow-scheduler.png){zoomable="yes"}
 
 
 >[!NOTE]
 >
->När du använder **[!UICONTROL Scheduler]** aktivitet för att schemalägga sändning av leverans i ett arbetsflöde, **aktivera inte** den **[!UICONTROL Enable scheduling]** växla i **[!UICONTROL Delivery]** aktivitetsinställningar. Leveransen skickas automatiskt.
+>När du använder aktiviteten **[!UICONTROL Scheduler]** för att schemalägga sändning av leverans i ett arbetsflöde ska **inte** aktivera **[!UICONTROL Enable scheduling]**-växeln i aktivitetsinställningarna för **[!UICONTROL Delivery]**. Leveransen skickas automatiskt.
 >
 
-Om du aktiverar **[!UICONTROL Enable scheduling]** växla i **[!UICONTROL Delivery]** aktivitetsinställningar och ange ett datum och en tid där, leveransen väntar på att skickas på detta datum och denna tid. Det innebär att om det är en fördröjning mellan startdatumet för arbetsflödet och datumet för sändningen kanske målgruppen inte är aktuell.
-
+Om du aktiverar växeln **[!UICONTROL Enable scheduling]** i aktivitetsinställningarna för **[!UICONTROL Delivery]** och ställer in ett datum och en tid där, väntar leveransen på att skickas vid detta datum och denna tid. Det innebär att om det är en fördröjning mellan startdatumet för arbetsflödet och datumet för sändningen kanske målgruppen inte är aktuell.

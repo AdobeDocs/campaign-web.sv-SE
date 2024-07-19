@@ -16,13 +16,13 @@ Push-meddelanden är nödvändiga för att nå ut till mobilappsanvändare, äve
 
 Du kan skapa push-meddelanden på tre olika sätt:
 
-* **Arbetsflöden**: När du har lagt till en push-kanalaktivitet i arbetsflödet och konfigurerat de grundläggande inställningarna kan du skapa innehållet i dina push-meddelanden från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns i [den här sidan](../workflows/gs-workflows.md).
+* **Arbetsflöden**: När du har lagt till en push-kanalsaktivitet i arbetsflödet och konfigurerat de grundläggande inställningarna kan du skapa innehållet i dina push-meddelanden från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns på [den här sidan](../workflows/gs-workflows.md).
 
-* **Kampanjer**: När du har skapat en kampanj kan du skapa en push-meddelandeleverans. Mer information om hur du ställer in kampanjen finns i [den här sidan](../campaigns/gs-campaigns.md).
+* **Kampanjer**: När du har skapat en kampanj kan du skapa en push-meddelandeleverans. Mer information om hur du konfigurerar kampanjen finns på [den här sidan](../campaigns/gs-campaigns.md).
 
 * **Fristående leveranser**: Engagera kunderna direkt och omedelbart med individuell leverans av push-meddelanden, utan behov av arbetsflöden eller kampanjer.
 
-![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar push-meddelandekanalen i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar push-meddelandekanalen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

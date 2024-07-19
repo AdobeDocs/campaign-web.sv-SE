@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Lägg till en förrubrik i e-postdesignern
+title: Lägg till en förrubrik i e-post-Designer
 description: Lär dig utforma e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,21 @@ I många fall ger den en kort sammanfattning av innehållet och är vanligtvis e
 
 Följ stegen nedan när du vill definiera e-postprerubriken.
 
-1. Från [E-postdesigner](create-email-content.md), lägg till minst en **[!UICONTROL Structure]** för att börja designa din e-post.
+1. Lägg till minst en **[!UICONTROL Structure]**-komponent från [e-post-Designer](create-email-content.md) för att börja designa e-postmeddelandet.
 
-1. Klicka på **[!UICONTROL Navigation tree]** ikonen i den vänstra rutan och väljer **[!UICONTROL Body]**.
+1. Klicka på ikonen **[!UICONTROL Navigation tree]** i den vänstra rutan och välj **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
-1. Från **[!UICONTROL Settings]** anger du lite text för sidhuvudet.
+1. På fliken **[!UICONTROL Settings]** anger du lite text för din förrubrik.
 
-1. Om du vill anpassa den ytterligare klickar du på **[!UICONTROL Add personalization]** ikonen till vänster om **[!UICONTROL Preheader]** fält.
+1. Klicka på ikonen **[!UICONTROL Add personalization]** till vänster om fältet **[!UICONTROL Preheader]** om du vill anpassa det ytterligare.
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Från **[!UICONTROL Edit Personalization]** fönster, du kan lägga till [personaliseringsfält](../personalization/personalize.md), [innehållsblock](../personalization/content-blocks.md) och [villkorligt innehåll](../personalization/conditions.md) med dedikerade poster till vänster.
+1. I fönstret **[!UICONTROL Edit Personalization]** kan du lägga till [anpassningsfält](../personalization/personalize.md), [innehållsblock](../personalization/content-blocks.md) och [villkorligt innehåll](../personalization/conditions.md) med hjälp av dedikerade poster till vänster.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Confirm]**.
 

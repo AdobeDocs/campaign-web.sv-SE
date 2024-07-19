@@ -50,19 +50,19 @@ ht-degree: 0%
 
 
 
-Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även för **Explorer** navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
+Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även för navigeringsträdet **Utforskaren**. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
 
-Åtkomstkontrollen hanteras i Campaign Client Console. Alla behörigheter på Campaign Web synkroniseras med behörigheter på Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter. Läs mer om användarbehörigheter i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+Åtkomstkontrollen hanteras i Campaign Client Console. Alla behörigheter på Campaign Web synkroniseras med behörigheter på Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter. Läs mer om användarbehörigheter i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
 
 När du surfar i användargränssnittet i Campaign kan du komma åt data, objekt och funktioner beroende på dina behörigheter. Om du till exempel inte har åtkomstbehörighet till en mapp kan du inte se den. Dina behörigheter påverkar även objekt och datahantering. Utan skrivbehörighet för en viss mapp kan du inte skapa en leverans i den mappen, även om du kan se den i användargränssnittet.
 
 ## Visa behörigheter {#view-permissions}
 
-Från **Explorer** kan du bläddra bland behörigheter för varje mapp. Dessa behörigheter anges i klientkonsolen och används för att organisera och styra åtkomsten till Campaign-data.
+I **Utforskaren** kan du bläddra bland behörigheter för varje mapp. Dessa behörigheter anges i klientkonsolen och används för att organisera och styra åtkomsten till Campaign-data.
 
 Så här visar du behörigheter för en mapp:
 
-1. Från **Explorer** vänster navigeringsmeny väljer du en mapp.
+1. Välj en mapp på den vänstra menyn i **Utforskaren**.
 1. Klicka på de tre punkterna i det övre högra hörnet och välj **Mappbehörigheter**.
 
    ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
@@ -73,11 +73,11 @@ Så här visar du behörigheter för en mapp:
 
    En grupp, eller en operator, kan ha behörigheten Läs, Skriv och/eller Ta bort för data som lagras i den valda mappen.
 
-   Om **Sprid** om du aktiverar det här alternativet används alla behörigheter som definierats för en mapp på alla dess undermappar. Dessa behörigheter kan överladdas för varje undermapp.
+   Om alternativet **Sprid** är aktiverat tillämpas alla behörigheter som definierats för en mapp på alla dess undermappar. Dessa behörigheter kan överladdas för varje undermapp.
 
-   Om **Systemmapp** är aktiverat, åtkomst är tillåten för alla operatorer, oavsett deras behörigheter.
+   Om alternativet **Systemmapp** är aktiverat tillåts åtkomst till alla operatorer, oavsett deras behörigheter.
 
-Läs mer om mappbehörigheter i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
+Läs mer om mappbehörigheter i dokumentationen för [Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
 
 
 ## Arbeta med mappar {#folders}
@@ -110,7 +110,7 @@ Du kan skapa, byta namn på, ordna om och flytta mappar för att ordna dina komp
 
 Så här skapar du en mapp:
 
-1. Från **Explorer** vänster navigeringsmeny väljer du en mapp.
+1. Välj en mapp på den vänstra menyn i **Utforskaren**.
 1. Klicka på de tre punkterna i det övre högra hörnet och välj **Skapa ny mapp**.
 1. Ange namnet på mappen.
 
@@ -120,8 +120,8 @@ Så här skapar du en mapp:
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
-   Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen från **Ytterligare alternativ** av egenskaperna enligt nedan för en leverans:
+   Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen, under **Ytterligare alternativ** i egenskaperna, som visas nedan för en leverans:
 
    ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}

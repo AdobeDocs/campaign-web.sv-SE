@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Om du vill definiera mottagarna av en leverans kan du:
 
-* [Välj en befintlig målgrupp](add-audience.md) som skapats i Adobe Campaign klientkonsol eller webbanvändargränssnitt, eller som kommer från Adobe Experience Platform,
-* [Skapa en engångspublik](one-time-audience.md) för att använda en gång för denna specifika leverans. Detta görs genom att definiera och kombinera filtervillkor i frågemodelleraren,
-* [Läsa in en målgrupp från en extern fil](file-audience.md). Det här alternativet är endast tillgängligt för fristående e-postleveranser.
+* [Välj en befintlig målgrupp](add-audience.md) som har skapats i Adobe Campaign klientkonsol eller webbanvändargränssnitt, eller som kommer från Adobe Experience Platform,
+* [Skapa en engångspublik](one-time-audience.md) som kan användas en gång för den här specifika leveransen. Detta görs genom att definiera och kombinera filtervillkor i frågemodelleraren,
+* [Läs in en målgrupp från en extern fil](file-audience.md). Det här alternativet är endast tillgängligt för fristående e-postleveranser.
 
-När ni riktar in er på en målgrupp kan ni också definiera **kontrollgrupper** för att undvika att skicka meddelanden till en del av er målgrupp och mäta effekten av era kampanjer. [Lär dig hur du ställer in en kontrollgrupp](control-group.md)
+När du riktar in dig på en målgrupp kan du även definiera **kontrollgrupper** för att undvika att skicka meddelanden till en del av målgruppen och mäta effekten av dina kampanjer. [Lär dig hur du anger en kontrollgrupp](control-group.md)
 

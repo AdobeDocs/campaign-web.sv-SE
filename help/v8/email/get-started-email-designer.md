@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Redigera e-postinnehållet
-description: Lär dig hur du börjar bygga innehåll med e-postdesignern i webbgränssnittet för Campaign
+description: Lär dig hur du börjar bygga innehåll med e-post-Designer i webbgränssnittet i Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 7%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 När du har skapat ett e-postmeddelande i Adobe Campaign måste du definiera dess innehåll.
 
-Med e-postdesignern kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra och släpp-gränssnitt. Vare sig du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
+Med e-post-Designer kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra-och-släpp-gränssnitt. Vare sig du börjar från en tom sida, importerar ett befintligt innehåll eller använder befintliga mallar kan du utforma och förfina allt innehåll för varje e-postmeddelande, oavsett om det är en reklam eller en transaktion.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
-* Använd [!DNL Campaign] funktioner för e-postdesign för att enkelt bygga responsiva e-postmeddelanden. [Läs mer](create-email-content.md)
+* Använd e-postdesignfunktionerna i [!DNL Campaign] för att enkelt skapa responsiva e-postmeddelanden. [Läs mer](create-email-content.md)
 
 * Förbättra kundernas upplevelse genom att skapa personaliserade utifrån deras profilattribut. [Läs mer](../personalization/personalize.md)
 
@@ -35,14 +35,14 @@ För att minimera dessa återgivningsproblem rekommenderar vi att du håller e-p
 
 ## Börja skapa ditt innehåll {#start-authoring}
 
-Gå igenom [Redigera innehåll](edit-content.md) för att öppna hemsidan för Email Designer. Därifrån kan du välja hur du vill utforma e-postmeddelanden bland följande alternativ:
+Gå igenom skärmen [Redigera innehåll](edit-content.md) på kontrollpanelen för e-postleverans för att öppna Designer hemsida. Därifrån kan du välja hur du vill utforma e-postmeddelanden bland följande alternativ:
 
-* **Designa din e-post från grunden** via e-postdesignerns gränssnitt. Lär dig hur du utformar e-postinnehåll i [det här avsnittet](create-email-content.md).
+* **Designa din e-post från grunden** via e-postdesignerns gränssnitt. Lär dig hur du utformar ditt e-postinnehåll i [det här avsnittet](create-email-content.md).
 
-* **Kod eller klistra in Raw HTML** direkt i e-postdesignern. Lär dig koda eget innehåll i [det här avsnittet](code-content.md).
+* **Kod eller klistra in Raw-HTML** direkt i e-postdesignern. Lär dig hur du kodar ditt eget innehåll i [det här avsnittet](code-content.md).
 
 * **Importera befintligt HTML-innehåll** från en fil eller en ZIP-mapp. Lär dig hur du importerar ett e-postinnehåll i [det här avsnittet](existing-content.md).
 
-* **Välj ett befintligt innehåll** från en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](create-email-templates.md).
+* **Välj ett befintligt innehåll** i en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar [det här avsnittet](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}
+  ![](assets/email_designer_create_options.png){zoomable="yes"}

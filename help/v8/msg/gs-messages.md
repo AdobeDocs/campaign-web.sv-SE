@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Med Adobe Campaign kan ni skicka flerkanalskampanjer, inklusive e-post, SMS och push-meddelanden, och mäta deras effekt med hjälp av olika dedikerade rapporter.
 
-Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i arbetsflöden inom ramen för en marknadsföringskampanj. Läs om hur du skapar och hanterar leveranser i Adobe Campaign i [det här avsnittet](gs-deliveries.md).
+Dessa meddelanden är utformade och skickas genom leveranser och kan anpassas för varje mottagare. Dessa leveranser kan vara fristående eller ingå i arbetsflöden inom ramen för en marknadsföringskampanj. Lär dig hur du skapar och hanterar leveranser i Adobe Campaign i [det här avsnittet](gs-deliveries.md).
 
 Adobe Campaign v8 levereras med följande leveranskanaler: e-post, SMS, push-meddelanden och direktreklam. Andra kanaler som meddelanden i appen eller social marknadsföring med X (Twitter) stöds inte ännu.
 
@@ -26,7 +26,7 @@ Bläddra i avsnitten nedan för att lära dig hur du skapar och skickar meddelan
     <a href="../email/create-email.md">
     <img alt="E-post" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>Skapa e-postmeddelanden</strong>
+    <div><a href="../email/create-email.md"><strong>Skapa e-post</strong>
     </div>
     <p>
     </td>

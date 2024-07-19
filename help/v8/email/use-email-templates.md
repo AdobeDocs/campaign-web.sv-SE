@@ -10,16 +10,16 @@ level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
 # Använda mallar för e-postinnehåll {#use-email-templates}
 
-När [skapa e-post](../email/create-email.md), använder du **[!UICONTROL Select design template]** i **[!UICONTROL Create your email]** för att börja bygga innehåll från en mall.
+När du [skapar ett e-postmeddelande](../email/create-email.md) använder du **[!UICONTROL Select design template]**-avsnittet i **[!UICONTROL Create your email]**-gränssnittet för att börja skapa innehåll från en mall.
 
-![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-templates.png){zoomable="yes"}
 
 Du kan välja mellan:
 
@@ -35,25 +35,25 @@ Lär dig hur du använder mallar och hur du sparar ett e-postinnehåll som en ma
 
 Följ stegen nedan när du vill börja skapa innehåll med någon av exempelmallarna eller sparade mallar.
 
-1. Öppna [E-postdesigner](create-email-content.md).
+1. Öppna [e-postadressen till Designer](create-email-content.md).
 
-1. På **[!UICONTROL Create your email]** skärm, **[!UICONTROL Sample templates]** -fliken är markerad som standard.
+1. Fliken **[!UICONTROL Sample templates]** är markerad som standard på skärmen **[!UICONTROL Create your email]**.
 
-1. Om du vill använda en befintlig anpassad mall går du till **[!UICONTROL Saved templates]** -fliken.
+1. Om du vill använda en befintlig anpassad mall går du till fliken **[!UICONTROL Saved templates]**.
 
-   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. Listan med alla [sparade mallar](#save-as-template) visas. Du kan sortera dem **[!UICONTROL By name]**, **[!UICONTROL Last modified]** och **[!UICONTROL Last created]**.
+1. Listan över alla [sparade mallar](#save-as-template) visas. Du kan sortera dem **[!UICONTROL By name]**, **[!UICONTROL Last modified]** och **[!UICONTROL Last created]**.
 
-   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates.png){zoomable="yes"}
 
 1. Välj en mall i listan för att visa dess innehåll.
 
 1. Använd höger- och vänsterpilarna för att navigera mellan mallarna (exempel eller sparad beroende på vad du har valt).
 
-   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
 
-1. Klicka **[!UICONTROL Use this template]** längst upp till höger på skärmen.
+1. Klicka på **[!UICONTROL Use this template]** överst till höger på skärmen.
 
-1. Redigera ditt innehåll efter behov med e-postdesignern. [Läs mer](create-email-content.md)
+1. Redigera ditt innehåll med e-post-Designer. [Läs mer](create-email-content.md)
 

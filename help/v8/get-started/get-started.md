@@ -5,7 +5,7 @@ description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -33,23 +33,23 @@ Adobe Campaign v8 är nästa generations kampanjverktyg som har byggts för olik
 
 Använd Campaign för att
 
-* **Drive** personalisering och engagemang genom en enda lättillgänglig bild av kunden
-* **Integrera** e-post, mobilkanaler, online- och offlinekanaler i kundresan
-* **Automatisera** leverera meningsfulla och aktuella meddelanden och erbjudanden
+* **Drive**-personalisering och -engagemang via en enda lättillgänglig kundvy
+* **Integrera** e-post-, mobil-, online- och offlinekanaler i kundresan
+* **Automatisera** leveransen av meningsfulla och aktuella meddelanden och erbjudanden
 
 ## Upptäck gränssnittet för webbanvändning i Campaign {#web}
 
-Inledningsvis endast tillgängligt via en [klientkonsol](#ac-client)har Campaign nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
+Campaign är ursprungligen endast tillgängligt via en [klientkonsol](#ac-client) och har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
-Det nya webbgränssnittet har till att börja med **yrkesverksamma** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
+Det här nya webbanvändargränssnittet uppfyller först kraven för **företagsadministratören** - alla vanliga administrationsåtgärder är inte tillgängliga i den första versionen, men kommer att åtgärdas i efterföljande versioner. Observera att inte alla funktioner eller alternativ som är tillgängliga i klientkonsolen är tillgängliga för tillfället i det nya användargränssnittet. Nya användningsfall, alternativ och funktioner kommer att vara tillgängliga i framtida versioner.
 
-Som administratör eller expertanvändare kan du ansluta till [klientkonsol](#ac-client).
+Om du som administratör eller expertanvändare behöver komma åt funktioner i Campaign v8 som inte är tillgängliga i webbgränssnittet för Campaign kan du ansluta till [klientkonsolen](#ac-client).
 
-Lär dig hur du ansluter till Adobe Campaign Web i [den här sidan](connect-to-campaign.md).
+Lär dig hur du ansluter till Adobe Campaign Web på [den här sidan](connect-to-campaign.md).
 
-➡️ [Upptäck Campaign Web in video](#video)
+➡️ [Upptäck kampanjwebben i video](#video)
 
 ## Om Campaign-klientkonsolen {#ac-client}
 
@@ -59,7 +59,7 @@ Kampanjdata lagras på programservern. Data är tillgängliga både från klient
 
 Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och användas i gränssnittet för Campaign-webben, men kan inte skapas eller ändras från den här miljön. Alla Campaign-objekt och -komponenter är tillgängliga från Utforskaren, som finns i den vänstra navigeringen.
 
-Mer information om hur du använder Campaign v8 med klientkonsolen finns i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
+Mer information om hur du använder Campaign v8 med klientkonsolen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
 
 ## Instruktionsvideo {#video}
 

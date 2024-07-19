@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # Uppdatera data {#update-data}
 
-The **Uppdatera data** aktiviteten är en **Datahantering** aktivitet. Det gör att du kan utföra en massuppdatering på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen.
+Aktiviteten **Uppdatera data** är en **datahanteringsaktivitet**. Det gör att du kan utföra en massuppdatering på fält i databasen. Flera alternativ gör att du kan anpassa datauppdateringen.
 
 <!--
 The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
@@ -30,40 +30,40 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Konfigurera aktiviteten Uppdatera data{#update-data-configuration}
 
-Konfigurera **Uppdatera data** börjar du med att lägga till aktiviteten i arbetsflödet och definierar en etikett.
+Om du vill konfigurera aktiviteten **Uppdatera data** börjar du med att lägga till aktiviteten i arbetsflödet och definierar en etikett.
 
 ![](../assets/workflow-update-data.png)
 
 ### Åtgärdstyp
 
-The **Åtgärdstyp** kan du välja vilken process som ska utföras på data i databasen:
+I fältet **Åtgärdstyp** kan du välja vilken process som ska utföras på data i databasen:
 
 * **Infoga eller uppdatera**: infoga data eller uppdatera dem om posterna redan finns i databasen.
-* **Infoga**: endast infoga data. Posterna som redan finns uppdateras inte. Om avstämningskriterier definieras läggs endast icke avstämda poster till.
+* **Infoga**: infoga endast data. Posterna som redan finns uppdateras inte. Om avstämningskriterier definieras läggs endast icke avstämda poster till.
 * **Uppdatera**: Uppdatera data för de poster som redan finns i databasen.
-* **Ta bort**: delete data.
+* **Ta bort**: ta bort data.
 
-The **Batchstorlek** I kan du välja hur många inkommande övergångselement som ska uppdateras. Om du till exempel anger 500 uppdateras de första 500 posterna som behandlas.
+I fältet **Batchstorlek** kan du välja antalet inkommande övergångselement som ska uppdateras. Om du till exempel anger 500 uppdateras de första 500 posterna som behandlas.
 
 ### Registrerings-ID
 
 I det här avsnittet kan du ange hur posterna i databasen ska identifieras:
 
-* Om datainmatningarna relaterar till en befintlig måldimension väljer du **Använda målgruppsdimensionen** och välj det i **Måldimension att uppdatera** fält.
-* Du kan också välja **Använda anpassade länkar** och ange en eller flera länkar som gör det möjligt att identifiera data i databasen
-* Om den valda åtgärdstypen kräver en uppdatering måste du använda **Använda avstämningsregler** alternativ.
+* Om dataposter relaterar till en befintlig måldimension väljer du alternativet **Använda måldimensionen** och väljer det i fältet **Måldimension att uppdatera**.
+* Du kan också välja **Använda anpassade länkar** och ange en eller flera länkar som gör att data i databasen kan identifieras
+* Om den valda åtgärdstypen kräver en uppdatering måste du använda alternativet **Använda avstämningsregler**.
 
 ### Fält som ska uppdateras
 
-I **Fält som ska uppdateras** lägger du till de fält som uppdateringen ska tillämpas på och, om det behövs, lägger till villkor så att uppdateringen utförs. Använd **Beaktas om** fält. Villkoren tillämpas i en efter en beroende på listordningen. Använd pilarna till höger för att ändra uppdateringsordningen. Du kan använda samma målfält flera gånger.
+I avsnittet **Fält som ska uppdateras** lägger du till de fält som uppdateringen ska tillämpas på och, om det behövs, lägger till villkor så att uppdateringen utförs. Om du vill göra det använder du fältet **Ta hänsyn till om**. Villkoren tillämpas i en efter en beroende på listordningen. Använd pilarna till höger för att ändra uppdateringsordningen. Du kan använda samma målfält flera gånger.
 
-Du kan länka fält automatiskt med **Automatisk mappning** -knappen. Automatisk länkning identifierar fält med samma namn.
+Du kan länka fält automatiskt med knappen **Automatisk mappning**. Automatisk länkning identifierar fält med samma namn.
 
-Under en **Infoga eller uppdatera** åtgärdstyp kan du välja en åtgärd som ska användas för varje fält. Om du vill göra det väljer du det värde du vill ha i dialogrutan **Åtgärdstyp** fält.
+Under en **Infoga- eller uppdateringsåtgärd** kan du välja en åtgärd som ska användas för varje fält separat. Det gör du genom att markera det värde du vill ha i fältet **Åtgärdstyp**.
 
 ### Avancerade alternativ
 
-The **Avancerade alternativ** Med kan du ange ytterligare alternativ för att hantera både uppdatering och dubbletter.
+Med de **avancerade alternativen** kan du ange ytterligare alternativ som du kan använda för att uppdatera data och hantera dubbletter.
 
 <!--
 * **Disable automatic key management**

@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till och hanterar länken till spegelsidan
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,27 @@ De flesta e-postklienter återger bilder utan problem, men vissa förinställnin
 
 Spegelsidan som genererats av Adobe Campaign innehåller alla personaliseringsdata.
 
-![exempel på spegellänk](assets/mirror-page-link.png){width="600" align="left"}
+![Spegellänksexempel](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Lägg till en länk till spegelsidan{#link-to-mirror-page}
 
 Det är bra att infoga en länk till spegelsidan. Den här länken kan till exempel vara Visa det här e-postmeddelandet i webbläsaren eller Läs det här online. Den finns ofta i e-postmeddelandets sidhuvud eller sidfot.
 
-I Adobe Campaign kan du infoga en länk till spegelsidan i e-postinnehållet med den dedikerade **personaliseringsblock**. Den inbyggda **Länk till spegelsida** anpassningsblocket infogar följande kod i ditt e-postinnehåll: `<%@ include view='MirrorPage' %>`.
+I Adobe Campaign kan du infoga en länk till spegelsidan i e-postinnehållet med hjälp av det dedikerade **anpassningsblocket**. Det inbyggda anpassningsblocket **Länk för spegling av sida** infogar följande kod i ditt e-postinnehåll: `<%@ include view='MirrorPage' %>`.
 
 Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
 
-1. Markera ett element och klicka på **[!UICONTROL Insert link]** i kontextverktygsfältet.
+1. Markera ett element och klicka på **[!UICONTROL Insert link]** i det sammanhangsberoende verktygsfältet.
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
-1. Välj **[!UICONTROL Add personalization]** -ikonen för att komma åt personaliseringsmenyn.
+1. Välj ikonen **[!UICONTROL Add personalization]** för att komma åt anpassningsmenyn.
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Från **[!UICONTROL Content block]** meny, välja **[!UICONTROL Mirror page URL]** och klicka **[!UICONTROL Add]**.
+1. Välj **[!UICONTROL Mirror page URL]** på menyn **[!UICONTROL Content block]** och klicka på **[!UICONTROL Add]**.
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
    Mer information om infogning av anpassade innehållsblock finns i [det här avsnittet](../personalization/personalize.md#personalize-emails).
 

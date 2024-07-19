@@ -65,15 +65,15 @@ Med den här funktionen kan man skapa flera anpassade innehållsblock som kan an
 Så här använder du fragment på bästa sätt:
 
 * Skapa egna visuella fragment, enligt beskrivningen nedan.
-* Använd dem så många gånger som behövs i ditt innehåll via e-postdesignern. Se [Lägg till visuella fragment i e-postmeddelanden](../email/use-visual-fragments.md).
+* Använd dem så många gånger som behövs i ditt innehåll via e-post-Designer. Se [Lägg till visuella fragment i e-postmeddelanden](../email/use-visual-fragments.md).
 
 ## Skapa ett Visual fragment {#create-fragments}
 
 Det finns två sätt att skapa fragment:
 
-* Skapa ett fragment från grunden med **[!UICONTROL Fragments]** egen meny. [Lär dig mer](#create-from-scratch)
+* Skapa ett fragment från grunden med den dedikerade menyn **[!UICONTROL Fragments]**. [Lär dig hur](#create-from-scratch)
 
-* När du utformar innehåll sparar du en del av innehållet som fragment. [Lär dig mer](#save-as-fragment)
+* När du utformar innehåll sparar du en del av innehållet som fragment. [Lär dig hur](#save-as-fragment)
 
 När fragmentet har sparats kan det användas i ett e-postmeddelande eller i en e-postmall. Oavsett om du har skapat från grunden eller från ett befintligt innehåll kan du nu använda det här avsnittet när du skapar innehåll i Campaign. Se [Lägg till visuella fragment](../email/use-visual-fragments.md).
 
@@ -81,7 +81,7 @@ När fragmentet har sparats kan det användas i ett e-postmeddelande eller i en 
 
 Följ stegen nedan om du vill skapa ett fragment från grunden.
 
-1. [Åtkomst till fragmentlistan](#access-manage-fragments) via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** vänster meny.
+1. [Öppna fragmentlistan](#access-manage-fragments) via den vänstra menyn **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**.
 
    ![](assets/fragments-list.png)
 
@@ -97,28 +97,28 @@ Följ stegen nedan om du vill skapa ett fragment från grunden.
    >
    >För tillfället kan du bara skapa visuella fragment.
 
-1. Klicka på **Skapa** för att konfigurera fragmentets innehåll.
+1. Klicka på knappen **Skapa** för att konfigurera innehållet i fragmentet.
 
-1. The [E-postdesigner](../email/get-started-email-designer.md) visas. Redigera innehåll efter behov, på samma sätt som du gör för alla e-postmeddelanden i en kampanj. Du kan lägga till bilder, länkar, anpassningsfält och dynamiskt innehåll.
+1. [E-postmeddelandet för Designer](../email/get-started-email-designer.md) visas. Redigera innehåll efter behov, på samma sätt som du gör för alla e-postmeddelanden i en kampanj. Du kan lägga till bilder, länkar, anpassningsfält och dynamiskt innehåll.
 
    ![](assets/fragment-designer.png)
 
-1. När fragmentet är klart klickar du **[!UICONTROL Save & close]**. Den läggs till i [fragmentlista](#access-manage-fragments).
+1. När fragmentet är klart klickar du på **[!UICONTROL Save & close]**. Den har lagts till i [fragmentlistan](#access-manage-fragments).
 
-Det här fragmentet är nu klart att användas när du skapar [e-post](../email/get-started-email-designer.md) eller [innehållsmall](use-email-templates.md) inom Campaign. [Lär dig mer](../email/use-visual-fragments.md)
+Det här fragmentet kan nu användas när du skapar en [e-post](../email/get-started-email-designer.md) eller [innehållsmall](use-email-templates.md) i Campaign. [Lär dig hur](../email/use-visual-fragments.md)
 
 
 ### Spara ett innehåll som fragment {#save-as-fragment}
 
-Allt e-postinnehåll kan sparas som fragment för framtida återanvändning. När du utformar en [innehållsmall](use-email-templates.md) eller en [e-post](../email/get-started-email-designer.md) kan du spara en del av innehållet som ett visuellt fragment. Gör så här:
+Allt e-postinnehåll kan sparas som fragment för framtida återanvändning. När du utformar en [innehållsmall](use-email-templates.md) eller en [e-postleverans](../email/get-started-email-designer.md) kan du spara en del av innehållet som ett visuellt fragment. Gör så här:
 
-1. I [E-postdesigner](../email/get-started-email-designer.md)klickar du på **Mer** överst till höger på skärmen.
+1. Klicka på knappen **Mer** överst till höger på skärmen i [Skicka e-post till Designer](../email/get-started-email-designer.md).
 
 1. Välj **[!UICONTROL Save as fragment]** i listrutan.
 
    ![](assets/fragment-save-as.png)
 
-1. The **[!UICONTROL Save as fragment]** visas. Här väljer du de element som du vill inkludera i fragmentet, inklusive anpassningsfält och dynamiskt innehåll.
+1. Skärmen **[!UICONTROL Save as fragment]** visas. Här väljer du de element som du vill inkludera i fragmentet, inklusive anpassningsfält och dynamiskt innehåll.
 
    >[!CAUTION]
    >
@@ -130,7 +130,7 @@ Allt e-postinnehåll kan sparas som fragment för framtida återanvändning. Nä
 
    ![](assets/fragment-save-confirm.png)
 
-   Det här innehållet är nu ett fristående fragment som läggs till i [fragmentlista](#manage-fragments)och kan öppnas via den dedikerade menyn. Du kan nu använda det här fragmentet när du skapar [e-post](../email/get-started-email-designer.md) eller [innehållsmall](use-email-templates.md) inom Campaign. [Lär dig mer](../email/use-visual-fragments.md)
+   Det här innehållet är nu ett fristående fragment som läggs till i [fragmentlistan](#manage-fragments) och kan nås från den dedikerade menyn. Du kan nu använda det här fragmentet när du skapar en [e-postadress](../email/get-started-email-designer.md) eller [innehållsmall](use-email-templates.md) i Campaign. [Lär dig hur](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
@@ -144,8 +144,8 @@ Du kan redigera, uppdatera, duplicera eller ta bort ett fragment från fragmentl
 
 Om du vill redigera ett fragment följer du stegen nedan.
 
-1. Klicka på namnet på det fragment som du vill redigera från **[!UICONTROL Fragments]** lista.
-1. Klicka på **Redigera innehåll** för att öppna innehållet i det här fragmentet.
+1. Klicka på namnet på det fragment som ska redigeras i listan **[!UICONTROL Fragments]**.
+1. Klicka på knappen **Redigera innehåll** för att öppna innehållet i det här fragmentet.
 
    ![](assets/fragment-edit-content.png)
 
@@ -160,22 +160,22 @@ Om du vill redigera ett fragment följer du stegen nedan.
 
 Så här tar du bort ett fragment:
 
-1. Gå till fragmentlistan och klicka på **[!UICONTROL More actions]** -knappen bredvid det fragment som ska tas bort.
-1. Klicka **Ta bort** och bekräfta.
+1. Bläddra till fragmentlistan och klicka på knappen **[!UICONTROL More actions]** bredvid fragmentet som ska tas bort.
+1. Klicka på **Ta bort** och bekräfta.
 
    ![](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->När du tar bort ett innehållsfragment uppdateras e-postleveranser och mallar som använder det: fragmentet tas bort från e-postinnehållet, men refereras ändå. Om du vill behålla fragmentinnehållet i dessa leveranser och mallar måste du bryta arvet innan du tar bort fragmentet, [enligt vad som anges i detta avsnitt](use-visual-fragments.md#break-inheritance).
+>När du tar bort ett innehållsfragment uppdateras e-postleveranser och mallar som använder det: fragmentet tas bort från e-postinnehållet, men refereras ändå. Om du vill behålla fragmentinnehållet i de leveranserna och mallarna måste du bryta arvet innan du tar bort fragmentet, [enligt informationen i det här avsnittet](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicera ett fragment {#duplicate-fragments}
 
 Du kan enkelt duplicera ett fragment och skapa ett nytt. Så här duplicerar du ett befintligt fragment:
 
-1. Gå till fragmentlistan och klicka på **[!UICONTROL More actions]** -knappen bredvid det fragment som ska tas bort.
-1. Klicka **Duplicera** och bekräfta.
+1. Bläddra till fragmentlistan och klicka på knappen **[!UICONTROL More actions]** bredvid fragmentet som ska tas bort.
+1. Klicka på **Duplicera** och bekräfta.
 1. Ange det nya fragmentets etikett och spara ändringarna.
 
    Fragmentet läggs till i fragmentlistan. Du kan redigera den och konfigurera den efter behov.

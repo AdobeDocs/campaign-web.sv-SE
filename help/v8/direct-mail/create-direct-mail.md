@@ -16,27 +16,27 @@ Du kan skapa en fristående direktutskick eller skapa en direktutskick i ett kam
 
 Så här skapar du en ny fristående direktutskick:
 
-1. Gå till **[!UICONTROL Deliveries]** till vänster och klicka på  **[!UICONTROL Create delivery]** -knappen.
+1. Bläddra till menyn **[!UICONTROL Deliveries]** i den vänstra listen och klicka på knappen **[!UICONTROL Create delivery]**.
 
-1. Under **[!UICONTROL Channel]** avsnitt, välja **[!UICONTROL Direct mail]** som kanal och välj en mall. [Läs mer om mallar](../msg/delivery-template.md)
+1. Under avsnittet **[!UICONTROL Channel]** väljer du **[!UICONTROL Direct mail]** som kanal och väljer en mall. [Läs mer om mallar](../msg/delivery-template.md)
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
    ![](assets/dm-create.png){zoomable="yes"}
 
-1. Ange en **[!UICONTROL Label]** för leverans och åtkomst till **[!UICONTROL Additional options]** nedrullningsbar meny. Om leveransen baseras på ett utökat schema, **Anpassade alternativ** fält är tillgängliga.
+1. Ange en **[!UICONTROL Label]** för leveransen och öppna listrutan **[!UICONTROL Additional options]**. Om leveransen baseras på ett utökat schema är specifika **anpassade alternativ**-fält tillgängliga.
 
    ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
-   * **[!UICONTROL Folder]**: Lagra leveransen i en viss mapp.
-   * **[!UICONTROL Delivery code]**: Ordna leveranserna med din egen namnkonvention.
+   * **[!UICONTROL Folder]**: Lagra leveransen i en specifik mapp.
+   * **[!UICONTROL Delivery code]**: Organisera dina leveranser med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificering.
+   * **[!UICONTROL Nature]**: Ange leveransens natur för klassificeringssyften.
 +++
 
-1. Klicka på **[!UICONTROL Select audience]** för att rikta sig till en befintlig målgrupp eller skapa en egen.
+1. Klicka på knappen **[!UICONTROL Select audience]** om du vill ange en befintlig målgrupp eller skapa en egen.
 
    * [Lär dig hur du väljer en befintlig målgrupp](../audience/add-audience.md)
    * [Lär dig skapa en ny publik](../audience/one-time-audience.md)
@@ -47,20 +47,20 @@ Så här skapar du en ny fristående direktutskick:
    >
    >Mottagarna av direktreklam måste innehålla minst sina namn och postadresser. En adress anses vara fullständig om fälten för namn, postnummer och ort inte är tomma. Mottagare med ofullständiga adresser utesluts från direktutskick.
 
-1. Aktivera **[!UICONTROL Enable control group]** kan du ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Lär dig hur du arbetar med kontrollgrupper](../audience/control-group.md)
+1. Aktivera alternativet **[!UICONTROL Enable control group]** om du vill ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Lär dig arbeta med kontrollgrupper](../audience/control-group.md)
 
-1. Klicka **[!UICONTROL Edit content]** för att definiera den information (kolumner) som ska exporteras till extraheringsfilen. [Läs mer](content-direct-mail.md)
+1. Klicka på **[!UICONTROL Edit content]** för att definiera informationen (kolumnerna) som ska exporteras till extraheringsfilen. [Läs mer](content-direct-mail.md)
 
    ![](assets/dm-content.png){zoomable="yes"}
 
-1. Aktivera **[!UICONTROL Enable scheduling]** alternativ. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du har definierat. [Lär dig schemalägga leveranser](../msg/gs-deliveries.md#gs-schedule).
+1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du alternativet **[!UICONTROL Enable scheduling]**. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du har definierat. [Lär dig schemalägga leveranser](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >När en leverans skickas i ett arbetsflödes sammanhang måste du använda **Schemaläggare** aktivitet. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
+   >När en leverans skickas i ett arbetsflödes kontext måste du använda aktiviteten **Schemaläggaren**. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
 
-1. Klicka **[!UICONTROL Settings]** för att få tillgång till avancerade alternativ för leveransmallen. [Läs mer](../advanced-settings/delivery-settings.md)
+1. Klicka på **[!UICONTROL Settings]** för att komma åt avancerade alternativ som är relaterade till din leveransmall. [Läs mer](../advanced-settings/delivery-settings.md)
 
    ![](assets/dm-settings.png){zoomable="yes"}
 
-1. När du är klar klickar du på **[!UICONTROL Review and send]** för att validera och skicka leveransen och generera extraheringsfilen. [Lär dig hur du förhandsgranskar och skickar direktreklam](send-direct-mail.md)
+1. När leveransen av direktreklam är klar klickar du på knappen **[!UICONTROL Review and send]** för att validera och skicka leveransen och generera extraheringsfilen. [Lär dig hur du förhandsgranskar och skickar direktreklam](send-direct-mail.md)

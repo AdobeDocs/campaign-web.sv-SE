@@ -5,7 +5,7 @@ description: Lär dig hur du skickar meddelanden till prenumeranterna på en tj�
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -18,29 +18,29 @@ Om du vill skicka meddelanden till dina prenumeranter skapar du en specifik publ
 
 1. Skapa en målgrupp. Ett nytt arbetsflöde skapas automatiskt. [Läs mer om målgrupper](../audience/create-audience.md)
 
-1. För bättre läsbarhet kan du ändra arbetsflödets namn i arbetsflödesinställningens **Etikett** fält. [Lär dig hur du konfigurerar arbetsflödesinställningar](../workflows/workflow-settings.md)
+1. För bättre läsbarhet kan du ändra arbetsflödets namn i fältet **Etikett** i arbetsflödesinställningarna. [Lär dig hur du konfigurerar arbetsflödesinställningar](../workflows/workflow-settings.md)
 
-1. Öppna **[!UICONTROL Build audience]** aktivitet och välj **[!UICONTROL Create audience]**. [Lär dig konfigurera en målgruppsaktivitet](../workflows/activities/build-audience.md)
+1. Öppna aktiviteten **[!UICONTROL Build audience]** och välj **[!UICONTROL Create audience]**. [Lär dig konfigurera en målgruppsaktivitet](../workflows/activities/build-audience.md)
 
-   ![](assets/service-create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-create-audience.png){zoomable="yes"}
 
-1. Välj följande anpassade villkor när du skapar målgrupper: **[!UICONTROL Susbscriptions]** finns som **[!UICONTROL Service]** är lika med den tjänst du har definierat. I det här exemplet väljer du **Luma yoga newsletter**.
+1. Välj följande anpassade villkor i flödet för målgruppsskapande: **[!UICONTROL Susbscriptions]** finns, t.ex. **[!UICONTROL Service]** är lika med den tjänst du definierade. I det här exemplet väljer du ditt **Luma yoga-nyhetsbrev**.
 
-   ![](assets/service-audience-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-audience-subscribers.png){zoomable="yes"}
 
-1. Välj **[!UICONTROL Confirm]** och klicka **[!UICONTROL Start]** för att köra arbetsflödet.
+1. Välj **[!UICONTROL Confirm]** och klicka på **[!UICONTROL Start]** för att köra arbetsflödet.
 
-1. Skapa en leverans. Steg för att skapa en leverans beskrivs i [den här sidan](../msg/gs-messages.md#create-delivery).
-1. Bläddra till leveransinställningarna och ändra standardmålmappningen till **Prenumerationer (nms:subscriptions)**.
+1. Skapa en leverans. Steg för att skapa en leverans beskrivs på [den här sidan](../msg/gs-messages.md#create-delivery).
+1. Gå till leveransinställningarna och ändra standardmålmappningen till **Prenumerationer (nms:subscriptions)**.
 
-   ![](assets/service-delivery-change-mapping.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-delivery-change-mapping.png){zoomable="yes"}
 
 1. I huvudmåldelen av leveransen väljer du den målgrupp du skapade ovan.
 
-   ![](assets/service-delivery-targeting-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-delivery-targeting-subscribers.png){zoomable="yes"}
 
-1. Skapa meddelandeinnehåll, testa och skicka leveransen, enligt informationen i [det här avsnittet](../preview-test/preview-test.md).
+1. Skapa ditt meddelandeinnehåll, testa och skicka leveransen, så som beskrivs i [det här avsnittet](../preview-test/preview-test.md).
 
-   ![](assets/service-delivery-ready.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-delivery-ready.png){zoomable="yes"}
 
 Leveransen skickas endast till prenumeranterna av tjänsten.

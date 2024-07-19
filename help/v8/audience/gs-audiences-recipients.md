@@ -11,11 +11,11 @@ ht-degree: 2%
 
 # Kom igång med profiler och målgrupper {#about-profiles}
 
-På Adobe Campaign Web **profil** är en post som lagras i databasen och fungerar som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i innehållet. Olika typer av profiler lagras i databasen, till exempel **Testprofiler**, som är utformade för att testa era leveranser innan de skickas till slutanvändarna.
+I Adobe Campaign Web är en **profil** en post som lagras i databasen, vilket fungerar som en nyckelkomponent för att skapa målgrupper för leveranser och lägga till personaliseringsdata i ditt innehåll. Olika typer av profiler lagras i databasen, till exempel **Testprofiler**, som är utformade för att testa dina leveranser innan de skickas till den slutliga målgruppen.
 
-**Målgrupper** är uppsättningar profiler som delar liknande beteenden och/eller egenskaper. Samlingen med personer kan antingen genereras, markeras eller läsas in. När ni väl har skapat dem kan ni utnyttja dem som målgrupp för era leveranser.
+**Publiker** är uppsättningar profiler som delar liknande beteenden och/eller egenskaper. Samlingen med personer kan antingen genereras, markeras eller läsas in. När ni väl har skapat dem kan ni utnyttja dem som målgrupp för era leveranser.
 
-Dessutom kan Adobe Campaign Web användas för att hantera och skapa **tjänster** t.ex. nyhetsbrev och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. När du är klar kan du lägga till prenumeranter, avbeställa profiler och skicka meddelanden till prenumeranterna på dina tjänster.
+Dessutom kan Adobe Campaign Web användas för att hantera och skapa **tjänster**, t.ex. nyhetsbrev, och för att kontrollera prenumerationer eller avbeställningar av dessa tjänster. När du är klar kan du lägga till prenumeranter, avbeställa profiler och skicka meddelanden till prenumeranterna på dina tjänster.
 
 Nu när du vet vad du kan göra på Adobe Campaign Web är det dags att fördjupa sig i dessa dokumentationsavsnitt och börja arbeta med dem.
 

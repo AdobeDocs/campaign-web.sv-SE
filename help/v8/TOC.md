@@ -35,7 +35,7 @@ ht-degree: 14%
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Arbeta med leveranser](msg/gs-deliveries.md)
    + [Använd leveransmallar](msg/delivery-template.md)
-   + E-post {#email}
+   + E-postmeddelanden {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + Definiera e-postinnehåll {#content}
          + [Konfigurera e-postinnehållet](email/edit-content.md)
@@ -49,13 +49,13 @@ ht-degree: 14%
             + [Importera e-postinnehåll](email/existing-content.md)
             + [Koda eget innehåll](email/code-content.md)
             + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
-         + Designa innehåll {#design-content}
+         + Designa ditt innehåll {#design-content}
             + [Använda innehållskomponenter](email/content-components.md)
             + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
             + [Lägg till en länk till spegelsidan](email/mirror-page.md)
             + [Lägga till en förrubrik](email/preheader.md)
             + [Generera textversionen](email/text-version-email.md)
-         + Formatera innehållet {#style}
+         + Formatera ditt innehåll {#style}
             + [Kom igång med e-postformat](email/get-started-email-style.md)
             + [Redigera bakgrundsinställningar](email/backgrounds.md)
             + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
@@ -69,7 +69,7 @@ ht-degree: 14%
    + Push-meddelanden {#push}
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
-      + [Designa en omfattande push-leverans för Android](push/rich-push.md)
+      + [Designa en omfattande Android-leverans](push/rich-push.md)
       + [Designa en push-leverans](push/content-push.md)
       + [Förhandsgranska och skicka en push-leverans](push/send-push.md)
    + SMS {#sms}
@@ -82,12 +82,12 @@ ht-degree: 14%
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
-   + AI Assistant {#ai-assistant}
+   + AI-assistenten {#ai-assistant}
       + [Kom igång med AI-assistenten](email/generative-gs.md)
       + [E-postgenerering med AI-assistenten](email/generative-content.md)
       + [SMS-generering med AI-assistenten](email/generative-sms.md)
       + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
-   + Gör innehållet dynamiskt {#dynamic-content}
+   + Gör ditt innehåll dynamiskt {#dynamic-content}
       + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
       + [Lägg till personalisering](personalization/personalize.md)
       + [Skapa villkorsstyrt innehåll](personalization/conditions.md)
@@ -100,7 +100,7 @@ ht-degree: 14%
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
       + [Skicka korrektur](preview-test/test-deliveries.md)
       + [Testa e-poståtergivningen](preview-test/email-rendering.md)
-   + Leveransvarningar {#delivery-alerting}
+   + Leveransvarning {#delivery-alerting}
       + [Kom igång med leveransmeddelanden](msg/delivery-alerting.md)
       + [Kontrollpaneler för leveransvarningar](msg/delivery-alerting-dashboards.md)
       + [Villkor för leveransvarning](msg/delivery-alerting-criteria.md)
@@ -162,7 +162,7 @@ ht-degree: 14%
       + [Extrahera fil](workflows/activities/extract-file.md)
       + [Förgrening](workflows/activities/fork.md)
       + [Inkrementell fråga](workflows/activities/incremental-query.md)
-      + [JavaScript-kod](workflows/activities/javascript-code.md)
+      + [JavaScript code](workflows/activities/javascript-code.md)
       + [Ladda fil](workflows/activities/load-file.md)
       + [Avstämning](workflows/activities/reconciliation.md)
       + [Spara målgrupp](workflows/activities/save-audience.md)
@@ -204,7 +204,7 @@ ht-degree: 14%
       + [Global rapport för direktreklam](reporting/global-report-direct.md)
 + Integreringar {#integrations}
    + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
-   + [Hantera material med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+   + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)

@@ -18,9 +18,9 @@ När du skapar en direktutskick genererar Adobe Campaign automatiskt en extraher
 
 Du kan skapa direktreklam genom att välja mellan tre alternativ:
 
-* **Arbetsflöden**: När du har lagt till en aktivitet i direktreklamkanalen i arbetsflödet och konfigurerat de grundläggande inställningarna kan du sedan skapa innehållet i dina direktutskick från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns i [den här sidan](../workflows/gs-workflow-creation.md).
-* **Kampanjer**: När du har skapat en kampanj kan du skapa en direktutskick. Mer information om hur du ställer in kampanjen finns i [den här sidan](../campaigns/gs-campaigns.md).
-* **Fristående leveranser**: Engagera kunderna direkt och omedelbart med direktreklam utan att behöva använda arbetsflöden eller kampanjer. [Lär dig hur du skapar en leverans](../msg/gs-deliveries.md)
+* **Arbetsflöden**: När du har lagt till en aktivitet för direktreklam i arbetsflödet och konfigurerat de grundläggande inställningarna kan du skapa innehållet i dina direktutskick från den högra panelmenyn. Detaljerade instruktioner om hur du konfigurerar arbetsflödet finns på [den här sidan](../workflows/gs-workflow-creation.md).
+* **Kampanjer**: När du har skapat en kampanj kan du skapa en direktutskick. Mer information om hur du konfigurerar kampanjen finns på [den här sidan](../campaigns/gs-campaigns.md).
+* **Fristående leveranser**: Engagera kunderna direkt och omedelbart med direktreklam, utan att behöva använda arbetsflöden eller kampanjer. [Lär dig skapa en leverans](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

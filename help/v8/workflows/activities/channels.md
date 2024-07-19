@@ -24,7 +24,7 @@ Genom att använda kanalaktiviteter kan ni skapa omfattande och personaliserade 
 >* [Skapa fristående e-postleverans](../../email/create-email.md)
 >* [Skapa fristående SMS-leverans](../../sms/create-sms.md)
 >* [Skapa fristående push-leverans](../../push/create-push.md)
->* [Skapa fristående direktreklam](../../direct-mail/create-direct-mail.md)
+>* [Skapa fristående direktutskick](../../direct-mail/create-direct-mail.md)
 
 ## Förhandskrav {#channel-activity-prereq}
 
@@ -32,15 +32,15 @@ Bygg upp arbetsflödet med relevanta aktiviteter:
 
 * Innan du infogar en kanalaktivitet måste du definiera målgruppen. Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelandena. När du skickar meddelanden i ett kampanjarbetsflöde definieras inte meddelandemålgruppen i kanalaktiviteten, utan i en dedikerad aktivitet, till exempel:
 
-   * A **Bygg målgrupper** aktivitet. [Läs mer](build-audience.md).
+   * En **Skapa målgruppsaktivitet**. [Läs mer](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Läs in fil** aktivitet följt av **Avstämning** aktivitet. [Läs mer](load-file.md).
+   * En **Läs in fil**-aktivitet följd av en **avstämningsaktivitet**. [Läs mer](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-* Starta arbetsflödet med en **Schemaläggare** aktivitet. Du kan också använda en **Schemaläggare** aktivitet för engångsleveranser för att ange kontaktdatum för den leveransen. Kontaktdatumet kan även anges i leveransinställningarna. Se [det här avsnittet](scheduler.md).
+* Om du vill skicka en återkommande leverans startar du arbetsflödet med en **schemaläggaraktivitet**. Du kan också använda en **schemaläggaraktivitet** för engångsleveranser för att ange kontaktdatum för den leveransen. Kontaktdatumet kan även anges i leveransinställningarna. Se [det här avsnittet](scheduler.md).
 
 ## Konfigurera kanalaktiviteten {#create-a-delivery-in-a-workflow}
 
@@ -75,26 +75,26 @@ Följ stegen nedan för att konfigurera en leverans i ett arbetsflödes sammanha
 
 1. Välj **Typ av leverans**: enkel eller återkommande.
 
-   * A **Enskild leverans** är en leverans med en bild som bara skickas en gång, till exempel ett svartvagssmeddelande på fredag.
-   * A **Återkommande leverans** skickas flera gånger baserat på dess körningsfrekvens som definierats i en [schemaläggaraktivitet](scheduler.md). Varje gång arbetsflödet körs beräknas målgruppen om och leveransen skickas till den uppdaterade målgruppen med det uppdaterade innehållet. Det här kan till exempel vara ett veckonyhetsbrev eller ett återkommande födelsedagskalender.
+   * En **enskild leverans** är en engångsleverans, som bara skickas en gång, till exempel ett svartvitt e-postmeddelande på fredag.
+   * En **återkommande leverans** skickas flera gånger baserat på dess körningsfrekvens som definierats i en [schemaläggaraktivitet](scheduler.md). Varje gång arbetsflödet körs beräknas målgruppen om och leveransen skickas till den uppdaterade målgruppen med det uppdaterade innehållet. Det här kan till exempel vara ett veckonyhetsbrev eller ett återkommande födelsedagskalender.
 
-1. Välj en leverans **Mall**. Mallar är förkonfigurerade leveransinställningar som är specifika för en kanal. En inbyggd mall är tillgänglig för varje kanal och förfylld som standard. [Läs mer](../../msg/delivery-template.md)
+1. Välj en **leveransmall**. Mallar är förkonfigurerade leveransinställningar som är specifika för en kanal. En inbyggd mall är tillgänglig för varje kanal och förfylld som standard. [Läs mer](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Du kan välja mallen i det vänstra fönstret för kanalaktivitetskonfigurationen. Om den tidigare valda publiken inte är kompatibel med kanalen kan du inte välja en mall. Du löser detta genom att uppdatera **Bygg målgrupper** för att välja en målgrupp med rätt målmappning. Läs mer om målmappningar i [det här avsnittet](../../audience/targeting-dimensions.md)
+   Du kan välja mallen i det vänstra fönstret för kanalaktivitetskonfigurationen. Om den tidigare valda publiken inte är kompatibel med kanalen kan du inte välja en mall. Du löser detta genom att uppdatera aktiviteten **Bygg målgrupp** och välja en målgrupp med rätt målmappning. Läs mer om målmappningar i [det här avsnittet](../../audience/targeting-dimensions.md)
 
-1. Klicka **Skapa leverans**. Du kan sedan definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också testa och simulera innehållet. [Läs mer](../../msg/gs-messages.md)
+1. Klicka på **Skapa leverans**. Du kan sedan definiera meddelandeinställningar och innehåll på samma sätt som du skapar en fristående leverans. Du kan också testa och simulera innehållet. [Läs mer](../../msg/gs-messages.md)
 
-1. Gå tillbaka till arbetsflödet. Om du vill fortsätta med arbetsflödet växlar du till **Generera en utgående övergång** alternativ för att lägga till en övergång efter kanalaktiviteten.
+1. Gå tillbaka till arbetsflödet. Om du vill fortsätta med arbetsflödet växlar du till alternativet **Generera en utgående övergång** för att lägga till en övergång efter kanalaktiviteten.
 
-1. Klicka **Starta** för att starta arbetsflödet.
+1. Klicka på **Start** för att starta arbetsflödet.
 
    Som standard utlöses meddelandeförberedelsefasen när ett arbetsflöde startas, utan att meddelandet skickas omedelbart.
 
-1. Öppna din kanalaktivitet för att bekräfta sändningen från **Granska och skicka** -knappen.
+1. Öppna din kanalaktivitet för att bekräfta sändningen från knappen **Granska och skicka**.
 
-1. Klicka på **Skicka**.
+1. Klicka på **Skicka** på kontrollpanelen för leverans.
 
 ## Exempel {#cross-channel-workflow-sample}
 

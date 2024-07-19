@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -51,13 +51,13 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Juniversionen är live!]
+>[!TAB Juni-versionen är här!]
 
 Upptäck nya funktioner och förbättringar i Adobe Campaign Web User Interface 24.6.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Leveransvarningar]
+>[!TAB Leveransvarning]
 
 Delivery Alerting är ett varningshanteringssystem som gör det möjligt för användargrupper att automatiskt få e-postmeddelanden med information om leveransen.
 
@@ -78,19 +78,19 @@ Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner 
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Upptäck det nya användargränssnittet</strong><br/>Upptäck Adobe Campaign Web nya gränssnitt och navigeringsupplevelse som är integrerad med Adobe Experience Platform.</div>
+    <div><strong>Upptäck det nya användargränssnittet</strong><br/>Upptäck Adobe Campaign webbs nya gränssnitt och navigeringsupplevelse som är integrerad med Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Omdesignad arbetsyta</strong><br/>Lär dig hur du skapar arbetsflöden för att samordna alla processer och uppgifter och förbättrar hastigheten och skalan för alla delar av marknadsföringskampanjer.</div><br/>
+    <div><strong>Omdesignad arbetsyta för arbetsflöden</strong><br/>Lär dig hur du skapar arbetsflöden för att samordna alla processer och uppgifter och förbättrar hastigheten och skalan för alla delar av marknadsföringskampanjer.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Vi presenterar Designer</strong><br/>Lär dig hur du börjar med en mall eller använder Adobe Campaign nya Email Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
+    <div><strong>Träffa e-postmeddelandet om Designer</strong><br/>Lär dig hur du börjar med en mall, eller använd Adobe Campaign nya e-postprogram för Designer för att skapa e-postmeddelanden utan att behöva skriva en enda kodrad.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Gör innehållet dynamiskt</strong><br/>Lär dig hur du anpassar innehåll baserat på den information du har samlat in om dina profiler för att göra innehållet mer tilltalande och öka sannolikheten för att det läses.</div>
+    <div><strong>Gör ditt innehåll dynamiskt</strong><br/>Lär dig hur du anpassar ditt innehåll baserat på den information du har samlat in om dina profiler för att göra ditt innehåll mer tilltalande och öka sannolikheten för att det läses.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -108,7 +108,7 @@ Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Kom igång</strong><br/><a href="get-started/user-interface.md">Användargränssnitt</a> - <a href="get-started/connect-to-campaign.md">Anslut till Campaign</a> - <a href="get-started/permissions.md">Åtkomst och behörigheter</a>
+      <strong>Kom igång</strong><br/><a href="get-started/user-interface.md">Användargränssnitt</a> - <a href="get-started/connect-to-campaign.md">Anslut till kampanj</a> - <a href="get-started/permissions.md">Åtkomst och behörigheter</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
@@ -118,7 +118,7 @@ Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner 
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Skicka meddelanden</strong><br/><a href="msg/gs-deliveries.md">Skapa en leverans</a> - <a href="email/create-email.md">E-post</a> -  <a href="push/gs-push.md">Push-meddelanden</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Leveransmallar</a> - <a href="preview-test/preview-test.md">Förhandsgranska och testa</a> 
+      <strong>Skicka meddelanden</strong><br/><a href="msg/gs-deliveries.md">Skapa en leverans</a> - <a href="email/create-email.md">E-post</a> - <a href="push/gs-push.md">Push-meddelanden</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Leveransmallar</a> - <a href="preview-test/preview-test.md">Förhandsgranska och testa</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

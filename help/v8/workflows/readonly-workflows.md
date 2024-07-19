@@ -2,7 +2,8 @@
 audience: end-user
 title: Om skrivskyddade arbetsflöden
 description: Lär dig varför arbetsflöden är skrivskyddade
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Vissa arbetsflöden kan vara skrivskyddade. Du kan se den med:
 
-- The mention **[!UICONTROL ** Skrivskyddad **]**  nära **[!UICONTROL Settings]** knapp
+- The mention **[!UICONTROL ** Read-only **]** near the **[!UICONTROL Settings]** button
 - Åtgärdsknapparna är inte tillgängliga
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
@@ -52,6 +53,6 @@ Användaren kan inte komma åt övervakningsknappen om det finns ett skrivskydda
 ### Tekniska arbetsflöden
 
 Tekniska arbetsflöden är skrivskyddade för kampanjanvändare.
-Inbyggda tekniska arbetsflöden är skrivskyddade för alla, även för administratörer. Men användaren kan **paus** eller **stop** vid behov. Det är de enda tillåtna åtgärderna. [Läs mer här](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Inbyggda tekniska arbetsflöden är skrivskyddade för alla, även för administratörer. Men användaren kan **pausa** eller **stoppa** vid behov. Det är de enda tillåtna åtgärderna. [Läs mer här](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}

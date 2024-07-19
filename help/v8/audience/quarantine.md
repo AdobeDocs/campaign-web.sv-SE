@@ -2,7 +2,8 @@
 audience: end-user
 title: Om karantän
 description: Förstå hanteringen av karantänadresser
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Adobe Campaign hanterar karantänadresser (e-post, SMS, push-meddelanden).
 
-Karantän gäller endast för en **e-postadress**, a **telefonnummer**, eller en **enhetstoken**, men inte själva profilen. En profil vars e-postadress är placerad i karantän kan till exempel uppdatera sin profil och ange en ny adress. Därefter kan den användas av leveransåtgärder igen. Om två profiler råkar ha samma telefonnummer, påverkas båda om numret sätts i karantän.
+Karantänen gäller bara för en **e-postadress**, ett **telefonnummer** eller en **enhetstoken**, men inte för själva profilen. En profil vars e-postadress är placerad i karantän kan till exempel uppdatera sin profil och ange en ny adress. Därefter kan den användas av leveransåtgärder igen. Om två profiler råkar ha samma telefonnummer, påverkas båda om numret sätts i karantän.
 
 
 >[!CAUTION]
@@ -22,7 +23,7 @@ Karantän gäller endast för en **e-postadress**, a **telefonnummer**, eller en
 
 ## Vad är karantän?
 
-Karantän är vägen till **hantera ogiltiga adresser i leveranser**.
+Karantän är ett sätt att **hantera ogiltiga adresser i leveranser**.
 
 Om en leverans har en hög frekvens av ogiltiga adresser kan den betraktas som skräppost. Genom att hantera adresserna i karantän kan du undvika att bli blocklist av internetleverantörer. Det här är viktigt för ditt rykte.
 

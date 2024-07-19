@@ -18,7 +18,7 @@ Med Adobe Campaign kan ni samla in data, inklusive personuppgifter och känslig 
 
 * För det första ska du inte skicka e-post, push-meddelanden eller SMS-meddelanden (&quot;spam&quot;) som du inte har bett om. Adobe tror starkt på principerna om tillståndsmarknadsföring när det gäller att främja kundens livstidsvärde och lojalitet, och förbjuder därför strikt användning av Adobe Campaign för att skicka oönskade meddelanden. [Läs mer](#denylisted-profiles)
 
-* Se alltid till att mottagarna accepterar att ta emot meddelanden genom att ge dem möjlighet att välja bort från leveranserna<!-- and keep honoring opt-out requests as quickly as possible-->. [Läs mer](#opt-out)
+* Låt alltid mottagarna gå med på att ta emot meddelanden genom att ge dem möjlighet att välja bort från leveranserna <!-- and keep honoring opt-out requests as quickly as possible-->. [Läs mer](#opt-out)
 
 * Genom prenumerationshanteringen kan du hantera mottagarnas inställningar och spåra vilka mottagare som har valt vilken typ av prenumerationer du vill ha. [Läs mer](../../delivery/using/about-services-and-subscriptions.md)
 
@@ -35,29 +35,29 @@ När du skickar leveranser via Adobe Campaign Web måste du alltid se till att k
 
 ### Avanmäl dig via e-post {#email-opt-out}
 
-Om du vill ge mottagarna möjlighet att avbryta prenumerationen på e-postmeddelanden måste du alltid inkludera en **avbeställ länk** i alla e-postmeddelanden som skickas till mottagarna.
+Om du vill ge mottagarna möjlighet att avbryta prenumerationen på e-postmeddelanden måste du alltid inkludera en **länk för att avbryta prenumerationen** i alla e-postmeddelanden som skickas till mottagarna.
 
 Följ stegen nedan för att göra detta.
 
 1. Skapa en extern landningssida och placera den på valfritt tredjepartssystem.
 
-1. Skapa en e-postleverans. [Lär dig mer](../email/create-email.md)
+1. Skapa en e-postleverans. [Lär dig hur](../email/create-email.md)
 
-1. Infoga en länk till ditt e-postinnehåll. [Lär dig mer](../email/message-tracking.md#insert-links)
+1. Infoga en länk till ditt e-postinnehåll. [Lär dig hur](../email/message-tracking.md#insert-links)
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. I **[!UICONTROL Url]** klistra in länken till tredjepartssidan.
+1. Klistra in länken till tredjepartssidan i fältet **[!UICONTROL Url]**.
 
-1. Klicka på **[!UICONTROL Links]** i den vänstra rutan för att visa en lista över alla URL:er för ditt innehåll som ska spåras.
+1. Klicka på ikonen **[!UICONTROL Links]** i den vänstra rutan om du vill visa en lista över alla URL:er för ditt innehåll som ska spåras.
 
 1. Klicka på pennikonen bredvid den nya länken för att redigera den.
 
-1. Ändra **[!UICONTROL Tracking Type]** och ange **[!UICONTROL Opt out]**.
+1. Ändra **[!UICONTROL Tracking Type]** och ställ in den på **[!UICONTROL Opt out]**.
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. Klicka **[!UICONTROL Save]** och skicka meddelandet. [Läs mer](../monitor/prepare-send.md)
+1. Klicka på **[!UICONTROL Save]** och skicka meddelandet. [Läs mer](../monitor/prepare-send.md)
 
 1. Om mottagaren klickar på länken för att avbryta prenumerationen visas din startsida när meddelandet har tagits emot.
 
@@ -67,13 +67,13 @@ Följ stegen nedan för att göra detta.
 
 ## Blocklist profiler {#denylisted-profiles}
 
-Efter en avanmälan (avanmälan) finns profilerna på **blockeringslista** för en viss kanal: detta innebär att de inte längre omfattas av någon leverans.
+Efter en avanmälan (avanmälan) finns profilerna på **blockeringslista** för en viss kanal: detta innebär att de inte längre används som mål för någon leverans.
 
 >[!NOTE]
 >
 >Om en profil på blockeringslista för e-postkanalen har två e-postadresser, kommer båda adresserna inte att levereras.
 
-Du kan kontrollera om det finns en profil på blockeringslista för en eller flera kanaler i dialogrutan **[!UICONTROL No longer contact]** del av profilens **[!UICONTROL Details]** -fliken. [Läs mer](../audience/about-recipients.md#access)
+Du kan kontrollera om det finns en profil på blockeringslista för en eller flera kanaler under **[!UICONTROL No longer contact]** på fliken **[!UICONTROL Details]** i profilen. [Läs mer](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

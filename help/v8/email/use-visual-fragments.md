@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Lägg till visuella fragment i e-postmeddelanden {#use-visual-fragments}
 
-Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md)eller i en [innehållsmall](use-email-templates.md). Stegen beskrivs nedan.
+Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-designer.md) eller i en [innehållsmall](use-email-templates.md). Stegen beskrivs nedan.
 
 
 >[!NOTE]
@@ -26,9 +26,9 @@ Du kan använda ett visuellt fragment i en [e-postleverans](get-started-email-de
 
 Följ stegen nedan om du vill infoga ett fragment i ett e-postinnehåll:
 
-1. Öppna e-post- eller mallinnehåll med [E-postdesigner](get-started-email-designer.md).
+1. Öppna e-post- eller mallinnehåll med hjälp av [e-post-Designer](get-started-email-designer.md).
 
-1. Välj **[!UICONTROL Fragments]** ikonen från den vänstra listen.
+1. Välj ikonen **[!UICONTROL Fragments]** i den vänstra listen.
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +42,7 @@ Följ stegen nedan om du vill infoga ett fragment i ett e-postinnehåll:
    >
    >Fragment sorteras efter skapandedatum: nyligen tillagda visuella fragment visas först i listan.
 
-   Om några fragment har ändrats eller lagts till medan du redigerar ditt innehåll klickar du på **Uppdatera** om du vill uppdatera listan med de senaste ändringarna.
+   Om några fragment har ändrats eller lagts till medan du redigerar ditt innehåll klickar du på ikonen **Uppdatera** för att uppdatera listan med de senaste ändringarna.
 
 1. Dra och släpp ett fragment från listan till området där du vill infoga det. Precis som andra komponenter kan du flytta runt fragmentet i innehållet.
 
@@ -50,12 +50,12 @@ Följ stegen nedan om du vill infoga ett fragment i ett e-postinnehåll:
 
    ![](assets/fragment-right-pane.png)
 
-   Från **[!UICONTROL Settings]** kan du
+   På fliken **[!UICONTROL Settings]** kan du:
 
    * Välj de enheter som du vill att fragmentet ska visas på.
-   * Klicka på **Redigera innehåll** för att öppna innehållet i det här fragmentet. [Läs mer](../email/fragments.md#edit-fragments)
+   * Klicka på knappen **Redigera innehåll** för att öppna innehållet i det här fragmentet. [Läs mer](../email/fragments.md#edit-fragments)
 
-     Du kan anpassa fragmentet ytterligare med **[!UICONTROL Styles]** -fliken.
+     Du kan anpassa fragmentet ytterligare med fliken **[!UICONTROL Styles]**.
 
 1. Vid behov kan du bryta arvet med det ursprungliga fragmentet. [Läs mer](#break-inheritance)
 Du kan också ta bort fragmentet från innehållet eller duplicera det. Dessa åtgärder kan utföras direkt från den snabbmeny som visas ovanpå fragmentet.

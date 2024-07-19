@@ -16,13 +16,13 @@ SMS-leveranser är ett praktiskt och effektivt sätt att skicka textmeddelanden 
 
 SMS-kanalen erbjuder tre metoder för att skapa SMS-leveranser:
 
-* **[!UICONTROL Workflows]**: Lägg till en SMS-aktivitet, definiera grundläggande inställningar och skapa SMS-innehåll i en större automatiseringssekvens.
+* **[!UICONTROL Workflows]**: Lägg till en SMS-aktivitet, definiera grundläggande inställningar och komponera ditt SMS-innehåll inom en större automatiseringssekvens.
 
 * **[!UICONTROL Campaigns]**: Lägg in SMS-leveranser i dedikerade kampanjer, ange parametrar som målgrupp och leveransschema.
 
-* **Fristående leveranser**: Skapa individuella SMS-leveranser för snabb och direkt kommunikation med kunderna, utan behov av arbetsflöden eller kampanjer.
+* **Fristående leveranser**: Skapa individuella SMS-leveranser för snabb och direkt kommunikation med dina kunder, utan behov av arbetsflöden eller kampanjer.
 
-![](../assets/do-not-localize/book.png) Lär dig konfigurera SMS-kanal i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Lär dig konfigurera SMS-kanal i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

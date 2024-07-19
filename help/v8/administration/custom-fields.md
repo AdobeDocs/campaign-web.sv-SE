@@ -19,7 +19,7 @@ ht-degree: 0%
 
 
 
-Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Läs mer i [Adobe Campaign v8-dokumentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Läs mer i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 Dessa anpassade fält visas på olika skärmar, till exempel information om en profil eller en testprofil.
 
@@ -38,28 +38,28 @@ Anpassade fält är tillgängliga i följande scheman:
 
 Så här konfigurerar du anpassade fält:
 
-1. Under **Administration**, klicka **Scheman**.
+1. Klicka på **Scheman** under **Administration**.
 
    ![](assets/custom-fields.png){zoomable="yes"}
 
-1. Leta reda på önskat schema, till exempel **Mottagare (nms)** schema.
+1. Leta reda på det önskade schemat, till exempel schemat **Mottagare (nms)**.
 
    ![](assets/custom-fields2.png){zoomable="yes"}
 
-1. Klicka på **Fler åtgärder** knapp och markera **Redigera anpassad information**.
+1. Klicka på knappen **Fler åtgärder** och välj **Redigera anpassad information**.
 
    ![](assets/custom-fields3.png){zoomable="yes"}
 
-   The **Redigera anpassad information** visas alla anpassade fält och deras typ.
+   Skärmen **Redigera anpassad detalj** visar alla anpassade fält och deras typ.
 
    ![](assets/custom-fields4.png){zoomable="yes"}
 
    På den här skärmen kan du utföra följande åtgärder:
 
    * ändra ordningen på de olika fälten med upp- och nedpilarna.
-   * göra fältet obligatoriskt: kontrollera **Obligatoriskt** box.
-   * gör fältet synligt eller dolt: klicka på **Synlig** -knappen.
-   * lägg till ett synlighetsvillkor: klicka på **Synlig om** och skriva xtk-uttrycket med de tillgängliga xtk-funktionerna.
+   * gör fältet obligatoriskt: markera kryssrutan **Obligatoriskt**.
+   * gör fältet synligt eller dolt: klicka på knappen **Synligt** .
+   * lägg till ett synlighetsvillkor: klicka på knappen **Synligt om** och skriv xtk-uttrycket med de tillgängliga xtk-funktionerna.
 
 1. Navigera till skärmen som visar det anpassade fältet. I vårt exempel är det profilinformationsskärmen.
 

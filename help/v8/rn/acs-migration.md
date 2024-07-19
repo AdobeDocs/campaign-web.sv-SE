@@ -48,7 +48,7 @@ Låt oss fördjupa oss i vilka nyckelfunktioner Campaign v8 kan erbjuda er:
 
 Som Campaign v8-användare har du tillgång till både det nya webbgränssnittet för Campaign och v8-konsolen. Data och inställningar synkroniseras från en miljö till en annan. Alla data och inställningar som är tillgängliga i klientkonsolen visas i användargränssnittet för Campaign-webben, från vänster navigering i Utforskaren. [Läs mer](../get-started/user-interface.md#user-interface-explorer)
 
-Funktioner som stöds och som inte stöds samt interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen i Campaign [på den här sidan](../get-started/capability-matrix.md)
+Funktioner som stöds och som inte stöds samt interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen för Campaign [på den här sidan](../get-started/capability-matrix.md)
 
 ## Terminologi {#terminology}
 
@@ -64,21 +64,21 @@ De flesta koncept är lika mellan Campaign v8 och Campaign Standard. Det finns d
 * Anpassade resurser är **Scheman**
 * Meddelanden kallas **Leveranser**
 * Produktanvändare är **Operatorer**
-* Roller har konfigurerats med **Namngivna rättigheter**
-* Säkerhetsgrupperna är **Operatörsgrupper**
+* Roller har konfigurerats med **namngivna rättigheter**
+* Säkerhetsgrupperna är **Operatorgrupper**
 * Organisationsenheter hanteras via **Mappbehörigheter**
 
 ## Nya funktioner {#new-features}
 
 För att ni smidigt ska kunna gå över till Campaign v8 har de viktigaste funktionerna för Campaign Standard lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Dynamisk rapportering**: Dynamic Reporting tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+* **Dynamisk rapportering**: Dynamisk rapportering ger helt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Centraliserad branding**: Varje företag har grafiska och tekniska riktlinjer för varumärken. Med Adobe Campaign kan ni definiera en uppsättning specifikationer för att presentera ett konsekvent varumärke för era kunder, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Centraliserad varumärkesprofilering**: Alla företag har grafiska och tekniska riktlinjer för varumärken. Med Adobe Campaign kan ni definiera en uppsättning specifikationer för att presentera ett konsekvent varumärke för era kunder, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Övriga API:er** - Som migrerad användare av Campaign Stardard kan ni använda Rest API:er för att skapa integreringar för Adobe Campaign och bygga ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som ni använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **Resterande API:er** - Som en migrerad användare av Campaign Stardard kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
-* **Landningssidor** - Vissa förbättringar har gjorts på landningssidor för Campaign v8 för att säkerställa funktionens paritet med Campaign Standard. Läs mer i [versionsinformation](../rn/release-notes.md#new-24-4) och landningssidan [dokumentation](../landing-pages/get-started-lp.md).
+* **Landningssidor** - Vissa förbättringar har gjorts på landningssidor för Campaign v8 för att säkerställa funktionens paritet med Campaign Standard. Läs mer i [versionsinformationen](../rn/release-notes.md#new-24-4) och [dokumentationen](../landing-pages/get-started-lp.md) på landningssidan.
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

@@ -29,28 +29,28 @@ Om du vill skapa en ny kampanj måste du definiera dess inställningar, schema o
 
 Så här skapar du en ny kampanj:
 
-1. Klicka på **[!UICONTROL Campaigns]** och klickar på **[!UICONTROL Create campaign]** -knappen.
+1. Klicka på menyn **[!UICONTROL Campaigns]** och klicka på knappen **[!UICONTROL Create campaign]**.
 
    ![Skapa en ny kampanj](assets/create-campaign-button.png)
 
-1. Välj **Mall** för att använda och tillhandahålla en etikett för kampanjen. [Läs mer](manage-campaigns.md#manage-campaign-templates).
-1. Om det behövs kan du ändra följande **Ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och typ.
-1. Definiera **Schema** av er kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](#campaign-schedule)
-1. Klicka **Skapa**.
+1. Välj den **mall** som ska användas och ange en etikett för kampanjen. [Läs mer](manage-campaigns.md#manage-campaign-templates).
+1. Om det behövs kan du ändra följande **ytterligare alternativ**: internt namn, mapp, tilldelad, beskrivning och natur.
+1. Definiera **schemat** för din kampanj. Lär dig hur du ställer in kampanjschemat i [det här avsnittet](#campaign-schedule)
+1. Klicka på **Skapa**.
 
    ![Skapa kampanjegenskaper](assets/create-a-campaign-properties.png)
 
 1. Lägg till arbetsflöden och leveranser till kampanjen:
 
-   * Från **Arbetsflöden** flik, klicka **Skapa arbetsflöde**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Läs mer om [skapa ett arbetsflöde](../workflows/create-workflow.md).
+   * Klicka på **Skapa arbetsflöde** på fliken **Arbetsflöden**. Ett standardarbetsflöde läggs automatiskt till när du skapar kampanjen. Mer information om hur du [skapar ett arbetsflöde](../workflows/create-workflow.md).
 
-   * Från **Leveranser** flik, klicka **Skapa leverans**. [Läs mer](../msg/gs-messages.md)
+   * Klicka på **Skapa leverans** på fliken **Leveranser**. [Läs mer](../msg/gs-messages.md)
 
 ## Övervaka och spåra kampanjen{#campaign-monitoring}
 
-Kampanjövervakning är ett viktigt steg för att analysera hur effektiv er kampanj är. Öppna kampanjen och klicka på **Loggar** -knappen.
+Kampanjövervakning är ett viktigt steg för att analysera hur effektiv er kampanj är. Öppna kampanjen och klicka på knappen **Loggar**.
 
-Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knappen. Se det här [section](../reporting/campaign-reports.md).
+Du kan även visa de dedikerade rapporterna genom att klicka på knappen **Rapporter** . Se [avsnittet](../reporting/campaign-reports.md).
 
 
 ## Definiera kampanjschemat {#campaign-schedule}
@@ -61,13 +61,13 @@ Du kan även visa dedikerade rapporter genom att klicka på **Rapporter** -knapp
 >abstract="Välj kampanjschemat. Du kan skapa kampanjen och den startar när startdatumet nås. Som standard är kampanjens startdatum skapandedatum och varar i 5 dagar. Start- och slutdatum visas i kampanjlistan och kan användas som filter."
 
 
-Kampanjen startar när startdatumet nås. Så länge startdatumet inte nås har kampanjen **[!UICONTROL Draft]** status. När startdatumet har nåtts blir det **[!UICONTROL In progress]**. När slutdatumet har nåtts ställs kampanjen in på **[!UICONTROL Completed]**.
+Kampanjen startar när startdatumet nås. Så länge startdatumet inte nås har kampanjen statusen **[!UICONTROL Draft]**. När startdatumet sedan nås blir det **[!UICONTROL In progress]**. När slutdatumet har nåtts ställs kampanjen in på **[!UICONTROL Completed]**.
 
-Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se det här [section](manage-campaigns.md#access-campaigns).
+Start- och slutdatum visas i kampanjlistan och kan användas som filter. Se [avsnittet](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->Du kan alltid ändra dessa egenskaper senare från **Konfigurera kampanjinställningar** -ikonen bredvid kampanjetiketten. Se det här [section](gs-campaigns.md#campaign-dashboard).
+>Du kan alltid ändra dessa egenskaper senare, från ikonen **Konfigurera kampanjinställningar**, bredvid kampanjetiketten. Se [avsnittet](gs-campaigns.md#campaign-dashboard).
 
 När datumet har nåtts skickas leveranser som skapats i kampanjen i ett arbetsflöde som är klart att skickas. För detta måste arbetsflödet ha startats.
 

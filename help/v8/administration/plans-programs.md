@@ -20,11 +20,11 @@ ht-degree: 0%
 
 Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner och program.
 
-Adobe rekommenderar följande hierarki för att kunna ordna dem bättre: Planera `>` Program `>` Kampanjer
+Adobe rekommenderar följande hierarki för att kunna ordna dem bättre: Planera `>` program `>` kampanjer
 
-* A **plan** kan innehålla flera program. Det definierar strategiska mål för en tidsperiod.
-* A **program** kan innehålla andra program samt kampanjer, arbetsflöden och landningssidor.
-* A **kampanj** kan innehålla leveranser, arbetsflöden och landningssidor.
+* En **plan** kan innehålla flera program. Det definierar strategiska mål för en tidsperiod.
+* Ett **program** kan innehålla andra program samt kampanjer, arbetsflöden och landningssidor.
+* En **kampanj** kan innehålla leveranser, arbetsflöden och landningssidor.
 
 ## Skapa och konfigurera en plan {#create-plan}
 
@@ -32,18 +32,18 @@ Om du vill skapa en plan måste du skapa en mapp med mapptypen **[!UICONTROL Pla
 
 ![](assets/plan_create.png){zoomable="yes"}
 
-Gå till **[!UICONTROL Folder settings]** av din plan att hantera den.
+Gå till **[!UICONTROL Folder settings]** för din plan för att hantera den.
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-Du kan definiera **[!UICONTROL Custom options]** och för att ange planeringens datum.
+Du kan definiera **[!UICONTROL Custom options]** och ange schemaläggningsdatumet för din plan.
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-Hantera  **[!UICONTROL Custom options]**:
+Så här hanterar du **[!UICONTROL Custom options]**:
 
-1. Gå till **[!UICONTROL Schemas]**
-1. Välj **[!UICONTROL Editable]** scheman i filtren
+1. Bläddra till **[!UICONTROL Schemas]**
+1. Välj **[!UICONTROL Editable]**-scheman i filtren
 1. Klicka på ikonen för **[!UICONTROL Edit custom details]**
 
 ![](assets/plan_edit.png){zoomable="yes"}
@@ -54,22 +54,22 @@ Du kan konfigurera dem:
 
 ## Skapa och konfigurera ett program
 
-Så här skapar du ett program i din plan ([Läs mer om hur du skapar en plan](#create-plan)) måste du vara med i din plan och skapa en mapp med mapptypen **[!UICONTROL Program]** [Läs mer om hur du skapar en mapp](create-manage-folder.md).
+Om du vill skapa ett program i din plan ([Läs mer om hur du skapar en plan](#create-plan)) måste du vara i din plan och skapa en mapp med mapptypen **[!UICONTROL Program]** [Läs mer om hur du skapar en mapp](create-manage-folder.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 
-Gå till **[!UICONTROL Folder settings]** av programmet för att hantera det.
+Gå till **[!UICONTROL Folder settings]** för ditt program för att hantera det.
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-Du kan definiera **[!UICONTROL Custom options]** och för att ange schemaläggningsdatum för programmet.
+Du kan definiera **[!UICONTROL Custom options]** och ange schemaläggningsdatum för ditt program.
 
 ![](assets/program_options.png){zoomable="yes"}
 
-Hantera  **[!UICONTROL Custom options]**:
+Så här hanterar du **[!UICONTROL Custom options]**:
 
-1. Gå till **[!UICONTROL Schemas]**
-1. Välj **[!UICONTROL Editable]** scheman i filtren
+1. Bläddra till **[!UICONTROL Schemas]**
+1. Välj **[!UICONTROL Editable]**-scheman i filtren
 1. Klicka på ikonen för **[!UICONTROL Edit custom details]**
 
 ![](assets/program_edit.png){zoomable="yes"}
@@ -88,21 +88,21 @@ Om du vill länka en ny kampanj till ditt program skapar du en kampanj direkt i 
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-The **[!UICONTROL Folder]** inställningarna sparas automatiskt med sökvägen till programmet.
+**[!UICONTROL Folder]**-inställningarna arkiveras automatiskt med sökvägen till ditt program.
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### Way #2 : Du har redan en befintlig kampanj och vill länka den till ett befintligt program
 
-Gå till **[!UICONTROL Settings]** knapp för kampanjen som du vill länka till ditt program:
+Gå till knappen **[!UICONTROL Settings]** för kampanjen som du vill länka till ditt program:
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-I **[!UICONTROL Properties]** klickar du på **[!UICONTROL Folder]** ikonen i **[!UICONTROL Folder]** för att välja **[!UICONTROL Program]** mapp.
+Klicka på ikonen **[!UICONTROL Folder]** i inställningarna för **[!UICONTROL Folder]** i **[!UICONTROL Properties]** för att välja din **[!UICONTROL Program]**-mapp.
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-Välj **[!UICONTROL Program]** mapp och klicka på **[!UICONTROL Confirm]** och sedan på **[!UICONTROL Save and Close]** -knappen.
+Markera mappen **[!UICONTROL Program]**, klicka på knappen **[!UICONTROL Confirm]** och sedan på knappen **[!UICONTROL Save and Close]**.
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 

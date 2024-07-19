@@ -19,38 +19,38 @@ ht-degree: 0%
 
 Du kan importera befintligt HTML-innehåll i e-post-Designer. Innehållet kan vara:
 
-* An **HTML-fil** med en infogad formatmall,
-* A **ZIP-mapp** med HTML-filen, formatmallen (.css) och bilderna.
+* En **HTML-fil** med en inbyggd formatmall,
+* En **.zip-mapp** med filen HTML, formatmallen (.css) och bilder.
 
   >[!NOTE]
   >
   >ZIP-filstrukturen har inga begränsningar. Referenserna måste dock vara relativa och passa i trädstrukturen i ZIP-mappen.
 
-➡️ [Upptäck den här funktionen i video](#video)
+➡️ [Upptäck den här funktionen i videon](#video)
 
 Om du vill importera en fil som innehåller HTML-innehåll följer du stegen nedan.
 
-1. På [E-posta Designer](get-started-email-designer.md) startsida, välja **[!UICONTROL Import HTML]**.
+1. På hemsidan [E-posta Designer](get-started-email-designer.md) väljer du **[!UICONTROL Import HTML]**.
 
    ![](assets/html-import.png){zoomable="yes"}
 
-1. Dra och släpp HTML- eller ZIP-filen med HTML och klicka på **[!UICONTROL Import]**.
+1. Dra och släpp HTML- eller ZIP-filen med ditt HTML-innehåll och klicka på **[!UICONTROL Import]**.
 
-1. När HTML-innehållet har överförts är ditt innehåll **[!UICONTROL Compatibility mode]**.
+1. När HTML-innehållet har överförts är ditt innehåll i **[!UICONTROL Compatibility mode]**.
 
    I det här läget kan du bara anpassa texten, lägga till länkar eller inkludera resurser i innehållet.
 
    ![](assets/html-imported.png){zoomable="yes"}
 
-1. Om du vill kunna utnyttja e-postkomponenterna i Designer-innehållet går du till **[!UICONTROL HTML converter]** och klicka **[!UICONTROL Convert]**.
+1. Om du vill kunna utnyttja e-postkomponenterna för Designer-innehåll går du till fliken **[!UICONTROL HTML converter]** och klickar på **[!UICONTROL Convert]**.
 
    ![](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   > Använda `<table>` taggen som det första lagret i en HTML-fil kan orsaka formatförlust, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
+   > Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-1. Du kan nu anpassa den importerade filen efter behov med e-postfunktionerna i Designer [Läs mer](content-components.md).
+1. Du kan nu anpassa den importerade filen efter behov med e-post-Designer-funktionerna [Läs mer](content-components.md).
 
 ## Instruktionsvideo {#video}
 

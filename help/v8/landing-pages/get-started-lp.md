@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Kom igång med landningssidor {#get-sarted-lp}
 
-[!DNL Adobe Campaign] gör att du kan skapa, utforma och dela landningssidor.
+Med [!DNL Adobe Campaign] kan du skapa, utforma och dela landningssidor.
 
 När det gäller marknadsföringskampanjer är en landningssida en fristående webbsida där en besökare dirigeras efter att ha klickat på en länk i en leverans eller på en webbplats.
 
@@ -23,15 +23,15 @@ Med landningssidor kan du dirigera dina användare till onlineformulär där de 
 >
 >Landningssidor som du skapar i gränssnittet för Campaign-webben skiljer sig från webbformulär som skapas från klientkonsolen. Du kan inte visa eller redigera webbformulär som har skapats i klientkonsolen i gränssnittet för webbkampanjen.
 >
->Läs mer om webbformulär i [Kampanjdokumentation v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Läs mer om webbformulär i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 De viktigaste funktionerna för landningssidor anges nedan:
 
-* Skapa, designa och dela landningssidor direkt med färdiga **förfyllda mallar** matchar olika användningsfall. [Läs mer](create-lp.md)
-* Utnyttja [!DNL Adobe Campaign] funktioner för att enkelt bygga **responsiva landningssidor**. [Läs mer](lp-content.md)
-* Konfigurera **avanmälnings- och avanmälningsflöden** snabbt och smidigt. [Läs mer](lp-use-cases.md)
-* Skapa prenumerationstjänster så att användarna kan **prenumerera på en tjänst**. [Läs mer](lp-use-cases.md#lp-subscription)
-* Förse mottagarna med **möjlighet att avbryta prenumerationen** från att ta emot meddelanden. [Läs mer](lp-use-cases.md#lp-unsubscription)
+* Skapa, designa och dela landningssidor direkt med **förfyllda mallar** som matchar olika användningsområden. [Läs mer](create-lp.md)
+* Utnyttja funktionerna för [!DNL Adobe Campaign]-innehållsdesign för att enkelt bygga **responsiva landningssidor**. [Läs mer](lp-content.md)
+* Konfigurera **anmälnings- och avanmälningsflöden** snabbt och smidigt. [Läs mer](lp-use-cases.md)
+* Skapa prenumerationstjänster så att användare kan **prenumerera på en tjänst**. [Läs mer](lp-use-cases.md#lp-subscription)
+* Förse dina mottagare med **möjligheten att avbryta prenumerationen** från att ta emot dina meddelanden. [Läs mer](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">

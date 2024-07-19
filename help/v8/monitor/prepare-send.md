@@ -15,30 +15,30 @@ ht-degree: 1%
 
 ## Förbered sändningen {#prepare}
 
-När du har definierat [innehåll](../email/edit-content.md), [publik](../audience/add-audience.md)och [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)är du redo att förbereda din e-postleverans.
+När du har definierat ditt [innehåll](../email/edit-content.md), [målgrupp](../audience/add-audience.md) och [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule) är du redo att förbereda din e-postleverans.
 
 Under leveransförberedelsen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
 
-Valideringsreglerna som används vid leveransförberedelsen beskrivs i [Kampanjdokumentation v8 (klientkonsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+Verifieringsreglerna som används vid leveransförberedelsen beskrivs i [dokumentationen för Campaign v8 (klientkonsolen) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 De viktigaste stegen för att förbereda sändningen visas nedan.
 
-1. Klicka på **[!UICONTROL Review and send]**.
+1. Klicka på **[!UICONTROL Review and send]** på kontrollpanelen för leverans.
 
    ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
-1. Klicka på **[!UICONTROL Prepare]** i det övre högra hörnet och bekräfta.
+1. Klicka på knappen **[!UICONTROL Prepare]** i det övre högra hörnet och bekräfta.
 
    ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Om du har schemalagt din leverans och inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-deliveries.md#gs-schedule)
+   >Om du har schemalagt din leverans och inaktiverat alternativet **[!UICONTROL Enable confirmation before sending]** grupperas förberedelsen och skickastegen tillsammans under knappen **[!UICONTROL Prepare and send]**. [Läs mer om schemaläggning](../msg/gs-deliveries.md#gs-schedule)
 
 1. Förberedelseförloppet visas. Beroende på storleken på målpopulationen kan den här åtgärden ta en stund.
 
-   Du kan när som helst avbryta beredningen med **[!UICONTROL Stop preparation]** -knappen.
+   Du kan när som helst stoppa förberedelsen med knappen **[!UICONTROL Stop preparation]**.
 
    ![](assets/email-stop-preparation.png){zoomable="yes"}
 
@@ -55,7 +55,7 @@ De viktigaste stegen för att förbereda sändningen visas nedan.
    * **[!UICONTROL To deliver]**: antalet meddelanden som ska skickas.
    * **[!UICONTROL To exclude]**: antalet meddelanden som utelämnats av en [typologiregel](../advanced-settings/delivery-settings.md#typology).
 
-1. Klicka på **[!UICONTROL Logs]** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. [Läs mer](delivery-logs.md)
+1. Klicka på knappen **[!UICONTROL Logs]** och kontrollera att det inte finns något fel. I det sista loggmeddelandet visas eventuella felmeddelanden och antalet fel. [Läs mer](delivery-logs.md)
 
    ![](assets/email-prepare-logs.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ När färdigställandet är klart utan fel är ditt meddelande klart att skickas
 ## Skicka meddelandet {#send}
 
 
-När [förberedelse](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
+När [förberedelsen](#prepare) är klar kan du nu skicka ditt e-postmeddelande.
 
 Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs mer](../msg/gs-deliveries.md#gs-schedule)
 
@@ -78,7 +78,7 @@ Om meddelandet är schemalagt skickas det vid angivet datum och klockslag. [Läs
 
 Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
-1. Klicka på **[!UICONTROL Send]** i det övre högra hörnet.
+1. Klicka på knappen **[!UICONTROL Send]** i det övre högra hörnet på kontrollpanelen för leverans.
 
    ![](assets/email-send.png){zoomable="yes"}
 
@@ -90,9 +90,9 @@ Följ stegen nedan om du vill skicka ett e-postmeddelande omedelbart.
 
 Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum och en senare tidpunkt följer du stegen nedan.
 
-1. Innan du trycker **[!UICONTROL Review and send]** ska du kontrollera att du har definierat ett schema för e-postmeddelandet. [Läs mer](../msg/gs-deliveries.md#gs-schedule)
+1. Innan du trycker på knappen **[!UICONTROL Review and send]** måste du definiera ett schema för e-postmeddelandet. [Läs mer](../msg/gs-deliveries.md#gs-schedule)
 
-1. Klicka på **[!UICONTROL Send as scheduled button]** i det övre högra hörnet.
+1. Klicka på knappen **[!UICONTROL Send as scheduled button]** i det övre högra hörnet på kontrollpanelen för leverans.
 
    ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
@@ -100,15 +100,15 @@ Om du har schemalagt ditt e-postmeddelande att skicka det vid ett senare datum o
 
    >[!NOTE]
    >
-   >Om du har inaktiverat **[!UICONTROL Enable confirmation before sending]** kan förberedelse och sändning grupperas tillsammans under **[!UICONTROL Prepare and send]** -knappen. [Läs mer om planering](../msg/gs-deliveries.md#gs-schedule)
+   >Om du inaktiverade alternativet **[!UICONTROL Enable confirmation before sending]** grupperas förberedelsen och skickastegen tillsammans under knappen **[!UICONTROL Prepare and send]**. [Läs mer om schemaläggning](../msg/gs-deliveries.md#gs-schedule)
 
 ## Pausa eller stoppa sändningen {#pause-stop-sending}
 
-Om leveransen är schemalagd eller inte<!--TBC-->kan två åtgärder utföras när som helst under sändningsprocessen:
+Oavsett om din leverans är schemalagd eller inte<!--TBC--> kan två åtgärder utföras när som helst under sändningsprocessen:
 
-* Klicka **[!UICONTROL Pause sending]** för att avbryta sändningen av meddelandena. Du kan fortsätta skicka när som helst.
+* Klicka på **[!UICONTROL Pause sending]** om du vill avbryta sändningen av meddelandena. Du kan fortsätta skicka när som helst.
 
-* Klicka **[!UICONTROL Stop sending]** för att omedelbart avbryta sändningen. Varken förberedelsen eller sändningen kan återupptas när den har stoppats.
+* Klicka på **[!UICONTROL Stop sending]** för att omedelbart avbryta sändningen. Varken förberedelsen eller sändningen kan återupptas när den har stoppats.
 
 ![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
@@ -166,6 +166,6 @@ När sändningen är klar kan du kontrollera de nyckeltal som visas:
 >
 >Alla indikatorer uppdateras var femte minut efter att leveransen påbörjats. Indikatorerna för leveransförberedelser är i realtid.
 
-Läs mer om KPI:er i [den här sidan](../reporting/kpis.md).
+Läs mer om KPI:er på [den här sidan](../reporting/kpis.md).
 
 Du kan också kontrollera loggarna. [Läs mer](delivery-logs.md)
