@@ -4,7 +4,7 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 644bd84a5f7f37b1584b1d9477c77ff63ddc1ef9
+source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner
 
 Följande funktioner och förbättringar är tillgängliga från och med juliversionen.
 
-#### Innehållsfragment {#24-7-1}
+### Innehållsfragment {#24-7-1}
 
 Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
 
