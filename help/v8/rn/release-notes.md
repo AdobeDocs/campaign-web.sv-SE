@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 5%
@@ -54,22 +54,11 @@ Den nya funktionen **Granskningsspår** ger en detaljerad och kronologisk regist
 
 Nu kan du skapa länkar med en annan tabell i arbetsflödesaktiviteten **Berikning**. Använd det nya avsnittet **Länkdefinition** i aktivitetsparametrarna för att skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress, kan du nu skapa en länk till landstabellen för att uppdatera informationen i deras profiler. [Läs mer](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Allmänna förbättringar {#improvements-24-5}
 
 * **Direktutskick** - Nu kan du använda uttrycksredigeraren för att välja vilka attribut som ska visas i extraheringsfiler för direktutskick. [Läs mer](../direct-mail/content-direct-mail.md)
 
 * **Mapphantering** - Nu kan du skapa en undermapp av en annan typ än den överordnade mappen. [Läs mer](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalisering** - Som en del av vår pågående strävan att leverera en enhetlig användarupplevelse harmoniserar vi terminologin som används i Adobe Experience Cloud-produkter och -appar. Det här påverkar den tyska termen &quot;Titel&quot; som ändras till &quot;Label&quot; när det gäller namnet på ett objekt. Ändringarna införs stegvis i användargränssnittet och dokumentationen.
 
@@ -125,22 +114,15 @@ Observera att den här funktionen är i **begränsad tillgänglighet** (LA).
 ### Allmänna förbättringar {#improvements-24-4}
 
 Förbättringarna nedan är tillgängliga för alla kunder från och med aprilversionen.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * Aktiviteten **Läs in fil** har förbättrats med flera avsnitt som gör att du kan överföra en exempelfil, hantera fel och avvisa samt ta bort överförda filer när aktiviteten har körts. [Läs mer](../workflows/activities/load-file.md)
 
 
 * Du kan nu **kopiera/klistra in aktiviteter** från ett arbetsflöde till ett annat arbetsflöde från en annan webbläsarflik. [Läs mer](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Alla arbetsflödesaktiviteter tillåter nu att du hanterar deras **körningsalternativ**. På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel. [Läs mer](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * Alternativet&quot;Aktivera inte övergången om populationen är tom&quot; i **Delad aktivitet** gör att du kan välja om arbetsflödet ska övergå till nästa aktivitet när segmentresultatet är tomt. [Läs mer](../workflows/activities/split.md)
-
-
 
 ## Versionsinformation om mars {#24-3-release}
 
