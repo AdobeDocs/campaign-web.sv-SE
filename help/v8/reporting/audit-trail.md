@@ -4,7 +4,7 @@ title: Granskningskedja
 description: Lär dig övervaka instansen med granskningsspår för Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 # Granskningskedja{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
+>id="acw_homepage_welcome_rn4"
 >title="Granskningskedja"
 >abstract="Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"

@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="Leveransvarningar"
 >abstract="Leveransvarningar finns nu i Campaign. Den här funktionen är ett varningshanteringssystem som gör det möjligt för grupper av användare att automatiskt få e-postmeddelanden med information om leveransen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
