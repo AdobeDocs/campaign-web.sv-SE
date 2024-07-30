@@ -4,7 +4,7 @@ title: Granskningskedja
 description: Lär dig övervaka instansen med granskningsspår för Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 # Granskningskedja{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="Granskningskedja"
 >abstract="Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
@@ -93,10 +93,10 @@ Så här kommer du åt instansens **[!UICONTROL Audit trail]**:
 1. Fönstret **[!UICONTROL Audit entity]** ger dig mer detaljerad information om den valda entiteten, till exempel:
 
    * **[!UICONTROL Type]**: Arbetsflöde, alternativ, leveranser eller scheman.
-   * **[!UICONTROL Entity]**: Intern namn på dina aktiviteter.
-   * **[!UICONTROL Modified by]** : Användarnamn för den senaste personen som ändrade entiteten.
+   * **[!UICONTROL Entity]**: Inbyggt namn på dina aktiviteter.
+   * **[!UICONTROL Modified by]**: Användarnamn för den senaste personen som ändrade entiteten.
    * **[!UICONTROL Action]**: Senaste åtgärden som utfördes på den här entiteten, antingen Skapad, Ändrad eller Borttagen.
-   * **[!UICONTROL Modification date]** : Datum för den senaste åtgärden som utfördes på entiteten.
+   * **[!UICONTROL Modification date]**: Datum för den senaste åtgärden som utfördes på entiteten.
 
    Kodblocket ger dig mer information om exakt vad som har ändrats i din enhet.
 

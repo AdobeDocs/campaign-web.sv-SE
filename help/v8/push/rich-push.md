@@ -3,9 +3,9 @@ audience: end-user
 title: Designa ett omfattande leveransmeddelande
 description: Lär dig hur du utformar en omfattande push-meddelandetjänst från Android med Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '3053'
+source-wordcount: '3071'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android).
+>* Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Campaign v8-klientkonsolen [versionsinformation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>
+>* Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 

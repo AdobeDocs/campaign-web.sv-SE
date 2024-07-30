@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '745'
 ht-degree: 14%
 
 ---
@@ -134,6 +134,7 @@ ht-degree: 14%
       + [Skapa en engångspublik](audience/one-time-audience.md)
       + [Läsa in en e-postmålgrupp från en fil](audience/file-audience.md)
       + [Ange en kontrollgrupp](audience/control-group.md)
+      + [Lägga till en svällningsgrupp](audience/trap-group.md)
    + Arbeta med prenumerationstjänster {#work-with-services}
       + [Skapa och hantera prenumerationstjänster](audience/manage-services.md)
       + [Hantera prenumeranter](audience/manage-subscribers.md)

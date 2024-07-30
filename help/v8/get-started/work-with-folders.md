@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Du kan skapa, byta namn på, ordna om och flytta mappar i navigeringsträdet. Du
 
 ![](assets/folders.png){zoomable="yes"}
 
-Du kan ställa in en mapptyp. Till exempel: en mapp med leveranser.
+Du kan ställa in en mapptyp. Exempel: en mapp med leveranser.
 Mappens ikon ändras beroende på den här typen.
 
 ## Skapa en ny mapp

@@ -3,7 +3,7 @@ audience: end-user
 title: Om karantän
 description: Förstå hanteringen av karantänadresser
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Karantänen hjälper dig att minska SMS-sändningskostnaderna genom att utesluta
 
 ## Varför en adress skickas till karantän
 
-Det kan finnas många skäl till att skicka en adress till karantän:
+Det kan finnas många orsaker till att en adress skickas till karantän:
 
 - Felaktiga telefonnummer för SMS
 - För SMS, när profilen svarar på ett SMS-meddelande med ett nyckelord som &quot;STOP&quot;
