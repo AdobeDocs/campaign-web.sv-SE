@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '734'
 ht-degree: 14%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 14%
    + Push-meddelanden {#push}
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
-      + [Designa en omfattande Android-leverans](push/rich-push.md)
+      + Omfattande push {#rich-push}
+         + [Designa en omfattande Android-leverans](push/rich-push.md)
+         + [Designa en omfattande iOS-leverans](push/rich-push-ios.md)
       + [Designa en push-leverans](push/content-push.md)
       + [Förhandsgranska och skicka en push-leverans](push/send-push.md)
    + SMS {#sms}
