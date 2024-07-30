@@ -2,10 +2,11 @@
 audience: end-user
 title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
+badge: label="Begränsad tillgänglighet"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
+source-git-commit: 3b602342885c16c09b5bc97015fa039c153c9ded
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
