@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -89,9 +89,9 @@ Du kan anpassa meddelandeinnehållet genom att:
 
   Anpassningsfält används för personalisering på första nivån av dina meddelanden. Du kan välja vilket fält som helst tillgängligt i databasen från personaliseringsredigeraren. För en leverans kan du välja vilket fält som helst som är relaterat till mottagaren, meddelandet eller leveransen. Dessa attribut kan infogas på ämnesraden eller i meddelandetexten. [Läs mer](../personalization/personalize.md)
 
-* Infoga fördefinierade **innehållsblock**
+* Infogar fördefinierade **uttrycksfragment**
 
-  Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag via personaliseringsredigeraren. [Läs mer](../personalization/personalize.md#ootb-content-blocks)
+  Campaign innehåller en uppsättning uttrycksfragment som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. uttrycksfragment är tillgängliga från en dedikerad post som körs i personaliseringsredigeraren. Dessutom kan du skapa egna uttrycksfragment som passar dina behov. [Lär dig använda uttrycksfragment](../content/use-expression-fragments.md)
 
 * Skapa **villkorligt innehåll**
 

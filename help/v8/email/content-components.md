@@ -3,9 +3,9 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="Om innehåll"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
+>abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett innehållsfragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

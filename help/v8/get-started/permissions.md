@@ -3,125 +3,44 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-# Åtkomst och behörigheter {#access-and-permissions}
 
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="Behörighet krävs"
->abstract="Din administratör måste ge dig behörighet innan du kan skapa det här objektet."
+# Behörigheter {#permissions}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Den här målgruppen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här målgruppen. Kontakta administratören om det behövs för att ge dig åtkomst."
+Varje användare i Adobe Campaign har sina egna behörigheter och begränsningar i programmet.
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Tjänsten är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
+Användaren kan vara en del av operatorgruppen och ärver behörigheterna för gruppen.
 
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Mottagarna har skrivskyddad profil"
->abstract="Du har inte behörighet att redigera den här profilen. Kontakta administratören om det behövs för att ge dig åtkomst."
+Enligt dess behörigheter kan en operator:
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Den här kampanjen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
+* Tillgång till vissa funktioner
+* Åtkomst till vissa data
+* Åtkomst till vissa åtgärder (skapa, ändra, ta bort)
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Leveransen är skrivskyddad"
->abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
+## Behörigheter för mappar {#folder-permissions}
 
+Enligt dina rättigheter kan du visa och hantera behörigheter för mappar i **[!UICONTROL Folder settings]**.
+Nedan finns ett exempel på en leveransmapp.
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Arbetsflödet är skrivskyddat"
->abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
+![](assets/folder_settings.png){zoomable="yes"}
 
+I avsnittet **[!UICONTROL Security]** i **[!UICONTROL Folder settings]** kan du visa och hantera operatorer eller grupper som kan komma åt mappen.
 
+![](assets/folder_security.png){zoomable="yes"}
 
-Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även för navigeringsträdet **Utforskaren**. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
+Du kan klicka direkt på behörigheterna och ändra dem antingen **[!UICONTROL Allowed]** eller **[!UICONTROL Denied]**.
 
-Åtkomstkontrollen hanteras i Campaign Client Console. Alla behörigheter på Campaign Web synkroniseras med behörigheter på Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter. Läs mer om användarbehörigheter i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+![](assets/folder_security_denied.png){zoomable="yes"}
 
-När du surfar i användargränssnittet i Campaign kan du komma åt data, objekt och funktioner beroende på dina behörigheter. Om du till exempel inte har åtkomstbehörighet till en mapp kan du inte se den. Dina behörigheter påverkar även objekt och datahantering. Utan skrivbehörighet för en viss mapp kan du inte skapa en leverans i den mappen, även om du kan se den i användargränssnittet.
+Om alternativet **[!UICONTROL Propagate]** är aktiverat tillämpas alla behörigheter som definierats för en mapp på alla dess undermappar. Dessa behörigheter kan överladdas för varje undermapp.
 
-## Visa behörigheter {#view-permissions}
+Om alternativet **[!UICONTROL System folder]** är markerat tillåts åtkomst till alla operatorer, oavsett deras behörigheter.
 
-I **Utforskaren** kan du bläddra bland behörigheter för varje mapp. Dessa behörigheter anges i klientkonsolen och används för att organisera och styra åtkomsten till Campaign-data.
-
-Så här visar du behörigheter för en mapp:
-
-1. Välj en mapp på den vänstra menyn i **Utforskaren**.
-1. Klicka på de tre punkterna i det övre högra hörnet och välj **Mappbehörigheter**.
-
-   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Kontrollera detaljer på skärmen enligt nedan:
-
-   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-   En grupp, eller en operator, kan ha behörigheten Läs, Skriv och/eller Ta bort för data som lagras i den valda mappen.
-
-   Om alternativet **Sprid** är aktiverat tillämpas alla behörigheter som definierats för en mapp på alla dess undermappar. Dessa behörigheter kan överladdas för varje undermapp.
-
-   Om alternativet **Systemmapp** är aktiverat tillåts åtkomst till alla operatorer, oavsett deras behörigheter.
-
-Läs mer om mappbehörigheter i dokumentationen för [Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/folder-permissions.html){target="_blank"}.
-
-
-## Arbeta med mappar {#folders}
-
->[!CONTEXTUALHELP]
->id="acw_folder_properties"
->title="Mappegenskaper"
->abstract="Mappegenskaper"
-
->[!CONTEXTUALHELP]
->id="acw_folder_security"
->title="Mappsäkerhet"
->abstract="Mappsäkerhet"
-
->[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Mappbegränsningar"
->abstract="Mappbegränsningar"
-
->[!CONTEXTUALHELP]
->id="acw_folder_schedule"
->title="Mappschema"
->abstract="Mappschema"
-
-Du kan skapa, byta namn på, ordna om och flytta mappar för att ordna dina komponenter och data. Du kan också ta bort mappar från samma meny.
-
->[!CAUTION]
->
->När du tar bort en mapp tas även alla data som lagras i mappen bort.
-
-Så här skapar du en mapp:
-
-1. Välj en mapp på den vänstra menyn i **Utforskaren**.
-1. Klicka på de tre punkterna i det övre högra hörnet och välj **Skapa ny mapp**.
-1. Ange namnet på mappen.
-
-   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Välj mapptyp. Som standard är den överordnade mapptypen markerad, &quot;Leveranser&quot;, i vårt exempel. Om du vill ändra mapptyp klickar du på mappikonen och väljer en annan typ.
-
-   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
-
-1. Klicka på **Skapa**.
-
-   Mappen läggs till som en undermapp till den aktuella mappen. Bläddra till den nya mappen för att skapa komponenter direkt i den. Du kan också skapa en komponent från en mapp och spara den i den nya mappen, under **Ytterligare alternativ** i egenskaperna, som visas nedan för en leverans:
-
-   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+Du kan också [hantera behörigheter för mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions).
+Alla behörigheter i gränssnittet för Campaign-webben synkroniseras med behörigheterna för Campaign-klientkonsolen.

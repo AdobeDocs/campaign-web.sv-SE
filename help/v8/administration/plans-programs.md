@@ -3,7 +3,7 @@ audience: end-user
 title: Planer och program
 description: Lär dig skapa och konfigurera planer och program i Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe rekommenderar följande hierarki för att kunna ordna dem bättre: Planera
 
 ## Skapa och konfigurera en plan {#create-plan}
 
-Om du vill skapa en plan måste du skapa en mapp med mapptypen **[!UICONTROL Plan]** [Läs mer om hur du skapar en mapp](create-manage-folder.md).
+Om du vill skapa en plan måste du skapa en mapp med mapptypen **[!UICONTROL Plan]** [Läs mer om hur du skapar en mapp](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Du kan konfigurera dem:
 
 ## Skapa och konfigurera ett program
 
-Om du vill skapa ett program i din plan ([Läs mer om hur du skapar en plan](#create-plan)) måste du vara i din plan och skapa en mapp med mapptypen **[!UICONTROL Program]** [Läs mer om hur du skapar en mapp](create-manage-folder.md).
+Om du vill skapa ett program i din plan ([Läs mer om hur du skapar en plan](#create-plan)) måste du vara i din plan och skapa en mapp med mapptypen **[!UICONTROL Program]** [Läs mer om hur du skapar en mapp](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

@@ -1,6 +1,6 @@
 ---
-title: Kom igång med dynamiskt innehåll
-description: Lär dig hur du gör ditt innehåll dynamiskt med personalisering, villkorsstyrt innehåll och inbyggda innehållsblock.
+title: Hur gör jag ert innehåll dynamiskt?
+description: Lär dig hur du gör ditt innehåll dynamiskt med hjälp av personalisering och villkorat innehåll.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Kom igång med dynamiskt innehåll {#gs-dynamic-content}
+# Hur gör jag ert innehåll dynamiskt? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalization"
->abstract="Med uttrycksredigeraren kan du välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Ni kan personalisera era meddelanden till varje mottagare genom att utnyttja profildata och skapa villkorsstyrt innehåll för att anpassa meddelandet till varje mottagare och endast visa det innehåll som är relevant. Dessutom finns det personaliseringsblock som du kan använda för att lägga till fördefinierat personaliserat innehåll i leveranserna."
+>abstract="Med uttrycksredigeraren kan du välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Ni kan personalisera era meddelanden till varje mottagare genom att utnyttja profildata och skapa villkorsstyrt innehåll för att anpassa meddelandet till varje mottagare och endast visa det innehåll som är relevant."
 
 Som marknadsförare är det viktigt att inrikta sig på kunder som verkligen är intresserade av era erbjudanden och att engagera dem genom att tillhandahålla effektivt och relevant innehåll. Med tanke på det stora urval av mottagare som ni stöter på kan det vara tidskrävande och onödigt att skapa flera olika typer av marknadsföringsmaterial som kan tilltala olika personer. Det är här som dynamiskt innehåll kommer in på spel.
 
@@ -38,10 +38,6 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstru
 * **Skapa villkorsstyrt innehåll** för att anpassa dina leveranser till varje mottagare och visa endast det innehåll som är relevant för en viss kund baserat på den information du har om dem. På så sätt kan du visa specifika textblock och/eller bilder baserat på villkor. Anpassa t.ex. en e-postbanderoll som baseras på mottagarnas prenumeration till en viss tjänst.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **Använd personaliseringsblock** för att spara tid och enkelt återanvända personaliserat innehåll i dina meddelanden. Campaign innehåller en uppsättning personaliseringsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett gratulationsmeddelande eller en länk till spegelsidan för ett e-postmeddelande. Innehållsblock är tillgängliga från ett dedikerat tävlingsbidrag i personaliseringsredigeraren.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Öppna uttrycksredigeraren {#access}
 
@@ -64,35 +60,3 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 >[!NOTE]
 >
 >Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorligt innehåll i e-postmeddelanden](conditions.md)
-
-## Låt oss dyka djupare {#dive-deeper}
-
-Nu när du har en förståelse för hur du gör ditt innehåll dynamiskt är det dags att gå djupare in i dessa dokumentationsavsnitt för att börja arbeta med funktionen.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Anpassa innehåll" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Lägg till personalisering</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Lead" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Lägg till villkorligt innehåll</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Sällan" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Lägg till inbyggda innehållsblock</strong></a>
-</div>
-<p></td>
-</tr></table>

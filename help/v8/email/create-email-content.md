@@ -3,9 +3,9 @@ audience: end-user
 title: Designa e-postmeddelanden i e-postprogrammet Designer
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Lägg till strukturer"
->abstract="Strukturer definierar fragmentets layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa fragmentinnehållet."
+>abstract="Strukturer definierar layouten för innehållsfragmentet. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa fragmentinnehållet."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definiera fragmentkolumner"
->abstract="Med e-post-Designer kan du enkelt definiera fragmentets layout genom att definiera kolumnstrukturen."
+>title="Definiera kolumner för innehållsfragment"
+>abstract="Med e-post-Designer kan du enkelt definiera layouten för ditt innehållsfragment genom att definiera kolumnstrukturen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

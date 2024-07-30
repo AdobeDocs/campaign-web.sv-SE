@@ -3,9 +3,9 @@ audience: end-user
 title: Övergång från Campaign Standard till Adobe Campaign Web
 description: Upptäck webbanvändargränssnittet för kampanj
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '650'
 ht-degree: 4%
 
 ---
@@ -79,6 +79,8 @@ För att ni smidigt ska kunna gå över till Campaign v8 har de viktigaste funkt
 * **Resterande API:er** - Som en migrerad användare av Campaign Stardard kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
 * **Landningssidor** - Vissa förbättringar har gjorts på landningssidor för Campaign v8 för att säkerställa funktionens paritet med Campaign Standard. Läs mer i [versionsinformationen](../rn/release-notes.md#new-24-4) och [dokumentationen](../landing-pages/get-started-lp.md) på landningssidan.
+
+* **Visuella fragment** - Visuella fragment är återanvändbara visuella komponenter som kan refereras i en eller flera e-postleveranser eller i innehållsmallar. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess. [Läs mer](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

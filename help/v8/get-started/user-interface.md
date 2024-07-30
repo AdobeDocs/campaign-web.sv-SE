@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1689'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ I avsnittet CONTENT MANAGEMENT kan du visa dina innehållsmallar och fragment.
 
 * **Innehållsmallar** - För en snabbare och förbättrad designprocess kan du skapa fristående mallar för att enkelt återanvända anpassat innehåll i hela [!DNL Adobe Campaign]. Den här funktionen är endast tillgänglig för e-post och gör att innehållsorienterade användare kan arbeta med fristående mallar så att marknadsföringsanvändare kan återanvända och anpassa dem i sina egna e-postkampanjer. Läs mer i [det här avsnittet](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragment** - Ett fragment är en återanvändbar komponent som kan refereras till i en eller flera leveranser mellan kampanjer. När du ändrar ett fragment uppdateras allt innehåll som använder det. [Lär dig arbeta med fragment](../content/fragments.md)
+
+Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa e-postinnehåll i en förbättrad designprocess.
 
 ### Kundhantering {#user-interface-customer-management}
 

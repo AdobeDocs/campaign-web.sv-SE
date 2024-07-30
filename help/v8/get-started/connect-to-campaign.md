@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,51 @@ Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klick
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet på [den här sidan](user-interface.md).
+
+### Åtkomstkontroll {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Behörighet krävs"
+>abstract="Din administratör måste ge dig behörighet innan du kan skapa det här objektet."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Den här målgruppen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här målgruppen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Tjänsten är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här tjänsten. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Mottagarna har skrivskyddad profil"
+>abstract="Du har inte behörighet att redigera den här profilen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Den här kampanjen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Leveransen är skrivskyddad"
+>abstract="Du har inte behörighet att redigera den här leveransen. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Arbetsflödet är skrivskyddat"
+>abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
+
+Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även i Utforskarens navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
+
+Alla behörigheter på Campaign Web synkroniseras med behörigheter på Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter.
+
+När du surfar i användargränssnittet i Campaign kan du komma åt data, objekt och funktioner beroende på dina behörigheter. Om du till exempel inte har åtkomstbehörighet till en mapp kan du inte se den. Dina behörigheter påverkar även objekt och datahantering. Utan skrivbehörighet för en viss mapp kan du inte skapa en leverans i den mappen, även om du kan se den i användargränssnittet.
+
+Du kan lära dig att [visa och hantera behörigheter här](permissions.md).
 
 ## Adobe Experience Cloud toppnavigering {#top-bar}
 

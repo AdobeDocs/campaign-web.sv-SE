@@ -4,7 +4,7 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en �
 Det finns två typer av fragment:
 
 * **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren.
-* **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. [Läs mer](../email/fragments.md)
+* **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. [Läs mer](../content/fragments.md)
 
   >[!AVAILABILITY]
   >

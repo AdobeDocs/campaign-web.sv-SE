@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1938'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,42 @@ ht-degree: 5%
 >abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen för Campaign uppdateras därför flera gånger i månaden, med de senaste funktionerna, förbättringarna och korrigeringarna. Vi rekommenderar att du regelbundet kontrollerar dem."
 
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
+
+## Versionsinformation juli {#24-7-release}
+
+**Releasedatum**: 30-31 juli 2024
+
+Följande funktioner och förbättringar är tillgängliga från och med juliversionen.
+
+### Innehållsfragment {#24-7-1}
+
+Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
+
+Det finns två typer av fragment:
+
+* **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren.
+* **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. [Läs mer](../content/fragments.md)
+
+  >[!AVAILABILITY]
+  >
+  >**Visuella fragment** har begränsad tillgänglighet (LA). Den här funktionen är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+### Utsändningslistor {#24-7-2}
+
+En lista, alias. **Svällningsgrupp** är en lista med dirigerade adresser. Det används för att inkludera specifika adresser i leveranser och sedan målprofiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som inte är leveranskänsliga ta emot leveransen på samma sätt som andra målmottagare. Du kan använda dirigerade adresser när du skickar korrektur eller för att skydda din e-postlista.
+
+### Multipla mallar för push-meddelanden {#24-7-3}
+
+Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är en förbättrad form av mobilmeddelanden som går längre än enkla textmeddelanden genom att infoga multimediaelement som bilder, interaktiva knappar eller annat multimediematerial. I den här versionen finns det nu en uppsättning mallar för push-meddelanden för dina iOS- och Android-appar.
+
+>[!AVAILABILITY]
+>
+>Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+
+### Förbättringar {#improvements-24-7}
+
+**Mapphantering** - Nu kan du hantera behörigheter och begränsningar för mappar.
+
 
 ## Versionsinformation för juni {#24-6-release}
 

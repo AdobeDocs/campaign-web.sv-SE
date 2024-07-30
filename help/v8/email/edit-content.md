@@ -3,7 +3,7 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Definiera e-postadressen **[!UICONTROL Subject line]**. Skriv in ämnet direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till [personalisering](../personalization/personalize.md) med olika attribut och innehållsblock, eller erbjudanden.
+1. Definiera e-postadressen **[!UICONTROL Subject line]**. Skriv ditt ämne direkt i det dedikerade fältet eller öppna uttrycksredigeraren för att lägga till [personalisering](../personalization/personalize.md) med olika attribut och uttrycksfragment, eller erbjudanden.
 
 1. Om du vill bifoga en fil till e-postmeddelandet klickar du på knappen **[!UICONTROL Add attachment]** och markerar sedan en eller flera filer.
 

@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 14%
    + [Upptäck gränssnittet](get-started/user-interface.md)
    + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
-   + [Åtkomst och behörigheter](get-started/permissions.md)
+   + [Arbeta med mappar](get-started/work-with-folders.md)
+   + [Behörigheter](get-started/permissions.md)
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 14%
    + [Använd leveransmallar](msg/delivery-template.md)
    + E-postmeddelanden {#email}
       + [Skapa din första e-postadress](email/create-email.md)
-      + Definiera e-postinnehåll {#content}
-         + [Konfigurera e-postinnehållet](email/edit-content.md)
-         + Hantera återanvändbart innehåll {#manage-reusable-content}
-            + [Arbeta med innehållsmallar](email/create-email-templates.md)
-            + [Arbeta med visuella fragment](email/fragments.md)
-            + [Lägg till visuella fragment i e-postmeddelanden](email/use-visual-fragments.md)
-         + Börja forma din e-post {#start-design}
-            + [Komma igång med e-postdesignern](email/get-started-email-designer.md)
-            + [Börja från början](email/create-email-content.md)
-            + [Importera e-postinnehåll](email/existing-content.md)
-            + [Koda eget innehåll](email/code-content.md)
-            + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
-         + Designa ditt innehåll {#design-content}
-            + [Använda innehållskomponenter](email/content-components.md)
-            + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
-            + [Lägg till en länk till spegelsidan](email/mirror-page.md)
-            + [Lägga till en förrubrik](email/preheader.md)
-            + [Generera textversionen](email/text-version-email.md)
-         + Formatera ditt innehåll {#style}
-            + [Kom igång med e-postformat](email/get-started-email-style.md)
-            + [Redigera bakgrundsinställningar](email/backgrounds.md)
-            + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
-            + [Definiera ett format för länkar](email/styling-links.md)
-            + [Lägg till textbundna formatattribut](email/inline-styling.md)
+      + [Konfigurera e-postinnehållet](email/edit-content.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
          + [Skicka med flera vågor](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 14%
       + [E-postgenerering med AI-assistenten](email/generative-content.md)
       + [SMS-generering med AI-assistenten](email/generative-sms.md)
       + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
-   + Gör ditt innehåll dynamiskt {#dynamic-content}
-      + [Kom igång med dynamiskt innehåll](personalization/gs-personalization.md)
-      + [Lägg till personalisering](personalization/personalize.md)
-      + [Skapa villkorsstyrt innehåll](personalization/conditions.md)
-      + [Lägg till inbyggda innehållsblock](personalization/content-blocks.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + [Konfigurera leveransinställningar](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 14%
       + [Kom igång med leveransmeddelanden](msg/delivery-alerting.md)
       + [Kontrollpaneler för leveransvarningar](msg/delivery-alerting-dashboards.md)
       + [Villkor för leveransvarning](msg/delivery-alerting-criteria.md)
++ Innehållshantering {#content}
+   + Skapa dynamiskt innehåll {#dynamic-content}
+      + [Hur gör jag ert innehåll dynamiskt?](personalization/gs-personalization.md)
+      + [Lägg till personalisering](personalization/personalize.md)
+      + [Skapa villkorsstyrt innehåll](personalization/conditions.md)
+   + Återanvänd innehåll {#manage-reusable-content}
+      + [Arbeta med innehållsmallar](email/create-email-templates.md)
+      + Innehållsfragment {#fragments}
+         + [Kom igång med innehållsfragment](content/fragments.md)
+         + [Skapa och redigera innehållsfragment](content/create-fragment.md)
+         + [Använd visuella fragment i e-postmeddelanden](content/use-visual-fragments.md)
+         + [Använda uttrycksfragment i uttrycksredigeraren](content/use-expression-fragments.md)
+   + Skapa e-postmeddelanden {#email-design}
+      + [Komma igång med e-postdesignern](email/get-started-email-designer.md)
+      + Börja forma din e-post {#start-design}
+         + [Börja från början](email/create-email-content.md)
+         + [Importera e-postinnehåll](email/existing-content.md)
+         + [Koda eget innehåll](email/code-content.md)
+         + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
+      + Designa ditt innehåll {#design-content}
+         + [Använda innehållskomponenter](email/content-components.md)
+         + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
+         + [Lägg till en länk till spegelsidan](email/mirror-page.md)
+         + [Lägga till en förrubrik](email/preheader.md)
+         + [Generera textversionen](email/text-version-email.md)
+      + Formatera ditt innehåll {#style}
+         + [Kom igång med e-postformat](email/get-started-email-style.md)
+         + [Redigera bakgrundsinställningar](email/backgrounds.md)
+         + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
+         + [Definiera ett format för länkar](email/styling-links.md)
+         + [Lägg till textbundna formatattribut](email/inline-styling.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 14%
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)
-   + [Skapa och hantera en mapp](administration/create-manage-folder.md)
 + [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

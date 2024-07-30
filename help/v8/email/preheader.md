@@ -3,7 +3,7 @@ audience: end-user
 title: Lägg till en förrubrik i e-post-Designer
 description: Lär dig utforma e-postinnehåll
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Följ stegen nedan när du vill definiera e-postprerubriken.
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. I fönstret **[!UICONTROL Edit Personalization]** kan du lägga till [anpassningsfält](../personalization/personalize.md), [innehållsblock](../personalization/content-blocks.md) och [villkorligt innehåll](../personalization/conditions.md) med hjälp av dedikerade poster till vänster.
+1. I fönstret **[!UICONTROL Edit Personalization]** kan du lägga till [anpassningsfält](../personalization/personalize.md), [uttrycksfragment](../content/use-expression-fragments.md) och [villkorligt innehåll](../personalization/conditions.md) med hjälp av dedikerade poster till vänster.
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

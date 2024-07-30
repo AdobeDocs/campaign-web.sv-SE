@@ -3,9 +3,9 @@ audience: end-user
 title: Lägg till en länk till spegelsidan
 description: Lär dig hur du lägger till och hanterar länken till spegelsidan
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Så här lägger du till en länk till en spegelsida i ditt e-postmeddelande:
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Välj **[!UICONTROL Mirror page URL]** på menyn **[!UICONTROL Content block]** och klicka på **[!UICONTROL Add]**.
+1. Välj **[!UICONTROL Mirror page URL]** på menyn **[!UICONTROL Fragments]** och klicka på **[!UICONTROL Add]**. [Lär dig använda uttrycksfragment](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-   Mer information om infogning av anpassade innehållsblock finns i [det här avsnittet](../personalization/personalize.md#personalize-emails).
 
 Spegelsidan skapas automatiskt.
 

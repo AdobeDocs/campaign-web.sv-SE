@@ -3,7 +3,7 @@ audience: end-user
 title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-innehåll"
->abstract="Skapa innehållet i era SMS-leveranser och anpassa det med personaliseringsfält, innehållsblock och dynamiskt innehåll. Klicka på knappen **Redigera innehåll** om du vill börja skriva meddelandet."
+>abstract="Skapa innehållet i era SMS-leveranser och anpassa det med personaliseringsfält, uttrycksfragment och dynamiskt innehåll. Klicka på knappen **Redigera innehåll** om du vill börja skriva meddelandet."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ Så här utformar du innehållet i en SMS-leverans:
 
 1. På sidan **[!UICONTROL Edit content]** kan du anpassa avsändarens namn genom att gå till **[!UICONTROL Sender field]** och ange önskat namn.
 
-   Genom att klicka på **[!UICONTROL Open personalization dialog]** kan du dessutom inkludera anpassningsfält, innehållsblock och dynamiskt innehåll i meddelandet.
+   Genom att klicka på **[!UICONTROL Open personalization dialog]** kan du dessutom inkludera anpassningsfält, uttrycksfragment och dynamiskt innehåll i meddelandet.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 
