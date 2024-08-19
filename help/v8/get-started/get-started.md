@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
+source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -61,8 +61,10 @@ Vissa objekt kan bara skapas och hanteras i klientkonsolen. De kan visas och anv
 
 Mer information om hur du använder Campaign v8 med klientkonsolen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=sv){target="_blank"}.
 
-## Instruktionsvideo {#video}
+<!--
+## How-to video {#video}
 
-Lär dig hur du får åtkomst till och navigerar i användargränssnittet för Campaign-webben och hur du anpassar lagerlistorna. Upptäck AI-teknikassistenten.
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->
