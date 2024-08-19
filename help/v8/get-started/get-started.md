@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
+source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '592'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Använd Campaign för att
 * **Integrera** e-post-, mobil-, online- och offlinekanaler i kundresan
 * **Automatisera** leveransen av meningsfulla och aktuella meddelanden och erbjudanden
 
-## Upptäck gränssnittet för webbanvändning i Campaign {#web}
+## Upptäck gränssnittet Campaign Web {#web}
 
 Campaign är ursprungligen endast tillgängligt via en [klientkonsol](#ac-client) och har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Lär dig hur du ansluter till Adobe Campaign Web på [den här sidan](connect-to
 
 ## Om Campaign-klientkonsolen {#ac-client}
 
-Klientkonsolen för Campaign är ett webbläsarbaserat program som är installerat på datorn. Det använder API:t för webbtjänster för att ansluta till Campaign-programservern.
+Klientkonsolen är utformad för att administratörer och avancerade användare ska kunna utföra sina uppgifter. Klientkonsolen för Campaign är ett webbläsarbaserat program som är installerat på datorn. Det använder API:t för webbtjänster för att ansluta till Campaign-programservern.
 
 Kampanjdata lagras på programservern. Data är tillgängliga både från klientkonsolen och från Campaign-webbgränssnittet. Om du till exempel skapar en leveransmall med hjälp av klientkonsolen är den också tillgänglig i webbgränssnittet för Campaign. Och om du skapar en e-postleverans i användargränssnittet för Campaign-webben är den här leveransen också tillgänglig från klientkonsolen.
 
