@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2282'
 ht-degree: 3%
 
 ---
@@ -286,3 +286,9 @@ Du kan också anpassa etiketten för korrektur:
 
 * Använd **[!UICONTROL Keep the delivery code for the proof]** för att associera till beviset med samma leveranskod som den som är definierad för leveransen som det hör till.
 * Som standard anges korrekturens ämne med &quot;PROOF #&quot;, där # är korrekturets nummer. Du kan ändra prefixet i fältet **[!UICONTROL Label prefix]**.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variabel"
+>abstract="Variabel"
