@@ -3,9 +3,9 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 >id="acw_deliveries_email_audience_select"
 >title="Välj en befintlig målgrupp"
 >abstract="Bläddra i listan för att välja en befintlig målgrupp. Använd ikonen Visa filter om du vill filtrera listan eller markera en viss mapp."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Förfina mål"
+>abstract="Dessa regler kan bara ändras i skrivbordskonsolen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Ytterligare mål"
+>abstract="Dessa regler kan bara ändras i skrivbordskonsolen."
 
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en leverans. När du definierar huvudmålet för en leverans kan du också:
 * [Skapa en engångspublik](one-time-audience.md) med frågemodelleraren.
