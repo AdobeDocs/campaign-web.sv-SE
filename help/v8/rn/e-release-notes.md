@@ -4,10 +4,10 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 6%
 
 ---
 
@@ -17,37 +17,31 @@ Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner
 
 **Noteringar om tidig version nedan kan ändras utan föregående meddelande till releasedatum**. Länkar, skärmar och uppdaterad dokumentation publiceras i [versionsinformationen](release-notes.md) på releasedatum.
 
-## Versionsinformation juli {#24-7-release}
+## Versionsinformation, augusti {#24-8-release}
 
-**Releasedatum**: 30-31 juli 2024
+**Releasedatum**: 3 september 2024
 
-Följande funktioner och förbättringar är tillgängliga från och med juliversionen.
+Följande funktioner och förbättringar är tillgängliga från och med augusti.
 
-### Innehållsfragment {#24-7-1}
+* **Extern leverans** - Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget genereras meddelanden i en indatafil som kan delas med din externa leverantör. Läget Extern leverans är standardläge för direktpostkanalen.
 
-Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
+* **Visuella fragment** - Nu kan du arkivera visuella innehållsfragment.
 
-Det finns två typer av fragment:
+* **Distribution av värden** - Vid åtkomst till listan med fält för anpassning kan du nu kontrollera hur värden distribueras för varje fält. Ett dedikerat popup-fönster visar antalet och procentandelen för varje värde.
 
-* **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren.
-* **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. [Läs mer](../content/fragments.md)
-
-  >[!AVAILABILITY]
-  >
-  >**Visuella fragment** har begränsad tillgänglighet (LA). Den här funktionen är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
-
-### Utsändningslistor {#24-7-2}
-
-En lista, alias. **Svällningsgrupp** är en lista med dirigerade adresser. Det används för att inkludera specifika adresser i leveranser och sedan målprofiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som inte är leveranskänsliga ta emot leveransen på samma sätt som andra målmottagare. Du kan använda dirigerade adresser när du skickar korrektur eller för att skydda din e-postlista.
-
-### Multipla mallar för push-meddelanden {#24-7-3}
-
-Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är en förbättrad form av mobilmeddelanden som går längre än enkla textmeddelanden genom att infoga multimediaelement som bilder, interaktiva knappar eller annat multimediematerial. I den här versionen finns det nu en uppsättning mallar för push-meddelanden för dina iOS- och Android-appar.
+### Nya funktioner i begränsad tillgänglighet {#acs-24-8}
 
 >[!AVAILABILITY]
 >
->Den här funktionen kräver en uppdatering av Campaign v8.6.3 eller v8.7.2. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
+>Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+>
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standarder](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-### Förbättringar {#improvements-24-7}
+* **Varumärkning för direktreklam** - Tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Nu kan du skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar.
 
-**Mapphantering** - Nu kan du hantera behörigheter och begränsningar för mappar.
+* **Landningssidor reCaptcha** - Nu kan du använda Google reCAPTCHA-mekanismen för att skydda din landningssida från skräppost och missbruk som orsakas av stötar. Detta är inte påträngande för era kunder eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med er webbplats.
+
+* **Prenumerationer med landningssidor** - Nu kan du länka en landningssida till en tjänst så att profiler kan prenumerera på en viss tjänst när de validerar den.
+
+
+
