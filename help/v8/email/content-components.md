@@ -3,9 +3,9 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -147,6 +147,11 @@ Använd komponenten **[!UICONTROL HTML]** för att kopiera och klistra in de oli
 >Om du bara vill göra ett externt innehåll kompatibelt med e-post-Designer rekommenderar Adobe att [skapar ett meddelande från grunden](create-email-content.md) och kopierar innehållet från ditt befintliga e-postmeddelande till komponenter.
 
 ## Bild {#image}
+
+>[!IMPORTANT]
+>
+>Åtkomsten till Assets-menyn är begränsad till användare som har en aktiv licens för Adobe Experience Essentials. Om du inte har den här licensen är Assets-menyn inte tillgänglig.
+
 
 Använd komponenten **[!UICONTROL Image]** för att infoga en bildfil från datorn i e-postmeddelandet.
 
