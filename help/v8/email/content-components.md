@@ -3,9 +3,9 @@ audience: end-user
 title: Använda e-postdesigners innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter i e-postmeddelanden
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -150,8 +150,7 @@ Använd komponenten **[!UICONTROL HTML]** för att kopiera och klistra in de oli
 
 >[!IMPORTANT]
 >
->Åtkomsten till Assets-menyn är begränsad till användare som har en aktiv licens för Adobe Experience Essentials. Om du inte har den här licensen är Assets-menyn inte tillgänglig.
-
+>Åtkomsten till Assets-menyn är begränsad till användare som har en aktiv Adobe Experience Manager as a Cloud Service-licens. Om du inte har den här licensen är Assets-menyn inte tillgänglig.
 
 Använd komponenten **[!UICONTROL Image]** för att infoga en bildfil från datorn i e-postmeddelandet.
 
