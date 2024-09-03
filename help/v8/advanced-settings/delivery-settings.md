@@ -4,10 +4,10 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 3%
+source-wordcount: '2626'
+ht-degree: 4%
 
 ---
 
@@ -288,7 +288,68 @@ Du kan också anpassa etiketten för korrektur:
 * Som standard anges korrekturens ämne med &quot;PROOF #&quot;, där # är korrekturets nummer. Du kan ändra prefixet i fältet **[!UICONTROL Label prefix]**.
 
 
+
+
+## SMTP-inställningar för e-postleverans {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP-parametrar"
+>abstract="Du kan lägga till ytterligare SMTP-parametrar i e-postleveransen."
+
+Du kan lägga till ytterligare SMTP-parametrar i e-postleveransen. Du kan göra det på fliken SMTP i leveransinställningarna.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Teckenkodning {#character-encoding}
+
+I avsnittet **[!UICONTROL Character encoding]** kan du ange en specifik kodning. Standardkodningen är UTF-8, som fungerar för de flesta tecken. Vissa e-postleverantörer kanske inte visar specialtecken korrekt om de inte har stöd för UTF-8-standardkodning.
+
+Om du till exempel vill skicka ett e-postmeddelande med japanska tecken är det bättre att använda en kodning som specifikt stöder dessa tecken, så att din publik i Japan kan se allt korrekt.
+
+Om du vill göra det aktiverar du växlingsknappen **[!UICONTROL Force the encoding used for messages]** och väljer rätt kodning i listan som stöder dina specialtecken.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### Studsa e-postmeddelanden {#bounce-emails}
+
+På fliken **[!UICONTROL SMTP]** i leveransinställningarna kan du även konfigurera hanteringen av studsmeddelanden.
+
+* **[!UICONTROL Errors-to-address]**: Om du aktiverar växeln **[!UICONTROL Use the default error address defined for the platform]** tas studsade e-postmeddelanden emot i standardfelrutan för plattformen. Om du inte aktiverar den kan du definiera en specifik feladress för leveransen.
+
+* **[!UICONTROL Bounce address]**: Du kan också definiera en annan adress dit obearbetade studsade e-postmeddelanden vidarebefordras. Med den här adressen kan du undersöka orsaken till att studsa när e-postmeddelanden inte automatiskt kunde kvalificeras av programmet.
+
+Dessa två fält kan anpassas enligt beskrivningen i [det här avsnittet](../personalization/gs-personalization.md).
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### Ytterligare SMTP-rubriker {#smtp-headers}
+
+Du kan lägga till **[!UICONTROL SMTP headers]** i din e-postleverans på fliken SMTP i leveransinställningarna.
+
+Skriptet som anges i det här fönstret måste referera till en rubrik per rad i följande format: name:value.
+
+Värden kodas automatiskt om det behövs.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>Tillägg av ett skript för att infoga ytterligare SMTP-rubriker är reserverat för avancerade användare. Syntaxen för det här skriptet måste uppfylla kraven för den här innehållstypen: Inget oanvänt utrymme, ingen tom rad, o.s.v.
+
+## Lägga till variabler {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variabel"
 >abstract="Variabel"
+
+Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning. För att göra detta
+navigera till fliken **[!UICONTROL Variables]** så som visas nedan.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Klicka på knappen **[!UICONTROL Add Variables]** för att ange information om variabeln och klicka sedan på **[!UICONTROL Confirm]** för att spara ändringarna.
+
+![](assets/variables-add.png){zoomable="yes"}
