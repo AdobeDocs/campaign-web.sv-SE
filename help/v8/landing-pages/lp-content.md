@@ -3,9 +3,9 @@ title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
+source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1154'
 ht-degree: 1%
 
 ---
@@ -135,6 +135,20 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
    Om du definierar en länk av typen **[!UICONTROL Landing page]** till den här landningssidan när du utformar ett e-postmeddelande kan du välja vilken tjänst som helst i listan. Du kan sedan välja andra tjänster när du definierar andra länkar till den här landningssidan. [Läs mer om att infoga länkar](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+1. Du kan skicka ett meddelande när landningssidan skickas. [Läs mer här](#lp-message)
+
+### Skicka ett meddelande efter överföring {#lp-message}
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+Så här skickar du ett bekräftelsemeddelande automatiskt när en landningssida har skickats:
+1. Markera alternativet **[!UICONTROL Send confirmation email]** i avsnittet **[!UICONTROL CALL TO ACTION]**.
+1. Välj den transaktionsmeddelandemall som ska skickas ut i den associerade nedrullningsbara listan.
+
+![](assets/lp-confirmation.png){zoomable="yes"}
 
 ## Definiera format för landningssidor {#lp-form-styles}
 

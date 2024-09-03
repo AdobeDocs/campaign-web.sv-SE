@@ -3,9 +3,9 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1520'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,8 @@ Så här skapar du en landningssida:
 
    Som standard lagras landningssidor i mappen **[!UICONTROL Web applications]**. Du kan ändra den genom att bläddra till önskad plats i **[!UICONTROL Additional options]**. [Lär dig arbeta med mappar](../get-started/permissions.md#folders)
 
+   Du kan också konfigurera captcha för att skydda din landningssida. [Läs mer här](#captcha).
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. I avsnittet **[!UICONTROL Data preload]** är de två alternativen nedan tillgängliga:
@@ -155,6 +157,28 @@ Så här skapar du en landningssida:
 1. Klicka på **[!UICONTROL Review and publish]**.
 
 När du har definierat alla inställningar och [utformat](lp-content.md) alla sidor kan du [testa](#test-landing-page) och [publicera](#publish-landing-page) din landningssida enligt anvisningarna nedan.
+
+## Skydda din landningssida med en captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som använder **Adobe Campaign v8.7.2 som har uppgraderats med den senaste korrigeringsversionen** och kan inte distribueras i någon annan miljö.
+
+Genom att konfigurera en captcha kan du skydda din landningssida mot skräppost och missbruk.
+
+Om du vill använda den går du till **[!UICONTROL Properties]** på landningssidan.
+I **[!UICONTROL Additional options]** också. Aktivera växeln **[!UICONTROL Additional Enable captcha solution]**.
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+Om du vill kontrollera bildspelsinställningarna klickar du på knappen **[!UICONTROL Review and publish]** och **[!UICONTROL Simulate content]**. När du skickar formuläret ser du att widgeten Capture fungerar under valideringen enligt nedan.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Captcha-widgeten i Adobe Campaign v8 är ALTCHA i flytande läge. Det visas under valideringen och försvinner när processen är klar.
+
 
 ## Testa landningssidan {#test-landing-page}
 

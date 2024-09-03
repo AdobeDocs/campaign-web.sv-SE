@@ -4,7 +4,7 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
+source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 8%
@@ -42,4 +42,6 @@ Följande funktioner och förbättringar är tillgängliga från och med augusti
 
 * **Landningssidor captcha** - Nu kan du lägga till captcha för att skydda din landningssida från skräppost och missbruk som orsakas av stötar. Detta är inte påträngande för era kunder eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med er webbplats.
 
-* **Resterande API:er** - Som en Campaign Standard-migrerad användare kan du nu använda resterande API:er för att arbeta med transaktionsmeddelanden. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **Resterande API:er** - Som Campaign Standard-migrerad användare kan du nu använda resterande API:er för att arbeta med transaktionsmeddelanden. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+
+

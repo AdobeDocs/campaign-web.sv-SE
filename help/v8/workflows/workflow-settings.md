@@ -3,7 +3,7 @@ audience: end-user
 title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%
@@ -100,7 +100,7 @@ När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det
 
    * **[!UICONTROL Suspend the process]**: Arbetsflödet pausas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst kan du återuppta arbetsflödet med **[!UICONTROL Resume]**-knapparna.
    * **[!UICONTROL Ignore]**: Statusen för den uppgift som utlöste felet ändras till **[!UICONTROL Failed]**, men arbetsflödet behåller statusen **[!UICONTROL Started]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Abord the process]**: Arbetsflödet stoppas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst startar du om arbetsflödet med **[!UICONTROL Start]**-knapparna.
+   * **[!UICONTROL Abort the process]**: Arbetsflödet stoppas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst startar du om arbetsflödet med **[!UICONTROL Start]**-knapparna.
 
 * **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när värdet **[!UICONTROL Ignore]** har valts i fältet **[!UICONTROL In case of errors]**. Du kan ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas aldrig arbetsflödet oavsett antalet fel.
 

@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
@@ -51,23 +51,23 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Julversionen är live!]
+>[!TAB Augustiversionen är aktiv!]
 
 Upptäck nya funktioner och förbättringar i Adobe Campaign webbanvändargränssnitt som lanserades 24 juli.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Leveransvarning]
+>[!TAB Distribution av värden]
 
-Delivery Alerting är ett varningshanteringssystem som gör det möjligt för användargrupper att automatiskt få e-postmeddelanden med information om leveransen.
+När du öppnar listan med fält för personalisering kan du nu kontrollera hur värden distribueras för varje fält.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Planer och program]
+>[!TAB Captcha på landningssidor]
 
-Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner och program.
+Nu kan du lägga till captcha för att skydda din landningssida mot skräppost och missbruk som orsakas av stötar. Den här funktionen är begränsad.
 
-[![Bild](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

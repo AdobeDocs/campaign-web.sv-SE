@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa innehållsfragment
 description: Lär dig skapa innehållsfragment
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,23 @@ Så här tar du bort ett innehållsfragment:
 >
 >När du tar bort ett fragment uppdateras leveranser och mallar som använder det: fragmentet tas bort från innehållet, men refereras ändå. Om du vill behålla fragmentinnehållet i de leveranserna och mallarna måste du bryta arvet innan du tar bort fragmentet, [enligt informationen i det här avsnittet](use-visual-fragments.md#break-inheritance).
 
+### Arkivera ett innehållsfragment {#archive}
+
+Du kan rensa fragmentlistan från de fragment som inte längre är relevanta för ert varumärke. Om du vill göra det klickar du på knappen **[!UICONTROL More actions]** bredvid det önskade fragmentet och väljer **[!UICONTROL Archive]**. Fragmentet tas bort från fragmentlistan, vilket förhindrar användare att använda det i framtida e-postmeddelanden eller mallar.
+
+Använd filtreringsrutan för att visa arkiverade fragment. Om du vill avarkivera ett fragment klickar du på knappen **[!UICONTROL More actions]** och väljer **[!UICONTROL Unarchive]**.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Om du arkiverar ett fragment som används i ett innehåll påverkas inte det innehållet.
+
 ### Duplicera ett innehållsfragment {#duplicate-fragments}
 
 Du kan enkelt duplicera ett innehållsfragment och skapa ett nytt. Så här duplicerar du ett befintligt fragment:
 
-1. Bläddra till fragmentlistan och klicka på knappen **[!UICONTROL More actions]** bredvid fragmentet som ska tas bort.
+1. Bläddra till fragmentlistan och klicka på knappen **[!UICONTROL More actions]** bredvid fragmentet som ska dupliceras.
 1. Klicka på **Duplicera** och bekräfta.
 1. Ange det nya fragmentets etikett och spara ändringarna.
 

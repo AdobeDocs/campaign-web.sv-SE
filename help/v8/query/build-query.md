@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,22 @@ Du kan lägga till två typer av element:
   Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**som bor i New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## Distribution av värden i en fråga {#distribution-values-query}
+
+Värdefördelningen gör det lättare att känna till procentandelen av ett värde i ett fält i en tabell. Att veta hur värden är fördelade i en fråga kan hjälpa dig att förfina segmenteringen.
+
+Du öppnar funktionen genom att klicka på attributmarkeringsknappen i frågan enligt nedan. Klicka sedan på ikonen **[!UICONTROL Information]** bredvid det markerade attributet. Där kan du komma åt knappen **[!UICONTROL Distribution of values]**.
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> För fält med många värden visas endast de första tjugo värdena. Ett meddelande från **[!UICONTROL Partial load]** varnar dig.
+
+>[!NOTE]
+>
+> Funktionen **[!UICONTROL Distribution of values]** är tillgänglig i alla attributväljare.
 
 ## Lägga till filterkomponenter {#filtering}
 

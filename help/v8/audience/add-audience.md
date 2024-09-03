@@ -3,9 +3,9 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_audience_select"
 >title="Välj en befintlig målgrupp"
 >abstract="Bläddra i listan för att välja en befintlig målgrupp. Använd ikonen Visa filter om du vill filtrera listan eller markera en viss mapp."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Förfina mål"
->abstract="Dessa regler kan bara ändras i skrivbordskonsolen."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Ytterligare mål"
->abstract="Dessa regler kan bara ändras i skrivbordskonsolen."
 
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en leverans. När du definierar huvudmålet för en leverans kan du också:
 * [Skapa en engångspublik](one-time-audience.md) med frågemodelleraren.
@@ -58,4 +48,4 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   Ni kan också ställa in en kontrollgrupp för att mäta effekten av era kampanjer. Kontrollgruppen tar inte emot meddelandet. På så sätt kan du jämföra beteendet hos den population som fick meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](control-group.md)
+1. Ni kan också ställa in en kontrollgrupp för att mäta effekten av era kampanjer. Kontrollgruppen tar inte emot meddelandet. På så sätt kan du jämföra beteendet hos den population som fick meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](control-group.md)

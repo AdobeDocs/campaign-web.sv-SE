@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -77,3 +77,33 @@ Om du vill ta bort en mapp markerar du den i ditt **[!UICONTROL Explorer]**-trä
 Välj **[!UICONTROL Delete folder]**.
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Distribution av värden i en mapp {#distribution-values-folder}
+
+Värdefördelningen gör det lättare att känna till procentandelen av ett värde i en kolumn i en tabell.
+
+Om du vill veta hur värden distribueras i en mapp gör du så här:
+
+Bland leveranserna vill vi till exempel veta hur värdena i kolumnen **Kanal** är fördelade.
+
+Om du vill hämta den här informationen går du till mappen **[!UICONTROL Deliveries]** och klickar på ikonen **[!UICONTROL Configure columns]** .
+
+I fönstret **[!UICONTROL Configure columns]** klickar du på ikonen **[!UICONTROL Information]** för den kolumn du vill veta. Klicka sedan på knappen **[!UICONTROL Distribution of values]**.
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+Du får procentandelen av värdena i kolumnen **[!UICONTROL Channel]**.
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> För kolumner med många värden visas bara de första tjugo värdena. Ett meddelande från **[!UICONTROL Partial load]** varnar dig.
+
+Du kan också distribuera värden för en länk.
+
+Klicka på knappen **+** bredvid den önskade länken i attributlistan, enligt nedan. Detta lägger till länken till **[!UICONTROL Output columns]**. Nu kan du ha ikonen **[!UICONTROL Information]**, som gör att du kan visa fördelningen av dess värden. Om du inte vill behålla länken i **[!UICONTROL Output columns]** måste du klicka på knappen **[!UICONTROL Cancel]**.
+
+![](assets/values_link.png){zoomable="yes"}
+
+Det går också att distribuera värden i en frågemodellerare. [Läs mer här](../query/build-query.md#distribution-of-values-in-a-query).
