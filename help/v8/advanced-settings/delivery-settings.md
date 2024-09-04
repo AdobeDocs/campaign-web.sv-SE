@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
+source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: '2691'
 ht-degree: 4%
 
 ---
@@ -345,6 +345,7 @@ Värden kodas automatiskt om det behövs.
 >title="Variabel"
 >abstract="Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning och personalisering. Variablerna är tillgängliga både från ditt leveransinnehåll och dina arbetsflöden."
 
+Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning och personalisering. Variablerna är tillgängliga både från ditt leveransinnehåll och dina arbetsflöden. Lagrade variabler används för att ange värden som förblir konstanta i alla meddelanden i leveransen. De kan också konfigureras i leveransmallar.
 
 Bläddra till fliken **[!UICONTROL Variables]** så som visas nedan om du vill lägga till en variabel.
 
