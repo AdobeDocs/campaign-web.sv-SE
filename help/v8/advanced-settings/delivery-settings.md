@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78356629dc64702d81645b684350304f65b88597
+source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2665'
 ht-degree: 4%
 
 ---
@@ -343,9 +343,11 @@ Värden kodas automatiskt om det behövs.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variabel"
->abstract="Variabel"
+>abstract="Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning och personalisering. Variablerna är tillgängliga från ert leveransinnehåll och era arbetsflöden."
 
-Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning. Navigera till fliken **[!UICONTROL Variables]** så som visas nedan.
+Du kan lägga till variabler i leveransen, vilket kan vara användbart för spårning och personalisering. Variablerna är tillgängliga från ert leveransinnehåll och era arbetsflöden.
+
+Bläddra till fliken **[!UICONTROL Variables]** så som visas nedan om du vill lägga till en variabel.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
