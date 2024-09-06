@@ -3,9 +3,9 @@ audience: end-user
 title: Använda JavaScript kodarbetsflödesaktivitet
 description: Lär dig använda JavaScript kodarbetsflödesaktivitet
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript Transition"
->abstract="Om du vill lägga till flera utdataövergångar klickar du på knappen **[!UICONTROL Add transitions]**. Detta gör att du till exempel kan utlösa en viss övergång baserat på ett specifikt villkor som definieras i JavaScript-kodsaktiviteten. Det här alternativet är endast tillgängligt för **Avancerade** JavaScript-kodaktiviteter."
+>abstract="Växla på alternativet **[!UICONTROL Process errors]** om du vill behålla fel som inträffar under skriptkörningen i en ytterligare utdataövergång."
 
 Aktiviteten **JavaScript-kod** är en **datahanteringsaktivitet**. Använd den här aktiviteten för att köra ett JavaScript-skript i ett arbetsflödes sammanhang. På så sätt kan du samla in information från databasen eller utföra andra komplexa åtgärder.
 
