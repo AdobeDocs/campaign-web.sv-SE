@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Testa arbetsflöde
 description: Lär dig hur du använder aktiviteten Testa arbetsflöde
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Testaktivitet"
->abstract="Med aktiviteten **Test** kan du aktivera övergångar baserat på angivna villkor. Som standard innebär aktiviteten ett enkelt booleskt test. Om villkoret som definieras i övergången &quot;Sant&quot; är uppfyllt aktiveras den här transaktionen. Annars aktiveras standardövergången &quot;Falskt&quot;. Du kan konfigurera villkoren så att de passar dina behov."
+>abstract="Aktiviteten **Test** är en **Flödeskontroll**-aktivitet. Det gör att du kan aktivera övergångar baserat på angivna villkor."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Villkor"
->abstract="Klicka på knappen **[!UICONTROL Add condition]** om du vill lägga till flera utdataövergångar för aktiviteten. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor är aktiverat stoppas arbetsflödena nu."
+>abstract="Aktiviteten **Test** kan ha flera utdataövergångar. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor är aktiverat stoppas arbetsflödena nu."
 
 Aktiviteten **Test** är en **Flödeskontroll**-aktivitet. Det gör att du kan aktivera övergångar baserat på angivna villkor.
 

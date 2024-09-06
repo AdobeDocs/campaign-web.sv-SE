@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Prenumerationstjänster
 description: Lär dig hur du använder arbetsflödesaktiviteten för prenumerationstjänster
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 16%
+source-wordcount: '1017'
+ht-degree: 15%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Ytterligare information"
->abstract="Ytterligare information"
+>abstract="Ange prenumerationens data och ursprung för varje post. Du kan lämna det här avsnittet tomt. I så fall kommer inget datum eller ursprung att anges när arbetsflödet körs. Om inkommande data innehåller en kolumn som anger prenumerationsdatumet för profilen för tjänsten kan du markera den i fältet **[!UICONTROL Date]**. Ange prenumerationens ursprung i fältet **[!UICONTROL Origin path]**. Du kan ställa in den på ett av fälten för inkommande data eller på ett valfritt konstant värde genom att markera alternativet **[!UICONTROL Set a constant as origin]**."
 
 Aktiviteten **Prenumerationstjänster** är en **datahanteringsaktivitet**. Du kan skapa eller ta bort en prenumeration på en informationstjänst för den population som anges i övergången.
 

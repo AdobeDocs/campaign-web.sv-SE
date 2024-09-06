@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten Överför fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Överför fil
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1131'
+ht-degree: 8%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 7%
 >id="acw_orchestration_transferfile_source"
 >title="Överför filkälla"
 >abstract="Ange önskat filnamn."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Ta bort källfilerna efter överföringen"
->abstract="Radera källfilerna efter en slutförd överföring."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Visa sessionsloggarna"
->abstract="Information om överföringsåtgärden visas i arbetsflödesloggarna."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Visa alla filer"
->abstract="Det här alternativet indexerar alla filer som finns på servern i händelsevariabeln **vars.filenames** ."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Filhistorik"
->abstract="Filhistorik"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Bearbeta saknade filer"
->abstract="Med det här alternativet kan du aktivera en utgående övergång av typen **Ingen fil** efter aktiviteten."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Processfel"
->abstract="Med det här alternativet kan du aktivera en utgående **Error**-övergång efter aktiviteten."
 
 Aktiviteten **Överför fil** är en **datahanteringsaktivitet**. Du kan ta emot eller skicka filer, testa om det finns filer eller lista med filer på en server. Det protokoll som används kan antingen vara server-till-server-protokoll eller HTTP-protokoll.
 
@@ -122,6 +92,11 @@ Följ stegen nedan för att konfigurera aktiviteten **Överför fil**.
 
 ## Historikinställningar {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Filhistorik"
+>abstract="Varje gång en **[!UICONTROL Transfer file]**-aktivitet körs så sparas de överförda eller hämtade filerna i en dedikerad mapp. En mapp skapas för varje överföringsfilaktivitet i ett arbetsflöde. Som standard sparas filer i standardlagringskatalogen för Adobe Campaign-installationsmappen (`/vars`) innan de bearbetas. Om du vill använda en viss mapp avaktiverar du alternativet **[!UICONTROL Use a default storage directory]** och anger sökvägen till katalogen."
+
 Varje gång en **[!UICONTROL Transfer file]**-aktivitet körs så sparas de överförda eller hämtade filerna i en dedikerad mapp. En mapp skapas för varje överföringsfilaktivitet i ett arbetsflöde. Som standard sparas filer i standardlagringskatalogen för Adobe Campaign-installationsmappen (`/vars`) innan de bearbetas. Om du vill använda en viss mapp avaktiverar du alternativet **[!UICONTROL Use a default storage directory]** och anger sökvägen till katalogen.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 >Om aktiviteten inte körs igen så kontrolleras eller rensas inte dess mapp. Var därför försiktig när du överför stora filer.
 
 ## Avancerade alternativ för felhantering {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Ta bort källfilerna efter överföringen"
+>abstract="Radera källfilerna efter en slutförd överföring."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Visa sessionsloggarna"
+>abstract="Information om överföringsåtgärden visas i arbetsflödesloggarna."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Visa alla filer"
+>abstract="Det här alternativet indexerar alla filer som finns på servern i händelsevariabeln **vars.filenames** ."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Bearbeta saknade filer"
+>abstract="Med det här alternativet kan du aktivera en utgående övergång av typen **Ingen fil** efter aktiviteten."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Processfel"
+>abstract="Med det här alternativet kan du aktivera en utgående **Error**-övergång efter aktiviteten."
 
 1. I **[!UICONTROL Advanced options]** finns ytterligare alternativ tillgängliga baserat på den typ av aktivitet som du konfigurerar. Expandera avsnitten nedan om du vill ha mer information.
 
