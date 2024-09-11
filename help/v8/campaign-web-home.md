@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -51,11 +51,10 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
->[!TAB Augustiversionen är aktiv!]
+>[!TAB AI Assistant i Adobe Campaign Web - Content Accelerator]
 
-Upptäck nya funktioner och förbättringar i Adobe Campaign webbanvändargränssnitt som lanserades 24 juli.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+Låt dig uppslukas av en praktisk upplevelse med vår förgranskning av aktiva funktioner, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.
+[![bild](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB Distribution av värden]
 

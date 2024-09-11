@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 14%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 14%
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
-   + AI-assistenten {#ai-assistant}
-      + [Kom igång med AI-assistenten](email/generative-gs.md)
-      + [E-postgenerering med AI-assistenten](email/generative-content.md)
-      + [SMS-generering med AI-assistenten](email/generative-sms.md)
-      + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + [Konfigurera leveransinställningar](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 14%
          + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
+   + AI-assistenten för innehållsacceleratorn {#ai-assistant}
+      + [Kom igång med AI-assistenten](email/generative-gs.md)
+      + [E-postgenerering med AI-assistenten](email/generative-content.md)
+      + [SMS-generering med AI-assistenten](email/generative-sms.md)
+      + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
