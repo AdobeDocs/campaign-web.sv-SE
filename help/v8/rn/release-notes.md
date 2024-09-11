@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant i Adobe Campaign Web - Content Accelerator</strong><br/></th>
+<th><strong>AI Assistant - Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
