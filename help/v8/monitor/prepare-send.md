@@ -3,7 +3,7 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -118,34 +118,34 @@ Oavsett om din leverans är schemalagd eller inte<!--TBC--> kan två åtgärder 
 >id="acw_deliveries_email_metrics_delivered"
 >title="Levererat"
 >abstract="Antal meddelanden som har levererats. Indikatorn uppdateras var femte minut. Procentandelen som visas baseras på det totala antalet skickade meddelanden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Öppnar"
 >abstract="Antalet öppnade meddelanden. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klickningar"
 >abstract="Antalet mottagare som klickade minst en gång i e-postmeddelandet. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Skickade mått"
 >abstract="Totalt antal meddelanden som bearbetats under leveransanalysen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Felmått"
 >abstract="Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
