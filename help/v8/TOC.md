@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 5e722eee9858f0d0f943167fb26b2df4729dec83
+source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 14%
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
    + AI-assistenten för innehållsacceleratorn {#ai-assistant}
-      + [Kom igång med AI Assistant - Content Accelerator](email/generative-gs.md)
+      + [Arbeta med AI Assistant - Content Accelerator](email/generative-gs.md)
       + [E-postgenerering med AI](email/generative-content.md)
       + [SMS-generering med AI](email/generative-sms.md)
       + [Generering av push-meddelanden med AI](email/generative-push.md)
