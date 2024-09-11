@@ -2,7 +2,8 @@
 audience: end-user
 title: Använda en svällningsgrupp
 description: Lär dig hur du använder en svällningsgrupp för leverans i gränssnittet för Campaign-webben
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 # Använda en svällningsgrupp {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Svällningsgrupp"
 >abstract="Du kan använda en svällningsgrupp för att inkludera specifika adresser i leveranser för att övervaka och verifiera distributionsprocessen genom att rikta profiler som inte matchar de definierade målvillkoren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"

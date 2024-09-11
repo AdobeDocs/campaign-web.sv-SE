@@ -4,21 +4,14 @@ title: Granskningskedja
 description: Lär dig övervaka instansen med granskningsspår för Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 2%
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
 # Granskningskedja{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Granskningskedja"
->abstract="Den nya funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din Adobe Campaign-instans i realtid."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
-
 
 I Adobe Campaign webbanvändargränssnitt ger funktionen **[!UICONTROL Audit trail]** användarna fullständig synlighet för alla ändringar som görs i viktiga entiteter i instansen, vanligtvis sådana som påverkar instansens smidiga funktion avsevärt.
 
