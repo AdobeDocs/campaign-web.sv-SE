@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med AI Assistant - Content Accelerator
 description: Kom igång med AI Assistant - Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '838'
 ht-degree: 1%
 
 ---
@@ -53,14 +53,18 @@ Med AI Assistant kan man skapa och köra marknadsföringskampanjer i olika kanal
 
 ## Åtkomst till AI Assistant - Content Accelerator {#generative-access}
 
+AI Assistant - Content Accelerator för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgängligt för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
+
 +++  Lär dig hur du tilldelar behörigheter för innehållsgenerering
 
-1. **Skapa produktprofil** - Skapa en produktprofil med det specifika mönstret i [Admin Console](https://stage.adminconsole.adobe.com/): `Campaign - <instance-name> - AIAssistant`
+1. **Skapa produktprofil** - Skapa en produktprofil med följande specifika mönster i [Admin Console](https://stage.adminconsole.adobe.com/):
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **Lägg till användare** - Lägg till nödvändig användare i produktprofilen,
 eller
-
    **Skapa användargrupp** och lägg till användargruppen i produktprofilen och lägg till användare i produktprofilen.
+
+Lär dig definiera behörigheter i Campaign i [det här avsnittet](../get-started/permissions.md).
 
 +++
 
