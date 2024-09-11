@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 5e722eee9858f0d0f943167fb26b2df4729dec83
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '750'
 ht-degree: 14%
 
 ---
@@ -110,9 +110,9 @@ ht-degree: 14%
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
    + AI-assistenten för innehållsacceleratorn {#ai-assistant}
       + [Kom igång med AI Assistant - Content Accelerator](email/generative-gs.md)
-      + [E-postgenerering med AI-assistenten](email/generative-content.md)
-      + [SMS-generering med AI-assistenten](email/generative-sms.md)
-      + [Generering av push-meddelanden med AI-assistenten](email/generative-push.md)
+      + [E-postgenerering med AI](email/generative-content.md)
+      + [SMS-generering med AI](email/generative-sms.md)
+      + [Generering av push-meddelanden med AI](email/generative-push.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
