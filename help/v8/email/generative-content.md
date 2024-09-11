@@ -3,7 +3,7 @@ audience: end-user
 title: Generativt innehåll
 description: Kom igång med AI Assistant i Adobe Campaign Web for Content Acceleration
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten i Adobe Campaign Web för innehållsacceleration. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI-assistenten i Adobe Campaign Web för innehållsacceleration. Kontakta din Adobe-representant om du vill veta mer.
 
 
 När ni har skapat och personaliserat era e-postmeddelanden kan ni använda AI Assistant i Adobe Campaign Web for Content Acceleration in Campaign, som bygger på generativ AI, för att ta innehållet till nästa nivå.
