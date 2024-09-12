@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Kom igång med AI Assistant - Content Accelerator
-description: Kom igång med AI Assistant - Content Accelerator
+title: Kom igång med AI Assistant Content Accelerator
+description: Kom igång med AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
 
-# Arbeta med AI Assistant - Content Accelerator  {#generative-gs}
+# Arbeta med AI Assistant Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ Med AI Assistant kan man skapa och köra marknadsföringskampanjer i olika kanal
 >
 >* Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten i Adobe Campaign Web för innehållsacceleration. Kontakta din Adobe-representant om du vill veta mer.
 
-## Åtkomst till AI Assistant - Content Accelerator {#generative-access}
+## Få åtkomst till AI Assistant Content Accelerator {#generative-access}
 
-AI Assistant - Content Accelerator för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgängligt för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
+AI Assistant Content Accelerator för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgängligt för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
 
 +++  Lär dig hur du tilldelar behörigheter för innehållsgenerering
 

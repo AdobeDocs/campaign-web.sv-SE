@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Push-meddelanden med AI-assistenten i Journey Optimizer för innehållsacceleration
-description: Kom igång med AI Assistant i Journey Optimizer för innehållsacceleration
+title: Push-meddelanden med AI-assistenten för innehållsacceleration
+description: Kom igång med AI Assistant för innehållsacceleration
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
 
-# Generering av push-meddelanden med AI Assistant i Journey Optimizer - Content Accelerator  {#generative-push}
+# Generering av push-meddelanden med AI Assistant Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 2%
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten i Adobe Campaign Web för innehållsacceleration. Kontakta din Adobe-representant om du vill veta mer.
 
-AI Assistant i Journey Optimizer for Content Acceleration kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika innehåll som troligtvis får genklang hos er.
+AI Assistant för innehållsacceleration kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika innehåll som troligtvis får genklang hos er.
 
 I följande exempel kommer vi att utnyttja AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
 

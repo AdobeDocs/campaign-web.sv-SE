@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Generativt innehåll
-description: Kom igång med AI Assistant i Adobe Campaign Web for Content Acceleration
+description: Kom igång med AI Assistant för innehållsacceleration
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
 
-# E-postgenerering med AI Assistant i Adobe Campaign Web - Content Accelerator {#generative-content}
+# E-postgenerering med AI Assistant Content Accelerator {#generative-content}
 
 >[!IMPORTANT]
 >

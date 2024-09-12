@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS med AI Assistant i Adobe Campaign Web for Content Acceleration
-description: Kom igång med AI Assistant i Adobe Campaign Web for Content Acceleration
+title: SMS med AI-assistenten för innehållsacceleration
+description: Kom igång med AI Assistant för innehållsacceleration
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
 
-# SMS-generering med AI Assistant i Adobe Campaign Web - Content Accelerator {#generative-sms}
+# SMS-generering med AI Assistant Content Accelerator {#generative-sms}
 
 >[!IMPORTANT]
 >
