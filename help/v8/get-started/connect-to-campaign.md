@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Så här byter du språk:
 <!--
 >[!CAUTION]
 >
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
+>If you plan to use [AI-powered contextual help](-using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
 -->
 
