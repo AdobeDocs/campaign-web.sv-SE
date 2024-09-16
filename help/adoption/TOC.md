@@ -6,7 +6,7 @@ description: Campaign Standarder som går över till Campaign v8 får lära sig 
 breadcrumb-title: Guide för kampanjanvändning
 source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
