@@ -3,7 +3,7 @@ title: Kom igång med Adobe Campaign v8 för marknadsförare
 description: Upptäck de viktigaste funktionerna i Campaign v8. Det är till för marknadsförare som migrerar från Campaign Standard till Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den här guiden ger en översikt över de viktigaste funktionerna i Campaign v8, för marknadsförare som går över från Campaign Standard till Campaign v8.
 
-Du kommer åt Adobe Campaign v8 via klientkonsolen eller webbgränssnittet. Med webbgränssnittet kan ni skapa, hantera och utföra viktiga marknadsföringsåtgärder. Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. Läs mer i det här avsnittet. [Läs mer](../../v8/get-started/user-interface.md).
+Du kommer åt Adobe Campaign v8 via klientkonsolen eller webbgränssnittet. Med webbgränssnittet kan ni skapa, hantera och utföra viktiga marknadsföringsåtgärder. Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. [Läs mer](../../v8/get-started/user-interface.md).
 
 Med migreringen importeras alla data från Campaign Standard i Campaign v8, vilket ger en smidig övergång med minimala avbrott i den pågående verksamheten.
 
