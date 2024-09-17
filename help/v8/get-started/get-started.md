@@ -5,8 +5,8 @@ description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 

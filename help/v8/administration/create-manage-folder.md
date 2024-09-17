@@ -5,8 +5,8 @@ description: Lär dig skapa och hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 1%
 
 ---
 

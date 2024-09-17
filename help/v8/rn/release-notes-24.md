@@ -1,7 +1,8 @@
 ---
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2024 Campaign Web User Interface-versioner
-source-git-commit: 0cb44b82fa19f3960f3855947a9a6178a2bd71b7
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 5%

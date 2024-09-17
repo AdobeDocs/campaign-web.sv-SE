@@ -5,8 +5,8 @@ description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 

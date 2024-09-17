@@ -2,7 +2,8 @@
 audience: end-user
 title: Designa omfattande push-meddelanden för iOS
 description: Lär dig hur du utformar en omfattande push-meddelandetjänst från iOS med Adobe Campaign Web
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 3%
@@ -210,4 +211,3 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 | **[!UICONTROL Thread-id]** | Ange den identifierare som används för att gruppera relaterade meddelanden. |
 | **[!UICONTROL Category]** | Ange namnet på kategori-ID:t som ska visa åtgärdsknappar. Dessa meddelanden ger användaren ett snabbare sätt att utföra olika åtgärder som svar på ett meddelande utan att öppna eller navigera i programmet. |
 | **[!UICONTROL Target content ID]** | Ange en identifierare som används för att ange vilket programfönster som ska flyttas fram när meddelandet öppnas. |
-
