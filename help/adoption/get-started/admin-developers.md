@@ -3,10 +3,10 @@ title: Kom igång med Adobe Campaign v8 för administratörer och utvecklare.
 description: Den här självstudiekursen ger en översikt över de viktigaste administrativa funktionerna och datahanteringsfunktionerna i Campaign v8. Det riktar sig till administratörer och den tekniska marknadsföraren som migrerar från Campaign Standard till Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2666'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Den här sidan ger en översikt över de viktigaste administrativa funktionerna 
 
 Den största förändringen för dig är introduktionen av klientkonsolen, det inbyggda programmet som kommunicerar med Adobe Campaign programserver.
 
-Campaign-klientkonsolen centraliserar alla funktioner och inställningar. Den förblir synkroniserad med användargränssnittet i Campaign Web, vilket ger enhetlighet i båda miljöerna.
+Campaign-klientkonsolen centraliserar alla funktioner och inställningar. Den synkroniseras med användargränssnittet för Campaign-webben och säkerställer enhetlighet i båda miljöerna.
 
 ![](assets/client_console.png){zoomable="yes"}
 
