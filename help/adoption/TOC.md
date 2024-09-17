@@ -2,11 +2,12 @@
 audience: end-user
 user-guide-title: Guide för kampanjanvändning
 title: Adobe Campaign Adobe Guide
-description: Campaign Standarder som går över till Campaign v8 får lära sig hur man kommer igång.
+user-guide-description: Campaign Standarder som går över till Campaign v8 får lära sig hur man kommer igång.
+description: Campaign Standard användare, lär dig hur ni kommer igång med Campaign v8.
 breadcrumb-title: Guide för kampanjanvändning
-source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
+source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
