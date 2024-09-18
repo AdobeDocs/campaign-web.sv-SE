@@ -5,7 +5,7 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 14%
@@ -33,7 +33,7 @@ ht-degree: 14%
    + [Behörigheter](get-started/permissions.md)
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
-   + [AI-baserad sammanhangsbaserad hjälp](get-started/-using-ai.md)
+   + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
