@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+source-git-commit: dd265e446e2e65dc6393fb4b13b0477a701722c5
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -392,4 +392,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_eventhistory_preview"
 >title="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
 >abstract="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
+
+<!--about-->
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="Om"
+>abstract="Om"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="Om instans"
+>abstract="Om instans"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Om webben"
+>abstract="Om webben"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="Om paket"
+>abstract="Om paket"
+
 
