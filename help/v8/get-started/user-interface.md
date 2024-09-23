@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
+source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1762'
 ht-degree: 1%
 
 ---
@@ -465,9 +465,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
 >title="Starta databasuppdatering"
->abstract="Schema"
-
->[!CONTEXTUALHELP]
->id="acw_schema_add_tables"
->title="Lägg till tabeller"
 >abstract="Schema"
