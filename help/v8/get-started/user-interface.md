@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1765'
 ht-degree: 1%
 
 ---
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Om paket"
 >abstract="Om paket"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Schematyper"
+>abstract="Schematyper"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Schemaegenskaper"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Välj befintligt schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Välj extern databas"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Lägg till tabeller"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Arbetsflödesloggar och uppgifter"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Uppdatera databas"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Uppdatera skript"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Starta databasuppdatering"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Lägg till tabeller"
+>abstract="Schema"
