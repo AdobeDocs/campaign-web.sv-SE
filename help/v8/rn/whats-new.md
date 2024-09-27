@@ -3,9 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1317'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,13 @@ Använd det nya gränssnittet för Campaign-webben för att:
 * Övervaka skickade och mät resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 
+**Skapa innehåll med AI Assistant Content Accelerator**
+
+Slipp besväret med att skapa manuellt innehåll och anamma en ny era av effektiva kampanjer med vår innovativa innehållsdesigner som bygger på Microsoft Azure OpenAI och Adobe Firefly.
+
+Omdefiniera innehållsleveransen med vår avancerade dra-och-släpp-redigerare från WYSIWYG som är utformad för enkelhet och effektivitet. Det här allt-i-ett-verktyget har en smidig AEM, funktioner för dynamiskt innehåll och den revolutionerande AI Assistant Content Accelerator som gör att allt-i-ett-verktygen kan skapa material på ett intuitivt, effektivt och personaliserat sätt.
+
+Utnyttja de kraftfulla avancerade algoritmerna i AI Assistant Content Accelerator för att skapa engagerande, skräddarsytt innehåll som ger resultat. Öka era öppningsfrekvenser, klickfrekvens och konverteringar med intelligent, AI-driven innehållsgenerering. Läs mer i [det här avsnittet](../email/generative-gs.md).
 
 **Nya och omdesignade kampanjarbetsflödesaktiviteter**
 
