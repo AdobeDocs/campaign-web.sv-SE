@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_orchestration_enrichment"
 >title="Anrikningsaktivitet"
 >abstract="Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Erbjudandeförslag"
+>abstract="Erbjudandeförslag"
 
 Aktiviteten **Enrichment** är en **Target**-aktivitet. Det gör att du kan förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter.
 
