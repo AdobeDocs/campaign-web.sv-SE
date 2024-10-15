@@ -3,7 +3,7 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -19,7 +19,7 @@ När du har definierat ditt [innehåll](../email/edit-content.md), [målgrupp](.
 
 Under leveransförberedelsen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
 
-Verifieringsreglerna som används vid leveransförberedelsen beskrivs i [dokumentationen för Campaign v8 (klientkonsolen) ](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+Verifieringsreglerna som används vid leveransförberedelsen beskrivs i [dokumentationen för Campaign v8 (klientkonsolen) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 De viktigaste stegen för att förbereda sändningen visas nedan.
 
