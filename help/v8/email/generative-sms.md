@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: SMS med AI-assistenten för innehållsacceleration
-description: Kom igång med AI Assistant för innehållsacceleration
+title: SMS med AI Assistant Content Accelerator
+description: Kom igång med AI Assistant Content Accelerator
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten i Adobe Campaign Web för innehållsacceleration. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant Content Accelerator i Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-När ni har utformat och personaliserat era SMS-meddelanden så att de passar er målgrupp går ni ett steg längre med hjälp av AI Assistant i Adobe Campaign Web for Content Acceleration i Campaign, som bygger på innovativ AI-teknik.
+När du har utformat och personaliserat dina SMS-meddelanden så att de passar er målgrupp tar du kommunikationen till nästa nivå med hjälp av AI Assistant Content Accelerator på Adobe Campaign Web, som bygger på innovativ AI-teknik.
 
 Det här praktiska verktyget ger intelligenta förslag för att förfina ert innehåll och säkerställa att era meddelanden får effekt och maximerar engagemanget.
 
@@ -99,7 +99,7 @@ När du har definierat innehåll, målgrupp och schema är du redo att förbered
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use reference content]** för AI-assistenten för innehållsacceleration för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use reference content]** för AI Assistant Content Accelerator för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 

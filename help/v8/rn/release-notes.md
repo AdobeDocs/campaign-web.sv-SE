@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 <tbody>
 <tr>
 <td>
-<p>När du har skapat och skräddarsytt ditt budskap tar du det till nästa nivå med AI Assistant i Adobe Campaign Web for Content Acceleration. Med det här kraftfulla verktyget kan du optimera effekten av ditt innehåll genom att generera en mängd engagerande text, huvudtitlar och visuellt tilltalande bilder.</p>
+<p>När du har skapat och skräddarsytt ditt budskap går du ett steg längre med AI Assistant Content Accelerator i Adobe Campaign Web. Med det här kraftfulla verktyget kan du optimera effekten av ditt innehåll genom att generera en mängd engagerande text, huvudtitlar och visuellt tilltalande bilder.</p>
 <p>Fördjupa dig i en praktisk upplevelse med <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">vår förhandsvisning av aktiva funktioner</a>, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.</a>.</p>
 <p>Mer information finns i den <a href="../email/generative-gs.md">detaljerade dokumentationen</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
