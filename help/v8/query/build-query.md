@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Du öppnar det här alternativet genom att klicka på attributmarkeringsknappen 
 >* För fält med många värden visas bara de första tjugo värdena. I så fall får du en varning från **[!UICONTROL Partial load]**.
 >
 >* Alternativet **[!UICONTROL Distribution of values]** är tillgängligt i alla attributväljare.
+>* Du kan lägga till villkor i resultatet med hjälp av de **[!Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
 
 ## Lägga till filterkomponenter {#filtering}
 

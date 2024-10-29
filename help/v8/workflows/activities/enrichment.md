@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 >title="Anrikningsaktivitet"
 >abstract="Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Erbjudandeförslag"
->abstract="Erbjudandeförslag"
 
 Aktiviteten **Enrichment** är en **Target**-aktivitet. Det gör att du kan förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter.
 
@@ -140,6 +136,56 @@ I exemplet nedan visas ett arbetsflöde som är konfigurerat för att skapa en l
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Lägg till erbjudanden {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Erbjudandeförslag"
+>abstract="Med aktiviteten Anrikning kan du lägga till erbjudanden för varje profil."
+
+Med aktiviteten **[!UICONTROL Enrichment]** kan du lägga till erbjudanden för varje profil.
+
+Så här konfigurerar du en **[!UICONTROL Enrichment]**-aktivitet med ett erbjudande:
+
+1. Klicka på knappen **[!UICONTROL Add offer]** i **[!UICONTROL Enrichment]**-aktiviteten i avsnittet **[!UICONTROL Offer proposition]**
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. Du kan välja mellan två alternativ:
+
+   * **[!UICONTROL Search for the best offer in category]** : Markera det här alternativet och ange parametrarna för uppringning av erbjudandemotor (erbjudandeutrymme, kategori eller tema, kontaktdatum, antal erbjudanden som ska behållas). Motorn beräknar det/de bästa erbjudandena som ska läggas till enligt dessa parametrar. Vi rekommenderar att du fyller i antingen kategorin eller temafältet, i stället för båda samtidigt.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL A predefined offer]** : Markera det här alternativet och ange ett erbjudandeutrymme, ett specifikt erbjudande och ett kontaktdatum för att direkt konfigurera det erbjudande du vill lägga till, utan att anropa erbjudandemotorn.
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. När du har valt ditt erbjudande klickar du på knappen **[!UICONTROL Confirm]**.
+
+Nu kan du använda erbjudandet i leveransaktiviteten.
+
+### Använda erbjudanden från anrikningsaktiviteten
+
+Om du inom ett arbetsflöde vill använda de erbjudanden du får från en anrikningsaktivitet i leveransen följer du stegen nedan:
+
+1. Öppna leveransaktiviteten och gå till innehållsutgåvan. Klicka på knappen **[!UICONTROL Offers settings]** och välj den **[!UICONTROL Offers space]** som motsvarar ditt erbjudande i listrutan.
+Om du bara vill visa erbjudanden från anrikningsaktiviteten anger du antalet **[!UICONTROL Propositions]** till 0 och sparar ändringarna.
+
+   ![](../assets/offers-settings.png)
+
+1. När du lägger till en anpassning med erbjudanden i e-postdesignern klickar du på ikonen **[!UICONTROL Propositions]**. Då visas de erbjudanden du får från aktiviteten **[!UICONTROL Enrichment]**. Öppna det erbjudande du vill välja genom att klicka på det.
+
+   ![](../assets/offers-propositions.png)
+
+   Gå in **[!UICONTROL Rendering functions]** och välj **[!UICONTROL HTML rendering]** eller **[!UICONTROL Text rendering]** efter dina behov.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>Om du väljer att ha fler än ett erbjudande i aktiviteten **[!UICONTROL Enrichment]** vid alternativet **[!UICONTROL Number of offers to keep]** visas alla erbjudanden när du klickar på ikonen **[!UICONTROL Propositions]** .
+
 ## Exempel {#example}
 
 ### Single enrichment-attribut {#single-attribute}
@@ -156,10 +202,10 @@ Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatu
 
 I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk med en 1-N-kardinalitet mellan tabellerna. Vi hämtar de tre senaste inköpen som är mindre än 100$. Därför måste du definiera:
 
-* ett anrikningsattribut: fältet **Totalt belopp**
+* ett anrikningsattribut: fältet **Price**
 * antalet rader som ska hämtas: 3
 * ett filter: filtrera bort objekt som är större än 100$
-* en sortering: underordnad sortering i fältet **Orderdatum**.
+* en sortering: fallande sortering i fältet **Beställningsdatum**.
 
 #### Lägg till attributet {#add-attribute}
 
@@ -167,9 +213,9 @@ Här väljer du den samlingslänk som ska användas som anrikningsdata.
 
 1. Klicka i fältet **Attribut**.
 1. Klicka på **Visa avancerade attribut**.
-1. Markera fältet **Totalt belopp** i tabellen **Inköp**.
+1. Välj fältet **Pris** i tabellen **Inköp**.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Definiera samlingsinställningarna{#collection-settings}
 
@@ -178,21 +224,23 @@ Definiera sedan hur data samlas in och hur många poster som ska hämtas.
 1. Välj **Samla in data** i listrutan **Välj hur data samlas in**.
 1. Skriv &quot;3&quot; i fältet **Rader som ska hämtas (kolumner som ska skapas)**.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 Om du till exempel vill få fram det genomsnittliga antalet inköp för en kund väljer du **Aggregerade data** i stället och väljer **Jämka** i listrutan **Aggregerade data**.
 
-![](../assets/workflow-enrichment5.png)
+Använd fälten **Etikett** och **Alias** för attributet för att göra det lättare att förstå, vilket visas nedan.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Definiera filtren{#collection-filters}
 
 Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
-1. Klicka på **Redigera filter**.
-1. Lägg till de två följande filtren: **Totalt belopp** finns OCH **Totalt belopp** är mindre än 100. Den första filtrerar NULL-värden så som de skulle visas som det största värdet.
+1. Klicka på **Skapa filter**.
+1. Lägg till följande två filter: **Price** finns OCH **Price** är mindre än 100. Den första filtrerar NULL-värden så som de skulle visas som det största värdet.
 1. Klicka på **Bekräfta**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Definiera sorteringen{#collection-sorting}
 
@@ -204,7 +252,7 @@ Vi måste nu använda sortering för att kunna hämta de tre **senaste** inköpe
 1. Klicka på **Bekräfta**.
 1. Välj **Fallande** i listrutan **Sortera**.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Berika med länkade data {#link-example}
 

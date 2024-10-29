@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '769'
 ht-degree: 14%
 
 ---
@@ -65,6 +65,11 @@ ht-degree: 14%
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
+   + Transaktionsmeddelanden {#transactional-messages}
+      + [Kom igång med transaktionsmeddelanden](transactional-messaging/transactional.md)
+      + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)
+      + [Validera ditt transaktionsmeddelande](transactional-messaging/validate-transactional.md)
+      + [Övervaka transaktionsmeddelanden](transactional-messaging/monitor-transactional.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + [Konfigurera leveransinställningar](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 14%
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)
+   + [Konfigurera externa konton](administration/external-account.md)
 + [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

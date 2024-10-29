@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 >title="Mappschema"
 >abstract="Mappschema"
 
-## Om mappar
+## Om mappar {#about-folders}
 
 Mappar är objekt i Adobe Campaign som gör att du kan ordna komponenter och data.
 
@@ -43,7 +43,7 @@ Du kan skapa, byta namn på, ordna om och flytta mappar i navigeringsträdet. Du
 Du kan ställa in en mapptyp. Exempel: en mapp med leveranser.
 Mappens ikon ändras beroende på den här typen.
 
-## Skapa en ny mapp
+## Skapa en ny mapp {#create-a-folder}
 
 Så här skapar du en ny mapp i Adobe Campaign Web UI:
 
@@ -52,8 +52,7 @@ Under menyn **[!UICONTROL ...]** har du **[!UICONTROL Create new folder]**
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-När du skapar en ny mapp är mapptypen som standard den överordnade mappens typ.
-I vårt exempel skapar vi en mapp i mappen **[!UICONTROL Deliveries]**.
+När du skapar en ny mapp är mapptypen som standard den överordnade mappens typ. I vårt exempel skapar vi en mapp i mappen **[!UICONTROL Deliveries]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Om du vill skapa en mapp utan en viss typ väljer du typen **[!UICONTROL Generic
 
 Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Ta bort en mapp
+## Ta bort en mapp {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Klicka på knappen **+** bredvid den önskade länken i attributlistan, enligt n
 ![](assets/values_link.png){zoomable="yes"}
 
 Det går också att distribuera värden i en frågemodellerare. [Läs mer här](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filtrera värdena {#filter-values}
+
+Genom att använda **[!UICONTROL Advanced filters]** i fönstret för värdedistribution kan du filtrera dina resultat baserat på angivna villkor.
+
+I exemplet med leveranslistan ovan, som visar fördelningen per kanal, kan du till exempel filtrera den så att endast leveranser som har statusen **Slutförd** visas.
+
+![](assets/values_filter.png){zoomable="yes"}

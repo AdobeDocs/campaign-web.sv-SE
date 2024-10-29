@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 1%
+source-wordcount: '1181'
+ht-degree: 0%
 
 ---
 
@@ -48,21 +48,27 @@ Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ 
 
 ## Hantera aktiviteter {#manage}
 
-När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder. Du kan:
+När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Du kan:
 
 * **Ta bort** aktiviteten från arbetsytan.
 * **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs körs inte inaktiverade aktiviteter och följande aktiviteter på samma sökväg, och arbetsflödet stoppas.
-* **Kopiera** aktiviteten. Se [det här avsnittet](#copy).
-* Åtkomst till aktivitetens **loggar och uppgifter**.
 * **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Kopiera** aktiviteten. Se [det här avsnittet](#copy).
+* **Flytta** en aktivitet och alla dess underordnade noder till en annan övergång. Se [det här avsnittet](#move)
+* Få åtkomst till aktivitetens **körningsalternativ**.
+* Åtkomst till aktivitetens **loggar och uppgifter**.
 
 Flera **målaktiviteter**, till exempel **Kombinera** eller **Ta bort dubbletter**, gör att du kan bearbeta den återstående populationen och inkludera den i en ytterligare utgående övergång. Om du till exempel använder en **delad** -aktivitet består komplementet av den population som inte matchar någon av de tidigare definierade delmängderna. Aktivera alternativet **Generera komplement** om du vill använda den här funktionen.
 
 ![](assets/workflow-split-complement.png)
 
-## Kopiera aktiviteter {#copy}
+## Flytta eller kopiera aktiviteter {#move-copy}
+
+### Kopiera och klistra in aktiviteter {#copy}
 
 Du kan kopiera arbetsflödesaktiviteter och klistra in dem i valfritt arbetsflöde. Målarbetsflödet kan finnas på en annan webbläsarflik.
 
@@ -79,6 +85,20 @@ Du kan kopiera aktiviteter på två sätt:
 Om du vill klistra in de kopierade aktiviteterna klickar du på knappen **+** för en övergång och väljer Klistra in X-aktivitet.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Flytta aktiviteter och deras underordnade noder {#move}
+
+Med Journey Optimizer kan du flytta en aktivitet, tillsammans med allt innehåll i dess underordnade noder (inklusive alla övergångar och aktiviteter i den) till slutet av en annan övergång i samma arbetsflöde.
+
+Den här processen kopplar från aktiviteten och allt i den utgående övergången från den ursprungliga platsen, vilket flyttar den till den nya målövergången.
+
+Så här flyttar du en aktivitet:
+
+1. Markera aktiviteten som du vill flytta.
+1. Klicka på knappen **Flytta** i aktivitetens egenskapspanel.
+1. Markera övergången där du vill placera aktiviteten och dess utgående övergång och bekräfta sedan.
+
+![](assets/activity-move.png)
 
 ## Körningsalternativ {#execution}
 

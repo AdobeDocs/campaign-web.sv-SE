@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1766'
 ht-degree: 1%
 
 ---
@@ -112,6 +112,17 @@ Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [de
 ### Rapportering {#left-nav-reporting}
 
 * **Rapporter** - Posten **Rapport** innehåller en samlad sammanfattning av trafik- och interaktionsstatistik för varje kanal i Campaign-miljön. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet. Läs mer i [det här avsnittet](../reporting/global-reports.md).
+
+### Administration {#left-nav-admin}
+
+
+* **Granskningsspårning** - Posten **Granskningsspårning** ger användarna fullständig synlighet för alla ändringar som görs i viktiga entiteter i instansen, vanligtvis de som påverkar en smidig funktion i instansen avsevärt. [Läs mer](../reporting/audit-trail.md)
+
+* **Externa konton** - Skapa nya externa konton med webbanvändargränssnittet för att uppfylla dina specifika behov och säkerställa sömlösa dataöverföringar. [Läs mer](../administration/external-account.md)
+
+* **Scheman** - Anpassade fält är ytterligare attribut som har lagts till i scheman som är klara att användas via Adobe Campaign-konsolen. [Läs mer](../administration/custom-fields.md)
+
+* **Leveransavisering** - Leveransavisering är ett varningshanteringssystem som gör att grupper av användare automatiskt kan ta emot e-postaviseringar med information om sina leveranskörningar. [Läs mer](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Transactional Messaging"
->abstract="Transactional Messaging"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Egenskaper för transaktionsmeddelanden"
->abstract="Egenskaper för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="E-postegenskaper för transaktionsmeddelanden"
->abstract="E-postegenskaper för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="SMS-egenskaper för transaktionsmeddelanden"
->abstract="SMS-egenskaper för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Push-egenskaper för transaktionsmeddelanden"
->abstract="Push-egenskaper för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Mobilappen Transactional Messaging"
->abstract="Mobilappen Transactional Messaging"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Transactional Messaging-händelse"
->abstract="Transactional Messaging-händelse"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Kontext för transaktionsmeddelanden"
->abstract="Kontext för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Transactional Messaging-innehåll"
->abstract="Transactional Messaging-innehåll"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Personalisering av transaktionsmeddelanden"
->abstract="Personalisering av transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Exkluderingsloggar för transaktionsmeddelanden"
->abstract="Exkluderingsloggar för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Kontext för transaktionsmeddelanden"
->abstract="Kontext för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Händelsehistorik för transaktionsmeddelanden"
->abstract="Händelsehistorik för transaktionsmeddelanden"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
->abstract="Förhandsgranskning av händelsehistorik för transaktionsmeddelanden"
 
 <!--about-->
 
