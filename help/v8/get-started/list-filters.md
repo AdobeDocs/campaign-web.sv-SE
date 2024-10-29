@@ -3,9 +3,9 @@ audience: end-user
 title: Bläddra i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra 
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Lägg till eller ta bort kolumner på skärmen **Konfigurera kolumner** och ändra visningsordningen.
+
+Du kan ändra ordningen i listan antingen genom att **dra och släppa** eller genom att använda **upp- och nedpilarna** enligt nedan:
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 För dessa inställningar:
 

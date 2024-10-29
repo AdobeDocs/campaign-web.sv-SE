@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,20 @@ Konfigurera mapptypen genom att klicka på knappen **[!UICONTROL Confirm]**.
 Om du vill skapa en mapp utan en viss typ väljer du typen **[!UICONTROL Generic Folder]**.
 
 Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Ordna om mappar {#reorder-folders}
+
+Du kan ordna om mapparna efter behov. Om du vill göra det klickar du på **[!UICONTROL Reorder folders]** enligt nedan.
+
+I vårt exempel innehåller mappen **Leveranser** 4 mappar.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Du kan ändra ordningen på mapparna antingen genom att **dra och släppa** eller genom att använda **upp- och nedpilarna**.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Ta bort en mapp {#delete-a-folder}
 
