@@ -3,9 +3,9 @@ title: Kom igång med Adobe Campaign v8 för administratörer och utvecklare.
 description: Den här självstudiekursen ger en översikt över de viktigaste administrativa funktionerna och datahanteringsfunktionerna i Campaign v8. Det riktar sig till administratörer och den tekniska marknadsföraren som migrerar från Campaign Standard till Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2657'
 ht-degree: 3%
 
 ---
@@ -229,9 +229,9 @@ Som administratör måste du definiera kanalkonfigurationer. Läs mer på länka
 
 Som administratör ansvarar du för att konfigurera och underhålla externa konton för Campaign. Som i Campaign Standard används externa konton av tekniska processer som tekniska arbetsflöden eller kampanjarbetsflöden.
 
-Övergången till Campaign v8 tar hand om era befintliga Campaign Standarders externa konton: de är nu tillgängliga i klientkonsolen.
+Övergången till Campaign v8 tar hand om era befintliga Campaign Standarders externa konton.
 
-Läs mer om konfigurationen för [externt konto](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
+Läs mer i [dokumentationen för det externa kontot](../../v8/administration/external-account.md).
 
 
 <!--

@@ -4,9 +4,9 @@ title: Granskningskedja
 description: Lär dig övervaka instansen med granskningsspår för Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar hela tiden en detaljerad log
 
 * Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i Campaign V8, som används av tekniska processer som tekniska arbetsflöden eller kampanjarbetsflöden.
 
-  Mer information om externt konto finns på [sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Mer information om externt konto finns på [sidan](../administration/external-account.md).
 
 * Med **Leveransmappning** kan du övervaka aktiviteter och nyligen gjorda ändringar av din leveransmappning i kampanj V8.
 

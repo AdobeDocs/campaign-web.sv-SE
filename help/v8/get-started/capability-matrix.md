@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -68,15 +68,17 @@ Alla målgrupper som skapats i Campaign-klientkonsolen eller i Adobe Experience 
 
 Import-/exportjobb med en bild som beskrivs i [Kampanjversion 8 (klientkonsolen) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} är inte tillgängliga i webbgränssnittet för Campaign. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## Transaktionsmeddelanden {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-Funktioner för transaktionsmeddelanden som ingår i produktpaketet Message Center är för närvarande inte tillgängliga i det nya användargränssnittet för Campaign-webben.
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Bläddra i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} och läs mer om meddelandefunktioner i realtid, till exempel:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* Redigering och körning av meddelanden i realtid via e-post, SMS och push
-* Berikning och personalisering av meddelanden
-* Rapportering och övervakning av transaktionsmeddelanden
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## Innehållsdesign {#content-capabilities}
 
@@ -155,7 +157,7 @@ Kampanjwebbgränssnittet har inte följande funktioner. De är bara tillgänglig
 
 ### Externa konton {#external}
 
-Adobe Campaign har en uppsättning fördefinierade externa konton som kan anslutas till externa system. Som systemadministratör för en kampanj kan du bara skapa och hantera externa konton från klientkonsolen.[Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+Adobe Campaign har en uppsättning fördefinierade externa konton som kan anslutas till externa system. Som systemadministratör för en kampanj kan du skapa och hantera externa konton. [Läs mer](../administration/external-account.md)
 
 ### Skapande och tillägg av schema {#schema}
 

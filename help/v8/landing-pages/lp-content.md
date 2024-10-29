@@ -3,7 +3,7 @@ title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -145,7 +145,9 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
 >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 Så här skickar du ett bekräftelsemeddelande automatiskt när en landningssida har skickats:
+
 1. Markera alternativet **[!UICONTROL Send confirmation email]** i avsnittet **[!UICONTROL CALL TO ACTION]**.
+
 1. Välj den transaktionsmeddelandemall som ska skickas ut i den associerade nedrullningsbara listan.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
