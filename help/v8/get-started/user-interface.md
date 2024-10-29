@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '2010'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 1%
 Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
 
 Lär dig hur du ansluter till Adobe Campaign och identifierar grunderna för navigering i Experience Cloud [i den här artikeln](connect-to-campaign.md).
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Med **nyckelresultatindikatorerna** kan du kontrollera plattformens effektivitet
 Listan **Senaste** innehåller genvägar till nyligen skapade och ändrade leveranser. Den här listan visar deras kanal, status, ägare, datum för skapande och ändring. Klicka på länken **Visa fler** om du vill läsa in fler leveranser.
 
 Dessutom kan du komma åt hjälpsidor för Adobe Campaign webbnyckel från **Learning**-delen av sidan.
+
+### Länken Om {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="Om sida"
+>abstract="Sidan Om innehåller information om din Adobe Campaign-instans"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="Om instans"
+>abstract="Instansavsnittet innehåller viktig information om konsolklienten, inklusive både version och tillhörande build-nummer"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Om webben"
+>abstract="I webbavsnittet visas versionen av användargränssnittet för Campaign-webben, med det senaste uppdateringsdatumet, om tillgängligt."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="Om installerade paket"
+>abstract="I avsnittet Installerade paket visas alla moduler, funktioner och integreringar som finns på din instans."
+
+Längst ned på sidan finns länken **[!UICONTROL About]** med information om din Adobe Campaign-instans. Informationen är i skrivskyddat läge.
+
+![](assets/about-link.png){zoomable="yes"}
+
+Avsnittet **Instans** innehåller viktig information om konsolklienten, inklusive både **version** och det associerade **build**-numret.
+
+* **versionen** refererar till den officiella versionen som du använder,
+* **build** refererar till en specifik upprepning av den versionen.
+
+Både version- och build-nummer är avgörande för felsökning, eftersom de hjälper dig att avgöra exakt vilka funktioner och korrigeringar som finns i din miljö.
+
+I avsnittet **Webb** visas versionen av användargränssnittet för Campaign-webben, med det senaste uppdateringsdatumet, om det är tillgängligt. Detta hjälper till att spåra ändringar eller förbättringar som gjorts i användargränssnittet för Campaign-webben.
+
+Avsnittet **Installerade paket** innehåller alla moduler, funktioner och integreringar som finns i din instans. Dessa paket utökar Adobe Campaign funktionalitet så att det kan utföra specialiserade uppgifter som att integrera med andra Adobe-lösningar eller aktivera specifika arbetsflöden. Med tanke på det stora antalet paket kan du göra en undersökning i det här avsnittet för att snabbt kontrollera om en viss modul är installerad i instansen.
+
+![](assets/about.png){zoomable="yes"}
 
 ## Navigeringsmeny till vänster {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Redigera anpassade attribut"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="Om"
->abstract="Om"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="Om instans"
->abstract="Om instans"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="Om webben"
->abstract="Om webben"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="Om paket"
->abstract="Om paket"
 
 <!--Schema-->
 
