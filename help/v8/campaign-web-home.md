@@ -3,9 +3,9 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '460'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,14 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 
 >[!BEGINTABS]
 
+
+>[!TAB Oktober &#39;24 utgåva]
+
+Oktober-versionen är nu live, inklusive transaktionsmeddelanden, externa konton och fler förbättringar.
+
+[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB AI Assistant Content Accelerator]
 
 ✨ fördjupa dig i en praktisk upplevelse med vår förhandsgranskning av funktionen [AI Assistant Content Accelerator](../v8/email/generative-gs.md) som gör att du kan utforska dess funktioner först och fullt ut förstår dess funktioner.
@@ -62,12 +70,6 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 När du öppnar listan med fält för personalisering kan du nu kontrollera hur värden distribueras för varje fält.
 
 [![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB Captcha på landningssidor]
-
-Nu kan du lägga till captcha för att skydda din landningssida mot skräppost och missbruk som orsakas av stötar. Den här funktionen är begränsad.
-
-[![Bild](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
