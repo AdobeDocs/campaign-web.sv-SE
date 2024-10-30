@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,20 @@ I det här exemplet vill vi skapa ett e-postmeddelande med flera varianter baser
 
    >[!NOTE]
    >Om ingen av reglerna som definieras i varianterna uppfylls när meddelandet skickas, kommer innehållskomponenten att visa innehållet som definierats i **[!UICONTROL Default variant]** från rutan **[!UICONTROL Conditional Content]**.
+
+## Använd variabler för villkorligt innehåll {#variables-conditional}
+
+Variablerna kan användas för villkorligt innehåll i leveransen.
+
+Läs mer om att [lägga till variabler i en leverans](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Välj det element där du vill placera ett villkorligt innehåll.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+Om du vill använda variabeln konfigurerar du villkoret med knappen **[!UICONTROL Edit expression]**, som visas nedan.
+I det här exemplet visas den här bilden när variabelvärdet är `launch`.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+Du kan också skapa en annan variant med värdet `reminder`, till exempel där en annan bild visas.

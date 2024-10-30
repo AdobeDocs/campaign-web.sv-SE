@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,17 @@ ht-degree: 0%
 
 # Anpassa innehållet {#add-personalization}
 
-Du kan anpassa alla leveranser genom att använda uttrycksredigeraren, som är tillgänglig i fält med ikonen **[!UICONTROL Open personalization dialog]** , till exempel ämnesraden, e-postlänkar och innehållskomponenter för text/knapp. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
+Personalization av leveransinnehåll är en nyckelfunktion som gör att ni kan skräddarsy meddelanden för enskilda mottagare och göra kommunikationen mer relevant och engagerande.
 
-## Personalization syntax {#syntax}
+I Adobe Campaign kan du med hjälp av [profildata](#data-personalization), t.ex. profilens namn, plats eller tidigare interaktioner samt specifika [variabler för leveransen](#variables-personalization), dynamiskt anpassa element som text, bilder och erbjudanden i kommunikationen.
+
+Leveranspersonaliseringen förbättrar inte bara användarupplevelsen utan även engagemangsfrekvensen, vilket leder till högre konverteringsgrad och nöjdare kunder.
+
+## Använda profildata för personalisering {#data-personalization}
+
+Du kan anpassa alla leveranser med profildata med hjälp av uttrycksredigeraren, som är tillgänglig i fält med ikonen **[!UICONTROL Open personalization dialog]** , till exempel ämnesraden, e-postlänkar och text/knappinnehållskomponenter. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access)
+
+### Personalization syntax {#syntax}
 
 Personalization-taggar följer en specifik syntax: `<%= table.field %>`. Om du till exempel vill infoga mottagarens efternamn från mottagartabellen använder du syntaxen `<%= recipient.lastName %>`.
 
@@ -26,7 +34,7 @@ Under leveransförberedelseprocessen tolkar Adobe Campaign automatiskt dessa tag
 
 När du överför kontakter från en extern fil för en fristående e-postleverans är alla fält i indatafilen tillgängliga för personalisering. Syntaxen är följande: `<%= dataSource.field %>`.
 
-## Lägg till personaliseringstaggar {#add}
+### Lägg till personaliseringstaggar {#add}
 
 Så här lägger du till personaliseringstaggar i en leverans:
 
@@ -56,3 +64,20 @@ Så här lägger du till personaliseringstaggar i en leverans:
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Använda variabler för personalisering {#variables-personalization}
+
+Du kan också använda variabler för att anpassa leveransen.
+Läs mer om att [lägga till variabler i en leverans](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Variabeln `deliveryType` har till exempel definierats enligt nedan.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+Den här variabeln kan användas i innehållet i leveransen med ikonen **[!UICONTROL Add Personalization]** och uttrycket `<%= variables.deliveryType %>` som exempel.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+Du kan kontrollera hur variabeln används med knappen **[!UICONTROL Simulate Content]**.
+
+![](assets/variables-simulate.png){zoomable="yes"}

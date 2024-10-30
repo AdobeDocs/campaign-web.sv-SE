@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2691'
+source-wordcount: '2720'
 ht-degree: 4%
 
 ---
@@ -351,6 +351,8 @@ Bläddra till fliken **[!UICONTROL Variables]** så som visas nedan om du vill l
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Klicka på knappen **[!UICONTROL Add Variables]** för att ange information om variabeln och klicka sedan på **[!UICONTROL Confirm]** för att spara ändringarna.
+Klicka på knappen **[!UICONTROL Add Variables]** för att ange information om variabeln. Du kan lägga till värdet direkt eller använda ett uttryck för det genom att aktivera kryssrutan **[!UICONTROL Value is the result of an expression]**. Klicka sedan på **[!UICONTROL Confirm]** för att spara ändringarna.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Läs mer om [att använda variabler för personalisering](../personalization/personalize.md#variables-personalization) och [med variabler för dynamiskt innehåll](../personalization/conditions.md#variables-conditional).
