@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '407'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 8%
 
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
 
-## Oktober-version {#24-10-release}
+Ändringar och förbättringar som är tillgängliga med tidigare versioner visas [på den här sidan](release-notes-24.md).
+
+## 24 oktober {#24-10-release}
 
 **Releasedatum**: 29 okt 2024
 
