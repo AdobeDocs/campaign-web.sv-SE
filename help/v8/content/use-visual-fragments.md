@@ -4,9 +4,9 @@ title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
 badge: label="Begränsad tillgänglighet"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,18 @@ Följ stegen nedan om du vill infoga ett visuellt fragment i ett e-postinnehåll
    Du kan också ta bort fragmentet från innehållet eller duplicera det. Dessa åtgärder kan utföras direkt från den snabbmeny som visas ovanpå fragmentet.
 
 1. Lägg till så många visuella fragment du vill och **[!UICONTROL Save]** dina ändringar.
+
+### Visual fragment in read-only mode {#fragment-readonly}
+
+Åtkomsträttigheter kan tillämpas på visuella fragment.
+
+Om du inte har redigeringsbehörighet för ett visst visuellt fragment visas innehållsmallen i **skrivskyddat läge**. I det här fallet ersätts knappen **[!UICONTROL Edit content]** med knappen **[!UICONTROL View content]** så att du kan visa fragmentet utan att göra några ändringar.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Som framgår nedan är alla funktionsikoner inaktiverade, vilket begränsar interaktionen till att endast visas.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Bryt arv {#break-inheritance}
 
