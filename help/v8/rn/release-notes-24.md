@@ -2,16 +2,68 @@
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2024 Campaign Web User Interface-versioner
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 5%
+source-wordcount: '2206'
+ht-degree: 7%
 
 ---
 
 # Versionsinformation 2024 {#2024-release}
 
 På den här sidan visas alla ändringar och förbättringar som är tillgängliga i **2024-utgåvor**. De senaste versionskommentarerna är tillgängliga på [den här sidan](release-notes.md).
+
+
+## September-uppdateringar {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant Content Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>När du har skapat och skräddarsytt ditt budskap går du ett steg längre med AI Assistant Content Accelerator i Adobe Campaign Web. Med det här kraftfulla verktyget kan du optimera effekten av ditt innehåll genom att generera en mängd engagerande text, huvudtitlar och visuellt tilltalande bilder.</p>
+<p>Fördjupa dig i en praktisk upplevelse med <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">vår förhandsvisning av aktiva funktioner</a>, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.</a>.</p>
+<p>Mer information finns i den <a href="../email/generative-gs.md">detaljerade dokumentationen</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Tillgänglighetsdatum: 12 sept</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Augustiversion {#24-8-release}
+
+**Releasedatum**: 3 september 2024
+
+Följande funktioner och förbättringar är tillgängliga från och med augusti.
+
+* **SMTP-parametrar** - SMTP-inställningar är nu tillgängliga i inställningarna för e-postleverans. [Läs mer](../advanced-settings/delivery-settings.md#smtp)
+
+* **Globala variabler** - Nu kan du definiera globala variabler för att definiera värden för leveranser. [Läs mer](../advanced-settings/delivery-settings.md#variables-delivery)
+
+### Nya funktioner i begränsad tillgänglighet {#acs-24-8}
+
+>[!AVAILABILITY]
+>
+>Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+>
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+
+* **Varumärkning för direktreklam** - Tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Nu kan du skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+
+* **Prenumerationer med landningssidor** - Nu kan du länka en landningssida till en tjänst och skicka ett bekräftelsemeddelande när användare validerar den. [Läs mer](../landing-pages/lp-content.md#lp-message){target="_blank"}.
+
+* **Visuella fragment** - Nu kan du arkivera visuella innehållsfragment. [Läs mer](../content/create-fragment.md#archive)
+
+* **Captcha på landningssidor** - Nu kan du lägga till captcha för att skydda din landningssida från skräppost och missbruk som orsakas av bottnar. Detta är icke-störande för kunderna eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med webbplatsen. [Läs mer](../landing-pages/create-lp.md#captcha)
+
+<!--
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+
 
 ## Versionsinformation juli {#24-7-release}
 

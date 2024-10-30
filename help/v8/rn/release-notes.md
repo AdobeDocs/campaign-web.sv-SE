@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ef040ec079961771b734208ecf8ac9e510b38104
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 13%
+source-wordcount: '394'
+ht-degree: 8%
 
 ---
 
@@ -52,7 +52,7 @@ Följande funktioner och förbättringar är tillgängliga från och med oktober
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa och övervaka transaktionsmeddelanden i gränssnittet för Campaign-webben. Transactional messaging är en specialiserad modul i Adobe Campaign som hanterar utlösta meddelanden. Dessa meddelanden genereras automatiskt som svar på händelser som kommer från informationssystem. Vanliga exempel på sådana händelser är att klicka på knappar eller länkar, överge varukorgar, begära varningar om produkttillgänglighet, skapa eller ändra konto osv.</p>
+<p>Transactional Messaging (Message Center) är nu tillgängligt i webbgränssnittet för Campaign. Det här tillägget är utformat för att utlösa meddelanden som genereras från händelser som utlöses från informationssystem, och kan vara: faktura, orderbekräftelse, leveransbekräftelse, lösenordsändring, meddelande om produkttillgänglighet, kontobesked, skapande av webbkonto osv.</p>
 <p>Mer information finns i den <a href="../transactional-messaging/transactional.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
@@ -86,53 +86,6 @@ Följande funktioner och förbättringar är tillgängliga från och med oktober
 
 * **Distribution av värden** - Vid åtkomst till listan med fält för anpassning kan du nu kontrollera hur värden distribueras för varje fält. Ett dedikerat popup-fönster visar antalet och procentandelen för varje värde. [Läs mer](../query/build-query.md#distribution-values-query)
 
+* **Version- och systeminformation** - Nu kan du komma åt information om dina instansversioner, både för klientkonsolen och webbanvändargränssnittet. I det nya avsnittet visas även alla inbyggda paket som är installerade i din miljö. [Läs mer](../get-started/user-interface.md#user-interface-about)
 
-## September-uppdateringar {#9-2024}
-
-<table>
-<thead>
-<tr>
-<th><strong>AI Assistant Content Accelerator</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>När du har skapat och skräddarsytt ditt budskap går du ett steg längre med AI Assistant Content Accelerator i Adobe Campaign Web. Med det här kraftfulla verktyget kan du optimera effekten av ditt innehåll genom att generera en mängd engagerande text, huvudtitlar och visuellt tilltalande bilder.</p>
-<p>Fördjupa dig i en praktisk upplevelse med <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">vår förhandsvisning av aktiva funktioner</a>, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.</a>.</p>
-<p>Mer information finns i den <a href="../email/generative-gs.md">detaljerade dokumentationen</a>.</p>
-<img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>Tillgänglighetsdatum: 12 sept</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-## Augustiversion {#24-8-release}
-
-**Releasedatum**: 3 september 2024
-
-Följande funktioner och förbättringar är tillgängliga från och med augusti.
-
-* **SMTP-parametrar** - SMTP-inställningar är nu tillgängliga i inställningarna för e-postleverans. [Läs mer](../advanced-settings/delivery-settings.md#smtp)
-
-* **Globala variabler** - Nu kan du definiera globala variabler för att definiera värden för leveranser. [Läs mer](../advanced-settings/delivery-settings.md#variables-delivery)
-
-### Nya funktioner i begränsad tillgänglighet {#acs-24-8}
-
->[!AVAILABILITY]
->
->Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
->
->Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
-
-* **Varumärkning för direktreklam** - Tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Nu kan du skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
-
-* **Prenumerationer med landningssidor** - Nu kan du länka en landningssida till en tjänst och skicka ett bekräftelsemeddelande när användare validerar den. [Läs mer](../landing-pages/lp-content.md#lp-message){target="_blank"}.
-
-* **Visuella fragment** - Nu kan du arkivera visuella innehållsfragment. [Läs mer](../content/create-fragment.md#archive)
-
-* **Captcha på landningssidor** - Nu kan du lägga till captcha för att skydda din landningssida från skräppost och missbruk som orsakas av bottnar. Detta är icke-störande för kunderna eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med webbplatsen. [Läs mer](../landing-pages/create-lp.md#captcha)
-
-<!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+* **Listor** - Nu kan du enkelt ändra ordningen på värdena i en lista. [Läs mer](../get-started/work-with-folders.md)
