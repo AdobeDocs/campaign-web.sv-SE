@@ -29,9 +29,9 @@ De här inställningarna är förkonfigurerade i mallen som valdes när arbetsfl
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Egenskaper för arbetsflöde"
->abstract="I det här avsnittet finns allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja vilken mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ om du vill konfigurera särskilda inställningar, t.ex. mappen för arbetsflödeslagring eller tidszonen."
+>abstract="Det här avsnittet innehåller allmänna arbetsflödesegenskaper som också är tillgängliga när du skapar arbetsflödet. Du kan välja den mall som ska användas för att skapa arbetsflödet och ange en etikett. Expandera avsnittet Ytterligare alternativ för att konfigurera specifika inställningar, till exempel mappen för arbetsflödets lagring eller tidszonen."
 
-Avsnittet **[!UICONTROL Properties]** innehåller allmänna inställningar som kan konfigureras när du skapar ett arbetsflöde. Om du vill komma åt egenskaperna för ett befintligt arbetsflöde klickar du på knappen **[!UICONTROL Settings]** i åtgärdsfältet ovanför arbetsytan.
+Avsnittet **[!UICONTROL Properties]** innehåller allmänna inställningar som kan konfigureras när ett arbetsflöde skapas. Om du vill få tillgång till egenskaperna för ett befintligt arbetsflöde klickar du på knappen **[!UICONTROL Settings]** som finns i åtgärdsfältet ovanför arbetsytan.
 
 
 ![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
@@ -44,7 +44,7 @@ Dessa egenskaper är:
 * **[!UICONTROL Folder]** där arbetsflödet ska sparas.
 * Standardvärdet **[!UICONTROL Timezone]** som ska användas i alla arbetsflödets aktiviteter. Som standard är arbetsflödets tidszon den som definieras för den aktuella Campaign-operatorn.
 Möjliga värden är:
-   * **Serverns tidszon** som använder tidszonen för Adobe Campaign-programservern
+   * **Serverns tidszon** för att använda Adobe Campaign-programserverns tidszon
    * **Operatörens tidszon** använder tidszonen för den Adobe Campaign-operator som kör arbetsflödet, enligt operatorns profil, i klientkonsolen
    * **Tidszon för databasen** som använder databasserverns tidszon
    * En specifik tidszon
@@ -63,9 +63,9 @@ När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det
 
 * **[!UICONTROL Targeting dimension]**: Välj måldimensionen som ska användas för målprofiler: mottagare, mottagare, operatör, prenumeranter osv. [Läs mer om måldimensioner](../audience/targeting-dimensions.md)
 
-* **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard behålls endast arbetsregister för den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde, som körs dagligen.
+* **[!UICONTROL Keep the result of interim populations between two executions]**: Som standard sparas bara arbetsregistren från den senaste körningen av arbetsflödet. Arbetstabeller från tidigare körningar rensas av ett tekniskt arbetsflöde som körs dagligen.
 
-  Om det här alternativet är aktiverat behålls arbetsregister även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför användas **endast** i utvecklings- eller staging-miljöer. Den får aldrig checkas in i ett produktionsarbetsflöde.
+  Om det här alternativet är aktiverat kommer arbetsregister att sparas även efter att arbetsflödet har körts. Du kan använda den i testsyfte och måste därför bara användas **i utvecklings- eller mellanlagringsmiljöer.** Det får aldrig kontrolleras i ett produktionsarbetsflöde.
 
 ## Körningsinställningar  {#exec-settings}
 
@@ -74,13 +74,13 @@ När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det
 >title="Körningsinställningar"
 >abstract="I det här avsnittet kan du konfigurera inställningar som är relaterade till arbetsflödets körning, t.ex. antalet dagar som arbetsflödeshistoriken sparas."
 
-* **[!UICONTROL History in days]**: Anger efter hur många dagar som historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är kopplade till arbetsflödesåtgärden). Standardvärdet är 30 dagar för färdiga arbetsflödesmallar. Historiken rensas av det tekniska arbetsflödet för databasrensning som utförs som standard varje dag
+* **[!UICONTROL History in days]**: Anger efter hur många dagar som historiken måste rensas. Historiken innehåller element som är relaterade till arbetsflödet: loggar, uppgifter, händelser (tekniska objekt som är kopplade till arbetsflödesåtgärden). Standardvärdet är 30 dagar för färdiga arbetsflödesmallar. Rensa historiken utförs av det tekniska arbetsflödet för databasrensning, som körs varje dag som standard
 
   >[!IMPORTANT]
   >
-  >Om fältet **[!UICONTROL History in days]** lämnas tomt betraktas dess värde som 1, vilket innebär att historiken rensas efter 1 dag.
+  >Om fältet **[!UICONTROL History in days]** lämnas tomt kommer dess värde att betraktas som &quot;1&quot;, vilket innebär att historiken rensas efter 1 dag.
 
-* **[!UICONTROL Default affinity]**: Om din installation innehåller flera arbetsflödesservrar använder du det här fältet för att ange på vilken server arbetsflödet ska köras. Detta framtvingar körning av det arbetsflödet på en viss server. Du kan välja ett befintligt tillhörighetsnamn, men se till att du inte använder blanksteg eller skiljetecken. Om du använder olika servrar anger du olika namn, avgränsade med kommatecken.
+* **[!UICONTROL Default affinity]**: Om installationen innehåller flera arbetsflödesservrar använder du det här fältet för att ange vilken server som arbetsflödet ska köras på. Detta framtvingar körning av det arbetsflödet på en viss server. Du kan välja ett befintligt tillhörighetsnamn, men se till att du inte använder blanksteg eller skiljetecken. Om du använder olika servrar anger du olika namn, avgränsade med kommatecken.
 
   >[!IMPORTANT]
   >
@@ -94,15 +94,15 @@ När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Inställningar för felhantering"
->abstract="I det här avsnittet kan du definiera hur arbetsflödet ska hantera fel under körningen. Du kan välja att pausa processen, ignorera ett visst antal fel eller avbryta arbetsflödets körning."
+>abstract="I det här avsnittet kan du ange hur arbetsflödet ska hantera fel under körningen. Du kan välja att pausa processen, ignorera ett visst antal fel eller stoppa arbetsflödeskörningen."
 
-* **[!UICONTROL Error management]**: I det här fältet kan du definiera de åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns tre möjliga alternativ:
+* **[!UICONTROL Error management]**: I det här fältet anger du vilka åtgärder som ska vidtas om en arbetsflödesuppgift innehåller fel. Det finns tre möjliga alternativ:
 
    * **[!UICONTROL Suspend the process]**: Arbetsflödet pausas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst kan du återuppta arbetsflödet med **[!UICONTROL Resume]**-knapparna.
    * **[!UICONTROL Ignore]**: Statusen för den uppgift som utlöste felet ändras till **[!UICONTROL Failed]**, men arbetsflödet behåller statusen **[!UICONTROL Started]**. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
    * **[!UICONTROL Abort the process]**: Arbetsflödet stoppas automatiskt och dess status ändras till **[!UICONTROL Failed]**. När problemet är löst startar du om arbetsflödet med **[!UICONTROL Start]**-knapparna.
 
-* **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när värdet **[!UICONTROL Ignore]** har valts i fältet **[!UICONTROL In case of errors]**. Du kan ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas aldrig arbetsflödet oavsett antalet fel.
+* **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när värdet **[!UICONTROL Ignore]** har valts i fältet **[!UICONTROL In case of errors]**. Du kan ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas arbetsflödet aldrig, oavsett antalet fel.
 
 ## Initieringsskript {#initialization-script}
 

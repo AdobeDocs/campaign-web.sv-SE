@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Använda arbetsflödesaktiviteten Läs in fil
+title: Använd aktiviteten Läs in filarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
@@ -15,29 +15,29 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Läs in filaktivitet"
->abstract="Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för anpassning, för att uppdatera profiler eller andra tabeller. "
+>abstract="Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten om du vill arbeta med data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen kan anpassas, eller för att uppdatera profiler eller någon annan tabell. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Avvisa utgående övergång för hantering"
->abstract="Avvisa utgående övergång för hantering"
+>title="Avvisa utgående hanteringsövergång"
+>abstract="Avvisa utgående hanteringsövergång"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Avvisa utgående övergång för hantering av avslag"
->abstract="Avvisa utgående övergång för hantering av avslag"
+>title="Avvisa utgående hanteringsövergång för avslag"
+>abstract="Avvisa utgående hanteringsövergång för avslag"
 
 
-Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [anpassning](../../personalization/gs-personalization.md), för att uppdatera profiler eller andra tabeller.
+Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten om du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [anpassning](../../personalization/gs-personalization.md), för att uppdatera profiler eller någon annan tabell.
 
 >[!NOTE]
->Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Du kan läsa in filer som är högst 50 MB stora.
+>Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Du kan läsa in filer med en maximal storlek på 50 MB.
 
 Den här aktiviteten kan användas med en [avstämningsaktivitet](reconciliation.md) för att länka oidentifierade data till befintliga resurser. Aktiviteten **Läs in fil** kan till exempel placeras före en **avstämningsaktivitet** om du importerar data som inte är standard till databasen.
 
 ## Konfigurera aktiviteten Läs in fil {#load-configuration}
 
-Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Först måste du definiera den förväntade filstrukturen genom att överföra en exempelfil.  När du är klar kan du ange ursprunget för filen vars data ska importeras. Konfigurera aktiviteten genom att följa stegen nedan.
+Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Först måste du definiera den förväntade filstrukturen genom att överföra en exempelfil.  När du är klar kan du ange ursprunget för filen vars data ska importeras. Följ stegen nedan för att konfigurera aktiviteten.
 
 ![](../assets/workflow-load-file.png)
 
@@ -46,12 +46,12 @@ Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Först måste
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="Exempelfil"
->abstract="Välj den förväntade filstrukturen genom att överföra en exempelfil."
+>abstract="Välj den förväntade filstrukturen genom att ladda upp en exempelfil."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="Formatering för aktiviteten Läs in fil"
->abstract="I avsnittet **Formatering** anger du hur filen ska formateras för att säkerställa att data importeras på rätt sätt."
+>title="Formatering för inläsning av filaktivitet"
+>abstract="Ange i avsnittet **Formatering** hur filen ska formateras för att säkerställa att data importeras korrekt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
@@ -60,15 +60,15 @@ Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Först måste
 
 Följ de här stegen för att konfigurera exempelfilen som används för att definiera den förväntade filstrukturen:
 
-1. Lägg till en **Läs in fil**-aktivitet i arbetsflödet.
+1. Lägg till en **Läs in fil**-aktivitet i ditt arbetsflöde.
 
-1. Välj den exempelfil som ska användas för att definiera den förväntade filstrukturen. Det gör du genom att klicka på knappen **Markera fil** i avsnittet **[!UICONTROL Sample file]** och välja den lokala fil som ska användas.
+1. Markera exempelfilen som ska användas för att definiera den förväntade filstrukturen. Om du vill göra det klickar du på knappen **Välj fil** i avsnittet **[!UICONTROL Sample file]** och väljer den lokala fil som ska användas.
 
    >[!NOTE]
    >
-   >Data i exempelfilen används för att konfigurera aktiviteten men importeras inte.  Vi rekommenderar att du använder en exempelfil som innehåller lite data. Filformatet måste justeras mot den här [exempelfilen](../../audience/file-audience.md#sample-file).
+   >Data i exempelfilen används för att konfigurera aktiviteten men importeras inte.  Vi rekommenderar att du använder en exempelfil som innehåller lite data. Filformatet måste justeras mot denna [exempelfil](../../audience/file-audience.md#sample-file).
 
-1. En förhandsgranskning av exempelfilen visas med högst 30 rader.
+1. En förhandsvisning av exempelfilen visas med högst 30 rader.
 
 1. Ange om filen använder avgränsade kolumner eller kolumner med fast bredd i listrutan **[!UICONTROL File type]**.
 
@@ -83,9 +83,9 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
    * **[!UICONTROL Width]** (strängdatatyp): Maximalt antal tecken som ska visas i kolumnen.
    * **[!UICONTROL Data Transformation]** (strängdatatyp): Använd omformning på värdena i kolumnen.
    * **[!UICONTROL White space management]** (strängdatatyp): Ange hur blanksteg i kolumnen ska hanteras.
-   * **[!UICONTROL Separators]** (datatyperna datum, tid, heltal och tal)*: Ange de tecken som ska användas som avgränsare.
-   * **[!UICONTROL Allow NULLs]**: Ange hur tomma värden i kolumnen ska hanteras. Alternativet&quot;Adobe Campaign-standard&quot; genererar ett fel om det finns ett tomt värde.
-   * **[!UICONTROL Error processing]** (strängdatatyp): Ange beteende om det finns fel på en av raderna.
+   * **[!UICONTROL Separators]** (datatyperna date, time, integer och number)*: Ange vilka tecken som ska användas som avgränsare.
+   * **[!UICONTROL Allow NULLs]**: Ange hur tomma värden i kolumnen ska hanteras. Alternativet &quot;Adobe Campaign-standard&quot; ger ett felmeddelande om det finns något tomt värde.
+   * **[!UICONTROL Error processing]** (strängdatatyp): Ange beteendet om fel uppstår på någon av raderna.
    * **[!UICONTROL Value remapping]**: Med det här alternativet kan du mappa specifika värden med nya. Om kolumnen till exempel innehåller värdena &quot;Sant&quot;/&quot;Falskt&quot; kan du lägga till en mappning som automatiskt ersätter dessa värden med tecknen &quot;0&quot;/&quot;1&quot;.
 
 +++
@@ -97,12 +97,12 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="Målfil för aktiviteten Läs in fil"
->abstract="I avsnittet **[!UICONTROL Target file]** anger du hur filen ska hämtas till servern."
+>abstract="Ange hur filen ska hämtas till servern i avsnittet **[!UICONTROL Target file]**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="Filens namn"
->abstract="Ange namnet på fältet som ska överföras till servern. Klicka på ikonen **[!UICONTROL Open personalization dialog]** om du vill använda uttrycksredigeraren, inklusive händelsevariabler, för att beräkna filnamnet."
+>abstract="Ange namnet på fältet som ska överföras till servern. Klicka på ikonen **[!UICONTROL Open personalization dialog]** för att använda uttrycksredigeraren, inklusive händelsevariabler, för att beräkna filnamnet."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
@@ -116,15 +116,15 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 
 >[!CAUTION]
 >
->Innan du läser in målfilen kontrollerar du att den följer exempelfilens formatering. Eventuella avvikelser i filformat, kolumnstruktur eller antal kolumner kan leda till fel under körningen av arbetsflödet.
+>Innan du läser in målfilen bör du kontrollera att den följer exempelfilformatet. Eventuella skillnader i filformat, kolumnstruktur eller antal kolumner kan leda till fel under arbetsflödeskörningen.
 
-Så här definierar du målfilen som ska överföras:
+Gör så här för att definiera vilken målfil som ska överföras:
 
-1. I avsnittet **[!UICONTROL Target file]** anger du vilken åtgärd som ska utföras när filen som ska överföras till servern hämtas.
+1. Ange i avsnittet **[!UICONTROL Target file]** vilken åtgärd som ska utföras när filen hämtas och laddas upp till servern.
 
-   * **[!UICONTROL Upload file from local machine]**: Välj den fil som ska överföras från datorn.
+   * **[!UICONTROL Upload file from local machine]**: Välj filen som du vill överföra från datorn.
 
-   * **[!UICONTROL Specified in the transition]**: Överför filen som anges i den inkommande övergången som kommer från en tidigare aktivitet som **[!UICONTROL Transfer file]**.
+   * **[!UICONTROL Specified in the transition]**: Överför den angivna filen i den inkommande övergången som kommer från en tidigare aktivitet som **[!UICONTROL Transfer file]**.
 
    * **[!UICONTROL Pre-process the file]**: Överför filen som angavs i föregående övergång och använd ett förbehandlingskommando på den, till exempel **[!UICONTROL Decompression]** eller **[!UICONTROL Decrypt]**.
 
@@ -140,18 +140,18 @@ Så här definierar du målfilen som ska överföras:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="Avvisa hantering för Läs in filaktivitet"
->abstract="I avsnittet **Avvisningshantering** anger du hur aktiviteten ska fungera om fel uppstår. Du kan definiera det maximala antalet fel som tillåts och växla **[!UICONTROL Keep rejects in a file]**-alternativet för att hämta en fil som innehåller felen som inträffade under importen till servern."
+>title="Avvisa hantering för inläsning av filaktivitet"
+>abstract="Ange hur aktiviteten ska fungera vid fel i avsnittet **Avvisa hantering**. Du kan definiera det maximala antalet fel som tillåts och växla alternativet **[!UICONTROL Keep rejects in a file]** för att hämta en fil som innehåller de fel som inträffade under importen till servern."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Ta bort fil efter import"
->abstract="Om du vill ta bort originalfilen från servern efter att filen har importerats växlar du mellan **Ta bort filen efter importen**."
+>abstract="Växla **Ta bort fil efter import** om du vill ta bort originalfilen från servern när filen har importerats."
 
 
-1. I avsnittet **Avvisningshantering** anger du hur aktiviteten ska fungera om fel uppstår:
+1. Ange hur aktiviteten ska fungera vid fel i avsnittet **Avvisa hantering**:
 
-   * I fältet **[!UICONTROL Number of errors allowed]** anger du det maximala antalet fel som tillåts när filen som ska läsas in bearbetas. Om värdet till exempel är 20 misslyckas arbetsflödeskörningen om det finns mer än 20 fel när filen läses in.
+   * I fältet **[!UICONTROL Number of errors allowed]** anger du det maximala antalet fel som tillåts när filen ska läsas in. Om värdet till exempel är 20 misslyckas arbetsflödeskörningen om det finns mer än 20 fel när filen läses in.
 
    * Om du vill behålla felen som uppstod när filen lästes in aktiverar du alternativet **[!UICONTROL Keep rejects in a file]** och anger önskat namn för filen i fältet **[!UICONTROL Rejection File]**.
 
@@ -165,4 +165,4 @@ Så här definierar du målfilen som ska överföras:
 
 ## Exempel {#load-example}
 
-Ett exempel på en extern filinläsning som används med aktiviteten **Avstämning** finns i [det här avsnittet](reconciliation.md#reconciliation-example).
+Ett exempel på en extern fil som läses in och som används med aktiviteten **Avstämning** finns i [det här avsnittet](reconciliation.md#reconciliation-example).

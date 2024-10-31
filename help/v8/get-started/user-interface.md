@@ -55,7 +55,7 @@ Dessutom kan du komma åt hjälpsidor för Adobe Campaign webbnyckel från **Lea
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
 >title="Om webben"
->abstract="I webbavsnittet visas versionen av användargränssnittet för Campaign-webben, med det senaste uppdateringsdatumet, om tillgängligt."
+>abstract="I webbavsnittet visas versionen av användargränssnittet för Campaign Web, med senaste uppdateringsdatum om det finns tillgängligt."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
@@ -69,19 +69,19 @@ Längst ned på sidan finns länken **[!UICONTROL About]** med information om di
 Avsnittet **Instans** innehåller viktig information om konsolklienten, inklusive både **version** och det associerade **build**-numret.
 
 * **versionen** refererar till den officiella versionen som du använder,
-* **build** refererar till en specifik upprepning av den versionen.
+* **Build** refererar till en specifik upprepning av den versionen.
 
-Både version- och build-nummer är avgörande för felsökning, eftersom de hjälper dig att avgöra exakt vilka funktioner och korrigeringar som finns i din miljö.
+Både version- och versionsnummer är avgörande för felsökningen, eftersom de hjälper till att avgöra exakt vilka funktioner och korrigeringar som finns i miljön.
 
-I avsnittet **Webb** visas versionen av användargränssnittet för Campaign-webben, med det senaste uppdateringsdatumet, om det är tillgängligt. Detta hjälper till att spåra ändringar eller förbättringar som gjorts i användargränssnittet för Campaign-webben.
+I avsnittet **Webb** visas versionen av användargränssnittet för Campaign-webbplatsen med senaste uppdateringsdatum om det finns tillgängligt. Detta hjälper dig att spåra ändringar eller förbättringar som gjorts i användargränssnittet för Campaign Web.
 
-Avsnittet **Installerade paket** innehåller alla moduler, funktioner och integreringar som finns i din instans. Dessa paket utökar Adobe Campaign funktionalitet så att det kan utföra specialiserade uppgifter som att integrera med andra Adobe-lösningar eller aktivera specifika arbetsflöden. Med tanke på det stora antalet paket kan du göra en undersökning i det här avsnittet för att snabbt kontrollera om en viss modul är installerad i instansen.
+Avsnittet **Installerade paket** innehåller alla moduler, funktioner och integreringar som finns i din instans. Dessa paket utökar funktionerna i Adobe Campaign så att företaget kan utföra specialiserade uppgifter som att integrera med andra Adobe-lösningar eller aktivera specifika arbetsflöden. Med tanke på det stora antalet paket kan du göra en undersökning i det här avsnittet för att snabbt kontrollera om en viss modul är installerad i instansen.
 
 ![](assets/about.png){zoomable="yes"}
 
-## Navigeringsmeny till vänster {#user-interface-left-nav}
+## Vänster navigeringsmeny {#user-interface-left-nav}
 
-Bläddra bland länkarna till vänster för att få tillgång till Adobe Campaign webbfunktioner. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan också konfigurera kolumner så att all information som du behöver visas. Se [avsnittet](#list-screens). Vissa listskärmar är skrivskyddade. Vilka alternativ som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
+Bläddra bland länkarna till vänster och få tillgång till Adobe Campaign Web-funktionerna. Flera länkar visar listor med objekt som kan sorteras och filtreras. Du kan även konfigurera kolumner så att all information som du behöver visas. Se det här [avsnittet](#list-screens). Vissa listskärmar är skrivskyddade. Vilka objekt som visas på den vänstra navigeringsmenyn och i listorna beror på dina användarbehörigheter. Läs mer om behörigheter i [det här avsnittet](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}
@@ -139,7 +139,7 @@ I avsnittet KUNDHANTERING kan du visa dina profiler, målgrupper och prenumerati
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Erbjudanden"
->abstract="Bläddra igenom listorna med erbjudanden och erbjudandemallar som har skapats i konsolen med modulen **Interaktion** . De här listorna är skrivskyddade."
+>abstract="Bläddra igenom listan med erbjudanden och erbjudandemallar som har skapats i konsolen med modulen **Interaktion**. De här listorna är skrivskyddade."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Lägg till erbjudanden till en leverans"
 
 I avsnittet BESLUTSHANTERING kan du visa erbjudandemallar. De här listorna är skrivskyddade.
@@ -150,14 +150,14 @@ Lär dig hur du skapar och skickar erbjudanden i e-postmeddelanden och SMS i [de
 
 ### Rapportering {#left-nav-reporting}
 
-* **Rapporter** - Posten **Rapport** innehåller en samlad sammanfattning av trafik- och interaktionsstatistik för varje kanal i Campaign-miljön. Rapporterna består av olika widgetar, som var och en har ett distinkt perspektiv på kampanjen eller leveransresultatet. Läs mer i [det här avsnittet](../reporting/global-reports.md).
+* **Rapporter** - Posten **Rapport** innehåller en konsoliderad övergripande sammanfattning av trafik- och engagemangsmått för varje kanal i kampanjmiljön. Dessa rapporter består av olika widgets som var och en ger ett tydligt perspektiv på din kampanj eller dina resultat. Läs mer i [det här avsnittet](../reporting/global-reports.md).
 
 ### Administration {#left-nav-admin}
 
 
 * **Granskningsspårning** - Posten **Granskningsspårning** ger användarna fullständig synlighet för alla ändringar som görs i viktiga entiteter i instansen, vanligtvis de som påverkar en smidig funktion i instansen avsevärt. [Läs mer](../reporting/audit-trail.md)
 
-* **Externa konton** - Skapa nya externa konton med webbanvändargränssnittet för att uppfylla dina specifika behov och säkerställa sömlösa dataöverföringar. [Läs mer](../administration/external-account.md)
+* **Externa konton** - Skapa nya externa konton med webbanvändargränssnittet för att uppfylla dina specifika behov och säkerställa smidiga dataöverföringar. [Läs mer](../administration/external-account.md)
 
 * **Scheman** - Anpassade fält är ytterligare attribut som har lagts till i scheman som är klara att användas via Adobe Campaign-konsolen. [Läs mer](../administration/custom-fields.md)
 
@@ -316,12 +316,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Registrerings-ID"
->abstract="Ange hur posterna i databasen ska identifieras: om data relaterar till en befintlig måldimension väljer du alternativet **Använda måldimensionen** och väljer måldimensionen och fälten som ska uppdateras. I annat fall anger du en eller flera anpassade länkar för att identifiera data i databasen eller direkt användning av avstämningsnycklar."
+>title="Post-ID"
+>abstract="Ange hur posterna i databasen ska identifieras: om data relaterar till en befintlig måldimension väljer du alternativet **Använda måldimensionen** och väljer måldimensionen och fälten som ska uppdateras. Annars anger du en eller flera anpassade länkar för att identifiera data i databasen eller direkt användning av avstämningsnycklar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Välj fält som ska uppdateras"
+>title="Markera fält som ska uppdateras"
 >abstract="Markera fälten som ska uppdateras och avstämningsinställningarna. Du kan använda alternativet **Automatisk mappning** för att automatiskt identifiera de fält som ska uppdateras."
 
 >[!CONTEXTUALHELP]

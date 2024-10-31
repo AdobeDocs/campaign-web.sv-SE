@@ -53,7 +53,7 @@ Nu när du har en förståelse för vilka innehållsfragment som är och vad du 
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="Lägg till visuella fragment i e-postmeddelanden" src="assets/do-not-localize/visual.png">
+<img alt="Lägg till visuella fragment i dina e-postmeddelanden" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>Lägg till visuella fragment i e-postmeddelanden</strong>
 </div>
@@ -61,7 +61,7 @@ Nu när du har en förståelse för vilka innehållsfragment som är och vad du 
 </td>
 <td>
 <a href="use-expression-fragments.md">
-<img alt="Lägga till uttrycksfragment i uttrycksredigeraren" src="assets/do-not-localize/expression.png">
+<img alt="Lägg till uttrycksfragment i uttrycksredigeraren" src="assets/do-not-localize/expression.png">
 </a>
 <div>
 <a href="use-expression-fragments.md"><strong>Använd uttrycksfragment i uttrycksredigeraren</strong></a>
