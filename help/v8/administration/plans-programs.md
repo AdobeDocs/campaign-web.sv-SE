@@ -3,20 +3,14 @@ audience: end-user
 title: Planer och program
 description: Lär dig skapa och konfigurera planer och program i Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Planer och program {#plan-and-programs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Planer och program"
->abstract="Nu kan du konfigurera din mapphierarki för marknadsföringsplaner och program i gränssnittet för Campaign-webben."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Med Adobe Campaign kan du konfigurera mapphierarkin för marknadsföringsplaner och program.
 

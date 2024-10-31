@@ -3,20 +3,14 @@ audience: end-user
 title: Använda en svällningsgrupp
 description: Lär dig hur du använder en svällningsgrupp för leverans i gränssnittet för Campaign-webben
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Använda en svällningsgrupp {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Svällningsgrupp"
->abstract="Du kan använda en svällningsgrupp för att inkludera specifika adresser i leveranser för att övervaka och verifiera distributionsprocessen genom att rikta profiler som inte matchar de definierade målvillkoren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 En **[!UICONTROL trap group]** (kallas även **[!UICONTROL Seed list]**) används för att inkludera specifika adresser i leveranser för att övervaka och verifiera distributionsprocessen genom att rikta profiler som inte matchar de definierade målvillkoren. På så sätt kan mottagare som ligger utanför leveransomfånget ta emot leveransen, precis som andra målmottagare gör.
 
