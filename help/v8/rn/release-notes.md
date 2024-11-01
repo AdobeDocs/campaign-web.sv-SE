@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 8%
 
 ---
@@ -91,3 +91,5 @@ Följande funktioner och förbättringar är tillgängliga från och med oktober
 * **Version- och systeminformation** - Nu kan du komma åt information om dina instansversioner, både för klientkonsolen och webbanvändargränssnittet. I det nya avsnittet visas även alla inbyggda paket som är installerade i din miljö. [Läs mer](../get-started/user-interface.md#user-interface-about)
 
 * **Listor** - Nu kan du enkelt ändra ordningen på värdena i en lista. [Läs mer](../get-started/work-with-folders.md)
+
+* **Leverans** - Leveransvariabeln är nu tillgänglig från personaliseringsfält. [Läs mer](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
