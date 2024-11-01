@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med AI Assistant Content Accelerator
 description: Kom igång med AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 # Arbeta med AI Assistant Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="AI Assistant Content Accelerator"
 >abstract="Med AI Assistant kan man skapa och köra marknadsföringskampanjer i olika kanaler, som e-post, SMS och push-meddelanden, på ett intuitivt, enkelt och problemfritt sätt samtidigt som man sparar tid, förbättrar effektiviteten och får bättre resultat."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"

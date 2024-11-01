@@ -30,7 +30,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Lägg till strukturer"
->abstract="Strukturer definierar mallens layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja utforma mallinnehållet."
+>abstract="Strukturer definierar mallens layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa mallinnehållet."
 
 
 >[!CONTEXTUALHELP]
@@ -41,12 +41,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Definiera landningssidans kolumner"
->abstract="Med Email Designer kan du enkelt definiera layouten för din landningssida genom att definiera kolumnstrukturen."
+>abstract="Med e-post-Designer kan du enkelt definiera layouten för landningssidan genom att definiera kolumnstrukturen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Definiera kolumner för innehållsfragment"
->abstract="Med e-post-Designer kan du enkelt definiera layouten för innehållsfragmentet genom att definiera kolumnstrukturen."
+>abstract="Med e-post-Designer kan du enkelt definiera layouten för ditt innehållsfragment genom att definiera kolumnstrukturen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
@@ -59,11 +59,11 @@ Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
-1. På startsidan för [Skicka e-post till Designer](get-started-email-designer.md#start-authoring) väljer du alternativet **[!UICONTROL Design from scratch]**.
+1. Välj alternativet **[!UICONTROL Design from scratch]** på hemsidan [E-posta Designer](get-started-email-designer.md#start-authoring) .
 
    ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
-1. Börja utforma ditt e-postinnehåll genom att dra och släppa **[!UICONTROL Structures]** på arbetsytan för att definiera layouten för e-postmeddelandet.
+1. Börja designa ditt e-postinnehåll genom att dra och släppa **[!UICONTROL Structures]** på arbetsytan för att definiera layouten för e-postmeddelandet.
 
    >[!NOTE]
    >
@@ -79,9 +79,9 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
    >
    >Varje kolumnstorlek får inte vara mindre än 10 % av strukturkomponentens totala bredd. Du kan inte ta bort en kolumn som inte är tom.
 
-1. Dra och släpp så många element du behöver från avsnittet **[!UICONTROL Components]** till en eller flera strukturer. [Läs mer om innehållskomponenter](content-components.md)
+1. I avsnittet **[!UICONTROL Components]** drar och släpper du så många element du behöver i en eller flera strukturer. [Läs mer om innehållskomponenter](content-components.md)
 
-1. Du kan anpassa varje komponent ytterligare med flikarna **[!UICONTROL Settings]** eller **[!UICONTROL Style]** till höger. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent. [Läs mer om justering och utfyllnad](alignment-and-padding.md)
+1. Varje komponent kan anpassas ytterligare med flikarna **[!UICONTROL Settings]** eller **[!UICONTROL Style]** till höger. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent. [Läs mer om justering och utfyllnad](alignment-and-padding.md)
 
    ![](assets/email_designer-styles.png){zoomable="yes"}
 
@@ -89,26 +89,26 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
 1. Lägg till länkar till ditt innehåll.
 
-   Klicka på fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som kommer att spåras. Du kan ändra deras **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]** och lägga till **[!UICONTROL Categories]** om det behövs.
+   Klicka på fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som ska spåras. Du kan ändra deras **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]** och lägga till **[!UICONTROL Categories]** vid behov.
 
 [Läs mer om länkar och meddelandespårning](message-tracking.md)
 
    ![](assets/email_designer-links.png){zoomable="yes"}
 
-1. Om det behövs kan du anpassa e-postadressen ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** i den avancerade menyn. Detta gör att du kan redigera e-postkällkoden, till exempel för att lägga till spårning eller anpassade HTML -taggar. [Läs mer om kodredigeraren](code-content.md)
+1. Om det behövs kan du anpassa din e-post ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. På så sätt kan du redigera e-postkällkoden, till exempel för att lägga till spårningstaggar eller anpassade HTML-taggar. [Läs mer om kodredigeraren](code-content.md)
 
    >[!CAUTION]
    >
-   >Du kan inte återgå till den visuella designern för det här e-postmeddelandet efter att du har bytt till kodredigeraren.
+   >Du kan inte återgå till den visuella designern för det här e-postmeddelandet efter att du har växlat till kodredigeraren.
 
 1. När innehållet är klart klickar du på **[!UICONTROL Simulate content]** för att kontrollera din e-poståtergivning. Du kan välja skrivbordsvy eller mobilvy. [Läs mer om hur du förhandsgranskar ditt e-postmeddelande](../preview-test/preview-test.md)
 
    ![](assets/email_designer-simulate.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Save]** när din e-post är klar.
+1. När e-postmeddelandet är klart klickar du på **[!UICONTROL Save]**.
 
 ## Instruktionsvideo {#video}
 
-Lär dig navigera i e-postmeddelandet från Designer. Lär dig hur du strukturerar och designar ett e-postmeddelande från början, hur du anpassar och testar din e-post.
+Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, hur du anpassar och testar e-postmeddelandet.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

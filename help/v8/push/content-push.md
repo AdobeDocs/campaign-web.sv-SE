@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Skicka iOS-meddelande"
->abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på fälten **Titel** och **Meddelande** för att skapa meddelandet. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill ha mer anpassad konfiguration bläddrar du till avsnittet **Avancerade inställningar**."
+>abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på fälten **Titel** och **Meddelande** för att skapa meddelandet. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill ha mer anpassad konfiguration går du till avsnittet **Avancerade inställningar**."
 
 
 >[!CONTEXTUALHELP]
@@ -135,7 +135,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 | **[!UICONTROL Tag]** | Ange en identifierare som ska användas för att ersätta befintliga meddelanden i meddelanderutan. Detta förhindrar att flera meddelanden ackumuleras och säkerställer att endast den senaste relevanta aviseringen visas. |
 | **[!UICONTROL Priority]** | Ange prioritetsnivån för meddelandet, som kan vara standard, minimum, low eller high. Prioritetsnivån avgör hur viktigt och brådskande meddelandet är, vilket påverkar hur det visas och om det kan kringgå vissa systeminställningar. Mer information finns i [FCM-dokumentationen](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
 | **[!UICONTROL Visibility]** | Ange synlighetsnivån för ditt meddelande, som kan vara offentlig, privat eller hemlig. Synlighetsnivån avgör hur mycket av meddelandets innehåll som visas på låsskärmen och andra känsliga områden. Mer information finns i [FCM-dokumentationen](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
-| **[!UICONTROL Sticky]** | När det är aktiverat förblir meddelandet synligt även efter att användaren har klickat på det. <br>Om det inaktiveras stängs meddelandet automatiskt när användaren interagerar med det. Tack vare det klibbiga beteendet kan viktiga meddelanden finnas kvar på skärmen under längre perioder. |
+| **[!UICONTROL Sticky]** | När det är aktiverat visas meddelandet även när användaren klickar på det. <br>Om det inaktiveras stängs meddelandet automatiskt när användaren interagerar med det. Tack vare det klibbiga beteendet kan viktiga meddelanden finnas kvar på skärmen under längre perioder. |
 | **[!UICONTROL Application variables]** | Gör att du kan definiera meddelandebeteende. Dessa variabler är helt anpassningsbara och ingår som en del av den meddelandenyttolast som skickas till den mobila enheten. |
 
 >[!TAB iOS]

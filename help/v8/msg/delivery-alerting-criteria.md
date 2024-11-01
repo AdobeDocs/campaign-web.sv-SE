@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Leveransavisering
-description: Lär dig arbeta med leveransaviseringar.
+title: Leveransvarningar
+description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Kriterier för leveransavisering {#delivery-alerting-criteria}
+# Villkor för leveransvarning {#delivery-alerting-criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Kontrollpanel för leveransvarningsvillkor"
+>title="Kontrollpanel för leveransaviseringskriterier"
 >abstract="Campaign Web User Interface innehåller fördefinierade varningsvillkor (leveranser med låg genomströmning, leveranser vars förberedelse misslyckades ...) som du kan lägga till på din instrumentpanel. Du kan också skapa egna kriterier som passar dina behov."
 
 Campaign Web User Interface innehåller fördefinierade varningsvillkor (leveranser med låg genomströmning, leveranser vars förberedelse misslyckades ...) som du kan lägga till på din instrumentpanel. Du kan också skapa egna kriterier som passar dina behov.
@@ -25,12 +25,12 @@ Varningsvillkoren är tillgängliga på menyn **Leveransvarning** i den vänstra
 
 ## Fördefinierade aviseringskriterier {#ootb-criteria}
 
-Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface. Dessa kriterier omfattar en rad scenarier, som anges nedan:
+Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface. Dessa kriterier omfattar en rad olika scenarier som anges nedan:
 
-* **Leveranser misslyckades**: En leverans har schemalagts inom ett angivet intervall med en felaktig status.
+* **Leveranser misslyckades**: Alla leveranser som har schemalagts inom ett definierat intervall, med en felaktig status.
 * **Leveranser med förberedelse misslyckades**: Alla leveranser som har ändrats inom ett definierat intervall, för vilka förberedelsesteget (målberäkning och innehållsgenerering) har misslyckats.
-* **Leverans med felaktig felkvot för mjuka studsar**: Alla leveranser som har schemalagts inom ett definierat intervall, med en status som minst Pågår, med en felkvot för mjuk studs som är större än en angiven procentandel.
-* **Leverans med felaktig felkvot för hårda studsar**: Alla leveranser som har schemalagts inom ett definierat intervall, med en status som minst Pågår, med en felkvot för hård studs som är större än en angiven procentandel.
+* **Leverans med felaktig felkvot för mjuka studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår minst, med ett felförhållande för mjuka studsar som är större än en definierad procentandel.
+* **Leverans med felaktig felkvot för hårda studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår minst, med ett felförhållande för hårda studsar som är större än en definierad procentandel.
 * **Leveranser med lång inledande väntande**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Påbörja väntande längre än en definierad varaktighet, startar väntande status, vilket innebär att meddelanden inte har beaktats av systemet än.
 * **Leveranser med lågt dataflöde**: Alla leveranser påbörjades under längre tid än en definierad varaktighet, med mindre än en definierad procentandel av bearbetade meddelanden, med ett dataflöde som är lägre än ett definierat värde.
 * **Pågående leveranser**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår.
@@ -43,13 +43,13 @@ Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface.
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Skapa leveransvarningskriterier"
->abstract="Förutom de fördefinierade varningskriterierna från Adobe Campaign kan du skapa egna kriterier som passar dina behov."
+>title="Skapa leveransaviseringskriterier"
+>abstract="Förutom de fördefinierade varningsvillkoren från Adobe Campaign kan du skapa egna kriterier som passar dina behov."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
->title="Indikatorer som ska läggas till i aviseringar"
->abstract="Välj de indikatorer som ska visas som kolumner i avsnittet Information i e-postmeddelandena."
+>title="Indikatorer att lägga till i aviseringar"
+>abstract="Välj de indikatorer som ska visas som kolumner i avsnittet Detaljer i e-postaviseringarna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
@@ -68,12 +68,12 @@ Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface.
 
 Så här skapar du ett nytt villkor:
 
-1. Gå till menyn **Leverans Àlerting** i det vänstra navigeringsfönstret och välj fliken **Kriterier**.
-1. Klicka på knappen **Skapa leveransaviseringsvillkor**.
+1. Navigera till menyn **Leveransvillkor** i den vänstra navigeringsrutan och välj fliken **Villkor** .
+1. Klicka på knappen **Skapa leveransvillkor**.
 1. Ange en etikett för kriteriet. Det interna namnet fylls i automatiskt och är skrivskyddat.
-1. Med **leveransfiltret som tillämpas av det här kriteriet** kan du förfina kriteriets omfattning genom att tillämpa ett fördefinierat filter på det.
+1. Med **leveransfiltret som används av det här villkoret** kan du förfina villkorets omfång genom att använda ett fördefinierat filter på det.
 
-   I exemplet nedan har filtret **Pågående leveranser (critInProgressDelivery)** valts, vilket innebär att kriteriet endast tar hänsyn till leveranser med statusen Pågående.
+   I exemplet nedan har filtret **Leveranser som bearbetas (critInProgressDeliflows)** valts, vilket innebär att villkoret endast tar hänsyn till leveranser med statusen &quot;Pågår&quot;.
 
    ![](assets/alerting-criteria-properties.png)
 
@@ -89,5 +89,5 @@ Så här skapar du ett nytt villkor:
 
 1. I avsnittet **Villkorsfrekvens** kan du styra hur ofta varningar per dag ska visas för varje leverans som uppfyller villkoret:
 
-   * **Detta leveranskriterium kommer att upprepas i varje meddelande**: Visa en leverans som uppfyller kriteriet i varje e-postavisering under dagen.
-   * **Det här leveranskriteriet skickas endast den första förekomsten av dagen**: Visa en leverans som uppfyller kriteriet endast i dagens första rapport, inte upprepat i efterföljande e-postaviseringar.
+   * **Det här leveransvillkoret upprepas i alla meddelanden**: Visa en leverans som uppfyller villkoret i varje e-postavisering på dagen.
+   * **Det här leveransvillkoret skickas endast första gången dagen**: Visa en leverans som uppfyller villkoret i den första rapporten på dagen, inte upprepat i efterföljande e-postaviseringar.

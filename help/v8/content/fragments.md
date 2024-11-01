@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med innehållsfragment
 description: Lär dig skapa med innehållsfragment
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Kom igång med innehållsfragment {#gs-fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Innehållsfragment"
 >abstract="Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
@@ -53,7 +53,7 @@ Nu när du har en förståelse för vilka innehållsfragment som är och vad du 
 </td>
 <td>
 <a href="use-visual-fragments.md">
-<img alt="Lägg till visuella fragment i dina e-postmeddelanden" src="assets/do-not-localize/visual.png">
+<img alt="Lägg till visuella fragment i e-postmeddelanden" src="assets/do-not-localize/visual.png">
 </a>
 <div><a href="use-visual-fragments.md"><strong>Lägg till visuella fragment i e-postmeddelanden</strong>
 </div>
@@ -61,7 +61,7 @@ Nu när du har en förståelse för vilka innehållsfragment som är och vad du 
 </td>
 <td>
 <a href="use-expression-fragments.md">
-<img alt="Lägg till uttrycksfragment i uttrycksredigeraren" src="assets/do-not-localize/expression.png">
+<img alt="Lägga till uttrycksfragment i uttrycksredigeraren" src="assets/do-not-localize/expression.png">
 </a>
 <div>
 <a href="use-expression-fragments.md"><strong>Använd uttrycksfragment i uttrycksredigeraren</strong></a>

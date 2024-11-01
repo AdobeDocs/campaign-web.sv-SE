@@ -1,14 +1,22 @@
 ---
 title: Externt konto
 description: Lär dig konfigurera externa konton
-source-git-commit: 6ba9706ce0a2b5431fb619093789ad54af65813f
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
 
 # Konfigurera externa konton {#external-accounts}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Externa konton"
+>abstract="Du kan nu ansluta till ytterligare plattformar eller anpassa anslutningarna efter ditt arbetsflöde, och enkelt skapa nya externa konton som uppfyller dina specifika behov och säkerställa smidiga dataöverföringar."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 
 >[!AVAILABILITY]
 >

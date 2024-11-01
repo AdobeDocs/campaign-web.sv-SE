@@ -26,7 +26,7 @@ Följ stegen nedan för att skapa en mall för transaktionsmeddelanden:
 
   ![](assets/transactional-templates.png){zoomable="yes"}
 
-* Välj kanalen för mallen på den nya sidan som visas. I vårt exempel väljer vi **[!UICONTROL Email]** kanal. Du kan också arbeta från en annan meddelandemall och välja den i listan Mallar.
+* Välj kanalen för mallen på den nya sidan som visas. Vi väljer till exempel **[!UICONTROL Email]**-kanal. Du kan också arbeta från en annan meddelandemall och välja den i listan Mallar.
 
   ![](assets/transactional-template-channel.png){zoomable="yes"}
 
@@ -164,7 +164,7 @@ Följ stegen nedan för att skapa ett transaktionsmeddelande:
 
   ![](assets/transactional-configuration.png){zoomable="yes"}
 
-  Fyll i konfigurationen för ditt meddelande som för en mall:
+  Fyll i konfigurationen för meddelandet som för en mall:
    * [Egenskaper för transaktionsmeddelande](#transactional-properties)
    * [Sammanhangsexemplet](#context-sample)
    * [Meddelandeinnehållet](#transactional-content)

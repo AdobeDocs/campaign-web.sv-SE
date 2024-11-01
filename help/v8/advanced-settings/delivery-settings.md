@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Konfigurera leveransinställningar
-description: Lär dig konfigurera leveransinställningar på Campaign Web
+description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
@@ -118,9 +118,9 @@ I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som in
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Leveransinställningar för leveransen"
->abstract="Leveransparametrar är tekniska inställningar som gäller för din leverans. Du kan ändra leverans- och rutinläge, aktivera E-post Hemlig kopia, skicka med påfyllnader och även välja format för de e-postmeddelanden som skickas. De här alternativen är begränsade till expertanvändare."
+>abstract="Leveransparametrar är tekniska inställningar som gäller för leveransen. Du kan ändra leverans- och rutinlägen, aktivera e-postkopia, skicka med hjälp av påfyllnader och även välja formatet för de e-postmeddelanden som skickas. Dessa alternativ är begränsade till expertanvändare."
 
-**[!UICONTROL Delivery]** parametrar är tekniska inställningar som gäller för din leverans.
+**[!UICONTROL Delivery]** parametrar är tekniska inställningar som gäller för leveransen.
 
 ![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
@@ -134,9 +134,9 @@ Du kan definiera inställningarna för **[!UICONTROL Sending]** nedan.
 
   >[!IMPORTANT]
   >
-  >När leveransen skapas genom att en befintlig parameter dupliceras återställs den här parametern.
+  >När leveransen skapas genom duplicering av en befintlig, återställs den här parametern.
 
-* **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa sändning via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
+* **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa att skicka via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
 * **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
@@ -167,18 +167,18 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 
 >[!NOTE]
 >
->Web Analytics-funktioner konfigureras i Campaign-klientkonsolen. Läs mer i [Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
-## Nya försök {#retries}
+## Försök igen {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"
->title="Maximalt antal försök"
+>title="Maximalt antal återförsök"
 >abstract="Om ett meddelande misslyckas på grund av ett tillfälligt fel, utförs nya försök tills slutet av leveransens varaktighet är slut."
 
 <!--Currently not visible in UI > ??-->
 
-Meddelanden som inte levererats tillfälligt på grund av ett mjukt eller ignorerat fel kan automatiskt försöka igen. Som standard är fem nya försök schemalagda för den första leveransdagen med ett minsta intervall på en timme utspritt över dygnets 24 timmar.
+Meddelanden som inte har levererats tillfälligt på grund av ett mjukt eller ignorerat fel kan återförsökas automatiskt. Som standard schemaläggs fem återförsök till den första dagen i leveransen med ett minsta intervall på en timme som sprids ut över dygnets 24 timmar.
 
 ## Godkännande (e-postkanal) {#approval}
 
@@ -189,10 +189,10 @@ Meddelanden som inte levererats tillfälligt på grund av ett mjukt eller ignore
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
->title="Godkännandemetod för leveranserna"
->abstract="Välj godkännandeläge för leveranser baserat på den här mallen. Om varningar genereras under leveransförberedelserna kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte."
+>title="Godkännandeläge för leveranser"
+>abstract="Välj godkännandeläge för leveranser baserat på den här mallen. Om varningar genereras under leveransförberedelsen kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte."
 
-Om varningar genereras under en e-postleveransförberedelse kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta skickandet av e-postmeddelanden i slutet av analysfasen. Detta är **manuell** validering.
+Om varningar genereras under en förberedelse för e-postleverans kan du konfigurera leveransen för att definiera om den fortfarande ska köras eller inte. Som standard måste användaren bekräfta att e-postmeddelanden skickas i slutet av analysfasen: detta är **manuell** validering.
 
 Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga lägen är:
 
@@ -214,7 +214,7 @@ Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga läge
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
->title="Leveranstid"
+>title="Leveransens varaktighet"
 >abstract="I fältet **Leveransvaraktighet** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås."
 
 <!--
@@ -228,24 +228,24 @@ Du kan välja ett annat godkännandeläge i lämpligt fält. Tillgängliga läge
 
 I fältet **[!UICONTROL Delivery duration]** kan du ange gränsen för globala leveransförsök. Detta innebär att Adobe Campaign skickar meddelanden som börjar på startdatumet och sedan, för meddelanden som bara returnerar ett fel, kommer regelbundna, konfigurerbara försök att utföras tills giltighetsgränsen nås.
 
-Du kan också välja att ange datum. Välj **[!UICONTROL Explicitly set validity dates]** för att göra detta. I det här fallet kan du även ange tiden för leverans- och giltighetsdatumen. Den aktuella tiden används som standard, men du kan ändra detta direkt i inmatningsfältet.
+Du kan också välja att ange datum. Välj **[!UICONTROL Explicitly set validity dates]** om du vill göra det. I det här fallet kan du även ange datum för leveransdatum och giltighetsgräns. Den aktuella tiden används som standard, men du kan ändra den direkt i indatafältet.
 
-**[!UICONTROL Resources validity limit]** används för överförda resurser, främst för speglingssidan och bilderna. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme). Efter den gränsen är de här resurserna inte längre tillgängliga.
+**[!UICONTROL Resources validity limit]** används för överförda resurser, främst för spegelsidan och bilder. Resurserna på den här sidan är giltiga under en begränsad tid (för att spara diskutrymme). Efter den här gränsen är resurserna inte längre tillgängliga.
 
 ![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Läs mer om giltighetstiden för leverans i [Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### Spegla sidhantering (e-postkanal) {#mirror}
+### Spegelvänd sidhantering (e-postkanal) {#mirror}
 
 Spegelsidan är en HTML-sida som är tillgänglig online via en webbläsare. Innehållet är identiskt med e-postmeddelandet. Spegelsidan genereras som standard om länken infogas i innehållet i e-postmeddelandet.
 
 Förutom standardläget är följande alternativ också tillgängliga:
 
-* **[!UICONTROL Force the generation of the mirror page]**: Använd det här läget för att generera speglingssidan även om ingen länk till speglingssidan infogas i e-postmeddelandet.
-* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att generera en speglingssida, även om länken finns i e-postmeddelandet.
+* **[!UICONTROL Force the generation of the mirror page]**: Använd det här läget för att generera spegelsidan även om ingen länk till spegelsidan infogas i e-postmeddelandet.
+* **[!UICONTROL Do not generate the mirror page]**: Använd det här läget för att undvika att skapa en spegelsida, även om länken finns i e-postmeddelandet.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: När spegelsidans länk inte finns i e-postinnehållet använder du det här alternativet för att aktivera åtkomst till spegelsidans innehåll från klientkonsolen i leveransloggfönstret.
 
 ### Spåra {#tracking}
@@ -311,13 +311,13 @@ Om du vill göra det aktiverar du växlingsknappen **[!UICONTROL Force the encod
 
 ![](assets/smtp_encoding.png){zoomable="yes"}
 
-### E-postmeddelanden med studs {#bounce-emails}
+### Studsa e-postmeddelanden {#bounce-emails}
 
-På fliken **[!UICONTROL SMTP]** i leveransinställningarna kan du även konfigurera hantering av studsmeddelanden.
+På fliken **[!UICONTROL SMTP]** i leveransinställningarna kan du även konfigurera hanteringen av studsmeddelanden.
 
-* **[!UICONTROL Errors-to-address]**: Om du aktiverar växlingsknappen **[!UICONTROL Use the default error address defined for the platform]** tas studsade e-postmeddelanden emot i plattformens standardfelruta. Om du inte aktiverar den kan du definiera en specifik feladress för leveransen.
+* **[!UICONTROL Errors-to-address]**: Om du aktiverar växeln **[!UICONTROL Use the default error address defined for the platform]** tas studsade e-postmeddelanden emot i standardfelrutan för plattformen. Om du inte aktiverar den kan du definiera en specifik feladress för leveransen.
 
-* **[!UICONTROL Bounce address]**: Du kan också definiera en annan adress som de obearbetade, studsade e-postmeddelandena vidarebefordras till. Med den här adressen kan du undersöka orsakerna till att e-postmeddelanden studsar när programmet inte kan kvalificera dem automatiskt.
+* **[!UICONTROL Bounce address]**: Du kan också definiera en annan adress dit obearbetade studsade e-postmeddelanden vidarebefordras. Med den här adressen kan du undersöka orsaken till att studsa när e-postmeddelanden inte automatiskt kunde kvalificeras av programmet.
 
 Dessa två fält kan anpassas enligt beskrivningen i [det här avsnittet](../personalization/gs-personalization.md).
 
