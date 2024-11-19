@@ -3,9 +3,9 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientko
 * **Marknadskalender**. Kampanjkalendern visar alla program, planer, kampanjer och leveranser i en global tidslinje. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
 * **Program och planer**. Varje kampanj tillhör ett program som tillhör en plan. I Campaign Web-användargränssnittet är alla kampanjer kopplade till en inbyggd standardplan och ett standardprogram. Du kan bara skapa och hantera planer och program i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
 * **Providers, budget och kostnadshantering**. Ni kan konfigurera tjänsteleverantörer som deltar i de jobb som utförs inom era kampanjer, inklusive kostnadsstrukturer, och hantera budgeten inom varje program och kampanj. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* **Distribuerad marknadsföring** (Central/lokal marknadsföring). Adobe Campaign erbjuder en app för distribuerad marknadsföring för att implementera samarbetskampanjer mellan centrala enheter (huvudkontor, marknadsföringsavdelningar osv.) och lokala enheter (säljställen, regionala organ osv.). Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
+* **Distribuerad marknadsföring** (Central/lokal marknadsföring). Adobe Campaign erbjuder en app för distribuerad marknadsföring för att implementera samverkanskampanjer mellan centrala enheter (huvudkontor, marknadsföringsavdelningar osv.) och lokala enheter (säljställen, regionala myndigheter osv.). Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
 * **Hantering av marknadsföringsresurser** (MRM), mål, simuleringar och kostnadskontroll. Adobe Campaign erbjuder en MRM-app (Marketing Resource Management) som gör att ni kan styra marknadsföringsåtgärder i ett samverkansbaserat läge genom att tillhandahålla fullständig hantering och realtidsspårning av uppgifter, budget och marknadsföringsresurser. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * **Aktivitetshantering**. Som en del av MRM-appen kan kampanjaktiviteter skapas, tilldelas, spåras och övervakas från kontrollpanelen för kampanjer. Den här funktionen är bara tillgänglig i klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
@@ -176,6 +176,11 @@ Datahantering kombinerar en uppsättning aktiviteter för att lösa komplexa pro
 Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Godkännanden {#approvals-capabilities}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Godkännandehantering"
+>abstract="Godkännandehantering är bara tillgängligt från klientkonsolen. "
 
 Användargränssnittet för Campaign-webben hanterar inte godkännande av innehåll, leveranser, arbetsflöden, kampanjer och mål. De är bara tillgängliga i klientkonsolen.
 
