@@ -3,9 +3,9 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1530'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,15 @@ Med användargränssnittet för Campaign-webben kan du skapa, designa och public
 
 ## Åtkomst till landningssidor {#access-landing-pages}
 
-Välj **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** på den vänstra menyn för att komma åt landningssidans lista.
+Välj **[!UICONTROL Content management]** > **[!UICONTROL Landing pages]** på den vänstra menyn för att komma åt landningssidans lista.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-Lagret **[!UICONTROL Landing pages]** visar alla skapade artiklar. Du kan filtrera dem med knappen **[!UICONTROL Show filters]**. Du kan begränsa resultaten till en viss [mapp](../get-started/permissions.md#folders) med hjälp av listrutan eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
+Lagret **[!UICONTROL Landing pages]** visar alla skapade artiklar. Du kan filtrera dem med knappen **[!UICONTROL Show filters]**.
+
+* Du kan filtrera objekt som du har skapat eller ändrat.
+
+* Du kan begränsa resultaten till en viss [mapp](../get-started/permissions.md#folders) med hjälp av listrutan eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1004'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Flera tjänster kan definieras parallellt, till exempel: nyhetsbrev för specifi
 
 Följ stegen nedan för att få tillgång till prenumerationstjänster som är tillgängliga för din plattform.
 
-1. Bläddra till menyn **[!UICONTROL Subscription services]** i den vänstra navigeringslisten.
+1. Bläddra till menyn **[!UICONTROL Subscription services]** i den vänstra navigeringslisten, under **[!UICONTROL Customer management]**.
 
    ![](assets/service-list.png){zoomable="yes"}
 
