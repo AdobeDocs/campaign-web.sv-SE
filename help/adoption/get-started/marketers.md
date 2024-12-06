@@ -3,13 +3,13 @@ title: Kom igång med Adobe Campaign v8 för marknadsförare
 description: Upptäck de viktigaste funktionerna i Campaign v8. Det är till för marknadsförare som migrerar från Campaign Standard till Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång för marknadsförare {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Länkar:
    * Lär dig [schemalägga en fristående leverans](../../v8/msg/gs-deliveries.md#gs-schedule)
    * Lär dig [schemalägga en leverans i ett arbetsflöde](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **LÄGG TILL erbjudanden** - Du kan lägga till erbjudanden i dina leveranser i Adobe Campaign webbgränssnitt. Erbjudandena finns på den vänstra menyn Erbjudanden, där du får tillgång till listan över erbjudanden.  Lär dig hur du [lägger till erbjudanden i dina meddelanden](../../v8/msg/offers.md)
+* **Lägg till erbjudanden** - Du kan lägga till erbjudanden i dina leveranser i Adobe Campaign webbgränssnitt. Erbjudandena finns på den vänstra menyn Erbjudanden, där du får tillgång till listan över erbjudanden.  Lär dig hur du [lägger till erbjudanden i dina meddelanden](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
