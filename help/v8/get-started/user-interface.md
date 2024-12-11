@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2053'
 ht-degree: 1%
 
 ---
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Starta databasuppdatering"
 >abstract="Schema"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="Egenskaper för målmappning"
+>abstract="Egenskaper för målmappning"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="Målmappning"
+>abstract="Målmappning"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="Blockeringslista för målmappning"
+>abstract="Blockeringslista för målmappning"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="Lagring för målmappning"
+>abstract="Lagring nekas för målmappning"
