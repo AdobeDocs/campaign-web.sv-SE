@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du arbetar med målgrupper på Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 >id="acw_audiences_count"
 >title="Målgruppsstorlek"
 >abstract="Här hittar du det totala antalet profiler inom målgruppen. Klicka på knappen **Beräkna** för att uppdatera och beräkna målgruppsresultaten på nytt."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Målinriktning"
+>abstract="Målinriktning"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
