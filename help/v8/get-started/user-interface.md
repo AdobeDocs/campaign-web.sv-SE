@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
+source-git-commit: d99495db792293db4f4121892b073337c91f7a33
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2085'
 ht-degree: 1%
 
 ---
@@ -502,3 +502,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_javascript_codes_create"
 >title="Skapa JavaScript-kod"
 >abstract="Skapa JavaScript-kod"
+
+<!-- Enumerations -->
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_list"
+>title="Uppräkningar"
+>abstract="Uppräkningar"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_properties"
+>title="Egenskaper"
+>abstract="Egenskaper"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_values"
+>title="Lista med uppräkningsvärden"
+>abstract="Lista med uppräkningsvärden"
