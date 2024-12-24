@@ -3,7 +3,7 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: d99495db792293db4f4121892b073337c91f7a33
+source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 1%
