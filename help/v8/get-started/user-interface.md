@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2107'
 ht-degree: 1%
 
 ---
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="Lista med uppräkningsvärden"
 >abstract="Lista med uppräkningsvärden"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="Affärsregler"
+>abstract="Affärsregler"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="Regeluppsättningsegenskaper"
+>abstract="Regeluppsättningsegenskaper"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="IP-tillhörighet"
+>abstract="IP-tillhörighet"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="Regelegenskaper"
+>abstract="Regelegenskaper"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="Filtrering"
+>abstract="Filtrering"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="Code"
+>abstract="Code"
