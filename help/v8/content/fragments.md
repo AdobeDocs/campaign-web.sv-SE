@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med innehållsfragment
 description: Lär dig skapa med innehållsfragment
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 0%
 >id="acw_fragments_menu"
 >title="Definiera egna innehållsfragment"
 >abstract="Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden mellan kampanjer. Den här funktionen används för att skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa innehåll i en förbättrad designprocess. Det finns två typer av innehållsfragment: visuella fragment som är tillgängliga i e-postdesignern och uttrycksfragment i uttrycksredigeraren."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Lägg till uttrycksfragment"
+>abstract="Uttrycksfragment är fördefinierade innehållsblock som innehåller en viss återgivning som du kan infoga i leveranserna. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Du kan också skapa egna uttrycksfragment som passar dina behov."
 
 ## Vad är innehållsfragment? {#what}
 

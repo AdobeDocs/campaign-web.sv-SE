@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ Om du vill skapa villkorsstyrt innehåll måste du skapa villkor i **uttrycksred
 Förutom uttrycksredigeraren kan du använda en dedikerad **villkorsstyrd innehållsbyggare** när du utformar ett e-postmeddelande som gör att du kan skapa flera varianter för ett element i din e-postbrödtext. [Lär dig hur du skapar villkorligt innehåll i e-postmeddelanden](#condition-condition-builder)
 
 ## Skapa villkor i uttrycksredigeraren {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="Villkor"
+>abstract="På den här menyn kan du använda hjälpfunktioner för att definiera villkorat innehåll."
 
 Följ stegen nedan för att definiera villkorligt innehåll för en leverans med uttrycksredigeraren. I det här exemplet vill vi skapa villkorligt innehåll baserat på mottagarens språk (franska eller engelska).
 

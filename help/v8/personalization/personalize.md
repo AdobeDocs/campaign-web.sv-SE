@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 
 # Anpassa innehållet {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="Lägg till aktuellt datum"
+>abstract="Den här menyn innehåller funktioner för datumformatering som du kan använda för att anpassa innehållet."
 
 Personalization av leveransinnehåll är en nyckelfunktion som gör att ni kan skräddarsy meddelanden för enskilda mottagare och göra kommunikationen mer relevant och engagerande.
 

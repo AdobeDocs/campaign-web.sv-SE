@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa transaktionsmeddelanden
 description: Lär dig hur du skapar ett transaktionsmeddelande i webbgränssnittet för Campaign
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -116,6 +117,11 @@ Innehållet i sammanhanget beror på den personalisering du behöver.
 >id="acw_transacmessages_personalization"
 >title="Personalisering av transaktionsmeddelanden"
 >abstract="Lär dig hur du kan personalisera transaktionsmeddelandeinnehåll"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="Händelsekontext"
+>abstract="Den här menyn innehåller variabler från den utlösande händelsen som du kan använda för att anpassa ditt transaktionsmeddelandeinnehåll."
 
 Att arbeta med innehållet i ett transaktionsmeddelande är som att skapa innehållet i en leverans. Klicka på **[!UICONTROL Open email designer]** eller **[!UICONTROL Edit email body]** och välj ett mallinnehåll eller importera HTML-kod.
 
