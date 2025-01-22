@@ -3,9 +3,9 @@ audience: end-user
 title: Förbered och skicka ett e-postmeddelande
 description: Lär dig hur du förbereder och skickar ett e-postmeddelande med webbgränssnittet i Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -136,14 +136,14 @@ Oavsett om din leverans är schemalagd eller inte<!--TBC--> kan två åtgärder 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Skickade mått"
+>title="Skickat"
 >abstract="Totalt antal meddelanden som bearbetats under leveransanalysen."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Felmått"
+>title="Fel"
 >abstract="Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
