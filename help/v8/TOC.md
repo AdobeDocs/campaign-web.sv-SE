@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '776'
 ht-degree: 14%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 14%
    + [Åtkomstleveranser](msg/gs-deliveries.md)
    + [Skapa en leverans](msg/create-deliveries.md)
    + [Använd leveransmallar](msg/delivery-template.md)
+   + [Arbeta med typologier](msg/typologies.md)
    + E-postmeddelanden {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + [Konfigurera e-postinnehållet](email/edit-content.md)
