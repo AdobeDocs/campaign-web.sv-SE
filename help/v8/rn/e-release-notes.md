@@ -4,10 +4,10 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 8%
+source-wordcount: '514'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Typologier verifierar att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad), eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
-<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält. Använd uppräkningar för att standardisera värdena för dessa fält, hjälp med inmatning av data eller användning inom frågor.</p>
-<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du använda de tekniska funktionerna i Adobe Campaign webbgränssnitt och skapa egna anpassade alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i JavaScript för att lagra mellanliggande data.</p>
-<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa JavaScript-koder i Adobe Campaign webbanvändargränssnitt. På så sätt kan du skapa återanvändbara funktioner som kan användas i olika arbetsflöden, ungefär som i ett bibliotek.</p>
-<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
    * Nu kan du välja ytterligare anpassade fält som ska visas i gränssnittet
    * Du kan nu ange regler för hur anpassade fält av länktyp ska visas, t.ex. att begränsa listvärden baserat på indata från ett annat fält
    * Nu kan du ordna fälten i gränssnittet på ett flexiblare sätt: fälten kan spänna över en enda kolumn eller grupperas i underavsnitt för bättre sortering
-   * Du kan nu ange specifika fält som skrivskyddade.
+   * Du kan nu ange specifika fält som skrivskyddade
 
 * Senaste filter och favoritfilter: Om du snabbt vill återanvända attribut som används ofta kan du nu lägga till dem i favoriter. Detta gör att de är lättillgängliga för framtida uppgifter. Förutom favoriter kan du även visa och använda de senast markerade attributen.
 
