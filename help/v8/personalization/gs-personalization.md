@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstru
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [Upptäck den här funktionen i videon](#video)
+
 ## Öppna uttrycksredigeraren {#access}
 
 Adobe Campaign Web är en uttrycksredigerare där du kan välja, ordna, anpassa och validera alla data för att skapa en anpassad upplevelse av ditt innehåll. Uttrycksredigeraren är tillgänglig för alla kanaler, i alla fält med ikonen **[!UICONTROL Open personalization dialog]**, t.ex. ämnesradfältet, eller e-postlänkar och innehållskomponenter för text/knapp.
@@ -60,3 +62,9 @@ Här är några exempel på hur du får åtkomst till uttrycksredigeraren beroen
 >[!NOTE]
 >
 >Förutom uttrycksredigeraren kan du även använda en dedikerad villkorsstyrd innehållsbyggare när du utformar ett e-postmeddelande. [Lär dig hur du skapar villkorligt innehåll i e-postmeddelanden](conditions.md)
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du gör meddelandeinnehåll dynamiskt genom att använda uttrycksredigeraren för att anpassa meddelandet eller lägga till villkorsstyrt innehåll.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
