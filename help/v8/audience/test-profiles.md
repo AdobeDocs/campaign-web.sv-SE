@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 >abstract="Testprofiler är ytterligare mottagare som gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar meddelanden. Du kan välja en testprofil när du förhandsgranskar ett meddelandeinnehåll och skicka korrektur till testprofilerna för att kontrollera och validera meddelandets innehåll och inställningar."
 
 Testprofiler används för att skicka korrektur och validera meddelandeinnehåll och inställningar. Dessa profiler är ytterligare mottagare som gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar meddelanden. Du kan välja en testprofil när du förhandsgranskar ett meddelandeinnehåll och skicka korrektur till testprofilerna för att kontrollera och validera meddelandets innehåll och inställningar.
+
+➡️ [Upptäck den här funktionen i videon](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 Testprofilen som du nyss skapade kan nu användas för att skicka ett korrektur. [Läs mer](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## Instruktionsvideo {#video}
+
+Lär dig hur du skapar och hanterar testprofiler med webbgränssnittet i Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
