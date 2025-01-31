@@ -4,7 +4,7 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 2%
@@ -67,6 +67,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Typologier verifierar att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad), eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält. Använd uppräkningar för att standardisera värdena för dessa fält, hjälp med inmatning av data eller användning inom frågor.</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du använda de tekniska funktionerna i Adobe Campaign webbgränssnitt och skapa egna anpassade alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i JavaScript för att lagra mellanliggande data.</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>Nu kan du skapa JavaScript-koder i Adobe Campaign webbanvändargränssnitt. På så sätt kan du skapa återanvändbara funktioner som kan användas i olika arbetsflöden, ungefär som i ett bibliotek.</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
