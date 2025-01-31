@@ -4,9 +4,9 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tbody>
 <tr>
 <td>
-<p>Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget genereras meddelanden i en indatafil som kan delas med din externa leverantör. Läget Extern leverans är standardläge för direktpostkanalen.</p>
+<p>Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget kompileras meddelanden till en indatafil som kan delas med din externa leverantör. Som standard används det externa leveransläget för direktmeddelandekanalen.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <table>
 <thead>
 <tr>
-<th><strong>Styra och filtrera leveransen med typografi</strong><br/></th>
+<th><strong>Skapa affärsregler (typologiregler)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Typologier verifierar att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad), eller filtreringsregler som utesluter grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som hjälper till att styra, filtrera och prioritera leveranser. Typologierna ser till att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) och tillämpar filtreringsregler för att utesluta specifika grupper från målgruppen (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
