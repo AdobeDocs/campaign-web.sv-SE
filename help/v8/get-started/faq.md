@@ -1,9 +1,9 @@
 ---
 title: Använda AI-baserad sammanhangsbaserad hjälp i Campaign Web
 description: Ställ frågor i popup-fönstret för Campaign Web-hjälp
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -28,15 +28,15 @@ Om du vill veta var du kan komma igång går du till [den här sidan](../get-sta
 
 +++ Vilka nya funktioner finns i det nya webbgränssnittet?
 
-Det nya användargränssnittet i Adobe Campaign v8 är enhetligt med Adobe Experience Platform och utformat för effektiv marknadsföring. Den nya arbetsytan ger en intuitiv och avancerad arbetsyta för målgruppssammansättning, arbetsflödeshantering och innehållsdesign samt integrerade användningsexempel för Adobe Experience Platform-program som Journey Optimizer och Real-Time CDP.  Sätt fart på kreativiteten, öka produktiviteten och personalisera flerkanalskampanjer i stor skala med Gen AI Content Assistant, som är inbyggd i WYSIWYG meddelandedesigner.
+Det nya användargränssnittet i Adobe Campaign v8 är enhetligt med Adobe Experience Platform och utformat för effektiv marknadsföring. Den nya arbetsytan ger en intuitiv och avancerad arbetsyta för målgruppssammansättning, arbetsflödeshantering och innehållsdesign samt integrerade användningsexempel för Adobe Experience Platform-program som Journey Optimizer och Real-Time CDP.  Sätt fart på kreativiteten, öka produktiviteten och personalisera flerkanalskampanjer i stor skala med AI Assistant Content Accelerator, som är inbyggd i WYSIWYG meddelandedesigner.
 
-Marknadsförarna kan använda generativ AI för att skapa e-postidéer i HTML samt text- och bildgenerering med förfining och variantförslag.  Nya funktioner kan granskas på [den här sidan](../rn/whats-new.md). Om du vill veta mer om det nya gränssnittet och se hur det fungerar går du till [den här sidan](../get-started/user-interface.md). Du kan även besöka [Tutorials-sidorna](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} om du vill veta mer om det nya gränssnittet.
+Marknadsförarna kan använda generativ AI för att skapa e-postidéer i HTML samt text- och bildgenerering med förfining och variantförslag. Nya funktioner kan granskas på [den här sidan](../rn/whats-new.md). Om du vill veta mer om det nya gränssnittet och se hur det fungerar går du till [den här sidan](../get-started/user-interface.md). Dessutom kan du besöka [Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} om du vill veta mer om det nya gränssnittet med hjälp av en uppsättning instruktionsvideor.
 
 +++
 
 +++  Kan vi fortfarande använda Campaign Console när vi övergår till det nya webbgränssnittet?
 
-Campaign Client Console kan användas parallellt med det nya gränssnittet. Det finns dock funktioner som inte är tillgängliga i det nya användargränssnittet (för tillfället). Om du vill jämföra funktioner i det nya gränssnittet och i Campaign Client Console går du till [den här sidan](../get-started/capability-matrix.md).
+Campaign Client Console kan användas parallellt med det nya gränssnittet. Det finns dock funktioner som inte är tillgängliga i det nya användargränssnittet (för tillfället). Om du vill jämföra funktioner i det nya webbanvändargränssnittet och Campaign Client Console går du till [den här sidan](../get-started/capability-matrix.md).
 
 +++
 
@@ -54,7 +54,7 @@ För att få tillgång till det nya användargränssnittet måste du vara på Ad
 
 +++  Jag är för närvarande på Adobe Campaign Classic v7 Hybrid eller lokalt - vilken är min väg till det nya användargränssnittet?
 
-För att få tillgång till det nya användargränssnittet måste du vara på Adobe Campaign v8.6. Det första steget är att licensieras på Managed Cloud Services Advanced eller Enterprise SKU:er och sedan migrera till molnet med hjälp av Adobe Consulting och/eller en partner. Kontakta din kontaktperson på Adobe. Läs mer på den dedikerade [övergångssidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
+För att få tillgång till det nya användargränssnittet måste du vara på Adobe Campaign v8.6 och ansluta till Campaign med din Adobe ID. Det första steget är att licensieras på Managed Cloud Services Advanced eller Enterprise SKU:er och sedan migrera till molnet med hjälp av Adobe Consulting och/eller en partner. Kontakta din kontaktperson på Adobe. Läs mer på den dedikerade [övergångssidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
 +++
 
 +++ Betyder det att stödet för Adobe Campaign Classic v7 upphör?
@@ -75,7 +75,7 @@ För närvarande är alla funktioner tillgängliga via konsolen om de inte finns
 +++
 
 
-+++ Finns det några skyddsräcken eller begränsningar för det nya användargränssnittet?
++++ Finns det några säkerhetsritningar eller begränsningar för det nya webbgränssnittet?
 
-Garantier och begränsningar kan granskas på [den här sidan](../get-started/guardrails.md).
+Garantier och begränsningar för Campaign v8 visas [här](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Specifika skyddsutkast gäller dessutom för arbetsflöden i webbanvändargränssnittet. De kan granskas på [den här sidan](../get-started/guardrails.md). Se även [Adobe Campaign Managed Cloud Services | Produktbeskrivning ](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 +++
