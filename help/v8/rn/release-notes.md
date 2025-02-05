@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '584'
 ht-degree: 8%
 
 ---
@@ -63,22 +63,24 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Skapa affärsregler (typologiregler)</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som hjälper till att styra, filtrera och prioritera leveranser. Typologierna ser till att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) och tillämpar filtreringsregler för att utesluta specifika grupper från målgruppen (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>Mer information finns i den <a href="../administration/typologies.md">detaljerade dokumentationen</a>.</p>
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
