@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du öppnar det här alternativet genom att klicka på attributmarkeringsknappen 
 >
 >* För fält med många värden visas bara de första tjugo värdena. I så fall får du en varning från **[!UICONTROL Partial load]**.
 >
->* Alternativet **[!UICONTROL Distribution of values]** är tillgängligt i alla attributväljare.
+>* Alternativet **[!UICONTROL Distribution of values]** är tillgängligt i alla attributväljare. [Lär dig välja attribut](../get-started/attributes.md)
 >* Du kan lägga till villkor i resultatet med hjälp av de **[!Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
 
 ## Lägga till filterkomponenter {#filtering}
@@ -62,7 +62,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
 
-1. I fältet **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller.
+1. I fältet **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från Campaign-databasen, inklusive attribut från länkade tabeller. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

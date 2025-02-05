@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa innehållsfragment
 description: Lär dig skapa innehållsfragment
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Om du vill skapa ett innehållsfragment från grunden följer du stegen nedan.
 
    >[!AVAILABILITY]
    >
-   >Visual fragments in Limited Availability (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+   >Visual fragments require an update to Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klicka på knappen **Skapa**.
 

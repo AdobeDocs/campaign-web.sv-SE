@@ -1,58 +1,137 @@
 ---
 title: Anpassade fält
-description: Lär dig konfigurera anpassade fält
+description: Lär dig hur du konfigurerar anpassade fält och deras synlighet i gränssnittet.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
 
+
 # Konfigurera anpassade fält {#custom-fields}
 
-Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Läs mer i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="Redigera anpassad information"
+>abstract="Alla anpassade fält som visas i gränssnittet för den valda schemavisningen. Du kan ändra visningsordningen i gränssnittet med upp- och nedpilarna och gruppera fält i underavsnitt genom att lägga till avgränsare. Klicka på ellipsknappen om du vill ta bort ett anpassat fält eller redigera inställningar, t.ex. synlighetsvillkor."
 
-Dessa anpassade fält visas på olika skärmar, till exempel information om en profil eller en testprofil.
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="Allmänt"
+>abstract="Definiera de allmänna inställningarna för det anpassade fältet. Om ingen etikett anges visas den etikett som definierats i schemat. Använd fältet **Synlig om** för att definiera ett villkor med hjälp av ett xtk-uttryck som styr när fältet visas. Du kan också markera fältet som obligatoriskt eller skrivskyddat i gränssnittet."
 
-I webbanvändargränssnittet kan du inte skapa anpassade fält, men du kan ändra hur de visas. Ändringarna gäller för alla Campaign-användare.
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_link"
+>title="Länkegenskaper"
+>abstract="Använd frågemodelleraren för att ange regler för hur ett anpassat fält av länktyp ska visas. Begränsa till exempel listvärden baserat på indata från ett annat fält."
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Som standard visas anpassade fält i gränssnittet i två kolumner. Växla med det här alternativet om du vill visa det anpassade fältet över skärmens hela bredd i stället för två kolumner."
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Separationsegenskaper"
+>abstract="Ange namnet som ska visas i gränssnittet för underavsnittet."
+
+<!-- NOT USED IN THE UI?-->
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Attributinställningar"
+>abstract="Attributinställningar"
+
+Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov. Lär dig hur du utökar ett schema i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
+
+Anpassade fält kan visas på olika skärmar, t.ex. profilinformation i webbgränssnittet för Campaign. Administratörer kan styra vilka fält som visas och hur de visas. De här ändringarna gäller alla Campaign-användare.
 
 >[!NOTE]
 >
->Du måste ha administratörsbehörighet för att kunna ändra anpassade fält.
+>Du måste ha administratörsbehörighet för att hantera anpassade fält.
 
-Anpassade fält är tillgängliga i följande scheman:
+Anpassade fält är tillgängliga för följande scheman:
 
-* Mottagare (nms)
 * Kampanjer (nms)
-* Leveranser (nms)
+* Planer (nms)
+* Program (nms)
+* Mottagare (nms)
 * Fröadresser (nms)
+* Leveranser (nms)
 
-Så här konfigurerar du anpassade fält:
+## Lägg till anpassade fält i gränssnittet {#add}
 
-1. Klicka på **Scheman** under **Administration**.
+Följ de här stegen för att visa anpassade fält i gränssnittet:
 
-   ![](assets/custom-fields.png){zoomable="yes"}
+1. Bläddra till menyn **[!UICONTROL Schemas]** i den vänstra navigeringsrutan och leta reda på önskat schema.
 
-1. Leta reda på det önskade schemat, till exempel schemat **Mottagare (nms)**.
+   Använd filtret **[!UICONTROL Editable]** i filterrutan för att snabbt identifiera scheman med anpassade fält.
 
-   ![](assets/custom-fields2.png){zoomable="yes"}
+   ![](assets/custom-fields-list.png)
 
-1. Klicka på knappen **Fler åtgärder** och välj **Redigera anpassad information**.
+1. Klicka på pennikonen bredvid schemanamnet för att komma åt de anpassade fälten. I det här exemplet vill vi lägga till fält för schemat **[!UICONTROL Recipients]**.
 
-   ![](assets/custom-fields3.png){zoomable="yes"}
+1. Listan med anpassade fält som visas i gränssnittet för schemavisningen. Här visas fältet CRM-ID på informationsskärmen och har markerats som obligatoriskt.
 
-   Skärmen **Redigera anpassad detalj** visar alla anpassade fält och deras typ.
+   | Konfigurera anpassade fält | Återgivning i gränssnittet |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-   ![](assets/custom-fields4.png){zoomable="yes"}
+1. Om du vill lägga till ett anpassat fält i gränssnittet klickar du på knappen **[!UICONTROL Add]** i skärmens övre högra hörn och väljer något av följande alternativ:
 
-   På den här skärmen kan du utföra följande åtgärder:
+   * **[!UICONTROL Custom attributes]**: Välj ett eller flera anpassade fält som ska visas i gränssnittet.
+   * **[!UICONTROL Fill automatically the list of custom fields]**: Lägg till alla anpassade fält som definierats för schemat i gränssnittet.
 
-   * ändra ordningen på de olika fälten med upp- och nedpilarna.
-   * gör fältet obligatoriskt: markera kryssrutan **Obligatoriskt**.
-   * gör fältet synligt eller dolt: klicka på knappen **Synligt** .
-   * lägg till ett synlighetsvillkor: klicka på knappen **Synligt om** och skriv xtk-uttrycket med de tillgängliga xtk-funktionerna.
+   ![](assets/custom-fields-add.png)
 
-1. Navigera till skärmen som visar det anpassade fältet. I vårt exempel är det profilinformationsskärmen.
+1. När anpassade fält har lagts till kan du:
 
-   ![](assets/custom-fields5.png){zoomable="yes"}
+   * **Ändra ordning på fält**: Använd upp- och nedpilarna.
+   * **Gör fält obligatoriska**: Markera kryssrutan **Obligatoriskt**.
+   * **Redigera fältinställningar**: Klicka på ellipsknappen och välj **[!UICONTROL Edit]**. [Läs mer](#settings)
+   * **Ta bort fält**: Klicka på ellipsknappen och välj **[!UICONTROL Delete]**.
+   * **Ordna fält i underavsnitt i gränssnittet**: Klicka på **[!UICONTROL Add]** och välj **[!UICONTROL Separator]**. [Läs mer](#separator)
+
+## Konfigurera anpassade fältinställningar {#settings}
+
+Om du vill konfigurera specifika inställningar för varje anpassat fält klickar du på ellipsknappen bredvid det önskade fältet och väljer **[!UICONTROL Edit]**.
+
+![](assets/custom-fields-settings.png)
+
+Tillgängliga inställningar:
+
+* **[!UICONTROL Attribute]**: Namnet på det anpassade fältet.
+* **[!UICONTROL Label (custom)]**: Den etikett som ska visas i gränssnittet. Om ingen etikett anges visas den etikett som definierats i schemat.
+* **[!UICONTROL Visible if]**: Definiera ett villkor med hjälp av ett xtk-uttryck som styr när fältet visas. Dölj till exempel det här fältet om ett annat fält är tomt.
+* **[!UICONTROL Mandatory]**: Gör fältet obligatoriskt i gränssnittet.
+* **[!UICONTROL Read-only]**: Gör fältet skrivskyddat i gränssnittet. Användarna kan inte redigera fältets värde.
+* **[!UICONTROL Filter settings]** (för länktypsfält): Använd frågemodelleraren för att ange regler för hur ett anpassat fält av länktyp ska visas. Begränsa till exempel listvärden baserat på indata från ett annat fält.
+
+  Du kan också referera till värdet som anges i andra fält i dina villkor med syntaxen `$(<field-name>)`. På så sätt kan du referera till det aktuella värdet för ett fält som det har angetts i formuläret, även om det ännu inte har sparats i databasen.
+
+  I exemplet nedan kontrollerar villkoret om värdet i fältet @ref matchar värdet som anges i fältet @refCom. Om du däremot använder `@refCom` i stället för `$(@refCom)` refereras värdet för @ref-fältet så som det finns i databasen.
+
+  +++Exempel på vy
+
+  ![](assets/custom-fields-ref.png)
+
++++
+
+* **[!UICONTROL Span two columns]**: Som standard visas anpassade fält i gränssnittet i två kolumner. Växla med det här alternativet om du vill visa det anpassade fältet över skärmens hela bredd i stället för två kolumner.
+
+## Ordna anpassade fält i underavsnitt {#separator}
+
+Med Campaign Web-gränssnittet kan du lägga till avgränsare för att gruppera anpassade fält i gränssnittet så att de blir lättare att läsa. Gör så här:
+
+1. Klicka på knappen **[!UICONTROL Add]** och välj **[!UICONTROL Separator]**.
+
+1. En ny rad som representerar avgränsaren läggs till i listan. Klicka på ellipsknappen och välj **[!UICONTROL Edit]** för att ge underavsnittet ett namn.
+
+1. Använd upp- och nedpilarna för att flytta avgränsaren till önskad plats. Fälten under avgränsaren grupperas under avgränsaren.
+
+   I det här exemplet grupperas fälten&quot;Intresserad samling&quot; och&quot;Varumärke&quot; i ett underavsnitt av typen&quot;Samling&quot;.
+
+   | Konfigurera anpassade fält | Återgivning i gränssnittet |
+   |  ---  |  ---  |
+   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |

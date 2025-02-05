@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

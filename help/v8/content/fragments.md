@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med innehållsfragment
 description: Lär dig skapa med innehållsfragment
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Det finns två typer av fragment:
 
   >[!AVAILABILITY]
   >
-  >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+  >Den här funktionen kräver en uppdatering av Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Låt oss dyka djupare
 

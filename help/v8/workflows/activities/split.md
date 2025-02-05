@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
       >[!NOTE]
       >
-      >När du anger en populationsgräns för en delmängd kan du rangordna de valda profilerna baserat på ett visst profilattribut i stigande eller fallande ordning. Aktivera alternativet **[!UICONTROL Enable sorting]** om du vill göra det. Du kan till exempel begränsa en delmängd så att den endast innehåller de 50 översta profilerna med det högsta inköpspriset.
+      >När du anger en populationsgräns för en delmängd kan du rangordna de valda profilerna baserat på ett specifikt [profilattribut](../../get-started/attributes.md) i stigande eller fallande ordning. Aktivera alternativet **[!UICONTROL Enable sorting]** om du vill göra det. Du kan till exempel begränsa en delmängd så att den endast innehåller de 50 översta profilerna med det högsta inköpspriset.
 
 1. När du har konfigurerat alla deluppsättningar kan du välja den återstående populationen som inte matchade någon av deluppsättningarna och inkludera dem i en ytterligare utgående övergång. Aktivera alternativet **[!UICONTROL Generate complement]** om du vill göra det.
 

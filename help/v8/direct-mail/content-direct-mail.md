@@ -3,9 +3,9 @@ audience: end-user
 title: Designa direktutskick
 description: Lär dig hur du utformar direktreklam med Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Om du vill utforma innehållet i extraheringsfilen som genereras av din direktme
 I avsnittet **[!UICONTROL Content]** anger du vilka kolumner som ska visas i extraheringsfilen. Följ dessa steg för att göra detta:
 
 1. Klicka på knappen **[!UICONTROL Add Attribute]** för att skapa en ny kolumn.
-1. Välj det attribut som ska visas i kolumnen och bekräfta. Observera att du kan använda uttrycksredigeraren för att välja det attribut som ska användas genom att klicka på knappen **[!UICONTROL Edit expression]**.
+1. Välj det attribut som ska visas i kolumnen och bekräfta. Observera att du kan använda uttrycksredigeraren för att välja det attribut som ska användas genom att klicka på knappen **[!UICONTROL Edit expression]**. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

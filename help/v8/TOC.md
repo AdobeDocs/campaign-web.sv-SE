@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 14%
+source-wordcount: '793'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 + [Dokumentation för Adobe Campaign Web User Interface](campaign-web-home.md)
 + Versionsinformation {#release-notes}
    + [Nyheter?](rn/whats-new.md)
-   + [Tidig versionsinformation](rn/e-release-notes.md)
+   + [Tidig release](rn/e-release-notes.md)
    + [Senaste versionen](rn/release-notes.md)
    + Tidigare versioner {#previous-release-notes}
       + [2024-versioner](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 14%
    + [Bläddra i och filtrera listor](get-started/list-filters.md)
    + [Arbeta med fördefinierade filter](get-started/predefined-filters.md)
    + [Arbeta med mappar](get-started/work-with-folders.md)
+   + [Välj attribut och lägg till dem i favoriter](get-started/attributes.md)
    + [Behörigheter](get-started/permissions.md)
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 14%
    + [Åtkomstleveranser](msg/gs-deliveries.md)
    + [Skapa en leverans](msg/create-deliveries.md)
    + [Använd leveransmallar](msg/delivery-template.md)
-   + [Arbeta med typologier](msg/typologies.md)
    + E-postmeddelanden {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + [Konfigurera e-postinnehållet](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 14%
       + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)
       + [Validera ditt transaktionsmeddelande](transactional-messaging/validate-transactional.md)
       + [Övervaka transaktionsmeddelanden](transactional-messaging/monitor-transactional.md)
+   + [Skicka externa leveranser](msg/send-external-deliveries.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + [Konfigurera leveransinställningar](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 14%
 + Konfiguration {#conf}
    + [Konfigurera anpassade fält](administration/custom-fields.md)
    + [Konfigurera externa konton](administration/external-account.md)
+   + [Arbeta med typologier](administration/typologies.md)
+   + [Hantera uppräkningar](administration/enumerations.md)
+   + [Konfigurera [!DNL Campaign] alternativ](administration/options.md)
+   + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
 + [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

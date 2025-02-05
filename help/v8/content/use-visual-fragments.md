@@ -4,9 +4,9 @@ title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
 badge: label="Begränsad tillgänglighet"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+>Den här funktionen kräver en uppdatering av Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-Du kan använda ett visuellt fragment i en [e-postleverans](../email/get-started-email-designer.md) eller i en [innehållsmall](../email/use-email-templates.md). Stegen beskrivs nedan. [Lär dig skapa och hantera innehållsfragment](fragments.md).
+Du kan använda ett visuellt fragment i en [e-postleverans](../email/get-started-email-designer.md) eller i en [innehållsmall](../email/use-email-templates.md). Stegen beskrivs nedan.
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>Lär dig hur du skapar och hanterar innehållsfragment i [det här avsnittet](fragments.md).
 
 ## Använda ett visuellt fragment {#use-fragment}
 

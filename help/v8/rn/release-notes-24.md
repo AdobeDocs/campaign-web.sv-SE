@@ -2,9 +2,9 @@
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2024 Campaign Web User Interface-versioner
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2506'
 ht-degree: 7%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 7%
 # Versionsinformation 2024 {#2024-release}
 
 På den här sidan visas alla ändringar och förbättringar som är tillgängliga i **2024-utgåvor**. De senaste versionskommentarerna är tillgängliga på [den här sidan](release-notes.md).
+
+
+## 24 oktober {#24-10-release}
+
+**Releasedatum**: 29 okt 2024
+
+Följande funktioner och förbättringar är tillgängliga från och med oktober.
+
+### Funktioner
+
+<table>
+<thead>
+<tr>
+<th><strong>Externa konton</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du konfigurera och hantera externa konton direkt via Adobe Campaign webbanvändargränssnitt. Den här nya funktionen gör det enkelt att konfigurera olika typer av externa konton, till exempel studentmeddelanden (POP3) eller exekveringsinstanser.</p>
+<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Transaktionsmeddelanden</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Transactional Messaging (Message Center) är nu tillgängligt i webbgränssnittet för Campaign. Det här tillägget är utformat för att utlösa meddelanden som genereras från händelser som utlöses från informationssystem, och kan vara: faktura, orderbekräftelse, leveransbekräftelse, lösenordsändring, meddelande om produkttillgänglighet, kontobesked, skapande av webbkonto osv.</p>
+<p>Mer information finns i den <a href="../transactional-messaging/transactional.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Förbättringar
+
+* **Arbetsflödesaktiviteter** - Du kan nu flytta en aktivitet och alla dess underordnade noder från en övergång till en annan i ett arbetsflöde. En dedikerad **Flytta**-knapp är tillgänglig i aktivitetens egenskapspanel för att utföra detta. [Läs mer](../workflows/orchestrate-activities.md#move)
+
+* **Aktivitet för arbetsflödesberikning**
+
+   * Du kan nu definiera ett alias och en etikett när du skapar ett nytt fält i aktiviteten **Enrichment**. [Läs mer](../workflows/activities/enrichment.md#collection-settings)
+   * Nu kan du lägga till erbjudanden för varje profil i aktiviteten **Enrichment**. [Läs mer](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribution av värden** - Vid åtkomst till listan med fält för anpassning kan du nu kontrollera hur värden distribueras för varje fält. Ett dedikerat popup-fönster visar antalet och procentandelen för varje värde. [Läs mer](../query/build-query.md#distribution-values-query)
+
+* **Version- och systeminformation** - Nu kan du komma åt information om dina instansversioner, både för klientkonsolen och webbanvändargränssnittet. I det nya avsnittet visas även alla inbyggda paket som är installerade i din miljö. [Läs mer](../get-started/user-interface.md#user-interface-about)
+
+* **Listor** - Nu kan du enkelt ändra ordningen på värdena i en lista. [Läs mer](../get-started/work-with-folders.md)
+
+* **Leverans** - Leveransvariabeln är nu tillgänglig från personaliseringsfält. [Läs mer](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## September-uppdateringar {#9-2024}

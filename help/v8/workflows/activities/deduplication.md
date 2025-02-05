@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Deduplicering
 description: Lär dig hur du använder arbetsflödesaktiviteten Deduplicering
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '612'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Så här konfigurerar du aktiviteten **Deduplicering**:
 
 1. Lägg till en **borttagning av dubbletter**-aktivitet i arbetsflödet.
 
-1. I avsnittet **Fält som ska identifiera dubbletter** klickar du på knappen **Lägg till attribut** för att ange för vilka fält identiska värden gör att dubbletter kan identifieras, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
+1. I avsnittet **Fält som ska identifiera dubbletter** klickar du på knappen **Lägg till attribut** för att ange för vilka fält identiska värden gör att dubbletter kan identifieras, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md)
 
 1. I avsnittet **Dedupliceringsinställningar** väljer du antalet unika **dubbletter som ska behållas**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 

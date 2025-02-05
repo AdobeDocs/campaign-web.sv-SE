@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Så här konfigurerar du aktiviteten **Enrichment**:
 >title="Anrikningsaktivitet"
 >abstract="När berikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter Enrichment-aktiviteten för att segmentera kunder i olika grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får genklang hos målgruppen."
 
-1. Klicka på **Lägg till anrikningsdata** och markera attributet som ska användas för att utöka data.
+1. Klicka på **Lägg till anrikningsdata** och markera attributet som ska användas för att utöka data. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md)
 
    Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen eller en samlingslänk. Var och en av dessa typer beskrivs i exemplen nedan:
    * [Single enrichment-attribut](#single-attribute)

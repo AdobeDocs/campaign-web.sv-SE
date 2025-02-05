@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2031'
 ht-degree: 1%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Körningsinitieringsskript"
 >abstract="Körningsinitieringsskript"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="Redigera anpassad information"
->abstract="Redigera anpassad information"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="Separationsegenskaper"
->abstract="Separationsegenskaper"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="Attributinställningar"
->abstract="Attributinställningar"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="Allmänt"
->abstract="Allmänt"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="Länkegenskaper"
->abstract="LaLink-egenskaperyout"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="Layout"
->abstract="Layout"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Lagring för målmappning"
 >abstract="Lagring nekas för målmappning"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="Favoriter och senaste"
->abstract="Favoriter och senaste"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Alternativ"
->abstract="Alternativ"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Alternativet Skapa"
->abstract="Alternativet Skapa"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript"
->abstract="JavaScript"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="Skapa JavaScript-kod"
->abstract="Skapa JavaScript-kod"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="Uppräkningar"
->abstract="Uppräkningar"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="Egenskaper"
->abstract="Egenskaper"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="Lista med uppräkningsvärden"
->abstract="Lista med uppräkningsvärden"

@@ -4,9 +4,9 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2597'
 ht-degree: 4%
 
 ---
@@ -25,24 +25,16 @@ Leveransinställningarna är **tekniska leveransparametrar** som definieras i le
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologi"
->abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign-klientkonsolen."
+>abstract="Typologier gör att ni kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologiinställningar för leverans"
->abstract="Typologiregler gör att marknadsförare kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen. Typologier och typologiregler skapas i Campaign-klientkonsolen."
+>abstract="Typologiregler gör att ni kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel tas inte med i leveransgrupperna under beredningsfasen."
 
-Typologier är uppsättningar av **typologiregler** som körs under förberedelsefasen för att enkelt tillämpa flera filtreringsregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen.
-
-När du associerar en typologi med en meddelande- eller meddelandemall körs de typologiregler som ingår i typologin för att kontrollera leveransgiltigheten under meddelandeförberedelsen. Profiler som matchar kriterier inom en typologiregel exkluderas sedan från leveransgrupperna.
-
-Med typologier kan du se till att dina leveranser alltid innehåller vissa element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler för att utesluta grupper från det avsedda målet (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).
+Typologier är uppsättningar av **typologiregler** som körs under förberedelsefasen för att enkelt tillämpa flera filtreringsregler på en leverans samtidigt. De gör att marknadsförarna kan standardisera sina rutiner för alla leveranser när de kan styra, filtrera och prioritera leveransen. [Lär dig skapa typologier och typologiregler](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->Typologier och typologiregler skapas i Campaign-klientkonsolen. Läs mer om tryckregler och hur du konfigurerar trötthetshantering i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Trycket {#pressure-parameters}
 

@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 8%
+source-wordcount: '630'
+ht-degree: 3%
 
 ---
 
@@ -20,25 +20,95 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 Ändringar och förbättringar som är tillgängliga med tidigare versioner visas [på den här sidan](release-notes-24.md).
 
-## 24 oktober {#24-10-release}
+## 25 januari {#25-1-release}
 
-**Releasedatum**: 29 okt 2024
+**Releasedatum**: 5 feb 2025
 
-Följande funktioner och förbättringar är tillgängliga från och med oktober.
+Följande funktioner och förbättringar är tillgängliga från och med januari.
 
-### Funktioner
+### Funktioner {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Externa konton</strong><br/></th>
+<th><strong>Skapa och använda visuella fragment</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du konfigurera och hantera externa konton direkt via Adobe Campaign webbanvändargränssnitt. Den här nya funktionen gör det enkelt att konfigurera olika typer av externa konton, till exempel studentmeddelanden (POP3) eller exekveringsinstanser.</p>
-<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
+<p>Visuella fragment är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. Den här funktionen är nu tillgänglig för alla kunder som kör serverbygget 8.6.4 och senare.</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>Mer information finns i den <a href="../content/use-visual-fragments.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Använd ett tredjepartssystem för att skicka leveranser</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget kompileras meddelanden till en utdatafil som kan delas med din externa leverantör. Som standard används det externa leveransläget för direktmeddelandekanalen.</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>Mer information finns i den <a href="../msg/send-external-deliveries.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Skapa affärsregler (typologiregler)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. En typologi är en samling typologiregler som hjälper till att styra, filtrera och prioritera leveranser. Typologierna ser till att dina leveranser alltid innehåller nödvändiga element (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) och tillämpar filtreringsregler för att utesluta specifika grupper från målgruppen (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Hantera dina uppräkningar</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält. Använd uppräkningar för att standardisera värdena för dessa fält, hjälp med inmatning av data eller användning inom frågor.</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Skapa anpassade alternativ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du använda de tekniska funktionerna i Adobe Campaign webbgränssnitt och skapa egna anpassade alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i JavaScript för att lagra mellanliggande data.</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Följande funktioner och förbättringar är tillgängliga från och med oktober
 <table>
 <thead>
 <tr>
-<th><strong>Transaktionsmeddelanden</strong><br/></th>
+<th><strong>Definiera och anropa Javascript-koder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Transactional Messaging (Message Center) är nu tillgängligt i webbgränssnittet för Campaign. Det här tillägget är utformat för att utlösa meddelanden som genereras från händelser som utlöses från informationssystem, och kan vara: faktura, orderbekräftelse, leveransbekräftelse, lösenordsändring, meddelande om produkttillgänglighet, kontobesked, skapande av webbkonto osv.</p>
-<p>Mer information finns i den <a href="../transactional-messaging/transactional.md">detaljerade dokumentationen</a>.</p>
+<p>Nu kan du skapa JavaScript-koder i Adobe Campaign webbanvändargränssnitt. På så sätt kan du skapa återanvändbara funktioner som kan användas i olika arbetsflöden, ungefär som i ett bibliotek.</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>Skapa landningssidor med AI Assistant Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>AI Assistant Content Accelerator finns nu tillgängligt med landningssidans leveranser, vilket gör att du kan generera text, bilder eller hela sidlayouter.</p>
+<p>Mer information om AI Assistant Content Accelerator finns i <a href="../email/generative-gs.md">den detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### Förbättringar
 
-* **Arbetsflödesaktiviteter** - Du kan nu flytta en aktivitet och alla dess underordnade noder från en övergång till en annan i ett arbetsflöde. En dedikerad **Flytta**-knapp är tillgänglig i aktivitetens egenskapspanel för att utföra detta. [Läs mer](../workflows/orchestrate-activities.md#move)
 
-* **Aktivitet för arbetsflödesberikning**
+### Förbättringar {#25-1-improvements}
 
-   * Du kan nu definiera ett alias och en etikett när du skapar ett nytt fält i aktiviteten **Enrichment**. [Läs mer](../workflows/activities/enrichment.md#collection-settings)
-   * Nu kan du lägga till erbjudanden för varje profil i aktiviteten **Enrichment**. [Läs mer](../workflows/activities/enrichment.md##add-offers)
+* Anpassa visningen av anpassade fält i gränssnittet:
 
-* **Distribution av värden** - Vid åtkomst till listan med fält för anpassning kan du nu kontrollera hur värden distribueras för varje fält. Ett dedikerat popup-fönster visar antalet och procentandelen för varje värde. [Läs mer](../query/build-query.md#distribution-values-query)
+   * Nu kan du välja ytterligare anpassade fält som ska visas i gränssnittet
+   * Du kan nu ange regler för hur anpassade fält av länktyp ska visas, t.ex. att begränsa listvärden baserat på indata från ett annat fält
+   * Nu kan du ordna fälten i gränssnittet på ett flexiblare sätt: fälten kan spänna över en enda kolumn eller grupperas i underavsnitt för bättre sortering
+   * Du kan nu ange specifika fält som skrivskyddade
 
-* **Version- och systeminformation** - Nu kan du komma åt information om dina instansversioner, både för klientkonsolen och webbanvändargränssnittet. I det nya avsnittet visas även alla inbyggda paket som är installerade i din miljö. [Läs mer](../get-started/user-interface.md#user-interface-about)
+* Senaste filter och favoritfilter: Om du snabbt vill återanvända attribut som används ofta kan du nu lägga till dem i favoriter. Detta gör att de är lättillgängliga för framtida uppgifter. Förutom favoriter kan du även visa och använda de senast markerade attributen.
 
-* **Listor** - Nu kan du enkelt ändra ordningen på värdena i en lista. [Läs mer](../get-started/work-with-folders.md)
-
-* **Leverans** - Leveransvariabeln är nu tillgänglig från personaliseringsfält. [Läs mer](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* Externa konton: Den nya typen **[!UICONTROL Routing]** är tillgänglig för val när du skapar ett nytt externt konto. Med det kan du konfigurera ett specifikt externt konto för användning i externa leveranser. [Läs mer](../administration/external-account.md#routing)

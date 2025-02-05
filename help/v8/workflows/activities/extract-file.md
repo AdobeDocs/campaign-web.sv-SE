@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Extrahera fil
 description: Lär dig hur du använder arbetsflödesaktiviteten för Extract-filen
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ I avsnittet **[!UICONTROL File to extract]** kan du konfigurera filegenskaperna 
 1. Ange de kolumner som ska finnas i den extraherade filen. Följ dessa steg för att göra detta:
 
    1. Klicka på **[!UICONTROL Add output column]**.
-   1. Välj det attribut som ska visas i kolumnen och bekräfta. Vilka attribut som är tillgängliga beror på arbetsflödets måldimension.
+   1. Välj det attribut som ska visas i kolumnen och bekräfta. Vilka attribut som är tillgängliga beror på arbetsflödets måldimension. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md)
    1. När kolumnen har lagts till kan du ändra dess **[!UICONTROL Label]** och tillhörande **[!UICONTROL Attribute]**.
    1. Om du vill använda en omformning på kolumnens värden, markerar du den i listrutan. Du kan till exempel växla alla värden i den markerade kolumnen till versaler.
 

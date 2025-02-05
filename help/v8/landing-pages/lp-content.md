@@ -3,7 +3,7 @@ title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -87,13 +87,12 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
    * **[!UICONTROL Subscribe in if checked]**: Användarna måste markera kryssrutan för att godkänna (anmälan).
    * **[!UICONTROL Unsubscribe if checked]**: Användarna måste markera kryssrutan för att ta bort sitt samtycke (avanmälan).
 
-   Om du väljer **[!UICONTROL Field]** markerar du ett fält i attributlistan och väljer mellan de två alternativen nedan:
+   Om du väljer **[!UICONTROL Field]** markerar du ett fält i [attributlistan](../get-started/attributes.md) och väljer mellan de två alternativen nedan:
 
    * **[!UICONTROL Yes if checked]**.<!--TBC-->
-
    * **[!UICONTROL No if checked]**.<!--TBC-->
 
-1. Du kan ta bort och lägga till så många fält (t.ex. textfält, alternativknappar, kryssrutor, listrutor) efter behov.
+1. Du kan ta bort och lägga till så många fält som behövs (t.ex. textfält, alternativknappar, kryssrutor, listrutor).
 
 1. När alla fält har lagts till eller uppdaterats klickar du på **[!UICONTROL Call to action]** för att expandera motsvarande avsnitt. Det gör att du kan definiera beteendet för knappen i komponenten **[!UICONTROL Form]**. [Lär dig hur](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ Så här skickar du ett bekräftelsemeddelande automatiskt när en landningssida
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Utöka och redigera andra avsnitt som motsvarar andra fält som du har lagt till (alternativknapp, listruta, datum och tid osv.) till formuläret.
+1. Expandera och redigera andra avsnitt som motsvarar andra fält som du har lagt till (alternativknapp, listruta, datum och tid osv.) i formuläret.
 
 1. Expandera avsnittet **[!UICONTROL Call to action]** om du vill ändra utseendet på knappen i komponentformuläret. Du kan till exempel ändra teckensnitt, lägga till en kant, redigera etikettfärgen vid hovring eller justera justeringen av knappen.
 
