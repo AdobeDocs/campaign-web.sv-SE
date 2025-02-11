@@ -15,9 +15,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportera rapporter"
->abstract="Klicka på knappen **Exportera** om du vill exportera dessa mått till PDF eller CSV-format, så att du kan dela eller skriva ut dem."
+>abstract="Klicka på knappen **Exportera** om du vill exportera dessa mått till PDF- eller CSV-format så att du kan dela eller skriva ut dem."
 
-Du kan enkelt exportera dina olika rapporter till PDF eller CSV-format så att du kan dela, ändra och skriva ut dem.
+Du kan enkelt exportera dina olika rapporter till PDF- eller CSV-format så att du kan dela, ändra och skriva ut dem.
 
 1. Klicka på **[!UICONTROL Export]** i rapporten och välj **[!UICONTROL Export as PDF file]** eller **[!UICONTROL Export as CSV file]**.
 

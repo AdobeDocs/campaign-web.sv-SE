@@ -403,7 +403,7 @@ För varje kategori används två diagram. Den första visar statistik om öppni
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Rapport om klickningar"
->abstract="Rapporten **Aktivitetsklickningar** visar e-postinnehållet (HTML och/eller text) med procentandelen klick på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten."
+>abstract="Rapporten **Aktivitetsklickningar** visar e-postinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten."
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten.
 

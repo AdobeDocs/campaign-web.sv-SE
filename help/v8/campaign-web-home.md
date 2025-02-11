@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Hjälp och dokumentation"
->abstract="Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar."
+>abstract="Campaign har nu ett nytt webbanvändargränssnitt med förbättrad användarvänlighet, tillgänglighet och en ny design som avsevärt förbättrar användarupplevelsen. Det nya moderna användargränssnittet förenklar utformningen och leveransen av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -43,7 +43,7 @@ ht-degree: 3%
 >abstract="Nästa generations frågemodellerare och e-postdesigner"
 
 
-Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar design och leverans av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
+Vi är stolta över att kunna presentera den nya versionen av Adobe Campaign webbgränssnitt. Vår senaste release är fullmatad med intuitiva funktioner som förenklar skapandet av personaliserade flerkanalskampanjer, ger enastående resultat och ger er en konkurrensfördel i alla kanaler. Det nya moderna användargränssnittet förenklar utformningen och leveransen av marknadsföringskampanjer och ger enhetlighet tillsammans med andra Adobe-lösningar, inklusive Adobe Experience Platform.
 
 ## Nyheter
 
