@@ -3,20 +3,14 @@ audience: end-user
 title: Kom igång med innehållsfragment
 description: Lär dig skapa med innehållsfragment
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Kom igång med innehållsfragment {#gs-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Innehållsfragment"
->abstract="Nu kan du skapa och använda innehållsfragment. Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

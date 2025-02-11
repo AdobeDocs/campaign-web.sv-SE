@@ -4,26 +4,28 @@ title: Lägg till visuella fragment i e-postmeddelanden
 description: Lär dig hur du lägger till visuella fragment i e-postmeddelanden
 badge: label="Begränsad tillgänglighet"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
 
 # Lägg till visuella fragment i e-postmeddelanden {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="E-posta visuella fragment"
+>abstract="Nu kan du skapa och använda visuella fragment. Detta är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 >[!AVAILABILITY]
 >
 >Den här funktionen kräver en uppdatering av Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-Du kan använda ett visuellt fragment i en [e-postleverans](../email/get-started-email-designer.md) eller i en [innehållsmall](../email/use-email-templates.md). Stegen beskrivs nedan.
+I webbgränssnittet för Campaign är **visuella fragment** fördefinierade visuella block som du kan återanvända i flera [e-postleveranser](../email/get-started-email-designer.md) eller i [innehållsmallar](../email/use-email-templates.md). Lär dig hur du skapar och hanterar innehållsfragment i [det här avsnittet](fragments.md).
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->Lär dig hur du skapar och hanterar innehållsfragment i [det här avsnittet](fragments.md).
 
 ## Använda ett visuellt fragment {#use-fragment}
 

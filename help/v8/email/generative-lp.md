@@ -2,14 +2,22 @@
 audience: end-user
 title: Landningssida med AI Assistant Content Accelerator
 description: Kom igång med AI Assistant Content Accelerator
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
 
 # Skapa landningssidor med AI Assistant Content Accelerator {#generative-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Generera landningssidor med AI"
+>abstract="Nu kan du använda AI Assistant Content Accelerator för att skapa leveranser av landningssidor, så att du kan generera text, bilder eller hela sidlayouter."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
 
 >[!IMPORTANT]
 >

@@ -2,9 +2,10 @@
 audience: end-user
 title: Transaktionsmeddelanden
 description: Transactional messaging with Adobe Campaign Web
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,12 +16,6 @@ ht-degree: 0%
 >id="acw_transacmessages"
 >title="Transaktionsmeddelanden"
 >abstract="Transactional messaging är en specialiserad modul i Adobe Campaign som hanterar utlösta meddelanden."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Transaktionsmeddelanden"
->abstract="Transactional messaging är en specialiserad modul i Adobe Campaign som hanterar utlösta meddelanden. Dessa meddelanden genereras automatiskt som svar på händelser som kommer från informationssystem."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"

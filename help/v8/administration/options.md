@@ -1,15 +1,21 @@
 ---
 title: Konfigurera [!DNL Campaign] alternativ
 description: Lär dig konfigurera Campaign-alternativ och skapa egna anpassade alternativ.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-
 # Konfigurera alternativ för [!DNL Campaign] {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Skapa anpassade alternativ"
+>abstract="Nu kan du skapa egna anpassade tekniska alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i **JavaScript-koden** för att lagra mellanliggande data."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
@@ -25,7 +31,7 @@ Adobe Campaign Web innehåller tekniska alternativ som gör att du kan konfigure
 
 >[!IMPORTANT]
 >
->Inbyggda alternativ är förkonfigurerade och bör endast ändras av avancerade användare. Om du har några frågor eller förfrågningar, kontakta din Adobe-representant.
+>Inbyggda alternativ är förkonfigurerade och bör endast ändras av avancerade användare. Om du har några frågor eller frågor kan du kontakta Adobe.
 
 ## Åtkomst till kampanjalternativ {#access}
 

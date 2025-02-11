@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 8%
@@ -145,6 +145,7 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 <tr>
 <td>
 <p>AI Assistant Content Accelerator finns nu tillgängligt med landningssidans leveranser, vilket gör att du kan generera text, bilder eller hela sidlayouter.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>Mer information om AI Assistant Content Accelerator finns i <a href="../email/generative-lp.md">den detaljerade dokumentationen</a>.</p>
 </td>
 </tr>

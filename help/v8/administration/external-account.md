@@ -2,25 +2,20 @@
 title: Hantera externt konto
 description: Lär dig konfigurera externa konton
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '636'
 ht-degree: 1%
 
 ---
 
 # Hantera externa konton {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Externa konton"
->abstract="Du kan nu ansluta till ytterligare plattformar eller anpassa anslutningarna efter ditt arbetsflöde, och enkelt skapa nya externa konton som uppfyller dina specifika behov och säkerställa smidiga dataöverföringar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
-
 >[!AVAILABILITY]
 >
-> Observera att externa konton för närvarande bara är tillgängliga för studsmeddelanden (POP3), routning och körningsinstansen, med ytterligare kontotyper som ska läggas till i framtiden.
-> Externa konton som inte stöds och som skapats i Adobe Campaign-konsolen visas i webbanvändargränssnittet, men kan inte redigeras eller öppnas.
+>* Externa konton är för närvarande bara tillgängliga för studsmeddelanden (POP3), routning och körningsinstansen. Ytterligare kontotyper kommer att läggas till i framtiden.
+>
+>* Externa konton som inte stöds och som skapats i Adobe Campaign-konsolen visas i webbanvändargränssnittet, men kan inte redigeras eller öppnas.
 
 Adobe Campaign levereras med en uppsättning förkonfigurerade externa konton för enkel integrering med olika system. Om du behöver ansluta till fler plattformar eller anpassa anslutningarna efter ditt arbetsflöde kan du nu enkelt skapa nya externa konton med webbanvändargränssnittet för att uppfylla dina specifika behov och säkerställa smidiga dataöverföringar.
 
@@ -93,7 +88,7 @@ Om du vill konfigurera det externa kontot **[!UICONTROL Bounce mails (POP3)]** f
    * POP3 ej skyddad (port 110 som standard)
    * POP3 skyddad över SSL (port 995 som standard)
 
-* **[!UICONTROL Function]** - Inkommande e-post, när det externa kontot är konfigurerat att ta emot inkommande e-post, eller SOAP router, för att hantera SOAP.
+* **[!UICONTROL Function]** - Inkommande e-post, när det externa kontot är konfigurerat att ta emot inkommande e-post, eller SOAP-router, för att hantera SOAP-begäranden.
 
 ### Routning {#routing}
 
