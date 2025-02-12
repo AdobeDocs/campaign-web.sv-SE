@@ -3,9 +3,9 @@ audience: end-user
 title: Upptäck gränssnittet
 description: Adobe Campaign webbgränssnitt
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2035'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. Det nya gränssnittet är integrerat med Adobe Experience Cloud program och lösningar.
 
-Lär dig hur du ansluter till Adobe Campaign och identifierar grunderna för navigering i Experience Cloud [i den här artikeln](connect-to-campaign.md).
+Lär dig hur du ansluter till Adobe Campaign och upptäck grunderna för Experience Cloud navigering [i den här artikeln](connect-to-campaign.md).
 
 >[!NOTE]
 >
@@ -99,9 +99,9 @@ Du kan konfigurera kolumner för att anpassa visningen så att all information d
 
 Mer information om Campaign-utforskaren, mapphierarkin och resurser finns i den här [Campaign v8-dokumentationen (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-### Campaign Management {#user-interface-campaign-management}
+### Kampanjhantering {#user-interface-campaign-management}
 
-I CAMPAIGN MANAGEMENT-delen får ni tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
+I CAMPAIGN MANAGEMENT-sektionen får du tillgång till marknadsföringskampanjer, leveranser och arbetsflöden.
 
 * **Kampanjer** - Det här är listan över dina kampanjer och kampanjmallar. Som standard kan du för varje kampanj visa datum för start/slut/skapande/senaste ändring, aktuell status och namnet på den kampanjoperator som skapade den. Du kan filtrera listan efter status, start-/slutdatum, mapp eller skapa ett avancerat filter för att definiera egna filtervillkor. Läs mer om kampanjer [i det här avsnittet](../campaigns/gs-campaigns.md).
 
@@ -417,6 +417,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Target Mapping -->
 
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_list"
+>title="Målmappningar"
+>abstract="Målmappningar"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
