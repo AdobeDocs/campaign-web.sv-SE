@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Landningssida med AI Assistant Content Accelerator
-description: Kom igång med AI Assistant Content Accelerator
+title: Landningssida med AI-assistenten
+description: Kom igång med AI-assistenten
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1389'
 ht-degree: 1%
 
 ---
 
-# Skapa landningssidor med AI Assistant Content Accelerator {#generative-lp}
+# Skapa landningssidor med AI Assistant{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generera landningssidor med AI"
->abstract="Nu kan du använda AI Assistant Content Accelerator för att skapa leveranser av landningssidor, så att du kan generera text, bilder eller hela sidlayouter."
+>abstract="Nu kan du använda AI Assistant för att skapa leveranser av landningssidor, så att du kan generera text, bilder eller hela sidlayouter."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 
@@ -24,19 +24,19 @@ ht-degree: 1%
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant Content Accelerator i Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-Omvandla landningssidorna med AI Assistant Content Accelerator på Adobe Campaign Web, som bygger på generativ AI.
+Omvandla landningssidorna med AI Assistant på Adobe Campaign Web, som bygger på generativ AI.
 
 Skapa enkelt slagkraftigt innehåll, inklusive kompletta sidor, skräddarsydda textbitar och skräddarsydda bilder som passar er målgrupp, vilket ökar engagemanget och interaktionen.
 
-Gå igenom flikarna nedan och lär dig hur du använder AI Assistant Content Accelerator i Adobe Campaign Web.
+Gå igenom flikarna nedan och lär dig hur du använder AI Assistant på Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Generering av hela landningssidor]
 
-I följande exempel använder vi AI Assistant Content Accelerator för att förfina en befintlig landningssidmall.
+I följande exempel kommer vi att utnyttja AI Assistant för att förfina en befintlig landningssidmall.
 
 1. När du har skapat och konfigurerat landningssidan klickar du på **[!UICONTROL Edit content]**.
 
@@ -46,7 +46,7 @@ I följande exempel använder vi AI Assistant Content Accelerator för att förf
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant Content Accelerator för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -99,7 +99,7 @@ När landningssidan är klar kan du publicera den för att göra den tillgängli
 
 >[!TAB Generering av endast text]
 
-I följande exempel använder vi AI Assistant Content Accelerator för att förbättra innehållet på vår landningssida.
+I följande exempel kommer vi att utnyttja AI Assistant för att förbättra innehållet på vår landningssida.
 
 1. När du har skapat och konfigurerat landningssidan klickar du på **[!UICONTROL Edit content]**.
 
@@ -109,7 +109,7 @@ I följande exempel använder vi AI Assistant Content Accelerator för att förb
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant Content Accelerator för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -159,19 +159,19 @@ När landningssidan är klar kan du publicera den för att göra den tillgängli
 
 >[!TAB Generering av endast bild]
 
-I exemplet nedan kan du lära dig hur du använder AI Assistant Content Accelerator för att optimera och förbättra dina resurser och få en mer användarvänlig upplevelse.
+I exemplet nedan kan du lära dig hur du använder AI Assistant för att optimera och förbättra dina resurser, vilket ger en mer användarvänlig upplevelse.
 
 1. När du har skapat och konfigurerat landningssidan klickar du på **[!UICONTROL Edit content]**.
 
    Mer information om hur du konfigurerar din landningssida finns på [den här sidan](../landing-pages/create-lp.md).
 
-1. Markera den resurs som du vill ändra med AI Assistant Content Accelerator .
+1. Markera den resurs som du vill ändra med AI-assistenten.
 
 1. Välj **[!UICONTROL AI Assistant]** på den högra menyn.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Reference style]** för AI Assistant Content Accelerator för att anpassa nytt innehåll baserat på referensinnehållet. Du kan också överföra en bild för att lägga till kontext till variationen.
+1. Aktivera alternativet **[!UICONTROL Reference style]** för AI-assistenten för att anpassa nytt innehåll baserat på referensinnehållet. Du kan också överföra en bild för att lägga till kontext till variationen.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 

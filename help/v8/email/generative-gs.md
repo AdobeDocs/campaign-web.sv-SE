@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Kom igång med AI Assistant Content Accelerator
-description: Kom igång med AI Assistant Content Accelerator
+title: Kom igång med AI-assistenten
+description: Kom igång med AI-assistenten
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
 
-# Arbeta med AI Assistant Content Accelerator  {#generative-gs}
+# Arbeta med AI-assistenten {#generative-gs}
 
 
 >[!CONTEXTUALHELP]
@@ -35,7 +35,7 @@ ht-degree: 1%
 >Fördjupa dig i en praktisk upplevelse med [vår förhandsvisning av aktiva funktioner](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), som är utformad för att du ska kunna utforska dess funktioner först och till fullo förstå dess funktioner.
 
 
-I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att generera slagkraftigt innehåll på ett effektivt och snabbt sätt. AI Assistant Content Accelerator på Adobe Campaign Web, som drivs av Microsoft Azure OpenAI och Adobe Firefly, är en funktion för att skapa Adobe AI-innehåll som revolutionerar sättet som marknadsförare skapar professionellt och varumärkesenhetligt innehåll i olika kanaler som e-post, SMS, Push. Med avancerade GenAI-modeller och god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet med innehåll som är optimerat för varumärkeskonturerade format, layouter, färgtoner och mycket annat.
+I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att generera slagkraftigt innehåll på ett effektivt och snabbt sätt. AI Assistant på Adobe Campaign Web, som drivs av Microsoft Azure OpenAI och Adobe Firefly, är Adobe funktioner för generering av AI-innehåll som revolutionerar det sätt på vilket marknadsförare skapar professionellt och varumärkesenhetligt innehåll i olika kanaler som e-post, SMS, Push. Med avancerade GenAI-modeller och god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet med innehåll som är optimerat för varumärkeskonturerade format, layouter, färgtoner och mycket annat.
 
 Med AI Assistant kan man skapa och köra marknadsföringskampanjer i olika kanaler, som e-post, SMS och push-meddelanden, på ett intuitivt, enkelt och problemfritt sätt samtidigt som man sparar tid, förbättrar effektiviteten och får bättre resultat.
 
@@ -43,11 +43,11 @@ Med AI Assistant kan man skapa och köra marknadsföringskampanjer i olika kanal
 >
 >* Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](#generative-guardrails).
 >
->* Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant Content Accelerator i Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>* Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-## Få åtkomst till AI Assistant Content Accelerator {#generative-access}
+## Åtkomst till AI-assistenten {#generative-access}
 
-AI Assistant Content Accelerator för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgängligt för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
+AI-assistenten för e-post, push-meddelanden och SMS finns nu i General Availability (GA) och är tillgänglig för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
 
 +++  Lär dig hur du tilldelar behörigheter för innehållsgenerering
 
@@ -64,19 +64,19 @@ Lär dig definiera behörigheter i Campaign i [det här avsnittet](../get-starte
 
 ## Skyddsritningar och begränsningar {#generative-guardrails}
 
-Allmänna riktlinjer för hur du använder AI Assistant Content Accelerator i Adobe Campaign Web för e-postgenerering anges nedan:
+Allmänna riktlinjer för hur du använder AI Assistant i Adobe Campaign Web för att skapa e-post anges nedan:
 
 * Kvaliteten på det genererade innehållet påverkas i hög grad av det marknadsföringsmål/den uppmaning du anger. Använd en väldefinierad uppmaning för GenAI-modellen att tolka korrekt. 
 * Ladda upp varumärkesresurser för att få korrekt varumärkesinnehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan ha följande format: PDF-, JPEG-, PNG- eller ZIP-filer (med filformat som stöds).
 * Den maximala storleken för överförda varumärkesresurser är 50 MB. Större filer eller mycket bilder kan fungera, men bearbetningstiden ökar.
-* Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa e-postinnehåll med Content Accelerator. E-postmallar med upp till 8-10 bilder rekommenderas.
+* Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa e-postinnehåll med hjälp av AI-assistenten. E-postmallar med upp till 8-10 bilder rekommenderas.
 * Var noga med att rapportera eventuella problematiska utdata med ikonerna för tummen uppåt, tummen nedåt eller flagga när du väljer varianter.
 * Din användning av AI-assistenten regleras av Adobe Experience Cloud Generative AI User Guidelines. [Läs mer](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Som en del av Adobe strävan att främja transparens i användningen av generativa AI-verktyg för att skapa media kommer Adobe att tillämpa Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-Följande begränsningar gäller för AI Assistant Content Accelerator i Adobe Campaign Web:
+Följande begränsningar gäller för AI Assistant på Adobe Campaign Web:
 
-* AI Assistant Content Accelerator på Adobe Campaign Web stöds för närvarande endast på engelska. Indata som inte är engelska kan ge inkonsekventa eller felaktiga resultat. Frågor som uppstår till följd av svar som inte kommer från engelska kommer för närvarande inte att behandlas eller förbättras.
+* AI Assistant på Adobe Campaign Web stöds för närvarande endast på engelska. Indata som inte är engelska kan ge inkonsekventa eller felaktiga resultat. Frågor som uppstår till följd av svar som inte kommer från engelska kommer för närvarande inte att behandlas eller förbättras.
 * Endast tillgängligt för e-post-, push- och SMS-kanalerna.
 * GenAI-innehåll kanske inte alltid är korrekt: dela med dig av dina synpunkter så att våra tekniker kan förfina modellerna.
 * Ni kan överföra flera varumärkesresurser, men ni kan bara utnyttja en för en viss generation.

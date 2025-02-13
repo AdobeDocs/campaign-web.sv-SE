@@ -1,36 +1,36 @@
 ---
 audience: end-user
 title: Generativt innehåll
-description: Kom igång med AI Assistant Content Accelerator
+description: Kom igång med AI-assistenten
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1423'
 ht-degree: 1%
 
 ---
 
-# E-postgenerering med AI Assistant Content Accelerator {#generative-content}
+# E-postgenerering med AI-assistenten {#generative-content}
 
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI Assistant Content Accelerator på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
 
-När du har skapat och personaliserat dina e-postmeddelanden kan du använda AI Assistant Content Accelerator i Adobe Campaign Web in Campaign, som bygger på generativ AI, för att ta ditt innehåll till nästa nivå.
+När ni har skapat och personaliserat era e-postmeddelanden kan ni använda AI Assistant på Adobe Campaign Web i Campaign, som bygger på generativ AI, för att ta innehållet till nästa nivå.
 
-AI Assistant Content Accelerator på Adobe Campaign Web kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som skräddarsytts för att passa er målgrupp. Detta optimerar era e-postkampanjer för bättre engagemang.
+AI Assistant på Adobe Campaign Web kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som är särskilt anpassade för att passa er målgrupp. Detta optimerar era e-postkampanjer för bättre engagemang.
 
-Med era e-postkampanjer kan ni använda AI-assistenten för att generera fullständig e-post, text eller bilder. Gå igenom flikarna nedan och lär dig hur du använder AI Assistant Content Accelerator i Adobe Campaign Web.
+Med era e-postkampanjer kan ni använda AI-assistenten för att generera fullständig e-post, text eller bilder. Gå igenom flikarna nedan och lär dig hur du använder AI Assistant på Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Fullständig e-postgenerering]
 
-I följande exempel kommer vi att utnyttja AI Assistant Content Accelerator på Adobe Campaign Web för att förfina ett befintligt e-postmeddelande och anpassa det för ett speciellt event.
+I följande exempel kommer vi att utnyttja AI Assistant på Adobe Campaign Web för att förfina ett befintligt e-postmeddelande och anpassa det för ett speciellt event.
 
 1. När du har skapat och konfigurerat e-postleveransen klickar du på **[!UICONTROL Edit content]**.
 

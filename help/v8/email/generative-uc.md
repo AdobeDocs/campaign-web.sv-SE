@@ -1,14 +1,15 @@
 ---
-title: AI Assistant för Content Accelerator - användningsfall
-description: Lär dig använda AI Assistant för Content Accelerator med hjälp av användningsexempel
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+title: Användningsexempel för AI Assistant
+description: Lär dig använda AI Assistant med hjälp av användningsexempel
+exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# AI Assistant för Content Accelerator - användningsfall {#generative-uc}
+# Användningsexempel för AI Assistant {#generative-uc}
 
 >[!NOTE]
 >
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 1. Öppna avsnittet **[!UICONTROL AI Assistant]**.
 
-1. Aktivera funktionen **[!UICONTROL Use original content]** i AI-assistenten för Content Accelerator för att anpassa nytt innehåll efter din leveransinformation, inklusive leveransnamn och målgrupp.
+1. Aktivera funktionen **[!UICONTROL Use original content]** i AI-assistenten för att anpassa nytt innehåll efter din leveransinformation, inklusive leveransnamn och målgrupp.
 
 1. Justera innehållet genom att ange din begäran i rutan **[!UICONTROL Prompt]** och anpassa inställningarna efter behov.
 
@@ -88,11 +89,11 @@ När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo at
 
 1. När du har konfigurerat och konfigurerat leveransen klickar du på **[!UICONTROL Edit content]**.
 
-1. Välj den resurs som du vill ändra med hjälp av AI-assistenten för Content Accelerator.
+1. Välj den resurs som du vill ändra med hjälp av AI-assistenten.
 
 1. Välj **[!UICONTROL AI Assistant]** på den högra panelmenyn.
 
-1. Aktivera alternativet **[!UICONTROL Reference style]** så att AI-assistenten för Content Accelerator kan generera nytt innehåll med referensmaterialet.
+1. Aktivera alternativet **[!UICONTROL Reference style]** så att AI-assistenten kan generera nytt innehåll med referensmaterialet.
 
 1. Klicka på **[!UICONTROL Upload image]** om du vill inkludera en bild som lägger till kontext i variationen.
 

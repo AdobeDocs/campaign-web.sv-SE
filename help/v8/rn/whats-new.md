@@ -3,9 +3,9 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1311'
 ht-degree: 4%
 
 ---
@@ -72,13 +72,13 @@ Använd det nya gränssnittet för Campaign-webben för att:
 * Övervaka skickade och mät resultat med inbyggda rapporter - [Läs mer](../reporting/delivery-reports.md)
 
 
-**Skapa innehåll med AI Assistant Content Accelerator**
+**Skapa innehåll med AI Assistant**
 
 Slipp besväret med att skapa manuellt innehåll och anamma en ny era av effektiva kampanjer med vår innovativa innehållsdesigner som bygger på Microsoft Azure OpenAI och Adobe Firefly.
 
-Omdefiniera innehållsleveransen med vår avancerade dra-och-släpp-redigerare från WYSIWYG som är utformad för enkelhet och effektivitet. Det här allt-i-ett-verktyget har en smidig AEM, funktioner för dynamiskt innehåll och den revolutionerande AI Assistant Content Accelerator som gör att allt-i-ett-verktygen kan skapa material på ett intuitivt, effektivt och personaliserat sätt.
+Omdefiniera innehållsleveransen med vår avancerade dra-och-släpp-redigerare från WYSIWYG som är utformad för enkelhet och effektivitet. Med smidig integrering med AEM, funktioner för dynamiskt innehåll och den revolutionerande AI Assistant gör detta allt-i-ett-verktyg leveransarbetet intuitivt, effektivt och personaliserat.
 
-Utnyttja de kraftfulla avancerade algoritmerna i AI Assistant Content Accelerator för att skapa engagerande, skräddarsytt innehåll som ger resultat. Öka era öppningsfrekvenser, klickfrekvens och konverteringar med intelligent, AI-driven innehållsgenerering. Läs mer i [det här avsnittet](../email/generative-gs.md).
+Utnyttja de kraftfulla avancerade algoritmerna i AI Assistant för att skapa engagerande, skräddarsytt innehåll som ger resultat. Öka era öppningsfrekvenser, klickfrekvens och konverteringar med intelligent, AI-driven innehållsgenerering. Läs mer i [det här avsnittet](../email/generative-gs.md).
 
 **Nya och omdesignade kampanjarbetsflödesaktiviteter**
 
@@ -116,7 +116,7 @@ Vi presenterar fördefinierad filterhantering. Med Campaign Web-gränssnittet f�
 
 **HTML Converter för e-postdesign**
 
-Du kan nu **importera och konvertera valfritt HTML-innehåll** i e-postredigeraren i Campaign. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem! Läs mer i [det här avsnittet](../email/existing-content.md).
+Du kan nu **importera och konvertera allt HTML-innehåll** i e-postredigeraren i Campaign. Innehållsblocken identifieras automatiskt och är tillgängliga i e-postdesignern: använd de kraftfulla designfunktionerna för att uppdatera och anpassa dem! Läs mer i [det här avsnittet](../email/existing-content.md).
 
 
 **SMS med erbjudanden**
@@ -133,7 +133,7 @@ I gränssnittet för Campaign-webben återspeglar användargränssnittet använd
 
 Funktioner som stöds och som inte stöds samt interoperabilitet mellan användargränssnittet i Campaign på webben och klientkonsolen [i Campaign på den här sidan](../get-started/capability-matrix.md).
 
-Som en Campaign Standard-användare som övergår till Campaign v8 refererar [till den här sidan](../rn/acs-migration.md).
+Som en Campaign Standard-användare som övergår till Campaign v8 hänvisar [till den här sidan](../rn/acs-migration.md).
 
 ## Uppdateringar om terminologi {#terminology-updates}
 

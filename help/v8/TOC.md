@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '794'
 ht-degree: 13%
 
 ---
@@ -116,8 +116,8 @@ ht-degree: 13%
          + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
-   + AI Assistant Content Accelerator {#ai-assistant}
-      + [Arbeta med AI Assistant Content Accelerator](email/generative-gs.md)
+   + AI-assistenten {#ai-assistant}
+      + [Arbeta med AI-assistenten](email/generative-gs.md)
       + [E-postgenerering med AI](email/generative-content.md)
       + [SMS-generering med AI](email/generative-sms.md)
       + [Generering av push-meddelanden med AI](email/generative-push.md)
@@ -223,7 +223,7 @@ ht-degree: 13%
       + [global SMS-rapport](reporting/global-report-sms.md)
       + [Global rapport för direktreklam](reporting/global-report-direct.md)
 + Integreringar {#integrations}
-   + [Arbeta med andra Adobe-lösningar](integrations/integration.md)
+   + [Arbeta med andra lösningar från Adobe](integrations/integration.md)
    + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}

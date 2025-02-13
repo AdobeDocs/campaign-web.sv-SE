@@ -3,19 +3,19 @@ title: Kom igång med Adobe Campaign v8 efter en övergång från Campaign Stand
 description: Lär dig de steg som krävs för att komma igång med ditt nya Campaign v8-program
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
-
 
 # Från Campaign Standard till v8 {#ac-acs}
 
 Välkommen till Adobe Campaign v8!
 
-Referenshandboken är utformad för dig som en användarövergång från Campaign Standard till Campaign v8. Det hjälper er att bekanta er med er nya Campaign-miljö och vägleda er genom de steg som krävs för att komma igång med er roll.
+Referenshandboken är utformad för dig som vill gå över från Campaign Standard till Campaign v8. Det hjälper er att bekanta er med er nya Campaign-miljö och vägleda er genom de steg som krävs för att komma igång med er roll.
 
 1. Börja med att lära dig [vad som är nytt i Adobe Campaign v8](#new).
 
@@ -93,7 +93,7 @@ Som Campaign Standard-användare som går över till Adobe Campaign v8 finns nu 
 
   Adobe Experience Manager as a Cloud Service erbjuder molnbaserad flexibilitet, vilket gör att du kan snabba upp time to value och anpassa dig efter nya affärsbehov. Integreringen förbättrar inte bara innehållshanteringsfunktionerna utan gör det även möjligt att leverera mer personaliserade och engagerande upplevelser till kunderna via alla kontaktytor.
 
-* **AI Assistant - Content Accelerator**
+* **AI-assistenten**
 
   Med Campaign AI Assistant kan man skapa och köra marknadsföringskampanjer i flera kanaler, som e-post, SMS och push-meddelanden, på ett intuitivt, enkelt och problemfritt sätt samtidigt som man sparar tid, förbättrar effektiviteten och får bättre resultat.
 
@@ -105,7 +105,7 @@ Som Campaign Standard-användare som går över till Adobe Campaign v8 finns nu 
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Det innehåller olika typer av e-postmallar och genererar och återskapar bilder. Läs mer om AI Assistant - Content Accelerator i [det här avsnittet](../../v8/email/generative-content.md). Adobe Campaign v8 har en AI-assistent tillgänglig för [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) och [Push](../../v8/email/generative-push.md).
+  Det innehåller olika typer av e-postmallar och genererar och återskapar bilder. Läs mer om AI-assistenten i [det här avsnittet](../../v8/email/generative-content.md). Adobe Campaign v8 har en AI-assistent tillgänglig för [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) och [Push](../../v8/email/generative-push.md).
 
 * **Uppgraderad SMS-infrastruktur - SMS v2.0**
 
@@ -122,11 +122,11 @@ Som Campaign Standard-användare som går över till Adobe Campaign v8 finns nu 
 
 ## Managed Services {#ac-managed-services}
 
-Adobe Campaign v8 är tillgänglig som en hanterad Cloud Service som ger proaktiv tillsyn, snabb varning och servicestyrning. Adobe Managed Cloud Service ger marknadsförarna en smidigare, säkrare och skalbar lösning för kanalövergripande kampanjhantering med en låg total ägandekostnad. Det nya erbjudandet kombinerar tjänster med proaktiv tillsyn och snabb varning.
+Adobe Campaign v8 finns som hanterad Cloud Service och ger proaktiv tillsyn, snabb varning och servicestyrning. Adobe Managed Cloud Service ger marknadsförarna en smidigare, säkrare och skalbar lösning för kanalövergripande kampanjhantering med en låg total ägandekostnad. Det nya erbjudandet kombinerar tjänster med proaktiv tillsyn och snabb varning.
 
-## Campaign Standard i v8 {#ac-v8-added}
+## Campaign Standard-funktioner som lagts till i v8 {#ac-v8-added}
 
-För att ni smidigt ska kunna gå över till Campaign v8 har de viktigaste funktionerna för Campaign Standard lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+För att ni smidigt ska kunna gå över till Campaign v8 har viktiga Campaign Standard-funktioner lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
 * **Dynamisk rapportering**: Dynamisk rapportering ger helt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
@@ -138,7 +138,7 @@ För att ni smidigt ska kunna gå över till Campaign v8 har de viktigaste funkt
 
 * **Visuella fragment** - Visuella fragment är återanvändbara visuella komponenter som kan refereras i en eller flera e-postleveranser eller i innehållsmallar. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess. [Läs mer](../../v8//content/use-visual-fragments.md)
 
-## Viktiga skillnader mellan Campaign Standard och kampanj v8 {#experiences}
+## Viktiga skillnader mellan Campaign Standard och Campaign v8 {#experiences}
 
 De flesta koncept är likartade mellan Adobe Campaign v8 och Adobe Campaign Standard. Det finns dock några skillnader enligt beskrivningen nedan.
 
@@ -230,4 +230,3 @@ Tillgång till den relevanta referenshandboken för din roll för att upptäcka 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

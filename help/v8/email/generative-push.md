@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Push-meddelanden med AI Assistant Content Accelerator
-description: Kom igång med AI Assistant Content Accelerator
+title: Push-meddelanden med AI-assistenten
+description: Kom igång med AI-assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
 
-# Generering av push-meddelanden med AI Assistant Content Accelerator {#generative-push}
+# Generering av push-meddelanden med AI-assistenten {#generative-push}
 
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant Content Accelerator i Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-AI Assistant Content Accelerator kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
+AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
 
 I följande exempel kommer vi att utnyttja AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
 
