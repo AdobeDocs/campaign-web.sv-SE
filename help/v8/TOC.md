@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '804'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 13%
    + [Tidig release](rn/e-release-notes.md)
    + [Senaste versionen](rn/release-notes.md)
    + Tidigare versioner {#previous-release-notes}
+      + [2025 års utgåvor](rn/release-notes-25.md)
       + [2024-versioner](rn/release-notes-24.md)
    + [Dokumentationsuppdateringar](rn/documentation-updates.md)
 + Kom igång med Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 13%
    + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
+   + [Arbeta med affärsregler (typologier)](administration/typologies.md)
+   + [Hantera målmappningar](administration/target-mappings.md)
+   + [Arbeta med scheman](administration/schemas.md)
    + [Konfigurera anpassade fält](administration/custom-fields.md)
-   + [Konfigurera externa konton](administration/external-account.md)
-   + [Arbeta med typologier](administration/typologies.md)
-   + [Hantera uppräkningar](administration/enumerations.md)
    + [Konfigurera [!DNL Campaign] alternativ](administration/options.md)
+   + [Konfigurera externa konton](administration/external-account.md)
+   + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
 + [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

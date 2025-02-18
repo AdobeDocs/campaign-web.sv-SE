@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 8%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 8%
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
 
 Ändringar och förbättringar som är tillgängliga med tidigare versioner visas [på den här sidan](release-notes-24.md).
+
+## 25 februari {#25-2-release}
+
+**Releasedatum**: 18 feb 2025
+
+Följande funktioner och förbättringar är tillgängliga från och med februari.
+
+### Funktioner {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Skapa affärsregler (typologiregler)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser. Typologier används för att validera att leveranser alltid innehåller obligatoriska komponenter (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från målgruppen (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Mer information finns i den <a href="../administration/typologies.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Målmappningar</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema. Med målmappningen kan du definiera målgruppen: profiler, kontraktsanställda, operatorer, prenumeranter, potentiella kunder osv.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Mer information finns i den <a href="../administration/target-mappings.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schemainformation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Utgåvan av anpassade fält är nu tillgänglig från knappen <b>Redigera anpassade fält</b> som finns i schemainformationen.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Mer information finns i den <a href="../administration/schemas.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 25 januari {#25-1-release}
 
@@ -62,25 +121,6 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Följande funktioner och förbättringar är tillgängliga från och med januari
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Förbättringar {#25-1-improvements}

@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -52,9 +52,9 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 >[!BEGINTABS]
 
 
->[!TAB Januari 25 version]
+>[!TAB 25 februari]
 
-Januariversionen är nu aktiv, inklusive transaktionsmeddelanden, externa konton och fler förbättringar.
+Februariversionen är nu aktiv, inklusive affärsregler, målmappningar och fler förbättringar.
 
 [![Knappen Läs mer](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
