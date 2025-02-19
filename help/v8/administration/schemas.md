@@ -1,9 +1,9 @@
 ---
 title: Arbeta med scheman
 description: Lär dig hur du arbetar med scheman.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,17 @@ ht-degree: 0%
 # Arbeta med scheman {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Arbeta med scheman"
+>abstract="Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Utgåvan av anpassade fält kan även nås från knappen **Redigera anpassad information** ."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Scheman"
->abstract="**[!DNL Adobe Campaign]** använder XML-baserade scheman för att definiera den fysiska och logiska datastrukturen i programmet. På den här skärmen kan du visa alla befintliga scheman. Det finns filter som kan användas för att förfina listan, t.ex. bara för redigerbara scheman."
+>abstract="**[!DNL Adobe Campaign]** använder XML-baserade scheman för att definiera den fysiska och logiska datastrukturen i programmet. På den här skärmen kan du visa alla befintliga scheman och komma åt informationen för ett schema genom att markera dess namn i listan. Det finns filter som kan användas för att förfina listan, t.ex. bara för redigerbara scheman."
 
 ## Om scheman {#about}
 

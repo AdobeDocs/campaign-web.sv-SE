@@ -2,20 +2,14 @@
 title: Konfigurera [!DNL Campaign] alternativ
 description: Lär dig konfigurera Campaign-alternativ och skapa egna anpassade alternativ.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Konfigurera alternativ för [!DNL Campaign] {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Skapa anpassade alternativ"
->abstract="Nu kan du skapa egna anpassade tekniska alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i **JavaScript-koden** för att lagra mellanliggande data."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

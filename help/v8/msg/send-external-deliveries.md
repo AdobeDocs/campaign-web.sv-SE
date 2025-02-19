@@ -3,20 +3,14 @@ audience: end-user
 title: Kom igång med externa leveranser
 description: Lär dig skapa och skicka externa leveranser med Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 # Skicka externa leveranser {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Skapa externa leveranser"
->abstract="Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget kompileras meddelanden till en utdatafil som kan delas med din externa leverantör. Som standard används det externa leveransläget för direktmeddelandekanalen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 
 Med Adobe Campaign kan ni hantera leveranser som skapats utanför Campaign för att massleverera personaliserade e-postmeddelanden, SMS-meddelanden eller push-meddelanden (iOS och Android) via ett externt system.
