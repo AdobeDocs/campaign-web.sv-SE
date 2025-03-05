@@ -1,16 +1,17 @@
 ---
 title: Migrering av tekniska användare till Adobe Developer Console
-description: Lär dig hur du migrerar användaråtkomsthantering från Campaign Standard till kampanj V8
+description: Lär dig hur du migrerar hantering av användaråtkomst från Campaign Standard till Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '980'
 ht-degree: 1%
 
 ---
 
-# Hantering av användaråtkomst från Campaign Standard till kampanj V8 {#user-management-acs}
+# Hantering av användaråtkomst från Campaign Standard till Campaign V8 {#user-management-acs}
 
 Med både Adobe Campaign Standard och Adobe Campaign V8 kan användare definiera och hantera behörigheter för olika användare/operatorer. Dessa behörigheter består av specifika rättigheter som ger användarna tillgång till olika funktioner i produkten. De två produkterna har dock distinkta metoder och implementeringar för att hantera användaråtkomst.
 
@@ -29,7 +30,7 @@ Följande koncept används i Adobe Campaign Standard och Campaign V8 för att ha
 >
 >Funktionerna för dessa roller/namngivna rättigheter kan variera i implementeringen, vilket kan ge upphov till behörighetsproblem (t.ex. upphöjd behörighet eller funktionsstörningar). Vi rekommenderar användare att granska mappningarna efter övergången för att säkerställa korrekt åtkomstkontroll. [Läs mer om behörigheter](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång från Adobe Campaign Standard till Campaign V8. I Campaign Standard används en **säkerhetsgrupp**, som kallas **operatörsgrupp** i Campaign V8, för att tilldela en uppsättning roller till en användare. Vissa säkerhetsgrupper/operatorgrupper är tillgängliga när de är klara, men användare kan skapa nya grupper eller ändra befintliga grupper om det behövs.
+Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång från Adobe Campaign Standard till Campaign V8. I Campaign Standard används en **säkerhetsgrupp**, som kallas **Operator group** i Campaign V8, för att tilldela en uppsättning roller till en användare. Vissa säkerhetsgrupper/operatorgrupper är tillgängliga när de är klara, men användare kan skapa nya grupper eller ändra befintliga grupper om det behövs.
 
 | | **Campaign Standard** | **Kampanj V8** |
 |---------|----------|---------|
@@ -37,7 +38,7 @@ Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång 
 
 I både Adobe Campaign Standard och Campaign V8 mappas **säkerhetsgrupperna** och **Operator-grupperna** till Produktprofiler i Admin Console. Om du vill tilldela en **säkerhetsgrupp** eller **operatörsgrupp** till en användare kan du länka motsvarande **produktprofil** i Admin Console. Associationen synkroniseras när användaren loggar in. [Läs mer om produktprofilen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-| **Campaign Standardens säkerhetsgrupp** | **Kampanj V8, operatörsgrupp** |
+| **Campaign Standard Security Group** | **Kampanj V8, operatörsgrupp** |
 |----------|---------|
 | Administratörer | Administratörer |
 | Leveransansvariga | Administratörer |
@@ -45,9 +46,13 @@ I både Adobe Campaign Standard och Campaign V8 mappas **säkerhetsgrupperna** o
 
 ## Migreringsmetod från användarroller till namngivna behörigheter
 
-I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rättighet** i kampanj V8. Tabellen nedan visar den terminologi som används för **namngivna rättigheter** i Campaign V8 och som motsvarar **användarroller** i Campaign Standarden.
+>[!CAUTION]
+>
+>Vid migrering från Adobe Campaign Standard till Campaign V8 får användare med rollen **Datamodell** men inte **Administration** automatiskt åtkomst till **Administration**, eftersom schemaskapandet i Campaign V8 kräver administrationsbehörighet. Du kan förhindra detta genom att ta bort deras **datamodell**-roll före migreringen.
 
-| **Användarroll för Campaign Standard** | **Kampanj V8 med namnet höger** | **Beskrivning**  |
+I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rättighet** i kampanj V8. Tabellen nedan visar den terminologi som används för **Namngivna rättigheter** i Campaign V8 och som motsvarar **Användarroller** i Campaign Standard.
+
+| **Campaign Standard användarroll** | **Kampanj V8 med namnet höger** | **Beskrivning**  |
 |----------|---------|---------|
 | Administration | Administration | Användare med administratörsbehörighet har fullständig åtkomst till instansen. |
 | Datamodell  | Administration | Rätt att köra publikationer och skapa anpassade resurser. Funktioner för att skapa scheman som är tillgängliga för administratören i kampanj V8.  |
@@ -62,6 +67,12 @@ I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rätt
 | Arbetsflöde | Arbetsflöde | Rätt att hantera körningen av arbetsflöden: start, stopp, paus osv. |
 
 ## Migreringsmetod från organisationsenhet
+
+>[!CAUTION]
+>
+>Organisationsenheter i Adobe Campaign Standard utan **Alla (alla)** som direkt eller indirekt överordnad migreras inte till Campaign V8.
+></br>
+>Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån är inloggningen begränsad i Campaign Standard men ger större åtkomst i Campaign v8 efter migreringen, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter.
 
 I Adobe Campaign Standard mappas **organisationsenheten** t till den befintliga **mapphierarkimodellen** i Campaign V8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
@@ -83,23 +94,23 @@ Eftersom ett **program** behandlas som en **mapp** i Campaign V8 kan åtkomsten 
 
 ## Produktprofilmappning för åtkomst till REST API:er 
 
-För att få åtkomst till transaktions-API:er från körningsinstansen i Campaign V8 krävs en ny **produktprofil**, utöver produktprofilerna **Administrator** och **Message Center**. Den nya **produktprofilen** läggs till i befintliga eller redan skapade tekniska konton i Campaign Standarden.
+För att få åtkomst till transaktions-API:er från körningsinstansen i Campaign V8 krävs en ny **produktprofil**, utöver produktprofilerna **Administrator** och **Message Center**. Den nya **produktprofilen** läggs till i befintliga eller redan skapade tekniska konton i Campaign Standard.
 
-Efter migreringen bör användare av Campaign Standarden granska sina **produktprofilsmappningar** och tilldela lämplig **produktprofil** om de inte vill länka sina **tekniska konton** till **administratörens** produktprofil. För framtida integreringar rekommenderar vi att du använder Campaign V8 **Klient-ID** i **REST-URL** i stället för den tidigare Campaign Standarden **Klient-ID**.
+Efter migreringen bör Campaign Standard-användare granska sina **produktprofilsmappningar** och tilldela lämplig **produktprofil** om de inte vill länka sina **tekniska konton** till **administratörens** produktprofil. För framtida integreringar rekommenderar vi att du använder Campaign V8 **Klient-ID** i **REST-URL** i stället för tidigare Campaign Standard **Klient-ID** .
 
-## Migrering av åtkomst till inbyggda Campaign-resurser för Campaign Standarder
+## Migrering av åtkomst till inbyggda Campaign-resurser för Campaign Standard-operatörer
 
-Operatörer som migreras från Campaign Standarden får läsåtkomst till specifika inbyggda resurser i Campaign V8.
+Operatörer som migreras från Campaign Standard får läsåtkomst till specifika inbyggda resurser i Campaign V8.
 
 ## Ej migrerade säkerhetsgrupper och roller {#non-migrated-groups-roles}
 
-Nedan visas en lista över Campaign Standarder som inte har övergått:
+Nedan visas en lista över Campaign Standard-roller som inte har övergått:
 
 * Standardreläkonto 
 
 * Message Center Push 
 
-Nedan visas en lista över mappningar av säkerhetsgrupper för Campaign Standarder som inte har övergått.
+Nedan finns en lista över Campaign Standard säkerhetsgruppsmappningar som inte har överförts.
 
 * Meddelandecenteragenter
 
@@ -108,11 +119,5 @@ Nedan visas en lista över mappningar av säkerhetsgrupper för Campaign Standar
 * Adobe Experience Manager programhanterare
 
 * Återförsäljarkonto
- 
 
-
- 
-
- 
-
-
+Observera att anpassade roller som skapas och tilldelas användare i Adobe Campaign Standard inte migreras till Campaign V8.
