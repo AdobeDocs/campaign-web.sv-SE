@@ -4,7 +4,7 @@ description: Lär dig hur du migrerar hantering av användaråtkomst från Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
@@ -89,7 +89,9 @@ Genom att använda **Grupper** och **Namngivna behörigheter** kan **Operatorer*
 Eftersom ett **program** behandlas som en **mapp** i Campaign V8 kan åtkomsten hanteras på samma sätt som andra mappar. Efter migreringen kan Campaign Standard-administratörer följa dessa steg:
 
 1. Högerklicka på en mapp i Utforskaren och välj **[!UICONTROL Properties...]**.
+
 1. Navigera till fliken **[!UICONTROL Security]**.
+
 1. Ändra behörigheter för operatörsgruppen enligt den önskade åtkomstmodellen. 
 
 ## Produktprofilmappning för åtkomst till REST API:er 
