@@ -3,7 +3,7 @@ audience: end-user
 title: Använda aktiviteten Testa arbetsflöde
 description: Lär dig hur du använder aktiviteten Testa arbetsflöde
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: 7654d1838f3a7e5165558e6a1313c9e8b57b401a
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Villkor"
->abstract="Aktiviteten **Test** kan ha flera utdataövergångar. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor är aktiverat stoppas arbetsflödena nu."
+>abstract="Aktiviteten **Test** kan ha flera utdataövergångar. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor aktiveras stoppas arbetsflödet nu."
 
 Aktiviteten **Test** är en **Flödeskontroll**-aktivitet. Det gör att du kan aktivera övergångar baserat på angivna villkor.
 
@@ -40,7 +40,7 @@ Följ de här stegen för att konfigurera aktiviteten **Test**:
 
 1. Du kan lägga till flera utdataövergångar i en **[!UICONTROL Test]**-aktivitet. Det gör du genom att klicka på knappen **[!UICONTROL Add condition]** och konfigurera etiketten och tillhörande villkor för varje övergång.
 
-1. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor är aktiverat stoppas arbetsflödena nu.
+1. Under arbetsflödeskörningen testas varje villkor sekventiellt tills ett av dem uppfylls. Om inga villkor uppfylls fortsätter arbetsflödet längs sökvägen för **[!UICONTROL Default condition]**. Om inget standardvillkor aktiveras stoppas arbetsflödet nu.
 
 ## Exempel {#example}
 
