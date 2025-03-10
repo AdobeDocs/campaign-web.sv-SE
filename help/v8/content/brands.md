@@ -5,7 +5,7 @@ description: Lär dig skapa och hantera riktlinjer för ert varumärke
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -104,6 +104,6 @@ Om du vill skapa och hantera din varumärkesriktlinje kan du antingen ange detal
 
    ![](assets/brands_5.png)
 
-Riktlinjerna för ditt varumärke är nu tillgängliga från listrutan **[!UICONTROL Brand]** i AI-assistentmenyn, vilket gör att det kan generera innehåll och resurser som är anpassade till dina specifikationer. [Läs mer om AI-assistenten](gs-generative.md)
+Riktlinjerna för ditt varumärke är nu tillgängliga från listrutan **[!UICONTROL Brand]** i AI-assistentmenyn, vilket gör att det kan generera innehåll och resurser som är anpassade till dina specifikationer. [Läs mer om AI-assistenten](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
