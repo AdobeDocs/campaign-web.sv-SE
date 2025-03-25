@@ -3,7 +3,7 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f9bb4369bcad48cde111965433763dea14c4c97c
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 4%
@@ -108,7 +108,8 @@ Du kan använda det nya användargränssnittet för Campaign-webben för att **s
 
 **AI-powered Contextual Help**
 
-Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
+-->
 
 **Fördefinierade filter**
 
