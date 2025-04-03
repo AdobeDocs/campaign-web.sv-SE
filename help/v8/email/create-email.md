@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1436'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Tack vare den här integreringen kan ni skicka segment från Experience Platform till Adobe Campaign och skicka iväg kampanjleverans och spårningsloggar till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
 
@@ -162,6 +162,10 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >Knappen **[!UICONTROL Simulate content]** är inaktiverad i vissa fall. Begränsningar anges [i det här avsnittet](#content-simulation-limitations).
+
 1. Till vänster markerar du de profiler som du vill använda för att förhandsgranska e-postmeddelandet.
 
    I den högra rutan visas en förhandsgranskning av e-postmeddelandet baserat på den valda profilen. Om du har lagt till flera profiler kan du växla mellan dem för att förhandsgranska motsvarande e-postmeddelande.
@@ -190,6 +194,37 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Du kan när som helst kontrollera status för det skickade materialet och komma åt det skickade korrekturet genom att klicka på knappen **[!UICONTROL View proofs]** på skärmen för att simulera innehåll.
+
+## Begränsningar för innehållssimulering {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="Simulering av innehåll stöds inte"
+>abstract="Knappen **Simulera innehåll** är inaktiverad eftersom den flerspråkiga leveransen bara innehåller en språkinställning."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="Simulering av innehåll stöds inte"
+>abstract="Knappen **Simulera innehåll** är inaktiverad eftersom den inte är kompatibel med avstämda leveranser i den här fasen."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="Simulering av innehåll stöds inte"
+>abstract="Knappen **Simulera innehåll** är inaktiverad eftersom den inte stöds i FFDA-läge (Campaign Enterprise Full Federated Access)."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="Simulering av innehåll stöds inte"
+>abstract="Knappen **Simulera innehåll** är inaktiverad eftersom inget innehåll har överförts."
+
+I vissa fall kan du inte utföra innehållssimulering och knappen **[!UICONTROL Simulate content]** är inaktiverad.
+
+Simulering av innehåll stöds inte i följande fall:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Med avstämda leveranser,
+* När din Campaign-distributionsmodell är [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* När ingen fil har överförts.
 
 ## Skicka och övervaka e-postmeddelandet {#prepare-send}
 
