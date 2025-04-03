@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1435'
 ht-degree: 1%
 
 ---
@@ -164,7 +164,7 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
 
    >[!NOTE]
    >
-   >Knappen **[!UICONTROL Simulate content]** är inaktiverad i vissa fall. Begränsningar anges [i det här avsnittet](#content-simulation-limitations).
+   >Knappen **[!UICONTROL Simulate content]** är inaktiverad i specifika sammanhang. Begränsningar anges [i det här avsnittet](#content-simulation-limitations).
 
 1. Till vänster markerar du de profiler som du vill använda för att förhandsgranska e-postmeddelandet.
 
@@ -195,7 +195,7 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
 
    Du kan när som helst kontrollera status för det skickade materialet och komma åt det skickade korrekturet genom att klicka på knappen **[!UICONTROL View proofs]** på skärmen för att simulera innehåll.
 
-## Begränsningar för innehållssimulering {#content-simulation-limitations}
+### Begränsningar för innehållssimulering {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"

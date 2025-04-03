@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definiera e-postkolumner"
->abstract="Med e-post-Designer kan du enkelt definiera layouten för e-postmeddelandet genom att definiera kolumnstrukturen."
+>abstract="Med E-postdesigner kan du enkelt definiera layouten för e-postmeddelandet genom att definiera kolumnstrukturen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -95,7 +95,7 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
    ![](assets/email_designer-links.png){zoomable="yes"}
 
-1. Om det behövs kan du anpassa din e-post ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. På så sätt kan du redigera e-postkällkoden, till exempel för att lägga till spårningstaggar eller anpassade HTML-taggar. [Läs mer om kodredigeraren](code-content.md)
+1. Om det behövs kan du anpassa din e-post ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. På så sätt kan du redigera e-postkällkoden, till exempel för att lägga till spårning eller anpassade HTML-taggar. [Läs mer om kodredigeraren](code-content.md)
 
    >[!CAUTION]
    >
