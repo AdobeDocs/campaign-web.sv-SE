@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: landning, landningssida, fallstudie
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,21 @@ ht-degree: 0%
 >abstract="När du skapar en landningssida kan du med fyra färdiga mallar implementera olika användningsfall: lägga till eller uppdatera en profil i Campaign-databasen, prenumerera på en tjänst, avbeställa dem från en tjänst eller avanmäla användare."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Skapa en landningssida"
 
-Om du vill använda landningssidan på rätt sätt bör du referera till den som en länk i en leverans med det dedikerade alternativet.
+Om du vill använda landningssidan på rätt sätt ska du referera till den som en länk i ett meddelande med det dedikerade alternativet. Du kan inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen direkt i leveranser eller på en webbsida. Använd i stället funktionen **Simulera innehåll** för att testa det.
 
->[!CAUTION]
->
->Om du vill utnyttja din landningssida fullt ut kan du inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen för leverans direkt på leveransen eller till en webbsida. Lär dig hur du gör det på rätt sätt i det här avsnittet.
-
-I [!DNL Adobe Campaign Web]-gränssnittet kan du använda fyra färdiga mallar för att implementera olika användningsfall. Huvudstegen är dock fortfarande desamma och beskrivs nedan.
+I gränssnittet [!DNL Adobe Campaign Web] kan du använda fyra färdiga mallar för att implementera olika användningsfall. Huvudstegen är dock fortfarande desamma och beskrivs nedan.
 
 1. [Skapa en landningssida](create-lp.md#create-landing-page) och välj önskad mall beroende på användningsfall.
 
 1. Definiera egenskaper och inställningar för landningssidan.
 
-   ![](assets/lp-uc-properties.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet för landningssidans egenskaper och inställningar.](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. Välj sidan **[!UICONTROL Acquisition]**, **[!UICONTROL Subscription]**, **[!UICONTROL Unsubscription]** eller **[!UICONTROL Denylist]** beroende på ditt fall.
 
 1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
 
-   ![](assets/lp-uc-form.png){zoomable="yes"}
+   ![Skärmbild med startsidans formulärgränssnitt.](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Redigera ditt innehåll enligt den valda mallen:
 
@@ -59,7 +55,7 @@ I [!DNL Adobe Campaign Web]-gränssnittet kan du använda fyra färdiga mallar f
 
 1. Redigera sidan **[!UICONTROL Confirmation]** efter behov, samt sidorna **[!UICONTROL Error]** och **[!UICONTROL Expiration]**. Sidan **[!UICONTROL Confirmation]** visas för mottagarna när de har skickat formuläret.
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
+   ![Skärmbild som visar bekräftelsesidans gränssnitt.](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [Testa](create-lp.md#test-landing-page) och [publicera](create-lp.md#publish-landing-page) din landningssida.
 
@@ -67,7 +63,7 @@ I [!DNL Adobe Campaign Web]-gränssnittet kan du använda fyra färdiga mallar f
 
 1. [Infoga en länk](../email/message-tracking.md#insert-links) i meddelandeinnehållet. Välj **[!UICONTROL Landing page]** som **[!UICONTROL Link type]** och välj den landningssida som du skapade.
 
-   ![](assets/lp-uc-email-link.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet för infogning av e-postlänkar.](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -76,7 +72,6 @@ I [!DNL Adobe Campaign Web]-gränssnittet kan du använda fyra färdiga mallar f
 När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar formuläret:
 
 * De dirigeras till bekräftelsesidan.
-
 * Alla andra åtgärder som definieras på landningssidan ska tillämpas. Användare prenumererar till exempel på din tjänst eller får inga fler meddelanden från dig.
 
 Nedan visas några exempel på hur du kan använda [!DNL Adobe Campaign] landningssidor i olika möjliga användningsfall.
@@ -87,15 +82,15 @@ Med den första mallen kan du lägga till eller uppdatera en profil i Campaign-d
 
 1. När [skapar din landningssida](create-lp.md#create-landing-page) väljer du mallen **[!UICONTROL Acquisition]**.
 
-1. Markera alternativet **[!UICONTROL Pre-fill with the data referenced in the form]** i egenskaperna för landningssidan om du vill att befintlig information från profilen ska läsas in i förväg och undvika att dubbletter skapas.
+1. I landningssidans egenskaper väljer du alternativet **[!UICONTROL Pre-fill with the data referenced in the form]** för att förhandsladda eventuell befintlig information från profilen och undvika att skapa dubbletter.
 
 1. Markera sidan **[!UICONTROL Acquisition]** om du vill redigera innehållet.
 
 1. Redigera textfälten efter behov enligt den information som du vill samla in i dina profiler.
 
-1. Dessutom kan du lägga till en kryssruta där kunderna bjuds in att prenumerera på nyhetsbrevet. [Lär dig skapa en tjänst](../audience/manage-services.md)
+1. Lägg till en kryssruta där kunderna bjuds in att prenumerera på nyhetsbrevet. [Lär dig skapa en tjänst](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet för anskaffningssidan med en prenumerationsknapp för nyhetsbrev.](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -105,11 +100,11 @@ Med den första mallen kan du lägga till eller uppdatera en profil i Campaign-d
 
 När mottagarna har fått e-postmeddelandet klickar du på länken till landningssidan och skickar formuläret, så läggs deras profil till i Campaign-databasen eller uppdateras med den information de har angett.
 
-![](assets/lp-uc-profile-updated.png){zoomable="yes"}
+![Skärmbild som visar en profil som har uppdaterats i Campaign-databasen.](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 Om de valde att ta emot ditt nyhetsbrev kommer de att prenumerera på motsvarande tjänst.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
+![Skärmbild som visar en bekräftelse på prenumeration på nyhetsbrev.](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Prenumeration på en tjänst {#lp-subscription}
 
@@ -122,15 +117,15 @@ Ett av de vanligaste användningsområdena är att bjuda in dina kunder att [pre
 
 <!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
 
-1. Börja med att skapa en bekräftelsemall för användare som prenumererar på ditt evenemang, så att du enkelt kan välja det när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
+1. Skapa en bekräftelsemall för användare som prenumererar på din aktivitet, så att du enkelt kan välja den när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
+   ![Skärmbild som visar bekräftelsemallens gränssnitt.](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
-1. Skapa en prenumerationstjänst som lagrar registrerade användare till ditt evenemang. [Lär dig skapa en tjänst](../audience/manage-services.md)
+1. Skapa en prenumerationstjänst som lagrar registrerade användare för evenemanget. [Lär dig skapa en tjänst](../audience/manage-services.md)
 
 1. Välj den mall som du skapade som det bekräftelsemeddelande som användarna får när de prenumererar.
 
-   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
+   ![Skärmbild som visar prenumerationstjänstens gränssnitt.](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [Skapa en landningssida](create-lp.md#create-landing-page) så att dina mottagare kan registrera sig för din aktivitet. Välj mallen **[!UICONTROL Subscription]**.
 
@@ -140,7 +135,7 @@ Ett av de vanligaste användningsområdena är att bjuda in dina kunder att [pre
 
 1. I fältet **[!UICONTROL Subscriptions & services]** väljer du den tjänst som du skapade för händelsen. Låt alternativet **[!UICONTROL Subscribe in if checked]** vara aktiverat.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
+   ![Skärmbild som visar kryssrutans gränssnitt för prenumeration.](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -158,7 +153,7 @@ När mottagarna har fått e-postmeddelandet klickar du på länken till landning
 
 Du kan göra det möjligt för dina kunder att avbryta prenumerationen på en tjänst via en landningssida.
 
-1. Kontrollera att du har skapat en bekräftelsemall för användare som vill avbryta prenumerationen på tjänsten, så att du enkelt kan välja den när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
+1. Skapa en bekräftelsemall för användare som avbryter prenumerationen på tjänsten, så att du enkelt kan välja den när du skapar tjänsten. [Läs mer](../audience/manage-services.md#create-confirmation-message)
 
 1. I din [prenumerationstjänst](../audience/manage-services.md) väljer du den mall som du skapade som det bekräftelsemeddelande e-postmeddelande som användarna får när de avbeställer prenumerationen.
 
@@ -168,13 +163,13 @@ Du kan göra det möjligt för dina kunder att avbryta prenumerationen på en tj
 
 1. Sidans innehåll visas. Markera den del som motsvarar landningssidans formulär.
 
-1. Du kan lägga till ett **[!UICONTROL Checkbox]**-avsnitt, markera tjänsten och välja alternativet **[!UICONTROL Unsubscribe if checked]**.
+1. Lägg till ett **[!UICONTROL Checkbox]**-avsnitt, markera tjänsten och välj alternativet **[!UICONTROL Unsubscribe if checked]**.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet för att avprenumerera.](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
-1. Du kan också expandera avsnittet **[!UICONTROL Call to action]** och välja alternativet **[!UICONTROL Additional updates]**. Markera tjänsten och markera alternativet **[!UICONTROL Opt out]**.
+1. Expandera avsnittet **[!UICONTROL Call to action]** och markera alternativet **[!UICONTROL Additional updates]**. Markera tjänsten och markera alternativet **[!UICONTROL Opt out]**.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
+   ![Skärmbild som visar call-to-action gränssnitt för att ta bort prenumerationen.](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -196,9 +191,9 @@ Du kan konfigurera en **[!UICONTROL Denylist]**-landningssida som gör att anvä
 
 1. Expandera avsnittet **[!UICONTROL Call to action]** och markera alternativet **[!UICONTROL Additional updates]**.
 
-1. I motsvarande nedrullningsbara lista väljer du **[!UICONTROL Channel (email)]** om du bara vill att dina mottagare ska kunna avanmäla sig från e-postkommunikation. Du kan också välja **[!UICONTROL By all channel]** för att välja alla från alla kommunikationer i alla kanaler.
+1. I motsvarande nedrullningsbara lista väljer du **[!UICONTROL Channel (email)]** om du bara vill att dina mottagare ska kunna avanmäla sig från e-postkommunikation. Du kan också välja **[!UICONTROL By all channel]** för att avanmäla dem från alla kommunikationer i alla kanaler.
 
-   ![](assets/lp-uc-denylist.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet blocklist call-to-action.](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Justera innehållet efter behov och spara ändringarna.
 
@@ -212,6 +207,6 @@ Om du vill kontrollera att den motsvarande profilens val har uppdaterats går du
 
 Om du till exempel väljer att uppdatera alternativet **[!UICONTROL Channel (email)]** på landningssidan, markeras alternativet **[!UICONTROL No longer contact by email]**.
 
-![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
+![Skärmbild som visar en profil som har uppdaterats med inställningar för blockeringslista.](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 Profilen får inte e-postmeddelanden från ert varumärke om du inte prenumererar igen.
