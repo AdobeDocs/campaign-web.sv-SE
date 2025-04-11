@@ -3,9 +3,9 @@ audience: end-user
 title: Lägga till uttrycksfragment i uttrycksredigeraren
 description: Lär dig skapa med innehållsfragment
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ Uttrycksfragment kan användas i alla fält som kan redigeras med uttrycksredige
 
 1. Klicka på ikonen `+` bredvid ett uttrycksfragment för att lägga till det i ditt innehåll.
 
-   ![](assets/fragment-add-expression.png)
+   ![Skärmbild som visar tillägget av ett uttrycksfragment med hjälp av ikonen + ](assets/fragment-add-expression.png)
 
-1. Fragment-ID läggs till i redigeraren. Om du öppnar motsvarande uttrycksfragment och redigerar det från gränssnittet synkroniseras ändringarna. De sprids automatiskt till alla **[!UICONTROL Draft]**-leveranser som innehåller detta fragment-ID.
+1. Fragment-ID läggs till i redigeraren. Om du öppnar motsvarande uttrycksfragment och redigerar det från gränssnittet synkroniseras ändringarna automatiskt. De sprids till alla **[!UICONTROL Draft]**-leveranser som innehåller detta fragment-ID.

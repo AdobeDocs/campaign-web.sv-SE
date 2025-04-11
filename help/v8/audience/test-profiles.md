@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 2%
+source-wordcount: '604'
+ht-degree: 1%
 
 ---
 
@@ -37,27 +37,27 @@ Stegen för att skicka korrektur till testprofiler beskrivs i [det här avsnitte
 
 Om du vill komma åt testprofillistan väljer du **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** på den vänstra menyn och klickar på fliken **[!UICONTROL Test profiles]**.
 
-![](assets/test-profile-list.png){zoomable="yes"}
+![Testa profillistvyn](assets/test-profile-list.png){zoomable="yes"}
 
 * Du kan filtrera på en viss [mapp](../get-started/permissions.md#folders) med listrutan eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png){zoomable="yes"}
+  ![Testa profillistfilter](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Du kan duplicera valfri testprofil och uppdatera den efter behov. Stegen för att redigera en testprofil är desamma som när [du skapar en testprofil](#create-test-profile).
 
 * Om du vill ta bort en testprofil väljer du motsvarande alternativ på menyn **[!UICONTROL More actions]**.
 
-  ![](assets/test-profile-list-delete.png){zoomable="yes"}
+  ![Ta bort alternativ för testprofil](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Om du vill redigera en testprofil klickar du på önskat objekt i listan. Stegen för att redigera en testprofil är desamma som när [du skapar en testprofil](#create-test-profile).
 
 Du kan även komma åt testprofiler via vyn **[!UICONTROL Explorer]** från noden **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** .
 
-Därifrån kan du bläddra, skapa och hantera mappar eller undermappar samt kontrollera tillhörande behörigheter. [Lär dig skapa mappar](../get-started/permissions.md#folders)
+Därifrån kan du bläddra bland, skapa och hantera mappar och undermappar samt kontrollera tillhörande behörigheter. [Lär dig skapa mappar](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable="yes"}
+![Vyn Testa profilmappar](assets/test-profiles-folders.png){zoomable="yes"}
 
-I vyn **[!UICONTROL Explorer]** kan du även filtrera, ta bort, redigera och [ skapa ](#create-test-profile) testprofiler.
+I vyn **[!UICONTROL Explorer]** kan du även filtrera, ta bort, redigera och [skapa](#create-test-profile) testprofiler.
 
 ## Skapa en testprofil {#create-test-profile}
 
@@ -72,11 +72,11 @@ Så här skapar du en testprofil:
 
 1. Klicka på knappen **[!UICONTROL Create test profile]**.
 
-   ![](assets/test-profile-create.png){zoomable="yes"}
+   ![Skapa knapp för testprofil](assets/test-profile-create.png){zoomable="yes"}
 
 1. Fyll i informationen om testprofilen efter behov. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable="yes"}
+   ![Formulär för information om testprofil](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -92,13 +92,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. I avsnittet **[!UICONTROL Contact information]** anger du e-postadressen och andra relevanta data. E-postadressen visas inom hakparenteser efter testprofilens etikett.
 
-   ![](assets/test-profile-address.png){zoomable="yes"}
+   ![Avsnittet Kontaktinformation](assets/test-profile-address.png){zoomable="yes"}
 
 1. Om du markerar kryssrutan **[!UICONTROL No longer contact (by any channel)]** visas testprofilen i blockeringslista. Den här mottagaren är inte längre riktad mot någon kanal (e-post, SMS etc.).
 
 1. På fliken **[!UICONTROL Additional data]** anger du de personaliseringsdata som används för leveranser som har skapats i arbetsflödena för datahantering och som du vill tilldela ett specifikt värde till. [Läs mer om arbetsflöden](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable="yes"}
+   ![Fliken Ytterligare data](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Kontrollera att ytterligare måldata har definierats med ett alias som börjar med @ i arbetsflödesaktiviteten **[!UICONTROL Enrichment]**. Annars kan du inte använda den korrekt med dina dirigerade adresser i leveransaktiviteten. [Läs mer om anrikningsaktiviteten](../workflows/activities/enrichment.md)
 

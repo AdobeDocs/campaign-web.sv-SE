@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Ändra datakälla
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra datakälla
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -23,15 +23,15 @@ I arbetsflöden lagras data som transporteras från en aktivitet till en annan v
 
 I vissa fall är antingen data inte tillgängliga i den aktuella databasen eller så är de inte tillräckligt effektiva för att utföra enhetsåtgärder. Du kan därför behöva tvinga arbetsflödet att använda en annan databas för att utföra sådana åtgärder genom att lägga till en **[!UICONTROL Change data source]**-aktivitet.
 
-Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
->Observera att aktiviteterna **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** inte ska läggas till på en rad. Om du behöver använda båda aktiviteterna i följd måste du ta med en **[!UICONTROL Enrichement]**-aktivitet mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
+>Observera att aktiviteterna **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** inte ska läggas till på en rad. Om du behöver använda båda aktiviteterna i följd inkluderar du en **[!UICONTROL Enrichment]**-aktivitet mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Konfigurera aktiviteten Ändra datakälla {#configure}
 
-Följ de här stegen för att konfigurera aktiviteten **Ändra dimension**:
+Följ de här stegen för att konfigurera aktiviteten **Ändra datakälla**:
 
-![](../assets/workflow-change-data-source-add.png)
+![Skärmbild som visar hur du lägger till aktiviteten Ändra datakälla i ett arbetsflöde.](../assets/workflow-change-data-source-add.png)
 
 1. Lägg till en **Ändra datakällaktivitet** i arbetsflödet.
 
@@ -65,6 +65,6 @@ Följ de här stegen för att konfigurera aktiviteten **Ändra dimension**:
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

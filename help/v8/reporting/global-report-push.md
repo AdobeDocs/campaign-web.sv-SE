@@ -3,9 +3,9 @@ audience: end-user
 title: Globala rapporter för push-kanalen
 description: Förstå globala rapporter för Push-kanalen
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 De globala rapporterna ger användarna en heltäckande översikt över trafik- och engagemangsmätningar på kanalnivå.
 
-Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting]**. Du kan filtrera dina data beroende på rapportdatumet, mappen eller reglerna. [Läs mer](global-reports.md)
+Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting]**. Du kan filtrera dina data beroende på rapportens datum, mapp eller regler. [Läs mer](global-reports.md)
 
 ## Leveranssammanfattning {#delivery-summary-push}
 
@@ -27,7 +27,7 @@ Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting
 
 Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med varje push-meddelandeleverans. Mätvärdena anges nedan.
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![Mätvärden för leveransöversikt, som visar nyckeltal relaterade till prestanda för push-meddelanden.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -37,7 +37,7 @@ Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som 
 
 * **[!UICONTROL Total clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
+* **[!UICONTROL Errors]**: Totalt antal fel som ackumulerats under leveransen och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
 
 +++
 
@@ -50,7 +50,7 @@ Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som 
 
 Tabellen och diagrammet **[!UICONTROL Targeted audience]** innehåller data som är relaterade till dina mottagare för varje skickad push-meddelandeleverans. Mätvärdena anges nedan.
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![Målinriktade målgruppsmått, som visar data relaterade till mottagare och undantag för push-meddelanden.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -58,7 +58,7 @@ Tabellen och diagrammet **[!UICONTROL Targeted audience]** innehåller data som 
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Exclusion]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista, osv.
+* **[!UICONTROL Exclusion]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress saknas, sätts i karantän, på blockeringslista och liknande orsaker.
 
 +++
 
@@ -71,7 +71,7 @@ Tabellen och diagrammet **[!UICONTROL Targeted audience]** innehåller data som 
 
 Tabellen **[!UICONTROL Delivery statistics]** innehåller information om resultatet av varje push-meddelandeleverans. Mätvärdena anges nedan.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![Statistikstatistik som visar antal lyckade åtgärder, fel och karantän för push-meddelanden.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Läs mer om leveransstatistik.
 
@@ -79,9 +79,9 @@ Tabellen **[!UICONTROL Delivery statistics]** innehåller information om resulta
 
 * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL Errors / Bounces]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Errors / Bounces]**: Totalt antal fel som ackumulerats under leveranser och automatisk ombunden bearbetning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (ogiltig registrering, avvisning av meddelande, nyttolastfel, till exempel) i förhållande till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (ogiltig registrering, avvisning av meddelande, nyttolastfel och liknande orsaker) i relation till antalet meddelanden som ska levereras.
 
   Feltyper för push-meddelanden visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -105,6 +105,6 @@ Feltyper för push-meddelanden visas i [Adobe Campaign v8-dokumentationen (klien
 >title="Rapport om leveransdataflöde"
 >abstract="Rapporten **Leveransflöde** innehåller detaljerad information om hela plattformens leveransflöde för push-meddelanden inom en angiven tidsram."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![Mätvärden för leveransdataflöde, som visar om push-meddelanden lyckades eller inte under en angiven period.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Rapporten **[!UICONTROL Delivery Throughput]** innehåller omfattande insikter om hur effektivt leveranssystemet för push-meddelanden är. Den innehåller en detaljerad sammanfattning av lyckade åtgärder och felprocent under en angiven period.

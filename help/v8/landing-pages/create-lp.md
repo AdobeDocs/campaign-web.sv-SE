@@ -3,21 +3,22 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
+source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
+
 
 # Skapa och publicera landningssidor {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Skapa och hantera landningssidor"
->abstract="Med Adobe Campaign kan du skapa, designa och dela landningssidor som dirigerar dina användare till webbsidor på webben där du kan hantera kundvärvning, prenumeration/avprenumeration och blocklist användningsfall, baserat på inbyggda mallar."
+>abstract="Med Adobe Campaign kan du skapa, designa och dela landningssidor för att dirigera dina användare till webbsidor på webben där du kan hantera kundvärvning, prenumeration/avprenumeration och blocklist användningsfall, baserat på inbyggda mallar."
 
-Med användargränssnittet för Campaign-webben kan du skapa, designa och publicera landningssidor. När formuläret har publicerats kan du infoga en länk till det i en leverans. När mottagarna klickar på länken dirigeras de till motsvarande landningssida.
+Med användargränssnittet för Campaign-webben kan du skapa, designa och publicera landningssidor. Efter publiceringen kan du infoga en länk till formuläret i en leverans. När mottagarna klickar på länken dirigeras de till motsvarande landningssida.
 
 [!DNL Adobe Campaign] innehåller fyra mallar för att hantera följande användningsfall: **förvärv**, **prenumeration**, **unsubscription** och **blockeringslista**. [Läs mer](lp-use-cases.md)
 
@@ -25,15 +26,14 @@ Med användargränssnittet för Campaign-webben kan du skapa, designa och public
 
 Välj **[!UICONTROL Content management]** > **[!UICONTROL Landing pages]** på den vänstra menyn för att komma åt landningssidans lista.
 
-![](assets/lp-inventory.png){zoomable="yes"}
+![Skärmbild som visar landningssidornas lager i webbgränssnittet för Campaign.](assets/lp-inventory.png){zoomable="yes"}
 
 Lagret **[!UICONTROL Landing pages]** visar alla skapade artiklar. Du kan filtrera dem med knappen **[!UICONTROL Show filters]**.
 
 * Du kan filtrera objekt som du har skapat eller ändrat.
-
 * Du kan begränsa resultaten till en viss [mapp](../get-started/permissions.md#folders) med hjälp av listrutan eller lägga till regler med [frågemodelleraren](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png){zoomable="yes"}
+![Skärmbild som visar filteralternativen i lagret för landningssidor.](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -60,7 +60,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Schemalägg din landningssida"
->abstract="Du kan definiera ett startdatum och ett slutdatum för landningssidan. När sidan når slutet av giltighetsperioden är formuläret inte längre tillgängligt. Sidan **Förfallotid** visas i stället."
+>abstract="Definiera startdatum och slutdatum för landningssidan. När sidan når slutet av giltighetsperioden är formuläret inte längre tillgängligt. Sidan **Förfallotid** visas i stället."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
@@ -82,7 +82,7 @@ Så här skapar du en landningssida:
 
 1. Klicka på **[!UICONTROL Create landing page]** i **[!UICONTROL Landing pages]**-lagret.
 
-   ![](assets/lp-create-button.png){zoomable="yes"}
+   ![Skärmbild som visar knappen Skapa landningssida.](assets/lp-create-button.png){zoomable="yes"}
 
 1. Välj en mall:
    * **[!UICONTROL Acquisition]**: Det här är standardmallen för landningssidor, som gör att du kan hämta och uppdatera profildata.
@@ -90,7 +90,7 @@ Så här skapar du en landningssida:
    * **[!UICONTROL Unsubscription]**: Den här mallen kan användas i en leverans som skickas till prenumeranterna av en tjänst, så att de kan avbryta prenumerationen på den här [tjänsten](../audience/manage-services.md).
    * **[!UICONTROL Denylist]**: Den här mallen ska användas när en profil klickar på en länk för avanmälan i en leverans och inte längre vill bli kontaktad.
 
-   ![](assets/lp-templates.png){zoomable="yes"}
+   ![Skärmbild som visar startsidans mallar.](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -100,39 +100,37 @@ Så här skapar du en landningssida:
 
 1. Fyll i fälten **[!UICONTROL Properties]**, till exempel etiketten.
 
-   Som standard lagras landningssidor i mappen **[!UICONTROL Web applications]**. Du kan ändra den genom att bläddra till önskad plats i **[!UICONTROL Additional options]**. [Lär dig arbeta med mappar](../get-started/permissions.md#folders)
+   Som standard lagras landningssidor i mappen **[!UICONTROL Web applications]**. Du kan ändra den genom att bläddra till önskad plats i **[!UICONTROL Additional options]**. [Lär dig arbeta med mappar](../get-started/permissions.md#folders).
 
    Du kan också konfigurera captcha för att skydda din landningssida. [Läs mer här](#captcha).
 
-   ![](assets/lp-properties.png){zoomable="yes"}
+   ![Skärmbild som visar egenskapssektionen för landningssidan.](assets/lp-properties.png){zoomable="yes"}
 
-1. I avsnittet **[!UICONTROL Data preload]** är de två alternativen nedan tillgängliga:
+1. Följande alternativ är tillgängliga i avsnittet **[!UICONTROL Data preload]**:
 
-   * När alternativet **[!UICONTROL Pre-fill with the data referenced in the form]** har valts och besökaren på landningssidan matchar en profil från databasen, förinläses profilinformationen automatiskt i formuläret. Användaren behöver bara fylla i de fält som saknas och uppdatera de befintliga värdena om det behövs. Detta gör att du kan sammanfoga data för befintliga profiler i stället för att skapa dubbletter.
+   * När alternativet **[!UICONTROL Pre-fill with the data referenced in the form]** har valts och besökaren på landningssidan matchar en profil från databasen, förinläses profilinformationen automatiskt i formuläret. Användaren behöver bara fylla i de saknade fälten och uppdatera de befintliga värdena om det behövs. Detta gör att du kan sammanfoga data för befintliga profiler i stället för att skapa dubbletter.
 
      >[!NOTE]
      >
      >Det här alternativet är markerat som standard för alla mallar för landningssidor.
 
-   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
-
-   * Alternativet **[!UICONTROL Authorize absence of ID]** ger alla besökare åtkomst till landningssidan. Om du avmarkerar det här alternativet förhindras anonyma besökare att använda det, vilket innebär att endast identifierade användare kan komma åt och skicka formuläret.
+   * Alternativet **[!UICONTROL Authorize absence of ID]** ger alla besökare åtkomst till landningssidan. Om du avmarkerar det här alternativet hindras anonyma besökare från att använda det, vilket innebär att endast identifierade användare kan komma åt och skicka formuläret.
 
      >[!AVAILABILITY]
      >
      >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
-     För mallarna **[!UICONTROL Acquisition]** och **[!UICONTROL Subscription]** är det här alternativet valt som standard. För mallarna **[!UICONTROL Unsubscription]** och **[!UICONTROL Denylist]** är det här alternativet omarkerat som standard och kan inte ändras <!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     För mallarna **[!UICONTROL Acquisition]** och **[!UICONTROL Subscription]** är det här alternativet valt som standard. För mallarna **[!UICONTROL Unsubscription]** och **[!UICONTROL Denylist]** är det här alternativet omarkerat som standard och kan inte ändras.
 
-1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor bläddrar du i avsnittet **[!UICONTROL Pages]** och klickar på knappen **[!UICONTROL Edit content]** för varje sida som du vill designa för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md)
+1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor bläddrar du i avsnittet **[!UICONTROL Pages]** och klickar på knappen **[!UICONTROL Edit content]** för varje sida som du vill designa för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md).
 
-   ![](assets/lp-pages.png){zoomable="yes"}
+   ![Skärmbild som visar sidavsnittet i landningssidans redigerare.](assets/lp-pages.png){zoomable="yes"}
 
 1. I avsnittet **[!UICONTROL Storage]** är alternativet **[!UICONTROL Update the preloaded record]** markerat som standard. Det gör det möjligt att uppdatera de profiler som lagras i databasen via landningssidan. I rutan för förinläsning kan du ange hur posten ska uppdateras i databasen.
 
    Du kan också välja bland fälten i den aktuella kontexten på landningssidan, de som ska användas för att hitta motsvarande profil i databasen. Om du vill göra det avmarkerar du alternativet **[!UICONTROL Update the preloaded record]** och kontrollerar fälten under **[!UICONTROL Reconciliation options]**.
 
-   ![](assets/lp-storage.png){zoomable="yes"}
+   ![Skärmbild som visar lagringsalternativen för landningssidan.](assets/lp-storage.png){zoomable="yes"}
 
 1. Skapa **[!UICONTROL Additional data]** för att lagra interna data när landningssidan skickas. Informationen är inte synlig för användare som besöker sidan. Endast konstanta värden tas i beaktning.
 
@@ -140,11 +138,11 @@ Så här skapar du en landningssida:
    >
    >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
-   ![](assets/lp-additional-data.png){zoomable="yes"}
+   ![Skärmbild som visar ytterligare dataavsnitt.](assets/lp-additional-data.png){zoomable="yes"}
 
 1. Du kan definiera ett startdatum och ett slutdatum för landningssidan. Välj **[!UICONTROL Enable scheduling]** och ange datum.
 
-   ![](assets/lp-schedule.png){zoomable="yes"}
+   ![Skärmbild med schemaläggningsalternativ för landningssidan.](assets/lp-schedule.png){zoomable="yes"}
 
    * Landningssidan publiceras automatiskt på det angivna startdatumet/den angivna starttiden.
 
@@ -152,15 +150,15 @@ Så här skapar du en landningssida:
      >
      >Om inget startdatum definieras blir landningssidan live så snart den har publicerats.
 
-   * När sidan når slutdatumet är <!--the landing page is automatically unpublished and -->formuläret inte längre tillgängligt. Sidan **[!UICONTROL Expiration]** visas i stället.
+   * När sidan når slutdatumet är formuläret inte längre tillgängligt. Sidan **[!UICONTROL Expiration]** visas i stället.
 
      >[!NOTE]
      >
-     >Av säkerhetsskäl och av plattformsprestanda rekommenderar Adobe att du anger ett slutdatum.
+     >Adobe rekommenderar att du anger ett slutdatum av säkerhetsskäl och av plattformsprestanda.
 
 1. Klicka på **[!UICONTROL Review and publish]**.
 
-När du har definierat alla inställningar och [utformat](lp-content.md) alla sidor kan du [testa](#test-landing-page) och [publicera](#publish-landing-page) din landningssida enligt anvisningarna nedan.
+När du har definierat alla inställningar och [designat](lp-content.md) alla sidor kan du [testa](#test-landing-page) och [publicera](#publish-landing-page) din landningssida enligt anvisningarna nedan.
 
 ## Skydda din landningssida med en captcha {#captcha}
 
@@ -173,11 +171,11 @@ Genom att konfigurera en captcha kan du skydda din landningssida mot skräppost 
 Om du vill använda den går du till **[!UICONTROL Properties]** på landningssidan.
 I **[!UICONTROL Additional options]** också. Aktivera växeln **[!UICONTROL Additional Enable captcha solution]**.
 
-![](assets/lp-properties-captcha.png){zoomable="yes"}
+![Skärmbild som visar växlingen för Additional Enable captcha solution](assets/lp-properties-captcha.png){zoomable="yes"}
 
 Om du vill kontrollera bildspelsinställningarna klickar du på knappen **[!UICONTROL Review and publish]** och **[!UICONTROL Simulate content]**. När du skickar formuläret ser du att widgeten Capture fungerar under valideringen enligt nedan.
 
-![](assets/lp-captcha.png){zoomable="yes"}
+![Skärmbild av captcha-widgeten](assets/lp-captcha.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -206,7 +204,7 @@ Så här testar du landningssidan:
 
 1. När du har klickat på **[!UICONTROL Review and publish]** väljer du knappen **[!UICONTROL Simulate content]** på kontrollpanelen för landningssidan för att komma åt valet av testprofil.
 
-   ![](assets/lp-simulate-content.png){zoomable="yes"}
+   ![Skärmbild av knappen Simulera innehåll](assets/lp-simulate-content.png){zoomable="yes"}
 
 1. Välj en eller flera testprofiler på skärmen **[!UICONTROL Simulate]**.
 
@@ -216,19 +214,19 @@ Så här testar du landningssidan:
 
 1. Välj **[!UICONTROL Open preview]** om du vill testa landningssidan.
 
-   ![](assets/lp-open-preview.png){zoomable="yes"}
+   ![Skärmbild av knappen Öppna förhandsvisning](assets/lp-open-preview.png){zoomable="yes"}
 
 1. Förhandsgranskningen av landningssidan öppnas på en ny flik. Personaliserade element ersätts med valda testprofildata.
 
    Om du valde alternativet **[!UICONTROL Pre-fill with the data referenced in the form]** i inställningarna för landningssidan fylls formulärfälten automatiskt i med motsvarande testprofildata.<!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable="yes"}
+   ![Exempel på leverans](assets/lp-preview.png){zoomable="yes"}
 
 1. Välj andra testprofiler om du vill förhandsgranska återgivningen för varje variant av landningssidan.
 
 <!--Can you preview Confirmation/Error/Expiration pages?-->
 
-## Publish landningssida {#publish-landing-page}
+## Publicera landningssidan {#publish-landing-page}
 
 När landningssidan är klar och validerad publicerar du den för att göra den tillgänglig för användning i en leverans med motsvarande knapp.
 
@@ -242,6 +240,6 @@ Publicerad:
 >
 >Om du vill testa eller utnyttja landningssidan fullt ut kan du inte kopiera och klistra in länken direkt i en webbläsare eller i leveranser. Använd i stället funktionen [Simulera innehåll](#test-landing-page) för att testa det och följ stegen som beskrivs i [det här avsnittet](lp-use-cases.md) för att använda landningssidan på rätt sätt.
 
-![](assets/lp-published.png){zoomable="yes"}
+![Skärmbild som visar URL för landningssida](assets/lp-published.png){zoomable="yes"}
 
 Du kan övervaka landningssidans påverkan via loggarna <!--and specific reports-->. Klicka på knappen **[!UICONTROL Logs]**.

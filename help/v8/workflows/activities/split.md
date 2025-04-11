@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Dela arbetsflöde
 description: Lär dig använda aktiviteten Dela arbetsflöde
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 >title="Delad aktivitet"
 >abstract="Med aktiviteten **Dela** kan du segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, t.ex. filtreringsregler eller populationsstorlek."
 
-Aktiviteten **Dela** är en **målaktivitet** som gör att du kan segmentera inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, till exempel filtreringsregler eller populationsstorlek.
+Aktiviteten **Dela** är en **målaktivitet** som segmenterar inkommande populationer i flera deluppsättningar baserat på olika urvalskriterier, till exempel filtreringsregler eller populationsstorlek.
 
 ## Konfigurera aktiviteten Dela {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="Segment för delad aktivitet"
->abstract="Lägg till så många delmängder som du vill för att segmentera den inkommande populationen.<br/></br>När aktiviteten **Dela** körs segmenteras populationen mellan de olika delmängderna i den ordning som de läggs till i aktiviteten. Innan du startar arbetsflödet bör du kontrollera att du har ordnat delmängderna i den ordning som passar dig med pilknapparna."
+>abstract="Lägg till så många delmängder som du vill för att segmentera den inkommande populationen. När aktiviteten **Dela** körs segmenteras populationen över de olika delmängderna i den ordning som de läggs till i aktiviteten. Innan du startar arbetsflödet bör du kontrollera att du har ordnat delmängderna i den ordning som passar dig med pilknapparna."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -60,7 +60,7 @@ Aktiviteten **Dela** är en **målaktivitet** som gör att du kan segmentera ink
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Aktivera överlappning av utdatapopulationer"
->abstract=" Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier."
+>abstract="Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan vara närvarande i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier."
 
 Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
@@ -68,28 +68,27 @@ Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
 1. Aktivitetskonfigurationsrutan öppnas med en standarddelmängd. Klicka på knappen **Lägg till segment** om du vill lägga till så många delmängder som behövs för att segmentera den inkommande populationen.
 
-   ![](../assets/workflow-split.png)
+   ![Delad aktivitetskonfigurationsruta med delmängder](../assets/workflow-split.png)
 
    >[!IMPORTANT]
    >
    >När aktiviteten **Dela** körs segmenteras populationen över de olika delmängderna i den ordning som de läggs till i aktiviteten. Om till exempel den första delmängden återställer 70 % av den ursprungliga populationen, kommer nästa tillagda delmängd endast att tillämpa sina urvalskriterier på de återstående 30 %, och så vidare.
    >
-   >Innan du startar arbetsflödet bör du kontrollera att du har beställt delmängderna i den ordning som passar dina behov. Det gör du genom att använda pilknapparna för att ändra positionen för en delmängd.
+   >Innan du startar arbetsflödet bör du kontrollera att du har beställt delmängderna i den ordning som passar dina behov. Använd pilknapparna för att ändra positionen för en delmängd.
 
-1. När deluppsättningar har lagts till visar aktiviteten så många utdataövergångar som det finns deluppsättningar. Vi rekommenderar starkt att du ändrar etiketten för varje delmängd så att du enkelt kan identifiera dem på arbetsytan.
+1. När deluppsättningar har lagts till visar aktiviteten så många utdataövergångar som det finns deluppsättningar. Ändra etiketten för varje delmängd för att enkelt identifiera dem på arbetsytan.
 
-1. Konfigurera hur varje delmängd ska filtrera den inkommande populationen. Följ dessa steg för att göra detta:
+1. Konfigurera hur varje delmängd filtrerar den inkommande populationen. Följ de här stegen:
 
    1. Öppna delmängden för att visa dess egenskaper.
 
-   1. Om du vill använda ett filtreringsvillkor för delmängden klickar du på **[!UICONTROL Create filter]** och konfigurerar den önskade filtreringsregeln med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
+   1. Om du vill använda ett filtreringsvillkor för delmängden klickar du på **[!UICONTROL Create filter]** och konfigurerar den önskade filtreringsregeln med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md).
 
    1. Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du alternativet **[!UICONTROL Enable limit]** och anger antalet eller procentsatserna för den population som ska inkluderas.
 
    1. Om du vill inaktivera en övergång om den inkommande populationen är tom aktiverar du alternativet **[!UICONTROL Skip empty transition]**. Om ingen profil matchar delmängden kommer arbetsflödet inte att övergå till nästa aktivitet.
 
-      ![](../assets/workflow-split-subset.png)
-
+      ![Deluppsättningskonfigurationsrutan med filtrerings- och sorteringsalternativ](../assets/workflow-split-subset.png)
 
       >[!NOTE]
       >
@@ -97,7 +96,7 @@ Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
 1. När du har konfigurerat alla deluppsättningar kan du välja den återstående populationen som inte matchade någon av deluppsättningarna och inkludera dem i en ytterligare utgående övergång. Aktivera alternativet **[!UICONTROL Generate complement]** om du vill göra det.
 
-   ![](../assets/workflow-split-complement.png)
+   ![Komplettera konfigurationsfönstret för övergångar](../assets/workflow-split-complement.png)
 
    >[!NOTE]
    >
@@ -105,17 +104,17 @@ Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
 1. Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder:
 
-   * När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor.
+   * När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan vara närvarande i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor.
    * När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier.
 
-Aktiviteten är nu konfigurerad. När arbetsflödet körs segmenteras populationen i de olika deluppsättningarna, i den ordning som de har lagts till i aktiviteten.
+Aktiviteten är nu konfigurerad. Vid arbetsflödeskörning delas populationssegmenten in i de olika delmängderna i den ordning som de har lagts till i aktiviteten.
 
-## Exempel{#split-example}
+## Exempel {#split-example}
 
-I följande exempel används aktiviteten **[!UICONTROL Split]** för att segmentera en målgrupp i distinkta delmängder baserat på kommunikationskanalen som vi vill använda:
+I följande exempel segmenterar aktiviteten **[!UICONTROL Split]** en målgrupp i distinkta delmängder baserat på kommunikationskanalen som ska användas:
 
-* **Delmängd 1 &quot;push&quot;**: Den här delmängden innehåller alla profiler som har installerat vårt mobilprogram.
+* **Delmängd 1 &quot;push&quot;**: Den här delmängden innehåller alla profiler som har installerat mobilprogrammet.
 * **Delmängd 2 &quot;sms&quot;**: Användare av mobiltelefoner: För den återstående populationen som inte ingick i delmängd 1 tillämpar delmängd 2 en filtreringsregel för att välja profiler med mobiltelefoner i databasen.
 * **Kompletteringsövergång**: Den här övergången fångar alla återstående profiler som inte matchade delmängd 1 eller delmängd 2. Det omfattar profiler som varken har installerat mobilappen eller en mobiltelefon, till exempel användare som inte har installerat mobilappen eller saknar ett registrerat mobilnummer.
 
-![](../assets/workflow-split-example.png)
+![Exempel på en delad aktivitet med delmängder och komplementövergång](../assets/workflow-split-example.png)

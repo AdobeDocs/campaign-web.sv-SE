@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -17,34 +17,33 @@ Experience Cloud är Adobe integrerade program, produkter och tjänster för dig
 
 Du kan bara använda enkel inloggning (SSO) för att ansluta till Campaign. Vanligtvis ger Experience Cloud-administratörer tillgång till program och tjänster. Följ stegen i din e-postinbjudan till Experience Cloud.
 
-De grundläggande stegen för att logga in på Adobe Experience Cloud är:
+Så här loggar du in på Adobe Experience Cloud:
 
-1. Bläddra till [Adobe Experience Cloud](https://experience.adobe.com/).
+1. Gå till [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Logga in med din Adobe ID eller Enterprise ID. Läs mer om identitetstyper på Adobe i [den här artikeln](https://helpx.adobe.com/enterprise/using/identity.html).
+1. Logga in med din Adobe ID eller Enterprise ID. Läs mer om identitetstyper på Adobe i [den här artikeln](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
    När du har loggat in på Experience Cloud får du snabbt tillgång till alla dina lösningar och appar.
 
-   ![](assets/exc-home.png)
+   ![Skärmbild som visar Adobe Experience Cloud hemsida](assets/exc-home.png){zoomable="yes"}
 
 1. Kontrollera att du är i rätt organisation.
 
-   ![](assets/exc-orgs.png)
+   ![Skärmbild som visar organisationsval i Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Läs mer om organisationer i Adobe Experience Cloud i [den här artikeln](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv).
-
+   Läs mer om organisationer i Adobe Experience Cloud i [den här artikeln](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=sv){target="_blank"}.
 
 ## Tillgång till Adobe Campaign {#access-to-campaign}
 
 Om du vill komma åt din Campaign-miljö väljer du **Campaign** i avsnittet **Snabbåtkomst** på Adobe Experience Cloud hemsida.
 
-Om du redan är ansluten till en annan Adobe Experience Cloud-lösning kan du även bläddra till Campaign-miljön från lösningsväljaren längst upp till höger på skärmen.
+Om du redan är ansluten till en annan Adobe Experience Cloud-lösning bläddrar du till Campaign-miljön från lösningsväljaren längst upp till höger på skärmen.
 
-![](assets/solution-switcher.png)
+![Skärmbild som visar lösningsväljaren i Adobe Experience Cloud](assets/solution-switcher.png){zoomable="yes"}
 
 Om du har tillgång till flera miljöer, inklusive Campaign Control Panel, klickar du på knappen **Launch** för att få rätt instans.
 
-![](assets/launch-campaign.png)
+![Skärmbild som visar startknappen för Adobe Campaign](assets/launch-campaign.png){zoomable="yes"}
 
 Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargränssnittet på [den här sidan](user-interface.md).
 
@@ -67,12 +66,12 @@ Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargrä
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="Mottagarens skrivskyddade profil"
->abstract="Du har inte behörighet att redigera detta prodike. Om det behövs kontaktar du administratören för att ge dig åtkomst."
+>title="Mottagarna har skrivskyddad profil"
+>abstract="Du har inte behörighet att redigera den här profilen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
->title="Denna kampanj är skrivskyddad"
+>title="Den här kampanjen är skrivskyddad"
 >abstract="Du har inte behörighet att redigera den här kampanjen. Kontakta administratören om det behövs för att ge dig åtkomst."
 
 >[!CONTEXTUALHELP]
@@ -85,30 +84,30 @@ Du är nu ansluten till Campaign. Lär dig hur du börjar använda användargrä
 >title="Arbetsflödet är skrivskyddat"
 >abstract="Du har inte behörighet att redigera det här arbetsflödet. Kontakta administratören om det behövs för att ge dig åtkomst."
 
-Åtkomstkontroll kan begränsa åtkomst till objekt och data från huvudlistor, till exempel leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även i Utforskarens navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
+Åtkomstkontrollen begränsar åtkomsten till objekt och data från huvudlistor, t.ex. leveranser, mottagare eller arbetsflöden. Dessa begränsningar gäller även i Utforskarens navigeringsträd. Dessutom behöver du behörighet att skapa, ta bort, duplicera och redigera objekt från användargränssnittet.
 
-Alla behörigheter på Campaign Web synkroniseras med behörigheter på Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter.
+Alla behörigheter i Campaign Web synkroniseras med behörigheter i Campaign Client Console. Endast kampanjadministratörer kan definiera och ändra användarbehörigheter.
 
-När du surfar i användargränssnittet i Campaign kan du komma åt data, objekt och funktioner beroende på dina behörigheter. Om du till exempel inte har åtkomstbehörighet till en mapp kan du inte se den. Dina behörigheter påverkar även objekt och datahantering. Utan skrivbehörighet för en viss mapp kan du inte skapa en leverans i den mappen, även om du kan se den i användargränssnittet.
+När du bläddrar i användargränssnittet för Campaign-webben kan du komma åt data, objekt och funktioner beroende på dina behörigheter. Om du till exempel inte har åtkomstbehörighet till en mapp kan du inte se den. Dina behörigheter påverkar även objekt och datahantering. Utan skrivbehörighet för en viss mapp kan du inte skapa en leverans i den mappen, även om du kan se den i användargränssnittet.
 
 Du kan lära dig att [visa och hantera behörigheter här](permissions.md).
 
-## Övre navigering i Adobe Experience Cloud {#top-bar}
+## Adobe Experience Cloud toppnavigering {#top-bar}
 
-Bläddra i det övre fältet i gränssnittet för att:
+Bläddra i gränssnittets övre fält till:
 
-* dela feedback om användargränssnittet i Campaign Web
-* växla mellan olika organisationer
-* växla mellan era Adobe Experience Cloud-lösningar och appar
-* sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/)
-* kontrollera produktmeddelanden
-* redigera din Adobe-profil och hantera inställningar, till exempel [uppdatera ditt favoritspråk](#language-pref) eller [växla till ljust/mörkt tema](#dark-theme)
+* Dela feedback om gränssnittet i Campaign Web.
+* Växla mellan olika organisationer.
+* Växla mellan era Adobe Experience Cloud-lösningar och appar.
+* Sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}.
+* Kontrollera dina produktmeddelanden.
+* Redigera din Adobe-profil och hantera inställningar, till exempel [uppdatera ditt favoritspråk](#language-pref) eller [växla till ljust/mörkt tema](#dark-theme).
 
-![](assets/do-not-localize/unified-shell.png)
+![Skärmbild som visar Adobe Experience Cloud övre navigeringsfält](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Webbläsare som stöds {#browsers}
 
-Adobe Campaign Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Du kan ha problem med att använda vissa funktioner i äldre versioner eller i andra webbläsare.
+Adobe Campaign Web är utformat för att fungera optimalt i den senaste versionen av Google Chrome, Safari och Microsoft Edge. Det kan uppstå problem när du använder vissa funktioner i äldre versioner eller i andra webbläsare.
 
 ## Språkinställningar {#language-pref}
 
@@ -125,19 +124,19 @@ Adobe Campaign Web finns på följande språk:
 * Förenklad kinesiska - CHS
 * Traditionell kinesiska - CHT
 
+Ditt standardspråk för Campaign Web avgörs av det språk du föredrar i din användarprofil. Det gäller inte språket för er Campaign-server och kundkonsol.
 
-Ditt standardspråk för Campaign Web bestäms av det språk som anges i din användarprofil. Den är inte relaterad till språket på Campaign-servern och klientkonsolen.
-
-Så här ändrar du språk:
+Så här byter du språk:
 
 1. Klicka på din profilikon längst upp till höger och välj sedan **Inställningar**.
-1. Klicka sedan på den språklänk som visas under din e-postadress.
+1. Klicka på den språklänk som visas under din e-postadress.
 1. Välj önskat språk och klicka på **Spara**. Du kan välja ett andra språk om komponenten som du använder inte är lokaliserad till ditt första språk.
+
 
 ## Mörka och ljusa teman {#dark-theme}
 
-Adobe Campaign finns i ljusa och mörka teman. Som standard är användargränssnittet aktiverat i ljust tema. Om du vill växla till det mörka temat klickar du på din profilikon och använder **det mörka temat** för att aktivera/inaktivera det.
+Adobe Campaign finns i ljusa och mörka teman. Som standard är användargränssnittet aktiverat i ljust tema. Om du vill växla till det mörka temat klickar du på din profilikon och använder **det mörka temat** för att aktivera eller inaktivera det.
 
-Användarprofilsinställningar och kontoinställningar beskrivs i [det här avsnittet](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences).
+Användarprofilsinställningar och kontoinställningar beskrivs i [det här avsnittet](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
 
-Läs mer om Experience Cloud Central Interface Components i [den här dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html).
+Läs mer om Experience Cloud Central Interface Components i [den här dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.

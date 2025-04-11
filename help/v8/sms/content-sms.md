@@ -3,9 +3,9 @@ audience: end-user
 title: Designa en SMS-leverans
 description: Lär dig hur du utformar din SMS-leverans
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="SMS-meddelandeinnehåll"
->abstract="Definiera innehållet i ditt SMS. Klicka på fältet **Meddelande** och ange meddelandeinnehållet för att skapa meddelandet. Använd uttrycksredigeraren för att lägga till personaliserade data och dynamiskt innehåll. Du kan också anpassa avsändarens namn. Spårning är som standard aktiverat för alla SMS-leveranser så att du kan mäta när mottagarna klickar på länkar."
+>abstract="Definiera innehållet i ditt SMS. Klicka på fältet **Meddelande** och ange meddelandeinnehållet för att skapa meddelandet. Använd uttrycksredigeraren för att lägga till personaliserade data och dynamiskt innehåll. Du kan också anpassa avsändarens namn. Spårning är aktiverat som standard för alla SMS-leveranser, vilket gör att du kan mäta när mottagarna klickar på länkar."
 
 Så här utformar du innehållet i en SMS-leverans:
 
 1. Klicka på knappen **[!UICONTROL Edit content]** på din leveranssida för att utforma ditt SMS-innehåll.
 
-1. På sidan **[!UICONTROL Edit content]** kan du anpassa avsändarens namn genom att gå till **[!UICONTROL Sender field]** och ange önskat namn.
+1. Anpassa avsändarnamnet på sidan **[!UICONTROL Edit content]** genom att gå till **[!UICONTROL Sender field]** och ange önskat namn.
 
-   Genom att klicka på **[!UICONTROL Open personalization dialog]** kan du dessutom inkludera anpassningsfält, uttrycksfragment och dynamiskt innehåll i meddelandet.
+   Klicka på **[!UICONTROL Open personalization dialog]** om du vill inkludera anpassningsfält, uttrycksfragment och dynamiskt innehåll i meddelandet.
 
-   ![](assets/sms_content_1.png){zoomable="yes"}
+   ![Skärmbild som visar sidan Redigera innehåll med alternativ för att anpassa avsändarens namn och lägga till anpassningsfält](assets/sms_content_1.png){zoomable="yes"}
 
 1. Skriv textmeddelandet i fältet **[!UICONTROL Message]** eller klicka på alternativet **[!UICONTROL Open personalization dialog]** för att definiera innehåll och lägga till dynamiskt innehåll. [Läs mer](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable="yes"}
+   ![Skärmbild som visar meddelandefältet med alternativ för att lägga till dynamiskt innehåll](assets/sms_content_2.png){zoomable="yes"}
 
-1. Spårning är aktiverat som standard för leveranser. Du kan inaktivera det här alternativet från **[!UICONTROL Optional features section]**.
+1. Spårning är aktiverat som standard för leveranser. Inaktivera det här alternativet från **[!UICONTROL Optional features section]** vid behov.
 
 1. Klicka på **[!UICONTROL Settings]** för att komma åt avancerade alternativ som är relaterade till din leveransmall. [Läs mer](../advanced-settings/delivery-settings.md)
 
@@ -44,4 +44,4 @@ Så här utformar du innehållet i en SMS-leverans:
 
 1. Klicka på **[!UICONTROL Save]** och kontrollera meddelandet i förhandsgranskningen.
 
-Nu kan ni granska och skicka SMS-meddelanden till er målgrupp.
+Granska och skicka SMS-meddelanden till er målgrupp.

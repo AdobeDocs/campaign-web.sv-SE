@@ -3,10 +3,10 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 2%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Läs in filaktivitet"
->abstract="Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för anpassning, för att uppdatera profiler eller andra tabeller. "
+>abstract="Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för anpassning, för att uppdatera profiler eller andra tabeller."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,7 +27,6 @@ ht-degree: 2%
 >title="Avvisa utgående övergång för hantering av avslag"
 >abstract="Avvisa utgående övergång för hantering av avslag"
 
-
 Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [anpassning](../../personalization/gs-personalization.md), för att uppdatera profiler eller andra tabeller.
 
 >[!NOTE]
@@ -37,9 +36,9 @@ Den här aktiviteten kan användas med en [avstämningsaktivitet](reconciliation
 
 ## Konfigurera aktiviteten Läs in fil {#load-configuration}
 
-Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Först måste du definiera den förväntade filstrukturen genom att överföra en exempelfil.  När du är klar kan du ange ursprunget för filen vars data ska importeras. Konfigurera aktiviteten genom att följa stegen nedan.
+Aktivitetskonfigurationen för **Läs in fil** omfattar två steg. Börja med att definiera den förväntade filstrukturen genom att överföra en exempelfil. När du är klar anger du ursprunget till filen vars data ska importeras. Konfigurera aktiviteten genom att följa stegen nedan.
 
-![](../assets/workflow-load-file.png)
+![Skärmbild för konfiguration av inläsningsfilaktivitet för arbetsflöde](../assets/workflow-load-file.png)
 
 ### Konfigurera exempelfilen {#sample}
 
@@ -66,13 +65,13 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 
    >[!NOTE]
    >
-   >Data i exempelfilen används för att konfigurera aktiviteten men importeras inte.  Vi rekommenderar att du använder en exempelfil som innehåller lite data. Filformatet måste justeras mot den här [exempelfilen](../../audience/file-audience.md#sample-file).
+   >Data i exempelfilen används för att konfigurera aktiviteten men importeras inte.  Använd en exempelfil som innehåller få data. Filformatet måste justeras mot den här [exempelfilen](../../audience/file-audience.md#sample-file).
 
 1. En förhandsgranskning av exempelfilen visas med högst 30 rader.
 
 1. Ange om filen använder avgränsade kolumner eller kolumner med fast bredd i listrutan **[!UICONTROL File type]**.
 
-   ![](../assets/workflow-load-file-sample.png)
+   ![Exempelbild av filkonfiguration](../assets/workflow-load-file-sample.png)
 
 1. För filtyper med avgränsade kolumner använder du avsnittet **Kolumner** för att konfigurera egenskaperna för varje kolumn.
 
@@ -83,7 +82,7 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
    * **[!UICONTROL Width]** (strängdatatyp): Maximalt antal tecken som ska visas i kolumnen.
    * **[!UICONTROL Data Transformation]** (strängdatatyp): Använd omformning på värdena i kolumnen.
    * **[!UICONTROL White space management]** (strängdatatyp): Ange hur blanksteg i kolumnen ska hanteras.
-   * **[!UICONTROL Separators]** (datatyperna datum, tid, heltal och tal)*: Ange de tecken som ska användas som avgränsare.
+   * **[!UICONTROL Separators]** (datatyperna datum, tid, heltal och tal): Ange de tecken som ska användas som avgränsare.
    * **[!UICONTROL Allow NULLs]**: Ange hur tomma värden i kolumnen ska hanteras. Alternativet&quot;Adobe Campaign-standard&quot; genererar ett fel om det finns ett tomt värde.
    * **[!UICONTROL Error processing]** (strängdatatyp): Ange beteende om det finns fel på en av raderna.
    * **[!UICONTROL Value remapping]**: Med det här alternativet kan du mappa specifika värden med nya. Om kolumnen till exempel innehåller värdena &quot;Sant&quot;/&quot;Falskt&quot; kan du lägga till en mappning som automatiskt ersätter dessa värden med tecknen &quot;0&quot;/&quot;1&quot;.
@@ -107,12 +106,12 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Måldatabas"
->abstract="Om du använder en **[!UICONTROL Load file]**-aktivitet som redan har konfigurerats i klientkonsolen, finns ytterligare ett **[!UICONTROL Target database]**-avsnitt tillgängligt om du har konfigurerat aktiviteten att överföra filen till en extern databas."
+>abstract="Om du försöker få åtkomst till en **[!UICONTROL Load file]**-aktivitet som redan har konfigurerats i klientkonsolen finns ytterligare ett **[!UICONTROL Target database]**-avsnitt tillgängligt om du har konfigurerat aktiviteten att överföra filen till en extern databas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Kommandot Läs in fil"
->abstract="Att tillåta godtyckligt kommando för förbehandling är ett säkerhetsproblem, inaktivera säkerhetsalternativet XtkSecurity_Disable_Preproc för att tvinga fram användning av en fördefinierad lista med kommandon."
+>abstract="Att tillåta godtyckligt kommando för förbehandling är en säkerhetsfråga. Inaktivera säkerhetsalternativet XtkSecurity_Disable_Preproc om du vill framtvinga användning av en fördefinierad lista med kommandon."
 
 >[!CAUTION]
 >
@@ -130,7 +129,7 @@ Så här definierar du målfilen som ska överföras:
 
    * **[!UICONTROL Calculated]**: Överför filen vars namn anges i fältet **[!UICONTROL File name]**. Klicka på ikonen **[!UICONTROL Open personalization dialog]** om du vill använda uttrycksredigeraren, inklusive händelsevariabler, för att beräkna filnamnet.
 
-   ![](../assets/workflow-load-file-config.png)
+   ![Skärmbild för målfilskonfiguration](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -148,7 +147,6 @@ Så här definierar du målfilen som ska överföras:
 >title="Ta bort fil efter import"
 >abstract="Om du vill ta bort originalfilen från servern efter att filen har importerats växlar du mellan **Ta bort filen efter importen**."
 
-
 1. I avsnittet **Avvisningshantering** anger du hur aktiviteten ska fungera om fel uppstår:
 
    * I fältet **[!UICONTROL Number of errors allowed]** anger du det maximala antalet fel som tillåts när filen som ska läsas in bearbetas. Om värdet till exempel är 20 misslyckas arbetsflödeskörningen om det finns mer än 20 fel när filen läses in.
@@ -159,7 +157,7 @@ Så här definierar du målfilen som ska överföras:
 
 1. Om du vill ta bort den överförda filen från servern när arbetsflödet har körts växlar du till alternativet **[!UICONTROL Delete file after import]**.
 
-   ![](../assets/workflow-load-file-options.png)
+   ![Ytterligare alternativ Konfigurationsbild](../assets/workflow-load-file-options.png)
 
 1. Klicka på **Bekräfta** när inställningarna är korrekta.
 

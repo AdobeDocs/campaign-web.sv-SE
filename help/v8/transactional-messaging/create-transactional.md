@@ -3,21 +3,20 @@ audience: end-user
 title: Skapa transaktionsmeddelanden
 description: Lär dig hur du skapar ett transaktionsmeddelande i webbgränssnittet för Campaign
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
 # Skapa transaktionsmeddelanden
 
-Vid transaktionsmeddelanden utlöser en händelse att ett personligt meddelande skickas.
-Om du vill aktivera detta måste du skapa en meddelandemall för varje händelsetyp. Mallarna innehåller all information som krävs för att personalisera transaktionsmeddelandet.
+Vid transaktionsmeddelanden utlöser en händelse att ett personligt meddelande skickas. Om du vill aktivera det här skapar du en meddelandemall för varje händelsetyp. Mallarna innehåller all information som krävs för att personalisera transaktionsmeddelandet.
 
 ## Skapa en mall för transaktionsmeddelanden {#transactional-template}
 
-I Campaign Web User Interface är det första steget i konfigurationen av transaktionsmeddelanden att skapa mallen eller att skapa meddelandet direkt. Detta skiljer sig åt med [konfigurationen av transaktionsmeddelanden på klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+I Campaign Web User Interface är det första steget i konfigurationen av transaktionsmeddelanden att skapa mallen eller att skapa meddelandet direkt. Detta skiljer sig från [konfigurationen av transaktionsmeddelanden på klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 En mall för transaktionsmeddelanden kan användas för att förhandsgranska det leveransinnehåll som tas emot av profilen innan den når den slutliga målgruppen. En administratör kan till exempel konfigurera och konfigurera mallarna så att de blir klara för marknadsföringsanvändare.
 
@@ -25,51 +24,51 @@ Följ stegen nedan för att skapa en mall för transaktionsmeddelanden:
 
 * Gå till **[!UICONTROL Transactional messages]** i avsnittet **[!UICONTROL Triggered messages]**. På fliken **[!UICONTROL Templates]** kan du se alla leveransmallar för transaktionsmeddelanden. Klicka på knappen **[!UICONTROL Create transactional message template]** för att börja skapa mallen.
 
-  ![](assets/transactional-templates.png){zoomable="yes"}
+  ![Skärmbild som visar avsnittet med transaktionsmallar i webbgränssnittet för Campaign.](assets/transactional-templates.png){zoomable="yes"}
 
-* Välj kanalen för mallen på den nya sidan som visas. Vi väljer till exempel **[!UICONTROL Email]**-kanal. Du kan också arbeta från en annan meddelandemall och välja den i listan Mallar.
+* Välj kanalen för mallen på den nya sidan som visas. I det här exemplet väljer du kanalen **[!UICONTROL Email]**. Du kan också arbeta från en annan meddelandemall och välja den i listan Mallar.
 
-  ![](assets/transactional-template-channel.png){zoomable="yes"}
+  ![Skärmbild som visar kanalval för transaktionsmeddelandemallar.](assets/transactional-template-channel.png){zoomable="yes"}
 
   Klicka igen på knappen **[!UICONTROL Create transactional message]** för att validera att mallen skapas på den valda kanalen.
 
-* Du har nu åtkomst till konfigurationen av mallen för transaktionsmeddelanden.
+* Få åtkomst till konfigurationen för transaktionsmeddelandemallen.
 
-  ![](assets/transactional-template-configuration.png){zoomable="yes"}
+  ![Skärmbild som visar konfigurationssidan för transaktionsmeddelandemallar.](assets/transactional-template-configuration.png){zoomable="yes"}
 
 ### Egenskaper för transaktionsmeddelande {#transactional-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
 >title="Egenskaper för transaktionsmeddelanden"
->abstract="Fyll i det här formuläret för att konfigurera egenskaper för transaktionsmeddelanden"
+>abstract="Fyll i det här formuläret om du vill konfigurera egenskaper för transaktionsmeddelanden."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
 >title="E-postegenskaper för transaktionsmeddelanden"
->abstract="Fyll i det här formuläret för att konfigurera e-postegenskaperna för transaktionsmeddelanden"
+>abstract="Fyll i det här formuläret om du vill konfigurera e-postegenskaperna för transaktionsmeddelanden."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
 >title="SMS-egenskaper för transaktionsmeddelanden"
->abstract="Fyll i det här formuläret för att konfigurera SMS-egenskaper för transaktionsmeddelanden"
+>abstract="Fyll i det här formuläret om du vill konfigurera SMS-egenskaper för transaktionsmeddelanden."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
 >title="Push-egenskaper för transaktionsmeddelanden"
->abstract="Fyll i det här formuläret för att konfigurera push-egenskaper för transaktionsmeddelanden"
+>abstract="Fyll i det här formuläret om du vill konfigurera push-egenskaperna för transaktionsmeddelanden."
 
 Avsnittet **[!UICONTROL Properties]** i ett transaktionsmeddelande hjälper dig att konfigurera:
 
-* **[!UICONTROL Label]** är det namn som visas i transaktionsmeddelandelistan. Gör det tydligt för forskning och framtida användning.
-* **[!UICONTROL Internal name]** är ett unikt namn som skiljer ditt meddelande från de andra meddelanden som skapas.
-* **[!UICONTROL Folder]** är den plats där transaktionsmeddelandemallen skapas.
-* **[!UICONTROL Execution folder]** är den plats där meddelandet lagras efter körning.
-* **[!UICONTROL Delivery code]**: En kod som hjälper till att identifiera meddelandet för rapportering, om det behövs.
-* **[!UICONTROL Description]**
-* **[!UICONTROL Nature]** är typen av leverans, enligt listan i uppräkningen *deliveryNature*. [Läs mer om uppräkningar](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations)
+* **[!UICONTROL Label]**, som är det namn som visas i transaktionsmeddelandelistan. Gör det tydligt för forskning och framtida användning.
+* **[!UICONTROL Internal name]**, som är ett unikt namn som skiljer ditt meddelande från andra meddelanden som skapas.
+* **[!UICONTROL Folder]**, där transaktionsmeddelandemallen skapas.
+* **[!UICONTROL Execution folder]**, där meddelandet lagras efter körning.
+* **[!UICONTROL Delivery code]**, som är en kod som hjälper till att identifiera meddelandet för rapportering, vid behov.
+* **[!UICONTROL Description]**.
+* **[!UICONTROL Nature]**, som är typen av leverans, enligt listan i uppräkningen *deliveryNature*. [Läs mer om uppräkningar](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
-![](assets/template-properties.png){zoomable="yes"}
+![Skärmbild som visar egenskapsdelen i en mall för transaktionsmeddelanden.](assets/template-properties.png){zoomable="yes"}
 
 ### Mobilapp {#mobile-app}
 
@@ -78,11 +77,11 @@ Avsnittet **[!UICONTROL Properties]** i ett transaktionsmeddelande hjälper dig 
 >title="Mobilappen Transactional Messaging"
 >abstract="I det här avsnittet kan du välja programmet där du vill skicka meddelandet."
 
-I det här avsnittet kan du välja programmet där du vill skicka meddelandet.
+I det här avsnittet väljer du det program där du vill skicka meddelandet.
 
-Genom att klicka på reservoarikonen får du tillgång till mobilprogrammet som visas i din Adobe Campaign-instans.
+Genom att klicka på sökikonen öppnar du listan över mobilprogram i din Adobe Campaign-instans.
 
-![](assets/transactional-mobileapp.png){zoomable="yes"}
+![Skärmbild som visar mobilappsvalet för transaktionsmeddelanden.](assets/transactional-mobileapp.png){zoomable="yes"}
 
 ### Context sample {#context-sample}
 
@@ -94,61 +93,60 @@ Genom att klicka på reservoarikonen får du tillgång till mobilprogrammet som 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
 >title="Kontext för transaktionsmeddelanden"
->abstract="Med kontextexemplet kan du skapa en testhändelse för att förhandsgranska det transaktionsmeddelande som tas emot med profilpersonaliseringen. "
+>abstract="Med kontextexemplet kan du skapa en testhändelse för att förhandsgranska det transaktionsmeddelande som tas emot med profilpersonaliseringen."
 
 Med kontextexemplet kan du skapa en testhändelse för att förhandsgranska det transaktionsmeddelande som tas emot med profilpersonaliseringen.
 
 Det här steget är valfritt. Du kan använda mallen utan kontextexemplet, men nackdelen är att du inte kan förhandsgranska det anpassade innehållet.
 
-I vårt exempel på hur du ställer in lösenordet skickar händelsen användarens förnamn, efternamn och en personlig länk för att återställa lösenordet. Kontexten kan konfigureras enligt nedan.
+I exemplet med att ange lösenordet skickas användarens förnamn, efternamn och en personlig länk för att återställa lösenordet. Kontexten kan konfigureras enligt nedan.
 
 Innehållet i sammanhanget beror på den personalisering du behöver.
 
-![](assets/transactional-context.png){zoomable="yes"}
+![Skärmbild som visar kontextprovskonfigurationen för transaktionsmeddelanden.](assets/transactional-context.png){zoomable="yes"}
 
 ### Mallinnehåll för transaktionsmeddelanden {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="Transactional messaging content"
->abstract="Lär dig hur du skapar innehåll för transaktionsmeddelanden"
+>abstract="Lär dig hur du skapar transaktionsmeddelandeinnehåll."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personalisering av transaktionsmeddelanden"
->abstract="Lär dig hur du kan personalisera transaktionsmeddelandeinnehåll"
+>abstract="Lär dig hur du personaliserar transaktionsinnehållet."
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="Händelsekontext"
 >abstract="Den här menyn innehåller variabler från den utlösande händelsen som du kan använda för att anpassa ditt transaktionsmeddelandeinnehåll."
 
-Att arbeta med innehållet i ett transaktionsmeddelande är som att skapa innehållet i en leverans. Klicka på **[!UICONTROL Open email designer]** eller **[!UICONTROL Edit email body]** och välj ett mallinnehåll eller importera HTML-kod.
+Att arbeta med innehållet i ett transaktionsmeddelande påminner om att skapa innehåll för en leverans. Klicka på **[!UICONTROL Open email designer]** eller **[!UICONTROL Edit email body]** och välj ett mallinnehåll eller importera din HTML-kod.
 
-![](assets/template-content.png){zoomable="yes"}
+![Skärmbild som visar innehållsskapandet för transaktionsmeddelandemallar.](assets/template-content.png){zoomable="yes"}
 
-Om du vill lägga till personaliseringen i innehållet klickar du på det avsnitt där du vill lägga till den och väljer ikonen **[!UICONTROL Add Personalization]**.
+Om du vill lägga till en personalisering i innehållet klickar du på det avsnitt där du vill lägga till det och väljer ikonen **[!UICONTROL Add Personalization]**.
 
-![](assets/template-perso.png){zoomable="yes"}
+![Skärmbild som visar personaliseringsikonen i innehållsredigeraren.](assets/template-perso.png){zoomable="yes"}
 
-Du får åtkomst till fönstret **[!UICONTROL Edit personalisation]**.
-Om du vill lägga till variablerna från utlösarhändelsen klickar du på ikonen **[!UICONTROL Event context]**. Du kan navigera i kontexten som du definierade för mallen ([läs mer om kontexten](#context-sample)) och klicka på knappen **[!UICONTROL +]** för att infoga variabeln som behövs.
+Öppna fönstret **[!UICONTROL Edit personalisation]**. Om du vill lägga till variabler från utlösarhändelsen klickar du på ikonen **[!UICONTROL Event context]**. Navigera till kontexten som du har definierat för mallen ([läs mer om kontexten](#context-sample)) och klicka på knappen **[!UICONTROL +]** för att infoga variabeln som krävs.
 
-I bilden nedan ser du hur du lägger till personaliseringen av förnamnet.
+Bilden nedan visar hur du lägger till personalisering för förnamnet.
 
-![](assets/template-firstname.png){zoomable="yes"}
+![Skärmbild som visar tillägg av anpassning för förnamnet.](assets/template-firstname.png){zoomable="yes"}
 
-I vårt exempel lägger vi till förnamnet, sedan efternamnet, och vi anpassar knapplänken **[!UICONTROL Reset your password]**.
+I det här exemplet lägger du till förnamnet, efternamnet och anpassar knapplänken **[!UICONTROL Reset your password]**.
 
-![](assets/template-button.png){zoomable="yes"}
+![Skärmbild som visar personaliseringen av knappen Återställ lösenord.](assets/template-button.png){zoomable="yes"}
 
 ### Förhandsgranska mallen
 
-I det här skedet av mallskapandet kanske du vill förhandsgranska mallinnehållet och kontrollera personaliseringen.
+Förhandsgranska mallinnehållet och kontrollera personaliseringen när du skapar mallen.
 
 Om du vill göra det fyller du i [kontextexemplet](#context-sample) och klickar på knappen **[!UICONTROL Simulate content]**.
 
-![](assets/template-preview.png){zoomable="yes"}
+![Skärmbild som visar förhandsgranskningen av mallen för transaktionsmeddelanden.](assets/template-preview.png){zoomable="yes"}
 
 ## Skapa ett transaktionsmeddelande {#transactional-message}
 
@@ -158,50 +156,49 @@ Följ stegen nedan för att skapa ett transaktionsmeddelande:
 
 * Gå till **[!UICONTROL Transactional messages]** i avsnittet **[!UICONTROL Triggered messages]**. På fliken **[!UICONTROL Browse]** kan du se alla transaktionsmeddelanden som har skapats. Klicka på knappen **[!UICONTROL Create transactional message]** för att börja skapa meddelandet.
 
-  ![](assets/transactional-browse.png){zoomable="yes"}
+  ![Skärmbild som visar bläddringssektionen för transaktionsmeddelanden.](assets/transactional-browse.png){zoomable="yes"}
 
-* På den nya sidan som visas väljer du kanalen för meddelandet och väljer den mall som du vill arbeta med. I vårt exempel väljer vi [mallen som vi skapade här](#transactional-template).
+* På den nya sidan som visas väljer du kanalen för meddelandet och väljer den mall som du vill arbeta med. I det här exemplet väljer du [mallen som skapades tidigare](#transactional-template).
 
-  ![](assets/transactional-channel.png){zoomable="yes"}
+  ![Skärmbild som visar kanalval för transaktionsmeddelanden.](assets/transactional-channel.png){zoomable="yes"}
 
   Klicka igen på knappen **[!UICONTROL Create transactional message]** för att validera att meddelandet har skapats i den valda kanalen.
 
-* Du har nu åtkomst till konfigurationen av ditt transaktionsmeddelande. Meddelandet ärver mallens konfiguration. Den här sidan är nästan identisk med konfigurationssidan för transaktionsmeddelandemallar, förutom att den även innehåller händelsetypskonfigurationen.
+* Få åtkomst till konfigurationen av ditt transaktionsmeddelande. Meddelandet ärver mallens konfiguration. Den här sidan är nästan identisk med konfigurationssidan för transaktionsmeddelandemallar, förutom att den även innehåller händelsetypskonfigurationen.
 
-  ![](assets/transactional-configuration.png){zoomable="yes"}
+  ![Skärmbild som visar konfigurationssidan för transaktionsmeddelanden.](assets/transactional-configuration.png){zoomable="yes"}
 
   Fyll i konfigurationen för meddelandet som för en mall:
    * [Egenskaper för transaktionsmeddelande](#transactional-properties)
-   * [Sammanhangsexemplet](#context-sample)
-   * [Meddelandeinnehållet](#transactional-content)
+   * [Context sample](#context-sample)
+   * [Meddelandeinnehåll](#transactional-content)
 och [konfigurera händelsetypen](#event-type) enligt anvisningarna nedan.
 
-* När [du har verifierat transaktionsmeddelandet](validate-transactional.md) klickar du på knappen **[!UICONTROL Review and publish]** för att skapa och publicera meddelandet.
-Utlösarna kan nu skicka transaktionsmeddelanden.
+* När [du har verifierat ditt transaktionsmeddelande](validate-transactional.md) klickar du på knappen **[!UICONTROL Review and publish]** för att skapa och publicera meddelandet. Utlösarna kan nu skicka transaktionsmeddelanden.
 
 ### Om händelsetypen {#event-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
 >title="Transactional Messaging-händelse"
->abstract="Konfigurationen av händelsetypen länkar meddelandet till utlösarhändelsen."
+>abstract="Konfigurationen för händelsetypen länkar meddelandet till utlösarhändelsen."
 
-Konfigurationen av händelsetypen länkar meddelandet till utlösarhändelsen.
+Konfigurationen för händelsetypen länkar meddelandet till utlösarhändelsen.
 
-I Campaign Web User Interface kan du välja en händelsetyp som redan har skapats eller skapa en händelsetyp direkt på den här konfigurationssidan.
+Välj en händelsetyp som redan har skapats eller skapa en händelsetyp direkt på den här konfigurationssidan i Campaign Web User Interface.
 
-![](assets/transactional-event-type.png){zoomable="yes"}
+![Skärmbild som visar händelsetypens konfiguration för transaktionsmeddelanden.](assets/transactional-event-type.png){zoomable="yes"}
 
 >[!CAUTION]
 >
->Om du väljer en händelsetyp som för närvarande används av ett annat transaktionsmeddelande, utlöser den de två meddelandena. **Vi rekommenderar starkt att du länkar en händelsetyp till endast ett transaktionsmeddelande för bästa praxis.**
+>Om du väljer en händelsetyp som för närvarande används av ett annat transaktionsmeddelande, kommer båda meddelandena att utlösas. **Länka en händelsetyp till endast ETT transaktionsmeddelande för bästa praxis.**
 
 ## Lägg till erbjudanden i transaktionsmeddelanden {#transactional-offers}
 
-Du kan inkludera erbjudanden i dina transaktionsmeddelanden så att du kan presentera relevanta förslag för slutanvändarna, även när meddelandet har utlösts av en händelse.
+Ni kan inkludera erbjudanden i era transaktionsmeddelanden, så att ni kan presentera relevanta förslag för era slutanvändare, även när meddelandet utlöses av en händelse.
 
-Den här funktionen är tillgänglig under redigeringsfasen av ditt transaktionsmeddelande. Klicka bara på knappen **[!UICONTROL Set up offers]** för att konfigurera den.
+Den här funktionen är tillgänglig under redigeringsfasen av ditt transaktionsmeddelande. Klicka på knappen **[!UICONTROL Set up offers]** för att konfigurera den.
 
 Konfigurationsprocessen är identisk med att konfigurera erbjudanden för standardleveranser. [Lär dig hur du lägger till erbjudanden i ditt meddelande](../msg/offers.md).
 
-![](assets/transactional-offers.png){zoomable="yes"}
+![Skärmbild som visar konfigurationen av erbjudanden i transaktionsmeddelanden.](assets/transactional-offers.png){zoomable="yes"}

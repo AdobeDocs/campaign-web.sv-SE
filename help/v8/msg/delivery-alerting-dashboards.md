@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Med kontrollpaneler för leveransvarningar kan du ange vem som ska få e-postvarningar, välja och konfigurera aviseringsvillkor som ska användas för att skicka dessa varningar och få tillgång till historiken för alla skickade meddelanden. De är tillgängliga på menyn **Leveransvarning** i den vänstra navigeringsrutan, på fliken **Kontrollpaneler** .
 
-![](assets/alerting-dashboard-list.png)
+![Skärmbild som visar en lista med varningsinstrumentpaneler på menyn Leveransvarning.](assets/alerting-dashboard-list.png)
 
 ## Skapa en kontrollpanel för leverans {#dashboards}
 
@@ -47,21 +47,21 @@ Så här skapar du en kontrollpanel för leverans:
 
 1. Navigera till menyn **Leveransvarning** i den vänstra navigeringsrutan och klicka på **Skapa leveransinstrumentpanel**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Skärmbild som visar alternativet Skapa kontrollpanel för leverans på menyn Leveransvarning.](assets/alerting-dashboard.png)
 
 1. Namnge instrumentpanelen i fältet **Etikett**. Fältet **Internt namn** fylls i automatiskt och är skrivskyddat.
 
 1. I fältet **Välj varningsgrupp** anger du den **operatorgrupp** som ska ta emot aviseringar från den här instrumentpanelen. Alla medlemmar i den valda operatörsgruppen får aviseringarna.
 
-   Läs mer om behörigheter och operatorgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Läs mer om behörigheter och operatörsgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. I avsnittet **Leveransaviseringsvillkor** lägger du till villkor som du vill använda för att skicka aviseringar. Välj bland fördefinierade kriterier eller skapa egna kriterier som passar in efter specifika behov. [Lär dig arbeta med villkor](../msg/delivery-alerting-criteria.md)
 
 1. Kriterierna har standardparametervärden som definierar hur de måste tillämpas. Du kan ändra dessa värden så att de passar dina behov i avsnittet **Kriterieparametrar**.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Skärmbild som visar villkorsparameteravsnittet på kontrollpanelen för leverans.](assets/alerting-criteria-parameters.png)
 
-   Som standard är villkorsparametern **Minimistorlek** för leveransmål satt till 50, vilket innebär att en leverans inkluderas i aviseringen som skickas av den här instrumentpanelen endast om den har minst 50 profiler som mål. Du kan ändra den här parametern om du vill inkludera leveranser som är avsedda för mindre än 50 profiler.
+   Som standard är villkorsparametern **Minimistorlek** för leveransmål satt till 50, vilket innebär att en leverans inkluderas i aviseringen som skickas av den här instrumentpanelen endast om den har minst 50 profiler som mål. Du kan ändra den här parametern om du vill ta med leveranser som har färre än 50 profiler som mål.
 
    Expandera avsnittet nedan om du vill ha mer information om varje kriterieparameter:
 
@@ -83,7 +83,7 @@ Så här skapar du en kontrollpanel för leverans:
 
    Du kan också spara kontrollpanelen och aktivera den senare.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Skärmbild som visar alternativet för aktivering i inställningarna för kontrollpanelen för leverans.](assets/alerting-dashboard-enable.png)
 
 1. Klicka på knappen **Spara** om du vill spara varningsinstrumentpanelen.
 
@@ -105,12 +105,12 @@ Varje gång en leverans uppfyller de villkor som definierats i den här kontroll
 
 Alla skapade aviseringspaneler är tillgängliga på menyn **Leveransavisering** på fliken **Kontrollpaneler** .
 
-![](assets/alerting-dashboard-list.png)
+![Skärmbild som visar en lista med varningsinstrumentpaneler på menyn Leveransvarning.](assets/alerting-dashboard-list.png)
 
 Du kan duplicera eller ta bort en instrumentpanel med knappen **Fler åtgärder** bredvid namnet.
 
 Om du vill visa en detaljerad vy av en kontrollpanel klickar du på dess namn i listan. Från den här skärmen kan du visualisera den senaste skickade varningen. Alla skickade aviseringar visas i den vänstra rutan. Klicka på ett objekt för att komma åt motsvarande aviseringar som skickats vid den aktuella tidpunkten.
 
-![](assets/alerting-dashboard-details.png)
+![Skärmbild som visar den detaljerade vyn för en varningsinstrumentpanel.](assets/alerting-dashboard-details.png)
 
 Om du vill redigera kontrollpanelen klickar du på knappen **Inställningar** i det övre högra hörnet och gör önskade ändringar.

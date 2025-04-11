@@ -3,10 +3,10 @@ audience: end-user
 title: Använda JavaScript kodarbetsflödesaktivitet
 description: Lär dig använda JavaScript kodarbetsflödesaktivitet
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 1%
+source-wordcount: '946'
+ht-degree: 0%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript code"
->abstract="Med aktiviteten **JavaScript-kod** kan du köra ett JavaScript-skript i ett arbetsflödes kontext. På så sätt kan du utföra åtgärder eller samla in information från databasen. Använd **enkla** JavaScript-kodaktiviteter för att köra ett kodfragment vid körning av arbetsflödet. **Avancerade** JavaScript-kodaktiviteter gör att du kan utföra mer komplexa åtgärder genom att köra två olika kodfragment i sekventiell ordning. Första gången arbetsflödet startas körs det första anropet. Varje gång arbetsflödet körs igen körs koden som definierats i det andra anropet."
+>abstract="Med aktiviteten **JavaScript-kod** kan du köra ett JavaScript-skript i ett arbetsflödes kontext. På så sätt kan du utföra åtgärder eller samla in information från databasen. Använd **enkla** JavaScript-kodaktiviteter för att köra ett kodfragment under arbetsflödeskörning. **Avancerade** JavaScript-kodaktiviteter gör att du kan utföra mer komplexa åtgärder genom att köra två olika kodfragment sekventiellt. Första gången arbetsflödet startas körs det första anropet. Varje gång arbetsflödet körs igen körs koden som definierats i det andra anropet."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-kodfragment"
->abstract="Definiera skriptet som ska köras när aktiviteten körs. Om du konfigurerar en **avancerad** JavaScript-aktivitet måste du redigera två kodfragment: den första anropskoden som ska köras vid den första körningen av arbetsflödet och nästa anropskod som ska köras vid nästa anrop i arbetsflödet."
+>abstract="Definiera skriptet som ska köras när aktiviteten körs. Om du konfigurerar en **Avancerad** JavaScript-aktivitet redigerar du två kodfragment: den första anropskoden som ska köras under den första arbetsflödeskörningen och nästa anropskod som ska köras under efterföljande arbetsflödeskörningar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -45,46 +45,46 @@ Följ de här stegen för att konfigurera aktiviteten **JavaScript-kod**:
 
 1. Lägg till en **JavaScript-kodsaktivitet** i arbetsflödet.
 
-1. Välj vilken typ av aktivitet du vill skapa:
+1. Välj vilken typ av aktivitet som ska skapas:
 
    * **Enkel**: Kör ett kodfragment.
-   * **Avancerat**: Med det här alternativet kan du utföra mer avancerade åtgärder genom att köra två olika kodfragment. [Lär dig konfigurera en avancerad JavaScript-aktivitet](#advanced)
+   * **Avancerat**: Utför mer avancerade åtgärder genom att köra två olika kodfragment. [Lär dig konfigurera en avancerad JavaScript-aktivitet](#advanced)
 
    >[!NOTE]
    >
-   >Med Campaigns webbanvändargränssnitt har vi konsoliderat två aktiviteter till en genom att sammanfoga både **enkla**- och **avancerade** JavaScript-kodfunktioner. Denna konsolidering påverkar inte aktivitetens funktion på något sätt.
+   >Med Campaigns webbanvändargränssnitt har två aktiviteter konsoliderats till en genom att sammanfoga både **enkla**- och **avancerade** JavaScript-kodfunktioner. Den här konsolideringen påverkar inte aktivitetens funktion.
 
-1. Bekräfta och klicka sedan på knappen **[!UICONTROL Edit code]** för att öppna uttrycksredigeraren. I den vänstra rutan finns fördefinierade syntaxer som du kan använda för att skapa koden, inklusive händelsevariabler. [Lär dig hur du arbetar med händelsevariabler och uttrycksredigeraren](../event-variables.md)
+1. Bekräfta och klicka sedan på knappen **[!UICONTROL Edit code]** för att öppna uttrycksredigeraren. I den vänstra rutan finns fördefinierade syntaxer som du kan använda för att skapa koden, inklusive händelsevariabler. [Lär dig hur du arbetar med händelsevariabler och uttrycksredigeraren](../event-variables.md).
 
-   ![](../assets/javascript-editor.png)
+   ![Gränssnitt för uttrycksredigeraren för JavaScript-kodaktivitet](../assets/javascript-editor.png)
 
 1. Konfigurera fördröjningen i avsnittet **[!UICONTROL Execution]** för att stoppa aktiviteten efter en körningsperiod. Som standard får körningsfasen inte överskrida 1 timme. Efter den här fördröjningen avbryts processen med ett felmeddelande och aktivitetskörningen misslyckas. Om du vill ignorera den här gränsen anger du värdet 0.
 
-   ![](../assets/javascript-config.png)
+   ![Konfigurationsgränssnitt för körningsfördröjning](../assets/javascript-config.png)
 
 1. Växla på alternativet **[!UICONTROL Process errors]** om du vill behålla fel som inträffar under skriptkörningen i en ytterligare utdataövergång.
 
 ## Avancerade JavaScript-kodaktiviteter {#advanced}
 
-Med avancerade JavaScript-aktiviteter kan du utföra komplexa åtgärder. Du kan:
+Med avancerade JavaScript-aktiviteter kan du utföra komplexa åtgärder. Med dessa aktiviteter kan du:
 
 * Kör två olika kodfragment. Det första kodfragmentet körs första gången arbetsflödet startas. Varje gång arbetsflödet körs igen körs det kodfragment som definierats i det andra anropet.
 * Lägg till flera utdataövergångar som du kan interagera dynamiskt med med ett skript.
 
 Så här konfigurerar du en avancerad JavaScript-kodaktivitet:
 
-1. Välj typen **Avancerat** och konfigurera sedan kodfragmenten som ska köras:
+1. Välj typen **Avancerat** och konfigurera sedan kodfragmenten så att de körs:
 
    * Klicka på **[!UICONTROL Edit first call code]** för att definiera skriptet som ska köras under det första anropet.
-   * Klicka på **[!UICONTROL Edit next call code]** för att definiera skriptet som ska köras under nästa anrop i arbetsflödet. (valfritt)
+   * Klicka på **[!UICONTROL Edit next call code]** för att definiera skriptet som ska köras under efterföljande anrop av arbetsflödet. (valfritt)
 
 1. Om du vill lägga till en eller flera utdataövergångar klickar du på knappen **[!UICONTROL Add transitions]** och anger en etikett och ett internt namn för varje övergång.
 
-   I det här exemplet har vi konfigurerat två övergångar som aktiveras av skriptet i kodfragmentet baserat på specifika villkor.
+   I det här exemplet konfigureras och aktiveras två övergångar av skriptet i kodfragmentet baserat på specifika villkor.
 
-   ![](../assets/javascript-transitions.png)
+   ![Exempel på konfigurerade övergångar](../assets/javascript-transitions.png)
 
-1. Slutför konfigurationen av aktiviteten och starta arbetsflödet.
+1. Slutför aktivitetskonfigurationen och starta arbetsflödet.
 
 ## Exempel {#javascript-code-example}
 
@@ -92,24 +92,24 @@ Så här konfigurerar du en avancerad JavaScript-kodaktivitet:
 
 I det här exemplet visas hur du initierar en variabel baserat på antalet profiler som ett arbetsflöde har som mål.
 
-![](../assets/javascript-example1.png)
+![Exempel på variabelinitiering baserad på profilantal](../assets/javascript-example1.png)
 
-Här riktar vi oss VIP profiler från vår databas. Vi vill skapa en variabel som heter&quot;channel&quot; med ett värde som är beroende av antalet profiler som målgruppen för aktiviteten Bygg målgrupp:
+I det här exemplet används VIP-profiler från databasen. En variabel med namnet&quot;channel&quot; skapas med ett värde som är beroende av antalet profiler som målgruppsaktiviteten Build har:
 
 * Om fler än 1 000 profiler används som mål initierar du variabeln med värdet &quot;email&quot;.
 * Annars initierar du den med värdet &quot;sms&quot;.
 
-Följ dessa steg för att göra detta:
+Följ de här stegen för att uppnå detta:
 
 1. Lägg till en **JavaScript-kodsaktivitet** med typen **Enkel** efter **Skapa målgruppsaktivitet**.
 
-1. Klicka på **Redigera kod** och konfigurera kodfragmentet enligt nedan:
+1. Klicka på **Redigera kod** och konfigurera kodfragmentet så som visas nedan:
 
    ```
    if (vars.recCount > 1000)
-       vars.channel ="email"
+       vars.channel = "email";
    else
-       vars.channel = "sms"
+       vars.channel = "sms";
    ```
 
 1. Starta arbetsflödet. Variabeln &quot;channel&quot; skapas med värdet &quot;email&quot; eller &quot;sms&quot;, beroende på antalet profiler som är riktade till aktiviteten **Bygg målgrupp**.
@@ -118,13 +118,13 @@ Följ dessa steg för att göra detta:
 
 I det här exemplet visas hur du utlöser en övergång baserat på värdet för en variabel.
 
-![](../assets/javascript-example2-transitions.png)
+![Exempel på övergångar som aktiveras av variabelvärden](../assets/javascript-example2-transitions.png)
 
-Här börjar arbetsflödet med en **extern signal**-aktivitet som en variabel (`interest`) skickas från ett annat arbetsflöde. Variabelvärdet är antingen&quot;running&quot; eller&quot;yoga&quot;, beroende på vilka filtreringsåtgärder som har utförts i det inledande arbetsflödet.
+I det här exemplet börjar arbetsflödet med en **extern signal**-aktivitet som en variabel (`interest`) skickas från ett annat arbetsflöde. Variabelvärdet är antingen&quot;running&quot; eller&quot;yoga&quot;, beroende på vilka filtreringsåtgärder som har utförts i det inledande arbetsflödet.
 
-Vi vill aktivera olika övergångar i arbetsflödet utifrån variabelns värde.
+Olika övergångar i arbetsflödet aktiveras baserat på variabelns värde.
 
-Följ dessa steg för att göra detta:
+Följ de här stegen för att uppnå detta:
 
 1. Lägg till en **JavaScript-kodsaktivitet** efter den externa signalaktiviteten med typen **Avancerat**.
 
@@ -133,10 +133,10 @@ Följ dessa steg för att göra detta:
 1. Klicka på **Redigera den första anropskoden** och konfigurera kodfragmentet enligt nedan:
 
    ```
-   if (vars.interest=="running")
+   if (vars.interest == "running")
        task.postEvent(task.transitionByName("running"));
    else
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. Slutför konfigurationen av varje övergång så att den passar dina behov och starta sedan arbetsflödet. En av de två utdataövergångarna aktiveras, baserat på värdet för variabeln `interest` som har passerats via aktiviteten **Extern signal**.
+1. Slutför konfigurationen av varje övergång efter dina behov och starta sedan arbetsflödet. En av de två utdataövergångarna aktiveras baserat på värdet för variabeln `interest` som skickas via aktiviteten **Extern signal**.

@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 Leveranser är tillgängliga på menyn **[!UICONTROL Deliveries]** i den vänstra navigeringen. Alla leveranser som skapats antingen från klientkonsolen eller webbanvändargränssnittet visas i den här listan. Från den här skärmen kan du övervaka alla befintliga leveranser, duplicera eller ta bort dem eller skapa nya.
 
-![](assets/deliveries-list.png)
+![Lista över leveranser som visas i gränssnittet](assets/deliveries-list.png)
 
-Om du vill öppna en leverans klickar du på dess namn i listan. Leveransen öppnas så att du kan utföra olika åtgärder, som att redigera dess parametrar, kontrollera dess körning eller övervaka dess prestanda med hjälp av dedikerade rapporter.
+Om du vill öppna en leverans klickar du på dess namn i listan. Leveransen öppnas så att du kan utföra olika åtgärder, som att redigera dess parametrar, kontrollera körningen eller övervaka dess prestanda med hjälp av dedikerade rapporter.
 
-![](assets/delivery-details.png)
+![Skärm med leveransinformation som visar parametrar och rapporter](assets/delivery-details.png)
 
 >[!NOTE]
 >
->Om du öppnar en leverans som skapats i klientkonsolen kan avsnittet **[!UICONTROL Additional target]** visas för målgruppen. Det innebär att flera mål har konfigurerats för den här leveransen. De här parametrarna kan bara ändras i konsolen.
+>Om du öppnar en leverans som skapats i klientkonsolen kan avsnittet **[!UICONTROL Additional target]** visas för målgruppen. Detta anger att flera mål har konfigurerats för den här leveransen. De här parametrarna kan bara ändras i konsolen.
 >
->![](assets/target-warning-audience.png){zoomable="yes"}
+>![Varningsmeddelande om ytterligare målkonfiguration](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicera en leverans {#delivery-duplicate}
 
@@ -49,13 +49,13 @@ Så här duplicerar du en leverans från listan med leveranser:
 
 1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
 1. Välj **[!UICONTROL Duplicate]**.
-1. Bekräfta duplicering: den nya kontrollpanelen för leverans öppnas på den centrala skärmen.
+1. Bekräfta duplicering. Den nya kontrollpanelen för leverans öppnas på den centrala skärmen.
 
 Så här duplicerar du en leverans från kontrollpanelen:
 
 1. Öppna leveransen och klicka på knappen **[!UICONTROL ...More]** överst på skärmen.
 1. Välj **[!UICONTROL Duplicate]**.
-1. Bekräfta duplicering: Den nya leveransen ersätter den aktuella leveransen på den centrala skärmen.
+1. Bekräfta duplicering. Den nya leveransen ersätter den aktuella leveransen på den centrala skärmen.
 
 ## Ta bort en leverans {#delivery-delete}
 
@@ -63,18 +63,18 @@ Leveranser tas bort från leveranslistan, antingen från huvudposten i det väns
 
 Så här tar du bort en leverans från listan över leveranser:
 
-1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska dupliceras.
+1. Klicka på knappen med tre punkter till höger bredvid namnet på den leverans som ska tas bort.
 1. Välj **[!UICONTROL Delete]**.
 1. Bekräfta borttagning.
 
-![Ta bort en leverans från leveranslistan](assets/delete-delivery-from-list.png)
+![Tar bort en leverans från leveranslistans gränssnitt](assets/delete-delivery-from-list.png)
 
-Alla leveranser är tillgängliga i de här listorna, men leveranser som har skapats i ett arbetsflöde kan inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde måste du ta bort leveransaktiviteten från arbetsflödet.
+Alla leveranser är tillgängliga i de här listorna, men leveranser som har skapats i ett arbetsflöde kan inte tas bort därifrån. Om du vill ta bort en leverans som har skapats i ett arbetsflöde tar du bort leveransaktiviteten från arbetsflödet.
 
 Så här tar du bort en leverans från ett arbetsflöde:
 
 1. Välj leveransaktivitet.
 1. Klicka på ikonen **[!UICONTROL Delete]** på den högra panelen.
-1. Bekräfta borttagning. Om leveransen har underordnade noder kan du välja att ta bort dem också eller att behålla dem.
+1. Bekräfta borttagning. Om leveransen har underordnade noder väljer du att ta bort dem också eller behålla dem.
 
-![Ta bort en leverans i ett arbetsflöde](assets/delete-delivery-from-wf.png)
+![Ta bort en leveransaktivitet i ett arbetsflöde](assets/delete-delivery-from-wf.png)

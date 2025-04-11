@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >title="Rapportsändning"
 >abstract="Fliken **Skickar** i din rapport ger djupgående insikter om besökarnas interaktioner med dina leveranser och eventuella fel som de har påträffat."
 
-I **SMS-leveransöversikten** finns en omfattande översikt över din SMS-leverans, med omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans.
+I **SMS-leveransöversikten** finns en detaljerad sammanfattning av din SMS-leverans med omfattande insikter och specifika data. Den innehåller omfattande information om prestanda, effektivitet och resultat av er leverans.
 
 ## Leveranssammanfattning {#delivery-summary}
 
@@ -28,9 +28,9 @@ I **SMS-leveransöversikten** finns en omfattande översikt över din SMS-levera
 >title="Översikt över SMS-leverans"
 >abstract="I **SMS-leveransöversikten** finns en omfattande översikt över din SMS-leverans, med omfattande insikter och specifika data. Här finns omfattande information om prestanda, effektivitet och resultat av er leverans."
 
-Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI) som ger detaljerad information om lyckade åtgärder och felgrader samt hur besökarna interagerar med SMS-meddelanden.
+Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckeltal (KPI:er) som ger detaljerad information om lyckade resultat och felgrader samt hur besökarna interagerar med dina SMS-meddelanden.
 
-![](assets/reporting_sms_3.png){zoomable="yes"}
+![Beskrivning: Bilden visar översiktsrapporten Leverans, som innehåller nyckeltal som antal lyckade försök, felfrekvens och besökares engagemang.](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -40,7 +40,7 @@ Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckelta
 
 * **[!UICONTROL Click-through rate]**: Procentandel och antal användare som interagerade med länkar som ingår i SMS-leveransen.
 
-* **[!UICONTROL Errors]**: Procentandel och totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
+* **[!UICONTROL Errors]**: Procentandel och totalt antal fel som uppstod under en leverans, vilket förhindrar att den skickas till profiler.
 
 +++
 
@@ -51,9 +51,9 @@ Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal för nyckelta
 >title="Målgrupp för SMS"
 >abstract="Diagrammet **Målpopulation** visar data i relation till din SMS-målgrupp: meddelanden som ska levereras och undantag."
 
-Diagrammet **Målpopulationen** och tabellen visar data i förhållande till målgruppen. Mätvärdena anges nedan.
+Diagrammet **Målpopulation** visar data som är relaterade till din målgrupp. Mätvärdena anges nedan.
 
-![](assets/reporting_sms_4.png){zoomable="yes"}
+![Beskrivning: Bilden visar målpopulationsdiagrammet och måltabellen, som innehåller mått, t.ex. meddelanden att leverera och undantag.](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -61,7 +61,6 @@ Diagrammet **Målpopulationen** och tabellen visar data i förhållande till må
 
 * **[!UICONTROL Exclusions]**: Antal profiler och procenttal som har uteslutits från analysen.
 +++
-
 
 ### Övergripande statistik {#sms-delivery-overall}
 
@@ -72,7 +71,7 @@ Diagrammet **Målpopulationen** och tabellen visar data i förhållande till må
 
 Rapporten **Total statistik** visar data för skickade SMS-meddelanden. Mätvärdena anges nedan.
 
-![](assets/reporting_sms_5.png){zoomable="yes"}
+![Beskrivning: Bilden visar rapporten för övergripande statistik, som innehåller mått som antal lyckade försök, fel och karantän.](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för SMS-leveransrapporter.
 
@@ -92,7 +91,7 @@ Rapporten **Total statistik** visar data för skickade SMS-meddelanden. Mätvär
 
 Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable="yes"}
+![Beskrivning: Bilden visar diagrammet och tabellen Uteslutningar, där det anges varför användarprofiler inte kan ta emot meddelanden.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -103,4 +102,4 @@ Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade a
 
 Den här rapporten innehåller detaljerad information om leveransflödet inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_sms_2.png){zoomable="yes"}
+![Beskrivning: Bilden visar rapporten Leveransdataflöde, som innehåller mått som antalet meddelanden som skickas per timme inom en angiven tidsram.](assets/reporting_sms_2.png){zoomable="yes"}

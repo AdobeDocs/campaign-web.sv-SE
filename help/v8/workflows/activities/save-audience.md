@@ -3,10 +3,10 @@ audience: end-user
 title: Använda aktiviteten Spara målgruppsarbetsflöde
 description: Lär dig hur du använder arbetsflödesaktiviteten för arbetsflöden
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -26,31 +26,30 @@ Aktiviteten **Spara målgrupp** är en **målaktivitet**. Med den här aktivitet
 
 Den här aktiviteten används främst för att behålla populationsgrupper som beräknas i samma arbetsflöde genom att konvertera dem till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Skapa målgrupp** eller en **Kombinera**-aktivitet.
 
-## Konfigurera aktiviteten Spara målgrupp{#save-audience-configuration}
+## Konfigurera aktiviteten Spara målgrupp {#save-audience-configuration}
 
 Så här konfigurerar du aktiviteten **Spara målgrupp**:
 
-![](../assets/workflow-save-audience.png)
+![Beskrivning: Arbetsflödeskonfiguration för aktiviteten Spara målgrupp](../assets/workflow-save-audience.png)
 
 1. Lägg till en **Spara målgruppsaktivitet** i arbetsflödet.
 
 1. I listrutan **Läge** väljer du den åtgärd som du vill utföra:
 
-   * **Skapa eller uppdatera en befintlig målgrupp**: definiera en **målgruppsetikett**. Om målgruppen redan finns uppdateras den, annars skapas en ny målgrupp.
+   * **Skapa eller uppdatera en befintlig målgrupp**: Definiera en **publiketikett**. Om målgruppen redan finns uppdateras den, annars skapas en ny målgrupp.
 
-   * **Uppdatera en befintlig målgrupp**: välj den **målgrupp** som du vill uppdatera bland de befintliga målgrupperna.
+   * **Uppdatera en befintlig målgrupp**: Välj den **målgrupp** som du vill uppdatera i listan över befintliga målgrupper.
 
-1. Välj det **uppdateringsläge** som ska användas för befintliga målgrupper:
+1. Välj det **uppdateringsläge** som gäller för befintliga målgrupper:
 
-   * **Ersätt målgruppsinnehåll med nya data**: allt målgruppsinnehåll ersätts. Gammal data går förlorad.  Endast data från den inkommande övergången av målgruppsaktiviteten för att spara sparas. Med det här alternativet raderas målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
+   * **Ersätt målgruppsinnehåll med nya data**: Allt målgruppsinnehåll ersätts och gamla data går förlorade. Endast data från den inkommande övergången för aktiviteten **Spara målgrupp** behålls. Med det här alternativet raderas målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
 
-   * **Fullständig målgrupp med nya data**: det gamla målgruppsinnehållet behålls och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i det.
+   * **Fullständig målgrupp med nya data**: Det gamla målgruppsinnehållet behålls och data från den inkommande övergången för aktiviteten **Spara målgrupp** läggs till i den.
 
 1. Markera alternativet **Generera en utgående övergång** om du vill lägga till en övergång efter aktiviteten **Spara målgrupp**.
 
-Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för målgruppen, som du kommer åt på menyn **Publiker** . Kolumnerna som är tillgängliga från den här vyn motsvarar kolumnerna för den inkommande övergången i arbetsflödets **Spara målgruppsaktivitet**.
+Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för målgruppen, som du kommer åt på menyn **Publiker** . Kolumnerna som är tillgängliga i den här vyn motsvarar kolumnerna för den inkommande övergången i arbetsflödets **Spara målgruppsaktivitet**.
 
+## Exempel {#save-audience-example}
 
-## Exempel{#save-audience-example}
-
-I följande exempel visas en enkel målgruppsuppdatering från målinriktning. En schemaläggare läggs till för att köra arbetsflödet en gång i månaden. En fråga återställer alla profiler som prenumererar på de olika program som är tillgängliga. Aktiviteten **Spara målgrupp** uppdaterar målgruppen genom att ta bort profiler som har avbrutit prenumerationen från tjänsten sedan den senaste arbetsflödeskörningen och genom att lägga till de nya profilerna.
+I följande exempel visas en enkel målgruppsuppdatering från målinriktning. En schemaläggare kör arbetsflödet en gång i månaden. En fråga hämtar alla profiler som prenumererar på de olika tillgängliga programmen. Aktiviteten **Spara målgrupp** uppdaterar målgruppen genom att ta bort profiler som har avbrutit prenumerationen från tjänsten sedan den senaste arbetsflödeskörningen och lagt till nya prenumerationsprofiler.

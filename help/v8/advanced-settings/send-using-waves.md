@@ -4,9 +4,9 @@ title: Skicka med påfyllnader
 description: Läs mer om leveransinställningar på Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Följ stegen nedan om du vill skicka leveranser med hjälp av påfyllnader.
 
 Om du väljer det här alternativet har alla vågor samma storlek (förutom den sista) och fördröjningen mellan varje våg är alltid densamma.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![Exempel på vågor med samma storlek](assets/waves-same-size.png){zoomable="yes"}
 
 * Ange storleken för alla vågor som du delar leveransen till. Du kan ange ett procentvärde eller ett numeriskt värde. Endast den sista vågen kan variera i storlek eftersom den måste innehålla det återstående antalet meddelanden.
 
@@ -70,17 +70,17 @@ Med hjälp av vågor kan du begränsa antalet meddelanden till 20 per dag, vilke
 
 Välj alternativet **[!UICONTROL Schedule multiple waves of the same size]** om du vill göra det. Ange **[!UICONTROL 20]** som vågstorlek och **[!UICONTROL 1 day]** i fältet **[!UICONTROL Interval]**.
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![Exempel på påfyllnader för bearbetning av callcenter](assets/waves-call-center.png){zoomable="yes"}
 
 ## Schemalägg påfyllnader enligt en kalender {#waves-calendar}
 
-Om du väljer det här alternativet måste du definiera startdag/starttid för varje påfyllnad som du skickar, samt storleken för varje påfyllnad.
+Om du väljer det här alternativet anger du startdag/starttid för varje påfyllnad som du skickar samt storleken för varje påfyllnad.
 
 * I fälten **[!UICONTROL Start]** anger du fördröjningen mellan början av två på varandra följande påfyllnader.
 
 * Ange ett fast tal eller en procentsats i kolumnen **[!UICONTROL Size]**.
 
-Lägg till så många vågor du vill. Du kan ordna om dem efter dina behov.
+Lägg till så många vågor som behövs. Ordna om dem enligt dina önskemål.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ Lägg till så många vågor du vill. Du kan ordna om dem efter dina behov.
 
 I exemplet nedan representerar den första vågen 25 % av det totala antalet meddelanden som ingår i leveransen och börjar omedelbart. Nästa två vågor slutför leveransen och är inställda på att börja med 6 timmars intervall.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![Exempel på påfyllnader schemalagda av kalender](assets/waves-calendar.png){zoomable="yes"}
 
 Ett vanligt användningsfall för flera vågor enligt en kalender är under uppspelningsprocessen.
 
 När e-postmeddelanden skickas via en ny plattform, är Internetleverantörer (ISP) misstänkta för IP-adresser som inte känns igen. Om stora mängder e-postmeddelanden plötsligt skickas markerar internetleverantörerna dem ofta som skräppost.
 
-För att undvika att markeras som skräppost kan du stegvis öka volymen som skickas med vågor. Detta bör säkerställa en smidig utveckling av startfasen och göra det möjligt att minska den totala frekvensen av ogiltiga adresser.
+För att undvika att markeras som skräppost ökar du volymen som skickas med vågor stegvis. Detta garanterar en smidig utveckling av startfasen och minskar den totala frekvensen av ogiltiga adresser.
 
 Använd alternativet **[!UICONTROL Schedule waves according to a calendar]** om du vill göra det. Du kan till exempel ställa in den första vågen på 10 %, den andra på 15 %, den tredje på 20 % och så vidare.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![Exempel på påfyllnader för påfyllnadsprocess](assets/waves-ramp-up.png){zoomable="yes"}

@@ -3,13 +3,12 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1569'
 ht-degree: 1%
 
 ---
-
 
 # Skapa din första e-postadress {#first-email}
 
@@ -42,7 +41,7 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 
 1. Bläddra till menyn **[!UICONTROL Deliveries]** i den vänstra listen och klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](../msg/assets/create-a-delivery.png)
+   ![Skärmbild som visar knappen Skapa leverans på menyn Leveranser](../msg/assets/create-a-delivery.png)
 
 1. Välj **[!UICONTROL Email]** som kanal och välj en e-postleveransmall i listan.
 
@@ -50,24 +49,24 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
    >
    >Mallar är förkonfigurerade leveransinställningar som sparas för framtida bruk. [Läs mer](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable="yes"}
+   ![Skärmbild som visar valet av e-postkanal och mall](assets/channel-template.png){zoomable="yes"}
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 1. Ange en etikett för leveransen och konfigurera ytterligare alternativ baserat på dina behov:
 
-   * **[!UICONTROL Internal name]**: tilldela en unik identifierare till leveransen.
-   * **[!UICONTROL Folder]**: lagra leveransen i en viss mapp.
-   * **[!UICONTROL Delivery code]**: använd det här fältet för att ordna leveranser baserat på din egen namnkonvention.
+   * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
+   * **[!UICONTROL Folder]**: Lagra leveransen i en specifik mapp.
+   * **[!UICONTROL Delivery code]**: Använd det här fältet för att ordna leveranser baserat på din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
-   * **[!UICONTROL Nature]**: ange typ av e-post för klassificeringssyften.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+   * **[!UICONTROL Nature]**: Ange typ av e-post för klassificeringssyften.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
    >
    >Om du har utökat ditt schema med specifika anpassade fält kan du komma åt dem i avsnittet **[!UICONTROL Custom options]**.
 
-   ![](assets/email-properties.png){zoomable="yes"}
+   ![Skärmbild som visar e-postegenskapskonfigurationen](assets/email-properties.png){zoomable="yes"}
 
-1. Dessutom kan du komma åt avancerade inställningar, som typologiregler och målmappningar, via knappen **[!UICONTROL Settings]** längst upp till höger på skärmen. Dessa inställningar är förkonfigurerade i den valda mallen, men kan redigeras efter behov för det här specifika e-postmeddelandet. [Läs mer](../advanced-settings/delivery-settings.md)
+1. Dessutom kan du komma åt avancerade inställningar, som typologiregler och målmappningar, via knappen **[!UICONTROL Settings]** längst upp till höger på skärmen. Dessa inställningar är förkonfigurerade i den valda mallen men kan redigeras efter behov för det här specifika e-postmeddelandet. [Läs mer](../advanced-settings/delivery-settings.md)
 
 ## Definiera målgruppen {#define-audience}
 
@@ -84,9 +83,9 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
 1. Om du vill välja målgrupp för e-postmeddelandet klickar du på knappen **[!UICONTROL Select audience]** och väljer en befintlig målgrupp i listan.
 
-   I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör lojalitetsnivåerna silver och guld.
+   I det här exemplet vill vi använda en befintlig målgrupp som riktar sig till kunder som tillhör poängen Silver och Gold.
 
-   ![](assets/create-audience.png){zoomable="yes"}
+   ![Skärmbild som visar målgruppsurvalsprocessen](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -94,7 +93,7 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
 1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
 
-   ![](assets/audience-selected.png){zoomable="yes"}
+   ![Skärmbild som visar målgruppens förfiningsprocess](assets/audience-selected.png){zoomable="yes"}
 
 1. Du kan också ställa in en kontrollgrupp för att analysera beteendet hos e-postmottagarna jämfört med dem som inte var det. [Lär dig arbeta med kontrollgrupper](../audience/control-group.md)
 
@@ -106,31 +105,31 @@ Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fa
 
 1. Klicka på knappen **[!UICONTROL Edit content]** på kontrollpanelen för e-postleverans.
 
-   ![](assets/email-edit-content.png){zoomable="yes"}
+   ![Skärmbild med knappen Redigera innehåll](assets/email-edit-content.png){zoomable="yes"}
 
    Då kommer du till ett dedikerat gränssnitt där du kan konfigurera e-postinnehållet och få tillgång till e-postprogrammet Designer. [Läs mer](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable="yes"}
+   ![Skärmbild som visar e-post-Designer-gränssnittet](assets/edit-content.png){zoomable="yes"}
 
 1. Ange ämnesraden i ditt e-postmeddelande och anpassa det med Expression Editor. [Lär dig anpassa ditt innehåll](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable="yes"}
+   ![Skärmbild som visar ämnesradkonfigurationen](assets/subject-line.png){zoomable="yes"}
 
 1. Om du vill utforma innehållet i e-postmeddelandet klickar du på knappen **[!UICONTROL Edit email body]**.
 
    Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en [fördefinierad innehållsmall](create-email-templates.md).
 
-   ![](assets/select-template.png){zoomable="yes"}
+   ![Skärmbild som visar valet av en fördefinierad innehållsmall](assets/select-template.png){zoomable="yes"}
 
 1. När du har valt mallen visas den i [e-postmeddelandet för Designer](create-email-content.md), där du kan göra nödvändiga ändringar och lägga till personalisering.
 
    Om du till exempel vill lägga till anpassning i e-posttiteln markerar du komponentblocket och klickar på **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png){zoomable="yes"}
+   ![Skärmbild som visar personaliseringsprocessen](assets/add-perso.png){zoomable="yes"}
 
 1. När du är nöjd med innehållet sparar och stänger du designen. Klicka på **[!UICONTROL Save]** för att återgå till skärmen där e-postmeddelanden skapas.
 
-   ![](assets/save-content.png){zoomable="yes"}
+   ![Skärmbild med knappen Spara](assets/save-content.png){zoomable="yes"}
 
 ## Schemalägg sändning {#schedule}
 
@@ -142,7 +141,7 @@ När en leverans skickas i ett arbetsflödes kontext måste du använda aktivite
 
 1. Ange önskat datum och klockslag för sändning.
 
-   ![](assets/schedule.png){zoomable="yes"}
+   ![Skärmbild som visar schemaläggningskonfigurationen](assets/schedule.png){zoomable="yes"}
 
 När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
@@ -160,7 +159,7 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
 
 1. Klicka på knappen **[!UICONTROL Simulate content]** om du vill förhandsgranska e-postmeddelandet och skicka korrektur.
 
-   ![](assets/review-email.png){zoomable="yes"}
+   ![Skärmbild som visar knappen Simulera innehåll](assets/review-email.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -170,28 +169,28 @@ Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar kor
 
    I den högra rutan visas en förhandsgranskning av e-postmeddelandet baserat på den valda profilen. Om du har lagt till flera profiler kan du växla mellan dem för att förhandsgranska motsvarande e-postmeddelande.
 
-   ![](assets/preview.png){zoomable="yes"}
+   ![Skärmbild som visar e-postförhandsvisningen baserat på valda profiler](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Om du vill skicka korrektur klickar du på knappen **[!UICONTROL Send proofs]** och väljer det läge som du vill använda.
+1. Om du vill skicka korrektur klickar du på knappen **[!UICONTROL Send proofs]** och väljer sedan det läge som du vill använda.
 
    I det här exemplet använder du läget **[!UICONTROL Substitute from main target]** som skickar korrektur till specifika e-postadresser samtidigt som vissa profiler som e-postmeddelandet riktar sig till personifieras.
 
-   ![](assets/proof-mode.png){zoomable="yes"}
+   ![Skärmbild som visar valet av korrekturutskicksläge](assets/proof-mode.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Add address]** och ange den eller de e-postadresser som tar emot korrekturen.
 
    För varje e-postadress väljer du den profil som ska personifieras. Du kan också låta Adobe Campaign välja en slumpmässig profil från målet.
 
-   ![](assets/proof-test-profile.png){zoomable="yes"}
+   ![Skärmbild som visar tillägg av e-postadresser för korrektur](assets/proof-test-profile.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Send proof]** och bekräfta sändningen.
 
    Korrektur skickas till de angivna e-postadresserna med den valda profilen med prefixet **[Korrektur x]** .
 
-   ![](assets/proof-sent.png){zoomable="yes"}
+   ![Skärmbild som visar bekräftelse på att bevis har skickats](assets/proof-sent.png){zoomable="yes"}
 
    Du kan när som helst kontrollera status för det skickade materialet och komma åt det skickade korrekturet genom att klicka på knappen **[!UICONTROL View proofs]** på skärmen för att simulera innehåll.
 
@@ -232,22 +231,22 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 
 1. Klicka på **[!UICONTROL Prepare]** om du vill starta förberedelsen av e-postmeddelandet. [Lär dig förbereda ett e-postmeddelande](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable="yes"}
+   ![Skärmbild med knappen Förbered](assets/preparation.png){zoomable="yes"}
 
-1. När e-postmeddelandet är klart att skickas klickar du på knappen **[!UICONTROL Send]** (eller **[!UICONTROL Send as scheduled]** om du har schemalagt att skicka det) och bekräftar att du skickat det.
+1. När ditt e-postmeddelande är klart att skickas klickar du på knappen **[!UICONTROL Send]** (eller **[!UICONTROL Send as scheduled]** om du har schemalagt att skicka det) och bekräftar att du skickat det.
 
 1. Under sändningsprocessen kan du spåra dess förlopp och visa statistik i realtid direkt på den här skärmen.
 
-   ![](assets/sending-email.png){zoomable="yes"}
+   ![Skärmbild som visar e-postsändningsförloppet](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
 
    Du kan även få tillgång till detaljerad information om sändningen genom att klicka på knappen **[!UICONTROL Logs]**. [Lär dig övervaka leveransloggar](../monitor/delivery-logs.md)
 
 1. När e-postmeddelandet har skickats kan du komma åt dedikerade rapporter för ytterligare analys genom att klicka på knappen **[!UICONTROL Reporting]**.
 
-![](assets/reports.png){zoomable="yes"}
+![Skärmbild med rapportknappen](assets/reports.png){zoomable="yes"}
 
 ## Instruktionsvideo {#video}
 

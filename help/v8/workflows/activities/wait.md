@@ -3,10 +3,10 @@ audience: end-user
 title: Använd aktiviteten Vänta i arbetsflödet
 description: Lär dig hur du använder aktiviteten Vänta i arbetsflödet
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 26%
+source-wordcount: '184'
+ht-degree: 6%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 26%
 >title="Vänta på aktivitet"
 >abstract="Aktiviteten **Wait** används för att fördröja övergången från en aktivitet till en annan."
 
-Aktiviteten **Wait** är en **Flow control**-aktivitet. Det används för att en viss tid ska kunna förflyta mellan två aktiviteter som utförs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
+Aktiviteten **Wait** är en **Flow control**-aktivitet. Det ger en viss tid att förflyta mellan utförandet av två aktiviteter. Den kan till exempel användas för att vänta flera dagar efter en e-postleveransaktivitet och sedan analysera de öppningar och klickningar som genereras under perioden innan du utför uppföljningsåtgärder, som att skicka ett påminnelsemeddelande eller skapa en målgrupp.
 
-## Konfiguration{#wait-configuration}
+## Konfiguration {#wait-configuration}
 
 Följ de här stegen för att konfigurera aktiviteten **Wait**:
 
@@ -27,10 +27,10 @@ Följ de här stegen för att konfigurera aktiviteten **Wait**:
 
 1. Ange **Varaktighet** för väntetiden mellan inkommande och utgående övergångar.
 
-1. Välj tidsenhet i fältet **Perioder**: sekunder, minuter, timmar, dagar.
+1. Välj tidsenhet i fältet **Perioder**: sekunder, minuter, timmar eller dagar.
 
-## Exempel{#wait-example}
+## Exempel {#wait-example}
 
-I följande exempel visas aktiviteten **Wait** i ett typiskt fall. En e-postinbjudan till ett event skickas.  24 timmar efter att det skickats skickas ett SMS-meddelande till samma population.
+I följande exempel visas aktiviteten **Wait** i ett typiskt fall. En e-postinbjudan till ett event skickas.  Efter 24 timmar skickas en SMS-leverans till samma population.
 
-![](../assets/workflow-wait-example.png)
+![Exempel på ett arbetsflöde som använder aktiviteten Vänta för att skicka ett SMS 24 timmar efter en e-postinbjudan.](../assets/workflow-wait-example.png)

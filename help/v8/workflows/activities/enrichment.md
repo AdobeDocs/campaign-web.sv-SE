@@ -3,12 +3,13 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
+
 
 # Berikning {#enrichment}
 
@@ -17,22 +18,19 @@ ht-degree: 0%
 >title="Anrikningsaktivitet"
 >abstract="Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter."
 
+Aktiviteten **Enrichment** är en **Target**-aktivitet. Det förbättrar måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter.
 
-Aktiviteten **Enrichment** är en **Target**-aktivitet. Det gör att du kan förbättra måldata med ytterligare information från databasen. Det används ofta i ett arbetsflöde efter segmenteringsaktiviteter.
+Anrikningsdata kan komma från antingen:
 
-Anrikningsdata kan komma antingen:
+* **Samma arbetstabell** som måltabellen i ditt arbetsflöde:
+   * Ange en grupp kunder och lägg till fältet &quot;Födelsedatum&quot; i den aktuella arbetstabellen.
 
-* **Från samma arbetstabell** som den som är avsedd för ditt arbetsflöde:
+* **En annan arbetstabell**:
+   * Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; i tabellen&quot;Inköp&quot;.
 
-  *Ange en grupp kunder som mål och lägg till fältet &quot;Födelsedatum&quot; i den aktuella arbetstabellen*.
+När berikningsdata har lagts till i arbetsflödet kan de användas i efterföljande aktiviteter för att segmentera kunder i olika grupper baserat på deras beteenden, önskemål och behov. Det kan också användas för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som får genklang hos målgruppen.
 
-* **Från en annan arbetstabell**:
-
-  *Aktivera en grupp kunder och lägg till fälten Belopp och Produkttyp som kommer från tabellen Inköp*.
-
-När berikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter **Enrichment** -aktiviteten för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får genklang hos målgruppen.
-
-Du kan till exempel lägga till information om kundernas inköp i arbetsflödets arbetsregister och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
+Du kan t.ex. lägga till information om kundernas köp i arbetsflödestabellen och använda dessa data för att anpassa e-postmeddelanden med deras senaste köp eller hur mycket som spenderas på dessa inköp.
 
 ## Lägg till en anrikningsaktivitet {#enrichment-configuration}
 
@@ -40,7 +38,7 @@ Så här konfigurerar du aktiviteten **Enrichment**:
 
 1. Lägg till aktiviteter som **Skapa målgrupp** och **Kombinera** aktiviteter.
 1. Lägg till en **anrikningsaktivitet**.
-1. Om flera övergångar har konfigurerats i arbetsflödet kan du använda fältet **[!UICONTROL Primary set]** för att definiera vilken övergång som ska användas som primär uppsättning för att utöka med data.
+1. Om du har konfigurerat flera övergångar i arbetsflödet använder du fältet **[!UICONTROL Primary set]** för att definiera vilken övergång som ska användas som primär uppsättning för berikning.
 
 ## Lägg till anrikningsdata {#enrichment-add}
 
@@ -52,40 +50,40 @@ Så här konfigurerar du aktiviteten **Enrichment**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Anrikningsaktivitet"
->abstract="När berikningsdata har lagts till i arbetsflödet kan de användas i aktiviteter som lagts till efter Enrichment-aktiviteten för att segmentera kunder i olika grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som troligtvis får genklang hos målgruppen."
+>abstract="När data för berikning läggs till i arbetsflödet kan de användas i efterföljande aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som får genklang hos målgruppen."
 
-1. Klicka på **Lägg till anrikningsdata** och markera attributet som ska användas för att utöka data. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md)
+1. Klicka på **Lägg till anrikningsdata** och välj det attribut som ska användas för anrikning. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md).
 
-   Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen eller en samlingslänk. Var och en av dessa typer beskrivs i exemplen nedan:
+   Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen eller en samlingslänk. Varje typ beskrivs i exemplen nedan:
    * [Single enrichment-attribut](#single-attribute)
    * [Samlingslänk](#collection-link)
 
    >[!NOTE]
    >
-   >Med knappen **Redigera uttryck** i attributmarkeringsskärmen kan du skapa avancerade uttryck för att välja attributet. [Lär dig arbeta med uttrycksredigeraren](../../query/expression-editor.md)
+   >Med knappen **Redigera uttryck** i attributmarkeringsskärmen kan du skapa avancerade uttryck för att välja attributet. [Lär dig arbeta med uttrycksredigeraren](../../query/expression-editor.md).
 
-   ![](../assets/workflow-enrichment1.png)
+   ![Skärmbild som visar skärmen för val av anrikningsdata](../assets/workflow-enrichment1.png)
 
 ## Skapa länkar mellan tabeller {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Länkdefinition"
->abstract="Skapa en länk mellan data i arbetstabellen och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler."
+>abstract="Skapa en länk mellan data i arbetstabellen och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-post måste du skapa en länk till landstabellen för att uppdatera informationen i deras profiler."
 
-I avsnittet **[!UICONTROL Link definition]** kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler.
+I avsnittet **[!UICONTROL Link definition]** kan du skapa en länk mellan arbetstabelldata och Adobe Campaign-databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-post måste du skapa en länk till landstabellen för att uppdatera informationen i deras profiler.
 
 Det finns flera typer av länkar:
 
-* **[!UICONTROL 1 cardinality simple link]**: Varje post från den primära uppsättningen kan associeras med en och endast en post från de länkade data.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Varje post från den primära uppsättningen kan associeras med 0 eller 1 post från de länkade data, men inte mer än en.
-* **[!UICONTROL N cardinality collection link]**: Varje post från den primära uppsättningen kan associeras med 0, 1 eller fler (N) poster från de länkade data.
+* **[!UICONTROL 1 cardinality simple link]**: Varje post från den primära uppsättningen är associerad med en och endast en post från de länkade data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Varje post från den primära uppsättningen är associerad med 0 eller 1 post från de länkade data, men inte mer än en.
+* **[!UICONTROL N cardinality collection link]**: Varje post från den primära uppsättningen är associerad med 0, 1 eller fler (N) poster från de länkade data.
 
 Så här skapar du en länk:
 
 1. Klicka på knappen **[!UICONTROL Add link]** i avsnittet **[!UICONTROL Link definition]**.
 
-   ![](../assets/workflow-enrichment-link.png)
+   ![Skärmbild som visar länkdefinitionsavsnittet](../assets/workflow-enrichment-link.png)
 
 1. Välj den typ av länk du vill skapa i listrutan **Relationstyp**.
 

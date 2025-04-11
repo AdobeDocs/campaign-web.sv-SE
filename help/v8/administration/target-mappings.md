@@ -1,15 +1,15 @@
 ---
 title: Hantera målmappningar
 description: Lär dig hur du hanterar målmappningar.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # Hantera målmappningar {#target-mappings}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -28,7 +28,7 @@ För varje kommunikationskanal används en standardmålmappning för att ange mo
 
 Målmappningar är tillgängliga på menyn **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**. Från den här skärmen kan du komma åt information om varje målmappning eller skapa nya målmappningar som passar dina behov.
 
-![](assets/target-mappings-list.png)
+![Skärm för målmappningslista med tillgängliga mappningar](assets/target-mappings-list.png)
 
 Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [klientkonsolen för Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
@@ -63,11 +63,11 @@ Om du vill skapa en ny målmappning går du till menyn **[!UICONTROL Administrat
 1. Välj målpopulation. Du kan antingen:
 
    * **[!UICONTROL Use the targeting dimension directly]**: Välj den dimension som ska användas direkt i listan över tillgängliga dimensioner.
-   * **[!UICONTROL Use linked data]**: Med det här alternativet kan du börja från en måldimension (till exempel prenumerationer) och sedan växla till måldimensionen som du vill ha som mål (till exempel mottagare).
+   * **[!UICONTROL Use linked data]**: Börja från en måldimension (till exempel prenumerationer) och växla sedan till måldimensionen som du vill ha som mål (till exempel mottagare).
 
-   ![](assets/target-mappings-properties.png)
+   ![Skärmen Egenskaper för målmappning visar fyllningsalternativ](assets/target-mappings-properties.png)
 
-1. Om den valda dimensionen inte redan används av en befintlig målmappning måste scheman för att lagra loggarna skapas. Det finns ytterligare alternativ i avsnittet **[!UICONTROL Storage]**. Expandera avsnittet nedan om du vill ha mer information.
+1. Om den valda dimensionen inte redan används av en befintlig målmappning måste scheman för att lagra loggarna skapas. Ytterligare alternativ är tillgängliga i avsnittet **[!UICONTROL Storage]**. Expandera avsnittet nedan om du vill ha mer information.
 
    +++Lagringsalternativ för nya målningsdimensioner
 
@@ -76,42 +76,42 @@ Om du vill skapa en ny målmappning går du till menyn **[!UICONTROL Administrat
 
       I exemplet nedan blir utsändningsnamnet&quot;cusbroadlogSupplier&quot;.
 
-      ![](assets/target-mappings-new.png)
+      ![Exempel på lagringsalternativ för nya måldimensioner](assets/target-mappings-new.png)
 
-   1. **[!UICONTROL Delivery logs]**: Aktivera alternativen i det här avsnittet om du vill utöka de sändande loggarna med ett segmentkodsfält eller med ett fält som innehåller IP-adressen för leveransen. Du kan till exempel spara en segmentkod som beräknas under arbetsflödet i de sändande loggarna för att finjustera målet senare. På så sätt kan du ange målprofiler med den här specifika segmentkoden.
+   1. **[!UICONTROL Delivery logs]**: Aktivera alternativen i det här avsnittet om du vill utöka de sändande loggarna med ett segmentkodsfält eller ett fält som innehåller IP-adressen för leveransen. Du kan till exempel spara en segmentkod som beräknas under arbetsflödet i de sändande loggarna för att finjustera målet senare. Detta gör det möjligt att rikta in profiler med den här specifika segmentkoden.
 
-   1. **[!UICONTROL Exclusions]**: Ange hur du vill lagra exkluderingsloggarna.
+   1. **[!UICONTROL Exclusions]**: Ange hur exkluderingsloggarna ska lagras.
 
-   1. **[!UICONTROL Tracking logs]**: Aktivera alternativet **[!UICONTROL Generate a schema for tracking]** för att generera ett lagringsschema för spårningsloggar
+   1. **[!UICONTROL Tracking logs]**: Aktivera alternativet **[!UICONTROL Generate a schema for tracking]** för att generera ett lagringsschema för spårningsloggar.
 
 +++
 
 1. Använd avsnittet **[!UICONTROL Mapping]** för att identifiera vilka attribut från målmappningens schema som ska användas för varje leveransadressfält. För varje fält väljer du det attribut du vill mappa. Du kan också skapa ett uttryck som identifierar fältet. Du kan till exempel använda en lägre funktion för adressattributet.
 
-   ![](assets/target-mappings-mapping.png)
+   ![Mappningsavsnitt som visar attributval för leveransadressfält](assets/target-mappings-mapping.png)
 
-1. När målmappningen är klar klickar du på knappen **[!UICONTROL Create]**. Systemen skapar automatiskt målmappningen och alla relaterade scheman för loggarna.
+1. När målmappningen är klar klickar du på knappen **[!UICONTROL Create]**. Målmappningen och alla relaterade scheman för loggarna skapas automatiskt.
 
 När målmappningen har skapats visas ytterligare två avsnitt på skärmen:
 
 * **[!UICONTROL Denylisting]**: I det här avsnittet kan du identifiera attributen från målmappningens schema som ska användas för blockeringslista.
 
-  ![](assets/target-mappings-denylisting.png)
+  ![Blocklist avsnitt med attributval](assets/target-mappings-denylisting.png)
 
 * **[!UICONTROL Storage]**: I det här avsnittet kan du identifiera de tabeller som ska användas för att lagra loggar.
 
-  ![](assets/target-mappings-storage.png)
+  ![Lagringsavsnitt som visar tabellalternativ för loggar](assets/target-mappings-storage.png)
 
    * **[!UICONTROL Message schema]**: Identifierar schemat som ska användas för att lagra de sändande loggarna.
-   * **[!UICONTROL Messages excluded]**: I det här avsnittet anges hur lagring av leverans- och exkluderingsloggar ska hanteras.
+   * **[!UICONTROL Messages excluded]**: Anger hur lagring av leverans- och exkluderingsloggar ska hanteras.
 
       * **[!UICONTROL Store exclusions and messages in the same table]**
       * **[!UICONTROL Store messages only]**: Lagra inte undantag.
       * **[!UICONTROL Store exclusions and messages in separate tables]**: Välj det schema som ska användas för att lagra exkluderingsloggar i fältet **[!UICONTROL Rejection schema]**.
 
    * **[!UICONTROL Tracking logs]**: Välj var spårningsloggar ska lagras och standardtrafikkällan.
-   * **[!UICONTROL Additional fields]**: I det här avsnittet kan du ange en lista med ytterligare fält som ska lagras i leveransloggarna. Dessa fält kan lagra information permanent på enskilda målmedlemmar (t.ex. `recipient/@firstName`) eller lagra ytterligare data som beräknas under arbetsflödet (t.ex. `[targetData/@offeCode]`)
+   * **[!UICONTROL Additional fields]**: Ange en lista med ytterligare fält som ska lagras i leveransloggarna. Dessa fält kan lagra information permanent om enskilda målmedlemmar (t.ex. `recipient/@firstName`) eller lagra ytterligare data som beräknas under arbetsflödet (t.ex. `[targetData/@offeCode]`).
 
-     Välj **[!UICONTROL Add field]** om du vill göra det. Identifiera informationen som du vill spara i fältet **[!UICONTROL Source]** och attributet som ska användas i de sändande loggarna för att spara informationen i fältet **[!UICONTROL Destination]**.
+     Välj **[!UICONTROL Add field]** om du vill göra det. Identifiera informationen som ska sparas i fältet **[!UICONTROL Source]** och attributet som ska användas i de sändande loggarna för att spara informationen i fältet **[!UICONTROL Destination]**.
 
-     ![](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![Avsnittet Ytterligare fält visar alternativ för lagring av extra data](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

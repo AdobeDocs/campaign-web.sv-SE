@@ -3,12 +3,13 @@ audience: end-user
 title: Designa en leverans av push-meddelanden
 description: Så här utformar du ett push-meddelande med Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
+
 
 # Designa en push-leverans {#content-push}
 
@@ -28,7 +29,6 @@ ht-degree: 0%
 >id="acw_deliveries_push_ios_msg"
 >title="Skicka iOS-meddelande"
 >abstract="Definiera innehållet i ditt push-meddelande för iOS-enheter. Klicka på fälten **Titel** och **Meddelande** för att skapa meddelandet. Använd uttrycksredigeraren för att anpassa data och lägga till dynamiskt innehåll. Om du vill ha mer anpassad konfiguration går du till avsnittet **Avancerade inställningar**."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
@@ -50,51 +50,47 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
 * **[!UICONTROL Data message]** hanteras av klientprogrammet. Dessa meddelanden skickas direkt till mobilprogrammet som genererar och visar ett Android-meddelande på enheten. Datameddelanden innehåller bara dina anpassade programvariabler.
 
-  Om du vill definiera innehållet, anpassa data och lägga till dynamiskt innehåll klickar du på fältet **[!UICONTROL Message]** och använder uttrycksredigeraren. Du kan använda den här redigeraren för att anpassa dina meddelanden.
-Programvariablerna läggs till automatiskt på menyn **[!UICONTROL Application variables]**. Med dessa variabler kan du definiera meddelandebeteende. Du kan till exempel konfigurera en specifik programskärm som ska visas när användaren aktiverar meddelandet.
+  Om du vill definiera innehållet, anpassa data och lägga till dynamiskt innehåll klickar du på fältet **[!UICONTROL Message]** och använder uttrycksredigeraren. Använd den här redigeraren för att anpassa dina meddelanden.
+På menyn **[!UICONTROL Application variables]** läggs programvariablerna automatiskt till. Med dessa variabler kan du definiera meddelandebeteende. Konfigurera till exempel en specifik programskärm som ska visas när användaren aktiverar meddelandet.
 
-  ![](assets/push_content_4.png){zoomable="yes"}
+  ![Beskrivning: Exempel på definition av innehåll för ett datameddelande i Android-meddelanden](assets/push_content_4.png){zoomable="yes"}
 
 * **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
   Klicka på fälten **[!UICONTROL Title]** och **[!UICONTROL Message]** för att skapa meddelandet. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
 
-  Om du vill anpassa ditt push-meddelande ytterligare kan du välja en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
+  Om du vill anpassa ditt push-meddelande ytterligare väljer du en bild som du vill lägga till i ditt push-meddelande, meddelandeikonen som visas på dina profilers enheter och dess färg.
 
-  ![](assets/push_content_3.png){zoomable="yes"}
+  ![Beskrivning: Exempel på definition av innehåll för ett meddelande i Android-meddelanden](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
 Klicka på fälten **[!UICONTROL Title]** och **[!UICONTROL Message]** för att skapa meddelandet. Använd uttrycksredigeraren för att definiera innehåll, anpassa data och lägga till dynamiskt innehåll.
 
-Du kan lägga till **[!UICONTROL Subtitle]**, värdet för undertitelparametern i iOS-meddelandenyttolasten. Se det här avsnittet.
+Du kan lägga till en **[!UICONTROL Subtitle]**, vilket är värdet på parametern subtitle i iOS-meddelandenyttolasten. Se det här avsnittet.
 
 I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilprogram. Användaren har inte informerats om meddelandets ankomst. Den överförs direkt till programmet.
 
-![](assets/push_content_1.png){zoomable="yes"}
+![Beskrivning: Exempel på definition av innehåll för iOS-meddelanden](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## Avancerade inställningar för push-meddelanden {#push-advanced}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Avancerade inställningar för push-meddelanden"
 >abstract="Definiera avancerade inställningar för ditt push-meddelande, till exempel dess prioritet, antalet associerade meddelanden, programvariabler och mycket annat."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Kritiskt varningsläge"
 >abstract="Aktivera det här alternativet om du vill lägga till ljud i meddelandet, även när användarens telefon är inställd på fokusläge eller om enheten är avstängd. Detta säkerställer att användarna alltid informeras om viktiga varningar."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Antal meddelanden"
 >abstract="Använd det här alternativet om du vill ange antalet olästa meddelanden som ska visas direkt på programikonen. På så sätt kan användaren snabbt se antalet väntande meddelanden."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
@@ -106,12 +102,10 @@ I läget för tyst överföring kan ett tyst meddelande skickas till ett mobilpr
 >title="Relevanspoäng"
 >abstract="Ange ett relevansvärde mellan 0 och 100 för att prioritera ordningen för meddelanden i meddelandesammanfattningen. Högre poäng innebär viktigare meddelanden."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="Programvariabler"
 >abstract="Använd programvariabler för att definiera meddelandebeteende. Dessa variabler är helt anpassningsbara och ingår som en del av den meddelandenyttolast som skickas till den mobila enheten."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
@@ -124,7 +118,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable="yes"}
+![Beskrivning: Exempel på avancerade inställningar för Android-meddelanden](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beskrivning |
 |---------|---------|
@@ -140,7 +134,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable="yes"}
+![Beskrivning: Exempel på avancerade inställningar för iOS-meddelanden](assets/push_content_2.png){zoomable="yes"}
 
 | Parameter | Beskrivning |
 |---------|---------|
@@ -150,7 +144,7 @@ Avancerade alternativ beror på det mobila operativsystemet: Android eller iOS. 
 | **[!UICONTROL Volume]** | Volymen av ljudet från 0 till 100. |
 | **[!UICONTROL Mutable content]** | Aktivera det här alternativet om du vill tillåta att mobilprogrammet hämtar mediainnehåll som är kopplat till meddelandet. Mer information om detta hittar du i [Apples dokumentation för utvecklare](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
 | **[!UICONTROL Relevance score]** | Ange ett relevansvärde mellan 0 och 100 för att prioritera ordningen för meddelanden i meddelandesammanfattningen. Högre poäng innebär viktigare meddelanden. |
-| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Som standard visas meddelandet omedelbart, skärmen visas och ett ljud kan spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Passive]**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ett ljud spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Time sensitive]**: Systemet visar meddelandet omedelbart, lyser upp skärmen, kan spela upp ett ljud och gå igenom fokus-lägen. Den här nivån kräver inget särskilt tillstånd från Apple.</li> <li>**[!UICONTROL Critical]**: Systemet visar meddelandet omedelbart, lyser skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver ett särskilt tillstånd från Apple.</ul> |
+| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Som standard visas meddelandet omedelbart, skärmen visas och ett ljud kan spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Passive]**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ett ljud spelas upp. Meddelanden går inte igenom fokusläget.</li><li>**[!UICONTROL Time sensitive]**: Systemet visar meddelandet omedelbart, lyser skärmen, kan spela upp ett ljud och gå igenom fokuslägen. Den här nivån kräver inte särskilt tillstånd från Apple.</li> <li>**[!UICONTROL Critical]**: Systemet visar meddelandet omedelbart, lyser skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver särskilt tillstånd från Apple.</ul> |
 | **[!UICONTROL Thread-id]** | Identifierare som används för att gruppera relaterade meddelanden tillsammans. Meddelanden med samma tråd-ID organiseras som en enda konversation eller tråd i meddelandelistan. |
 | **[!UICONTROL Category]** | Ange namnet på det kategori-ID som är associerat med meddelandet. Detta gör att åtgärdsknappar visas, vilket gör att användaren kan utföra olika åtgärder direkt från meddelandet utan att öppna programmet. |
 | **[!UICONTROL Target content ID]** | Identifierare som används för att ange vilket programfönster som ska flyttas fram när meddelandet öppnas. |

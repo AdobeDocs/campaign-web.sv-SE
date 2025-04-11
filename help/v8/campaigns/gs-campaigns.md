@@ -3,13 +3,12 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång med kampanjer {#campaigns}
 
@@ -18,19 +17,16 @@ ht-degree: 0%
 >title="Kampanjer"
 >abstract="Bläddra i listan över kampanjer. Välj en kampanj för att visa dess innehåll, leveranser och detaljer. Du kan filtrera efter status, start-/slutdatum eller med anpassade regler. Du kan även visa rapporter för färdiga kampanjer. Klicka på knappen **Skapa kampanj** för att lägga till en ny kampanj. Bläddra till fliken **Mallar** för att visa och skapa mallar."
 
+Med Adobe Campaign kan ni samordna riktade marknadsföringssatsningar med hjälp av den inbyggda kampanjhanteringsfunktionen. Med möjligheten att definiera ett schema planerar ni kampanjernas varaktighet och tidsplanering för att anpassa dem till strategiska mål och maximera målgruppernas engagemang.
 
-Med Adobe Campaign kan ni enkelt samordna era riktade marknadsföringssatsningar med den inbyggda kampanjhanteringsfunktionen. Med möjligheten att definiera ett schema kan ni planera kampanjernas varaktighet och tidsplanering för att anpassa dem till strategiska mål och maximera målgruppernas engagemang.
+Genom att lägga till flera arbetsflöden och leveranser som är specifika för kampanjen kan ni skapa personaliserade upplevelser i olika kanaler, så att varje kontaktyta passar den avsedda målgruppen.
 
-Genom att lägga till flera arbetsflöden och leveranser som är specifika för kampanjen kan ni skapa personaliserade upplevelser i olika kanaler och säkerställa att varje kontaktyta passar den avsedda målgruppen.
+Kampanjerna tillhandahåller dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen. Dessa mätvärden hjälper till att utvärdera effektiviteten, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser. Upptäck hur du får åtkomst till och förstår kampanjrapporter i [det här avsnittet](../reporting/campaign-reports.md).
 
-Kampanjerna erbjuder dedikerade rapporteringsmått för att få omfattande insikter om resultatet för hela kampanjen, så att ni kan bedöma hur effektiv den är, identifiera trender och fatta datadrivna beslut för att optimera framtida insatser. Upptäck hur du får åtkomst till och förstår kampanjrapporter i [det här avsnittet](../reporting/campaign-reports.md).
-
-![Kampanjflöde](assets/campaign-flow.png)
+![Diagram som illustrerar flödet i en kampanj, inklusive arbetsflöden och leveranser](assets/campaign-flow.png)
 
 Lär dig hur du skapar, hanterar och övervakar kampanjer i följande avsnitt:
 
 * [Få tillgång till och hantera era kampanjer](manage-campaigns.md)
 * [Skapa din första kampanj](create-campaigns.md)
 * [Bläddra bland kampanjrapporter](../reporting/campaign-reports.md).
-
-

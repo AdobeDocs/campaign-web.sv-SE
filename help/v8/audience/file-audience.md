@@ -3,9 +3,9 @@ audience: end-user
 title: Läsa in en e-postmålgrupp från en fil
 description: Lär dig hur du läser in profiler från en extern fil för att skapa e-postmålgrupper
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -53,20 +53,20 @@ Följ de här stegen om du vill skapa målprofiler från en fil i dina e-postmed
 1. Öppna en befintlig e-postleverans eller [skapa en ny e-postleverans](../email/create-email.md).
 1. Klicka på knappen **Välj målgrupp** i avsnittet **Målgrupp** och välj sedan **Välj från fil**.
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![Skärmbild som visar alternativet Välj från fil i målgruppsavsnittet](assets/select-from-file.png){zoomable="yes"}
 
 1. Välj den lokala fil som ska läsas in. Filformatet måste justeras mot [exempelfilen](#sample-file).
 1. Förhandsgranska och kontrollera hur data mappas i skärmens centrala del.
 
-   ![](assets/select-from-file-map.png)
+   ![Skärmbild som visar förhandsgranskningen av datamappning i det centrala avsnittet](assets/select-from-file-map.png)
 
-1. Ange den kolumn som innehåller e-postadressen från listrutan **Adressfält**. Du kan också markera blockeringslista-kolumnen om du har sådan information i indatafilen.
-1. Justera kolumninställningarna och formatera data från de tillgängliga alternativen.
+1. Ange den kolumn som innehåller e-postadressen i listrutan **Adressfält**. Du kan också markera blockeringslista-kolumnen om du har sådan information i indatafilen.
+1. Justera kolumninställningarna och definiera hur data ska formateras med de tillgängliga alternativen.
 1. Klicka på **Bekräfta** när inställningarna är korrekta.
 
-När du skapar meddelandeinnehållet kan du lägga till personalisering genom att använda fält från indatafilen. [Lär dig anpassa innehåll](../personalization/personalize.md)
+När du skapar meddelandeinnehållet lägger du till en personalisering genom att använda fält från indatafilen. [Lär dig anpassa innehåll](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![Skärmbild som visar anpassningsalternativ med hjälp av fält från indatafilen](assets/select-external-perso.png){zoomable="yes"}
 
 ## Exempelfil {#sample-file}
 
@@ -101,7 +101,7 @@ Med Campaign Web kan ni förhandsgranska och skicka korrektur när ni använder 
 
 1. En förhandsgranskning av leveransinnehållet visas i den högra rutan på skärmen. Personaliserade element ersätts med data från den profil som valts i den vänstra rutan. [Läs mer om förhandsgranskning av leveransinnehåll](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![Skärmbild som visar förhandsvisning av leveransinnehåll med anpassade element](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Klicka på knappen **[!UICONTROL Send proof]** om du vill skicka korrektur.
 
@@ -113,6 +113,6 @@ Med Campaign Web kan ni förhandsgranska och skicka korrektur när ni använder 
 
 1. När korrekturprofilerna har lagts till och du är redo att skicka korrekturet klickar du på knappen **[!UICONTROL Send proof]** och bekräftar att du har skickat.
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![Skärmbild som visar korrekturutskicksprocessen](assets/file-upload-test.png){zoomable="yes"}
 
-1. Du kan när som helst övervaka sändningen av korrekturet med knappen **[!UICONTROL View proofs]**. [Läs mer om korrekturövervakning](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Övervaka sändningen av korrekturet när som helst med knappen **[!UICONTROL View proofs]**. [Läs mer om korrekturövervakning](../preview-test/test-deliveries.md#access-test-deliveries)

@@ -3,9 +3,9 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -19,18 +19,18 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Skicka korrektur"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
-När leveransinnehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Detta är ett viktigt steg för att säkerställa att det är korrekt, men även fritt från fel, både i innehålls- och personaliseringsinställningarna.
+När leveransinnehållet är definierat kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Det här steget garanterar exakthet och eliminerar fel i både innehålls- och personaliseringsinställningarna.
 
 Med [!DNL Adobe Campaign Web user interface] kan du:
 
 * [Förhandsgranska meddelandets innehåll och personalisering](preview-content.md)
 * [Skicka korrektur](test-deliveries.md) till specifika mottagare eller prenumeranter för testning och validering
-* [Kontrollera e-poståtergivningen](email-rendering.md) i vanliga dator-, mobil- och webbaserade klienter
+* [Kontrollera e-poståtergivningen](email-rendering.md) på vanliga dator-, mobil- och webbaserade klienter
 * [Förhandsgranska och testa landningssidorna](../landing-pages/create-lp.md#test-landing-page)
 
-Dessa åtgärder kan utföras med knappen **[!UICONTROL Simulate content]** som du kommer åt från redigeringsfönstret för leveransen - eller från [e-postmeddelandet för Designer](../email/get-started-email-designer.md).
+Utför dessa åtgärder med knappen **[!UICONTROL Simulate content]** som du kommer åt från redigeringsfönstret för leveransen eller från [e-postmeddelandet för Designer](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png){zoomable="yes"}
+![Simulera innehållsknappen på skärmen Redigera innehåll i leveransen](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

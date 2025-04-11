@@ -3,9 +3,9 @@ audience: end-user
 title: Kampanjrapporter för Direct-postkanalen
 description: Förstå kampanjrapporter för Direct mail channel
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 
 **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktion med varje direktutskick. Mätvärdena beskrivs nedan.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Översikt över leveransstatistik för direktreklamkampanjer](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -33,7 +33,7 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
+* **[!UICONTROL Errors]**: Totalt antal fel som ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
 
 * **[!UICONTROL Total clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
@@ -46,9 +46,9 @@ Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens fra
 >title="Inledande målgruppsstatistik"
 >abstract="Mottagardata och meddelandeinformation visas i tabellen **Inledande målgruppsstatistik**, som avspeglar leveransförberedelseanalysen."
 
-Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förhållande till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
+Tabellen **[!UICONTROL Initial target audience statistics]** visar data som är relaterade till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar den initiala målgruppen, antalet meddelanden som ska skickas och antalet exkluderade mottagare.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Statistik för den ursprungliga målgruppen för direktreklamkampanjer](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Läs mer om statistik om inledande målgrupper.
 
@@ -56,7 +56,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förh�
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista, osv.
+* **[!UICONTROL Rejected by rules]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas, till exempel saknade adresser, adresser i karantän eller adresser på en blockeringslista.
 
 +++
 
@@ -67,19 +67,19 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förh�
 >title="Leveransstatistik"
 >abstract="Tabellen **Körningsstatistik** innehåller information om hur din direktsändning lyckades och om fel som uppstod."
 
-![](assets/direct-mail-campaign-exec.png)
+![Körningsstatistik för direktreklamkampanjer](assets/direct-mail-campaign-exec.png)
 
-Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av framgången för varje direktutskick, med detaljerade mått som anges nedan.
+Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av resultatet för varje direktutskick, med detaljerade mått som anges nedan.
 
 +++Läs mer om leveransstatistik.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Success]**: Antal meddelanden som har bearbetats, i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Errors]**: Totalt antal fel som ackumulerats under leveranser och automatisk ombunden bearbetning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (t.ex. okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
 +++
 
@@ -90,7 +90,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av fra
 >title="Genererade klickströmmar"
 >abstract="Tabellen **Genererade klickströmmar** visar tillgängliga data i relation till hur mottagarna interagerade med leveransen."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Klicka på strömdata för direktreklamkampanjer](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 Tabellen **Genererade klickströmmar** visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
@@ -100,6 +100,6 @@ Tabellen **Genererade klickströmmar** visar orsakerna till att användarprofile
 
 * **[!UICONTROL Total clicks]**: Totalt antal klick på länkar i leveranser.
 
-* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
+* **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som klickade i en leverans, i förhållande till det beräknade antalet målmottagare som öppnade en leverans.
 
 +++

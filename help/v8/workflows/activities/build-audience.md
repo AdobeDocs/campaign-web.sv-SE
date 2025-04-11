@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Följ de här stegen för att konfigurera aktiviteten **Skapa målgrupp**:
 
-![](../assets/workflow-audience.png)
+![Skärmbild som visar arbetsflödets målgruppskonfigurationsgränssnitt.](../assets/workflow-audience.png)
 
 1. Lägg till en **Skapa målgruppsaktivitet**.
 1. Definiera en etikett.
@@ -56,7 +56,7 @@ Följ de här stegen för att konfigurera aktiviteten **Skapa målgrupp**:
 Så här skapar du en egen fråga:
 
 1. Välj **Skapa en egen (fråga)**.
-1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
+1. Välj **Måldimension**. Med målgruppsdimensionen kan du definiera målgruppen för operationen, till exempel mottagare, mottagare, operatorer eller prenumeranter. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
 1. Klicka på **Fortsätt**.
 1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ Så här väljer du en befintlig målgrupp:
 
 >[!ENDTABS]
 
-## Exempel{#build-audience-examples}
+## Exempel {#build-audience-examples}
 
-Här är ett exempel på ett arbetsflöde med två **Skapa målgruppsaktiviteter**. Det första riktar sig till pokerspelarna, följt av ett mejlerbjudande. Det andra riktar sig till VIP kunder, följt av en SMS-leverans.
+Här är ett exempel på ett arbetsflöde med två **Skapa målgruppsaktiviteter**. Det första riktar sig till pokerspelarna, följt av ett mejlerbjudande. Det andra riktar sig till VIP kunder, följt av SMS-leverans.
 
-![](../assets/workflow-audience-example.png)
+![Skärmbild som visar ett exempel på arbetsflöde med två Build-målgruppsaktiviteter för olika målgrupper.](../assets/workflow-audience-example.png)

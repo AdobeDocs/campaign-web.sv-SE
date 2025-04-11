@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2325'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 Diagrammet **[!UICONTROL Initial target population]** visar data i förhållande till dina mottagare. Mätvärden beräknas under färdigställandet av leveransen och visar: den initiala målgruppen, antalet meddelanden som ska skickas, antalet exkluderade mottagare.
 
-![](assets/reporting_email_1.png){zoomable="yes"}
+![Skärmbild av ett diagram med data](assets/reporting_email_1.png){zoomable="yes"}
 
 För musen över en del av diagrammet för att visa det exakta talet.
 
-![](assets/reporting_email_1.1.png){zoomable="yes"}
+![Skärmbild av ett diagram med en mus över en del för att visa det exakta talet](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -54,7 +54,7 @@ För musen över en del av diagrammet för att visa det exakta talet.
 
 Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. Mätvärdena anges nedan.
 
-![](assets/reporting_email_2.png){zoomable="yes"}
+![Skärmbild av ett diagram med information om leveransstatistik](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Läs mer om rapportstatistik för e-postkampanjer.
 
@@ -77,7 +77,7 @@ Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. M�
 
 Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Skärmbild av orsaker till uteslutning - diagram och tabell](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -106,7 +106,7 @@ Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna pe
 
 Den här rapporten innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Skärmbild av leveransflöde](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Sändningsstatistik {#broadcast-statistics}
@@ -118,7 +118,7 @@ Den här rapporten innehåller detaljerad information om hela plattformens lever
 
 Tabellen **[!UICONTROL Broadcast statistics]** innehåller tillgängliga data för eventuella fel som påträffats i varje domän. Mätvärdena anges nedan.
 
-![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![Skärmbild av sändningsstatistik](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -155,7 +155,7 @@ Tabellen och diagrammet **[!UICONTROL Breakdown of errors per type]** innehålle
 
 Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Skärmbild av brytningen av fel per typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -189,11 +189,11 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 
 Tabellen och diagrammet **[!UICONTROL Breakdown of errors per domain]** visar tillgängliga data för eventuella fel som påträffats i varje domän.
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Skärmbild av felen per domän](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Klicka på ikonen bredvid namnet på varje domän för att se information.
 
-![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![Skärmbild av uppdelningen av fel per domän med information om varje domän](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Tillgängliga mått är samma som för [uppdelningen av fel efter typ](#email-delivery-breakdown-type) som beskrivs ovan.
 
@@ -216,7 +216,7 @@ Tillgängliga mått är samma som för [uppdelningen av fel efter typ](#email-de
 
 Rapporten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) som ger detaljerad information om tillgängliga data för skickade e-postmeddelanden. Mätvärdena anges nedan.
 
-![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
+![Skärmbild av leveransstatistik](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -244,7 +244,7 @@ Rapporten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) so
 
 Tabellen **[!UICONTROL Open and click-through rate]** visar data i förhållande till dina mottagare. Mätvärdena anges nedan.
 
-![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![Skärmbild av tabellen Öppna och klickfrekvens](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -269,7 +269,7 @@ Tabellen **[!UICONTROL Open and click-through rate]** visar data i förhållande
 
 Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er) som ger detaljerad information om de URL:er som du klickade mest på under en leverans.
 
-![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![Skärmbild av URL:er och klicka på strömningsrapport](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -294,7 +294,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![Skärmbild av diagrammet De tio mest besökta länkarna ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -315,7 +315,7 @@ Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller t
 
 Diagrammet **[!UICONTROL Breakdown of clicks over time]** innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![Skärmbild av indelning av klickningar över tidsdiagram](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Användaraktiviteter {#user-activities-email}
 
@@ -326,7 +326,7 @@ Diagrammet **[!UICONTROL Breakdown of clicks over time]** innehåller tillgängl
 
 Rapporten **[!UICONTROL User activities]** visar uppdelningen av öppningar och klick i form av ett diagram. Du kan välja tidsperioden för måldata: sista dagen eller timmen eller 30 minuter.
 
-![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![Skärmbild av rapporten Användaraktiviteter](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -345,7 +345,7 @@ Rapporten **[!UICONTROL User activities]** visar uppdelningen av öppningar och 
 
 Diagrammet **[!UICONTROL Tracking Statistics]** innehåller statistik om öppningar och klick. Du kan välja en specifik tidsram för måldata.
 
-![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![Skärmbild av diagrammet Spårningsstatistik](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för e-postleveransrapporter.
 
@@ -368,7 +368,7 @@ Rapporten **Uppdelning efter enhet** visar hur öppningar fördelats per enhet u
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila enheter. Den andra visar det exakta antalet och procentandelen för varje enhetstyp.
 
-![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![Skärmbild av rapporten Uppdelning per enhet](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Uppdelning av öppningar efter operativsystem {#breakdown-opens-os}
@@ -382,7 +382,7 @@ Rapporten **Uppdelning efter operativsystem** visar hur öppningar fördelats ef
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila operativsystem. Den andra visar det exakta antalet och procentandelen för varje operativsystem.
 
-![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![Skärmbild av rapporten Uppdelning efter operativsystem](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Uppdelning av öppningar efter webbläsare {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ Rapporten **Uppdelning per webbläsare** visar hur öppningarna är uppdelade ef
 
 För varje kategori används två diagram. Den första visar statistik om öppningar på datorer och mobila operativsystem. Den andra visar det exakta antalet och procentandelen för varje webbläsare.
 
-![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![Skärmbild av öppningsindelning efter webbläsarrapport](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Klickningar {#hotclicks}
@@ -407,4 +407,4 @@ För varje kategori används två diagram. Den första visar statistik om öppni
 
 Den här rapporten visar meddelandeinnehållet (HTML och/eller text) med procentandelen klickningar på länkar för varje länk. Personaliseringsblock, ej prenumerationslänkar, spegelsideslänkar och erbjudandelänkar tas med i det totala antalet klickningar, men visas inte i rapporten.
 
-![](assets/reporting11.png){zoomable="yes"}
+![Skärmbild av Hotclicks-rapport](assets/reporting11.png){zoomable="yes"}

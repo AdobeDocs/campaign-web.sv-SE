@@ -3,21 +3,17 @@ audience: end-user
 title: Välj en befintlig målgrupp
 description: Lär dig hur du väljer en målgrupp
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
-
 # Välj en befintlig målgrupp {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Välj en befintlig målgrupp"
->abstract="Bläddra i listan för att välja en befintlig målgrupp. Använd ikonen Visa filter om du vill filtrera listan eller markera en viss mapp."
-
+>
 I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en leverans. När du definierar huvudmålet för en leverans kan du också:
 * [Skapa en engångspublik](one-time-audience.md) med frågemodelleraren.
 * [Läs in en målgrupp från en extern fil](file-audience.md) (endast för e-post).
@@ -28,24 +24,24 @@ Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
 1. Klicka på knappen **[!UICONTROL Select audience]** i sektionen **Målgrupp** i leveransassistenten och välj sedan **[!UICONTROL Select audience]**.
 
-   ![](assets/create-audience.png){zoomable="yes"}
+   [I den här skärmbilden visas knappen **Välj målgrupp** i leveransassistenten.](assets/create-audience.png){zoomable="yes"}
 
 1. På den här skärmen visas alla befintliga målgrupper för den aktuella mappen.
 
-   ![](assets/create-audience2.png){zoomable="yes"}
+   [På den här skärmbilden visas en lista över befintliga målgrupper i den aktuella mappen.](assets/create-audience2.png){zoomable="yes"}
 
    Om du vill välja en målgrupp från Adobe Experience Platform går du till `AEP Audiences folder` i skärmens filteravsnitt. [Läs mer om Adobe Experience Platform-målgrupper](manage-audience.md#monitor)
 
-   ![](assets/select-audience-folder.png){zoomable="yes"}
+   [På den här skärmbilden visas filteravsnittet med AEP Audiences-mappen markerad.](assets/select-audience-folder.png){zoomable="yes"}
 
 1. I filteravsnittet kan du komma åt filteralternativ för att förfina målgruppslistan. Om du vill göra det klickar du på **Lägg till regler** för att komma åt frågemodelleraren, som du kan använda för att skapa avancerade filter för listan över målgrupper. [Lär dig använda frågemodelleraren](../query/query-modeler-overview.md)
 
    Du kan till exempel definiera en regel som ska filtreras efter målgruppernas ursprung, vilket visas nedan:
 
-   ![](assets/filter-on-aep-audience.png){zoomable="yes"}
+   [På den här skärmbilden visas ett filter som tillämpas på målgrupper baserat på deras ursprung.](assets/filter-on-aep-audience.png){zoomable="yes"}
 
-1. Klicka på **Bekräfta** för att lägga till målgruppen som huvudmål för leveransen. När du är klar kan du fortfarande förfina målgruppen med frågemodelleraren genom att klicka på knappen **Redigera regler** .
+1. Klicka på **Bekräfta** för att lägga till målgruppen som huvudmål för leveransen. När du är klar kan du förfina målgruppen med frågemodelleraren genom att klicka på knappen **Redigera regler** .
 
-   ![](assets/refine-audience.png){zoomable="yes"}
+   [I den här skärmbilden visas knappen **Redigera regler** för att förfina målgruppen.](assets/refine-audience.png){zoomable="yes"}
 
 1. Ni kan också ställa in en kontrollgrupp för att mäta effekten av era kampanjer. Kontrollgruppen tar inte emot meddelandet. På så sätt kan du jämföra beteendet hos den population som fick meddelandet med beteendet hos kontakter som inte gjorde det. [Läs mer](control-group.md)

@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,20 @@ Så här skapar du en fristående leverans:
 
 1. Bläddra till menyn **[!UICONTROL Deliveries]** till vänster och klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/create-a-delivery.png){zoomable="yes"}
+   ![Skärmbild som visar knappen Skapa leverans på menyn Leveranser](assets/create-a-delivery.png){zoomable="yes"}
 
 1. Välj en kanal för leveransen.
-1. Definiera målgruppen för leveransen, för huvudmålet och kontrollgruppen. [Läs mer om målgrupper](../audience/about-recipients.md).
+1. Definiera målgruppen för huvudmålet och kontrollgruppen. [Läs mer om målgrupper](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Skärmbild som visar gränssnittet för målgruppsval](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
-1. Definiera meddelandeinnehållet. Läs mer om leveranskanaler och hur du definierar ett leveransinnehåll i dessa avsnitt:
+1. Definiera meddelandeinnehållet. Läs mer om leveranskanaler och hur du definierar leveransinnehåll i dessa avsnitt:
 
    * [E-postkanal](../email/create-email.md)
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. (valfritt) Definiera leveransschemat [](#gs-schedule). Om inget schema har definierats skickas meddelanden direkt när du har klickat på knappen **[!UICONTROL Send]**.
+1. (Valfritt) Definiera leveransschemat [](#gs-schedule). Om inget schema har definierats skickas meddelanden omedelbart efter att du klickat på knappen **[!UICONTROL Send]**.
 1. Klicka på knappen **[!UICONTROL Review and send]** om du vill kontrollera dina inställningar.
 1. Använd knappen **[!UICONTROL Simulate content]** för att testa dina inställningar för leverans och anpassning. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på knappen **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel inträffar bläddrar du till **loggarna** för att kontrollera varningar och varningar.
@@ -53,17 +53,17 @@ Så här skapar du en leverans i ett arbetsflöde:
 
 1. Skapa ett arbetsflöde eller öppna ett befintligt. [Läs mer om arbetsflöden](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Lägg till och konfigurera en [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md)-aktivitet.
-1. Klicka på ikonen `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar ett leveransinnehåll i [det här avsnittet](../workflows/activities/channels.md).
+1. Klicka på ikonen `+` och välj en leveransaktivitet: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** eller **[!UICONTROL Push notification (iOS)]**. Läs mer om aktiviteter i leveranskanaler i ett arbetsflöde och hur du definierar leveransinnehåll i [det här avsnittet](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
+   ![Skärmbild som visar tillägg av en leveransaktivitet i ett arbetsflöde](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. Starta arbetsflödet och kontrollera loggarna.
 
 Du kan också lägga till leveranser i en kampanj utan att skapa ett arbetsflöde. För att uppnå detta går du till fliken **[!UICONTROL Deliveries]** i kampanjen och klickar på knappen **[!UICONTROL Create delivery]**.
 
-![](assets/new-campaign-delivery.png){zoomable="yes"}
+![Skärmbild som visar hur en leverans skapas i en kampanj](assets/new-campaign-delivery.png){zoomable="yes"}
 
-Konfigurationsstegen är desamma som för fristående leveranser.
+Konfigurationsstegen liknar dem för fristående leveranser.
 
 Mer information om hur du konfigurerar en kampanj och hanterar leveranser som tillhör en kampanj finns i [det här avsnittet](../campaigns/gs-campaigns.md).
 
@@ -83,15 +83,15 @@ Du kan anpassa meddelandeinnehållet genom att:
 
 * Infogar fördefinierade **uttrycksfragment**
 
-  Campaign innehåller en uppsättning uttrycksfragment som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. uttrycksfragment är tillgängliga från en dedikerad post som körs i personaliseringsredigeraren. Dessutom kan du skapa egna uttrycksfragment som passar dina behov. [Lär dig använda uttrycksfragment](../content/use-expression-fragments.md)
+  Campaign innehåller en uppsättning uttrycksfragment som innehåller specifika återgivningar som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Uttrycksfragment är tillgängliga från en dedikerad post i personaliseringsredigeraren. Dessutom kan du skapa egna uttrycksfragment som passar dina behov. [Lär dig använda uttrycksfragment](../content/use-expression-fragments.md)
 
-* Skapa **villkorligt innehåll**
+* Skapar **villkorligt innehåll**
 
-  Konfigurera villkorsstyrt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. [Läs mer](../personalization/conditions.md)
+  Konfigurera villkorligt innehåll för att lägga till dynamisk personalisering baserat på mottagarens profil, till exempel. Textblock och/eller bilder infogas när ett visst villkor är true. [Läs mer](../personalization/conditions.md)
 
-* Lägg till **anpassade erbjudanden**
+* Lägger till **personliga erbjudanden**
 
-  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på mottagarens plats, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../msg/offers.md)
+  Lägg in skräddarsydda erbjudanden i ert meddelandeinnehåll, beroende på var mottagaren befinner sig, det aktuella vädret eller den senaste inköpsordern. [Läs mer](../msg/offers.md)
 
 ## Förgranska och testa leveranserna
 
@@ -108,7 +108,7 @@ Du kan ange datum och exakt tid för att skicka meddelanden. Genom att välja de
 
 Om du vill schemalägga sändning av en leverans öppnar du leveransen och bläddrar till avsnittet **[!UICONTROL Schedule]**. Använd växlingsknappen **[!UICONTROL Enable scheduling]** för att aktivera den och ange önskat datum och tid för sändning. När du har skickat leveransen börjar den faktiska avsändaren på det kontaktdatum som du har angett.
 
-![](assets/schedule.png){zoomable="yes"}
+![Skärmbild som visar schemaläggningsgränssnittet för en leverans](assets/schedule.png){zoomable="yes"}
 
 Som standard är alternativet **[!UICONTROL Enable confirmation before sending]** aktiverat. Det här alternativet kräver att du bekräftar att leveransen ska skickas innan det schemalagda datumet och den schemalagda tidpunkten. Om du behöver skicka leveransen automatiskt på det schemalagda datumet och den schemalagda tidpunkten kan du inaktivera det här alternativet.
 
@@ -116,7 +116,7 @@ Lär dig hur du skickar en schemalagd leverans i [det här avsnittet](../monitor
 
 ## Övervaka och spåra loggar {#gs-tracking-logs}
 
-Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når ut till era kunder.
+Att övervaka era leveranser efter att de har skickats är ett viktigt steg för att se till att era marknadsföringskampanjer är effektiva och når era kunder.
 
 Du kan övervaka efter att du har skickat en leverans samt förstå hur leveransfel och karantäner hanteras.
 

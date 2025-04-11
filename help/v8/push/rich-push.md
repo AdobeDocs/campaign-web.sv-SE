@@ -3,9 +3,9 @@ audience: end-user
 title: Designa ett omfattande leveransmeddelande
 description: Lär dig hur du utformar en omfattande push-meddelandetjänst från Android med Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3078'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
 
 * **[!UICONTROL Notification message]**, hanteras automatiskt av FCM SDK. FCM visar automatiskt meddelandet på användarnas enheter för klientprogrammets räkning. Meddelanden innehåller en fördefinierad uppsättning parametrar och alternativ, men de kan fortfarande anpassas ytterligare med anpassade programvariabler.
 
-![](assets/rich_push.png){zoomable="yes"}
+![Skärmbild av sidan Leverera på Android](assets/rich_push.png){zoomable="yes"}
 
 ## Definiera innehållet i meddelandet {#push-message}
 

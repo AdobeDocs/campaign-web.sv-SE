@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med innehållsfragment
 description: Lär dig skapa med innehållsfragment
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Vad är innehållsfragment? {#what}
 
-Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan man skapa flera anpassade innehållsblock som kan användas av marknadsföringsanvändare för att snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
+Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. När du ändrar ett fragment uppdateras allt innehåll som använder det. Med den här funktionen kan marknadsföringsanvändare förskapa flera anpassade innehållsblock och snabbt sammanställa meddelandeinnehåll i en förbättrad designprocess.
 
 Det finns två typer av fragment:
 
-* **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren. Campaign innehåller en uppsättning fördefinierade innehållsblock som innehåller en specifik återgivning som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Du kan också skapa egna uttrycksfragment som passar dina behov.
+* **Uttrycksfragment** är fördefinierade uttryck som är tillgängliga från en dedikerad post i uttrycksredigeraren. Campaign innehåller en uppsättning fördefinierade innehållsblock som innehåller specifika återgivningar som du kan infoga i dina leveranser. Du kan till exempel lägga till en logotyp, ett hälsningsmeddelande eller en länk till meddelandets spegelsida. Du kan också skapa egna uttrycksfragment som passar dina behov.
 
 * **Visuella fragment** är fördefinierade visuella block som du kan återanvända i flera [e-postleveranser](../email/get-started-email-designer.md) eller i [innehållsmallar](../email/use-email-templates.md).
 
@@ -38,7 +38,7 @@ Det finns två typer av fragment:
 
 ## Låt oss dyka djupare
 
-Nu när du har en förståelse för vilka innehållsfragment som är och vad du kan göra med dem i Adobe Campaign är det dags att fördjupa sig i dessa dokumentationsavsnitt för att börja arbeta med funktionen.
+Nu när du förstår vad innehållsfragment är och vad du kan göra med dem i Adobe Campaign kan du utforska följande dokumentationsavsnitt för att börja arbeta med funktionen.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

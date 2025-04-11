@@ -3,9 +3,9 @@ audience: end-user
 title: Globala rapporter för direktreklamkanalen
 description: Läs mer om Global-rapporter för direktreklamkanalen
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De globala rapporterna för direktreklam ger användarna en heltäckande översikt över trafik- och engagemangsmått på kanalnivå.
 
-Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting]**. Du kan filtrera dina data beroende på rapportdatumet, mappen eller reglerna. [Läs mer](global-reports.md)
+Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting]**. Du kan filtrera dina data beroende på rapportens datum, mapp eller regler. [Läs mer](global-reports.md)
 
 ## Leveranssammanfattning {#delivery-summary-direct}
 
@@ -27,7 +27,7 @@ Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting
 
 **[!UICONTROL Delivery Overview]** presenterar nyckeltal (KPI:er) som ger djupgående insikter i besökarnas interaktion med varje direktutskick. Mätvärdena beskrivs nedan.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![Den här bilden visar leveransöversiktsmått för direktutskick.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om leveransöversiktssiffror.
 
@@ -35,9 +35,10 @@ Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting
 
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
 
-* **[!UICONTROL Errors]**: Totalt antal fel som har ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
+* **[!UICONTROL Errors]**: Totalt antal fel som ackumulerats under leverans och automatisk returbearbetning i relation till totalt antal skickade meddelanden.
 
-* **[!UICONTROL Unsubscribes]**: Antal mottagare som klickat på att avbryta prenumerationer.
+* **[!UICONTROL Unsubscribes]**: Antal mottagare som klickat på länkar för att ta bort prenumeration.
+
 +++
 
 ### Målgrupp {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting
 
 Tabellen och diagrammet för **[!UICONTROL Targeted Audience]** visar data relaterade till dina mottagare, med detaljerade mått angivna nedan.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![Den här bilden visar målgruppsmått för direktreklam.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om målgruppsstatistik.
 
@@ -62,7 +63,7 @@ Tabellen och diagrammet för **[!UICONTROL Targeted Audience]** visar data relat
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Exclusion]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas: adress som saknas, är i karantän, på blockeringslista, osv.
+* **[!UICONTROL Exclusion]**: Totalt antal adresser som ignoreras under analysen när regler tillämpas, t.ex. adress som saknas, är i karantän eller på en blockeringslista.
 
 +++
 
@@ -84,11 +85,11 @@ Diagrammet och tabellen **[!UICONTROL Delivery statistics]** innehåller en besk
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
-* **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Success]**: Antal meddelanden som har bearbetats, i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL Errors / Bounces]**: Totalt antal fel som har ackumulerats under leveranser och automatisk återinläsning i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL Errors / Bounces]**: Totalt antal fel som ackumulerats under leveranser och automatisk ombunden bearbetning i relation till antalet meddelanden som ska levereras.
 
-* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
+* **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (t.ex. okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
 +++
 
@@ -104,13 +105,13 @@ Diagrammet och tabellen **[!UICONTROL Delivery statistics]** innehåller en besk
 >title="Orsaker till uteslutning"
 >abstract="Diagrammet **Orsaker till uteslutning** illustrerar distributionen av avvisade meddelanden under förberedelsen för leverans, kategoriserat av varje regel."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![Den här bilden visar orsaken till uteslutningsmått för direktreklam.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
 +++Läs mer om orsaker till uteslutning.
 
-* **[!UICONTROL Address in quarantine]**: Feltypen genererades när adressen placerades i karantän.
+* **[!UICONTROL Address in quarantine]**: Feltypen som genereras när en adress placeras i karantän.
 
 * **[!UICONTROL Address not specified]**: Feltypen som genererades när en leverans skickades för att ange att adressen inte finns.
 

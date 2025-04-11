@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 >title="Arbetsflöden"
 >abstract="På den här skärmen kan du komma åt den fullständiga listan över fristående arbetsflöden och kampanjarbetsflöden, kontrollera deras aktuella status, senaste/nästa körningsdatum och skapa ett nytt arbetsflöde. Bläddra till fliken Mallar för att komma åt tillgängliga arbetsflödesmallar."
 
-På menyn **[!UICONTROL Workflows]** kan du komma åt den fullständiga listan över arbetsflöden. Den här listan innehåller både **fristående arbetsflöden** som har skapats från den här skärmen och **kampanjarbetsflöden** som har skapats i en kampanj.
+Menyn **[!UICONTROL Workflows]** ger åtkomst till den fullständiga listan över arbetsflöden. Den här listan innehåller både **fristående arbetsflöden** som skapats från den här skärmen och **kampanjarbetsflöden** som skapats i en kampanj.
 
-![](assets/workflow-list.png){zoomable="yes"}
+![Visning av arbetsflödeslista med fristående arbetsflöden och kampanjarbetsflöden](assets/workflow-list.png){zoomable="yes"}
 
 Varje arbetsflöde i listan visar information om dess aktuella [status](#status), den senaste gången det kördes eller ändrades samt nästa schemalagda körningsdatum och -tid.
 
-Du kan anpassa de kolumner som visas genom att klicka på ikonen **[!UICONTROL Configure column for a custom layout]** i det övre högra hörnet av listan. På så sätt kan du lägga till ytterligare information i listan, t.ex. den senaste felaktiviteten för varje arbetsflöde eller den använda måldimensionen.
+Anpassa de kolumner som visas genom att klicka på ikonen **[!UICONTROL Configure column for a custom layout]** i det övre högra hörnet av listan. På så sätt kan du lägga till ytterligare information i listan, till exempel den senaste felaktiviteten för varje arbetsflöde eller den använda måldimensionen.
 
-Dessutom finns det ett sökfält och filter som gör det enklare att söka i listan. Du kan till exempel filtrera arbetsflödena så att de bara visar dem som tillhör en kampanj, eller de som bearbetas under ett visst datumintervall.
+Dessutom finns det ett sökfält och filter som förenklar sökningen i listan. Du kan t.ex. filtrera arbetsflöden så att endast de som tillhör en kampanj eller de som bearbetas under ett visst datumintervall visas.
 
 Om du vill duplicera eller ta bort ett arbetsflöde klickar du på ellipsknappen och väljer sedan **[!UICONTROL Duplicate]** eller **[!UICONTROL Delete]**.
 
@@ -51,4 +51,4 @@ Fliken **[!UICONTROL Templates]** visar alla tillgängliga arbetsflödesmallar.
 
 Arbetsflödesmallar innehåller förkonfigurerade aktiviteter och övergripande egenskapskonfigurationer som kan återanvändas för att skapa nya arbetsflöden.
 
-Du kan skapa arbetsflödesmallar från ett befintligt arbetsflöde eller från början. [Lär dig skapa arbetsflödesmallar](create-workflow.md#workflow-templates)
+Skapa arbetsflödesmallar från ett befintligt arbetsflöde eller från grunden. [Lär dig skapa arbetsflödesmallar](create-workflow.md#workflow-templates)

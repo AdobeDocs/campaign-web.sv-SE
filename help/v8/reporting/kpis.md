@@ -2,9 +2,9 @@
 title: Viktiga prestandaindikatorer
 description: Lär dig hur du förstår viktiga prestandaindikatorer
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 >title="Spam"
 >abstract="Skräppost-KPI"
 
-Bläddra till startsidan för att kontrollera viktiga prestandaindikatorer för din plattform. Indikatorerna visar antalet meddelanden som levereras, öppnas, klickas, tas bort från prenumerationen och antalet fel.
+Bläddra till startsidan för att kontrollera viktiga prestandaindikatorer för din plattform. Dessa indikatorer visar antalet meddelanden som levereras, öppnas, klickas, prenumerationen avbryts och antalet fel anges.
 
-Mätvärden beräknas som standard för leveranser som skickats under de senaste 7 dagarna. Du kan ändra perioden från listrutan i kortets övre högra del. Meddelanden som skickas till testprofiler exkluderas.
+Mätvärden beräknas som standard för leveranser som skickas under de senaste sju dagarna. Du kan ändra perioden från listrutan i kortets övre högra del. Meddelanden som skickas till testprofiler exkluderas.
 
 Du kan välja vilken kanal som ska visas. Som standard återspeglar dessa indikatorer mätvärden för e-postkanalen.
 
-![](assets/kpi.png){zoomable="yes"}
+![Skärmbild som visar KPI-kortet med mått för e-postkanalen.](assets/kpi.png){zoomable="yes"}
 
 ## Meddelandet har levererats {#ui-delivered-kpi}
 
@@ -48,45 +48,41 @@ Indikatorn **Levererad** visar följande KPI:er för varje kanal:
 
 I Adobe Campaign är regeln för att markera ett meddelande som&quot;Levererat&quot;:
 
-Antal meddelanden för vilka fältet &quot;dirigeringsadress&quot; är lika med &quot;Nej&quot; och med statusen &quot;Som tagits med i beräkningen av tjänsteleverantören&quot; (för SMS) eller &quot;Skickat&quot; (för e-post) eller &quot;Mottaget på mobilen&quot; (för push-meddelanden).
-
+Antal meddelanden för vilka fältet &quot;dirigeringsadress&quot; är lika med &quot;Nej&quot; och med statusen &quot;Som tagits med i beräkningen av tjänsteleverantören&quot; (för SMS), &quot;Skickat&quot; (för e-post) eller &quot;Mottaget på mobilen&quot; (för push-meddelanden).
 
 ## Totalt antal öppningar {#ui-open-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Öppnar"
->abstract="Det här måttet visar, för den valda kanalen, summan av alla meddelanden som öppnats och hur många meddelanden som öppnats i procent jämfört med det totala antalet meddelanden som levererats med framgång."
+>abstract="Det här måttet visar, för den valda kanalen, summan av alla öppnade meddelanden och hur många meddelanden som öppnats i procent jämfört med det totala antalet meddelanden som levererats med framgång."
 
-Totalt antal öppningar beräknas genom att spåra det totala antalet gånger ett meddelande öppnas, oavsett hur många enskilda mottagare som öppnas av. Den här indikatorn är bara tillgänglig för e-post.
+Totalt antal öppningar beräknas genom att spåra det totala antalet gånger ett meddelande öppnas, oavsett hur många enskilda mottagare som genererar dessa öppningar. Den här indikatorn är bara tillgänglig för e-post.
 
 Indikatorn **Öppnar** visar följande KPI:er för varje kanal:
 
-* Procentandel av antalet meddelanden som öppnats jämfört med det totala antalet meddelanden som levererats med lyckat resultat.
+* Procentandel av antalet meddelanden som öppnats jämfört med det totala antalet meddelanden som levererats utan fel.
 
 * Summan av alla öppnade meddelanden, per kanal.
 
-Adobe Campaign identifierar att ett meddelande öppnas när mottagaren hämtar bilderna i e-postmeddelandet. HTML och Multipart/Alternative emails innehåller en bild på 0 pixlar som gör att du kan identifiera meddelanden som har öppnats. Eftersom meddelanden i textformat inte innehåller några bilder går det inte att se om de har öppnats eller inte. Värden som beräknas baserat på det meddelande som öppnas är alltid uppskattningar på grund av den felmarginal som är länkad till bildvisningen.
-
-
+Adobe Campaign identifierar att ett meddelande öppnas när mottagaren hämtar bilderna i e-postmeddelandet. HTML och Multipart/Alternative emails innehåller en bild på 0 pixlar som gör att du kan identifiera meddelanden som har öppnats. Eftersom meddelanden i textformat inte innehåller några bilder går det inte att identifiera om de har öppnats. Värden som beräknas baserat på det meddelande som öppnas är alltid uppskattningar på grund av den felmarginal som är länkad till bildvisningen.
 
 ## Genomklickningsfrekvens {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Klickningar"
->abstract="Det här måttet visar, för den valda kanalen, summan av alla URL-adresser som klickats i meddelanden och procentandelen klickningar jämfört med det totala antalet meddelanden som levererats utan fel."
+>abstract="Det här måttet visar, för den valda kanalen, summan av alla URL:er som klickats i meddelanden och procentandelen klickningar jämfört med det totala antalet meddelanden som levererats utan fel."
 
-Du kan lägga till URL:er i meddelandeinnehållet, som dirigerar om mottagarna till en viss sida. Klickfrekvensen mäter antalet och procentandelen mottagare som klickade på en länk i meddelandet.
+Lägg till URL:er i meddelandeinnehållet för att dirigera om mottagarna till en viss sida. Klickfrekvensen mäter antalet och procentandelen mottagare som klickade på en länk i meddelandet.
 
 Indikatorn **Click** visar följande KPI:er för varje kanal:
 
 * Procentandel av antalet klick jämfört med det totala antalet meddelanden som levererats med framgång.
 
-* Antal distinkta personer som klickat minst en gång i en leverans. Länkar som inte längre används och länkar till e-postspegelsidan tas inte med.
+* Antal distinkta personer som klickat minst en gång i en leverans. Länkar och länkar till e-postspegelsidan tas inte med.
 
-Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats`). Den här aggregerade tabellen används av prestandaskäl när rapporter visas, i stället för loggtabellen för mottagarspårning (`nms:trackingLogRcp`), och den beräknas inte i realtid. Tabellen genereras några minuter efter att spårningsloggarna har hämtats.
-
+Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats`). Den här aggregerade tabellen används av prestandaskäl när rapporter visas, i stället för loggtabellen för mottagarspårning (`nms:trackingLogRcp`). Den beräknas inte i realtid. Tabellen genereras några minuter efter att spårningsloggarna har hämtats.
 
 ## Prenumerationstaxor {#ui-sub-kpi}
 
@@ -95,11 +91,11 @@ Dessa mått baseras på den konsoliderade spårningstabellen (`nms:trackingStats
 >title="Prenumerationer"
 >abstract="I det här måttet visas, för den valda kanalen, summan av alla prenumerationer på en tjänst och procentandelen prenumerationer jämfört med det totala antalet meddelanden som levererats med framgång."
 
+Mottagarna kan välja att använda e-post och SMS.
 
-Mottagarna kan anmäla sig till e-post och SMS-kommunikation.
+Indikatorn **Prenumerationer** visar följande KPI:er för varje kanal:
 
-Indikatorn **Prenumerationer** visar följande nyckeltal, för varje kanal, som procentandelen av antalet prenumerationer jämfört med det totala antalet meddelanden som levererats med framgång.
-
+* Procentandel av antalet prenumerationer jämfört med det totala antalet meddelanden som levererats med framgång.
 
 >[!NOTE]
 >
@@ -112,15 +108,13 @@ Indikatorn **Prenumerationer** visar följande nyckeltal, för varje kanal, som 
 >title="Avprenumerationer"
 >abstract="I det här måttet visas, för den valda kanalen, summan av alla avbeställningar från en tjänst och procentandelen avbeställningar jämfört med det totala antalet meddelanden som levererats med framgång."
 
-
 Mottagarna måste kunna avanmäla sig från e-post och SMS via en dedikerad avprenumerationslänk i e-postinnehållet eller genom att svara STOP på ett SMS.
 
 Indikatorn **Avbeställning** visar följande KPI:er för varje kanal:
 
 * Procentandel av antalet avbrutna prenumerationer jämfört med det totala antalet meddelanden som levererats utan framgång.
 
-* Summan av alla klick på en länk för att avbryta prenumerationen, dvs. där en URL-kategori är lika med &quot;Avanmäl dig&quot;.
-
+* Summan av alla klickningar på en länk för att avbryta prenumerationen, vilket innebär att URL-kategorin är lika med&quot;Avanmäl dig&quot;.
 
 >[!NOTE]
 >
@@ -133,9 +127,9 @@ Indikatorn **Avbeställning** visar följande KPI:er för varje kanal:
 >title="Fel"
 >abstract="Totalt antal fel som ackumulerats under leveranser och automatisk avhoppsbearbetning. Den associerade frekvensen är förhållandet till antalet meddelanden som ska levereras."
 
-Vissa meddelanden som skickas från din Adobe Campaign-plattform når kanske inte sina mål. Det kan hända när användaradressen eller telefonen har stavfel, om mottagaren har ändrat e-postadressen eller om postlådan är full. Om ett meddelande inte kan skickas till en profil skickar fjärrservern automatiskt ett felmeddelande till Adobe Campaign. Det här felet är kvalificerat för att avgöra om e-postadressen, telefonnumret eller enheten ska sättas i karantän.
+Vissa meddelanden som skickas från din Adobe Campaign-plattform når kanske inte sina mål. Det kan hända när användaradressen eller telefonen har stavfel, om mottagaren har ändrat sin e-postadress eller om postlådan är full. Om ett meddelande inte kan skickas till en profil skickar fjärrservern automatiskt ett felmeddelande till Adobe Campaign. Det här felet är kvalificerat för att avgöra om e-postadressen, telefonnumret eller enheten ska sättas i karantän.
 
-Därför bör du alltid kontrollera och uppdatera databasen och se till att alla profiler är aktiva och riktiga. Leveransfel kan vara tillfälliga eller permanenta - mjuka eller hårda studsar - beroende på varför meddelandet inte levererades.
+Kontrollera och uppdatera databasen regelbundet och se till att alla profiler är aktiva och riktiga. Leveransfel kan vara tillfälliga eller permanenta - mjuka eller hårda studsar - beroende på varför meddelandet inte levererades.
 
 Indikatorn **Fel** visar följande KPI:er för varje kanal:
 
@@ -150,15 +144,14 @@ Indikatorn **Fel** visar följande KPI:er för varje kanal:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Skickat"
->abstract="Detta mätresultat visar, för direktpostkanalen, summan av alla skickade meddelanden och procentandelen av meddelanden som skickats till leverantören, jämfört med det totala antalet meddelanden som förberetts under leveransförberedelsefasen."
+>abstract="Detta mätresultat visar, för direktpostkanalen, summan av alla skickade meddelanden och procentandelen meddelanden som skickats till leverantören, jämfört med det totala antalet meddelanden som förberetts under leveransförberedelsefasen."
 
-Under beredningsfasen genereras extraheringsfilen för direktreklam, men information om mottagare (dvs. leveransloggar) uppdateras inte.  Status för en leverans flyttad från väntande leverans till Skickat när Campaign-användaren bekräftar att leveransen har skickats. Därefter anges leveransen till Slutförd.
+Under beredningsfasen genereras extraheringsfilen för direktreklam, men informationen om mottagare (leveransloggar) uppdateras inte. Status för en leverans ändras från Väntande leverans till Skickat när Campaign-användaren bekräftar att leveransen har skickats. Därefter anges leveransen till Slutförd.
 
 Det kan aldrig vara 100 % av de meddelanden som skickas jämfört med det totala antalet meddelanden som skickas, eftersom vissa adresser kan saknas eller vara ofullständiga.
 
-Indikatorn **Skickat** visar följande KPI:er för direktpostkanalen:
+Indikatorn **Skickat** visar följande nyckeltal för direktpostkanalen:
 
 * Procentandel av antalet skickade meddelanden jämfört med det totala antalet förberedda meddelanden.
 
 * Summan av alla skickade meddelanden.
-

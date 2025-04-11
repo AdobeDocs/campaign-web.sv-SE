@@ -3,9 +3,9 @@ audience: end-user
 title: Använd extern signalaktivitet
 description: Lär dig hur du använder arbetsflödesaktiviteten för externa signaturer
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 >title="Slututlösare"
 >abstract="Slututlösare"
 
-Aktiviteten **Extern signal** är en **Flödeskontroll**-aktivitet. Det gör att du kan utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller från ett API-anrop.
+Aktiviteten **Extern signal** är en **Flödeskontroll**-aktivitet. Det gör att du kan utlösa körningen av ett arbetsflöde från ett annat arbetsflöde eller ett API-anrop.
 
 >[!NOTE]
 >
->Den här sidan innehåller de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbgränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde och dess bästa metoder samt hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>På den här sidan förklaras de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbanvändargränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde, bästa praxis och hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utlösa dess körning:
 
@@ -41,15 +41,15 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
 1. Slutför konfigurationen av arbetsflödet och starta körningen. Aktiviteten **[!UICONTROL External Signal]** visas som Väntande, väntar på att utlösas.
 
-   ![](../assets/external-signal-pending.png)
+   ![Skärmbilden visar aktiviteten Extern signal i ett väntande tillstånd.](../assets/external-signal-pending.png)
 
-1. Hämta informationen nedan:
+1. Hämta följande information:
 
    * **Arbetsflödets interna namn**, som visas bredvid dess etikett.
 
      +++Exempel på vy
 
-     ![](../assets/external-signal-workflow-name.png)
+     ![Skärmbilden visar arbetsflödets interna namn bredvid etiketten.](../assets/external-signal-workflow-name.png)
 
 +++
 
@@ -57,11 +57,11 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
      +++Exempel på vy
 
-     ![](../assets/external-signal-name.png)
+     ![Skärmbilden visar namnet på aktiviteten Extern signal i körningsalternativen.](../assets/external-signal-name.png)
 
 +++
 
-1. Om du vill utlösa arbetsflödet måste du köra JavaScript-funktionen `PostEvent`. Med den här funktionen kan du skicka variabler med valfria värden och använda dem i det utlösta arbetsflödet.
+1. Kör JavaScript-funktionen `PostEvent` om du vill utlösa arbetsflödet. Med den här funktionen kan du skicka variabler med valfria värden och använda dem i det utlösta arbetsflödet.
 
    Funktionen `PostEvent` kan köras antingen från ett annat arbetsflöde eller från ett API-anrop.
 
@@ -75,10 +75,10 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    +++Exempel på vy
 
-   I det här exemplet utlöser vi den externa signalaktiviteten &quot;signal1&quot; som har lagts till i arbetsflödet vars interna namn är &quot;WKF12345&quot;. Vi skickar också en variabel som heter &quot;customID&quot;, med värdet &quot;123456&quot;.
+   I det här exemplet utlöses den externa signalaktiviteten &quot;signal1&quot;. Den har lagts till i arbetsflödet med det interna namnet&quot;WKF12345&quot;. En variabel med namnet &quot;customID&quot; skickas med värdet &quot;123456&quot;.
 
-   ![](../assets/external-signal-sample.png)
+   ![Skärmbilden visar ett exempel på hur aktiviteten Extern signal aktiveras med funktionen PostEvent.](../assets/external-signal-sample.png)
 
 +++
 
-   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig använda den statiska `PostEvent`-metoden ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).

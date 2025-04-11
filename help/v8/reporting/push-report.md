@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,14 @@ Rapporten **Push-leverans** ger en grundlig översikt över push-kanalen, med om
 
 Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med dina push-meddelanden.
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![Den här skärmbilden visar översiktsrapporten Leverans, som innehåller nyckeltal om besökares engagemang med push-meddelanden.](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
 * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
-
 * **[!UICONTROL Delivered]**: Antal meddelanden som har skickats, i relation till det totala antalet skickade meddelanden.
-
 * **[!UICONTROL Clicks]**: Totalt antal mottagare som interagerat med push-meddelandet.
-
-* **[!UICONTROL Errors]**: Totalt antal fel som uppstod under en leverans och som förhindrar att den skickas till profiler.
+* **[!UICONTROL Errors]**: Totalt antal fel som uppstod under en leverans, vilket förhindrar att den skickas till profiler.
 
 +++
 
@@ -53,12 +50,11 @@ Rapporten **[!UICONTROL Delivery overview]** innehåller nyckeltal (KPI:er) som 
 
 Diagrammet **Målpopulation** visar data i förhållande till målgruppen: meddelanden som ska levereras och undantag. Mätvärdena anges nedan.
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![Den här skärmbilden visar målpopulationsdiagrammet och måltabellen, som visar data om meddelanden som ska levereras och undantag.](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
 * **[!UICONTROL To deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
-
 * **[!UICONTROL Exclusions]**: Antal profiler som har uteslutits från analysen.
 
 +++
@@ -72,14 +68,12 @@ Diagrammet **Målpopulation** visar data i förhållande till målgruppen: medde
 
 Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade, felaktiga och karantän. Mätvärdena anges nedan.
 
-![](assets/reporting_push_5.png){zoomable="yes"}
+![I den här skärmbilden visas rapporten för övergripande statistik som visar data om lyckade åtgärder, fel och karantän för skickade push-meddelanden.](assets/reporting_push_5.png){zoomable="yes"}
 
 +++Läs mer om mätvärden för push-leveransrapporter.
 
 * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats.
-
 * **[!UICONTROL Errors]**: Totalt antal fel som uppstod under leveransen, vilket förhindrar att meddelanden skickas till vissa profiler.
-
 * **[!UICONTROL New quarantine]**: Antal profiler som har uteslutits och lagts till i karantänen.
 
 +++
@@ -93,8 +87,7 @@ Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade
 
 Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
-
-![](assets/reporting_push_6.png){zoomable="yes"}
+![Den här skärmbilden visar diagrammet och tabellen Exceptions, som visar orsaker som förhindrar att exkluderade användarprofiler tar emot meddelanden.](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -105,4 +98,4 @@ Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hind
 
 Rapporten **Leveransflöde** innehåller detaljerad information om hela plattformens leveransflöde inom en angiven tidsram. Det primära måttet som används för att mäta hastigheten för meddelandeleverans är antalet meddelanden som skickas per timme.
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![På den här skärmbilden visas leveransdataflödesrapporten, som innehåller information om plattformens leveranshastighet för meddelanden inom en angiven tidsram.](assets/reporting_push_2.png){zoomable="yes"}

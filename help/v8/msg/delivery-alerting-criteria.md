@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 >title="Kontrollpanel för leveransaviseringskriterier"
 >abstract="Campaign Web User Interface innehåller fördefinierade varningsvillkor (leveranser med låg genomströmning, leveranser vars förberedelse misslyckades ...) som du kan lägga till på din instrumentpanel. Du kan också skapa egna kriterier som passar dina behov."
 
-Campaign Web User Interface innehåller fördefinierade varningsvillkor (leveranser med låg genomströmning, leveranser vars förberedelse misslyckades ...) som du kan lägga till på din instrumentpanel. Du kan också skapa egna kriterier som passar dina behov.
+Campaign Web User Interface innehåller fördefinierade varningsvillkor, som leveranser med låg genomströmning eller leveranser vars förberedelse misslyckades, som du kan lägga till på instrumentpanelen. Du kan också skapa egna kriterier som passar dina behov.
 
 Varningsvillkoren är tillgängliga på menyn **Leveransvarning** i den vänstra navigeringsrutan, på fliken **Villkor**.
 
-![](assets/alerting-criteria-list.png)
+![Lista med varningsvillkor som visas på menyn Leveransvarning](assets/alerting-criteria-list.png)
 
 ## Fördefinierade aviseringskriterier {#ootb-criteria}
 
@@ -29,11 +29,11 @@ Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface.
 
 * **Leveranser misslyckades**: Alla leveranser som har schemalagts inom ett definierat intervall, med en felaktig status.
 * **Leveranser med förberedelse misslyckades**: Alla leveranser som har ändrats inom ett definierat intervall, för vilka förberedelsesteget (målberäkning och innehållsgenerering) har misslyckats.
-* **Leverans med felaktig felkvot för mjuka studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår minst, med ett felförhållande för mjuka studsar som är större än en definierad procentandel.
-* **Leverans med felaktig felkvot för hårda studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår minst, med ett felförhållande för hårda studsar som är större än en definierad procentandel.
-* **Leveranser med lång inledande väntande**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Påbörja väntande längre än en definierad varaktighet, startar väntande status, vilket innebär att meddelanden inte har beaktats av systemet än.
-* **Leveranser med lågt dataflöde**: Alla leveranser påbörjades under längre tid än en definierad varaktighet, med mindre än en definierad procentandel av bearbetade meddelanden, med ett dataflöde som är lägre än ett definierat värde.
-* **Pågående leveranser**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen Pågår.
+* **Leverans med felaktig felkvot för mjuka studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen &quot;Pågår&quot; och ett felförhållande för mjuka studsar som är större än en definierad procentandel.
+* **Leverans med felaktig felkvot för hårda studsar**: Alla leveranser som är schemalagda inom ett definierat intervall, med statusen &quot;Pågår&quot; och ett felförhållande för hårda studsar som är större än en definierad procentandel.
+* **Leveranser med lång inledande väntande**: Alla leveranser som har schemalagts inom ett definierat intervall, med statusen Påbörja väntande längre än en definierad varaktighet. Status &quot;Starta väntande&quot; innebär att meddelanden ännu inte har beaktats av systemet.
+* **Leveranser med lågt dataflöde**: Alla leveranser har startat för längre tid än en definierad varaktighet, med mindre än en definierad procentandel av bearbetade meddelanden och ett dataflöde som är lägre än ett definierat värde.
+* **Pågående leveranser**: Alla leveranser som är schemalagda inom ett definierat intervall med statusen Pågår.
 
 >[!NOTE]
 >
@@ -68,18 +68,18 @@ Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface.
 
 Så här skapar du ett nytt villkor:
 
-1. Navigera till menyn **Leveransvillkor** i den vänstra navigeringsrutan och välj fliken **Villkor** .
+1. Navigera till menyn **Leveransvarning** i den vänstra navigeringsrutan och välj fliken **Villkor** .
 1. Klicka på knappen **Skapa leveransvillkor**.
 1. Ange en etikett för kriteriet. Det interna namnet fylls i automatiskt och är skrivskyddat.
-1. Med **leveransfiltret som används av det här villkoret** kan du förfina villkorets omfång genom att använda ett fördefinierat filter på det.
+1. Använd **Leveransfiltret som används av det här villkoret** för att förfina villkorets omfång genom att använda ett fördefinierat filter på det.
 
    I exemplet nedan har filtret **Leveranser som bearbetas (critInProgressDeliflows)** valts, vilket innebär att villkoret endast tar hänsyn till leveranser med statusen &quot;Pågår&quot;.
 
-   ![](assets/alerting-criteria-properties.png)
+   ![Exempel på egenskaper för varningsvillkor med det valda filtret](assets/alerting-criteria-properties.png)
 
    >[!NOTE]
    >
-   >Om inget av de fördefinierade filtren passar dina behov kan du kontakta administratören för att skapa ett eget filter.  Detaljerad information om hur du skapar fördefinierade filter i Campaign-konsolen finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}
+   >Om inget av de fördefinierade filtren passar dina behov kontaktar du administratören för att skapa ett eget filter. Detaljerad information om hur du skapar fördefinierade filter i Campaign-konsolen finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
    >
    >Den här åtgärden får endast utföras av avancerade användare.
 
@@ -87,7 +87,7 @@ Så här skapar du ett nytt villkor:
 
 1. Ange **aviseringstypen** för villkoret, vilket innebär etiketten och färgen som ska visas bredvid leveransvillkoret i avsnittet Sammanfattning i aviseringarna.
 
-1. I avsnittet **Villkorsfrekvens** kan du styra hur ofta varningar per dag ska visas för varje leverans som uppfyller villkoret:
+1. Använd avsnittet **Villkorsfrekvens** om du vill kontrollera frekvensen för aviseringar per dag för varje leverans som uppfyller villkoret:
 
    * **Det här leveransvillkoret upprepas i alla meddelanden**: Visa en leverans som uppfyller villkoret i varje e-postavisering på dagen.
-   * **Det här leveransvillkoret skickas endast första gången dagen**: Visa en leverans som uppfyller villkoret i den första rapporten på dagen, inte upprepat i efterföljande e-postaviseringar.
+   * **Det här leveransvillkoret skickas endast den första förekomsten av dagen**: Visa en leverans som uppfyller villkoret i den första rapporten på dagen, utan att upprepa det i efterföljande e-postaviseringar.
