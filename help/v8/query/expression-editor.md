@@ -3,16 +3,17 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2090'
-ht-degree: 52%
+source-wordcount: '2098'
+ht-degree: 28%
 
 ---
 
+
 # Redigera uttryck {#expression}
 
-När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner som gör att du kan ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering osv.
+När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner, vilket gör att du kan ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält och sortering.
 
 >[!IMPORTANT]
 >
@@ -23,24 +24,24 @@ När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en 
 Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit expression]**, som är tillgänglig för fälten **[!UICONTROL Attribute]** och **[!UICONTROL Value]** när ett anpassat villkor konfigureras.
 
 | Åtkomst från fältet **Attribut** | Åtkomst från fältet **Värde** |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![Uttrycksredigerare för attributfält](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Uttrycksredigeraren för värdefältet](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 Uttrycksredigeraren innehåller:
 
 * Ett **indatafält (1)** där uttrycket är definierat.
-* Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar frågemålets dimension.
+* En lista över tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar frågemålets dimension.
 * **Hjälpfunktioner (3)**, sorterade efter kategori.
 
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
-![](assets/expression-editor.png){zoomable="yes"}
+![Gränssnitt för uttrycksredigeraren](assets/expression-editor.png){zoomable="yes"}
 
 När uttrycket är klart klickar du på knappen **[!UICONTROL Confirm]**. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
 
-I exemplet nedan visas ett uttryck som har konfigurerats för fältet **[!UICONTROL Value]**. Om du vill redigera den måste du öppna uttrycksredigeraren med knappen **[!UICONTROL Edit expression]**.
+I exemplet nedan visas ett uttryck som har konfigurerats för fältet **[!UICONTROL Value]**. Om du vill redigera den öppnar du uttrycksredigeraren med knappen **[!UICONTROL Edit expression]**.
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![Exempel på redigeringsuttryck för värdefält](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Hjälpfunktioner
 
@@ -48,330 +49,326 @@ Med frågeredigeringsverktyget kan du använda avancerade funktioner för att ut
 
 ### Sammanställd
 
-Sammanställningsfunktionerna används för att utföra beräkningar på en uppsättning värden.
+Sammanställningsfunktioner utför beräkningar på en uppsättning värden.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Namn</strong><br /> </td> 
-   <td> <strong>Beskrivning</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Medel</strong><br /> </td> 
-   <td> Returnerar medelvärdet för en taltypskolumn <br /> </td> 
-   <td> Avg(&lt;värde&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Antal</strong><br /> </td> 
-   <td> Räknar värden som inte är null i en kolumn <br /> </td> 
-   <td> Count(&lt;värde&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> Räknar returnerade värden (alla fält)<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Motskild</strong><br /> </td> 
-   <td> Räknar distinkta icke-null-värden för en kolumn <br /> </td> 
-   <td> Countdistans(&lt;värde&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> Returnerar det maximala värdet för en tal-, sträng- eller datumtypskolumn <br /> </td> 
-   <td> Max(&lt;värde&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Min</strong><br /> </td> 
-   <td> Returnerar det minsta värdet för en tal-, sträng- eller datumtypskolumn <br /> </td> 
-   <td> Min(&lt;värde&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> Returnerar standardavvikelsen för ett tal, en sträng eller en datumkolumn <br /> </td> 
-   <td> StdDev(&lt;värde&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet <br /> </td> 
-   <td> StringAgg(&lt;Värde&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Summa</strong><br /> </td> 
-   <td> Returnerar summan av värdena för en tal-, sträng- eller datumtypskolumn <br /> </td> 
-   <td> Sum(&lt;värde&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Namn</strong></td>
+<td><strong>Beskrivning</strong></td>
+<td><strong>Syntax</strong></td>
+</tr>
+<tr>
+<td><strong>Genomsnittlig</strong></td>
+<td>Returnerar medelvärdet för en taltypskolumn</td>
+<td>Avg(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>Antal</strong></td>
+<td>Räknar värden som inte är null i en kolumn</td>
+<td>Count(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>Räknar returnerade värden (alla fält)</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Motdistinkt</strong></td>
+<td>Räknar de distinkta icke-null-värdena för en kolumn</td>
+<td>Countdistans(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>Max</strong></td>
+<td>Returnerar det maximala värdet för en kolumn av typen tal, sträng eller datum</td>
+<td>Max(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>Min</strong></td>
+<td>Returnerar det minsta värdet för en kolumn av typen tal, sträng eller datum</td>
+<td>Min(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>Returnerar standardavvikelsen för ett tal, en sträng eller en datumkolumn</td>
+<td>StdDev(&lt;värde&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringAgg</strong></td>
+<td>Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet</td>
+<td>StringAgg(&lt;Värde&gt;, &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>Summa</strong></td>
+<td>Returnerar summan av värdena för en kolumn av typen tal, sträng eller datum</td>
+<td>Sum(&lt;värde&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### Datum
 
-Datumfunktionerna används för att ändra datum- och tidsvärden.
+Datumfunktioner hanterar datum- och tidsvärden.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Namn</strong><br /> </td> 
-   <td> <strong>Beskrivning</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> Lägger till ett antal dagar till ett datum<br /> </td> 
-   <td> AddDays(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> Lägger till ett antal timmar till ett datum<br /> </td> 
-   <td> AddHours(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Lägger till ett antal minuter till ett datum<br /> </td> 
-   <td> AddMinutes(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Lägger till ett antal månader till ett datum<br /> </td> 
-   <td> AddMonths(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Lägger till ett antal sekunder till ett datum<br /> </td> 
-   <td> AddSeconds(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> Lägger till ett antal år till ett datum<br /> </td> 
-   <td> AddYears(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) som använder den definierade sessionen TZ<br/> </td> 
-   <td> ConvertNTZ (&lt;datum+tid&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Jämför två datum <br/> </td> 
-   <td> DateCmp(&lt;datum&gt;,&lt;datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Returnerar endast datumet (med tiden 00:00)*<br /> </td> 
-   <td> DateOnly(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> Returnerar talet som representerar dagen på datumet<br /> </td> 
-   <td> Day(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Returnerar antalet dagar i året för datumet <br /> </td> 
-   <td> DayOfYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Returnerar det datum som motsvarar aktuellt datum minus n dagar <br /> </td> 
-   <td> DaysAgo(&lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Returnerar det datum (heltal åååmmdd) som motsvarar det aktuella datumet minus n dagar <br /> </td> 
-   <td> DaysAgoInt(&lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Antal dagar mellan två datum<br /> </td> 
-   <td> DaysDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Returnerar åldern i dagar för ett datum<br /> </td> 
-   <td> DaysOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> Returnerar serverns aktuella systemdatum<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Returnerar timmen för datumet<br /> </td> 
-   <td> Hour(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Returnerar antalet timmar mellan två datum<br /> </td> 
-   <td> HoursDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> Returnerar minuterna av datumet<br /> </td> 
-   <td> Minute(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Returnerar antalet minuter mellan två datum<br /> </td> 
-   <td> MinutesDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> Returnerar talet som representerar månaden för datumet<br /> </td> 
-   <td> Month(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Returnerar det datum som motsvarar aktuellt datum minus n månader<br /> </td> 
-   <td> MonthsAgo(&lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Returnerar antalet månader mellan två datum<br /> </td> 
-   <td> MonthsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Returnerar åldern i månader för ett datum<br /> </td> 
-   <td> MonthsOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> Returnerar det äldsta datumet i ett intervall <br /> </td> 
-   <td> Äldst (&lt;datum, datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> Returnerar sekunder för datumet<br /> </td> 
-   <td> Second(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Returnerar antalet sekunder mellan två datum<br /> </td> 
-   <td> SecondsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> Subtraherar ett antal dagar från ett datum<br /> </td> 
-   <td> SubDays(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> Subtraherar ett antal timmar från ett datum<br /> </td> 
-   <td> SubHours(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Subtraherar ett antal minuter från ett datum<br /> </td> 
-   <td> SubMinutes(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Subtraherar ett antal månader från ett datum<br /> </td> 
-   <td> SubMonths(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Subtraherar ett antal sekunder från ett datum<br /> </td> 
-   <td> SubSeconds(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> Subtraherar ett antal år från ett datum<br /> </td> 
-   <td> SubYears(&lt;datum&gt;, &lt;tal&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> Konverterar ett datum + tid som ett datum<br /> </td> 
-   <td> ToDate(&lt;datum + tid&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Konverterar en sträng till ett datum + tid<br /> </td> 
-   <td> ToDateTime(&lt;sträng&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Konverterar en sträng till en tidsstämpel <br /> </td> 
-   <td> ToTimestamp(&lt;sträng&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Konvertera ett datum + tid till tidszonen <br /> </td> 
-   <td> ToTimeZone(&lt;datum&gt;,&lt;tidszon&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Avrundar ett datum + tid till närmaste sekund<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;antal sekunder&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Avrundar ett datum + tid till en viss precision, uttryckt i sekunder<br /> </td> 
-   <td> TruncDateTZ(&lt;datum&gt;, &lt;antal sekunder&gt;, &lt;tidszon&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Avrundar ett datum till kvartal<br /> </td> 
-   <td> TruncQuarter(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Avrundar tidsdelen upp till närmaste sekund<br /> </td> 
-   <td> TruncTim(e&lt;datum&gt;, &lt;antal sekunder&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Avrundar ett datum till veckan<br /> </td> 
-   <td> TruncWeek(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Avrundar ett datum + tid till 1 januari under året<br /> </td> 
-   <td> TruncYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Returnerar ett tal som representerar dagen i veckan på datumet (0=måndag, 6=söndag)<br /> </td> 
-   <td> WeekDay(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> Returnerar talet som representerar datumåret<br /> </td> 
-   <td> Year(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> Returnerar talet som representerar året och månaden på datumet<br /> </td> 
-   <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ÅRago</strong><br /> </td> 
-   <td> Returnerar antalet år mellan ett givet datum och det aktuella datumet <br /> </td> 
-   <td> YearsAgo(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> Returnerar antalet år mellan de två datumen<br /> </td> 
-   <td> YearsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Returnerar åldern i år för ett datum<br /> </td> 
-   <td> YearsOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Namn</strong></td>
+<td><strong>Beskrivning</strong></td>
+<td><strong>Syntax</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>Lägger till ett antal dagar till ett datum</td>
+<td>AddDays(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>Lägger till ett antal timmar till ett datum</td>
+<td>AddHours(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>Lägger till ett antal minuter till ett datum</td>
+<td>AddMinutes(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>Lägger till ett antal månader till ett datum</td>
+<td>AddMonths(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>Lägger till ett antal sekunder till ett datum</td>
+<td>AddSeconds(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>Lägger till ett antal år till ett datum</td>
+<td>AddYears(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) med definierad session-TZ</td>
+<td>ConvertNTZ(&lt;datum+tid&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>Jämför två datum</td>
+<td>DateCmp(&lt;datum&gt;, &lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>Returnerar endast datumet (med tiden 00:00)</td>
+<td>DateOnly(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Dag</strong></td>
+<td>Returnerar talet som representerar dagen på datumet</td>
+<td>Day(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DagPåÅr</strong></td>
+<td>Returnerar numret på dagen i datumåret</td>
+<td>DayOfYear(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DagarFör</strong></td>
+<td>Returnerar det datum som motsvarar aktuellt datum minus n dagar</td>
+<td>DaysAgo(&lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>Returnerar det datum (heltal åååmmdd) som motsvarar det aktuella datumet minus n dagar</td>
+<td>DaysAgoInt(&lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>Returnerar antalet dagar mellan två datum</td>
+<td>DaysDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DagarGammal</strong></td>
+<td>Returnerar åldern i dagar för ett datum</td>
+<td>DaysOld(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>Returnerar serverns aktuella systemdatum</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>Timme</strong></td>
+<td>Returnerar timmen för datumet</td>
+<td>Timme(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>Returnerar antalet timmar mellan två datum</td>
+<td>HoursDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Minut</strong></td>
+<td>Returnerar minuterna av datumet</td>
+<td>Minut(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>Returnerar antalet minuter mellan två datum</td>
+<td>MinutesDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Månad</strong></td>
+<td>Returnerar talet som representerar månaden för datumet</td>
+<td>Månad(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MånaderFör</strong></td>
+<td>Returnerar det datum som motsvarar aktuellt datum minus n månader</td>
+<td>MonthsAgo(&lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>MånaderDiff</strong></td>
+<td>Returnerar antalet månader mellan två datum</td>
+<td>MonthsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MånaderGammal</strong></td>
+<td>Returnerar åldern i månader för ett datum</td>
+<td>MonthsOld(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Äldsta</strong></td>
+<td>Returnerar det äldsta datumet i ett intervall</td>
+<td>Äldst(&lt;datum, datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Andra</strong></td>
+<td>Returnerar sekunder för datumet</td>
+<td>Second(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>Returnerar antalet sekunder mellan två datum</td>
+<td>SecondsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubDays</strong></td>
+<td>Subtraherar ett antal dagar från ett datum</td>
+<td>SubDays(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubHours</strong></td>
+<td>Subtraherar ett antal timmar från ett datum</td>
+<td>SubHours(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>Subtraherar ett antal minuter från ett datum</td>
+<td>SubMinutes(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMonths</strong></td>
+<td>Subtraherar ett antal månader från ett datum</td>
+<td>SubMonths(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>Undersekunder</strong></td>
+<td>Tar bort ett antal sekunder från ett datum</td>
+<td>SubSeconds(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>Underår</strong></td>
+<td>Subtraherar ett antal år från ett datum</td>
+<td>SubYears(&lt;datum&gt;, &lt;tal&gt;)</td>
+</tr>
+<tr>
+<td><strong>TillDatum</strong></td>
+<td>Konverterar ett datum + tid som ett datum</td>
+<td>ToDate(&lt;datum + tid&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>Konverterar en sträng till ett datum + tid</td>
+<td>ToDateTime(&lt;sträng&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimestamp</strong></td>
+<td>Konverterar en sträng till en tidsstämpel</td>
+<td>ToTimestamp(&lt;sträng&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimeZone</strong></td>
+<td>Konverterar ett datum + tid till en tidszon</td>
+<td>ToTimeZone(&lt;datum&gt;, &lt;tidszon&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>Avrundar ett datum + tid till närmaste sekund</td>
+<td>TruncDate(@lastModified, &lt;antal sekunder&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>Avrundar ett datum + tid till en viss precision, uttryckt i sekunder</td>
+<td>TruncDateTZ(&lt;datum&gt;, &lt;antal sekunder&gt;, &lt;tidszon&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>Avrundar ett datum till kvartal</td>
+<td>TruncQuarter(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>Avrundar tidsdelen upp till närmaste sekund</td>
+<td>TruncTime(&lt;datum&gt;, &lt;antal sekunder&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncWeek</strong></td>
+<td>Avrundar ett datum till veckan</td>
+<td>TruncWeek(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>Avrundar ett datum + tid till 1 januari året</td>
+<td>TruncYear(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>Returnerar ett tal som representerar dagen i veckan på datumet (0=måndag, 6=söndag)</td>
+<td>WeekDay(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>År</strong></td>
+<td>Returnerar talet som representerar datumåret</td>
+<td>År(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>ÅrOchMånad</strong></td>
+<td>Returnerar talet som representerar året och månaden på datumet</td>
+<td>YearAndMonth(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>ÅrFörÅR</strong></td>
+<td>Returnerar antalet år mellan ett givet datum och det aktuella datumet</td>
+<td>YearsAgo(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>Returnerar antalet år mellan två datum</td>
+<td>YearsDiff(&lt;slutdatum&gt;, &lt;startdatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>ÅrGamla</strong></td>
+<td>Returnerar åldern i år för ett datum</td>
+<td>YearsOld(&lt;datum&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->Observera att funktionen **Dateonly** tar hänsyn till serverns tidszon, inte till operatorns.
+>Observera att funktionen **DateOnly** tar hänsyn till serverns tidszon, inte till operatorns.
+
 
 ### Geomarknadsföring
 

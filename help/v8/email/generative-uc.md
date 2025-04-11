@@ -2,9 +2,9 @@
 title: Användningsexempel för AI Assistant
 description: Lär dig använda AI Assistant med hjälp av användningsexempel
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
+>Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
 
 ## Använd befintligt innehåll
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demonstration av återanvändning av befintligt innehåll med AI Assistant](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. När du har konfigurerat leveransen väljer du **[!UICONTROL Edit content]**.
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. Utforska tillgängliga **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att se den valda varianten i helskärmsläge.
 
-När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för leverans.
+När ni har definierat ert innehåll, er målgrupp och ert schema kan ni förbereda er för leverans.
 
 ## Förfina variation
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Demonstration av hur du förfinar innehållsvariationer med AI Assistant](assets/do-not-localize/gen-ai-variation.gif)
 
 1. När leveransen har konfigurerats och konfigurerats klickar du på **[!UICONTROL Edit content]**.
 
@@ -43,7 +43,7 @@ När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo at
 
 1. Justera innehållet genom att ange önskad begäran i rutan **[!UICONTROL Prompt]** och ändra inställningarna efter behov.
 
-1. När du är klar klickar du på **[!UICONTROL Generate]**.
+1. Klicka på **[!UICONTROL Generate]** när du är klar.
 
 1. Granska den genererade **[!UICONTROL Variations]** och välj **[!UICONTROL Preview]** för att se en helskärmsvisning av det valda alternativet.
 
@@ -59,13 +59,13 @@ När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo at
 
    * **[!UICONTROL Use simpler language]**: Förenkla språket med AI-assistenten för att säkerställa att meddelandet är tydligt och tillgängligt för alla läsare.
 
-   Dessutom kan du justera **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för ditt innehåll.
+   Justera dessutom **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för ditt innehåll.
 
-1. När du har hittat rätt innehåll klickar du på **[!UICONTROL Select]**.
+1. När innehållet är klart klickar du på **[!UICONTROL Select]**.
 
 ## Generera liknande bild
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Demonstration av generering av liknande bilder med AI Assistant](assets/do-not-localize/uc-image-similar.gif)
 
 1. När du har konfigurerat leveransen väljer du **[!UICONTROL Edit content]**.
 
@@ -85,7 +85,7 @@ När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo at
 
 ## Överföra en formatreferens
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Demonstration av överföring av en formatreferens för AI-assistenten](assets/do-not-localize/uc-image-reference.gif)
 
 1. När du har konfigurerat och konfigurerat leveransen klickar du på **[!UICONTROL Edit content]**.
 

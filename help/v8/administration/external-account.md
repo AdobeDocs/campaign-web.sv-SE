@@ -2,9 +2,9 @@
 title: Hantera externt konto
 description: Lär dig konfigurera externa konton
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->* Externa konton är för närvarande bara tillgängliga för studsmeddelanden (POP3), routning och körningsinstansen. Ytterligare kontotyper kommer att läggas till i framtiden.
+>* Externa konton är för närvarande bara tillgängliga för studsmeddelanden (POP3), routning och körningsinstansen. Ytterligare kontotyper läggs till senare.
 >
 >* Externa konton som inte stöds och som skapats i Adobe Campaign-konsolen visas i webbanvändargränssnittet, men kan inte redigeras eller öppnas.
 
-Adobe Campaign levereras med en uppsättning förkonfigurerade externa konton för enkel integrering med olika system. Om du behöver ansluta till fler plattformar eller anpassa anslutningarna efter ditt arbetsflöde kan du nu enkelt skapa nya externa konton med webbanvändargränssnittet för att uppfylla dina specifika behov och säkerställa smidiga dataöverföringar.
+Adobe Campaign innehåller förkonfigurerade externa konton för enkel integrering med olika system. Om du vill ansluta till fler plattformar eller anpassa anslutningarna efter arbetsflödet skapar du nya externa konton med webbanvändargränssnittet. Detta garanterar smidiga dataöverföringar.
 
 ## Skapa ett externt konto {#create-ext-account}
 
@@ -27,7 +27,7 @@ Följ stegen nedan om du vill skapa ett nytt externt konto. Detaljerade inställ
 
 1. Klicka på **[!UICONTROL Create external account]**.
 
-   ![](assets/external_account_create_1.png)
+   ![Skärmbild som visar alternativet att skapa ett externt konto i webbanvändargränssnittet.](assets/external_account_create_1.png)
 
 1. Ange din **[!UICONTROL Label]** och välj det externa kontot **[!UICONTROL Type]**.
 
@@ -35,25 +35,25 @@ Följ stegen nedan om du vill skapa ett nytt externt konto. Detaljerade inställ
    >
    >Inställningarna för Campaign-specifika typer beskrivs i [det här avsnittet](#campaign-specific).
 
-   ![](assets/external_account_create_2.png)
+   ![Skärmbild med fält för att ange etiketten och välja extern kontotyp.](assets/external_account_create_2.png)
 
 1. Klicka på **[!UICONTROL Create]**.
 
-1. I listrutan **[!UICONTROL Additional options]** kan du ändra sökvägen **[!UICONTROL Internal name]** eller **[!UICONTROL Folder]** om det behövs.
+1. Ändra sökvägen **[!UICONTROL Internal name]** eller **[!UICONTROL Folder]** i listrutan **[!UICONTROL Additional options]** om det behövs.
 
-   ![](assets/external_account_create_3.png)
+   ![Skärmbild med ytterligare alternativ för konfiguration av internt namn och mappsökväg.](assets/external_account_create_3.png)
 
-1. Aktivera alternativet **[!UICONTROL Exported automatically in packages]** om du vill att data som hanteras av det här externa kontot automatiskt ska exporteras. <!--Exported where??-->
+1. Aktivera alternativet **[!UICONTROL Exported automatically in packages]** för att automatiskt exportera data som hanteras av det här externa kontot. <!--Exported where??-->
 
-   ![](assets/external_account_create_exported.png)
+   ![Skärmbild som visar alternativet att aktivera automatisk export i paket.](assets/external_account_create_exported.png)
 
-1. Konfigurera åtkomsten till kontot i avsnittet **[!UICONTROL Details]** genom att ange autentiseringsuppgifter beroende på vald extern kontotyp. [Läs mer](#bounce)
+1. Konfigurera åtkomst till kontot i avsnittet **[!UICONTROL Details]** genom att ange autentiseringsuppgifter baserat på den valda externa kontotypen. [Läs mer](#bounce)
 
-1. Klicka på **[!UICONTROL Test connection]** för att kontrollera att konfigurationen är korrekt.
+1. Klicka på **[!UICONTROL Test connection]** för att verifiera att konfigurationen är korrekt.
 
-1. På menyn **[!UICONTROL More...]** kan du duplicera eller ta bort ditt externa konto.
+1. Duplicera eller ta bort ditt externa konto på menyn **[!UICONTROL More...]**.
 
-   ![](assets/external_account_create_4.png)
+   ![Skärmbild som visar menyn Mer med alternativ för att duplicera eller ta bort det externa kontot.](assets/external_account_create_4.png)
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Save]**.
 
@@ -69,79 +69,68 @@ Beroende på vilken typ av externt konto du har valt följer du stegen nedan fö
 
 Det externa kontot för studsmeddelanden anger det externa POP3-kontot som används för att ansluta till e-posttjänsten. Alla servrar som konfigurerats för POP3-åtkomst kan ta emot returmeddelanden.
 
-![](assets/external_account_bounce.png)
+![Skärmbild som visar konfigurationsfälten för det externa kontot, Bounce mails (POP3).](assets/external_account_bounce.png)
 
 Om du vill konfigurera det externa kontot **[!UICONTROL Bounce mails (POP3)]** fyller du i följande fält:
 
-* **[!UICONTROL Server]** - URL för POP3-servern
+* **[!UICONTROL Server]** - URL för POP3-servern.
 
-* **[!UICONTROL Port]** - portnummer för POP3-anslutning (standardport är 110)
+* **[!UICONTROL Port]** - portnummer för POP3-anslutning (standardport är 110).
 
-* **[!UICONTROL Account]** - Användarens namn
+* **[!UICONTROL Account]** - Användarens namn.
 
-* **[!UICONTROL Password]** - Lösenord för användarkonto
+* **[!UICONTROL Password]** - Lösenord för användarkonto.
 
-* **[!UICONTROL Encryption]** - Typ av vald kryptering mellan:
+* **[!UICONTROL Encryption]** - Typ av vald kryptering, inklusive:
+   * Som standard (POP3 om port 110, POP3S om port 995).
+   * POP3 som byter till SSL efter att ha skickat STARTTLS.
+   * POP3 ej skyddad (port 110 som standard).
+   * POP3-skyddad över SSL (port 995 som standard).
 
-   * Som standard (POP3 om port 110, POP3S om port 995)
-   * POP3 som byter till SSL efter att en STARTTLS har skickats
-   * POP3 ej skyddad (port 110 som standard)
-   * POP3 skyddad över SSL (port 995 som standard)
-
-* **[!UICONTROL Function]** - Inkommande e-post, när det externa kontot är konfigurerat att ta emot inkommande e-post, eller SOAP-router, för att hantera SOAP-begäranden.
+* **[!UICONTROL Function]** - Välj **[!UICONTROL Inbound email]** om du vill konfigurera kontot för att ta emot inkommande e-post eller **[!UICONTROL SOAP router]** om du vill hantera SOAP-begäranden.
 
 ### Routning {#routing}
 
-Följ stegen nedan för att konfigurera ett specifikt externt konto som ska användas i dina externa leveranser.
+Följ stegen nedan för att konfigurera ett specifikt externt konto för externa leveranser.
 
 1. Skapa ett externt konto. [Läs mer](../administration/external-account.md#create-ext-account)
 
 1. Välj typen **[!UICONTROL Routing]**.
 
-   ![](assets/external-account-routing.png){zoomable="yes"}
+   ![Skärmbild som visar val av extern kontotyp för routning.](assets/external-account-routing.png){zoomable="yes"}
 
 1. Markera kanalen och klicka på **[!UICONTROL Create]**.
 
 1. I avsnittet för det externa kontot **[!UICONTROL Details]** markeras **[!UICONTROL External]** som standard som **[!UICONTROL Delivery mode]**.
 
-   ![](assets/external-account-delivery-mode.png){zoomable="yes"}
+   ![Skärmbild som visar konfigurationen för leveransläge för routning av externa konton.](assets/external-account-delivery-mode.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >För närvarande är **[!UICONTROL External]** det enda tillgängliga läget.
 
-1. Om du vill hantera processen efter leveranskörningen kan du externalisera den till ett efterbearbetningsarbetsflöde. Om du vill göra det måste du skapa ett arbetsflöde med en [extern signalaktivitet](../workflows/activities/external-signal.md) och välja den i fältet **[!UICONTROL Post-processing]**.
+1. Om du vill hantera processen efter leveranskörningen kan du göra det externt till ett arbetsflöde för efterbearbetning. Skapa ett arbetsflöde med en [extern signal](../workflows/activities/external-signal.md)-aktivitet och välj den i fältet **[!UICONTROL Post-processing]**.
 
-   ![](assets/external-account-post-processing.png){zoomable="yes"}
+   ![Skärmbild som visar postbearbetningsfältets konfiguration för routning av externa konton.](assets/external-account-post-processing.png){zoomable="yes"}
 
-1. I fältet **[!UICONTROL Activity]** kan du redigera namnet på arbetsflödesaktiviteten för efterbearbetning som ska visas i loggarna. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
-
+1. I fältet **[!UICONTROL Activity]** redigerar du namnet på arbetsflödesaktiviteten för efterbearbetning som visas i loggarna. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
 
 ### Körningsinstans {#instance-exec}
 
-Om du har en segmenterad arkitektur måste du identifiera de körningsinstanser som är associerade med kontrollinstansen och skapa anslutningar mellan dem. Transaktionsmeddelandemallar distribueras på körningsinstansen.
+Om du har en segmenterad arkitektur ska du identifiera de körningsinstanser som är associerade med kontrollinstansen och upprätta anslutningar mellan dem. Transaktionsmeddelandemallar distribueras på körningsinstansen.
 
-![](assets/external_account_exec.png)
+![Skärmbild som visar konfigurationsfälten för det externa kontot i körningsinstansen.](assets/external_account_exec.png)
 
 Så här konfigurerar du det externa kontot **[!UICONTROL Execution instance]**:
 
-* **[!UICONTROL URL]**
+* **[!UICONTROL URL]** - URL för servern där körningsinstansen är installerad.
 
-  URL för servern där körningsinstansen är installerad.
+* **[!UICONTROL Account]** - Namnet på kontot, matchar Message Center Agent enligt operatormappen.
 
-* **[!UICONTROL Account]**
+* **[!UICONTROL Password]** - Lösenord för kontot enligt definitionen i operatormappen.
 
-  Namnet på kontot måste matcha Message Center Agent enligt operatormappen.
+* **[!UICONTROL Method]** - Välj mellan webbtjänsten eller FDA (Federated Data Access).
 
-* **[!UICONTROL Password]**
+  Välj FDA-konto för FDA. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
-  Lösenord för kontot enligt definitionen i mappen operator.
-
-* **[!UICONTROL Method]**
-
-  Välj mellan webbtjänst eller FDA (Federated Data Access).
-Om du har en FDA-metod väljer du ditt FDA-konto. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
-
-* **[!UICONTROL Create archiving workflow]**
-
-  För varje körningsinstans som är registrerad i meddelandecentret, oavsett om du har en eller flera instanser, måste du skapa ett separat arkiveringsarbetsflöde för varje externt konto som är associerat med körningsinstansen.
+* **[!UICONTROL Create archiving workflow]** - För varje körningsinstans som är registrerad i meddelandecentret, oavsett om du har en eller flera instanser, skapar du ett separat arkiveringsarbetsflöde för varje externt konto som är associerat med körningsinstansen.

@@ -3,30 +3,30 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 0%
+source-wordcount: '1188'
+ht-degree: 1%
 
 ---
 
 # Organisera aktiviteter {#orchestrate}
 
-När du har [skapat ett arbetsflöde](create-workflow.md), antingen från arbetsflödesmenyn eller i en kampanj, kan du börja organisera de olika uppgifter som ska utföras. För att göra detta finns en visuell arbetsyta som gör att du kan skapa ett arbetsflödesdiagram. I det här diagrammet kan du lägga till olika aktiviteter och koppla dem i en sekventiell ordning.
+När du har [skapat ett arbetsflöde](create-workflow.md), oavsett om det är från arbetsflödesmenyn eller från en kampanj, kan du börja organisera de olika aktiviteterna som det utför. För att göra detta finns en visuell arbetsyta som gör att du kan skapa ett arbetsflödesdiagram. I det här diagrammet kan du lägga till olika aktiviteter och koppla dem i en sekventiell ordning.
 
 ## Lägg till aktiviteter {#add}
 
 I det här skedet av konfigurationen visas diagrammet med en startikon som representerar början av arbetsflödet. Om du vill lägga till din första aktivitet klickar du på knappen **+** som är ansluten till startikonen.
 
-En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en **Vänta** -aktivitet för att fördröja arbetsflödets körning. Efter en **Bygg målgrupp** kan du å andra sidan förfina ditt mål med riktade aktiviteter, skicka en leverans till din målgrupp med kanalaktiviteter eller ordna arbetsflödesprocessen med flödeskontrollaktiviteter.
+En lista över aktiviteter som kan läggas till i diagrammet visas. Vilka aktiviteter som är tillgängliga beror på var du befinner dig i arbetsflödesdiagrammet. När du till exempel lägger till din första aktivitet kan du starta arbetsflödet genom att rikta in dig på en målgrupp, dela arbetsflödessökvägen eller ange en **Vänta** -aktivitet för att fördröja arbetsflödets körning. Efter en **Bygg målgruppsaktivitet** kan du förfina ditt mål med målinriktningsaktiviteter, skicka en leverans till din målgrupp med kanalaktiviteter eller ordna arbetsflödesprocessen med flödeskontrollaktiviteter.
 
-![](assets/workflow-start.png){zoomable="yes"}
+![Ikon för att starta arbetsflöde och aktivitetsalternativ](assets/workflow-start.png){zoomable="yes"}
 
 När en aktivitet har lagts till i diagrammet visas en höger ruta där du kan konfigurera den nyligen tillagda aktiviteten med specifika inställningar. Detaljerad information om hur du konfigurerar varje aktivitet finns i [det här avsnittet](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![Panelen Aktivitetskonfiguration](assets/workflow-configure-activities.png){zoomable="yes"}
 
-Upprepa den här processen om du vill lägga till så många aktiviteter som du vill, beroende på vilka uppgifter du vill att arbetsflödet ska utföra. Observera att du även kan infoga en ny aktivitet mellan två aktiviteter. Det gör du genom att klicka på knappen **+** för övergången mellan aktiviteterna, markera önskad aktivitet och konfigurera den i den högra rutan.
+Upprepa den här processen om du vill lägga till så många aktiviteter som behövs, beroende på vilka uppgifter ditt arbetsflöde utför. Du kan också infoga en ny aktivitet mellan två aktiviteter. Det gör du genom att klicka på knappen **+** för övergången mellan aktiviteterna, välja önskad aktivitet och konfigurera den i den högra rutan.
 
 Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på ikonen **Ta bort** i aktivitetsegenskaperna.
 
@@ -36,59 +36,59 @@ Om du vill ta bort en aktivitet markerar du den på arbetsytan och klickar på i
 
 ## Verktygsfältet {#toolbar}
 
-Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra aktiviteterna och navigera på arbetsytan:
+Verktygsfältet, som finns i det övre högra hörnet av arbetsytan, innehåller alternativ för att enkelt ändra aktiviteterna och navigera på arbetsytan:
 
 * **Flervalsläge**: Markera flera aktiviteter om du vill ta bort alla samtidigt eller kopiera och klistra in dem. Se [det här avsnittet](#copy).
 * **Rotera**: Växla arbetsytan lodrätt.
 * **Anpassa till skärmen**: Anpassa arbetsytans zoomnivå till skärmen.
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
-* **Visningsschema**: Öppnar en ögonblicksbild av arbetsytan som visar att du finns.
+* **Visningsschema**: Öppna en ögonblicksbild av arbetsytan som visar din plats.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![Verktygsfältsalternativ för arbetsytan ](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Hantera aktiviteter {#manage}
 
 När du lägger till aktiviteter är åtgärdsknappar tillgängliga i egenskapsrutan, vilket gör att du kan utföra flera åtgärder.
 
-![](assets/activity-action.png){zoomable="yes"}
+![Aktivitetsknappar](assets/activity-action.png){zoomable="yes"}
 
 Du kan:
 
 * **Ta bort** aktiviteten från arbetsytan.
 * **Inaktivera/aktivera** aktiviteten. När arbetsflödet körs körs inte inaktiverade aktiviteter och följande aktiviteter på samma sökväg, och arbetsflödet stoppas.
-* **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift och alla som följer den i samma sökväg körs inte.
+* **Pausa/återuppta** aktiviteten. När arbetsflödet körs pausas det vid den pausade aktiviteten. Motsvarande uppgift, samt alla som följer den i samma sökväg, körs inte.
 * **Kopiera** aktiviteten. Se [det här avsnittet](#copy).
-* **Flytta** en aktivitet och alla dess underordnade noder till en annan övergång. Se [det här avsnittet](#move)
+* **Flytta** en aktivitet och alla dess underordnade noder till en annan övergång. Se [det här avsnittet](#move).
 * Få åtkomst till aktivitetens **körningsalternativ**.
 * Åtkomst till aktivitetens **loggar och uppgifter**.
 
 Flera **målaktiviteter**, till exempel **Kombinera** eller **Ta bort dubbletter**, gör att du kan bearbeta den återstående populationen och inkludera den i en ytterligare utgående övergång. Om du till exempel använder en **delad** -aktivitet består komplementet av den population som inte matchar någon av de tidigare definierade delmängderna. Aktivera alternativet **Generera komplement** om du vill använda den här funktionen.
 
-![](assets/workflow-split-complement.png)
+![Delad aktivitet med komplementalternativ](assets/workflow-split-complement.png)
 
 ## Flytta eller kopiera aktiviteter {#move-copy}
 
 ### Kopiera och klistra in aktiviteter {#copy}
 
-Du kan kopiera arbetsflödesaktiviteter och klistra in dem i valfritt arbetsflöde. Målarbetsflödet kan finnas på en annan webbläsarflik.
+Du kan kopiera arbetsflödesaktiviteter och klistra in dem i vilket arbetsflöde som helst. Målarbetsflödet kan finnas på en annan webbläsarflik.
 
 Du kan kopiera aktiviteter på två sätt:
 
-* kopiera en aktivitet med åtgärdsknappen.
+* Kopiera en aktivitet med åtgärdsknappen.
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![Kopiera en aktivitetsknapp](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
-* kopiera flera aktiviteter med verktygsfältsknappen.
+* Kopiera flera aktiviteter med verktygsfältsknappen.
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![Knappen Kopiera flera aktiviteter](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Om du vill klistra in de kopierade aktiviteterna klickar du på knappen **+** för en övergång och väljer Klistra in X-aktivitet.
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![Alternativet Klistra in kopierade aktiviteter ](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ### Flytta aktiviteter och deras underordnade noder {#move}
 
-Med Journey Optimizer kan du flytta en aktivitet, tillsammans med allt innehåll i dess underordnade noder (inklusive alla övergångar och aktiviteter i den) till slutet av en annan övergång i samma arbetsflöde.
+Med Journey Optimizer kan du flytta en aktivitet, tillsammans med allt innehåll i dess underordnade noder (inklusive alla övergångar och aktiviteter i den), till slutet av en annan övergång i samma arbetsflöde.
 
 Den här processen kopplar från aktiviteten och allt i den utgående övergången från den ursprungliga platsen, vilket flyttar den till den nya målövergången.
 
@@ -98,29 +98,29 @@ Så här flyttar du en aktivitet:
 1. Klicka på knappen **Flytta** i aktivitetens egenskapspanel.
 1. Markera övergången där du vill placera aktiviteten och dess utgående övergång och bekräfta sedan.
 
-![](assets/activity-move.png)
+![Flytta aktivitet och underordnade noder](assets/activity-move.png)
 
 ## Körningsalternativ {#execution}
 
 Med alla aktiviteter kan du hantera deras körningsalternativ. Markera en aktivitet och klicka på knappen **Körningsalternativ** . På så sätt kan du definiera aktivitetens körningsläge och beteende vid fel.
 
-![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
+![Panelen Körningsalternativ](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### Egenskaper
 
-I fältet **Körning** kan du definiera vilken åtgärd som ska utföras när aktiviteten startas.
+I fältet **Körning** kan du definiera åtgärden som ska utföras när aktiviteten startar.
 
-I fältet **Maximal körningstid** kan du ange en varaktighet som t.ex. &quot;30s&quot; eller &quot;1h&quot;. Om aktiviteten inte är klar efter att den angivna tiden har gått ut utlöses en varning. Detta påverkar inte arbetsflödets funktioner.
+I fältet **Maximal körningstid** kan du ange en varaktighet som t.ex. &quot;30s&quot; eller &quot;1h&quot;. Om aktiviteten inte har slutförts efter den angivna varaktigheten utlöses en varning. Detta påverkar inte arbetsflödets funktioner.
 
-I fältet **Tidszon** kan du välja aktivitetens tidszon. Med Adobe Campaign kan du hantera tidsskillnader mellan flera länder i samma instans. Inställningen som används konfigureras när instansen skapas.
+I fältet **Tidszon** kan du välja aktivitetens tidszon. Adobe Campaign hanterar tidsskillnader mellan flera länder i samma instans. Inställningen som används konfigureras när instansen skapas.
 
-**I fältet Tillhörighet** kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator. För att kunna göra detta måste du ange en eller flera tillhörigheter för arbetsflödet eller aktiviteten i fråga.
+I fältet **Tillhörighet** kan du tvinga ett arbetsflöde eller en arbetsflödesaktivitet att köras på en viss dator. Om du vill göra det anger du en eller flera tillhörigheter för arbetsflödet eller aktiviteten i fråga.
 
 I fältet **Beteende** kan du definiera proceduren som ska följas om asynkrona uppgifter används.
 
 ### Felhantering
 
-I fältet **I händelse av fel** kan du ange vilken åtgärd som ska utföras om aktiviteten stöter på ett fel.
+I fältet **I händelse av fel** kan du ange vilken åtgärd som ska utföras om aktiviteten påträffar ett fel.
 
 ### Initieringsskript
 
@@ -128,23 +128,21 @@ Med **initieringsskriptet** kan du initiera variabler eller ändra aktivitetsege
 
 ## Exempel {#example}
 
-Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (utom VIP kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
+Här följer ett exempel på ett arbetsflöde som utformats för att skicka ett e-postmeddelande till alla kunder (andra än VIP-kunder) med ett e-postmeddelande som är intresserade av kaffemaskiner.
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![Exempeldiagram för arbetsflöde](assets/workflow-example.png){zoomable="yes"}
 
-För att uppnå detta har följande aktiviteter lagts till:
+För att uppnå detta har följande verksamheter lagts till:
 
 * En **[!UICONTROL Fork]**-aktivitet som delar upp arbetsflödet i tre sökvägar (en för varje kundgrupp),
 * **[!UICONTROL Build audience]** aktiviteter för att rikta sig till de tre uppsättningarna kunder:
-
    * Kunder med e-post
-   * Kunder som tillhör den befintliga målgruppen&quot;Interasted in Coffee Machine(s)&quot;,
-   * Kunder som tillhör den befintliga målgruppen&quot;VIP eller belöning&quot;.
-
+   * Kunder som tillhör den befintliga målgruppen&quot;Intresserad av kaffemaskiner&quot;,
+   * Kunder som tillhör den befintliga målgruppen VIP att belöna.
 * En **[!UICONTROL Combine]**-aktivitet som grupperar kunder med ett e-postmeddelande och de som är intresserade av kaffemaskiner,
-* En **[!UICONTROL Combine]**-aktivitet som utesluter VIP kunder,
+* En **[!UICONTROL Combine]**-aktivitet som utesluter VIP-kunder,
 * En **[!UICONTROL Email delivery]**-aktivitet som skickar ett e-postmeddelande till de resulterande kunderna.
 
-När du har slutfört arbetsflödet lägger du till aktiviteten **[!UICONTROL End]** i slutet av diagrammet. Med den här aktiviteten kan du markera slutet av ett arbetsflöde visuellt och inte ha någon funktionell inverkan.
+När du har slutfört arbetsflödet lägger du till en **[!UICONTROL End]**-aktivitet i slutet av diagrammet. Den här aktiviteten markerar slutet av ett arbetsflöde och har ingen funktionell inverkan.
 
-När du har utformat arbetsflödesdiagrammet kan du köra arbetsflödet och spåra förloppet för dess olika uppgifter. [Lär dig hur du startar ett arbetsflöde och övervakar dess körning](start-monitor-workflows.md)
+När du har utformat arbetsflödesdiagrammet kan du köra arbetsflödet och spåra förloppet för de olika uppgifterna. [Lär dig hur du startar ett arbetsflöde och övervakar dess körning](start-monitor-workflows.md).

@@ -2,9 +2,9 @@
 title: Arbeta med JavaScript-koder
 description: Lär dig hur du arbetar med JavaScript-koder.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 0%
 
 Med JavaScript-koder kan du skapa återanvändbara funktioner som kan användas i olika arbetsflöden, ungefär som i ett bibliotek. Dessa funktioner lagras på menyn **[!UICONTROL Administration]** > **[!UICONTROL JavaScript codes]** i den vänstra navigeringsrutan.
 
-![](assets/javascript-list.png)
+![Gränssnitt för JavaScript-kodslistor med tillgängliga alternativ](assets/javascript-list.png)
 
 I kodlistan i JavaScript kan du:
 
 * **Duplicera eller ta bort en kod**: Klicka på ellipsknappen och välj önskad åtgärd.
-* **Ändra en kod**: Klicka på en kods namn för att öppna dess egenskaper. Gör ändringarna och spara.
+* **Ändra en kod**: Klicka på en kods namn för att öppna dess egenskaper, göra ändringarna och spara.
 * **Skapa en ny JavaScript-kod**: Klicka på knappen **[!UICONTROL Create JavaScript code]**.
 
 >[!NOTE]
@@ -46,10 +46,10 @@ Så här skapar du en JavaScript-kod:
 1. Definiera kodens egenskaper:
 
    * **[!UICONTROL Namespace]**: Ange det namnområde som är relevant för dina anpassade resurser. Som standard är namnutrymmet&quot;cus&quot;, men det kan variera beroende på implementeringen.
-   * **[!UICONTROL Name]**: Den unika identifieraren som ska användas för att referera till koden.
-   * **[!UICONTROL Label]**: Den beskrivande etikett som ska visas i listan med JavaScript-koder.
+   * **[!UICONTROL Name]**: Den unika identifierare som används för att referera till koden.
+   * **[!UICONTROL Label]**: Den beskrivande etiketten som visas i listan med JavaScript-koder.
 
-   ![](assets/javascript-create.png)
+   ![Gränssnitt för skapande av JavaScript-kod med namnområdes-, namn- och etikettfält](assets/javascript-create.png)
 
    >[!NOTE]
    >
@@ -59,24 +59,24 @@ Så här skapar du en JavaScript-kod:
 
 1. Klicka på knappen **[!UICONTROL Create code]** för att definiera JavaScript-koden. I den vänstra rutan finns det två menyer där du kan använda fördefinierade funktioner för villkor och datumformatering.
 
-   ![](assets/javascript-code.png)
+   ![JavaScript kodredigeringsgränssnitt med fördefinierade funktioner](assets/javascript-code.png)
 
 1. Klicka på **[!UICONTROL Confirm]** om du vill spara koden.
 
-1. När din JavaScript-kod är klar klickar du på **[!UICONTROL Create]**.  JavaScript-koden kan nu användas i alla arbetsflöden.
+1. När din JavaScript-kod är klar klickar du på **[!UICONTROL Create]**. JavaScript-koden kan nu användas i alla arbetsflöden.
 
 ## Använda en JavaScript-kod från ett arbetsflöde {#workflow}
 
 ### Läs in JavaScript-kodbibliotek {#library}
 
-Du kan referera till JavaScript-koder i arbetsflöden för att undvika att skriva om kod för repetitiva uppgifter. Om du vill använda dessa koder måste du först läsa in motsvarande bibliotek i arbetsflödets initieringsskript. På så sätt kan du läsa in alla bibliotek som innehåller de funktioner som du vill använda i arbetsflödet en gång.
+Du kan referera till JavaScript-koder i arbetsflöden för att undvika att skriva om kod för repetitiva uppgifter. Om du vill använda dessa koder läser du in motsvarande bibliotek i arbetsflödets initieringsskript. På så sätt kan du läsa in alla bibliotek som innehåller de funktioner som du vill använda i arbetsflödet en gång.
 
 Så här läser du in ett bibliotek:
 
 1. Öppna ett arbetsflöde och klicka på knappen **[!UICONTROL Settings]**.
 1. Navigera till avsnittet **[!UICONTROL Initialization script]** och klicka på **[!UICONTROL Create code]**.
 
-   ![](assets/javascript-initialization.png)
+   ![Skriptgränssnittet för arbetsflödesinitiering visar alternativet för att skapa kod](assets/javascript-initialization.png)
 
 1. Använd syntaxen nedan i koden för att läsa in ett bibliotek:
 
@@ -93,4 +93,4 @@ Så här läser du in ett bibliotek:
 
 När JavaScript-biblioteket har lästs in kan du referera till de funktioner som definierats i JavaScript-koden direkt i arbetsflödet, vanligtvis med en **[!UICONTROL JavaScript code]**-aktivitet.
 
-![](assets/javascript-function.png)
+![Arbetsflödesgränssnitt som visar funktionsanvändning i JavaScript](assets/javascript-function.png)

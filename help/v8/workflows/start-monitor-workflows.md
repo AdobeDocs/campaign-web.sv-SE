@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -18,27 +18,27 @@ När du har skapat arbetsflödet och utformat de uppgifter som ska utföras på 
 
 Om du vill starta arbetsflödet går du till menyn **[!UICONTROL Workflows]** eller den associerade kampanjen och klickar på knappen **[!UICONTROL Start]** i det övre högra hörnet av arbetsytan.
 
-När arbetsflödet körs körs varje aktivitet på arbetsytan i sekventiell ordning tills arbetsflödets slut nås.
+När arbetsflödet körs körs varje aktivitet på arbetsytan sekventiellt tills arbetsflödets slut nås.
 
 Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. På så sätt kan du snabbt identifiera status för varje aktivitet och antalet profiler som övergår mellan dem.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![Visuell representation av arbetsflödeskörning pågår.](assets/workflow-execution.png){zoomable="yes"}
 
 ## Arbetsflödesövergångar {#transitions}
 
-I arbetsflöden lagras data som överförs från en aktivitet till en annan via övergångar i en tillfällig arbetstabell. Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
+I arbetsflöden lagras data som överförs från en aktivitet till en annan via övergångar i en tillfällig arbetstabell. Dessa data kan visas för varje övergång. Om du vill visa data väljer du en övergång för att öppna egenskaperna på skärmens högra sida.
 
 * Klicka på **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
-* Klicka på **[!UICONTROL Preview results]** om du vill visa de data som har transporterats i den valda övergången.
+* Klicka på **[!UICONTROL Preview results]** om du vill visa data som har transporterats i den valda övergången.
 
-![](assets/transition.png){zoomable="yes"}
+![Exempel på övergångsegenskaper och förhandsgranskning av data.](assets/transition.png){zoomable="yes"}
 
 ## Körning av övervakningsaktivitet {#activities}
 
-Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan du kontrollera deras körning:
+Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan du kontrollera deras körningsstatus:
 
 | Visuell indikator | Beskrivning |
-|-----|------------|
+|------------------|-------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Aktiviteten körs för närvarande. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Aktiviteten kräver din uppmärksamhet. Detta kan inbegripa att bekräfta leveransen eller vidta nödvändiga åtgärder. |
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Aktiviteten har påträffat ett fel. Du löser problemet genom att öppna arbetsflödesloggarna för mer information. |
@@ -46,11 +46,11 @@ Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan 
 
 ## Övervaka loggar och uppgifter {#logs-tasks}
 
-Övervakning av arbetsflöden, loggar och uppgifter är ett viktigt steg för att analysera dina arbetsflöden och se till att de körs som de ska. De är tillgängliga från ikonen **[!UICONTROL Logs]** som är tillgänglig i åtgärdsverktygsfältet och i egenskapsrutan för varje aktivitet.
+Övervakning av arbetsflödesloggar och uppgifter är ett viktigt steg för att analysera dina arbetsflöden och säkerställa att de körs som de ska. Loggar och uppgifter är tillgängliga från ikonen **[!UICONTROL Logs]** som är tillgänglig i åtgärdsverktygsfältet och i varje aktivitets egenskapspanel.
 
-Menyn **[!UICONTROL Logs and tasks]** innehåller en historik över arbetsflödeskörningen, där alla användaråtgärder och påträffade fel registreras. Den här historiken sparas så länge som anges i arbetsflödets [körningsalternativ](workflow-settings.md). Under den här tidsperioden sparas alla meddelanden, även efter att arbetsflödet har startats om. Om du inte vill spara meddelandena från en tidigare körning klickar du på knappen **[!UICONTROL Purge history]**.
+Menyn **[!UICONTROL Logs and tasks]** innehåller en historik över arbetsflödeskörningen, där alla användaråtgärder och påträffade fel registreras. Den här historiken sparas så länge som anges i arbetsflödets [körningsalternativ](workflow-settings.md). Under den här tidsperioden sparas alla meddelanden, även efter att arbetsflödet har startats om. Om du inte vill spara meddelanden från en tidigare körning klickar du på knappen **[!UICONTROL Purge history]**.
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![Exempel på arbetsflödesloggar och aktivitetsgränssnitt.](assets/workflow-logs.png){zoomable="yes"}
 
 Det finns två typer av information:
 
@@ -61,10 +61,8 @@ På båda flikarna kan du välja vilka kolumner som ska visas och i vilken ordni
 
 ## Kommandon för arbetsflödeskörning {#execution-commands}
 
-Åtgärdsfältet i det övre högra hörnet innehåller kommandon som gör att du kan hantera arbetsflödets körning. Du kan:
+Åtgärdsfältet i det övre högra hörnet innehåller kommandon för att hantera arbetsflödets körning. Du kan:
 
-* **[!UICONTROL Start]** / **[!UICONTROL Resume]** körningen av arbetsflödet, som sedan får statusen Pågår. Om arbetsflödet pausades återupptas det, annars startas det och de inledande aktiviteterna aktiveras sedan.
-
-* **[!UICONTROL Pause]** arbetsflödets körning, som sedan får statusen Pausad. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
-
-* **[!UICONTROL Stop]** ett arbetsflöde som körs och som sedan får statusen Slutfört. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta arbetsflödet från samma plats som det stoppades.
+* **[!UICONTROL Start]** / **[!UICONTROL Resume]** körningen av arbetsflödet. Om arbetsflödet pausades återupptas det. Annars startar den och de inledande aktiviteterna aktiveras.
+* **[!UICONTROL Pause]** arbetsflödets körning. Arbetsflödet får därefter statusen Pausad. Inga nya aktiviteter aktiveras förrän den återupptas, men pågående åtgärder avbryts inte.
+* **[!UICONTROL Stop]** ett arbetsflöde som körs. Arbetsflödet får då statusen Slutförd. Pågående åtgärder avbryts om möjligt. Du kan inte återuppta arbetsflödet från den punkt där det stoppades.

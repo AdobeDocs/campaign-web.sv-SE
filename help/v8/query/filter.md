@@ -3,26 +3,26 @@ audience: end-user
 title: Filterlistor
 description: Lär dig filtrera Adobe Campaign webblistor med inbyggda och anpassade filter.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
 # Filterlistor {#filter-lists}
 
-Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du kan filtrera information baserat på specifika kontextuella kriterier. Du kan till exempel filtrera leveranser efter status, kanal, kontaktdatum eller mapp. Du kan också dölja korrektur.
+Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du kan filtrera information baserat på specifika kontextuella kriterier. Du kan till exempel filtrera leveranser baserat på status, kanal, kontaktdatum eller mapp. Du kan också dölja korrektur.
 
-## Använda filter{#apply}
+## Använda filter {#apply}
 
 Om du vill använda filter på en lista klickar du på knappen **[!UICONTROL Show filters]** i det övre vänstra hörnet av listan, bredvid sökfältet.
 
-Filterrutan öppnas och tillgängliga filter för den valda listan visas. Du kan t.ex. filtrera kampanjer efter status, start- och slutdatum eller lagringsmapp, medan prenumerationstjänstlistan kan filtreras i kanal- och lagringsmappen.
+Filterrutan öppnas och tillgängliga filter för den valda listan visas. Du kan till exempel filtrera kampanjer baserat på deras status, start- och slutdatum eller lagringsmapp, medan prenumerationstjänstlistan kan filtreras baserat på kanal- och lagringsmapp.
 
-![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Filterpanelen visar tillgängliga filter för listor](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Om du vill filtrera en lista baserat på dina egna kriterier skapar du ett eget filter. Om du vill göra det bläddrar du längst ned i filterrutan och klickar på knappen **Lägg till regler** . [Lär dig hur du skapar anpassade filter](#custom)
+Om du vill filtrera en lista baserat på dina egna kriterier skapar du ett eget filter. Om du vill göra det bläddrar du längst ned i filterrutan och klickar på knappen **Lägg till regler** . [Lär dig skapa anpassade filter](#custom).
 
 När filtren har tillämpats på en lista visas de under sökfältet. Du kan ta bort ett enskilt filter när som helst eller ta bort alla filter genom att klicka på knappen **Rensa alla** .
 
@@ -36,6 +36,6 @@ Med anpassade filter kan du förfina listor baserat på dina egna specifika vill
 
    I exemplet nedan visas ett anpassat filter som är utformat för att i kampanjlistan visa SMS-kampanjer som körs av operatorer från avdelningarna Running och Yoga.
 
-   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Exempel på anpassade filter som visar SMS-kampanjer filtrerade efter avdelning](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. När det anpassade filtret har konfigurerats klickar du på **[!UICONTROL Confirm]** för att använda det i listan.

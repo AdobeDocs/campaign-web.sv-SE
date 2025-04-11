@@ -2,13 +2,12 @@
 title: Anpassade fält
 description: Lär dig hur du konfigurerar anpassade fält och deras synlighet i gränssnittet.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera anpassade fält {#custom-fields}
 
@@ -46,7 +45,7 @@ ht-degree: 0%
 
 Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov. Lär dig hur du utökar ett schema i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
-Anpassade fält kan visas på olika skärmar, t.ex. profilinformation i webbgränssnittet för Campaign. Administratörer kan styra vilka fält som visas och hur de visas. De här ändringarna gäller alla Campaign-användare.
+Anpassade fält kan visas på olika skärmar, till exempel profilinformation i webbgränssnittet för Campaign. Administratörer kan styra vilka fält som visas och hur de visas. De här ändringarna gäller alla Campaign-användare.
 
 >[!NOTE]
 >
@@ -65,28 +64,28 @@ Anpassade fält är tillgängliga för följande scheman:
 
 Följ de här stegen för att visa anpassade fält i gränssnittet:
 
-1. Bläddra till menyn **[!UICONTROL Schemas]** i den vänstra navigeringsrutan och leta reda på önskat schema.
+1. Bläddra till **[!UICONTROL Schemas]**-menyn i den vänstra navigeringsrutan och leta reda på önskat schema.
 
    Använd filtret **[!UICONTROL Editable]** i filterrutan för att snabbt identifiera scheman med anpassade fält.
 
-   ![](assets/custom-fields-open.png)
+   ![Skärmbild som visar Schema-menyn och redigeringsbart filter i navigeringsrutan](assets/custom-fields-open.png)
 
-1. Markera schemanamnet i listan för att öppna det. En detaljerad schemavy visar [Läs mer om schemainformation](../administration/schemas.md). Klicka på knappen **[!UICONTROL Edit custom detail]** för att komma åt anpassade fält. I det här exemplet vill vi lägga till fält för schemat **[!UICONTROL Recipients]**.
+1. Markera schemanamnet i listan för att öppna det. En detaljerad schemavy visas. [Läs mer om schemainformation](../administration/schemas.md). Klicka på knappen **[!UICONTROL Edit custom detail]** för att komma åt anpassade fält. I det här exemplet läggs fält till för **[!UICONTROL Recipients]**-schemat.
 
-   ![](assets/custom-fields-edit.png)
+   ![Skärmbild som visar knappen Redigera anpassad detalj i schemavyn](assets/custom-fields-edit.png)
 
-1. Listan med anpassade fält som visas i gränssnittet för schemavisningen. Här visas fältet CRM-ID på informationsskärmen och har markerats som obligatoriskt.
+1. Listan med anpassade fält som visas i schemats gränssnitt visas. Här visas fältet CRM-ID på informationsskärmen och har markerats som obligatoriskt.
 
    | Konfigurera anpassade fält | Återgivning i gränssnittet |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![Skärmbild som visar konfigurationen för anpassade fält](assets/custom-fields-detail.png){zoomable="yes"} | ![Skärmbild som visar CRM-ID-fältåtergivningen i gränssnittet](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Om du vill lägga till ett anpassat fält i gränssnittet klickar du på ellipsknappen och väljer något av följande alternativ:
 
    * **[!UICONTROL Select custom fields]**: Välj ett eller flera anpassade fält som ska visas i gränssnittet.
    * **[!UICONTROL Fill automatically the list of custom fields]**: Lägg till alla anpassade fält som definierats för schemat i gränssnittet.
 
-   ![](assets/custom-fields-add.png)
+   ![Skärmbild som visar alternativ för att lägga till anpassade fält](assets/custom-fields-add.png)
 
 1. När anpassade fält har lagts till kan du:
 
@@ -100,7 +99,7 @@ Följ de här stegen för att visa anpassade fält i gränssnittet:
 
 Om du vill konfigurera specifika inställningar för varje anpassat fält klickar du på ellipsknappen bredvid det önskade fältet och väljer **[!UICONTROL Edit]**.
 
-![](assets/custom-fields-settings.png)
+![Skärmbild som visar inställningsmenyn för anpassade fält](assets/custom-fields-settings.png)
 
 Tillgängliga inställningar:
 
@@ -117,7 +116,7 @@ Tillgängliga inställningar:
 
   +++Exempel på vy
 
-  ![](assets/custom-fields-ref.png)
+  ![Skärmbild som visar ett exempel på filterinställningar för anpassade fält](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,7 +124,7 @@ Tillgängliga inställningar:
 
 ## Ordna anpassade fält i underavsnitt {#separator}
 
-Med Campaign Web-gränssnittet kan du lägga till avgränsare för att gruppera anpassade fält i gränssnittet så att de blir lättare att läsa. Gör så här:
+Med användargränssnittet för Campaign-webben kan du lägga till avgränsare för att gruppera anpassade fält i gränssnittet så att de blir lättare att läsa. Gör så här:
 
 1. Klicka på ellipsknappen bredvid upp- och nedpilarna och välj **[!UICONTROL Add separator]**.
 
@@ -137,4 +136,4 @@ Med Campaign Web-gränssnittet kan du lägga till avgränsare för att gruppera 
 
    | Konfigurera anpassade fält | Återgivning i gränssnittet |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![Skärmbild som visar konfigurationen för en avgränsare](assets/custom-fields-separator.png){zoomable="yes"} | ![Skärmbild som visar återgivningen av ett underavsnitt i gränssnittet](assets/custom-fields-section.png){zoomable="yes"} |

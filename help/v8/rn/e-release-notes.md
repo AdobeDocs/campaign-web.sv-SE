@@ -4,18 +4,19 @@ description: Upptäck nya funktioner i nästa version av Campaign Web User Inter
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 256d78c616891b4893186c6ad58cb6cbc4f6cde1
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 7%
 
 ---
+
 
 # Tidig versionsinformation {#e-release}
 
 Adobe Campaign webbanvändargränssnitt innehåller kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i slutet av varje månad i [versionsinformationen](release-notes.md).
 
-**Noteringar om tidig version nedan kan ändras utan föregående meddelande till releasedatum**. Länkar, skärmar och uppdaterad dokumentation publiceras i [versionsinformationen](release-notes.md) på releasedatum.
+**Noteringar om tidig version nedan kan ändras utan föregående meddelande till releasedatum**. Länkar, skärmar och uppdaterad dokumentation publiceras i [versionsinformationen](release-notes.md) vid releasedatum.
 
 ## 25 februari {#25-2-ern}
 
@@ -34,8 +35,8 @@ Följande funktioner och förbättringar är tillgängliga från och med februar
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser. Typologier används för att validera att leveranser alltid innehåller obligatoriska komponenter (t.ex. en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från målgruppen (t.ex. prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
-<img src="assets/do-not-localize/typology.gif">
+<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser. Typologier validerar att leveranser alltid innehåller obligatoriska komponenter (till exempel en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från målgruppen (till exempel prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
+<img src="assets/do-not-localize/typology.gif" alt="Demonstration av typologiregler i Adobe Campaign webbanvändargränssnitt">
 <p>Mer information finns i den <a href="../administration/typologies.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
@@ -51,13 +52,12 @@ Följande funktioner och förbättringar är tillgängliga från och med februar
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema. Med målmappningen kan du definiera målgruppen: profiler, kontraktsanställda, operatorer, prenumeranter, potentiella kunder osv.</p>
+<p>Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema. Målmappningen definierar målgruppen: profiler, kontraktsanställda, operatörer, prenumeranter, potentiella kunder och mycket annat.</p>
 <p>Mer information finns i den <a href="../administration/typologies.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ### Förbättring {#25-2-improvements}
 

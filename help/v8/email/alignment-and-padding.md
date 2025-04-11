@@ -3,29 +3,28 @@ audience: end-user
 title: Justera lodrät justering och utfyllnad i e-post-Designer
 description: Lär dig justera lodrät justering och utfyllnad
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
-
 # Justera lodrät justering och utfyllnad {#alignment-and-padding}
 
-I det här exemplet justerar vi utfyllnad och lodrät justering inuti en strukturkomponent som består av tre kolumner.
+I det här exemplet justerar du utfyllnaden och den lodräta justeringen inuti en strukturkomponent som består av tre kolumner.
 
-1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd **[!UICONTROL Navigation tree]** som är tillgänglig i den vänstra rutan.
+1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd **[!UICONTROL Navigation tree]** som finns i den vänstra rutan.
 
-   ![](assets/alignment_1.png){zoomable="yes"}
+   ![Skärmbild som visar strukturkomponentvalet i navigeringsträdet](assets/alignment_1.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet och välj den som du vill redigera. Du kan också välja det i strukturträdet till vänster.
+1. Klicka på **[!UICONTROL Select a column]** i det sammanhangsberoende verktygsfältet och välj den kolumn som du vill redigera. Du kan också välja det i strukturträdet till vänster.
 
-   ![](assets/alignment_2.png){zoomable="yes"}
+   ![Skärmbild som visar kolumnvalet i det sammanhangsberoende verktygsfältet](assets/alignment_2.png){zoomable="yes"}
 
-1. De redigerbara parametrarna för den kolumnen visas på fliken **[!UICONTROL Styles]**. Justera **[!UICONTROL Alignment]** med hjälp av det dedikerade avsnittet.
+1. De redigerbara parametrarna för den markerade kolumnen visas på fliken **[!UICONTROL Styles]**. Justera **[!UICONTROL Alignment]** med hjälp av det dedikerade avsnittet.
 
-   ![](assets/alignment_3.png){zoomable="yes"}
+   ![Skärmbild som visar justeringsalternativen på fliken Format](assets/alignment_3.png){zoomable="yes"}
 
    Välj till exempel **[!UICONTROL Bottom]**. Innehållskomponenten flyttas längst ned i kolumnen.
 
@@ -33,10 +32,10 @@ I det här exemplet justerar vi utfyllnad och lodrät justering inuti en struktu
 
    >[!NOTE]
    >
-   >Klicka på låsikonen om du vill bryta synkroniseringen mellan utfyllnaden längst upp/längst ned eller vänster/höger.
+   >Klicka på låsikonen om du vill bryta synkroniseringen mellan utfyllnaden upptill, nedtill eller till vänster och höger.
 
-   ![](assets/alignment_4.png){zoomable="yes"}
+   ![Skärmbild med justeringsalternativen för utfyllnad](assets/alignment_4.png){zoomable="yes"}
 
-1. Gör på samma sätt om du vill justera justeringen och utfyllnaden för de andra kolumnerna.
+1. Justera justeringen och utfyllnaden för de andra kolumnerna på samma sätt.
 
 1. Spara ändringarna.

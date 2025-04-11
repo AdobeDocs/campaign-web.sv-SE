@@ -3,50 +3,48 @@ audience: end-user
 title: Viktiga principer för att skapa arbetsflöden
 description: Lär dig grunderna i arbetsflöden med Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
-
 # Viktiga principer för att skapa arbetsflöden {#gs-workflow-creation}
 
-Med Adobe Campaign Web kan du skapa arbetsflöden i en visuell arbetsyta för att skapa flerkanalsprocesser som segmentering, kampanjutförande och filbearbetning.
+Med Adobe Campaign Web kan du skapa arbetsflöden på en visuell arbetsyta för att skapa flerkanalsprocesser som segmentering, kampanjutförande och filbearbetning.
 
 ## Vad innehåller ett arbetsflöde? {#gs-workflow-inside}
 
-Arbetsflödesdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
+Arbetsflödesdiagrammet representerar den planerade processen. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![Exempeldiagram för arbetsflöde som visar aktiviteter och deras anslutningar](assets/workflow-example.png){zoomable="yes"}
 
 Varje arbetsflöde innehåller:
 
-* **Aktiviteter**: En aktivitet är en aktivitet som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
+* **Aktiviteter**: En aktivitet är en aktivitet som ska utföras. Ikonerna i diagrammet representerar de olika aktiviteterna. Varje aktivitet har specifika egenskaper och egenskaper som är gemensamma för alla aktiviteter.
 
-  I ett arbetsflödesdiagram kan en viss aktivitet producera flera uppgifter, särskilt när det finns en slinga eller återkommande åtgärder.
+  I ett arbetsflödesdiagram kan en viss aktivitet skapa flera uppgifter, särskilt när det finns en slinga eller återkommande åtgärder.
 
 * **Övergångar**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
 
-* **Arbetstabeller**: Arbetstabellen innehåller all information som följer med övergången. För varje arbetsflöde används flera arbetstabeller. De data som överförs i dessa tabeller kan användas under hela arbetsflödets livscykel.
+* **Arbetstabeller**: Arbetstabellen innehåller all information som följer med övergången. För varje arbetsflöde används flera arbetstabeller. Data i dessa tabeller kan användas under arbetsflödets hela livscykel.
 
 ## Viktiga steg för att skapa ett arbetsflöde {#gs-workflow-steps}
-
 
 Det finns två sätt att skapa ett arbetsflöde i kampanjer:
 
 1. Arbetsflöden kan skapas som fristående arbetsflöden på menyn **Arbetsflöden** .
 
-   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
+   ![Skärmbild av gränssnittet för att skapa ett fristående arbetsflöde](assets/create-a-standalone-wf.png){zoomable="yes"}
 
-1. Arbetsflöden kan skapas direkt i en kampanj från fliken **Arbetsflöde** i kampanjen. När det ingår i en kampanj körs arbetsflödet tillsammans med alla andra kampanjers arbetsflöden, och alla rapportvärden grupperas på kampanjnivå.
+1. Arbetsflöden kan skapas direkt i en kampanj från fliken **Arbetsflöde** i kampanjen. När arbetsflödet ingår i en kampanj körs det tillsammans med alla andra kampanjers arbetsflöden, och rapportvärdena grupperas på kampanjnivå.
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
+   ![Skärmbild av gränssnittet för att skapa ett arbetsflöde i en kampanj](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 Så här skapar du arbetsflöden:
 
-![](assets/workflow-creation-process.png){zoomable="yes"}
+![Diagram som visar arbetsflödesskapandet](assets/workflow-creation-process.png){zoomable="yes"}
 
 De här stegen beskrivs i följande avsnitt:
 

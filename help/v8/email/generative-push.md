@@ -3,9 +3,9 @@ audience: end-user
 title: Push-meddelanden med AI-assistenten
 description: Kom igång med AI-assistenten
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Innan du börjar använda den här funktionen bör du läsa upp relaterade [säkerhetsutkast och begränsningar](generative-gs.md#generative-guardrails).
+>Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
 ></br>
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att föreslå olika typer av innehåll som troligtvis får genklang hos er målgrupp.
+AI Assistant hjälper er att optimera effekten av era leveranser genom att föreslå olika innehåll som får genklang hos er målgrupp.
 
-I följande exempel kommer vi att utnyttja AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
+I följande exempel används AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
 
 1. När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**.
 
@@ -29,37 +29,37 @@ I följande exempel kommer vi att utnyttja AI-assistenten för att skapa överty
 
 1. Öppna menyn **[!UICONTROL Show AI Assistant]**.
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![Skärmbild som visar menyn Visa AI-assistenten](assets/push-genai-1.png){zoomable="yes"}
 
 1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
-   Om du vill ha hjälp med att skapa din fråga kan du få tillgång till **[!UICONTROL Prompt Library]**, som innehåller en mängd olika tips för att förbättra dina leveranser.
+   Om du behöver hjälp med att skapa din fråga kan du få tillgång till **[!UICONTROL Prompt Library]**, som innehåller en mängd olika tips för att förbättra dina leveranser.
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![Skärmbild som visar gränssnittet för promptbiblioteket](assets/push-genai-2.png){zoomable="yes"}
 
-1. Välj vilket fält du vill generera: **[!UICONTROL Title]**, **[!UICONTROL Message]** och/eller **[!UICONTROL Image]**.
+1. Välj det fält som du vill generera: **[!UICONTROL Title]**, **[!UICONTROL Message]** och/eller **[!UICONTROL Image]**.
 
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
-   * **[!UICONTROL Tone]**: Tonen i ditt e-postmeddelande bör matcha med din publik. Vare sig du vill låta informativ, lekfull eller övertygande kan AI-assistenten anpassa meddelandet därefter.
+   * **[!UICONTROL Tone]**: Justera tonen i e-postmeddelandet så att det får genklang hos målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande anpassar AI Assistant meddelandet därefter.
 
-   ![](assets/push-genai-3.png){zoomable="yes"}
+   ![Skärmbild med alternativ för textinställningar](assets/push-genai-3.png){zoomable="yes"}
 
 1. Välj din **[!UICONTROL Image settings]**:
 
-   * **[!UICONTROL Content type]**: Detta kategoriserar det visuella elementets karaktär och skiljer mellan olika former av visuell representation, t.ex. foton, grafik eller grafik.
-   * **[!UICONTROL Visual intensity]**: Du kan styra bildens effekt genom att justera dess intensitet. En lägre inställning (2) ger ett mjukare och mer återhållsam utseende, medan en högre inställning (10) gör bilden mer levande och visuellt kraftfull.
-   * **[!UICONTROL Lighting]**: Det här refererar till blixten i en bild, som formar atmosfären och markerar specifika element.
-   * **[!UICONTROL Composition]**: Det här refererar till elementens placering i en bilds bildruta
+   * **[!UICONTROL Content type]**: Kategorisera det visuella elementets karaktär och skilja mellan olika former av visuell representation, till exempel foton, grafik eller grafik.
+   * **[!UICONTROL Visual intensity]**: Kontrollera bildens påverkan genom att justera dess intensitet. En lägre inställning (2) ger ett mjukare och mer begränsat utseende, medan en högre inställning (10) gör bilden mer levande och visuellt kraftfull.
+   * **[!UICONTROL Lighting]**: Justera ljuset i bilden för att forma atmosfären och framhäva specifika element.
+   * **[!UICONTROL Composition]**: Ordna elementen i bildens ram.
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![Skärmbild med alternativ för bildinställningar](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som kan ge ytterligare kontext till AI-assistenten eller välja en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
 
-   Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Du behöver bara växla mellan de resurser du vill ha med i din generation.
+   Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
@@ -67,21 +67,18 @@ I följande exempel kommer vi att utnyttja AI-assistenten för att skapa överty
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
-   * **[!UICONTROL Use as reference content]**: Den valda varianten fungerar som referensinnehåll för att generera andra resultat.
-
-   * **[!UICONTROL Rephrase]**: AI-assistenten kan omformulera ditt meddelande på olika sätt, vilket håller skrivandet aktuellt och engagerande för olika målgrupper.
-
-   * **[!UICONTROL Use simpler language]**: Utnyttja AI-assistenten för att förenkla ditt språk och säkerställa tydlighet och tillgänglighet för en större publik.
+   * **[!UICONTROL Use as reference content]**: Använd den valda varianten som referensinnehåll för att generera andra resultat.
+   * **[!UICONTROL Rephrase]**: Rätta till ditt meddelande på olika sätt för att hålla skrivandet aktuellt och engagerande för olika målgrupper.
+   * **[!UICONTROL Use simpler language]**: Förenkla ditt språk för att säkerställa tydlighet och tillgänglighet för en större publik.
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![Skärmbild med alternativen Förfina ](assets/push-genai-5.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata. Klicka sedan på knappen **[!UICONTROL Simulate content]** för att kontrollera återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![Skärmbild med knappen Simulera innehåll](assets/push-genai-6.png){zoomable="yes"}
 
-När ni har definierat ert innehåll, er målgrupp och ert schema är ni redo att förbereda er för att leverera push-paket. [Läs mer](../monitor/prepare-send.md)
-
+När ni definierar innehåll, målgrupp och tidsplan förbereder ni er push-leverans. [Läs mer](../monitor/prepare-send.md)

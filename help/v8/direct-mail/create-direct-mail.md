@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa en leverans av direktutskick
 description: Lär dig skapa direktreklam med Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '471'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +22,11 @@ Så här skapar du en ny fristående direktutskick:
 
 1. Bekräfta genom att klicka på knappen **[!UICONTROL Create delivery]**.
 
-   ![](assets/dm-create.png){zoomable="yes"}
+   ![Skärmbild som visar hur en direktmeddelandeleverans skapas](assets/dm-create.png){zoomable="yes"}
 
 1. Ange en **[!UICONTROL Label]** för leveransen och öppna listrutan **[!UICONTROL Additional options]**. Om leveransen baseras på ett utökat schema är specifika **anpassade alternativ**-fält tillgängliga.
 
-   ![](assets/dm-properties.png){zoomable="yes"}
+   ![Skärmbild som visar egenskapskonfigurationen för direktmeddelandeleverans](assets/dm-properties.png){zoomable="yes"}
 
    +++Konfigurera följande inställningar baserat på dina behov.
    * **[!UICONTROL Internal name]**: Tilldela en unik identifierare till leveransen.
@@ -41,19 +41,19 @@ Så här skapar du en ny fristående direktutskick:
    * [Lär dig hur du väljer en befintlig målgrupp](../audience/add-audience.md)
    * [Lär dig skapa en ny publik](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable="yes"}
+   ![Skärmbild som visar målgruppsval för direktutskick](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Mottagarna av direktreklam måste innehålla minst sina namn och postadresser. En adress anses vara fullständig om fälten för namn, postnummer och ort inte är tomma. Mottagare med ofullständiga adresser utesluts från direktutskick.
 
-1. Aktivera alternativet **[!UICONTROL Enable control group]** om du vill ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så att du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Lär dig arbeta med kontrollgrupper](../audience/control-group.md)
+1. Aktivera alternativet **[!UICONTROL Enable control group]** om du vill ange en kontrollgrupp för att mäta effekten av leveransen. Meddelanden skickas inte till den kontrollgruppen, så du kan jämföra beteendet hos den population som tog emot meddelandet med beteendet hos kontakter som inte gjorde det. [Lär dig arbeta med kontrollgrupper](../audience/control-group.md)
 
 1. Klicka på **[!UICONTROL Edit content]** för att definiera informationen (kolumnerna) som ska exporteras till extraheringsfilen. [Läs mer](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable="yes"}
+   ![Skärmbild med redigering av innehåll för direktutskick](assets/dm-content.png){zoomable="yes"}
 
-1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du alternativet **[!UICONTROL Enable scheduling]**. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du har definierat. [Lär dig schemalägga leveranser](../msg/gs-deliveries.md#gs-schedule).
+1. Om du vill schemalägga leveransen till ett visst datum och en viss tid aktiverar du alternativet **[!UICONTROL Enable scheduling]**. När du har initierat leveransen genereras extraheringsfilen automatiskt vid exakt det datum och klockslag som du anger. [Lär dig schemalägga leveranser](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ Så här skapar du en ny fristående direktutskick:
 
 1. Klicka på **[!UICONTROL Settings]** för att komma åt avancerade alternativ som är relaterade till din leveransmall. [Läs mer](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable="yes"}
+   ![Skärmbild med avancerade inställningar för direktleverans](assets/dm-settings.png){zoomable="yes"}
 
 1. När leveransen av direktreklam är klar klickar du på knappen **[!UICONTROL Review and send]** för att validera och skicka leveransen och generera extraheringsfilen. [Lär dig hur du förhandsgranskar och skickar direktreklam](send-direct-mail.md)
