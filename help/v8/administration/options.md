@@ -12,8 +12,14 @@ ht-degree: 0%
 # Konfigurera alternativ för [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Options"
+>abstract="Options"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Create option"
+>abstract="Create option"
 
 Adobe Campaign Web innehåller tekniska alternativ som gör att du kan konfigurera programmet mer specifikt. Vissa av dessa alternativ är inbyggda, medan andra kan läggas till manuellt efter behov.
 

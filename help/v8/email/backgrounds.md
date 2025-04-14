@@ -13,8 +13,9 @@ ht-degree: 0%
 # Anpassa e-postbakgrunden {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-När du ställer in bakgrunder med e-post-Designer rekommenderar Adobe följande:
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Använd en bakgrundsfärg på e-postmeddelandets brödtext om det behövs i designen.
 1. I de flesta fall anger du bakgrundsfärger på kolumnnivå.

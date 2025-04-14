@@ -13,8 +13,10 @@ ht-degree: 0%
 # Välj en befintlig målgrupp {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-I det här avsnittet beskrivs hur du väljer en befintlig målgrupp när du definierar målpopulationen för en leverans. När du definierar huvudmålet för en leverans kan du också:
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [Skapa en engångspublik](one-time-audience.md) med frågemodelleraren.
 * [Läs in en målgrupp från en extern fil](file-audience.md) (endast för e-post).
 
