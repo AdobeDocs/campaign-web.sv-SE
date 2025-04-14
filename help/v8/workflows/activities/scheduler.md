@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >
-Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
+>Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
 
 ## Bästa praxis {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan sch
 
 ## Konfigurera aktiviteten Schemaläggaren {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Följ de här stegen för att konfigurera aktiviteten **Schemaläggaren**:
 
