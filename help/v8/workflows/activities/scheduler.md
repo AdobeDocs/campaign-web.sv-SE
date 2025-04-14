@@ -13,8 +13,9 @@ ht-degree: 2%
 # Schemaläggare {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## Bästa praxis {#scheduler-best-practices}
 
