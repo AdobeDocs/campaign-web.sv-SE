@@ -2,9 +2,9 @@
 title: Måldimensioner
 description: Läs mer om målinriktning av dimensioner på Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>title="Välj måldimension"
+>abstract="Med målgruppsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter och mycket annat. Som standard väljs målet i den inbyggda tabellen Mottagare för e-post och SMS. För push-meddelanden är standardmåldimensionen prenumerantprogram."
+
+Måldimensionen, som också kallas målmappning, är den typ av data som en åtgärd hanterar. Den definierar målgruppen, t.ex. profiler, kontraktsanställda, operatörer eller prenumeranter.
 
 ## Målgruppsdimensioner för arbetsflöden {#workflow}
 

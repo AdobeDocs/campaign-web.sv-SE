@@ -3,9 +3,9 @@ audience: end-user
 title: Anpassa e-postbakgrunden
 description: Lär dig hur du anpassar din e-postbakgrund
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
+>title="Bakgrundsinställningar"
+>abstract="Du kan anpassa bakgrundsfärgen eller bakgrundsbilden för innehållet. Observera att bakgrundsbilden inte stöds av alla e-postklienter."
+
+När du ställer in bakgrunder med e-post-Designer rekommenderar Adobe följande:
 
 1. Använd en bakgrundsfärg på e-postmeddelandets brödtext om det behövs i designen.
 1. I de flesta fall anger du bakgrundsfärger på kolumnnivå.
@@ -39,7 +41,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]\
-  Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
+  >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
 * Ange **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
 
@@ -47,7 +49,7 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]\
-  Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Välj en lämplig bakgrundsfärg om bilden inte kan visas.
+  >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Välj en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
 
@@ -55,6 +57,6 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]\
-  Detta är det vanligaste användningsfallet. Adobe rekommenderar att du anger bakgrundsfärger på kolumnnivå, eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
+  >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du anger bakgrundsfärger på kolumnnivå, eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.

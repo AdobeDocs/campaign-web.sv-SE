@@ -2,9 +2,9 @@
 title: Konfigurera [!DNL Campaign] alternativ
 description: Lär dig konfigurera Campaign-alternativ och skapa egna anpassade alternativ.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
->title="Options"
->abstract="Options"
+>title="Alternativ"
+>abstract="Alternativ"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Create option"
->abstract="Create option"
+>title="Alternativet Skapa"
+>abstract="Alternativet Skapa"
 
 Adobe Campaign Web innehåller tekniska alternativ som gör att du kan konfigurera programmet mer specifikt. Vissa av dessa alternativ är inbyggda, medan andra kan läggas till manuellt efter behov.
 
 >[!IMPORTANT]\
-Inbyggda alternativ är förkonfigurerade och bör endast ändras av avancerade användare. Kontakta Adobe om du har frågor eller frågor.
+>Inbyggda alternativ är förkonfigurerade och bör endast ändras av avancerade användare. Kontakta Adobe om du har frågor eller frågor.
 
 ## Åtkomst till kampanjalternativ {#access}
 
@@ -34,7 +34,7 @@ Det finns alternativ på menyn **[!UICONTROL Administration]** / **[!UICONTROL O
 [Alternativlistan visas på menyn Administration/Alternativ]
 
 >[!NOTE]\
-Även om alternativmenyns placering skiljer sig mellan Adobe Campaign konsol och webbgränssnittet är listan identisk och fungerar som en spegel. Mer information om tillgängliga alternativ finns i listan med alternativ i [Campaign v7-dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Även om alternativmenyns placering skiljer sig mellan Adobe Campaign konsol och webbgränssnittet är listan identisk och fungerar som en spegel. Mer information om tillgängliga alternativ finns i listan med alternativ i [Campaign v7-dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 I alternativlistan kan du:
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du arbetar med målgrupper på Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>title="Egenskaper"
+>abstract="Här finns en sammanfattning av målgruppsegenskaperna, t.ex. dess ursprung eller lagringsmapp. Klicka på länken i avsnittet **Senaste arbetsflöde** för att öppna det arbetsflöde som har använts för att skapa målgruppen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
+>title="Målgruppsstorlek"
+>abstract="Här hittar du det totala antalet profiler inom målgruppen. Klicka på knappen **Beräkna** för att uppdatera och beräkna målgruppsresultaten på nytt."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="Targeting"
->abstract="Targeting"
+>title="Målinriktning"
+>abstract="Målinriktning"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait for the end of the workflow execution."
+>title="Målgruppsfel"
+>abstract="Målgruppsdata är inte tillgängliga. Vänta tills arbetsflödets körning har avslutats."
 
 Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelandena. Listan över målgrupper som är tillgängliga för användning i Campaign Web finns på menyn **[!UICONTROL Audiences]**.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Om skrivskyddade arbetsflöden
 description: Lär dig varför arbetsflöden är skrivskyddade
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="This workflow is read only"
->abstract="You cannot edit this workflow due to your rights or the type of the workflow."
+>title="Arbetsflödet är skrivskyddat"
+>abstract="Du kan inte redigera det här arbetsflödet på grund av dina rättigheter eller arbetsflödets typ."
+
+Vissa arbetsflöden är skrivskyddade. Inbyggda tekniska arbetsflöden är alltid skrivskyddade, men den här begränsningen kan även gälla för andra typer av arbetsflöden.
 
 Kampanjanvändare kan ha begränsad åtkomst till Adobe Campaign-data. En kampanjadministratör kan ge dem behörighet att visa vissa funktioner, men inte att redigera eller ändra dem. Användarbehörigheter för data är nödvändiga för att säkerställa data- och processsäkerhet. Läs mer om behörighetshantering i Campaign i [det här avsnittet](../get-started/permissions.md).
 
