@@ -3,10 +3,10 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-post-Designer i webbgränssnittet i Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 När du skickar e-postmeddelanden bör du tänka på att mottagarna kan vidarebefordra dem, vilket ibland kan orsaka problem med återgivningen av e-postmeddelandet. Detta gäller särskilt när CSS-klasser som kanske inte stöds av e-postprovidern som används för vidarebefordran används. Om du till exempel använder CSS-klassen&quot;is-desktop-hidden&quot; för att dölja en bild på mobila enheter kanske den inte återges korrekt.
 
-Om du vill minimera dessa återgivningsproblem ska du hålla e-postdesignstrukturen så enkel som möjligt. Använd en enda design som fungerar bra för både datorer och mobila enheter och undvik att använda komplexa CSS-klasser eller andra designelement som kanske inte stöds fullt ut av alla e-postklienter. Genom att följa dessa rutiner kan du se till att dina e-postmeddelanden visas på ett enhetligt sätt, oavsett hur mottagarna visar och vidarebefordrar dem.
+För att minimera dessa återgivningsproblem rekommenderar vi att du håller e-postdesignstrukturen så enkel som möjligt. Försök använda en enda design som fungerar bra för både datorer och mobila enheter, och undvik att använda komplexa CSS-klasser eller andra designelement som kanske inte stöds fullt ut av alla e-postklienter. När du använder bilder i e-postmeddelanden bör du undvika bilder som är större än 2 MB eller använda kodade bildlänkar.
+
+Genom att följa dessa rutiner kan du se till att dina e-postmeddelanden återges korrekt, oavsett hur mottagarna visar eller vidarebefordrar dem.
 
 ## Börja skapa ditt innehåll {#start-authoring}
 
