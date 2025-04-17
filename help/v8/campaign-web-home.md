@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -133,4 +133,4 @@ Vanliga frågor om användargränssnittet i Campaign finns på en ny dedikerad s
 ## Ytterligare resurser
 
 * [Adobe Campaign produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8-dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv){target="_blank"}
+* [Adobe Campaign v8-dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv){target="_blank"}

@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa en leverans av direktutskick
 description: Lär dig skapa direktreklam med Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 4%
@@ -57,7 +57,7 @@ Så här skapar du en ny fristående direktutskick:
 
    >[!NOTE]
    >
-   >När en leverans skickas i ett arbetsflödes kontext måste du använda aktiviteten **Schemaläggaren**. Läs mer på [den här sidan](../workflows/activities/scheduler.md).
+   >När en leverans skickas i ett arbetsflödes kontext måste du använda aktiviteten **Schemaläggaren**. Läs mer om [den här sidan](../workflows/activities/scheduler.md).
 
 1. Klicka på **[!UICONTROL Settings]** för att komma åt avancerade alternativ som är relaterade till din leveransmall. [Läs mer](../advanced-settings/delivery-settings.md)
 

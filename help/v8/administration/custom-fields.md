@@ -2,7 +2,7 @@
 title: Anpassade fält
 description: Lär dig hur du konfigurerar anpassade fält och deras synlighet i gränssnittet.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%

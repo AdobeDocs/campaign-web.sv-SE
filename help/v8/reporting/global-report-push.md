@@ -3,7 +3,7 @@ audience: end-user
 title: Globala rapporter för push-kanalen
 description: Förstå globala rapporter för Push-kanalen
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter för push-kanalen
 description: Förstå kampanjrapporter för Push-kanalen
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som 
 
 ![Sammanfattningsmått för leverans visas i leveransöversiktsrapporten](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för push-kampanjrapporter.
++++Läs mer om rapportvärden för push-kampanjer.
 
 * **[!UICONTROL Messages to deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
@@ -48,7 +48,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förh�
 
 ![Inledande målgruppsstatistik visas i rapporten](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för push-kampanjrapporter.
++++Läs mer om rapportvärden för push-kampanjer.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -69,7 +69,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 ![Körningsstatistik visas i rapporten](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för push-kampanjrapporter.
++++Läs mer om rapportvärden för push-kampanjer.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -94,7 +94,7 @@ Tabellen **[!UICONTROL Generated click streams]** visar data i relation till hur
 
 ![Skapade klickströmmar som visas i rapporten](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för push-kampanjrapporter.
++++Läs mer om rapportvärden för push-kampanjer.
 
 * **[!UICONTROL Unique clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om push-leverans
 description: Lär dig hur du får tillgång till och använder push-leveransrapporter
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade
 >title="Undantag för push-meddelanden"
 >abstract="Diagrammet och tabellen **Undantag** visar olika orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet."
 
-Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Den här skärmbilden visar diagrammet och tabellen Exceptions, som visar orsaker som förhindrar att exkluderade användarprofiler tar emot meddelanden.](assets/reporting_push_6.png){zoomable="yes"}
 

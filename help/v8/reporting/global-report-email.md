@@ -3,7 +3,7 @@ audience: end-user
 title: Globala rapporter för e-postkanalen
 description: Läs mer om globala rapporter för e-postkanalen
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 1%
@@ -205,7 +205,7 @@ Tabellen **[!UICONTROL Open and click-through rate]** visar data i förhållande
 
 ![Mätvärden för öppnings- och klickfrekvens](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om Open och klickfrekvens.
++++Läs mer om inledande och klickfrekvens.
 
 * **[!UICONTROL Sent]**: Totalt antal skickade meddelanden.
 
@@ -231,7 +231,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 ![URL:er och klicka på strömmar mätvärden](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om URL:er och klicka på strömma mätvärden.
++++Läs mer om URL:er och klicka på strömningsmått.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
@@ -253,7 +253,7 @@ Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller t
 
 ![De 10 mest besökta länkvärdena](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om de 10 mest besökta länkarna.
++++Läs mer om de 10 mest besökta länkvärdena.
 
 * **[!UICONTROL Total Clicks]**: Totalt antal klick på länkar i leveranser.
 

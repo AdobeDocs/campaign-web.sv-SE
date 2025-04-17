@@ -4,20 +4,20 @@ description: Upptäck de viktigaste funktionerna i Campaign v8. Det är till fö
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2453'
 ht-degree: 0%
 
 ---
 
 # Kom igång för marknadsförare {#acs-gs-marketers}
 
-Den här guiden ger en översikt över de viktigaste funktionerna i Campaign v8, för marknadsförare som går över från Campaign Standard till Campaign v8.
+Den här guiden ger en översikt över de viktigaste funktionerna i Campaign v8 för marknadsförare som går över från Campaign Standard till Campaign v8.
 
 Du kommer åt Adobe Campaign v8 via klientkonsolen eller webbgränssnittet. Med webbgränssnittet kan ni skapa, hantera och utföra viktiga marknadsföringsåtgärder. Adobe Campaign nya webbgränssnitt är ett modernt och intuitivt gränssnitt som förenklar utformningen och leveransen av marknadsföringskampanjer. [Läs mer](../../v8/get-started/user-interface.md).
 
-Med migreringen importeras alla data från Campaign Standard i Campaign v8, vilket ger en smidig övergång med minimala avbrott i den pågående verksamheten.
+Med migreringen importeras alla data från Campaign Standard i Campaign v8, vilket ger en smidig övergång utan avbrott i den pågående verksamheten.
 
 Du kan fortsätta att använda dina befintliga autentiseringsuppgifter för att logga in och ansluta till din nya Adobe Campaign v8-instans. När du är inloggad kan du hitta alla profiler och arbetsflöden som migreras, så att du kan fortsätta arbeta med dina kampanjer.
 
@@ -75,7 +75,7 @@ Lär dig hur du [anger en kontrollgrupp](../../v8/audience/control-group.md){tar
 
 >[!AVAILABILITY]
 >
->* Alla målgrupper som skapas via aktiviteten Fråga Campaign Standard omvandlas till fördefinierade filter i Campaign v8 under övergången. Campaign v8 har också stöd för Query-aktiviteten.
+>* Alla målgrupper som skapas via Campaign Standard Query-aktivitet omvandlas till fördefinierade filter i Campaign v8 under övergången. Campaign v8 har också stöd för Query-aktiviteten.
 >
 >* Läsmålgruppen omvandlas till Query-aktivitet med [fördefinierat filter](../../v8/query/build-query.md)
 >
@@ -85,7 +85,7 @@ Lär dig hur du [anger en kontrollgrupp](../../v8/audience/control-group.md){tar
 
 ### Hantera prenumerationer {#acs-gs-marketers-sub}
 
-Du kan hantera och skapa tjänster som nyhetsbrev och kontrollera prenumerationer och avbeställningar av dessa tjänster. De viktigaste stegen är i stort sett samma som i Campaign Standarden. Läs mer på sidorna nedan:
+Du kan hantera och skapa tjänster som nyhetsbrev och kontrollera prenumerationer och avbeställningar av dessa tjänster. De viktigaste stegen är i stort sett samma som i Campaign Standard. Läs mer på sidorna nedan:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -140,7 +140,7 @@ Följ dokumentationen nedan om du vill veta mer om kampanjer:
 
 ### Skapa ett arbetsflöde {#acs-gs-marketers-wf}
 
-Arbetsflödets användargränssnitt har omarbetats helt och hållet i gränssnittet för Campaign-webben för att underlätta användning, konfiguration, körning och felsökning. Som ni redan har erfarit inom Campaign Standard kan ni med arbetsflöden samordna alla processer och uppgifter, förbättra hastighet och skala för alla delar av marknadsföringskampanjer, från att skapa segment och förbereda meddelanden till leverans. Dessutom kan ni synkronisera era kanaler med ett enda lättanvänt gränssnitt för kampanjsamordning.
+Arbetsflödets användargränssnitt har omarbetats helt och hållet i gränssnittet för Campaign-webben för att underlätta användning, konfiguration, körning och felsökning. Som ni redan har erfarit i Campaign Standard kan ni med arbetsflöden samordna alla processer och uppgifter, förbättra hastighet och skala för alla delar av marknadsföringskampanjer, från att skapa segment och förbereda meddelanden till leverans. Dessutom kan ni synkronisera era kanaler med ett enda lättanvänt gränssnitt för kampanjsamordning.
 
 Lär dig hur arbetsflöden fungerar och hur du skapar ett arbetsflöde för målinriktning i den här videon:
 
@@ -158,14 +158,14 @@ Maximera arbetsflödets effektivitet genom att granska [säkerhetsutkast och beg
 >
 >* Arbetsflödeskörningen [historik och loggar](../../v8/workflows/start-monitor-workflows.md#logs-tasks) är tillgängliga i Adobe Campaign v8.
 >
->* Historiska loggar för arbetsflöden som körs på din Campaign Standard migreras inte till Campaign v8.
+>* Historiska loggar för arbetsflöden som körs på din Campaign Standard-instans migreras inte till Campaign v8.
 >
 >* Organisationsenheter mappas till begreppet mapp för mappning och säkerställer liknande åtkomstkontroll.
 >
 
 ## Skapa och hantera leveranser {#acs-gs-marketers-deliveries}
 
-Med Campaign Web User Interface kan du som marknadsförare skapa fristående leveranser från den vänstra menyn **Leveranser** eller skapa leveranser i ett arbetsflöde, som ingår eller inte ingår i en kampanj. De viktigaste stegen är anpassade efter din tidigare erfarenhet av Campaign Standard. Lär dig hur du skapar en leverans i följande avsnitt: [Dokumentation för att skapa och hantera leverans](../../v8/msg/gs-deliveries.md).
+Med Campaign Web User Interface kan du som marknadsförare skapa fristående leveranser från den vänstra menyn **Leveranser** eller skapa leveranser i ett arbetsflöde, som ingår eller inte ingår i en kampanj. De viktigaste stegen är anpassade efter din tidigare erfarenhet i Campaign Standard. Lär dig hur du skapar en leverans i följande avsnitt: [Dokumentation för att skapa och hantera leverans](../../v8/msg/gs-deliveries.md).
 
 Länkar:
 
@@ -192,7 +192,7 @@ Länkar:
 >
 >* Leveranser som har någon av följande status har migrerats som annullerade leveranser: För annullerade/pågående försök igen.
 >
->* Spårningslänkar, URL-länkar för spegelsidor, prenumerations-/avprenumerationslänkar fungerar som i Campaign Standarden.
+>* Spårning av länkar, URL-länkar för spegelsidor, prenumerations-/avprenumerationslänkar fungerar som i Campaign Standard.
 >
 >Se även följande avsnitt: [Spårning och övervakning](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Varumärkning](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} i Adobe Campaign.
 
@@ -208,7 +208,7 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka e-po
 
 1. **Designa och definiera innehåll**
 
-   E-postdesignern för Campaign v8 liknar den som finns i Campaign Standarden. Som en påminnelse togs Campaign Standard[tidigare e-postredigerare bort](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} för några år sedan. Du bör redan ha gått över till Campaign Email Designer för att skapa och personalisera ditt e-postinnehåll.
+   E-postdesignern för Campaign v8 liknar den som finns i Campaign Standard. Som en påminnelse togs e-postredigeraren i Campaign Standard[bort](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} för några år sedan. Du bör redan ha gått över till Campaign Email Designer för att skapa och personalisera ditt e-postinnehåll.
 
    Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, hur du anpassar och testar e-postmeddelandet i följande video:
 
@@ -242,7 +242,7 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka e-po
 
 SMS-leveranser är ett praktiskt och effektivt sätt att skicka textmeddelanden till kundernas mobila enheter. Med den här funktionen kan du skapa, anpassa och förhandsgranska textbaserade meddelanden för effektiv kommunikation.
 
-I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka SMS-leveranser Campaign Standarden.
+I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka SMS-meddelanden Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -277,7 +277,7 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka SMS-
 
 Push-meddelanden är nödvändiga för att nå ut till mobilappsanvändare, även när de inte aktivt använder din app. De har olika syften, till exempel att tillhandahålla uppdateringar, driva specifika åtgärder och meddela om avtal.
 
-I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka ett push-meddelande Campaign Standard.
+I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka en push-meddelandeleverans Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -311,7 +311,7 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka ett 
 >
 >* Adobe Campaign v8 har stöd för både Android och iOS Push Channel. Om du vill ha en övergång av befintliga arbetsflöden och leveranser med Push Channel måste du ansluta till din Adobe Campaign Transition Manager. Läs mer om [Kanalkonfiguration](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
->* Observera att SDK V4 för mobilprogram [togs bort i Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} för några år sedan. Du borde redan ha gått över till Adobe Experience Platform SDK, som är detsamma som används i Campaign v8.
+>* Observera att SDK V4 för mobilprogram [togs bort i Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} för några år sedan. Du borde redan ha gått över till Adobe Experience Platform SDK, som är samma sak som används i Campaign v8.
 > 
 
 ### Direktmeddelande {#acs-gs-marketers-direct-mail}
@@ -327,13 +327,13 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka dire
 
 ### Kanal i appen {#acs-gs-marketers-in-app}
 
-Observera att kanalen i appen inte är tillgänglig i Campaign v8. Om du behöver skicka meddelanden i appen kontaktar du Adobe.
+Observera att kanalen i appen inte är tillgänglig i Campaign v8. Om du behöver skicka meddelanden i appen kontaktar du Adobe-representanten.
 
 ## Skapa och hantera landningssidor {#acs-gs-marketers-lp}
 
 Adobe Campaign v8-webbgränssnitt har en förbättrad användarupplevelse för landningssidor. Med Campaign kan ni skapa, designa och dela landningssidor. Med landningssidor kan du dirigera dina användare till onlineformulär där de kan uppdatera sina data, välja att inte ta emot meddelanden eller prenumerera på en viss tjänst, till exempel ett nyhetsbrev.
 
-Som Campaign Standard-användare som går över till Campaign v8 har era befintliga landningssidor migrerats till användargränssnittet för Campaign-webben. Du har tillgång till samma utbud av funktioner.
+Som Campaign Standard-användare som går över till Campaign v8 har era befintliga landningssidor migrerats till användargränssnittet för Campaign Web. Du har tillgång till samma utbud av funktioner.
 
 Läs mer om landningssidor i följande avsnitt:
 

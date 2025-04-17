@@ -4,7 +4,7 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2597'
 ht-degree: 4%

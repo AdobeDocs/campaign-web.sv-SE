@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporter om direktreklam
 description: Lär dig hur du får åtkomst till och använder rapporter via direktreklam
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ Diagrammet **[!UICONTROL Delivery statistics]** ger en översikt över leveransr
 >title="Leveransorsaker"
 >abstract="Diagrammet **Orsaker till uteslutning** illustrerar distributionen av avvisade meddelanden under förberedelsen för leverans, kategoriserat av varje regel."
 
-Diagrammet **[!UICONTROL Causes of exclusion]** innehåller en beskrivning av orsaker till att meddelandet avvisades under förberedelsen av leveransen. Denna uppdelning är uppdelad enligt olika regler och ger en detaljerad bild av de faktorer som bidrar till att utesluta meddelanden. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** innehåller en beskrivning av orsaker till att meddelandet avvisades under förberedelsen av leveransen. Denna uppdelning är uppdelad enligt olika regler och ger en detaljerad bild av de faktorer som bidrar till att utesluta meddelanden. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Orsaker till exkluderingsdiagram som visar distributionen av avvisade meddelanden som regel.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Läs mer om orsaker till uteslutning.
++++Läs mer om orsaker till undantag.
 
 * **[!UICONTROL Address in quarantine]**: Feltypen som genereras när en adress placeras i karantän.
 * **[!UICONTROL Address not specified]**: Feltypen genererades när en adress inte finns.

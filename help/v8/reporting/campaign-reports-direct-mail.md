@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter för Direct-postkanalen
 description: Förstå kampanjrapporter för Direct mail channel
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data som är 
 
 ![Statistik för den ursprungliga målgruppen för direktreklamkampanjer](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Läs mer om statistik om inledande målgrupper.
++++Läs mer om statistik för inledande målgrupper.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -94,7 +94,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av res
 
 Tabellen **Genererade klickströmmar** visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-+++Läs mer om Generated click streams metrics.
++++Läs mer om genererade klickströmningsvärden.
 
 * **[!UICONTROL Unique clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 

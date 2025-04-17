@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Testprofiler används för att skicka korrektur och validera meddelandeinnehåll
 
 ➡️ [Upptäck den här funktionen i videon](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Stegen för att skicka korrektur till testprofiler beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
 

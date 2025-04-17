@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med Adobe Campaign Web
 description: Kom igång med Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -143,7 +143,7 @@ Once your delivery content has been defined, you can use profiles and test profi
 
     Learn how to download, install, and manage the Adobe Campaign Client Console with this documentation.
 
-* **Discover console client interface** - Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+* **Discover console client interface** - Learn about the Adobe Campaign v8 user interface and how to navigate the main features with this tutorial video.
 
     You can access Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 

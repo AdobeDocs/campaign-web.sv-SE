@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter för SMS-kanalen
 description: Förstå kampanjrapporter för SMS-kanalen
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som 
 
 ![Leveransöversiktsrapport med SMS-statistik](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för SMS-kampanjrapporter.
++++Läs mer om rapportvärden för SMS-kampanjer.
 
 * **[!UICONTROL Total sent]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
@@ -48,7 +48,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förh�
 
 ![Inledande statistiktabell över målgrupper som visar mottagardata](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för SMS-kampanjrapporter.
++++Läs mer om rapportvärden för SMS-kampanjer.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -69,7 +69,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 ![Körningsstatistikregister som visar leveransmått](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för SMS-kampanjrapporter.
++++Läs mer om rapportvärden för SMS-kampanjer.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -94,7 +94,7 @@ Tabellen **[!UICONTROL Generated click streams]** visar data i relation till hur
 
 ![Genererad klickströmstabell som visar interaktionsdata för mottagare](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för SMS-kampanjrapporter.
++++Läs mer om rapportvärden för SMS-kampanjer.
 
 * **[!UICONTROL Distinct clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 

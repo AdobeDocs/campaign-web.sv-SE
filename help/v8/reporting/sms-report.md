@@ -3,9 +3,9 @@ audience: end-user
 title: SMS-leveransrapporter
 description: Lär dig hur du får tillgång till och använder sms-leveransrapporter
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Rapporten **Total statistik** visar data för skickade SMS-meddelanden. Mätvär
 >title="SMS-undantag"
 >abstract="Diagrammet och tabellen **Undantag** visar olika orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet."
 
-Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![Beskrivning: Bilden visar diagrammet och tabellen Uteslutningar, där det anges varför användarprofiler inte kan ta emot meddelanden.](assets/reporting_sms_6.png){zoomable="yes"}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Globala rapporter för direktreklamkanalen
 description: Läs mer om Global-rapporter för direktreklamkanalen
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Diagrammet och tabellen **[!UICONTROL Delivery statistics]** innehåller en besk
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-+++Läs mer om orsaker till uteslutning.
++++Läs mer om orsaker till undantag.
 
 * **[!UICONTROL Address in quarantine]**: Feltypen som genereras när en adress placeras i karantän.
 

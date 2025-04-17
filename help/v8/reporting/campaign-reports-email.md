@@ -3,7 +3,7 @@ audience: end-user
 title: Kampanjrapporter för e-postkanalen
 description: Läs mer om kampanjrapporter för e-postkanalen
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som 
 
 ![Skärmbild av leveransöversiktsrapport](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Messages to deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
@@ -52,7 +52,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data i förh�
 
 ![Skärmbild av den första tabellen över målgruppsstatistik](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -73,7 +73,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 ![Skärmbild av tabellen Körningsstatistik som visar leveransens framgång](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -98,7 +98,7 @@ Tabellen **[!UICONTROL Reaction statistics]** innehåller tillgängliga data fö
 
 ![Skärmbild av registret Reaktionsstatistik som innehåller tillgängliga data för mottagaraktivitet för leveransen](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Unique opens]**: Totalt antal målmottagare som öppnat ett meddelande minst en gång.
 
@@ -122,7 +122,7 @@ Tabellen **[!UICONTROL Generated click streams]** visar data i relation till hur
 
 ![Skärmbild av tabellen Genererade klickströmmar](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Unique clicks]**: Totalt antal unika mottagare som klickat i en leverans minst en gång.
 
@@ -147,7 +147,7 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 
 ![Skärmbild av uppdelningen av fel per typdiagram och tabell](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
@@ -187,7 +187,7 @@ Måtten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) som 
 
 ![Skärmbild av leveransstatistik ](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Message(s) to deliver]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
@@ -213,7 +213,7 @@ Tabellen **[!UICONTROL Open and click-trough rate]** visar data i förhållande 
 
 ![Skärmbild av tabellen Öppna och klickfrekvens](assets/campaign_report_email_8.png){zoomable="yes"}
 
-+++ Läs mer om rapportstatistik för e-postkampanjer.
++++ Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Sent]**: Totalt antal skickade meddelanden.
 
@@ -238,7 +238,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 ![Skärmbild av URL:er och klicka på teamrapport](assets/campaign_report_email_9.png){zoomable="yes"}
 
-+++ Läs mer om rapportstatistik för e-postkampanjer.
++++ Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
@@ -261,7 +261,7 @@ Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller t
 
 ![Skärmbild av diagrammet De tio mest besökta länkarna ](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
@@ -291,7 +291,7 @@ Rapporten **[!UICONTROL User activities]** visar uppdelningen av öppningar och 
 
 ![Skärmbild av rapporten Användaraktiviteter](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 

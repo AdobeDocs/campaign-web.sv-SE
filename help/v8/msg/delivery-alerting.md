@@ -3,7 +3,7 @@ audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

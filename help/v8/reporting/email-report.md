@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransrapporter via e-post
 description: Lär dig hur du får tillgång till och använder e-postleveransrapporter
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ För musen över en del av diagrammet för att visa det exakta talet.
 
 ![Skärmbild av ett diagram med en mus över en del för att visa det exakta talet](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -56,7 +56,7 @@ Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. M�
 
 ![Skärmbild av ett diagram med information om leveransstatistik](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Läs mer om rapportstatistik för e-postkampanjer.
++++Läs mer om rapportvärden för e-postkampanjer.
 
 * **[!UICONTROL Message sent]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -75,11 +75,11 @@ Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. M�
 >title="Leveransorsaker"
 >abstract="Diagrammet **Orsaker till uteslutning** och tabellen visar nedbrytningen per regel för meddelanden som avvisats under leveransförberedelsen."
 
-Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Skärmbild av orsaker till uteslutning - diagram och tabell](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
@@ -120,7 +120,7 @@ Tabellen **[!UICONTROL Broadcast statistics]** innehåller tillgängliga data f�
 
 ![Skärmbild av sändningsstatistik](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Processed emails]**: Totalt antal meddelanden som har bearbetats av leveransservern.
 
@@ -157,7 +157,7 @@ Felen som visas i den här rapporten utlöser karantänprocessen. Mer informatio
 
 ![Skärmbild av brytningen av fel per typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
@@ -218,7 +218,7 @@ Rapporten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) so
 
 ![Skärmbild av leveransstatistik](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
@@ -246,7 +246,7 @@ Tabellen **[!UICONTROL Open and click-through rate]** visar data i förhållande
 
 ![Skärmbild av tabellen Öppna och klickfrekvens](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Sent]**: Totalt antal skickade meddelanden.
 
@@ -271,7 +271,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 ![Skärmbild av URL:er och klicka på strömningsrapport](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
@@ -296,7 +296,7 @@ Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller t
 
 ![Skärmbild av diagrammet De tio mest besökta länkarna ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
@@ -328,7 +328,7 @@ Rapporten **[!UICONTROL User activities]** visar uppdelningen av öppningar och 
 
 ![Skärmbild av rapporten Användaraktiviteter](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 
@@ -347,7 +347,7 @@ Diagrammet **[!UICONTROL Tracking Statistics]** innehåller statistik om öppnin
 
 ![Skärmbild av diagrammet Spårningsstatistik](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om mätvärden för e-postleveransrapporter.
++++Läs mer om mätvärden för leveransrapporter för e-post.
 
 * **[!UICONTROL Clicks]**: Totalt antal klick på länkar i leveranser.
 

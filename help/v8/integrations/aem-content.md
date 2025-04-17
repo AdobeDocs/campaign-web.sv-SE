@@ -3,7 +3,7 @@ audience: end-user
 title: Hantera mediefiler med Adobe Experience Manager as a Cloud Service
 description: Lär dig hantera innehåll med Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 1%
