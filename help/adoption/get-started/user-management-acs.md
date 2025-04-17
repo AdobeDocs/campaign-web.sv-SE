@@ -4,9 +4,9 @@ description: Lär dig hur du migrerar hantering av användaråtkomst från Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
+source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -68,13 +68,15 @@ I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rätt
 
 ## Migreringsmetod från organisationsenhet
 
->[!CAUTION]
->
->Organisationsenheter i Adobe Campaign Standard utan **Alla (alla)** som direkt eller indirekt överordnad migreras inte till Campaign V8.
-></br>
->Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån är inloggningen begränsad i Campaign Standard men ger större åtkomst i Campaign v8 efter migreringen, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter.
+### Observera varningar
 
-I Adobe Campaign Standard mappas **organisationsenheten** t till den befintliga **mapphierarkimodellen** i Campaign V8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Organisationsenheter i Adobe Campaign Standard utan **Alla (alla)** som direkt eller indirekt överordnad migreras inte till Campaign V8.
+
+Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån väljer systemet organisationsenheten för användaren i Campaign Standard och användaren har bara åtkomst till den valda organisationsenheten och dess underordnade enheter. I Campaign v8 efter migreringen har användaren åtkomst till **alla tilldelade organisationsenheter och deras underordnade enheter**, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### Organisationsenheter och mapphantering
+
+I Adobe Campaign Standard mappas **organisationsenheten** till den befintliga **mapphierarkimodellen** i Campaign V8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Kampanj V8** |
 |---------|----------|---------|
