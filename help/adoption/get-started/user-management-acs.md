@@ -4,9 +4,9 @@ description: Lär dig hur du migrerar hantering av användaråtkomst från Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1402'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,9 @@ Följande koncept används i Adobe Campaign Standard och Campaign v8 för att ha
 
 ## Migreringsmetod från säkerhetsgrupp till operatörsgrupp
 
-### Observera varningar
-
-Funktionerna för dessa roller/namngivna rättigheter kan variera i implementeringen, vilket kan ge upphov till behörighetsproblem (t.ex. upphöjd behörighet eller funktionsstörningar). Vi rekommenderar användare att granska mappningarna efter övergången för att säkerställa korrekt åtkomstkontroll. [Läs mer om behörigheter](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### Säkerhetsgrupper och operatörsgrupper
+>[!IMPORTANT]
+>
+>Funktionerna för dessa roller/namngivna rättigheter kan variera i implementeringen, vilket kan ge upphov till behörighetsproblem (t.ex. upphöjd behörighet eller funktionsstörningar). Vi rekommenderar användare att granska mappningarna efter övergången för att säkerställa korrekt åtkomstkontroll. [Läs mer om behörigheter](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång från Adobe Campaign Standard till Campaign v8. I Campaign Standard används en **säkerhetsgrupp**, som kallas **Operator group** i Campaign v8, för att tilldela en uppsättning roller till en användare. Vissa säkerhetsgrupper/operatorgrupper är tillgängliga när de är klara, men användare kan skapa nya grupper eller ändra befintliga grupper om det behövs.
 
@@ -48,11 +46,9 @@ I både Adobe Campaign Standard och Campaign v8 mappas **säkerhetsgrupperna** o
 
 ## Migreringsmetod från användarroller till namngivna behörigheter
 
-### Observera varningar
-
-Vid migrering från Adobe Campaign Standard till Campaign v8 får användare med rollen **Datamodell** men inte **Administration** automatiskt åtkomst till **Administration**, eftersom schemaskapandet i Campaign v8 kräver administrationsbehörighet. Du kan förhindra detta genom att ta bort deras **datamodell**-roll före migreringen.
-
-### Användarroller och namngivna rättigheter
+>[!IMPORTANT]
+>
+>Vid migrering från Adobe Campaign Standard till Campaign v8 får användare med rollen **Datamodell** men inte **Administration** automatiskt åtkomst till **Administration**, eftersom schemaskapandet i Campaign v8 kräver administrationsbehörighet. Du kan förhindra detta genom att ta bort deras **datamodell**-roll före migreringen.
 
 I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rättighet** i Campaign v8. Tabellen nedan visar den terminologi som används för **Namngivna rättigheter** i Campaign v8 och som motsvarar **Användarroller** i Campaign Standard.
 
@@ -72,13 +68,12 @@ I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rätt
 
 ## Migreringsmetod från organisationsenhet
 
-### Observera varningar
+>[!IMPORTANT]
+>
+>Organisationsenheter i Adobe Campaign Standard utan **Alla (alla)** som direkt eller indirekt överordnad migreras inte till Campaign v8.
+></br>
+>Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån väljer systemet organisationsenheten för användaren i Campaign Standard och användaren har bara åtkomst till den valda organisationsenheten och dess underordnade enheter. I Campaign v8 efter migreringen har användaren åtkomst till **alla tilldelade organisationsenheter och deras underordnade enheter**, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter. Läs mer om [tilldelning av parallella organisationsenheter](#parallel-assignments).
 
-Organisationsenheter i Adobe Campaign Standard utan **Alla (alla)** som direkt eller indirekt överordnad migreras inte till Campaign v8.
-
-Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån väljer systemet organisationsenheten för användaren i Campaign Standard och användaren har bara åtkomst till den valda organisationsenheten och dess underordnade enheter. I Campaign v8 efter migreringen har användaren åtkomst till **alla tilldelade organisationsenheter och deras underordnade enheter**, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter. Läs mer om [tilldelning av parallella organisationsenheter](#parallel-assignments).
-
-### Organisationsenheter och mapphantering
 
 I Adobe Campaign Standard mappas **organisationsenheten** till den befintliga **mapphierarkimodellen** i Campaign v8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
