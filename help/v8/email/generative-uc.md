@@ -2,9 +2,9 @@
 title: Användningsexempel för AI Assistant
 description: Lär dig använda AI Assistant med hjälp av användningsexempel
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. Öppna avsnittet **[!UICONTROL AI Assistant]**.
 
-1. Aktivera funktionen **[!UICONTROL Use original content]** i AI-assistenten för att anpassa nytt innehåll efter din leveransinformation, inklusive leveransnamn och målgrupp.
+1. Aktivera funktionen **[!UICONTROL Use original content]** i AI Assistant för att anpassa nytt innehåll efter din leveransinformation, inklusive leveransnamn och målgrupp.
 
 1. Justera innehållet genom att ange din begäran i rutan **[!UICONTROL Prompt]** och anpassa inställningarna efter behov.
 
@@ -51,13 +51,13 @@ När ni har definierat ert innehåll, er målgrupp och ert schema kan ni förber
 
    * **[!UICONTROL Use as reference content]**: Den valda varianten fungerar som en referens för att generera mer innehåll.
 
-   * **[!UICONTROL Elaborate]**: Låt AI-assistenten expandera på vissa punkter och erbjuda mer djup och detaljrikedom för bättre engagemang.
+   * **[!UICONTROL Elaborate]**: Låt AI Assistant expandera på vissa punkter och erbjuda mer djup och detaljrikedom för bättre engagemang.
 
-   * **[!UICONTROL Summarize]**: Använd AI-assistenten för att skapa koncisa sammanfattningar som är enklare för e-postmottagare att sammanfatta.
+   * **[!UICONTROL Summarize]**: Använd AI Assistant för att skapa koncisa sammanfattningar som är enklare för e-postmottagare att sammanfatta.
 
-   * **[!UICONTROL Rephrase]**: AI-assistenten kan presentera ditt meddelande på olika sätt, vilket bidrar till att hålla innehållet aktuellt för en mängd olika målgrupper.
+   * **[!UICONTROL Rephrase]**: AI Assistant kan presentera ditt meddelande på olika sätt, vilket bidrar till att hålla innehållet aktuellt för en mängd olika målgrupper.
 
-   * **[!UICONTROL Use simpler language]**: Förenkla språket med AI-assistenten för att säkerställa att meddelandet är tydligt och tillgängligt för alla läsare.
+   * **[!UICONTROL Use simpler language]**: Förenkla språket med AI Assistant för att säkerställa att meddelandet är tydligt och tillgängligt för alla läsare.
 
    Justera dessutom **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för ditt innehåll.
 
@@ -89,11 +89,11 @@ När ni har definierat ert innehåll, er målgrupp och ert schema kan ni förber
 
 1. När du har konfigurerat och konfigurerat leveransen klickar du på **[!UICONTROL Edit content]**.
 
-1. Välj den resurs som du vill ändra med hjälp av AI-assistenten.
+1. Välj den resurs som du vill ändra med hjälp av AI Assistant.
 
 1. Välj **[!UICONTROL AI Assistant]** på den högra panelmenyn.
 
-1. Aktivera alternativet **[!UICONTROL Reference style]** så att AI-assistenten kan generera nytt innehåll med referensmaterialet.
+1. Aktivera alternativet **[!UICONTROL Reference style]** så att AI Assistant kan generera nytt innehåll med referensmaterialet.
 
 1. Klicka på **[!UICONTROL Upload image]** om du vill inkludera en bild som lägger till kontext i variationen.
 

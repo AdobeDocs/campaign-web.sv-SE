@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Push-meddelanden med AI-assistenten
-description: Kom igång med AI-assistenten
+title: Push-meddelande med AI Assistant
+description: Kom igång med AI Assistant
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
-# Generering av push-meddelanden med AI-assistenten {#generative-push}
+# Generering av push-meddelanden med AI Assistant {#generative-push}
 
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
 AI Assistant hjälper er att optimera effekten av era leveranser genom att föreslå olika innehåll som får genklang hos er målgrupp.
 
-I följande exempel används AI-assistenten för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
+I följande exempel används AI Assistant för att skapa övertygande meddelanden för att skapa en mer engagerande kundupplevelse.
 
 1. När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**.
 
@@ -31,7 +31,7 @@ I följande exempel används AI-assistenten för att skapa övertygande meddelan
 
    ![Skärmbild som visar menyn Visa AI-assistenten](assets/push-genai-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -44,7 +44,7 @@ I följande exempel används AI-assistenten för att skapa övertygande meddelan
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
-   * **[!UICONTROL Tone]**: Justera tonen i e-postmeddelandet så att det får genklang hos målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande anpassar AI Assistant meddelandet därefter.
+   * **[!UICONTROL Tone]**: Justera tonen i e-postmeddelandet så att det får genklang hos målgruppen. Vare sig du vill ljuda informativt, lekfullt eller övertygande anpassar AI Assistant budskapet därefter.
 
    ![Skärmbild med alternativ för textinställningar](assets/push-genai-3.png){zoomable="yes"}
 
@@ -57,7 +57,7 @@ I följande exempel används AI-assistenten för att skapa övertygande meddelan
 
    ![Skärmbild med alternativ för bildinställningar](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 

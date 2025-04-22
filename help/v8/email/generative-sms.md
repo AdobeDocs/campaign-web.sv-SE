@@ -1,23 +1,23 @@
 ---
 audience: end-user
-title: SMS med AI-assistenten
-description: Kom igång med AI-assistenten
+title: SMS med AI Assistant
+description: Kom igång med AI Assistant
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
 
-# SMS-generering med AI-assistenten {#generative-sms}
+# SMS-generering med AI Assistant {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
 När ni utformar och personaliserar era SMS-meddelanden så att de passar er målgrupp kan ni kommunicera med AI Assistant på Adobe Campaign Web, som bygger på innovativ AI-teknik.
 
@@ -46,12 +46,12 @@ Det här verktyget ger intelligenta förslag för att förfina ert innehåll och
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
-   * **[!UICONTROL Tone]**: Se till att tonen i din e-postadress får genklang hos din publik. Vare sig du vill låta informativ, lekfull eller övertygande anpassar AI Assistant meddelandet därefter.
+   * **[!UICONTROL Tone]**: Se till att tonen i din e-postadress får genklang hos din publik. Vare sig du vill ljuda informativt, lekfullt eller övertygande anpassar AI Assistant budskapet därefter.
    * **Textlängd**: Använd reglaget för att välja önskad längd på texten.
 
    ![Skärmbild med alternativ för textinställningar](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
@@ -64,8 +64,8 @@ Det här verktyget ger intelligenta förslag för att förfina ert innehåll och
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner och finjustera variationerna efter dina inställningar:
 
    * **[!UICONTROL Use as reference content]**: Den valda varianten fungerar som referensinnehåll för att generera andra resultat.
-   * **[!UICONTROL Use simpler language]**: AI-assistenten hjälper dig att skriva tydliga, koncisa meddelanden som alla kan förstå.
-   * **[!UICONTROL Rephrase]**: AI-assistenten omformulerar ditt meddelande så att det alltid är engagerande för olika målgrupper.
+   * **[!UICONTROL Use simpler language]**: AI Assistant hjälper dig att skriva tydliga, koncisa meddelanden som alla kan förstå.
+   * **[!UICONTROL Rephrase]**: AI Assistant formulerar om ditt meddelande så att det alltid är engagerande för olika målgrupper.
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
@@ -97,7 +97,7 @@ När ni definierar ert innehåll, er målgrupp och er tidsplan ska ni förbereda
 
    ![Skärmbild med AI Assistant-menyn](assets/sms-text-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use reference content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use reference content]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -114,7 +114,7 @@ När ni definierar ert innehåll, er målgrupp och er tidsplan ska ni förbereda
 
    ![Skärmbild med alternativ för textinställningar](assets/sms-text-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
@@ -125,8 +125,8 @@ När ni definierar ert innehåll, er målgrupp och er tidsplan ska ni förbereda
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner och finjustera variationerna efter dina inställningar:
 
    * **[!UICONTROL Use as reference content]**: Den valda varianten fungerar som referensinnehåll för att generera andra resultat.
-   * **[!UICONTROL Rephrase]**: AI-assistenten kan omformulera ditt meddelande på olika sätt, vilket håller skrivandet aktuellt och engagerande för olika målgrupper.
-   * **[!UICONTROL Use simpler language]**: Utnyttja AI-assistenten för att förenkla ditt språk och säkerställa tydlighet och tillgänglighet för en större publik.
+   * **[!UICONTROL Rephrase]**: AI Assistant kan omformulera ditt meddelande på olika sätt, vilket håller skrivandet aktuellt och engagerande för olika målgrupper.
+   * **[!UICONTROL Use simpler language]**: Använd AI Assistant för att förenkla ditt språk och säkerställa tydlighet och tillgänglighet för en större publik.
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 

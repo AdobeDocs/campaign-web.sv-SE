@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '808'
 ht-degree: 13%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 13%
    + [Åtkomstleveranser](msg/gs-deliveries.md)
    + [Skapa en leverans](msg/create-deliveries.md)
    + [Använd leveransmallar](msg/delivery-template.md)
-   + E-postmeddelanden {#email}
+   + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + [Konfigurera e-postinnehållet](email/edit-content.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
@@ -53,7 +53,7 @@ ht-degree: 13%
    + Push-meddelanden {#push}
       + [Kom igång med push-meddelanden](push/gs-push.md)
       + [Skapa en leverans av push-meddelanden](push/create-push.md)
-      + Omfattande push {#rich-push}
+      + Rich push {#rich-push}
          + [Designa en omfattande Android-leverans](push/rich-push.md)
          + [Designa en omfattande iOS-leverans](push/rich-push-ios.md)
       + [Designa en push-leverans](push/content-push.md)
@@ -63,7 +63,7 @@ ht-degree: 13%
       + [Skapa en SMS-leverans](sms/create-sms.md)
       + [Designa en SMS-leverans](sms/content-sms.md)
       + [Förhandsgranska och skicka en SMS-leverans](sms/send-sms.md)
-   + Direktutskick {#direct-mail}
+   + Direktmeddelande {#direct-mail}
       + [Kom igång med direktreklam](direct-mail/gs-direct-mail.md)
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
@@ -82,7 +82,7 @@ ht-degree: 13%
       + [Förhandsgranska meddelandeinnehållet](preview-test/preview-content.md)
       + [Skicka korrektur](preview-test/test-deliveries.md)
       + [Testa e-poståtergivningen](preview-test/email-rendering.md)
-   + Leveransvarning {#delivery-alerting}
+   + Leveransvarningar {#delivery-alerting}
       + [Kom igång med leveransmeddelanden](msg/delivery-alerting.md)
       + [Kontrollpaneler för leveransvarningar](msg/delivery-alerting-dashboards.md)
       + [Villkor för leveransvarning](msg/delivery-alerting-criteria.md)
@@ -98,27 +98,27 @@ ht-degree: 13%
          + [Skapa och redigera innehållsfragment](content/create-fragment.md)
          + [Använd visuella fragment i e-postmeddelanden](content/use-visual-fragments.md)
          + [Använda uttrycksfragment i uttrycksredigeraren](content/use-expression-fragments.md)
-   + Skapa e-postmeddelanden {#email-design}
+   + Designa e-postmeddelanden {#email-design}
       + [Komma igång med e-postdesignern](email/get-started-email-designer.md)
       + Börja forma din e-post {#start-design}
          + [Börja från början](email/create-email-content.md)
          + [Importera e-postinnehåll](email/existing-content.md)
          + [Koda eget innehåll](email/code-content.md)
          + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
-      + Designa ditt innehåll {#design-content}
+      + Designa innehåll {#design-content}
          + [Använda innehållskomponenter](email/content-components.md)
          + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
          + [Lägg till en länk till spegelsidan](email/mirror-page.md)
          + [Lägga till en förrubrik](email/preheader.md)
          + [Generera textversionen](email/text-version-email.md)
-      + Formatera ditt innehåll {#style}
+      + Formatera innehållet {#style}
          + [Kom igång med e-postformat](email/get-started-email-style.md)
          + [Redigera bakgrundsinställningar](email/backgrounds.md)
          + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
-   + AI-assistenten {#ai-assistant}
-      + [Arbeta med AI-assistenten](email/generative-gs.md)
+   + AI Assistant {#ai-assistant}
+      + [Arbeta med AI Assistant](email/generative-gs.md)
       + [E-postgenerering med AI](email/generative-content.md)
       + [SMS-generering med AI](email/generative-sms.md)
       + [Generering av push-meddelanden med AI](email/generative-push.md)

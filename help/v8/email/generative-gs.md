@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Kom igång med AI-assistenten
-description: Kom igång med AI-assistenten
+title: Kom igång med AI Assistant
+description: Kom igång med AI Assistant
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
 
-# Arbeta med AI-assistenten {#generative-gs}
+# Arbeta med AI Assistant {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI Assistant"
->abstract="När du har skapat och personaliserat materialet kan du använda AI-assistenten för att förbättra innehållet. Den här funktionen förenklar personalisering och innehållsförbättring genom att du kan finjustera innehållet genom att beskriva vad du vill generera."
+>abstract="När du har skapat och personaliserat materialet kan du använda AI Assistant för att förbättra innehållet. Den här funktionen förenklar personalisering och innehållsförbättring genom att du kan finjustera innehållet genom att beskriva vad du vill generera."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -40,11 +40,11 @@ AI Assistant förenklar framtagning och körning av marknadsföringskampanjer i 
 >
 >* Granska de relaterade [Guardrutorna och begränsningarna](#generative-guardrails) innan du använder den här funktionen.
 >
->* Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>* Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-## Åtkomst till AI-assistenten {#generative-access}
+## Access AI Assistant {#generative-access}
 
-AI-assistenten för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgänglig för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
+AI Assistant för e-post, push-meddelanden och SMS är nu i General Availability (GA) och tillgängligt för alla användare. Nödvändiga behörigheter och steg för att bevilja åtkomst till användare beskrivs nedan.
 
 +++ Lär dig hur du tilldelar behörigheter för innehållsgenerering
 
@@ -61,12 +61,12 @@ Lär dig definiera behörigheter i Campaign i [det här avsnittet](../get-starte
 
 ## Skyddsritningar och begränsningar {#generative-guardrails}
 
-Allmänna riktlinjer för hur du använder AI Assistant i Adobe Campaign Web för att skapa e-post anges nedan:
+Allmänna riktlinjer för hur du använder AI Assistant på Adobe Campaign Web för att skapa e-post anges nedan:
 
 * Kvaliteten på det genererade innehållet beror till stor del på det marknadsföringsmål eller den fråga du anger. Använd en väldefinierad uppmaning för GenAI-modellen att tolka korrekt.
 * Överför varumärkesresurser för att säkerställa korrekt varumärkesanpassat innehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan ha följande format: PDF-, JPEG-, PNG- eller ZIP-filer (med filformat som stöds).
 * Den maximala storleken för överförda varumärkesresurser är 50 MB. Större filer eller många bilder kan öka bearbetningstiden.
-* Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa ditt e-postinnehåll med hjälp av AI-assistenten. E-postmallar med upp till 8-10 bilder rekommenderas.
+* Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa ditt e-postinnehåll med hjälp av AI Assistant. E-postmallar med upp till 8-10 bilder rekommenderas.
 * Rapportera eventuella problematiska utdata med upp- och nedpilarna eller flaggikonerna när du väljer varianter.
 * Din användning av AI Assistant regleras av Adobe Experience Cloud Generative AI User Guidelines. [Läs mer](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Som en del av Adobe strävan efter transparens i användningen av generativa AI-verktyg för att skapa media använder Adobe Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/firefly/using/content-credentials.html).
@@ -94,7 +94,7 @@ Följande begränsningar gäller för AI Assistant på Adobe Campaign Web:
 <a href="generative-sms.md">
 <img alt="[SMS-generering med AI Assistant]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>SMS-generering med AI-assistenten</strong>
+<div><a href="generative-sms.md"><strong>SMS-generering med AI Assistant</strong>
 </div>
 <p>
 </td>

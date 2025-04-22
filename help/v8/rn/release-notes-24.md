@@ -2,9 +2,9 @@
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2024 Campaign Web User Interface-versioner
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2501'
 ht-degree: 7%
 
 ---
@@ -156,7 +156,7 @@ Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är
 
 >[!AVAILABILITY]
 >
->Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Campaign v8-klientkonsolen [versionsinformation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Förbättringar {#improvements-24-7}
 

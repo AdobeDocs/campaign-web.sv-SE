@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Landningssida med AI-assistenten
-description: Kom igång med AI-assistenten
+title: Landningssida med AI Assistant
+description: Kom igång med AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >Läs de relaterade [Guardscheman och Begränsningar](generative-gs.md#generative-guardrails) innan du börjar använda den här funktionen.
 ></br>
 >
->Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI-assistenten på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
+>Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
 Omvandla landningssidorna med AI Assistant på Adobe Campaign Web, som bygger på generativ AI.
 
@@ -35,7 +35,7 @@ Gå igenom flikarna nedan och lär dig hur du använder AI Assistant på Adobe C
 
 >[!TAB Generering av hela landningssidor]
 
-I följande exempel får du lära dig hur du använder AI-assistenten för att förfina en befintlig mall för landningssidor.
+I följande exempel får du lära dig hur du använder AI Assistant för att förfina en befintlig landningssidmall.
 
 1. När du har skapat och konfigurerat landningssidan klickar du på **[!UICONTROL Edit content]**.
 
@@ -43,9 +43,9 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 
 1. Anpassa layouten efter behov och öppna menyn **[!UICONTROL AI Assistant]**.
 
-   ![Skärmbild som visar AI Assistant-menyn i landningssidans redigerare.](assets/lp_full_gen_1.png){zoomable="yes"}
+   ![Skärmbild med AI Assistant-menyn i landningssidans redigerare.](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -56,7 +56,7 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
-   * **[!UICONTROL Tone]**: Tonen på din landningssida ska tolkas som målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande kan AI-assistenten anpassa meddelandet därefter.
+   * **[!UICONTROL Tone]**: Tonen på din landningssida ska tolkas som målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande kan AI Assistant anpassa budskapet därefter.
 
    ![Skärmbild med alternativ för textinställningar.](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 
    ![Skärmbild med alternativ för bildinställningar.](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
@@ -82,7 +82,7 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
-   * **[!UICONTROL Rephrase]**: AI-assistenten kan omformulera ditt meddelande på olika sätt, vilket håller skrivandet aktuellt och engagerande för olika målgrupper.
+   * **[!UICONTROL Rephrase]**: AI Assistant kan omformulera ditt meddelande på olika sätt, vilket håller skrivandet aktuellt och engagerande för olika målgrupper.
    * **[!UICONTROL Use simpler language]**: Förenkla ditt språk för att säkerställa tydlighet och tillgänglighet för en större publik.
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
@@ -97,7 +97,7 @@ När landningssidan är klar publicerar du den så att den blir tillgänglig fö
 
 >[!TAB Generering av endast text]
 
-I följande exempel får du lära dig hur du använder AI-assistenten för att förbättra innehållet på din landningssida.
+I följande exempel får du lära dig hur du använder AI Assistant för att förbättra innehållet på din landningssida.
 
 1. När du har skapat och konfigurerat landningssidan klickar du på **[!UICONTROL Edit content]**.
 
@@ -105,9 +105,9 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 
 1. Välj en **[!UICONTROL Text component]** för att ange specifikt innehåll som mål och öppna menyn **[!UICONTROL AI Assistant]**.
 
-   ![Skärmbild som visar AI Assistant-menyn för textkomponenter.](assets/lp-text-genai-1.png){zoomable="yes"}
+   ![Skärmbild med AI Assistant-menyn för textkomponenter.](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI-assistenten för att anpassa nytt innehåll baserat på det valda innehållet.
+1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -118,12 +118,12 @@ I följande exempel får du lära dig hur du använder AI-assistenten för att f
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
-   * **[!UICONTROL Tone]**: Tonen på din landningssida ska tolkas som målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande kan AI-assistenten anpassa meddelandet därefter.
+   * **[!UICONTROL Tone]**: Tonen på din landningssida ska tolkas som målgruppen. Vare sig du vill låta informativ, lekfull eller övertygande kan AI Assistant anpassa budskapet därefter.
    * **Textlängd**: Använd reglaget för att välja önskad längd på texten.
 
    ![Skärmbild med alternativ för textinställningar.](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
@@ -159,13 +159,13 @@ I exemplet nedan kan du lära dig hur du använder AI Assistant för att optimer
 
    Mer information om hur du konfigurerar din landningssida finns på [den här sidan](../landing-pages/create-lp.md).
 
-1. Markera den resurs som du vill ändra med AI-assistenten.
+1. Markera den resurs som du vill ändra med AI Assistant.
 
 1. Välj **[!UICONTROL AI Assistant]** på den högra menyn.
 
-   ![Skärmbild som visar AI Assistant-menyn för bildkomponenter.](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Skärmbild med AI Assistant-menyn för bildkomponenter.](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Reference style]** för AI-assistenten för att anpassa nytt innehåll baserat på referensinnehållet. Du kan också överföra en bild för att lägga till kontext till variationen.
+1. Aktivera alternativet **[!UICONTROL Reference style]** för AI Assistant för att anpassa nytt innehåll baserat på referensinnehållet. Du kan också överföra en bild för att lägga till kontext till variationen.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
 
@@ -184,7 +184,7 @@ I exemplet nedan kan du lära dig hur du använder AI Assistant för att optimer
 
    ![Skärmbild med alternativ för bildinställningar.](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI-assistenten, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 

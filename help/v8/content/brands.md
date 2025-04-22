@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärke
 
    ![Fliken Visuellt innehåll med exempelbildalternativ](assets/brands_3.png)
 
-1. När konfigurationen är klar klickar du på **[!UICONTROL Save]** och sedan på **[!UICONTROL Publish]** för att göra din varumärkesriktlinje tillgänglig i AI-assistenten.
+1. När konfigurationen är klar klickar du på **[!UICONTROL Save]** och sedan på **[!UICONTROL Publish]** för att göra din varumärkesriktlinje tillgänglig i AI Assistant.
 
 1. Klicka på **[!UICONTROL Edit brand]** om du vill ändra det publicerade varumärket.
 
@@ -104,6 +104,6 @@ Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärke
 
    ![Avancerade menyalternativ på kontrollpanelen för varumärken](assets/brands_5.png)
 
-Riktlinjerna för ditt varumärke finns nu i listrutan **[!UICONTROL Brand]** i AI-assistentmenyn. På så sätt kan AI-assistenten generera innehåll och resurser som är anpassade efter dina specifikationer. [Läs mer om AI-assistenten](../email/generative-gs.md)
+Riktlinjerna för ditt varumärke finns nu i listrutan **[!UICONTROL Brand]** i AI Assistant-menyn. På så sätt kan AI Assistant generera innehåll och resurser som är anpassade efter dina specifikationer. [Läs mer om AI Assistant](../email/generative-gs.md)
 
 ![AI-assistentmeny med listrutan Märke](assets/brands_6.png)

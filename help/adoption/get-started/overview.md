@@ -4,9 +4,9 @@ description: Lär dig de steg som krävs för att komma igång med ditt nya Camp
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Som Campaign Standard-användare som går över till Adobe Campaign v8 finns nu 
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Det innehåller olika typer av e-postmallar och genererar och återskapar bilder. Läs mer om AI-assistenten i [det här avsnittet](../../v8/email/generative-content.md). Adobe Campaign v8 har en AI-assistent tillgänglig för [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) och [Push](../../v8/email/generative-push.md).
+  Det innehåller olika typer av e-postmallar och genererar och återskapar bilder. Läs mer om AI Assistant i [det här avsnittet](../../v8/email/generative-content.md). Adobe Campaign v8 har en AI-assistent tillgänglig för [Email](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) och [Push](../../v8/email/generative-push.md).
 
 * **Uppgraderad SMS-infrastruktur - SMS v2.0**
 
