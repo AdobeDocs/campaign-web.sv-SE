@@ -3,9 +3,9 @@ audience: end-user
 title: Använda arbetsflödesaktiviteten Läs in fil
 description: Lär dig hur du använder arbetsflödesaktiviteten Läs in fil
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [anpassning](../../personalization/gs-personalization.md), för att uppdatera profiler eller andra tabeller.
 
 >[!NOTE]
->Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Du kan läsa in filer som är högst 50 MB stora.
+>Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Med webbgränssnittskonsolen kan du läsa in filer som är högst 50 MB stora. I klientkonsolen har datainläsningsaktiviteten en gräns på 150 MB. [Läs mer](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Den här aktiviteten kan användas med en [avstämningsaktivitet](reconciliation.md) för att länka oidentifierade data till befintliga resurser. Aktiviteten **Läs in fil** kan till exempel placeras före en **avstämningsaktivitet** om du importerar data som inte är standard till databasen.
 
