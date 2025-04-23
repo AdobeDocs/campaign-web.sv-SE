@@ -3,10 +3,10 @@ audience: end-user
 title: Funktionsmatris för kampanjwebbgränssnitt/klientkonsol
 description: Lista över funktioner som stöds i Campaign Web-gränssnittet
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 0%
+source-wordcount: '2071'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ Observera att termen &quot;mottagare&quot; har ändrats till &quot;profil&quot; 
 
 Alla målgrupper som skapats i Campaign-klientkonsolen eller i Adobe Experience Platform är tillgängliga i Campaign Web-användargränssnittet.
 
-Import-/exportjobb med en bild, enligt beskrivningen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"}, är inte tillgängliga i gränssnittet för Campaign-webben. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
+Import-/exportjobb med en bild, som beskrivs i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"}, är inte tillgängliga i webbgränssnittet för Campaign. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
 <!--
 ## Transactional messaging {#mc-capabilities}
@@ -103,12 +103,18 @@ Typologiregler kan väljas för en leverans eller en leveransmall i webbgränssn
 
 Använd länkarna för att bläddra i dokumentationen för Campaign v8 (klientkonsolen) och läs mer om typologiregler:
 
-* Skapa kontrollregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * Skapa trötthets-/tryckregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
-* Skapa filtreringsregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
-* Hantering av typologiregler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * Kampanjsimulering. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
-* JavaScript coding for typology rules authoring. [Läs mer](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## Arbetsflöden {#wf-capabilities}
 
@@ -116,7 +122,10 @@ Det nya gränssnittet Campaign Web ger ett nytt arbetsflödesgränssnitt där du
 
 Observera att följande funktioner endast är tillgängliga i Campaign-klientkonsolen:
 
-* Skript i arbetsflöden
+<!--
+* Scripting in workflows
+-->
+
 * ETL-aktiviteter: Export, Redigera schema, Datainläsning, Datainhämtning, SQL-kod
 
 Läs mer om tillgängliga arbetsflödesaktiviteter i arbetsflödesdokumentationen för Adobe Campaign v8 (konsol) [här](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
@@ -202,4 +211,4 @@ Bläddra bland länkarna till dokumentationen för Campaign v8 (klientkonsolen) 
 * [Arbetsflödesövervakning](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Värmekarta för arbetsflöde](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 * [Prestandaövervakning](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=sv){target="_blank"}
-* [Leveransövervakning](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+* [Övervaka levererbarhet](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
