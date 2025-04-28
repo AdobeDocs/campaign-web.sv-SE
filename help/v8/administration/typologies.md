@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med affärsregler (typologier)
 description: Lär dig hur du arbetar med typologier och typologiregler för att styra, filtrera och övervaka hur leveranser skickas.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 0%
 >id="acw_business_rules"
 >title="Typologiregler och typologiregler"
 >abstract="Typologier gör att ni kan standardisera affärspraxis för alla leveranser. En typologi är en samling typologiregler som gör att du kan kontrollera, filtrera och prioritera skickandet av leveranser. Profiler som matchar kriterier inom en typologiregel exkluderas från leveransgrupperna under förberedelsefasen."
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filtrering"
+>abstract=" Det finns två typer av typologiregler: <br/><br/>**Kontroll**-regler som säkerställer meddelandekvalitet och giltighet före sändning, till exempel teckenvisning, SMS-längd, adressformat eller URL-förkortning. <br/><br/>**Filtrera** regler som exkluderar segment för målgruppen baserat på specifika kriterier som ålder, plats, land eller telefonnummer."
 
 ## Om typologier
 
