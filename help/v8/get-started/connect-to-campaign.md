@@ -2,9 +2,9 @@
 title: Anslut till Adobe Campaign webbgränssnitt
 description: Lär dig hur du ansluter till Adobe Campaign webbgränssnitt
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,14 @@ Adobe Campaign Web finns på följande språk:
 * Koreanska - KR
 * Förenklad kinesiska - CHS
 * Traditionell kinesiska - CHT
+
+Dessutom kan språkspecifik formatering (till exempel datum, tider, kalendrar och siffror) även finnas på olika språk som stöds av användargränssnittet:
+
+* Engelska (Israel)
+* Engelska (Storbritannien)
+* Spanska (Mexiko)
+* Spanska (Latinamerika)
+* Franska (Kanada)
 
 Ditt standardspråk för Campaign Web avgörs av det språk du föredrar i din användarprofil. Det gäller inte språket för er Campaign-server och kundkonsol.
 

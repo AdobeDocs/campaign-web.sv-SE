@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2746'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,48 @@ ht-degree: 0%
 
 Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri plats, beroende på vilken åtgärd du vill utföra. Frågemodelleraren öppnas med en tom arbetsyta. Klicka på knappen **+** för att konfigurera den första noden i frågan.
 
+>[!IMPORTANT]
+>
+>Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+
 Du kan lägga till två typer av element:
 
 * **Med filterkomponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) kan du skapa egna regler, välja en målgrupp eller använda ett fördefinierat filter för att förfina frågan. De läggs till i början av frågan och på prickade övergångar. [Lär dig hur du arbetar med att filtrera komponenter](#filtering)
 
   Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports*, *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
-  ![Exempel på hur du lägger till filterkomponenter i en fråga.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
+![Exempel på hur du lägger till filterkomponenter i en fråga.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på hur du lägger till filterkomponenter i en fråga.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
-  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**som bor i New York **OR**San Francisco*.
+  Exempel: *Mottagare som är Super VIP **AND** VIP som belönar **OR** VIP Demo, **EXCEPT** mottagare som är yngre än 21 år och äldre än 45.
 
-  ![Beskrivning: Exempel på hur du lägger till gruppoperatorer i en fråga.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
+![Beskrivning: Exempel på hur du lägger till gruppoperatorer i en fråga.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på hur du lägger till filterkomponenter i en fråga.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Distribution av värden i en fråga {#distribution-values-query}
 
@@ -99,11 +128,31 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
-   ![Exempel på en fråga som riktar sig mot profiler som är 21 år eller äldre.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   För datumtypsattribut är fördefinierade värden tillgängliga med alternativet **[!UICONTROL Presets]**.
+>[!TAB Klassisk frågemodellerare]
 
-   ![Exempel på användning av datumförinställningar i en fråga.](assets/date-presets.png){zoomable="yes"}
+![Exempel på en fråga som riktar sig mot profiler som är 21 år eller äldre.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på en fråga som riktar sig mot profiler som är 21 år eller äldre.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+För datumtypsattribut är fördefinierade värden tillgängliga med alternativet **[!UICONTROL Presets]**.
+
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
+![Exempel på användning av datumförinställningar i en fråga.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på användning av datumförinställningar i en fråga.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
@@ -165,7 +214,17 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 1. I egenskapsrutan växlar du på alternativet **Sammanställd data** och väljer önskad sammanställningsfunktion.
 
-   ![Skärmbild av alternativet Sammanställd data](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
+![Skärmbild av alternativet Sammanställd data](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB Nytt regelverktyg]
+
+![Skärmbild av alternativet Sammanställd data](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Välj en målgrupp {#audiences}
 
@@ -176,6 +235,10 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 Så här filtrerar du frågan med en befintlig målgrupp:
 
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Select audience]**.
 
 1. Egenskapsrutan **Välj målgrupp** öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
@@ -183,6 +246,18 @@ Så här filtrerar du frågan med en befintlig målgrupp:
    *Frågeexempel som returnerar alla profiler som tillhör målgruppen Festival Goers:*
 
    ![Skärmbild av ett frågeexempel](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+1. Klicka på knappen **Expandera** bredvid knappen **[!UICONTROL Add condition]** och välj **[!UICONTROL Select audience]**.
+
+1. Egenskapsrutan **Välj målgrupp** öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
+
+   *Frågeexempel som returnerar alla profiler som tillhör målgruppen &quot;Coffee Works&quot;:*
+
+   ![Skärmbild av ett frågeexempel](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Använda ett fördefinierat filter {#predefined-filters}
 
@@ -193,6 +268,10 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
 Så här filtrerar du frågan med ett fördefinierat filter:
 
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Predefined filter]**.
 
 1. Panelen **Fördefinierade filter** öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
@@ -201,6 +280,18 @@ Så här filtrerar du frågan med ett fördefinierat filter:
 
    ![Skärmbild av ett frågeexempel](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB Nytt regelverktyg]
+
+1. Klicka på knappen **Expandera** bredvid knappen **[!UICONTROL Add condition]** och välj **[!UICONTROL Predefined filter]**.
+
+1. Panelen **Fördefinierade filter** öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
+
+   *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret Inaktiva kunder:*
+
+   ![Skärmbild av ett frågeexempel](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Kopiera och klistra in komponenter {#copy}
 
 Med frågemodelleraren kan du kopiera en eller flera filterkomponenter och klistra in dem i slutet av en övergång. Den här åtgärden kan utföras inom den aktuella frågans arbetsyta eller på en arbetsyta i instansen.
@@ -208,6 +299,11 @@ Med frågemodelleraren kan du kopiera en eller flera filterkomponenter och klist
 >[!NOTE]
 >
 >Den kopierade markeringen behålls så länge du arbetar i instansen. Om du loggar ut och loggar in igen kommer markeringen inte längre att vara tillgänglig för inklistring.
+
+>[!IMPORTANT]
+>
+>Det är för närvarande inte möjligt att kopiera och klistra in komponenter i funktionen Skapa ny regel. Om du vill följa de här stegen klickar du på **[!UICONTROL Get back to the classic experience]** längst upp för att använda den klassiska frågemodelleraren.
+
 
 Så här kopierar och klistrar du in filterkomponenter:
 
@@ -232,7 +328,11 @@ Så här kopierar och klistrar du in filterkomponenter:
 
 Varje gång du lägger till en ny filterkomponent i frågan länkas den automatiskt till den andra komponenten av en **AND** -operator. Det innebär att resultatet från de två filterkomponenterna kombineras.
 
-I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtervillkoret med en **AND**-operator, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade Madridians-filtret OCH som tillhör målgruppen &quot;Rabattväljare&quot;.
+I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i den andra övergången. Komponenten är länkad till det fördefinierade filtervillkoret med en **AND**-operator, vilket innebär att frågeresultaten innehåller mottagare som är målinriktade av det fördefinierade filtret &quot;Newsletter Subscribers - MADRID&quot; OCH som tillhör målgruppen &quot;Purchasers (All time)&quot;.
+
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
 
 ![Exempel på en fråga](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ Tillgängliga operatorer:
 
 ![Exempel på en fråga](assets/query-operator-change.png){zoomable="yes"}
 
-Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på knappen **+** för en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
+Dessutom kan du skapa mellanliggande grupper av komponenter genom att gruppera komponenter i en och samma grupp och länka samman dem. På så sätt placeras operatorn AND som standard, och du kan sedan ändra den till önskad operator.
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på en fråga](assets/ruleb-9.png){zoomable="yes"}
+
+Om du vill ändra operatorn som används för att länka samman filtervillkor klickar du på den, den ändras till OR, EXCEPT och sedan tillbaka till OCH och väljer önskad operator.
+
+Tillgängliga operatorer:
+
+* **AND (skärning)**: Kombinerar resultat som matchar alla filtreringskomponenter i utgående övergångar.
+* **OR (Union)**: Innehåller resultat som matchar minst en av filterkomponenterna i utgående övergångar.
+* **EXCEPT (Uteslutning)**: Utesluter resultat som matchar alla filterkomponenter i den utgående övergången.
+
+![Exempel på en fråga](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
 
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
 ![Exempel på en fråga](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på en fråga i den nya regelbyggaren](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Kontrollera och validera frågan
 
@@ -272,7 +398,19 @@ När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **Reg
 
 När frågan är klar klickar du på knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att spara den.
 
+
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
 Du kan ändra frågan när som helst genom att öppna den. Kom ihåg att när du öppnar en befintlig fråga visas den i en förenklad vy utan att **+**-knappar visas. Om du vill lägga till nya element i frågan markerar du en komponent eller operator på arbetsytan så att knapparna **+** visas.
 
 ![Exempel på en fråga](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB Nytt regelverktyg]
+
+Du kan ändra frågan när som helst genom att öppna den. Det gör du genom att klicka på knappen **[!UICONTROL Add condition]** i det övre vänstra hörnet.
+
+![Exempel på en fråga i den nya regelbyggaren](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

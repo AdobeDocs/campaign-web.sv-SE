@@ -3,9 +3,9 @@ audience: end-user
 title: Filterlistor
 description: Lär dig filtrera Adobe Campaign webblistor med inbyggda och anpassade filter.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 0%
 # Filterlistor {#filter-lists}
 
 Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du kan filtrera information baserat på specifika kontextuella kriterier. Du kan till exempel filtrera leveranser baserat på status, kanal, kontaktdatum eller mapp. Du kan också dölja korrektur.
+
+>[!IMPORTANT]
+>
+>Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Använda filter {#apply}
 

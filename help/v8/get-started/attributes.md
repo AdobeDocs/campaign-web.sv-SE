@@ -3,7 +3,7 @@ audience: end-user
 title: Välj attribut och lägg till dem i favoriter
 description: Lär dig hur du arbetar med attribut och enkelt kommer åt attribut du gillar och nyligen använt.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -29,15 +29,15 @@ Gränssnittet innehåller också ett verktyg för värdedistribution som gör at
 
 Menyn **[!UICONTROL Favorites & Recents]** i attributväljaren innehåller en ordnad vy över attribut som lagts till i favoriter, tillsammans med en lista över nyligen använda attribut. Favoritattribut visas först, följt av nyligen använda attribut, vilket gör det enkelt att hitta de attribut som krävs.
 
-![Favoriter och menyn Senaste attribut, med favoritattribut och nyligen använda attribut.](assets/attributes-favorites.png)
+![Favoriter och menyn Senaste attribut, med favoritattribut och nyligen använda attribut.](assets/attributes-favorite.png)
 
-Om du vill lägga till ett attribut i favoriter håller du pekaren över informationsknappen och väljer stjärnikonen. Attributet läggs sedan automatiskt till i favoritlistan. Om du vill ta bort ett attribut från favoriter väljer du stjärnikonen igen.
+Om du vill lägga till ett attribut i favoriter klickar du på knappen Expandera och väljer **[!UICONTROL Add to favorites]**. Attributet läggs sedan automatiskt till i favoritlistan. Om du vill ta bort ett attribut från favoriter väljer du stjärnikonen igen.
 
 Användare kan lägga till upp till 20 attribut till favoriter. Favoriter och nyligen använda attribut kopplas till varje användare i en organisation, vilket ger en smidig upplevelse på olika datorer och enheter.
 
 ## Identifiera fördelningen av värden i en tabell {#distribution}
 
-Knappen **Distribution av värden**, som är tillgänglig i informationsfönstret för ett attribut, gör att användare kan analysera värdefördelningen för det attributet i tabellen. Den här funktionen är användbar för att förstå tillgängliga värden, antal och procenttal. Det kan också hjälpa dig att undvika problem som inkonsekvent skiftläge eller stavning när du skapar frågor eller skapar uttryck.
+Knappen **Distribution av värden**, som är tillgänglig när du klickar på utökningsknappen bredvid attributet, gör att användare kan analysera värdefördelningen i tabellen. Den här funktionen är användbar för att förstå tillgängliga värden, antal och procenttal. Det kan också hjälpa dig att undvika problem som inkonsekvent skiftläge eller stavning när du skapar frågor eller skapar uttryck.
 
 ![Distribution av värdeverktygsgränssnittet, med antal och procentandelar av attributvärden.](assets/attributes-distribution-values.png)
 

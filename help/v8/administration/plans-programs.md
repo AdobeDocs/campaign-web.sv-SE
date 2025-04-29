@@ -3,10 +3,10 @@ audience: end-user
 title: Planer och program
 description: Lär dig skapa och konfigurera planer och program i Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: '489'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,13 @@ Så här hanterar du **[!UICONTROL Custom options]**:
 
 1. Gå till **[!UICONTROL Schemas]**.
 1. Välj **[!UICONTROL Editable]**-scheman i filtren.
-1. Klicka på ikonen **[!UICONTROL Edit custom details]**.
+1. Klicka på schemat.
 
 ![Skärmbild som visar redigering av anpassad information för en plan](assets/plan_edit.png){zoomable="yes"}
+
+1. Klicka på knappen **[!UICONTROL Screen edition]**.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 Konfigurera anpassade alternativ:
 
@@ -64,9 +68,13 @@ Så här hanterar du **[!UICONTROL Custom options]**:
 
 1. Gå till **[!UICONTROL Schemas]**.
 1. Välj **[!UICONTROL Editable]**-scheman i filtren.
-1. Klicka på ikonen **[!UICONTROL Edit custom details]**.
+1. Klicka på schemat.
 
 ![Skärmbild som visar redigering av anpassad information för ett program](assets/program_edit.png){zoomable="yes"}
+
+1. Klicka på knappen **[!UICONTROL Screen edition]**.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 Konfigurera anpassade alternativ:
 

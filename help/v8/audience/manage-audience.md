@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du arbetar med målgrupper på Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Målgrupper kan komma från flera olika källor. Kolumnen **[!UICONTROL Origin]*
   ➡️ [Upptäck den här funktionen i videon](#video)
 
 Om du vill ha mer information om en viss målgrupp öppnar du den i listan. Publiken visas tillsammans med antalet profiler som ingår i publiken. Uppdatera antalet målgrupper när som helst med knappen **[!UICONTROL Calculate]**.
+
+Om du vill förhandsgranska det tillfälliga schemat för en målgrupp klickar du på knappen **[!UICONTROL Schema preview]** under avsnittet Egenskaper.
 
 På fliken **[!UICONTROL Data]** kan du visualisera de profiler som är en del av målgruppen. Anpassa den här vyn genom att lägga till ytterligare kolumner eller använda avancerade filter för att förfina de data som visas.
 

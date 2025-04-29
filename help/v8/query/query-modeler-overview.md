@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,16 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och en höger ruta med information om frågan.
 
+>[!IMPORTANT]
+>
+>Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Ny användarupplevelse"
->abstract="Använd den här växeln för att växla mellan den klassiska frågemodelleraren och den nya regelgenereringsupplevelsen."
+>title="Ny funktion för regelbyggaren"
+>abstract="Använd den här växeln för att växla mellan Classic Query-modelleraren och funktionen New rule builder. Med det nya regelbyggaren kan du enklare skapa din fråga tack vare det förenklade och intuitiva gränssnittet."
 
 ![Bild som visar frågemodelleringsgränssnittet](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och e
 
 Frågemodellerarens centrala arbetsyta är den plats där du lägger till och kombinerar de olika komponenterna för att skapa din fråga. [Lär dig skapa en fråga](build-query.md)
 
-Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
+Verktygsfältet längst ned till höger på arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
 
 * **Flera markeringslägen**: Markera flera filtreringskomponenter för att kopiera och klistra in dem där du vill.
 * **Rotera**: Växla arbetsytan lodrätt.
 * **Anpassa till skärmen**: Anpassa arbetsytans zoomnivå till skärmen.
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
 * **Visningsschema**: Öppna en ögonblicksbild av arbetsytan som visar din aktuella plats.
+
+>[!TAB Ny funktion i regelbyggaren]
+
+Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
+
+* **Flytta upp markering**: Flytta komponenten uppåt en rad.
+* **Flytta ned markeringen**: Flytta komponenten nedåt en rad.
+* **Gruppmarkering**: Placera två komponenter i en grupp.
+* **Dela upp markering**: Separera komponenterna i en enskild grupp.
+* **Expandera alla**: Expandera alla grupper.
+* **Komprimera alla**: Komprimera alla grupper.
+* **Ta bort alla**: Ta bort alla grupper och komponenter.
+
+>[!ENDTABS]
 
 ### Rutan Regelegenskaper {#rule-properties}
 

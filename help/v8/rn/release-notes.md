@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 8%
+source-wordcount: '681'
+ht-degree: 12%
 
 ---
 
@@ -16,30 +16,31 @@ ht-degree: 8%
 >title="Versionsinformation"
 >abstract="Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Versionsinformationen för Campaign uppdateras därför flera gånger i månaden, med de senaste funktionerna, förbättringarna och korrigeringarna. Vi rekommenderar att du regelbundet kontrollerar dem."
 
-Adobe Campaign Web-gränssnittsreleaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en skalbar, stegvis lösning för driftsättning av funktioner. Versionsinformationen uppdateras därför flera gånger i månaden. Kontrollera dem regelbundet.
+Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
 
-Ändringar och förbättringar som är tillgängliga i tidigare versioner visas [på den här sidan](release-notes-24.md).
+Ändringar och förbättringar som är tillgängliga i tidigare versioner visas i [2024](release-notes-24.md) och [2025](release-notes-25.md).
 
-## 25 februari {#25-2-release}
+## 25 april {#25-4-release}
 
-**Releasedatum**: 18 feb 2025
+**Releasedatum**: 29 april 2025
 
-Följande funktioner och förbättringar är tillgängliga från och med februari.
 
-### Funktioner {#25-2-features}
+### Nya funktioner {#25-4-features}
+
+Följande funktioner är tillgängliga för alla användare från och med aprilversionen.
 
 <table>
 <thead>
 <tr>
-<th><strong>Skapa affärsregler (typologiregler)</strong><br/></th>
+<th><strong>Kanal för kundtjänst</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Typologier styr, filtrerar och prioriterar sändning av leveranser. Typologier validerar att leveranser alltid innehåller obligatoriska komponenter (till exempel en länk för att avbryta prenumerationen eller en ämnesrad) eller filtreringsregler som utesluter grupper från målgruppen (till exempel prenumeranter, konkurrenter eller icke-lojalitetskunder).</p>
-<img src="assets/do-not-localize/typology.gif" alt="Illustration av typologiregler i Adobe Campaign webbgränssnitt">
-<p>Mer information finns i den <a href="../administration/typologies.md">detaljerade dokumentationen</a>.</p>
+<p>Kundtjänstkanalen är nu tillgänglig i Campaign Web User-gränssnittet. Den här kanalen avser en kommunikationsmetod som används för att hantera och spåra kommunikation eller interaktioner som hanteras via ett callcenter - vanligtvis telefonsamtal som görs av agenter till kunder eller potentiella kunder.</p>
+<img src="assets/do-not-localize/call-center.gif">
+<p>Mer information finns i den <a href="../call-center/gs-call-center.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +49,15 @@ Följande funktioner och förbättringar är tillgängliga från och med februar
 <table>
 <thead>
 <tr>
-<th><strong>Målmappningar</strong><br/></th>
+<th><strong>Nytt regelverktyg</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema. Målmappningen definierar målgruppen: profiler, kontraktsanställda, operatörer, prenumeranter, potentiella kunder och andra.</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="Illustration of target mappings creation in Adobe Campaign Web User Interface">
-<p>Mer information finns i den <a href="../administration/target-mappings.md">detaljerade dokumentationen</a>.</p>
+<p>Det finns nu en ny regelbyggare som hjälper dig att definiera komplexa villkor i ett förbättrat användargränssnitt. Du kan vid behov växla från det gamla till det nya regelverktyget.</p>
+<img src="assets/do-not-localize/rule-builder-release.gif">
+<p>Mer information finns i den <a href="../query/query-modeler-overview.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -65,138 +66,56 @@ Följande funktioner och förbättringar är tillgängliga från och med februar
 <table>
 <thead>
 <tr>
-<th><strong>Schemainformation</strong><br/></th>
+<th><strong>Skapa externa konton</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Redigering av anpassade fält är nu tillgängligt från knappen <b>Redigera anpassade fält</b> som finns i schemainformationen.</p>
-<img src="assets/do-not-localize/schemas.gif" alt="Illustration of schema details and custom fields editing in Adobe Campaign Web User Interface">
-<p>Mer information finns i den <a href="../administration/schemas.md">detaljerade dokumentationen</a>.</p>
+<p>Som Campaign-administratör kan du nu skapa nya anslutningar med externa system från användargränssnittet i Campaign Web.
+Du kan också visa, uppdatera och hantera befintliga externa konton.</p>
+<p>Mer information finns i den <a href="../administration/external-account.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 25 januari {#25-1-release}
+### Förbättringar {#25-4-improvements}
 
-**Releasedatum**: 5 feb 2025
+**Förbättrat allmänt gränssnitt**
 
-Följande funktioner och förbättringar är tillgängliga från och med januari.
+* Fältbeskrivningen, Lägg till i favoriter och Distribution av värdealternativ för schemaattribut är nu mer synlig i användargränssnittet. Mer information finns i den [detaljerade dokumentationen](../get-started/attributes.md).
+* I gränssnittet visas nu datum och tid enligt det primära språk som angetts i inställningarna för Experience League. Den här förbättringen är bara tillgänglig för flera språk. En fullständig lista över vilka språk som stöds finns i [den detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
-### Funktioner {#25-1-features}
+<!--
+ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
+ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Skapa och använda visuella fragment</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Visuella fragment är fördefinierade visuella block som du kan återanvända i flera e-postleveranser eller i innehållsmallar. Den här funktionen är nu tillgänglig för alla kunder som kör serverbygget 8.6.4 och senare.</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="Illustration av hur man skapar och använder fragment i Adobe Campaign webbgränssnitt">
-<p>Mer information finns i den <a href="../content/use-visual-fragments.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**E-postredigerare**: För att förbättra tillgängligheten i webbgränssnittet för Campaign finns nu två nya fält i e-post-Designer: de motsvarar elementet `title` och språkattributet i elementet `html` i ditt e-postinnehåll. Du kan definiera de här inställningarna förutom fältet Förrubrik i delen Brödtext för e-post.
 
-<table>
-<thead>
-<tr>
-<th><strong>Använd ett tredjepartssystem för att skicka leveranser</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Nu kan du definiera externa leveranser och externa leveransmallar i webbgränssnittet för Campaign. I det här läget kompileras meddelanden till en utdatafil som kan delas med din externa leverantör. Som standard används det externa leveransläget för direktmeddelandekanalen.</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="Illustration av externa leveransinställningar i Adobe Campaign webbgränssnitt">
-<p>Mer information finns i den <a href="../msg/send-external-deliveries.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+<!--
+**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Hantera dina uppräkningar</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält. Använd uppräkningar för att standardisera värdena i dessa fält, bistå med datainmatning eller använd inom frågor.</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="Illustration av uppräkningshantering i Adobe Campaign webbgränssnitt">
-<p>Mer information finns i den <a href="../administration/enumerations.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Scheman**
 
-<table>
-<thead>
-<tr>
-<th><strong>Skapa anpassade alternativ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Nu kan du använda de tekniska funktionerna i Adobe Campaign webbgränssnitt och skapa egna anpassade alternativ som passar dina behov. Detta är särskilt användbart när du arbetar med arbetsflödesaktiviteter i JavaScript för att lagra mellanliggande data.</p>
-<img src="assets/do-not-localize/options.gif" alt="Illustration of custom options creation in Adobe Campaign Web User Interface">
-<p>Mer information finns i den <a href="../administration/options.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Du kan nu redigera det tillfälliga schemat för en lista från webbgränssnittet i Campaign. Mer information finns i den [detaljerade dokumentationen](../audience/manage-audience.md).
+* Du kan nu förhandsgranska anpassade fält i ett schema på en exempelskärm. Mer information finns i den [detaljerade dokumentationen](../administration/custom-fields.md#add).
+* Nu kan du flytta anpassade fält i listan genom att dra och släppa. Mer information finns i den [detaljerade dokumentationen](../administration/custom-fields.md#add).
 
-<table>
-<thead>
-<tr>
-<th><strong>Definiera och anropa JavaScript-koder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Nu kan du skapa JavaScript-koder i Adobe Campaign webbanvändargränssnitt. På så sätt kan du skapa återanvändbara funktioner som kan användas i olika arbetsflöden, ungefär som i ett bibliotek.</p>
-<img src="assets/do-not-localize/javascript.gif" alt="Illustration av JavaScript-kod i Adobe Campaign webbgränssnitt">
-<p>Mer information finns i den <a href="../administration/javascript-codes.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Skapa landningssidor med AI Assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant finns nu för leverans av landningssidor, vilket gör att du kan generera text, bilder eller hela sidlayouter.</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="Illustration av hur AI Assistant används för att generera landningssidor i Adobe Campaign webbanvändargränssnitt">
-<p>Mer information om AI Assistant finns i <a href="../email/generative-lp.md">detaljerad dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Nya funktioner i begränsad tillgänglighet {#25-4-features-la}
 
-### Förbättringar {#25-1-improvements}
+>[!AVAILABILITY]
+>
+>Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö. De kräver en uppgradering av Campaign-servern till v8.7.4.
+>
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-* Anpassa visningen av anpassade fält i gränssnittet:
-   * Välj ytterligare anpassade fält som ska visas i gränssnittet.
-   * Ange regler för visning av anpassade fält av länktyp, t.ex. begränsningar av listvärden som baseras på indata från ett annat fält.
-   * Ordna fälten i gränssnittet på ett flexiblare sätt: fälten kan spänna över en enda kolumn eller grupperas i underavsnitt för bättre sortering.
-   * Ange specifika fält som skrivskyddade.
+* **Skapa flerspråkig leverans** - Nu kan du skicka flera e-postleveranser på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt. Mer information finns i den [detaljerade dokumentationen](../email/edit-content.md).
 
-* Filtren Senaste och Favoriter: Lägg till attribut som används ofta till favoriter för snabb åtkomst. Förutom favoriter kan du visa och använda de senast valda attributen.
+* **Dynamisk rapportering för flerspråkiga** - Dynamisk rapportering är nu tillgänglig för flerspråkiga e-postleveranser. Mer information finns i den [detaljerade dokumentationen](../reporting/global-reports.md).
 
-* Externa konton: Den nya typen **[!UICONTROL Routing]** är tillgänglig för val när du skapar ett nytt externt konto. Med det kan du konfigurera ett specifikt externt konto för användning i externa leveranser. [Läs mer](../administration/external-account.md#routing).
+* **Stöd för SMS REST API (LA)** - Transactional Messaging REST API är nu tillgängligt för SMS-kanalen. När både e-post och mobilePhone finns i nyttolasten kan du använda fältet&quot;önskekanal&quot; för att ange kanalen. Om det inte anges används e-post som standard, såvida inte önskadChannel uttryckligen begär SMS. Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+

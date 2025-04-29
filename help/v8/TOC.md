@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '823'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,9 @@ ht-degree: 13%
       + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
+   + Callcenter {#call-center}
+      + [Kom igång med kundtjänstleveranser](call-center/gs-call-center.md)
+      + [Skapa och skicka en kundtjänstleverans](call-center/create-call-center.md)
    + Transaktionsmeddelanden {#transactional-messages}
       + [Kom igång med transaktionsmeddelanden](transactional-messaging/transactional.md)
       + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)

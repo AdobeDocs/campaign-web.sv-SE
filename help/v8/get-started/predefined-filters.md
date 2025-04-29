@@ -2,9 +2,9 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 2%
 >id="acw_predefined-filters-dashboard"
 >title="Fördefinierade filter"
 >abstract="Campaign Web-gränssnittet har ett användarvänligt gränssnitt där man enkelt kan hantera och anpassa fördefinierade filter efter just era behov. Skapa en gång och spara för framtida bruk."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Skapa ett varningsvillkor"
+>abstract="Du kan skapa egna leveransfilter via menyn Kundhantering > Fördefinierade filter."
 
 Fördefinierade filter är anpassade filter som skapas och sparas för framtida bruk. De fungerar som genvägar vid filtrering med frågemodelleraren. De kan till exempel användas vid filtrering av en lista med data eller när målgruppen för en leverans skapas.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i Adobe Campaign Web Query Modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 28%
+source-wordcount: '2184'
+ht-degree: 27%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 28%
 
 När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner, vilket gör att du kan ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält och sortering.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Avsnittet nedan innehåller information om hur du arbetar med uttrycksredigeraren för att skapa regler. Tänk på att den syntax som används för att skapa regler skiljer sig från den som används för att lägga till personalisering.
+
+>[!IMPORTANT]
+>
+>Det finns ett helt nytt gränssnitt för frågemodelleraren. Om du vill växla till den nya funktionen för regelgenerering trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Arbeta med uttrycksredigeraren {#edit}
 
@@ -41,7 +46,17 @@ När uttrycket är klart klickar du på knappen **[!UICONTROL Confirm]**. Uttryc
 
 I exemplet nedan visas ett uttryck som har konfigurerats för fältet **[!UICONTROL Value]**. Om du vill redigera den öppnar du uttrycksredigeraren med knappen **[!UICONTROL Edit expression]**.
 
+>[!BEGINTABS]
+
+>[!TAB Klassisk frågemodellerare]
+
 ![Exempel på redigeringsuttryck för värdefält](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Nytt regelverktyg]
+
+![Exempel på redigeringsuttryck för värdefält](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Hjälpfunktioner
 

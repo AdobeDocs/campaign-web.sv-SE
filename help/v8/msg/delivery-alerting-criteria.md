@@ -3,9 +3,9 @@ audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,6 @@ Fördefinierade varningsvillkor är tillgängliga i Campaign Web User Interface.
 >title="Villkorsfrekvens"
 >abstract="Kontrollera hur ofta varningar om dagen ska göras för varje leverans som uppfyller kriteriet."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Skapa ett varningsvillkor"
->abstract="Om du vill skapa egna leveransfilter skapar du ett nytt fördefinierat filter i Campaign v8-konsolen från noden **Administration** > **Konfiguration** > **Fördefinierade filter** ."
-
 Så här skapar du ett nytt villkor:
 
 1. Navigera till menyn **Leveransvarning** i den vänstra navigeringsrutan och välj fliken **Villkor** .
@@ -79,7 +74,7 @@ Så här skapar du ett nytt villkor:
 
    >[!NOTE]
    >
-   >Om inget av de fördefinierade filtren passar dina behov kontaktar du administratören för att skapa ett eget filter. Detaljerad information om hur du skapar fördefinierade filter i Campaign-konsolen finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+   >Om inget av de fördefinierade filtren passar dina behov kan du skapa egna filter på menyn **Kundhantering** > **Fördefinierade filter** . [Läs mer](../get-started/predefined-filters.md)
    >
    >Den här åtgärden får endast utföras av avancerade användare.
 

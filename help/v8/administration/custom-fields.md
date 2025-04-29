@@ -2,9 +2,9 @@
 title: Anpassade fält
 description: Lär dig hur du konfigurerar anpassade fält och deras synlighet i gränssnittet.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Redigera anpassad information"
+>title="Screen Edition"
 >abstract="Alla anpassade fält som visas i gränssnittet för den valda schemavisningen. Du kan ändra visningsordningen i gränssnittet med upp- och nedpilarna och gruppera fält i underavsnitt genom att lägga till avgränsare. Klicka på ellipsknappen om du vill ta bort ett anpassat fält eller redigera inställningar, t.ex. synlighetsvillkor."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Följ de här stegen för att visa anpassade fält i gränssnittet:
 
    ![Skärmbild som visar Schema-menyn och redigeringsbart filter i navigeringsrutan](assets/custom-fields-open.png)
 
-1. Markera schemanamnet i listan för att öppna det. En detaljerad schemavy visas. [Läs mer om schemainformation](../administration/schemas.md). Klicka på knappen **[!UICONTROL Edit custom detail]** för att komma åt anpassade fält. I det här exemplet läggs fält till för **[!UICONTROL Recipients]**-schemat.
+1. Markera schemanamnet i listan för att öppna det. En detaljerad schemavy visas. [Läs mer om schemainformation](../administration/schemas.md). Klicka på knappen **[!UICONTROL Screen edition]** för att komma åt anpassade fält. I det här exemplet läggs fält till för **[!UICONTROL Recipients]**-schemat.
 
-   ![Skärmbild som visar knappen Redigera anpassad detalj i schemavyn](assets/custom-fields-edit.png)
+   ![Skärmbild som visar knappen Skärmdefinition i schemavyn](assets/custom-fields-edit.png)
 
-1. Listan med anpassade fält som visas i schemats gränssnitt visas. Här visas fältet CRM-ID på informationsskärmen och har markerats som obligatoriskt.
+   Listan med anpassade fält som visas i schemats gränssnitt visas.
 
-   | Konfigurera anpassade fält | Återgivning i gränssnittet |
-   |  ---  |  ---  |
-   | ![Skärmbild som visar konfigurationen för anpassade fält](assets/custom-fields-detail.png){zoomable="yes"} | ![Skärmbild som visar CRM-ID-fältåtergivningen i gränssnittet](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Klicka på knappen **[!UICONTROL Preview]** om du vill visa anpassade fält på en exempelskärm.
+
+   ![](assets/custom-fields-edit2.png)
+
+   Här har fältet Belopp markerats som obligatoriskt.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Om du vill lägga till ett anpassat fält i gränssnittet klickar du på ellipsknappen och väljer något av följande alternativ:
 
@@ -89,7 +93,7 @@ Följ de här stegen för att visa anpassade fält i gränssnittet:
 
 1. När anpassade fält har lagts till kan du:
 
-   * **Ändra ordning på fält**: Använd upp- och nedpilarna.
+   * **Ändra ordning på fält**: Använd upp- och nedpilarna eller flytta fält med dra och släpp.
    * **Gör fält obligatoriska**: Markera kryssrutan **Obligatoriskt**.
    * **Redigera fältinställningar**: Klicka på ellipsknappen och välj **[!UICONTROL Edit]**. [Läs mer](#settings)
    * **Ta bort fält**: Klicka på ellipsknappen och välj **[!UICONTROL Delete]**.

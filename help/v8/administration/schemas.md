@@ -2,9 +2,9 @@
 title: Arbeta med scheman
 description: Lär dig hur du arbetar med scheman.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Arbeta med scheman"
->abstract="Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Utgåvan av anpassade fält kan även nås från knappen **Redigera anpassad information** ."
+>abstract="Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Utgåvan av anpassade fält kan även nås från knappen **Skärmutgåva** ."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ Fliken **[!UICONTROL Data]** innehåller information om schemadata.
 
 Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov.
 
-Anpassade fält kan visas på olika skärmar, till exempel profilinformation i webbgränssnittet för Campaign. Du kan styra vilka fält som visas och hur de visas i gränssnittet. Det gör du genom att klicka på knappen **[!UICONTROL Edit custom detail]** på menyn **[!UICONTROL Schemas]**.
+Anpassade fält kan visas på olika skärmar, till exempel profilinformation i webbgränssnittet för Campaign. Du kan styra vilka fält som visas och hur de visas i gränssnittet. Det gör du genom att klicka på knappen **[!UICONTROL Screen edition]** på menyn **[!UICONTROL Schemas]**.
 
 ![Skärmen Anpassade fält visar redigerbara attribut](assets/schemas-custom.png)
+
+Klicka på **[!UICONTROL Preview]** om du vill visa anpassade fält på en exempelskärm.
 
 Mer information om hur du redigerar anpassade fält i ett schema finns i följande avsnitt: [Konfigurera anpassade fält](../administration/custom-fields.md).
