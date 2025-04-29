@@ -3,7 +3,7 @@ audience: end-user
 title: Lägg till metadata i e-postinnehåll
 description: Lär dig hur du kan förbättra läsbarheten och tillgängligheten för ditt e-postinnehåll med metadata
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -37,12 +37,12 @@ Följ stegen nedan för att konfigurera de här inställningarna.
 
 1. Klicka på **[!UICONTROL Body]**, antingen från **[!UICONTROL Navigation tree]** till vänster eller ovanför den högra rutan.
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. På fliken **[!UICONTROL Settings]** skriver du text i fälten **[!UICONTROL Preheader]**, **[!UICONTROL Document title]** och/eller **[!UICONTROL Document language]**.
 
 1. Du kan också klicka på personaliseringsikonen bredvid varje fält för att anpassa ditt innehåll från profilattribut, målgrupper, sammanhangsbaserade attribut med mera. [Läs mer om personalisering](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. Klicka på **[!UICONTROL Save]** för att bekräfta ändringarna.
