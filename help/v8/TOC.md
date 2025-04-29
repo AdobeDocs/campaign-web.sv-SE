@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 13%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 13%
          + [Använda innehållskomponenter](email/content-components.md)
          + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
          + [Lägg till en länk till spegelsidan](email/mirror-page.md)
-         + [Lägga till en förrubrik](email/preheader.md)
+         + [Lägg till metadata](email/metadata.md)
          + [Generera textversionen](email/text-version-email.md)
       + Formatera innehållet {#style}
          + [Kom igång med e-postformat](email/get-started-email-style.md)
