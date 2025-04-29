@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 0%
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="Lägg till språk"
+>abstract="På den här fliken hittar du en lista över de språk som leveransen ska skickas till. Du kan lägga till fler språk genom att klicka på knappen Lägg till språk eller genom att duplicera ett annat språk på den här fliken."
 
 På skärmen för e-post **[!UICONTROL Edit content]** kan du:
 
