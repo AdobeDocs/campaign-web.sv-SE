@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Kom igång med kundtjänstleveranser
+title: Kom igång med callcenterkanalen
 description: Lär dig hur du skapar och skickar kundtjänstleveranser med Adobe Campaign Web
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-
-# Kom igång med e-postleveranser till kundtjänst {#gs-call-center}
+# Kom igång med callcenterkanalen {#gs-call-center}
 
 Med callcenterkanalen kan ni exportera målinriktade kontaktlistor för utgående telefonkampanjer direkt från Adobe Campaign webbgränssnitt. Använd det för att samordna samtal via interna team eller externa kontaktcenter.
 
