@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa en kundtjänstleverans
 description: Lär dig hur du skapar en kundtjänst med Adobe Campaign Web
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ Du kan skapa en fristående kundtjänstleverans eller skapa en i samband med ett
 Följ de här huvudstegen för att skapa och skicka en ny fristående kundtjänstleverans:
 
 1. Skapa leveransen, [läs mer](#create-delivery)
-1. Välj målgrupp, [läs mer](#select-audience)
+1. Definiera målgruppen, [läs mer](#select-audience)
 1. Redigera innehållet, [läs mer](#edit-content)
 1. Förhandsgranska och skicka leveransen, [läs mer](#preview-send)
 
@@ -42,7 +43,7 @@ Följ de här stegen för att skapa leveransen och konfigurera dess egenskaper:
 >
 >Du kan schemalägga leverans till ett visst datum. Mer information om detta hittar du i det här [avsnittet](../msg/gs-deliveries.md#gs-schedule).
 
-## Välj målgruppen{#select-audience}
+## Definiera målgruppen{#select-audience}
 
 Nu måste ni definiera målgruppen som ska användas för extraheringsfilen.
 
@@ -65,7 +66,7 @@ Nu måste ni definiera målgruppen som ska användas för extraheringsfilen.
 
 ## Redigera innehållet{#edit-content}
 
-Nu ska vi utforma innehållet i extraheringsfilen som ska genereras av kundtjänstleveransen.
+Nu ska vi redigera innehållet i extraheringsfilen som ska genereras av kundtjänstleveransen.
 
 1. Klicka på knappen **[!UICONTROL Edit content]** på leveranssidan.
 
@@ -101,7 +102,7 @@ När leveransinnehållet är klart kan du förhandsgranska det med testprofiler 
 
 De viktigaste stegen för att förhandsgranska och skicka extraheringsfilen är följande. Mer information finns på [sidan](../direct-mail/send-direct-mail.md).
 
-1. Använd **[!UICONTROL Simulate content]** från sidan med leveransinnehåll.
+1. Klicka på knappen **[!UICONTROL Simulate content]** på sidan med leveransinnehåll.
 
    ![Skärmbild som visar alternativet för att simulera innehåll på sidan för leveransinnehåll](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ När leveransen har skickats genereras extraheringsfilen automatiskt och exporte
 Spåra dina KPI-data (Key Performance Indicator) från din leveranssida och data från **[!UICONTROL Logs]**-menyn.
 
 Börja mäta effekten av ert budskap med inbyggda rapporter. [Läs mer](../reporting/direct-mail.md)
-
-
