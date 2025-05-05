@@ -95,7 +95,7 @@ Vilka objekt som visas i **Utforskaren** beror på dina användarbehörigheter. 
 
 Du kan konfigurera kolumner för att anpassa visningen så att all information du behöver visas. Se [avsnittet](#list-screens). Du kan också lägga till mappar och undermappar, vilket beskrivs i [det här avsnittet](permissions.md#folders).
 
-Mer information om Campaign-utforskaren, mapphierarkin och resurser finns i den här [Campaign v8-dokumentationen (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Mer information om Campaign-utforskaren, mapphierarkin och resurser finns i den här [Campaign v8-dokumentationen (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=sv-SE#ac-explorer-ui){target="_blank"}.
 
 ### Kampanjhantering {#user-interface-campaign-management}
 
@@ -127,7 +127,7 @@ I avsnittet **Kundhantering** kan du visa dina profiler, målgrupper och prenume
 
 * **Profiler** - Skapa och hantera profiler och få åtkomst till mottagardatabasen. Som standard kan du visa deras e-postadress, förnamn och efternamn. Läs mer om profiler i [det här avsnittet](../audience/about-recipients.md).
 * **Publiker** - Det här är din lista över målgrupper. Som standard kan du visa deras typ, ursprung, skapande, senaste ändringsdatum och etikett. Du kan filtrera listan efter ursprung. Läs mer om målgrupper och listor i [det här avsnittet](../audience/about-recipients.md).
-* **Prenumerationstjänster** - Bläddra bland dina prenumerationslistor. Som standard kan du visa deras typ, läge och etikett. Lär dig hur du hanterar prenumerationer och avbeställningar i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **Prenumerationstjänster** - Bläddra bland dina prenumerationslistor. Som standard kan du visa deras typ, läge och etikett. Lär dig hur du hanterar prenumerationer och avbeställningar i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=sv-SE){target="_blank"}.
 * **Fördefinierade filter** - Fördefinierade filter är anpassade filter som skapas och sparas för framtida bruk. De kan användas som genvägar under alla filtreringsåtgärder med frågemodelleraren, t.ex. när en lista med data filtreras eller målgruppen för en leverans skapas. Läs mer i [det här avsnittet](predefined-filters.md).
 
 ### Beslutshantering {#decision-management}
@@ -136,7 +136,7 @@ I avsnittet **Kundhantering** kan du visa dina profiler, målgrupper och prenume
 >id="acw_offers_list"
 >title="Erbjudanden"
 >abstract="Bläddra igenom listorna med erbjudanden och erbjudandemallar som har skapats i konsolen med modulen **Interaktion** . De här listorna är skrivskyddade."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Lägg till erbjudanden till en leverans"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=sv-SE" text="Lägg till erbjudanden till en leverans"
 
 I avsnittet **Beslutshantering** kan du visa erbjudanden och erbjudandemallar. De här listorna är skrivskyddade.
 

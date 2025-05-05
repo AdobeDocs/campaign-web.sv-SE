@@ -18,7 +18,7 @@ När du definierar ditt [innehåll](../email/edit-content.md), [målgrupp](../au
 
 Under leveransförberedelsen beräknas målpopulationen och meddelandeinnehållet genereras för varje profil som ingår i målet. När färdigställandet är klart är meddelandena klara att skickas, antingen omedelbart eller vid det schemalagda datumet och den schemalagda tidpunkten.
 
-Verifieringsreglerna som används vid leveransförberedelsen beskrivs i [dokumentationen för Campaign v8 (klientkonsolen) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+Verifieringsreglerna som används vid leveransförberedelsen beskrivs i [dokumentationen för Campaign v8 (klientkonsolen) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=sv-SE){target="_blank"}.
 
 De viktigaste stegen för att förbereda sändningen visas nedan.
 
@@ -115,31 +115,31 @@ Oavsett om din leverans är schemalagd eller inte<!--TBC--> kan två åtgärder 
 >id="acw_deliveries_email_metrics_delivered"
 >title="Levererat"
 >abstract="Antal meddelanden som har levererats. Indikatorn uppdateras var femte minut. Procentandelen som visas baseras på det totala antalet skickade meddelanden."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Öppnar"
 >abstract="Antalet öppnade meddelanden. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta öppningar och antalet levererade meddelanden."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klickningar"
 >abstract="Antalet mottagare som klickat minst en gång i e-postmeddelandet. Indikatorn uppdateras var femte minut. Procentandelen som visas är förhållandet mellan antalet distinkta klickningar och antalet levererade meddelanden."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Skickat"
 >abstract="Totalt antal meddelanden som bearbetats under leveransanalysen."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fel"
 >abstract="Totalt antal fel som sammanställts under leverans och automatisk returbehandling i relation till totalt antal skickade meddelanden."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/reports/kpis" text="Förstå nyckeltal"
 
 När sändningen är klar kan du kontrollera de nyckeltal som visas:
 

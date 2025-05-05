@@ -131,6 +131,6 @@ Så här konfigurerar du det externa kontot **[!UICONTROL Execution instance]**:
 
 * **[!UICONTROL Method]** - Välj mellan webbtjänsten eller FDA (Federated Data Access).
 
-  Välj FDA-konto för FDA. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
+  Välj FDA-konto för FDA. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Create archiving workflow]** - För varje körningsinstans som är registrerad i meddelandecentret, oavsett om du har en eller flera instanser, skapar du ett separat arkiveringsarbetsflöde för varje externt konto som är associerat med körningsinstansen.

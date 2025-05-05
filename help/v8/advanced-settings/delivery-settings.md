@@ -72,7 +72,7 @@ Tre olika lägen finns tillgängliga:
 
 >[!NOTE]
 >
->Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=sv-SE){target="_blank"}.
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -92,7 +92,7 @@ Fältet **[!UICONTROL Importance of the recipient]** är en formel som används 
 
 >[!NOTE]
 >
->Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=sv-SE){target="_blank"}.
 
 ## Målgruppsinställningar {#audience}
 
@@ -103,7 +103,7 @@ Fältet **[!UICONTROL Importance of the recipient]** är en formel som används 
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv. [Läs mer om målmappningar](../audience/targeting-dimensions.md).
 
-I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=sv-SE){target="_blank"}
 
 ## Leverans {#delivery}
 
@@ -130,7 +130,7 @@ Du kan definiera inställningarna för **[!UICONTROL Sending]** nedan.
 
 * **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa att skicka via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
-* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=sv-SE){target="_blank"}.
 
 I avsnittet **[!UICONTROL Wave definition]** väljer du alternativet **[!UICONTROL Send using multiple waves]** om du vill öka volymen som skickas med vågor stegvis. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 
 >[!NOTE]
 >
->Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=sv-SE#external-account-ac){target="_blank"}.
 
 ## Försök igen {#retries}
 
@@ -228,7 +228,7 @@ Du kan också välja att ange datum. Välj **[!UICONTROL Explicitly set validity
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=sv-SE#validity-period){target="_blank"}.
 
 ### Spegelvänd sidhantering (e-postkanal) {#mirror}
 

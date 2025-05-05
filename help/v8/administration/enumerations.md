@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Skapa uppräkningar"
 >abstract="Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

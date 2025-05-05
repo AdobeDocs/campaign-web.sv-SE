@@ -36,7 +36,7 @@ Det finns alternativ på menyn **[!UICONTROL Administration]** / **[!UICONTROL O
 
 >[!NOTE]
 >\
->Även om alternativmenyns placering skiljer sig mellan Adobe Campaign konsol och webbgränssnittet är listan identisk och fungerar som en spegel. Mer information om tillgängliga alternativ finns i listan med alternativ i [Campaign v7-dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Även om alternativmenyns placering skiljer sig mellan Adobe Campaign konsol och webbgränssnittet är listan identisk och fungerar som en spegel. Mer information om tillgängliga alternativ finns i listan med alternativ i [Campaign v7-dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 I alternativlistan kan du:
 

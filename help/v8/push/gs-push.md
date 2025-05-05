@@ -22,7 +22,7 @@ Du kan skapa push-meddelanden på tre olika sätt:
 
 * **Fristående leveranser**: Engagera kunderna direkt och omedelbart med individuella push-meddelandeleveranser, utan att det krävs arbetsflöden eller kampanjer.
 
-![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar push-meddelandekanalen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Lär dig hur du konfigurerar push-meddelandekanalen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=sv-SE){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

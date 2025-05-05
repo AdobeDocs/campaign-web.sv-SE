@@ -23,7 +23,7 @@ Med landningssidor kan du dirigera dina användare till onlineformulär där de 
 >
 >Landningssidor som du skapar i gränssnittet för Campaign-webben skiljer sig från webbformulär som skapas från klientkonsolen. Du kan inte visa eller redigera webbformulär som har skapats i klientkonsolen i gränssnittet för webbkampanjen.
 >
->Läs mer om webbformulär i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Läs mer om webbformulär i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=sv-SE){target="_blank"}.
 
 De viktigaste funktionerna för landningssidor anges nedan:
 

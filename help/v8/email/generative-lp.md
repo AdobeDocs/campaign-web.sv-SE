@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn5"
 >title="Generera landningssidor med AI"
 >abstract="Nu kan du använda AI Assistant för att skapa leveranser av landningssidor, så att du kan generera text, bilder eller hela sidlayouter."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!IMPORTANT]
 >

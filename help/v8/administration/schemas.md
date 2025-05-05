@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn3"
 >title="Arbeta med scheman"
 >abstract="Nu kan du komma åt information om ett schema genom att markera dess namn i listan. Utgåvan av anpassade fält kan även nås från knappen **Skärmutgåva** ."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +37,7 @@ Scheman spelar en nyckelroll i:
 
 Varje entitet i Adobe Campaign har ett dedikerat schema som säkerställer datakonsekvens och -organisation.
 
-Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Få åtkomst till scheman i webbanvändargränssnittet {#access}
 

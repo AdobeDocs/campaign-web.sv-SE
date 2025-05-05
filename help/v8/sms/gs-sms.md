@@ -23,7 +23,7 @@ SMS-kanalen erbjuder tre metoder för att skapa SMS-leveranser:
 
 * **Fristående leveranser**: Skapa individuella SMS-leveranser för snabb och direkt kommunikation med dina kunder, utan behov av arbetsflöden eller kampanjer.
 
-![](../assets/do-not-localize/book.png) Lär dig konfigurera SMS-kanal i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Lär dig konfigurera SMS-kanal i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=sv-SE){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
