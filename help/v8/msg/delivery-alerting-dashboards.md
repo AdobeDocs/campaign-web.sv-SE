@@ -77,7 +77,7 @@ Så här skapar du en kontrollpanel för leverans:
    * **Minsta förväntade dataflöde (i skickade meddelanden per timme)**: Endast leveranser med ett dataflöde som är lägre än det angivna värdet beaktas för leveranser med lågt dataflöde.
    * **Minsta antal bearbetade meddelanden som krävs för kriteriet&quot;Pågående leveranser&quot;**: Endast leveranser med en procentandel av bearbetade meddelanden som är högre än den angivna procentandelen beaktas.
 
-+++
+   +++
 
 1. Som standard är varningsmeddelanden inaktiverade, vilket innebär att e-postaviseringar som är länkade till den här instrumentpanelen inte skickas. Om du vill aktivera instrumentpanelen omedelbart växlar du alternativet **Aktiverad** i avsnittet **Allmänt** bredvid fältet för val av varningsgrupp.
 

@@ -60,7 +60,8 @@ Följ de här stegen för att konfigurera aktiviteten **Schemaläggaren**:
    * **Permanent (upphör aldrig att gälla)**: Arbetsflödet körs enligt den angivna frekvensen, utan begränsningar för tidsramen eller antalet iterationer.
    * **Giltighetsperiod**: Arbetsflödet körs enligt angiven frekvens, fram till ett visst datum. Ange start- och slutdatum.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Om du vill starta arbetsflödet direkt klickar du på **Kör väntande uppgift** i schemaläggarens övre åtgärdsfält. Den här knappen är bara tillgänglig när arbetsflödet har startats.
 
 ## Exempel {#scheduler-example}

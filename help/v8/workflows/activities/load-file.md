@@ -87,7 +87,7 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
    * **[!UICONTROL Error processing]** (strängdatatyp): Ange beteende om det finns fel på en av raderna.
    * **[!UICONTROL Value remapping]**: Med det här alternativet kan du mappa specifika värden med nya. Om kolumnen till exempel innehåller värdena &quot;Sant&quot;/&quot;Falskt&quot; kan du lägga till en mappning som automatiskt ersätter dessa värden med tecknen &quot;0&quot;/&quot;1&quot;.
 
-+++
+   +++
 
 1. I avsnittet **Formatering** anger du hur filen ska formateras för att säkerställa att data importeras på rätt sätt.
 

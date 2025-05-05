@@ -84,7 +84,7 @@ Om du vill skapa en ny målmappning går du till menyn **[!UICONTROL Administrat
 
    1. **[!UICONTROL Tracking logs]**: Aktivera alternativet **[!UICONTROL Generate a schema for tracking]** för att generera ett lagringsschema för spårningsloggar.
 
-+++
+   +++
 
 1. Använd avsnittet **[!UICONTROL Mapping]** för att identifiera vilka attribut från målmappningens schema som ska användas för varje leveransadressfält. För varje fält väljer du det attribut du vill mappa. Du kan också skapa ett uttryck som identifierar fältet. Du kan till exempel använda en lägre funktion för adressattributet.
 

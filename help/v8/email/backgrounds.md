@@ -40,7 +40,8 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   [Använd unika bakgrundsfärger på enskilda strukturkomponenter via navigeringsträdet.]\
   ![](assets/background_3.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
 * Ange **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
@@ -48,7 +49,8 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   [Lägg till en bakgrundsbild i innehållet i en specifik strukturkomponent.]\
   ![](assets/background_4.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Välj en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
@@ -56,7 +58,8 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   [Använd en bakgrundsfärg på kolumnnivå för större flexibilitet.]\
   ![](assets/background_5.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du anger bakgrundsfärger på kolumnnivå, eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.

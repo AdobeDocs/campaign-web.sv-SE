@@ -134,7 +134,7 @@ Definiera typologiregelns egenskaper:
 
    **[!UICONTROL At the end of the analysis]**: Tillämpa kontroller som kräver fullständig meddelandepersonalisering.
 
-+++
+   +++
 
    * **[!UICONTROL Level]**: Ange aviseringsnivån för regeln. Expandera avsnittet nedan om du vill ha mer information.
 
@@ -148,7 +148,7 @@ Definiera typologiregelns egenskaper:
 
    **[!UICONTROL Verbose]**: Visa information i serverloggarna.
 
-+++
+   +++
 
 ### Bygg regelinnehållet {#build}
 

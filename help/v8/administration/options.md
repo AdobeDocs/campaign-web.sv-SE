@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Adobe Campaign Web innehåller tekniska alternativ som gör att du kan konfigurera programmet mer specifikt. Vissa av dessa alternativ är inbyggda, medan andra kan läggas till manuellt efter behov.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >Inbyggda alternativ är förkonfigurerade och bör endast ändras av avancerade användare. Kontakta Adobe om du har frågor eller frågor.
 
 ## Åtkomst till kampanjalternativ {#access}
@@ -33,7 +34,8 @@ Det finns alternativ på menyn **[!UICONTROL Administration]** / **[!UICONTROL O
 ![](assets/options-list.png)\
 [Alternativlistan visas på menyn Administration/Alternativ]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Även om alternativmenyns placering skiljer sig mellan Adobe Campaign konsol och webbgränssnittet är listan identisk och fungerar som en spegel. Mer information om tillgängliga alternativ finns i listan med alternativ i [Campaign v7-dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 I alternativlistan kan du:
