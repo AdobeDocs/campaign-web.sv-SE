@@ -33,7 +33,7 @@ Den största skillnaden finns i användargränssnittet. Nedan visas en jämföre
 
 I videon nedan får du lära dig hur du får åtkomst till och navigerar i användargränssnittet för Campaign-webben och hur du anpassar lagerlistorna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453426?quality=12&learn=on&captions=swe){transcript=true}
 
 Mer information finns i dokumentationen nedan:
 
@@ -54,7 +54,7 @@ I Adobe Campaign är en profil en post som lagras i databasen och fungerar som e
 
 1. Lär dig hur du får tillgång till, hanterar och utforskar profiler med Campaign-webbgränssnittet i den här videon:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448368?quality=12&learn=on&captions=swe){transcript=true}
 
    Läs mer i dokumentationen för [Kom igång med profiler](../../v8/audience/about-recipients.md).
 
@@ -66,7 +66,7 @@ Målgrupper är profiler som har liknande beteenden och/eller egenskaper. Samlin
 
 Lär dig hur du bygger och hanterar målgrupper, väljer målgrupper för en leverans och definierar kontrollgrupper i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453206?quality=12&learn=on&captions=swe){transcript=true}
 
 Mer information finns i [Kom igång med publiker](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -144,7 +144,7 @@ Arbetsflödets användargränssnitt har omarbetats helt och hållet i gränssnit
 
 Lär dig hur arbetsflöden fungerar och hur du skapar ett arbetsflöde för målinriktning i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453976?quality=12&learn=on&captions=swe){transcript=true}
 
 Mer information finns i [Worklow-dokumentationen](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +200,7 @@ Länkar:
 
 Lär dig hur du skapar en e-postleverans från grunden, definierar målgruppen, utformar innehållet, simulerar förhandsgranskning och skickar ett korrektur i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454009?quality=12&learn=on&captions=swe){transcript=true}
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande i [Skapa din första e-postdokumentation](../../v8/email/create-email.md)
 
@@ -212,13 +212,13 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka e-po
 
    Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, hur du anpassar och testar e-postmeddelandet i följande video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453569?quality=12&learn=on&captions=swe){transcript=true}
 
    Med e-post-Designer kan du skapa engagerande, individuellt anpassade e-postmeddelanden via ett intuitivt dra-och-släpp-gränssnitt. Läs mer i [e-postdokumentationen för Designer](../../v8/email/get-started-email-designer.md)
 
    Lär dig hur du skapar ett e-postmeddelande genom att överföra HTML, hur du gör det kompatibelt med e-post-Designer och hur du konverterar det till en mall i den här videon:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447036?quality=12&learn=on&captions=swe){transcript=true}
 
    Ett innehållsfragment är en återanvändbar komponent som kan refereras i ett eller flera meddelanden. Läs mer om [Innehållsfragment](../../v8/content/fragments.md) för att förenkla skapandet av din e-postleverans.
 
@@ -228,7 +228,7 @@ I Campaign v8 liknar de detaljerade stegen för att skapa, testa och skicka e-po
 
    Lär dig hur du förhandsgranskar innehåll och personalisering i e-postmeddelanden, skickar testleveranser (korrektur) och kontrollerar e-poståtergivningen i populära dator-, mobil- och webbaserade klienter i den här videon:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450341?quality=12&learn=on&captions=swe){transcript=true}
 
 1. **Skicka loggar för e-post och kontroll**
 

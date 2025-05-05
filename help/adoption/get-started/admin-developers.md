@@ -47,7 +47,7 @@ Campaign-klientkonsolen är ett systemspecifikt program som kommunicerar med Ado
 
 I följande video förklaras hur du hämtar och installerar Adobe Campaign Client Console och hanterar anslutningen till din instans.
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449885?quality=12&learn=on&captions=swe){transcript=true}
 
 Mer information finns i [Ansluta till kampanj med klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -57,7 +57,7 @@ Observera att klientkonsolen måste installeras i en miljö som stöds. Läs mer
 
 Lär dig mer om användargränssnittet i Adobe Campaign v8 och hur du navigerar bland huvudfunktionerna i den här självstudiekursen.
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426443?quality=12&learn=on&captions=swe){transcript=true}
 
 Mer information finns i [Arbeta med klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
@@ -156,7 +156,7 @@ Se länkar till andra användbara resurser nedan:
 
 * Läs om vilka målgruppsmått och arbetsregister som är och hur Adobe Campaign hanterar data från olika datakällor i den här videon:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452596?quality=12&learn=on&captions=swe){transcript=true}
 
 * Med Campaign kan du lägga till kontakter i molndatabasen. Du kan läsa in en fil, schemalägga och automatisera flera kontaktuppdateringar, samla in data på webben eller ange profilinformation direkt i mottagartabellen.  Läs mer i [Importera data (konsol) ](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -206,7 +206,7 @@ Som administratör i Campaign Standard kan du skapa prenumerationstjänster och 
 
 Lär dig hur du konfigurerar och hanterar prenumerationer samt riktar dig till prenumeranter.
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426561?quality=12&learn=on&captions=swe){transcript=true}
 
 * Se prenumerationstjänsterna [Dokumentation för webbanvändargränssnittet](../../v8/audience/manage-subscribers.md).
 
@@ -264,7 +264,7 @@ Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade m
 
 Med Campaign v8 som administratör kan du definiera dynamiska innehållsblock och hur de används för att anpassa innehållet i e-postleveransen i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449010?quality=12&learn=on&captions=swe){transcript=true}
 
 Länkar:
 
