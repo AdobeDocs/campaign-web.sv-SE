@@ -2,20 +2,14 @@
 title: Hantera uppräkningar
 description: Lär dig arbeta med uppräkningar
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # Hantera uppräkningar {#enumerations}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Skapa uppräkningar"
->abstract="Nu kan du skapa uppräkningar direkt via Adobe Campaign webbanvändargränssnitt. En uppräkning är en lista med värden som föreslås av systemet för att fylla i fält."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

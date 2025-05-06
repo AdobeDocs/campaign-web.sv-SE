@@ -2,14 +2,20 @@
 title: Hantera externt konto
 description: Lär dig konfigurera externa konton
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1257'
 ht-degree: 4%
 
 ---
 
 # Hantera externa konton {#external-accounts}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Skapa externa konton"
+>abstract="Som Campaign-administratör kan du nu skapa nya anslutningar med externa system från användargränssnittet i Campaign Web. Du kan också visa, uppdatera och hantera befintliga externa konton."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Adobe Campaign innehåller förkonfigurerade externa konton för enkel integrering med olika system. Om du vill ansluta till fler plattformar eller anpassa anslutningarna efter arbetsflödet skapar du nya externa konton med webbanvändargränssnittet. Detta garanterar smidiga dataöverföringar.
 
@@ -148,7 +154,7 @@ Så här konfigurerar du det externa kontot **[!UICONTROL Execution instance]**:
 
 * **[!UICONTROL Method]** - Välj mellan webbtjänsten eller FDA (Federated Data Access).
 
-  Välj FDA-konto för FDA. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/fda#_blank)
+  Välj FDA-konto för FDA. Observera att Campaign-anslutningen till externa system är begränsad till avancerade användare och endast tillgänglig från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Create archiving workflow]** - För varje körningsinstans som är registrerad i meddelandecentret, oavsett om du har en eller flera instanser, skapar du ett separat arkiveringsarbetsflöde för varje externt konto som är associerat med körningsinstansen.
 
@@ -200,7 +206,7 @@ Om du vill ansluta till Adobe Campaign-konsolen med en Adobe ID måste du konfig
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Kopplingen Amazon Simple Storage Service (S3) kan användas för att importera eller exportera data till Adobe Campaign. Den kan ställas in i en arbetsflödesaktivitet. Mer information finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Kopplingen Amazon Simple Storage Service (S3) kan användas för att importera eller exportera data till Adobe Campaign. Den kan ställas in i en arbetsflödesaktivitet. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-AWS.png)
 
@@ -231,7 +237,7 @@ Mer information om var du hittar åtkomstnyckel-ID och hemlig åtkomstnyckel fin
 
 ### Azure Blob Storage {#azure-blob-external-account}
 
-Det externa kontot **[!UICONTROL Azure Blob Storage]** kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]**-arbetsflödesaktivitet. Mer information om detta finns i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Det externa kontot **[!UICONTROL Azure Blob Storage]** kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]**-arbetsflödesaktivitet. Mer information om detta finns i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-azure.png)
 
@@ -251,7 +257,7 @@ Om du vill konfigurera **[!UICONTROL Azure external account]** så att den funge
 
 ## Hadoop
 
-Med Hadoop externa konto kan du ansluta Campaign-instansen till din externa Hadoop-databas. Du kan läsa mer om Hadoop i [dokumentationen för Campaign V7-konsolen](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+Med Hadoop externa konto kan du ansluta Campaign-instansen till din externa Hadoop-databas. Du kan läsa mer om Hadoop i [dokumentationen för Campaign V7-konsolen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Skärmbild som visar konfigurationen för Hadoop externa konto.](assets/external-hadoop.png)
 

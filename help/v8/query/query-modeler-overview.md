@@ -3,14 +3,20 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Ny regelbyggare"
+>abstract="Det finns nu en ny regelbyggare som hjälper dig att definiera komplexa villkor i ett förbättrat användargränssnitt. Du kan vid behov växla från det gamla till det nya regelverktyget."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
