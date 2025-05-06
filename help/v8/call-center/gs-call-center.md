@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn2"
 >title="Kanal för Call Center"
 >abstract="Kundtjänstkanalen är nu tillgänglig i Campaign Web User-gränssnittet. Den här kanalen refererar till en kommunikationsmetod som används för att hantera och spåra kommunikation som hanteras via ett callcenter."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 Med callcenterkanalen kan ni exportera målinriktade kontaktlistor för utgående telefonkampanjer direkt från Adobe Campaign webbgränssnitt. Använd det för att samordna samtal via interna team eller externa kontaktcenter.
 
