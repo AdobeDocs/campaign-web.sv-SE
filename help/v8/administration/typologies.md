@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med affärsregler (typologier)
 description: Lär dig hur du arbetar med typologier och typologiregler för att styra, filtrera och övervaka hur leveranser skickas.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -13,10 +13,10 @@ ht-degree: 0%
 # Arbeta med affärsregler (typologier) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="Affärsregler"
 >abstract="Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,7 +40,7 @@ Typologier är tillgängliga via menyn **[!UICONTROL Administration]** > **[!UIC
 
 >[!NOTE]
 >
->Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De viktigaste stegen för att tillämpa typologier i meddelanden är följande:
 
@@ -108,7 +108,7 @@ Definiera typologiregelns egenskaper:
 
    >[!NOTE]
    >
-   >För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Välj en **[!UICONTROL Channel]** som ska associeras med regeln.
 
@@ -134,7 +134,7 @@ Definiera typologiregelns egenskaper:
 
    **[!UICONTROL At the end of the analysis]**: Tillämpa kontroller som kräver fullständig meddelandepersonalisering.
 
-   +++
++++
 
    * **[!UICONTROL Level]**: Ange aviseringsnivån för regeln. Expandera avsnittet nedan om du vill ha mer information.
 
@@ -148,7 +148,7 @@ Definiera typologiregelns egenskaper:
 
    **[!UICONTROL Verbose]**: Visa information i serverloggarna.
 
-   +++
++++
 
 ### Bygg regelinnehållet {#build}
 
