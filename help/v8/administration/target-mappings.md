@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Målmappningar"
 >abstract="Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -30,7 +30,7 @@ Målmappningar är tillgängliga på menyn **[!UICONTROL Administration]** > **[
 
 ![Skärm för målmappningslista med tillgängliga mappningar](assets/target-mappings-list.png)
 
-Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=sv-SE){target="_blank"}.
+Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Skapa en målmappning {#create-mapping}
 
@@ -84,7 +84,7 @@ Om du vill skapa en ny målmappning går du till menyn **[!UICONTROL Administrat
 
    1. **[!UICONTROL Tracking logs]**: Aktivera alternativet **[!UICONTROL Generate a schema for tracking]** för att generera ett lagringsschema för spårningsloggar.
 
-   +++
++++
 
 1. Använd avsnittet **[!UICONTROL Mapping]** för att identifiera vilka attribut från målmappningens schema som ska användas för varje leveransadressfält. För varje fält väljer du det attribut du vill mappa. Du kan också skapa ett uttryck som identifierar fältet. Du kan till exempel använda en lägre funktion för adressattributet.
 
