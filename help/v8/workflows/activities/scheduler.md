@@ -3,7 +3,7 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för schemaläggaren
 description: Lär dig hur du använder arbetsflödesaktiviteten i schemaläggaren
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 2%
@@ -61,7 +61,6 @@ Följ de här stegen för att konfigurera aktiviteten **Schemaläggaren**:
    * **Giltighetsperiod**: Arbetsflödet körs enligt angiven frekvens, fram till ett visst datum. Ange start- och slutdatum.
 
 >[!NOTE]
->\
 >Om du vill starta arbetsflödet direkt klickar du på **Kör väntande uppgift** i schemaläggarens övre åtgärdsfält. Den här knappen är bara tillgänglig när arbetsflödet har startats.
 
 ## Exempel {#scheduler-example}
