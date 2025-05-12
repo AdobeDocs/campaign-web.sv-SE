@@ -2,8 +2,12 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -16,7 +20,7 @@ Leveransvarningar är ett varningshanteringssystem som gör det möjligt för an
 
 Meddelanden anpassas baserat på särskilda varningsvillkor som definieras via Adobe Campaign webbanvändargränssnitt.
 
-Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Innehåll i e-postmeddelanden {#content}
 
