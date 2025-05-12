@@ -2,13 +2,11 @@
 audience: end-user
 title: Hantera varumärke
 description: Lär dig skapa och hantera riktlinjer för ert varumärke
-hide: true
-hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ I [!DNL Adobe Campaign Web] kan användare ange och ordna varumärkesinformation
 
 För att få åtkomst till menyn **[!UICONTROL Brands]** i [!DNL Adobe Campaign Web] måste användarna tilldelas produktprofilerna **[!UICONTROL Administrator (admin)]** och **[!UICONTROL Brand kit]** för att kunna skapa och hantera varumärken. För skrivskyddad åtkomst behöver användarna produktprofilen [!UICONTROL AI assistant].
 
-[Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Lär dig hur du tilldelar varumärkesrelaterade behörigheter
 
@@ -57,31 +55,25 @@ Följ stegen nedan om du vill skapa och hantera riktlinjer för ditt varumärke.
 
 Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärkesdokument för att extrahera informationen automatiskt:
 
-1. Välj **[!UICONTROL Brands]** på menyn **[!UICONTROL Content management]**.
-
 1. Klicka på **[!UICONTROL Create brand]** på menyn **[!UICONTROL Brands]**.
 
-   ![Varumärkesmenyn med alternativet Skapa varumärke](assets/brands_1.png)
+   ![Varumärkesmenyn med alternativet Skapa varumärke](assets/brands-1.png)
 
 1. Ange en **[!UICONTROL Name]** för ditt varumärke.
 
-1. Dra och släpp eller markera filen för att ladda upp varumärkesriktlinjerna och extrahera relevant varumärkesinformation automatiskt. Klicka på **[!UICONTROL Create brand]**.
+1. Dra och släpp eller markera filen för att ladda upp varumärkesriktlinjerna och extrahera automatiskt relevant varumärkesinformation. Klicka på **[!UICONTROL Create brand]**.
 
-   Informationsextraheringsprocessen börjar. Observera att det kan ta flera minuter att slutföra.
+   Processen för informationsextrahering börjar nu. Observera att det kan ta flera minuter att slutföra.
 
-   ![Filöverföring för extrahering av varumärkesriktlinjer](assets/brands_7.png)
+   ![Filöverföring för extrahering av varumärkesriktlinjer](assets/brands-2.png)
 
-1. Standarderna för innehåll och visuellt skapande fylls i automatiskt. Bläddra bland de olika flikarna för att anpassa informationen efter behov.
+1. Standarderna för att skapa innehåll och visuellt innehåll är nu automatiskt ifyllda. Bläddra bland de olika flikarna för att anpassa informationen efter behov. [Läs mer](#personalize)
 
-1. Klicka på ![Lägg till ikon](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Writing Style]** om du vill lägga till en stödlinje eller ett undantag, inklusive exempel.
+1. På den avancerade menyn i varje avsnitt eller kategori kan du lägga till referenser för att extrahera relevant varumärkesinformation automatiskt.
 
-   ![Fliken Skriver format med alternativet Lägg till stödlinje](assets/brands_2.png)
+   Använd alternativen **[!UICONTROL Clear section]** eller **[!UICONTROL Clear category]** om du vill ta bort befintligt innehåll.
 
-1. Klicka på ![Lägg till ikon](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Visual content]** om du vill lägga till ytterligare en stödlinje eller ett undantag.
-
-1. Om du vill lägga till en bild som visar korrekt användning väljer du **[!UICONTROL Examples]** och klickar på **[!UICONTROL Select image]**. Du kan också lägga till en bild som visar felaktig användning som ett exkluderingsexempel.
-
-   ![Fliken Visuellt innehåll med exempelbildalternativ](assets/brands_3.png)
+   ![](assets/brands-15.png)
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Save]** och sedan på **[!UICONTROL Publish]** för att göra din varumärkesriktlinje tillgänglig i AI Assistant.
 
@@ -91,19 +83,238 @@ Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärke
    >
    >Detta skapar en temporär kopia i redigeringsläge och ersätter den publicerade versionen.
 
-   ![Alternativet Redigera varumärke på menyn Varumärken](assets/brands_4.png)
+   ![Alternativet Redigera varumärke på menyn Varumärken](assets/brands-8.png)
 
-1. Öppna den avancerade menyn på din **[!UICONTROL Brands]**-kontrollpanel genom att klicka på ikonen ![Fler alternativ](assets/do-not-localize/Smock_More_18_N.svg) för att:
+1. Öppna den avancerade menyn på din **[!UICONTROL Brands]**-kontrollpanel genom att klicka på ikonen ![](assets/do-not-localize/Smock_More_18_N.svg) för att:
 
    * Visa varumärke
    * Redigera
+   * Markera som standardmärke
    * Duplicera
    * Publicera
    * Avpublicera
    * Ta bort
 
-   ![Avancerade menyalternativ på kontrollpanelen för varumärken](assets/brands_5.png)
+   ![Avancerade menyalternativ på kontrollpanelen för varumärken](assets/brands-6.png)
 
 Riktlinjerna för ditt varumärke finns nu i listrutan **[!UICONTROL Brand]** i AI Assistant-menyn. På så sätt kan AI Assistant generera innehåll och resurser som är anpassade efter dina specifikationer. [Läs mer om AI Assistant](../email/generative-gs.md)
 
 ![AI-assistentmeny med listrutan Märke](assets/brands_6.png)
+
+### Ange ett standardmärke {#default-brand}
+
+Du kan ange att ett standardvarumärke ska tillämpas automatiskt när du genererar innehåll och beräknar justeringspoäng när kampanjer skapas.
+
+Om du vill ange ett standardmärke går du till **[!UICONTROL Brands]**-instrumentpanelen. Öppna den avancerade menyn genom att klicka på ikonen ![](assets/do-not-localize/Smock_More_18_N.svg) och välja **[!UICONTROL Mark as default brand]**.
+
+![Avancerade menyalternativ på kontrollpanelen för varumärken](assets/brands-6.png)
+
+## Anpassa ert varumärke {#personalize}
+
+### Om varumärket {#about-brand}
+
+Använd fliken **[!UICONTROL About the brand]** för att etablera varumärkets kärnidentitet, som visar dess syfte, personlighet, tagline och andra definitionsattribut.
+
+1. Börja med att fylla i den grundläggande informationen för ditt varumärke i kategorin **[!UICONTROL Key details]**:
+
+   * **[!UICONTROL Brand Kit Name]**: Ange namnet på varumärkespaketet.
+
+   * **[!UICONTROL When to Use]**: Ange scenarier eller kontexter där varumärkespaketet ska användas.
+
+   * **[!UICONTROL Brand Name]**: Ange varumärkets officiella namn.
+
+   * **[!UICONTROL Brand Description]**: Ge en översikt över vad det här varumärket representerar.
+
+   * **[!UICONTROL Default Tagline]**: Lägg till den primära tagline som är associerad med varumärket.
+
+     ![Kategorin Nyckelinformation](assets/brands-about-1.png)
+
+1. I kategorin **[!UICONTROL Guiding principles]** klargör du varumärkets huvudriktning och filosofi:
+
+   * **[!UICONTROL Mission]**: Ange varumärkets syfte.
+
+   * **[!UICONTROL Vision]**: Beskriv ditt långsiktiga mål eller önskat framtida tillstånd.
+
+   * **[!UICONTROL Market Positioning]**: Förklara hur ert varumärke är positionerat på marknaden.
+
+   ![Kategorin för stödprinciper](assets/brands-about-2.png)
+
+1. Klicka på ![Dive image alt text](assets/do-not-localize/Smock_Add_18_N.svg "Add icon") i kategorin **[!UICONTROL Core brand values]** om du vill lägga till varumärkets kärnvärden och fylla i informationen:
+
+   * **[!UICONTROL Value]**: Namnge ett kärnvarumärke.
+
+   * **[!UICONTROL Description]**: Förklara vad det här värdet betyder för ditt varumärke.
+
+   * **[!UICONTROL Behaviors]**: Skapa en kontur för de åtgärder eller attityder som återspeglar det här värdet i praktiken.
+
+   * **[!UICONTROL Manifestations]**: Ge exempel på hur det här värdet uttrycks i varumärken.
+
+     ![](assets/brands-12.png)
+
+1. Om det behövs klickar du på ikonen ![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")för att uppdatera eller ta bort ett av ert varumärke.
+
+   ![Redigera ditt värde](assets/brands-10.png)
+
+Du kan nu anpassa ditt varumärke ytterligare eller [publicera ditt varumärke](#create-brand-kit).
+
+### Skrivstil {#writing-style}
+
+Avsnittet **[!UICONTROL Writing style]** beskriver standarderna för att skriva innehåll, med information om hur språk, formatering och struktur ska användas för att bibehålla tydlighet, konsekvens och konsekvens i alla material.
+
++++ Tillgänglig kategori och exempel
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategori</th>
+      <th>Underkategori</th>
+      <th>Riktlinjer, exempel</th>
+      <th>Exempel på undantag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Standarder för att skapa innehåll</td>
+      <td>Varumärkesmeddelandestandarder</td>
+      <td>Lyft fram innovation och budskap som sätter kunden i första rummet.</td>
+      <td>Övertyga inte produktfunktionerna.</td>
+    </tr>
+    <tr>
+      <td>Användning med tagline</td>
+      <td>Placera tagline under logotypen på alla digitala marknadsföringsresurser.</td>
+      <td>Ändra eller översätt inte tagline.</td>
+    </tr>
+    <tr>
+      <td>Core Messaging</td>
+      <td>Viktigt om de viktigaste fördelarna - till exempel ökad produktivitet.</td>
+      <td>Använd inte orelaterade värdeförslag.</td>
+    </tr>
+    <tr>
+      <td>Namngivningsstandarder</td>
+      <td>Använd enkla, beskrivande namn som "ProScheduler".</td>
+      <td>Använd inte komplexa termer eller specialtecken.</td>
+    </tr>
+    <tr>
+      <td rowspan="5">Format för varumärkeskommunikation</td>
+      <td>Varumärkespersonalitet</td>
+      <td>Lätt och lättåtkomligt.</td>
+      <td>Var inte besegrad.</td>
+    </tr>
+    <tr>
+      <td>Skrivmekanism</td>
+      <td>Håll meningarna korta och slagkraftiga.</td>
+      <td>Använd inte för mycket jargon.</td>
+    </tr>
+    <tr>
+      <td>Situationen - ton</td>
+      <td>Bibehåll en professionell ton inom kriskommunikation.</td>
+      <td>Avvisa inte supportkommunikation.</td>
+    </tr>
+    <tr>
+      <td>Riktlinjer för Word-val</td>
+      <td>Använd ord som"innovativ" och"smart".</td>
+      <td>Undvik ord som "billig" eller "hack".</td>
+    </tr>
+    <tr>
+      <td>Språkstandarder</td>
+      <td>Följ amerikansk engelska konventioner.</td>
+      <td>Blanda inte engelska och amerikanska stavningar.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Regler för regelefterlevnad</td>
+      <td>Varumärkesstandarder</td>
+      <td>Använd alltid symbolen ™ eller ®.</td>
+      <td>Utelämna inte giltiga symboler vid behov.</td>
+    </tr>
+    <tr>
+      <td>Copyrightstandarder</td>
+      <td>Inkludera copyrightmeddelanden i marknadsföringsmaterial.</td>
+      <td>Använd inte innehåll från tredje part utan tillstånd.</td>
+    </tr>
+    <tr>
+      <td>Friskrivningsstandarder</td>
+      <td>Visa ansvarsfriskrivningar på ett läsligt sätt om digitala resurser.</td>
+      <td>Dölj inte ansvarsfriskrivningar i områden som inte är synliga.</td>
+    </tr>
+</table>
+
++++
+
+</br>
+
+Så här anpassar du din **[!UICONTROL Writing Style]**:
+
+1. Klicka på ![](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Writing Style]** för att lägga till en stödlinje, ett undantag eller ett undantag.
+
+1. Ange din riktlinje, undantag eller undantag och klicka på **[!UICONTROL Add]**.
+
+   ![](assets/brands-3.png)
+
+1. Välj en av stödlinjerna eller uteslutningen som du vill uppdatera eller ta bort.
+
+1. Klicka på ![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit") om du vill redigera ditt exempel eller på ikonen ![Dirigera bildens alt-text](assets/do-not-localize/Smock_Delete_18_N.svg "Ta bort")om du vill ta bort den.
+
+   ![](assets/brands-11.png)
+
+Du kan nu anpassa ditt varumärke ytterligare eller [publicera ditt varumärke](#create-brand-kit).
+
+### Visual content {#visual-content}
+
+Avsnittet **[!UICONTROL Visual Content]** definierar standarderna för bilder och design och anger de specifikationer som behövs för att upprätthålla en enhetlig och enhetlig varumärkeslook.
+
++++ Tillgängliga kategorier och exempel
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategori</th>
+      <th>Riktlinjer, exempel</th>
+      <th>Exempel på undantag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fotografistandarder</td>
+      <td>Använd naturligt ljus för bilder utomhus.</td>
+      <td>Undvik överredigerade och pixelerade bilder.</td>
+    </tr>
+    <tr>
+      <td>Illustrationsstandarder</td>
+      <td>Använd rena, minimalistiska stilar.</td>
+      <td>Undvik alltför komplex användning.</td>
+    </tr>
+    <tr>
+      <td>Ikonstandarder</td>
+      <td>Använd ett enhetligt rutnätssystem med 24 pixlar.</td>
+      <td>Blanda inte ikondimensioner, använd inkonsekventa linjebredder eller avvika från stödrasterreglerna.</td>
+    </tr>
+    <tr>
+      <td>Riktlinjer för användning</td>
+      <td>Välj livsstilsbilder som återspeglar verkliga kunder som använder produkten i professionella miljöer.</td>
+      <td>Använd inte bilder som står i strid med varumärkestonen eller som inte är i sitt sammanhang.</td>
+    </tr>
+</table>
+
++++
+
+</br>
+
+Så här anpassar du din **[!UICONTROL Visual content]**:
+
+1. Klicka på ![](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Visual content]** för att lägga till en stödlinje, ett undantag eller ett exempel.
+
+1. Ange din riktlinje, ditt undantag eller exempel och klicka på **[!UICONTROL Add]**.
+
+   ![Lägg till undantag eller exempelknapp](assets/brands-4.png)
+
+1. Om du vill lägga till en bild som visar korrekt användning väljer du **[!UICONTROL Example]** och klickar på **[!UICONTROL Select image]**. Du kan också lägga till en bild som visar felaktig användning som ett exkluderingsexempel.
+
+   ![Lägg till en bild som exempel](assets/brands-13.png)
+
+1. Välj en av stödlinjerna eller uteslutningen som du vill uppdatera eller ta bort.
+
+1. Välj en stödlinje eller uteslutning för att uppdatera den. Klicka på ikonen ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")för att ta bort den.
+
+   ![Ta bort undantag eller stödlinje](assets/brands-14.png)
+
+Du kan nu anpassa ditt varumärke ytterligare eller [publicera ditt varumärke](#create-brand-kit).

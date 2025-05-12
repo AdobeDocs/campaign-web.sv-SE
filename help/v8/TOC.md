@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
+source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '828'
 ht-degree: 13%
 
 ---
@@ -127,7 +127,9 @@ ht-degree: 13%
       + [Generering av push-meddelanden med AI](email/generative-push.md)
       + [Generering av landningssidor med AI](email/generative-lp.md)
       + [Användningsexempel för AI Assistant](email/generative-uc.md)
-      + [Skapa och hantera varumärken (beta)](content/brands.md)
+      + Varumärken (beta) {#ai-assistant}
+         + [Skapa och hantera varumärken](content/brands.md)
+         + [Utvärdera ert varumärkeskorteringsresultat](content/brands-score.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
@@ -240,4 +242,4 @@ ht-degree: 13%
    + [Konfigurera externa konton](administration/external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
