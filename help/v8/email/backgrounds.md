@@ -3,7 +3,7 @@ audience: end-user
 title: Anpassa e-postbakgrunden
 description: Lär dig hur du anpassar din e-postbakgrund
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,7 +41,6 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Se till att du inte anger någon bakgrundsfärg för visningsrutan eftersom den kan dölja strukturens bakgrundsfärger.
 
 * Ange **[!UICONTROL Background image]** för innehållet i en strukturkomponent.
@@ -50,7 +49,6 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Vissa e-postprogram stöder inte bakgrundsbilder. Om alternativet inte stöds används radens bakgrundsfärg i stället. Välj en lämplig bakgrundsfärg om bilden inte kan visas.
 
 * Ange en bakgrundsfärg på kolumnnivå.
@@ -59,7 +57,6 @@ Nedan visas de tillgängliga bakgrundsinställningarna som du kan använda:
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Detta är det vanligaste användningsfallet. Adobe rekommenderar att du anger bakgrundsfärger på kolumnnivå, eftersom detta ger större flexibilitet när du redigerar hela e-postinnehållet.
 
   Du kan också ange en bakgrundsbild på kolumnnivå, men den används sällan.
