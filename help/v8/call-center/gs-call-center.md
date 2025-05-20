@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med callcenterkanalen
 description: Lär dig hur du skapar och skickar kundtjänstleveranser med Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn2"
 >title="Kanal för Call Center"
 >abstract="Kundtjänstkanalen är nu tillgänglig i Campaign Web User-gränssnittet. Den här kanalen refererar till en kommunikationsmetod som används för att hantera och spåra kommunikation som hanteras via ett callcenter."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Med callcenterkanalen kan ni exportera målinriktade kontaktlistor för utgående telefonkampanjer direkt från Adobe Campaign webbgränssnitt. Använd det för att samordna samtal via interna team eller externa kontaktcenter.
 
-Ni kan konfigurera samtalsleveranser i arbetsflöden eller som fristående leveranser, definiera er målgrupp och generera anpassningsbara exportfiler med alla nödvändiga kontakt- och personaliseringsdata.
+Ni kan konfigurera kundtjänstleveranser i arbetsflöden eller som fristående leveranser, definiera er målgrupp och generera anpassningsbara exportfiler med alla nödvändiga kontakt- och personaliseringsdata.
 
 Den här kanalen är idealisk för uppföljning av leads, kundlojalitetssamtal eller serviceutåtriktad verksamhet och hjälper er att utöka er flerkanalsstrategi med personaliserade röstinteraktioner.
+
+>[!NOTE]
+>
+>Rapportering är inte tillgängligt i webbgränssnittet för callcenter-kanalen. Du måste bläddra till klientkonsolen för att komma åt rapporter.
 
 Du kan använda callcenter-kanalen på något av följande sätt:
 

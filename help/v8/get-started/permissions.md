@@ -3,9 +3,9 @@ audience: end-user
 title: Behörighetshantering i användargränssnittet för Campaign Web
 description: Läs mer om behörigheter i användargränssnittet i Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Baserat på deras behörigheter kan en operator:
 * Åtkomst till vissa data
 * Åtkomst till vissa åtgärder (skapa, ändra, ta bort)
 
-En detaljerad procedur för att konfigurera behörigheter i Adobe Campaign finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+En detaljerad procedur för att konfigurera behörigheter i Adobe Campaign finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Behörigheter för mappar {#folder-permissions}
 
@@ -38,10 +38,16 @@ Du kan klicka direkt på behörigheterna och ändra dem till antingen **[!UICONT
 
 ![Exempel på nekade behörigheter i mappsäkerhetsinställningar](assets/folder_security_denied.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>Du bör inte kunna skapa ett objekt som du inte har minst en mapp med skrivbehörighet för.
+>
+>Du behöver inte vara administratör för att skapa fragment, men du måste ha skrivbehörighet för minst en innehållets visuella fragmentmapp. Annars kan du inte skapa ett visuellt fragment.
+
 Om alternativet **[!UICONTROL Propagate]** är aktiverat gäller alla behörigheter som definierats för en mapp för alla dess undermappar. Dessa behörigheter kan åsidosättas för varje undermapp.
 
 Om alternativet **[!UICONTROL System folder]** är markerat tillåts åtkomst till alla operatorer, oavsett deras behörigheter.
 
-Du kan också [hantera behörigheter för mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Du kan också [hantera behörigheter för mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
 Alla behörigheter i gränssnittet för Campaign-webben synkroniseras med behörigheterna för Campaign-klientkonsolen.

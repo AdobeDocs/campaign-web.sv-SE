@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '831'
 ht-degree: 13%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 13%
    + Callcenter {#call-center}
       + [Kom igång med kundtjänstleveranser](call-center/gs-call-center.md)
       + [Skapa och skicka en kundtjänstleverans](call-center/create-call-center.md)
+   + [Anpassad extern kanal](call-center/gs-custom-channel.md)
    + Transaktionsmeddelanden {#transactional-messages}
       + [Kom igång med transaktionsmeddelanden](transactional-messaging/transactional.md)
       + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)
@@ -242,4 +243,4 @@ ht-degree: 13%
    + [Konfigurera externa konton](administration/external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

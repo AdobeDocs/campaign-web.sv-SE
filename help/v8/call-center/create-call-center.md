@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa en kundtjänstleverans
 description: Lär dig hur du skapar en kundtjänst med Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ Nu måste ni definiera målgruppen som ska användas för extraheringsfilen.
 >
 >Mottagare av samtalscenter måste innehålla minst sina namn och telefonnummer. Mottagare med ofullständig information utesluts från leveranser till callcenter.
 >
->Mer information om hur du konfigurerar kontrollgrupper finns på [sidan](../audience/control-group.md)
+>Mer information om hur du konfigurerar kontrollgrupper finns på [sidan](../audience/control-group.md).
 
 ## Redigera innehållet{#edit-content}
 
@@ -72,7 +72,7 @@ Nu ska vi redigera innehållet i extraheringsfilen som ska genereras av kundtjä
 
    ![Skärmbild som visar innehållsredigering för en kundtjänstleverans](assets/cc-content0.png){zoomable="yes"}
 
-1. Ange fältet **[!UICONTROL File name]**. Mer information om hur du anpassar filnamnet finns på [sidan](../personalization/personalize.md).
+1. Ange **[!UICONTROL File name]**. Mer information om hur du anpassar filnamnet finns på [sidan](../personalization/personalize.md).
 
 1. Välj en **[!UICONTROL File format]**: **Text**, **Text med kolumner med fast bredd**, **CSV (Excel)** eller **XML**.
 
@@ -120,7 +120,7 @@ De viktigaste stegen för att förhandsgranska och skicka extraheringsfilen är 
 
 1. Klicka på **[!UICONTROL Send]** för att fortsätta med den sista sändningsprocessen och bekräfta sedan.
 
-När leveransen har skickats genereras extraheringsfilen automatiskt och exporteras till den plats som anges i det **[!UICONTROL Routing]** externa kontot som valts i leveransmallens [avancerade inställningar](../advanced-settings/delivery-settings.md).
+När leveransen har skickats genereras extraheringsfilen automatiskt och exporteras till den plats som anges i det **[!UICONTROL Routing]** externa kontot som valts i leveransmallens [avancerade inställningar](../advanced-settings/delivery-settings.md). Du kan också förhandsgranska filen genom att klicka på knappen **Förhandsgranska fil** i avsnittet **Innehåll** på skärmen.
 
 Spåra dina KPI-data (Key Performance Indicator) från din leveranssida och data från **[!UICONTROL Logs]**-menyn.
 
