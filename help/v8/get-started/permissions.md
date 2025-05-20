@@ -20,7 +20,7 @@ Baserat på deras behörigheter kan en operator:
 * Åtkomst till vissa data
 * Åtkomst till vissa åtgärder (skapa, ändra, ta bort)
 
-En detaljerad procedur för att konfigurera behörigheter i Adobe Campaign finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+En detaljerad procedur för att konfigurera behörigheter i Adobe Campaign finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Behörigheter för mappar {#folder-permissions}
 
@@ -48,6 +48,6 @@ Om alternativet **[!UICONTROL Propagate]** är aktiverat gäller alla behörighe
 
 Om alternativet **[!UICONTROL System folder]** är markerat tillåts åtkomst till alla operatorer, oavsett deras behörigheter.
 
-Du kan också [hantera behörigheter för mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Du kan också [hantera behörigheter för mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
 Alla behörigheter i gränssnittet för Campaign-webben synkroniseras med behörigheterna för Campaign-klientkonsolen.
