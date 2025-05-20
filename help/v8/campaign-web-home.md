@@ -63,7 +63,7 @@ Maj-versionen är nu aktiv, inklusive Call Center-kanalen, den nya regelbyggaren
 
 ✨ Fördjupa dig i en praktisk upplevelse med vår [ AI Assistant](../v8/email/generative-gs.md) -förhandsgranskning av aktiva funktioner, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.
 
-[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Vanliga frågor och svar ]
 
