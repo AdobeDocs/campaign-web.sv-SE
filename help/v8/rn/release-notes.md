@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ea6c38d4c640c15994035d96c7a05934cf22d04b
+source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 7%
