@@ -38,9 +38,9 @@ Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelande
 
 Målgrupper kan komma från flera olika källor. Kolumnen **[!UICONTROL Origin]** anger var en viss målgrupp har skapats:
 
-* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats i [Adobe Campaign webbanvändargränssnitt](create-audience.md) eller i [Adobe Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats i [Adobe Campaign webbanvändargränssnitt](create-audience.md) eller i [Adobe Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=sv-SE){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och är integrerade i Campaign Web med Adobe Sources and Destinations-integrering. Lär dig hur du konfigurerar den här integreringen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och är integrerade i Campaign Web med Adobe Sources and Destinations-integrering. Lär dig hur du konfigurerar den här integreringen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
 
   ➡️ [Upptäck den här funktionen i en video](#video)
 
@@ -60,4 +60,4 @@ Lär dig hur du skapar ett mål som ska användas av en Experience Platform-anv�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Detaljerad information om hur du konfigurerar integreringen av Adobe-källor och mål finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+Detaljerad information om hur du konfigurerar integreringen av Adobe-källor och mål finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.

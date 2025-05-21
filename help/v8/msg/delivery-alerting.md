@@ -20,7 +20,7 @@ Leveransvarningar är ett varningshanteringssystem som gör det möjligt för an
 
 Meddelanden anpassas baserat på särskilda varningsvillkor som definieras via Adobe Campaign webbanvändargränssnitt.
 
-Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Innehåll i e-postmeddelanden {#content}
 

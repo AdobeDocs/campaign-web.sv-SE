@@ -56,7 +56,7 @@ Om du vill skapa ett innehållsfragment från grunden följer du stegen nedan.
 
    >[!AVAILABILITY]
    >
-   >Visual fragments require an update to Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+   >Visual fragments require an update to Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klicka på knappen **Skapa**.
 
