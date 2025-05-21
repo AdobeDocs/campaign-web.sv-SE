@@ -5,8 +5,8 @@ description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Du kan importera befintligt HTML-innehåll i e-post-Designer. Innehållet kan va
 >
 >ZIP-filstrukturen har inga begränsningar. Referenserna måste dock vara relativa och passa i trädstrukturen i ZIP-mappen.
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
 Om du vill importera en fil som innehåller HTML-innehåll följer du stegen nedan.
 
@@ -56,4 +56,4 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
 Lär dig hur du skapar ett e-postmeddelande genom att överföra HTML, göra det kompatibelt med e-post-Designer och konvertera det till en mall.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447036/?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

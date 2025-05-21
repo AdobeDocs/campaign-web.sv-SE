@@ -4,8 +4,8 @@ description: Lär dig övervaka och hantera profiler på Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Dessutom tillåter **[!UICONTROL test profiles]**, som identifieras som &quot;di
 
 Både profiler och testprofiler är användbara för att testa leveranser innan de når den avsedda målgruppen. Detta gör det möjligt att förhandsgranska meddelandeinnehåll och personalisering, skicka korrektur för testning och validering, utvärdera e-poståtergivning på olika plattformar och enheter samt testa landningssidor. [Lär dig hur du förhandsgranskar och testar leveranser](../preview-test/preview-test.md)
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
 ## Öppna listan med profiler {#access}
 
@@ -46,4 +46,4 @@ Om du vill ta bort en profil väljer du motsvarande alternativ på menyn **[!UIC
 
 Lär dig hur du får tillgång till, hanterar och utforskar profiler med webbgränssnittet i Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448368?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

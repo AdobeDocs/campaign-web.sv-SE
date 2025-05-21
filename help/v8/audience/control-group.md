@@ -5,8 +5,8 @@ description: Lär dig hur du anger en kontrollgrupp för dina meddelanden i anv�
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 4%
+source-wordcount: '793'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 En kontrollgrupp är en underpopulation som är exkluderad från leveransen. Du kan definiera en kontrollgrupp för att undvika att skicka meddelanden till en del av publiken och jämföra postleveransbeteendet med huvudmålet. Med det här alternativet kan ni mäta effekten av er kampanj.
 
-➡️ [Upptäck den här funktionen i videon](create-audience.md#video)
+➡️ [Upptäck den här funktionen i en video](create-audience.md#video)
 
 ## Aktivera kontrollgrupp {#add-a-control-group}
 

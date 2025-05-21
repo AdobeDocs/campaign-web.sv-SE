@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Ny regelbyggare"
 >abstract="Det finns nu en ny regelbyggare som hjälper dig att definiera komplexa villkor i ett förbättrat användargränssnitt. Du kan vid behov växla från det gamla till det nya regelverktyget."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ I arbetsflöden lagras data som transporteras från en aktivitet till en annan v
 
 I vissa fall är antingen data inte tillgängliga i den aktuella databasen eller så är de inte tillräckligt effektiva för att utföra enhetsåtgärder. Du kan därför behöva tvinga arbetsflödet att använda en annan databas för att utföra sådana åtgärder genom att lägga till en **[!UICONTROL Change data source]**-aktivitet.
 
-Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=sv-SE).
+Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ Följ de här stegen för att konfigurera aktiviteten **Ändra datakälla**:
 
      >[!AVAILABILITY]
      >
-     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=sv-SE){target="_blank"}
+     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 1. Konfigurera arbetsflödet för att utföra önskade åtgärder med den nya datakällan.
 

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 Testprofiler används för att skicka korrektur och validera meddelandeinnehåll och inställningar. Dessa profiler är ytterligare mottagare som gör att du kan förhandsgranska och testa personaliseringen och återgivningen innan du skickar meddelanden. Du kan välja en testprofil när du förhandsgranskar ett meddelandeinnehåll och skicka korrektur till testprofilerna för att kontrollera och validera meddelandets innehåll och inställningar.
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=sv-SE){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Stegen för att skicka korrektur till testprofiler beskrivs i [det här avsnittet](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ Testprofilen som du nyss skapade kan nu användas för att skicka ett korrektur.
 
 Lär dig hur du skapar och hanterar testprofiler med webbgränssnittet i Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442899?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

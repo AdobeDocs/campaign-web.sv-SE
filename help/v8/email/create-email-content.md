@@ -5,7 +5,7 @@ description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '628'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga till och flytta strukturella element med enkla dra-och-släpp-åtgärder kan du utforma e-postmeddelandets brödtext på bara några sekunder.
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
@@ -110,4 +110,4 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
 Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, anpassa och testa ditt e-postmeddelande.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453569/?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

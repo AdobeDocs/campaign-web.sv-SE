@@ -44,4 +44,4 @@ Använd andra inbyggda målmappningar i arbetsflöden och leveranser enligt neda
 | Extern fil | Leverans via en fil som innehåller all nödvändig information | Inget länkat schema, inget mål har angetts |
 | Prenumerationsprogram | Profiler som prenumererar på ett program | nms:appSubscriptionRcp |
 
-Skapa dessutom nya målmappningar baserat på specifika behov. Utför endast den här åtgärden från klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=sv-SE#new-mapping){target="_blank"}.
+Skapa dessutom nya målmappningar baserat på specifika behov. Utför endast den här åtgärden från klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

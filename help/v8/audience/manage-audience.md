@@ -5,8 +5,8 @@ description: Lär dig hur du arbetar med målgrupper på Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,11 @@ Målgruppen är huvudmålet för leveransen: de profiler som tar emot meddelande
 
 Målgrupper kan komma från flera olika källor. Kolumnen **[!UICONTROL Origin]** anger var en viss målgrupp har skapats:
 
-* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats i [Adobe Campaign webbanvändargränssnitt](create-audience.md) eller i [Adobe Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=sv-SE){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Dessa målgrupper har skapats i [Adobe Campaign webbanvändargränssnitt](create-audience.md) eller i [Adobe Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och är integrerade i Campaign Web med Adobe Sources and Destinations-integrering. Lär dig hur du konfigurerar den här integreringen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Dessa målgrupper har skapats i Adobe Experience Platform och är integrerade i Campaign Web med Adobe Sources and Destinations-integrering. Lär dig hur du konfigurerar den här integreringen i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-  ➡️ [Upptäck den här funktionen i videon](#video)
+  ➡️ [Upptäck den här funktionen i en video](#video)
 
 Om du vill ha mer information om en viss målgrupp öppnar du den i listan. Publiken visas tillsammans med antalet profiler som ingår i publiken. Uppdatera antalet målgrupper när som helst med knappen **[!UICONTROL Calculate]**.
 
@@ -60,4 +60,4 @@ Lär dig hur du skapar ett mål som ska användas av en Experience Platform-anv�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Detaljerad information om hur du konfigurerar integreringen av Adobe-källor och mål finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
+Detaljerad information om hur du konfigurerar integreringen av Adobe-källor och mål finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

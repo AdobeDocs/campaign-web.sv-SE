@@ -61,14 +61,14 @@ Följ stegen nedan för att konfigurera aktiviteten **Överför fil**.
    * **[!UICONTROL Test to see if file exists]**: Kontrollera om det finns en angiven fil på servern. Genererar två utgående övergångar efter aktiviteten: &quot;Fil finns&quot; och &quot;Fil finns inte&quot;.
    * **[!UICONTROL File listing]**: Visa alla filer som är tillgängliga på servern.
 
-   +++
++++
 
    +++Åtgärder tillgängliga med aktiviteter av typen **Webbhämtning**
 
    * **[!UICONTROL Simple transfer (GET)]**: Hämta en fil.
    * **[!UICONTROL Transfer using a form (POST)]**: Överför en fil och ytterligare parametrar.
 
-   +++
++++
 
    ![Skärmbild som visar alternativ för filöverföringsåtgärd i arbetsflödet](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
    * **[!UICONTROL Display the session logs]**: När det här alternativet aktiveras visas information om överföringsåtgärden i arbetsflödesloggarna när arbetsflödet har körts.
    * **[!UICONTROL List all files]** (Filliståtgärder): Det här alternativet indexerar alla filer som finns på servern i `vars.filenames` -händelsevariabeln, där filnamnen avgränsas med `n`-tecknen. [Lär dig hur du arbetar med händelsevariabler](../event-variables.md)
 
-   +++
++++
 
    +++Ytterligare alternativ för **[!UICONTROL Web download]**-typaktiviteter
 

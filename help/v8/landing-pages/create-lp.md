@@ -39,7 +39,7 @@ Lagret **[!UICONTROL Landing pages]** visar alla skapade artiklar. Du kan filtre
 
 >[!CAUTION]
 >
->Du kan inte visa eller redigera landningssidor som skapats från klientkonsolen (webbformulär) i gränssnittet för Campaign-webben. Läs mer i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=sv-SE){target="_blank"}.
+>Du kan inte visa eller redigera landningssidor som skapats från klientkonsolen (webbformulär) i gränssnittet för Campaign-webben. Läs mer i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 

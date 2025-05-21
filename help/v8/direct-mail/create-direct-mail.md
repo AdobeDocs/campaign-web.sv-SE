@@ -34,8 +34,7 @@ Så här skapar du en ny fristående direktutskick:
    * **[!UICONTROL Delivery code]**: Organisera dina leveranser med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
    * **[!UICONTROL Nature]**: Ange leveransens natur för klassificeringssyften.
-
-   +++
++++
 
 1. Klicka på knappen **[!UICONTROL Select audience]** om du vill ange en befintlig målgrupp eller skapa en egen.
 

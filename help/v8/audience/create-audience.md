@@ -5,7 +5,7 @@ description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ När ni väl utformat ert arbetsflöde lagras de resulterande målgrupperna auto
 
 Kolumnen **[!UICONTROL Origin]** anger målgruppernas ursprung: **[!UICONTROL Adobe Campaign]** målgrupper skapas i Adobe Campaign v8-konsolen eller webbanvändargränssnittet, medan **[!UICONTROL Adobe Experience Platform:]** målgrupper skapas i Adobe Experience Platform och integreras i Campaign med hjälp av Adobe-integreringen Källor och Destinationer.
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
 ## Skapa din första målgrupp {#create}
 
@@ -98,4 +98,4 @@ Om du inte vill ersätta de befintliga målgruppsresultaten konfigurerar du **Sp
 
 Lär dig hur du bygger och hanterar målgrupper, hur du väljer målgrupper för en leverans och definierar kontrollgrupper.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453206?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

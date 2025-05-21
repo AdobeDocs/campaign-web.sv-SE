@@ -19,7 +19,7 @@ Ni kan koppla samman er Campaign-miljö med Adobe Experience Cloud lösningar oc
 
 Adobe Campaign har flera kopplingar som möjliggör kommunikation med externa program, anslutning till databasmotorer samt delning och synkronisering av data. Adobe konfigurerar dessa anslutningar.
 
-Lär dig vilka lösningar och program som kan kopplas till Campaign, tillsammans med tillhörande användningsfall, i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=sv-SE){target="_blank"}.
+Lär dig vilka lösningar och program som kan kopplas till Campaign, tillsammans med tillhörande användningsfall, i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}.
 
 Med det nya användargränssnittet i Campaign Web kan ni dessutom koppla samman er Adobe Experience Manager as a Cloud Service-miljö för att uppnå följande användningsexempel:
 
