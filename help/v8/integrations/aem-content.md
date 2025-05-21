@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager möjliggör smidig hantering av e-postmaterial och formulär direkt i Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[Läs mer om Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [Läs mer om Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## Skapa en mall i [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 

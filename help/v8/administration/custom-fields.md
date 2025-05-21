@@ -122,7 +122,7 @@ Tillgängliga inställningar:
 
   ![Skärmbild som visar ett exempel på filterinställningar för anpassade fält](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL Span two columns]**: Som standard visas anpassade fält i gränssnittet i två kolumner. Växla med det här alternativet om du vill visa det anpassade fältet över skärmens hela bredd i stället för två kolumner.
 
