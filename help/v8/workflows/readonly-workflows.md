@@ -52,4 +52,4 @@ Inbyggda tekniska arbetsflöden är skrivskyddade för alla Campaign-användare,
 
 ![Tekniskt arbetsflödesgränssnitt i skrivskyddat läge, med alternativ för att pausa eller stoppa arbetsflöden.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Läs mer om tekniska arbetsflöden i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Läs mer om tekniska arbetsflöden i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

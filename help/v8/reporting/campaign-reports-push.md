@@ -79,7 +79,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 * **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter misslyckad leverans (t.ex. ogiltig registrering, avvisning av meddelanden eller nyttolast) i relation till antalet meddelanden som ska levereras.
 
-  Feltyper för push-meddelanden visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#push-error-types){target="_blank"}.
+  Feltyper för push-meddelanden visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 

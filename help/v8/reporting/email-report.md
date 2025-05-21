@@ -75,7 +75,7 @@ Diagrammet **[!UICONTROL Delivery statistics]** visar om leveransen lyckades. M�
 >title="Leveransorsaker"
 >abstract="Diagrammet **Orsaker till uteslutning** och tabellen visar nedbrytningen per regel för meddelanden som avvisats under leveransförberedelsen."
 
-Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** och tabellen visar detaljerna per regel för meddelanden som avvisats under leveransförberedelsen. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Skärmbild av orsaker till uteslutning - diagram och tabell](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Tabellen **[!UICONTROL Broadcast statistics]** innehåller tillgängliga data f�
 
 Tabellen och diagrammet **[!UICONTROL Breakdown of errors per type]** innehåller tillgängliga data för feltypen. Mätvärdena anges nedan.
 
-Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=sv-SE){target="_blank"}.
+Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![Skärmbild av brytningen av fel per typ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 

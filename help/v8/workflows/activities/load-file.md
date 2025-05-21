@@ -30,7 +30,7 @@ ht-degree: 1%
 Aktiviteten **Läs in fil** är en **datahanteringsaktivitet**. Använd den här aktiviteten när du vill arbeta med profiler och data som lagras i en extern fil. Profiler och data läggs inte till i databasen, men alla fält i indatafilen är tillgängliga för [anpassning](../../personalization/gs-personalization.md), för att uppdatera profiler eller andra tabeller.
 
 >[!NOTE]
->Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Med webbgränssnittskonsolen kan du läsa in filer som är högst 50 MB stora. I klientkonsolen har datainläsningsaktiviteten en gräns på 150 MB. [Läs mer](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=sv-SE){target="_blank"}
+>Filformat som stöds är: text (TXT) och kommaavgränsade värden (CSV). Med webbgränssnittskonsolen kan du läsa in filer som är högst 50 MB stora. I klientkonsolen har datainläsningsaktiviteten en gräns på 150 MB. [Läs mer](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Den här aktiviteten kan användas med en [avstämningsaktivitet](reconciliation.md) för att länka oidentifierade data till befintliga resurser. Aktiviteten **Läs in fil** kan till exempel placeras före en **avstämningsaktivitet** om du importerar data som inte är standard till databasen.
 
@@ -87,7 +87,7 @@ Följ de här stegen för att konfigurera exempelfilen som används för att def
    * **[!UICONTROL Error processing]** (strängdatatyp): Ange beteende om det finns fel på en av raderna.
    * **[!UICONTROL Value remapping]**: Med det här alternativet kan du mappa specifika värden med nya. Om kolumnen till exempel innehåller värdena &quot;Sant&quot;/&quot;Falskt&quot; kan du lägga till en mappning som automatiskt ersätter dessa värden med tecknen &quot;0&quot;/&quot;1&quot;.
 
-   +++
++++
 
 1. I avsnittet **Formatering** anger du hur filen ska formateras för att säkerställa att data importeras på rätt sätt.
 

@@ -160,7 +160,7 @@ Använd komponenten **[!UICONTROL Image]** för att infoga en bildfil från dato
 
 1. Klicka på **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser. Du kan också välja att **[!UICONTROL Import your media]**.
 
-   Mer information om hur du överför och lägger till resurser i Adobe Experience Manager finns i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=sv-SE).
+   Mer information om hur du överför och lägger till resurser i Adobe Experience Manager finns i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![Skärmbild som visar bläddringsalternativet för bildkomponenter i e-post-Designer.](assets/email_designer_28.png){zoomable="yes"}
 

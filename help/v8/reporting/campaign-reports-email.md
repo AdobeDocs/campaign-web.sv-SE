@@ -83,7 +83,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 * **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
-  E-postfeltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#email-error-types){target="_blank"}.
+  E-postfeltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 +++
 
@@ -143,7 +143,7 @@ Tabellen **[!UICONTROL Generated click streams]** visar data i relation till hur
 
 Tabellen och diagrammet **[!UICONTROL Breakdown of errors per type]** innehåller tillgängliga data för eventuella fel som påträffats för varje typ av domän. Mätvärdena anges nedan.
 
-Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=sv-SE){target="_blank"}.
+Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![Skärmbild av uppdelningen av fel per typdiagram och tabell](assets/campaign_report_email_6.png){zoomable="yes"}
 

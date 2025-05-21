@@ -26,7 +26,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar av dina scheman i klientkonsolen Campaign v8.
 
-  Mer information om scheman finns i [Kampanjdokumentation ](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Mer information om scheman finns i [Kampanjdokumentation ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **Arbetsflödets granskningsspår** gör att du kan hålla reda på aktiviteter och nyligen gjorda ändringar i arbetsflöden, inklusive deras aktuella tillstånd, som:
 
@@ -43,7 +43,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * Med **Alternativ granskningsspår** kan du övervaka aktiviteter och nyligen gjorda ändringar av dina alternativ i Campaign v8.
 
-  Mer information om alternativ finns på [sidan](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Mer information om alternativ finns på [sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Leveransverifieringskedja** gör att du kan kontrollera aktiviteter och senaste ändringar som du har gjort i leveranserna.
 
@@ -55,11 +55,11 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * Med **Leveransmappning** kan du övervaka aktiviteter och nyligen gjorda ändringar av din leveransmappning i Campaign v8.
 
-  Mer information om leveransmappning finns på [sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Mer information om leveransmappning finns på [sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * Med **Webbprogram** kan du kontrollera ändringar som gjorts i webbformulär i Campaign v8, som används för att skapa sidor med indata- och urvalsfält och som kan innehålla data från databasen.
 
-  Mer information om webbprogram finns på [sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/content/webapps).
+  Mer information om webbprogram finns på [sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * Med **Erbjudandet** kan du kontrollera aktiviteter och senaste ändringar av dina erbjudanden.
 
@@ -67,7 +67,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * Med **Operator** kan du övervaka aktiviteter och nyligen gjorda ändringar av dina operatorer i Campaign v8.
 
-  Mer information om operatorer finns på [sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Mer information om operatorer finns på [sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

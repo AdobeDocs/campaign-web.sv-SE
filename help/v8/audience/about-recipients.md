@@ -46,4 +46,4 @@ Om du vill ta bort en profil väljer du motsvarande alternativ på menyn **[!UIC
 
 Lär dig hur du får tillgång till, hanterar och utforskar profiler med webbgränssnittet i Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448368?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

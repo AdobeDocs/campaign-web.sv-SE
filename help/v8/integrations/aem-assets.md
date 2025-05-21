@@ -16,13 +16,13 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] är en integrerad, samarbetsplattform som utformats för att effektivisera ditt kreativa arbetsflöde och centralisera digitala resurser för smidig leverans av upplevelser. Det förenklar organisationen, taggningen och hämtningen av godkända produktionsresurser, vilket säkerställer att alla team har ett enhetligt varumärke. Med det användarvänliga gränssnittet i [!DNL Assets as Cloud Service] kan du direkt komma åt och dela resurser i dina Adobe Creative- och Experience Cloud-program.
 
-Läs mer i [Adobe Experience Manager Assets as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=sv-SE){target="_blank"}.
+Läs mer i [Adobe Experience Manager Assets as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}.
 
 ## Överföra och infoga resurser{#add-asset}
 
 Om du vill importera filer till [!DNL Assets as Cloud Service] bläddrar du eller skapar mappen där filerna ska lagras. Infoga dem sedan i e-postinnehållet.
 
-Mer information om hur du överför resurser finns i [Adobe Experience Manager Assets as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=sv-SE){target="_blank"}.
+Mer information om hur du överför resurser finns i [Adobe Experience Manager Assets as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
 1. Gå till den avancerade menyn på din hemsida och välj [!DNL Experience Manager Assets].
 
@@ -46,11 +46,11 @@ Mer information om hur du överför resurser finns i [Adobe Experience Manager A
 
 1. Om du vill komma åt den avancerade resurshanteringsmenyn väljer du den resurs du just överförde.
 
-   Mer information om hur du hanterar dina resurser finns på [sidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=sv-SE).
+   Mer information om hur du hanterar dina resurser finns på [sidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
    ![Skärmbild som visar den avancerade resurshanteringsmenyn i Adobe Experience Manager Assets](assets/assets_4.png){zoomable="yes"}
 
-1. Om du vill redigera dina resurser ytterligare med Adobe Photoshop Express dubbelklickar du på resursen. Välj sedan ikonen **[!UICONTROL Edit mode]** på den högra menyn. [Läs mer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=sv-SE#edit-using-express){target="_blank"}.
+1. Om du vill redigera dina resurser ytterligare med Adobe Photoshop Express dubbelklickar du på resursen. Välj sedan ikonen **[!UICONTROL Edit mode]** på den högra menyn. [Läs mer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. I [!DNL Adobe Campaign] väljer du menyn **[!UICONTROL Asset picker]** i den vänstra rutan i e-postdesignern.
 

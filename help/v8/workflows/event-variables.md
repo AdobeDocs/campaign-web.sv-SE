@@ -26,7 +26,7 @@ Varje typ av **object** är associerad med en kategori med **variabler** som kan
 
 >[!NOTE]
 >
->Mer information om skript och exponerade objekt och variabler i Adobe Campaign finns i dokumentationen för Campaign v8 (klientkonsolen) i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>Mer information om skript och exponerade objekt och variabler i Adobe Campaign finns i dokumentationen för Campaign v8 (klientkonsolen) i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Observera att även om den här resursen ger värdefulla insikter kan det finnas avvikelser eftersom den specifikt gäller klientkonsolen i stället för webbgränssnittet för Campaign.
 

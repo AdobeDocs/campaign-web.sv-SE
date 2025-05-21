@@ -26,7 +26,7 @@ ht-degree: 0%
 >id="acw_landingpages_templates"
 >title="Kopiera URL med försiktighet"
 >abstract="När du skapar en landningssida kan du med fyra färdiga mallar implementera olika användningsfall: lägga till eller uppdatera en profil i Campaign-databasen, prenumerera på en tjänst, avbeställa dem från en tjänst eller avanmäla användare."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=sv-SE#create-landing-page" text="Skapa en landningssida"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Skapa en landningssida"
 
 Om du vill använda landningssidan på rätt sätt ska du referera till den som en länk i ett meddelande med det dedikerade alternativet. Du kan inte kopiera och klistra in länken som visas på den publicerade kontrollpanelen direkt i leveranser eller på en webbsida. Använd i stället funktionen **Simulera innehåll** för att testa det.
 
