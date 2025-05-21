@@ -37,7 +37,7 @@ Först måste du konfigurera den anpassade externa kanalen. Här är huvudstegen
 1. Skapa ett nytt externt routningskonto.
 1. Skapa en ny leveransmall som är kopplad till den nya kanalen.
 
-Mer information finns i [dokumentationen för klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Mer information finns i [dokumentationen för klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=sv-SE)
 
 ## Skapa leveransen{#create-delivery}
 
