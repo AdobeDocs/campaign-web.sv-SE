@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager möjliggör smidig hantering av e-postmaterial och formulär direkt i Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png) [Läs mer om Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [Läs mer om Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=sv-SE)
 
 ## Skapa en mall i [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -32,7 +32,7 @@ Integreringen av Adobe Campaign webbgränssnitt med Adobe Experience Manager mö
 
    ![[Skärmbild som visar mallmarkerings- och namnfält för Adobe Campaign-e-post.]](assets/aem_2.png)
 
-1. Anpassa e-postinnehållet genom att lägga till komponenter, till exempel anpassningsfält från Adobe Campaign. [Läs mer](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
+1. Anpassa e-postinnehållet genom att lägga till komponenter, till exempel anpassningsfält från Adobe Campaign. [Läs mer](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=sv-SE#editing-email-content)
 
 1. När e-postmeddelandet är klart går du till menyn **[!UICONTROL Page information]** och klickar på **[!UICONTROL Start workflow]**.
 

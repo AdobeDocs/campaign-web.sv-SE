@@ -33,7 +33,7 @@ Aktiviteten **Extern signal** är en **Flödeskontroll**-aktivitet. Det gör att
 
 >[!NOTE]
 >
->På den här sidan förklaras de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbanvändargränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde, bästa praxis och hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>På den här sidan förklaras de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbanvändargränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde, bästa praxis och hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/sv/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utlösa dess körning:
 
@@ -81,4 +81,4 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    +++
 
-   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
+   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=sv-SE).

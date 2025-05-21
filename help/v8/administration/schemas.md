@@ -31,7 +31,7 @@ Scheman spelar en nyckelroll i:
 
 Varje entitet i Adobe Campaign har ett dedikerat schema som säkerställer datakonsekvens och -organisation.
 
-Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Få åtkomst till scheman i webbanvändargränssnittet {#access}
 

@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
+>additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -129,7 +129,7 @@ Så här skapar du språkvarianter:
 
    >[!IMPORTANT]
    >
-   >Knappen **[!UICONTROL Add language]** är bara tillgänglig om måldimensionen innehåller språkschemat. Mer information om scheman och måldimensioner finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Knappen **[!UICONTROL Add language]** är bara tillgänglig om måldimensionen innehåller språkschemat. Mer information om scheman och måldimensioner finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Så här skapar du språkvarianter:
 
    >[!NOTE]
    >
-   >Vilka språk som är tillgängliga i den här listan beror på vilka värden som har definierats av språkattributet (värden som system, användare, dbenum osv.) Läs mer om uppräkningshantering i det här [avsnittet](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Vilka språk som är tillgängliga i den här listan beror på vilka värden som har definierats av språkattributet (värden som system, användare, dbenum osv.) Läs mer om uppräkningshantering i det här [avsnittet](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

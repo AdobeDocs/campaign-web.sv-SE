@@ -30,7 +30,7 @@ När en adress sätts i karantän i Adobe Campaign utesluts profilen automatiskt
 
 Karantän minskar SMS-sändningskostnaderna genom att utesluta felaktiga telefonnummer från leveranser.
 
-Läs mer om karantäner i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+Läs mer om karantäner i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 ## Varför en adress skickas till karantän {#quarantines-why}
 
@@ -41,7 +41,7 @@ Det finns många skäl till att skicka en adress till karantän:
 * För e-post, när ditt meddelande rapporteras som skräppost. Meddelandet dirigeras automatiskt till en teknisk brevlåda som hanteras av Adobe. Användarens e-postadress skickas sedan automatiskt till karantän med Blocklist status.
 * En e-postadress kan sättas i karantän, till exempel när postlådan är full, om adressen inte finns eller om e-postservern inte är tillgänglig.
 
-Läs mer om leveransfel i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
+Läs mer om leveransfel i dokumentationen för [Campaign v8 (konsol)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Var hittar du karantänadresserna? {#quarantines-where}
 
@@ -57,4 +57,4 @@ För varje leverans kan du kontrollera leveranssammanfattningsrapporten. Den vis
 
 ![Leveranssammanfattningsrapport med adresser i karantän](assets/quarantine_delivery.png){zoomable="yes"}
 
-Du kan utforska fler alternativ för att hantera karantänadresser i Adobe Campaign Console. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).
+Du kan utforska fler alternativ för att hantera karantänadresser i Adobe Campaign Console. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

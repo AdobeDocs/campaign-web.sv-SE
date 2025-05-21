@@ -82,7 +82,7 @@ Diagrammet **[!UICONTROL Delivery statistics]** ger en översikt över leveransr
 >title="Leveransorsaker"
 >abstract="Diagrammet **Orsaker till uteslutning** illustrerar distributionen av avvisade meddelanden under förberedelsen för leverans, kategoriserat av varje regel."
 
-Diagrammet **[!UICONTROL Causes of exclusion]** innehåller en beskrivning av orsaker till att meddelandet avvisades under förberedelsen av leveransen. Denna uppdelning är uppdelad enligt olika regler och ger en detaljerad bild av de faktorer som bidrar till att utesluta meddelanden. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+Diagrammet **[!UICONTROL Causes of exclusion]** innehåller en beskrivning av orsaker till att meddelandet avvisades under förberedelsen av leveransen. Denna uppdelning är uppdelad enligt olika regler och ger en detaljerad bild av de faktorer som bidrar till att utesluta meddelanden. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#email-error-types){_blank}.
 
 ![Orsaker till exkluderingsdiagram som visar distributionen av avvisade meddelanden som regel.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

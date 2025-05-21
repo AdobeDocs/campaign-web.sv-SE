@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>* Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 >
->* Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+>* Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:

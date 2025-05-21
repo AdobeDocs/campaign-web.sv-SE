@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->Fördjupa dig i en praktisk upplevelse med [vår förhandsvisning av aktiva funktioner](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), som är utformad för att du ska kunna utforska dess funktioner först och till fullo förstå dess funktioner.
+>Fördjupa dig i en praktisk upplevelse med [vår förhandsvisning av aktiva funktioner](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator), som är utformad för att du ska kunna utforska dess funktioner först och till fullo förstå dess funktioner.
 
 I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att snabbt generera slagkraftigt innehåll. AI Assistant på Adobe Campaign Web, som drivs av Microsoft Azure OpenAI och Adobe Firefly, är Adobe funktioner för generering av AI-innehåll som förändrar hur marknadsförare skapar professionellt och varumärkesenhetligt innehåll i olika kanaler som e-post, SMS och push-meddelanden. Med avancerade GenAI-modeller och en god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet, optimerat innehåll för varumärkeskonturerade format, layouter, färgton och mycket annat.
 
@@ -69,7 +69,7 @@ Allmänna riktlinjer för hur du använder AI Assistant på Adobe Campaign Web f
 * Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa ditt e-postinnehåll med hjälp av AI Assistant. E-postmallar med upp till 8-10 bilder rekommenderas.
 * Rapportera eventuella problematiska utdata med upp- och nedpilarna eller flaggikonerna när du väljer varianter.
 * Din användning av AI Assistant regleras av Adobe Experience Cloud Generative AI User Guidelines. [Läs mer](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Som en del av Adobe strävan efter transparens i användningen av generativa AI-verktyg för att skapa media använder Adobe Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/firefly/using/content-credentials.html).
+* Som en del av Adobe strävan efter transparens i användningen av generativa AI-verktyg för att skapa media använder Adobe Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/se/firefly/using/content-credentials.html).
 
 Följande begränsningar gäller för AI Assistant på Adobe Campaign Web:
 

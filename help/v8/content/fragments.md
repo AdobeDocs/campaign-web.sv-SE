@@ -34,7 +34,7 @@ Det finns två typer av fragment:
 
   >[!AVAILABILITY]
   >
-  >Den här funktionen kräver en uppdatering av Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+  >Den här funktionen kräver en uppdatering av Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Låt oss dyka djupare
 
