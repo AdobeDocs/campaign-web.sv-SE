@@ -148,7 +148,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 1. Välj **[!UICONTROL Link type]** för den URL som du lade till i fältet **[!UICONTROL Click action]**:
 
-   * **[!UICONTROL Web UR]**L: Webb-URL:er dirigerar användare till onlineinnehåll. När de klickar uppmanas de enhetens standardwebbläsare att öppna och navigera till den angivna URL:en.
+   * **[!UICONTROL Web UR]**&#x200B;L: Webb-URL:er dirigerar användare till onlineinnehåll. När de klickar uppmanas de enhetens standardwebbläsare att öppna och navigera till den angivna URL:en.
 
    * **[!UICONTROL Deeplink]**: Djuplänkar är URL-adresser som vägleder användare till specifika avsnitt i ett program även om programmet stängs. När du klickar på det här alternativet kan en dialogruta visas så att användarna kan välja mellan olika appar som kan hantera länken.
 

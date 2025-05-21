@@ -51,7 +51,7 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
      ![Skärmbilden visar arbetsflödets interna namn bredvid etiketten.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * **Den externa signalaktivitetens namn**, som visas i arbetsflödets **[!UICONTROL Execution options]**.
 
@@ -59,7 +59,7 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
      ![Skärmbilden visar namnet på aktiviteten Extern signal i körningsalternativen.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Kör JavaScript-funktionen `PostEvent` om du vill utlösa arbetsflödet. Med den här funktionen kan du skicka variabler med valfria värden och använda dem i det utlösta arbetsflödet.
 
@@ -79,6 +79,6 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    ![Skärmbilden visar ett exempel på hur aktiviteten Extern signal aktiveras med funktionen PostEvent.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).

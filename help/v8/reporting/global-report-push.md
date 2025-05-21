@@ -23,7 +23,7 @@ Navigera till menyn **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Reporting
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="Översikt över push-leverans"
->abstract="KPI:er för push-leverans **** ger en grundlig granskning av dina push-leveranser och ger detaljerade insikter och specifika data. Den innehåller omfattande information om leveransens prestanda, effektivitet och resultat."
+>abstract="KPI:er för push-leverans **&#x200B;**&#x200B;ger en grundlig granskning av dina push-leveranser och ger detaljerade insikter och specifika data. Den innehåller omfattande information om leveransens prestanda, effektivitet och resultat."
 
 Rapporten **[!UICONTROL Delivery Overview]** innehåller nyckeltal (KPI:er) som ger detaljerad information om hur besökarna interagerar med varje push-meddelandeleverans. Mätvärdena anges nedan.
 

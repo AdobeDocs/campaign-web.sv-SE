@@ -51,7 +51,8 @@ Konfigurera leveransinställningarna enligt nedan:
    * **[!UICONTROL Delivery code]**: Organisera dina leveranser med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
    * **[!UICONTROL Nature]**: Ange leveransens natur för klassificeringssyften.
-+++
+
+   +++
 
 ## Välj publik för push-leverans {#create-audience-push}
 
