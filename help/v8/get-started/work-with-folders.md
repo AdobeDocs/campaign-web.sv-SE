@@ -67,7 +67,7 @@ Konfigurera mapptypen genom att klicka på knappen **[!UICONTROL Confirm]**.
 
 Om du vill skapa en mapp utan någon specifik typ väljer du typen **[!UICONTROL Generic Folder]**.
 
-Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Ordna om mappar {#reorder-folders}
 
