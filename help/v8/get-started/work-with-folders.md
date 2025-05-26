@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 0%
 >id="acw_folder_schedule"
 >title="Mappschema"
 >abstract="Mappschema"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoriter"
+>abstract="Favoriter"
 
 ## Om mappar {#about-folders}
 
@@ -62,7 +67,7 @@ Konfigurera mapptypen genom att klicka på knappen **[!UICONTROL Confirm]**.
 
 Om du vill skapa en mapp utan någon specifik typ väljer du typen **[!UICONTROL Generic Folder]**.
 
-Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Ordna om mappar {#reorder-folders}
 
