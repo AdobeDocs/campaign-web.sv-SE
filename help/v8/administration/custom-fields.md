@@ -2,9 +2,9 @@
 title: Anpassade fält
 description: Lär dig hur du konfigurerar anpassade fält och deras synlighet i gränssnittet.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 >title="Attributinställningar"
 >abstract="Attributinställningar"
 
-Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov. Lär dig hur du utökar ett schema i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=sv-SE){target="_blank"}.
+Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov. Lär dig hur du utökar ett schema i [Adobe Campaign v8-dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 Anpassade fält kan visas på olika skärmar, till exempel profilinformation i webbgränssnittet för Campaign. Administratörer kan styra vilka fält som visas och hur de visas. De här ändringarna gäller alla Campaign-användare.
 
@@ -60,7 +60,13 @@ Anpassade fält är tillgängliga för följande scheman:
 * Fröadresser (nms)
 * Leveranser (nms)
 
-## Lägg till anpassade fält i gränssnittet {#add}
+## Lägg till anpassade fält i gränssnittet {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Skärmdefinition"
+>abstract="Definiera listan med anpassade fält som ska redigeras för schemat och deras egenskaper. Klicka på knappen **Förhandsgranska** för att visa anpassade fält på en exempelskärm."
+
 
 Följ de här stegen för att visa anpassade fält i gränssnittet:
 
@@ -122,7 +128,7 @@ Tillgängliga inställningar:
 
   ![Skärmbild som visar ett exempel på filterinställningar för anpassade fält](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Span two columns]**: Som standard visas anpassade fält i gränssnittet i två kolumner. Växla med det här alternativet om du vill visa det anpassade fältet över skärmens hela bredd i stället för två kolumner.
 
