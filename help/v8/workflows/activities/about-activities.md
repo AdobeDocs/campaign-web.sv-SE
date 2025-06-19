@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Alla aktiviteter beskrivs i avsnitten nedan:
 
 * [Verksamheter som rör målinriktning och datahantering](#targeting)
 * [Kanalaktiviteter](#channel)
-* [Flödeskontroll](#flow-control)
+* [Flödeskontrollaktiviteter](#flow-control)
 
 ![Översikt över arbetsflödesaktiviteter](../assets/workflow-activities.png)
 
-## Verksamheter som riktar sig till {#targeting}
+## Målinriktade aktiviteter {#targeting}
 
 Dessa aktiviteter är specifika för målgruppsanpassning. Med dem kan ni skapa en eller flera målgrupper genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
@@ -52,7 +52,7 @@ Dessa aktiviteter är specifika för att hantera och berika populationsdata.
 
 Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampanjer i flera kanaler. Kombinera kanalaktiviteter på arbetsytan för att skapa flerkanaliga arbetsflöden som triggar åtgärder baserat på kundbeteende. Följande **kanalaktiviteter** är tillgängliga: e-post, SMS, Android och iOS push-meddelanden. [Lär dig hur du ställer in en leverans i ett arbetsflödes kontext](channels.md).
 
-## Flödeskontroll {#flow-control}
+## Flödeskontrollaktiviteter {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
