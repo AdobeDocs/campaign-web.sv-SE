@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
+source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 13%
+source-wordcount: '835'
+ht-degree: 15%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 13%
          + [Justera lodrät justering och utfyllnad](email/alignment-and-padding.md)
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
+         + [Lägga till en anpassad CSS](email/custom-css.md)
    + AI Assistant {#ai-assistant}
       + [Arbeta med AI Assistant](email/generative-gs.md)
       + [E-postgenerering med AI](email/generative-content.md)
@@ -243,4 +244,4 @@ ht-degree: 13%
    + [Konfigurera externa konton](administration/external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
