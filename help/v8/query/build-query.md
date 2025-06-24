@@ -18,7 +18,7 @@ Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri pla
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Du kan lägga till två typer av element:
 
@@ -70,7 +70,7 @@ Du öppnar det här alternativet genom att klicka på attributmarkeringsknappen 
 >
 >* För fält med många värden visas bara de första tjugo värdena. I sådana fall får du en varning från **[!UICONTROL Partial load]**.
 >* Alternativet **[!UICONTROL Distribution of values]** är tillgängligt i alla attributväljare. [Lär dig välja attribut](../get-started/attributes.md)
->* Du kan lägga till villkor i resultatet med hjälp av de **[!Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
+>* Du kan lägga till villkor i resultatet med hjälp av de **[ !Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
 
 ## Lägga till filterkomponenter {#filtering}
 
@@ -122,7 +122,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
    | Gilla | På samma sätt som operatorn Innehåller kan du infoga ett %-jokertecken i värdet. | Efternamn (@lastName) som &#39;Jon%s&#39;. Jokertecknet fungerar som&quot;joker&quot; och söker efter namn som&quot;Jones&quot;. |
    | Inte som | På samma sätt som operatorn Innehåller kan du infoga ett %-jokertecken i värdet. | Efternamnet (@lastName) är inte som Smi%h. Mottagare vars efternamn är &quot;Smith&quot; returneras inte. |
 
-+++
+   +++
 
 1. Definiera det förväntade värdet i fältet **Värde**. Du kan också använda redigeraren för webbuttryck i Campaign för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Det gör du genom att klicka på knappen **Redigera uttryck** . [Lär dig hur du redigerar uttryck](expression-editor.md)
 
