@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Ny regelbyggare"
 >abstract="Det finns nu en ny regelbyggare som hjälper dig att definiera komplexa villkor i ett förbättrat användargränssnitt. Du kan vid behov växla från det gamla till det nya regelverktyget."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -43,12 +43,12 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 | Användning | Exempel |
 |  ---  |  ---  |
-| **Definiera målgrupper**: Ange den målgrupp du vill ha i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov. [Lär dig skapa målgrupper](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild som visar hur du kommer åt gränssnittet för målgruppsskapande] |
-| **Anpassa arbetsflödesaktiviteter**: Använd regler i arbetsflödesaktiviteter, som **Dela** och **Avstämning**, för att anpassa dem efter dina specifika krav. [Läs mer om arbetsflödesaktiviteter](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild som visar hur du får åtkomst till alternativ för anpassning av arbetsflöden] |
-| **Fördefinierade filter**: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans. [Lär dig arbeta med fördefinierade filter](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild som visar hur du får åtkomst till fördefinierade filter] |
-| **Filtret rapporterar data**: Lägg till regler för att filtrera de data som visas i rapporter. [Lär dig arbeta med rapporter](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild som visar hur du filtrerar data i rapporter ] |
-| **Anpassa listor**: Skapa anpassade regler för att filtrera data som visas i listor som mottagare eller leveranslistor. [Lär dig filtrera listor](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Bild som visar hur du anpassar listfilter] |
-| **Bygg villkorligt innehåll**: Gör e-postinnehåll dynamiskt genom att skapa villkor som definierar vilket innehåll som ska visas för olika mottagare, vilket säkerställer personaliserade och relevanta meddelanden. [Lär dig hur du skapar villkorligt innehåll](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [Bild som visar hur du skapar villkorligt innehåll] |
+| **Definiera målgrupper**: Ange den målgrupp du vill ha i dina meddelanden eller arbetsflöden och skapa enkelt nya målgrupper som är anpassade efter dina behov. [Lär dig skapa målgrupper](../audience/one-time-audience.md) | ![Bild som visar hur du kommer åt gränssnittet för målgruppsskapande](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Anpassa arbetsflödesaktiviteter**: Använd regler i arbetsflödesaktiviteter, som **Dela** och **Avstämning**, för att anpassa dem efter dina specifika krav. [Läs mer om arbetsflödesaktiviteter](../workflows/activities/about-activities.md) | ![Bild som visar hur du får åtkomst till alternativ för anpassning av arbetsflöden](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Fördefinierade filter**: Skapa fördefinierade filter som fungerar som genvägar under olika filtreringsåtgärder, oavsett om du arbetar med datalistor eller skapar en målgrupp för en leverans. [Lär dig arbeta med fördefinierade filter](../get-started/predefined-filters.md) | ![Bild som visar hur du får åtkomst till fördefinierade filter](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Filtret rapporterar data**: Lägg till regler för att filtrera de data som visas i rapporter. [Lär dig arbeta med rapporter](../reporting/gs-reports.md) | ![Bild som visar hur du filtrerar data i rapporter](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Anpassa listor**: Skapa anpassade regler för att filtrera data som visas i listor som mottagare eller leveranslistor. [Lär dig filtrera listor](../get-started/list-filters.md#list-built-in-filters) | ![Bild som visar hur du anpassar listfilter](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Bygg villkorligt innehåll**: Gör e-postinnehåll dynamiskt genom att skapa villkor som definierar vilket innehåll som ska visas för olika mottagare, vilket säkerställer personaliserade och relevanta meddelanden. [Lär dig hur du skapar villkorligt innehåll](../personalization/conditions.md) | ![Bild som visar hur du skapar villkorligt innehåll](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och e
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
