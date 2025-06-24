@@ -2,14 +2,10 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,6 +22,10 @@ Campaign Web User Interface innehåller fördefinierade varningsvillkor, som lev
 Varningsvillkoren är tillgängliga på menyn **Leveransvarning** i den vänstra navigeringsrutan, på fliken **Villkor**.
 
 ![Lista med varningsvillkor som visas på menyn Leveransvarning](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Fördefinierade aviseringskriterier {#ootb-criteria}
 

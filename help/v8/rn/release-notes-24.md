@@ -2,9 +2,9 @@
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2024 Campaign Web User Interface-versioner
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2535'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Följande funktioner och förbättringar är tillgängliga från och med oktober
 <tr>
 <td>
 <p>När du har skapat och skräddarsytt ditt budskap går du ett steg längre med AI Assistant på Adobe Campaign Web. Med det här kraftfulla verktyget kan du optimera effekten av ditt innehåll genom att generera en mängd engagerande text, huvudtitlar och visuellt tilltalande bilder.</p>
-<p>Fördjupa dig i en praktisk upplevelse med <a href="https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator">vår förhandsvisning av aktiva funktioner</a>, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.</a>.</p>
+<p>Fördjupa dig i en praktisk upplevelse med <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">vår förhandsvisning av aktiva funktioner</a>, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.</a>.</p>
 <p>Mer information finns i den <a href="../email/generative-gs.md">detaljerade dokumentationen</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Tillgänglighetsdatum: 12 sept</p>
@@ -111,9 +111,9 @@ Följande funktioner och förbättringar är tillgängliga från och med augusti
 >
 >Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 >
->Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE){target="_blank"}.
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Varumärkning för direktreklam** - Tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Nu kan du skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/branding/branding-assign)
+* **Varumärkning för direktreklam** - Tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Nu kan du skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **Prenumerationer med landningssidor** - Nu kan du länka en landningssida till en tjänst och skicka ett bekräftelsemeddelande när användare validerar den. [Läs mer](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
@@ -122,7 +122,7 @@ Följande funktioner och förbättringar är tillgängliga från och med augusti
 * **Captcha på landningssidor** - Nu kan du lägga till captcha för att skydda din landningssida från skräppost och missbruk som orsakas av bottnar. Detta är icke-störande för kunderna eftersom det inte kräver någon interaktion från dem och baseras på interaktioner med webbplatsen. [Läs mer](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=sv-SE){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Versionsinformation juli {#24-7-release}
@@ -156,7 +156,7 @@ Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är
 
 >[!AVAILABILITY]
 >
->Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Förbättringar {#improvements-24-7}
 
@@ -168,9 +168,6 @@ Nu kan du skicka omfattande push-meddelanden. Ett omfattande push-meddelande är
 
 Följande funktioner och förbättringar är tillgängliga för alla användare från och med juni.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Planer och program {#24-6-4}
 
@@ -179,6 +176,18 @@ Nu kan ni skapa planer och program för att ordna era kampanjer. Genom att defin
 ### Förbättringar {#improvements-24-6}
 
 * **Avstämning i anrikningsaktivitet**: Aktiviteten **Anrikning** kan nu användas för att stämma av data från Campaign-databasschemat med data från ett annat schema, eller med data från ett temporärt schema, till exempel data som överförts med en Läs in filaktivitet. Du kan till exempel använda det här alternativet för att stämma av en profils land, som anges i en överförd fil, med något av de länder som är tillgängliga i den dedikerade tabellen i Campaign-databasen. [Läs mer](../workflows/activities/enrichment.md)
+
+
+### Ny funktion med begränsad tillgänglighet {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>Följande funktion är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+
+* **Leveransvarning**
+
+Funktionen för leveransvarning är ett varningssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur leveransen utförs. [Läs mer](../msg/delivery-alerting.md)
+
 
 ## Versionsinformation {#24-5-release}
 
@@ -239,13 +248,13 @@ Observera att den här funktionen är i **begränsad tillgänglighet** (LA).
 >
 >Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 >
->Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE).
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-* **Varumärke** - Som en migrerad Campaign Standard-användare kan teknikadministratörer nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Du kan skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=sv-SE)
+* **Varumärke** - Som en migrerad Campaign Standard-användare kan teknikadministratörer nu definiera ett eller flera varumärken för att centralisera parametrarna som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Du kan skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Övriga API:er** - Som en Campaign Standard-migrerad användare kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=sv-SE)
+* **Övriga API:er** - Som en Campaign Standard-migrerad användare kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
 
-* **Dynamisk rapportering** - Som migrerad Campaign Standard-användare har du tillgång till Dynamic Reporting som tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=sv-SE)
+* **Dynamisk rapportering** - Som migrerad Campaign Standard-användare har du tillgång till Dynamic Reporting som tillhandahåller fullt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
 * **Landningssidor** - Följande förbättringar av landningssidor är bara tillgängliga för användare som övergår från Campaign Standard:
 
@@ -272,7 +281,7 @@ Förbättringarna nedan är tillgängliga för alla kunder från och med aprilve
 
 >[!AVAILABILITY]
 >
->Den här versionen är tillgänglig för alla användare som startar [Campaign (konsol) version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE). Läs mer om Adobe Campaign klientkonsolversioner och uppgraderingar i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=sv-SE){target="_blank"}.
+>Den här versionen är tillgänglig för alla användare som startar [Campaign (konsol) version 8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Läs mer om Adobe Campaign klientkonsolversioner och uppgraderingar i [dokumentationen för Campaign v8 (konsol)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 **Releasedatum**: 19-20 mars 2024
 

@@ -2,14 +2,10 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -24,6 +20,10 @@ ht-degree: 0%
 Med kontrollpaneler för leveransvarningar kan du ange vem som ska få e-postvarningar, välja och konfigurera aviseringsvillkor som ska användas för att skicka dessa varningar och få tillgång till historiken för alla skickade meddelanden. De är tillgängliga på menyn **Leveransvarning** i den vänstra navigeringsrutan, på fliken **Kontrollpaneler** .
 
 ![Skärmbild som visar en lista med varningsinstrumentpaneler på menyn Leveransvarning.](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Skapa en kontrollpanel för leverans {#dashboards}
 
@@ -57,7 +57,7 @@ Så här skapar du en kontrollpanel för leverans:
 
 1. I fältet **Välj varningsgrupp** anger du den **operatorgrupp** som ska ta emot aviseringar från den här instrumentpanelen. Alla medlemmar i den valda operatörsgruppen får aviseringarna.
 
-   Läs mer om behörigheter och operatörsgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Läs mer om behörigheter och operatörsgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. I avsnittet **Leveransaviseringsvillkor** lägger du till villkor som du vill använda för att skicka aviseringar. Välj bland fördefinierade kriterier eller skapa egna kriterier som passar in efter specifika behov. [Lär dig arbeta med villkor](../msg/delivery-alerting-criteria.md)
 
@@ -75,13 +75,13 @@ Så här skapar du en kontrollpanel för leverans:
    * **Övervakningsperiod före och efter kontaktdatumet (i timmar)**: Antal timmar före och efter den aktuella tiden. Endast leveranser som har ett kontaktdatum i det här tidsintervallet beaktas. Den här parametern gäller för alla villkor. Som standard är värdet för det här fältet inställt på 24 timmar.
    * **Maximal proportion för mjuka studsfel**: Ett meddelande skickas för alla leveranser med en felkvot för mjuk studs som är större än det angivna värdet. Som standard är fältets värde inställt på 0,05 (5 %).
    * **Maximal proportion för hårda studsfel**: Ett meddelande skickas för alla leveranser med ett felförhållande för hårda studsfel som är större än det angivna värdet. Som standard är fältets värde inställt på 0,05 (5 %).
-   * **Lägsta tröskelvärde för leveranstid i statusen Påbörja väntande (i minuter)**: Ett meddelande skickas för alla leveranser med statusen Påbörja väntande längre än vad som anges i det här fältet. Det betyder att statusen Påbörja väntande inte har beaktats av systemet än.
+   * **Lägsta tröskelvärde för leveranstid i statusen Påbörja väntande (i minuter)**: Ett meddelande skickas för alla leveranser med statusen Påbörja väntande för längre tid än vad som anges i det här fältet, Påbörja väntande status, vilket innebär att meddelanden ännu inte har beaktats av systemet.
    * **Minimitid som krävs för beräkning av dataflöde (i minuter)**: Endast leveranser som har startats (med statusen Pågående) under mer än den angivna varaktigheten beaktas för leveranser med kriteriet för låg dataström.
    * **Maximal procentandel av bearbetade meddelanden för beräkning av dataflöde**: Endast leveranser med en procentandel av bearbetade meddelanden som är lägre än den angivna procentandelen tas med i beräkningen för leveranser med lågt dataflöde.
    * **Minsta förväntade dataflöde (i skickade meddelanden per timme)**: Endast leveranser med ett dataflöde som är lägre än det angivna värdet beaktas för leveranser med lågt dataflöde.
-   * **Minsta antal bearbetade meddelanden som krävs för kriteriet&quot;Pågående leveranser&quot;**: Endast leveranser med en procentandel av bearbetade meddelanden som är högre än den angivna procentandelen beaktas.
+   * **Minsta antal bearbetade meddelanden som krävs för kriteriet &#39;Pågående leveranser&#39;**: Endast leveranser med en procentandel av bearbetade meddelanden som är högre än den angivna procentandelen tas med i beräkningen.
 
-   +++
++++
 
 1. Som standard är varningsmeddelanden inaktiverade, vilket innebär att e-postaviseringar som är länkade till den här instrumentpanelen inte skickas. Om du vill aktivera instrumentpanelen omedelbart växlar du alternativet **Aktiverad** i avsnittet **Allmänt** bredvid fältet för val av varningsgrupp.
 
