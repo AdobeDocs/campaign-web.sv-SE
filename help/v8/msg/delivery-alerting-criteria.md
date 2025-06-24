@@ -2,10 +2,11 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
+badge: label="Begränsad tillgänglighet"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---

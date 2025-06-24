@@ -2,10 +2,11 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
+badge: label="Begränsad tillgänglighet"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Så här skapar du en kontrollpanel för leverans:
 
 1. I fältet **Välj varningsgrupp** anger du den **operatorgrupp** som ska ta emot aviseringar från den här instrumentpanelen. Alla medlemmar i den valda operatörsgruppen får aviseringarna.
 
-   Läs mer om behörigheter och operatörsgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Läs mer om behörigheter och operatörsgrupper i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. I avsnittet **Leveransaviseringsvillkor** lägger du till villkor som du vill använda för att skicka aviseringar. Välj bland fördefinierade kriterier eller skapa egna kriterier som passar in efter specifika behov. [Lär dig arbeta med villkor](../msg/delivery-alerting-criteria.md)
 
@@ -81,7 +82,7 @@ Så här skapar du en kontrollpanel för leverans:
    * **Minsta förväntade dataflöde (i skickade meddelanden per timme)**: Endast leveranser med ett dataflöde som är lägre än det angivna värdet beaktas för leveranser med lågt dataflöde.
    * **Minsta antal bearbetade meddelanden som krävs för kriteriet &#39;Pågående leveranser&#39;**: Endast leveranser med en procentandel av bearbetade meddelanden som är högre än den angivna procentandelen tas med i beräkningen.
 
-   +++
++++
 
 1. Som standard är varningsmeddelanden inaktiverade, vilket innebär att e-postaviseringar som är länkade till den här instrumentpanelen inte skickas. Om du vill aktivera instrumentpanelen omedelbart växlar du alternativet **Aktiverad** i avsnittet **Allmänt** bredvid fältet för val av varningsgrupp.
 
