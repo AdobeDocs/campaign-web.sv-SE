@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med mappar
 description: Lär dig hantera en mapp i Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,9 @@ ht-degree: 0%
 >abstract="Mappsäkerhet"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Mappbegränsningar"
->abstract="Mappbegränsningar"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Mappschema"
 >abstract="Mappschema"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favoriter"
->abstract="Favoriter"
 
 ## Om mappar {#about-folders}
 
@@ -46,6 +36,16 @@ Du kan skapa, byta namn på, ordna om och flytta mappar i navigeringsträdet. Du
 ![Gränssnittet Mappar visar mappordningen](assets/folders.png){zoomable="yes"}
 
 Du kan ställa in en mapptyp. Till exempel en mapp med leveranser. Mappikonen ändras beroende på dess typ.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Mappbegränsningar"
+>abstract="Mapparna Objekt som skapas automatiskt och Tekniska arbetsflöden är begränsade och kan inte visas på den vänstra panelen."
+
+>[!IMPORTANT]
+>
+>Mapparna **[!UICONTROL Objects created automatically]** och **[!UICONTROL Technical workflows]** är begränsade och kan inte visas på den vänstra panelen.
+
 
 ## Skapa en ny mapp {#create-a-folder}
 
@@ -67,7 +67,7 @@ Konfigurera mapptypen genom att klicka på knappen **[!UICONTROL Confirm]**.
 
 Om du vill skapa en mapp utan någon specifik typ väljer du typen **[!UICONTROL Generic Folder]**.
 
-Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Ordna om mappar {#reorder-folders}
 
@@ -80,6 +80,19 @@ I det här exemplet innehåller mappen **Leveranser** fyra undermappar.
 Du kan ändra mappordningen antingen genom att **dra och släppa** eller genom att använda **upp- och nedpilarna**.
 
 ![Dra och släpp-funktioner för mappändring](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Favoritmappar {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoriter"
+>abstract="Dina favoritmappar visas högst upp på den vänstra fliken."
+
+De mappar som har markerats som &quot;Favorit&quot; visas alltid överst på den vänstra fliken.
+
+Du kan lägga till mappar som favoriter genom att klicka på stjärnknappen i det övre högra hörnet när du visar en mapp.
+
+![Favoritmappar plats, bild](assets/folders-favorite.png){zoomable="yes"}
 
 ## Ta bort en mapp {#delete-a-folder}
 

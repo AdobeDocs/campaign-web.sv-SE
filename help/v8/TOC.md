@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 15%
 
 ---
@@ -218,13 +218,13 @@ ht-degree: 15%
       + [Rapport om e-postleverans](reporting/email-report.md)
       + [Rapport om push-leverans](reporting/push-report.md)
       + [SMS-leveransrapport](reporting/sms-report.md)
-      + [Rapport om direktleverans av e-post](reporting/direct-mail.md)
+      + [Extern leveransrapport](reporting/direct-mail.md)
    + Kampanjrapporter {#campaign-report}
       + [Kom igång med kampanjrapporter](reporting/campaign-reports.md)
       + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
       + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
       + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
-      + [Rapport om direktreklamkampanj](reporting/campaign-reports-direct-mail.md)
+      + [Rapport om externa leveranskampanjer](reporting/campaign-reports-direct-mail.md)
    + Globala rapporter {#global-report}
       + [Kom igång med globala rapporter](reporting/global-reports.md)
       + [E-posta global rapport](reporting/global-report-email.md)
@@ -244,4 +244,4 @@ ht-degree: 15%
    + [Konfigurera externa konton](administration/external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

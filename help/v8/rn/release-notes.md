@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 7%
+source-wordcount: '286'
+ht-degree: 5%
 
 ---
 
@@ -20,45 +20,22 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 Ändringar och förbättringar som är tillgängliga i tidigare versioner visas i [2024](release-notes-24.md) och [2025](release-notes-25.md).
 
-## Version 25 maj {#25-5-release}
+## 25 juni {#25-6-release}
 
-Följande funktioner är tillgängliga för alla användare från och med majversionen.
+### Förbättringar {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Poäng för varumärkesjustering (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Poängen för varumärkesjustering ger tydlig feedback direkt i e-postdesignern, som hjälper dig att se om innehållet överensstämmer med varumärkets ton, stil och riktlinjer. Den här funktionen är tillgänglig i Beta.</p>
-<p>Mer information finns i den <a href="../content/brands-score.md">detaljerade dokumentationen</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Rapporten Delivery Summary finns nu tillgänglig för både Call Center och Custom channel. [Läs mer](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Anpassad kanal för externa leveranser</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Du kan nu, direkt från Adobe Campaign Web UI, samordna och köra leveranser baserat på anpassade externa kanaler. Dessa leveranser kan vara fristående eller ingå i ett arbetsflöde. Den anpassade externa kanalen som är integrerad med en tredje part skapas i konsolen.</p>
-<p>Obs! Rapportering är inte tillgängligt i webbgränssnittet för den anpassade kanalen. Du måste bläddra till klientkonsolen för att komma åt rapporter.</p>
-<p>Mer information finns i den <a href="../call-center/gs-custom-channel.md">detaljerade dokumentationen</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* När du konfigurerar en SMS-leverans har du nu tillgång till de specifika SMS-parametrarna. Det här är samma parametrar som finns i klientkonsolen. [Läs mer](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Förbättringar {#25-5-improvements}
+* Dina favoritmappar visas nu högst upp i den vänstra panelen på Utforskarsidan, vilket gör dem enklare att komma åt. [Läs mer](../get-started/work-with-folders.md#favorite-folders)
 
-Skärmen för att skapa typologiregler har uppdaterats för att underlätta valet av regeltyp.
+* Regelbyggaren har nu stöd för dra och släpp, vilket gör att du kan ordna om komponenterna i frågan mer effektivt. [Läs mer](../query/build-query.md#drag-and-drop)
+
+* Det&quot;mänskliga villkoret&quot; i regelbyggaren har förbättrats. Det här är den skrivna, oformaterade versionen av reglerna som visas längst ned på skärmen:
+
+   * Attribut markeras nu och det associerade schemat visas.
+   * Du kan klicka på de här elementen om du vill visa mer detaljerad information.
+   * Nu kan du kopiera det mänskliga villkoret med motsvarande knapp.
+
+* Åtkomsten till mapparna&quot;Tekniska arbetsflöden&quot; och&quot;Objekt skapade automatiskt&quot; är nu begränsad för att förhindra att de visas. [Läs mer](../get-started/work-with-folders.md#about-folders)

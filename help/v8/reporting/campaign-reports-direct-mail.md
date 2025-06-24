@@ -3,16 +3,18 @@ audience: end-user
 title: Kampanjrapporter för Direct-postkanalen
 description: Förstå kampanjrapporter för Direct mail channel
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
-# Kampanjrapporter för Direct-postkanalen {#campaign-reports-direct-mail}
+# Kampanjrapporter för externa leveranskanaler {#campaign-reports-direct-mail}
 
-Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. Rapporter och mätvärden för direktreklamkanalen finns nedan. Lär dig hur du får åtkomst till dina kampanjrapporter på [den här sidan](campaign-reports.md).
+Varje kampanjrapport är uppdelad i olika widgetar som detaljerar kampanjens framgångar och fel. För externa leveranskanaler beskrivs rapporter och mätvärden nedan. Lär dig hur du får åtkomst till dina kampanjrapporter på [den här sidan](campaign-reports.md).
+
+Följande rapport beskrivs i samband med direktreklam. Den är även tillgänglig för callcenter och anpassade externa kanaler.
 
 ## Leveranssammanfattning {#delivery-summary-direct}
 
