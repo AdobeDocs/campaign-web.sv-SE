@@ -4,10 +4,10 @@ title: Konfigurera leveransinställningar
 description: Lär dig hur du konfigurerar leveransinställningar på Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3137'
-ht-degree: 3%
+source-wordcount: '2974'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ Tre olika lägen finns tillgängliga:
 
 >[!NOTE]
 >
->Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=sv-SE){target="_blank"}.
+>Trötthetshantering och tryckregler har konfigurerats i Campaign-klientkonsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Kapacitetsinställningar {#capacity-settings}
 
@@ -92,7 +92,7 @@ Fältet **[!UICONTROL Importance of the recipient]** är en formel som används 
 
 >[!NOTE]
 >
->Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=sv-SE){target="_blank"}.
+>Typologiregler konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 ## Målgruppsinställningar {#audience}
 
@@ -103,7 +103,7 @@ Fältet **[!UICONTROL Importance of the recipient]** är en formel som används 
 
 I det här avsnittet kan du välja en **målmappning** bland de tillgängliga. Målmappningar definieras i Adobe Campaign v8-konsolen. Målmappningen är den typ av data som hanteras av en åtgärd. Det gör att du kan definiera målpopulationen: mottagare, avtalspliktiga mottagare, operatörer, prenumeranter osv. [Läs mer om målmappningar](../audience/targeting-dimensions.md).
 
-I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=sv-SE){target="_blank"}
+I fältet **[!UICONTROL Exclusion]** kan du välja att exkludera profiler som inte längre vill bli kontaktade eller som sätts i karantän. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Leverans {#delivery}
 
@@ -130,7 +130,7 @@ Du kan definiera inställningarna för **[!UICONTROL Sending]** nedan.
 
 * **[!UICONTROL Test SMTP delivery]** (e-postkanal): Det här alternativet används för att testa att skicka via SMTP. E-postmeddelandet behandlas för anslutning till SMTP-servern, men skickas inte: För varje mottagare av e-postmeddelandet ansluter Campaign till SMTP-providerservern, kör SMTP RCPT TO-kommandot och stänger anslutningen före SMTP DATA-kommandot.
 
-* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=sv-SE){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-postkanal): Det här alternativet används för att lagra e-post på ett externt system via BCC genom att lägga till en e-postadress för hemlig kopia till meddelandemålet. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 I avsnittet **[!UICONTROL Wave definition]** väljer du alternativet **[!UICONTROL Send using multiple waves]** om du vill öka volymen som skickas med vågor stegvis. På så sätt undviker du att meddelanden markeras som skräppost eller när du vill begränsa antalet meddelanden per dag. Med vågor kan du dela upp leveranser i flera grupper i stället för att skicka stora mängder meddelanden samtidigt. [Läs mer](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Du kan också definiera de taggar som delas med analysverktyget som du använder
 
 >[!NOTE]
 >
->Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=sv-SE#external-account-ac){target="_blank"}.
+>Web Analytics-funktioner konfigureras i Campaign Client-konsolen. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Försök igen {#retries}
 
@@ -228,7 +228,7 @@ Du kan också välja att ange datum. Välj **[!UICONTROL Explicitly set validity
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=sv-SE#validity-period){target="_blank"}.
+Läs mer om giltighetsperiod för leverans i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Spegelvänd sidhantering (e-postkanal) {#mirror}
 
@@ -288,16 +288,20 @@ Du kan också anpassa etiketten för korrektur:
 
 SMS-leveransparametrar är tekniska inställningar som gäller för din SMS-leverans. Du kan definiera avsändarens adress, tjänstparametrar, överföringsläge med mera. Dessa alternativ är begränsade till expertanvändare.
 
+<!--
+
 * **[!UICONTROL Sender address]**
 
-  Fältet är begränsat till 21 tecken av SMPP-specifikationen, men vissa leverantörer kan tillåta längre värden. Observera också att mycket strikta begränsningar kan tillämpas i vissa länder (längd, innehåll, tillåtna tecken, ...), så du kan behöva dubbelkontrollera att det innehåll du placerar här är giltigt. Var särskilt försiktig när du använder anpassade fält.
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  I det här valfria fältet kan du åsidosätta avsändaradressen (ADC). Dess innehåll placeras i fältet *source_addr* i PDU:n SUBMIT_SM.
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  Även om SMPP-specifikationen begränsar det här fältet till 21 tecken kan vissa providers ha stöd för längre värden. Tänk på att vissa länder har strikta regler för avsändaradresser (vad gäller längd, innehåll, tillåtna tecken osv.), så kontrollera alltid att dina indata uppfyller lokala krav. Var extra försiktig när du arbetar med anpassade fält.
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  Om det här fältet lämnas tomt används värdet för Source-nummerfältet som är definierat i det externa kontot i stället. Om båda värdena är tomma lämnas fältet *source_addr* tomt.
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL Service type]**:
 
