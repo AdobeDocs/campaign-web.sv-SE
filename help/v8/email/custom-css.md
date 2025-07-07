@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, summary, email
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -40,14 +41,13 @@ Följ stegen nedan om du vill lägga till anpassad CSS i ditt e-postinnehåll.
 
 1. Klicka på knappen **[!UICONTROL Add Custom CSS]**.
 
-1. Ange din CSS-kod i det dedikerade textområdet som visas. Kontrollera att den anpassade CSS-koden är giltig och följer rätt syntax. [Läs mer](#use-valid-css)
-
-   ![Ange anpassad CSS i det dedikerade textområdet](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >Knappen **[!UICONTROL Add custom CSS]** är bara tillgänglig när **[!UICONTROL Body]** är markerad. Du kan dock använda anpassade CSS-format på alla komponenter i innehållet.
 
+1. Ange din CSS-kod i det dedikerade textområdet som visas. Kontrollera att den anpassade CSS-koden är giltig och följer rätt syntax. [Läs mer](#use-valid-css)
+
+   ![Ange anpassad CSS i det dedikerade textområdet](assets/email-body-custom-css.png){width="65%"}
 
 1. Spara din egen CSS och kontrollera att din anpassade CSS används korrekt på ditt innehåll. Om så inte är fallet kontrollerar du avsnittet [Felsökning](#troubleshooting).
 
@@ -67,8 +67,9 @@ Du kan ange valfri giltig CSS-sträng i textområdet **[!UICONTROL Add custom CS
 >
 >Undvik att använda CSS som oavsiktligt kan bryta layouten eller funktionaliteten i innehållet.
 
-+++ Exempel på en giltig CSS
++++ Exempel på CSS
 
+Nedan finns exempel på giltig CSS.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -219,7 +220,7 @@ Exempel:
 
 +++
 
-## Guardrails
+## Guardrails - importerat innehåll
 
 Om du vill använda anpassad CSS med innehåll som importerats till e-post-Designer bör du tänka på följande:
 
@@ -236,21 +237,30 @@ Om din anpassade CSS inte används bör du överväga alternativen nedan.
 
 * Kontrollera att CSS-koden är giltig och fri från syntaxfel (t.ex. saknade klamrar, felaktiga egenskapsnamn). [Lär dig hur](#use-valid-css)
 
-* Kontrollera att din CSS läggs till i taggen `<style>` med attributet `data-name="global-custom"` och att `data-disabled` inte tillämpas på `global-custom`. [Läs mer](#implementation)
+* Kontrollera att din CSS läggs till i taggen `<style>` med attributet `data-name="global-custom"`.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Kontrollera om stiltaggen `global-custom` har attributet `data-disabled` inställt på `true`. Om så är fallet används inte den anpassade CSS:en.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Exempel:
 
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Kontrollera att CSS inte åsidosätts av andra CSS-regler.
+
+   * Använd utvecklingsverktygen i webbläsaren för att inspektera innehållet och verifiera att CSS har rätt väljare som mål.
+
+   * Överväg att lägga till `!important` i dina deklarationer för att säkerställa att de har företräde.
+
++++ Exempel:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
