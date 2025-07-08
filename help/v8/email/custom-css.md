@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, summary, email
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -138,9 +138,9 @@ Nedan finns exempel på giltig CSS.
 
 +++
 
-+++ Exempel på ogiltig CSS
-
 Om ogiltig CSS anges visas ett felmeddelande som anger att CSS inte kan sparas. Nedan finns exempel på ogiltig CSS.
+
++++ Exempel på ogiltig CSS
 
 Användning av `<style>`-taggar accepteras inte:
 
@@ -208,17 +208,19 @@ Din anpassade CSS läggs till i slutet av avsnittet `<head>` som en del av en `<
 
 Den anpassade CSS-koden tolkas eller valideras inte av e-postfönstret för Designer **[!UICONTROL Settings]**. Den är helt oberoende och kan bara ändras med alternativet **[!UICONTROL Add Custom CSS]**.
 
-Om stiltaggen `global-custom` har attributet `data-disabled` inställt på `true` används inte den anpassade CSS:en.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ Se exempel
++++ See sample
 
-Exempel:
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## Guardrails - importerat innehåll
 
@@ -247,7 +249,7 @@ Om din anpassade CSS inte används bör du överväga alternativen nedan.
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Kontrollera att CSS inte åsidosätts av andra CSS-regler.
 
