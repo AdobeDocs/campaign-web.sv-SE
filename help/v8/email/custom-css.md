@@ -249,7 +249,7 @@ Om din anpassade CSS inte används bör du överväga alternativen nedan.
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Kontrollera att CSS inte åsidosätts av andra CSS-regler.
 
