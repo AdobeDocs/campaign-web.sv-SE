@@ -70,7 +70,7 @@ De flesta koncept är lika i Campaign v8 och Campaign Standard. Det finns dock n
 
 ## Specifika funktioner {#new-features}
 
-För att övergången till Campaign v8 ska bli så smidig som möjligt har viktiga Campaign Standard-funktioner lagts till i Campaign v8. Dessa funktioner beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank} och är endast tillgängliga för användare som går över från Campaign Standard.
+För att övergången till Campaign v8 ska bli så smidig som möjligt har viktiga Campaign Standard-funktioner lagts till i Campaign v8. Dessa funktioner beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=_blank} och är endast tillgängliga för användare som går över från Campaign Standard.
 
 * **Dynamisk rapportering**: Dynamisk rapportering tillhandahåller anpassningsbara realtidsrapporter för att mäta effekten av marknadsföringsaktiviteter. Det innefattar tillgång till profildata för demografiska analyser utifrån dimensioner som kön, stad och ålder, tillsammans med funktionella e-postkampanjdata som öppningar och klick. [Läs mer](../reporting/dynamic-reporting/get-started-reporting.md).
 
