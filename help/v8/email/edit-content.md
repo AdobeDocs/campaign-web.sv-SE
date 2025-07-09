@@ -3,7 +3,7 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
->additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -113,7 +113,7 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. När innehållet i ditt e-postmeddelande har definierats använder du knappen **[!UICONTROL Simulate content]** för att kontrollera hur det visas innan du skickar det. [Lär dig hur du förhandsgranskar och testar e-postmeddelandet](../preview-test/preview-test.md).
 
-## Konfigurera flerspråkig leverans
+## Konfigurera flerspråkig leverans {#multilingual-delivery}
 
 I webbgränssnittet för Campaign kan du konfigurera e-postleveranser som flerspråkiga, vilket gör att du kan skicka meddelanden baserat på vilket språk som används i en profil. Om ingen inställning har angetts skickas meddelandet på standardspråket.
 
@@ -129,7 +129,7 @@ Så här skapar du språkvarianter:
 
    >[!IMPORTANT]
    >
-   >Knappen **[!UICONTROL Add language]** är bara tillgänglig om måldimensionen innehåller språkschemat. Mer information om scheman och måldimensioner finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Knappen **[!UICONTROL Add language]** är bara tillgänglig om måldimensionen innehåller språkschemat. Mer information om scheman och måldimensioner finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Så här skapar du språkvarianter:
 
    >[!NOTE]
    >
-   >Vilka språk som är tillgängliga i den här listan beror på vilka värden som har definierats av språkattributet (värden som system, användare, dbenum osv.) Läs mer om uppräkningshantering i det här [avsnittet](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Vilka språk som är tillgängliga i den här listan beror på vilka värden som har definierats av språkattributet (värden som system, användare, dbenum osv.) Läs mer om uppräkningshantering i det här [avsnittet](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

@@ -3,9 +3,9 @@ title: Skapa en landningssida
 description: Lär dig konfigurera och publicera en landningssida på Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1544'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Lagret **[!UICONTROL Landing pages]** visar alla skapade artiklar. Du kan filtre
 
 >[!CAUTION]
 >
->Du kan inte visa eller redigera landningssidor som skapats från klientkonsolen (webbformulär) i gränssnittet för Campaign-webben. Läs mer i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=sv-SE){target="_blank"}.
+>Du kan inte visa eller redigera landningssidor som skapats från klientkonsolen (webbformulär) i gränssnittet för Campaign-webben. Läs mer i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -80,7 +80,7 @@ Du kan duplicera eller ta bort en landningssida. Klicka på ellipsen bredvid en 
 
 Så här skapar du en landningssida:
 
-1. Klicka på **[!UICONTROL Create landing page]** i **[!UICONTROL Landing pages]**-lagret.
+1. Klicka på **[!UICONTROL Landing pages]** i **[!UICONTROL Create landing page]**-lagret.
 
    ![Skärmbild som visar knappen Skapa landningssida.](assets/lp-create-button.png){zoomable="yes"}
 
@@ -116,10 +116,6 @@ Så här skapar du en landningssida:
 
    * Alternativet **[!UICONTROL Authorize absence of ID]** ger alla besökare åtkomst till landningssidan. Om du avmarkerar det här alternativet hindras anonyma besökare från att använda det, vilket innebär att endast identifierade användare kan komma åt och skicka formuläret.
 
-     >[!AVAILABILITY]
-     >
-     >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
-
      För mallarna **[!UICONTROL Acquisition]** och **[!UICONTROL Subscription]** är det här alternativet valt som standard. För mallarna **[!UICONTROL Unsubscription]** och **[!UICONTROL Denylist]** är det här alternativet omarkerat som standard och kan inte ändras.
 
 1. En landningssida kan ha efterföljande sidor. Om du vill lägga till sidor bläddrar du i avsnittet **[!UICONTROL Pages]** och klickar på knappen **[!UICONTROL Edit content]** för varje sida som du vill designa för den här landningssidan. Innehållet på varje sida är redan förfyllt. Redigera dem efter behov. [Läs mer](lp-content.md).
@@ -133,10 +129,6 @@ Så här skapar du en landningssida:
    ![Skärmbild som visar lagringsalternativen för landningssidan.](assets/lp-storage.png){zoomable="yes"}
 
 1. Skapa **[!UICONTROL Additional data]** för att lagra interna data när landningssidan skickas. Informationen är inte synlig för användare som besöker sidan. Endast konstanta värden tas i beaktning.
-
-   >[!AVAILABILITY]
-   >
-   >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
    ![Skärmbild som visar ytterligare dataavsnitt.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Så här skapar du en landningssida:
 När du har definierat alla inställningar och [designat](lp-content.md) alla sidor kan du [testa](#test-landing-page) och [publicera](#publish-landing-page) din landningssida enligt anvisningarna nedan.
 
 ## Skydda din landningssida med en captcha {#captcha}
-
->[!AVAILABILITY]
->
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som använder **Adobe Campaign v8.7.2 som har uppgraderats med den senaste korrigeringsversionen** och kan inte distribueras i någon annan miljö.
 
 Genom att konfigurera en captcha kan du skydda din landningssida mot skräppost och missbruk.
 

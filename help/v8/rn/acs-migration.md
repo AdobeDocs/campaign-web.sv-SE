@@ -3,7 +3,7 @@ audience: end-user
 title: Övergång från Campaign Standard till Adobe Campaign Web
 description: Upptäck webbanvändargränssnittet för kampanj
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Användargränssnittet för Campaign-webben är utformat för att marknadsförar
 * **HTML Converter för e-postdesign**. [Läs mer](../email/existing-content.md).
 * **SMS med erbjudanden**. [Läs mer](../msg/offers.md).
 
-Campaign-klientkonsolen är utformad för administratörer och utvecklare för att konfigurera och anpassa sin miljö. De nyckelfunktioner som är tillgängliga i Campaign-klientkonsolen beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
+Campaign-klientkonsolen är utformad för administratörer och utvecklare för att konfigurera och anpassa sin miljö. De nyckelfunktioner som är tillgängliga i Campaign-klientkonsolen beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
 >[!NOTE]
 >
@@ -70,13 +70,13 @@ De flesta koncept är lika i Campaign v8 och Campaign Standard. Det finns dock n
 
 ## Specifika funktioner {#new-features}
 
-För att övergången till Campaign v8 ska bli så smidig som möjligt har viktiga Campaign Standard-funktioner lagts till i Campaign v8. Dessa funktioner beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE){target="_blank} och är endast tillgängliga för användare som övergår från Campaign Standard.
+För att övergången till Campaign v8 ska bli så smidig som möjligt har viktiga Campaign Standard-funktioner lagts till i Campaign v8. Dessa funktioner beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank} och är endast tillgängliga för användare som går över från Campaign Standard.
 
-* **Dynamisk rapportering**: Dynamisk rapportering tillhandahåller anpassningsbara realtidsrapporter för att mäta effekten av marknadsföringsaktiviteter. Det innefattar tillgång till profildata för demografiska analyser utifrån dimensioner som kön, stad och ålder, tillsammans med funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=sv-SE){target="_blank"}.
+* **Dynamisk rapportering**: Dynamisk rapportering tillhandahåller anpassningsbara realtidsrapporter för att mäta effekten av marknadsföringsaktiviteter. Det innefattar tillgång till profildata för demografiska analyser utifrån dimensioner som kön, stad och ålder, tillsammans med funktionella e-postkampanjdata som öppningar och klick. [Läs mer](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **Centraliserad varumärkesprofilering**: Med Adobe Campaign kan företag definiera riktlinjer för varumärkets visuella och tekniska egenskaper. Användarna kan presentera ett konsekvent varumärke för kunderna, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=sv-SE).
+* **Centraliserad varumärkesprofilering**: Med Adobe Campaign kan företag definiera riktlinjer för varumärkets visuella och tekniska egenskaper. Användarna kan presentera ett konsekvent varumärke för kunderna, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](../administration/branding/branding-gs.md).
 
-* **REST API:er**: Campaign Standard migrerade användare kan använda REST API:er för att skapa integreringar för Adobe Campaign och skapa ekosystem genom att interagera Adobe Campaign med andra tekniker. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=sv-SE){target="_blank"}.
+* **REST API:er**: Campaign Standard migrerade användare kan använda REST API:er för att skapa integreringar för Adobe Campaign och skapa ekosystem genom att interagera Adobe Campaign med andra tekniker. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **Landningssidor**: Startsidor för Campaign v8 innehåller förbättringar för att säkerställa funktionsparitet med Campaign Standard. Läs mer i [versionsinformationen](../rn/release-notes.md#new-24-4) och [dokumentationen](../landing-pages/get-started-lp.md) på landningssidan.
 

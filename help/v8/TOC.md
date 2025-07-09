@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 15%
+source-wordcount: '910'
+ht-degree: 20%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 15%
    + [Exempel på frågor](query/query-samples.md)
    + [Filterlistor](query/filter.md)
 + Rapportering {#reports}
-   + [Kom igång med rapporter](reporting/gs-reports.md)
    + [Granskningskedja](reporting/audit-trail.md)
-   + [Exportera rapporter](reporting/export-reports.md)
    + [Viktiga resultatindikatorer](reporting/kpis.md)
-   + Leveransrapporter {#delivery-report}
-      + [Kom igång med leveransrapporter](reporting/delivery-reports.md)
-      + [Rapport om e-postleverans](reporting/email-report.md)
-      + [Rapport om push-leverans](reporting/push-report.md)
-      + [SMS-leveransrapport](reporting/sms-report.md)
-      + [Extern leveransrapport](reporting/direct-mail.md)
-   + Kampanjrapporter {#campaign-report}
-      + [Kom igång med kampanjrapporter](reporting/campaign-reports.md)
-      + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
-      + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
-      + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
-      + [Rapport om externa leveranskampanjer](reporting/campaign-reports-direct-mail.md)
-   + Globala rapporter {#global-report}
-      + [Kom igång med globala rapporter](reporting/global-reports.md)
-      + [E-posta global rapport](reporting/global-report-email.md)
-      + [Skjut global rapport](reporting/global-report-push.md)
-      + [global SMS-rapport](reporting/global-report-sms.md)
-      + [Global rapport för direktreklam](reporting/global-report-direct.md)
+   + Standardrapporter {#standard-reports}
+      + [Kom igång med rapporter](reporting/gs-reports.md)
+      + [Exportera rapporter](reporting/export-reports.md)
+      + Leveransrapporter {#delivery-report}
+         + [Kom igång med leveransrapporter](reporting/delivery-reports.md)
+         + [Rapport om e-postleverans](reporting/email-report.md)
+         + [Rapport om push-leverans](reporting/push-report.md)
+         + [SMS-leveransrapport](reporting/sms-report.md)
+         + [Extern leveransrapport](reporting/direct-mail.md)
+      + Kampanjrapporter {#campaign-report}
+         + [Kom igång med kampanjrapporter](reporting/campaign-reports.md)
+         + [Rapport om e-postkampanj](reporting/campaign-reports-email.md)
+         + [Rapport om push-kampanj](reporting/campaign-reports-push.md)
+         + [SMS-kampanjrapport](reporting/campaign-reports-sms.md)
+         + [Rapport om externa leveranskampanjer](reporting/campaign-reports-direct-mail.md)
+      + Globala rapporter {#global-report}
+         + [Kom igång med globala rapporter](reporting/global-reports.md)
+         + [E-posta global rapport](reporting/global-report-email.md)
+         + [Skjut global rapport](reporting/global-report-push.md)
+         + [global SMS-rapport](reporting/global-report-sms.md)
+         + [Global rapport för direktreklam](reporting/global-report-direct.md)
+   + Dynamisk rapportering {#dynamic-reporting}
+      + [Kom igång med dynamiska rapporter](reporting/dynamic-reporting/get-started-reporting.md)
+      + Om rapportering {#about-reporting}
+         + [Om dynamiska rapporter](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [Rapporteringsgränssnitt](reporting/dynamic-reporting/reporting-interface.md)
+         + [Lista över komponenter](reporting/dynamic-reporting/list-of-components.md)
+         + [Indikatorberäkning](reporting/dynamic-reporting/indicator-calculation.md)
+         + [Felsöka](reporting/dynamic-reporting/troubleshooting.md)
+      + Lista över rapporter {#list-of-reports}
+         + [Definiera rapportperioden](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [Studssammanfattning](reporting/dynamic-reporting/bounce-summary.md)
+         + [Uppdelning efter domäner](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [Klagomål](reporting/dynamic-reporting/complaints.md)
+         + [Leveranssammanfattning](reporting/dynamic-reporting/delivery-summary.md)
+         + [Leveranskapacitet](reporting/dynamic-reporting/delivery-throughput.md)
+         + [Ej levererbara och studsningar](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [Öppnar](reporting/dynamic-reporting/opens.md)
+         + [Spårningsindikatorer](reporting/dynamic-reporting/tracking-indicators.md)
+         + [Avprenumerationer](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL:er och klickströmmar](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + Anpassa rapporter {#customizing-reports}
+         + [Lägga till paneler](reporting/dynamic-reporting/adding-panels.md)
+         + [Lägga till visualiseringar](reporting/dynamic-reporting/adding-visualizations.md)
+         + [Lägga till komponenter](reporting/dynamic-reporting/adding-components.md)
+         + [Skapa en anpassad profildimension](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [Dynamiskt användningsavtal för rapportering](reporting/dynamic-reporting/pii-agreement.md)
 + Integreringar {#integrations}
    + [Arbeta med andra lösningar från Adobe](integrations/integration.md)
    + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Konfiguration {#conf}
+   + Varumärke {#branding}
+      + [Om Varumärkning](administration/branding/branding-gs.md)
+      + [Konfigurera ett varumärke](administration/branding/branding-configure.md)
+      + [Tilldela ett varumärke](administration/branding/branding-assign.md)
    + [Arbeta med affärsregler (typologier)](administration/typologies.md)
    + [Hantera målmappningar](administration/target-mappings.md)
    + [Arbeta med scheman](administration/schemas.md)
@@ -244,4 +275,4 @@ ht-degree: 15%
    + [Konfigurera externa konton](administration/external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

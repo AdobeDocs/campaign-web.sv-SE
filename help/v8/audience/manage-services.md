@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med prenumerationstjänster
 description: Lär dig hur du får tillgång till, skapar och hanterar prenumerationstjänster på Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -88,13 +88,9 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
 1. Välj de standardstartsidor för prenumeration och avprenumeration som är kopplade till den här tjänsten.
 
-   >[!AVAILABILITY]
-   >
-   >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
-
    ![Skärmbild som visar standardinställningarna för landningssida för en prenumerationstjänst](assets/service-create-default-lp.png){zoomable="yes"}
 
-   När du är klar väljer du **[!UICONTROL Subscription link]** eller **[!UICONTROL Unsubscription link]** när du [infogar en länk](../email/message-tracking.md) i ett e-postmeddelande. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   När du är klar väljer du [ eller ](../email/message-tracking.md) när du **[!UICONTROL Subscription link]** infogar en länk **[!UICONTROL Unsubscription link]** i ett e-postmeddelande. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![Skärmbild som visar länkinställningarna för prenumeration och avprenumeration](assets/service-create-default-lp-link.png){zoomable="yes"}
 

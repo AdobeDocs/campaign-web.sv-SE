@@ -2,11 +2,10 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
-badge: label="Begränsad tillgänglighet"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -23,10 +22,6 @@ Campaign Web User Interface innehåller fördefinierade varningsvillkor, som lev
 Varningsvillkoren är tillgängliga på menyn **Leveransvarning** i den vänstra navigeringsrutan, på fliken **Villkor**.
 
 ![Lista med varningsvillkor som visas på menyn Leveransvarning](assets/alerting-criteria-list.png)
-
->[!AVAILABILITY]
->
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Fördefinierade aviseringskriterier {#ootb-criteria}
 

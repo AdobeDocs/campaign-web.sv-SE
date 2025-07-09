@@ -2,11 +2,10 @@
 audience: end-user
 title: Leveransvarningar
 description: Lär dig hur du arbetar med leveransvarningar.
-badge: label="Begränsad tillgänglighet"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -17,11 +16,7 @@ Leveransvarningar är ett varningshanteringssystem som gör det möjligt för an
 
 Meddelanden anpassas baserat på särskilda varningsvillkor som definieras via Adobe Campaign webbanvändargränssnitt.
 
-Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
-
->[!AVAILABILITY]
->
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
+Mer information om hur du hanterar leveransfel finns i [Adobe Campaign v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Innehåll i e-postmeddelanden {#content}
 

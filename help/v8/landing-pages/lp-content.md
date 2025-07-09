@@ -3,9 +3,9 @@ title: Definiera landningssidspecifikt innehåll
 description: Lär dig hur du utformar innehåll för landningssidor på Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,6 @@ För att ytterligare utforma innehållet på landningssidan:
 * Använd samma komponenter som de som används för att utforma e-postmeddelanden. [Läs mer](../email/content-components.md#add-content-components)
 
 * Lägg till villkorligt innehåll på landningssidorna på samma sätt som för ett e-postmeddelande. [Läs mer](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
 ## Använda formulärkomponenten {#use-form-component}
 
@@ -96,7 +92,7 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
 
 1. När alla fält har lagts till eller uppdaterats klickar du på **[!UICONTROL Call to action]** för att expandera motsvarande avsnitt. Det gör att du kan definiera beteendet för knappen i komponenten **[!UICONTROL Form]**. [Lär dig hur](#define-actions-on-form-submission)
 
-   ![Anrop till åtgärdsinställningar i formulärkomponenten](assets/lp-call-to-action.png){zoomable="yes"}
+   ![Call to action-inställningar i formulärkomponenten](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Spara ditt innehåll för att gå tillbaka till [landningssidans egenskaper](create-lp.md#create-landing-page).
 
@@ -125,10 +121,6 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
 
 1. Välj alternativet **[!UICONTROL Service from URL]** om du vill tillåta att landningssidan används för flera tjänster, vilket gör den dynamisk. Definiera om du vill avanmäla dig eller avanmäla användare när du skickar formuläret.
 
-   >[!AVAILABILITY]
-   >
-   >Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
-
    ![Tjänst från URL-inställningar i formulärkomponenten](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Om du definierar en länk av typen **[!UICONTROL Landing page]** till den här landningssidan när du utformar ett e-postmeddelande kan du välja vilken tjänst som helst i listan. Du kan sedan välja andra tjänster när du definierar andra länkar till den här landningssidan. [Läs mer om att infoga länkar](../email/message-tracking.md)
@@ -139,13 +131,9 @@ Om du vill definiera specifikt innehåll som gör att användare kan välja och 
 
 ### Skicka ett meddelande efter överföring {#lp-message}
 
->[!AVAILABILITY]
->
->Den här funktionen är begränsad tillgänglighet (LA). Den är begränsad till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
-
 Så här skickar du ett bekräftelsemeddelande automatiskt när en landningssida har skickats:
 
-1. Markera alternativet **[!UICONTROL Send confirmation email]** i avsnittet **[!UICONTROL CALL TO ACTION]**.
+1. Markera alternativet **[!UICONTROL CALL TO ACTION]** i avsnittet **[!UICONTROL Send confirmation email]**.
 
 1. Välj den transaktionsmeddelandemall som ska skickas ut i den associerade nedrullningsbara listan.
 

@@ -2,16 +2,36 @@
 title: Versionsinformation om webbanvändargränssnittet i Campaign v8
 description: 2025 Campaign Web User Interface-versioner
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 12%
+source-wordcount: '1603'
+ht-degree: 11%
 
 ---
 
 # Versionsinformation 2025 {#2025-release}
 
 På den här sidan visas alla ändringar och förbättringar som är tillgängliga i **2025-utgåvor**. De senaste versionskommentarerna är tillgängliga på [den här sidan](release-notes.md).
+
+## 25 juni {#25-6-release}
+
+### Förbättringar {#25-6-improvements}
+
+* Rapporten Delivery Summary finns nu tillgänglig för både Call Center och Custom channel. [Läs mer](../reporting/direct-mail.md)
+
+* När du konfigurerar en SMS-leverans har du nu tillgång till de specifika SMS-parametrarna. Det här är samma parametrar som finns i klientkonsolen. [Läs mer](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Dina favoritmappar visas nu högst upp i den vänstra panelen på Utforskarsidan, vilket gör dem enklare att komma åt. [Läs mer](../get-started/work-with-folders.md#favorite-folders)
+
+* Regelbyggaren har nu stöd för dra och släpp, vilket gör att du kan ordna om komponenterna i frågan mer effektivt. [Läs mer](../query/build-query.md#drag-and-drop)
+
+* Det&quot;mänskliga villkoret&quot; i regelbyggaren har förbättrats. Det här är den skrivna, oformaterade versionen av reglerna som visas längst ned på skärmen:
+
+   * Attribut markeras nu och det associerade schemat visas.
+   * Du kan klicka på de här elementen om du vill visa mer detaljerad information.
+   * Nu kan du kopiera det mänskliga villkoret med motsvarande knapp.
+
+* Åtkomsten till mapparna&quot;Tekniska arbetsflöden&quot; och&quot;Objekt skapade automatiskt&quot; är nu begränsad för att förhindra att de visas. [Läs mer](../get-started/work-with-folders.md#about-folders)
 
 ## Version 25 maj {#25-5-release}
 
@@ -121,7 +141,7 @@ Du kan också visa, uppdatera och hantera befintliga externa konton.</p>
 **Förbättrat allmänt gränssnitt**
 
 * Fältbeskrivningen, Lägg till i favoriter och Distribution av värdealternativ för schemaattribut är nu mer synlig i användargränssnittet. Mer information finns i den [detaljerade dokumentationen](../get-started/attributes.md).
-* I gränssnittet visas nu datum och tid enligt det primära språk som angetts i inställningarna för Experience League. Den här förbättringen är bara tillgänglig för flera språk. En fullständig lista över vilka språk som stöds finns i [den detaljerade dokumentationen](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/browser-language){target=_blank}.
+* I gränssnittet visas nu datum och tid enligt det primära språk som angetts i inställningarna för Experience League. Den här förbättringen är bara tillgänglig för flera språk. En fullständig lista över vilka språk som stöds finns i [den detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -147,13 +167,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö. De kräver en uppgradering av Campaign-servern till v8.7.4.
 >
->Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE).
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Skapa flerspråkig leverans** - Nu kan du skicka flera e-postleveranser på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt. Mer information finns i den [detaljerade dokumentationen](../email/edit-content.md).
 
 * **Dynamisk rapportering för flerspråkiga** - Dynamisk rapportering är nu tillgänglig för flerspråkiga e-postleveranser. Mer information finns i den [detaljerade dokumentationen](../reporting/global-reports.md).
 
-* **Stöd för SMS REST API (LA)** - Transactional Messaging REST API är nu tillgängligt för SMS-kanalen. När både e-post och mobilePhone finns i nyttolasten kan du använda fältet&quot;önskekanal&quot; för att ange kanalen. Om det inte anges används e-post som standard, såvida inte önskadChannel uttryckligen begär SMS. Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **Stöd för SMS REST API (LA)** - Transactional Messaging REST API är nu tillgängligt för SMS-kanalen. När både e-post och mobilePhone finns i nyttolasten kan du använda fältet&quot;önskekanal&quot; för att ange kanalen. Om det inte anges används e-post som standard, såvida inte önskadChannel uttryckligen begär SMS. Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
 
 ## 25 februari {#25-2-release}
 
