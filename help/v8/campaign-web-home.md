@@ -3,10 +3,10 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
+source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 2%
 
 ---
 
@@ -52,9 +52,9 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 >[!BEGINTABS]
 
 
->[!TAB 25 maj-utgåvan]
+>[!TAB Uppdateringar från 25 juli]
 
-Maj-versionen är nu aktiv, inklusive den nya anpassade kanalen, varumärkesjusteringspoängen och förbättringen av typologireglerna.
+Nya funktioner och förbättringar är nu tillgängliga i gränssnittet för webbkampanjen. Om du vill utnyttja dessa förbättringar måste du uppgradera Campaign-miljön till version 8.8. En fullständig översikt finns i versionsinformationen.
 
 [![Knappen Läs mer](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ Maj-versionen är nu aktiv, inklusive den nya anpassade kanalen, varumärkesjust
 
 ✨ Fördjupa dig i en praktisk upplevelse med vår [ AI Assistant](../v8/email/generative-gs.md) -förhandsgranskning av aktiva funktioner, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.
 
-[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Vanliga frågor och svar ]
 
