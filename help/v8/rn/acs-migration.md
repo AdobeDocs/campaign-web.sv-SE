@@ -76,7 +76,7 @@ För att övergången till Campaign v8 ska bli så smidig som möjligt har vikti
 
 * **Centraliserad varumärkesprofilering**: Med Adobe Campaign kan företag definiera riktlinjer för varumärkets visuella och tekniska egenskaper. Användarna kan presentera ett konsekvent varumärke för kunderna, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](../administration/branding/branding-gs.md).
 
-* **REST API:er**: Campaign Standard migrerade användare kan använda REST API:er för att skapa integreringar för Adobe Campaign och skapa ekosystem genom att interagera Adobe Campaign med andra tekniker. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **REST API:er**: Campaign Standard migrerade användare kan använda REST API:er för att skapa integreringar för Adobe Campaign och skapa ekosystem genom att interagera Adobe Campaign med andra tekniker. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE){target="_blank"}.
 
 * **Landningssidor**: Startsidor för Campaign v8 innehåller förbättringar för att säkerställa funktionsparitet med Campaign Standard. Läs mer i [versionsinformationen](../rn/release-notes.md#new-24-4) och [dokumentationen](../landing-pages/get-started-lp.md) på landningssidan.
 

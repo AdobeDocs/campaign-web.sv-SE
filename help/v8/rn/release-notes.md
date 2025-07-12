@@ -59,7 +59,7 @@ Tidigare släppt i Begränsad tillgänglighet är följande funktioner nu tillg�
 Utöver de funktioner som listas ovan innehåller den här versionen även en uppsättning funktioner som är tillgängliga i klientkonsolen:
 
 * [Ny SMS-avsändande koppling](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=sv-SE).
-* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE)
 
 Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
