@@ -3,10 +3,10 @@ audience: end-user
 title: Spåra meddelanden
 description: Lär dig hur du lägger till länkar och spårar skickade meddelanden
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
 
@@ -31,10 +31,6 @@ Så här infogar du länkar i e-postinnehåll:
    ![Skärmbild som visar gränssnittet för att infoga länkar i meddelandespårningsverktyget](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL External link]**: Infoga en länk till en extern URL.
-
-     >[!AVAILABILITY]
-     >
-     >Följande funktioner (länk till **[!UICONTROL Landing page]**, **[!UICONTROL Subscription link]** och **[!UICONTROL Unsubscription link]**) har begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö.
 
    * **[!UICONTROL Landing page]**: Infoga en länk till en landningssida. Om du väljer en dynamisk landningssida (med alternativet **[!UICONTROL Service from URL]** markerat) kan du välja vilken tjänst som helst i listan. [Läs mer](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
