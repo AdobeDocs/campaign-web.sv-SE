@@ -6,14 +6,19 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 16%
 
 ---
 
 # Kom igång med varumärken {#branding-gs}
+
+>[!AVAILABILITY]
+>
+>Den här kapaciteten är endast tillgänglig on-demand för nya implementeringar. Kontakta din Adobe-representant för att få åtkomst.
+
 
 >[!IMPORTANT]
 >
@@ -25,7 +30,7 @@ Tekniska administratörer kan skapa och hantera flera varumärken inom Adobe Cam
 
 Du kan lägga till nya entiteter i organisationen i Campaign eller skapa en ny typ av e-post som du måste skicka under en annan underdomän. Gör så här:
 
-1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta din Adobe tekniska kontakt. Läs mer om underdomänskonfigurationen [på den här sidan](https://experienceleague.adobe.com/sv/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Konfigurera en ny underdomän** - För alla nya underdomäner som ska användas av Adobe är det första steget att konfigurera den. Du kan göra detta via [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=sv) eller kontakta din Adobe tekniska kontakt. Läs mer om underdomänskonfigurationen [på den här sidan](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >

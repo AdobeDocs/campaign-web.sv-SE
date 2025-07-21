@@ -4,14 +4,18 @@ description: Analysera framgångarna med dina kampanjer i inbyggda eller anpassa
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '291'
 ht-degree: 12%
 
 ---
 
 # Kom igång med dynamisk rapportering {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>Den här kapaciteten är endast tillgänglig on-demand. Kontakta din Adobe-representant för att få åtkomst.
 
 Dynamic Reporting ger helt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick.
 
