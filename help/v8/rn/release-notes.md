@@ -24,7 +24,7 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 >[!AVAILABILITY]
 >
->För att få tillgång till dessa uppdateringar måste servern uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen [](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>För att få tillgång till dessa uppdateringar måste servern uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Tidigare släppt i Begränsad tillgänglighet är följande funktioner nu tillgängliga i alla miljöer (allmän tillgänglighet):
 
@@ -61,7 +61,7 @@ Utöver de funktioner som listas ovan innehåller den här versionen även en up
 * [Ny SMS-avsändande koppling](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html). (FDA-miljöer)
 * [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA-miljöer)
 
-Mer information finns i versionsinformationen för klientkonsolen [](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
