@@ -24,14 +24,14 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 >[!AVAILABILITY]
 >
->För att få tillgång till dessa uppdateringar måste servern uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>För att få tillgång till dessa uppdateringar måste servern uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
 Tidigare släppt i Begränsad tillgänglighet är följande funktioner nu tillgängliga i alla miljöer (allmän tillgänglighet):
 
 * **Skapa flerspråkig leverans** - Nu kan du skicka flera e-postleveranser på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt. [Läs mer](../email/edit-content.md#multilingual-delivery).
 
 <!--
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=sv-SE){target="_blank"}
 -->
 
 * **Leveransavisering** - Leveransaviseringsfunktionen är ett varningshanteringssystem som gör att en grupp användare automatiskt kan ta emot meddelanden som innehåller information om hur deras leveranser utförs. [Läs mer](../msg/delivery-alerting.md)
@@ -58,14 +58,14 @@ Tidigare släppt i Begränsad tillgänglighet är följande funktioner nu tillg�
 
 Utöver de funktioner som listas ovan innehåller den här versionen även en uppsättning funktioner som är tillgängliga i klientkonsolen:
 
-* [Ny SMS-avsändande koppling](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html). (FDA-miljöer)
-* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA-miljöer)
+* [Ny SMS-avsändande koppling](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=sv-SE). (FDA-miljöer)
+* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE) (on demand, FDA-miljöer)
 
-Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
 <!--
-ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
-web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=sv-SE){target="_blank"}
+web - * **Branding for Direct Mail** - Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates. [Learn more](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/branding/branding-assign)
 ACC - Branding - As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. Read more
 Previously released in Limited Availability, the following capability is now available **on demand, only for [Campaign FDA deployments](../architecture/fda-deployment.md)**. To gain access, contact your Adobe representative.
 Previously released in Limited Availability, the following capability is now available by default **for new implementations**, and available **on demand for existing environments**. To gain access, contact your Adobe representative.
