@@ -173,7 +173,7 @@ Utöver de funktioner som listas ovan innehåller den här versionen även en up
 * [Ny SMS-sändningskontakt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA-miljöer)
 * [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA-miljöer)
 
-Mer information finns i versionsinformationen för klientkonsolen [](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 

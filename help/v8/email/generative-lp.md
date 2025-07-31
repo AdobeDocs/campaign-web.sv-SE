@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Läs de relaterade [Guardscheman och Begränsningar](generative-gs.md#generative-guardrails) innan du börjar använda den här funktionen.
->></br>
+>&#x200B;></br>
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
