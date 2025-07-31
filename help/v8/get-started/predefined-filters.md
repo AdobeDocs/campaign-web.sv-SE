@@ -2,10 +2,10 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -131,7 +131,9 @@ I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och utf
 * Duplicera ett fördefinierat filter.
 * Ta bort ett fördefinierat filter.
 
-Du kan också lägga till ett fördefinierat filter som favorit för snabb åtkomst när du skapar målgrupper. Läs mer i [det här avsnittet](#fav-filter).
+Du kan också redigera eller ta bort ett fördefinierat filter direkt i regelbyggaren. Använd knappen **Fler åtgärder** i det fördefinierade filtermarkeringsfönstret. Du kan ta bort eller redigera filtret. Du kan ändra etiketten, lägga till en beskrivning och lägga till den som favorit.
+
+![Utgåva av fördefinierade filter](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

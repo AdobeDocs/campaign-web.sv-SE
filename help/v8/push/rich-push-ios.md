@@ -3,9 +3,9 @@ audience: end-user
 title: Designa omfattande push-meddelanden för iOS
 description: Lär dig hur du utformar en omfattande push-meddelandetjänst från iOS med Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1447'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Innan du utformar ett push-meddelande måste du konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
+>Innan du utformar ett push-meddelande måste du konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
 
 ## Definiera innehållet i meddelandet {#push-message}
 
@@ -31,7 +31,7 @@ Gå igenom flikarna nedan för att lära dig mer om hur du anpassar mallarna.
 
 >[!TAB Standard]
 
-1. Välj **[!UICONTROL Default]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Default]**.
 
    ![Standardskärm för mallval](assets/rich_push_ios_default_1.png)
 
@@ -63,7 +63,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Grundläggande]
 
-1. Välj **[!UICONTROL Basic]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Basic]**.
 
    ![Grundläggande gallringsskärm för mallar](assets/rich_push_ios_basic_1.png)
 
@@ -85,7 +85,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
    ![Skärm för inställningar för ljud och badge](assets/rich_push_ios_basic_3.png)
 
-1. Ange hexadecimala färgkoder för **[!UICONTROL Notification background color]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Message text color]** på menyn **[!UICONTROL Color options]**.
+1. Ange hexadecimala färgkoder för **[!UICONTROL Color options]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Notification background color]** på menyn **[!UICONTROL Message text color]**.
 
    ![Skärmen Färgalternativ](assets/rich_push_ios_basic_4.png)
 
@@ -97,7 +97,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Carousel]
 
-1. Välj **[!UICONTROL Carousel]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Carousel]**.
 
    ![Väljningsskärmen för Carousel-mallen](assets/rich_push_ios_carousel_1.png)
 
@@ -128,7 +128,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 1. I listrutan **[!UICONTROL Advanced settings]** går du till fliken **[!UICONTROL Sound and Badge]** och anpassar ytterligare inställningar, till exempel ljud- och badge-alternativ för dina meddelanden. [Läs mer](#sound-badge)
 
-1. Ange hexadecimala färgkoder för **[!UICONTROL Notification background color]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Message text color]** på menyn **[!UICONTROL Color options]**.
+1. Ange hexadecimala färgkoder för **[!UICONTROL Color options]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Notification background color]** på menyn **[!UICONTROL Message text color]**.
 
    ![Skärmen Färgalternativ](assets/rich_push_ios_carousel_4.png)
 
@@ -140,7 +140,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Timer]
 
-1. Välj **[!UICONTROL Timer]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Timer]**.
 
    ![Väljningsskärm för timermall](assets/rich_push_ios_timer_1.png)
 
@@ -168,7 +168,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 1. I listrutan **[!UICONTROL Advanced settings]** går du till fliken **[!UICONTROL Sound and Badge]** och anpassar ytterligare inställningar, till exempel ljud- och badge-alternativ för dina meddelanden. [Läs mer](#sound-badge)
 
-1. Ange hexadecimala färgkoder för **[!UICONTROL Notification background color]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Message text color]** på menyn **[!UICONTROL Color options]**.
+1. Ange hexadecimala färgkoder för **[!UICONTROL Color options]**, **[!UICONTROL Notification background color]** och **[!UICONTROL Notification background color]** på menyn **[!UICONTROL Message text color]**.
 
 1. Utforska de **[!UICONTROL Additional]** alternativ som är tillgängliga för dina push-meddelanden om du vill göra ytterligare anpassningar. [Läs mer](#push-advanced)
 
@@ -203,6 +203,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 | Parameter | Beskrivning |
 |-----------|-------------|
 | **[!UICONTROL Mutable content]** | Aktivera det här alternativet om du vill tillåta mobilprogrammet att hämta medieinnehåll. |
+| **[!UICONTROL Content available]** | Aktivera det här alternativet om du vill tillåta att ditt meddelande utlöser bakgrundsuppdateringar på iOS-enheter, även när appen inte är aktivt öppen. Detta garanterar att innehåll som meddelanden eller datauppdateringar kan bearbetas och lagras i appens inkorg utan att användaren behöver göra något. När du väljer det här alternativet läggs flaggan `content-available: 1` till i `aps`-nyttolasten enligt APNS-standarden (Apple Push Notification Service). |
 | **[!UICONTROL Relevance score]** | Ange ett relevansvärde mellan 0 och 100. Systemet använder detta för att sortera meddelanden i meddelandesammanfattningen. |
 | **[!UICONTROL Interruption level]** | <ul><li>**Aktiv**: Om du anger det som standard visas meddelandet omedelbart, skärmen startas och ett ljud kan spelas upp. Meddelanden går inte igenom fokuslägena.</li><li>**Passiv**: Systemet lägger till meddelandet i meddelandelistan utan att skärmen eller ljudet visas. Meddelanden går inte igenom fokuslägena.</li><li>**Tidskänslig**: Systemet visar meddelandet omedelbart, lyser skärmen, kan spela upp ett ljud och går igenom fokuslägen. Den här nivån kräver inte särskilt tillstånd från Apple.</li><li>**Kritisk**: Systemet visar meddelandet omedelbart, lyser upp skärmen och kringgår avstängningsväxeln eller fokusläget. Observera att den här nivån kräver särskilt tillstånd från Apple.</li></ul> |
 | **[!UICONTROL Thread-id]** | Ange den identifierare som används för att gruppera relaterade meddelanden. |
