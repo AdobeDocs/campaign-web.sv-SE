@@ -3,9 +3,9 @@ audience: end-user
 title: Generativt innehåll
 description: Kom igång med AI Assistant
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1467'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
-></br>
+>></br>
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
@@ -54,7 +54,7 @@ I följande exempel kan du använda AI Assistant på Adobe Campaign Web för att
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
    * **[!UICONTROL Tone]**: Se till att tonen i din e-postadress får genklang hos din publik. Vare sig du vill ljuda informativt, lekfullt eller övertygande anpassar AI Assistant budskapet därefter.
 
-   ![Skärmbild med alternativ för textinställningar i Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+   ![Skärmbild med alternativ för textinställningar i Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
 1. Välj din **[!UICONTROL Image settings]**:
 
@@ -64,15 +64,21 @@ I följande exempel kan du använda AI Assistant på Adobe Campaign Web för att
    * **[!UICONTROL Lighting]**: Ändra ljussättningen i bilden för att forma atmosfären och framhäva specifika element.
    * **[!UICONTROL Composition]**: Ordna elementen i bildens ram.
 
-   ![Skärmbild med bildinställningsalternativ i Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
+   ![Skärmbild med alternativ för varumärkesinställningar i Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
-1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
+
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
+
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
@@ -83,11 +89,11 @@ I följande exempel kan du använda AI Assistant på Adobe Campaign Web för att
 
    ![Skärmbild med förfiningsalternativ i Adobe Campaign Web](assets/full-email-5.png){zoomable="yes"}
 
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
+
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata. Klicka sedan på knappen **[!UICONTROL Simulate content]** för att kontrollera återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
-
-   ![Skärmbild som visar knappen för att simulera innehåll i Adobe Campaign Web](assets/full-email-6.png){zoomable="yes"}
 
 När ni definierar innehåll, målgrupp och tidsplan ska ni förbereda er för e-postleverans. [Läs mer](../monitor/prepare-send.md)
 
@@ -117,15 +123,21 @@ I följande exempel använder du AI Assistant för att förbättra innehållet i
    * **[!UICONTROL Tone]**: Se till att tonen i din e-postadress får genklang hos din publik. Vare sig du vill ljuda informativt, lekfullt eller övertygande anpassar AI Assistant budskapet därefter.
    * **Textlängd**: Använd reglaget för att välja önskad längd på texten.
 
-   ![Skärmbild med alternativ för textinställningar i Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
+   ![Skärmbild med alternativ för textinställningar i Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
-1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
+
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
+
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
@@ -137,7 +149,9 @@ I följande exempel använder du AI Assistant för att förbättra innehållet i
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
-   ![Skärmbild med förfiningsalternativ i Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
+   ![Skärmbild med förfiningsalternativ i Adobe Campaign Web](assets/text-genai-5.png){zoomable="yes"}
+
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
@@ -178,23 +192,25 @@ I exemplet nedan kan du lära dig hur du använder AI Assistant för att optimer
    * **[!UICONTROL Lighting]**: Ändra ljussättningen i bilden för att forma atmosfären och framhäva specifika element.
    * **[!UICONTROL Composition]**: Ordna elementen i bildens ram.
 
-   ![Skärmbild med bildinställningsalternativ i Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
+   ![Skärmbild med bildinställningsalternativ i Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
 1. När du är nöjd med promptkonfigurationen klickar du på **[!UICONTROL Generate]**.
 
-1. Bläddra i **[!UICONTROL Variation suggestions]** för att hitta den önskade resursen.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
 
-   Klicka på **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
 
-   ![Skärmbild som visar variantförslag för bildgenerering i Adobe Campaign Web](assets/image-genai-5.png){zoomable="yes"}
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Välj **[!UICONTROL Generate Similar]** om du vill visa relaterade bilder till den här varianten.
 
-   ![Skärmbild som visar ett liknande alternativ i Adobe Campaign Web](assets/image-genai-6.png){zoomable="yes"}
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 

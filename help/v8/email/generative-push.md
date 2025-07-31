@@ -3,9 +3,9 @@ audience: end-user
 title: Push-meddelande med AI Assistant
 description: Kom igång med AI Assistant
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Innan du börjar använda den här funktionen bör du läsa de relaterade [Guardsändningarna och begränsningarna](generative-gs.md#generative-guardrails).
-></br>
+>></br>
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
@@ -39,7 +39,7 @@ I följande exempel används AI Assistant för att skapa övertygande meddelande
 
    ![Skärmbild som visar gränssnittet för promptbiblioteket](assets/push-genai-2.png){zoomable="yes"}
 
-1. Välj det fält som du vill generera: **[!UICONTROL Title]**, **[!UICONTROL Message]** och/eller **[!UICONTROL Image]**.
+1. Välj det fält som du vill generera: **[!UICONTROL Title]**, **[!UICONTROL Subtitle]**, **[!UICONTROL Message]** och/eller **[!UICONTROL Image]**.
 
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
@@ -57,13 +57,19 @@ I följande exempel används AI Assistant för att skapa övertygande meddelande
 
    ![Skärmbild med alternativ för bildinställningar](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som innehåller innehåll som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
-1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
+
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
+
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
@@ -75,10 +81,10 @@ I följande exempel används AI Assistant för att skapa övertygande meddelande
 
    ![Skärmbild med alternativen Förfina ](assets/push-genai-5.png){zoomable="yes"}
 
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
+
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
 1. Infoga anpassningsfält för att anpassa ditt e-postinnehåll baserat på profildata. Klicka sedan på knappen **[!UICONTROL Simulate content]** för att kontrollera återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
-
-   ![Skärmbild med knappen Simulera innehåll](assets/push-genai-6.png){zoomable="yes"}
 
 När ni definierar innehåll, målgrupp och tidsplan förbereder ni er push-leverans. [Läs mer](../monitor/prepare-send.md)

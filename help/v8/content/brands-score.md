@@ -2,19 +2,18 @@
 audience: end-user
 title: Märkesjustering
 description: Lär dig hur du skapar, validerar och hanterar varumärkesinnehåll med hjälp av varumärkespoäng.
-badge: label="Beta" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# Varumärkesjustering (Beta){#brands-score}
+# Märkesjustering {#brands-score}
 
 >[!AVAILABILITY]
 >
->Den här funktionen är en privat betaversion. Den kommer att finnas tillgänglig successivt för alla kunder i framtida versioner.
 >Du måste godkänna [användaravtalet](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI-assistenten. Kontakta din Adobe-representant om du vill veta mer.
 
 Funktionen för varumärkesjustering är byggd för att hjälpa er att skapa, granska och hantera innehåll som följer varumärkesriktlinjerna. Det garanterar enhetlighet i fråga om ton, meddelanden och visuell identitet i alla e-postkampanjer, samtidigt som det fungerar som en kvalitetskontroll innan innehållet publiceras.

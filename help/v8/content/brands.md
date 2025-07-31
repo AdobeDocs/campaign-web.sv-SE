@@ -2,20 +2,15 @@
 audience: end-user
 title: Hantera varumärke
 description: Lär dig skapa och hantera riktlinjer för ert varumärke
-badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera varumärken {#brands}
-
->[!AVAILABILITY]
->
->Den här funktionen är en privat betaversion. Den kommer att bli allt mer tillgänglig för alla kunder i kommande versioner.
 
 Varumärkesriktlinjerna är en omfattande uppsättning regler och standarder som definierar ett varumärkes visuella och verbala identitet. De fungerar som referens för att säkerställa en enhetlig varumärkesrepresentation i alla marknadsförings- och kommunikationskanaler.
 
@@ -25,7 +20,7 @@ I [!DNL Adobe Campaign Web] kan användare ange och ordna varumärkesinformation
 
 För att få åtkomst till menyn **[!UICONTROL Brands]** i [!DNL Adobe Campaign Web] måste användarna tilldelas produktprofilerna **[!UICONTROL Administrator (admin)]** och **[!UICONTROL Brand kit]** för att kunna skapa och hantera varumärken. För skrivskyddad åtkomst behöver användarna produktprofilen [!UICONTROL AI assistant].
 
-[Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Lär dig hur du tilldelar varumärkesrelaterade behörigheter
 
@@ -55,7 +50,7 @@ Följ stegen nedan om du vill skapa och hantera riktlinjer för ditt varumärke.
 
 Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärkesdokument för att extrahera informationen automatiskt:
 
-1. Klicka på **[!UICONTROL Create brand]** på menyn **[!UICONTROL Brands]**.
+1. Klicka på **[!UICONTROL Brands]** på menyn **[!UICONTROL Create brand]**.
 
    ![Varumärkesmenyn med alternativet Skapa varumärke](assets/brands-1.png)
 
@@ -139,7 +134,7 @@ Använd fliken **[!UICONTROL About the brand]** för att etablera varumärkets k
 
    ![Kategorin för stödprinciper](assets/brands-about-2.png)
 
-1. Klicka på ![Dive image alt text](assets/do-not-localize/Smock_Add_18_N.svg "Add icon") i kategorin **[!UICONTROL Core brand values]** om du vill lägga till varumärkets kärnvärden och fylla i informationen:
+1. Klicka på **[!UICONTROL Core brand values]** Dive image alt text![Add icon](assets/do-not-localize/Smock_Add_18_N.svg " i kategorin ") om du vill lägga till varumärkets kärnvärden och fylla i informationen:
 
    * **[!UICONTROL Value]**: Namnge ett kärnvarumärke.
 
@@ -244,7 +239,7 @@ Avsnittet **[!UICONTROL Writing style]** beskriver standarderna för att skriva 
 
 Så här anpassar du din **[!UICONTROL Writing Style]**:
 
-1. Klicka på ![](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Writing Style]** för att lägga till en stödlinje, ett undantag eller ett undantag.
+1. Klicka på **[!UICONTROL Writing Style]** på fliken ![](assets/do-not-localize/Smock_Add_18_N.svg) för att lägga till en stödlinje, ett undantag eller ett undantag.
 
 1. Ange din riktlinje, undantag eller undantag och klicka på **[!UICONTROL Add]**.
 
@@ -301,7 +296,7 @@ Avsnittet **[!UICONTROL Visual Content]** definierar standarderna för bilder oc
 
 Så här anpassar du din **[!UICONTROL Visual content]**:
 
-1. Klicka på ![](assets/do-not-localize/Smock_Add_18_N.svg) på fliken **[!UICONTROL Visual content]** för att lägga till en stödlinje, ett undantag eller ett exempel.
+1. Klicka på **[!UICONTROL Visual content]** på fliken ![](assets/do-not-localize/Smock_Add_18_N.svg) för att lägga till en stödlinje, ett undantag eller ett exempel.
 
 1. Ange din riktlinje, ditt undantag eller exempel och klicka på **[!UICONTROL Add]**.
 

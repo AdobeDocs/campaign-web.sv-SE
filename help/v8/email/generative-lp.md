@@ -3,9 +3,9 @@ audience: end-user
 title: Landningssida med AI Assistant
 description: Kom igång med AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Läs de relaterade [Guardscheman och Begränsningar](generative-gs.md#generative-guardrails) innan du börjar använda den här funktionen.
-></br>
+>></br>
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
@@ -64,15 +64,19 @@ I följande exempel får du lära dig hur du använder AI Assistant för att fö
 
    ![Skärmbild med alternativ för bildinställningar.](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
-   ![Skärmbild som visar menyn varumärkesresurser.](assets/lp_full_gen_5.png){zoomable="yes"}
-
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
-1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
+
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
+
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
@@ -82,6 +86,8 @@ I följande exempel får du lära dig hur du använder AI Assistant för att fö
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
    ![Skärmbild som visar förfiningsalternativen.](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
@@ -117,7 +123,7 @@ I följande exempel får du lära dig hur du använder AI Assistant för att fö
 
    ![Skärmbild med alternativ för textinställningar.](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
@@ -125,7 +131,13 @@ I följande exempel får du lära dig hur du använder AI Assistant för att fö
 
 1. Klicka på **[!UICONTROL Generate]** när din fråga är klar.
 
-1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
+
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
+
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
+
+   ![Skärmbild som visar menyn varumärkesresurser.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Navigera till alternativet **[!UICONTROL Refine]** i fönstret **[!UICONTROL Preview]** för att få tillgång till ytterligare anpassningsfunktioner:
 
@@ -138,6 +150,8 @@ I följande exempel får du lära dig hur du använder AI Assistant för att fö
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
    ![Skärmbild som visar förfiningsalternativen.](assets/lp-text-genai-5.png){zoomable="yes"}
+
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
@@ -178,19 +192,23 @@ I exemplet nedan kan du lära dig hur du använder AI Assistant för att optimer
 
    ![Skärmbild med alternativ för bildinställningar.](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Upload brand asset]** på menyn **[!UICONTROL Brand assets]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
+1. Klicka på **[!UICONTROL Brand assets]** på menyn **[!UICONTROL Upload brand asset]** om du vill lägga till en varumärkesresurs som ger ytterligare kontext till AI Assistant, eller välj en som har överförts tidigare.
 
    Tidigare överförda filer är tillgängliga i listrutan **[!UICONTROL Uploaded brand assets]**. Växla de resurser du vill inkludera i din generation.
 
 1. När du är nöjd med promptkonfigurationen klickar du på **[!UICONTROL Generate]**.
 
-1. Bläddra i **[!UICONTROL Variation suggestions]** för att hitta den önskade resursen.
+1. Bläddra igenom den genererade **[!UICONTROL Variations]** och klicka på **[!UICONTROL Preview]** för att visa en fullskärmsversion av den valda varianten eller **[!UICONTROL Apply]** för att ersätta det aktuella innehållet.
 
-   Klicka på **[!UICONTROL Preview]** om du vill visa en fullskärmsversion av den valda varianten.
+1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
 
-1. Välj **[!UICONTROL Generate Similar]** om du vill visa relaterade bilder till den här varianten.
+   Läs mer om [varumärkesjusteringspoäng](../content/brands-score.md).
 
-   ![Skärmbild som visar gränssnittet för variantförslag.](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Skärmbild som visar menyn varumärkesresurser.](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Välj **[!UICONTROL Generate Similar]** i **[!UICONTROL Preview]**-fönstret om du vill visa relaterade bilder till den här varianten.
+
+1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
 
