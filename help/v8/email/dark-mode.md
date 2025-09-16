@@ -1,7 +1,6 @@
 ---
 title: Växla till mörkt läge
 description: Läs om hur du använder mörkt läge i Adobe Campaign Email Designer
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -9,9 +8,9 @@ level: Beginner, Intermediate
 keywords: mörkt läge, e-post, färg, redigerare
 hide: true
 hidefromtoc: true
-source-git-commit: 795a18d14c353666e081c70f6095924bb6d918e1
+source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,7 @@ ht-degree: 0%
 >title="Växla till mörkt läge"
 >abstract="Växla till mörkt läge om du vill förhandsgranska hur det kan återges på e-postklienter som stöds. <br>Den slutliga återgivningen beror på mottagarens e-postklient. Observera att alla e-postklienter inte stöder mörkt läge."
 
-När du utformar dina e-postmeddelanden kan du växla till [!DNL Adobe Campaign]-vyn med [&#128279;](get-started-email-designer.md)e-post-Designer **[!UICONTROL Dark mode]**.
+När du utformar dina e-postmeddelanden kan du växla till [!DNL Adobe Campaign]-vyn med [ ](get-started-email-designer.md)e-post-Designer **[!UICONTROL Dark mode]**.
 
 I den här <!--Email Designer -->mörka vyn kan du även definiera specifika anpassade inställningar som ska visas av e-postklienter som stöder e-post när deras mörka läge är aktiverat.
 
