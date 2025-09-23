@@ -74,8 +74,8 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 >id="acw_deliveries_email_audience"
 >title="Välj en målgrupp för leveransen"
 >abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp (som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform), skapa en ny målgrupp med frågemodelleraren eller överföra en fil som innehåller målgruppen. Kontrollgrupper är inte aktiverade för alternativet **Välj från fil** och vice versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Välj huvudmålgrupper"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=sv-SE" text="Välj huvudmålgrupper"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=sv-SE" text="Ange en kontrollgrupp"
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
 
@@ -89,7 +89,7 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
 
 1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
 
@@ -222,7 +222,7 @@ Simulering av innehåll stöds inte i följande fall:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Med avstämda leveranser,
-* När din Campaign-distributionsmodell är [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* När din Campaign-distributionsmodell är [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
 * När ingen fil har överförts.
 
 ## Skicka och övervaka e-postmeddelandet {#prepare-send}

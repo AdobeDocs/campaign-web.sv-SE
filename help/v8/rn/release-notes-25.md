@@ -38,7 +38,7 @@ Följande funktioner är tillgängliga från och med juli.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -145,7 +145,7 @@ Följande funktioner är tillgängliga från och med juli.
 <tr>
 <td>
 <p>Nu har ni tillgång till Dynamic Reporting som tillhandahåller helt anpassningsbara realtidsrapporter för att mäta effekten av era marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. Dynamisk rapportering finns också för flerspråkiga e-postleveranser och transaktionsmeddelanden.</p>
-<p>Den här funktionen är bara tillgänglig på begäran. Kontakta din Adobe-representant för att få åtkomst. Servern måste uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank"></a>.
+<p>Den här funktionen är bara tillgänglig på begäran. Kontakta din Adobe-representant för att få åtkomst. Servern måste uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE" target="_blank"></a>.
 <p>Mer information finns i den <a href="../reporting/dynamic-reporting/get-started-reporting.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
@@ -162,7 +162,7 @@ Följande funktioner är tillgängliga från och med juli.
 <tr>
 <td>
 <p>Era tekniska administratörer kan nu definiera ett eller flera varumärken för att centralisera de parametrar som påverkar ett varumärkes identitet. Detta inkluderar logotypen, domänen för landningssidans åtkomst-URL eller inställningar för meddelandespårning. Du kan skapa dessa varumärken och länka dem till meddelanden eller landningssidor. Den här konfigurationen hanteras i mallar. Varumärkesalternativ är tillgängliga för alla kanaler, inklusive SMS och direktreklam.</p>
-<p>Den här funktionen är endast tillgänglig vid behov, för nya implementeringar. Kontakta din Adobe-representant för att få åtkomst. Servern måste uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank"></a>.
+<p>Den här funktionen är endast tillgänglig vid behov, för nya implementeringar. Kontakta din Adobe-representant för att få åtkomst. Servern måste uppgraderas till minst 8.8.1. Mer information finns i versionsinformationen för klientkonsolen <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE" target="_blank"></a>.
 <p>Mer information finns i den <a href="../administration/branding/branding-gs.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
@@ -171,10 +171,10 @@ Följande funktioner är tillgängliga från och med juli.
 
 Utöver de funktioner som listas ovan innehåller den här versionen även en uppsättning funktioner som är tillgängliga i klientkonsolen:
 
-* [Ny SMS-sändningskontakt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA-miljöer)
-* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA-miljöer)
+* [Ny SMS-sändningskontakt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=sv-SE) (FDA-miljöer)
+* [Återstående API:er](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE) (on demand, FDA-miljöer)
 
-Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Mer information finns i versionsinformationen för klientkonsolen [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
 <!--
 
@@ -182,14 +182,14 @@ Mer information finns i versionsinformationen för klientkonsolen [&#128279;](ht
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=sv-SE){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -216,10 +216,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=sv-SE) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=sv-SE){target="_blank"}.
 
 -->
 
@@ -371,7 +371,7 @@ Du kan också visa, uppdatera och hantera befintliga externa konton.</p>
 **Förbättrat allmänt gränssnitt**
 
 * Fältbeskrivningen, Lägg till i favoriter och Distribution av värdealternativ för schemaattribut är nu mer synlig i användargränssnittet. Mer information finns i den [detaljerade dokumentationen](../get-started/attributes.md).
-* I gränssnittet visas nu datum och tid enligt det primära språk som angetts i inställningarna för Experience League. Den här förbättringen är bara tillgänglig för flera språk. En fullständig lista över vilka språk som stöds finns i [den detaljerade dokumentationen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
+* I gränssnittet visas nu datum och tid enligt det primära språk som angetts i inställningarna för Experience League. Den här förbättringen är bara tillgänglig för flera språk. En fullständig lista över vilka språk som stöds finns i [den detaljerade dokumentationen](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -397,13 +397,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Följande funktioner är i Begränsad tillgänglighet (LA). De är begränsade till kunder som migrerar **från Adobe Campaign Standard till Adobe Campaign v8** och kan inte distribueras i någon annan miljö. De kräver en uppgradering av Campaign-servern till v8.7.4.
 >
->Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Se följande dokumentationssidor: [Campaign Standard övergång till Campaign v8](../rn/acs-migration.md) och [Funktioner för Campaign Standard-användare](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE).
 
 * **Skapa flerspråkig leverans** - Nu kan du skicka flera e-postleveranser på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt. Mer information finns i den [detaljerade dokumentationen](../email/edit-content.md).
 
 * **Dynamisk rapportering för flerspråkiga** - Dynamisk rapportering är nu tillgänglig för flerspråkiga e-postleveranser. Mer information finns i den [detaljerade dokumentationen](../reporting/global-reports.md).
 
-* **Stöd för SMS REST API (LA)** - Transactional Messaging REST API är nu tillgängligt för SMS-kanalen. När både e-post och mobilePhone finns i nyttolasten kan du använda fältet&quot;önskekanal&quot; för att ange kanalen. Om det inte anges används e-post som standard, såvida inte önskadChannel uttryckligen begär SMS. Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
+* **Stöd för SMS REST API (LA)** - Transactional Messaging REST API är nu tillgängligt för SMS-kanalen. När både e-post och mobilePhone finns i nyttolasten kan du använda fältet&quot;önskekanal&quot; för att ange kanalen. Om det inte anges används e-post som standard, såvida inte önskadChannel uttryckligen begär SMS. Mer information finns i den [detaljerade dokumentationen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=sv-SE){target=_blank}.
 
 ## 25 februari {#25-2-release}
 

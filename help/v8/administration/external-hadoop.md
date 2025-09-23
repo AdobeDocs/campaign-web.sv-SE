@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Hadoop externt konto {#external-hadoop}
 
-Med Hadoop externa konto kan du ansluta Campaign-instansen till din externa Hadoop-databas. Du kan läsa mer om Hadoop i [dokumentationen för Campaign V7-konsolen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+Med Hadoop externa konto kan du ansluta Campaign-instansen till din externa Hadoop-databas. Du kan läsa mer om Hadoop i [dokumentationen för Campaign V7-konsolen](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Skärmbild som visar konfigurationen för Hadoop externa konto.](assets/external-hadoop.png)
 

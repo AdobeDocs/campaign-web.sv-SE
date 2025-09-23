@@ -12,7 +12,7 @@ ht-degree: 5%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Kopplingen Amazon Simple Storage Service (S3) kan användas för att importera eller exportera data till Adobe Campaign. Den kan ställas in i en arbetsflödesaktivitet. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Kopplingen Amazon Simple Storage Service (S3) kan användas för att importera eller exportera data till Adobe Campaign. Den kan ställas in i en arbetsflödesaktivitet. Mer information finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Skärmbild som visar konfigurationsfälten för det externa kontot i Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -42,7 +42,7 @@ Mer information om var du hittar åtkomstnyckel-ID och hemlig åtkomstnyckel fin
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
-Det externa kontot **[!UICONTROL Azure Blob Storage]** kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]**-arbetsflödesaktivitet. Mer information om detta finns i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Det externa kontot **[!UICONTROL Azure Blob Storage]** kan användas för att importera eller exportera data till Adobe Campaign med hjälp av en **[!UICONTROL Transfer file]**-arbetsflödesaktivitet. Mer information om detta finns i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Skärmbild som visar konfigurationsfälten för det externa kontot för Azure Blob Storage.](assets/external-azure.png)
 
