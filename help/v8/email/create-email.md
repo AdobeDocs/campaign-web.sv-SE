@@ -3,7 +3,7 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Lär dig hur du skapar ditt första riktade e-postmeddelande. I det här fallet schemalägger du att ett e-postmeddelande skickas till Silver- och Gold-lojalitetsmedlemmar på ett visst datum.
 
-Baserat på en fördefinierad [designmall](../email/create-email-templates.md) innehåller e-postmeddelandet även anpassat innehåll baserat på kundprofilattribut.
+Baserat på en fördefinierad [designmall](../content/create-email-templates.md) innehåller e-postmeddelandet även anpassat innehåll baserat på kundprofilattribut.
 
 ➡️ [Upptäck den här funktionen i en video](#video)
 
@@ -74,8 +74,8 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 >id="acw_deliveries_email_audience"
 >title="Välj en målgrupp för leveransen"
 >abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp (som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform), skapa en ny målgrupp med frågemodelleraren eller överföra en fil som innehåller målgruppen. Kontrollgrupper är inte aktiverade för alternativet **Välj från fil** och vice versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=sv-SE" text="Välj huvudmålgrupper"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=sv-SE" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Välj huvudmålgrupper"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
 
@@ -89,7 +89,7 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
 
@@ -117,7 +117,7 @@ Följ stegen nedan när du vill börja skapa ditt e-postinnehåll. I det här fa
 
 1. Om du vill utforma innehållet i e-postmeddelandet klickar du på knappen **[!UICONTROL Edit email body]**.
 
-   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en [fördefinierad innehållsmall](create-email-templates.md).
+   Välj den metod du vill använda för att skapa e-postinnehåll. I det här exemplet använder du en [fördefinierad innehållsmall](../content/create-email-templates.md).
 
    ![Skärmbild som visar valet av en fördefinierad innehållsmall](assets/select-template.png){zoomable="yes"}
 
@@ -222,7 +222,7 @@ Simulering av innehåll stöds inte i följande fall:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Med avstämda leveranser,
-* När din Campaign-distributionsmodell är [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* När din Campaign-distributionsmodell är [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
 * När ingen fil har överförts.
 
 ## Skicka och övervaka e-postmeddelandet {#prepare-send}
@@ -252,4 +252,4 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 
 Lär dig hur du skapar en e-postleverans från grunden, definierar målgruppen, utformar innehållet, simulerar förhandsgranskning och skickar ett korrektur.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454009/?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

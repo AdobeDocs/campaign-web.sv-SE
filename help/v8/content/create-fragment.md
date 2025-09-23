@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa innehållsfragment
 description: Lär dig skapa innehållsfragment
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Om du vill skapa ett innehållsfragment från grunden följer du stegen nedan.
 
    >[!AVAILABILITY]
    >
-   >Visual fragments require an update to Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes).
+   >Visual fragments require an update to Campaign v8.6.4. Läs mer i [Versionsinformation för Campaign v8-klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klicka på knappen **Skapa**.
 
@@ -70,7 +70,7 @@ Om du vill skapa ett innehållsfragment från grunden följer du stegen nedan.
 
 1. När innehållet är klart klickar du på **Spara**.
 
-Innehållsfragmentet kan nu användas när du skapar en leverans eller [innehållsmall](../email/use-email-templates.md) i Campaign. Lär dig hur du använder visuella fragment och uttrycksfragment i följande avsnitt:
+Innehållsfragmentet kan nu användas när du skapar en leverans eller [innehållsmall](../content/use-email-templates.md) i Campaign. Lär dig hur du använder visuella fragment och uttrycksfragment i följande avsnitt:
 * [Lägg till visuella fragment i e-postmeddelanden](use-visual-fragments.md)
 * [Lägga till uttrycksfragment i uttrycksredigeraren](use-expression-fragments.md)
 
@@ -83,9 +83,9 @@ Innehållsfragmentet kan nu användas när du skapar en leverans eller [innehål
 
 <!--pas vu dans l'UI-->
 
-Allt e-postinnehåll kan sparas som ett visuellt fragment för framtida återanvändning. När du utformar en [innehållsmall](../email/use-email-templates.md) eller en [e-postleverans](../email/get-started-email-designer.md) sparar du en del av innehållet som ett visuellt fragment. Gör så här:
+Allt e-postinnehåll kan sparas som ett visuellt fragment för framtida återanvändning. När du utformar en [innehållsmall](../content/use-email-templates.md) eller en [e-postleverans](../email/get-started-email-designer.md) sparar du en del av innehållet som ett visuellt fragment. Gör så här:
 
-1. Klicka på knappen **Mer** längst upp till höger på skärmen i [Skicka e-post till Designer](../email/get-started-email-designer.md).
+1. Klicka på knappen [Mer](../email/get-started-email-designer.md) längst upp till höger på skärmen i **Skicka e-post till Designer**.
 
 1. Välj **[!UICONTROL Save as fragment]** i listrutan.
 
@@ -103,7 +103,7 @@ Allt e-postinnehåll kan sparas som ett visuellt fragment för framtida återanv
 
    ![Spara bekräftelseskärmen för visuella fragment](assets/fragment-save-confirm.png)
 
-   Det här innehållet är nu ett fristående fragment som läggs till i [fragmentlistan](#manage-fragments) och kan nås från den dedikerade menyn. Använd det här fragmentet när du skapar en [e-postadress](../email/get-started-email-designer.md) eller [innehållsmall](../email/use-email-templates.md) i Campaign. [Lär dig hur](../content/use-visual-fragments.md)
+   Det här innehållet är nu ett fristående fragment som läggs till i [fragmentlistan](#manage-fragments) och kan nås från den dedikerade menyn. Använd det här fragmentet när du skapar en [e-postadress](../email/get-started-email-designer.md) eller [innehållsmall](../content/use-email-templates.md) i Campaign. [Lär dig hur](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

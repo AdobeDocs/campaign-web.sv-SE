@@ -4,9 +4,9 @@ description: Här finns vanliga frågor om dynamisk rapportering.
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Felsökning{#troubleshooting}
 
 I det här avsnittet finns vanliga frågor om dynamisk rapportering.
+
+## På vilka språk finns dynamisk rapportering? {#langages}
+
+För närvarande finns dynamisk rapportering bara på engelska.
 
 ## För Unika öppningar och Unika klick matchar inte antalet i den sammanställda raden dem i enskilda rader {#unique-open-clicks-no-match}
 

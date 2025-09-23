@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med AI Assistant
 description: Kom igång med AI Assistant
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->Fördjupa dig i en praktisk upplevelse med [vår förhandsvisning av aktiva funktioner](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator), som är utformad för att du ska kunna utforska dess funktioner först och till fullo förstå dess funktioner.
+>Fördjupa dig i en praktisk upplevelse med [vår förhandsvisning av aktiva funktioner](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), som är utformad för att du ska kunna utforska dess funktioner först och till fullo förstå dess funktioner.
 
 I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att snabbt generera slagkraftigt innehåll. AI Assistant på Adobe Campaign Web, som drivs av Microsoft Azure OpenAI och Adobe Firefly, är Adobe funktioner för generering av AI-innehåll som förändrar hur marknadsförare skapar professionellt och varumärkesenhetligt innehåll i olika kanaler som e-post, SMS och push-meddelanden. Med avancerade GenAI-modeller och en god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet, optimerat innehåll för varumärkeskonturerade format, layouter, färgton och mycket annat.
 
@@ -66,10 +66,10 @@ Allmänna riktlinjer för hur du använder AI Assistant på Adobe Campaign Web f
 * Kvaliteten på det genererade innehållet beror till stor del på det marknadsföringsmål eller den fråga du anger. Använd en väldefinierad uppmaning för GenAI-modellen att tolka korrekt.
 * Överför varumärkesresurser för att säkerställa korrekt varumärkesanpassat innehåll. Annars baseras innehållet på offentligt tillgänglig information. Det överförda innehållet kan ha följande format: PDF-, JPEG-, PNG- eller ZIP-filer (med filformat som stöds).
 * Den maximala storleken för överförda varumärkesresurser är 50 MB. Större filer eller många bilder kan öka bearbetningstiden.
-* Använd [inbyggda e-postmallar](../email/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa ditt e-postinnehåll med hjälp av AI Assistant. E-postmallar med upp till 8-10 bilder rekommenderas.
+* Använd [inbyggda e-postmallar](../content/create-email-templates.md), varumärkesspecifika mallar eller anpassade mallar för att skapa ditt e-postinnehåll med hjälp av AI Assistant. E-postmallar med upp till 8-10 bilder rekommenderas.
 * Rapportera eventuella problematiska utdata med upp- och nedpilarna eller flaggikonerna när du väljer varianter.
 * Din användning av AI Assistant regleras av Adobe Experience Cloud Generative AI User Guidelines. [Läs mer](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Som en del av Adobe strävan efter transparens i användningen av generativa AI-verktyg för att skapa media använder Adobe Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/se/firefly/using/content-credentials.html).
+* Som en del av Adobe strävan efter transparens i användningen av generativa AI-verktyg för att skapa media använder Adobe Content Credentials när innehåll eller projekt som innehåller en Firefly-genererad mediefil hämtas eller exporteras. [Läs mer](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Följande begränsningar gäller för AI Assistant på Adobe Campaign Web:
 

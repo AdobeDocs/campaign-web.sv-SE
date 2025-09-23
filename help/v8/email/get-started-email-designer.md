@@ -3,7 +3,7 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du börjar bygga innehåll med e-post-Designer i webbgränssnittet i Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -45,6 +45,6 @@ Gå igenom skärmen [Redigera innehåll](edit-content.md) på kontrollpanelen f�
 
 * **Importera befintligt HTML-innehåll** från en fil eller en ZIP-mapp. Lär dig hur du importerar e-postinnehåll i [det här avsnittet](existing-content.md).
 
-* **Välj ett befintligt innehåll** i en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar i [det här avsnittet](create-email-templates.md).
+* **Välj ett befintligt innehåll** i en lista med inbyggda eller anpassade mallar. Lär dig hur du arbetar med e-postmallar i [det här avsnittet](../content/create-email-templates.md).
 
   ![Alternativ i e-post-Designer-gränssnittet för att skapa e-postinnehåll](assets/email_designer_create_options.png){zoomable="yes"}

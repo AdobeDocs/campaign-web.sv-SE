@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Skapa målgruppsarbetsflöde
 description: Lär dig använda aktiviteten Bygg målgruppsarbetsflöde
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ Följ de här stegen för att konfigurera aktiviteten **Skapa målgrupp**:
 Så här skapar du en egen fråga:
 
 1. Välj **Skapa en egen (fråga)**.
-1. Välj **Måldimension**. Med målgruppsdimensionen kan du definiera målgruppen för operationen, till exempel mottagare, mottagare, operatorer eller prenumeranter. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/about-recipients.md#targeting-dimensions)
+1. Välj **Måldimension**. Med målgruppsdimensionen kan du definiera målgruppen för operationen, till exempel mottagare, mottagare, operatorer eller prenumeranter. Som standard är målet markerat bland mottagarna. [Läs mer om måldimensioner](../../audience/targeting-dimensions.md#targeting)
+1. Välj **Filtreringsdimension** genom att klicka på ikonen bredvid måldimensionen. Filtreringsdimensionen gör att du kan tillämpa filter på målpopulationen genom att referera till relaterade kriterier utan att ändra huvudmåldimensionen. [Läs mer om måldimensioner](../../audience/targeting-dimensions.md#filtering)
 1. Klicka på **Fortsätt**.
 1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 

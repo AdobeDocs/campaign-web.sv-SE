@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 20%
+source-wordcount: '929'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 20%
    + Callcenter {#call-center}
       + [Kom igång med kundtjänstleveranser](call-center/gs-call-center.md)
       + [Skapa och skicka en kundtjänstleverans](call-center/create-call-center.md)
-   + [Anpassad extern kanal](call-center/gs-custom-channel.md)
+   + [Egna kanaler](call-center/gs-custom-channel.md)
    + Transaktionsmeddelanden {#transactional-messages}
       + [Kom igång med transaktionsmeddelanden](transactional-messaging/transactional.md)
       + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 20%
       + [Lägg till personalisering](personalization/personalize.md)
       + [Skapa villkorsstyrt innehåll](personalization/conditions.md)
    + Återanvänd innehåll {#manage-reusable-content}
-      + [Arbeta med innehållsmallar](email/create-email-templates.md)
+      + Innehållsmallar {#content-templates}
+         + [Arbeta med innehållsmallar](content/create-email-templates.md)
+         + [Använda mallar för e-postinnehåll](content/use-email-templates.md)
+         + [Lås innehåll i e-postmallar](content/content-locking.md)
       + Innehållsfragment {#fragments}
          + [Kom igång med innehållsfragment](content/fragments.md)
          + [Skapa och redigera innehållsfragment](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 20%
          + [Börja från början](email/create-email-content.md)
          + [Importera e-postinnehåll](email/existing-content.md)
          + [Koda eget innehåll](email/code-content.md)
-         + [Använda mallar för e-postinnehåll](email/use-email-templates.md)
       + Designa innehåll {#design-content}
          + [Använda innehållskomponenter](email/content-components.md)
          + [Lägga till länkar och spåra meddelanden](email/message-tracking.md)
@@ -273,7 +275,13 @@ ht-degree: 20%
    + [Arbeta med scheman](administration/schemas.md)
    + [Konfigurera anpassade fält](administration/custom-fields.md)
    + [Konfigurera [!DNL Campaign] alternativ](administration/options.md)
-   + [Konfigurera externa konton](administration/external-account.md)
+   + Externa konton {#external-accounts}
+      + [Skapa externa konton](administration/create-external-account.md)
+      + [Adobe Solution Integration](administration/integration-external-account.md)
+      + [Kampanjspecifik](administration/external-account.md)
+      + [Extern databas](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [Överför data](administration/transfer-external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

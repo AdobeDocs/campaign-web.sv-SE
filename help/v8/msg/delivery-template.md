@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ En mall innehåller:
 
 >[!NOTE]
 >
->Leveransmallar skiljer sig från [innehållsmallar](../email/create-email-templates.md) som gör att du kan återanvända endast innehållet i dina e-postmeddelanden och börja skapa innehåll med någon av de färdiga exempelmallarna.
+>Leveransmallar skiljer sig från [innehållsmallar](../content/create-email-templates.md) som gör att du kan återanvända endast innehållet i dina e-postmeddelanden och börja skapa innehåll med någon av de färdiga exempelmallarna.
 
 ## Få åtkomst till och hantera leveransmallar {#access-manage-templates}
 
@@ -115,7 +115,7 @@ Alla leveranser kan konverteras till mallar för framtida upprepade leveransåtg
 Så här sparar du en leverans som en mall:
 
 1. Bläddra till menyn **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
-1. Klicka på knappen **[!UICONTROL More actions]** till höger om leveransnamnet på fliken **[!UICONTROL Browse]** och välj **[!UICONTROL Copy as a template]**.
+1. Klicka på knappen **[!UICONTROL Browse]** till höger om leveransnamnet på fliken **[!UICONTROL More actions]** och välj **[!UICONTROL Copy as a template]**.
 
    ![Alternativ för att kopiera en leverans som en mall](assets/templates-convert-delivery.png){zoomable="yes"}
 
