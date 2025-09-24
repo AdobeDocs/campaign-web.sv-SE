@@ -15,7 +15,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn2"
 >title="Skapa externa konton"
 >abstract="Som Campaign-administratör kan du nu skapa nya anslutningar med externa system från användargränssnittet i Campaign Web. Du kan också visa, uppdatera och hantera befintliga externa konton."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Följ stegen nedan om du vill skapa ett nytt externt konto. De specifika konfigurationsinställningarna beror på vilken typ av externt konto du skapar.
 
