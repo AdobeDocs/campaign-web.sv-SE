@@ -3,20 +3,14 @@ audience: end-user
 title: Kom igång med callcenterkanalen
 description: Lär dig hur du skapar och skickar kundtjänstleveranser med Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
 # Kom igång med callcenterkanalen {#gs-call-center}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Kanal för Call Center"
->abstract="Kundtjänstkanalen är nu tillgänglig i Campaign Web User-gränssnittet. Den här kanalen refererar till en kommunikationsmetod som används för att hantera och spåra kommunikation som hanteras via ett callcenter."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 Med callcenterkanalen kan ni exportera målinriktade kontaktlistor för utgående telefonkampanjer direkt från Adobe Campaign webbgränssnitt. Använd det för att samordna samtal via interna team eller externa kontaktcenter.
 

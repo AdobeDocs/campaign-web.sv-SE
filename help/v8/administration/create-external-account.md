@@ -1,14 +1,21 @@
 ---
 title: Hantera externt konto
 description: Lär dig konfigurera externa konton
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # Skapa ett externt konto {#create-external-account}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Skapa externa konton"
+>abstract="Som Campaign-administratör kan du nu skapa nya anslutningar med externa system från användargränssnittet i Campaign Web. Du kan också visa, uppdatera och hantera befintliga externa konton."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Följ stegen nedan om du vill skapa ett nytt externt konto. De specifika konfigurationsinställningarna beror på vilken typ av externt konto du skapar.
 

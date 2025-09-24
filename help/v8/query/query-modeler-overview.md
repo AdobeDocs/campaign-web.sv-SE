@@ -3,20 +3,14 @@ audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig hur du arbetar med Adobe Campaign Web Query Modeler.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Arbeta med frågemodelleraren {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Ny regelbyggare"
->abstract="Det finns nu en ny regelbyggare som hjälper dig att definiera komplexa villkor i ett förbättrat användargränssnitt. Du kan vid behov växla från det gamla till det nya regelverktyget."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -63,7 +57,7 @@ Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och e
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->&#x200B;>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
