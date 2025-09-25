@@ -4,9 +4,9 @@ description: Lär dig de steg som krävs för att komma igång med ditt nya Camp
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -111,13 +111,13 @@ Som Campaign Standard-användare som går över till Adobe Campaign v8 finns nu 
 
   Den enkla och enkla användningen av SMS gör det till en mycket värdefull kommunikationskanal utöver dess tillförlitlighet och oöverträffade kompatibilitet över flera miljarder terminaler.
 
-  Adobe Campaign v8 har en ny infrastruktur som förbättrar SMS-utskick. [Läs mer om de nya SMS-inställningarna](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 har en ny infrastruktur som förbättrar SMS-utskick. [Läs mer om de nya SMS-inställningarna](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Uppgraderad push-infrastruktur**
 
   Adobe Campaign v8 introducerar vår senaste Push-meddelandetjänst, som bygger på ett robust ramverk som bygger på en modern, modern teknik. Den här tjänsten är utformad för att låsa upp nya nivåer av skalbarhet, så att dina meddelanden kan nå en större publik med smidig effektivitet. Med vår förbättrade infrastruktur och våra optimerade processer kan ni förvänta er större skalbarhet och tillförlitlighet, så att ni kan engagera och kommunicera med era mobilappsanvändare som aldrig förr.
 
-  [Läs mer om uppgraderad push-infrastruktur](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Läs mer om uppgraderad push-infrastruktur](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,13 +126,13 @@ Adobe Campaign v8 finns som hanterad Cloud Service och ger proaktiv tillsyn, sna
 
 ## Campaign Standard-funktioner som lagts till i v8 {#ac-v8-added}
 
-För att ni smidigt ska kunna gå över till Campaign v8 har viktiga Campaign Standard-funktioner lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=sv-SE){target="_blank"}.
+För att ni smidigt ska kunna gå över till Campaign v8 har viktiga Campaign Standard-funktioner lagts till i Campaign v8. De beskrivs i [den här dokumentationen](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Dynamisk rapportering**: Dynamisk rapportering ger helt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=sv-SE){target="_blank"}.
+* **Dynamisk rapportering**: Dynamisk rapportering ger helt anpassningsbara realtidsrapporter för att mäta effekten av dina marknadsföringsaktiviteter. Det ger åtkomst till profildata, vilket möjliggör demografiska analyser efter profildimensioner som kön, ort och ålder, utöver funktionella e-postkampanjdata som öppningar och klick. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Centraliserad varumärkesprofilering**: Alla företag har grafiska och tekniska riktlinjer för varumärken. Med Adobe Campaign kan ni definiera en uppsättning specifikationer för att presentera ett konsekvent varumärke för era kunder, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=sv-SE)
+* **Centraliserad varumärkesprofilering**: Alla företag har grafiska och tekniska riktlinjer för varumärken. Med Adobe Campaign kan ni definiera en uppsättning specifikationer för att presentera ett konsekvent varumärke för era kunder, från logotyper till tekniska aspekter som e-postavsändare, URL-adress eller domäner. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Resterande API:er** - Som en migrerad användare av Campaign Stardard kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=sv-SE){target="_blank"}.
+* **Resterande API:er** - Som en migrerad användare av Campaign Stardard kan du använda Rest API:er för att skapa integreringar för Adobe Campaign och skapa ett eget ekosystem genom att interagera med Adobe Campaign med den panel med tekniker som du använder. [Läs mer](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
 * **Landningssidor** - Vissa förbättringar har gjorts på landningssidor för Campaign v8 för att säkerställa funktionens paritet med Campaign Standard. Läs mer i [versionsinformationen](../../v8/rn/release-notes.md#new-24-4) och [dokumentationen](../../v8/landing-pages/get-started-lp.md) på landningssidan.
 
@@ -141,8 +141,6 @@ För att ni smidigt ska kunna gå över till Campaign v8 har viktiga Campaign St
 ## Viktiga skillnader mellan Campaign Standard och Campaign v8 {#experiences}
 
 De flesta koncept är likartade mellan Adobe Campaign v8 och Adobe Campaign Standard. Det finns dock några skillnader enligt beskrivningen nedan.
-
-### Terminologiska förändringar {#terminology-changes}
 
 Nedan visas några terminologiska skillnader mellan Campaign Standard och Campaign v8.
 
@@ -160,6 +158,7 @@ Som befintlig Campaign-användare bör du också tänka på att vissa koncept ha
 * Leveransanalysen är nu **leveransförberedelsen**. När du behöver starta meddelandeförberedelsen klickar du på knappen **Förbered** . [Läs mer](../../v8/monitor/prepare-send.md).
 * E-postförhandsgranskning är nu tillgänglig via knappen **Simulera innehåll** . [Läs mer](../../v8/preview-test/preview-test.md)
 * Listor är nu **Publiker**. [Läs mer](../../v8/audience/gs-audiences-recipients.md).
+
 
 ## Ny användarupplevelse
 
@@ -229,4 +228,4 @@ Tillgång till den relevanta referenshandboken för din roll för att upptäcka 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/sv/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

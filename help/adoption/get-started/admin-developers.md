@@ -4,9 +4,9 @@ description: Den här självstudiekursen ger en översikt över de viktigaste ad
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2777'
 ht-degree: 3%
 
 ---
@@ -21,21 +21,21 @@ Campaign-klientkonsolen centraliserar alla funktioner och inställningar. Den sy
 
 ![](assets/client_console.png){zoomable="yes"}
 
-[Läs mer om användargränssnittet i klientkonsolen i Adobe Campaign v8](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
+[Läs mer om användargränssnittet i klientkonsolen i Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
 
 ## Kampanjarkitektur v8 {#acs-gs-admi-archi}
 
-Kampanjarkitekturen beskrivs i dokumentationen för Campaign v8 (konsol). Lär dig grunderna på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
+Kampanjarkitekturen beskrivs i dokumentationen för Campaign v8 (konsol). Lär dig grunderna på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
 
 Länk som du kan använda för att starta:
 
-* Adobe Campaign-komponenter och global arkitektur beskrivs på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
+* Adobe Campaign-komponenter och global arkitektur beskrivs på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
 
-* Se [Kom igång med Campaign-arkitekturen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} för att förstå Campaign-arkitekturen innan du börjar strukturera instansen.
+* Se [Kom igång med Campaign-arkitekturen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} för att förstå Campaign-arkitekturen innan du börjar strukturera instansen.
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* Transactional messaging (Message Center) är modulen Campaign v8 som är utformad för att hantera utlösta meddelanden. Den är beroende av en specifik arkitekturmodell som beskrivs i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
+* Transactional messaging (Message Center) är modulen Campaign v8 som är utformad för att hantera utlösta meddelanden. Den är beroende av en specifik arkitekturmodell som beskrivs i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
 
 ## Kampanjklientkonsol {#acs-gs-console}
 
@@ -47,25 +47,25 @@ Campaign-klientkonsolen är ett systemspecifikt program som kommunicerar med Ado
 
 I följande video förklaras hur du hämtar och installerar Adobe Campaign Client Console och hanterar anslutningen till din instans.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449885?quality=12&learn=on&captions=swe){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
-Mer information finns i [Ansluta till kampanj med klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/connect){target="_blank"}.
+Mer information finns i [Ansluta till kampanj med klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
-Observera att klientkonsolen måste installeras i en miljö som stöds. Läs mer i [Kompatibilitetsmatrisen för Campaign v8 (konsol)](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
+Observera att klientkonsolen måste installeras i en miljö som stöds. Läs mer i [Kompatibilitetsmatrisen för Campaign v8 (konsol)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
 
 ### Upptäck klientkonsolens gränssnitt  {#acs-gs-ui}
 
 Lär dig mer om användargränssnittet i Adobe Campaign v8 och hur du navigerar bland huvudfunktionerna i den här självstudiekursen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426443?quality=12&learn=on&captions=swe){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
-Mer information finns i [Arbeta med klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
+Mer information finns i [Arbeta med klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
 ## Administrera miljön {#acs-gs-admin-env}
 
-När klientkonsolen har installerats följer du stegen i den här dokumentationen för att skapa anslutningen till programservern: [Anslutning till programserverns dokumentation](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
+När klientkonsolen har installerats följer du stegen i den här dokumentationen för att skapa anslutningen till programservern: [Anslutning till programserverns dokumentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
 
-Säkerhetsrutinerna är djupt integrerade i vår interna programutveckling och våra processer och verktyg för drift och följs noggrant av våra funktionsövergripande team för att förebygga, upptäcka och hantera incidenter på ett snabbt sätt. Läs mer i [Bästa praxis för kampanjsäkerhet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
+Säkerhetsrutinerna är djupt integrerade i vår interna programutveckling och våra processer och verktyg för drift och följs noggrant av våra funktionsövergripande team för att förebygga, upptäcka och hantera incidenter på ett snabbt sätt. Läs mer i [Bästa praxis för kampanjsäkerhet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
 
 ### Behörigheter och behörigheter {#acs-gs-admin-rights}
 
@@ -73,9 +73,9 @@ Med Adobe Campaign kan du definiera och hantera de behörigheter som tilldelats 
 
 När en Campaign Standard-användare går över till Campaign v8 förblir din behörighet och dina åtkomsträttigheter desamma. Säkerhetsgrupper har flyttats av Adobe till Campaign v8-operatorgrupperna och dina behörigheter per organisationsenhet har ändrats till mappbehörigheter. Kampanjanvändare   använda deras Adobe ID för att ansluta till Campaign v8 och sedan använda samma inloggning och lösenord som i Campaign Standard.
 
-Campaign [folders](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} är noder i utforskarträdet i klientkonsolen. Beroende på vilken typ de har innehåller de vissa typer av data. Program materialiseras av mappar i Campaign v8. Du kan skapa mappar och hantera behörigheter för dem för att begränsa åtkomsten. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Campaign [folders](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} är noder i utforskarträdet i klientkonsolen. Beroende på vilken typ de har innehåller de vissa typer av data. Program materialiseras av mappar i Campaign v8. Du kan skapa mappar och hantera behörigheter för dem för att begränsa åtkomsten. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Läs mer i [dokumentationen om användarbehörigheter](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Läs mer i [dokumentationen om användarbehörigheter](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 
 ### Kontrollpanelen i Campaign {#acs-gs-admin-cp}
@@ -84,14 +84,14 @@ På samma sätt som för Campaign Standard kan du använda Kontrollpanelen för 
 
 Med Campaign Control Panel kan ni effektivisera arbetet som produktadministratör för Adobe Campaign genom att hantera inställningar och spåra användningen för var och en av instanserna. Det intuitiva gränssnittet låter dig enkelt övervaka användningen av nyckelresurser och utföra administrativa uppgifter såsom att lägga till IP-adresser i tillåtelselistan, övervaka SFTP-lagring, hantera nycklar och mycket annat.
 
-Läs mer i [Kontrollpanelens självstudiekurser](https://experienceleague.adobe.com/sv/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} och [dokumentationen från kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv){target="_blank"}.
+Läs mer i [Kontrollpanelens självstudiekurser](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} och [dokumentationen från kontrollpanelen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=sv){target="_blank"}.
 
-* **Lägg till IP-adresser** - Med Campaign-kontrollpanelen kan du konfigurera nya anslutningar till dina instanser genom att lägga till IP-adressintervall i tillåtelselista. Läs mer i [IP-Tillåt listdokumentationen](https://experienceleague.adobe.com/sv/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
+* **Lägg till IP-adresser** - Med Campaign-kontrollpanelen kan du konfigurera nya anslutningar till dina instanser genom att lägga till IP-adressintervall i tillåtelselista. Läs mer i [IP-Tillåt listdokumentationen](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
 * **Underdomänskonfiguration** - Du kan konfigurera ett underavsnitt av din domän (tekniskt en &quot;DNS-zon&quot;) för användning med Adobe Campaign.
-Läs mer i dokumentationen för [delegering av underdomäner](https://experienceleague.adobe.com/sv/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
+Läs mer i dokumentationen för [delegering av underdomäner](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
-* **Hantera SFTP-servrar** - På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna till Campaign-instanser som du har åtkomst till. Läs mer i [dokumentationen för SFTP-hantering](https://experienceleague.adobe.com/sv/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
+* **Hantera SFTP-servrar** - På Kontrollpanelen kan du interagera med alla SFTP-servrar som är anslutna till Campaign-instanser som du har åtkomst till. Läs mer i [dokumentationen för SFTP-hantering](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
 
 ### Granskningskedja {#acs-gs-admin-audit-trail}
@@ -104,7 +104,7 @@ I Adobe Campaign webbanvändargränssnitt ger funktionen Granskningsspårning an
 
 På samma sätt som i Campaign Standard kan administratörer definiera paket för utbyte av resurser mellan olika Adobe Campaign-instanser via strukturerade XML-filer. Dessa kan vara konfigurationsparametrar eller data.
 
-Du kan använda datapaket för att exportera och importera anpassade plattformsinställningar och data. Ett paket kan innehålla olika typer av konfigurationer och komponenter, filtrerade eller inte. Lär dig hur du arbetar med datapaket i Campaign v8 i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
+Du kan använda datapaket för att exportera och importera anpassade plattformsinställningar och data. Ett paket kan innehålla olika typer av konfigurationer och komponenter, filtrerade eller inte. Lär dig hur du arbetar med datapaket i Campaign v8 i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
 
 <!--
 MISSING LINKS: 
@@ -116,7 +116,7 @@ MISSING LINKS:
 
 Det finns flera alternativ som du kan använda för att anpassa användargränssnittet i klientkonsolen, som:
 
-* **Lista och datavisning** - Riktlinjer för hantering av användargränssnittsinställningar som listor, enheter och datavisning finns i det här dokumentet: [Dokumentation för användargränssnittsinställningar](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **Lista och datavisning** - Riktlinjer för hantering av användargränssnittsinställningar som listor, enheter och datavisning finns i det här dokumentet: [Dokumentation för användargränssnittsinställningar](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **Mapphantering** - Mappar är objekt i Adobe Campaign som gör att du kan ordna dina komponenter och data. De används också för att hantera behörigheter. Lär dig [arbeta med mappar](../../v8/get-started/work-with-folders.md).
 
@@ -126,13 +126,13 @@ Det finns flera alternativ som du kan använda för att anpassa användargränss
 
 Alla företag har varumärkesriktlinjer som definierar både visuella element och tekniska detaljer. När det gäller Adobe Campaign Standard hjälper Adobe Campaign v8 er att hantera dessa riktlinjer centralt, så att ni kan presentera en enhetlig varumärkesbild för era kunder i allt ni gör, från logotyper i e-postmeddelanden till URL:er och domäner som används i era kampanjer. Som teknisk administratör kan du skapa och hantera flera varumärken inom Adobe Campaign.
 
-Läs mer i [varumärkesdokumentationen](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Läs mer i [varumärkesdokumentationen](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
 
 ## Förstå skapande av datamodell {#acs-gs-admin-data-model-creation}
 
-På samma sätt som Campaign Standard har Adobe Campaign v8 en fördefinierad datamodell. Adobe Campaign förlitar sig på en molndatabas som innehåller tabeller som är länkade tillsammans. Läs mer i [Datamodelldokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
+På samma sätt som Campaign Standard har Adobe Campaign v8 en fördefinierad datamodell. Adobe Campaign förlitar sig på en molndatabas som innehåller tabeller som är länkade tillsammans. Läs mer i [Datamodelldokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
-Ett schema är ett XML-dokument som är associerat med en databastabell. Den definierar datastrukturen och beskriver tabellens SQL-definition. Se dokumentationen för att skapa [scheman](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+Ett schema är ett XML-dokument som är associerat med en databastabell. Den definierar datastrukturen och beskriver tabellens SQL-definition. Se dokumentationen för att skapa [scheman](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 Lär dig hur du skapar ett schema och hur du utökar ett befintligt schema i Campaign v8 i den här videon:
 
@@ -140,25 +140,25 @@ Lär dig hur du skapar ett schema och hur du utökar ett befintligt schema i Cam
 
 På samma sätt som i Campaign Standard kan du skapa anpassade resurser. I Campaign v8 är anpassade eller utökade **scheman** anpassade resurser.
 
-* Lär dig hur du arbetar med schema på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+* Lär dig hur du arbetar med schema på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
-* Lär dig att utöka ett befintligt schema på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
+* Lär dig att utöka ett befintligt schema på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
 
-* Lär dig hur du skapar ett nytt schema på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
+* Lär dig hur du skapar ett nytt schema på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
 
-* När du skapar eller utökar ett schema måste du skapa eller ändra de associerade indataformulären för att göra ändringarna synliga för slutanvändarna. Med ett inmatningsformulär kan du redigera en instans som är associerad med ett dataschema från Adobe Campaign klientkonsol. Formuläret identifieras av dess namn och namnutrymme. Se [dokumentationen för att skapa inmatningsformulär](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
+* När du skapar eller utökar ett schema måste du skapa eller ändra de associerade indataformulären för att göra ändringarna synliga för slutanvändarna. Med ett inmatningsformulär kan du redigera en instans som är associerad med ett dataschema från Adobe Campaign klientkonsol. Formuläret identifieras av dess namn och namnutrymme. Se [dokumentationen för att skapa inmatningsformulär](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
 
 ## Arbetsflöden och datahantering {#acs-gs-admin-data-management}
 
-På samma sätt som med Adobe Campaign Standard innehåller Adobe Campaign v8 en arbetsflödesmodul som gör det möjligt att samordna alla processer och uppgifter i olika moduler på programservern. I den omfattande grafiska miljön kan du utforma processer såsom segmentering, kampanjkörning, filhantering och mänskligt deltagande osv. Arbetsflödesmotorn kör och spårar dessa processer. Lär dig hur du börjar med arbetsflöden i Campaign v8 i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
+På samma sätt som med Adobe Campaign Standard innehåller Adobe Campaign v8 en arbetsflödesmodul som gör det möjligt att samordna alla processer och uppgifter i olika moduler på programservern. I den omfattande grafiska miljön kan du utforma processer såsom segmentering, kampanjkörning, filhantering och mänskligt deltagande osv. Arbetsflödesmotorn kör och spårar dessa processer. Lär dig hur du börjar med arbetsflöden i Campaign v8 i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Se länkar till andra användbara resurser nedan:
 
 * Läs om vilka målgruppsmått och arbetsregister som är och hur Adobe Campaign hanterar data från olika datakällor i den här videon:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452596?quality=12&learn=on&captions=swe){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-* Med Campaign kan du lägga till kontakter i molndatabasen. Du kan läsa in en fil, schemalägga och automatisera flera kontaktuppdateringar, samla in data på webben eller ange profilinformation direkt i mottagartabellen.  Läs mer i [Importera data (konsol) ](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/data/import){target="_blank"}.
+* Med Campaign kan du lägga till kontakter i molndatabasen. Du kan läsa in en fil, schemalägga och automatisera flera kontaktuppdateringar, samla in data på webben eller ange profilinformation direkt i mottagartabellen.  Läs mer i [Importera data (konsol) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
 * Du kan enkelt exportera dina olika rapporter till PDF- eller CSV-format så att du kan dela, ändra och skriva ut dem. Läs mer i [dokumentationen om dataexport](../../v8/reporting/export-reports.md).
 
@@ -168,9 +168,9 @@ Campaign REST API:er är avsedda att göra det möjligt att skapa integreringar 
 
 Som Campaign Standard-användare som går över till Campaign v8 är REST API:er tillgängliga.
 
-Läs mer i dokumentationen för [Rest API](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Läs mer i dokumentationen för [Rest API](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
-Observera att vissa rekommendationer och begränsningar gäller för REST API:er vid övergång från Campaign Standard till Campaign v8. De listas på [den här sidan](https://experienceleague.adobe.com/sv/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Specifika begränsningar gäller också vid övergång till Campaign v8 enligt listan i Tillgänglighetsmeddelandet nedan:
+Observera att vissa rekommendationer och begränsningar gäller för REST API:er vid övergång från Campaign Standard till Campaign v8. De listas på [den här sidan](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Specifika begränsningar gäller också vid övergång till Campaign v8 enligt listan i Tillgänglighetsmeddelandet nedan:
 
 >[!AVAILABILITY]
 >
@@ -195,10 +195,18 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/sv/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
+
+## Sekretess och medgivande
+
+När du går från Campaign Standard till Campaign v8 är det viktigt att du tittar närmare på hur sekretessreglerna påverkar dataåtgärderna. Beroende på ert företag och i vilka jurisdiktioner ni är verksamma, kan kunderna ha laglig rätt att få tillgång till de uppgifter ni har om dem, eller begära att de tas bort.
+
+I Campaign v8 måste alla sekretessbegäranden hanteras via integreringen **Adobe Privacy Service**. Läs mer i [Kampanj v8-dokumentationen (konsolen)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy).
+
+Tänk på att Campaign Standard-miljön är aktiv under en period efter övergången. Under den tiden kan förfrågningar om sekretess komma fram i båda systemen. För att säkerställa regelefterlevnad och undvika luckor kan du samordna med din Adobe Transition Manager för att hantera förfrågningar i båda miljöerna på rätt sätt.
 
 ## Prenumerationstjänster {#acs-gs-admin-sub}
 
@@ -206,11 +214,11 @@ Som administratör i Campaign Standard kan du skapa prenumerationstjänster och 
 
 Lär dig hur du konfigurerar och hanterar prenumerationer samt riktar dig till prenumeranter.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426561?quality=12&learn=on&captions=swe){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Se prenumerationstjänsterna [Dokumentation för webbanvändargränssnittet](../../v8/audience/manage-subscribers.md).
 
-* Se även dokumentationen för att ange prenumerationstjänster i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
+* Se även dokumentationen för att ange prenumerationstjänster i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 
 ## Meddelanden och leveranser{#acs-gs-msg}
 
@@ -220,10 +228,10 @@ Som Campaign Standard hjälper Adobe Campaign v8 er att skicka flerkanalskampanj
 
 Som administratör måste du definiera kanalkonfigurationer. Läs mer på länkarna nedan.
 
-* **E-post** - E-postinställningarna finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
-* **SMS** - Lär dig hur du konfigurerar din SMS-kanal i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
-* **Push-meddelanden** - Steg för att konfigurera push-meddelandekanalen beskrivs [ i det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
-* **Transactional messaging** - Steg för att konfigurera [Transactional messaging](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} i Campaign v8 beskrivs [i det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **E-post** - E-postinställningarna finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
+* **SMS** - Lär dig hur du konfigurerar din SMS-kanal i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+* **Push-meddelanden** - Steg för att konfigurera push-meddelandekanalen beskrivs [ i det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+* **Transactional messaging** - Steg för att konfigurera [Transactional messaging](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} i Campaign v8 beskrivs [i det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### Externa konton {#acs-gs-ext-accounts}
 
@@ -264,20 +272,20 @@ Använd Campaign för att skapa dynamiskt innehåll och skicka personaliserade m
 
 Med Campaign v8 som administratör kan du definiera dynamiska innehållsblock och hur de används för att anpassa innehållet i e-postleveransen i den här videon:
 
->[!VIDEO](https://video.tv.adobe.com/v/3449010?quality=12&learn=on&captions=swe){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Länkar:
 
-* [Kom igång med personalisering](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
-* [Använd personaliseringsblock](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
-* [Skapa villkorligt innehåll](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
-* [Personalization datakällor](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
+* [Kom igång med personalisering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [Använd personaliseringsblock](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [Skapa villkorligt innehåll](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Personalization datakällor](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### Leveransmallar {#acs-gs-templates}
 
 Att använda leveransmallar är ett krav i Campaign v8, som i Campaign Standard.
 
-För en snabbare och förbättrad designprocess kan du skapa leveransmallar som enkelt återanvänder anpassat innehåll och anpassade inställningar för alla era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare. Lär dig hur du skapar leveransmallar i [Webbanvändargränssnittet för kampanj](../../v8/msg/delivery-template.md). Se även hur du skapar leveransmallar i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
+För en snabbare och förbättrad designprocess kan du skapa leveransmallar som enkelt återanvänder anpassat innehåll och anpassade inställningar för alla era kampanjer. Med den här funktionen kan ni standardisera den kreativa utseendet och känslan för att kunna genomföra och lansera kampanjer snabbare. Lär dig hur du skapar leveransmallar i [Webbanvändargränssnittet för kampanj](../../v8/msg/delivery-template.md). Se även hur du skapar leveransmallar i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Typologiregler {#acs-gs-admin-rules}
 
@@ -285,23 +293,23 @@ Som administratör ansvarar du för att skapa och underhålla typologiregler fö
 
 När ni går över till Campaign v8 från en Campaign Standard-miljö flyttas era typologiregler till Campaign v8.
 
-I Campaign v8 levereras typologiregler med en specifik Campaign Optimization ass-on. Med den här modulen kan du styra, filtrera och övervaka leveransen. För att undvika konflikter mellan kampanjer kan Adobe Campaign testa olika kombinationer genom att tillämpa särskilda begränsningsregler. Detta garanterar att de skickade meddelandena uppfyller kundernas behov och förväntningar och företagets kommunikationspolicy. Läs mer i [dokumentationen om typologiregler](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
+I Campaign v8 levereras typologiregler med en specifik Campaign Optimization ass-on. Med den här modulen kan du styra, filtrera och övervaka leveransen. För att undvika konflikter mellan kampanjer kan Adobe Campaign testa olika kombinationer genom att tillämpa särskilda begränsningsregler. Detta garanterar att de skickade meddelandena uppfyller kundernas behov och förväntningar och företagets kommunikationspolicy. Läs mer i [dokumentationen om typologiregler](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Karantänhantering {#acs-gs-admin-quarantine}
 
 Alla karantänadresser och karantänregler har migrerats från din Campaign Standard-miljö till Campaign v8. Ingen specifik åtgärd krävs för karantänhantering.
 
-Som administratör kan du bekanta dig med karantänhantering i Campaign v8 från [den här sidan](../../v8/audience/quarantine.md). Se även detaljerad dokumentation om karantänhantering i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
+Som administratör kan du bekanta dig med karantänhantering i Campaign v8 från [den här sidan](../../v8/audience/quarantine.md). Se även detaljerad dokumentation om karantänhantering i klientkonsolen i [det här avsnittet](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
 
 
 ## Hantera Adobe Campaign-integreringar {#acs-gs-integrations}
 
-Ni kan koppla samman er Campaign-instans med Adobe Experience Cloud lösningar för att kombinera funktioner. Adobe Campaign har flera kopplingar som gör att du kan kommunicera med externa program, ansluta till databasmotorer, dela och synkronisera data. Lär dig hur du kombinerar dina lösningar i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Ni kan koppla samman er Campaign-instans med Adobe Experience Cloud lösningar för att kombinera funktioner. Adobe Campaign har flera kopplingar som gör att du kan kommunicera med externa program, ansluta till databasmotorer, dela och synkronisera data. Lär dig hur du kombinerar dina lösningar i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 Som en Campaign Standard-användare som migrerar till Campaign v8 gäller följande för dig:
 
 * Om du använde dessa integreringar med Campaign Standard har konfigurationerna och data för **Adobe Analytics** och **Audience Manager** migrerats av Adobe.
 * Om din Campaign Standard-miljö är integrerad med **Adobe Experience Manager** rekommenderar Adobe att du går över till **Adobe Experience Manager as a Cloud Service** så att du kan använda den här funktionen när du utformar e-postmeddelanden i användargränssnittet för Campaign på webben och underlättar en smidig hantering av e-postinnehåll och formulär direkt i din Adobe Experience Manager-miljö. Läs mer på [den här sidan](../../v8/integrations/aem-content.md).
-Observera att Campaign också kan integreras med Adobe Experience Manager 6.5. Mer information om hur du konfigurerar den här integreringen finns i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
-* Om din Campaign Standard-miljö är integrerad med **Utlösare** måste du konfigurera och konfigurera den här integreringen i Campaign v8 så som beskrivs i [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
-* Om din Campaign Standard-miljö är integrerad med **Adobe Target** måste du konfigurera och konfigurera den här integreringen i Campaign v8 så som beskrivs i [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
+Observera att Campaign också kan integreras med Adobe Experience Manager 6.5. Mer information om hur du konfigurerar den här integreringen finns i [den här dokumentationen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
+* Om din Campaign Standard-miljö är integrerad med **Utlösare** måste du konfigurera och konfigurera den här integreringen i Campaign v8 så som beskrivs i [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
+* Om din Campaign Standard-miljö är integrerad med **Adobe Target** måste du konfigurera och konfigurera den här integreringen i Campaign v8 så som beskrivs i [den här sidan](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
