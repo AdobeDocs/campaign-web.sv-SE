@@ -3,7 +3,7 @@ audience: end-user
 title: Bläddra i och filtrera listor
 description: Upptäck hur du bläddrar bland och filtrerar listor Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
+source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -18,21 +18,21 @@ De flesta länkar från den vänstra navigeringsmenyn visar listor med objekt, t
 
 Listorna visas i kolumner. Du kan visa ytterligare information genom att ändra kolumnkonfigurationen. Det gör du genom att klicka på kolumnen **Konfigurera för en anpassad layout** i listans övre högra hörn.
 
-[På skärmbilden visas ikonen Konfigurera kolumn som används för att anpassa layouten för listkolumner.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![På skärmbilden visas ikonen Konfigurera kolumn som används för att anpassa layouten för listkolumner.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 Lägg till eller ta bort kolumner på skärmen **Konfigurera kolumner** och ändra visningsordningen.
 
 Du kan ändra ordningen i listan antingen genom att **dra och släppa** eller genom att använda **upp- och nedpilarna** enligt nedan:
 
-[Skärmbilden visar hur du ändrar ordning på listkolumner med dra-och-släpp- eller pilknapparna.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![Skärmbilden visar hur du ändrar ordning på listkolumner med dra-och-släpp- eller pilknapparna.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 För dessa inställningar:
 
-[Skärmbilden visar ett exempel på kolumninställningar på skärmbilden Konfigurera kolumner.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Skärmbilden visar ett exempel på kolumninställningar på skärmbilden Konfigurera kolumner.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 I listan visas följande kolumner:
 
-[Skärmbilden visar resultatlistan med kolumner som konfigurerats enligt exempelinställningarna.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![Skärmbilden visar resultatlistan med kolumner som konfigurerats enligt exempelinställningarna.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Sortera data {#sort-lists}
 
@@ -44,7 +44,7 @@ För numeriska kolumner och datumkolumner anger pilen **Uppåt** att listan är 
 
 Om du vill hitta objekt snabbare kan du använda sökfältet eller inbyggda och anpassade filter för att anpassa listan baserat på sammanhangsberoende kriterier.
 
-[På skärmbilden visas de filteralternativ som är tillgängliga för att förfina listvyn.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![På skärmbilden visas de filteralternativ som är tillgängliga för att förfina listvyn.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Detaljerad information om hur du använder filter och skapar egna anpassade filter finns i [det här avsnittet](../query/filter.md).
 
