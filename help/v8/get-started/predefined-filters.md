@@ -2,7 +2,7 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
+source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
