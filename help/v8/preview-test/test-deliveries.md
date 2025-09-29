@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka korrektur
 description: Lär dig hur du definierar och skickar korrektur
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_email_preview_mode"
 >title="Förhandsgranskningsläge"
 >abstract="Förhandsgranska och testa meddelandet genom att inkludera testpopulationen i huvudmålet."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Ytterligare korrekturmål"
+>abstract="Ytterligare korrekturmål."
 
 När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka korrektur för att testa profiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
@@ -44,7 +49,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 
    * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. Du kan också använda läget [Ersättning från huvudmålet](#substitution-profiles), som skickar korrekturet till en e-posttestadress eller ett telefonnummer, och som använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
-   * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i konsolen [!DNL Campaign]. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=sv-SE){target="_blank"}
+   * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i konsolen [!DNL Campaign]. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    Detaljerad konfiguration för varje läge finns nedan.
 
@@ -100,7 +105,7 @@ Om du vill ersätta profildata från huvudmålet följer du stegen nedan:
 
 1. Klicka på knappen **[!UICONTROL Simulate content]** och på knappen **[!UICONTROL Send proof]** från innehållet i leveransen.
 
-1. Välj **[!UICONTROL Substitute from main target]** i listrutan **[!UICONTROL Mode]** om du vill skicka ett korrektur till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
+1. Välj **[!UICONTROL Mode]** i listrutan **[!UICONTROL Substitute from main target]** om du vill skicka ett korrektur till en viss e-postadress eller ett visst telefonnummer samtidigt som data från en befintlig profil visas.
 
    >[!CAUTION]
    >
