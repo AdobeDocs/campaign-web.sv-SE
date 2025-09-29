@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-post, design, tillgänglighet
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 0%
@@ -24,10 +25,7 @@ Med [!DNL Adobe Campaign] [Email Designer](create-email-content.md), som gör de
 I enlighet med detta listas de bästa sätten att utforma hjälpmedelsanpassat innehåll med [!DNL Adobe Campaign] nedan.
 
 Den här sidan handlar om att göra ditt innehåll tillgängligt för alla dina mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med dina e-postmeddelanden och landningssidor som är utformade med [!DNL Adobe Campaign].
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Säkra textläsbarhet {#text-readability}
 
 Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. [Läs mer](content-components.md#text)
