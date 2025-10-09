@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '939'
 ht-degree: 19%
 
 ---
@@ -77,8 +77,10 @@ ht-degree: 19%
       + [Skapa ett transaktionsmeddelande](transactional-messaging/create-transactional.md)
       + [Validera ditt transaktionsmeddelande](transactional-messaging/validate-transactional.md)
       + [Övervaka transaktionsmeddelanden](transactional-messaging/monitor-transactional.md)
+      + [Förbättra transaktionsmeddelanden med profildata](transactional-messaging/profile-enrichment.md)
    + [Skicka externa leveranser](msg/send-external-deliveries.md)
    + [Lägg till erbjudanden i dina meddelanden](msg/offers.md)
+   + [Konfigurera flerspråkig leverans](msg/multilingual.md)
    + [Skicka meddelanden till prenumeranterna](msg/send-to-subscribers.md)
    + [Konfigurera leveransinställningar](advanced-settings/delivery-settings.md)
    + Förhandsgranska och testa leveransen {#preview-test}
@@ -284,4 +286,4 @@ ht-degree: 19%
       + [Överför data](administration/transfer-external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

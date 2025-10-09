@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 9%
+source-wordcount: '524'
+ht-degree: 8%
 
 ---
 
@@ -19,6 +19,45 @@ ht-degree: 9%
 Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger en mer skalbar, stegvis metod för driftsättning av funktioner. Därför uppdateras versionsinformationen flera gånger i månaden. Kontrollera dem regelbundet.
 
 Ändringar och förbättringar som är tillgängliga med tidigare versioner visas på sidorna [2024](release-notes-24.md) och [2025](release-notes-25.md) .
+
+## Uppdateringar 25 oktober {#25-9-updates}
+
+_9 okt 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Flerspråkiga funktioner för transaktionsmeddelanden, push-meddelanden och SMS (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nu kan du skicka flera transaktionsmeddelanden, push-meddelanden och SMS-meddelanden på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt.</p>
+<p>Obs! Den här funktionen är bara tillgänglig för en uppsättning organisationer (begränsad tillgänglighet) och kommer att lanseras globalt i en framtida version.</p>
+<p>Mer information finns i den <a href="../msg/multilingual.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Profilberikning i transaktionsmeddelanden (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehållet. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.</p>
+<p>Obs! Den här funktionen är bara tillgänglig för en uppsättning organisationer (begränsad tillgänglighet) och kommer att lanseras globalt i en framtida version. Den här funktionen är för närvarande endast tillgänglig för e-post.</p>
+<p>Mer information finns i den <a href="../transactional-messaging/profile-enrichment.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 25 september {#25-9-release}
 
