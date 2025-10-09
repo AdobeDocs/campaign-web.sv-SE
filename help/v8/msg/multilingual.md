@@ -2,9 +2,9 @@
 audience: end-user
 title: Konfigurera flerspråkig leverans
 description: Lär dig konfigurera flerspråkig leverans
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I gränssnittet för Campaign-webben kan du konfigurera leveranser som flersprå
 
 I en flerspråkig leverans baseras språkhanteringen på varianter. Varje variant representerar ett språk. När leveransen skapas kan du lägga till flera språkvarianter som matchar antalet obligatoriska språk i meddelandet. Du kan också ändra standardspråket när som helst efter att du har lagt till dessa varianter.
 
-Funktionen för flerspråkighet är för närvarande tillgänglig för e-post, push-meddelanden och transaktionsmeddelanden.
+Den flerspråkiga funktionen är för närvarande tillgänglig för e-post, push-meddelanden, transaktionsmeddelanden och SMS.
 
 >[!AVAILABILITY]
 >
