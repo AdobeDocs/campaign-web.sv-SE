@@ -52,7 +52,7 @@ Så här skapar du en profil:
 
 1. Listan med tillgängliga attribut för profilen visas, ordnade i olika avsnitt som anges i tabellen nedan.
 
-   ![Skärmbild som visar en lista över tillgängliga attribut för profilen, ordnade i avsnitt ](assets/create-profile.png){zoomable="yes"}
+   ![Skärmbild som visar en lista över tillgängliga attribut för profilen, ordnade i avsnitt &#x200B;](assets/create-profile.png){zoomable="yes"}
 
    | Avsnittet Attribut | Beskrivning |
    |  ---  |  ---  |

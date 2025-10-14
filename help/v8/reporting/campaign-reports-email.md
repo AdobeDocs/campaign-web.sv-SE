@@ -185,7 +185,7 @@ Tabellen och diagrammet **[!UICONTROL Breakdown of errors per domain]** innehål
 
 Måtten **[!UICONTROL Delivery statistics]** innehåller nyckeltal (KPI:er) som ger detaljerad information om tillgängliga data för skickade e-postmeddelanden. Mätvärdena anges nedan.
 
-![Skärmbild av leveransstatistik ](assets/campaign_report_email_7.png){zoomable="yes"}
+![Skärmbild av leveransstatistik &#x200B;](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++Läs mer om rapportvärden för e-postkampanjer.
 
@@ -259,7 +259,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller tillgängliga data för mottagarnas beteende per länk. Mätvärdena anges nedan.
 
-![Skärmbild av diagrammet De tio mest besökta länkarna ](assets/campaign_report_email_10.png){zoomable="yes"}
+![Skärmbild av diagrammet De tio mest besökta länkarna &#x200B;](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++Läs mer om rapportvärden för e-postkampanjer.
 

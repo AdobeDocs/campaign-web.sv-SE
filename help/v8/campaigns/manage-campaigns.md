@@ -75,11 +75,11 @@ Du kan ta bort en kampanj på två sätt:
 
 * Klicka på ellipsknappen i listan med kampanjer och välj sedan **Ta bort**.
 
-  ![Beskrivning: Skärmen med kampanjlistan visas med ellipsknappen och alternativet Ta bort ](assets/delete-a-campaign-from-list.png)
+  ![Beskrivning: Skärmen med kampanjlistan visas med ellipsknappen och alternativet Ta bort &#x200B;](assets/delete-a-campaign-from-list.png)
 
 * Klicka på knappen **Mer** i själva kampanjen och välj sedan **Ta bort**.
 
-  ![Beskrivning: På kontrollpanelen för kampanjer visas knappen Mer och alternativet Ta bort ](assets/delete-a-campaign-from-dashboard.png)
+  ![Beskrivning: På kontrollpanelen för kampanjer visas knappen Mer och alternativet Ta bort &#x200B;](assets/delete-a-campaign-from-dashboard.png)
 
 ## Duplicera en kampanj {#campaign-duplicate}
 

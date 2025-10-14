@@ -40,13 +40,13 @@ Alla valideringssteg, varningar och fel visas. Färgade ikoner visar meddelandet
 * Den gula ikonen indikerar ett icke-kritiskt bearbetningsfel.
 * Den röda ikonen anger ett kritiskt fel som förhindrar leverans. Allvarliga fel måste åtgärdas för att leveransen ska kunna skickas.
 
-![ Fliken Loggar med valideringssteg, varningar och fel med färgade ikoner som anger meddelandetyper.](assets/logs.png){zoomable="yes"}
+![&#x200B; Fliken Loggar med valideringssteg, varningar och fel med färgade ikoner som anger meddelandetyper.](assets/logs.png){zoomable="yes"}
 
 ## Leveranser {#deliveries-tab}
 
 Fliken **Skickar loggar** innehåller en historik över alla förekomster av leveransen. Listan med skickade meddelanden och deras status lagras här.        Du kan visa leveransstatus för varje mottagare.
 
-![ Fliken Leveranser som visar historik över skickade meddelanden och deras status.](assets/logs2.png){zoomable="yes"}
+![&#x200B; Fliken Leveranser som visar historik över skickade meddelanden och deras status.](assets/logs2.png){zoomable="yes"}
 
 ## Undantag {#exclusion-tab}
 

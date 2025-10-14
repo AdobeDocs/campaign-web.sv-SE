@@ -158,7 +158,7 @@ Se länkar till andra användbara resurser nedan:
 
   >[!VIDEO](https://video.tv.adobe.com/v/3452596?quality=12&learn=on&captions=swe){transcript=true}
 
-* Med Campaign kan du lägga till kontakter i molndatabasen. Du kan läsa in en fil, schemalägga och automatisera flera kontaktuppdateringar, samla in data på webben eller ange profilinformation direkt i mottagartabellen.  Läs mer i [Importera data (konsol) ](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/data/import){target="_blank"}.
+* Med Campaign kan du lägga till kontakter i molndatabasen. Du kan läsa in en fil, schemalägga och automatisera flera kontaktuppdateringar, samla in data på webben eller ange profilinformation direkt i mottagartabellen.  Läs mer i [Importera data (konsol) &#x200B;](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
 * Du kan enkelt exportera dina olika rapporter till PDF- eller CSV-format så att du kan dela, ändra och skriva ut dem. Läs mer i [dokumentationen om dataexport](../../v8/reporting/export-reports.md).
 
@@ -230,7 +230,7 @@ Som administratör måste du definiera kanalkonfigurationer. Läs mer på länka
 
 * **E-post** - E-postinställningarna finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
 * **SMS** - Lär dig hur du konfigurerar din SMS-kanal i [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
-* **Push-meddelanden** - Steg för att konfigurera push-meddelandekanalen beskrivs [ i det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+* **Push-meddelanden** - Steg för att konfigurera push-meddelandekanalen beskrivs [&#x200B; i det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 * **Transactional messaging** - Steg för att konfigurera [Transactional messaging](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} i Campaign v8 beskrivs [i det här avsnittet](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### Externa konton {#acs-gs-ext-accounts}

@@ -26,7 +26,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar av dina scheman i klientkonsolen Campaign v8.
 
-  Mer information om scheman finns i [Kampanjdokumentation ](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Mer information om scheman finns i [Kampanjdokumentation &#x200B;](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **Arbetsflödets granskningsspår** gör att du kan hålla reda på aktiviteter och nyligen gjorda ändringar i arbetsflöden, inklusive deras aktuella tillstånd, som:
 

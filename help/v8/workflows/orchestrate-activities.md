@@ -44,7 +44,7 @@ Verktygsfältet, som finns i det övre högra hörnet av arbetsytan, innehåller
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
 * **Visningsschema**: Öppna en ögonblicksbild av arbetsytan som visar din plats.
 
-![Verktygsfältsalternativ för arbetsytan ](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![Verktygsfältsalternativ för arbetsytan &#x200B;](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Hantera aktiviteter {#manage}
 
@@ -84,7 +84,7 @@ Du kan kopiera aktiviteter på två sätt:
 
 Om du vill klistra in de kopierade aktiviteterna klickar du på knappen **+** för en övergång och väljer Klistra in X-aktivitet.
 
-![Alternativet Klistra in kopierade aktiviteter ](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![Alternativet Klistra in kopierade aktiviteter &#x200B;](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ### Flytta aktiviteter och deras underordnade noder {#move}
 

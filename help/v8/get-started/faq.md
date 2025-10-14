@@ -77,6 +77,6 @@ För närvarande är alla funktioner tillgängliga via konsolen om de inte finns
 
 +++ Finns det några säkerhetsritningar eller begränsningar för det nya webbgränssnittet?
 
-Garantier och begränsningar för Campaign v8 visas [här](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Specifika skyddsutkast gäller dessutom för arbetsflöden i webbanvändargränssnittet. De kan granskas på [den här sidan](../get-started/guardrails.md). Se även [Adobe Campaign Managed Cloud Services | Produktbeskrivning ](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Garantier och begränsningar för Campaign v8 visas [här](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Specifika skyddsutkast gäller dessutom för arbetsflöden i webbanvändargränssnittet. De kan granskas på [den här sidan](../get-started/guardrails.md). Se även [Adobe Campaign Managed Cloud Services | Produktbeskrivning &#x200B;](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 +++

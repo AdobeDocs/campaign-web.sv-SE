@@ -74,7 +74,7 @@ Tabellen och diagrammet för **[!UICONTROL Targeted Audience]** visar data relat
 
 Tabellen **[!UICONTROL Delivery statistics]** innehåller en beskrivning av framgången för varje e-postleverans, med detaljerade mått som beskrivs nedan.
 
-![Statistikstatistik ](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![Statistikstatistik &#x200B;](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om leveransstatistik.
 

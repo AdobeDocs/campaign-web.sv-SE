@@ -294,7 +294,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller tillgängliga data för mottagarnas beteende per länk.
 
-![Skärmbild av diagrammet De tio mest besökta länkarna ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![Skärmbild av diagrammet De tio mest besökta länkarna &#x200B;](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Läs mer om mätvärden för leveransrapporter för e-post.
 

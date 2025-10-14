@@ -79,7 +79,7 @@ I följande exempel används AI Assistant för att skapa övertygande meddelande
 
    Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
-   ![Skärmbild med alternativen Förfina ](assets/push-genai-5.png){zoomable="yes"}
+   ![Skärmbild med alternativen Förfina &#x200B;](assets/push-genai-5.png){zoomable="yes"}
 
 1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](../content/brands.md).
 

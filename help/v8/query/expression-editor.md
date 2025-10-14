@@ -22,7 +22,7 @@ När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en 
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Om du vill växla till den nya funktionen för regelgenerering trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Arbeta med uttrycksredigeraren {#edit}
 

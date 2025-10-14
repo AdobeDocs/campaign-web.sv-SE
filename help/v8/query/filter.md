@@ -17,7 +17,7 @@ Adobe Campaign Web innehåller filter i varje objektlista, vilket gör att du ka
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Använda filter {#apply}
 

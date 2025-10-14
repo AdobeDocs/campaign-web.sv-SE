@@ -18,7 +18,7 @@ Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri pla
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->&#x200B;>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Du kan lägga till två typer av element:
 

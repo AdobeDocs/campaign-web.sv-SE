@@ -26,7 +26,7 @@ Du kan använda en **[!UICONTROL trap group]**:
 
 >[!NOTE]
 >
->Förutom att [skicka korrektur när leveransen ](../email/create-email.md#preview-test) skapas och från [kontrollgruppen](control-group.md) är det bra att lägga till en svällningsgrupp för att testa målgruppen.
+>Förutom att [skicka korrektur när leveransen &#x200B;](../email/create-email.md#preview-test) skapas och från [kontrollgruppen](control-group.md) är det bra att lägga till en svällningsgrupp för att testa målgruppen.
 
 ## Om svällningsgrupper {#about-trap-group}
 
