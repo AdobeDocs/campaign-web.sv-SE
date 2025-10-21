@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Verktygsfältet, som finns i det övre högra hörnet av arbetsytan, innehåller
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
 * **Visningsschema**: Öppna en ögonblicksbild av arbetsytan som visar din plats.
 
-![Verktygsfältsalternativ för arbetsytan &#x200B;](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![Verktygsfältsalternativ för arbetsytan ](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Hantera aktiviteter {#manage}
 
@@ -84,7 +84,7 @@ Du kan kopiera aktiviteter på två sätt:
 
 Om du vill klistra in de kopierade aktiviteterna klickar du på knappen **+** för en övergång och väljer Klistra in X-aktivitet.
 
-![Alternativet Klistra in kopierade aktiviteter &#x200B;](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![Alternativet Klistra in kopierade aktiviteter ](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ### Flytta aktiviteter och deras underordnade noder {#move}
 
@@ -106,7 +106,12 @@ Med alla aktiviteter kan du hantera deras körningsalternativ. Markera en aktivi
 
 ![Panelen Körningsalternativ](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Egenskaper
+### Egenskaper {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Aktivitetsegenskaper"
+>abstract="I det här avsnittet kan du definiera hur och var en aktivitet ska köras. Du kan ställa in körningsåtgärden, begränsa körningens varaktighet, välja en tidszon, tilldela datortillhörighet, hantera asynkront beteende och ange vad som ska hända om ett fel inträffar."
 
 I fältet **Körning** kan du definiera åtgärden som ska utföras när aktiviteten startar.
 
@@ -118,11 +123,21 @@ I fältet **Tillhörighet** kan du tvinga ett arbetsflöde eller en arbetsflöde
 
 I fältet **Beteende** kan du definiera proceduren som ska följas om asynkrona uppgifter används.
 
-### Felhantering
+### Felhantering {#execution-options}
 
-I fältet **I händelse av fel** kan du ange vilken åtgärd som ska utföras om aktiviteten påträffar ett fel.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Initieringsskript"
+>abstract="I det här avsnittet kan du definiera vad som ska hända om en aktivitet misslyckas. Du kan välja åtgärder som att stoppa arbetsflödet, gå till nästa aktivitet eller utlösa en anpassad felhanteringsprocess."
 
-### Initieringsskript
+I fältet **I händelse av fel** kan du ange vilken åtgärd som ska utföras om aktiviteten påträffar ett fel. Se [avsnittet](workflow-settings.md#error-settings).
+
+### Initieringsskript {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Initieringsskript"
+>abstract="I det här avsnittet kan du lägga till JavaScript som körs när aktiviteten startar. Använd det för att initiera variabler, ange parametrar eller förbereda data som är specifika för den aktivitetens körning."
 
 Med **initieringsskriptet** kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på knappen **Redigera kod** och skriv det kodfragment som ska köras. Skriptet anropas när aktiviteten körs. Se avsnittet som rör [händelsevariabler](../workflows/event-variables.md).
 

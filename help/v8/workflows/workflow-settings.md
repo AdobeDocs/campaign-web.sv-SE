@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurera inställningar för arbetsflöde
 description: Lär dig hur du konfigurerar arbetsflödesinställningar med Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 1%
+source-wordcount: '1022'
+ht-degree: 0%
 
 ---
 
@@ -100,5 +100,10 @@ När arbetsflödet är [associerat med en kampanj](create-workflow.md) visas det
 * **[!UICONTROL Consecutive errors]**: Det här fältet blir tillgängligt när värdet **[!UICONTROL Ignore]** har valts i fältet **[!UICONTROL In case of errors]**. Ange antalet fel som kan ignoreras innan processen stoppas. När det här numret har nåtts ändras arbetsflödets status till **[!UICONTROL Failed]**. Om värdet för det här fältet är 0 stoppas aldrig arbetsflödet oavsett antalet fel.
 
 ## Initieringsskript {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="Initieringsskript"
+>abstract="I det här avsnittet kan du definiera JavaScript-kod som körs i början av arbetsflödet. Den kan användas för att initiera variabler, ange parametrar eller förbereda data innan några arbetsflödesaktiviteter körs."
 
 Med **initieringsskriptet** kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på knappen **Redigera kod** och skriv det kodfragment som ska köras. Skriptet anropas när arbetsflödet körs. Se avsnittet som rör [händelsevariabler](../workflows/event-variables.md).

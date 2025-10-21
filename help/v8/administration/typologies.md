@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med affärsregler (typologier)
 description: Lär dig hur du arbetar med typologier och typologiregler för att styra, filtrera och övervaka hur leveranser skickas.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Affärsregler"
 >abstract="Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,7 +40,7 @@ Typologier är tillgängliga via menyn **[!UICONTROL Administration]** > **[!UIC
 
 >[!NOTE]
 >
->Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De viktigaste stegen för att tillämpa typologier i meddelanden är följande:
 
@@ -88,69 +88,25 @@ Typologiinformationen är öppen. Från den här skärmen kan du direkt referera
 >title="Egenskaper för typologiregel"
 >abstract="Definiera typologiregelns egenskaper. **Kontroll**-regler verifierar meddelandekvalitet och giltighet före sändning, medan **Filtrering**-regler exkluderar segment för målgruppen baserat på specifika kriterier.<br/><br/>Du kan också ändra regelns körningsordning för att hantera sekvensen i vilken typologiregler körs när flera regler av samma typ körs under samma meddelandebearbetningsfas."
 
-Om du vill skapa en typologiregel går du till menyn **[!UICONTROL Business rules]** och väljer fliken **[!UICONTROL Typology rules]**.
+Det finns två typer av typologiregler:
 
-Klicka på knappen **[!UICONTROL Create typology rule]** och följ sedan stegen som beskrivs nedan.
+* **Kontroll**: Garanterar meddelandekvalitet och giltighet före sändning, t.ex. teckenvisning, SMS-längd, adressformat eller URL-förkortning. Dessa regler skapas med ett skriptgränssnitt som definierar komplex logik för innehållskontroller och ändringar.
 
-### Definiera typologiregelns egenskaper {#properties}
+* **Filtrering**: Utesluter segment för målgruppen baserat på specifika kriterier som ålder, plats, land eller telefonnummer. Dessa regler är kopplade till en målinriktningsdimension.
 
-Definiera typologiregelns egenskaper:
+>[!NOTE]
+>
+>För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Ange **[!UICONTROL Label]** som regel.
+Så här skapar du en typologiregel:
 
-   ![Gränssnitt för att skapa kontrollregler](assets/business-rules-control-rule.png)
+1. Gå till menyn **[!UICONTROL Business rules]** och välj fliken **[!UICONTROL Typology rules]**.
 
-1. Välj typologiregelns **[!UICONTROL Type]**:
+1. Klicka på knappen **[!UICONTROL Create typology rule]** och följ sedan stegen som beskrivs nedan.
 
-   * **Kontroll**: Garanterar meddelandekvalitet och giltighet före sändning, t.ex. teckenvisning, SMS-längd, adressformat eller URL-förkortning. Dessa regler skapas med ett skriptgränssnitt som definierar komplex logik för innehållskontroller och ändringar.
+[Skapa typologiregel](assets/business-rules-create-typo.png)
 
-   * **Filtrering**: Utesluter segment för målgruppen baserat på specifika kriterier som ålder, plats, land eller telefonnummer. Dessa regler är kopplade till en målinriktningsdimension.
-
-   >[!NOTE]
-   >
-   >För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Välj en **[!UICONTROL Channel]** som ska associeras med regeln.
-
-1. Växla av alternativet **[!UICONTROL Active]** om du inte vill att regeln ska vara aktiv direkt efter att den har skapats.
-
-1. Definiera regelns **[!UICONTROL Execution order]**.
-
-   Som standard är typologiregelordningen inställd på 50. Anpassa det här värdet för att hantera den sekvens i vilken typologiregler ska köras när flera regler av samma typ körs under samma meddelandebearbetningsfas. En filtreringsregel med körningsordningen 20 körs till exempel före en filtreringsregel med körningsordningen 30.
-
-1. Expandera avsnittet **[!UICONTROL Additional options]** om du vill komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning.
-
-1. För kontrollregler finns ytterligare två fält tillgängliga i de extra alternativen. Ange när regeln ska tillämpas och dess varningsnivå:
-
-   * **[!UICONTROL Phase]**: Ange vid vilken tidpunkt i leveranscykeln regeln ska tillämpas. Välj värdet i listrutan **[!UICONTROL Phase]**. Expandera avsnittet nedan om du vill ha mer information om möjliga värden.
-
-   +++Reglerfaser för kontroll:
-
-   **[!UICONTROL At the start of targeting]**: Förhindra att personaliseringssteget körs om fel uppstår.
-
-   **[!UICONTROL After targeting]**: Välj den här fasen om du behöver känna till målvolymen för att kunna använda kontrollregeln. Kontrollregeln **[!UICONTROL Check proof size]** gäller till exempel efter varje målfas. Den här regeln förhindrar meddelandepersonalisering om det finns för många korrekturmottagare.
-
-   **[!UICONTROL At the start of personalization]**: Välj den här fasen om kontrollen gäller godkännande av meddelandeanpassning. Anpassning av meddelanden utförs under analysfasen.
-
-   **[!UICONTROL At the end of the analysis]**: Tillämpa kontroller som kräver fullständig meddelandepersonalisering.
-
-   +++
-
-   * **[!UICONTROL Level]**: Ange aviseringsnivån för regeln. Expandera avsnittet nedan om du vill ha mer information.
-
-   +++Ctrl-linjenivåer:
-
-   **[!UICONTROL Error]**: Stoppa meddelandeförberedelsen.
-
-   **[!UICONTROL Warning]**: Visa en varning i förberedelseloggarna.
-
-   **[!UICONTROL Info]**: Visa information i förberedelseloggarna.
-
-   **[!UICONTROL Verbose]**: Visa information i serverloggarna.
-
-   +++
-
-### Bygg regelinnehållet {#build}
+### Definiera regelns huvudegenskaper {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ Definiera typologiregelns egenskaper:
 >title="Code"
 >abstract="**Kontroll**-regler verifierar meddelandets kvalitet och giltighet innan det skickas, t.ex. teckenvisning, SMS-längd, adressformat eller URL-förkortning. Dessa regler skapas med JavaScript-kod."
 
-När typologiregelns egenskaper har definierats skapar du regelns innehåll.
+Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
 
-* För **kontrollregler** klickar du på knappen **Redigera kod** och anger logiken för regeln med JavaScript. I exemplet nedan skapas en regel som visar en varning i loggarna om målet är tomt.
+>[!BEGINTABS]
 
-  ![Kontrollregelkodredigerare](assets/business-rules-code.png)
+>[!TAB Kontrollregler]
 
-* För **filtreringsregler** väljer du måldimensionen och klickar på knappen **[!UICONTROL Add rules]** för att definiera filtreringsvillkor med [frågemodelleraren](../query/query-modeler-overview.md).
+1. Ange **[!UICONTROL Label]** som regel.
 
-  ![Frågemodelleraren för filtreringsregel](assets/business-rules-query.png)
+[Skapa kontrollregel](assets/business-rules-create-typo1.png)
 
-När regeln är klar klickar du på knappen **[!UICONTROL Create]** för att skapa typologiregeln. Referera till regeln i en typologi för att använda den på meddelanden.
+1. Expandera avsnittet **[!UICONTROL Additional options]** om du vill komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning. Du kan också ange när regeln ska användas och dess varningsnivå. Expandera avsnitten nedan om du vill ha mer information.
+
+   +++Phases:
+
+   Ange vid vilken tidpunkt i leveranscykeln regeln ska tillämpas. Välj värdet i listrutan **[!UICONTROL Phase]**:
+
+   * **[!UICONTROL At the start of targeting]**: Förhindra att personaliseringssteget körs om fel uppstår.
+
+   * **[!UICONTROL After targeting]**: Välj den här fasen om du behöver känna till målvolymen för att kunna använda kontrollregeln. Kontrollregeln **[!UICONTROL Check proof size]** gäller till exempel efter varje målfas. Den här regeln förhindrar meddelandepersonalisering om det finns för många korrekturmottagare.
+
+   * **[!UICONTROL At the start of personalization]**: Välj den här fasen om kontrollen gäller godkännande av meddelandeanpassning. Anpassning av meddelanden utförs under analysfasen.
+
+   * **[!UICONTROL At the end of the analysis]**: Tillämpa kontroller som kräver fullständig meddelandepersonalisering.
+
+   +++
+
+   +++Nivå:
+
+   Ange aviseringsnivån för regeln:
+
+   * **[!UICONTROL Error]**: Stoppa meddelandeförberedelsen.
+
+   * **[!UICONTROL Warning]**: Visa en varning i förberedelseloggarna.
+
+   * **[!UICONTROL Info]**: Visa information i förberedelseloggarna.
+
+   * **[!UICONTROL Verbose]**: Visa information i serverloggarna.
+
+   +++
+
+1. Om du vill skapa regelns innehåll klickar du på knappen **Redigera kod** och anger logiken för regeln med JavaScript. I exemplet nedan skapas en regel som visar en varning i loggarna om målet är tomt.
+
+   ![Kontrollregelkodredigerare](assets/business-rules-code.png)
+
+1. Klicka på **Skapa**.
+
+
+>[!TAB Filtreringsregler]
+
+1. Ange **[!UICONTROL Label]** som regel.
+
+[Skapa filtreringsregel](assets/business-rules-create-typo2.png)
+
+1. Expandera avsnittet **[!UICONTROL Additional options]** om du vill komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning.
+
+1. Om du vill skapa regelns innehåll markerar du måldimensionen och klickar på knappen **[!UICONTROL Add rules]** för att definiera filtervillkor med [regelbyggaren](../query/query-modeler-overview.md).
+
+   ![Frågemodelleraren för filtreringsregel](assets/business-rules-query.png)
+
+1. Klicka på **Skapa**
+
+>[!ENDTABS]
+
+### Definiera regelns ytterligare egenskaper {#add-properties}
+
+Nu ska vi definiera de ytterligare parametrarna. På den här skärmen kan du fortfarande ändra de huvudegenskaper som tidigare definierats.
+
+[Skapa ytterligare filtreringsregel](assets/business-rules-create-typo2.png)
+
+1. Växla av alternativet **[!UICONTROL Active]** om du inte vill att regeln ska vara aktiv direkt efter att den har skapats.
+
+1. Definiera regelns **[!UICONTROL Execution order]**.
+
+   Som standard är typologiregelordningen inställd på 50. Anpassa det här värdet för att hantera den sekvens i vilken typologiregler ska köras när flera regler av samma typ körs under samma meddelandebearbetningsfas. En filtreringsregel med körningsordningen 20 körs till exempel före en filtreringsregel med körningsordningen 30.
+
+1. Välj en **[!UICONTROL Channel]** som ska associeras med regeln.
+
+Regeln är klar att refereras i en typologi för att den ska kunna tillämpas på meddelanden.
 
 ## Referera till typologiregler i en typologi {#add-rules}
 
@@ -180,7 +203,7 @@ Följ de här stegen för att referera till en eller flera regler i en typologi:
 
 1. Navigera till fliken **[!UICONTROL Typology]** och öppna den typologi där du vill referera till reglerna.
 
-1. Välj fliken **[!UICONTROL Typology rules]** och klicka på knappen **[!UICONTROL Add typology rule'(s)]**.
+1. Välj fliken **[!UICONTROL Typology rules]** och klicka på knappen **[!UICONTROL Add rules)]**.
 
    ![Lägg till gränssnitt för typologiregler](assets/business-rules-reference.png)
 
