@@ -62,7 +62,7 @@ Följ de här stegen för att konfigurera aktiviteten **Ändra datakälla**:
 
      >[!AVAILABILITY]
      >
-     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=sv-SE){target="_blank"}
 
 1. Konfigurera arbetsflödet för att utföra önskade åtgärder med den nya datakällan.
 
