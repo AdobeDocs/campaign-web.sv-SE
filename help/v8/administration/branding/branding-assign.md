@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 20%
+source-wordcount: '590'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ Nu kan du använda den här mallen för att skicka leveranser.
 
 >[!TAB Adobe Campaign V8]
 
-Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=sv-SE)
+Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 När mallen har skapats kan du koppla den till ett varumärke. Så här gör du:
 
@@ -126,3 +126,27 @@ Följ stegen nedan för att skapa en ny fristående leverans.
 1. Anpassa leveranserna ytterligare. Mer information om hur du skapar e-postmeddelanden finns i avsnittet [Designa och skicka e-postmeddelanden](../../email/create-email.md).
 
 >[!ENDTABS]
+
+## Kontrollera varumärke som är kopplat till transaktionsmeddelanden {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Det här avsnittet gäller endast för Transactional Messaging (Message Center).
+>
+>Transaktionsfunktioner är tillgängliga i gränssnittet för Campaign Web, men verifieringsstegen nedan måste utföras i klientkonsolen Campaign v8 (kontrollinstans).
+
+Transaktionsleveranser som synkroniserats från körningsinstanser av Real-Time (RT) till kontrollinstansen replikerar inte egenskaper som routning eller branding. Dessa synkroniserade leveranser genereras varje vecka från samma mall för att visa leveransindikatorer i kontrollinstansen.
+
+På grund av detta visar kontrollinstansen standardvarumärket. De faktiska varumärkes- och routningsinställningarna som används under meddelandekörningen definieras i transaktionsmeddelandemallen på kontrollinstansen.
+
+Verifiera vilket varumärke som användes för ett transaktionsmeddelande:
+
+1. Identifiera det interna namnet på transaktionsmallen som publicerats till Real-Time (till exempel `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. I kontrollinstansen söker du efter det här interna namnet under **Transactional message templates**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Öppna mallen för att visa varumärket och andra relaterade egenskaper.

@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten Ändra datakälla
 description: Lär dig hur du använder arbetsflödesaktiviteten Ändra datakälla
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -23,11 +23,15 @@ I arbetsflöden lagras data som transporteras från en aktivitet till en annan v
 
 I vissa fall är antingen data inte tillgängliga i den aktuella databasen eller så är de inte tillräckligt effektiva för att utföra enhetsåtgärder. Du kan därför behöva tvinga arbetsflödet att använda en annan databas för att utföra sådana åtgärder genom att lägga till en **[!UICONTROL Change data source]**-aktivitet.
 
-Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=sv-SE).
+Detaljerad information om Campaign-arkitekturen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
 >Observera att aktiviteterna **[!UICONTROL Change Dimension]** och **[!UICONTROL Change Data source]** inte ska läggas till på en rad. Om du behöver använda båda aktiviteterna i följd inkluderar du en **[!UICONTROL Enrichment]**-aktivitet mellan dem. Detta garanterar att programmet körs på rätt sätt och förhindrar eventuella konflikter och fel.
+
+>[!NOTE]
+>
+>**Source**-aktiviteten Ändra data kan bearbeta högst en miljon poster per körning. Kontakta Adobe om du behöver höja denna gräns.
 
 <!--
 
@@ -58,7 +62,7 @@ Följ de här stegen för att konfigurera aktiviteten **Ändra datakälla**:
 
      >[!AVAILABILITY]
      >
-     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=sv-SE){target="_blank"}
+     >Kampanjkonfiguration och anslutning till externa system är begränsade till avancerade användare och är endast tillgängliga från klientkonsolen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 1. Konfigurera arbetsflödet för att utföra önskade åtgärder med den nya datakällan.
 
