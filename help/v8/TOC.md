@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '941'
 ht-degree: 19%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 19%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
+   + [Vanliga frågor och svar ](get-started/faq.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
@@ -65,7 +65,7 @@ ht-degree: 19%
       + [Förhandsgranska och skicka en SMS-leverans](sms/send-sms.md)
    + Direktmeddelande {#direct-mail}
       + [Kom igång med direktreklam](direct-mail/gs-direct-mail.md)
-      + [Skapa en leverans av direktutskick](direct-mail/create-direct-mail.md)
+      + [Skapa en leverans av direktreklam](direct-mail/create-direct-mail.md)
       + [Utforma extraheringsfilen](direct-mail/content-direct-mail.md)
       + [Förhandsgranska och skicka direktreklam](direct-mail/send-direct-mail.md)
    + Callcenter {#call-center}
@@ -277,6 +277,7 @@ ht-degree: 19%
    + [Arbeta med scheman](administration/schemas.md)
    + [Konfigurera anpassade fält](administration/custom-fields.md)
    + [Konfigurera [!DNL Campaign] alternativ](administration/options.md)
+   + [Tidszonshantering](administration/timezone-management.md)
    + Externa konton {#external-accounts}
       + [Skapa externa konton](administration/create-external-account.md)
       + [Adobe Solution Integration](administration/integration-external-account.md)
@@ -286,4 +287,4 @@ ht-degree: 19%
       + [Överför data](administration/transfer-external-account.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
