@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa arbetsflöden med Adobe Campaign Web
 description: Lär dig skapa arbetsflöden med Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1279'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Verktygsfältet, som finns i det övre högra hörnet av arbetsytan, innehåller
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
 * **Visningsschema**: Öppna en ögonblicksbild av arbetsytan som visar din plats.
 
-![Verktygsfältsalternativ för arbetsytan &#x200B;](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![Verktygsfältsalternativ för arbetsytan ](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Hantera aktiviteter {#manage}
 
@@ -84,7 +84,7 @@ Du kan kopiera aktiviteter på två sätt:
 
 Om du vill klistra in de kopierade aktiviteterna klickar du på knappen **+** för en övergång och väljer Klistra in X-aktivitet.
 
-![Alternativet Klistra in kopierade aktiviteter &#x200B;](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![Alternativet Klistra in kopierade aktiviteter ](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ### Flytta aktiviteter och deras underordnade noder {#move}
 
@@ -111,7 +111,7 @@ Med alla aktiviteter kan du hantera deras körningsalternativ. Markera en aktivi
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Aktivitetsegenskaper"
->abstract="I det här avsnittet kan du definiera hur och var en aktivitet ska köras. Du kan ställa in körningsåtgärden, begränsa körningens varaktighet, välja en tidszon, tilldela datortillhörighet, hantera asynkront beteende och ange vad som ska hända om ett fel inträffar."
+>abstract="I det här avsnittet kan du konfigurera körningsinställningar för en aktivitet, inklusive vilken åtgärd som ska utföras, maximal varaktighet, tidszon, datortillhörighet och asynkront beteende."
 
 I fältet **Körning** kan du definiera åtgärden som ska utföras när aktiviteten startar.
 

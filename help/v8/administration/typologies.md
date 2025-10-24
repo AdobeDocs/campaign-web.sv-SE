@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med affärsregler (typologier)
 description: Lär dig hur du arbetar med typologier och typologiregler för att styra, filtrera och övervaka hur leveranser skickas.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Affärsregler"
 >abstract="Nu kan du skapa typologier och typologiregler i Adobe Campaign webbgränssnitt. Med typologier kan ni styra, filtrera och prioritera utskick av leveranser."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,12 +40,12 @@ Typologier är tillgängliga via menyn **[!UICONTROL Administration]** > **[!UIC
 
 >[!NOTE]
 >
->Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Listan **[!UICONTROL Typology rules]** visar alla befintliga regler som har skapats hittills i webbanvändargränssnittet eller klientkonsolen. Endast **Kontroll** - och **Filtrering**-regler kan skapas i webbanvändargränssnittet. Om du vill skapa andra typer av typologiregler, till exempel tryck- eller kapacitetsregler, använder du klientkonsolen Campaign v8. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De viktigaste stegen för att tillämpa typologier i meddelanden är följande:
 
 1. [Skapa en typologi](#typology).
-1. [Skapa typologiregler](#typology-rules).
+1. [Skapa typologiregler](#typology-rule).
 1. [Referera till typologiregler i typologin](#add-rules).
 1. [Använd typologin för ett meddelande](#message).
 
@@ -96,7 +96,7 @@ Det finns två typer av typologiregler:
 
 >[!NOTE]
 >
->För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>För närvarande går det bara att skapa typologireglerna **Kontroll** och **Filtering** från webbanvändargränssnittet. Om du vill skapa andra typer av regler använder du Klientkonsolen. [Lär dig skapa typologiregler i klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Så här skapar du en typologiregel:
 
@@ -104,7 +104,7 @@ Så här skapar du en typologiregel:
 
 1. Klicka på knappen **[!UICONTROL Create typology rule]** och följ sedan stegen som beskrivs nedan.
 
-[Skapa typologiregel](assets/business-rules-create-typo.png)
+   ![Skapa typologiregel](assets/business-rules-create-typo.png)
 
 ### Definiera regelns huvudegenskaper {#properties}
 
@@ -118,7 +118,7 @@ Så här skapar du en typologiregel:
 >title="Code"
 >abstract="**Kontroll**-regler verifierar meddelandets kvalitet och giltighet innan det skickas, t.ex. teckenvisning, SMS-längd, adressformat eller URL-förkortning. Dessa regler skapas med JavaScript-kod."
 
-Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
+Det här är de viktigaste egenskaperna som du kan definiera när du skapar en ny typologiregel:
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
 
 1. Ange **[!UICONTROL Label]** som regel.
 
-[Skapa kontrollregel](assets/business-rules-create-typo1.png)
+   ![Skapa kontrollregel](assets/business-rules-create-typo1.png)
 
-1. Expandera avsnittet **[!UICONTROL Additional options]** om du vill komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning. Du kan också ange när regeln ska användas och dess varningsnivå. Expandera avsnitten nedan om du vill ha mer information.
+1. I avsnittet **[!UICONTROL Additional options]** kan du komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning. Du kan också ange när regeln ska användas och dess varningsnivå. Expandera avsnitten nedan om du vill ha mer information.
 
-   +++Phases:
+   +++Faser
 
    Ange vid vilken tidpunkt i leveranscykeln regeln ska tillämpas. Välj värdet i listrutan **[!UICONTROL Phase]**:
 
@@ -144,17 +144,17 @@ Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
 
    +++
 
-   +++Nivå:
+   +++Nivå
 
    Ange aviseringsnivån för regeln:
 
-   * **[!UICONTROL Error]**: Stoppa meddelandeförberedelsen.
+   * **[!UICONTROL Error]**: Stoppa meddelandeförberedelsen
 
-   * **[!UICONTROL Warning]**: Visa en varning i förberedelseloggarna.
+   * **[!UICONTROL Warning]**: Visa en varning i förberedelseloggarna
 
-   * **[!UICONTROL Info]**: Visa information i förberedelseloggarna.
+   * **[!UICONTROL Info]**: Visningsinformation i förberedelseloggarna
 
-   * **[!UICONTROL Verbose]**: Visa information i serverloggarna.
+   * **[!UICONTROL Verbose]**: Visningsinformation i serverloggarna
 
    +++
 
@@ -169,7 +169,7 @@ Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
 
 1. Ange **[!UICONTROL Label]** som regel.
 
-[Skapa filtreringsregel](assets/business-rules-create-typo2.png)
+   ![Skapa filtreringsregel](assets/business-rules-create-typo2.png)
 
 1. Expandera avsnittet **[!UICONTROL Additional options]** om du vill komma åt avancerade inställningar, till exempel regelns interna namn, mapplagring och beskrivning.
 
@@ -185,7 +185,7 @@ Detta är de viktigaste egenskaperna när du skapar en ny typologiregel.
 
 Nu ska vi definiera de ytterligare parametrarna. På den här skärmen kan du fortfarande ändra de huvudegenskaper som tidigare definierats.
 
-[Skapa ytterligare filtreringsregel](assets/business-rules-create-typo2.png)
+![Skapa ytterligare filtreringsregel](assets/business-rules-create-typo3.png)
 
 1. Växla av alternativet **[!UICONTROL Active]** om du inte vill att regeln ska vara aktiv direkt efter att den har skapats.
 
