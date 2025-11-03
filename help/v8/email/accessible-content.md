@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-post, design, tillgänglighet
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ I enlighet med detta listas de bästa sätten att utforma hjälpmedelsanpassat i
 
 Den här sidan handlar om att göra ditt innehåll tillgängligt för alla dina mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med dina e-postmeddelanden och landningssidor som är utformade med [!DNL Adobe Campaign].
  
-
 ## Säkra textläsbarhet {#text-readability}
 
 Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. [Läs mer](content-components.md#text)
@@ -137,19 +136,17 @@ Om du vill kontrollera på ett mer konsekvent sätt om innehållet är tillgäng
 
 ## Använd mörkt läge {#dark-mode}
 
-Bland de bästa sätten att utforma innehåll i mörkt läge bör du använda genomskinliga PNG- eller SVG-filer, ställa in lämpliga metataggar och CSS och ge hjälpmedelsanpassad grundformatering om mörkt läge inte stöds.
+Mörkt läge förbättrar den visuella tillgängligheten för användare med ljuskänslighet eller synnedsättning, vilket ger en bättre visningsupplevelse.
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+Med e-post-Designer kan du växla till **[!UICONTROL Dark mode]**-vyn och definiera specifika anpassade inställningar som ska visas av de e-postklienter som stöder e-post. [Läs mer](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+Bland de bästa sätten att utforma innehåll i mörkt läge bör du använda genomskinliga PNG- eller SVG-filer, ställa in lämpliga metataggar och CSS och ge hjälpmedelsanpassad grundformatering om mörkt läge inte stöds. Slutligen måste du se till att dina e-postmeddelanden återges korrekt i mörkt läge genom att testa allt e-postinnehåll och alla gränssnittselement i både ljust och mörkt läge.
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+Detaljerade bästa praxis som är specifika för mörkt läge, inklusive riktlinjer för att säkerställa tillgänglighet, visas i [det här avsnittet](dark-mode.md#best-practices).
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Använd specifika attribut för tillgänglighet {#attributes}
 

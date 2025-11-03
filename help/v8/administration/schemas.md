@@ -2,10 +2,10 @@
 title: Arbeta med scheman
 description: Lär dig hur du arbetar med scheman.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '583'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Scheman spelar en nyckelroll i:
 
 Varje entitet i Adobe Campaign har ett dedikerat schema som säkerställer datakonsekvens och -organisation.
 
-Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Detaljerad information om scheman finns i dokumentationen för [Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Få åtkomst till scheman i webbanvändargränssnittet {#access}
 
@@ -63,7 +63,9 @@ Fliken **[!UICONTROL Data]** innehåller information om schemadata.
 
 ![Fliken Schemadata visar datastruktur och attribut](assets/schemas-data.png)
 
-## Redigera anpassade fält {#fields}
+## Konfigurera skärmdefinitionen {#screen-definition}
+
+### Redigera anpassade fält {#fields}
 
 Anpassade fält är ytterligare attribut som läggs till i färdiga scheman via Adobe Campaign-konsolen. Med dem kan du anpassa scheman genom att ta med nya attribut som passar organisationens behov.
 
@@ -74,3 +76,27 @@ Anpassade fält kan visas på olika skärmar, till exempel profilinformation i w
 Klicka på **[!UICONTROL Preview]** om du vill visa anpassade fält på en exempelskärm.
 
 Mer information om hur du redigerar anpassade fält i ett schema finns i följande avsnitt: [Konfigurera anpassade fält](../administration/custom-fields.md).
+
+### Lägg till samlingslistor {#collection-lists}
+
+I det här avsnittet **Lista över anpassade listor** kan du definiera samlingslänkar, till exempel inköp. Relaterade data visas sedan på profilskärmar via en dedikerad flik.
+
+>[!NOTE]
+>
+>Den här funktionen är för närvarande bara tillgänglig för mottagarschemat.
+
+1. Om du vill lägga till en samlingslista i gränssnittet klickar du på ellipsknappen och väljer **Välj anpassade listor**.
+
+   ![Skapa samlingslistor](assets/schemas-collection1.png)
+
+1. Välj en av de tillgängliga anpassade listorna, till exempel köp, och klicka sedan på **Bekräfta**.
+
+   ![Skapa samlingslistor](assets/schemas-collection2.png)
+
+1. Bläddra till menyn **Profiler** och filtrera profiler som har köpt.
+
+   ![Skapa samlingslistor](assets/schemas-collection3.png)
+
+1. Klicka på en profil. Du ser att den nya fliken visas. Du kan lägga till fler kolumner om det behövs.
+
+   ![Skapa samlingslistor](assets/schemas-collection4.png)

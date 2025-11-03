@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 8%
+source-wordcount: '506'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 Ändringar och förbättringar som är tillgängliga med tidigare versioner visas på sidorna [2024](release-notes-24.md) och [2025](release-notes-25.md) .
 
-## Uppdateringar 25 oktober {#25-9-updates}
+## 25 oktober {#25-10-updates}
 
-_9 okt 2025_
+_28 okt 2025_
 
 <table>
 <thead>
@@ -41,6 +41,10 @@ _9 okt 2025_
 </tbody>
 </table>
 
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
 <table>
 <thead>
 <tr>
@@ -58,24 +62,17 @@ _9 okt 2025_
 </tbody>
 </table>
 
-
-## 25 september {#25-9-release}
-
-_23 september 2025_
-
-Följande funktioner är tillgängliga från och med september.
-
 <table>
 <thead>
 <tr>
-<th><strong>Anpassad kanal för API-leveranser</strong><br/></th>
+<th><strong>Integrering med Adobe GenStudio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Du kan nu, direkt från Adobe Campaign Web UI, samordna och köra leveranser baserade på anpassade API-kanaler. Dessa leveranser kan vara fristående eller ingå i ett arbetsflöde. Konfigurationen av den anpassade API-kanalen utförs i konsolen.</p>
-<p>Mer information finns i den <a href="../call-center/gs-custom-channel.md">detaljerade dokumentationen</a>.</p>
+<p>För att effektivisera marknadsföringen och bibehålla varumärkets enhetlighet kan ni nu smidigt integrera GenStudio for Performance Marketing-upplevelser med Campaign. På så sätt kan ni utnyttja GenStudio AI-kraftfulla innehållsskapande tillsammans med Campaigns avancerade orkestreringsfunktioner.<p>
+<p>Mer information finns i den <a href="../integrations/genstudio.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,130 +81,47 @@ Följande funktioner är tillgängliga från och med september.
 <table>
 <thead>
 <tr>
-<th><strong>Skapa externa konton</strong><br/></th>
+<th><strong>Stöd för mörkt läge i e-postdesignern</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Som Campaign-administratör kan du nu skapa nya anslutningar med externa system från användargränssnittet i Campaign Web. Du kan också visa, uppdatera och hantera befintliga externa konton.</p>
-<p>Mer information finns i den <a href="../administration/create-external-account.md">detaljerade dokumentationen</a>.</p>
+<p>Med e-post-Designer kan du nu växla till mörkt läge, där du kan definiera ytterligare anpassade inställningar. Observera att den slutliga återgivningen är beroende av mottagarens e-postklient och inte alla e-postklienter stöder mörkt läge.</p>
+<p>Mer information finns i den <a href="../email/accessible-content.md#dark-mode">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Låsning av e-postinnehåll</strong><br/></th>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Med Campaign kan ni nu låsa innehåll i e-postmallar, antingen genom att låsa hela mallen eller specifika strukturer och komponenter. På så sätt kan ni förhindra oavsiktliga redigeringar och borttagningar, vilket ger er bättre kontroll över mallanpassning och förbättrar effektiviteten och tillförlitligheten i era e-postkampanjer.</p>
-<p>Mer information finns i den <a href="../content/content-locking.md">detaljerade dokumentationen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>To enhance marketing efficiency and to maintain brand consistency, you can now seamlessly integrate GenStudio for Performance Marketing experiences with Campaign. This enables you to leverage GenStudio's AI-power content creation alongside Campaign's advanced orchestration capabilities.<p>
+<p>Continuous delivery activity</p>
 <p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings. Note that the final rendering depends on the recipient's email client, and not all email clients support dark mode.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Förbättringar {#25-10-improvements}
 
-<!--table>>
-<thead>
-<tr>
-<th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now send multiple transactional messages and push notifications in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* I leveranser som skapats i klientkonsolen visar nu avsnittet **Målgrupp** om ett dynamiskt villkor har definierats för korrekturmål. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability allows you to personalize transactional messages (Email, SMS, Push) by linking Adobe Campaign database fields to the message content. You can select target mappings, enrichment columns, and a reconciliation key to ensure accurate, real-time personalization while maintaining performance thresholds.</p>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* Du kan nu växla mellan det nya och det gamla regelverktyget när du ställer in ett villkor med funktionen för villkorligt innehåll i e-postprogrammet för Designer. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Note: this capability is only available for a set of organizations (Limited Availability), and will be rolled out globally in a future release.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+* Nu kan du välja samlingslänkar, till exempel inköp, i skärmdefinitionen för mottagarschemat. Då visas relaterade data på profilskärmar via en dedikerad flik. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
+* Som kampanjadministratör kan du nu konfigurera anslutningar till Salesforce CRM och Microsoft Dynamics.
+  [Läs mer](../administration/external-crm.md)
 
-### Förbättringar {#25-9-improvements}
-
-* En uppsättning nya operatorer har lagts till när ett villkor skapas med e-postens Designer-funktion för villkorligt innehåll.
-* Filtreringsdimensionen är nu tillgänglig i arbetsflödesaktiviteten **Bygg målgrupp**. Om du vill visa eller ändra den klickar du på ikonen bredvid måldimensionen. [Läs mer](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
-
-NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
-NEO-90345 WebUI - Extended operators for dynamic content ->>>> deja mis
-NEO-88858 WebUI - Send proof from execution recurring delivery -> bug
-NEO-89777 Content locking on create email template -> juliette
-NEO-90365 Multi-lingual – Identify fields editable from variants???? -> fix pour SMS
-query activity -> query ds workflow fitleting dimentsion 
-
+* Stop button for deliveries not linked to release and no info
 -->
 

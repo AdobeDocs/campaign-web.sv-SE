@@ -3,7 +3,7 @@ audience: end-user
 title: Importera e-postinnehåll
 description: Lär dig hur du importerar e-postinnehåll
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -46,9 +46,9 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
    ![Skärmbild som visar HTML-konverteringsfliken och Konvertera-knappen.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
+   >[!NOTE]
+   >
+   >Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
 1. Anpassa den importerade filen efter behov med e-post-Designer-funktionerna. [Läs mer](content-components.md)
 
@@ -56,4 +56,4 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
 Lär dig hur du skapar ett e-postmeddelande genom att överföra HTML, göra det kompatibelt med e-post-Designer och konvertera det till en mall.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447036/?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

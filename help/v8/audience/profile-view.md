@@ -2,9 +2,9 @@
 title: Utforska profilinformation
 description: Lär dig hur du utforskar detaljerna i en profil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Information om profilen är ordnad enligt följande:
 * Fliken **[!UICONTROL Subscriptions]** ger dig insikt i vilka tjänster profilen prenumererar på. [Läs mer om prenumerationstjänster](manage-services.md)
 
   ![Skärmbild som visar fliken Abonnemang och visar vilka tjänster profilen prenumererar på.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* Du kan visa anpassade flikar, t.ex. inköp, genom att definiera samlingslänkar i skärmdefinitionen för mottagarschemat. [Läs mer om samlingslänkar](../administration/schemas.md#collection-lists)
+
+  ![Skärmbild med anpassad flik](assets/schemas-collection4.png){zoomable="yes"}
 
 * Med knappen **[!UICONTROL Logs]** i skärmens övre högra hörn kan du dessutom visa historiken för profilens interaktioner via loggar för sändning, uteslutning och spårning. [Läs mer om leveransloggar](../monitor/delivery-logs.md)
 

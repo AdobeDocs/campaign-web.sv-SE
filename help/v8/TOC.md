@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '954'
 ht-degree: 19%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 19%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
+   + [Vanliga frågor och svar ](get-started/faq.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
@@ -126,6 +126,7 @@ ht-degree: 19%
          + [Definiera ett format för länkar](email/styling-links.md)
          + [Lägg till textbundna formatattribut](email/inline-styling.md)
          + [Lägga till en anpassad CSS](email/custom-css.md)
+         + [Hantera innehåll i mörkt läge](email/dark-mode.md)
       + [Skapa tillgängligt innehåll](email/accessible-content.md)
    + AI Assistant {#ai-assistant}
       + [Arbeta med AI Assistant](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 19%
    + [Arbeta med andra lösningar från Adobe](integrations/integration.md)
    + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Arbeta med GenStudio for Performance Marketing](integrations/genstudio.md)
 + Konfiguration {#conf}
    + Varumärke {#branding}
       + [Om Varumärkning](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 19%
       + [Extern databas](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Överför data](administration/transfer-external-account.md)
+      + [Externt CRM-konto](administration/external-crm.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

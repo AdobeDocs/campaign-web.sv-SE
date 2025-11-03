@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,13 @@ Om du vill öppna en leverans klickar du på dess namn i listan. Leveransen öpp
 
 ![Skärm med leveransinformation som visar parametrar och rapporter](assets/delivery-details.png)
 
->[!NOTE]
->
->Om du öppnar en leverans som skapats i klientkonsolen kan avsnittet **[!UICONTROL Additional target]** visas för målgruppen. Detta anger att flera mål har konfigurerats för den här leveransen. De här parametrarna kan bara ändras i konsolen.
->
->![Varningsmeddelande om ytterligare målkonfiguration](assets/target-warning-audience.png){zoomable="yes"}
+Om du öppnar en leverans som skapats i klientkonsolen kan två nya avsnitt visas för målgruppen. De här parametrarna kan bara ändras i konsolen.
+
+* **[!UICONTROL Additional target]**: anger att flera mål har konfigurerats för den här leveransen.
+
+* **[!UICONTROL Additional proof target]**: anger att ett dynamiskt villkor har definierats för korrekturmål i den här leveransen.
+
+![Varningsmeddelande om ytterligare målkonfiguration](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicera en leverans {#delivery-duplicate}
 
