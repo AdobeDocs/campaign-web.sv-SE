@@ -95,7 +95,7 @@ Följ stegen nedan om du vill utnyttja de [!DNL GenStudio] e-postvarianter som d
 
    >[!NOTE]
    >
-   >GenStudio-upplevelser [ som skapats från en [!DNL Adobe Campaign] mall](#export-from-ajo-to-genstudio) importeras direkt till e-postens Designer. GenStudio-upplevelser som skapats utan en [!DNL Adobe Campaign]-mall importeras till [kompatibilitetsläge](../email/existing-content.md).
+   >GenStudio-upplevelser [&#x200B; som skapats från en [!DNL Adobe Campaign] mall](#export-from-ajo-to-genstudio) importeras direkt till e-postens Designer. GenStudio-upplevelser som skapats utan en [!DNL Adobe Campaign]-mall importeras till [kompatibilitetsläge](../email/existing-content.md).
 
    Använd [redigeringsverktygen för e-postinnehåll](../email/create-email-content.md) och [anpassningsfälten](../personalization/personalize.md) för att redigera din e-post efter behov. Spara innehållet.
 
