@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 7%
@@ -22,7 +22,7 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 ## 25 oktober {#25-10-updates}
 
-_28 okt 2025_
+_3 nov 2025_
 
 <table>
 <thead>
