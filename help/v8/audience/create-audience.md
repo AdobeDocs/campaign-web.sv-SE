@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
+source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -108,4 +108,4 @@ Om du inte vill ersätta de befintliga målgruppsresultaten konfigurerar du **Sp
 
 Lär dig hur du bygger och hanterar målgrupper, hur du väljer målgrupper för en leverans och definierar kontrollgrupper.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453206?captions=swe&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
