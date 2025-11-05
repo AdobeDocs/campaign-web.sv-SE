@@ -108,4 +108,4 @@ Om du inte vill ersätta de befintliga målgruppsresultaten konfigurerar du **Sp
 
 Lär dig hur du bygger och hanterar målgrupper, hur du väljer målgrupper för en leverans och definierar kontrollgrupper.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453206?captions=swe&quality=12)
