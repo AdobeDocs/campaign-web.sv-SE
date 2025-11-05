@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa målgrupper
 description: Lär dig skapa målgrupper i Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Om målgruppsgenerering
+
 Med Campaign Web kan ni skapa nya målgrupper i ett visuellt arbetsflöde. Förutom att börja från scratch och skapa en enkel målgrupp kan ni också utnyttja arbetsflödesaktiviteter för att förfina er målgrupp. Ni kan till exempel kombinera flera olika målgrupper till en enda, berika er målgrupp med externa attribut eller dela in den i flera målgrupper baserat på valfria regler.
 
 När ni väl utformat ert arbetsflöde lagras de resulterande målgrupperna automatiskt i Campaign-databasen tillsammans med era befintliga. Dessa målgrupper kan sedan målgruppsanpassas i arbetsflöden eller fristående leveranser.
@@ -30,6 +32,14 @@ När ni väl utformat ert arbetsflöde lagras de resulterande målgrupperna auto
 Kolumnen **[!UICONTROL Origin]** anger målgruppernas ursprung: **[!UICONTROL Adobe Campaign]** målgrupper skapas i Adobe Campaign v8-konsolen eller webbanvändargränssnittet, medan **[!UICONTROL Adobe Experience Platform:]** målgrupper skapas i Adobe Experience Platform och integreras i Campaign med hjälp av Adobe-integreringen Källor och Destinationer.
 
 ➡️ [Upptäck den här funktionen i en video](#video)
+
+## Behörigheter för anpassade operatorgrupper
+
+När du skapar en ny målgrupp skapas ett arbetsflöde automatiskt och lagras i mappen **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Jobs]** / **[!UICONTROL Targeting workflows]** .
+
+Om du har tilldelats en anpassad operatörsgrupp och råkar ut för felet&quot;Du saknar behörighet&quot; när du skapar målgrupper, måste du se till att operatörsgruppen har de behörigheter som krävs för den här mappen.
+
+För att lösa detta måste en administratör lägga till din anpassade operatörsgrupp i mappsäkerhetssektionen i Campaign-konsolen. [Lär dig hantera behörigheter för mappar](../get-started/permissions.md#folder-permissions)
 
 ## Skapa din första målgrupp {#create}
 
@@ -98,4 +108,4 @@ Om du inte vill ersätta de befintliga målgruppsresultaten konfigurerar du **Sp
 
 Lär dig hur du bygger och hanterar målgrupper, hur du väljer målgrupper för en leverans och definierar kontrollgrupper.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453206?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
