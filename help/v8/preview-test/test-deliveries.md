@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka korrektur
 description: Lär dig hur du definierar och skickar korrektur
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Ytterligare korrekturmål"
->abstract="Ytterligare korrekturmål."
+>abstract="Dessa regler kan bara ändras i klientkonsolen."
 
 När meddelandeinnehållet har definierats kan du förhandsgranska och testa det genom att skicka korrektur för att testa profiler. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
@@ -49,7 +49,7 @@ Så här börjar du testa ditt meddelandeinnehåll:
 
    * För SMS och e-post kan du använda [testprofiler](#test-profiles), som är specifika ytterligare mottagare i databasen. Du kan också använda läget [Ersättning från huvudmålet](#substitution-profiles), som skickar korrekturet till en e-posttestadress eller ett telefonnummer, och som använder personaliseringsdata för en befintlig profil. På så sätt kan du uppleva meddelandet som mottagarna, vilket ger dig en korrekt representation av innehållet som profilen kommer att ta emot.
 
-   * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i konsolen [!DNL Campaign]. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=sv-SE){target="_blank"}
+   * För push-meddelanden kan du använda [prenumeranter](#subscribers), som är fiktiva prenumeranter som läggs till i databasen. De skapas i konsolen [!DNL Campaign]. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    Detaljerad konfiguration för varje läge finns nedan.
 
