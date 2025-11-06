@@ -2,7 +2,7 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 7%
@@ -88,7 +88,7 @@ _3 nov 2025_
 <tr>
 <td>
 <p>Med e-post-Designer kan du nu växla till mörkt läge, där du kan definiera ytterligare anpassade inställningar. Observera att den slutliga återgivningen är beroende av mottagarens e-postklient och inte alla e-postklienter stöder mörkt läge.</p>
-<p>Mer information finns i den <a href="../email/accessible-content.md#dark-mode">detaljerade dokumentationen</a>.</p>
+<p>Mer information finns i den <a href="../email/dark-mode.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
