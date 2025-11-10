@@ -2,7 +2,7 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -87,7 +87,7 @@ När du skapar ett fördefinierat filter aktiverar du alternativet **Spara som f
 
 När ett filter sparas som en favorit är det tillgängligt för alla användare i avsnittet **Favoritfilter** i listan för att skapa filter, vilket visas nedan:
 
-![Avsnittet Favoritfilter](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![Avsnittet Favoritfilter](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
