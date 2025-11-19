@@ -34,7 +34,7 @@ Följ de här stegen för att visa och hantera rapporter:
 
 1. Om du vill generera en rapport för en viss leverans går du till menyn **[!UICONTROL Deliveries]** och väljer den leverans som du vill rapportera om.
 
-1. Klicka på **[!UICONTROL Reports]** på din **[!UICONTROL Delivery]**-instrumentpanel.
+1. Klicka på **[!UICONTROL Delivery]** på din **[!UICONTROL Reports]**-instrumentpanel.
 
    ![Kontrollpanel för leverans med alternativet Rapporter](assets/manage_delivery_report_1.png){zoomable="yes"}
 
