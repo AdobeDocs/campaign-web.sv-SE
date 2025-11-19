@@ -62,7 +62,7 @@ I formatavsnittet **[!UICONTROL Destination]** kan du konfigurera hur den extrah
 
 1. Klicka på knappen **[!UICONTROL Extraction format]** om du vill visa specifika alternativ för det valda formatet. Expandera avsnittet nedan om du vill ha mer information.
 
-+++ Tillgängliga alternativ för extraheringsformat
+   +++ Tillgängliga alternativ för extraheringsformat
 
    * **[!UICONTROL Use first line as column header]** (Text-/CSV-format (Excel)): Aktivera det här alternativet om du vill använda den första kolumnen som rubrik.
    * **[!UICONTROL Column separator]** (Textformat): Ange tecknet som ska användas som kolumnavgränsare i utdatafilen.
@@ -73,7 +73,7 @@ I formatavsnittet **[!UICONTROL Destination]** kan du konfigurera hur den extrah
    * **[!UICONTROL Number format]**: Ange hur tal ska formateras i utdatafilen.
    * **[!UICONTROL Export labels instead of internal values of enumerations]**: Växla det här alternativet på om du exporterar uppräkningsvärden och vill hämta kolumnetiketter, som är lättare att förstå, i stället för interna ID:n.
 
-+++
+   +++
 
    ![Skärmbild som visar konfigurationsalternativen för filen som ska extraheras.](../assets/extract-file-format.png)
 
