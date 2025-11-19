@@ -29,7 +29,7 @@ Alla profiler som ingår i kontrollgruppen vid leveransförberedelsesteget tas b
 
 >[!CAUTION]
 >
->Du kan inte använda kontrollgrupper när målpopulationen [&#x200B; läses in från en extern fil](file-audience.md).
+>Du kan inte använda kontrollgrupper när målpopulationen [ läses in från en extern fil](file-audience.md).
 
 Om du vill lägga till en kontrollgrupp i en leverans aktiverar du alternativet **[!UICONTROL Enable control group]** i avsnittet **Målgrupp** på skärmen där leveransen skapas.
 
@@ -77,7 +77,7 @@ Efter leveransberedningen ska du granska hur undantagen tillämpades:
 
 * Kontrollera KPI:n **Att exkludera** innan du skickar den till kontrollpanelen för leverans.
 
-  ![Kontrollpanel för leverans som visar KPI:n för att exkludera &#x200B;](assets/control-group5.png){zoomable="yes"}
+  ![Kontrollpanel för leverans som visar KPI:n för att exkludera ](assets/control-group5.png){zoomable="yes"}
 
 * På fliken Loggar i leveransloggarna visas exkluderingssteget.
 
@@ -106,7 +106,7 @@ Mer information om leveransloggar finns i [avsnittet](../monitor/delivery-logs.m
 
 Ett annat sätt att definiera en kontrollgrupp är att välja en specifik population i en befintlig målgrupp eller definiera en fråga.
 
-Klicka på knappen **[!UICONTROL Select Audience]** i avsnittet **Extra fyllning** i definitionsskärmen för **kontrollgrupp** .
+Klicka på knappen **i avsnittet** Extra fyllning **i definitionsskärmen för** kontrollgrupp **[!UICONTROL Select Audience]** .
 
 ![Skärm för extra populationsval](assets/control-group3.png){zoomable="yes"}
 
