@@ -73,7 +73,7 @@ Tabellen **[!UICONTROL Delivery statistics]** innehåller information om framgå
 
 ![En skärmbild av leveransstatistikrapporten som visar antal lyckade leveranser, fel och karantän för SMS-leveranser.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Läs mer om leveransstatistik.
++++Läs mer om statistik för leveransstatistik.
 
 * **[!UICONTROL Total messages]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -83,7 +83,7 @@ Tabellen **[!UICONTROL Delivery statistics]** innehåller information om framgå
 
 * **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (t.ex. okänd användare, ogiltig domän) i relation till antalet meddelanden som ska levereras.
 
-  SMS-feltyper visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#sms-quarantines){target="_blank"}.
+  SMS-feltyper visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ Tabellen **[!UICONTROL Delivery statistics]** innehåller information om framgå
 
 Diagrammet och tabellen **[!UICONTROL Causes of exclusion]** visar orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot SMS-leveranser.
 
-Feltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#email-error-types){target="_blank"}.
+Feltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ![En skärmbild av rapporten Orsaker till undantag som visar orsaker till SMS-leveransundantag.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
