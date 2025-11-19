@@ -4,7 +4,7 @@ description: Lär dig hur du hanterar målmappningar.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Målmappningar"
 >abstract="Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## Om målmappningar {#about}
 
-För varje kommunikationskanal används en standardmålmappning för att ange mottagarna som mål. Som standard har mallar för e-post och SMS-leverans **[!UICONTROL Recipients]** som mål. Målmappningen använder därför fälten i tabellen **nms:receive**. För push-meddelanden är standardmålmappningen **Subscriber applications (nms:appSubscriptionRcp)**, som är länkad till mottagartabellen.
+För varje kommunikationskanal används en standardmålmappning för att ange mottagarna som mål. Som standard har mallar för e-post och SMS-leverans **[!UICONTROL Recipients]** som mål. Målmappningen använder därför fälten i tabellen **nms:recipient**. För push-meddelanden är standardmålmappningen **Prenumerantprogram (nms:appSubscriptionRcp)**, som är länkade till mottagartabellen.
 
 Målmappningar är tillgängliga på menyn **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**. Från den här skärmen kan du komma åt information om varje målmappning eller skapa nya målmappningar som passar dina behov.
 
 ![Skärm för målmappningslista med tillgängliga mappningar](assets/target-mappings-list.png)
 
-Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=sv-SE){target="_blank"}.
+Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Skapa en målmappning {#create-mapping}
 
