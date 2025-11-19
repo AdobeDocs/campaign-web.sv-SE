@@ -85,7 +85,7 @@ Rapporten **Total statistik** visar data för skickade push-meddelanden: lyckade
 >title="Undantag för push-meddelanden"
 >abstract="Diagrammet och tabellen **Undantag** visar olika orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet."
 
-Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#push-error-types){_blank}.
+Diagrammet och tabellen **[!UICONTROL Exclusions]** visar olika orsaker som hindrade användarprofiler, som exkluderades från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Den här skärmbilden visar diagrammet och tabellen Exceptions, som visar orsaker som förhindrar att exkluderade användarprofiler tar emot meddelanden.](assets/reporting_push_6.png){zoomable="yes"}
 
