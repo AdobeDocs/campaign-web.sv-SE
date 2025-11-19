@@ -22,7 +22,7 @@ Alla aktiviteter beskrivs i avsnitten nedan:
 
 ![Översikt över arbetsflödesaktiviteter](../assets/workflow-activities.png)
 
-## Målinriktade aktiviteter {#targeting}
+## Aktiviteter för målgruppsanpassning {#targeting}
 
 Dessa aktiviteter är specifika för målgruppsanpassning. Med dem kan ni skapa en eller flera målgrupper genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
 
