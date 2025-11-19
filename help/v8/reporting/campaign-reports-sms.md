@@ -79,7 +79,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller information om levera
 
 * **[!UICONTROL New quarantines]**: Totalt antal adresser i karantän efter en misslyckad leverans (okänd användare, ogiltig domän), i relation till antalet meddelanden som ska levereras.
 
-  SMS-feltyper visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#sms-quarantines){target="_blank"}.
+  SMS-feltyper visas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
