@@ -54,7 +54,7 @@ Följ stegen nedan för att konfigurera aktiviteten **Överför fil**.
 
 1. Välj vilken åtgärd som ska utföras med aktiviteten. Vilka åtgärder som är tillgängliga beror på vilken typ av överföring du har valt. Expandera avsnitten nedan om du vill ha mer information.
 
-   +++Åtgärder tillgängliga med **filöverföringsaktiviteter**
+   +++Åtgärder tillgängliga med aktiviteter av typen **Filöverföring**
 
    * **[!UICONTROL File download]**: Hämta en fil från servern.
    * **[!UICONTROL File upload]**: Överför en fil till servern.
@@ -142,7 +142,7 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
 1. I **[!UICONTROL Advanced options]** finns ytterligare alternativ tillgängliga baserat på den typ av aktivitet som du konfigurerar. Expandera avsnitten nedan om du vill ha mer information.
 
-   +++Ytterligare alternativ för **[!UICONTROL File transfer]**-typaktiviteter
+   +++Ytterligare alternativ för aktiviteter av typen **[!UICONTROL File transfer]**
 
    * **[!UICONTROL Delete the source files after transfer]**: Radera källfilerna efter en slutförd överföring.
    * **[!UICONTROL Display the session logs]**: När det här alternativet aktiveras visas information om överföringsåtgärden i arbetsflödesloggarna när arbetsflödet har körts.
@@ -150,7 +150,7 @@ Varje gång aktiviteten körs så kontrolleras mappen enligt följande:
 
    +++
 
-   +++Ytterligare alternativ för **[!UICONTROL Web download]**-typaktiviteter
+   +++Ytterligare alternativ för aktiviteter av typen **[!UICONTROL Web download]**
 
    * **[!UICONTROL Follow redirections]**: Med filomdirigering kan du använda åsidosättningar för att dirigera dataindata eller utdata till en enhet av en annan typ.
    * **[!UICONTROL Add the HTTP headers to the file]**: I vissa fall kanske du vill lägga till ytterligare HTTP-huvuden i en fil. Vanligtvis används dessa rubriker för att tillhandahålla ytterligare information i felsökningssyfte, för [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) eller för att ange specifika cachelagringsdirektiv.
