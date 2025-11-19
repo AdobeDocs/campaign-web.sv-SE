@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
->additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
 
 På skärmen för e-post **[!UICONTROL Edit content]** kan du:
 
