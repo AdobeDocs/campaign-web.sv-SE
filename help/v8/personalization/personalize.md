@@ -75,7 +75,7 @@ Ni använder också variabler för att personalisera leveransen. Läs mer om att
 
 Variabeln `deliveryType` definieras till exempel enligt nedan.
 
-![Skärmbild som visar definitionen för variabeln deliveryType &#x200B;](assets/variables-deliveryType.png){zoomable="yes"}
+![Skärmbild som visar definitionen för variabeln deliveryType ](assets/variables-deliveryType.png){zoomable="yes"}
 
 Den här variabeln används i innehållet i leveransen med hjälp av ikonen **[!UICONTROL Add Personalization]** och uttrycket `<%= variables.deliveryType %>` för det här exemplet.
 
@@ -83,4 +83,4 @@ Den här variabeln används i innehållet i leveransen med hjälp av ikonen **[!
 
 Kontrollera hur variabeln används med knappen **[!UICONTROL Simulate Content]**.
 
-![Skärmbild som visar simulering av innehåll med variabeln deliveryType &#x200B;](assets/variables-simulate.png){zoomable="yes"}
+![Skärmbild som visar simulering av innehåll med variabeln deliveryType ](assets/variables-simulate.png){zoomable="yes"}
