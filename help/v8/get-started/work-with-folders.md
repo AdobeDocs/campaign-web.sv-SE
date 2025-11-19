@@ -51,7 +51,7 @@ Du kan ställa in en mapptyp. Till exempel en mapp med leveranser. Mappikonen ä
 
 Så här skapar du en ny mapp i Adobe Campaign Web UI:
 
-1. I **[!UICONTROL Explorer]** går du till den mapp där du vill skapa den nya mappen. Välj **[!UICONTROL Create new folder]** på menyn **[!UICONTROL ...]**.
+1. I **[!UICONTROL Explorer]** går du till den mapp där du vill skapa den nya mappen. Välj **[!UICONTROL ...]** på menyn **[!UICONTROL Create new folder]**.
 
 ![Alternativet Skapa ny mapp på Utforskarmenyn](assets/folder_create.png){zoomable="yes"}
 
@@ -67,7 +67,7 @@ Konfigurera mapptypen genom att klicka på knappen **[!UICONTROL Confirm]**.
 
 Om du vill skapa en mapp utan någon specifik typ väljer du typen **[!UICONTROL Generic Folder]**.
 
-Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+Du kan även [skapa och hantera mappar i Adobe Campaign-konsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 ## Ordna om mappar {#reorder-folders}
 
