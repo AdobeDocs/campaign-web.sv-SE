@@ -52,7 +52,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data som är 
 
 ![Statistik för den ursprungliga målgruppen för direktreklamkampanjer](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Läs mer om statistik för inledande målgrupper.
++++Läs mer om statistik om inledande målgrupper.
 
 * **[!UICONTROL Initial audience]**: Totalt antal målmottagare.
 
@@ -73,7 +73,7 @@ Tabellen **[!UICONTROL Initial target audience statistics]** visar data som är 
 
 Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av resultatet för varje direktutskick, med detaljerade mått som anges nedan.
 
-+++Läs mer om leveransstatistik.
++++Läs mer om statistik för leveransstatistik.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -96,7 +96,7 @@ Tabellen **[!UICONTROL Execution statistics]** innehåller en beskrivning av res
 
 Tabellen **Genererade klickströmmar** visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-+++Läs mer om genererade klickströmningsvärden.
++++Läs mer om Generated click streams metrics.
 
 * **[!UICONTROL Unique clicks]**: Totalt antal distinkta mottagare som klickat på en leverans minst en gång.
 
