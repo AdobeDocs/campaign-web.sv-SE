@@ -33,7 +33,7 @@ Aktiviteten **Extern signal** är en **Flödeskontroll**-aktivitet. Det gör att
 
 >[!NOTE]
 >
->På den här sidan förklaras de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbanvändargränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde, bästa praxis och hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/sv/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>På den här sidan förklaras de viktigaste stegen för att konfigurera en **[!UICONTROL External Signal]**-aktivitet i webbanvändargränssnittet för Campaign och utlösa den från ett annat arbetsflöde eller ett API-anrop. Detaljerad information om hur du utlöser ett arbetsflöde, bästa praxis och hur du arbetar med Campaign-API:er finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utlösa dess körning:
 
@@ -47,7 +47,7 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    * **Arbetsflödets interna namn**, som visas bredvid dess etikett.
 
-     +++Exempel på vy
+     +++Visa exempel
 
      ![Skärmbilden visar arbetsflödets interna namn bredvid etiketten.](../assets/external-signal-workflow-name.png)
 
@@ -55,7 +55,7 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    * **Den externa signalaktivitetens namn**, som visas i arbetsflödets **[!UICONTROL Execution options]**.
 
-     +++Exempel på vy
+     +++Visa exempel
 
      ![Skärmbilden visar namnet på aktiviteten Extern signal i körningsalternativen.](../assets/external-signal-name.png)
 
@@ -73,7 +73,7 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
      xtk.workflow.PostEvent("<workflow-internal-name>","<signal-activity-name>","",<variables <variable-name>="<value>"/>, false);
      ```
 
-   +++Exempel på vy
+   +++Visa exempel
 
    I det här exemplet utlöses den externa signalaktiviteten &quot;signal1&quot;. Den har lagts till i arbetsflödet med det interna namnet&quot;WKF12345&quot;. En variabel med namnet &quot;customID&quot; skickas med värdet &quot;123456&quot;.
 
@@ -81,4 +81,4 @@ Följ de här stegen för att konfigurera aktiviteten **Extern signal** och utl�
 
    +++
 
-   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=sv-SE).
+   * Om du vill utlösa en **[!UICONTROL External signal]**-aktivitet från ett API-anrop följer du stegen som beskrivs i dokumentationen för Campaign API. [Lär dig hur du använder den statiska `PostEvent` method](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
