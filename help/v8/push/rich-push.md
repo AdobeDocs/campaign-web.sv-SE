@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>* Den här funktionen kräver en uppdatering av Campaign v8.6.3 <!--or v8.7.2-->. Läs mer i Versionsinformation för Campaign v8-klientkonsolen [på Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 >
->* Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/sv/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+>* Innan du utformar ett push-meddelande måste du först konfigurera V2-anslutningen. Mer information finns på [den här sidan](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
 
 Med Firebase Cloud Messaging kan du välja mellan två typer av meddelanden:
@@ -60,7 +60,7 @@ Gå igenom flikarna nedan för att lära dig mer om hur du anpassar mallarna.
 
 >[!TAB Standard]
 
-1. Välj **[!UICONTROL Default]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Default]**.
 
    ![](assets/rich_push_default.png)
 
@@ -82,7 +82,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Grundläggande]
 
-1. Välj **[!UICONTROL Basic]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Basic]**.
 
    ![](assets/rich_push_basic.png)
 
@@ -132,7 +132,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Carousel]
 
-1. Välj **[!UICONTROL Carousel]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Carousel]**.
 
    ![](assets/rich_push_carousel.png)
 
@@ -148,7 +148,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 1. Välj **[!UICONTROL Link type]** för den URL som du lade till i fältet **[!UICONTROL Click action]**:
 
-   * **[!UICONTROL Web UR]**&#x200B;L: Webb-URL:er dirigerar användare till onlineinnehåll. När de klickar uppmanas de enhetens standardwebbläsare att öppna och navigera till den angivna URL:en.
+   * **[!UICONTROL Web UR]**L: Webb-URL:er dirigerar användare till onlineinnehåll. När de klickar uppmanas de enhetens standardwebbläsare att öppna och navigera till den angivna URL:en.
 
    * **[!UICONTROL Deeplink]**: Djuplänkar är URL-adresser som vägleder användare till specifika avsnitt i ett program även om programmet stängs. När du klickar på det här alternativet kan en dialogruta visas så att användarna kan välja mellan olika appar som kan hantera länken.
 
@@ -181,7 +181,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Ikonknappar]
 
-1. Välj **[!UICONTROL Icon buttons]** i listrutan **[!UICONTROL Template]**.
+1. Välj **[!UICONTROL Template]** i listrutan **[!UICONTROL Icon buttons]**.
 
    ![](assets/rich_push_icon_1.png)
 
@@ -219,7 +219,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Inmatningsruta]
 
-1. Välj **[!UICONTROL Input box]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Input box]**.
 
    ![](assets/rich_push_input_1.png)
 
@@ -260,7 +260,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Produktkatalog]
 
-1. Välj **[!UICONTROL Product catalog]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Product catalog]**.
 
    ![](assets/rich_push_catalog_1.png)
 
@@ -302,7 +302,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Produktklassificering]
 
-1. Välj **[!UICONTROL Product rating]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Product rating]**.
 
    ![](assets/rich_push_rating_1.png)
 
@@ -344,7 +344,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Timer]
 
-1. Välj **[!UICONTROL Timer]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Timer]**.
 
    ![](assets/rich_push_timer_1.png)
 
@@ -384,7 +384,7 @@ När du har definierat meddelandeinnehållet kan du använda testprenumeranter f
 
 >[!TAB Nollkantlinje]
 
-1. Välj **[!UICONTROL Zero bezel]** i listrutan **[!UICONTROL Notification type]**.
+1. Välj **[!UICONTROL Notification type]** i listrutan **[!UICONTROL Zero bezel]**.
 
    ![](assets/rich_push_bezel_1.png)
 
