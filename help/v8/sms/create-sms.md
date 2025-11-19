@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 4%
 >id="acw_deliveries_sms_audience"
 >title="Definiera SMS-målgruppen"
 >abstract="Skapa en ny målgrupp eller välj en befintlig genom att klicka på knappen **Välj målgrupp** . Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=sv-SE" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Val av SMS-mall"
 >abstract="Välj en fördefinierad mall för att starta SMS-leveransen. Leveransmallar gör att ni kan återanvända anpassat innehåll och anpassade inställningar för alla kampanjer och leveranser."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=sv-SE" text="Använd leveransmallar"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Använd leveransmallar"
 
 Du kan skapa en fristående SMS-leverans eller skapa ett SMS i samband med ett kampanjarbetsflöde. Stegen nedan beskriver hur du får en fristående SMS-leverans (en bild). Om du arbetar i ett kampanjarbetsflöde beskrivs stegen för att skapa i [det här avsnittet](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -49,7 +49,6 @@ Så här skapar du en ny fristående SMS-leverans:
    * **[!UICONTROL Delivery code]**: Organisera dina leveranser med din egen namnkonvention.
    * **[!UICONTROL Description]**: Ange en beskrivning för leveransen.
    * **[!UICONTROL Nature]**: Ange leveransens natur för klassificeringssyften.
-
    +++
 
 1. Klicka på knappen **[!UICONTROL Select audience]** om du vill ange en befintlig målgrupp eller skapa en egen. [Läs mer om målgrupper](../audience/about-recipients.md).
