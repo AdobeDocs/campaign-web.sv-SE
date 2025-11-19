@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du kan göra meddelandeinnehållet dynamiskt genom att infoga JavaScript-konstru
 
   [Beskrivning: Exempel på villkorat innehåll i en e-postbanderoll baserat på mottagarens prenumeration.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [Upptäck den här funktionen i videon](#video)
+➡️ [Upptäck den här funktionen i en video](#video)
 
 ## Öppna uttrycksredigeraren {#access}
 
