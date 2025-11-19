@@ -81,7 +81,7 @@ Tabellen och diagrammet för **[!UICONTROL Targeted Audience]** visar data relat
 
 Diagrammet och tabellen **[!UICONTROL Delivery statistics]** innehåller en beskrivning av framgången för varje direktutskick, med detaljerade mätvärden som anges nedan.
 
-+++Läs mer om leveransstatistik.
++++Läs mer om statistik för leveransstatistik.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -109,7 +109,7 @@ Diagrammet och tabellen **[!UICONTROL Delivery statistics]** innehåller en besk
 
 Diagrammet och tabellen Uteslutningar visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-+++Läs mer om orsaker till undantag.
++++Läs mer om orsaker till uteslutningsmått.
 
 * **[!UICONTROL Address in quarantine]**: Feltypen som genereras när en adress placeras i karantän.
 
