@@ -89,7 +89,7 @@ Rapporten **Total statistik** visar data för skickade SMS-meddelanden. Mätvär
 >title="SMS-undantag"
 >abstract="Diagrammet och tabellen **Undantag** visar olika orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet."
 
-Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#sms-quarantines){_blank}.
+Diagrammet och tabellen **[!UICONTROL Exclusions]** visar orsaker som hindrade användarprofiler, som uteslöts från målprofilerna, från att ta emot meddelandet. Uteslutningsreglerna finns i dokumentationen för [Campaign v8 (konsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![Beskrivning: Bilden visar diagrammet och tabellen Uteslutningar, där det anges varför användarprofiler inte kan ta emot meddelanden.](assets/reporting_sms_6.png){zoomable="yes"}
 
