@@ -27,6 +27,6 @@ Uttrycksfragment kan användas i alla fält som kan redigeras med uttrycksredige
 
 1. Klicka på ikonen `+` bredvid ett uttrycksfragment för att lägga till det i ditt innehåll.
 
-   ![Skärmbild som visar tillägget av ett uttrycksfragment med hjälp av ikonen + &#x200B;](assets/fragment-add-expression.png)
+   ![Skärmbild som visar tillägget av ett uttrycksfragment med hjälp av ikonen + ](assets/fragment-add-expression.png)
 
 1. Fragment-ID läggs till i redigeraren. Om du öppnar motsvarande uttrycksfragment och redigerar det från gränssnittet synkroniseras ändringarna automatiskt. De sprids till alla **[!UICONTROL Draft]**-leveranser som innehåller detta fragment-ID.
