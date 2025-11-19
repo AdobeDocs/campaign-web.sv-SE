@@ -167,7 +167,7 @@ body {
 
 Din anpassade CSS läggs till i slutet av avsnittet `<head>` som en del av en `<style>` -tagg med attributet `data-name="global-custom"`, som i exemplet nedan. På så sätt säkerställs att de anpassade formaten tillämpas globalt på innehållet.
 
-+++ Se exempel
++++ Se exempel 
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ Om din anpassade CSS inte används bör du överväga alternativen nedan.
 
    * Överväg att lägga till `!important` i dina deklarationer för att säkerställa att de har företräde.
 
-+++ Exempel:
+     +++ Exempel:
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ Om din anpassade CSS inte används bör du överväga alternativen nedan.
      }
      ```
 
-+++
+     +++
