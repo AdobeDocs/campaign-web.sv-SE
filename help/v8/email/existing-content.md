@@ -56,4 +56,4 @@ Om du vill importera en fil som innehåller HTML-innehåll följer du stegen ned
 
 Lär dig hur du skapar ett e-postmeddelande genom att överföra HTML, göra det kompatibelt med e-post-Designer och konvertera det till en mall.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447036/?captions=swe&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
