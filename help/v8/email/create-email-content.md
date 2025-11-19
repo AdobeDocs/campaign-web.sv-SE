@@ -5,7 +5,7 @@ description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
-1. Välj alternativet **[!UICONTROL Design from scratch]** på hemsidan [E-posta Designer](get-started-email-designer.md#start-authoring) .
+1. Välj alternativet [ på hemsidan ](get-started-email-designer.md#start-authoring)E-posta Designer **[!UICONTROL Design from scratch]** .
 
    ![Skärmbild som visar Designer hemsida för e-post med alternativet Design från grunden markerat.](assets/email_designer-from-scratch.png){zoomable="yes"}
 
@@ -72,7 +72,7 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
    ![Skärmbild som visar strukturkomponentpanelen i e-post-Designer.](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Välj komponenten **[!UICONTROL n:n column]** för att definiera antalet kolumner som du vill använda (mellan 3 och 10). Definiera bredden på varje kolumn genom att flytta pilarna längst ned i varje kolumn.
+1. Välj komponenten **[!UICONTROL n:nkolumn]** för att definiera antalet kolumner som du väljer (mellan 3 och 10). Definiera bredden på varje kolumn genom att flytta pilarna längst ned i varje kolumn.
 
    >[!NOTE]
    >
@@ -110,4 +110,4 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
 Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, anpassa och testa ditt e-postmeddelande.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453569/?quality=12&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
