@@ -74,9 +74,9 @@ Tabellen och diagrammet för **[!UICONTROL Targeted Audience]** visar data relat
 
 Tabellen **[!UICONTROL Delivery statistics]** innehåller en beskrivning av framgången för varje e-postleverans, med detaljerade mått som beskrivs nedan.
 
-![Statistikstatistik &#x200B;](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![Statistikstatistik ](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om leveransstatistik.
++++Läs mer om statistik för leveransstatistik.
 
 * **[!UICONTROL Message to deliver]**: Totalt antal meddelanden som ska levereras efter leveransförberedelse.
 
@@ -99,7 +99,7 @@ Tabellen **[!UICONTROL Delivery statistics]** innehåller en beskrivning av fram
 
 Exkluderingsdiagrammet och tabellen visar orsakerna till att användarprofiler, som inte ingår i målprofilerna, inte kunde ta emot meddelandet.
 
-E-postfeltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=sv-SE#email-error-types){target="_blank"}.
+E-postfeltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Leveranskapacitet {#delivery-throughput}
 
@@ -112,7 +112,7 @@ E-postfeltyperna listas i [Adobe Campaign v8-dokumentationen (klientkonsolen)](h
 
 Rapporten Leveransflöde ger djupgående insikter om hur effektiv leveransprocessen är och ger en detaljerad översikt över lyckade resultat och felprocent inom en viss tidsram.
 
-+++Läs mer om leveransstatistik.
++++Läs mer om leveransdataflödesstatistik.
 
 * **[!UICONTROL Success]**: Antal meddelanden som har bearbetats i relation till antalet meddelanden som ska levereras.
 
@@ -133,9 +133,9 @@ Rapporten Leveransflöde ger djupgående insikter om hur effektiv leveransproces
 
 Tabellen och diagrammet **[!UICONTROL Breakdown of errors per type]** innehåller data som är relaterade till potentiella fel som uppstått i olika domäner, med specifika mått som anges nedan.
 
-Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=sv-SE){target="_blank"}.
+Felen som visas i den här rapporten utlöser karantänprocessen. Mer information om karantänhantering finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++Läs mer om indelning av fel per typmått.
++++Läs mer om indelning av fel per typ.
 
 * **[!UICONTROL User unknown]**: Feltypen som genererades under leveransen indikerar att e-postadressen är ogiltig.
 
@@ -177,7 +177,7 @@ Måtten **[!UICONTROL Delivery statistics]** innehåller nyckeltal för prestand
 
 ![Mätvärden för leveransstatistik](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om leveransstatistik.
++++Läs mer om statistik för leveransstatistik.
 
 * **[!UICONTROL Messages to deliver]**: Totalt antal meddelanden som bearbetats under leveransförberedelsen.
 
@@ -231,7 +231,7 @@ Rapporten **[!UICONTROL URLs and click streams]** innehåller nyckeltal (KPI:er)
 
 ![URL:er och klicka på strömmar mätvärden](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om URL:er och klicka på strömningsmått.
++++Läs mer om URL:er och klicka på strömningsstatistik.
 
 * **[!UICONTROL Reactivity]**: Förhållandet mellan antalet målmottagare som har klickat i en leverans och det beräknade antalet målmottagare som har öppnat en leverans.
 
@@ -253,7 +253,7 @@ Diagrammet och tabellen **[!UICONTROL Top 10 most visited links]** innehåller t
 
 ![De 10 mest besökta länkvärdena](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Läs mer om de 10 mest besökta länkvärdena.
++++Läs mer om de tio mest besökta länkarna.
 
 * **[!UICONTROL Total Clicks]**: Totalt antal klick på länkar i leveranser.
 
