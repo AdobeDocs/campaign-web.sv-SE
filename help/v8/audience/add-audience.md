@@ -25,7 +25,7 @@ Målgrupper som kan användas för leveranser är tillgängliga från den vänst
 
 Följ stegen nedan för att välja en befintlig målgrupp för ditt meddelande:
 
-1. Klicka på knappen **[!UICONTROL Select audience]** i sektionen **Målgrupp** i leveransassistenten och välj sedan **[!UICONTROL Select audience]**.
+1. Klicka på knappen **i sektionen** Målgrupp **[!UICONTROL Select audience]** i leveransassistenten och välj sedan **[!UICONTROL Select audience]**.
 
    [I den här skärmbilden visas knappen **Välj målgrupp** i leveransassistenten.](assets/create-audience.png){zoomable="yes"}
 
