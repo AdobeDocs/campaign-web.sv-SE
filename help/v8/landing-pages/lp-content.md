@@ -155,7 +155,7 @@ Så här skickar du ett bekräftelsemeddelande automatiskt när en landningssida
 
 1. Expandera avsnittet **[!UICONTROL Call to action]** om du vill ändra utseendet på knappen i komponentformuläret. Du kan till exempel ändra teckensnitt, lägga till en kant, redigera etikettfärgen vid hovring eller justera justeringen av knappen.
 
-   ![Anrop till inställningar för åtgärdsformat](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Inställningar för Call to action-format](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Förhandsgranska vissa inställningar, till exempel knappetikettsfärg vid hovring, med knappen **[!UICONTROL Simulate content]**. [Läs mer](create-lp.md#test-landing-page)
 
