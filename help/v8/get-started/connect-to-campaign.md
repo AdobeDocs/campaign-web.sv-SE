@@ -21,7 +21,7 @@ Så här loggar du in på Adobe Experience Cloud:
 
 1. Gå till [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Logga in med din Adobe ID eller Enterprise ID. Läs mer om identitetstyper på Adobe i [den här artikeln](https://helpx.adobe.com/se/enterprise/using/identity.html){target="_blank"}.
+1. Logga in med din Adobe ID eller Enterprise ID. Läs mer om identitetstyper på Adobe i [den här artikeln](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
    När du har loggat in på Experience Cloud får du snabbt tillgång till alla dina lösningar och appar.
 
@@ -99,7 +99,7 @@ Bläddra i gränssnittets övre fält till:
 * Dela feedback om gränssnittet i Campaign Web.
 * Växla mellan olika organisationer.
 * Växla mellan era Adobe Experience Cloud-lösningar och appar.
-* Sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=sv-SE){target="_blank"}.
+* Sök efter hjälp om [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}.
 * Kontrollera dina produktmeddelanden.
 * Redigera din Adobe-profil och hantera inställningar, till exempel [uppdatera ditt favoritspråk](#language-pref) eller [växla till ljust/mörkt tema](#dark-theme).
 
@@ -145,6 +145,6 @@ Så här byter du språk:
 
 Adobe Campaign finns i ljusa och mörka teman. Som standard är användargränssnittet aktiverat i ljust tema. Om du vill växla till det mörka temat klickar du på din profilikon och använder **det mörka temat** för att aktivera eller inaktivera det.
 
-Användarprofilsinställningar och kontoinställningar beskrivs i [det här avsnittet](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=sv-SE#preferences){target="_blank"}.
+Användarprofilsinställningar och kontoinställningar beskrivs i [det här avsnittet](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
 
-Läs mer om Experience Cloud Central Interface Components i [den här dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=sv-SE){target="_blank"}.
+Läs mer om Experience Cloud Central Interface Components i [den här dokumentationen](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
