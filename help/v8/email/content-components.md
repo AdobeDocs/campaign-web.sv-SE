@@ -62,7 +62,7 @@ Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelande
 
 Du kan lägga till en enkel behållare i vilken du lägger till en annan innehållskomponent. På så sätt kan du använda en särskild formatering för behållaren, vilket skiljer sig från den komponent som används inuti.
 
-Lägg till exempel till en **[!UICONTROL Container]**-komponent och lägg sedan till en [&#x200B; Button](#button) -komponent i den behållaren. Använd en specifik bakgrund för behållaren och en annan för knappen.
+Lägg till exempel till en **[!UICONTROL Container]**-komponent och lägg sedan till en [ Button](#button) -komponent i den behållaren. Använd en specifik bakgrund för behållaren och en annan för knappen.
 
 ![Skärmbild som visar hur du lägger till en behållarkomponent i e-post-Designer.](assets/email_designer_container_component.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ Lägg till exempel till en **[!UICONTROL Container]**-komponent och lägg sedan 
 
 Använd komponenten **[!UICONTROL Button]** för att infoga en eller flera knappar i e-postmeddelandet och dirigera om din e-postmålgrupp till en annan sida.
 
-1. Dra och släpp **[!UICONTROL Button]**-komponenten från listan **[!UICONTROL Contents]** till en **[!UICONTROL Structure]**-komponent.
+1. Dra och släpp **[!UICONTROL Contents]**-komponenten från listan **[!UICONTROL Button]** till en **[!UICONTROL Structure]**-komponent.
 
    ![Skärmbild som visar hur du drar och släpper en knappkomponent i e-post-Designer.](assets/email_designer_13.png){zoomable="yes"}
 
@@ -96,7 +96,7 @@ Använd komponenten **[!UICONTROL Button]** för att infoga en eller flera knapp
 
 Använd komponenten **[!UICONTROL Text]** för att infoga text i e-postmeddelandet och justera formatet (kantlinje, storlek, utfyllnad osv.) med flikarna **[!UICONTROL Settings]** och **[!UICONTROL Styles]**.
 
-1. Dra och släpp **[!UICONTROL Text]** från menyn **[!UICONTROL Contents]** till en **[!UICONTROL Structure]**-komponent.
+1. Dra och släpp **[!UICONTROL Contents]** från menyn **[!UICONTROL Text]** till en **[!UICONTROL Structure]**-komponent.
 
    ![Skärmbild som visar hur du drar och släpper en textkomponent i e-post-Designer.](assets/email_designer_11.png){zoomable="yes"}
 
@@ -134,7 +134,7 @@ Du kan justera formatattribut som linjefärg, format och höjd på fliken **[!UI
 
 Använd komponenten **[!UICONTROL HTML]** för att kopiera och klistra in delar av din befintliga HTML. På så sätt kan du skapa kostnadsfria modulära HTML-komponenter för att återanvända externt innehåll.
 
-1. Dra och släpp **[!UICONTROL HTML]**-komponenten från **[!UICONTROL Components]** till en **[!UICONTROL Structure]**-komponent.
+1. Dra och släpp **[!UICONTROL Components]**-komponenten från **[!UICONTROL HTML]** till en **[!UICONTROL Structure]**-komponent.
 
    ![Skärmbild som visar hur du drar och släpper en HTML-komponent i e-post-Designer.](assets/email_designer_22.png){zoomable="yes"}
 
@@ -154,13 +154,13 @@ Använd komponenten **[!UICONTROL HTML]** för att kopiera och klistra in delar 
 
 Använd komponenten **[!UICONTROL Image]** för att infoga en bildfil från datorn i e-postmeddelandet.
 
-1. Dra och släpp **[!UICONTROL Image]** från menyn **[!UICONTROL Content]** till en **[!UICONTROL Structure]**-komponent.
+1. Dra och släpp **[!UICONTROL Content]** från menyn **[!UICONTROL Image]** till en **[!UICONTROL Structure]**-komponent.
 
    ![Skärmbild som visar hur du drar och släpper en bildkomponent i e-postprogrammet Designer.](assets/email_designer_9.png){zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Browse]** om du vill välja en bildfil bland dina resurser. Du kan också välja att **[!UICONTROL Import your media]**.
 
-   Mer information om hur du överför och lägger till resurser i Adobe Experience Manager finns i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=sv-SE).
+   Mer information om hur du överför och lägger till resurser i Adobe Experience Manager finns i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![Skärmbild som visar bläddringsalternativet för bildkomponenter i e-post-Designer.](assets/email_designer_28.png){zoomable="yes"}
 
@@ -185,7 +185,7 @@ Använd komponenten **[!UICONTROL Image]** för att infoga en bildfil från dato
 
 Använd komponenten **[!UICONTROL Social]** för att infoga länkar till sidor för sociala medier i ditt e-postinnehåll.
 
-1. Dra och släpp **[!UICONTROL Social]**-komponenten i en **[!UICONTROL Structure]** -komponent från menyn **[!UICONTROL Components]**.
+1. Dra och släpp **[!UICONTROL Components]**-komponenten i en **[!UICONTROL Social]** -komponent från menyn **[!UICONTROL Structure]**.
 
 1. Klicka på den nya komponenten.
 
