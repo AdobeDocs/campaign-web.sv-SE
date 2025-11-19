@@ -30,7 +30,7 @@ Aktiviteten **Dela** är en **målaktivitet** som segmenterar inkommande populat
 >id="acw_orchestration_split_filter"
 >title="Dela aktivitetsfilter"
 >abstract="Om du vill använda ett filtreringsvillkor för delmängden klickar du på **[!UICONTROL Create filter]** och konfigurerar den önskade filtreringsregeln med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen."
->additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeta med frågemodelleraren"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeta med frågemodelleraren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
