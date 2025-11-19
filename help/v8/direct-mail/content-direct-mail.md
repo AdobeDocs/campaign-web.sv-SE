@@ -37,7 +37,7 @@ Om du vill designa innehållet i extraheringsfilen som genereras av din direktme
 
 1. Expandera avsnittet **[!UICONTROL Extraction format]** för att få åtkomst till specifika alternativ som är relaterade till extraheringsfilens format. Vilka värden som är tillgängliga beror på det valda formatet.
 
-+++ Tillgängliga alternativ för extraheringsformat
+   +++ Tillgängliga alternativ för extraheringsformat
 
    * **[!UICONTROL Use first line as column header]** (Text-/CSV-format (Excel)): Aktivera det här alternativet om du vill använda den första kolumnen som rubrik.
    * **[!UICONTROL Column separator]** (Textformat): Ange det tecken som ska användas som kolumnavgränsare i extraheringsfilen.
@@ -48,7 +48,7 @@ Om du vill designa innehållet i extraheringsfilen som genereras av din direktme
    * **[!UICONTROL Number format]**: Ange hur tal ska formateras i extraheringsfilen.
    * **[!UICONTROL Export labels instead of internal values of enumerations]**: Växla det här alternativet på om du exporterar uppräkningsvärden och vill hämta kolumnetiketter, som är lättare att förstå, i stället för interna ID:n.
 
-+++
+   +++
 
 1. Växla på alternativet **[!UICONTROL Requested quantity]** om du vill begränsa antalet mottagare för leveransen.
 
