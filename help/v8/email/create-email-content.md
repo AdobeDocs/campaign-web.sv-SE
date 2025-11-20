@@ -110,4 +110,4 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
 Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, anpassa och testa ditt e-postmeddelande.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453569/?captions=swe&quality=12)

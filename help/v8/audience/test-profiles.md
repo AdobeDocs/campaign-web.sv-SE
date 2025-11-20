@@ -112,4 +112,4 @@ Testprofilen som du nyss skapade kan nu användas för att skicka ett korrektur.
 
 Lär dig hur du skapar och hanterar testprofiler med webbgränssnittet i Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442899?captions=swe&quality=12)
