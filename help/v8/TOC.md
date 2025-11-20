@@ -36,7 +36,7 @@ ht-degree: 19%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
+   + [Vanliga frågor och svar ](get-started/faq.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
@@ -290,4 +290,4 @@ ht-degree: 19%
       + [Externt CRM-konto](administration/external-crm.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

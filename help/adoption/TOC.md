@@ -20,5 +20,5 @@ ht-degree: 30%
 + [Kom igång för marknadsförare](get-started/marketers.md)
 + [Kom igång med Admin/Developer](get-started/admin-developers.md)
 + [Hantering av användaråtkomst](get-started/user-management-acs.md)
-+ [&lt; Tillbaka till Campaign v8 (webb)-dokumentation](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/campaign-web-home)
-+ [&lt; Tillbaka till Campaign v8 (konsol) dokumentation](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Tillbaka till Campaign v8 (webb)-dokumentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ [&lt; Tillbaka till Campaign v8 (konsol) dokumentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
