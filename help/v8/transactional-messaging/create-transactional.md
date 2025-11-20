@@ -16,7 +16,7 @@ Vid transaktionsmeddelanden utlöser en händelse att ett personligt meddelande 
 
 ## Skapa en mall för transaktionsmeddelanden {#transactional-template}
 
-I Campaign Web User Interface är det första steget i konfigurationen av transaktionsmeddelanden att skapa mallen eller att skapa meddelandet direkt. Detta skiljer sig från [konfigurationen av transaktionsmeddelanden på klientkonsolen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+I Campaign Web User Interface är det första steget i konfigurationen av transaktionsmeddelanden att skapa mallen eller att skapa meddelandet direkt. Detta skiljer sig från [konfigurationen av transaktionsmeddelanden på klientkonsolen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/send/real-time/transactional).
 
 En mall för transaktionsmeddelanden kan användas för att förhandsgranska det leveransinnehåll som tas emot av profilen innan den når den slutliga målgruppen. En administratör kan till exempel konfigurera och konfigurera mallarna så att de blir klara för marknadsföringsanvändare.
 

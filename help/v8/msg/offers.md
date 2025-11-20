@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Lägg till erbjudanden i dina meddelanden {#offers-content}
 
-Du kan lägga till erbjudanden i Adobe Campaign webbgränssnitt. Erbjudandena finns på den vänstra menyn **Erbjudanden** som ger dig tillgång till listan med erbjudanden. Alla erbjudanden är skrivskyddade och måste skapas i Campaign-klientkonsolen med modulen **[!UICONTROL Interaction]**. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Du kan lägga till erbjudanden i Adobe Campaign webbgränssnitt. Erbjudandena finns på den vänstra menyn **Erbjudanden** som ger dig tillgång till listan med erbjudanden. Alla erbjudanden är skrivskyddade och måste skapas i Campaign-klientkonsolen med modulen **[!UICONTROL Interaction]**. Mer information om interaktion och hur du hanterar en erbjudandekatalog i konsolen finns i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=sv-SE){target="_blank"}.
 
 Så här skickar du erbjudanden med leverans:
 
@@ -41,7 +41,7 @@ Följ stegen nedan för att välja vilka erbjudanden som ska läggas till i leve
 
 1. Konfigurera vilka erbjudanden som ska föreslås för mottagarna.
 
-   Välj först **[!UICONTROL Offer space]** som matchar din erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   Välj först **[!UICONTROL Offer space]** som matchar din erbjudandemiljö. Lär dig hur du skapar ett erbjudandeutrymme i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=sv-SE){target="_blank"}.
 
    ![Skärmbild som visar det lediga utrymmet i innehållet som skapar erbjudandet](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Följ stegen nedan för att infoga ett erbjudande med uttrycksredigeraren.
 
    >[!NOTE]
    >
-   >Antalet tillgängliga offerter beror på hur motoranropet är konfigurerat och deras ordning beror på prioriteten för erbjudandena. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >Antalet tillgängliga offerter beror på hur motoranropet är konfigurerat och deras ordning beror på prioriteten för erbjudandena. Läs mer i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=sv-SE){target="_blank"}.
 
 1. Spara ändringarna.
 

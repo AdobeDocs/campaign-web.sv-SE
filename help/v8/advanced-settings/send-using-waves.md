@@ -46,7 +46,7 @@ Följ stegen nedan om du vill skicka leveranser med hjälp av påfyllnader.
 
    >[!CAUTION]
    >
-   >Kontrollera att de senaste påfyllnaderna inte överskrider leveransdeadline som definierats på fliken [Giltighet](delivery-settings.md#validity), annars kanske inte vissa meddelanden skickas. En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista påfyllnaden planeras före leveransens giltighetsgräns. Läs mer om kontrollregler i dokumentationen för [Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Kontrollera att de senaste påfyllnaderna inte överskrider leveransdeadline som definierats på fliken [Giltighet](delivery-settings.md#validity), annars kanske inte vissa meddelanden skickas. En specifik typologikontrollregel, **[!UICONTROL Wave scheduling check]**, säkerställer att den sista påfyllnaden planeras före leveransens giltighetsgräns. Läs mer om kontrollregler i dokumentationen för [Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=sv-SE).
    >
    >Du måste också ge tillräckligt med tid för att försöka igen när du konfigurerar de sista vågorna. [Läs mer](delivery-settings.md#retries)
 
