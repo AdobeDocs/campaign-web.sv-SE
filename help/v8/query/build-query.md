@@ -18,7 +18,7 @@ Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri pla
 >[!IMPORTANT]
 >
 >Det finns ett helt nytt gränssnitt för frågemodelleraren. Med det nya regelbyggaren kan du enkelt skapa din fråga tack vare det förenklade gränssnittet. Om du vill växla till den här upplevelsen trycker du på växlingsknappen i det övre högra hörnet. Du kan gå tillbaka till den klassiska frågemodelleraren när du vill genom att helt enkelt trycka på tillbaka för att inaktivera det nya gränssnittet. Du kan tillämpa samma principer som frågemodelleraren i det nya gränssnittet.
->![Bild som visar växlingen för det nya gränssnittet för regelbyggaren ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Bild som visar växlingen för det nya gränssnittet för regelbyggaren &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Du kan lägga till två typer av element:
 
@@ -70,7 +70,7 @@ Du öppnar det här alternativet genom att klicka på attributmarkeringsknappen 
 >
 >* För fält med många värden visas bara de första tjugo värdena. I sådana fall får du en varning från **[!UICONTROL Partial load]**.
 >* Alternativet **[!UICONTROL Distribution of values]** är tillgängligt i alla attributväljare. [Lär dig välja attribut](../get-started/attributes.md)
->* Du kan lägga till villkor i resultatet med hjälp av de **[!Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
+>* Du kan lägga till villkor i resultatet med hjälp av de **[ !Aavancerade filtren]**. [Läs mer här](../get-started/work-with-folders.md#filter-the-values).
 
 ## Lägga till filterkomponenter {#filtering}
 

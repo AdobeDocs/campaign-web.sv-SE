@@ -62,7 +62,7 @@ Följ stegen nedan för att lägga till innehållskomponenter i e-postmeddelande
 
 Du kan lägga till en enkel behållare i vilken du lägger till en annan innehållskomponent. På så sätt kan du använda en särskild formatering för behållaren, vilket skiljer sig från den komponent som används inuti.
 
-Lägg till exempel till en **[!UICONTROL Container]**-komponent och lägg sedan till en [ Button](#button) -komponent i den behållaren. Använd en specifik bakgrund för behållaren och en annan för knappen.
+Lägg till exempel till en **[!UICONTROL Container]**-komponent och lägg sedan till en [&#x200B; Button](#button) -komponent i den behållaren. Använd en specifik bakgrund för behållaren och en annan för knappen.
 
 ![Skärmbild som visar hur du lägger till en behållarkomponent i e-post-Designer.](assets/email_designer_container_component.png){zoomable="yes"}
 

@@ -58,7 +58,7 @@ Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
-1. Välj alternativet [ på hemsidan ](get-started-email-designer.md#start-authoring)E-posta Designer **[!UICONTROL Design from scratch]** .
+1. Välj alternativet [&#x200B; på hemsidan &#x200B;](get-started-email-designer.md#start-authoring)E-posta Designer **[!UICONTROL Design from scratch]** .
 
    ![Skärmbild som visar Designer hemsida för e-post med alternativet Design från grunden markerat.](assets/email_designer-from-scratch.png){zoomable="yes"}
 

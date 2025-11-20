@@ -90,7 +90,7 @@ Följ stegen nedan för att skapa en prenumerationstjänst.
 
    ![Skärmbild som visar standardinställningarna för landningssida för en prenumerationstjänst](assets/service-create-default-lp.png){zoomable="yes"}
 
-   När du är klar väljer du [ eller ](../email/message-tracking.md) när du **[!UICONTROL Subscription link]** infogar en länk **[!UICONTROL Unsubscription link]** i ett e-postmeddelande. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   När du är klar väljer du [&#x200B; eller &#x200B;](../email/message-tracking.md) när du **[!UICONTROL Subscription link]** infogar en länk **[!UICONTROL Unsubscription link]** i ett e-postmeddelande. När du klickar på länken dirigeras användarna till den prenumerations- eller avprenumerationssida som tjänsten hänvisar till. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![Skärmbild som visar länkinställningarna för prenumeration och avprenumeration](assets/service-create-default-lp-link.png){zoomable="yes"}
 
