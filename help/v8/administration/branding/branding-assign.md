@@ -47,7 +47,7 @@ Nu kan du använda den här mallen för att skicka leveranser.
 
 >[!TAB Adobe Campaign V8]
 
-Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=sv-SE)
 
 När mallen har skapats kan du koppla den till ett varumärke. Så här gör du:
 
