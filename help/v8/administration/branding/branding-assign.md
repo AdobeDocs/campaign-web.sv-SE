@@ -6,9 +6,9 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '623'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,7 @@ Nu kan du använda den här mallen för att skicka leveranser.
 
 >[!TAB Adobe Campaign V8]
 
-Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=sv-SE)
+Om du vill skapa en leveransmall kan du duplicera en inbyggd mall, konvertera en befintlig leverans till en mall eller skapa en leveransmall från början. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 När mallen har skapats kan du koppla den till ett varumärke. Så här gör du:
 
@@ -125,7 +125,10 @@ Följ stegen nedan för att skapa en ny fristående leverans.
 
 1. Anpassa leveranserna ytterligare. Mer information om hur du skapar e-postmeddelanden finns i avsnittet [Designa och skicka e-postmeddelanden](../../email/create-email.md).
 
+1. Du kan också lägga till varumärkesinformation med personaliseringsfälten. Navigera till **[!UICONTROL Branding]** och markera de varumärkesrelaterade anpassningsblock som du vill infoga (t.ex. varumärkesnamn, logotypadress, webbplatsens URL, avsändarinformation).
+
 >[!ENDTABS]
+
 
 ## Kontrollera varumärke som är kopplat till transaktionsmeddelanden {#check-branding-transactional}
 

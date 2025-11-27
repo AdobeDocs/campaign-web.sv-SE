@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 27%
+source-wordcount: '497'
+ht-degree: 17%
 
 ---
 
@@ -60,3 +60,29 @@ En **[!UICONTROL Brand]** definieras av följande egenskaper:
   Använd menyn **[!UICONTROL Additional URL Parameters]** om du vill skapa ytterligare parametrar som nyckelvärdepar tillsammans med deras tillämplighetsvillkor. Varje parameternamn måste vara unikt och inte tomt, och varje parametervärde måste vara icke-tomt. Tillämplighetsvillkoret kan vara tomt, men inget av dessa värden kan innehålla JST-taggar.
 
   De här parametrarna kommer att användas för spårade URL:er som matchar alla domännamn som anges i **[!UICONTROL List of Domain Names]**, som kan innehålla reguljära uttryck.
+
+  **Exempel:** En spårad URL som `https://www.example.com` blir `https://www.example.com/?age=21&deliveryName=DM101` när de ytterligare parametrarna `age=21` och `deliveryName=DM101` konfigureras för den domänen.
+
+## Konfigurera branding för transaktionsmeddelanden {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>Det här avsnittet gäller endast för Transactional Messaging (Message Center).
+>
+>Transaktionsfunktioner är tillgängliga i gränssnittet för Campaign Web, men stegen nedan måste utföras i klientkonsolen Campaign v8 (kontrollinstans).
+
+Om du använder Transactional Messaging (Message Center) med branding krävs ytterligare konfigurering.
+
+### Spåra formler för realtidsinstanser
+
+När branding aktiveras på en Real-Time (RT)-kontrollinstans används särskilda spårningsalternativ för att hantera spårningsformler. Dessa formler konfigureras centralt i RT-kontrollinstansen i stället för individuellt i varje instans av RT-körning.
+
+Följande alternativ definierar spårningsformler som används av RT-leveranser:
+
+* **`NmsTracking_RT_ClickFormula`**: anger formeln som används för klickspårning på RT-instanser
+
+* **`NmsTracking_RT_OpenFormula`**: anger formeln som används för att öppna spårning i RT-instanser
+
+Om implementeringen kräver anpassade spårningsformler för transaktionsmeddelanden använder du alternativet nedan:
+
+* **`Branding_RT_ListXtkOptions_toPublish`**: ange XTK-alternativnamnen för dina anpassade formler här (avgränsade med kommatecken). Detta garanterar att RT-leveranser kan använda anpassade spårningsformler.
