@@ -3,9 +3,9 @@ audience: end-user
 title: Använd arbetsflödesaktiviteten för anrikning
 description: Lär dig hur du använder arbetsflödesaktiviteten för anrikning
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
@@ -52,12 +52,7 @@ Så här konfigurerar du aktiviteten **Enrichment**:
 >title="Anrikningsaktivitet"
 >abstract="När data för berikning läggs till i arbetsflödet kan de användas i efterföljande aktiviteter för att segmentera kunder i distinkta grupper baserat på deras beteenden, önskemål och behov, eller för att skapa personaliserade marknadsföringsmeddelanden och kampanjer som får genklang hos målgruppen."
 
-<!-- /NEO-92684 -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_settings"
->title="Inställningar för berikning"
->abstract="Inställningar för berikning: måldimension, ytterligare attribut och alternativ."
 
 1. Klicka på **Lägg till anrikningsdata** och välj det attribut som ska användas för anrikning. [Lär dig hur du väljer attribut och lägger till dem i favoriter](../../get-started/attributes.md).
 
