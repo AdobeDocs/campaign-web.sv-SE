@@ -2,9 +2,9 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
+source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 1%
 >title="Skapa ett varningsvillkor"
 >abstract="Du kan skapa egna leveransfilter via menyn Kundhantering > Fördefinierade filter."
 
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-select"
+>title="Spara filter"
+>abstract="Välj ett befintligt fördefinierat filter. Fördefinierade filter är anpassade filter som skapas och sparas för framtida bruk. De fungerar som genvägar vid filtrering med frågemodelleraren. De kan till exempel användas vid filtrering av en lista med data eller när målgruppen för en leverans skapas."
+
 Fördefinierade filter är anpassade filter som skapas och sparas för framtida bruk. De fungerar som genvägar vid filtrering med frågemodelleraren. De kan till exempel användas vid filtrering av en lista med data eller när målgruppen för en leverans skapas.
 
 Du kan använda befintliga inbyggda filter för att komma åt en viss delmängd av dina data eller skapa egna fördefinierade filter och spara dem.
@@ -43,6 +48,11 @@ Du kan använda befintliga inbyggda filter för att komma åt en viss delmängd 
 >id="acw_predefined-filters-rules"
 >title="Skapa fördefinierade filterregler"
 >abstract="Om du vill definiera filtervillkoren för det anpassade filtret klickar du på knappen Skapa regel."
+
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-save"
+>title="Spara filter"
+>abstract="På den här skärmen kan du spara regeln som ett fördefinierat filter. Du kan skapa ett nytt fördefinierat filter eller skriva över ett befintligt. Om du vill spara filtret som en favorit aktiverar du alternativet **[!UICONTROL Favorite filter]**. Du kan också aktivera alternativet **[!UICONTROL Shared filter]** för att göra filtret tillgängligt för andra användare."
 
 ### Skapa ett filter från frågemodelleraren {#create-from-rule-builder}
 
