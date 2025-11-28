@@ -47,7 +47,7 @@ Så här skapar du en fristående leverans:
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. (Valfritt) Definiera leveransschemat [&#128279;](#gs-schedule). Om inget schema har definierats skickas meddelanden omedelbart efter att du klickat på knappen **[!UICONTROL Send]**.
+1. (Valfritt) Definiera leveransschemat [](#gs-schedule). Om inget schema har definierats skickas meddelanden omedelbart efter att du klickat på knappen **[!UICONTROL Send]**.
 1. Klicka på knappen **[!UICONTROL Review and send]** om du vill kontrollera dina inställningar.
 1. Använd knappen **[!UICONTROL Simulate content]** för att testa dina inställningar för leverans och anpassning. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på knappen **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel inträffar bläddrar du till **loggarna** för att kontrollera varningar och varningar.
