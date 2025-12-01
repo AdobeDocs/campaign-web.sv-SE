@@ -21,4 +21,4 @@ På den här sidan visas alla dokumentationsuppdateringar för Adobe Campaign We
 **Datum: 1 december 2025**
 
 * Omstrukturerad dokumentationsguide för AI Assistant med konsoliderade sidor för [generering av fullständigt innehåll](../content/generative-full-content.md), [textgenerering](../content/generative-text.md) och [bildgenerering](../content/generative-image.md)
-* [Guiden ](../content/ai-assistant-prompting-guide.md) för bästa praxis för AI Assistant har lagts till för att hjälpa användare att skapa effektiva uppmaningar
+* [Guiden &#x200B;](../content/ai-assistant-prompting-guide.md) för bästa praxis för AI Assistant har lagts till för att hjälpa användare att skapa effektiva uppmaningar
