@@ -3,9 +3,9 @@ audience: end-user
 title: Hantera varumärke
 description: Lär dig skapa och hantera riktlinjer för ert varumärke
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I [!DNL Adobe Campaign Web] kan användare ange och ordna varumärkesinformation
 
 För att få åtkomst till menyn **[!UICONTROL Brands]** i [!DNL Adobe Campaign Web] måste användarna tilldelas produktprofilerna **[!UICONTROL Administrator (admin)]** och **[!UICONTROL Brand kit]** för att kunna skapa och hantera varumärken. För skrivskyddad åtkomst behöver användarna produktprofilen [!UICONTROL AI assistant].
 
-[Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Lär dig hur du tilldelar varumärkesrelaterade behörigheter
 
@@ -92,7 +92,7 @@ Användarna kan antingen ange detaljerna manuellt eller ladda upp ett varumärke
 
    ![Avancerade menyalternativ på kontrollpanelen för varumärken](assets/brands-6.png)
 
-Riktlinjerna för ditt varumärke finns nu i listrutan **[!UICONTROL Brand]** i AI Assistant-menyn. På så sätt kan AI Assistant generera innehåll och resurser som är anpassade efter dina specifikationer. [Läs mer om AI Assistant](../email/generative-gs.md)
+Riktlinjerna för ditt varumärke finns nu i listrutan **[!UICONTROL Brand]** i AI Assistant-menyn. På så sätt kan AI Assistant generera innehåll och resurser som är anpassade efter dina specifikationer. [Läs mer om AI Assistant](../content/generative-gs.md)
 
 ![AI-assistentmeny med listrutan Märke](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ Så här anpassar du din **[!UICONTROL Writing Style]**:
 
 1. Klicka på **[!UICONTROL Writing Style]** på fliken ![](assets/do-not-localize/Smock_Add_18_N.svg) för att lägga till en stödlinje, ett undantag eller ett undantag.
 
-1. Ange din riktlinje, undantag eller undantag och klicka på **[!UICONTROL Add]**.
+1. Ange riktlinjer, undantag eller undantag. Du kan även inkludera **[!UICONTROL Examples]** för att bättre illustrera hur det ska användas.
 
    ![](assets/brands-3.png)
 
-1. Välj en av stödlinjerna eller uteslutningen som du vill uppdatera eller ta bort.
+1. Ange **[!UICONTROL Usage context]** för din riktlinje, undantag eller undantag:
+
+   * **[!UICONTROL Channel type]**: Välj var den här riktlinjen, undantaget eller undantaget ska gälla. Du kanske vill att ett specifikt textformat endast ska visas i e-post, mobil, utskrift eller andra kommunikationskanaler.
+
+   * **[!UICONTROL Element type]**: Ange vilket innehållselement regeln gäller för. Detta kan omfatta element som rubriker, knappar, länkar eller andra komponenter i innehållet.
+
+   ![](assets/brands-16.png)
+
+1. Klicka på **[!UICONTROL Add]** när du har ställt in din riktlinje, undantag eller undantag.
+1. Om det behövs kan du välja en av stödlinjerna eller uteslutningen som du vill uppdatera eller ta bort.
 
 1. Klicka på ![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit") om du vill redigera ditt exempel eller på ikonen ![Dirigera bildens alt-text](assets/do-not-localize/Smock_Delete_18_N.svg "Ta bort")om du vill ta bort den.
 
@@ -298,9 +307,19 @@ Så här anpassar du din **[!UICONTROL Visual content]**:
 
 1. Klicka på **[!UICONTROL Visual content]** på fliken ![](assets/do-not-localize/Smock_Add_18_N.svg) för att lägga till en stödlinje, ett undantag eller ett exempel.
 
-1. Ange din riktlinje, ditt undantag eller exempel och klicka på **[!UICONTROL Add]**.
+1. Ange stödlinje, undantag eller exempel.
 
    ![Lägg till undantag eller exempelknapp](assets/brands-4.png)
+
+1. Ange **[!UICONTROL Usage context]** för din riktlinje eller ditt undantag:
+
+   * **[!UICONTROL Channel type]**: Välj var den här riktlinjen, undantaget eller undantaget ska gälla. Du kanske vill att ett specifikt textformat endast ska visas i e-post, mobil, utskrift eller andra kommunikationskanaler.
+
+   * **[!UICONTROL Element type]**: Ange vilket innehållselement regeln gäller för. Detta kan omfatta element som rubriker, knappar, länkar eller andra komponenter i innehållet.
+
+     ![Lägg till användningsinnehåll](assets/brands-17.png)
+
+1. Klicka på **[!UICONTROL Add]** när du har ställt in din riktlinje, undantag eller undantag.
 
 1. Om du vill lägga till en bild som visar korrekt användning väljer du **[!UICONTROL Example]** och klickar på **[!UICONTROL Select image]**. Du kan också lägga till en bild som visar felaktig användning som ett exkluderingsexempel.
 

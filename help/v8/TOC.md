@@ -5,9 +5,9 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 19%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 19%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
+   + [Vanliga frågor och svar ](get-started/faq.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
@@ -129,12 +129,12 @@ ht-degree: 19%
          + [Hantera innehåll i mörkt läge](email/dark-mode.md)
       + [Skapa tillgängligt innehåll](email/accessible-content.md)
    + AI Assistant {#ai-assistant}
-      + [Arbeta med AI Assistant](email/generative-gs.md)
-      + [E-postgenerering med AI](email/generative-content.md)
-      + [SMS-generering med AI](email/generative-sms.md)
-      + [Generering av push-meddelanden med AI](email/generative-push.md)
-      + [Generering av landningssidor med AI](email/generative-lp.md)
-      + [Användningsexempel för AI Assistant](email/generative-uc.md)
+      + [Arbeta med AI Assistant](content/generative-gs.md)
+      + [AI-tips för bästa praxis](content/ai-assistant-prompting-guide.md)
+      + [Generering av fullt innehåll med AI](content/generative-full-content.md)
+      + [Textgenerering med AI](content/generative-text.md)
+      + [Bildgenerering med AI](content/generative-image.md)
+      + [Användningsexempel för AI Assistant](content/generative-uc.md)
       + Varumärken {#ai-assistant}
          + [Skapa och hantera varumärken](content/brands.md)
          + [Utvärdera ert varumärkeskorteringsresultat](content/brands-score.md)
@@ -290,4 +290,4 @@ ht-degree: 19%
       + [Externt CRM-konto](administration/external-crm.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

@@ -3,7 +3,7 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 4%
@@ -78,7 +78,7 @@ Slipp besväret med att skapa manuellt innehåll och anamma en ny era av effekti
 
 Omdefiniera innehållsleveransen med vår avancerade dra-och-släpp-redigerare från WYSIWYG som är utformad för enkelhet och effektivitet. Med smidig integrering med AEM, funktioner för dynamiskt innehåll och den revolutionerande AI Assistant gör detta allt-i-ett-verktyg leveransarbetet intuitivt, effektivt och personaliserat.
 
-Utnyttja de kraftfulla avancerade algoritmerna i AI Assistant för att skapa engagerande, skräddarsytt innehåll som ger resultat. Öka era öppningsfrekvenser, klickfrekvens och konverteringar med intelligent, AI-driven innehållsgenerering. Läs mer i [det här avsnittet](../email/generative-gs.md).
+Utnyttja de kraftfulla avancerade algoritmerna i AI Assistant för att skapa engagerande, skräddarsytt innehåll som ger resultat. Öka era öppningsfrekvenser, klickfrekvens och konverteringar med intelligent, AI-driven innehållsgenerering. Läs mer i [det här avsnittet](../content/generative-gs.md).
 
 **Nya och omdesignade kampanjarbetsflödesaktiviteter**
 
