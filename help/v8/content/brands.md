@@ -18,7 +18,7 @@ I [!DNL Adobe Campaign Web] kan användare ange och ordna varumärkesinformation
 
 ## Få tillgång till varumärken {#generative-access}
 
-För att få åtkomst till menyn **[!UICONTROL Brands]** i [!DNL Adobe Campaign Web] måste användarna tilldelas produktprofilerna **[!UICONTROL Administrator (admin)]** och **[!UICONTROL Brand kit]** för att kunna skapa och hantera varumärken. För skrivskyddad åtkomst behöver användarna produktprofilen [!UICONTROL AI assistant]. [Läs mer](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+För att få åtkomst till menyn **[!UICONTROL Brands]** i [!DNL Adobe Campaign Web] måste användarna tilldelas produktprofilerna **[!UICONTROL Administrator (admin)]** och **[!UICONTROL Brand kit]** för att kunna skapa och hantera varumärken. För skrivskyddad åtkomst behöver användarna produktprofilen [!UICONTROL AI assistant]. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Lär dig hur du tilldelar varumärkesrelaterade behörigheter
 

@@ -28,7 +28,7 @@ Följande koncept används i Adobe Campaign Standard och Campaign v8 för att ha
 
 >[!IMPORTANT]
 >
->Funktionerna för dessa roller/namngivna rättigheter kan variera i implementeringen, vilket kan ge upphov till behörighetsproblem (t.ex. upphöjd behörighet eller funktionsstörningar). Vi rekommenderar användare att granska mappningarna efter övergången för att säkerställa korrekt åtkomstkontroll. [Läs mer om behörigheter](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>Funktionerna för dessa roller/namngivna rättigheter kan variera i implementeringen, vilket kan ge upphov till behörighetsproblem (t.ex. upphöjd behörighet eller funktionsstörningar). Vi rekommenderar användare att granska mappningarna efter övergången för att säkerställa korrekt åtkomstkontroll. [Läs mer om behörigheter](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång från Adobe Campaign Standard till Campaign v8. I Campaign Standard används en **säkerhetsgrupp**, som kallas **Operator group** i Campaign v8, för att tilldela en uppsättning roller till en användare. Vissa säkerhetsgrupper/operatorgrupper är tillgängliga när de är klara, men användare kan skapa nya grupper eller ändra befintliga grupper om det behövs.
 
@@ -36,7 +36,7 @@ Tabellen nedan visar migreringsmetoden för användarrollgrupper vid övergång 
 |---------|----------|---------|
 | **Terminologi**  | Säkerhetsgrupp | Operatorgrupp |
 
-I både Adobe Campaign Standard och Campaign v8 mappas **säkerhetsgrupperna** och **Operator-grupperna** till Produktprofiler i Admin Console. Om du vill tilldela en **säkerhetsgrupp** eller **operatörsgrupp** till en användare kan du länka motsvarande **produktprofil** i Admin Console. Associationen synkroniseras när användaren loggar in. [Läs mer om produktprofilen](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+I både Adobe Campaign Standard och Campaign v8 mappas **säkerhetsgrupperna** och **Operator-grupperna** till Produktprofiler i Admin Console. Om du vill tilldela en **säkerhetsgrupp** eller **operatörsgrupp** till en användare kan du länka motsvarande **produktprofil** i Admin Console. Associationen synkroniseras när användaren loggar in. [Läs mer om produktprofilen](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard Security Group** | **Kampanj v8, operatörsgrupp** |
 |----------|---------|
@@ -75,7 +75,7 @@ I Adobe Campaign Standard kallas termen **användarroll** för **namngiven rätt
 >Användare i flera säkerhetsgrupper tilldelas organisationsenheten i den högsta säkerhetsgruppen. Om flera grupper har parallella enheter på den översta nivån väljer systemet organisationsenheten för användaren i Campaign Standard och användaren har bara åtkomst till den valda organisationsenheten och dess underordnade enheter. I Campaign v8 efter migreringen har användaren åtkomst till **alla tilldelade organisationsenheter och deras underordnade enheter**, vilket kan leda till att behörigheterna eskaleras. Du kan förhindra detta genom att undvika att tilldela användare till säkerhetsgrupper med parallella organisationsenheter. Läs mer om [tilldelning av parallella organisationsenheter](#parallel-assignments).
 
 
-I Adobe Campaign Standard mappas **organisationsenheten** till den befintliga **mapphierarkimodellen** i Campaign v8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+I Adobe Campaign Standard mappas **organisationsenheten** till den befintliga **mapphierarkimodellen** i Campaign v8 för att behålla en liknande åtkomstkontroll. [Läs mer om mapphantering](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
@@ -140,7 +140,7 @@ I exemplet ovan, där en användare har åtkomst till A1-1, A2 och A2-1, är spe
 
 I Campaign v8 representeras **Program** som **Mappar**. Med Campaign v8 kan du skapa mappar och begränsa åtkomsten till dem.
 
-Genom att använda **Grupper** och **Namngivna behörigheter** kan **Operatorer** beviljas åtkomst till specifika **Mappar** i navigeringshierarkin, med möjlighet att tilldela läs-, skriv- och borttagningsbehörigheter. [Läs mer om mapphantering](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Genom att använda **Grupper** och **Namngivna behörigheter** kan **Operatorer** beviljas åtkomst till specifika **Mappar** i navigeringshierarkin, med möjlighet att tilldela läs-, skriv- och borttagningsbehörigheter. [Läs mer om mapphantering](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Eftersom ett **program** behandlas som en **mapp** i Campaign v8 kan åtkomsten hanteras på samma sätt som andra mappar. Efter migreringen kan Campaign Standard-administratörer följa dessa steg:
 
