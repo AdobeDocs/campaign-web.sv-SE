@@ -3,9 +3,9 @@ audience: end-user
 title: Generativt innehåll
 description: Lär dig generera kompletta innehållsupplevelser med AI Assistant i Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1486'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,6 @@ Innan du börjar skapa innehåll med AI Assistant måste du konfigurera leverans
 
 Med AI Assistant öppen kan du nu konfigurera genereringsinställningarna för att skapa innehåll som matchar ert varumärke och era kampanjmål. Anpassa text- och bildparametrar, lägg till varumärkesresurser och ge tips om hur AI kan generera relevanta variationer för er målgrupp.
 
-1. Aktivera alternativet **[!UICONTROL Use original content]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
-
 1. Välj din **[!UICONTROL Brand]** för att se till att det AI-genererade innehållet följer varumärkesspecifikationerna. [Läs mer](brands.md) om varumärken.
 
 1. Finjustera innehållet genom att beskriva vad du vill generera i fältet **[!UICONTROL Prompt]**.
@@ -57,6 +55,7 @@ Med AI Assistant öppen kan du nu konfigurera genereringsinställningarna för a
 1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]**:
 
    * **[!UICONTROL Communication strategy]**: Välj den lämpligaste kommunikationsstilen för den genererade texten.
+   * **[!UICONTROL Languages]**: Välj språk för det genererade innehållet.
    * **[!UICONTROL Tone]**: Se till att tonen i din e-postadress får genklang hos din publik. Vare sig du vill ljuda informativt, lekfullt eller övertygande anpassar AI Assistant budskapet därefter.
 
      ![Skärmbild med alternativ för textinställningar i Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
@@ -103,7 +102,7 @@ När du har genererat innehållsvariationer kan du finjustera resultatet för at
 
    * **[!UICONTROL Change Communication strategy]**: Ändra meddelandetillvägagångssättet baserat på dina mål, till exempel skapa en tränglighet eller framhäva en spännande tilltalande upplevelse.
 
-   ![Förfina meny med visningsalternativ](assets/full-email-5.png){zoomable="yes"}
+     ![Förfina meny med visningsalternativ](assets/full-email-5.png){zoomable="yes"}
 
 1. Öppna fliken **[!UICONTROL Brand Alignment]** och se hur ditt innehåll överensstämmer med [varumärkesriktlinjerna](brands.md).
 
@@ -112,7 +111,7 @@ När du har genererat innehållsvariationer kan du finjustera resultatet för at
 1. Infoga anpassningsfält för att anpassa innehållet baserat på profildata. Klicka sedan på knappen **[!UICONTROL Simulate content]** för att kontrollera återgivningen och kontrollera personaliseringsinställningarna med testprofiler. [Läs mer](../preview-test/preview-content.md)
 
 1. Granska och aktivera ditt innehåll:
-   * **E-post**: När du har definierat ditt innehåll, din målgrupp och ditt schema är du redo att förbereda din e-postkampanj. [Läs mer](../monitor/prepare-send.md)
+   * **E-post**: När du har definierat ditt innehåll, din målgrupp och ditt schema är du redo att förbereda din e-postleverans. [Läs mer](../monitor/prepare-send.md)
    * **Landningssida**: När landningssidan är klar kan du publicera den och göra den tillgänglig för användning i ett meddelande. [Läs mer](../landing-pages/create-lp.md)
 
 ## För mobila kanaler {#mobile-channels}
@@ -190,7 +189,8 @@ När du har granskat dina genererade varianter av push-meddelanden kan du finjus
    * **[!UICONTROL Rephrase]**: Rätta till ditt meddelande på olika sätt för att hålla skrivandet aktuellt och engagerande för olika målgrupper.
    * **[!UICONTROL Use simpler language]**: Förenkla ditt språk för att säkerställa tydlighet och tillgänglighet för en större publik.
    * **[!UICONTROL Translate]**: Förenkla ditt språk för att säkerställa tydlighet och tillgänglighet för en större publik.
-Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
+
+   Du kan också ändra **[!UICONTROL Tone]** och **[!UICONTROL Communication strategy]** för texten.
 
    ![Förfina alternativ för push-meddelanden](assets/push-genai-5.png){zoomable="yes"}
 

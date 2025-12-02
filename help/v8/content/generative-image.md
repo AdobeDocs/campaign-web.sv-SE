@@ -2,9 +2,9 @@
 audience: end-user
 title: Generativt innehåll
 description: Lär dig hur du genererar bilder med AI Assistant
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1018'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 >
 >Du måste godkänna ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} innan du kan använda AI Assistant på Adobe Campaign Web. Kontakta din Adobe-representant om du vill veta mer.
 
-Använd AI Assistant på Adobe Campaign Web för att skapa övertygande visuellt material som förbättrar budskapen i e-post, webbsidor, landningssidor och push-meddelanden. Med AI Assistant kan du generera och optimera bilder och säkerställa att innehållet är visuellt engagerande och anpassat till ert varumärke.
+Använd AI Assistant på Adobe Campaign Web för att skapa övertygande visuellt material som förbättrar budskapen i e-post, landningssidor och push-meddelanden. Med AI Assistant kan du generera och optimera bilder och säkerställa att innehållet är visuellt engagerande och anpassat till ert varumärke.
 
 ## För e-post- och landningssidor {#email-web-channels}
 
-AI Assistant kan generera kompletta visuella upplevelser för e-postkampanjer och landningssidor. Tack vare den här funktionen kan ni producera varumärkesanpassade och spännande bilder som får er att lyfta fram era målgrupper över alla digitala kontaktytor.
+AI Assistant kan generera kompletta visuella upplevelser för e-postleveranser och landningssidor. Tack vare den här funktionen kan ni producera varumärkesanpassade och spännande bilder som får er att lyfta fram era målgrupper över alla digitala kontaktytor.
 
 ### Åtkomst och konfiguration {#access-configure}
 
@@ -68,6 +68,8 @@ Om du vill börja generera bilder med AI Assistant skapar du först leveransen o
 
 ### Förfina och slutför {#refine-finalize}
 
+När du har genererat bildvariationer kan du granska resultatet, kontrollera varumärkesjusteringen och välja det bästa alternativet för ditt innehåll.
+
 1. Bläddra igenom den genererade **[!UICONTROL Variations]**.
 
 1. Klicka på procentikonen för att visa din **[!UICONTROL Brand Alignment Score]** och identifiera eventuella feljusteringar av ditt varumärke.
@@ -92,23 +94,13 @@ Om du vill börja generera bilder med AI Assistant skapar du först leveransen o
 
 ## För mobila kanaler {#mobile-channels}
 
-Med AI Assistant kan du generera engagerande text för push-meddelanden och SMS-meddelanden, så att du kan skapa mobilkommunikation som fångar uppmärksamheten och får genklang hos målgruppen över alla mobila kontaktytor.
+Med AI Assistant kan du generera engagerande bilder för push-meddelanden, vilket hjälper dig att skapa visuellt övertygande mobilkommunikation som fångar uppmärksamheten och får genklang hos publiken.
 
 ### Åtkomst och konfiguration {#mobile-access-configure}
 
-Börja generera text för mobila kanaler med AI Assistant genom att först konfigurera leveransen och öppna AI Assistant. Hur du får tillgång till AI Assistant varierar något beroende på om du arbetar med push-meddelanden eller SMS-meddelanden.
+Om du vill börja generera bilder för push-meddelanden med AI Assistant skapar du först leveransen och öppnar AI-assistenten.
 
-1. Skapa och konfigurera din mobila leverans:
-
-   * **Push-meddelanden**: När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**. [Läs mer](../push/create-push.md)
-   * **SMS**: När du har skapat och konfigurerat SMS-leveransen klickar du på **[!UICONTROL Edit content]**. [Läs mer](../sms/create-sms.md)
-
-1. Fyll i **[!UICONTROL Basic details]** för leveransen. Klicka på **[!UICONTROL Edit content]** när du är klar.
-
-1. Anpassa meddelandet efter behov:
-
-   * **Push-meddelanden**: [Läs mer](../push/content-push.md)
-   * **SMS**: [Läs mer](../sms/content-sms.md)
+1. När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**. [Läs mer](../push/create-push.md)
 
 1. Öppna menyn **[!UICONTROL Show AI Assistant]**.
 

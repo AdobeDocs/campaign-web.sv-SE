@@ -3,10 +3,11 @@ title: Anpassa ert innehåll i Campaign
 description: Läs om hur du anpassar ditt innehåll i Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Leveranspersonalisering förbättrar användarupplevelsen och ökar engagemangsf
 
 ## Använda profildata för personalisering {#data-personalization}
 
-Du kan anpassa alla leveranser med profildata med hjälp av uttrycksredigeraren, som är tillgänglig i fält med ikonen **[!UICONTROL Open personalization dialog]** , t.ex. ämnesraden, e-postlänkar och innehållskomponenter för text/knapp. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access).
+Du kan anpassa alla leveranser med profildata med hjälp av uttrycksredigeraren, som är tillgänglig i fält med ikonen **[!UICONTROL Open personalization dialog]** , t.ex. ämnesraden, e-postlänkar och innehållskomponenter för text/knapp. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md#access).
 
 ### Personalization syntax {#syntax}
 
@@ -42,7 +43,7 @@ När du överför kontakter från en extern fil för en fristående e-postlevera
 
 Så här lägger du till personaliseringstaggar i en leverans:
 
-1. Öppna uttrycksredigeraren med ikonen **[!UICONTROL Open personalization dialog]** som du kommer åt från redigeringsfält av texttyp, till exempel ämnesraden eller SMS-brödtexten. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md/#access).
+1. Öppna uttrycksredigeraren med ikonen **[!UICONTROL Open personalization dialog]** som du kommer åt från redigeringsfält av texttyp, till exempel ämnesraden eller SMS-brödtexten. [Lär dig hur du kommer åt uttrycksredigeraren](gs-personalization.md#access).
 
    ![Skärmbild som visar hur du kommer åt dialogrutan för anpassning](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
@@ -75,7 +76,7 @@ Ni använder också variabler för att personalisera leveransen. Läs mer om att
 
 Variabeln `deliveryType` definieras till exempel enligt nedan.
 
-![Skärmbild som visar definitionen för variabeln deliveryType &#x200B;](assets/variables-deliveryType.png){zoomable="yes"}
+![Skärmbild som visar definitionen för variabeln deliveryType ](assets/variables-deliveryType.png){zoomable="yes"}
 
 Den här variabeln används i innehållet i leveransen med hjälp av ikonen **[!UICONTROL Add Personalization]** och uttrycket `<%= variables.deliveryType %>` för det här exemplet.
 
@@ -83,4 +84,4 @@ Den här variabeln används i innehållet i leveransen med hjälp av ikonen **[!
 
 Kontrollera hur variabeln används med knappen **[!UICONTROL Simulate Content]**.
 
-![Skärmbild som visar simulering av innehåll med variabeln deliveryType &#x200B;](assets/variables-simulate.png){zoomable="yes"}
+![Skärmbild som visar simulering av innehåll med variabeln deliveryType ](assets/variables-simulate.png){zoomable="yes"}

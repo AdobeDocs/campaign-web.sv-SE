@@ -2,9 +2,9 @@
 audience: end-user
 title: Generativt innehåll
 description: Lär dig generera textinnehåll med AI Assistant
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1332'
 ht-degree: 2%
 
 ---
@@ -112,8 +112,6 @@ Innan du börjar generera text med AI Assistant för mobila kanaler måste du ko
 1. Skapa och konfigurera din mobila leverans:
    * **Push-meddelanden**: När du har skapat och konfigurerat leveransen av push-meddelanden klickar du på **[!UICONTROL Edit content]**. [Läs mer](../push/create-push.md)
    * **SMS**: När du har skapat och konfigurerat SMS-leveransen klickar du på **[!UICONTROL Edit content]**. [Läs mer](../sms/create-sms.md)
-
-1. Fyll i **[!UICONTROL Basic details]** för leveransen. Klicka på **[!UICONTROL Edit content]** när du är klar.
 
 1. Anpassa meddelandet efter behov:
    * **Push-meddelanden**: [Läs mer](../push/content-push.md)

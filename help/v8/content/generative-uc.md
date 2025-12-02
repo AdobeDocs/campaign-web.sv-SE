@@ -2,9 +2,9 @@
 title: Användningsexempel för AI Assistant
 description: Lär dig använda AI Assistant med hjälp av användningsexempel
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -104,5 +104,23 @@ När ni har definierat ert innehåll, er målgrupp och ert schema kan ni förber
 1. Granska **[!UICONTROL Variation suggestions]** för att hitta den resurs du vill ha.
 
 1. Välj **[!UICONTROL Preview]** om du vill visa den valda variationen i helskärmsläge.
+
+1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
+
+## Generera innehåll för olika språk{#languages}
+
+![Animerad demonstration av AI Assistant som genererar innehåll på flera språk, bland annat franska, spanska och tyska](assets/do-not-localize/ai-language.gif)
+
+1. När leveransen har konfigurerats och konfigurerats klickar du på **[!UICONTROL Edit content]**.
+
+1. Öppna menyn **[!UICONTROL AI Assistant]**.
+
+1. Justera innehållet genom att ange önskad begäran i rutan **[!UICONTROL Prompt]** på franska, spanska, tyska, italienska, japanska, svenska, nederländska eller norska.
+
+1. Skräddarsy din fråga med alternativet **[!UICONTROL Text settings]** och välj önskat **[!UICONTROL Languages]** för det genererade innehållet.
+
+1. Anpassa din fråga ytterligare efter behov och klicka på **[!UICONTROL Generate]**.
+
+1. Granska **[!UICONTROL Variation suggestions]** på det valda språket.
 
 1. Klicka på **[!UICONTROL Select]** när du har hittat rätt innehåll.
