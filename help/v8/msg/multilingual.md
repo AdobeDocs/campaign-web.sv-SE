@@ -16,7 +16,7 @@ ht-degree: 0%
 >title="Lägg till språk"
 >abstract="På den här fliken hittar du en lista över de språk som leveransen ska skickas till. Du kan lägga till fler språk genom att klicka på knappen Lägg till språk eller genom att duplicera ett annat språk på den här fliken."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=&quot;acw_multilingual_file_upload&quot;
 >title=&quot;Importera språkvarianter&quot;
 >abstract=&quot;Använd den här dialogrutan om du vill lägga till en språkvariant genom att importera en CSV-fil. Filen fyller automatiskt i alla tillgängliga fält för det valda språket. Du kan dra och släppa filen eller välja den från datorn innan du bekräftar.&quot;
