@@ -2,9 +2,9 @@
 audience: end-user
 title: Konfigurera flerspråkig leverans
 description: Lär dig konfigurera flerspråkig leverans
-source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
+source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,11 @@ ht-degree: 0%
 >id="acw_deliveries_email_multilingual"
 >title="Lägg till språk"
 >abstract="På den här fliken hittar du en lista över de språk som leveransen ska skickas till. Du kan lägga till fler språk genom att klicka på knappen Lägg till språk eller genom att duplicera ett annat språk på den här fliken."
+
+[!CONTEXTUALHELP]
+>id=&quot;acw_multilingual_file_upload&quot;
+>title=&quot;Importera språkvarianter&quot;
+>abstract=&quot;Använd den här dialogrutan om du vill lägga till en språkvariant genom att importera en CSV-fil. Filen fyller automatiskt i alla tillgängliga fält för det valda språket. Du kan dra och släppa filen eller välja den från datorn innan du bekräftar.&quot;
 
 I gränssnittet för Campaign-webben kan du konfigurera leveranser som flerspråkiga, vilket gör att du kan skicka meddelanden baserat på vilket språk som används i en profil. Om ingen inställning har angetts skickas meddelandet på standardspråket.
 

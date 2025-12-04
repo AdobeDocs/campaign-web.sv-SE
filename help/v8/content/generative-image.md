@@ -2,10 +2,10 @@
 audience: end-user
 title: Generativt innehåll
 description: Lär dig hur du genererar bilder med AI Assistant
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 2%
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,8 @@ Om du vill börja generera bilder med AI Assistant skapar du först leveransen o
    ![Skärmbild med textkomponentval i Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
 ### Generera innehåll {#generate-content}
+
+Lär dig skapa effektiva uppmaningar och konfigurera bildinställningar för att generera visuellt övertygande bilder med AI Assistant. Anpassa parametrar som proportioner, visuell intensitet och belysning för att skapa bilder som är anpassade efter ert varumärke och era kampanjmål.
 
 1. Aktivera alternativet **[!UICONTROL Reference style]** för AI Assistant för att anpassa nytt innehåll baserat på det valda innehållet.
 
@@ -108,7 +110,7 @@ Om du vill börja generera bilder för push-meddelanden med AI Assistant skapar 
 
 ### Generera innehåll {#mobile-generate-content}
 
-När du har använt AI Assistant kan du justera genereringsinställningarna för att skapa bilder som är anpassade efter ditt varumärke och stöder dina mål.
+När du har öppnat AI Assistant kan du justera genereringsinställningarna för att skapa bilder som är anpassade efter ditt varumärke och stöder dina mål för push-meddelanden. Konfigurera prompten och bildparametrarna för att generera bilder som är optimerade för mobila skärmar.
 
 1. Välj din **[!UICONTROL Brand]** för att se till att det AI-genererade innehållet följer varumärkesspecifikationerna. [Läs mer](brands.md) om varumärken.
 
