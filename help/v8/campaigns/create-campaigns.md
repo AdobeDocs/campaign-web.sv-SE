@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa kampanjer med Adobe Campaign Web
 description: Lär dig skapa flerkanalskampanjer med Adobe Campaign Web
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
