@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeta med arbetsflödesaktiviteter
 description: Lär dig hur du arbetar med arbetsflödesaktiviteter
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 1%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -58,6 +58,11 @@ Med Adobe Campaign Web kan ni automatisera och genomföra marknadsföringskampan
 >id="acw_orchestration_end"
 >title="Avsluta aktivitet"
 >abstract="Med aktiviteten **End** kan du grafiskt markera slutet av ett arbetsflöde. Denna aktivitet har ingen funktionell inverkan och är därför frivillig."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Extern signal"
+>abstract="platshållare för det externa signalavsnittet i aktivitetsparametrarna för End. Endast tillgängligt för samordnade kampanjer. DO NOT DELETE"
 
 Följande aktiviteter är specifika för att organisera och köra arbetsflöden. Deras huvuduppgift är att samordna de övriga verksamheterna:
 
