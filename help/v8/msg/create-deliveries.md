@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Aktivera profilberikning"
->abstract="Välj fälten för profilberikning."
+>abstract="Välj fälten för profilberikning. Endast fält med ett index kan markeras som avstämningsnycklar. Fält som inte stöds är nedtonade."
 
 Du kan skapa fristående leveranser från den vänstra menyn **[!UICONTROL Deliveries]** eller skapa leveranser i ett arbetsflöde, som ingår i en kampanj eller inte.
 
@@ -47,7 +47,7 @@ Så här skapar du en fristående leverans:
    * [Push-meddelandekanal](../push/gs-push.md)
    * [SMS-kanal](../sms/create-sms.md)
 
-1. (Valfritt) Definiera leveransschemat [&#128279;](#gs-schedule). Om inget schema har definierats skickas meddelanden omedelbart efter att du klickat på knappen **[!UICONTROL Send]**.
+1. (Valfritt) Definiera leveransschemat [](#gs-schedule). Om inget schema har definierats skickas meddelanden omedelbart efter att du klickat på knappen **[!UICONTROL Send]**.
 1. Klicka på knappen **[!UICONTROL Review and send]** om du vill kontrollera dina inställningar.
 1. Använd knappen **[!UICONTROL Simulate content]** för att testa dina inställningar för leverans och anpassning. Läs mer om meddelandesimulering i [det här avsnittet](../preview-test/preview-test.md).
 1. Klicka på knappen **[!UICONTROL Prepare]** för att beräkna målpopulationen och generera meddelandena. Förberedelsesteget kan ta några minuter. När färdigställandet är klart kan meddelanden skickas. Om ett fel inträffar bläddrar du till **loggarna** för att kontrollera varningar och varningar.
