@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Vanliga frågor och svar
 
-I följande avsnitt visas vanliga frågor om det nya Campaign-gränssnittet. Har du ytterligare frågor? Vill du dela med dig av dina erfarenheter eller utbyta tankar med andra? Eller har du feedback på kursmaterialet för Adobe-teamet? Anslut till konversationen i [Adobe Campaign-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
+I följande avsnitt visas vanliga frågor om det nya Campaign-gränssnittet. Har du ytterligare frågor? Vill du dela med dig av dina erfarenheter eller utbyta tankar med andra? Eller har du feedback på kursmaterialet för Adobe-teamet? Anslut till konversationen i [Adobe Campaign-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=sv){target="_blank"}.
 
 +++ Vilken version av Adobe Campaign behöver jag ha för att få tillgång till det nya webbgränssnittet?
 
