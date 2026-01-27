@@ -254,4 +254,4 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 
 Lär dig hur du skapar en e-postleverans från grunden, definierar målgruppen, utformar innehållet, simulerar förhandsgranskning och skickar ett korrektur.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454009/?captions=swe&quality=12)
