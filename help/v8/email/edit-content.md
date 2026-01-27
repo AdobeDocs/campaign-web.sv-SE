@@ -3,9 +3,9 @@ audience: end-user
 title: Redigera e-postinnehållet
 description: Lär dig hur du redigerar e-postinnehållet i användargränssnittet för Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Redigeringsspårning"
 >abstract="Spårning är aktiverat som standard för leverans, vilket innebär att alla länkar som ingår i meddelandeinnehållet spåras. Du kan inaktivera det här alternativet härifrån."
->additional-url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Lägga till länkar och spåra meddelanden"
 
 På skärmen för e-post **[!UICONTROL Edit content]** kan du:
 
@@ -106,4 +106,6 @@ Följ stegen nedan för att konfigurera eller redigera innehållet i ett e-postm
 
 1. Spårning är aktiverat som standard för leveransen. Du kan inaktivera det här alternativet från avsnittet **[!UICONTROL Optional features]**. [Lär dig hur du lägger till länkar och hanterar spårning](message-tracking.md)
 
-1. När innehållet i ditt e-postmeddelande har definierats använder du knappen **[!UICONTROL Simulate content]** för att kontrollera hur det visas innan du skickar det. [Lär dig hur du förhandsgranskar och testar e-postmeddelandet](../preview-test/preview-test.md).
+1. När innehållet i ditt e-postmeddelande har definierats använder du knappen **[!UICONTROL Simulate content]** för att kontrollera hur det visas innan du skickar det. Du kan även validera innehållskvaliteten för att utvärdera läsbarhet, CTA-effektivitet och övergripande kvalitet. [Läs mer om validering av innehållskvalitet](../content/brands-score.md#validate-quality)
+
+1. [Lär dig hur du förhandsgranskar och testar e-postmeddelandet](../preview-test/preview-test.md).

@@ -5,10 +5,10 @@ user-guide-description: Produktdokumentation för Adobe Campaign webbanvändargr
 title: Adobe Campaign webbdokumentation
 description: Webbdokumentation för kampanj
 breadcrumb-title: Webbanvändargränssnitt för Campaign
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 19%
+source-wordcount: '973'
+ht-degree: 20%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 19%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
-+ Meddelanden och leveranser {#msg}
+   + [Vanliga frågor och svar ](get-started/faq.md)
+   + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
    + [Skapa en leverans](msg/create-deliveries.md)
@@ -45,6 +45,7 @@ ht-degree: 19%
    + E-post {#email}
       + [Skapa din första e-postadress](email/create-email.md)
       + [Konfigurera e-postinnehållet](email/edit-content.md)
+      + [Skapa innehållsexperiment](email/ab-testing.md)
       + Skicka och övervaka e-postmeddelandet {#monitor}
          + [Förbered och skicka ett e-postmeddelande](monitor/prepare-send.md)
          + [Skicka med flera vågor](advanced-settings/send-using-waves.md)
@@ -137,7 +138,8 @@ ht-degree: 19%
       + [Användningsexempel för AI Assistant](content/generative-uc.md)
       + Varumärken {#ai-assistant}
          + [Skapa och hantera varumärken](content/brands.md)
-         + [Utvärdera ert varumärkeskorteringsresultat](content/brands-score.md)
+         + [Anpassa ert varumärke](content/brands-personalize.md)
+         + [Utvärdera ert innehåll](content/brands-score.md)
 + Landningssidor {#landing-pages}
    + [Kom igång med landningssidor](landing-pages/get-started-lp.md)
    + [Skapa och publicera en landningssida](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 19%
    + [Kom igång med kampanjer](campaigns/gs-campaigns.md)
    + [Få tillgång till och hantera era kampanjer](campaigns/manage-campaigns.md)
    + [Skapa din första kampanj](campaigns/create-campaigns.md)
+   + [Konfigurera och hantera godkännandeprocessen](campaigns/campaign-approvals.md)
    + [Planer och program](administration/plans-programs.md)
 + Arbetsflöden {#wf}
    + [Kom igång med arbetsflöden](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 19%
       + [Ändra datakälla](workflows/activities/change-data-source.md)
       + [Ändra dimension](workflows/activities/change-dimension.md)
       + [Kombinera](workflows/activities/combine.md)
+      + [Kontinuerlig leverans](workflows/activities/continuous-delivery.md)
       + [Deduplicering](workflows/activities/deduplication.md)
       + [E-post, SMS, push, direktreklam](workflows/activities/channels.md)
       + [Berikning](workflows/activities/enrichment.md)
@@ -268,6 +272,7 @@ ht-degree: 19%
    + [Arbeta med andra lösningar från Adobe](integrations/integration.md)
    + [Hantera mediefiler med Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Hantera mallar med Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Hantera språkversioner med Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Arbeta med GenStudio for Performance Marketing](integrations/genstudio.md)
 + Konfiguration {#conf}
    + Varumärke {#branding}
@@ -290,4 +295,4 @@ ht-degree: 19%
       + [Externt CRM-konto](administration/external-crm.md)
    + [Hantera uppräkningar](administration/enumerations.md)
    + [Arbeta med JavaScript-koder](administration/javascript-codes.md)
-+ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/sv/docs/campaign/campaign-v8/campaign-home)
++ [Kampanjdokumentation v8 (konsol) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

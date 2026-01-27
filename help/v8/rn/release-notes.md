@@ -2,10 +2,10 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 7%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -20,42 +20,43 @@ Adobe Campaign Web Interface används i en kontinuerlig leveransmodell som ger e
 
 Ändringar och förbättringar som är tillgängliga med tidigare versioner visas på sidorna [2024](release-notes-24.md) och [2025](release-notes-25.md) .
 
-## 25 oktober {#25-10-updates}
+## 26 januari {#26-1-release}
 
-_3 nov 2025_
+_27 januari 2026_
+
+### Nya funktioner {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Flerspråkiga funktioner för transaktionsmeddelanden, push-meddelanden och SMS (LA)</strong><br/></th> 
+<th><strong>Flerspråkiga leveransfunktioner (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu kan du skicka flera transaktionsmeddelanden, push-meddelanden och SMS-meddelanden på olika språk i Adobe Campaign webbanvändargränssnitt. Med funktionen för flerspråkig leverans kan du välja standardspråk för leveransen samt de olika språk som leveransen kan skickas till. Du kan även förhandsgranska leveransen på de språk du har valt.</p>
-<p>Obs! Den här funktionen är bara tillgänglig för en uppsättning organisationer (begränsad tillgänglighet) och kommer att lanseras globalt i en framtida version.</p>
+<p>Funktionen för flerspråkig leverans är nu tillgänglig för alla kunder (GA). Med den här funktionen kan du skicka flera meddelanden på olika språk i Adobe Campaign webbanvändargränssnitt. Du kan välja standardspråk för leveransen samt de olika språk som leveransen kan skickas på. Du kan även förhandsgranska leveransen på de språk du har valt. 
 <p>Mer information finns i den <a href="../msg/multilingual.md">detaljerade dokumentationen</a>.</p>
+<p>Följande förbättringar har gjorts i flerspråkiga push-meddelanden:</p>
+<ul>
+<li>Nu kan du snabbt fylla i alla språkvarianter genom att överföra en CSV-fil med ditt flerspråkiga innehåll. <a href="../msg/multilingual.md#csv-upload">Läs mer</a>
+</li>
+<li>Stöd för push-meddelanden.</li>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
 <table>
 <thead>
 <tr>
-<th><strong>Profilberikning i transaktionsmeddelanden (LA)</strong><br/></th> 
+<th><strong>Profilberikning i transaktionsmeddelanden (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehållet. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.</p>
-<p>Obs! Den här funktionen är bara tillgänglig för en uppsättning organisationer (begränsad tillgänglighet) och kommer att lanseras globalt i en framtida version. Den här funktionen är för närvarande endast tillgänglig för e-post.</p>
+<p>Profilberikning i funktionen för transaktionsmeddelanden är nu tillgängligt för alla kunder (GA). Förutom e-post stöds nu även SMS- och push-meddelanden. Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehållet. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.</p>
 <p>Mer information finns i den <a href="../transactional-messaging/profile-enrichment.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
@@ -65,14 +66,14 @@ _3 nov 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Integrering med Adobe GenStudio</strong><br/></th>
+<th><strong>Adobe Experience Manager live- och språkversioner</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>För att effektivisera marknadsföringen och bibehålla varumärkets enhetlighet kan ni nu smidigt integrera GenStudio for Performance Marketing-upplevelser med Campaign. På så sätt kan ni utnyttja GenStudio AI-kraftfulla innehållsskapande tillsammans med Campaigns avancerade orkestreringsfunktioner.<p>
-<p>Mer information finns i den <a href="../integrations/genstudio.md">detaljerade dokumentationen</a>.</p>
+<p>Tack vare integreringen av Adobe Experience Manager-innehåll får ni tillgång till alla språk- och Live-kopior som skapats i Adobe Experience Manager direkt i Campaign när ni bygger leveranser. Du kan uppdatera innehåll i realtid för att hämta de senaste Adobe Experience Manager-versionerna. Integreringen eliminerar manuell innehållssynkronisering mellan Adobe Experience Manager och Campaign och effektiviserar arbetsflödet för flerspråkiga kampanjer.</p>
+<p>Mer information finns i den <a href="../integrations/aem-multilingual.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +82,55 @@ _3 nov 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Stöd för mörkt läge i e-postdesignern</strong><br/></th> 
+<th><strong>Innehållsexperiment - A/B-tester</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Med e-post-Designer kan du nu växla till mörkt läge, där du kan definiera ytterligare anpassade inställningar. Observera att den slutliga återgivningen är beroende av mottagarens e-postklient och inte alla e-postklienter stöder mörkt läge.</p>
-<p>Mer information finns i den <a href="../email/dark-mode.md">detaljerade dokumentationen</a>.</p>
+<p>Med hjälp av innehållsexperiment på Adobe Campaign Web kan du definiera flera olika leveransvarianter för A/B-tester för att mäta vilka som fungerar bäst för målgruppen. Du kan variera leveransinnehåll, ämne eller avsändare för att testa olika versioner och avgöra vilken variant som ger bäst resultat. Du kan utföra A/B-tester på olika e-postelement som ämnesrad, avsändarnamn och e-postinnehåll.</p>
+<p>Mer information finns i den <a href="../email/ab-testing.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>Kontinuerlig leveransaktivitet</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>Med aktiviteten Kontinuerlig leverans kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov. En kontinuerlig leverans skapar en enda leveransinstans. Alla leveransloggar (broadLog) och spårningsloggar refererar till denna enda leverans, vilket förenklar övervakning och rapportering.</p>
+<p>Mer information finns i den <a href="../workflows/activities/continuous-delivery.md">detaljerade dokumentationen</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### Förbättringar {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Hantering av kampanjgodkännande</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Godkännandeprocessen hjälper till att samordna flera intressenter och säkerställer kvalitetskontroll innan leveranser skickas. Använd godkännanden när organisationen kräver validering från olika team, till exempel marknadschefer som granskar innehåll eller dataanalytiker som validerar målgrupper.</p>
+<p>Mer information finns i den <a href="../campaigns/campaign-approvals.md">detaljerade dokumentationen</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* I leveranser som skapats i klientkonsolen visar nu avsnittet **Målgrupp** om ett dynamiskt villkor har definierats för korrekturmål. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+### Förbättringar {#26-1-improvements}
 
-* Du kan nu växla mellan det nya och det gamla regelverktyget när du ställer in ett villkor med funktionen för villkorligt innehåll i e-postprogrammet för Designer. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
-
-* Nu kan du välja samlingslänkar, till exempel inköp, i skärmdefinitionen för mottagarschemat. Då visas relaterade data på profilskärmar via en dedikerad flik. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* Som kampanjadministratör kan du nu konfigurera anslutningar till Salesforce CRM och Microsoft Dynamics.
-  [Läs mer](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* Dynamisk rapportering har nu stöd för push-meddelanden och SMS. [Läs mer](../reporting/dynamic-reporting/get-started-reporting.md)
+* Fördefinierade filter - Med ett nytt&quot;delat filter&quot;-alternativ kan du göra ett fördefinierat filter tillgängligt för andra användare i organisationen. [Läs mer](../get-started/predefined-filters.md#share-filter)
+* Anpassningsfält som har skapats i Adobe Experience Manager, t.ex. Namn, E-post, Datum och Adress, ingår nu och är tillgängliga när du använder innehållsmallen.
+* Utvärderingen av innehållskvaliteten kontrollerar nu om det finns läsbarhet, enhetlighet och effektivitet oberoende av varumärkesriktlinjerna, vilket identifierar otydliga meddelanden, inkonsekventa toner eller strukturella luckor. [Läs mer](../content/brands-score.md)
+* Varumärkesriktlinjerna innehåller nu ett Colors-avsnitt som definierar standarder för ert varumärkes färgsystem, vilket säkerställer enhetlig användning av primära, sekundära, dekorativa och neutrala färger i alla upplevelser. [Läs mer](../content/brands-personalize.md)

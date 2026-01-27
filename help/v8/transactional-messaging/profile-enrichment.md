@@ -2,21 +2,15 @@
 audience: end-user
 title: Profilberikning i transaktionsmeddelanden
 description: Lär dig hur du skapar ett transaktionsmeddelande i webbgränssnittet för Campaign
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
 
 
 # Förbättra transaktionsmeddelanden med profildata{#profile-enrichment}
-
->[!AVAILABILITY]
->
->Den här funktionen är bara tillgänglig för en uppsättning organisationer (begränsad tillgänglighet) och kommer att lanseras globalt i en framtida version. Servern måste uppgraderas till 8.8.2 eller senare.
->
->Den här funktionen är för närvarande endast tillgänglig för e-post.
 
 Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehåll. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.
 
@@ -30,6 +24,12 @@ Så här ställer du in profilberikning:
 1. Ställ in anrikningsinställningarna, [läs mer](#settings-enrichment)
 1. Definiera innehållet, [läs mer](#content-enrichment)
 1. Validera och skicka, [läs mer](#send-enrichment)
+
+>[!NOTE]
+>
+>Servern måste uppgraderas till 8.8.2 eller senare.
+>
+>Den här funktionen är för närvarande endast tillgänglig för e-post, SMS och push-meddelanden.
 
 ## Skapa transaktionsmeddelandet{#create-enrichment}
 

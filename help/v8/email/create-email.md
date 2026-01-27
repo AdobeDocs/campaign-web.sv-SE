@@ -3,9 +3,9 @@ audience: end-user
 title: Skicka ditt första mejl
 description: Lär dig hur du skickar ditt första e-postmeddelande med användargränssnittet i Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,8 @@ Följ stegen nedan för att skapa en ny fristående e-postleverans.
 >id="acw_deliveries_email_audience"
 >title="Välj en målgrupp för leveransen"
 >abstract="Välj den bästa målgruppen för ert marknadsföringsbudskap. Du kan välja en befintlig målgrupp (som redan definierats i en Campaign v8-instans eller från Adobe Experience Platform), skapa en ny målgrupp med frågemodelleraren eller överföra en fil som innehåller målgruppen. Kontrollgrupper är inte aktiverade för alternativet **Välj från fil** och vice versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=sv-SE" text="Välj huvudmålgrupper"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=sv-SE" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Välj huvudmålgrupper"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
 
 I det här fallet skickar du e-postmeddelandet till en befintlig målgrupp.
 
@@ -89,7 +89,7 @@ Ytterligare instruktioner om hur du arbetar med målgrupper finns i [det här av
 
    >[!NOTE]
    >
-   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=sv-SE){target="_blank"}.
+   >De målgrupper som är tillgängliga i listan kommer antingen från din Campaign v8-instans eller från Adobe Experience Platform om integreringen med Destination/Source har konfigurerats på din instans. Med den här integreringen kan ni skicka Experience Platform-segment till Adobe Campaign och skicka leverans- och spårningsloggar för Campaign till Adobe Experience Platform. Lär dig hur du arbetar med Campaign och Adobe Experience Platform i [dokumentationen för Campaign v8 (klientkonsolen)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. När målgruppen har valts kan du förfina målgruppen ytterligare genom att tillämpa ytterligare regler.
 
@@ -152,6 +152,8 @@ Läs mer om leveransplanering i [det här avsnittet](../msg/gs-deliveries.md#sch
 Innan du skickar e-postmeddelandet kan du förhandsgranska och testa det för att kontrollera att det uppfyller dina förväntningar.
 
 I det här fallet förhandsgranskar du e-postmeddelandet och skickar korrektur till specifika e-postadresser samtidigt som du personifierar vissa av målprofilerna.
+
+Du kan även validera innehållskvaliteten för att kontrollera läsbarhet, CTA-effektivitet, ämnesradkvalitet med mera. [Läs mer om validering av innehållskvalitet](../content/brands-score.md#validate-quality)
 
 Mer information om hur du förhandsgranskar ett e-postmeddelande och skickar korrektur finns i [det här avsnittet](../preview-test/preview-test.md).
 
@@ -252,4 +254,4 @@ När du har granskat och testat ditt e-postmeddelande kan du starta det och skic
 
 Lär dig hur du skapar en e-postleverans från grunden, definierar målgruppen, utformar innehållet, simulerar förhandsgranskning och skickar ett korrektur.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454009/?captions=swe&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

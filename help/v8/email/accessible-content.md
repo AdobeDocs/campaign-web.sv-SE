@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-post, design, tillgänglighet
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ I enlighet med detta listas de bästa sätten att utforma hjälpmedelsanpassat i
 
 Den här sidan handlar om att göra ditt innehåll tillgängligt för alla dina mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med dina e-postmeddelanden och landningssidor som är utformade med [!DNL Adobe Campaign].
  
-
 ## Säkra textläsbarhet {#text-readability}
 
 Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. [Läs mer](content-components.md#text)
@@ -124,6 +123,8 @@ Om du vill verifiera innehållets tillgänglighet kan du använda testfunktioner
 * Förhandsgranska innehållet med testprofiler. [Lär dig hur](../preview-test/preview-content.md)
 
 * Använd alternativet [Återgivning via e-post](../preview-test/email-rendering.md) som använder Litmus för att simulera dina designer för de vanligaste e-postklienterna (Apple Mail, Gmail, Outlook) och se om text, färger och bilder gör ditt innehåll tillgängligt. <!--Litmus includes accessibility testing-->
+
+* Validera innehållskvaliteten för att utvärdera läsbarheten, som är en viktig komponent i tillgängligheten. [Läs mer om validering av innehållskvalitet](../content/brands-score.md#validate-quality)
 
 * Skicka korrektur för att testa återgivningen av materialet innan det skickas till den verkliga målgruppen. [Lär dig hur](../preview-test/test-deliveries.md)
 

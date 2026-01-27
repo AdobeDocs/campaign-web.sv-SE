@@ -2,9 +2,9 @@
 title: Arbeta med fördefinierade filter
 description: Lär dig hur du skapar och hanterar fördefinierade filter i Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1043'
 ht-degree: 1%
 
 ---
@@ -67,11 +67,11 @@ Spara ett anpassat filter från [frågemodelleraren](../query/query-modeler-over
 
    ![Spara gränssnitt för filterinformation](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
+   Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter). Du kan också aktivera alternativet **[!UICONTROL Shared filter]** för att göra filtret tillgängligt för andra användare. Läs mer i [det här avsnittet](#share-filter).
 
 1. Klicka på **Bekräfta** för att spara ändringarna.
 
-Ditt anpassade filter är nu tillgängligt i listan **Fördefinierade filter** och tillgängligt för alla Campaign-användare.
+Ditt anpassade filter är nu tillgängligt i listan **Fördefinierade filter**.
 
 ### Skapa ett filter från filterlistan {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ Skapa ett filter från posten **Fördefinierade filter** i den vänstra menyn. F
 
    ![Nytt filter har sparat gränssnitt](assets/new-filter.png){zoomable="yes"}
 
-Filtret läggs till i den fördefinierade filterlistan. Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter).
+Filtret läggs till i den fördefinierade filterlistan. Du kan spara filtret som en favorit om det behövs. Läs mer i [det här avsnittet](#fav-filter). Du kan också dela filtret med andra användare genom att aktivera alternativet **[!UICONTROL Shared filter]**. Läs mer i [det här avsnittet](#share-filter).
 
 ## Spara filtret som en favorit {#fav-filter}
 
@@ -98,6 +98,14 @@ När du skapar ett fördefinierat filter aktiverar du alternativet **Spara som f
 När ett filter sparas som en favorit är det tillgängligt för alla användare i avsnittet **Favoritfilter** i listan för att skapa filter, vilket visas nedan:
 
 ![Avsnittet Favoritfilter](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## Dela ett fördefinierat filter {#share-filter}
+
+Som standard är fördefinierade filter som du skapar privata och bara synliga för dig. Aktivera alternativet **[!UICONTROL Shared filter]** om du vill göra ett filter tillgängligt för andra operatorer i organisationen.
+
+![Alternativ för delat filter](assets/predefined-filters-shared.png){zoomable="yes"}
+
+Delade filter visas i den fördefinierade filterlistan för alla användare, vilket gör att de kan använda dessa filter i sina egna arbetsflöden och frågor.
 
 ## Använda ett fördefinierat filter {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ Om du till exempel vill skapa en målgrupp från ett fördefinierat filter följ
 
    ![Gränssnitt för fördefinierad filterlista](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   Du kan också redigera eller ta bort ett befintligt fördefinierat filter med knappen ![](../content/assets/do-not-localize/Smock_More_18_N.svg).
+
 1. Kontrollera regelegenskaperna för det här filtret och bekräfta.
 
    Filtret används nu som en fråga i aktiviteten **Fråga**.
@@ -141,7 +151,7 @@ I den här listan kan du skapa ett nytt filter enligt beskrivningen ovan och utf
 * Duplicera ett fördefinierat filter.
 * Ta bort ett fördefinierat filter.
 
-Du kan också redigera eller ta bort ett fördefinierat filter direkt i regelbyggaren. Använd knappen **Fler åtgärder** i det fördefinierade filtermarkeringsfönstret. Du kan ta bort eller redigera filtret. Du kan ändra etiketten, lägga till en beskrivning och lägga till den som favorit.
+Du kan också redigera eller ta bort ett fördefinierat filter direkt i regelbyggaren. Använd knappen **Fler åtgärder** i det fördefinierade filtermarkeringsfönstret. Du kan ta bort eller redigera filtret. Du kan ändra etiketten, lägga till en beskrivning, lägga till den som en favorit eller växla **[!UICONTROL Shared filter]** för att kontrollera vem som har åtkomst till filtret.
 
 ![Utgåva av fördefinierade filter](assets/filter-edit.png){zoomable="yes"}
 

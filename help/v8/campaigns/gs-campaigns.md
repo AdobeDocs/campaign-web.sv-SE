@@ -3,10 +3,10 @@ audience: end-user
 title: Kom igång med kampanjer
 description: Lär dig hur du börjar med flerkanalskampanjer
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 0%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
@@ -29,4 +29,5 @@ Lär dig hur du skapar, hanterar och övervakar kampanjer i följande avsnitt:
 
 * [Få tillgång till och hantera era kampanjer](manage-campaigns.md)
 * [Skapa din första kampanj](create-campaigns.md)
+* [Konfigurera och hantera godkännandeprocessen](campaign-approvals.md)
 * [Bläddra bland kampanjrapporter](../reporting/campaign-reports.md).

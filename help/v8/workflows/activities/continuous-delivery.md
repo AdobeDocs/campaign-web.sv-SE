@@ -1,0 +1,42 @@
+---
+audience: end-user
+title: Använd en kontinuerlig arbetsflödesaktivitet för leverans
+description: Lär dig hur du använder arbetsflödesaktiviteten Kontinuerlig leverans
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
+
+---
+
+# Kontinuerlig leverans {#continuous-delivery}
+
+Med aktiviteten **Kontinuerlig leverans** kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov.
+
+En kontinuerlig leverans skapar en enda leveransinstans. Alla leveransloggar (broadLog) och spårningsloggar refererar till denna enda leverans, vilket förenklar övervakning och rapportering.
+
+## Konfigurera aktiviteten Kontinuerlig leverans {#configure}
+
+1. Lägg till en **kontinuerlig**-aktivitet på arbetsytan.
+
+   ![Skärmbild som visar kontinuerlig leveransaktivitet](../assets/continuous-delivery.png){zoomable="yes"}
+
+1. Ange en anpassad **[!UICONTROL Label]** för aktiviteten (valfritt). Som standard heter den&quot;Kontinuerlig leverans&quot;.
+
+1. Klicka på sökikonen bredvid fältet **[!UICONTROL Template]** för att välja en leveransmall. Det går bara att välja mallar (inte standardleveranser). Mallen definierar leveranskanalen, innehållet och konfigurationen.
+
+1. I **[!UICONTROL Targeting options]** väljer du hur målpopulationen definieras:
+
+   * **[!UICONTROL Specified by the inbound events]**: Målet kommer från den inkommande övergången (från aktiviteter uppströms som Build-målgrupp eller Stegvis fråga). Det här är det vanligaste alternativet.
+
+   * **[!UICONTROL Specified in the delivery template]**: Målet definieras i själva mallen.
+
+   * **[!UICONTROL File specified in the input event]**: Målet tillhandahålls via en fil som skickas via arbetsflödet.
+
+Aktiviteten för kontinuerlig leverans genererar automatiskt en utgående övergång för att fortsätta ditt arbetsflöde.
+
+## Relaterade ämnen {#related}
+
+* [Om arbetsflödesaktiviteter](about-activities.md)
+* [E-post, SMS, push, direktreklam](channels.md)
+* [Leveransmallar](../../msg/delivery-template.md)

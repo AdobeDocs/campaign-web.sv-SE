@@ -3,9 +3,9 @@ audience: end-user
 title: Designa e-postmeddelanden i e-postprogrammet Designer
 description: Lär dig designa e-postinnehåll från grunden
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '652'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Med e-post-Designer kan du enkelt definiera e-postens struktur. Genom att lägga
 
 Följ stegen nedan för att börja skapa e-postinnehåll.
 
-1. Välj alternativet [&#x200B; på hemsidan &#x200B;](get-started-email-designer.md#start-authoring)E-posta Designer **[!UICONTROL Design from scratch]** .
+1. Välj alternativet [ på hemsidan ](get-started-email-designer.md#start-authoring)E-posta Designer **[!UICONTROL Design from scratch]** .
 
    ![Skärmbild som visar Designer hemsida för e-post med alternativet Design från grunden markerat.](assets/email_designer-from-scratch.png){zoomable="yes"}
 
@@ -104,10 +104,12 @@ Följ stegen nedan för att börja skapa e-postinnehåll.
 
    ![Skärmbild som visar simuleringsalternativen i e-post-Designer.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. Du kan också validera innehållskvaliteten för att utvärdera läsbarhet, CTA-effektivitet, ämnesradkvalitet med mera. [Läs mer om validering av innehållskvalitet](../content/brands-score.md#validate-quality)
+
 1. När e-postmeddelandet är klart klickar du på **[!UICONTROL Save]**.
 
 ## Instruktionsvideo {#video}
 
 Lär dig navigera i e-post-Designer. Lär dig strukturera och utforma ett e-postmeddelande från grunden, anpassa och testa ditt e-postmeddelande.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453569/?captions=swe&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

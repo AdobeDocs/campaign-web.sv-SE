@@ -3,7 +3,7 @@ audience: end-user
 title: Nyheter i Campaign Web User Interface
 description: Upptäck nya funktioner i gränssnittet för webbkampanjer
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 4%
