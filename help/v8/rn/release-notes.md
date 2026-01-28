@@ -2,9 +2,9 @@
 title: Versionsinformation om webbgränssnittet i Campaign v8
 description: Upptäck nya funktioner i den senaste versionen av Campaign Web User Interface
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '670'
 ht-degree: 9%
 
 ---
@@ -133,4 +133,3 @@ _27 januari 2026_
 * Fördefinierade filter - Med ett nytt&quot;delat filter&quot;-alternativ kan du göra ett fördefinierat filter tillgängligt för andra användare i organisationen. [Läs mer](../get-started/predefined-filters.md#share-filter)
 * Anpassningsfält som har skapats i Adobe Experience Manager, t.ex. Namn, E-post, Datum och Adress, ingår nu och är tillgängliga när du använder innehållsmallen.
 * Utvärderingen av innehållskvaliteten kontrollerar nu om det finns läsbarhet, enhetlighet och effektivitet oberoende av varumärkesriktlinjerna, vilket identifierar otydliga meddelanden, inkonsekventa toner eller strukturella luckor. [Läs mer](../content/brands-score.md)
-* Varumärkesriktlinjerna innehåller nu ett Colors-avsnitt som definierar standarder för ert varumärkes färgsystem, vilket säkerställer enhetlig användning av primära, sekundära, dekorativa och neutrala färger i alla upplevelser. [Läs mer](../content/brands-personalize.md)

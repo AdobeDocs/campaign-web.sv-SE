@@ -4,9 +4,9 @@ title: Hantera varumärke
 description: Läs om hur ni personaliserar varumärkesriktlinjerna
 role: User
 level: Beginner, Intermediate
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ Om du vill skapa ett heltäckande varumärkespaket som säkerställer enhetlighe
 * **[!UICONTROL About the brand]** bekräftar ditt varumärkes kärnidentitet och kärnvärden.
 * **[!UICONTROL Writing style]** definierar språk- och innehållsstandarder.
 * **[!UICONTROL Visual content]** anger riktlinjer för bilder och design.
-* **[!UICONTROL Colors]** hanterar ditt varumärkes färgsystem och användning.
 
 När konfigurationen är klar kan ni använda varumärkesriktlinjerna för att validera innehållskvaliteten och varumärkesjusteringen. [Läs mer om validering av innehållskvalitet](brands-score.md#validate-quality)
 
@@ -249,60 +248,61 @@ Så här anpassar du din **[!UICONTROL Visual content]**:
 
 Du kan nu anpassa ditt varumärke ytterligare eller [publicera ditt varumärke](#create-brand-kit).
 
-## Färger {#colors}
+<!--
+## Colors {#colors}
 
-Avsnittet **[!UICONTROL Colors]** innehåller standarder för ditt varumärkes färgsystem, som visar hur färger väljs, ordnas och används för olika upplevelser. Det säkerställer konsekvent användning av primära, sekundära, dekorativa och neutrala färger för att upprätthålla en sammanhängande, tillgänglig och identifierbar varumärkesidentitet.
+The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
 
-+++ Tillgängliga kategorier och exempel
++++ Available categories and examples
 
 <table>
   <thead>
     <tr>
-      <th>Kategori</th>
-      <th>Riktlinjer, exempel</th>
-      <th>Exempel på undantag</th>
+      <th>Category</th>
+      <th>Guidelines Example</th>
+      <th>Exclusions Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Primära färger</td>
-      <td>Använd märkesfärger för logotyper, sidhuvuden och call-to-action huvudelement.</td>
-      <td>Ersätt eller ändra inte primärfärger.</td>
+      <td>Primary colors</td>
+      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
+      <td>Do not substitute or modify primary brand colors.</td>
     </tr>
     <tr>
-      <td>Sekundära färger</td>
-      <td>Använd sekundära färger för layout, illustrationer och gränssnittskomponenter.</td>
-      <td>Låt inte sekundära färger överdriva primärfärgerna.</td>
+      <td>Secondary colors</td>
+      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
+      <td>Do not let secondary colors overpower primary brand colors.</td>
     </tr>
     <tr>
-      <td>Dekorfärger</td>
-      <td>Använd dekorfärger sparsamt för knappar, länkar och varningar.</td>
-      <td>Använd inte dekorfärger för stora bakgrundsområden.</td>
+      <td>Accent colors</td>
+      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
+      <td>Do not use accent colors for large background areas.</td>
     </tr>
     <tr>
-      <td>Neutrala färger</td>
-      <td>Använd neutrala färger för text, avgränsare, kanter och subtila gränssnittselement.</td>
-      <td>Undvik neutrala färger med dålig kontrast eller tunga färgskiftningar.</td>
+      <td>Neutral colors</td>
+      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
+      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
     </tr>
     <tr>
-      <td>Bakgrundsfärger</td>
-      <td>Använd ljusa eller neutrala bakgrunder för att säkerställa läsbarhet och visuell skärpa.</td>
-      <td>Montera inte text eller logotyper på bakgrunder med låg kontrast.</td>
+      <td>Background colors</td>
+      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
+      <td>Do not place text or logos on low-contrast backgrounds.</td>
     </tr>
     <tr>
-      <td>Ytterligare färger</td>
-      <td>Använd endast ytterligare färger för datavisualisering eller godkända kampanjer.</td>
-      <td>Använd inte färger som inte är godkända eller inte är varumärkesskyddade.</td>
+      <td>Additional colors</td>
+      <td>Use additional colors only for data visualization or approved campaigns.</td>
+      <td>Do not introduce unapproved or off-brand colors.</td>
     </tr>
     <tr>
-      <td>Färgskalor</td>
-      <td>Använd godkända toner och skuggor för användargränssnittslägen som hovring, aktiv och inaktiverad.</td>
-      <td>Skapa inte inofficiella skuggor eller övertoningar.</td>
+      <td>Color scales</td>
+      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
+      <td>Do not create unofficial shades or gradients.</td>
     </tr>
     <tr>
-      <td>Riktlinjer för användning</td>
-      <td>Bibehåll enhetlig färganvändning och åtkomlig kontrast i alla resurser.</td>
-      <td>Blanda inte paletter som är i konflikt eller använd färger inkonsekvent.</td>
+      <td>Usage guidelines</td>
+      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
+      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
     </tr>
 </table>
 
@@ -310,39 +310,40 @@ Avsnittet **[!UICONTROL Colors]** innehåller standarder för ditt varumärkes f
 
 </br>
 
-Så här anpassar du din **[!UICONTROL Colors]**:
+To personalize your **[!UICONTROL Colors]**:
 
-1. Klicka på **[!UICONTROL Colors]** på fliken ![](assets/do-not-localize/Smock_Add_18_N.svg) för att lägga till en färg, stödlinje eller exkludering.
+1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
 
-1. Ange färginformationen för att definiera den korrekt:
+1. Enter your color information to define it accurately:
 
-   * **Färgnamn**: Ange ett tydligt, beskrivande namn som identifierar färgen i varumärkessystemet.
+    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
 
-   * **Färgvärde**: Välj färg med nyansväljaren eller ange exakta värden med RGB, HEX eller Pantone namn/kod för att säkerställa enhetlighet mellan digitala resurser och utskriftsresurser.
+    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
 
-   ![](assets/brands-color-1.png)
+    ![](assets/brands-color-1.png)
 
-1. Granska ditt val för att bekräfta att det är korrekt och visuell konsekvens och klicka på **[!UICONTROL Add]** för att spara färgen.
+1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
 
-1. Ange sedan stödlinjen eller uteslutningen.
+1. Then, enter your guideline or exclusion.
 
-1. Ange användningssammanhanget för din riktlinje eller exkludering:
+1. Specify the Usage context for your guideline or exclusion:
 
-   * **[!UICONTROL Channel type]**: Välj var den här riktlinjen, undantaget eller undantaget ska gälla. Du kanske vill att ett specifikt textformat endast ska visas i e-post, mobil, utskrift eller andra kommunikationskanaler.
+    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
 
-   * **[!UICONTROL Element type]**: Ange vilket innehållselement regeln gäller för. Detta kan omfatta element som rubriker, knappar, länkar eller andra komponenter i innehållet.
+    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
 
-     ![](assets/brands-color-2.png)
+      ![](assets/brands-color-2.png)
+  
+1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
 
-1. Klicka på **[!UICONTROL Add]** när du har ställt in din riktlinje, undantag eller undantag.
+1. If needed, select one of your guideline or exclusion to update or delete.
 
-1. Om det behövs kan du välja en av stödlinjerna eller uteslutningen som du vill uppdatera eller ta bort.
+1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
 
-1. Välj en stödlinje eller uteslutning för att uppdatera den. Klicka på ikonen ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")för att ta bort den.
+    ![](assets/brands-color-3.png)
 
-   ![](assets/brands-color-3.png)
+1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
-1. Klicka på **[!UICONTROL Add group]** om du vill definiera ytterligare färger för ditt varumärke eller lägga till en färgskalegrupp.
+You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
 
-Du kan nu anpassa ditt varumärke ytterligare eller [publicera ditt varumärke](brands.md#create-brand-kit).
-
+-->
