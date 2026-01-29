@@ -3,7 +3,7 @@ keywords: Campaign Web;home;populära topics
 description: Campaign Web Help center
 title: Produktdokumentation för Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 43bf37b2886afb7ba64f06f699637b8a3019f861
+source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Få en glimt av de senaste förbättringarna i Adobe Campaign Web - produkt och 
 >[!BEGINTABS]
 
 
->[!TAB Version 26 från januari]
+>[!TAB Januari 26 utgåva]
 
 Oktober-versionen är live. Nya funktioner och förbättringar är nu tillgängliga i Campaign Web-användargränssnittet, bland annat flerspråkiga funktioner för transaktionsmeddelanden, push-meddelanden och SMS, integrering med Adobe GenStudio och profilanrikning i transaktionsmeddelanden. En fullständig översikt finns i versionsinformationen.
 
@@ -61,9 +61,9 @@ Oktober-versionen är live. Nya funktioner och förbättringar är nu tillgängl
 
 >[!TAB AI-assistenten]
 
-✨ Fördjupa dig i en praktisk upplevelse med vår [&#x200B; AI Assistant](../v8/content/generative-gs.md) -förhandsgranskning av aktiva funktioner, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.
+✨ Fördjupa dig i en praktisk upplevelse med vår [ AI Assistant](../v8/content/generative-gs.md) -förhandsgranskning av aktiva funktioner, som är utformad för att du först ska kunna utforska dess funktioner och till fullo förstå dess funktioner.
 
-[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Knappen Läs mer](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Vanliga frågor och svar ]
 
