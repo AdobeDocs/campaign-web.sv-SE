@@ -36,7 +36,7 @@ ht-degree: 20%
    + [Campaign Web and Client console](get-started/capability-matrix.md)
    + [Från Campaign Standard till v8](rn/acs-migration.md)
    + [AI-baserad sammanhangsbaserad hjälp](get-started/using-ai.md)
-   + [Vanliga frågor och svar ](get-started/faq.md)
+   + [Vanliga frågor och svar &#x200B;](get-started/faq.md)
 + Meddelanden och leveranser {#msg}
    + [Kom igång med meddelanden](msg/gs-messages.md)
    + [Åtkomstleveranser](msg/gs-deliveries.md)
