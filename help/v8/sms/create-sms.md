@@ -21,7 +21,7 @@ ht-degree: 5%
 >id="acw_deliveries_sms_audience"
 >title="Definiera SMS-målgruppen"
 >abstract="Skapa en ny målgrupp eller välj en befintlig genom att klicka på knappen **Välj målgrupp** . Lägg till en kontrollgrupp om det behövs för att mäta effekten av leveransen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Ange en kontrollgrupp"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=sv-SE" text="Ange en kontrollgrupp"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
