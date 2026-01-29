@@ -2,7 +2,7 @@
 audience: end-user
 title: Konfigurera flerspråkig leverans
 description: Lär dig konfigurera flerspråkig leverans
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
