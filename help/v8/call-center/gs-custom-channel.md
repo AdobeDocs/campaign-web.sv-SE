@@ -32,11 +32,11 @@ Så här skickar du en ny egen leverans:
 
 Först måste du konfigurera den anpassade kanalen. Här är huvudstegen som ska utföras i klientkonsolen. De här stegen är gemensamma för anpassade externa kanaler och API-kanaler:
 
-1. Konfigurera schemat för att lägga till den nya kanalen i listan över tillgängliga kanaler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
-1. Skapa ett nytt externt routningskonto. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
-1. Skapa en ny leveransmall som är kopplad till den nya kanalen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
+1. Konfigurera schemat för att lägga till den nya kanalen i listan över tillgängliga kanaler. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#configure-schema){target="_blank"}
+1. Skapa ett nytt externt routningskonto. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#create-ext-account){target="_blank"}
+1. Skapa en ny leveransmall som är kopplad till den nya kanalen. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#create-template){target="_blank"}
 
-Anpassade API-kanaler kräver ytterligare konfiguration. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
+Anpassade API-kanaler kräver ytterligare konfiguration. [Läs mer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#api-additional){target="_blank"}
 
 ## Skapa leveransen{#create-delivery}
 
@@ -84,7 +84,7 @@ Nu ska vi redigera innehållet i leveransen.
 
 1. Klicka på knappen **[!UICONTROL Edit content]** på kontrollpanelen för leverans.
 
-1. Fyll i fälten efter behov. Mer information om hur du konfigurerar den här skärmen finns på [sidan](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
+1. Fyll i fälten efter behov. Mer information om hur du konfigurerar den här skärmen finns på [sidan](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#api-additional-screen){target="_blank"}.
 
    ![Skärmbild som visar attributkonfigurationsalternativen för API-kanalen.](assets/cc-content-attributes-api.png)
 
@@ -112,7 +112,7 @@ När leveransinnehållet är klart kan du förhandsgranska det med testprofiler.
 
 1. Klicka på knappen **[!UICONTROL Simulate content]** på sidan för leveransinnehåll och välj testprofiler.
 
-1. Klicka på **Öppna förhandsgranskning** till höger. Den här funktionen måste konfigureras med JSSP. Se den här [sidan](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
+1. Klicka på **Öppna förhandsgranskning** till höger. Den här funktionen måste konfigureras med JSSP. Se den här [sidan](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=sv-SE#api-additional-preview){target="_blank"}.
 
    ![Skärmbild som visar alternativet för att simulera innehåll på sidan för leveransinnehåll för API](assets/cus-simulate-api.png){zoomable="yes"}
 

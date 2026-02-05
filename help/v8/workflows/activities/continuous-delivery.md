@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Kontinuerlig leveransaktivitet"
 >abstract="Nu kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 Med aktiviteten **Kontinuerlig leverans** kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov.
 

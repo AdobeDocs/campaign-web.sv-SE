@@ -24,7 +24,7 @@ Målmappningar är tillgängliga på menyn **[!UICONTROL Administration]** > **[
 
 ![Skärm för målmappningslista med tillgängliga mappningar](assets/target-mappings-list.png)
 
-Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=sv-SE){target="_blank"}.
 
 ## Skapa en målmappning {#create-mapping}
 
