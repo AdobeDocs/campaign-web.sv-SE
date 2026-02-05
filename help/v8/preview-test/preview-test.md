@@ -16,8 +16,8 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Förhandsgranska och testa ditt innehåll"
 >abstract="När innehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Skicka korrektur"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=sv-SE" text="Skicka korrektur"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=sv-SE#test-landing-page" text="Testa landningssidor"
 
 När leveransinnehållet är definierat kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Det här steget garanterar exakthet och eliminerar fel i både innehålls- och personaliseringsinställningarna.
 
