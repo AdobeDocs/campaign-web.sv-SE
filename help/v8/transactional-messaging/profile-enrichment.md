@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn2"
 >title="Profilberikning"
 >abstract="Nu kan ni personalisera transaktionsmeddelanden genom att länka fält i Campaign-databasen till innehåll. Välj målmappningar, berikande kolumner och avstämningsnycklar för korrekt personalisering i realtid."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehåll. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.
 
