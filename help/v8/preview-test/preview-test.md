@@ -3,7 +3,7 @@ audience: end-user
 title: Förhandsgranska och testa leverans
 description: Lär dig hur du förhandsgranskar och testar leveranser
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Förhandsgranska och testa ditt innehåll"
 >abstract="När innehållet har definierats kan du använda profiler och testprofiler för att förhandsgranska och testa det."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="Skicka korrektur"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=sv-SE#test-landing-page" text="Testa landningssidor"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Skicka korrektur"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testa landningssidor"
 
 När leveransinnehållet är definierat kan du använda profiler och testprofiler för att förhandsgranska och testa det innan du skickar meddelandet. Det här steget garanterar exakthet och eliminerar fel i både innehålls- och personaliseringsinställningarna.
 
