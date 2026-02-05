@@ -2,20 +2,14 @@
 title: Hantera målmappningar
 description: Lär dig hur du hanterar målmappningar.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Hantera målmappningar {#target-mappings}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Målmappningar"
->abstract="Nu kan du skapa målmappningar i Campaign Web User Interface. Målmappningar definierar hur olika leveranskanaler (e-post, SMS, push-meddelanden) länkar till datafälten i ett schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -30,7 +24,7 @@ Målmappningar är tillgängliga på menyn **[!UICONTROL Administration]** > **[
 
 ![Skärm för målmappningslista med tillgängliga mappningar](assets/target-mappings-list.png)
 
-Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=sv-SE){target="_blank"}.
+Mer information om de inbyggda målmappningarna som tillhandahålls med Adobe Campaign finns i dokumentationen för [Campaign v8-klientkonsolen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Skapa en målmappning {#create-mapping}
 

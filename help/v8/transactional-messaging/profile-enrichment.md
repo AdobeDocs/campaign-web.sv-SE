@@ -2,15 +2,21 @@
 audience: end-user
 title: Profilberikning i transaktionsmeddelanden
 description: Lär dig hur du skapar ett transaktionsmeddelande i webbgränssnittet för Campaign
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
 
 # Förbättra transaktionsmeddelanden med profildata{#profile-enrichment}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Profilberikning"
+>abstract=You can now personalize transactional messages by linking Campaign database fields to content. Select target mappings, enrichment columns, and reconciliation keys for accurate real-time personalization."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Med den här funktionen kan du anpassa transaktionsmeddelanden genom att länka Adobe Campaign-databasfält till meddelandeinnehåll. Du kan välja målmappningar, berikningskolumner och en avstämningsnyckel för att säkerställa korrekt personalisering i realtid samtidigt som prestandatrösklar bibehålls.
 

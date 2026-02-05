@@ -2,14 +2,20 @@
 audience: end-user
 title: Konfigurera flerspråkig leverans
 description: Lär dig konfigurera flerspråkig leverans
-source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
 
 # Konfigurera flerspråkig leverans {#multilingual-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Flerspråkiga leveranser"
+>abstract="Nu kan du skicka meddelanden på flera språk i webbgränssnittet för Campaign. Fyll i alla språkvarianter genom att överföra en CSV-fil för push-meddelanden."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
