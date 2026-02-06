@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
 
 ---
-
 
 # Skapa flerspråkiga e-postmeddelanden med Adobe Experience Manager {#aem-multilingual}
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn3"
 >title="Experience Manager live- och språkversioner"
 >abstract="Nu kan du komma åt Adobe Experience Manager språk och live-kopior direkt i Campaign. Uppdatering av innehåll i realtid eliminerar manuell synkronisering för smidiga flerspråkiga arbetsflöden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Tack vare integreringen med Adobe Experience Manager kan du skapa flerspråkiga e-postleveranser med Adobe Experience Manager språkversioner. På så sätt kan ni hantera innehållsvarianter på olika språk och leverera personaliserade e-postmeddelanden baserat på mottagarnas språkinställningar.
 
@@ -29,7 +29,7 @@ Tack vare integreringen med Adobe Experience Manager kan du skapa flerspråkiga 
 Innan du skapar en flerspråkig e-postleverans måste du se till att:
 
 * Åtkomst till en Adobe Experience Manager-instans som konfigurerats för integrering av Adobe Campaign webbgränssnitt.
-* Adobe Experience Manager-innehåll med språkversioner som redan skapats och godkänts. Läs mer om guiden för språkkopiering i [Adobe Experience Manager-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager-innehåll med språkversioner som redan skapats och godkänts. Läs mer om guiden för språkkopiering i [Adobe Experience Manager-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Mall för e-postleverans konfigurerad för att ta emot Adobe Experience Manager-innehåll. Se stegen som beskrivs i avsnittet [Aktivera flerspråkigt läge](#enable-multilingual).
 
 ## Skapa flerspråkig leverans
@@ -116,5 +116,3 @@ När du har skapat innehållsvarianter kan du hantera dem direkt i leveransen:
    >[!CAUTION]
    >
    >När du har brytt länken kan du inte uppdatera innehåll från Adobe Experience Manager eller skapa nya varianter. Innehållet blir självständigt från Adobe Experience Manager.
-
-

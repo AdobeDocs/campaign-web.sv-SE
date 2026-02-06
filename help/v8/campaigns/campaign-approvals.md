@@ -3,7 +3,8 @@ audience: end-user
 title: Konfigurera och hantera godkännandeprocessen
 description: Lär dig hantera godkännanden av marknadsföringskampanjer på Campaign Web
 feature: Approvals, Campaigns
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn6"
 >title="Hantering av kampanjgodkännande"
 >abstract="Du kan nu koordinera validering av intressenter innan du skickar leveranser. Kräv godkännanden från marknadschefer, dataanalytiker eller andra team för kvalitetskontroll."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!IMPORTANT]
 >

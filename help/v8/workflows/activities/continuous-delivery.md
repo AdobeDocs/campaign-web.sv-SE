@@ -2,7 +2,8 @@
 audience: end-user
 title: Använd en kontinuerlig arbetsflödesaktivitet för leverans
 description: Lär dig hur du använder arbetsflödesaktiviteten Kontinuerlig leverans
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Kontinuerlig leveransaktivitet"
 >abstract="Nu kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 Med aktiviteten **Kontinuerlig leverans** kan du lägga till nya mottagare till en befintlig leverans. Med den här leveranstypen slipper du skapa en ny leverans varje gång, vilket gör den mer effektiv för meddelanden med låg volym eller meddelanden som skickas efter behov.
 

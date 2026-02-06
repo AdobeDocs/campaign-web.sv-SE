@@ -2,7 +2,8 @@
 audience: end-user
 title: Konfigurera flerspråkig leverans
 description: Lär dig konfigurera flerspråkig leverans
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Flerspråkiga leveranser"
 >abstract="Nu kan du skicka meddelanden på flera språk i webbgränssnittet för Campaign. Fyll i alla språkvarianter genom att överföra en CSV-fil för push-meddelanden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -256,4 +257,3 @@ Under leveransen ersätter Campaign dessa platshållare med faktiska mottagardat
 | Skiftläge för kolumnnamn matchar inte | Kolumnnamnen matchar inte exakt | Kolumnnamn är skiftlägeskänsliga - använd exakta namn som visas ovan (t.ex. `badge`, inte `Badge` eller `BADGE`) |
 
 >Bästa tillvägagångssätt visas i det här [avsnittet](#csv-best-practices). Kolumnstrukturen beskrivs i det här [avsnittet](#csv-columns).
-

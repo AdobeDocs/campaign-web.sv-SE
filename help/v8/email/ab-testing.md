@@ -2,7 +2,8 @@
 audience: end-user
 title: Skapa innehållsexperiment
 description: Lär dig skapa innehållsexperiment i Adobe Campaign Web
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Innehållsexperiment - A/B-tester"
 >abstract="Nu kan du definiera flera leveransvarianter för att testa vilka som fungerar bäst. Variera innehåll, ämne eller avsändare i olika e-postelement för att få optimala resultat."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
 
 ## Om innehållsexperiment {#about-content-experiment}
 
