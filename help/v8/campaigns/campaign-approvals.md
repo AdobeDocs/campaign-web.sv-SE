@@ -17,7 +17,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn6"
 >title="Hantering av kampanjgodkännande"
 >abstract="Du kan nu koordinera validering av intressenter innan du skickar leveranser. Kräv godkännanden från marknadschefer, dataanalytiker eller andra team för kvalitetskontroll."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 >[!IMPORTANT]
 >

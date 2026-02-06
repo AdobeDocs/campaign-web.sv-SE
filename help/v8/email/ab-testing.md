@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Innehållsexperiment - A/B-tester"
 >abstract="Nu kan du definiera flera leveransvarianter för att testa vilka som fungerar bäst. Variera innehåll, ämne eller avsändare i olika e-postelement för att få optimala resultat."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Se versionsinformation"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=sv-SE" text="Se versionsinformation"
 
 ## Om innehållsexperiment {#about-content-experiment}
 
